@@ -90,7 +90,7 @@ def log_and_check(api_url, name):
 def split_text_to_embeds(
     title,
     text,
-    color=16776960,
+    color=16729344,
     max_len=1024,
     image_url=None
 ):
