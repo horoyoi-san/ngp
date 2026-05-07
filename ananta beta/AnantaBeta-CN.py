@@ -15,7 +15,7 @@ webhook_urls = [
 # ================= APIs =================
 ANANTA_API = "https://l50.update.netease.com/Ananta_Official_zhCN.yml"
 ANANTA_IMAGE = "https://www.anantagame.com/pc/gw/20250904162009/assets/kv-full_f7467c2a.jpg"
-ANANTA_THUMBNAIL = "https://www.anantagame.com/favicon.ico"
+ANANTA_THUMBNAIL = "https://github.com/horoyoi-san/ngp/blob/webhook/assets/ananta4k.png?raw=true"
 
 # ================= Utils =================
 def fetch_yaml(url):
