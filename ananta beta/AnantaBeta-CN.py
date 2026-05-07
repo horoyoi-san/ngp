@@ -180,9 +180,6 @@ def send_webhook(
     desc = (
         f"**Version:** {version}\n"
         f"**Size:** {size_mb} MB\n"
-        f"**Force Update:** {force_update}\n"
-        f"**Release Date:** {release_date}\n"
-        f"**SHA512:** `{sha512}`\n"
         f"**Download:** {path}"
     )
 
