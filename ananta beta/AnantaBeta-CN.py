@@ -14,6 +14,8 @@ webhook_urls = [
 
 # ================= APIs =================
 ANANTA_API = "https://l50.update.netease.com/Ananta_Official_zhCN.yml"
+ANANTA_IMAGE = "https://www.anantagame.com/pc/gw/20250904162009/assets/kv-full_f7467c2a.jpg"
+ANANTA_THUMBNAIL = "https://www.anantagame.com/favicon.ico"
 
 # ================= Utils =================
 def fetch_yaml(url):
@@ -163,8 +165,6 @@ def send_webhook(
     if not webhook_url:
         return
 
-    blocks = []
-
     default = data.get("default", {})
     resource = default.get("resource", {})
 
@@ -177,36 +177,61 @@ def send_webhook(
 
     size_mb = round(size / 1024 / 1024, 2)
 
-    desc = (
-        f"**Version:** {version}\n"
-        f"**Size:** {size_mb} MB\n"
-        f"**Download:** {path}"
-    )
+    embed = {
+        "title": f"🚀 {title} Launcher Update Detected",
+        "description": (
+            "A new launcher build has been detected from NetEase CDN."
+        ),
+        "color": 0xF5C242,
+        "fields": [
+            {
+                "name": "📦 Version",
+                "value": f"`{version}`",
+                "inline": True
+            },
+            {
+                "name": "💾 Size",
+                "value": f"`{size_mb} MB`",
+                "inline": True
+            },
+            {
+                "name": "⬇ Download",
+                "value": path,
+                "inline": False
+            }
+        ],
+        "image": {
+            "url": image_url or ANANTA_IMAGE
+        },
+        "thumbnail": {
+            "url": ANANTA_THUMBNAIL
+        },
+        "footer": {
+            "text": "NGP Monitor • Ananta Beta Tracker"
+        },
+        "timestamp": datetime.now(timezone.utc).isoformat()
+    }
 
-    blocks += split_text_to_embeds(
-        title + " — Launcher",
-        desc,
-        image_url=image_url
-    )
+    try:
+        r = requests.post(
+            webhook_url,
+            json={
+                "username": "Ananta Monitor",
+                "avatar_url": ANANTA_THUMBNAIL,
+                "embeds": [embed]
+            },
+            timeout=10
+        )
 
-    # send embeds
-    for i, embed in enumerate(blocks, 1):
-        try:
-            r = requests.post(
-                webhook_url,
-                json={"embeds": [embed]},
-                timeout=10
-            )
+        if r.status_code in [200, 204]:
+            print(f"✅ Sent {title}")
 
-            if r.status_code in [200, 204]:
-                print(f"✅ Sent {title} embed {i}")
+        else:
+            print(f"❌ Discord Error {r.status_code}")
+            print(r.text)
 
-            else:
-                print(f"❌ Discord Error {r.status_code}")
-                print(r.text)
-
-        except Exception as e:
-            print("❌ Webhook error:", e)
+    except Exception as e:
+        print("❌ Webhook error:", e)
 
 
 # ================= Main =================
@@ -223,11 +248,12 @@ def check_for_updates():
 
         if data:
             for url in webhook_urls:
-                send_webhook(
-                    data,
-                    "Ananta",
-                    url
-                )
+                    send_webhook(
+                        data,
+                        "Ananta",
+                        url,
+                        ANANTA_IMAGE
+                    )
 
     else:
         print("✅ No change")
