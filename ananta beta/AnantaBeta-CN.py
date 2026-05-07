@@ -178,24 +178,24 @@ def send_webhook(
     size_mb = round(size / 1024 / 1024, 2)
 
     embed = {
-        "title": f"🚀 {title} Launcher Update Detected",
+        "title": f"{title} Launcher Update Detected",
         "description": (
             "A new launcher build has been detected from NetEase CDN."
         ),
-        "color": 0xF5C242,
+        "color": 0xFF4500,
         "fields": [
             {
-                "name": "📦 Version",
+                "name": "Version",
                 "value": f"`{version}`",
                 "inline": True
             },
             {
-                "name": "💾 Size",
+                "name": "Size",
                 "value": f"`{size_mb} MB`",
                 "inline": True
             },
             {
-                "name": "⬇ Download",
+                "name": "Download",
                 "value": path,
                 "inline": False
             }
@@ -216,7 +216,7 @@ def send_webhook(
         r = requests.post(
             webhook_url,
             json={
-                "username": "Ananta Monitor",
+                "username": "Ananta BETA",
                 "avatar_url": ANANTA_THUMBNAIL,
                 "embeds": [embed]
             },
