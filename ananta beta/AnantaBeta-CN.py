@@ -58,7 +58,7 @@ def log_and_check(api_url, name):
 
     current_hash = hashlib.md5(text.encode("utf-8")).hexdigest()
 
-    log_dir = os.path.join(os.getcwd(), "ngp", "log", name)
+    log_dir = os.path.join(os.getcwd(),"ananta beta", "ngp", "log", name)
     os.makedirs(log_dir, exist_ok=True)
 
     hash_file = os.path.join(log_dir, "last_hash.txt")
