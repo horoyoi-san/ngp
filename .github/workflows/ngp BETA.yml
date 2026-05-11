@@ -1,4 +1,4 @@
-name: NGP Monitor 05:10
+name: NGP BETA Monitor 05:10
 
 on:
   schedule:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   prod-monitor:
-    name: Run Monitor 05:10
+    name: Run BETA Monitor 05:10
     runs-on: ubuntu-latest
 
     steps:
@@ -46,7 +46,7 @@ jobs:
       # Run Scripts
       # =====================================================
 
-      - name: Run scripts
+      - name: Run BETA scripts
         env:
           DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN_1 }}
 
