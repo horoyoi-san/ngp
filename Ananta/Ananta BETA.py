@@ -1,5 +1,6 @@
 import discord
 import asyncio
+import time
 
 import requests
 import json
@@ -505,3 +506,9 @@ async def main():
 # =========================================================
 
 asyncio.run(main())
+
+# =========================================================
+# Keep Bot Online
+# =========================================================
+
+time.sleep(60)
