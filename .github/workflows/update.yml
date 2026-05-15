@@ -27,7 +27,7 @@ jobs:
         run: pip install requests PyYAML
 
       - name: Run script
-        run: python "ananta beta/main/main.py"
+        run: python "Ananta/main/main.py"
 
       - name: Commit and Push
         env:
