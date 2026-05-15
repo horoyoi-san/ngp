@@ -1,8 +1,8 @@
-name: NGP BETA Monitor 05:10
+name: NGP BETA Monitor 12:00
 
 on:
   schedule:
-    - cron: "10 22 * * *"
+    - cron: "0 5 * * *"
   workflow_dispatch:
 
 jobs:
