@@ -48,7 +48,7 @@ jobs:
 
       - name: Run scripts
         env:
-          DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN_2 }}
+          DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN_1 }}
 
         run: |
 
