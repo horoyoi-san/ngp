@@ -1,48 +1,34 @@
-name: Update
+name: Update Endfield Versions
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "*/30 * * * *"
+
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
-  update-json:
+  update:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
         with:
-          persist-credentials: false
+          python-version: "3.11"
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.9"
+      - run: pip install requests beautifulsoup4
 
-      - name: Install dependencies
-        run: pip install requests PyYAML
+      - run: python fetch.py
 
-      - name: Run script
-        run: python "Ananta/main/main.py"
-
-      - name: Commit and Push
-        env:
-          PAT: ${{ secrets.PAT }}
+      - name: Commit changes
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name github-actions
+          git config user.email github-actions@github.com
 
-          git add .
+          git add versions.json
 
-          if git diff --cached --quiet; then
-            echo "No changes detected."
-            exit 0
-          fi
-
-          git commit -m "Update"
-
-          git push https://x-access-token:${PAT}@github.com/${{ github.repository }} HEAD:webhook
+          git diff --cached --quiet || (
+            git commit -m "Update versions"
+            git push
+          )
