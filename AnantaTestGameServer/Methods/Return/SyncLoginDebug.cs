@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AnantaTestGameServer.Methods.Return
+{
+    public class SyncLoginDebug : SerializedClass
+    {
+        public string text;
+
+        public SyncLoginDebug() : base()
+        {
+            onlyFields = true;
+        }
+    }
+}
