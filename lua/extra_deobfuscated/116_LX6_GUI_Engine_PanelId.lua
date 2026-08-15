@@ -1,0 +1,1 @@
+gPanelId = LTConfig.PanelConfig

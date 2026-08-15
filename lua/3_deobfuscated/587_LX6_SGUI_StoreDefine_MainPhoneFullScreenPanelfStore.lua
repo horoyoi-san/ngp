@@ -1,0 +1,3 @@
+C_MainPhoneFullScreenPanelfStore = DefClass("C_MainPhoneFullScreenPanelfStore", C_MainPhoneFullScreenPanelfStore, C_MainPhonePanelStore)
+GroupName2Class.MainPhoneFullScreenPanelfStore = C_MainPhoneFullScreenPanelfStore
+local M = C_MainPhoneFullScreenPanelfStore

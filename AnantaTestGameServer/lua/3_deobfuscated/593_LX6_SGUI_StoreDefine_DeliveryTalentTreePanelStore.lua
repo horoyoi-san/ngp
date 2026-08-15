@@ -1,0 +1,2 @@
+C_DeliveryTalentTreePanelStore = DefClass("C_DeliveryTalentTreePanelStore", C_DeliveryTalentTreePanelStore, C_CommonTalentTreePanelStore)
+GroupName2Class.DeliveryTalentTreePanelStore = C_DeliveryTalentTreePanelStore

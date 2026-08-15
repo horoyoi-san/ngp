@@ -1,0 +1,2 @@
+C_PoliceTalentTreePanelStore = DefClass("C_PoliceTalentTreePanelStore", C_PoliceTalentTreePanelStore, C_CommonTalentTreePanelStore)
+GroupName2Class.PoliceTalentTreePanelStore = C_PoliceTalentTreePanelStore

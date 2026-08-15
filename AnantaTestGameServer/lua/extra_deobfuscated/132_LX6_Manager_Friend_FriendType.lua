@@ -1,0 +1,6 @@
+gFriendType = {
+	MY_FRIENDS = 3,
+	PEOPLE_NEARBY = 2,
+	RECENT_CONTACT = 1,
+	GUILD_MEMBER = 4
+}
