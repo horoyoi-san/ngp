@@ -1,0 +1,119 @@
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  background: #eef2f6;
+}
+
+.app-shell {
+  min-height: 100vh;
+  background: #eef2f6;
+}
+
+.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: auto;
+  min-height: 64px;
+  padding: 0 24px;
+  background: #111827;
+}
+
+.app-logo {
+  flex: 0 0 auto;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.app-logo:hover {
+  color: #fff;
+}
+
+.app-menu {
+  flex: 1 1 auto;
+  min-width: 0;
+  background: transparent;
+}
+
+.app-content {
+  width: 100%;
+  padding: 24px;
+}
+
+.app-panel {
+  width: min(1180px, 100%);
+  min-height: 380px;
+  margin: 0 auto;
+  padding: 24px;
+  background: #fff;
+  border: 1px solid #d7dee8;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+}
+
+.app-footer {
+  padding: 16px 24px 24px;
+  color: #64748b;
+  text-align: center;
+  background: transparent;
+}
+
+.dashboard-actions,
+.form-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.quick-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.quick-grid .ant-btn {
+  width: 100%;
+  min-height: 40px;
+  white-space: normal;
+}
+
+@media (max-width: 720px) {
+  .app-header {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 8px;
+    padding: 12px 16px 0;
+  }
+
+  .app-logo {
+    font-size: 16px;
+  }
+
+  .app-menu {
+    width: 100%;
+  }
+
+  .app-content {
+    padding: 12px;
+  }
+
+  .app-panel {
+    padding: 16px;
+    border-radius: 6px;
+  }
+
+  .ant-tabs-nav {
+    margin-bottom: 12px;
+  }
+}
