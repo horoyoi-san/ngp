@@ -296,7 +296,7 @@ namespace AnantaTestGameServer.Packets.Req
                     GateServerId = 801,
                     Port = 5201,
                     Token = "luz&@0v~h99xe82z",
-                    Pid = 67,
+                    Pid = 1000000,
                     RC4Key=""
                     //RC4Key =Encoding.UTF8.GetString(conn.Rc4Key)
                     //RC4Key = Convert.ToBase64String(conn.Rc4Key)
