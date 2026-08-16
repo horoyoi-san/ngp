@@ -1,0 +1,23 @@
+[server]
+binary = "server/Ananta.App/bin/Release/net8.0/Ananta.App.exe"
+working_dir = "server/Ananta.App"
+auto_restart = true
+ports = [5200, 5201, 5202, 17666]
+
+[proxy]
+command = "npm run start"
+working_dir = "proxy"
+enabled = false
+
+[injector]
+command = "python -m tools.injector"
+working_dir = "tools"
+enabled = false
+
+[ui]
+theme = "dark"
+refresh_rate_ms = 500
+
+[logging]
+level = "info"
+file = "logs/ananta.log"

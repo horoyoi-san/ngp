@@ -1,0 +1,156 @@
+[
+  {
+    "Id": 1,
+    "Name": "时装1",
+    "PriorityDisplay": 1,
+    "RuleText": 73970115,
+    "ProbabilityText": 0,
+    "ShopId": 0,
+    "PrizePoolIds": [
+      {
+        "level": 1,
+        "id": 101
+      },
+      {
+        "level": 2,
+        "id": 102
+      }
+    ],
+    "StartTime": {
+      "year": 2025,
+      "month": 10,
+      "day": 12,
+      "hour": 4,
+      "minute": 0,
+      "second": 0
+    },
+    "EndTime": {
+      "year": 2026,
+      "month": 1,
+      "day": 9,
+      "hour": 3,
+      "minute": 59,
+      "second": 59
+    },
+    "Milestone": []
+  },
+  {
+    "Id": 2,
+    "Name": "时装2",
+    "PriorityDisplay": 2,
+    "RuleText": 73970116,
+    "ProbabilityText": 0,
+    "ShopId": 0,
+    "PrizePoolIds": [
+      {
+        "level": 1,
+        "id": 103
+      }
+    ],
+    "StartTime": {
+      "year": 2025,
+      "month": 10,
+      "day": 12,
+      "hour": 4,
+      "minute": 0,
+      "second": 0
+    },
+    "EndTime": {
+      "year": 2026,
+      "month": 1,
+      "day": 9,
+      "hour": 3,
+      "minute": 59,
+      "second": 59
+    },
+    "Milestone": []
+  },
+  {
+    "Id": 3,
+    "Name": "箱子1",
+    "PriorityDisplay": 1,
+    "RuleText": 73970115,
+    "ProbabilityText": 73970116,
+    "ShopId": 73970116,
+    "PrizePoolIds": [
+      {
+        "level": 1,
+        "id": 201
+      }
+    ],
+    "StartTime": {
+      "year": 2025,
+      "month": 10,
+      "day": 12,
+      "hour": 4,
+      "minute": 0,
+      "second": 0
+    },
+    "EndTime": {
+      "year": 2026,
+      "month": 1,
+      "day": 9,
+      "hour": 3,
+      "minute": 59,
+      "second": 59
+    },
+    "Milestone": [
+      {
+        "count": 10,
+        "dropId": 14100000
+      },
+      {
+        "count": 20,
+        "dropId": 14100001
+      },
+      {
+        "count": 30,
+        "dropId": 14100002
+      },
+      {
+        "count": 50,
+        "dropId": 14100003
+      },
+      {
+        "count": 70,
+        "dropId": 14100000
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "Name": "箱子2",
+    "PriorityDisplay": 2,
+    "RuleText": 73970117,
+    "ProbabilityText": 73970118,
+    "ShopId": 73970116,
+    "PrizePoolIds": [
+      {
+        "level": 1,
+        "id": 202
+      }
+    ],
+    "StartTime": {
+      "year": 2025,
+      "month": 10,
+      "day": 12,
+      "hour": 4,
+      "minute": 0,
+      "second": 0
+    },
+    "EndTime": {
+      "year": 2026,
+      "month": 1,
+      "day": 9,
+      "hour": 3,
+      "minute": 59,
+      "second": 59
+    },
+    "Milestone": [
+      {
+        "count": 73970116,
+        "dropId": 0
+      }
+    ]
+  }
+]

@@ -1,0 +1,97 @@
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+0.0.0.0	oca.telemetry.microsoft.com # managed by privacy.sexy
+::1	oca.telemetry.microsoft.com # managed by privacy.sexy
+0.0.0.0	oca.microsoft.com # managed by privacy.sexy
+::1	oca.microsoft.com # managed by privacy.sexy
+0.0.0.0	kmwatsonc.events.data.microsoft.com # managed by privacy.sexy
+::1	kmwatsonc.events.data.microsoft.com # managed by privacy.sexy
+0.0.0.0	watson.telemetry.microsoft.com # managed by privacy.sexy
+::1	watson.telemetry.microsoft.com # managed by privacy.sexy
+0.0.0.0	umwatsonc.events.data.microsoft.com # managed by privacy.sexy
+::1	umwatsonc.events.data.microsoft.com # managed by privacy.sexy
+0.0.0.0	ceuswatcab01.blob.core.windows.net # managed by privacy.sexy
+::1	ceuswatcab01.blob.core.windows.net # managed by privacy.sexy
+0.0.0.0	ceuswatcab02.blob.core.windows.net # managed by privacy.sexy
+::1	ceuswatcab02.blob.core.windows.net # managed by privacy.sexy
+0.0.0.0	eaus2watcab01.blob.core.windows.net # managed by privacy.sexy
+::1	eaus2watcab01.blob.core.windows.net # managed by privacy.sexy
+0.0.0.0	eaus2watcab02.blob.core.windows.net # managed by privacy.sexy
+::1	eaus2watcab02.blob.core.windows.net # managed by privacy.sexy
+0.0.0.0	weus2watcab01.blob.core.windows.net # managed by privacy.sexy
+::1	weus2watcab01.blob.core.windows.net # managed by privacy.sexy
+0.0.0.0	weus2watcab02.blob.core.windows.net # managed by privacy.sexy
+::1	weus2watcab02.blob.core.windows.net # managed by privacy.sexy
+0.0.0.0	co4.telecommand.telemetry.microsoft.com # managed by privacy.sexy
+::1	co4.telecommand.telemetry.microsoft.com # managed by privacy.sexy
+0.0.0.0	cs11.wpc.v0cdn.net # managed by privacy.sexy
+::1	cs11.wpc.v0cdn.net # managed by privacy.sexy
+0.0.0.0	cs1137.wpc.gammacdn.net # managed by privacy.sexy
+::1	cs1137.wpc.gammacdn.net # managed by privacy.sexy
+0.0.0.0	modern.watson.data.microsoft.com # managed by privacy.sexy
+::1	modern.watson.data.microsoft.com # managed by privacy.sexy
+0.0.0.0	functional.events.data.microsoft.com # managed by privacy.sexy
+::1	functional.events.data.microsoft.com # managed by privacy.sexy
+0.0.0.0	browser.events.data.msn.com # managed by privacy.sexy
+::1	browser.events.data.msn.com # managed by privacy.sexy
+0.0.0.0	self.events.data.microsoft.com # managed by privacy.sexy
+::1	self.events.data.microsoft.com # managed by privacy.sexy
+0.0.0.0	v10.events.data.microsoft.com # managed by privacy.sexy
+::1	v10.events.data.microsoft.com # managed by privacy.sexy
+0.0.0.0	v10c.events.data.microsoft.com # managed by privacy.sexy
+::1	v10c.events.data.microsoft.com # managed by privacy.sexy
+0.0.0.0	us-v10c.events.data.microsoft.com # managed by privacy.sexy
+::1	us-v10c.events.data.microsoft.com # managed by privacy.sexy
+0.0.0.0	eu-v10c.events.data.microsoft.com # managed by privacy.sexy
+::1	eu-v10c.events.data.microsoft.com # managed by privacy.sexy
+0.0.0.0	v10.vortex-win.data.microsoft.com # managed by privacy.sexy
+::1	v10.vortex-win.data.microsoft.com # managed by privacy.sexy
+0.0.0.0	vortex-win.data.microsoft.com # managed by privacy.sexy
+::1	vortex-win.data.microsoft.com # managed by privacy.sexy
+0.0.0.0	telecommand.telemetry.microsoft.com # managed by privacy.sexy
+::1	telecommand.telemetry.microsoft.com # managed by privacy.sexy
+0.0.0.0	www.telecommandsvc.microsoft.com # managed by privacy.sexy
+::1	www.telecommandsvc.microsoft.com # managed by privacy.sexy
+0.0.0.0	umwatson.events.data.microsoft.com # managed by privacy.sexy
+::1	umwatson.events.data.microsoft.com # managed by privacy.sexy
+0.0.0.0	watsonc.events.data.microsoft.com # managed by privacy.sexy
+::1	watsonc.events.data.microsoft.com # managed by privacy.sexy
+0.0.0.0	eu-watsonc.events.data.microsoft.com # managed by privacy.sexy
+::1	eu-watsonc.events.data.microsoft.com # managed by privacy.sexy
+0.0.0.0	config.edge.skype.com # managed by privacy.sexy
+::1	config.edge.skype.com # managed by privacy.sexy
+0.0.0.0	telemetry.dropbox.com # managed by privacy.sexy
+::1	telemetry.dropbox.com # managed by privacy.sexy
+0.0.0.0	telemetry.v.dropbox.com # managed by privacy.sexy
+::1	telemetry.v.dropbox.com # managed by privacy.sexy
+0.0.0.0	msftncsi.com # managed by privacy.sexy
+::1	msftncsi.com # managed by privacy.sexy
+0.0.0.0	dns.msftncsi.com # managed by privacy.sexy
+::1	dns.msftncsi.com # managed by privacy.sexy
+0.0.0.0	ipv6.msftncsi.com # managed by privacy.sexy
+::1	ipv6.msftncsi.com # managed by privacy.sexy
+0.0.0.0	msftconnecttest.com # managed by privacy.sexy
+::1	msftconnecttest.com # managed by privacy.sexy
+0.0.0.0	www.msftconnecttest.com # managed by privacy.sexy
+::1	www.msftconnecttest.com # managed by privacy.sexy
+0.0.0.0	ipv6.msftconnecttest.com # managed by privacy.sexy
+::1	ipv6.msftconnecttest.com # managed by privacy.sexy

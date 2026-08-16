@@ -1,0 +1,89 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Ananta.RpcTypes/1.0.0": {
+        "dependencies": {
+          "Ananta.Core": "1.0.0"
+        },
+        "runtime": {
+          "Ananta.RpcTypes.dll": {}
+        }
+      },
+      "Google.Protobuf/3.33.0": {
+        "runtime": {
+          "lib/net5.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.33.0.0",
+            "fileVersion": "3.33.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.4": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.4.30916"
+          }
+        }
+      },
+      "Pastel/7.0.1": {
+        "runtime": {
+          "lib/net8.0/Pastel.dll": {
+            "assemblyVersion": "7.0.1.0",
+            "fileVersion": "7.0.1.0"
+          }
+        }
+      },
+      "Ananta.Core/1.0.0": {
+        "dependencies": {
+          "Google.Protobuf": "3.33.0",
+          "Newtonsoft.Json": "13.0.4",
+          "Pastel": "7.0.1"
+        },
+        "runtime": {
+          "Ananta.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ananta.RpcTypes/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Protobuf/3.33.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+kIa03YipuiSDeRuZwcDcXS1xBQAFeGLIjuLbgJr2i+TlwBPYAqdnQZJ2SDVzIgDyy+q+n/400WyWyrJ5ZqCgQ==",
+      "path": "google.protobuf/3.33.0",
+      "hashPath": "google.protobuf.3.33.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pdgNNMai3zv51W5aq268sujXUyx7SNdE2bj1wZcWjAQrKMFZV260lbqYop1d2GM67JI1huLRwxo9ZqnfF/lC6A==",
+      "path": "newtonsoft.json/13.0.4",
+      "hashPath": "newtonsoft.json.13.0.4.nupkg.sha512"
+    },
+    "Pastel/7.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qLANIt80UgHVjEWtDJBpqunbhfqUVcSrY8SaZcJpfFDq3ZzzQntsNyWyizb9UoNHqvK/wRgENdI163CymyEbmQ==",
+      "path": "pastel/7.0.1",
+      "hashPath": "pastel.7.0.1.nupkg.sha512"
+    },
+    "Ananta.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

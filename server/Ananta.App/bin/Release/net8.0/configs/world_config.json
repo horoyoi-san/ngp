@@ -1,0 +1,33 @@
+{
+  "_comment": "Configuracoes do mundo - veiculos, spawn, AOI grid",
+
+  "vehicleConfigs": [81005001, 81005002, 81005003, 81005004, 81005005],
+
+  "npcSpawn": {
+    "enabled": true,
+    "spawnRadius": 6,
+    "despawnRadius": 10,
+    "maxAliveNpcs": 50,
+    "minNpcsPerCell": 1,
+    "maxNpcsPerCell": 2
+  },
+
+  "aoi": {
+    "gridCellSize": 40.0,
+    "gridOffsetX": 2010.0,
+    "gridOffsetZ": -379.0,
+    "destructibleRange": 120,
+    "sceneItemRange": 40
+  },
+
+  "metro": {
+    "defaultCycleSeconds": {
+      "1": 300.0,
+      "2": 300.0,
+      "3": 240.0,
+      "4": 240.0
+    },
+    "syncIntervalSeconds": 3.0,
+    "defaultTrainsPerLine": 1
+  }
+}

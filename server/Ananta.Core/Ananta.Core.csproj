@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>AnantaTestGameServer</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="**\*.cs" Exclude="obj\**;bin\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.33.0" />
+    <PackageReference Include="Grpc.Tools" Version="2.76.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+    <PackageReference Include="Pastel" Version="7.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Ananta.Configs\**\*.cs" LinkBase="Configs" Exclude="..\Ananta.Configs\obj\**" />
+    <Compile Include="..\Ananta.Gameplay\**\*.cs" LinkBase="Gameplay" Exclude="..\Ananta.Gameplay\obj\**" />
+    <Compile Include="..\Ananta.Network\**\*.cs" LinkBase="Network" Exclude="..\Ananta.Network\obj\**" />
+    <Compile Include="..\Ananta.Handlers\**\*.cs" LinkBase="Handlers" Exclude="..\Ananta.Handlers\obj\**;..\Ananta.Handlers\Game\ClientToGameserver_Generated.cs" />
+    <Compile Include="..\Ananta.GmUi\**\*.cs" LinkBase="GmUi" Exclude="..\Ananta.GmUi\obj\**" />
+    <Compile Include="..\Ananta.RpcTypes\**\*.cs" LinkBase="RpcTypes" Exclude="..\Ananta.RpcTypes\obj\**" />
+  </ItemGroup>
+</Project>
