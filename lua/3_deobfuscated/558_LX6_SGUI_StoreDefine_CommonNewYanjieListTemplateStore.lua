@@ -1,2 +1,0 @@
-C_CommonNewYanjieListTemplateStore = DefClass("C_CommonNewYanjieListTemplateStore", C_CommonNewYanjieListTemplateStore, C_CommonYanjieListTemplate)
-GroupName2Class.CommonNewYanjieListTemplateStore = C_CommonNewYanjieListTemplateStore

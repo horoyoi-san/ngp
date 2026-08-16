@@ -1,2 +1,0 @@
-C_BasketballShootPanelStore = DefClass("C_BasketballShootPanelStore", C_BasketballShootPanelStore, C_StoreGroup)
-GroupName2Class.BasketballShootPanelStore = C_BasketballShootPanelStore

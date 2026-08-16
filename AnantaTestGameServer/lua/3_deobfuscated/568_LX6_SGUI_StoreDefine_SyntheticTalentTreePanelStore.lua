@@ -1,2 +1,0 @@
-C_SyntheticTalentTreePanelStore = DefClass("C_SyntheticTalentTreePanelStore", C_SyntheticTalentTreePanelStore, C_CommonTalentTreePanelStore)
-GroupName2Class.SyntheticTalentTreePanelStore = C_SyntheticTalentTreePanelStore
