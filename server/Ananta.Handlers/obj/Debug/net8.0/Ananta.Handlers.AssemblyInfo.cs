@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ananta.Handlers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d318560584ba456cfd7aa831ad92311b4952c34")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ananta.Handlers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ananta.Handlers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
