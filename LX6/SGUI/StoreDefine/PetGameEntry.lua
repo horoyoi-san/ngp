@@ -1,0 +1,31 @@
+-- Original chunk: @Lua\LuaFiles\LX6\SGUI\StoreDefine\PetGameEntry.lua
+-- Decompiled from: 02127_PetGameEntry.lua_eb9071e1cfeb.luajit
+
+GroupName2Class = GroupName2Class or {}
+
+require("LX6/SGUI/StoreDefine/PetGameBeginePanelStore")
+require("LX6/SGUI/StoreDefine/PetGameDeathPanelStore")
+require("LX6/SGUI/StoreDefine/PetGameGetPetPanelStore")
+require("LX6/SGUI/StoreDefine/PetGameGMPanelStore")
+require("LX6/SGUI/StoreDefine/PetGameMachinePanelStore")
+require("LX6/SGUI/StoreDefine/PetGameNameGivingPanelStore")
+require("LX6/SGUI/StoreDefine/PetGameTipsPanelStore")
+require("LX6/SGUI/StoreDefine/PetGameSleepPanelStore")
+require("LX6/SGUI/StoreDefine/PetGameSystemMenuPanelStore")
+require("LX6/SGUI/StoreDefine/PetGameListPanelStore")
+require("LX6/SGUI/StoreDefine/PetGameListBoxStore")
+require("LX6/SGUI/StoreDefine/PetGameInfoPanelStore")
+require("LX6/SGUI/StoreDefine/PetGameFoodviewPanelStore")
+require("LX6/SGUI/StoreDefine/PetGameShopviewPanelStore")
+require("LX6/SGUI/StoreDefine/PetGameShopbuyPanelStore")
+require("LX6/SGUI/StoreDefine/PetGameTipsViewPanelStore")
+require("LX6/SGUI/StoreDefine/PetGameRecordViewPanelStore")
+require("LX6/SGUI/StoreDefine/PetGameRewardItemStore")
+require("LX6/SGUI/StoreDefine/PetGameSettingPanelStore")
+require("LX6/SGUI/StoreDefine/PetGameAchievementPanelStore")
+require("LX6/SGUI/StoreDefine/PetGameAlbumPanelStore")
+require("LX6/SGUI/StoreDefine/PetGameSocialEntryPanelStore")
+require("LX6/SGUI/StoreDefine/PetGameSocialTipsPanelStore")
+require("LX6/SGUI/StoreDefine/PetGameSocialReciveTipsPanelStore")
+require("LX6/SGUI/StoreDefine/PetGameShopPanelStore")
+require("LX6/SGUI/StoreDefine/PetGameChooseRegionPanelStore")

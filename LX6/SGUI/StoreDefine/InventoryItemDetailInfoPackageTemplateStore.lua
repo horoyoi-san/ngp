@@ -1,0 +1,5 @@
+-- Original chunk: @Lua\LuaFiles\LX6\SGUI\StoreDefine\InventoryItemDetailInfoPackageTemplateStore.lua
+-- Decompiled from: 02067_InventoryItemDetailInfoPackageTemplateStore.lua_fb8d62316537.luajit
+
+C_InventoryItemDetailInfoPackageTemplateStore = DefClass("C_InventoryItemDetailInfoPackageTemplateStore", C_InventoryItemDetailInfoPackageTemplateStore, C_InventoryItemDetailInfoTemplateStore)
+GroupName2Class.InventoryItemDetailInfoPackageTemplateStore = C_InventoryItemDetailInfoPackageTemplateStore

@@ -1,0 +1,80 @@
+-- Original chunk: @Lua\LuaFiles\LX6\Utils\TimeAppUtils.lua
+-- Decompiled from: 02179_TimeAppUtils.lua_95d70eb50760.luajit
+
+local M = {
+	GetTimeTask = function (self)
+		local taskId = gTaskNodeManager.NowDoingTask[gTaskManager.CurrentTaskType.Task1]
+		local taskCfg = LTConfig.TaskConfig.GetConfig(taskId)
+
+		if taskCfg then
+			local startTime = taskCfg.TimeInterval.startTime
+			local endTime = taskCfg.TimeInterval.endTime
+
+			if startTime == 0 and endTime == 0 then
+				return taskCfg
+			end
+		end
+	end,
+	CheckIsTaskForbiddenChangeTime = function ()
+		if gCS.AtmosphereManager.Instance.IsTimeLocked then
+			return true
+		end
+
+		if not gCS.AtmosphereManager.Instance.CanChangeTime then
+			return true
+		end
+
+		return false
+	end
+}
+
+M.StartRestTime = function(args)
+	args.startGameTime = args.startGameTime or gCS.AtmosphereManager.Instance:GetGameTime()
+
+	gPanelManager:CheckShow(gPanelId.S_TIME_COUNT_DOWN_PANEL, args)
+end
+
+M.AddPersonalTimeSetting = function(personalTimeSetting)
+	slot1 = gClientToGameDelegate
+
+	slot1:AddPersonalTimeSetting(personalTimeSetting).Callback = function (err)
+		if err == LTConfig.MessageConfig.Ok then
+			gDisplayMessageMgr:DisplayServerMessageId(err)
+			gMessageManager:SendMessage(gEventConstants.ON_ADD_PERSONAL_SETTING_TIME_FAIL)
+		else
+			gMessageManager:SendMessage(gEventConstants.ON_ADD_PERSONAL_SETTING_TIME_SUCCESS, personalTimeSetting)
+		end
+	end
+end
+
+M.AskTimePanelInfo = function()
+	slot0 = gClientToGameDelegate
+
+	slot0:AskTimePanelInfo().Callback = function (err, data)
+		if err == LTConfig.MessageConfig.Ok then
+			gDisplayMessageMgr:DisplayServerMessageId(err)
+
+			return
+		end
+
+		local personalTimeList = data and data.PersonalTimeSettings
+
+		gMessageManager:SendMessage(gEventConstants.ON_ASK_PERSONAL_TIME_LIST_SUCCESS, personalTimeList)
+	end
+end
+
+M.DeletePersonalTimeSetting = function(index)
+	slot1 = gClientToGameDelegate
+
+	slot1:ChangePersonalTimeSetting(index, nil).Callback = function (err, data)
+		if err == LTConfig.MessageConfig.Ok then
+			gDisplayMessageMgr:DisplayServerMessageId(err)
+
+			return
+		end
+
+		gMessageManager:SendMessage(gEventConstants.ON_DELETE_PERSONAL_SETTING_TIME_SUCCESS, index)
+	end
+end
+
+gTimeAppUtils = M

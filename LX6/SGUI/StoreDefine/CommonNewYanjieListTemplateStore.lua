@@ -1,0 +1,5 @@
+-- Original chunk: @Lua\LuaFiles\LX6\SGUI\StoreDefine\CommonNewYanjieListTemplateStore.lua
+-- Decompiled from: 02073_CommonNewYanjieListTemplateStore.lua_7196088918df.luajit
+
+C_CommonNewYanjieListTemplateStore = DefClass("C_CommonNewYanjieListTemplateStore", C_CommonNewYanjieListTemplateStore, C_CommonYanjieListTemplate)
+GroupName2Class.CommonNewYanjieListTemplateStore = C_CommonNewYanjieListTemplateStore
