@@ -1,0 +1,24 @@
+{
+  "server": {
+    "name": "Ananta Local Server",
+    "host": "0.0.0.0",
+    "public_ip": "127.0.0.1",
+    "http_port": 8080,
+    "login_port": 8888,
+    "gate_port": 8888,
+    "status": 0,
+    "region_id": 1,
+    "region_name": "Local Private Server"
+  },
+  "gameplay": {
+    "welcome_message": "ยินดีต้อนรับสู่ Ananta Private Server!",
+    "default_player": {
+      "name": "Player",
+      "level": 90,
+      "gender": 1,
+      "gold": 999999,
+      "diamond": 99999,
+      "stamina": 240
+    }
+  }
+}
