@@ -1,0 +1,109 @@
+using Ananta.Server.RpcTypes.Client4229938;
+namespace Ananta.Server.Protocol.Client4229938;
+
+internal sealed class WorldEntryState
+{
+    internal object SyncRoot { get; } = new();
+
+    internal bool InitialStateSent { get; set; }
+    internal bool EnterSceneSent { get; set; }
+    internal bool SceneLoadAckSeen { get; set; }
+    internal bool GameResourcesReadySeen { get; set; }
+    internal bool ControlPublished { get; set; }
+    internal bool SceneCompletionSent { get; set; }
+    internal bool CurrentSpiritStateSent { get; set; }
+    internal bool Ready { get; set; }
+    internal bool LivePlayerProfilePublished { get; set; }
+    internal bool SameSceneAckSeen { get; set; }
+    internal bool MovementCapabilityPublished { get; set; }
+    internal bool FreeRoamReleased { get; set; }
+    internal bool FirstMovementSeen { get; set; }
+    internal bool InitialCapabilityBuffsPublished { get; set; }
+    internal bool AllBuildBuffsPublished { get; set; }
+    internal bool InitialActorPresentationPublished { get; set; }
+    internal bool CombatProfilePublished { get; set; }
+    internal bool AccountArmoryPublished { get; set; }
+
+    // Current public-world destination. Initial values come from private-server.json; airport
+    // travel updates these per scene generation without mutating global configuration.
+    internal uint ActiveRaidId { get; set; } = Profile.RaidId;
+    internal ulong ActiveInstanceId { get; set; } = Profile.SceneInstanceId;
+    internal uint ActiveUniverseId { get; set; } = Profile.UniverseId;
+    internal string ActiveContentScene { get; set; } = "WorldMap_Release";
+    internal bool WorldEntryIsAirportTravel { get; set; }
+
+    // Native LoadingManager common-teleport transaction. Airport travel reuses the retail
+    // AskTeleport -> SyncPreTeleportOption -> ReportPreTeleportFinish -> domain RPC ->
+    // SyncTeleport -> ReportPostTeleportFinish sequence so SwitchTeleportManager cannot retain
+    // a stale AcrossRaid flow after landing.
+    internal ulong PendingTeleportId { get; set; }
+    internal string PendingAirportRouteKey { get; set; } = string.Empty;
+    internal bool PendingTeleportPreFinished { get; set; }
+    internal bool PendingTeleportSyncSent { get; set; }
+
+    // Build 4229938: one generation-bound initial-player handoff.
+    // 0 = edge not claimed; -generation = claimed/in-flight; +generation = published.
+    internal bool WorldEntryControlPending { get; set; }
+    internal bool WorldEntryControlFinalized { get; set; }
+    internal ulong WorldEntryControlUnit { get; set; }
+    internal uint WorldEntryControlTemplate { get; set; }
+    internal int WorldEntryControlGeneration { get; set; }
+    internal int WorldEntryLoadingCompletedGeneration { get; set; }
+    internal int WorldEntryOpeningEndedGeneration { get; set; }
+    internal int WorldEntryControlFinalizingGeneration { get; set; }
+    internal int WorldEntryLogicProjectionPublishedGeneration { get; set; }
+    internal int WorldEntryCurrentMetadataPublishedGeneration { get; set; }
+    internal ulong WorldEntrySceneId4229938 { get; set; }
+    internal ulong WorldEntrySessionId4229938 { get; set; }
+    internal Vec3 WorldEntryCreateHeroPosition { get; set; } = Profile.WorldSpawn;
+    internal float WorldEntryCreateHeroFacing { get; set; } = Profile.WorldFacing;
+    internal Vec3 LastReportedPlayerPosition { get; set; } = Profile.WorldSpawn;
+    internal Vec3 LastReportedPlayerRotation { get; set; } = new(0f, Profile.WorldFacing, 0f);
+    internal bool HasLastReportedPlayerTransform { get; set; }
+
+    internal uint ActiveSkillId { get; set; }
+    internal bool RestoreResourcesAfterActiveSkill { get; set; }
+    internal int ActiveClientSkillInstanceId { get; set; }
+    internal long ActiveSkillStartedTicks { get; set; }
+    internal ulong ActiveWeaponInstanceId { get; set; }
+    internal uint ActiveFightStyleId { get; set; }
+    internal Dictionary<uint, ulong> LastWeaponBySpirit { get; } = [];
+    internal Dictionary<uint, List<ulong>> WeaponSlotsBySpirit { get; } = [];
+    internal Dictionary<ulong, uint> WeaponStyleOverrides { get; } = [];
+    // Persistent weapon-instance ammunition. These dictionaries intentionally survive public-scene
+    // generations and character switches; a weapon switch must never refill its magazine.
+    internal Dictionary<ulong, int> WeaponMagazineAmmo { get; } = [];
+    // For firearms without separate backpack bullets, Durability is the remaining total ammo
+    // (loaded magazine + reserve). Keep it instance-persistent for the same reason as the magazine.
+    internal Dictionary<ulong, int> WeaponDurabilityAmmo { get; } = [];
+    internal Dictionary<ulong, uint> WeaponBulletByInstance { get; } = [];
+    internal Dictionary<uint, uint> BackpackItemCounts { get; } = [];
+    internal Dictionary<(uint SpiritId, uint FightStyleTypeId), uint> SpiritStyleOverrides { get; } = [];
+    internal int CombatUseCount { get; set; }
+    internal int CombatEndCount { get; set; }
+    internal int CombatHitCount { get; set; }
+    internal uint NextBuffInstanceId { get; set; } = 1200000u;
+    internal uint ActiveFeiSuoBuffInstanceId { get; set; }
+    internal ulong ActiveFeiSuoBuffUnitId { get; set; }
+    // Exact instance ids for client-owned 4229938 traversal states (SwingBuff/WallRushBuff).
+    // They are created/removed on demand and are intentionally not resident login buffs.
+    internal Dictionary<(ulong UnitId, uint BuffId), uint> ActiveClientWebBuffInstances { get; } = [];
+    internal ulong SceneId { get; set; }
+    internal ulong ActiveSpiritUnitId { get; set; } = Profile.InitialUnitId;
+    internal uint ActiveSpiritTemplateId { get; set; } = Profile.InitialSpiritTemplateId;
+    internal uint WorldEntrySwitchShowId { get; set; }
+    internal uint LastSwitchShowId { get; set; }
+    internal int SwitchCount { get; set; }
+
+    // Native 4229938 SwitchTeleport is a three-phase transaction. Only the current character
+    // exists as the controlled actor. Every target is materialized by the same generic AOI path
+    // after the client reports that the source close-up has finished.
+    internal uint PendingSwitchTemplateId { get; set; }
+    internal ulong PendingSwitchUnitId { get; set; }
+    internal ulong PendingSwitchOldUnitId { get; set; }
+    internal uint PendingSwitchShowId { get; set; }
+    internal Vec3 PendingSwitchPosition { get; set; } = Profile.WorldSpawn;
+    internal float PendingSwitchFacing { get; set; } = Profile.WorldFacing;
+    internal bool PendingSwitchControlTransferred { get; set; }
+    internal bool PendingSwitchLandingStarted { get; set; }
+}

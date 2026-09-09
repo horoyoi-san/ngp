@@ -1,0 +1,117 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Ananta.RpcTypes/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Ananta.SDK": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Ananta.RpcTypes.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ananta.RpcTypes.dll": {}
+        }
+      },
+      "Ananta.SDK/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Ananta.SDK.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ananta.SDK.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ananta.RpcTypes/1.0.0": {
+      "type": "project",
+      "path": "../Ananta.RpcTypes/Ananta.RpcTypes.csproj",
+      "msbuildProject": "../Ananta.RpcTypes/Ananta.RpcTypes.csproj"
+    },
+    "Ananta.SDK/1.0.0": {
+      "type": "project",
+      "path": "../../Ananta.SDK/Ananta.SDK.csproj",
+      "msbuildProject": "../../Ananta.SDK/Ananta.SDK.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Ananta.RpcTypes >= 1.0.0",
+      "Ananta.SDK >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\korra\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Horoyoi-san\\PS\\ngp\\DRMK-PS_08.05 (1)\\Ananta.Server\\Ananta.Core\\Ananta.Core.csproj",
+      "projectName": "Ananta.Core",
+      "projectPath": "C:\\Horoyoi-san\\PS\\ngp\\DRMK-PS_08.05 (1)\\Ananta.Server\\Ananta.Core\\Ananta.Core.csproj",
+      "packagesPath": "C:\\Users\\korra\\.nuget\\packages\\",
+      "outputPath": "C:\\Horoyoi-san\\PS\\ngp\\DRMK-PS_08.05 (1)\\Ananta.Server\\Ananta.Core\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\korra\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Horoyoi-san\\PS\\ngp\\DRMK-PS_08.05 (1)\\Ananta.SDK\\Ananta.SDK.csproj": {
+              "projectPath": "C:\\Horoyoi-san\\PS\\ngp\\DRMK-PS_08.05 (1)\\Ananta.SDK\\Ananta.SDK.csproj"
+            },
+            "C:\\Horoyoi-san\\PS\\ngp\\DRMK-PS_08.05 (1)\\Ananta.Server\\Ananta.RpcTypes\\Ananta.RpcTypes.csproj": {
+              "projectPath": "C:\\Horoyoi-san\\PS\\ngp\\DRMK-PS_08.05 (1)\\Ananta.Server\\Ananta.RpcTypes\\Ananta.RpcTypes.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.317/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
