@@ -1,3 +1,5 @@
+using System.Security.Cryptography;
+using System.Text;
 using System.Text.Json;
 using GameMethods = Ananta.Server.RpcTypes.Client4229938.Methods.Game;
 using LoginMethods = Ananta.Server.RpcTypes.Client4229938.Methods.LoginGate;
@@ -14,32 +16,42 @@ internal static class LoginCodec
 
     internal static LoginMethods.CheckAccountResult CheckAccount()
     {
-        var loginJson = JsonSerializer.Serialize(new
+        var deviceId = Convert.ToHexString(MD5.HashData(Encoding.UTF8.GetBytes(Profile.AccountId)));
+        // Do not use an anonymous object here for device-id aliases.
+        // System.Text.Json treats property names case-insensitively while building
+        // anonymous-type metadata, so having both `deviceid` and `deviceId` makes
+        // CheckAccount throw before a response body can be serialized.
+        // A dictionary keeps the exact wire keys and avoids that collision.
+        var loginJson = JsonSerializer.Serialize(new Dictionary<string, object?>
         {
-            code = 200,
-            subcode = 0,
-            msg = "ok",
-            uid = Profile.AccountId,
-            sdkuid = Profile.AccountId,
-            user_id = Profile.AccountId,
-            aid = Profile.Aid,
-            pid = Profile.PlayerPid,
-            player_id = Profile.PlayerPid.ToString(),
-            role_id = Profile.PlayerPid.ToString(),
-            role_name = Profile.DisplayName,
-            server_id = Profile.ServerId.ToString(),
-            host_id = Profile.ServerId,
-            username = Profile.UserName,
-            account = Profile.AccountId,
-            platform = "pc",
-            token = Profile.LoginToken,
-            access_token = Profile.LoginToken,
-            ext_access_token = Profile.LoginToken,
-            sessionid = Profile.LoginToken,
-            login_ticket = Profile.LoginToken,
-            realname_status = 1,
-            realname_verify_status = 1,
-            mobile_bind_status = 1
+            ["deviceid"] = deviceId,
+            ["device_id"] = deviceId,
+            ["udid"] = deviceId,
+            ["unisdk_device_id"] = deviceId,
+            ["code"] = 200,
+            ["subcode"] = 0,
+            ["msg"] = "ok",
+            ["uid"] = Profile.AccountId,
+            ["sdkuid"] = Profile.AccountId,
+            ["user_id"] = Profile.AccountId,
+            ["aid"] = Profile.Aid,
+            ["pid"] = Profile.PlayerPid,
+            ["player_id"] = Profile.PlayerPid.ToString(),
+            ["role_id"] = Profile.PlayerPid.ToString(),
+            ["role_name"] = Profile.DisplayName,
+            ["server_id"] = Profile.ServerId.ToString(),
+            ["host_id"] = Profile.ServerId,
+            ["username"] = Profile.UserName,
+            ["account"] = Profile.AccountId,
+            ["platform"] = "pc",
+            ["token"] = Profile.LoginToken,
+            ["access_token"] = Profile.LoginToken,
+            ["ext_access_token"] = Profile.LoginToken,
+            ["sessionid"] = Profile.LoginToken,
+            ["login_ticket"] = Profile.LoginToken,
+            ["realname_status"] = 1,
+            ["realname_verify_status"] = 1,
+            ["mobile_bind_status"] = 1
         });
 
         return new LoginMethods.CheckAccountResult

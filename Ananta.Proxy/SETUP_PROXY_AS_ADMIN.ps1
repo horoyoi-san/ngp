@@ -1,4 +1,4 @@
-$ErrorActionPreference = 'Stop'
+﻿$ErrorActionPreference = 'Stop'
 
 trap {
     $logDir = Join-Path $PSScriptRoot 'proxy\logs'
@@ -133,10 +133,20 @@ $lines = if ($hostsExisted) { @(Get-Content -LiteralPath $HostsPath -ErrorAction
 # user's own custom hosts entries untouched).
 $kept = foreach ($line in $lines) {
     $managed = $false
-    foreach ($domain in $Domains) {
-        if ($line -match "^\s*#?\s*127\.0\.0\.1\s+$([regex]::Escape($domain))(\s|$)") {
-            $managed = $true
-            break
+    $trimmed = ([string]$line).Trim()
+    if ($trimmed -and -not $trimmed.StartsWith('#')) {
+        # Remove any pre-existing mapping for one of our managed domains,
+        # regardless of IP (127.0.0.1, ::1, stale LAN/VPN address, etc.).
+        # Duplicate/conflicting hosts entries are enough to send UniSDK to the
+        # real mgbsdk endpoint and produce login code 220.
+        $tokens = @($trimmed -split '\s+' | Where-Object { $_ -and -not $_.StartsWith('#') })
+        if ($tokens.Count -ge 2) {
+            foreach ($domain in $Domains) {
+                if ($tokens[1..($tokens.Count - 1)] -contains $domain) {
+                    $managed = $true
+                    break
+                }
+            }
         }
     }
     if (-not $managed) { $line }

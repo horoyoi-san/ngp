@@ -1,0 +1,11 @@
+Menu/Login fix for client 4229938
+
+Observed failure:
+- CheckAccount handler threw before serializing the response because the anonymous JSON object contained both `deviceid` and `deviceId`.
+- System.Text.Json treats those property names as a case-insensitive collision while building anonymous-type metadata.
+- The server therefore returned an empty CheckAccount body and the client failed deserialization in method 34339919, remaining on the start menu.
+
+Fix:
+- CheckAccount login JSON now uses a Dictionary<string, object?> so exact wire keys can be emitted without anonymous-type metadata collisions.
+- Retained the device fields actually relevant to this client/proxy flow: deviceid, device_id, udid, unisdk_device_id.
+- Existing UniSDK proxy/device capture fixes remain unchanged.
