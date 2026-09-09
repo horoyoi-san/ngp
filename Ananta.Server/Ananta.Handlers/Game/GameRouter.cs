@@ -65,6 +65,108 @@ internal sealed partial class GameRouter
         MethodId.AskUnitMoveActionSimpleWithGround,
         MethodId.AskUnitMoveActionWithGround,
         MethodId.AskUnitMoveAction,
+
+        // Time/sync basics.
+        MethodId.GetServerTimeGame,
+
+        // Scene ("raid") switching.
+        MethodId.AskPublicSwitchToPublicScene,
+        MethodId.AskEnterRaidByMapEntrance,
+
+        // Teleport (inbound requests; pushes need no registration).
+        MethodId.AskTeleport,
+        MethodId.ReportPreTeleportFinish,
+        MethodId.ReportPostTeleportFinish,
+        MethodId.Teleport,
+
+        // Vehicles (simple shapes; complex-return vehicle RPCs stay on the
+        // typed-default fallback + unknown-methods.log for now).
+        MethodId.GmAddVehicle,
+        MethodId.AskVehicleShopSpawnVehicle,
+        MethodId.VehicleDriveStateChange,
+        MethodId.AskGetUnlockedVehicles,
+        MethodId.AskSummonVehicle,
+        MethodId.AskPlayerStartEnterOrExitVehicle,
+        MethodId.AskPlayerFinishEnterOrExitVehicle,
+        MethodId.AskVehicleMove,
+        MethodId.AskClaimVehicleSeat,
+        MethodId.SyncStoryCoreClientInfo,
+        MethodId.AskInteractCmd,
+
+        // Formerly-unhandled batch (explicit compatibility handlers).
+        MethodId.AskTradeGetMarketList,
+        MethodId.AskTradeGetHistoryPage,
+        MethodId.AskPlayerRankingSummary,
+        MethodId.AskPopularityPhoneFirstOpened,
+        MethodId.AskPopularityUIOpened,
+        MethodId.SyncOpenInspireHub,
+        MethodId.AskQueryInspireHubAllGamePlayRecommendData,
+        MethodId.AskQueryInspireHubAllGamePlayRankData,
+        MethodId.AskLinkInfos,
+        MethodId.GetLastMode,
+        MethodId.AskSwitchLinkMode,
+        MethodId.OnParkourStateChange,
+        MethodId.AskPlayerCameraMove,
+        MethodId.AskUpdatePlayerCameraRotation,
+        MethodId.AskUpdatePlayerCameraFOV,
+        MethodId.AskUpdatePlayerCameraAspectRatio,
+        MethodId.ReportDrivingVehicle,
+        MethodId.AskVehicleNitroValue,
+        MethodId.AskVehicleNitro,
+        MethodId.AskModifyVehicleTopSpeed,
+        MethodId.AskVehicleHorn,
+        MethodId.AskVehicleContactDamage,
+        MethodId.AskVehicleInteractConfig,
+        MethodId.AskUpdateVehicleDestructibleParts,
+        MethodId.AskGetVehicleRadioContent,
+        MethodId.SyncChangeSafeArea,
+        MethodId.SyncChangeBuilding,
+        MethodId.SyncChangeIndoor,
+        MethodId.GetMailHeadList,
+        MethodId.AskAkxSessionList,
+        MethodId.AskGetAllMetroInfos,
+        MethodId.AskMomentsPostSimpleInfos,
+        MethodId.AskPanelOpenOrClose,
+        MethodId.AskQueryPlayerUnlockNameEffect,
+        MethodId.GetPersonalInfo,
+
+        // Skill/combat accepts (logged empty replies; authoritative damage later).
+        MethodId.AskInterruptSkillExecute2,
+        MethodId.AskSkillExecute3,
+        MethodId.AskSkillExecuteEnd2,
+        MethodId.AskSkillAddState,
+        MethodId.AskSkillOpenShield,
+        MethodId.AskSkillCloseShield,
+        MethodId.AskSkillTimeCurve,
+        MethodId.ReportSkillAnimationEnd,
+        MethodId.AskSkillSpawnItem,
+        MethodId.AskSwitchSpiritComplete,
+        MethodId.AskSpoonClientAttack,
+        MethodId.AskVehicleSkillDamage,
+        MethodId.AskSkillDestructibleCreateGadget,
+        MethodId.AskSkillDestructibleCreateVehicle,
+
+        // Time + weather.
+        MethodId.AskPassingTime,
+        MethodId.ChangePersonalTimeSetting,
+        MethodId.AddPersonalTimeSetting,
+        MethodId.GmSetWeather,
+        MethodId.GmSetWeatherParam,
+        MethodId.GmSetTime,
+        MethodId.GmFixRaidTime,
+        MethodId.GmPassingTime,
+
+        // Destructibles / red dots / discards / hangup / curves.
+        MethodId.AskNotifyDestructibleHits,
+        MethodId.AskOperateDestructibleObject,
+        MethodId.AskMoveDestructibleObjects,
+        MethodId.AskBreakDestructibleObjects,
+        MethodId.AskReadWeaponRedDots,
+        MethodId.AskDiscardWeaponByInstanceId,
+        MethodId.AskDiscardWeapon,
+        MethodId.RequestPlayerStartHangup,
+        MethodId.RequestPlayerStopHangup,
+        MethodId.AskBreakSkillTimeCurve,
     };
 
     internal RpcRouter Build()

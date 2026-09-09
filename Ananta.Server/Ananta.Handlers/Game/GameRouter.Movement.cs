@@ -71,6 +71,9 @@ internal sealed partial class GameRouter
             state.AllBuildBuffsPublished = true;
         }
 
+        if (!state.CombatProfilePublished)
+            await PublishCombatProfile(ctx, unitId, templateId);
+
         await ctx.NotifyAsync(MethodId.SyncGamePause, WorldCodec.GamePause(false));
         state.MovementCapabilityPublished = true;
         state.FreeRoamReleased = true;

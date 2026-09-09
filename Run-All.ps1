@@ -1,4 +1,4 @@
-$ErrorActionPreference = 'Stop'
+﻿$ErrorActionPreference = 'Stop'
 $Root = Split-Path -Parent $MyInvocation.MyCommand.Path
 $ConfigPath = Join-Path $Root 'config\private-server.json'
 $ProxyRoot = Join-Path $Root 'Ananta.Proxy'
@@ -176,7 +176,7 @@ $consoleDisplay = if ($ConsoleLoggingEnabled) { $script:ConsoleLogLatest } else 
 $packetDisplay = if ($PacketLoggingEnabled) { $PacketLogLatest } else { 'disabled' }
 Append-RunLog '[START] launching standalone bootstrap...'
 Append-RunLog ("[LOGS] console={0} | packets={1}" -f $consoleDisplay, $packetDisplay)
-Append-RunLog ("[BUILD] Ananta Private Server | client {0} | world-entry + switching + buffs/combat" -f $Config.client.version)
+Append-RunLog ("[BUILD] นี่คือเวอร์ชั่น DEV ที่ไม่ได้รับคุณภาพจากเกม Ananta GAY | client {0} | world-entry + switching + buffs/combat" -f $Config.client.version)
 Append-RunLog "[CONFIG] $ConfigPath"
 Append-RunLog "[CONFIG] pid=$($Config.player.pid) spirit=$($Config.player.initialSpiritTemplateId) raid=$($Config.world.raidId)"
 
@@ -212,92 +212,21 @@ Stop-StaleAnantaProcesses
 $DnsName = [string]$Config.network.proxy.updateHost
 $PfxPath = Join-Path $ProxyDir ("certs\{0}.pfx" -f $DnsName)
 $PfxPassphrase = [string]$Config.network.proxy.certificatePassphrase
-
-# The login screen depends on more than the update CDN. In particular,
-# mgbsdk.matrix.netease.com must resolve to the local HTTPS proxy; otherwise
-# UniSDK's /sdk/uni_sauth request reaches the real service and the client stops
-# at the menu with login code 220. Validate the whole runtime redirect set.
-$RequiredProxyDomains = @(
-    $DnsName,
-    'serverlist-test.l50.leihuo.netease.com',
-    'l50.gdl.netease.com',
-    'l50.gph.netease.com',
-    'l50.gsgph.netease.com',
-    'service.mkey.163.com',
-    'qatest.g.mkey.163.com',
-    'qatest-1.g.mkey.163.com',
-    'qatest-2.g.mkey.163.com',
-    'qatest-3.g.mkey.163.com',
-    'qatest-4.g.mkey.163.com',
-    'qatest-5.g.mkey.163.com',
-    'qatest-6.g.mkey.163.com',
-    'qatest-7.g.mkey.163.com',
-    'qatest-8.g.mkey.163.com',
-    'bind-mobile.g.mkey.163.com',
-    'bind-mobile-test.g.mkey.163.com',
-    'mpay-common-server.g.mkey.163.com',
-    'mpay-common-server-test.g.mkey.163.com',
-    'mpay-personal-privacy-protection.g.mkey.163.com',
-    'mpay-personal-privacy-protection-dev.g.mkey.163.com',
-    'whoami.nie.netease.com',
-    'whoami.nie.easebar.com',
-    'protocol.unisdk.netease.com',
-    'tpsl.nie.netease.com',
-    'g0.gsf.netease.com',
-    'g0.gsf.easebar.com',
-    'mcount.easebar.com',
-    'analytics.mpay.netease.com',
-    'applog.matrix.netease.com',
-    'applog.matrix.easebar.com',
-    'mgbsdktest.matrix.netease.com',
-    'mgbsdk.matrix.netease.com',
-    'mgbsdk.matrix.easebar.com',
-    'dns.update.netease.com',
-    'dns.update.easebar.com',
-    'openapi.music.163.com'
-) | Select-Object -Unique
-
-$hostsOk = Test-Path -LiteralPath $HostsPath
-if ($hostsOk) {
-    $hostLines = @(Get-Content -LiteralPath $HostsPath -ErrorAction SilentlyContinue)
-    foreach ($domain in $RequiredProxyDomains) {
-        $pattern = '^\s*127\.0\.0\.1\s+' + [regex]::Escape($domain) + '(?:\s|$)'
-        if (-not ($hostLines | Where-Object { $_ -match $pattern })) {
-            $hostsOk = $false
-            break
-        }
-    }
-}
-
+$hostsNeedle = "127.0.0.1 $DnsName # Ananta-ps local proxy"
+$hostsOk = (Test-Path -LiteralPath $HostsPath) -and [bool](Select-String -LiteralPath $HostsPath -SimpleMatch $hostsNeedle -Quiet -ErrorAction SilentlyContinue)
 $certOk = $false
 if (Test-Path -LiteralPath $PfxPath) {
     try {
         $pfx = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2($PfxPath, $PfxPassphrase)
-        # Require the new normal root->leaf chain. Old packages used a self-signed
-        # CA=TRUE server certificate, which a later client TLS stack can reject.
-        $certOk = (
-            $pfx.NotAfter -gt (Get-Date).AddHours(1) -and
-            $pfx.Subject -eq ("CN={0}" -f $DnsName) -and
-            $pfx.Issuer -eq 'CN=Ananta Local Proxy Root'
-        )
+        $certOk = $pfx.NotAfter -gt (Get-Date).AddHours(1)
         $pfx.Dispose()
     } catch { $certOk = $false }
 }
 if (-not $certOk -or -not $hostsOk) {
-    Append-RunLog '[PROXY] repairing certificate/hosts redirects for login services'
     $setupScript = Join-Path $ProxyRoot 'SETUP_PROXY_AS_ADMIN.ps1'
     if (-not (Test-Path -LiteralPath $setupScript)) { Fail 'proxy setup script is missing' }
     if ((Invoke-SilentNative 'powershell.exe' @('-NoLogo', '-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', $setupScript) $Root) -ne 0) {
         Fail 'certificate/hosts setup failed'
-    }
-}
-
-# Fail early instead of opening a client that can only reach the menu.
-$hostLines = @(Get-Content -LiteralPath $HostsPath -ErrorAction SilentlyContinue)
-foreach ($domain in @('serverlist-test.l50.leihuo.netease.com','l50.gdl.netease.com','service.mkey.163.com','mgbsdk.matrix.netease.com')) {
-    $pattern = '^\s*127\.0\.0\.1\s+' + [regex]::Escape($domain) + '(?:\s|$)'
-    if (-not ($hostLines | Where-Object { $_ -match $pattern })) {
-        Fail "local proxy redirect is missing for $domain"
     }
 }
 

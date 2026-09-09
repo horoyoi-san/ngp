@@ -106,4 +106,25 @@ internal sealed class WorldEntryState
     internal float PendingSwitchFacing { get; set; } = Profile.WorldFacing;
     internal bool PendingSwitchControlTransferred { get; set; }
     internal bool PendingSwitchLandingStarted { get; set; }
+
+    // Admin / vehicle Phase-1 tracking. Guarded by SyncRoot like the rest of the state.
+    internal uint LastAdminVehicleId { get; set; }
+    internal ulong LastSpawnedVehicleUid { get; set; }
+    internal byte LastVehicleDriveState { get; set; }
+    internal bool HasVehicleDriveState { get; set; }
+
+    // Scene switches can land on any owned character; the strict initial-identity
+    // commit check is relaxed only when a switch rearmed the transaction.
+    internal bool WorldEntryAllowNonInitialControl { get; set; }
+
+    // Time/weather state (persist across scene switches; pushed on load when set).
+    internal uint TimeHour { get; set; }
+    internal uint TimeMinute { get; set; }
+    internal bool TimeFixed { get; set; }
+    internal uint TimeTransitionSeconds { get; set; }
+    internal bool HasExplicitTime { get; set; }
+    internal uint WeatherId { get; set; }
+    internal uint WeatherTransitionSeconds { get; set; }
+    internal bool HasExplicitWeather { get; set; }
+    internal bool IsHangup { get; set; }
 }

@@ -14,6 +14,7 @@ public sealed class PrivateServerConfig
 {
     public ClientSettings Client { get; init; } = new();
     public NetworkSettings Network { get; init; } = new();
+    public AdminSettings Admin { get; init; } = new();
     public PlayerSettings Player { get; init; } = new();
     public WorldSettings World { get; init; } = new();
     public ContentSettings Content { get; init; } = new();
@@ -77,6 +78,12 @@ public sealed class PrivateServerConfig
         Port(Network.Proxy.LoginTcpPort, "network.proxy.loginTcpPort");
         Port(Network.Proxy.GameTcpPort, "network.proxy.gameTcpPort");
         Port(Network.Proxy.SceneSubPort, "network.proxy.sceneSubPort");
+        if (Admin.Enabled)
+        {
+            if (string.IsNullOrWhiteSpace(Admin.Host))
+                throw new InvalidDataException("admin.host must not be empty when admin.enabled=true.");
+            Port(Admin.Port, "admin.port");
+        }
         if (string.IsNullOrWhiteSpace(Network.Proxy.UpdateHost) || string.IsNullOrWhiteSpace(Network.Proxy.CertificatePassphrase))
             throw new InvalidDataException("network.proxy.updateHost and certificatePassphrase must not be empty.");
         if (Content.Roster.UnitIdBase == 0) throw new InvalidDataException("content.roster.unitIdBase must not be zero.");
@@ -154,6 +161,14 @@ public sealed class ProxyNetworkSettings
     public int SceneSubPort { get; init; }
     public string UpdateHost { get; init; } = string.Empty;
     public string CertificatePassphrase { get; init; } = string.Empty;
+}
+
+public sealed class AdminSettings
+{
+    /// <summary>Embedded localhost admin panel (no auth — bind 127.0.0.1 only).</summary>
+    public bool Enabled { get; init; } = true;
+    public string Host { get; init; } = "127.0.0.1";
+    public int Port { get; init; } = 17888;
 }
 
 public sealed class PlayerSettings

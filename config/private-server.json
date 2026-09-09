@@ -26,6 +26,11 @@
       "certificatePassphrase": "ananta-local-proxy"
     }
   },
+  "admin": {
+    "enabled": true,
+    "host": "127.0.0.1",
+    "port": 17888
+  },
   "player": {
     "pid": 67,
     "initialUnitId": 100000000000,
@@ -211,7 +216,7 @@
       "grappleRearmDelayMs": 120
     },
     "vehicles": {
-      "enabled": false,
+      "enabled": true,
       "fleetIds": [
         81000007,
         81001001,

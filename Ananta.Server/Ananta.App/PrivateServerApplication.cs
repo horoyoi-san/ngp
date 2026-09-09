@@ -1,6 +1,7 @@
 using Ananta.SDK.Logging;
 using Ananta.SDK.Network;
 using Ananta.SDK.Rpc;
+using Ananta.Server.App.Admin;
 using Ananta.Server.Configuration;
 using Ananta.Server.Handlers.Game;
 using Ananta.Server.Handlers.LoginGate;
@@ -34,9 +35,12 @@ internal sealed class PrivateServerApplication(PrivateServerConfig config)
         // Bootstrap diagnostics stay in console-latest/archive; runtime output becomes visible here.
         RuntimeLogs.EndBootstrapQuietMode();
         Console.WriteLine($"[READY] นี่คือเวอร์ชั่น DEV ที่ไม่ได้รับคุณภาพจากเกม Ananta GAY | client={config.Client.Version} | pid={Profile.PlayerPid} | login={config.Network.AdvertisedHost}:{loginPortA},{loginPortB} | game=:{config.Network.GamePort}");
+        if (config.Admin.Enabled)
+            Console.WriteLine($"[READY] admin panel at http://{config.Admin.Host}:{config.Admin.Port}/");
 
+        var adminTask = new AdminWebServer(config).RunAsync(cancellationToken);
         var serverTasks = servers.Select(server => server.RunAsync(cancellationToken));
-        await Task.WhenAll(serverTasks);
+        await Task.WhenAll(serverTasks.Prepend(adminTask));
     }
 
     private static TcpServer CreateServer(string name, string host, int port, RpcRouter router, GameSessionHub? gameSessions = null)
@@ -44,6 +48,7 @@ internal sealed class PrivateServerApplication(PrivateServerConfig config)
             async (session, frame, token) =>
             {
                 gameSessions?.Touch(session);
+                GameAdminBridge.Touch(session);
                 await RpcFrameDispatcher.DispatchAsync(router, session, frame, token);
             });
 }

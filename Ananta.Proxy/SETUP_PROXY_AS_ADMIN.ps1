@@ -74,83 +74,56 @@ $Domains = @(
 
 New-Item -ItemType Directory -Force -Path $CertDir, $BackupDir | Out-Null
 
-Write-Host '[1/3] Preparing local proxy CA and TLS certificate...'
-$RootSubject = 'CN=Ananta Local Proxy Root'
-$RootCerPath = Join-Path $CertDir 'Ananta-local-root.cer'
+Write-Host '[1/3] Creating local proxy certificate...'
+$notBefore = [DateTimeOffset]::Now.AddMinutes(-5)
+$notAfter = [DateTimeOffset]::Now.AddDays(30)
+$key = [System.Security.Cryptography.RSA]::Create(2048)
+$subject = [System.Security.Cryptography.X509Certificates.X500DistinguishedName]::new("CN=$DnsName")
+$request = [System.Security.Cryptography.X509Certificates.CertificateRequest]::new(
+    $subject,
+    $key,
+    [System.Security.Cryptography.HashAlgorithmName]::SHA256,
+    [System.Security.Cryptography.RSASignaturePadding]::Pkcs1
+)
+
+$san = [System.Security.Cryptography.X509Certificates.SubjectAlternativeNameBuilder]::new()
+foreach ($domain in ($Domains + 'localhost' | Select-Object -Unique)) {
+    $san.AddDnsName($domain)
+}
+$san.AddIpAddress([System.Net.IPAddress]::Parse('127.0.0.1'))
+$request.CertificateExtensions.Add($san.Build())
+$request.CertificateExtensions.Add(
+    [System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension]::new($true, $false, 0, $true)
+)
+$request.CertificateExtensions.Add(
+    [System.Security.Cryptography.X509Certificates.X509KeyUsageExtension]::new(
+        [System.Security.Cryptography.X509Certificates.X509KeyUsageFlags]::DigitalSignature -bor
+        [System.Security.Cryptography.X509Certificates.X509KeyUsageFlags]::KeyEncipherment -bor
+        [System.Security.Cryptography.X509Certificates.X509KeyUsageFlags]::KeyCertSign,
+        $true
+    )
+)
+$eku = [System.Security.Cryptography.OidCollection]::new()
+$null = $eku.Add([System.Security.Cryptography.Oid]::new('1.3.6.1.5.5.7.3.1'))
+$request.CertificateExtensions.Add(
+    [System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension]::new($eku, $false)
+)
+$request.CertificateExtensions.Add(
+    [System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension]::new($request.PublicKey, $false)
+)
+
+$cert = $request.CreateSelfSigned($notBefore, $notAfter)
+$cert = [System.Security.Cryptography.X509Certificates.X509Certificate2]::new(
+    $cert.Export([System.Security.Cryptography.X509Certificates.X509ContentType]::Pfx, $PassPlain),
+    $PassPlain,
+    [System.Security.Cryptography.X509Certificates.X509KeyStorageFlags]::Exportable
+)
+
 $CerPath = Join-Path $CertDir "$DnsName.cer"
 $PfxPath = Join-Path $CertDir "$DnsName.pfx"
-$SecurePass = ConvertTo-SecureString -String $PassPlain -AsPlainText -Force
-
-# Older builds used one self-signed CA=TRUE certificate as both trust anchor and
-# HTTPS server certificate. Unity's early downloader accepts that, while a later
-# HTTP stack can reject it during the same boot. Remove only that old Ananta-style
-# self-signed leaf from the machine root store before creating a normal chain.
-foreach ($old in @(Get-ChildItem Cert:\LocalMachine\Root -ErrorAction SilentlyContinue | Where-Object {
-    $_.Subject -eq "CN=$DnsName" -and $_.Issuer -eq "CN=$DnsName"
-})) {
-    try { Remove-Item -LiteralPath ("Cert:\LocalMachine\Root\{0}" -f $old.Thumbprint) -Force -ErrorAction SilentlyContinue } catch { }
-}
-
-# Reuse one persistent local CA instead of changing trust identity every launch.
-$rootCert = Get-ChildItem Cert:\LocalMachine\My -ErrorAction SilentlyContinue |
-    Where-Object {
-        $_.Subject -eq $RootSubject -and $_.HasPrivateKey -and $_.NotAfter -gt (Get-Date).AddDays(7)
-    } |
-    Sort-Object NotAfter -Descending |
-    Select-Object -First 1
-
-if (-not $rootCert) {
-    $rootCert = New-SelfSignedCertificate `
-        -Type Custom `
-        -Subject $RootSubject `
-        -FriendlyName 'Ananta Local Proxy Root' `
-        -CertStoreLocation 'Cert:\LocalMachine\My' `
-        -KeyAlgorithm RSA `
-        -KeyLength 3072 `
-        -HashAlgorithm SHA256 `
-        -KeyExportPolicy Exportable `
-        -KeyUsage CertSign,CRLSign,DigitalSignature `
-        -NotBefore (Get-Date).AddMinutes(-10) `
-        -NotAfter (Get-Date).AddYears(5) `
-        -TextExtension @('2.5.29.19={critical}{text}ca=1&pathlength=1')
-}
-
-Export-Certificate -Cert $rootCert -FilePath $RootCerPath -Force | Out-Null
-$trustedRoot = Get-ChildItem Cert:\LocalMachine\Root -ErrorAction SilentlyContinue |
-    Where-Object { $_.Thumbprint -eq $rootCert.Thumbprint } |
-    Select-Object -First 1
-if (-not $trustedRoot) {
-    Import-Certificate -FilePath $RootCerPath -CertStoreLocation 'Cert:\LocalMachine\Root' | Out-Null
-}
-
-# Always refresh only the leaf. It is CA=FALSE, carries the complete SAN set and
-# is signed by the stable Ananta root above. This is the normal chain expected by
-# stricter TLS clients.
-$leaf = New-SelfSignedCertificate `
-    -Type Custom `
-    -Subject "CN=$DnsName" `
-    -FriendlyName 'Ananta Local HTTPS Proxy' `
-    -DnsName (($Domains + 'localhost') | Select-Object -Unique) `
-    -Signer $rootCert `
-    -CertStoreLocation 'Cert:\LocalMachine\My' `
-    -KeyAlgorithm RSA `
-    -KeyLength 2048 `
-    -HashAlgorithm SHA256 `
-    -KeyExportPolicy Exportable `
-    -KeyUsage DigitalSignature,KeyEncipherment `
-    -NotBefore (Get-Date).AddMinutes(-10) `
-    -NotAfter (Get-Date).AddDays(120) `
-    -TextExtension @(
-        '2.5.29.19={critical}{text}ca=0',
-        '2.5.29.37={text}1.3.6.1.5.5.7.3.1'
-    )
-
-Export-Certificate -Cert $leaf -FilePath $CerPath -Force | Out-Null
-Export-PfxCertificate -Cert $leaf -FilePath $PfxPath -Password $SecurePass -ChainOption BuildChain -Force | Out-Null
-
-# The proxy only needs the exported leaf PFX; keep the CA private key for future
-# leaf renewal but remove the redundant leaf copy from LocalMachine\My.
-try { Remove-Item -LiteralPath ("Cert:\LocalMachine\My\{0}" -f $leaf.Thumbprint) -Force -ErrorAction SilentlyContinue } catch { }
+[System.IO.File]::WriteAllBytes($CerPath, $cert.Export([System.Security.Cryptography.X509Certificates.X509ContentType]::Cert))
+[System.IO.File]::WriteAllBytes($PfxPath, $cert.Export([System.Security.Cryptography.X509Certificates.X509ContentType]::Pfx, $PassPlain))
+& certutil.exe -addstore -f Root $CerPath | Out-Null
 
 Write-Host '[2/3] Checking hosts entries...'
 
@@ -160,20 +133,10 @@ $lines = if ($hostsExisted) { @(Get-Content -LiteralPath $HostsPath -ErrorAction
 # user's own custom hosts entries untouched).
 $kept = foreach ($line in $lines) {
     $managed = $false
-    $trimmed = ([string]$line).Trim()
-    if ($trimmed -and -not $trimmed.StartsWith('#')) {
-        # Remove any pre-existing mapping for one of our managed domains,
-        # regardless of IP (127.0.0.1, ::1, stale LAN/VPN address, etc.).
-        # Duplicate/conflicting hosts entries are enough to send UniSDK to the
-        # real mgbsdk endpoint and produce login code 220.
-        $tokens = @($trimmed -split '\s+' | Where-Object { $_ -and -not $_.StartsWith('#') })
-        if ($tokens.Count -ge 2) {
-            foreach ($domain in $Domains) {
-                if ($tokens[1..($tokens.Count - 1)] -contains $domain) {
-                    $managed = $true
-                    break
-                }
-            }
+    foreach ($domain in $Domains) {
+        if ($line -match "^\s*#?\s*127\.0\.0\.1\s+$([regex]::Escape($domain))(\s|$)") {
+            $managed = $true
+            break
         }
     }
     if (-not $managed) { $line }
@@ -197,8 +160,14 @@ if ($desired -eq $currentContent) {
     $existingBackups = Get-ChildItem -Path $BackupDir -Filter 'hosts-before-Ananta-*.txt' -ErrorAction SilentlyContinue
     $alreadyBackedUp = $false
     foreach ($b in $existingBackups) {
-        if (((Get-Content -LiteralPath $b.FullName -Raw -ErrorAction SilentlyContinue)).TrimEnd() -eq $currentContent) {
-            $alreadyBackedUp = $true; break
+        $backupContent = Get-Content -LiteralPath $b.FullName -Raw -ErrorAction SilentlyContinue
+        if ($null -eq $backupContent) {
+            $backupContent = ''
+        }
+
+        if ($backupContent.TrimEnd() -eq $currentContent) {
+            $alreadyBackedUp = $true
+            break
         }
     }
     if ($hostsExisted -and -not $alreadyBackedUp) {
