@@ -1,4 +1,4 @@
-﻿$ErrorActionPreference = 'Stop'
+$ErrorActionPreference = 'Stop'
 $Root = Split-Path -Parent $MyInvocation.MyCommand.Path
 $ConfigPath = Join-Path $Root 'config\private-server.json'
 $ProxyRoot = Join-Path $Root 'Ananta.Proxy'
@@ -176,7 +176,7 @@ $consoleDisplay = if ($ConsoleLoggingEnabled) { $script:ConsoleLogLatest } else 
 $packetDisplay = if ($PacketLoggingEnabled) { $PacketLogLatest } else { 'disabled' }
 Append-RunLog '[START] launching standalone bootstrap...'
 Append-RunLog ("[LOGS] console={0} | packets={1}" -f $consoleDisplay, $packetDisplay)
-Append-RunLog ("[BUILD] นี่คือเวอร์ชั่น DEV ที่ไม่ได้รับคุณภาพจากเกม Ananta GAY | client {0} | world-entry + switching + buffs/combat" -f $Config.client.version)
+Append-RunLog ("[BUILD] Ananta Private Server | client {0} | world-entry + switching + buffs/combat" -f $Config.client.version)
 Append-RunLog "[CONFIG] $ConfigPath"
 Append-RunLog "[CONFIG] pid=$($Config.player.pid) spirit=$($Config.player.initialSpiritTemplateId) raid=$($Config.world.raidId)"
 
@@ -273,7 +273,13 @@ $certOk = $false
 if (Test-Path -LiteralPath $PfxPath) {
     try {
         $pfx = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2($PfxPath, $PfxPassphrase)
-        $certOk = $pfx.NotAfter -gt (Get-Date).AddHours(1)
+        # Require the new normal root->leaf chain. Old packages used a self-signed
+        # CA=TRUE server certificate, which a later client TLS stack can reject.
+        $certOk = (
+            $pfx.NotAfter -gt (Get-Date).AddHours(1) -and
+            $pfx.Subject -eq ("CN={0}" -f $DnsName) -and
+            $pfx.Issuer -eq 'CN=Ananta Local Proxy Root'
+        )
         $pfx.Dispose()
     } catch { $certOk = $false }
 }

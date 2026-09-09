@@ -1,7 +1,0 @@
-Ananta 4229938 DEVICE-ID FIX
-
-- UniSDK/MPay responses always contain a non-empty device identity.
-- The proxy recognizes deviceid/device_id/deviceId/udid and UniSDK variants.
-- If the client sends its own device identity in URL/body/headers, the proxy remembers and echoes it.
-- If the client has not sent one yet, a deterministic non-empty fallback is used.
-- Device fields are present in account, sauth, uni_sauth, check_enter, local-empty, generic mgbsdk and TCP CheckAccount JSON.
