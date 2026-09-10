@@ -197,6 +197,12 @@ internal sealed class DebugApiServer(PrivateServerConfig config, GameSessionHub 
         internal static readonly Entry[] All =
         [
             // Sport / Luxury / Unique
+            new(81005001, "Kazama CE68", "sport"),
+            new(81005008, "Hoyne Bridgemont Aether", "sport"),
+            new(81005013, "NO001", "sport"),
+            new(81007004, "NO002", "sport"),
+            new(81007086, "GTR-S55", "sport"),
+            new(81005009, "Pallas Solaris", "sport"),
             new(81005005, "Erebos E55 L convertible", "sport"),
             new(81007068, "Erebos E55 L [broken]", "sport"),
             new(81007085, "Erebos E55 L [broken]", "sport"),
