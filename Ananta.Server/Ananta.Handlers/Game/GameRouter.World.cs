@@ -48,6 +48,8 @@ internal sealed partial class GameRouter
             state.HasLastReportedPlayerTransform = false;
             state.LastSwitchShowId = 0;
             state.AllBuildBuffsPublished = false;
+            state.GaragePublished = false;
+            state.AetherVehicleInitSent = false;
             state.InitialActorPresentationPublished = false;
             state.ActiveSpiritUnitId = Profile.InitialUnitId;
             state.ActiveSpiritTemplateId = Profile.InitialSpiritTemplateId;
@@ -67,7 +69,6 @@ internal sealed partial class GameRouter
 
         await ctx.NotifyAsync(MethodId.SendServerTimeGame, LoginCodec.ServerTime());
         await ctx.NotifyAsync(MethodId.SyncPlayerInfo, RuntimePayloadFactory.MinimalPlayerInfo4229938());
-        await PublishVehicleOwnership(ctx);
         await SendEnterSceneIfNeeded(ctx);
     }
 
@@ -125,11 +126,8 @@ internal sealed partial class GameRouter
             else if (state.ActiveSpiritUnitId != state.WorldEntryControlUnit
                   || state.ActiveSpiritTemplateId != state.WorldEntryControlTemplate)
                 reject = "active-identity-mismatch";
-            // Login must land on the configured initial actor. Scene switches re-arm the
-            // transaction on whichever character is currently active (flag set by rearm only).
-            else if (!state.WorldEntryAllowNonInitialControl
-                  && (state.WorldEntryControlUnit != Profile.InitialUnitId
-                   || state.WorldEntryControlTemplate != Profile.InitialSpiritTemplateId))
+            else if (state.WorldEntryControlUnit != Profile.InitialUnitId
+                  || state.WorldEntryControlTemplate != Profile.InitialSpiritTemplateId)
                 reject = "profile-identity-mismatch";
             else if (!ClientConfigRepository.Characters().Any(x =>
                          x.UnitId == state.WorldEntryControlUnit &&
@@ -305,6 +303,9 @@ internal sealed partial class GameRouter
             state.FreeRoamReleased = false;
             state.MovementCapabilityPublished = false;
             state.AllBuildBuffsPublished = false;
+            state.GaragePublished = false;
+            state.AetherVehicleInitSent = false;
+            ResetVehicleStory(ctx.Session);
             state.InitialActorPresentationPublished = false;
             state.InitialCapabilityBuffsPublished = false;
             state.WorldEntryControlPending = false;
@@ -317,7 +318,8 @@ internal sealed partial class GameRouter
 
         // Normal post-load finalization, deliberately after the terminal scene-ready edge.
         await ctx.NotifyAsync(MethodId.SyncGamePause, WorldCodec.GamePause(false));
-        await EnsureAetherVehicleInit(ctx);
+        await PublishGarageAsync(ctx);
+        await PublishAetherInitAsync(ctx);
         await EnsureVehicleStoryRoot(ctx);
         await PushSessionTimeAsync(ctx.Session);
         await PushSessionWeatherAsync(ctx.Session);

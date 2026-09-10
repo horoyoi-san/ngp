@@ -14,7 +14,6 @@ public sealed class PrivateServerConfig
 {
     public ClientSettings Client { get; init; } = new();
     public NetworkSettings Network { get; init; } = new();
-    public AdminSettings Admin { get; init; } = new();
     public PlayerSettings Player { get; init; } = new();
     public WorldSettings World { get; init; } = new();
     public ContentSettings Content { get; init; } = new();
@@ -22,6 +21,7 @@ public sealed class PrivateServerConfig
     public UiSettings Ui { get; init; } = new();
     public LoggingSettings Logging { get; init; } = new();
     public PathSettings Paths { get; init; } = new();
+    public DebugSettings Debug { get; init; } = new();
 
     internal void Validate()
     {
@@ -78,12 +78,6 @@ public sealed class PrivateServerConfig
         Port(Network.Proxy.LoginTcpPort, "network.proxy.loginTcpPort");
         Port(Network.Proxy.GameTcpPort, "network.proxy.gameTcpPort");
         Port(Network.Proxy.SceneSubPort, "network.proxy.sceneSubPort");
-        if (Admin.Enabled)
-        {
-            if (string.IsNullOrWhiteSpace(Admin.Host))
-                throw new InvalidDataException("admin.host must not be empty when admin.enabled=true.");
-            Port(Admin.Port, "admin.port");
-        }
         if (string.IsNullOrWhiteSpace(Network.Proxy.UpdateHost) || string.IsNullOrWhiteSpace(Network.Proxy.CertificatePassphrase))
             throw new InvalidDataException("network.proxy.updateHost and certificatePassphrase must not be empty.");
         if (Content.Roster.UnitIdBase == 0) throw new InvalidDataException("content.roster.unitIdBase must not be zero.");
@@ -129,6 +123,11 @@ public sealed class PrivateServerConfig
             throw new InvalidDataException("paths.clientConfigs must not be empty.");
         if (string.IsNullOrWhiteSpace(Paths.RuntimeFastpatch))
             throw new InvalidDataException("paths.runtimeFastpatch must not be empty.");
+        if (Debug.Enabled)
+        {
+            if (string.IsNullOrWhiteSpace(Debug.Host)) throw new InvalidDataException("debug.host must not be empty when debug is enabled.");
+            Port(Debug.Port, "debug.port");
+        }
     }
 }
 
@@ -161,14 +160,6 @@ public sealed class ProxyNetworkSettings
     public int SceneSubPort { get; init; }
     public string UpdateHost { get; init; } = string.Empty;
     public string CertificatePassphrase { get; init; } = string.Empty;
-}
-
-public sealed class AdminSettings
-{
-    /// <summary>Embedded localhost admin panel (no auth — bind 127.0.0.1 only).</summary>
-    public bool Enabled { get; init; } = true;
-    public string Host { get; init; } = "127.0.0.1";
-    public int Port { get; init; } = 17888;
 }
 
 public sealed class PlayerSettings
@@ -471,6 +462,14 @@ public sealed class PathSettings
 
     /// <summary>Disposable generated fastpatch staging directory.</summary>
     public string RuntimeFastpatch { get; init; } = ".runtime/fastpatch";
+}
+
+/// <summary>Localhost-only HTTP debug API for the Python debug panel (status, garage resync, teleport).</summary>
+public sealed class DebugSettings
+{
+    public bool Enabled { get; init; } = true;
+    public string Host { get; init; } = "127.0.0.1";
+    public int Port { get; init; } = 5809;
 }
 
 internal static class PrivateServerConfigStore

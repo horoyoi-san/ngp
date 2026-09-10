@@ -20,9 +20,10 @@ internal sealed record StoryClientCommand4229938(
 /// Parser for the 4229938 story channel (SyncStoryCoreClientInfo, 67130745):
 /// an inline List7Bit of complex StoryClientCommand entries.
 /// Command marks: ConfirmRpc 2, Message 4, SetObservable-shaped 5, reliable RpcId-only 3/6.
-/// Payload marks: Bool 5, Byte 6, Int 12, S011EnterVehicleRequest 36, S011VehicleAndSeat 37,
-/// ULong 44. Shapes verified against dump.cs (StoryClientCommand base, payload V fields,
-/// S011EnterVehicleRequestPayload{VehicleId, SeatIndices}, S011VehicleAndSeatPayload).
+/// Payload marks: Bool 5, Byte 6, Int 12, S011EnterVehicleRequest 35 (NOT 36 — V2's value
+/// is from another build; proven live 2026-09-09: hex ...-23-<u64>-FF-03-<seats>),
+/// S011VehicleAndSeat 37, ULong 44. Shapes verified against dump.cs (StoryClientCommand base,
+/// payload V fields, S011EnterVehicleRequestPayload{VehicleId, SeatIndices}, S011VehicleAndSeatPayload).
 /// An unknown command or payload aborts that message's parse; the prefix is still returned.
 /// </summary>
 internal static class StoryVehicleCodec4229938
@@ -119,7 +120,8 @@ internal static class StoryVehicleCodec4229938
                 return ("Int", null, null, null, reader.I32(), null);
             case 44: // ULongPayload { V u64 }
                 return ("ULong", null, null, null, null, reader.U64());
-            case 36: // S011EnterVehicleRequestPayload { VehicleId u64, SeatIndices byte[]? }
+            case 35: // S011EnterVehicleRequestPayload { VehicleId u64, SeatIndices byte[]? }
+            case 36: // same shape under V2's build; kept for tolerance
             {
                 ulong vehicleId = reader.U64();
                 List<byte>? seats = null;

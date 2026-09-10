@@ -157,7 +157,8 @@ internal sealed partial class GameRouter
         ctx.Session.Log.Info($"[BUFFS-MIN] {phase} unit={unitId} template={templateId} count={buffs.Count} firstInstance={firstInstanceId} bulk=false safeWebOnly=true legacyCatalogLoaded=false");
     }
 
-    async Task PublishInitialCapabilityBuffs(RpcContext ctx)    {
+    async Task PublishInitialCapabilityBuffs(RpcContext ctx)
+    {
         var state = GetWorldState(ctx);
         if (state.InitialCapabilityBuffsPublished)
             return;
@@ -171,50 +172,6 @@ internal sealed partial class GameRouter
             WorldCodec.UnitBuffList(Profile.InitialUnitId, WebTraversal.InitialCapabilityBuffIds, firstInstanceId));
         state.NextBuffInstanceId += (uint)WebTraversal.InitialCapabilityBuffIds.Count;
         ctx.Session.Log.Info($"[CAPABILITY] initial unit={Profile.InitialUnitId} count={WebTraversal.InitialCapabilityBuffIds.Count} loadingSafe=true allBuffsDeferred=true");
-    }
-
-    /// <summary>
-    /// One-shot combat profile per world entry: HP/attrs/urban/fight-style unlocks,
-    /// skill charges, resources, battle module, weapon snapshot, skill bindings.
-    /// Until this runs, OnClientUseSkill rejects skill requests (CombatProfilePublished).
-    /// Runs on first gameplay movement (deferred hydration), mirroring the reference build.
-    /// </summary>
-    async Task PublishCombatProfile(RpcContext ctx, ulong unitId, uint templateId)
-    {
-        var state = GetWorldState(ctx);
-        lock (state.SyncRoot)
-        {
-            if (state.CombatProfilePublished)
-                return;
-            state.CombatProfilePublished = true;
-        }
-
-        var weapon = CombatCodec.DefaultWeapon(templateId);
-        var style = ResolveWeaponStyle(state, weapon);
-        lock (state.SyncRoot)
-        {
-            state.ActiveWeaponInstanceId = weapon.InstanceId;
-            state.ActiveFightStyleId = style.Id;
-            state.LastWeaponBySpirit[templateId] = weapon.InstanceId;
-        }
-
-        await ctx.NotifyAsync(MethodId.SyncUnitHp, CombatCodec.UnitHp(unitId, CombatCodec.MaxHp));
-        await ctx.NotifyAsync(MethodId.SyncUnitAttrs, CombatCodec.UnitAttrs(unitId, CombatCodec.MaxHp));
-        await ctx.NotifyAsync(MethodId.SyncSpiritUnitUrbanAttrs, CombatCodec.UrbanAttrs(unitId));
-        await ctx.NotifyAsync(MethodId.SyncPlayerFightStyleUnLockInfo, CombatCodec.FightStyleUnlock());
-        await ctx.NotifyAsync(MethodId.SyncSpiritFightStyleChangeAction, CombatCodec.FightStyleAction(templateId));
-        await ctx.NotifyAsync(MethodId.SyncPlayerAllSkillChargeData, CombatCodec.AllSkillCharges(unitId, weapon, style));
-        await PublishCombatResources(ctx, unitId);
-        await ctx.NotifyAsync(MethodId.SyncAttachBattleModule, CombatCodec.AttachBattleModule(unitId));
-        await PublishWeaponSnapshot(ctx, unitId, templateId, weapon.InstanceId);
-        await PublishSkillBindings(ctx, unitId, weapon, style);
-        await ctx.NotifyAsync(MethodId.SyncSpiritLastUsedWeapon,
-            CombatCodec.SpiritLastUsedWeapon(templateId, weapon.InstanceId));
-        await ctx.NotifyAsync(MethodId.SyncSpiritSwitchWeaponAction,
-            CombatCodec.SpiritSwitchWeapon(unitId, weapon.InstanceId));
-        await PublishInitialCapabilityBuffs(ctx);
-
-        ctx.Session.Log.Info($"[COMBAT] profile unit={unitId} template={templateId} weapon={weapon.TemplateId}/{weapon.InstanceId} style={style.Id} skills=true");
     }
 
 }

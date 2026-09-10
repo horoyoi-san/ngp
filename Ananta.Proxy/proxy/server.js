@@ -578,9 +578,117 @@ function isUpdateHost(req) {
   );
 }
 
+const DEFAULT_DEVICE_ID = crypto
+  .createHash("md5")
+  .update(`Ananta:${LOCAL_ACCOUNT_ID}:${LOCAL_PLAYER_PID}`)
+  .digest("hex")
+  .toUpperCase();
+
+let lastClientDeviceIdentity = {
+  deviceid: DEFAULT_DEVICE_ID,
+  udid: DEFAULT_DEVICE_ID,
+};
+
+function normalizeDeviceIdentityValue(value) {
+  if (value === null || value === undefined) return "";
+  const text = String(value).trim();
+  if (!text || text === "null" || text === "undefined") return "";
+  return text.slice(0, 256);
+}
+
+function extractDeviceIdentityFromObject(value, out = {}) {
+  if (!value || typeof value !== "object") return out;
+  const keys = Object.keys(value);
+  for (const key of keys) {
+    const lower = key.toLowerCase().replace(/[-_]/g, "");
+    const raw = value[key];
+    if (lower === "deviceid" || lower === "unisdkdeviceid") {
+      const v = normalizeDeviceIdentityValue(raw);
+      if (v) out.deviceid = v;
+    } else if (lower === "udid") {
+      const v = normalizeDeviceIdentityValue(raw);
+      if (v) out.udid = v;
+    } else if (raw && typeof raw === "object") {
+      extractDeviceIdentityFromObject(raw, out);
+    }
+  }
+  return out;
+}
+
+function parseMaybeJson(text) {
+  if (!text) return null;
+  try { return JSON.parse(text); } catch { return null; }
+}
+
+function rememberClientDeviceIdentity(req, bodyText = "") {
+  const found = {};
+  try {
+    const url = new URL(req.url || "/", "https://localhost");
+    for (const [key, value] of url.searchParams.entries()) {
+      extractDeviceIdentityFromObject({ [key]: value }, found);
+    }
+  } catch {}
+
+  const contentType = String(req.headers["content-type"] || "").toLowerCase();
+  const json = parseMaybeJson(bodyText);
+  if (json) extractDeviceIdentityFromObject(json, found);
+
+  if (bodyText && (!json || contentType.includes("application/x-www-form-urlencoded"))) {
+    try {
+      const params = new URLSearchParams(bodyText);
+      for (const [key, value] of params.entries()) {
+        extractDeviceIdentityFromObject({ [key]: value }, found);
+        const nested = parseMaybeJson(value);
+        if (nested) extractDeviceIdentityFromObject(nested, found);
+      }
+    } catch {}
+  }
+
+  for (const [key, value] of Object.entries(req.headers || {})) {
+    extractDeviceIdentityFromObject({ [key]: Array.isArray(value) ? value[0] : value }, found);
+  }
+
+  if (found.deviceid || found.udid) {
+    const next = {
+      deviceid: found.deviceid || found.udid || lastClientDeviceIdentity.deviceid || DEFAULT_DEVICE_ID,
+      udid: found.udid || found.deviceid || lastClientDeviceIdentity.udid || DEFAULT_DEVICE_ID,
+    };
+    if (next.deviceid !== lastClientDeviceIdentity.deviceid || next.udid !== lastClientDeviceIdentity.udid) {
+      log(`unisdk-device captured deviceid=${JSON.stringify(next.deviceid)} udid=${JSON.stringify(next.udid)}`);
+    }
+    lastClientDeviceIdentity = next;
+  }
+
+  return lastClientDeviceIdentity;
+}
+
+function deviceIdentityFields() {
+  const identity = lastClientDeviceIdentity || {};
+  const deviceid = normalizeDeviceIdentityValue(identity.deviceid || identity.udid) || DEFAULT_DEVICE_ID;
+  const udid = normalizeDeviceIdentityValue(identity.udid || identity.deviceid) || deviceid;
+  const deviceInfo = {
+    deviceid,
+    device_id: deviceid,
+    deviceId: deviceid,
+    udid,
+    UDID: udid,
+    unisdk_device_id: deviceid,
+    unisdkDeviceId: deviceid,
+    UnisdkDeviceId: deviceid,
+  };
+  return {
+    ...deviceInfo,
+    device: { ...deviceInfo },
+    device_info: { ...deviceInfo },
+    deviceInfo: { ...deviceInfo },
+  };
+}
+
 function localSauthPayload() {
   const pid = String(LOCAL_PLAYER_PID);
+  const device = deviceIdentityFields();
   return {
+    ...device,
     code: 200,
     subcode: 0,
     msg: "ok",
@@ -621,7 +729,9 @@ function localSauthPayload() {
 
 function localUniSdkLoginJson() {
   const sauth = localSauthPayload();
+  const device = deviceIdentityFields();
   return {
+    ...device,
     code: 200,
     subcode: 0,
     msg: "ok",
@@ -662,8 +772,10 @@ function localUniSdkLoginJson() {
 
 function localLoginDataJsonString() {
   const sauth = localSauthPayload();
+  const device = deviceIdentityFields();
   const uniSdkLogin = localUniSdkLoginJson();
   return JSON.stringify({
+    ...device,
     code: 200,
     subcode: 0,
     msg: "ok",
@@ -711,10 +823,12 @@ function localLoginDataJsonString() {
 
 function localAccountPayload() {
   const sauth = localSauthPayload();
+  const device = deviceIdentityFields();
   const uniSdkLogin = localUniSdkLoginJson();
   const sauthJson = JSON.stringify(sauth);
   const uniSdkLoginJson = JSON.stringify(uniSdkLogin);
   const extraUniSdkData = {
+    ...device,
     NT_SAUTH_STR: sauthJson,
     SAUTH_STR: sauthJson,
     SAUTH_JSON: sauthJson,
@@ -725,6 +839,7 @@ function localAccountPayload() {
   };
 
   return {
+    ...device,
     id: LOCAL_ACCOUNT_ID,
     accountId: LOCAL_ACCOUNT_ID,
     account_id: LOCAL_ACCOUNT_ID,
@@ -778,11 +893,13 @@ function localAccountPayload() {
     unisdk_login_json: uniSdkLoginJson,
     extra_unisdk_data: extraUniSdkData,
     pc_ext_info: {
+      ...device,
       extra_unisdk_data: extraUniSdkData,
       SAUTH_STR: sauthJson,
       SAUTH_JSON: sauthJson,
     },
     pc_ext_info_json: JSON.stringify({
+      ...device,
       extra_unisdk_data: extraUniSdkData,
       SAUTH_STR: sauthJson,
       SAUTH_JSON: sauthJson,
@@ -805,9 +922,11 @@ function localAccountPayload() {
 function localUniSauthResponse() {
   const sauth = localSauthPayload();
   const account = localAccountPayload();
+  const device = deviceIdentityFields();
   const sauthJson = JSON.stringify(sauth);
   const uniSdkLoginJson = JSON.stringify(localUniSdkLoginJson());
   return {
+    ...device,
     code: 200,
     subcode: 0,
     ret: 0,
@@ -849,7 +968,9 @@ function localUniSauthResponse() {
 function localCheckEnterResponse() {
   const sauth = localSauthPayload();
   const account = localAccountPayload();
+  const device = deviceIdentityFields();
   return {
+    ...device,
     code: 200,
     subcode: 0,
     ret: 0,
@@ -883,6 +1004,7 @@ function localCheckEnterResponse() {
     allow_enter: true,
     is_can_enter: true,
     data: {
+      ...device,
       code: 200,
       subcode: 0,
       msg: "ok",
@@ -995,7 +1117,18 @@ function mpayOk(data, extra = {}) {
 
 function localMpayLoginUrl(host) {
   const safeHost = (host || "service.mkey.163.com").split(":")[0];
-  return `https://${safeHost}/local-mpay-login`;
+  // Real MPay URLs carry both names. 4229938/MPay webview reads these
+  // directly from the login URL, not only from the JSON user object.
+  const device = deviceIdentityFields();
+  const params = new URLSearchParams({
+    game_id: "l50",
+    app_type: "games",
+    app_channel: "netease",
+    udid: device.udid,
+    device_id: device.device_id,
+    deviceid: device.deviceid,
+  });
+  return `https://${safeHost}/local-mpay-login?${params.toString()}`;
 }
 
 function localMpayEmptyUrl(host) {
@@ -1322,6 +1455,9 @@ function serveLocalMpayLoginPage(res) {
       methodId: "ngwebview_notify_native",
       reqData: {
         methodId: "onUserLogin",
+        device_id: user.device_id,
+        deviceid: user.deviceid,
+        udid: user.udid,
         user
       }
     };
@@ -1520,6 +1656,7 @@ async function captureUniSdkRequest(req, res) {
   }
 
   const body = await collectRequestBody(req);
+  rememberClientDeviceIdentity(req, body.text);
   log(`unisdk-capture ${req.method} https://${host}${req.url} bodyBytes=${body.size} body=${JSON.stringify(body.text)}`);
 
   const pathname = req.url.split("?")[0].toLowerCase();
@@ -1542,7 +1679,8 @@ async function captureUniSdkRequest(req, res) {
     if (accept.includes("text/html")) {
       serveHtml(res, "<!doctype html><meta charset=\"utf-8\"><title>ok</title>");
     } else {
-      serveJson(res, { code: 0, ret: 0, result: 0, errno: 0, msg: "ok", data: {} });
+      const device = deviceIdentityFields();
+      serveJson(res, { code: 0, ret: 0, result: 0, errno: 0, msg: "ok", ...device, data: device });
     }
     return;
   }
@@ -1578,7 +1716,9 @@ async function captureUniSdkRequest(req, res) {
 
   if (isMgbsdkHost) {
     log(`local-mgbsdk-generic ${req.method} https://${host}${req.url}`);
+    const device = deviceIdentityFields();
     serveJson(res, {
+      ...device,
       code: 200,
       subcode: 0,
       ret: 0,
@@ -1588,7 +1728,7 @@ async function captureUniSdkRequest(req, res) {
       success: true,
       msg: "ok",
       message: "ok",
-      data: {},
+      data: device,
     });
     return;
   }
@@ -1685,7 +1825,9 @@ async function captureUniSdkRequest(req, res) {
   }
 
   const account = localAccountPayload();
+  const device = deviceIdentityFields();
   serveJson(res, {
+    ...device,
     code: 0,
     ret: 0,
     result: 0,

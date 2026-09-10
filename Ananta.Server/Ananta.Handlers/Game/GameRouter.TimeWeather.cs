@@ -8,12 +8,17 @@ namespace Ananta.Server.Handlers.Game;
 
 /// <summary>
 /// Time + weather. The client runs its clock/atmosphere locally; these handlers make
-/// the in-game time UI work (accept + remember) and the admin panel can force both:
-/// time via SyncPlayerCurrentTime (proto-verified shape), weather via SyncPlayerWeather
-/// (lua-reader-verified: 3× u32). Stored per session, re-pushed after every load.
+/// the in-game time UI work (accept + remember) and the debug panel can force it:
+/// time via SyncPlayerCurrentTime (proto-verified shape). Stored per session,
+/// re-pushed after every load.
 /// </summary>
 internal sealed partial class GameRouter
 {
+    internal static WorldEntryState? GetStateIfExists(TcpSession session)
+        => session.Items.TryGetValue(WorldStateKey, out var raw) && raw is WorldEntryState existing
+            ? existing
+            : null;
+
     private static void SetSessionTime(WorldEntryState state, uint hour, uint minute, bool fix, uint transition)
     {
         lock (state.SyncRoot)

@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net8.0": {
       "Ananta.Core/1.0.0": {
@@ -90,11 +90,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Horoyoi-san\\PS\\ngp\\DRMK-PS_09\\DRMK-PS_09\\Ananta.Server\\Ananta.Handlers\\Ananta.Handlers.csproj",
+      "projectUniqueName": "C:\\Horoyoi-san\\PS\\ngp\\DRMK-PS_08.05_Lyco-v0.1.0\\Ananta.Server\\Ananta.Handlers\\Ananta.Handlers.csproj",
       "projectName": "Ananta.Handlers",
-      "projectPath": "C:\\Horoyoi-san\\PS\\ngp\\DRMK-PS_09\\DRMK-PS_09\\Ananta.Server\\Ananta.Handlers\\Ananta.Handlers.csproj",
+      "projectPath": "C:\\Horoyoi-san\\PS\\ngp\\DRMK-PS_08.05_Lyco-v0.1.0\\Ananta.Server\\Ananta.Handlers\\Ananta.Handlers.csproj",
       "packagesPath": "C:\\Users\\korra\\.nuget\\packages\\",
-      "outputPath": "C:\\Horoyoi-san\\PS\\ngp\\DRMK-PS_09\\DRMK-PS_09\\Ananta.Server\\Ananta.Handlers\\obj\\",
+      "outputPath": "C:\\Horoyoi-san\\PS\\ngp\\DRMK-PS_08.05_Lyco-v0.1.0\\Ananta.Server\\Ananta.Handlers\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\korra\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -107,19 +107,20 @@
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Horoyoi-san\\PS\\ngp\\DRMK-PS_09\\DRMK-PS_09\\Ananta.SDK\\Ananta.SDK.csproj": {
-              "projectPath": "C:\\Horoyoi-san\\PS\\ngp\\DRMK-PS_09\\DRMK-PS_09\\Ananta.SDK\\Ananta.SDK.csproj"
+            "C:\\Horoyoi-san\\PS\\ngp\\DRMK-PS_08.05_Lyco-v0.1.0\\Ananta.SDK\\Ananta.SDK.csproj": {
+              "projectPath": "C:\\Horoyoi-san\\PS\\ngp\\DRMK-PS_08.05_Lyco-v0.1.0\\Ananta.SDK\\Ananta.SDK.csproj"
             },
-            "C:\\Horoyoi-san\\PS\\ngp\\DRMK-PS_09\\DRMK-PS_09\\Ananta.Server\\Ananta.Core\\Ananta.Core.csproj": {
-              "projectPath": "C:\\Horoyoi-san\\PS\\ngp\\DRMK-PS_09\\DRMK-PS_09\\Ananta.Server\\Ananta.Core\\Ananta.Core.csproj"
+            "C:\\Horoyoi-san\\PS\\ngp\\DRMK-PS_08.05_Lyco-v0.1.0\\Ananta.Server\\Ananta.Core\\Ananta.Core.csproj": {
+              "projectPath": "C:\\Horoyoi-san\\PS\\ngp\\DRMK-PS_08.05_Lyco-v0.1.0\\Ananta.Server\\Ananta.Core\\Ananta.Core.csproj"
             },
-            "C:\\Horoyoi-san\\PS\\ngp\\DRMK-PS_09\\DRMK-PS_09\\Ananta.Server\\Ananta.Gameplay\\Ananta.Gameplay.csproj": {
-              "projectPath": "C:\\Horoyoi-san\\PS\\ngp\\DRMK-PS_09\\DRMK-PS_09\\Ananta.Server\\Ananta.Gameplay\\Ananta.Gameplay.csproj"
+            "C:\\Horoyoi-san\\PS\\ngp\\DRMK-PS_08.05_Lyco-v0.1.0\\Ananta.Server\\Ananta.Gameplay\\Ananta.Gameplay.csproj": {
+              "projectPath": "C:\\Horoyoi-san\\PS\\ngp\\DRMK-PS_08.05_Lyco-v0.1.0\\Ananta.Server\\Ananta.Gameplay\\Ananta.Gameplay.csproj"
             },
-            "C:\\Horoyoi-san\\PS\\ngp\\DRMK-PS_09\\DRMK-PS_09\\Ananta.Server\\Ananta.RpcTypes\\Ananta.RpcTypes.csproj": {
-              "projectPath": "C:\\Horoyoi-san\\PS\\ngp\\DRMK-PS_09\\DRMK-PS_09\\Ananta.Server\\Ananta.RpcTypes\\Ananta.RpcTypes.csproj"
+            "C:\\Horoyoi-san\\PS\\ngp\\DRMK-PS_08.05_Lyco-v0.1.0\\Ananta.Server\\Ananta.RpcTypes\\Ananta.RpcTypes.csproj": {
+              "projectPath": "C:\\Horoyoi-san\\PS\\ngp\\DRMK-PS_08.05_Lyco-v0.1.0\\Ananta.Server\\Ananta.RpcTypes\\Ananta.RpcTypes.csproj"
             }
           }
         }
@@ -134,10 +135,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.400"
     },
     "frameworks": {
       "net8.0": {
+        "framework": "net8.0",
         "targetAlias": "net8.0",
         "imports": [
           "net461",
@@ -150,12 +152,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.31, 8.0.31]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.31, 8.0.31]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.31, 8.0.31]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.317/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

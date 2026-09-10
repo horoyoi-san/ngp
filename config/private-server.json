@@ -26,11 +26,6 @@
       "certificatePassphrase": "ananta-local-proxy"
     }
   },
-  "admin": {
-    "enabled": true,
-    "host": "127.0.0.1",
-    "port": 17888
-  },
   "player": {
     "pid": 67,
     "initialUnitId": 100000000000,
@@ -281,5 +276,10 @@
     "runtimeFastpatch": ".runtime/fastpatch",
     "zoneGraphLanes": "Ananta.Server/Ananta.App/data/zonegraph_lanes.csv",
     "worldData": "Ananta.Server/ClientData/4229938/World/GadgetSpawn"
+  },
+  "debug": {
+    "enabled": true,
+    "host": "127.0.0.1",
+    "port": 5809
   }
 }

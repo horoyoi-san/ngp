@@ -6,11 +6,11 @@ namespace Ananta.Server.Handlers.Game;
 
 /// <summary>
 /// Build 4229938 private-server surface: world entry, direct character switching,
-/// combat, traversal/buffs and movement. Everything else falls back to typed-neutral RPC replies.
+/// combat, traversal/buffs, vehicles and movement. Everything else falls back to typed-neutral RPC replies.
 /// </summary>
 internal sealed partial class GameRouter
 {
-    private const string WorldStateKey = "client4229938-world";
+    internal const string WorldStateKey = "client4229938-world";
     private readonly GateSessionHub? _gateSessions;
 
     internal GameRouter(GateSessionHub? gateSessions = null) => _gateSessions = gateSessions;
@@ -66,107 +66,45 @@ internal sealed partial class GameRouter
         MethodId.AskUnitMoveActionWithGround,
         MethodId.AskUnitMoveAction,
 
-        // Time/sync basics.
-        MethodId.GetServerTimeGame,
-
-        // Scene ("raid") switching.
-        MethodId.AskPublicSwitchToPublicScene,
-        MethodId.AskEnterRaidByMapEntrance,
-
-        // Teleport (inbound requests; pushes need no registration).
-        MethodId.AskTeleport,
-        MethodId.ReportPreTeleportFinish,
-        MethodId.ReportPostTeleportFinish,
-        MethodId.Teleport,
-
-        // Vehicles (simple shapes; complex-return vehicle RPCs stay on the
-        // typed-default fallback + unknown-methods.log for now).
-        MethodId.GmAddVehicle,
-        MethodId.AskVehicleShopSpawnVehicle,
-        MethodId.VehicleDriveStateChange,
-        MethodId.AskGetUnlockedVehicles,
+        // Vehicles: summon + owned fleet + client-driven drive loop + S011 boarding story.
         MethodId.AskSummonVehicle,
+        MethodId.AskGetUnlockedVehicles,
+        MethodId.SyncStoryCoreClientInfo,
+        MethodId.AskClaimVehicleSeat,
         MethodId.AskPlayerStartEnterOrExitVehicle,
         MethodId.AskPlayerFinishEnterOrExitVehicle,
         MethodId.AskVehicleMove,
-        MethodId.AskClaimVehicleSeat,
-        MethodId.SyncStoryCoreClientInfo,
-        MethodId.AskInteractCmd,
-
-        // Formerly-unhandled batch (explicit compatibility handlers).
-        MethodId.AskTradeGetMarketList,
-        MethodId.AskTradeGetHistoryPage,
-        MethodId.AskPlayerRankingSummary,
-        MethodId.AskPopularityPhoneFirstOpened,
-        MethodId.AskPopularityUIOpened,
-        MethodId.SyncOpenInspireHub,
-        MethodId.AskQueryInspireHubAllGamePlayRecommendData,
-        MethodId.AskQueryInspireHubAllGamePlayRankData,
-        MethodId.AskLinkInfos,
-        MethodId.GetLastMode,
-        MethodId.AskSwitchLinkMode,
-        MethodId.OnParkourStateChange,
-        MethodId.AskPlayerCameraMove,
-        MethodId.AskUpdatePlayerCameraRotation,
-        MethodId.AskUpdatePlayerCameraFOV,
-        MethodId.AskUpdatePlayerCameraAspectRatio,
-        MethodId.ReportDrivingVehicle,
-        MethodId.AskVehicleNitroValue,
-        MethodId.AskVehicleNitro,
-        MethodId.AskModifyVehicleTopSpeed,
+        MethodId.AskVehicleStartMove,
+        MethodId.AskVehicleStopMove,
         MethodId.AskVehicleHorn,
-        MethodId.AskVehicleContactDamage,
-        MethodId.AskVehicleInteractConfig,
-        MethodId.AskUpdateVehicleDestructibleParts,
-        MethodId.AskGetVehicleRadioContent,
-        MethodId.SyncChangeSafeArea,
-        MethodId.SyncChangeBuilding,
-        MethodId.SyncChangeIndoor,
-        MethodId.GetMailHeadList,
-        MethodId.AskAkxSessionList,
-        MethodId.AskGetAllMetroInfos,
-        MethodId.AskMomentsPostSimpleInfos,
-        MethodId.AskPanelOpenOrClose,
-        MethodId.AskQueryPlayerUnlockNameEffect,
-        MethodId.GetPersonalInfo,
+        MethodId.AskEnterVehicleIndoor,
+        MethodId.AskExitVehicleIndoor,
+        MethodId.ReportDrivingVehicle,
+        MethodId.AskKillVehicle,
+        MethodId.VehicleDriveStateChange,
+        MethodId.AskChangeGoVehicleDriveState,
+        MethodId.AskVehicleDeadEnd,
+        MethodId.AskVehicleNitro,
+        MethodId.AskVehicleStuck,
+        MethodId.AskVehicleHit,
+        MethodId.AskVehicleHitEnd,
 
-        // Skill/combat accepts (logged empty replies; authoritative damage later).
-        MethodId.AskInterruptSkillExecute2,
-        MethodId.AskSkillExecute3,
-        MethodId.AskSkillExecuteEnd2,
-        MethodId.AskSkillAddState,
-        MethodId.AskSkillOpenShield,
-        MethodId.AskSkillCloseShield,
-        MethodId.AskSkillTimeCurve,
-        MethodId.ReportSkillAnimationEnd,
-        MethodId.AskSkillSpawnItem,
-        MethodId.AskSwitchSpiritComplete,
-        MethodId.AskSpoonClientAttack,
-        MethodId.AskVehicleSkillDamage,
-        MethodId.AskSkillDestructibleCreateGadget,
-        MethodId.AskSkillDestructibleCreateVehicle,
+        // GM console (ALT+F1): C2S invokes, server records real ids.
+        MethodId.GmSpawnVehicle,
+        MethodId.GmAddEnemyWithPosition,
+        MethodId.GmAddEnemy,
+        MethodId.GmAddEnemyByPlayer,
+        MethodId.GmTeleportXYZ,
 
-        // Time + weather.
+        // Time of day: client-driven UI (accept + remember) + debug-panel slider push.
         MethodId.AskPassingTime,
+        MethodId.GmPassingTime,
+        MethodId.GmSetTime,
+        MethodId.GmFixRaidTime,
         MethodId.ChangePersonalTimeSetting,
         MethodId.AddPersonalTimeSetting,
         MethodId.GmSetWeather,
         MethodId.GmSetWeatherParam,
-        MethodId.GmSetTime,
-        MethodId.GmFixRaidTime,
-        MethodId.GmPassingTime,
-
-        // Destructibles / red dots / discards / hangup / curves.
-        MethodId.AskNotifyDestructibleHits,
-        MethodId.AskOperateDestructibleObject,
-        MethodId.AskMoveDestructibleObjects,
-        MethodId.AskBreakDestructibleObjects,
-        MethodId.AskReadWeaponRedDots,
-        MethodId.AskDiscardWeaponByInstanceId,
-        MethodId.AskDiscardWeapon,
-        MethodId.RequestPlayerStartHangup,
-        MethodId.RequestPlayerStopHangup,
-        MethodId.AskBreakSkillTimeCurve,
     };
 
     internal RpcRouter Build()

@@ -18,6 +18,8 @@ internal sealed class WorldEntryState
     internal bool MovementCapabilityPublished { get; set; }
     internal bool FreeRoamReleased { get; set; }
     internal bool FirstMovementSeen { get; set; }
+    internal bool GaragePublished { get; set; }
+    internal bool AetherVehicleInitSent { get; set; }
     internal bool InitialCapabilityBuffsPublished { get; set; }
     internal bool AllBuildBuffsPublished { get; set; }
     internal bool InitialActorPresentationPublished { get; set; }
@@ -107,17 +109,7 @@ internal sealed class WorldEntryState
     internal bool PendingSwitchControlTransferred { get; set; }
     internal bool PendingSwitchLandingStarted { get; set; }
 
-    // Admin / vehicle Phase-1 tracking. Guarded by SyncRoot like the rest of the state.
-    internal uint LastAdminVehicleId { get; set; }
-    internal ulong LastSpawnedVehicleUid { get; set; }
-    internal byte LastVehicleDriveState { get; set; }
-    internal bool HasVehicleDriveState { get; set; }
-
-    // Scene switches can land on any owned character; the strict initial-identity
-    // commit check is relaxed only when a switch rearmed the transaction.
-    internal bool WorldEntryAllowNonInitialControl { get; set; }
-
-    // Time/weather state (persist across scene switches; pushed on load when set).
+    // Time-of-day state (persists across scene switches; pushed on load when set).
     internal uint TimeHour { get; set; }
     internal uint TimeMinute { get; set; }
     internal bool TimeFixed { get; set; }
@@ -126,5 +118,4 @@ internal sealed class WorldEntryState
     internal uint WeatherId { get; set; }
     internal uint WeatherTransitionSeconds { get; set; }
     internal bool HasExplicitWeather { get; set; }
-    internal bool IsHangup { get; set; }
 }

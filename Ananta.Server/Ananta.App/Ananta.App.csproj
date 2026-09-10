@@ -13,5 +13,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\config\private-server.json" Link="config\private-server.json" CopyToOutputDirectory="PreserveNewest" />
+    <EmbeddedResource Include="DebugPanel\index.html" />
   </ItemGroup>
 </Project>

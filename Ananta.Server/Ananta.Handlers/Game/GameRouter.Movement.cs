@@ -71,8 +71,8 @@ internal sealed partial class GameRouter
             state.AllBuildBuffsPublished = true;
         }
 
-        if (!state.CombatProfilePublished)
-            await PublishCombatProfile(ctx, unitId, templateId);
+        // Same edge: populate the phone/garage vehicle list automatically.
+        await PublishGarageAsync(ctx);
 
         await ctx.NotifyAsync(MethodId.SyncGamePause, WorldCodec.GamePause(false));
         state.MovementCapabilityPublished = true;

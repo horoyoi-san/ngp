@@ -8,6 +8,7 @@ const { config, resolveProjectPath } = require("../private_server_config");
 
 const clientVersion = String(config.client.version);
 const fastPatchRoot = path.join(resolveProjectPath(config.paths.runtimeFastpatch), clientVersion);
+const luaSrcRoot = resolveProjectPath("lua"); // decompiled client Lua source
 const fileName = "LuaFiles#LX6#SGUI#StoreDefine#UidLayerPanelStore.lua";
 const labelEnabled = config.ui?.uidLabel?.enabled !== false;
 const label = labelEnabled ? String(config.ui?.uidLabel?.text || "นี่คือเวอร์ชั่น DEV ที่ไม่ได้รับคุณภาพจากเกม Ananta GAY") : "";
@@ -83,11 +84,52 @@ const status = lauxlib.luaL_loadbuffer(L, luaBytes, luaBytes.length, to_luastrin
 if (status !== lua.LUA_OK) throw new Error("generated UidLayerPanelStore.lua failed Lua syntax validation");
 
 fs.writeFileSync(path.join(fastPatchRoot, fileName), luaSource, "utf8");
-fs.writeFileSync(
-  path.join(fastPatchRoot, "changelog.txt"),
-  `Ananta PRIVATE SERVER FASTPATCH (client ${clientVersion})\n` +
-  `UID label: ${label}\n` +
-  "Stock development/confidential and version-mismatch captions are suppressed.\n" +
-  "No gameplay Lua overrides are included.\n",
-  "utf8",
-);
+
+// GameSwitch defaults: the private server has no GameSwitch RPC, so the client's
+// gGameSwitch table would stay empty and every switch-gated phone app/panel would
+// report "This feature is temporarily unavailable". Pre-seed all retail switches
+// to open (real-money charge stays closed). Server-side SyncGameSwitchToClient
+// still wins whenever it arrives, because M.Sync overwrites these defaults.
+const forceSwitches = config.ui?.forceEnableGameSwitches !== false;
+const switchFileName = "LuaFiles#LX6#Manager#ClientGameSwitch.lua";
+// NOTE: EnableCharge is intentionally absent (real-money flow).
+const gameSwitchDefaults = [
+  "EnableBuzzCenter", "EnableMall", "EnableMallBundle", "EnableMallRecommend",
+  "EnableMallDirectSale", "EnableCheckIn", "EnableTime", "EnableDossier",
+  "EnableRadiantChest", "EnableCloset", "EnableGachaSystem", "EnableSeasonalBattlePass",
+  "EnableBBChat", "EnableScope", "EnableParty", "EnableSpiritTalent",
+  "EnablePhoto", "EnableMail", "EnablePhone", "EnableFriends",
+  "EnableAchievement", "EnableTutorial", "EnableCityPedia", "EnableNotices",
+  "EnableCustom", "EnableInteractionAction", "EnableDutyTerminal", "EnableCatExpress",
+  "EnableEonBug", "EnableJanitor", "EnableRadioStation", "EnableBubble",
+  "EnableFashionStore", "Enable4SStore", "EnableProfile", "EnableClub",
+  "EnableRanking", "EnableAkashicSystem",
+];
+let switchNote = "GameSwitch defaults: skipped (ui.forceEnableGameSwitches=false).\n";
+if (forceSwitches) {
+  const switchSource = `-- Ananta private-server fastpatch for client ${clientVersion}\n` +
+`-- GameSwitch defaults only. Original ClientGameSwitch.lua logic is unchanged.\n\n` +
+`local M = {}\n\n` +
+`M.Sync = function(key, value)\n` +
+`    M[key] = value\n\n` +
+`    gMessageManager:SendMessage(gEventConstants.ON_GM_GAME_SWITCH_CHANGE)\n` +
+`end\n\n` +
+gameSwitchDefaults.map((name) => `M.${name} = true\n`).join("") +
+`\n` +
+`gGameSwitch = M\n`;
+  const switchBytes = to_luastring(switchSource);
+  const switchStatus = lauxlib.luaL_loadbuffer(L, switchBytes, switchBytes.length, to_luastring(switchFileName));
+  if (switchStatus !== lua.LUA_OK) throw new Error("generated ClientGameSwitch.lua failed Lua syntax validation");
+  fs.writeFileSync(path.join(fastPatchRoot, switchFileName), switchSource, "utf8");
+  switchNote = `GameSwitch defaults: ${gameSwitchDefaults.length} switches pre-seeded open (EnableCharge stays closed).\n`;
+}
+
+  fs.writeFileSync(
+    path.join(fastPatchRoot, "changelog.txt"),
+    `Ananta PRIVATE SERVER FASTPATCH (client ${clientVersion})\n` +
+    `UID label: ${label}\n` +
+    "Stock development/confidential and version-mismatch captions are suppressed.\n" +
+    switchNote +
+    "No gameplay Lua overrides are included.\n",
+    "utf8",
+  );

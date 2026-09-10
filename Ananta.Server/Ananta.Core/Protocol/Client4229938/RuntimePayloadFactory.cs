@@ -17,7 +17,7 @@ internal static class RuntimePayloadFactory
     internal static Auto.PlayerClientInfo MinimalPlayerInfo4229938()
     {
         // Keep only identity plus the actor-facing roster required to materialize the controlled
-        // spirit. Economy/social/vehicles/apps/tasks and the unrelated account armory stay absent.
+        // spirit. Economy/social/apps/tasks and the unrelated account armory stay absent.
         var root = new Auto.PlayerClientInfo();
         root.InfoLogin.Aid = Config.Client.Aid;
         root.InfoLogin.Pid = Config.Player.Pid;
@@ -59,6 +59,68 @@ internal static class RuntimePayloadFactory
         root.InfoMinor.Level = 1;
         root.InfoMinor.MatchInfo.DeviceLevel = 1;
         root.InfoMinor.MatchInfo.CurLinkDeviceLevel = 1;
+
+        // Provide the vehicle fleet so the client-side DriveManager recognises available vehicles.
+        if (Config.Gameplay.Vehicles.Enabled && Config.Gameplay.Vehicles.FleetIds.Length > 0)
+        {
+            root.InfoMinor.VehicleInfo = new Auto.PlayerVehicleInfo
+            {
+                UnlockedVehicles = Config.Gameplay.Vehicles.FleetIds.Select(fleetId => new Auto.PlayerVehicleDetail
+                {
+                    Id = fleetId,
+                    UnlockTime = 1,
+                    SuitId = 0,
+                    Parts = [],
+                }).ToList(),
+                RequisitionVehicleCount = Config.Gameplay.Vehicles.FleetIds.Length,
+                ParkingVehicleId = 0,
+            };
+        }
+        // Seed phone contacts so the quick-call summon contacts exist without progression.
+        // The client matches contacts to PhoneContactConfig by phone number:
+        // 142857 = "Call vehicle" (owned-car list -> AskSummonVehicle),
+        // 206337 = "Express Depot" (milk/taxi car).
+        var summonContacts = new (string Remark, string Number)[]
+        {
+            (string.Empty, "142857"),
+            (string.Empty, "206337"),
+        };
+        foreach (var character in ClientConfigRepository.Characters())
+        {
+            root.InfoMinor.PlayerPhoneInfo.SpiritPhoneInfos[character.TemplateId] = new Auto.PhoneInfos
+            {
+                ContactList = summonContacts.Select(c => new Auto.PhoneContact
+                {
+                    Remark = c.Remark,
+                    PhoneNumber = c.Number,
+                }).ToList(),
+                ContactGroupList = [],
+                CallRecordList = [],
+                ContactOutgoingCallTimesDict = new Dictionary<string, uint>(),
+            };
+        }
+
+        // Event-condition progress so the quick-call contacts count as unlocked.
+        // Module 3 = UX.Game.EventConditionImplModule.PhoneContact (IL2CPP metadata
+        // declaration order); finished ids 1/2 = PhoneContactUnlockConfig rows for
+        // contacts 111111111 (Call vehicle) / 111111112 (Express Depot).
+        // Without them the client plays LockDialogId (busy) instead of the summon dialog.
+        var phoneProgress = new Auto.ModuleEventProgressInfoBySpirit
+        {
+            EventProgressInfoDict = new Dictionary<uint, Auto.EventProgressInfo>(),
+            FinishedTemplateIdList = [1, 2],
+        };
+        var phoneModule = new Auto.ModuleEventProgressInfo
+        {
+            ProgressInfoDict = new Dictionary<uint, Auto.ModuleEventProgressInfoBySpirit>
+            {
+                [0] = phoneProgress,
+            },
+        };
+        foreach (var character in ClientConfigRepository.Characters())
+            phoneModule.ProgressInfoDict[character.TemplateId] = phoneProgress;
+        root.InfoMinor.ModuleEventProgressInfoDict[3] = phoneModule;
+
         // The v7 guide only constrains ActiveSpirit/actor identity; it does not require the rest of
         // PlayerInfo to be zero. Keep build-local SystemUnlock metadata so the stock 4229938 HUD,
         // map and input UI do not treat the account as a pre-tutorial profile. No semantic handlers

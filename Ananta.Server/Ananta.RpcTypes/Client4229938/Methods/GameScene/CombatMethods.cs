@@ -41,10 +41,6 @@ internal sealed class PlayerFightStyleUnlockChangeInfo
 
     [UxCollection(Count = UxCountEncoding.Int7)]
     public Dictionary<uint, bool> addOrUpdateUnlockInfo = [];
-
-    // dump 33236 third field; missing it shortens the body and crashes the client reader.
-    [UxCollection(Count = UxCountEncoding.Int7)]
-    public Dictionary<uint, uint> addOrUpdateUnlockTimeInfo = [];
 }
 
 [UxContract]
@@ -52,10 +48,6 @@ internal sealed class PlayerInfoFightStyle
 {
     [UxCollection(Count = UxCountEncoding.Int32)]
     public Dictionary<uint, bool> fightStyles = [];
-
-    // dump 33174 second field; missing it shortens the body and crashes the client reader.
-    [UxCollection(Count = UxCountEncoding.Int32)]
-    public Dictionary<uint, uint> fightStyleFirstUnlockTimes = [];
 }
 
 [UxContract]

@@ -8,7 +8,9 @@ namespace Ananta.Server.Protocol.Client4229938;
 /// (Create=3, Delete=4, ConfirmRpc=2, Enable=6, Validate=9) and payload tags
 /// (Bool=5, Int=12, ULong=44) verified against the current dump.cs story classes.
 /// 4229938 delta applied: CreateClientNodeServerCommand gained StoryboardGuid
-/// (dump TypeDefIndex 69592) — sent as null (no storyboard for server-made nodes).
+/// (dump TypeDefIndex 69592) — sent as EMPTY string: the Lua writer marks the
+/// field non-nullable, so a null marker (0x00) corrupts the whole Create parse
+/// client-side and the S011 node is never built (F-enter: 缺少S011PlayerNet节点).
 /// Base fields (RpcId, HasRpcId) trail each command, matching the proven layout.
 /// </summary>
 internal static class StoryS011Codec4229938
@@ -108,7 +110,7 @@ internal static class StoryS011Codec4229938
         w.U8(3);   // CreateClientNodeServerCommand
         w.U32(nid);
         w.UxString(type);
-        w.UxString(null); // StoryboardGuid: none for server-made nodes
+        w.UxString(string.Empty); // StoryboardGuid: none for server-made nodes (empty, NOT null)
         w.Bool(false); // Sync
         w.I64(0);      // RpcId
         w.Bool(false); // HasRpcId

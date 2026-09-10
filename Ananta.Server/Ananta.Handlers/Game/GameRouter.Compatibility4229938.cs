@@ -13,7 +13,6 @@ internal sealed partial class GameRouter
 {
     private Task DefaultUnknownInvoke4229938(RpcContext ctx)
     {
-        UnknownMethodLogger.Log(ctx.Session.Log.Scope, "INVOKE", ctx.MethodId, ctx.Body);
         if (DefaultReturnCatalog4229938.TryGet(ctx.MethodId, out var body, out var shape))
         {
             ctx.Session.Log.Warn($"[RPC4229938] unimplemented {Ananta.SDK.Logging.RpcMethodNames.Display(ctx.MethodId)} -> typed-default {shape} {body.Length}b");
@@ -26,7 +25,6 @@ internal sealed partial class GameRouter
 
     private Task DefaultUnknownNotify4229938(RpcContext ctx)
     {
-        UnknownMethodLogger.Log(ctx.Session.Log.Scope, "NOTIFY", ctx.MethodId, ctx.Body);
         // Notifies have no callback body. Accepting an unimplemented generated 4229938 notify is
         // safer than treating it as a protocol error; stateful methods get semantic handlers as
         // they are implemented, while telemetry/client-local signals remain harmless no-ops.
