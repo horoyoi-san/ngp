@@ -243,8 +243,8 @@ Write-Host 'Setup ready. START.cmd will continue automatically.'
 New-Item -ItemType Directory -Force -Path $CertDir, $BackupDir | Out-Null
 
 Write-Host '[1/3] Preparing local proxy CA and TLS certificate...'
-$RootSubject = 'CN=DRMK Local Proxy Root'
-$RootCerPath = Join-Path $CertDir 'drmk-local-root.cer'
+$RootSubject = 'CN=Ananta Local Proxy Root'
+$RootCerPath = Join-Path $CertDir 'Ananta-local-root.cer'
 $CerPath = Join-Path $CertDir "$DnsName.cer"
 $PfxPath = Join-Path $CertDir "$DnsName.pfx"
 $SecurePass = ConvertTo-SecureString -String $PassPlain -AsPlainText -Force
@@ -266,7 +266,7 @@ if (-not $rootCert) {
     $rootCert = New-SelfSignedCertificate `
         -Type Custom `
         -Subject $RootSubject `
-        -FriendlyName 'DRMK Local Proxy Root' `
+        -FriendlyName 'Ananta Local Proxy Root' `
         -CertStoreLocation 'Cert:\LocalMachine\My' `
         -KeyAlgorithm RSA `
         -KeyLength 3072 `
@@ -289,7 +289,7 @@ if (-not $trustedRoot) {
 $leaf = New-SelfSignedCertificate `
     -Type Custom `
     -Subject "CN=$DnsName" `
-    -FriendlyName 'DRMK Local HTTPS Proxy' `
+    -FriendlyName 'Ananta Local HTTPS Proxy' `
     -DnsName (($Domains + 'localhost') | Select-Object -Unique) `
     -Signer $rootCert `
     -CertStoreLocation 'Cert:\LocalMachine\My' `
@@ -338,7 +338,7 @@ $kept = foreach ($line in $lines) {
 
 $out = @($kept)
 foreach ($domain in $Domains) {
-    $out += "127.0.0.1 $domain # drmk-ps local proxy"
+    $out += "127.0.0.1 $domain # Ananta-ps local proxy"
 }
 
 $desired = ($out -join "`n").TrimEnd()
@@ -348,7 +348,7 @@ if ($desired -eq $currentContent) {
     Write-Host '   hosts entries are already correct - no changes and no new backup.'
 } else {
     
-    $existingBackups = Get-ChildItem -Path $BackupDir -Filter 'hosts-before-drmk-*.txt' -ErrorAction SilentlyContinue
+    $existingBackups = Get-ChildItem -Path $BackupDir -Filter 'hosts-before-Ananta-*.txt' -ErrorAction SilentlyContinue
     $alreadyBackedUp = $false
     foreach ($b in $existingBackups) {
         if (((Get-Content -LiteralPath $b.FullName -Raw -ErrorAction SilentlyContinue)).TrimEnd() -eq $currentContent) {
@@ -356,7 +356,7 @@ if ($desired -eq $currentContent) {
         }
     }
     if ($hostsExisted -and -not $alreadyBackedUp) {
-        $backup = Join-Path $BackupDir ("hosts-before-drmk-{0}.txt" -f (Get-Date -Format 'yyyyMMdd-HHmmss'))
+        $backup = Join-Path $BackupDir ("hosts-before-Ananta-{0}.txt" -f (Get-Date -Format 'yyyyMMdd-HHmmss'))
         Copy-Item -LiteralPath $HostsPath -Destination $backup -Force
         Write-Host "   Hosts backup: $backup"
     } elseif (-not $hostsExisted) {
