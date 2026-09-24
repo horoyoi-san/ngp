@@ -18,7 +18,7 @@ foreach ($path in $required) {
     if (-not (Test-Path -LiteralPath $path)) { throw "Missing proxy file: $path" }
 }
 
-$NodeExe = $env:DRMK_NODE_EXE
+$NodeExe = $env:Ananta_NODE_EXE
 if (-not $NodeExe) { $NodeExe = $env:ANANTA_NODE_EXE }
 if (-not $NodeExe) {
     $cmd = Get-Command node -ErrorAction SilentlyContinue
@@ -32,10 +32,10 @@ if (-not $NodeExe) {
         if (Test-Path -LiteralPath $candidate) { $NodeExe = $candidate; break }
     }
 }
-if (-not $NodeExe) { throw 'node.exe was not found. Install Node.js LTS or set DRMK_NODE_EXE.' }
+if (-not $NodeExe) { throw 'node.exe was not found. Install Node.js LTS or set Ananta_NODE_EXE.' }
 
-$env:DRMK_CONFIG = $ConfigPath
-$env:DRMK_ROOT = $ProjectRoot
+$env:Ananta_CONFIG = $ConfigPath
+$env:Ananta_ROOT = $ProjectRoot
 
 Push-Location $ProxyDir
 try {
