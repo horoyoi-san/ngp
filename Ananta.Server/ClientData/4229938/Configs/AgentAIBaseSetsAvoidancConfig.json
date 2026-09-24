@@ -1,0 +1,125 @@
+{
+  "_class": "AgentAIBaseSetsAvoidancConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 5,
+  "records": [
+    {
+      "Id": 40206002,
+      "Name": "对车辆避障特写，出现此id开启对车辆臂章的动态算法",
+      "OpenOrcaAvoidance": true,
+      "rvo2NeighborDist": 5,
+      "rvo2MaxNeighbors": 10,
+      "rvo2TimeHorizon": 4,
+      "rvo2StepTime": 1,
+      "rvo2RotateSpeed": 360,
+      "rvo2DelayCalTime": 1,
+      "rvo2ActionBlendTime": 0.5,
+      "rvo2PlayerRadius": -1,
+      "rvo2RadiusOffset": [
+        {
+          "distance": 5,
+          "radiusOffset": 0.5
+        },
+        {
+          "distance": 2,
+          "radiusOffset": 0.100000001
+        }
+      ]
+    },
+    {
+      "Id": 40206003,
+      "Name": "到点移动专用，适用于进入掩体、eqs",
+      "OpenOrcaAvoidance": true,
+      "rvo2NeighborDist": 0.5,
+      "rvo2MaxNeighbors": 10,
+      "rvo2TimeHorizon": 1,
+      "rvo2StepTime": 1,
+      "rvo2RotateSpeed": 360,
+      "rvo2DelayCalTime": 1,
+      "rvo2ActionBlendTime": 0.5,
+      "rvo2PlayerRadius": -1,
+      "rvo2RadiusOffset": [
+        {
+          "distance": 5,
+          "radiusOffset": 0.100000001
+        },
+        {
+          "distance": 2,
+          "radiusOffset": 0.100000001
+        }
+      ]
+    },
+    {
+      "Id": 40206008,
+      "Name": "避障默认值",
+      "OpenOrcaAvoidance": true,
+      "rvo2NeighborDist": 5,
+      "rvo2MaxNeighbors": 10,
+      "rvo2TimeHorizon": 4,
+      "rvo2StepTime": 1,
+      "rvo2RotateSpeed": 360,
+      "rvo2DelayCalTime": 1,
+      "rvo2ActionBlendTime": 0.5,
+      "rvo2PlayerRadius": -1,
+      "rvo2RadiusOffset": [
+        {
+          "distance": 5,
+          "radiusOffset": 0.5
+        },
+        {
+          "distance": 2,
+          "radiusOffset": 0.100000001
+        }
+      ]
+    },
+    {
+      "Id": 40206010,
+      "Name": "",
+      "OpenOrcaAvoidance": true,
+      "rvo2NeighborDist": 5,
+      "rvo2MaxNeighbors": 10,
+      "rvo2TimeHorizon": 4,
+      "rvo2StepTime": 1,
+      "rvo2RotateSpeed": 360,
+      "rvo2DelayCalTime": 1,
+      "rvo2ActionBlendTime": 0.5,
+      "rvo2PlayerRadius": 99,
+      "rvo2RadiusOffset": [
+        {
+          "distance": 5,
+          "radiusOffset": 0.5
+        },
+        {
+          "distance": 2,
+          "radiusOffset": 0.100000001
+        }
+      ]
+    },
+    {
+      "Id": 40206011,
+      "Name": "",
+      "OpenOrcaAvoidance": true,
+      "rvo2NeighborDist": 5,
+      "rvo2MaxNeighbors": 10,
+      "rvo2TimeHorizon": 4,
+      "rvo2StepTime": 1,
+      "rvo2RotateSpeed": 360,
+      "rvo2DelayCalTime": 1,
+      "rvo2ActionBlendTime": 0.5,
+      "rvo2PlayerRadius": 0,
+      "rvo2RadiusOffset": [
+        {
+          "distance": 5,
+          "radiusOffset": 0.5
+        },
+        {
+          "distance": 2,
+          "radiusOffset": 0.100000001
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 5,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

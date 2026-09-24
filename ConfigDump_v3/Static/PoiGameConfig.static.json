@@ -1,0 +1,861 @@
+{
+  "HPNum": 3,
+  "HPMaxNum": 3,
+  "HPEffectID": [
+    53800322,
+    53800323,
+    53800324
+  ],
+  "ThrowLeaveTime": 3,
+  "InvincibleTime": 3,
+  "ThrowDestructibleID": [
+    59010004,
+    59010005
+  ],
+  "TransformPoints": [
+    1,
+    10,
+    5
+  ],
+  "SY_ScoreEffect": 53800305,
+  "SY_SprintEffect": 53101798,
+  "SY_WindEffect": 53101798,
+  "FryChest_ObjectCount": 100,
+  "FryChest_ObjectSpawnRate": [
+    0.300000012,
+    0.300000012,
+    0.150000006,
+    0.150000006,
+    0.100000001
+  ],
+  "FryChest_ObjectPath": [
+    "Assets/Res/MiniGame/Prefab/Farm/FryObject/Chest01.prefab",
+    "Assets/Res/MiniGame/Prefab/Farm/FryObject/Chest02.prefab",
+    "Assets/Res/MiniGame/Prefab/Farm/FryObject/Rock01.prefab",
+    "Assets/Res/MiniGame/Prefab/Farm/FryObject/Rock02.prefab",
+    "Assets/Res/MiniGame/Prefab/Farm/FryObject/Rock03.prefab"
+  ],
+  "FryTea_ObjectPath": "Assets/Res/MiniGame/Prefab/Farm/FryObject/Tea.prefab",
+  "FryTea_ObjectCount": 50,
+  "Basket_EarlyRate": [
+    0,
+    0,
+    0
+  ],
+  "Basket_PerfectRate": [
+    1,
+    0,
+    0
+  ],
+  "Basket_GoodRate": [
+    0,
+    0.800000012,
+    0.200000003
+  ],
+  "Basket_SoSoRate": [
+    0,
+    0.200000003,
+    0.800000012
+  ],
+  "Basket_LateRate": [
+    0,
+    0.600000024,
+    0.400000006
+  ],
+  "Basket_LateRate2": [
+    0,
+    0.200000003,
+    0.800000012
+  ],
+  "Basket_Time": 70,
+  "Basket_AddTime": 5,
+  "Basket_Bonus": 3,
+  "Basket_BallRes1": "Res/MiniGame/Prefab/BasketballGame/sc_fd_tyq_wjd_lanqiu01_pc.prefab",
+  "Basket_BallRes2": "Res/MiniGame/Prefab/BasketballGame/sc_fd_tyq_wjd_lanqiu03_pc.prefab",
+  "Basket_BallRes3": "Res/MiniGame/Prefab/BasketballGame/sc_fd_tyq_wjd_lanqiu02_pc.prefab",
+  "Basket_BallStand": "Res/MiniGame/Prefab/BasketballGame/BasketballSceneNode.prefab",
+  "Basket_ScoreEffect_Net_Bonus": 538000441,
+  "Basket_ScoreEffect_Ball_Tail": 538000442,
+  "Basket_ScoreEffect_Highlight": 538000443,
+  "Npc_Shoot_Random_Time": [
+    0,
+    0
+  ],
+  "Shoot_Conflict_Time": 0.00999999978,
+  "Basket_Jump_Time": 0.800000012,
+  "Basket_Jump_Power_Min": 0.949999988,
+  "Basket_Jump_Power_Max": 1,
+  "Basket_Ball_Width": 0.300000012,
+  "Basket_LanKuan_Width": 0.5,
+  "Basket_Wait_Result_Time": 3,
+  "Basket_Qte_Progress_Offset": [
+    200,
+    200
+  ],
+  "Basket_Three_Misses_Tween_Time": 1.10000002,
+  "StickCatchPrefabPath": "Assets/Res/MiniGame/Prefab/StickCatch/GameObject.prefab",
+  "StickCatchGravity": 3,
+  "ChorusPrefabPath": "Assets/Res/MiniGame/Prefab/Chorus/ChorusMockUp.prefab",
+  "Hentai_FilmCount": 30,
+  "Hentai_ZoomSpeed": 0.200000003,
+  "Hentai_MaxFov": 58,
+  "Hentai_MinFov": 35,
+  "Hentai_CameraMinX": -30,
+  "Hentai_CameraMaxX": 30,
+  "Hentai_CameraMinY": -0.200000003,
+  "Hentai_CameraMaxY": 0.119999997,
+  "Hentai_DetectionMaxDistance": 100,
+  "Hentai_TimeScale": 0.5,
+  "Hentai_TimeScaleLength": 1.5,
+  "Hentai_BoxCastScale": 0.5,
+  "Hentai_AdsorbentBoxCastScale": 1,
+  "StandardDistance": 15,
+  "MinDistance": 0.5,
+  "SpeedFactor": 0.0500000007,
+  "MaxSpeedFactor": 3,
+  "AngleSpeedFactor": 0.0500000007,
+  "MaxAngleSpeedFactor": 3,
+  "Hentai_RotateSpeed_Mobile": 1,
+  "Hentai_MinXOffset_Mobile": 0.5,
+  "Hentai_MaxXOffset_Mobile": 10,
+  "Hentai_MinYOffset_Mobile": 0.5,
+  "Hentai_MaxYOffset_Mobile": 10,
+  "Hentai_RotateSpeed_Handle": 0.800000012,
+  "Hentai_MinXOffset_Handle": 0.5,
+  "Hentai_MaxXOffset_Handle": 10,
+  "Hentai_MinYOffset_Handle": 0.5,
+  "Hentai_MaxYOffset_Handle": 10,
+  "Dart_BarSpeed": 0.800000012,
+  "BabyDriver_CheckPointArrowPrefab": "Res/MiniGame/Prefab/BabyDriver/CheckPointArrow.prefab",
+  "BabyDriver_CheckPointRange": 22,
+  "BabyDriver_CheckPointRollAngle": 50,
+  "BabyDriver_CheckPointSnapAngle": 10,
+  "TraceWalk_EffectId": 53610690,
+  "TraceWalk_WalkEffectId": 53610691,
+  "TraceWalk_MinMoveDistance": 1,
+  "TraceWalk_MinOffsetDistance": 0.699999988,
+  "TraceWalk_LeftCheckPointCoeff": 10,
+  "TraceWalk_PerimeterDiffTolerance": 5,
+  "TraceWalk_PerimeterDiffCoeff": 50,
+  "TraceWalk_TemplateMaterial": "Assets/Res/MiniGame/Prefab/WalkTrace/WalkTraceTemplateLineRoot.prefab",
+  "TraceWalk_PlayerMaterial": "Assets/Res/MiniGame/Prefab/WalkTrace/WalkTracePlayerLineRoot.prefab",
+  "TraceWalk_MaxDeductionScoreRatio": 0.5,
+  "DartNpc_StartTL": "play_dartinviting_npc_2p",
+  "DartNpc_WinEndTL": "play_dartinviting_end_2p_win",
+  "DartNpc_FailEndTL": "play_dartinviting_end_2p_lose",
+  "DartNpc_StartTLTransform": [
+    {
+      "gameplaytype": 84002017,
+      "transformx": 535.518982,
+      "transformy": -55.2700005,
+      "transformz": 2001.06396,
+      "rotationy": 97.1483994
+    }
+  ],
+  "DartNpc_WinEndTLTransform": [
+    {
+      "gameplaytype": 84002017,
+      "transformx": 547.935791,
+      "transformy": -20.9810009,
+      "transformz": 1920.61804,
+      "rotationy": 42.8434715
+    }
+  ],
+  "DartNpc_FailEndTLTransform": [
+    {
+      "gameplaytype": 84002017,
+      "transformx": 566.549011,
+      "transformy": -21,
+      "transformz": 1925.23901,
+      "rotationy": 67.6147614
+    }
+  ],
+  "DartSingle_Challenge_End_Delay_Show": 0,
+  "DartNpc_Challenge_End_Delay_Show": 9.19999981,
+  "DartNpc_Challenge_FaileEnd_Delay_Show": 9.19999981,
+  "DartNpc_TLActorName": "飞镖邀约角色",
+  "DartNpc_Challenge_Mobile_speed": 0.400000006,
+  "KeyCrack_CodePool": [
+    "ACADEMIC",
+    "BALLOONS",
+    "CAMERAS",
+    "DESSERTS",
+    "ELEPHANT",
+    "FESTIVAL",
+    "GALLERIES",
+    "HAMBURGER",
+    "ILLUSION",
+    "JELLYFISH",
+    "KANGAROO",
+    "LANDSCAPE",
+    "MACHINES",
+    "NOTEBOOK",
+    "ORCHARDS",
+    "PACKAGES",
+    "QUESTION",
+    "RAINCOAT",
+    "SANDWICH",
+    "TELESCOPE",
+    "UMBRELLA",
+    "VACATION",
+    "WALKWAYS",
+    "YOGHURTS",
+    "ZUCCHINI",
+    "AIRPORTS",
+    "BANANAS",
+    "CABBAGES",
+    "DOLPHINS",
+    "ELEVATOR",
+    "FLOWERS",
+    "GARDENIA",
+    "HARNESS",
+    "ICEBOXES",
+    "JOURNALS",
+    "KITCHENS",
+    "LAMPSHAD",
+    "MIRRORS",
+    "NAPKINS",
+    "OCTOPUS",
+    "PAINTING",
+    "QUILTING",
+    "RIBBONS",
+    "SAUCEPAN",
+    "TROUSERS",
+    "UNICORNS",
+    "VEHICLES",
+    "WINDMILL",
+    "YELLOWED",
+    "ZIGZAGED",
+    "AQUARIUM",
+    "BANISTER",
+    "CARRIAGE",
+    "DETECTOR",
+    "FERTILER",
+    "GATEWAYS",
+    "HARMONIC",
+    "INVENTOR",
+    "JUNKYARD",
+    "KEYSTONE",
+    "AIRLINES",
+    "BASKETRY",
+    "CANDIDLY",
+    "DIALOGUE",
+    "ELEGANCE",
+    "FIREWORK",
+    "GARMENTS",
+    "HAMSTERS",
+    "INSULATE",
+    "JOURNALS",
+    "KETTLING",
+    "LAMINATE",
+    "MANDOLIN",
+    "NOSTRILS",
+    "OSTRACON",
+    "PANCAKES",
+    "QUARTILE",
+    "RACCOONS",
+    "SAUCEPOT",
+    "TAPESTRY",
+    "UPHOLSTY",
+    "VIBRATOR",
+    "WALNUTSY",
+    "YACHTING",
+    "ZEPPELIN",
+    "ANCHORED",
+    "BANQUETS",
+    "CARTOONS",
+    "DETOXIFY",
+    "ECLIPSES",
+    "FANTASTY",
+    "GARDENER",
+    "HATCHERY",
+    "INVENTOR",
+    "JUNIPERS",
+    "KILOWATT",
+    "LAMPSHAD",
+    "MARSHALS",
+    "NECTARIN",
+    "OCCASION",
+    "PARADISE",
+    "QUARTZES",
+    "RAVIOLIS",
+    "SANDWICH",
+    "TELESCOP",
+    "URBANITY",
+    "VELOCITY",
+    "WAVELETS",
+    "YIELDING",
+    "ZOOLOGIC",
+    "AQUEDUCT",
+    "BARNACLE",
+    "CARRIAGE",
+    "DETECTOR",
+    "ELEPHANT",
+    "FERTILER",
+    "GATEWAYS",
+    "HARMONIC",
+    "INVENTOR",
+    "JUNKYARD"
+  ],
+  "KeyCrack_HackSkill": [
+    8,
+    3,
+    20
+  ],
+  "SigCrack_HackSkill": [
+    1,
+    0.300000012,
+    20
+  ],
+  "KeyCrack_EndDelay": 0,
+  "SigCrack_EndDelay": 0,
+  "FingerprintCrack_EndDelay": 0,
+  "KeyCrack_EndTime": 2,
+  "SigCrack_EndTime": 2,
+  "FingerprintCrack_EndTime": 1,
+  "Slap_NPCPool": [
+    42071200,
+    42071201,
+    42071202,
+    42071203,
+    0
+  ],
+  "Slap_StrTime": 2,
+  "Slap_qte_num": [
+    {
+      "force": 0,
+      "num": 5
+    },
+    {
+      "force": 0.200000003,
+      "num": 5
+    },
+    {
+      "force": 0.400000006,
+      "num": 5
+    },
+    {
+      "force": 0.600000024,
+      "num": 5
+    },
+    {
+      "force": 0.800000012,
+      "num": 7
+    }
+  ],
+  "Slap_maxHit": 8,
+  "Slap_maxQteTime": 5,
+  "Slap_QteFailDmg": 9999,
+  "Slap_defenceDmg": 20,
+  "Slap_normalDmg": 100,
+  "Slap_criticalDmg": 150,
+  "Slap_AttackDirRotate": [
+    188,
+    85.1999969,
+    265.200012,
+    8,
+    0
+  ],
+  "Slap_DefenceDurationTime": 1,
+  "Dice_Point1": 10,
+  "Dice_Point2": 2,
+  "Dice_Point3": 3,
+  "Dice_Point4": 4,
+  "Dice_Point5": 5,
+  "Dice_Point6": 8,
+  "Dice_X2": 4,
+  "Dice_X3": 10,
+  "Dice_X4": 30,
+  "Dice_X5": 80,
+  "Dice_X6": 150,
+  "Dice_X7": 200,
+  "Dice_X8": 300,
+  "Dice_Straight4": 14,
+  "Dice_Straight5": 24,
+  "Dice_Straight6": 45,
+  "Dice_NPC_React_Range1": 200,
+  "Dice_NPC_React_Range2": 600,
+  "Night_Vision_Light": "Assets/Res/MiniGame/Prefab/BankRob/NightVision_Light.prefab",
+  "Dice_React_Dialog_Good": [
+    100024027,
+    100024026,
+    100024025,
+    100024103
+  ],
+  "Dice_React_Dialog_Soso": [
+    100024030,
+    100024029,
+    100024028,
+    100024105
+  ],
+  "Dice_React_Dialog_Bad": [
+    100024102,
+    100024101,
+    100024031,
+    100024104
+  ],
+  "PHB_Rotate": 15,
+  "CodeTrack_HackSkill": [
+    6,
+    3,
+    1,
+    2,
+    15
+  ],
+  "CodeTrack_EndDelay": 0,
+  "CodeTrack_EndTime": 2,
+  "KeyCrack_SkillText": "Using Quick Hack will temporarily increase the number of correct passwords",
+  "SigCrack_SkillText": "Using Quick Hack will remap all signal positions once, in random order",
+  "CodeTrack_SkillText": "Using Quick Hack will temporarily filter out incorrect code segments",
+  "FingerprintCrack_SkillText": "Using Quick Hack will automatically analyze and complete one fingerprint",
+  "KeyCrack_SkillCost": 18,
+  "SigCrack_SkillCost": 19,
+  "CodeTrack_SkillCost": 20,
+  "FingerprintCrack_SkillCost": 43,
+  "ArcadeFighterCountdownTime": 180,
+  "ArcadeFighterWarnTime": 10,
+  "ArcadeFighterEnemyHpTriggerSuperAttack": 150,
+  "ArcadeFighterMaxRage": 100,
+  "ArcadeFighterRagePerHitTaken": 5,
+  "ArcadeFighterRagePerHitDealt": 10,
+  "ArcadeFighterUltimateCost": 100,
+  "ArcadeFighterHpAnimDuration": 0.300000012,
+  "Scratch_Dialog_Good_Seller": [
+    100048899,
+    100048905,
+    100048901
+  ],
+  "Scratch_Dialog_Soso_Seller": [
+    100048902,
+    100048903,
+    100048904
+  ],
+  "Scratch_Dialog_Bad_Seller": [
+    100048908,
+    100048907,
+    100048906
+  ],
+  "Scratch_Dialog_Good_Player": [
+    100048915,
+    100048916,
+    100048917
+  ],
+  "Scratch_Dialog_Soso_Player": [
+    100048918,
+    100048919,
+    100048920
+  ],
+  "Scratch_Dialog_Bad_Player": [
+    100048921,
+    100048922,
+    100048923
+  ],
+  "ScratchType1RewardTipsList": [
+    0,
+    10,
+    500
+  ],
+  "ScratchType2RewardTipsList": [
+    0,
+    20,
+    1000
+  ],
+  "ScratchType3RewardTipsList": [
+    0,
+    50,
+    2000
+  ],
+  "ScratchType1MaxReward": 10000,
+  "ScratchType2MaxReward": 50000,
+  "ScratchType3MaxReward": 100000,
+  "ScratchGamepadMarginWidth": 11,
+  "ScratchGamepadMarginHeight": 8,
+  "ScratchJoystickSpeed": 40,
+  "Scratch_TicketPrice": [
+    10,
+    20,
+    50
+  ],
+  "Scratch_PayLogo": 28002461,
+  "Scratch_PayName": 74009209,
+  "Scratch_RewardId": 99910070,
+  "Scratch_DailyRewardLimit": 100000,
+  "Scratch_TicketReward": 99910072,
+  "DrillShelfTime": 1,
+  "PHBInstall": 70250174,
+  "PHBUninstall": 70250175,
+  "PHBHeadRotate": 70250173,
+  "PHBArmRotate": 70250171,
+  "PHBToiletRotate": 70250177,
+  "PHBHeadReturn": 70250172,
+  "PHBArmReturn": 70250170,
+  "PHBToiletReturn": 70250176,
+  "Dice_InputRate_PC": [
+    1,
+    0,
+    3
+  ],
+  "Dice_InputRate_Mobile": [
+    0.100000001,
+    0,
+    3
+  ],
+  "Dice_InputRate_Console": [
+    1,
+    0,
+    3
+  ],
+  "BowingGameRotStepTime": 0.200000003,
+  "BowingGameRotateSpeedList": [
+    2,
+    4,
+    6,
+    8,
+    10
+  ],
+  "BowlingSound_BallLand": 70700613,
+  "BowlingSound_BallRoll": 70700614,
+  "BowlingSound_BallDropPit": 70700619,
+  "BowlingSound_PinDropPit": 70700621,
+  "BowlingSound_GutterBump": 70700618,
+  "BowlingSound_BallSelector": 70650340,
+  "BowlingSound_BallPos": 70650338,
+  "BowlingSound_BallStateConfirm_01": 70650437,
+  "BowlingSound_BallStateConfirm_02": 70650438,
+  "BowlingSound_Velocity": 70650342,
+  "BowlingSound_BallStateConfirm_03": 70650439,
+  "BowlingSound_BallRot_Lv1": 70650339,
+  "BowlingSound_BallRot_Lv2": 70650435,
+  "BowlingSound_BallRot_Lv3": 70650436,
+  "BowlingShootingTimeOut": 15,
+  "RingToss_RingCount": 5,
+  "RingToss_GridDepth": 5,
+  "RingToss_MaxForceTime": 3,
+  "RingToss_AimSwingAngle": 35,
+  "RingToss_AimSwingSpeed": 1.14999998,
+  "RingToss_AimSwingSpeedGamepad": 3,
+  "RingToss_RingRadius": 0.180000007,
+  "RingToss_Bounciness": 0.600000024,
+  "RingToss_HeightOffset": 0.25,
+  "RingToss_GravityScale": 1.20000005,
+  "RingToss_MinThrowForce": 4,
+  "RingToss_MaxThrowForce": 12,
+  "RingToss_ThrowForceLevel": [
+    6,
+    8,
+    0
+  ],
+  "RingToss_AvgRow1": [
+    70,
+    85,
+    90,
+    90
+  ],
+  "RingToss_AvgRow2": [
+    35,
+    95,
+    100,
+    100
+  ],
+  "RingToss_AvgRow3": [
+    10,
+    40,
+    95,
+    100
+  ],
+  "RingToss_AvgRow4": [
+    0,
+    0,
+    20,
+    100
+  ],
+  "RingToss_AvgRow5": [
+    0,
+    0,
+    20,
+    100
+  ],
+  "RingTossChair": 30,
+  "RingTossChairLevelExtra": 10,
+  "RingTossStart": 500,
+  "RingTossProfile": 28001622,
+  "RingTossName": 74009204,
+  "GomokuSkillCountDown": 20,
+  "GomokuTurnCountDown": 42,
+  "GomokuTurnCountDownDelay": 2,
+  "Vault_DrillAdvanceDisRate": 0.75,
+  "Vault_MaxLogicAdvanceDis": 6,
+  "Vault_MaxOverPressureDistance": 4,
+  "Vault_DiskThickness": 2,
+  "Vault_DiskSpacing": 1.60000002,
+  "Vault_TotalDiskCount": 4,
+  "Vault_PressureIncreaseRate": 0.400000006,
+  "Vault_NormalIncreaseRate": 0.300000012,
+  "Vault_SlowCoolRate": 0.25,
+  "Vault_FastCoolRate": 0.400000006,
+  "Vault_NormalPressureThreshold": 0.100000001,
+  "Vault_MouseMoveRatePC": 0.00999999978,
+  "Vault_MouseMoveRateGamepad": 0.5,
+  "Balloon_CountDown": 40,
+  "Balloon_CountDown_Progress": 1045,
+  "Balloon_GoodEndCredit": 50,
+  "Balloon_NormalEndCredit": 25,
+  "Balloon_Fee": 10101026,
+  "Balloon_GreenCredit": 1,
+  "Balloon_BlueCredit": 3,
+  "Balloon_PurpleCredit": 5,
+  "Balloon_SpecialCredit": 10,
+  "Balloon_SI_Red_Id": 80005797,
+  "Balloon_SI_Yellow_Id": 80005798,
+  "Balloon_SI_Blue_Id": 80005797,
+  "Balloon_SI_Green_Id": 80005800,
+  "Balloon_SI_Purple_Id": 80005799,
+  "Balloon_SI_Special_Id": 80005796,
+  "Balloon_SI_Red": 80005797,
+  "Balloon_SI_Yellow": 80005798,
+  "Balloon_SI_Blue": 80005797,
+  "Balloon_SI_Green": 80005800,
+  "Balloon_SI_Purple": 80005799,
+  "Balloon_Reward_Gold": 14867061,
+  "Balloon_Reward_Sliver": 14867062,
+  "Balloon_Reward_Bronze": 14867063,
+  "Balloon_NormalCredit": 1,
+  "Balloon_GoodEnd": 10000000,
+  "Balloon_NormalEnd": 10000000,
+  "Balloon_BadEnd": 10000000,
+  "Balloon_Wheel": 1009,
+  "Balloon_RightNum": 10,
+  "Balloon_SquareBoard": "TempString",
+  "Balloon_RoundBoard": "TempString",
+  "Balloon_HexColor_Red": "951F1B",
+  "Balloon_HexColor_Yellow": "90842B",
+  "Balloon_HexColor_Blue": "1B2895",
+  "Balloon_HexColor_Green": "42932A",
+  "Balloon_HexColor_Purple": "AF54DB",
+  "Balloon_Text_Pre": 74001800,
+  "Balloon_Text_Red": 74001801,
+  "Balloon_Text_Yellow": 74001802,
+  "Balloon_Text_Blue": 74001803,
+  "Balloon_Text_Green": 74001804,
+  "Balloon_Text_Purple": 74001805,
+  "Balloon_CameraMinX": -50,
+  "Balloon_CameraMaxX": 50,
+  "Balloon_CameraMinY": -20,
+  "Balloon_CameraMaxY": 20,
+  "OneLineDrawAttachDistance": 100,
+  "OneLineDrawAttachSpeed": 500,
+  "ChestnutResultDrop": [
+    {
+      "threshold": 0.300000012,
+      "worldLifeId": 99910060
+    },
+    {
+      "threshold": 0.600000024,
+      "worldLifeId": 99910061
+    },
+    {
+      "threshold": 0.899999976,
+      "worldLifeId": 99910062
+    },
+    {
+      "threshold": 1,
+      "worldLifeId": 99910063
+    }
+  ],
+  "Chestnut_TicketPrice": 500,
+  "Chestnut_PayLogo": 28001622,
+  "Chestnut_PayName": 74009113,
+  "KLFryTeaResultDrop": [
+    {
+      "threshold": 0.300000012,
+      "worldLifeId": 99910065
+    },
+    {
+      "threshold": 0.600000024,
+      "worldLifeId": 99910066
+    },
+    {
+      "threshold": 0.899999976,
+      "worldLifeId": 99910067
+    },
+    {
+      "threshold": 1,
+      "worldLifeId": 99910068
+    }
+  ],
+  "KLFryTea_TicketPrice": 0,
+  "KLFryTea_PayLogo": 28001622,
+  "KLFryTea_PayName": 74009211,
+  "BBQ_GameDuration": 90,
+  "BBQ_CountDown": 3,
+  "BBQ_AIThinkIntervalMin": 1,
+  "BBQ_AIThinkIntervalMax": 3,
+  "BBQ_AIMouseSpeedMin": 10,
+  "BBQ_AIMouseSpeedMax": 30,
+  "BBQ_AIBurntProb": 0.150000006,
+  "BBQ_AIFlipProb": 0.699999988,
+  "BBQ_AIPickProb": 0.400000006,
+  "BBQ_AIPickDonenessMin": 2,
+  "BBQ_AIPickDonenessMax": 4,
+  "BBQ_CrabBonusMin": -1,
+  "BBQ_CrabBonusMax": -0.100000001,
+  "BBQ_CrabNormalScore": 2,
+  "BBQ_DogAppearDuration": 15,
+  "BBQ_DogAppearTimeMin": 5,
+  "BBQ_DogAppearTimeMax": 20,
+  "BBQ_DogNormalScoreMulti": 2,
+  "BBQ_DogBurntScoreMin": -10,
+  "BBQ_DogBurntScoreMax": -2,
+  "BBQ_CharNameColor1": "ff6b6b",
+  "BBQ_CharNameColor2": "4ecdc4",
+  "BBQ_CharNameColor3": "ffd93d",
+  "BBQ_CharNameColor4": "a29bfe",
+  "BBQ_DialogCD": [
+    2,
+    4
+  ],
+  "Fishing_StandardFishingLine": "标准的鱼线",
+  "Fishing_Koi": "锦鲤",
+  "Fishing_Tuna": "乌鳢",
+  "Fishing_LineDurability": "鱼线耐久",
+  "Fishing_Hooked": "上钩",
+  "Fishing_Unhooked": "脱钩",
+  "Fishing_LineTension": "线张力",
+  "Fishing_CentimetersFormat": "%d厘米",
+  "Fishing_GramsFormat": "%d克",
+  "Fishing_TaskFish": "湖泊之王",
+  "ChineseChess_NormalModeDesc": "At the start, pieces are arranged in the traditional setup. Red goes first. Players take turns moving, with each piece following its own movement rules. The first to checkmate the opposing player’s General wins.",
+  "ChineseChess_FlipModeDesc": "At the start, all pieces are placed face down. Players take turns either flipping a piece or moving one, capturing pieces according to rank. The first to capture all of the opponent’s pieces wins.",
+  "ChineseChess_LateModeDesc": "At the start, pieces are arranged in an endgame position. Red goes first. Players take turns, and the first to checkmate the opposing player wins.",
+  "Vampire_Agent": 40140000,
+  "Vampire_InteractSetting": 40230740,
+  "Slap_bruiseRate": 0.75,
+  "Slap_normalRate": 1,
+  "Slap_defenceBrokenRate": 1.5,
+  "Slap_aiNormalForceMin": 0.5,
+  "Slap_aiNormalForceMax": 0.800000012,
+  "Slap_aiPerfectForceMax": 1,
+  "FN_MaxTryTimes": [
+    7,
+    7,
+    20
+  ],
+  "FN_OnceSuccessScore": 1,
+  "FN_GameEndDelay": 0.800000012,
+  "FN_FlyForwardSpeed": 20,
+  "FN_MissLaunchSpeed": 50,
+  "FN_MissFlyLifeTime": 2,
+  "FN_MinSuccessTimes": [
+    5,
+    5,
+    15
+  ],
+  "FN_CrossHairsMoveSpeed": [
+    2,
+    4,
+    2
+  ],
+  "FN_CrossHairsScatterBarMoveSpeed": [
+    0.200000003,
+    0.400000006,
+    0.600000024
+  ],
+  "FN_CrossHairsScatterRange": [
+    {
+      "missLevel1Size": 5,
+      "missLevel2Size": 5
+    },
+    {
+      "missLevel1Size": 7,
+      "missLevel2Size": 7
+    },
+    {
+      "missLevel1Size": 0,
+      "missLevel2Size": 50
+    }
+  ],
+  "FN_CrossHairsNormalOffset": [
+    10,
+    20,
+    15
+  ],
+  "PP_MaxTryTimes": [
+    10,
+    10,
+    10
+  ],
+  "PP_OnceSuccessScore": 10,
+  "PP_GameEndDelay": 1,
+  "PP_FlyForwardSpeed": 20,
+  "PP_MissLaunchSpeed": 50,
+  "PP_MissFlyLifeTime": 2,
+  "PP_MinSuccessTimes": [
+    3,
+    3,
+    3
+  ],
+  "PP_CrossHairsMoveSpeed": [
+    1,
+    1,
+    1
+  ],
+  "PP_CrossHairsScatterBarMoveSpeed": [
+    1,
+    1,
+    1
+  ],
+  "PP_CrossHairsScatterRange": [
+    {
+      "missLevel1Size": 1,
+      "missLevel2Size": 1
+    },
+    {
+      "missLevel1Size": 1,
+      "missLevel2Size": 1
+    },
+    {
+      "missLevel1Size": 1,
+      "missLevel2Size": 1
+    }
+  ],
+  "PP_CrossHairsScatterOffset": [
+    1,
+    1,
+    1
+  ],
+  "SafeDriving_Emoji1": "Res/DesignerTemp/Texture/Harry1.png",
+  "SafeDriving_Emoji2": "Res/DesignerTemp/Texture/Harry2.png",
+  "SafeDriving_Emoji3": "Res/DesignerTemp/Texture/Harry3.png",
+  "Shuttlecock_DrawScore": 20,
+  "Shuttlecock_DrawAnimCount": 2,
+  "Shuttlecock_ChallengeList": [
+    1025,
+    1026,
+    1027,
+    1028,
+    1029,
+    1030,
+    1031,
+    1032,
+    1033,
+    1034,
+    1035,
+    1036,
+    1037,
+    1038,
+    1039,
+    1040,
+    1041,
+    1042
+  ],
+  "BBQ_AIWrongPickSelfProb": 0.100000001,
+  "BBQ_AIWrongPickOtherProb": 0.100000001,
+  "DiceGame_PvP_Round": 5,
+  "DiceGame_PvP_Disconnect_Timeout": 30,
+  "DiceGame_PvP_WinDrop": 5000,
+  "DiceGame_Ai_FallbackLog": true,
+  "Ensemble_Distance": 30,
+  "Ensemble_Superimpose": 0.100000001,
+  "Ensemble_MaxMagnification": 1.39999998,
+  "Ensemble_Poi_Idle": 2
+}

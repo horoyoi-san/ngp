@@ -4,11 +4,6 @@ using System.Reflection;
 
 namespace Ananta.SDK.Serialization;
 
-/// <summary>
-/// Marks a class/struct as a UX RPC contract. Inline contracts do not emit an object marker.
-/// TypeMark is used by the few polymorphic 4229938 contracts whose complex marker is a concrete
-/// type discriminator (for example WeaponData uses 1 instead of the normal 0xFF marker).
-/// </summary>
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct)]
 public sealed class UxContractAttribute : Attribute
 {
@@ -29,14 +24,12 @@ public enum UxObjectEncoding
     Struct
 }
 
-/// <summary>Overrides object framing for one field when the same client type is used both as a struct and complex.</summary>
 [AttributeUsage(AttributeTargets.Field)]
 public sealed class UxObjectAttribute : Attribute
 {
     public UxObjectEncoding Encoding { get; set; } = UxObjectEncoding.Auto;
 }
 
-/// <summary>Overrides list/dictionary count encoding and nested object framing.</summary>
 [AttributeUsage(AttributeTargets.Field)]
 public sealed class UxCollectionAttribute : Attribute
 {
@@ -45,17 +38,12 @@ public sealed class UxCollectionAttribute : Attribute
     public UxObjectEncoding ValueObjectEncoding { get; set; } = UxObjectEncoding.Auto;
 }
 
-/// <summary>UX byte buffers are nullable complex values with either Int32 or biased 7-bit lengths.</summary>
 [AttributeUsage(AttributeTargets.Field)]
 public sealed class UxBufferAttribute : Attribute
 {
     public UxCountEncoding Count { get; set; } = UxCountEncoding.Int7;
 }
 
-/// <summary>
-/// Reflection serializer for dump-shaped RPC DTOs. Public fields are serialized by declaration order,
-/// allowing RpcTypes to be read side-by-side with RPCSerializeAuto.lua / the IL2CPP dump.
-/// </summary>
 public static class UxSerializer
 {
     public static byte[] Serialize<T>(T value)
@@ -92,7 +80,7 @@ public static class UxSerializer
         if (type == typeof(double)) { writer.F64(value is null ? 0d : (double)value); return; }
         if (type == typeof(string)) { writer.UxString((string?)value); return; }
 
-        // byte[] is a UX buffer, not a normal List<byte>.
+        
         if (type == typeof(byte[]))
         {
             WriteBuffer(writer, (byte[]?)value, field);
@@ -149,7 +137,7 @@ public static class UxSerializer
         }
         else if (value is null)
         {
-            // WriteStruct(nullable=false) falls back to a zero/default value in the real client.
+            
             value = Activator.CreateInstance(type, nonPublic: true);
         }
 

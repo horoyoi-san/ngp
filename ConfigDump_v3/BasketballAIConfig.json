@@ -1,0 +1,52 @@
+{
+  "_class": "BasketballAIConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 7,
+  "records": [
+    {
+      "Id": 1,
+      "SceneProblemContextKey": 1,
+      "AgentPlanner": "Basketball_NormalOffense",
+      "GroupPlanner": "BBTeam_OffenseCoachRoot"
+    },
+    {
+      "Id": 2,
+      "SceneProblemContextKey": 2,
+      "AgentPlanner": "Basketball_OnBallDefense",
+      "GroupPlanner": ""
+    },
+    {
+      "Id": 3,
+      "SceneProblemContextKey": 3,
+      "AgentPlanner": "Basketball_RoundBegin",
+      "GroupPlanner": ""
+    },
+    {
+      "Id": 4,
+      "SceneProblemContextKey": 0,
+      "AgentPlanner": "Basketball_RoundBegin",
+      "GroupPlanner": ""
+    },
+    {
+      "Id": 5,
+      "SceneProblemContextKey": 4,
+      "AgentPlanner": "Basketball_BallOutOfControl",
+      "GroupPlanner": "BBTeam_LooseBallGeneralCoach"
+    },
+    {
+      "Id": 6,
+      "SceneProblemContextKey": 5,
+      "AgentPlanner": "Basketball_OffenseRebound",
+      "GroupPlanner": "BBTeam_OffenseReboundCoachRoot"
+    },
+    {
+      "Id": 7,
+      "SceneProblemContextKey": 6,
+      "AgentPlanner": "Basketball_DefenseRebound",
+      "GroupPlanner": "BBTeam_DefenseReboundCoachRoot"
+    }
+  ],
+  "_dumpedCount": 7,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

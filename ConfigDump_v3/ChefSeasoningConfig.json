@@ -1,0 +1,100 @@
+{
+  "_class": "ChefSeasoningConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 6,
+  "records": [
+    {
+      "Id": 37015001,
+      "Consumableid": 36100000,
+      "CondimentType": 1,
+      "pckeyId": 25,
+      "SeasoningCD": 0.5,
+      "CondimentModelName": "Res/MiniGame/Prefab/Chef/Seasoning/seasoningcan_sugar.prefab",
+      "Effectid": 53101007,
+      "SeasoningSignal": 11820,
+      "SeasoningSignalParameter": 1,
+      "LiquidSpeed": {
+        "x": 0,
+        "time": 0
+      }
+    },
+    {
+      "Id": 37015002,
+      "Consumableid": 36100002,
+      "CondimentType": 1,
+      "pckeyId": 11,
+      "SeasoningCD": 0.5,
+      "CondimentModelName": "Res/MiniGame/Prefab/Chef/Seasoning/seasoningcan_salt.prefab",
+      "Effectid": 53101007,
+      "SeasoningSignal": 11820,
+      "SeasoningSignalParameter": 2,
+      "LiquidSpeed": {
+        "x": 0,
+        "time": 0
+      }
+    },
+    {
+      "Id": 37015003,
+      "Consumableid": 36100010,
+      "CondimentType": 1,
+      "pckeyId": 26,
+      "SeasoningCD": 0.5,
+      "CondimentModelName": "Res/MiniGame/Prefab/Chef/Seasoning/seasoningcan_pepper.prefab",
+      "Effectid": 53101008,
+      "SeasoningSignal": 11820,
+      "SeasoningSignalParameter": 3,
+      "LiquidSpeed": {
+        "x": 0,
+        "time": 0
+      }
+    },
+    {
+      "Id": 37015004,
+      "Consumableid": 36100012,
+      "CondimentType": 1,
+      "pckeyId": 27,
+      "SeasoningCD": 0.5,
+      "CondimentModelName": "Res/MiniGame/Prefab/Chef/Seasoning/seasoningcan_pepper.prefab",
+      "Effectid": 53101008,
+      "SeasoningSignal": 11820,
+      "SeasoningSignalParameter": 4,
+      "LiquidSpeed": {
+        "x": 0,
+        "time": 0
+      }
+    },
+    {
+      "Id": 37015005,
+      "Consumableid": 36100011,
+      "CondimentType": 2,
+      "pckeyId": 12,
+      "SeasoningCD": 0.5,
+      "CondimentModelName": "Res/MiniGame/Prefab/Chef/Seasoning/testbottle.prefab",
+      "Effectid": 53101009,
+      "SeasoningSignal": 11821,
+      "SeasoningSignalParameter": 1,
+      "LiquidSpeed": {
+        "x": 1,
+        "time": 0.200000003
+      }
+    },
+    {
+      "Id": 37015006,
+      "Consumableid": 36100001,
+      "CondimentType": 2,
+      "pckeyId": 13,
+      "SeasoningCD": 0.5,
+      "CondimentModelName": "Res/MiniGame/Prefab/Chef/Seasoning/testbottle.prefab",
+      "Effectid": 53101010,
+      "SeasoningSignal": 11821,
+      "SeasoningSignalParameter": 2,
+      "LiquidSpeed": {
+        "x": 1,
+        "time": 0.200000003
+      }
+    }
+  ],
+  "_dumpedCount": 6,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -3,12 +3,6 @@ using Ananta.Server.Protocol.Client4229938;
 
 namespace Ananta.Server.Handlers.Game;
 
-/// <summary>
-/// Build-4229938 RPC-surface compatibility.  Semantic handlers still win.  Any other Invoke uses
-/// the exact generated return reader shape from the matching client Lua so callbacks receive a
-/// valid default value (empty list/dict, zero primitive, empty string, or non-null empty object)
-/// instead of a zero-byte body.
-/// </summary>
 internal sealed partial class GameRouter
 {
     private Task DefaultUnknownInvoke4229938(RpcContext ctx)
@@ -25,16 +19,16 @@ internal sealed partial class GameRouter
 
     private Task DefaultUnknownNotify4229938(RpcContext ctx)
     {
-        // Notifies have no callback body. Accepting an unimplemented generated 4229938 notify is
-        // safer than treating it as a protocol error; stateful methods get semantic handlers as
-        // they are implemented, while telemetry/client-local signals remain harmless no-ops.
+        
+        
+        
         ctx.Session.Log.Warn($"[RPC4229938] unimplemented notify {Ananta.SDK.Logging.RpcMethodNames.Display(ctx.MethodId)} -> accepted");
         return Task.CompletedTask;
     }
 
-    // High-frequency/UI RPCs seen in stock 4229938 are made explicit so they no longer appear as
-    // unknown traffic.  The server does not emulate production economy/social services here; it
-    // returns the exact neutral value expected by the generated client callback.
+    
+    
+    
     [Handler(MethodId.AskTradeGetMarketList, HandlerPacketKind.Invoke)]
     [Handler(MethodId.AskTradeGetHistoryPage, HandlerPacketKind.Invoke)]
     [Handler(MethodId.AskPlayerRankingSummary, HandlerPacketKind.Invoke)]

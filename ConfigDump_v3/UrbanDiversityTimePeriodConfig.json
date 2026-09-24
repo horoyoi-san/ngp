@@ -1,0 +1,88 @@
+{
+  "_class": "UrbanDiversityTimePeriodConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 7,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "白天",
+      "CandidatePeriods": [
+        {
+          "startHour": 6,
+          "endHour": 19
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "Name": "夜晚",
+      "CandidatePeriods": [
+        {
+          "startHour": 18,
+          "endHour": 24
+        },
+        {
+          "startHour": 0,
+          "endHour": 2
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "Name": "凌晨",
+      "CandidatePeriods": [
+        {
+          "startHour": 2,
+          "endHour": 6
+        }
+      ]
+    },
+    {
+      "Id": 4,
+      "Name": "全天",
+      "CandidatePeriods": [
+        {
+          "startHour": 0,
+          "endHour": 24
+        }
+      ]
+    },
+    {
+      "Id": 5,
+      "Name": "全白天",
+      "CandidatePeriods": [
+        {
+          "startHour": 6,
+          "endHour": 24
+        }
+      ]
+    },
+    {
+      "Id": 6,
+      "Name": "演出时段",
+      "CandidatePeriods": [
+        {
+          "startHour": 18,
+          "endHour": 24
+        },
+        {
+          "startHour": 0,
+          "endHour": 6
+        }
+      ]
+    },
+    {
+      "Id": 7,
+      "Name": "村民时段",
+      "CandidatePeriods": [
+        {
+          "startHour": 7,
+          "endHour": 22
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 7,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

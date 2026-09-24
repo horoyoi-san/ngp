@@ -1,0 +1,269 @@
+{
+  "_class": "AgentPerceptionRoleDefinitionConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 25,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "NPC",
+      "TagsMust": [
+        "NPC"
+      ],
+      "TagsAnyOf": [],
+      "TagsMustNot": []
+    },
+    {
+      "Id": 2,
+      "Name": "NPC_女性",
+      "TagsMust": [
+        "NPC",
+        "Agent_Female"
+      ],
+      "TagsAnyOf": [],
+      "TagsMustNot": []
+    },
+    {
+      "Id": 3,
+      "Name": "NPC_男性",
+      "TagsMust": [
+        "NPC",
+        "Agent_Male"
+      ],
+      "TagsAnyOf": [],
+      "TagsMustNot": []
+    },
+    {
+      "Id": 4,
+      "Name": "玩家",
+      "TagsMust": [
+        "Player"
+      ],
+      "TagsAnyOf": [],
+      "TagsMustNot": []
+    },
+    {
+      "Id": 5,
+      "Name": "玩家_女性",
+      "TagsMust": [
+        "Player",
+        "Agent_Female"
+      ],
+      "TagsAnyOf": [],
+      "TagsMustNot": []
+    },
+    {
+      "Id": 6,
+      "Name": "玩家_男性",
+      "TagsMust": [
+        "Player",
+        "Agent_Male"
+      ],
+      "TagsAnyOf": [],
+      "TagsMustNot": []
+    },
+    {
+      "Id": 10,
+      "Name": "可目击NPC",
+      "TagsMust": [
+        "NPC",
+        "Agent_CanWitness"
+      ],
+      "TagsAnyOf": [],
+      "TagsMustNot": []
+    },
+    {
+      "Id": 100,
+      "Name": "混混",
+      "TagsMust": [
+        "Agent",
+        "Agent_Gang"
+      ],
+      "TagsAnyOf": [],
+      "TagsMustNot": []
+    },
+    {
+      "Id": 101,
+      "Name": "警察",
+      "TagsMust": [
+        "Agent",
+        "Agent_Police"
+      ],
+      "TagsAnyOf": [],
+      "TagsMustNot": []
+    },
+    {
+      "Id": 200,
+      "Name": "晕倒的Agent",
+      "TagsMust": [
+        "Agent",
+        "Agent_Stun"
+      ],
+      "TagsAnyOf": [],
+      "TagsMustNot": [
+        "Agent_Gang_AOI",
+        "Agent_Gang_POI"
+      ]
+    },
+    {
+      "Id": 201,
+      "Name": "看豪车NPC",
+      "TagsMust": [
+        "NPC",
+        "Agent_CanWitness",
+        "Prob_0.5"
+      ],
+      "TagsAnyOf": [],
+      "TagsMustNot": [
+        "Agent_Gang_AOI",
+        "Agent_Gang_POI",
+        "Agent_LifeSchedule"
+      ]
+    },
+    {
+      "Id": 202,
+      "Name": "阵营感知NPC",
+      "TagsMust": [
+        "NPC",
+        "Agent_CanWitness",
+        "Agent_Faction"
+      ],
+      "TagsAnyOf": [],
+      "TagsMustNot": [
+        "Agent_LifeSchedule"
+      ]
+    },
+    {
+      "Id": 203,
+      "Name": "显示气泡的NPC",
+      "TagsMust": [
+        "NPC",
+        "Agent_Bubble"
+      ],
+      "TagsAnyOf": [],
+      "TagsMustNot": []
+    },
+    {
+      "Id": 204,
+      "Name": "多人交互中Agent",
+      "TagsMust": [
+        "Agent",
+        "Agent_MultiInteract"
+      ],
+      "TagsAnyOf": [],
+      "TagsMustNot": []
+    },
+    {
+      "Id": 205,
+      "Name": "公主抱_抱着男性",
+      "TagsMust": [
+        "Agent_PrincessHugCarrying_Male"
+      ],
+      "TagsAnyOf": [],
+      "TagsMustNot": []
+    },
+    {
+      "Id": 206,
+      "Name": "公主抱_抱着女性",
+      "TagsMust": [
+        "Agent_PrincessHugCarrying_Female"
+      ],
+      "TagsAnyOf": [],
+      "TagsMustNot": []
+    },
+    {
+      "Id": 207,
+      "Name": "女性玩家公主抱_抱着女性",
+      "TagsMust": [
+        "Player",
+        "Agent_Female",
+        "Agent_PrincessHugCarrying_Female"
+      ],
+      "TagsAnyOf": [],
+      "TagsMustNot": []
+    },
+    {
+      "Id": 208,
+      "Name": "男性玩家公主抱_抱着女性",
+      "TagsMust": [
+        "Player",
+        "Agent_Male",
+        "Agent_PrincessHugCarrying_Female"
+      ],
+      "TagsAnyOf": [],
+      "TagsMustNot": []
+    },
+    {
+      "Id": 300,
+      "Name": "日程表NPC",
+      "TagsMust": [
+        "NPC",
+        "Agent_LifeSchedule"
+      ],
+      "TagsAnyOf": [],
+      "TagsMustNot": []
+    },
+    {
+      "Id": 301,
+      "Name": "日程表NPC_Ambient",
+      "TagsMust": [
+        "NPC",
+        "Agent_LifeSchedule_Ambient"
+      ],
+      "TagsAnyOf": [],
+      "TagsMustNot": []
+    },
+    {
+      "Id": 302,
+      "Name": "日程表NPC_Idle",
+      "TagsMust": [
+        "NPC",
+        "Agent_LifeSchedule_Idle"
+      ],
+      "TagsAnyOf": [],
+      "TagsMustNot": []
+    },
+    {
+      "Id": 303,
+      "Name": "女性日程表NPC_Idle",
+      "TagsMust": [
+        "NPC",
+        "Agent_Female",
+        "Agent_LifeSchedule_Idle"
+      ],
+      "TagsAnyOf": [],
+      "TagsMustNot": []
+    },
+    {
+      "Id": 304,
+      "Name": "男性日程表NPC_Idle",
+      "TagsMust": [
+        "NPC",
+        "Agent_Male",
+        "Agent_LifeSchedule_Idle"
+      ],
+      "TagsAnyOf": [],
+      "TagsMustNot": []
+    },
+    {
+      "Id": 1000,
+      "Name": "载具",
+      "TagsMust": [
+        "Vehicle"
+      ],
+      "TagsAnyOf": [],
+      "TagsMustNot": []
+    },
+    {
+      "Id": 1001,
+      "Name": "豪车",
+      "TagsMust": [
+        "Vehicle_Rich"
+      ],
+      "TagsAnyOf": [],
+      "TagsMustNot": []
+    }
+  ],
+  "_dumpedCount": 25,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -1,0 +1,42 @@
+{
+  "_class": "ChefRankConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 4,
+  "records": [
+    {
+      "Id": 1,
+      "RankType": 0,
+      "RankWeight": 1,
+      "RatePoint": 90,
+      "RankTimelineClip": true,
+      "RankText": "S完美"
+    },
+    {
+      "Id": 2,
+      "RankType": 1,
+      "RankWeight": 0.800000012,
+      "RatePoint": 70,
+      "RankTimelineClip": true,
+      "RankText": "A优秀"
+    },
+    {
+      "Id": 3,
+      "RankType": 2,
+      "RankWeight": 0.5,
+      "RatePoint": 50,
+      "RankTimelineClip": false,
+      "RankText": "B一般"
+    },
+    {
+      "Id": 4,
+      "RankType": 3,
+      "RankWeight": 0.200000003,
+      "RatePoint": 0,
+      "RankTimelineClip": false,
+      "RankText": "C差劲"
+    }
+  ],
+  "_dumpedCount": 4,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

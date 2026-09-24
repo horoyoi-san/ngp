@@ -1,0 +1,447 @@
+{
+  "_class": "NpcCultivationHangOutPanelConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 17,
+  "records": [
+    {
+      "Id": 1,
+      "IntroText": "是否结束兜风？",
+      "ButtonText": [
+        "结束兜风"
+      ],
+      "Signal": [
+        "gameover"
+      ],
+      "SImageId": 28003778,
+      "IsShowPhoto": false,
+      "OptionSImageId": [],
+      "IsDouFeng": false,
+      "EventId": [],
+      "__IDX__IntroText": 4294967293,
+      "__RAW__IntroText": "是否结束兜风？",
+      "__IDX__ButtonText": [
+        4294967293
+      ],
+      "__RAW__ButtonText": [
+        "结束兜风"
+      ]
+    },
+    {
+      "Id": 788,
+      "IntroText": "是否进入电影院观影",
+      "ButtonText": [
+        "电影院"
+      ],
+      "Signal": [],
+      "SImageId": 28003778,
+      "IsShowPhoto": true,
+      "OptionSImageId": [
+        28008109
+      ],
+      "IsDouFeng": true,
+      "EventId": [
+        788
+      ],
+      "__IDX__IntroText": 4294967293,
+      "__RAW__IntroText": "是否进入电影院观影",
+      "__IDX__ButtonText": [
+        4294967293
+      ],
+      "__RAW__ButtonText": [
+        "电影院"
+      ]
+    },
+    {
+      "Id": 791,
+      "IntroText": "是否进入摩天轮游玩",
+      "ButtonText": [
+        "摩天轮"
+      ],
+      "Signal": [],
+      "SImageId": 28003778,
+      "IsShowPhoto": true,
+      "OptionSImageId": [
+        28008106
+      ],
+      "IsDouFeng": true,
+      "EventId": [
+        791
+      ],
+      "__IDX__IntroText": 4294967293,
+      "__RAW__IntroText": "是否进入摩天轮游玩",
+      "__IDX__ButtonText": [
+        4294967293
+      ],
+      "__RAW__ButtonText": [
+        "摩天轮"
+      ]
+    },
+    {
+      "Id": 1089,
+      "IntroText": "是否进入电影院观影",
+      "ButtonText": [
+        "电影院"
+      ],
+      "Signal": [],
+      "SImageId": 28003778,
+      "IsShowPhoto": true,
+      "OptionSImageId": [
+        28008109
+      ],
+      "IsDouFeng": true,
+      "EventId": [
+        1089
+      ],
+      "__IDX__IntroText": 4294967293,
+      "__RAW__IntroText": "是否进入电影院观影",
+      "__IDX__ButtonText": [
+        4294967293
+      ],
+      "__RAW__ButtonText": [
+        "电影院"
+      ]
+    },
+    {
+      "Id": 1090,
+      "IntroText": "是否进入电影院观影",
+      "ButtonText": [
+        "电影院"
+      ],
+      "Signal": [],
+      "SImageId": 28003778,
+      "IsShowPhoto": true,
+      "OptionSImageId": [
+        28008109
+      ],
+      "IsDouFeng": true,
+      "EventId": [
+        1090
+      ],
+      "__IDX__IntroText": 4294967293,
+      "__RAW__IntroText": "是否进入电影院观影",
+      "__IDX__ButtonText": [
+        4294967293
+      ],
+      "__RAW__ButtonText": [
+        "电影院"
+      ]
+    },
+    {
+      "Id": 1091,
+      "IntroText": "是否进入电影院观影",
+      "ButtonText": [
+        "电影院"
+      ],
+      "Signal": [],
+      "SImageId": 28003778,
+      "IsShowPhoto": true,
+      "OptionSImageId": [
+        28008109
+      ],
+      "IsDouFeng": true,
+      "EventId": [
+        1091
+      ],
+      "__IDX__IntroText": 4294967293,
+      "__RAW__IntroText": "是否进入电影院观影",
+      "__IDX__ButtonText": [
+        4294967293
+      ],
+      "__RAW__ButtonText": [
+        "电影院"
+      ]
+    },
+    {
+      "Id": 1254,
+      "IntroText": "是否进入低音808游玩",
+      "ButtonText": [
+        "飞镖",
+        "蹦迪"
+      ],
+      "Signal": [],
+      "SImageId": 28003778,
+      "IsShowPhoto": true,
+      "OptionSImageId": [
+        28000177,
+        28000178
+      ],
+      "IsDouFeng": true,
+      "EventId": [
+        2712,
+        2713
+      ],
+      "__IDX__IntroText": 4294967293,
+      "__RAW__IntroText": "是否进入低音808游玩",
+      "__IDX__ButtonText": [
+        4294967293,
+        4294967293
+      ],
+      "__RAW__ButtonText": [
+        "飞镖",
+        "蹦迪"
+      ]
+    },
+    {
+      "Id": 1287,
+      "IntroText": "是否进入音爆游玩",
+      "ButtonText": [
+        "飞镖",
+        "LiveHouse"
+      ],
+      "Signal": [],
+      "SImageId": 28003778,
+      "IsShowPhoto": true,
+      "OptionSImageId": [
+        28000177,
+        28008110
+      ],
+      "IsDouFeng": true,
+      "EventId": [
+        3275,
+        3276
+      ],
+      "__IDX__IntroText": 4294967293,
+      "__RAW__IntroText": "是否进入音爆游玩",
+      "__IDX__ButtonText": [
+        4294967293,
+        4294967293
+      ],
+      "__RAW__ButtonText": [
+        "飞镖",
+        "LiveHouse"
+      ]
+    },
+    {
+      "Id": 2010,
+      "IntroText": "是否和里希一起逛逛？",
+      "ButtonText": [
+        "开始"
+      ],
+      "Signal": [],
+      "SImageId": 28003778,
+      "IsShowPhoto": true,
+      "OptionSImageId": [
+        28005314
+      ],
+      "IsDouFeng": true,
+      "EventId": [
+        2010
+      ],
+      "__IDX__IntroText": 4294967293,
+      "__RAW__IntroText": "是否和里希一起逛逛？",
+      "__IDX__ButtonText": [
+        4294967293
+      ],
+      "__RAW__ButtonText": [
+        "开始"
+      ]
+    },
+    {
+      "Id": 2255,
+      "IntroText": "是否进入黄金海岸游玩",
+      "ButtonText": [
+        "日光浴"
+      ],
+      "Signal": [],
+      "SImageId": 28003778,
+      "IsShowPhoto": true,
+      "OptionSImageId": [
+        28017342
+      ],
+      "IsDouFeng": true,
+      "EventId": [
+        2255
+      ],
+      "__IDX__IntroText": 4294967293,
+      "__RAW__IntroText": "是否进入黄金海岸游玩",
+      "__IDX__ButtonText": [
+        4294967293
+      ],
+      "__RAW__ButtonText": [
+        "日光浴"
+      ]
+    },
+    {
+      "Id": 2257,
+      "IntroText": "是否进入午夜回响游玩",
+      "ButtonText": [
+        "蹦迪"
+      ],
+      "Signal": [],
+      "SImageId": 28003778,
+      "IsShowPhoto": true,
+      "OptionSImageId": [
+        28000178
+      ],
+      "IsDouFeng": true,
+      "EventId": [
+        2257
+      ],
+      "__IDX__IntroText": 4294967293,
+      "__RAW__IntroText": "是否进入午夜回响游玩",
+      "__IDX__ButtonText": [
+        4294967293
+      ],
+      "__RAW__ButtonText": [
+        "蹦迪"
+      ]
+    },
+    {
+      "Id": 2259,
+      "IntroText": "是否进入零重力游玩",
+      "ButtonText": [
+        "保龄球"
+      ],
+      "Signal": [],
+      "SImageId": 28003778,
+      "IsShowPhoto": true,
+      "OptionSImageId": [
+        28017301
+      ],
+      "IsDouFeng": true,
+      "EventId": [
+        2259
+      ],
+      "__IDX__IntroText": 4294967293,
+      "__RAW__IntroText": "是否进入零重力游玩",
+      "__IDX__ButtonText": [
+        4294967293
+      ],
+      "__RAW__ButtonText": [
+        "保龄球"
+      ]
+    },
+    {
+      "Id": 2260,
+      "IntroText": "是否进入梦花园游玩",
+      "ButtonText": [
+        "共餐"
+      ],
+      "Signal": [],
+      "SImageId": 28003778,
+      "IsShowPhoto": true,
+      "OptionSImageId": [
+        28008105
+      ],
+      "IsDouFeng": true,
+      "EventId": [
+        2260
+      ],
+      "__IDX__IntroText": 4294967293,
+      "__RAW__IntroText": "是否进入梦花园游玩",
+      "__IDX__ButtonText": [
+        4294967293
+      ],
+      "__RAW__ButtonText": [
+        "共餐"
+      ]
+    },
+    {
+      "Id": 2812,
+      "IntroText": "是否进入麻将馆游玩",
+      "ButtonText": [
+        "麻将"
+      ],
+      "Signal": [],
+      "SImageId": 28003778,
+      "IsShowPhoto": true,
+      "OptionSImageId": [
+        28008107
+      ],
+      "IsDouFeng": true,
+      "EventId": [
+        2812
+      ],
+      "__IDX__IntroText": 4294967293,
+      "__RAW__IntroText": "是否进入麻将馆游玩",
+      "__IDX__ButtonText": [
+        4294967293
+      ],
+      "__RAW__ButtonText": [
+        "麻将"
+      ]
+    },
+    {
+      "Id": 2879,
+      "IntroText": "是否进入餐厅共餐",
+      "ButtonText": [
+        "共餐"
+      ],
+      "Signal": [],
+      "SImageId": 28003778,
+      "IsShowPhoto": true,
+      "OptionSImageId": [
+        28008105
+      ],
+      "IsDouFeng": true,
+      "EventId": [
+        2879
+      ],
+      "__IDX__IntroText": 4294967293,
+      "__RAW__IntroText": "是否进入餐厅共餐",
+      "__IDX__ButtonText": [
+        4294967293
+      ],
+      "__RAW__ButtonText": [
+        "共餐"
+      ]
+    },
+    {
+      "Id": 3319,
+      "IntroText": "是否进入夜店游玩",
+      "ButtonText": [
+        "飞镖",
+        "蹦迪"
+      ],
+      "Signal": [],
+      "SImageId": 28003778,
+      "IsShowPhoto": true,
+      "OptionSImageId": [
+        28000178
+      ],
+      "IsDouFeng": true,
+      "EventId": [
+        2814,
+        2815
+      ],
+      "__IDX__IntroText": 4294967293,
+      "__RAW__IntroText": "是否进入夜店游玩",
+      "__IDX__ButtonText": [
+        4294967293,
+        4294967293
+      ],
+      "__RAW__ButtonText": [
+        "飞镖",
+        "蹦迪"
+      ]
+    },
+    {
+      "Id": 3444,
+      "IntroText": "是否进入电影院观影",
+      "ButtonText": [
+        "电影院"
+      ],
+      "Signal": [],
+      "SImageId": 28003778,
+      "IsShowPhoto": true,
+      "OptionSImageId": [
+        28008109
+      ],
+      "IsDouFeng": true,
+      "EventId": [
+        3444
+      ],
+      "__IDX__IntroText": 4294967293,
+      "__RAW__IntroText": "是否进入电影院观影",
+      "__IDX__ButtonText": [
+        4294967293
+      ],
+      "__RAW__ButtonText": [
+        "电影院"
+      ]
+    }
+  ],
+  "_dumpedCount": 17,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

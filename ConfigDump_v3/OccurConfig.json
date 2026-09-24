@@ -1,0 +1,154 @@
+{
+  "_class": "OccurConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 12,
+  "records": [
+    {
+      "Id": 70000001,
+      "Target": "怪物通用淡入出场",
+      "DelayTime": 0,
+      "DullTime": 0,
+      "ActionId": 0,
+      "ActionDelay": 0,
+      "IsReportDullEnd": true,
+      "EffectData": [
+        {
+          "effectId": 53205932,
+          "delayTime": 0
+        }
+      ]
+    },
+    {
+      "Id": 70000054,
+      "Target": "副本怪通用出场",
+      "DelayTime": 0.300000012,
+      "DullTime": 1.29999995,
+      "ActionId": 0,
+      "ActionDelay": 0,
+      "IsReportDullEnd": true,
+      "EffectData": []
+    },
+    {
+      "Id": 70000182,
+      "Target": "空",
+      "DelayTime": 0,
+      "DullTime": 0,
+      "ActionId": 0,
+      "ActionDelay": 0,
+      "IsReportDullEnd": true,
+      "EffectData": []
+    },
+    {
+      "Id": 70000183,
+      "Target": "墩墩骨出生材质特效",
+      "DelayTime": 0,
+      "DullTime": 0,
+      "ActionId": 0,
+      "ActionDelay": 0,
+      "IsReportDullEnd": true,
+      "EffectData": [
+        {
+          "effectId": 53220901,
+          "delayTime": 0
+        },
+        {
+          "effectId": 53220902,
+          "delayTime": 0.270000011
+        }
+      ]
+    },
+    {
+      "Id": 70000194,
+      "Target": "近战怪出场",
+      "DelayTime": 1.20000005,
+      "DullTime": 1.20000005,
+      "ActionId": 7001,
+      "ActionDelay": 0,
+      "IsReportDullEnd": true,
+      "EffectData": []
+    },
+    {
+      "Id": 70000229,
+      "Target": "2s无敌，5.2s不可选中",
+      "DelayTime": 2,
+      "DullTime": 5.19999981,
+      "ActionId": 0,
+      "ActionDelay": 0,
+      "IsReportDullEnd": true,
+      "EffectData": []
+    },
+    {
+      "Id": 70000237,
+      "Target": "角色通用无动作出场",
+      "DelayTime": 0.100000001,
+      "DullTime": 0.100000001,
+      "ActionId": 0,
+      "ActionDelay": 0,
+      "IsReportDullEnd": true,
+      "EffectData": []
+    },
+    {
+      "Id": 70000240,
+      "Target": "科斯出场",
+      "DelayTime": 1,
+      "DullTime": 2,
+      "ActionId": 1001,
+      "ActionDelay": 0,
+      "IsReportDullEnd": true,
+      "EffectData": []
+    },
+    {
+      "Id": 70000302,
+      "Target": "林檎大招表情包01出场",
+      "DelayTime": 0,
+      "DullTime": 0,
+      "ActionId": 7001,
+      "ActionDelay": 0,
+      "IsReportDullEnd": true,
+      "EffectData": []
+    },
+    {
+      "Id": 70000307,
+      "Target": "沙猫出生特效",
+      "DelayTime": 0,
+      "DullTime": 0,
+      "ActionId": 0,
+      "ActionDelay": 0,
+      "IsReportDullEnd": true,
+      "EffectData": []
+    },
+    {
+      "Id": 70000309,
+      "Target": "美术馆Boss战出场",
+      "DelayTime": 0,
+      "DullTime": 0,
+      "ActionId": 0,
+      "ActionDelay": 0,
+      "IsReportDullEnd": true,
+      "EffectData": [
+        {
+          "effectId": 53205932,
+          "delayTime": 0
+        }
+      ]
+    },
+    {
+      "Id": 70000418,
+      "Target": "真视界僵尸出场",
+      "DelayTime": 0,
+      "DullTime": 0,
+      "ActionId": 0,
+      "ActionDelay": 0,
+      "IsReportDullEnd": true,
+      "EffectData": [
+        {
+          "effectId": 53610844,
+          "delayTime": 0
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 12,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

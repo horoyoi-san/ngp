@@ -1,0 +1,43 @@
+{
+  "_class": "GroupPerformDetailConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 3,
+  "records": [
+    {
+      "Id": 100,
+      "TriggerType": 0,
+      "TriggerDistance": 1,
+      "TriggerCount": 2,
+      "ActionId": 1004,
+      "NotifyServer": true,
+      "NotifyServerTag": "OnStoneDance",
+      "PhaseTwo": true,
+      "InvestigateGalleryId": 92341049
+    },
+    {
+      "Id": 101,
+      "TriggerType": 0,
+      "TriggerDistance": 1,
+      "TriggerCount": 1,
+      "ActionId": 1003,
+      "NotifyServer": false,
+      "NotifyServerTag": "",
+      "PhaseTwo": false,
+      "InvestigateGalleryId": 0
+    },
+    {
+      "Id": 102,
+      "TriggerType": 1,
+      "TriggerDistance": 3,
+      "TriggerCount": 1,
+      "ActionId": 1002,
+      "NotifyServer": true,
+      "NotifyServerTag": "OnStoneDance",
+      "PhaseTwo": false,
+      "InvestigateGalleryId": 0
+    }
+  ],
+  "_dumpedCount": 3,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -1,0 +1,144 @@
+{
+  "_class": "RailTrainConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 6,
+  "records": [
+    {
+      "Id": 1,
+      "HasMultipleCarriages": true,
+      "ModelName": "LightRailVehicle01",
+      "TemplateName": "Vehicle01",
+      "GateOpenAnim": "lieche_gateopen01",
+      "GateCloseAnim": "lieche_gateclose01",
+      "CarriageIds": [
+        10,
+        2,
+        2,
+        2,
+        3
+      ],
+      "StartMovingSound": 70450105,
+      "StopMovingSound": 15000275,
+      "BreakSound": 70450106,
+      "OpenDoorSound": 15000647,
+      "CloseDoorSound": 15000581,
+      "OpenDoorWarningSound": 15000649,
+      "CloseDoorWarningVoice": 70601060,
+      "CloseDoorWarningSubtitle": 48010237,
+      "CloseDoorWarningSound": 15000614
+    },
+    {
+      "Id": 2,
+      "HasMultipleCarriages": true,
+      "ModelName": "LightRailVehicle01",
+      "TemplateName": "Vehicle01",
+      "GateOpenAnim": "lieche_gateopen01",
+      "GateCloseAnim": "lieche_gateclose01",
+      "CarriageIds": [
+        11,
+        7,
+        7,
+        7,
+        8
+      ],
+      "StartMovingSound": 70450105,
+      "StopMovingSound": 15000275,
+      "BreakSound": 70450106,
+      "OpenDoorSound": 15000647,
+      "CloseDoorSound": 15000581,
+      "OpenDoorWarningSound": 15000649,
+      "CloseDoorWarningVoice": 70601060,
+      "CloseDoorWarningSubtitle": 48010237,
+      "CloseDoorWarningSound": 15000614
+    },
+    {
+      "Id": 3,
+      "HasMultipleCarriages": true,
+      "ModelName": "LightRailVehicle03",
+      "TemplateName": "Vehicle03",
+      "GateOpenAnim": "lieche_gateopen03",
+      "GateCloseAnim": "lieche_gateclose03",
+      "CarriageIds": [
+        4,
+        5,
+        9
+      ],
+      "StartMovingSound": 70450105,
+      "StopMovingSound": 15000275,
+      "BreakSound": 70450106,
+      "OpenDoorSound": 15000647,
+      "CloseDoorSound": 15000581,
+      "OpenDoorWarningSound": 15000649,
+      "CloseDoorWarningVoice": 70601060,
+      "CloseDoorWarningSubtitle": 48010237,
+      "CloseDoorWarningSound": 15000614
+    },
+    {
+      "Id": 4,
+      "HasMultipleCarriages": true,
+      "ModelName": "LightRailVehicle01",
+      "TemplateName": "Vehicle01",
+      "GateOpenAnim": "lieche_gateopen01",
+      "GateCloseAnim": "lieche_gateclose01",
+      "CarriageIds": [
+        10
+      ],
+      "StartMovingSound": 70450105,
+      "StopMovingSound": 15000275,
+      "BreakSound": 70450106,
+      "OpenDoorSound": 15000647,
+      "CloseDoorSound": 15000581,
+      "OpenDoorWarningSound": 15000649,
+      "CloseDoorWarningVoice": 70601060,
+      "CloseDoorWarningSubtitle": 48010237,
+      "CloseDoorWarningSound": 15000614
+    },
+    {
+      "Id": 5,
+      "HasMultipleCarriages": true,
+      "ModelName": "LightRailVehicleCX01",
+      "TemplateName": "VehicleCX01",
+      "GateOpenAnim": "lieche_gateopen01",
+      "GateCloseAnim": "lieche_gateclose01",
+      "CarriageIds": [
+        12,
+        13,
+        13,
+        13,
+        14
+      ],
+      "StartMovingSound": 70450105,
+      "StopMovingSound": 15000275,
+      "BreakSound": 70450106,
+      "OpenDoorSound": 15000647,
+      "CloseDoorSound": 15000581,
+      "OpenDoorWarningSound": 15000649,
+      "CloseDoorWarningVoice": 70601060,
+      "CloseDoorWarningSubtitle": 48010237,
+      "CloseDoorWarningSound": 15000614
+    },
+    {
+      "Id": 6,
+      "HasMultipleCarriages": true,
+      "ModelName": "TourBoat01",
+      "TemplateName": "TourBoat01",
+      "GateOpenAnim": "",
+      "GateCloseAnim": "",
+      "CarriageIds": [
+        15
+      ],
+      "StartMovingSound": 70450105,
+      "StopMovingSound": 15000275,
+      "BreakSound": 70450106,
+      "OpenDoorSound": 15000647,
+      "CloseDoorSound": 15000581,
+      "OpenDoorWarningSound": 15000649,
+      "CloseDoorWarningVoice": 70601060,
+      "CloseDoorWarningSubtitle": 48010237,
+      "CloseDoorWarningSound": 15000614
+    }
+  ],
+  "_dumpedCount": 6,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

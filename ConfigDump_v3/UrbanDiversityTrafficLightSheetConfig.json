@@ -1,0 +1,176 @@
+{
+  "_class": "UrbanDiversityTrafficLightSheetConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 15,
+  "records": [
+    {
+      "Id": 1,
+      "TrafficLightSheetType": 0,
+      "SheetPrefabPath": [],
+      "ChaosSheetPrefabPath": [],
+      "ScaleRatio": [
+        1
+      ]
+    },
+    {
+      "Id": 2,
+      "TrafficLightSheetType": 1,
+      "SheetPrefabPath": [
+        "Res/Scenes/CommonStyleRes/common_pcg/pcg_roadsystem/traffic/prefab/pcg_road_cz_straight_red_pc.prefab"
+      ],
+      "ChaosSheetPrefabPath": [],
+      "ScaleRatio": [
+        1
+      ]
+    },
+    {
+      "Id": 3,
+      "TrafficLightSheetType": 2,
+      "SheetPrefabPath": [
+        "Res/Scenes/CommonStyleRes/common_pcg/pcg_roadsystem/traffic/prefab/pcg_road_cz_straight_green_pc.prefab"
+      ],
+      "ChaosSheetPrefabPath": [],
+      "ScaleRatio": [
+        1
+      ]
+    },
+    {
+      "Id": 4,
+      "TrafficLightSheetType": 3,
+      "SheetPrefabPath": [],
+      "ChaosSheetPrefabPath": [],
+      "ScaleRatio": [
+        1
+      ]
+    },
+    {
+      "Id": 5,
+      "TrafficLightSheetType": 4,
+      "SheetPrefabPath": [
+        "Res/Scenes/CommonStyleRes/common_pcg/pcg_roadsystem/traffic/prefab/pcg_road_cz_straight01a_red02_pc.prefab"
+      ],
+      "ChaosSheetPrefabPath": [
+        "Res/Characters/gpu_skinning/Animals/honglvdeng/sc_honglvdeng01a_red01_gm.fbx[sc_honglvdeng01a_red01_01_gm]",
+        "Res/Characters/gpu_skinning/Animals/honglvdeng/sc_honglvdeng01a_red01_gm.mat"
+      ],
+      "ScaleRatio": [
+        1,
+        1.5
+      ]
+    },
+    {
+      "Id": 6,
+      "TrafficLightSheetType": 5,
+      "SheetPrefabPath": [
+        "Res/Scenes/CommonStyleRes/common_pcg/pcg_roadsystem/traffic/prefab/pcg_road_cz_straight01a_yellow02_pc.prefab"
+      ],
+      "ChaosSheetPrefabPath": [],
+      "ScaleRatio": [
+        1,
+        1.5
+      ]
+    },
+    {
+      "Id": 7,
+      "TrafficLightSheetType": 6,
+      "SheetPrefabPath": [
+        "Res/Scenes/CommonStyleRes/common_pcg/pcg_roadsystem/traffic/prefab/pcg_road_cz_straight01a_green02_pc.prefab"
+      ],
+      "ChaosSheetPrefabPath": [
+        "Res/Characters/gpu_skinning/Animals/honglvdeng/sc_honglvdeng01a_green01_gm.fbx[sc_honglvdeng01a_green01_01_gm]",
+        "Res/Characters/gpu_skinning/Animals/honglvdeng/sc_honglvdeng01a_green01_gm.mat"
+      ],
+      "ScaleRatio": [
+        1,
+        1.5
+      ]
+    },
+    {
+      "Id": 8,
+      "TrafficLightSheetType": 7,
+      "SheetPrefabPath": [],
+      "ChaosSheetPrefabPath": [],
+      "ScaleRatio": [
+        1
+      ]
+    },
+    {
+      "Id": 9,
+      "TrafficLightSheetType": 8,
+      "SheetPrefabPath": [],
+      "ChaosSheetPrefabPath": [],
+      "ScaleRatio": [
+        1
+      ]
+    },
+    {
+      "Id": 10,
+      "TrafficLightSheetType": 9,
+      "SheetPrefabPath": [
+        "Res/Scenes/CommonStyleRes/common_pcg/pcg_roadsystem/traffic/prefab/pcg_road_cz_lightleft01a_red01_pc.prefab"
+      ],
+      "ChaosSheetPrefabPath": [],
+      "ScaleRatio": [
+        1
+      ]
+    },
+    {
+      "Id": 11,
+      "TrafficLightSheetType": 10,
+      "SheetPrefabPath": [
+        "Res/Scenes/CommonStyleRes/common_pcg/pcg_roadsystem/traffic/prefab/pcg_road_cz_lightleft01a_yellow01_pc.prefab"
+      ],
+      "ChaosSheetPrefabPath": [],
+      "ScaleRatio": [
+        1
+      ]
+    },
+    {
+      "Id": 12,
+      "TrafficLightSheetType": 11,
+      "SheetPrefabPath": [
+        "Res/Scenes/CommonStyleRes/common_pcg/pcg_roadsystem/traffic/prefab/pcg_road_cz_lightleft01a_green01_pc.prefab"
+      ],
+      "ChaosSheetPrefabPath": [],
+      "ScaleRatio": [
+        1
+      ]
+    },
+    {
+      "Id": 13,
+      "TrafficLightSheetType": 12,
+      "SheetPrefabPath": [
+        "Res/Scenes/CommonStyleRes/common_pcg/pcg_roadsystem/traffic/prefab/pcg_road_cz_lightright01a_red03_pc.prefab"
+      ],
+      "ChaosSheetPrefabPath": [],
+      "ScaleRatio": [
+        1
+      ]
+    },
+    {
+      "Id": 14,
+      "TrafficLightSheetType": 13,
+      "SheetPrefabPath": [
+        "Res/Scenes/CommonStyleRes/common_pcg/pcg_roadsystem/traffic/prefab/pcg_road_cz_lightright01a_yellow03_pc.prefab"
+      ],
+      "ChaosSheetPrefabPath": [],
+      "ScaleRatio": [
+        1
+      ]
+    },
+    {
+      "Id": 15,
+      "TrafficLightSheetType": 14,
+      "SheetPrefabPath": [
+        "Res/Scenes/CommonStyleRes/common_pcg/pcg_roadsystem/traffic/prefab/pcg_road_cz_lightright01a_green03_pc.prefab"
+      ],
+      "ChaosSheetPrefabPath": [],
+      "ScaleRatio": [
+        1
+      ]
+    }
+  ],
+  "_dumpedCount": 15,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

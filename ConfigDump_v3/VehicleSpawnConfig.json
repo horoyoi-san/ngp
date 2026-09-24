@@ -1,0 +1,3643 @@
+{
+  "_class": "VehicleSpawnConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 109,
+  "records": [
+    {
+      "Id": 1,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81001001,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994349,
+        9994190,
+        9994131,
+        9994124
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 2,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81001002,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994349,
+        9994345,
+        9994204,
+        9994235,
+        9994124
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": [
+        {
+          "component": 9993000,
+          "mat": "9993200"
+        },
+        {
+          "component": 9993001,
+          "mat": "9993200"
+        },
+        {
+          "component": 9993002,
+          "mat": "9993201,9993202,9993203,9993204,9993205,9993206,9993207,9993208,9993209,9993210"
+        },
+        {
+          "component": 9993003,
+          "mat": "9993201,9993202,9993203,9993204,9993205,9993206,9993207,9993208,9993209,9993210"
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81001003,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994314,
+        9994278,
+        9994130,
+        9994309,
+        9994233,
+        9994235
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": [
+        {
+          "component": 9993003,
+          "mat": "9993201,9993202,9993203,9993204,9993205,9993206,9993207,9993208,9993209,9993210"
+        }
+      ]
+    },
+    {
+      "Id": 4,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81001006,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994349,
+        9994344,
+        9994305,
+        9994237
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 5,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81001007,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994349,
+        9994234,
+        9994124,
+        9994183,
+        9994344
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 6,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81001008,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994238,
+        9994304,
+        9994349,
+        9994233,
+        9994344
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": [
+        {
+          "component": 9993000,
+          "mat": "9993200"
+        },
+        {
+          "component": 9993001,
+          "mat": "9993200"
+        },
+        {
+          "component": 9993003,
+          "mat": "9993201,9993202,9993203,9993204,9993205,9993206,9993207,9993208,9993209,9993210"
+        }
+      ]
+    },
+    {
+      "Id": 7,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81001009,
+      "InMass": false,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994230,
+        9994122,
+        9994020,
+        9994086,
+        9994234,
+        9994366
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 8,
+      "NewNpcType": [
+        45200092
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200094
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81002001,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994349,
+        9994183,
+        9994122,
+        9994230,
+        9994243
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 10,
+      "NewNpcType": [
+        45200092
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200094
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81002006,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994232,
+        9994349,
+        9994230,
+        9994145,
+        9994176
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 11,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81003001,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994349,
+        9994344,
+        9994243,
+        9994240
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": [
+        {
+          "component": 9993007,
+          "mat": "9993214,9993215,9993216,9993217,9993218"
+        },
+        {
+          "component": 9993004,
+          "mat": "9993211,9993212,9993213"
+        }
+      ]
+    },
+    {
+      "Id": 12,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81003002,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994344,
+        9994349
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 13,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81003003,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994260,
+        9994258,
+        9994349,
+        9994345,
+        9994234
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 14,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81003004,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994230,
+        9994235,
+        9994349,
+        9994238,
+        9994018,
+        9994379
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": [
+        {
+          "component": 9993003,
+          "mat": "9993201,9993202,9993203,9993204,9993205,9993206,9993207,9993208,9993209,9993210"
+        },
+        {
+          "component": 9993004,
+          "mat": "9993211,9993212,9993213"
+        },
+        {
+          "component": 9993005,
+          "mat": "9993211,9993212,9993213"
+        },
+        {
+          "component": 9993006,
+          "mat": "9993211,9993212,9993213"
+        }
+      ]
+    },
+    {
+      "Id": 15,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81003006,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994349,
+        9994261,
+        9994303
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": [
+        {
+          "component": 9993007,
+          "mat": "9993214,9993215,9993216,9993217,9993218"
+        },
+        {
+          "component": 9993004,
+          "mat": "9993211,9993212,9993213"
+        }
+      ]
+    },
+    {
+      "Id": 17,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81003008,
+      "InMass": true,
+      "UseColor": false,
+      "CanDrive": true,
+      "ColorMod": [
+        9994121,
+        9994344,
+        9994300,
+        9994252,
+        9994246
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": [
+        {
+          "component": 9993003,
+          "mat": "9993201,9993202,9993203,9993204,9993205,9993206,9993207,9993208,9993209,9993210"
+        },
+        {
+          "component": 9993004,
+          "mat": "9993211,9993212,9993213"
+        },
+        {
+          "component": 9993005,
+          "mat": "9993211,9993212,9993213"
+        },
+        {
+          "component": 9993006,
+          "mat": "9993211,9993212,9993213"
+        }
+      ]
+    },
+    {
+      "Id": 18,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81004005,
+      "InMass": true,
+      "UseColor": false,
+      "CanDrive": true,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 19,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81004006,
+      "InMass": true,
+      "UseColor": false,
+      "CanDrive": true,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 21,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81004008,
+      "InMass": true,
+      "UseColor": false,
+      "CanDrive": true,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 23,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81004010,
+      "InMass": true,
+      "UseColor": false,
+      "CanDrive": true,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 24,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81004012,
+      "InMass": false,
+      "UseColor": false,
+      "CanDrive": false,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 25,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81004013,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": false,
+      "ColorMod": [
+        9994374,
+        9994375,
+        9994376,
+        9994377,
+        9994378
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 26,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81004014,
+      "InMass": false,
+      "UseColor": false,
+      "CanDrive": false,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 27,
+      "NewNpcType": [
+        45200095
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [],
+      "NewPassengerProp": [],
+      "VehicleId": 81004015,
+      "InMass": true,
+      "UseColor": false,
+      "CanDrive": true,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 28,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [],
+      "NewPassengerProp": [],
+      "VehicleId": 81004002,
+      "InMass": true,
+      "UseColor": false,
+      "CanDrive": true,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 29,
+      "NewNpcType": [
+        45200092
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200094
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81005002,
+      "InMass": false,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994344,
+        9994238,
+        9994349,
+        9994256,
+        9994190
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 30,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81005004,
+      "InMass": false,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994117,
+        9994016,
+        9994349,
+        9994119,
+        9994183,
+        9994124,
+        9994159
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 31,
+      "NewNpcType": [
+        45200092
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200094
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81000007,
+      "InMass": false,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994344,
+        9994238,
+        9994349,
+        9994256
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 32,
+      "NewNpcType": [
+        45200092
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200094
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81005005,
+      "InMass": false,
+      "UseColor": true,
+      "CanDrive": false,
+      "ColorMod": [
+        9994349,
+        9994133,
+        9994231,
+        9994124,
+        9994190
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 33,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81004004,
+      "InMass": true,
+      "UseColor": false,
+      "CanDrive": true,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 34,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81004017,
+      "InMass": false,
+      "UseColor": false,
+      "CanDrive": true,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 35,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81004018,
+      "InMass": true,
+      "UseColor": false,
+      "CanDrive": true,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 36,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81004019,
+      "InMass": true,
+      "UseColor": false,
+      "CanDrive": true,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 37,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81004020,
+      "InMass": true,
+      "UseColor": false,
+      "CanDrive": true,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 38,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81004021,
+      "InMass": false,
+      "UseColor": false,
+      "CanDrive": false,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 39,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81005006,
+      "InMass": false,
+      "UseColor": false,
+      "CanDrive": false,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 40,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81003010,
+      "InMass": false,
+      "UseColor": false,
+      "CanDrive": false,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 41,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81003011,
+      "InMass": false,
+      "UseColor": false,
+      "CanDrive": false,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 42,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81003012,
+      "InMass": false,
+      "UseColor": false,
+      "CanDrive": false,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 43,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81007076,
+      "InMass": false,
+      "UseColor": false,
+      "CanDrive": false,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 44,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81003009,
+      "InMass": false,
+      "UseColor": true,
+      "CanDrive": false,
+      "ColorMod": [
+        9994235,
+        9994233,
+        9994349
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 45,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81007088,
+      "InMass": false,
+      "UseColor": false,
+      "CanDrive": false,
+      "ColorMod": [
+        9994356
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 46,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81006003,
+      "InMass": true,
+      "UseColor": false,
+      "CanDrive": true,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 47,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81003013,
+      "InMass": false,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994349,
+        9994230,
+        9994186,
+        9994138,
+        9994132
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 48,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81004025,
+      "InMass": false,
+      "UseColor": false,
+      "CanDrive": false,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 49,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81001010,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994231,
+        9994349,
+        9994234,
+        9994145
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 50,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81001012,
+      "InMass": false,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994349,
+        9994193,
+        9994296,
+        9994176,
+        9994123,
+        9994243
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 51,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81001013,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994349,
+        9994344,
+        9994339,
+        9994192,
+        9994138
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 52,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81001015,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994349,
+        9994344,
+        9994237,
+        9994309
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 53,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81001016,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994349,
+        9994300,
+        9994125,
+        9994191,
+        9994344
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 54,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81001017,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994349,
+        9994190,
+        9994230
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 55,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81001018,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994349,
+        9994237,
+        9994308,
+        9994188,
+        9994133,
+        9994230
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 56,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81002008,
+      "InMass": false,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994260,
+        9994206,
+        9994296,
+        9994130
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 57,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81003016,
+      "InMass": false,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994123,
+        9994303,
+        9994252,
+        9994349
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 58,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81004026,
+      "InMass": false,
+      "UseColor": false,
+      "CanDrive": true,
+      "ColorMod": [
+        9994358
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 59,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81004022,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994351
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 60,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81004029,
+      "InMass": false,
+      "UseColor": false,
+      "CanDrive": false,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 61,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81001019,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994290,
+        9994237,
+        9994303,
+        9994345
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 62,
+      "NewNpcType": [
+        45200092
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81002009,
+      "InMass": false,
+      "UseColor": true,
+      "CanDrive": false,
+      "ColorMod": [
+        9994345,
+        9994347,
+        9994349,
+        9994244,
+        9994260,
+        9994250,
+        9994212
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 63,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81001011,
+      "InMass": false,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994234,
+        9994184,
+        9994125,
+        9994250,
+        9994257
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 64,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81004033,
+      "InMass": true,
+      "UseColor": false,
+      "CanDrive": true,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 65,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81004024,
+      "InMass": false,
+      "UseColor": false,
+      "CanDrive": false,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 66,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81006002,
+      "InMass": false,
+      "UseColor": false,
+      "CanDrive": true,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 67,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81006012,
+      "InMass": false,
+      "UseColor": false,
+      "CanDrive": true,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 68,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81003015,
+      "InMass": false,
+      "UseColor": false,
+      "CanDrive": true,
+      "ColorMod": [
+        9994116,
+        9994272,
+        9994237
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 69,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81006005,
+      "InMass": false,
+      "UseColor": false,
+      "CanDrive": true,
+      "ColorMod": [
+        9994368,
+        9994369,
+        9994370,
+        9994371,
+        9994372,
+        9994373
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 70,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81006008,
+      "InMass": false,
+      "UseColor": false,
+      "CanDrive": true,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 71,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81006017,
+      "InMass": false,
+      "UseColor": false,
+      "CanDrive": true,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 72,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81006027,
+      "InMass": false,
+      "UseColor": false,
+      "CanDrive": true,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 73,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81003005,
+      "InMass": false,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994235,
+        9994117,
+        9994349,
+        9994298,
+        9994223,
+        9994252,
+        9994124
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 74,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81005007,
+      "InMass": false,
+      "UseColor": false,
+      "CanDrive": false,
+      "ColorMod": [
+        9994348,
+        9994251,
+        9994233,
+        9994191,
+        9994227,
+        9994235
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 75,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81005008,
+      "InMass": false,
+      "UseColor": false,
+      "CanDrive": false,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 76,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81005009,
+      "InMass": false,
+      "UseColor": false,
+      "CanDrive": false,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 77,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81006028,
+      "InMass": false,
+      "UseColor": false,
+      "CanDrive": false,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 78,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81006009,
+      "InMass": false,
+      "UseColor": false,
+      "CanDrive": true,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 79,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81006015,
+      "InMass": false,
+      "UseColor": false,
+      "CanDrive": true,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 80,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81006016,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 81,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81004036,
+      "InMass": true,
+      "UseColor": false,
+      "CanDrive": false,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 82,
+      "NewNpcType": [
+        45200095
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [],
+      "NewPassengerProp": [],
+      "VehicleId": 81004038,
+      "InMass": true,
+      "UseColor": false,
+      "CanDrive": true,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 83,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81005013,
+      "InMass": false,
+      "UseColor": false,
+      "CanDrive": false,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 84,
+      "NewNpcType": [
+        45200092
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81002011,
+      "InMass": false,
+      "UseColor": false,
+      "CanDrive": false,
+      "ColorMod": [
+        9994349,
+        9994233,
+        9994344,
+        9994137,
+        9994190,
+        9994340,
+        9994261,
+        9994248
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 85,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81006019,
+      "InMass": false,
+      "UseColor": false,
+      "CanDrive": false,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 86,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81001027,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994349,
+        9994232,
+        9994191,
+        9994226,
+        9994230,
+        9994118
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 87,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81003019,
+      "InMass": false,
+      "UseColor": true,
+      "CanDrive": false,
+      "ColorMod": [
+        9994343,
+        9994306,
+        9994251,
+        9994233
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 88,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81001014,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994233,
+        9994230,
+        9994124,
+        9994195
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 89,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81001020,
+      "InMass": false,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994235,
+        9994230,
+        9994183
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 90,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81001021,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994349,
+        9994253,
+        9994299,
+        9994309,
+        9994232
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 91,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81001022,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994302,
+        9994252,
+        9994344,
+        9994234,
+        9994272
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 92,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81001023,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994234,
+        9994303,
+        9994251,
+        9994244,
+        9994345
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 93,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81001024,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994230,
+        9994348,
+        9994188
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 94,
+      "NewNpcType": [
+        45200092
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81002012,
+      "InMass": false,
+      "UseColor": true,
+      "CanDrive": false,
+      "ColorMod": [
+        9994230,
+        9994206,
+        9994225,
+        9994164,
+        9994183,
+        9994349
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 95,
+      "NewNpcType": [
+        45200092
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81002013,
+      "InMass": false,
+      "UseColor": true,
+      "CanDrive": false,
+      "ColorMod": [
+        9994250,
+        9994136,
+        9994226,
+        9994217,
+        9994190
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 96,
+      "NewNpcType": [
+        45200092
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81002014,
+      "InMass": false,
+      "UseColor": true,
+      "CanDrive": false,
+      "ColorMod": [
+        9994233,
+        9994230,
+        9994137,
+        9994195,
+        9994235,
+        9994365
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 97,
+      "NewNpcType": [
+        45200092
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81002015,
+      "InMass": false,
+      "UseColor": true,
+      "CanDrive": false,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 98,
+      "NewNpcType": [
+        45200092
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81002018,
+      "InMass": false,
+      "UseColor": true,
+      "CanDrive": false,
+      "ColorMod": [
+        9994349,
+        9994260,
+        9994190,
+        9994130,
+        9994344,
+        9994256
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 99,
+      "NewNpcType": [
+        45200092
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81002019,
+      "InMass": false,
+      "UseColor": true,
+      "CanDrive": false,
+      "ColorMod": [
+        9994133,
+        9994232,
+        9994230,
+        9994200,
+        9994191,
+        9994339,
+        9994244,
+        9994256,
+        9994141
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 100,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81003014,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994243,
+        9994259,
+        9994297,
+        9994255,
+        9994233
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 101,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81003017,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994349,
+        9994344,
+        9994044,
+        9994112,
+        9994138
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 102,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81003018,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994139,
+        9994231,
+        9994235
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 103,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81003020,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994246,
+        9994192,
+        9994125,
+        9994129,
+        9994344
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 104,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81003021,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [
+        9994230,
+        9994185,
+        9994269,
+        9994253,
+        9994258,
+        9994016,
+        9994112,
+        9994015
+      ],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 105,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81003024,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 106,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200093
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81004011,
+      "InMass": false,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 107,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81004027,
+      "InMass": false,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 108,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81004031,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 109,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [
+        45200091
+      ],
+      "NewPassengerProp": [
+        1
+      ],
+      "VehicleId": 81004032,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 110,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [],
+      "NewPassengerProp": [],
+      "VehicleId": 81004040,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 111,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [],
+      "NewPassengerProp": [],
+      "VehicleId": 81004041,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 112,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [],
+      "NewPassengerProp": [],
+      "VehicleId": 81004042,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "RoofMod": []
+    },
+    {
+      "Id": 113,
+      "NewNpcType": [
+        45200091
+      ],
+      "NewNpcProp": [
+        1
+      ],
+      "HasPassenger": 0,
+      "NewPassengerType": [],
+      "NewPassengerProp": [],
+      "VehicleId": 81006018,
+      "InMass": true,
+      "UseColor": true,
+      "CanDrive": true,
+      "ColorMod": [],
+      "BodyMod": [],
+      "StartVersion": "V0.13.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "RoofMod": []
+    }
+  ],
+  "_dumpedCount": 109,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

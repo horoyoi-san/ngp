@@ -1,0 +1,191 @@
+{
+  "_class": "UserGeneratedContentComponentsConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 9,
+  "records": [
+    {
+      "Id": 1001,
+      "Name": "起点-人",
+      "Type": 1,
+      "ModelAssetPath": "",
+      "EffectAssetPath": "",
+      "Icon": 0,
+      "VehicleGroup": [],
+      "FashionGroup": [],
+      "RotateX": true,
+      "RotateY": false,
+      "RotateZ": false,
+      "IsScale": false,
+      "ScaleRange": [],
+      "MustStickToGround": true,
+      "ChangeType": 0
+    },
+    {
+      "Id": 1002,
+      "Name": "起点-车",
+      "Type": 1,
+      "ModelAssetPath": "",
+      "EffectAssetPath": "",
+      "Icon": 0,
+      "VehicleGroup": [
+        81001015
+      ],
+      "FashionGroup": [],
+      "RotateX": true,
+      "RotateY": false,
+      "RotateZ": false,
+      "IsScale": false,
+      "ScaleRange": [],
+      "MustStickToGround": true,
+      "ChangeType": 1
+    },
+    {
+      "Id": 2001,
+      "Name": "检查点",
+      "Type": 3,
+      "ModelAssetPath": "",
+      "EffectAssetPath": "",
+      "Icon": 0,
+      "VehicleGroup": [],
+      "FashionGroup": [],
+      "RotateX": true,
+      "RotateY": false,
+      "RotateZ": false,
+      "IsScale": true,
+      "ScaleRange": [
+        0.200000003,
+        1.5
+      ],
+      "MustStickToGround": false,
+      "ChangeType": 0
+    },
+    {
+      "Id": 2002,
+      "Name": "检查点-摩托车",
+      "Type": 3,
+      "ModelAssetPath": "",
+      "EffectAssetPath": "",
+      "Icon": 0,
+      "VehicleGroup": [
+        81006001
+      ],
+      "FashionGroup": [],
+      "RotateX": true,
+      "RotateY": false,
+      "RotateZ": false,
+      "IsScale": true,
+      "ScaleRange": [
+        0.200000003,
+        1.5
+      ],
+      "MustStickToGround": false,
+      "ChangeType": 1
+    },
+    {
+      "Id": 2003,
+      "Name": "检查点-轿车",
+      "Type": 3,
+      "ModelAssetPath": "",
+      "EffectAssetPath": "",
+      "Icon": 0,
+      "VehicleGroup": [
+        81001015
+      ],
+      "FashionGroup": [],
+      "RotateX": true,
+      "RotateY": false,
+      "RotateZ": false,
+      "IsScale": true,
+      "ScaleRange": [
+        0.200000003,
+        1.5
+      ],
+      "MustStickToGround": false,
+      "ChangeType": 1
+    },
+    {
+      "Id": 2004,
+      "Name": "检查点-默认移动",
+      "Type": 3,
+      "ModelAssetPath": "",
+      "EffectAssetPath": "",
+      "Icon": 0,
+      "VehicleGroup": [],
+      "FashionGroup": [],
+      "RotateX": true,
+      "RotateY": false,
+      "RotateZ": false,
+      "IsScale": true,
+      "ScaleRange": [
+        0.200000003,
+        1.5
+      ],
+      "MustStickToGround": false,
+      "ChangeType": 0
+    },
+    {
+      "Id": 2005,
+      "Name": "检查点-翼装",
+      "Type": 3,
+      "ModelAssetPath": "",
+      "EffectAssetPath": "",
+      "Icon": 0,
+      "VehicleGroup": [],
+      "FashionGroup": [
+        11190069
+      ],
+      "RotateX": true,
+      "RotateY": false,
+      "RotateZ": false,
+      "IsScale": true,
+      "ScaleRange": [
+        0.200000003,
+        1.5
+      ],
+      "MustStickToGround": false,
+      "ChangeType": 2
+    },
+    {
+      "Id": 2006,
+      "Name": "检查点-跳伞",
+      "Type": 3,
+      "ModelAssetPath": "",
+      "EffectAssetPath": "",
+      "Icon": 0,
+      "VehicleGroup": [],
+      "FashionGroup": [
+        11189918
+      ],
+      "RotateX": true,
+      "RotateY": false,
+      "RotateZ": false,
+      "IsScale": true,
+      "ScaleRange": [
+        0.200000003,
+        1.5
+      ],
+      "MustStickToGround": false,
+      "ChangeType": 2
+    },
+    {
+      "Id": 3001,
+      "Name": "终点",
+      "Type": 2,
+      "ModelAssetPath": "",
+      "EffectAssetPath": "",
+      "Icon": 0,
+      "VehicleGroup": [],
+      "FashionGroup": [],
+      "RotateX": true,
+      "RotateY": false,
+      "RotateZ": false,
+      "IsScale": false,
+      "ScaleRange": [],
+      "MustStickToGround": true,
+      "ChangeType": 0
+    }
+  ],
+  "_dumpedCount": 9,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

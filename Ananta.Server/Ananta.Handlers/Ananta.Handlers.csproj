@@ -5,9 +5,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Ananta.SDK\Ananta.SDK.csproj" />
-    <ProjectReference Include="..\Ananta.Core\Ananta.Core.csproj" />
-    <ProjectReference Include="..\Ananta.Gameplay\Ananta.Gameplay.csproj" />
-    <ProjectReference Include="..\Ananta.RpcTypes\Ananta.RpcTypes.csproj" />
+    <ProjectReference Include="..\..\Drmk.SDK\Drmk.SDK.csproj" />
+    <ProjectReference Include="..\Drmk.Core\Drmk.Core.csproj" />
+    <ProjectReference Include="..\Drmk.Gameplay\Drmk.Gameplay.csproj" />
+    <ProjectReference Include="..\Drmk.RpcTypes\Drmk.RpcTypes.csproj" />
   </ItemGroup>
 </Project>

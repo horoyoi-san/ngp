@@ -1,0 +1,213 @@
+{
+  "_class": "InputContextDefineConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 18,
+  "records": [
+    {
+      "Id": 1,
+      "ContextDefine": "Def_None",
+      "ContextUnitSet": []
+    },
+    {
+      "Id": 2,
+      "ContextDefine": "Def_Base",
+      "ContextUnitSet": [
+        "UI",
+        "PCKey",
+        "GamePad",
+        "UICommon",
+        "UICamera",
+        "PCNormal",
+        "PC_GroundNormal",
+        "PC_NonVehicleNormal",
+        "System",
+        "Character",
+        "Chr_Wall",
+        "Chr_Wingsuit",
+        "Chr_Water",
+        "Chr_Basketball",
+        "Chr_Lyriel",
+        "Battle",
+        "Battle_Weapon",
+        "PC_Battle_Condition",
+        "Creature",
+        "Creature_Drone",
+        "Creature_Dog",
+        "Creature_Spider",
+        "Controller_Base",
+        "MapButtonM",
+        "Vehicle_Radio"
+      ]
+    },
+    {
+      "Id": 3,
+      "ContextDefine": "Def_Photo",
+      "ContextUnitSet": [
+        "UI",
+        "PCKey",
+        "GamePad",
+        "UICommon",
+        "UICamera",
+        "Movement",
+        "Combination",
+        "Creature",
+        "Creature_Drone",
+        "Creature_Dog",
+        "Creature_Spider"
+      ]
+    },
+    {
+      "Id": 4,
+      "ContextDefine": "Def_BaseWithMove",
+      "ContextUnitSet": [
+        "UI",
+        "PCKey",
+        "GamePad",
+        "UICommon",
+        "UICamera",
+        "Movement"
+      ]
+    },
+    {
+      "Id": 5,
+      "ContextDefine": "Def_CommonInteraction",
+      "ContextUnitSet": [
+        "UI",
+        "PCKey",
+        "GamePad",
+        "UIGPInteraction"
+      ]
+    },
+    {
+      "Id": 6,
+      "ContextDefine": "Def_Volleyball",
+      "ContextUnitSet": [
+        "UI",
+        "PCKey",
+        "GamePad",
+        "UICommon",
+        "UICamera",
+        "Movement"
+      ]
+    },
+    {
+      "Id": 7,
+      "ContextDefine": "Def_BigMap",
+      "ContextUnitSet": [
+        "UI",
+        "PCKey",
+        "GamePad",
+        "UIBigMap",
+        "MapButtonM"
+      ]
+    },
+    {
+      "Id": 8,
+      "ContextDefine": "Def_Move",
+      "ContextUnitSet": [
+        "Movement"
+      ]
+    },
+    {
+      "Id": 9,
+      "ContextDefine": "Def_DriveVehicle",
+      "ContextUnitSet": [
+        "UI",
+        "PCKey",
+        "GamePad",
+        "UICommon",
+        "UICamera",
+        "DriveVehicle",
+        "Vehicle",
+        "Vehicle_Helicopter"
+      ]
+    },
+    {
+      "Id": 10,
+      "ContextDefine": "Def_Instrument",
+      "ContextUnitSet": [
+        "UI",
+        "PCKey",
+        "GamePad",
+        "UICommon",
+        "UICamera",
+        "Instrument"
+      ]
+    },
+    {
+      "Id": 11,
+      "ContextDefine": "Def_Taffy",
+      "ContextUnitSet": [
+        "Chr_Taffy",
+        "Vehicle"
+      ]
+    },
+    {
+      "Id": 12,
+      "ContextDefine": "Def_MC",
+      "ContextUnitSet": [
+        "Chr_MC",
+        "PC_Chr_MCAir"
+      ]
+    },
+    {
+      "Id": 13,
+      "ContextDefine": "Def_Seymour",
+      "ContextUnitSet": [
+        "Chr_Seymour"
+      ]
+    },
+    {
+      "Id": 14,
+      "ContextDefine": "Def_Dila",
+      "ContextUnitSet": [
+        "Chr_Dila"
+      ]
+    },
+    {
+      "Id": 15,
+      "ContextDefine": "Def_Boat",
+      "ContextUnitSet": [
+        "UI",
+        "PCKey",
+        "GamePad",
+        "UICommon",
+        "UICamera",
+        "DriveVehicle",
+        "Vehicle"
+      ]
+    },
+    {
+      "Id": 16,
+      "ContextDefine": "Def_HandBoat",
+      "ContextUnitSet": [
+        "UI",
+        "PCKey",
+        "GamePad",
+        "UICommon",
+        "UICamera",
+        "Vehicle",
+        "Vehicle_RowBoat"
+      ]
+    },
+    {
+      "Id": 17,
+      "ContextDefine": "Def_Link",
+      "ContextUnitSet": [
+        "Link",
+        "LinkNotMatch",
+        "LinkMatch"
+      ]
+    },
+    {
+      "Id": 18,
+      "ContextDefine": "Def_GamepadSpecial",
+      "ContextUnitSet": [
+        "Controller_Special"
+      ]
+    }
+  ],
+  "_dumpedCount": 18,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

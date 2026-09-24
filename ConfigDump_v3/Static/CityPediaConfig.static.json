@@ -1,0 +1,57 @@
+{
+  "CollectionScoreItem": 36890110,
+  "FashionCollectionScoreFormula": "return function(a1, a2)        uint value = 0;        if (a2 == LTConfig.FashionConfig.Quality.White)        {            if (a1 == LTConfig.FashionConfig.PartType.Suit) { value = 50; }            else if (a1 == LTConfig.FashionConfig.PartType.Tops) { value = 25; }            else if (a1 == LTConfig.FashionConfig.PartType.Bottoms) { value = 25; }            else { value = 5; }        }        else if (a2 == LTConfig.FashionConfig.Quality.Blue)        {            if (a1 == LTConfig.FashionConfig.PartType.Suit) { value = 100; }            else if (a1 == LTConfig.FashionConfig.PartType.Tops) { value = 50; }            else if (a1 == LTConfig.FashionConfig.PartType.Bottoms) { value = 50; }            else if (a1 == LTConfig.FashionConfig.PartType.Shoes) { value = 15; }            else { value = 10; }        }        else if (a2 == LTConfig.FashionConfig.Quality.Purple)        {            if (a1 == LTConfig.FashionConfig.PartType.Suit) { value = 300; }            else if (a1 == LTConfig.FashionConfig.PartType.Tops) { value = 150; }            else if (a1 == LTConfig.FashionConfig.PartType.Bottoms) { value = 150; }            else if (a1 == LTConfig.FashionConfig.PartType.Shoes) { value = 40; }            else { value = 25; }        }        else if (a2 == LTConfig.FashionConfig.Quality.Gold)        {            value = 0;        }            return value;    end end",
+  "VehicleCollectionScoreFormula": "return function(a1, a2)        uint value = 0;        if (a2 == LTConfig.VehicleConfig.VehicleQualityType.White)        {            if (a1 == LTConfig.VehicleConfig.VehicleTypeType.Super) { value = 100; }            else if (a1 == LTConfig.VehicleConfig.VehicleTypeType.Motorcycle) { value = 30; }            else if (a1 == LTConfig.VehicleConfig.VehicleTypeType.Sport) { value = 80; }            else { value = 50; }        }        else if (a2 == LTConfig.VehicleConfig.VehicleQualityType.Green)        {            if (a1 == LTConfig.VehicleConfig.VehicleTypeType.Super) { value = 200; }            else if (a1 == LTConfig.VehicleConfig.VehicleTypeType.Motorcycle) { value = 60; }            else if (a1 == LTConfig.VehicleConfig.VehicleTypeType.Sport) { value = 160; }            else { value = 100; }        }        else if (a2 == LTConfig.VehicleConfig.VehicleQualityType.Blue)        {            if (a1 == LTConfig.VehicleConfig.VehicleTypeType.Super) { value = 600; }            else if (a1 == LTConfig.VehicleConfig.VehicleTypeType.Motorcycle) { value = 300; }            else if (a1 == LTConfig.VehicleConfig.VehicleTypeType.Sport) { value = 500; }            else { value = 300; }        }        else if (a2 == LTConfig.VehicleConfig.VehicleQualityType.Purple)        {            if (a1 == LTConfig.VehicleConfig.VehicleTypeType.Super) { value = 2000; }            else if (a1 == LTConfig.VehicleConfig.VehicleTypeType.Motorcycle) { value = 1000; }            else if (a1 == LTConfig.VehicleConfig.VehicleTypeType.Sport) { value = 1000; }            else { value = 1000; }        }        else if (a2 == LTConfig.VehicleConfig.VehicleQualityType.Gold)        {            if (a1 == LTConfig.VehicleConfig.VehicleTypeType.Super) { value = 4000; }            else if (a1 == LTConfig.VehicleConfig.VehicleTypeType.Motorcycle) { value = 2000; }            else if (a1 == LTConfig.VehicleConfig.VehicleTypeType.Sport) { value = 2000; }            else { value = 2000; }        }        return value;    end end",
+  "CollectionValueTab": [
+    "Fashion Rating",
+    "Point Details"
+  ],
+  "ValueSourceTab": [
+    {
+      "name": "",
+      "__IDX__name": 127176,
+      "__RAW__name": "",
+      "iconId": 28000173
+    },
+    {
+      "name": "",
+      "__IDX__name": 98385,
+      "__RAW__name": "",
+      "iconId": 28004312
+    }
+  ],
+  "FashionCameraRotateSpeed": 7500,
+  "FashionChangeCameraOffsetMouseDPI": 0.00150000001,
+  "FashionCameraZoomSpeed": 0.140000001,
+  "FashionCameraZoomMaxLimit": -3,
+  "FashionCameraZoomMinLimit": -5.80000019,
+  "VehicleCameraRotateSpeed": 5500,
+  "VehicleChangeCameraOffsetMouseDPI": 0.00150000001,
+  "VehicleCameraZoomSpeed": 0.400000006,
+  "VehicleCameraZoomMaxLimit": -6,
+  "VehicleCameraZoomMinLimit": -12,
+  "FashionCameraRotateMouseDPI": 0.5,
+  "VehicleCameraRotateMouseDPI": 0.5,
+  "PediaScenePath": "Res/SGUI/Scene/shizhuang_beijing/prefab/p_shizhuang_background.prefab",
+  "EmptyAcquisitionHintText": "No acquisition methods available yet. Stay tuned.",
+  "EmptyFilterResultText": "No results found",
+  "SceneWeatherIndex": 17,
+  "PetWeatherIndex": 18,
+  "FashionShowcaseSpiritList": [
+    15020967,
+    15020992,
+    15021021,
+    15020989,
+    15021017,
+    15021023,
+    15020997,
+    15021040
+  ],
+  "FashionWeatherIndex": 17,
+  "VehicleWeatherIndex": 17,
+  "DefaultUnlockTipText": "暂未查询到相关信息",
+  "FishingFirstCatchIconId": 28000000,
+  "FishingMaxWeightLengthIconId": 28000712,
+  "FishingSpotIconId": 28000723,
+  "FishingBaitIconId": 28000724
+}

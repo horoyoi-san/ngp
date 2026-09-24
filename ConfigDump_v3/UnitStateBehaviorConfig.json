@@ -1,0 +1,623 @@
+{
+  "_class": "UnitStateBehaviorConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 21,
+  "records": [
+    {
+      "Id": 10009,
+      "Order": 500,
+      "IsFreeze": true,
+      "IsPlaySound": true,
+      "IsPlayMaterialEffect": false,
+      "IsPlayAction": false,
+      "IsNotCheckActionDefault": false,
+      "PlayActionNew": [],
+      "PlayActionBackNew": [],
+      "PlayeEffect": [],
+      "PlayeMaterialEffect": [],
+      "ForbidMaterialEffectModelid": [],
+      "StimAlias": 0,
+      "PredictEndPosWhenDisplacementScaling": false,
+      "timedecay": false,
+      "PlayAction": [],
+      "PlayActionBack": []
+    },
+    {
+      "Id": 10061,
+      "Order": 1100,
+      "IsFreeze": true,
+      "IsPlaySound": true,
+      "IsPlayMaterialEffect": true,
+      "IsPlayAction": true,
+      "IsNotCheckActionDefault": false,
+      "PlayActionNew": [],
+      "PlayActionBackNew": [],
+      "PlayeEffect": [
+        538000700
+      ],
+      "PlayeMaterialEffect": [
+        538000701
+      ],
+      "ForbidMaterialEffectModelid": [],
+      "StimAlias": 12,
+      "PredictEndPosWhenDisplacementScaling": false,
+      "timedecay": true,
+      "PlayAction": [],
+      "PlayActionBack": []
+    },
+    {
+      "Id": 10340,
+      "Order": 1000,
+      "IsFreeze": true,
+      "IsPlaySound": true,
+      "IsPlayMaterialEffect": true,
+      "IsPlayAction": true,
+      "IsNotCheckActionDefault": false,
+      "PlayActionNew": [
+        560997774,
+        560997775,
+        560997776
+      ],
+      "PlayActionBackNew": [
+        560999070,
+        560997775,
+        560997776
+      ],
+      "PlayeEffect": [
+        53103547
+      ],
+      "PlayeMaterialEffect": [
+        53103546
+      ],
+      "ForbidMaterialEffectModelid": [
+        86951513
+      ],
+      "StimAlias": 12,
+      "PredictEndPosWhenDisplacementScaling": true,
+      "timedecay": false,
+      "PlayAction": [
+        {
+          "startAction": 6600,
+          "loopAction": 6601,
+          "endAction": 6602
+        }
+      ],
+      "PlayActionBack": [
+        {
+          "startAction": 6604,
+          "loopAction": 6601,
+          "endAction": 6602
+        }
+      ]
+    },
+    {
+      "Id": 10345,
+      "Order": 900,
+      "IsFreeze": true,
+      "IsPlaySound": true,
+      "IsPlayMaterialEffect": true,
+      "IsPlayAction": false,
+      "IsNotCheckActionDefault": false,
+      "PlayActionNew": [],
+      "PlayActionBackNew": [],
+      "PlayeEffect": [],
+      "PlayeMaterialEffect": [],
+      "ForbidMaterialEffectModelid": [],
+      "StimAlias": 0,
+      "PredictEndPosWhenDisplacementScaling": false,
+      "timedecay": false,
+      "PlayAction": [],
+      "PlayActionBack": []
+    },
+    {
+      "Id": 10350,
+      "Order": 811,
+      "IsFreeze": true,
+      "IsPlaySound": true,
+      "IsPlayMaterialEffect": false,
+      "IsPlayAction": true,
+      "IsNotCheckActionDefault": false,
+      "PlayActionNew": [
+        561004094,
+        561004095,
+        561004096
+      ],
+      "PlayActionBackNew": [
+        561004094,
+        561004095,
+        561004096
+      ],
+      "PlayeEffect": [],
+      "PlayeMaterialEffect": [],
+      "ForbidMaterialEffectModelid": [],
+      "StimAlias": 0,
+      "PredictEndPosWhenDisplacementScaling": false,
+      "timedecay": false,
+      "PlayAction": [
+        {
+          "startAction": 8001,
+          "loopAction": 6954,
+          "endAction": 6905
+        }
+      ],
+      "PlayActionBack": [
+        {
+          "startAction": 8001,
+          "loopAction": 6954,
+          "endAction": 6905
+        }
+      ]
+    },
+    {
+      "Id": 10360,
+      "Order": 300,
+      "IsFreeze": false,
+      "IsPlaySound": true,
+      "IsPlayMaterialEffect": false,
+      "IsPlayAction": false,
+      "IsNotCheckActionDefault": false,
+      "PlayActionNew": [],
+      "PlayActionBackNew": [],
+      "PlayeEffect": [
+        538000710
+      ],
+      "PlayeMaterialEffect": [
+        538000712
+      ],
+      "ForbidMaterialEffectModelid": [],
+      "StimAlias": 0,
+      "PredictEndPosWhenDisplacementScaling": false,
+      "timedecay": true,
+      "PlayAction": [],
+      "PlayActionBack": []
+    },
+    {
+      "Id": 10361,
+      "Order": 700,
+      "IsFreeze": true,
+      "IsPlaySound": true,
+      "IsPlayMaterialEffect": true,
+      "IsPlayAction": false,
+      "IsNotCheckActionDefault": false,
+      "PlayActionNew": [],
+      "PlayActionBackNew": [],
+      "PlayeEffect": [
+        538000708
+      ],
+      "PlayeMaterialEffect": [
+        538000709
+      ],
+      "ForbidMaterialEffectModelid": [],
+      "StimAlias": 12,
+      "PredictEndPosWhenDisplacementScaling": false,
+      "timedecay": false,
+      "PlayAction": [],
+      "PlayActionBack": []
+    },
+    {
+      "Id": 10362,
+      "Order": 600,
+      "IsFreeze": true,
+      "IsPlaySound": true,
+      "IsPlayMaterialEffect": true,
+      "IsPlayAction": true,
+      "IsNotCheckActionDefault": false,
+      "PlayActionNew": [
+        560999114,
+        560999115
+      ],
+      "PlayActionBackNew": [
+        560999114,
+        560999115
+      ],
+      "PlayeEffect": [
+        538000704
+      ],
+      "PlayeMaterialEffect": [
+        538000704
+      ],
+      "ForbidMaterialEffectModelid": [],
+      "StimAlias": 12,
+      "PredictEndPosWhenDisplacementScaling": false,
+      "timedecay": true,
+      "PlayAction": [
+        {
+          "startAction": 6605,
+          "loopAction": 6606,
+          "endAction": 0
+        }
+      ],
+      "PlayActionBack": [
+        {
+          "startAction": 6605,
+          "loopAction": 6606,
+          "endAction": 0
+        }
+      ]
+    },
+    {
+      "Id": 10363,
+      "Order": 400,
+      "IsFreeze": false,
+      "IsPlaySound": false,
+      "IsPlayMaterialEffect": true,
+      "IsPlayAction": true,
+      "IsNotCheckActionDefault": false,
+      "PlayActionNew": [],
+      "PlayActionBackNew": [],
+      "PlayeEffect": [
+        538000702
+      ],
+      "PlayeMaterialEffect": [
+        538000703
+      ],
+      "ForbidMaterialEffectModelid": [],
+      "StimAlias": 0,
+      "PredictEndPosWhenDisplacementScaling": false,
+      "timedecay": false,
+      "PlayAction": [],
+      "PlayActionBack": []
+    },
+    {
+      "Id": 10364,
+      "Order": 200,
+      "IsFreeze": false,
+      "IsPlaySound": true,
+      "IsPlayMaterialEffect": true,
+      "IsPlayAction": false,
+      "IsNotCheckActionDefault": false,
+      "PlayActionNew": [],
+      "PlayActionBackNew": [],
+      "PlayeEffect": [
+        538000706
+      ],
+      "PlayeMaterialEffect": [
+        538000707
+      ],
+      "ForbidMaterialEffectModelid": [],
+      "StimAlias": 0,
+      "PredictEndPosWhenDisplacementScaling": false,
+      "timedecay": true,
+      "PlayAction": [],
+      "PlayActionBack": []
+    },
+    {
+      "Id": 10365,
+      "Order": 1200,
+      "IsFreeze": true,
+      "IsPlaySound": true,
+      "IsPlayMaterialEffect": false,
+      "IsPlayAction": true,
+      "IsNotCheckActionDefault": false,
+      "PlayActionNew": [],
+      "PlayActionBackNew": [],
+      "PlayeEffect": [],
+      "PlayeMaterialEffect": [],
+      "ForbidMaterialEffectModelid": [],
+      "StimAlias": 12,
+      "PredictEndPosWhenDisplacementScaling": false,
+      "timedecay": false,
+      "PlayAction": [],
+      "PlayActionBack": []
+    },
+    {
+      "Id": 10367,
+      "Order": 650,
+      "IsFreeze": true,
+      "IsPlaySound": true,
+      "IsPlayMaterialEffect": false,
+      "IsPlayAction": true,
+      "IsNotCheckActionDefault": false,
+      "PlayActionNew": [
+        533736708
+      ],
+      "PlayActionBackNew": [
+        533736705
+      ],
+      "PlayeEffect": [],
+      "PlayeMaterialEffect": [],
+      "ForbidMaterialEffectModelid": [],
+      "StimAlias": 12,
+      "PredictEndPosWhenDisplacementScaling": false,
+      "timedecay": false,
+      "PlayAction": [
+        {
+          "startAction": 6803,
+          "loopAction": 0,
+          "endAction": 0
+        }
+      ],
+      "PlayActionBack": [
+        {
+          "startAction": 6813,
+          "loopAction": 0,
+          "endAction": 0
+        }
+      ]
+    },
+    {
+      "Id": 10368,
+      "Order": 550,
+      "IsFreeze": true,
+      "IsPlaySound": true,
+      "IsPlayMaterialEffect": false,
+      "IsPlayAction": true,
+      "IsNotCheckActionDefault": false,
+      "PlayActionNew": [
+        561004141,
+        561004146,
+        561004151
+      ],
+      "PlayActionBackNew": [
+        561004141,
+        561004146,
+        561004151
+      ],
+      "PlayeEffect": [],
+      "PlayeMaterialEffect": [],
+      "ForbidMaterialEffectModelid": [],
+      "StimAlias": 12,
+      "PredictEndPosWhenDisplacementScaling": false,
+      "timedecay": true,
+      "PlayAction": [
+        {
+          "startAction": 6641,
+          "loopAction": 6642,
+          "endAction": 6643
+        }
+      ],
+      "PlayActionBack": [
+        {
+          "startAction": 6641,
+          "loopAction": 6642,
+          "endAction": 6643
+        }
+      ]
+    },
+    {
+      "Id": 10376,
+      "Order": 750,
+      "IsFreeze": true,
+      "IsPlaySound": true,
+      "IsPlayMaterialEffect": true,
+      "IsPlayAction": true,
+      "IsNotCheckActionDefault": false,
+      "PlayActionNew": [
+        560997774,
+        560997775,
+        560997776
+      ],
+      "PlayActionBackNew": [
+        560999070,
+        560997775,
+        560997776
+      ],
+      "PlayeEffect": [],
+      "PlayeMaterialEffect": [],
+      "ForbidMaterialEffectModelid": [],
+      "StimAlias": 12,
+      "PredictEndPosWhenDisplacementScaling": true,
+      "timedecay": false,
+      "PlayAction": [
+        {
+          "startAction": 6600,
+          "loopAction": 6601,
+          "endAction": 6602
+        }
+      ],
+      "PlayActionBack": [
+        {
+          "startAction": 6604,
+          "loopAction": 6601,
+          "endAction": 6602
+        }
+      ]
+    },
+    {
+      "Id": 10379,
+      "Order": 0,
+      "IsFreeze": false,
+      "IsPlaySound": false,
+      "IsPlayMaterialEffect": false,
+      "IsPlayAction": false,
+      "IsNotCheckActionDefault": false,
+      "PlayActionNew": [],
+      "PlayActionBackNew": [],
+      "PlayeEffect": [],
+      "PlayeMaterialEffect": [],
+      "ForbidMaterialEffectModelid": [],
+      "StimAlias": 0,
+      "PredictEndPosWhenDisplacementScaling": false,
+      "timedecay": false,
+      "PlayAction": [],
+      "PlayActionBack": []
+    },
+    {
+      "Id": 10380,
+      "Order": 498,
+      "IsFreeze": true,
+      "IsPlaySound": true,
+      "IsPlayMaterialEffect": false,
+      "IsPlayAction": true,
+      "IsNotCheckActionDefault": false,
+      "PlayActionNew": [
+        561003480
+      ],
+      "PlayActionBackNew": [
+        561003480
+      ],
+      "PlayeEffect": [],
+      "PlayeMaterialEffect": [],
+      "ForbidMaterialEffectModelid": [],
+      "StimAlias": 0,
+      "PredictEndPosWhenDisplacementScaling": false,
+      "timedecay": false,
+      "PlayAction": [
+        {
+          "startAction": 3450,
+          "loopAction": 0,
+          "endAction": 0
+        }
+      ],
+      "PlayActionBack": [
+        {
+          "startAction": 3450,
+          "loopAction": 0,
+          "endAction": 0
+        }
+      ]
+    },
+    {
+      "Id": 10381,
+      "Order": 1099,
+      "IsFreeze": true,
+      "IsPlaySound": true,
+      "IsPlayMaterialEffect": false,
+      "IsPlayAction": true,
+      "IsNotCheckActionDefault": false,
+      "PlayActionNew": [],
+      "PlayActionBackNew": [],
+      "PlayeEffect": [],
+      "PlayeMaterialEffect": [],
+      "ForbidMaterialEffectModelid": [],
+      "StimAlias": 12,
+      "PredictEndPosWhenDisplacementScaling": false,
+      "timedecay": false,
+      "PlayAction": [],
+      "PlayActionBack": []
+    },
+    {
+      "Id": 10405,
+      "Order": 625,
+      "IsFreeze": true,
+      "IsPlaySound": true,
+      "IsPlayMaterialEffect": false,
+      "IsPlayAction": false,
+      "IsNotCheckActionDefault": false,
+      "PlayActionNew": [
+        561004182,
+        561004183
+      ],
+      "PlayActionBackNew": [
+        561004182,
+        561004183
+      ],
+      "PlayeEffect": [],
+      "PlayeMaterialEffect": [],
+      "ForbidMaterialEffectModelid": [],
+      "StimAlias": 0,
+      "PredictEndPosWhenDisplacementScaling": false,
+      "timedecay": false,
+      "PlayAction": [
+        {
+          "startAction": 40200,
+          "loopAction": 40201,
+          "endAction": 40202
+        }
+      ],
+      "PlayActionBack": [
+        {
+          "startAction": 40200,
+          "loopAction": 40201,
+          "endAction": 40202
+        }
+      ]
+    },
+    {
+      "Id": 10491,
+      "Order": 1000,
+      "IsFreeze": true,
+      "IsPlaySound": true,
+      "IsPlayMaterialEffect": false,
+      "IsPlayAction": true,
+      "IsNotCheckActionDefault": false,
+      "PlayActionNew": [
+        561003429,
+        561003431,
+        561003430
+      ],
+      "PlayActionBackNew": [
+        561003429,
+        561003431,
+        561003430
+      ],
+      "PlayeEffect": [],
+      "PlayeMaterialEffect": [],
+      "ForbidMaterialEffectModelid": [],
+      "StimAlias": 0,
+      "PredictEndPosWhenDisplacementScaling": false,
+      "timedecay": false,
+      "PlayAction": [
+        {
+          "startAction": 6712,
+          "loopAction": 6713,
+          "endAction": 6714
+        }
+      ],
+      "PlayActionBack": [
+        {
+          "startAction": 6712,
+          "loopAction": 6713,
+          "endAction": 6714
+        }
+      ]
+    },
+    {
+      "Id": 10510,
+      "Order": 499,
+      "IsFreeze": true,
+      "IsPlaySound": false,
+      "IsPlayMaterialEffect": false,
+      "IsPlayAction": false,
+      "IsNotCheckActionDefault": false,
+      "PlayActionNew": [],
+      "PlayActionBackNew": [],
+      "PlayeEffect": [],
+      "PlayeMaterialEffect": [],
+      "ForbidMaterialEffectModelid": [],
+      "StimAlias": 0,
+      "PredictEndPosWhenDisplacementScaling": false,
+      "timedecay": false,
+      "PlayAction": [],
+      "PlayActionBack": []
+    },
+    {
+      "Id": 10581,
+      "Order": 650,
+      "IsFreeze": true,
+      "IsPlaySound": true,
+      "IsPlayMaterialEffect": false,
+      "IsPlayAction": true,
+      "IsNotCheckActionDefault": false,
+      "PlayActionNew": [
+        560997774
+      ],
+      "PlayActionBackNew": [
+        560999070
+      ],
+      "PlayeEffect": [],
+      "PlayeMaterialEffect": [],
+      "ForbidMaterialEffectModelid": [],
+      "StimAlias": 12,
+      "PredictEndPosWhenDisplacementScaling": false,
+      "timedecay": false,
+      "PlayAction": [
+        {
+          "startAction": 6600,
+          "loopAction": 0,
+          "endAction": 0
+        }
+      ],
+      "PlayActionBack": [
+        {
+          "startAction": 6604,
+          "loopAction": 0,
+          "endAction": 0
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 21,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

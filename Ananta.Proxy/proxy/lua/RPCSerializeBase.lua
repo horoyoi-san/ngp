@@ -1,5 +1,4 @@
--- Original chunk: @Lua\LuaFiles\LX6\Service\RPCSerializeBase.lua
--- Decompiled from: 00065_RPCSerializeBase.lua_87fc20cbb21f.luajit
+
 
 local Serializer = uv0
 local SerializeObjectMarkNull = 0

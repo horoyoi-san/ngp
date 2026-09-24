@@ -1,0 +1,428 @@
+{
+  "_class": "ResourceControlAgentResourceConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 24,
+  "records": [
+    {
+      "Id": 30330000,
+      "AgentName": "伯纳德",
+      "AgentId": [
+        40140049
+      ],
+      "ModelResource": "(?i).*(A101001).*",
+      "PrefabResuorce": "(?i).*(A101001).*",
+      "FBXResource": "(?i).*(A101001).*",
+      "TextureResource": "(?i).*(bernard|A101001|bonade).*",
+      "TimelineResource": "(?i).*(bernard|A101001|bonade).*",
+      "TimelinePrefabResource": "(?i).*(bernard|A101001|bonade).*",
+      "AnimTimelineResource": "(?i).*(bernard|A101001|bonade).*",
+      "AudioResource": "(?i).*(bernard|A101001|bonade).*",
+      "ResourceStartVersion": "V0.10.0",
+      "ResourceTagList": [
+        0
+      ]
+    },
+    {
+      "Id": 30330001,
+      "AgentName": "时夜",
+      "AgentId": [
+        40140056
+      ],
+      "ModelResource": "(?i).*(A102006).*",
+      "PrefabResuorce": "(?i).*(A102006).*",
+      "FBXResource": "(?i).*(A102006).*",
+      "TextureResource": "(?i).*(shiye|A102006).*",
+      "TimelineResource": "(?i).*(A102006).*",
+      "TimelinePrefabResource": "(?i).*(A102006).*",
+      "AnimTimelineResource": "(?i).*(shiye|A102006).*",
+      "AudioResource": "(?i).*(shiye|A102006).*",
+      "ResourceStartVersion": "V99.0.0",
+      "ResourceTagList": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "Id": 30330002,
+      "AgentName": "凛",
+      "AgentId": [
+        40140033
+      ],
+      "ModelResource": "(?i).*(A102001).*",
+      "PrefabResuorce": "(?i).*(A102001).*",
+      "FBXResource": "(?i).*(A102001).*",
+      "TextureResource": "(?i).*(heichangzhi|A102001).*",
+      "TimelineResource": "(?i).*(A102001).*",
+      "TimelinePrefabResource": "(?i).*(A102001).*",
+      "AnimTimelineResource": "",
+      "AudioResource": "(?:(?!.*linqin).*lin.*|.*A12001.*)",
+      "ResourceStartVersion": "V0.10.0",
+      "ResourceTagList": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "Id": 30330003,
+      "AgentName": "克里斯蒂娜",
+      "AgentId": [],
+      "ModelResource": "(?i).*(A102003).*",
+      "PrefabResuorce": "(?i).*(A102003).*",
+      "FBXResource": "(?i).*(A102003).*",
+      "TextureResource": "(?i).*(Christina|A102003).*",
+      "TimelineResource": "(?i).*(A102003).*",
+      "TimelinePrefabResource": "(?i).*(A102003).*",
+      "AnimTimelineResource": "",
+      "AudioResource": "(?i).*(Christina|A102003|kelisidina).*",
+      "ResourceStartVersion": "V0.10.0",
+      "ResourceTagList": [
+        0
+      ]
+    },
+    {
+      "Id": 30330004,
+      "AgentName": "柠檬",
+      "AgentId": [],
+      "ModelResource": "(?i).*(A102007).*",
+      "PrefabResuorce": "(?i).*(A102007).*",
+      "FBXResource": "(?i).*(A102007).*",
+      "TextureResource": "(?i).*(A102007).*",
+      "TimelineResource": "(?i).*(A102007).*",
+      "TimelinePrefabResource": "(?i).*(A102007).*",
+      "AnimTimelineResource": "",
+      "AudioResource": "(?i).*(A102007).*",
+      "ResourceStartVersion": "",
+      "ResourceTagList": [
+        0
+      ]
+    },
+    {
+      "Id": 30330005,
+      "AgentName": "岁子",
+      "AgentId": [],
+      "ModelResource": "(?i).*(A102008).*",
+      "PrefabResuorce": "(?i).*(A102008).*",
+      "FBXResource": "(?i).*(A102008).*",
+      "TextureResource": "(?i).*(A102008).*",
+      "TimelineResource": "(?i).*(A102008).*",
+      "TimelinePrefabResource": "(?i).*(A102008).*",
+      "AnimTimelineResource": "",
+      "AudioResource": "(?i).*(A102008).*",
+      "ResourceStartVersion": "",
+      "ResourceTagList": [
+        0
+      ]
+    },
+    {
+      "Id": 30330006,
+      "AgentName": "缤可",
+      "AgentId": [],
+      "ModelResource": "(?i).*(A106004).*",
+      "PrefabResuorce": "(?i).*(A106004).*",
+      "FBXResource": "(?i).*(A106004).*",
+      "TextureResource": "(?i).*(A106004).*",
+      "TimelineResource": "(?i).*(A106004).*",
+      "TimelinePrefabResource": "(?i).*(A106004).*",
+      "AnimTimelineResource": "",
+      "AudioResource": "(?i).*(A106004).*",
+      "ResourceStartVersion": "",
+      "ResourceTagList": [
+        0
+      ]
+    },
+    {
+      "Id": 30330007,
+      "AgentName": "红彼得",
+      "AgentId": [],
+      "ModelResource": "(?i).*(A106005).*",
+      "PrefabResuorce": "(?i).*(A106005).*",
+      "FBXResource": "(?i).*(A106005).*",
+      "TextureResource": "(?i).*(A106005).*",
+      "TimelineResource": "(?i).*(A106005).*",
+      "TimelinePrefabResource": "(?i).*(A106005).*",
+      "AnimTimelineResource": "",
+      "AudioResource": "(?i).*(A106005).*",
+      "ResourceStartVersion": "",
+      "ResourceTagList": [
+        0
+      ]
+    },
+    {
+      "Id": 30330008,
+      "AgentName": "冰糖",
+      "AgentId": [],
+      "ModelResource": "(?i).*(B102001).*",
+      "PrefabResuorce": "(?i).*(B102001).*",
+      "FBXResource": "(?i).*(B102001).*",
+      "TextureResource": "(?i).*(B102001).*",
+      "TimelineResource": "(?i).*(B102001).*",
+      "TimelinePrefabResource": "(?i).*(B102001).*",
+      "AnimTimelineResource": "",
+      "AudioResource": "(?i).*(B102001).*",
+      "ResourceStartVersion": "",
+      "ResourceTagList": [
+        0
+      ]
+    },
+    {
+      "Id": 30330009,
+      "AgentName": "亨德里克",
+      "AgentId": [],
+      "ModelResource": "(?i).*(A101010).*",
+      "PrefabResuorce": "(?i).*(A101010).*",
+      "FBXResource": "(?i).*(A101010).*",
+      "TextureResource": "(?i).*(A101010).*",
+      "TimelineResource": "(?i).*(A101010).*",
+      "TimelinePrefabResource": "(?i).*(A101010).*",
+      "AnimTimelineResource": "",
+      "AudioResource": "(?i).*(A101010).*",
+      "ResourceStartVersion": "",
+      "ResourceTagList": [
+        0
+      ]
+    },
+    {
+      "Id": 30330010,
+      "AgentName": "黛西贝尔",
+      "AgentId": [],
+      "ModelResource": "(?i).*(B104001).*",
+      "PrefabResuorce": "(?i).*(B104001).*",
+      "FBXResource": "(?i).*(B104001).*",
+      "TextureResource": "(?i).*(B104001).*",
+      "TimelineResource": "(?i).*(B104001).*",
+      "TimelinePrefabResource": "(?i).*(B104001).*",
+      "AnimTimelineResource": "",
+      "AudioResource": "(?i).*(B104001).*",
+      "ResourceStartVersion": "",
+      "ResourceTagList": [
+        0
+      ]
+    },
+    {
+      "Id": 30330011,
+      "AgentName": "伏虎",
+      "AgentId": [],
+      "ModelResource": "(?i).*(C101001).*",
+      "PrefabResuorce": "(?i).*(C101001).*",
+      "FBXResource": "(?i).*(C101001).*",
+      "TextureResource": "(?i).*(C101001).*",
+      "TimelineResource": "(?i).*(C101001).*",
+      "TimelinePrefabResource": "(?i).*(C101001).*",
+      "AnimTimelineResource": "",
+      "AudioResource": "(?i).*(C101001).*",
+      "ResourceStartVersion": "",
+      "ResourceTagList": [
+        0
+      ]
+    },
+    {
+      "Id": 30330012,
+      "AgentName": "李扶风",
+      "AgentId": [],
+      "ModelResource": "(?i).*(C101003).*",
+      "PrefabResuorce": "(?i).*(C101003).*",
+      "FBXResource": "(?i).*(C101003).*",
+      "TextureResource": "(?i).*(C101003).*",
+      "TimelineResource": "(?i).*(C101003).*",
+      "TimelinePrefabResource": "(?i).*(C101003).*",
+      "AnimTimelineResource": "",
+      "AudioResource": "(?i).*(C101003).*",
+      "ResourceStartVersion": "",
+      "ResourceTagList": [
+        0
+      ]
+    },
+    {
+      "Id": 30330013,
+      "AgentName": "靖",
+      "AgentId": [],
+      "ModelResource": "(?i).*(C102001).*",
+      "PrefabResuorce": "(?i).*(C102001).*",
+      "FBXResource": "(?i).*(C102001).*",
+      "TextureResource": "(?i).*(C102001).*",
+      "TimelineResource": "(?i).*(C102001).*",
+      "TimelinePrefabResource": "(?i).*(C102001).*",
+      "AnimTimelineResource": "",
+      "AudioResource": "(?i).*(C102001).*",
+      "ResourceStartVersion": "",
+      "ResourceTagList": [
+        0
+      ]
+    },
+    {
+      "Id": 30330014,
+      "AgentName": "响",
+      "AgentId": [],
+      "ModelResource": "(?i).*(C102002).*",
+      "PrefabResuorce": "(?i).*(C102002).*",
+      "FBXResource": "(?i).*(C102002).*",
+      "TextureResource": "(?i).*(C102002).*",
+      "TimelineResource": "(?i).*(C102002).*",
+      "TimelinePrefabResource": "(?i).*(C102002).*",
+      "AnimTimelineResource": "",
+      "AudioResource": "(?i).*(C102002).*",
+      "ResourceStartVersion": "",
+      "ResourceTagList": [
+        0
+      ]
+    },
+    {
+      "Id": 30330015,
+      "AgentName": "觉",
+      "AgentId": [],
+      "ModelResource": "(?i).*(C102003).*",
+      "PrefabResuorce": "(?i).*(C102003).*",
+      "FBXResource": "(?i).*(C102003).*",
+      "TextureResource": "(?i).*(C102003).*",
+      "TimelineResource": "(?i).*(C102003).*",
+      "TimelinePrefabResource": "(?i).*(C102003).*",
+      "AnimTimelineResource": "",
+      "AudioResource": "(?i).*(C102003).*",
+      "ResourceStartVersion": "",
+      "ResourceTagList": [
+        0
+      ]
+    },
+    {
+      "Id": 30330016,
+      "AgentName": "步枝",
+      "AgentId": [],
+      "ModelResource": "(?i).*(C102004).*",
+      "PrefabResuorce": "(?i).*(C102004).*",
+      "FBXResource": "(?i).*(C102004).*",
+      "TextureResource": "(?i).*(C102004).*",
+      "TimelineResource": "(?i).*(C102004).*",
+      "TimelinePrefabResource": "(?i).*(C102004).*",
+      "AnimTimelineResource": "",
+      "AudioResource": "(?i).*(C102004).*",
+      "ResourceStartVersion": "",
+      "ResourceTagList": [
+        0
+      ]
+    },
+    {
+      "Id": 30330017,
+      "AgentName": "喜碧",
+      "AgentId": [],
+      "ModelResource": "(?i).*(C104001).*",
+      "PrefabResuorce": "(?i).*(C104001).*",
+      "FBXResource": "(?i).*(C104001).*",
+      "TextureResource": "(?i).*(C104001).*",
+      "TimelineResource": "(?i).*(C104001).*",
+      "TimelinePrefabResource": "(?i).*(C104001).*",
+      "AnimTimelineResource": "",
+      "AudioResource": "(?i).*(C104001).*",
+      "ResourceStartVersion": "",
+      "ResourceTagList": [
+        0
+      ]
+    },
+    {
+      "Id": 30330018,
+      "AgentName": "艾",
+      "AgentId": [],
+      "ModelResource": "(?i).*(C104002).*",
+      "PrefabResuorce": "(?i).*(C104002).*",
+      "FBXResource": "(?i).*(C104002).*",
+      "TextureResource": "(?i).*(C104002).*",
+      "TimelineResource": "(?i).*(C104002).*",
+      "TimelinePrefabResource": "(?i).*(C104002).*",
+      "AnimTimelineResource": "",
+      "AudioResource": "(?i).*(C104002).*",
+      "ResourceStartVersion": "",
+      "ResourceTagList": [
+        0
+      ]
+    },
+    {
+      "Id": 30330019,
+      "AgentName": "书离",
+      "AgentId": [],
+      "ModelResource": "(?i).*(C104003).*",
+      "PrefabResuorce": "(?i).*(C104003).*",
+      "FBXResource": "(?i).*(C104003).*",
+      "TextureResource": "(?i).*(C104003).*",
+      "TimelineResource": "(?i).*(C104003).*",
+      "TimelinePrefabResource": "(?i).*(C104003).*",
+      "AnimTimelineResource": "",
+      "AudioResource": "(?i).*(C104003).*",
+      "ResourceStartVersion": "",
+      "ResourceTagList": [
+        0
+      ]
+    },
+    {
+      "Id": 30330020,
+      "AgentName": "蛟",
+      "AgentId": [],
+      "ModelResource": "(?i).*(C104004).*",
+      "PrefabResuorce": "(?i).*(C104004).*",
+      "FBXResource": "(?i).*(C104004).*",
+      "TextureResource": "(?i).*(C104004).*",
+      "TimelineResource": "(?i).*(C104004).*",
+      "TimelinePrefabResource": "(?i).*(C104004).*",
+      "AnimTimelineResource": "",
+      "AudioResource": "(?i).*(C104004).*",
+      "ResourceStartVersion": "",
+      "ResourceTagList": [
+        0
+      ]
+    },
+    {
+      "Id": 30330021,
+      "AgentName": "柚枝",
+      "AgentId": [],
+      "ModelResource": "(?i).*(C104006).*",
+      "PrefabResuorce": "(?i).*(C104006).*",
+      "FBXResource": "(?i).*(C104006).*",
+      "TextureResource": "(?i).*(C104006).*",
+      "TimelineResource": "(?i).*(C104006).*",
+      "TimelinePrefabResource": "(?i).*(C104006).*",
+      "AnimTimelineResource": "",
+      "AudioResource": "(?i).*(C104006).*",
+      "ResourceStartVersion": "",
+      "ResourceTagList": [
+        0
+      ]
+    },
+    {
+      "Id": 30330022,
+      "AgentName": "程酿",
+      "AgentId": [],
+      "ModelResource": "(?i).*(C104007).*",
+      "PrefabResuorce": "(?i).*(C104007).*",
+      "FBXResource": "(?i).*(C104007).*",
+      "TextureResource": "(?i).*(C104007).*",
+      "TimelineResource": "(?i).*(C104007).*",
+      "TimelinePrefabResource": "(?i).*(C104007).*",
+      "AnimTimelineResource": "",
+      "AudioResource": "(?i).*(C104007).*",
+      "ResourceStartVersion": "",
+      "ResourceTagList": [
+        0
+      ]
+    },
+    {
+      "Id": 30330023,
+      "AgentName": "霍索恩",
+      "AgentId": [],
+      "ModelResource": "(?i).*(A103002).*",
+      "PrefabResuorce": "(?i).*(A103002).*",
+      "FBXResource": "(?i).*(A103002).*",
+      "TextureResource": "(?i).*(huoen|huosuoen|hawthorne).*",
+      "TimelineResource": "(?i).*(A103002).*",
+      "TimelinePrefabResource": "(?i).*(A103002).*",
+      "AnimTimelineResource": "",
+      "AudioResource": "(?i).*(A103002).*",
+      "ResourceStartVersion": "",
+      "ResourceTagList": [
+        0
+      ]
+    }
+  ],
+  "_dumpedCount": 24,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

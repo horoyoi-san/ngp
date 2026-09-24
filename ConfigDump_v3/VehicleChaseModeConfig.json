@@ -1,0 +1,90 @@
+{
+  "_class": "VehicleChaseModeConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 8,
+  "records": [
+    {
+      "Id": 1001,
+      "ShowInHUD": true,
+      "ShowDistance": true,
+      "HUDMaxShowDistance": 120,
+      "ShowInMiniMap": true,
+      "ShowMiniMapDetectRange": true,
+      "MiniMapDetectRangeLength": 15,
+      "MiniMapDetectRangeAngle": 360
+    },
+    {
+      "Id": 1002,
+      "ShowInHUD": false,
+      "ShowDistance": false,
+      "HUDMaxShowDistance": 80,
+      "ShowInMiniMap": true,
+      "ShowMiniMapDetectRange": true,
+      "MiniMapDetectRangeLength": 10,
+      "MiniMapDetectRangeAngle": 90
+    },
+    {
+      "Id": 1003,
+      "ShowInHUD": true,
+      "ShowDistance": true,
+      "HUDMaxShowDistance": 120,
+      "ShowInMiniMap": true,
+      "ShowMiniMapDetectRange": false,
+      "MiniMapDetectRangeLength": 3,
+      "MiniMapDetectRangeAngle": 360
+    },
+    {
+      "Id": 1004,
+      "ShowInHUD": false,
+      "ShowDistance": false,
+      "HUDMaxShowDistance": 80,
+      "ShowInMiniMap": true,
+      "ShowMiniMapDetectRange": false,
+      "MiniMapDetectRangeLength": 80,
+      "MiniMapDetectRangeAngle": 90
+    },
+    {
+      "Id": 1005,
+      "ShowInHUD": true,
+      "ShowDistance": true,
+      "HUDMaxShowDistance": 120,
+      "ShowInMiniMap": true,
+      "ShowMiniMapDetectRange": true,
+      "MiniMapDetectRangeLength": 15,
+      "MiniMapDetectRangeAngle": 360
+    },
+    {
+      "Id": 1006,
+      "ShowInHUD": false,
+      "ShowDistance": false,
+      "HUDMaxShowDistance": 80,
+      "ShowInMiniMap": true,
+      "ShowMiniMapDetectRange": true,
+      "MiniMapDetectRangeLength": 10,
+      "MiniMapDetectRangeAngle": 90
+    },
+    {
+      "Id": 1007,
+      "ShowInHUD": true,
+      "ShowDistance": true,
+      "HUDMaxShowDistance": 120,
+      "ShowInMiniMap": true,
+      "ShowMiniMapDetectRange": true,
+      "MiniMapDetectRangeLength": 15,
+      "MiniMapDetectRangeAngle": 360
+    },
+    {
+      "Id": 1008,
+      "ShowInHUD": false,
+      "ShowDistance": false,
+      "HUDMaxShowDistance": 80,
+      "ShowInMiniMap": true,
+      "ShowMiniMapDetectRange": true,
+      "MiniMapDetectRangeLength": 10,
+      "MiniMapDetectRangeAngle": 90
+    }
+  ],
+  "_dumpedCount": 8,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

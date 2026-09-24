@@ -1,0 +1,31 @@
+{
+  "_class": "MusicCreatorTimbreConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 3,
+  "records": [
+    {
+      "Id": 1001,
+      "Name": "打击乐色",
+      "Desc": "这是打击乐",
+      "Group": 1,
+      "Param": 1
+    },
+    {
+      "Id": 1002,
+      "Name": "低音色",
+      "Desc": "这是低音",
+      "Group": 2,
+      "Param": 1
+    },
+    {
+      "Id": 1003,
+      "Name": "旋律色",
+      "Desc": "这是旋律",
+      "Group": 3,
+      "Param": 1
+    }
+  ],
+  "_dumpedCount": 3,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

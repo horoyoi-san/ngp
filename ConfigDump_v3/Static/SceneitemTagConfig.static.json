@@ -1,0 +1,162 @@
+{
+  "DrinkCfg": {
+    "Id": 3001,
+    "TagName": "饮料",
+    "Description": ""
+  },
+  "BallCfg": {
+    "Id": 3002,
+    "TagName": "球类",
+    "Description": ""
+  },
+  "MetalCfg": {
+    "Id": 3003,
+    "TagName": "金属",
+    "Description": ""
+  },
+  "EnemyMeleeWeaponCfg": {
+    "Id": 3004,
+    "TagName": "怪物武器",
+    "Description": ""
+  },
+  "AssassinationDestructibleCfg": {
+    "Id": 3005,
+    "TagName": "特殊-暗杀可破坏物",
+    "Description": ""
+  },
+  "BattleDestructibleCfg": {
+    "Id": 3006,
+    "TagName": "特殊-战斗可破坏物",
+    "Description": ""
+  },
+  "SpecialDestructibleCfg": {
+    "Id": 3007,
+    "TagName": "特殊可破坏物",
+    "Description": ""
+  },
+  "TrafficLightCfg": {
+    "Id": 3008,
+    "TagName": "红绿灯",
+    "Description": ""
+  },
+  "BalustradeCfg": {
+    "Id": 3009,
+    "TagName": "栏杆",
+    "Description": ""
+  },
+  "MixingGlassCfg": {
+    "Id": 3010,
+    "TagName": "调酒杯",
+    "Description": ""
+  },
+  "WineBottleCfg": {
+    "Id": 3011,
+    "TagName": "调酒瓶",
+    "Description": ""
+  },
+  "MixingIngredientCfg": {
+    "Id": 3012,
+    "TagName": "调酒原料",
+    "Description": ""
+  },
+  "LitterbinCfg": {
+    "Id": 3013,
+    "TagName": "垃圾桶",
+    "Description": ""
+  },
+  "GiveBackPhoneCfg": {
+    "Id": 3014,
+    "TagName": "归还手机",
+    "Description": ""
+  },
+  "EarPhoneCfg": {
+    "Id": 3015,
+    "TagName": "耳机",
+    "Description": ""
+  },
+  "LetterCfg": {
+    "Id": 3016,
+    "TagName": "未来信",
+    "Description": ""
+  },
+  "CargoCfg": {
+    "Id": 3017,
+    "TagName": "货物",
+    "Description": ""
+  },
+  "FloatCfg": {
+    "Id": 3018,
+    "TagName": "漂浮物",
+    "Description": ""
+  },
+  "PhoneCfg": {
+    "Id": 3019,
+    "TagName": "手机",
+    "Description": ""
+  },
+  "TKIgnoreColliderCfg": {
+    "Id": 3020,
+    "TagName": "地形杀",
+    "Description": ""
+  },
+  "BuildingCfg": {
+    "Id": 3021,
+    "TagName": "可破坏建筑",
+    "Description": ""
+  },
+  "DisableBrokenModelEmissionIntensityCfg": {
+    "Id": 3022,
+    "TagName": "破坏关闭自发光片",
+    "Description": ""
+  },
+  "EnableMaterialBrokenEffectCfg": {
+    "Id": 3033,
+    "TagName": "使用材质破坏特效",
+    "Description": ""
+  },
+  "EnableMaterialHitEffectCfg": {
+    "Id": 3034,
+    "TagName": "使用材质受击特效",
+    "Description": ""
+  },
+  "TyreFromVehicleCfg": {
+    "Id": 3035,
+    "TagName": "轮胎",
+    "Description": ""
+  },
+  "ProjectorLightCfg": {
+    "Id": 3036,
+    "TagName": "投影仪",
+    "Description": ""
+  },
+  "CaveFloodSceneItemCfg": {
+    "Id": 3037,
+    "TagName": "湍流可破坏物",
+    "Description": ""
+  },
+  "ChairCfg": {
+    "Id": 4006,
+    "TagName": "合-椅子",
+    "Description": ""
+  },
+  "FixedItemCfg": {
+    "Id": 5001,
+    "TagName": "锚定物",
+    "Description": ""
+  },
+  "HitchItemCfg": {
+    "Id": 5002,
+    "TagName": "挂接物",
+    "Description": "相邻锚定物全部损坏后会损坏"
+  },
+  "SoftHitchItemCfg": {
+    "Id": 5003,
+    "TagName": "柔性挂接物",
+    "Description": "相邻锚定物有一个损坏后会损坏"
+  },
+  "ColliderIsTriggerCfg": {
+    "Id": 5004,
+    "TagName": "无实体碰撞",
+    "Description": "Collider仅用于结算技能，不阻挡角色和车辆"
+  }
+}

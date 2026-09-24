@@ -4,7 +4,6 @@ using Ananta.SDK.Logging;
 
 namespace Ananta.SDK.Rpc;
 
-/// <summary>A parsed UX RPC message exposed to attribute handlers.</summary>
 public sealed class UxRpcMessage
 {
     public RpcContext Context { get; }

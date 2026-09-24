@@ -1,0 +1,440 @@
+{
+  "_class": "AgentSenseResponseRuleConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 43,
+  "records": [
+    {
+      "Id": 1,
+      "SenseRuleId": 1,
+      "Phase": 0,
+      "SlotConditions": "",
+      "CooldownScope": 0,
+      "Cooldown": 30,
+      "ObserverEventId": "107026",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 2,
+      "SenseRuleId": 2,
+      "Phase": 0,
+      "SlotConditions": "",
+      "CooldownScope": 0,
+      "Cooldown": 30,
+      "ObserverEventId": "107027",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 3,
+      "SenseRuleId": 3,
+      "Phase": 0,
+      "SlotConditions": "",
+      "CooldownScope": 0,
+      "Cooldown": 30,
+      "ObserverEventId": "",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 4,
+      "SenseRuleId": 4,
+      "Phase": 0,
+      "SlotConditions": "",
+      "CooldownScope": 2,
+      "Cooldown": 5,
+      "ObserverEventId": "",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 5,
+      "SenseRuleId": 4,
+      "Phase": 2,
+      "SlotConditions": "",
+      "CooldownScope": 2,
+      "Cooldown": 0,
+      "ObserverEventId": "FactionPlayerOutOfView",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 6,
+      "SenseRuleId": 5,
+      "Phase": 0,
+      "SlotConditions": "",
+      "CooldownScope": 2,
+      "Cooldown": 10,
+      "ObserverEventId": "",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 7,
+      "SenseRuleId": 5,
+      "Phase": 2,
+      "SlotConditions": "",
+      "CooldownScope": 2,
+      "Cooldown": 0,
+      "ObserverEventId": "FactionAgentOutOfView",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 8,
+      "SenseRuleId": 6,
+      "Phase": 0,
+      "SlotConditions": "",
+      "CooldownScope": 0,
+      "Cooldown": 10,
+      "ObserverEventId": "",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 9,
+      "SenseRuleId": 7,
+      "Phase": 0,
+      "SlotConditions": "",
+      "CooldownScope": 0,
+      "Cooldown": 0.200000003,
+      "ObserverEventId": "",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 10,
+      "SenseRuleId": 8,
+      "Phase": 0,
+      "SlotConditions": "",
+      "CooldownScope": 0,
+      "Cooldown": 10000,
+      "ObserverEventId": "102035",
+      "TargetEventId": "102035"
+    },
+    {
+      "Id": 11,
+      "SenseRuleId": 9,
+      "Phase": 0,
+      "SlotConditions": "0:Agent_Male;2:Agent_Male;3:Agent_Male",
+      "CooldownScope": 0,
+      "Cooldown": 10,
+      "ObserverEventId": "",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 12,
+      "SenseRuleId": 9,
+      "Phase": 0,
+      "SlotConditions": "0:Agent_Male;2:Agent_Male;3:Agent_Female",
+      "CooldownScope": 0,
+      "Cooldown": 10,
+      "ObserverEventId": "",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 13,
+      "SenseRuleId": 9,
+      "Phase": 0,
+      "SlotConditions": "0:Agent_Male;2:Agent_Female;3:Agent_Male",
+      "CooldownScope": 0,
+      "Cooldown": 10,
+      "ObserverEventId": "102034",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 14,
+      "SenseRuleId": 9,
+      "Phase": 0,
+      "SlotConditions": "0:Agent_Male;2:Agent_Female;3:Agent_Female",
+      "CooldownScope": 0,
+      "Cooldown": 10,
+      "ObserverEventId": "",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 15,
+      "SenseRuleId": 9,
+      "Phase": 0,
+      "SlotConditions": "0:Agent_Female;2:Agent_Male;3:Agent_Male",
+      "CooldownScope": 0,
+      "Cooldown": 10,
+      "ObserverEventId": "",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 16,
+      "SenseRuleId": 9,
+      "Phase": 0,
+      "SlotConditions": "0:Agent_Female;2:Agent_Male;3:Agent_Female",
+      "CooldownScope": 0,
+      "Cooldown": 10,
+      "ObserverEventId": "102034",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 17,
+      "SenseRuleId": 9,
+      "Phase": 0,
+      "SlotConditions": "0:Agent_Female;2:Agent_Female;3:Agent_Male",
+      "CooldownScope": 0,
+      "Cooldown": 10,
+      "ObserverEventId": "",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 18,
+      "SenseRuleId": 9,
+      "Phase": 0,
+      "SlotConditions": "0:Agent_Female;2:Agent_Female;3:Agent_Female",
+      "CooldownScope": 0,
+      "Cooldown": 10,
+      "ObserverEventId": "",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 19,
+      "SenseRuleId": 9,
+      "Phase": 0,
+      "SlotConditions": "",
+      "CooldownScope": 0,
+      "Cooldown": 10,
+      "ObserverEventId": "",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 20,
+      "SenseRuleId": 12,
+      "Phase": 0,
+      "SlotConditions": "",
+      "CooldownScope": 2,
+      "Cooldown": 0,
+      "ObserverEventId": "",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 21,
+      "SenseRuleId": 12,
+      "Phase": 2,
+      "SlotConditions": "",
+      "CooldownScope": 2,
+      "Cooldown": 0,
+      "ObserverEventId": "",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 22,
+      "SenseRuleId": 13,
+      "Phase": 0,
+      "SlotConditions": "",
+      "CooldownScope": 2,
+      "Cooldown": 3,
+      "ObserverEventId": "107031",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 23,
+      "SenseRuleId": 14,
+      "Phase": 0,
+      "SlotConditions": "",
+      "CooldownScope": 2,
+      "Cooldown": 0,
+      "ObserverEventId": "",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 24,
+      "SenseRuleId": 14,
+      "Phase": 1,
+      "SlotConditions": "",
+      "CooldownScope": 2,
+      "Cooldown": 0,
+      "ObserverEventId": "",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 25,
+      "SenseRuleId": 14,
+      "Phase": 2,
+      "SlotConditions": "",
+      "CooldownScope": 2,
+      "Cooldown": 0,
+      "ObserverEventId": "",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 26,
+      "SenseRuleId": 15,
+      "Phase": 0,
+      "SlotConditions": "",
+      "CooldownScope": 2,
+      "Cooldown": 0,
+      "ObserverEventId": "",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 27,
+      "SenseRuleId": 16,
+      "Phase": 0,
+      "SlotConditions": "",
+      "CooldownScope": 2,
+      "Cooldown": 0,
+      "ObserverEventId": "",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 28,
+      "SenseRuleId": 17,
+      "Phase": 0,
+      "SlotConditions": "",
+      "CooldownScope": 2,
+      "Cooldown": 0,
+      "ObserverEventId": "",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 29,
+      "SenseRuleId": 18,
+      "Phase": 0,
+      "SlotConditions": "",
+      "CooldownScope": 2,
+      "Cooldown": 0,
+      "ObserverEventId": "",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 30,
+      "SenseRuleId": 19,
+      "Phase": 2,
+      "SlotConditions": "",
+      "CooldownScope": 2,
+      "Cooldown": 0,
+      "ObserverEventId": "",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 31,
+      "SenseRuleId": 20,
+      "Phase": 0,
+      "SlotConditions": "",
+      "CooldownScope": 2,
+      "Cooldown": 0,
+      "ObserverEventId": "",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 32,
+      "SenseRuleId": 21,
+      "Phase": 0,
+      "SlotConditions": "",
+      "CooldownScope": 2,
+      "Cooldown": 0,
+      "ObserverEventId": "",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 33,
+      "SenseRuleId": 21,
+      "Phase": 2,
+      "SlotConditions": "",
+      "CooldownScope": 2,
+      "Cooldown": 0,
+      "ObserverEventId": "",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 34,
+      "SenseRuleId": 22,
+      "Phase": 0,
+      "SlotConditions": "",
+      "CooldownScope": 2,
+      "Cooldown": 0,
+      "ObserverEventId": "",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 35,
+      "SenseRuleId": 23,
+      "Phase": 0,
+      "SlotConditions": "",
+      "CooldownScope": 2,
+      "Cooldown": 0,
+      "ObserverEventId": "",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 36,
+      "SenseRuleId": 24,
+      "Phase": 0,
+      "SlotConditions": "",
+      "CooldownScope": 2,
+      "Cooldown": 0,
+      "ObserverEventId": "",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 37,
+      "SenseRuleId": 25,
+      "Phase": 0,
+      "SlotConditions": "",
+      "CooldownScope": 2,
+      "Cooldown": 0,
+      "ObserverEventId": "",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 38,
+      "SenseRuleId": 26,
+      "Phase": 0,
+      "SlotConditions": "",
+      "CooldownScope": 2,
+      "Cooldown": 0,
+      "ObserverEventId": "",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 39,
+      "SenseRuleId": 27,
+      "Phase": 0,
+      "SlotConditions": "",
+      "CooldownScope": 2,
+      "Cooldown": 0,
+      "ObserverEventId": "",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 40,
+      "SenseRuleId": 28,
+      "Phase": 0,
+      "SlotConditions": "",
+      "CooldownScope": 2,
+      "Cooldown": 0,
+      "ObserverEventId": "",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 41,
+      "SenseRuleId": 29,
+      "Phase": 0,
+      "SlotConditions": "",
+      "CooldownScope": 2,
+      "Cooldown": 0,
+      "ObserverEventId": "",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 42,
+      "SenseRuleId": 30,
+      "Phase": 0,
+      "SlotConditions": "",
+      "CooldownScope": 2,
+      "Cooldown": 0,
+      "ObserverEventId": "109502",
+      "TargetEventId": ""
+    },
+    {
+      "Id": 43,
+      "SenseRuleId": 31,
+      "Phase": 0,
+      "SlotConditions": "",
+      "CooldownScope": 2,
+      "Cooldown": 0,
+      "ObserverEventId": "109501",
+      "TargetEventId": ""
+    }
+  ],
+  "_dumpedCount": 43,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -2,10 +2,6 @@ using Ananta.SDK.Network;
 
 namespace Ananta.Server.Handlers.LoginGate;
 
-/// <summary>
-/// Tracks the authenticated Gate socket. IMasterToClient is routed to ServerMark.Gate
-/// in client build 4229938, so server-pushed master RPCs must use this session, not Game.
-/// </summary>
 internal sealed class GateSessionHub
 {
     private TcpSession? _current;

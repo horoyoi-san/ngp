@@ -38,21 +38,45 @@ internal sealed class SyncPlayerCurrentSpirit
 [UxContract(Inline = true)]
 internal sealed class SyncSwitchSpiritConfigId
 {
-    // 4229938 IGameSceneToClient.SyncSwitchSpiritConfigId(uint, UXVector3, List<ulong>).
-    // The third field is mandatory even when the switch has no spawned helper agents.
+    
+    
     public uint configId;
     public UxVector3 position;
     [UxCollection(Count = UxCountEncoding.Int7)]
     public List<ulong> spawnedAgentIds = [];
 }
 
-/// <summary>PreSwitchSpiritData is an inline struct: there is no leading complex marker.</summary>
 [UxContract(Inline = true)]
 internal sealed class SyncPreSwitchSpirit
 {
     public uint configId;
     public uint newTemplateId;
     public UxVector3 position;
+}
+
+[UxContract(Inline = true)]
+internal sealed class SyncPlayTL
+{
+    public string tlName = string.Empty;
+    public uint tlId;
+    [UxCollection(Count = UxCountEncoding.Int7)]
+    public List<ulong> agentIds = [];
+    [UxCollection(Count = UxCountEncoding.Int7)]
+    public List<string> slots = [];
+    public UxVector3 position;
+    public UxVector3 lookPosition;
+}
+
+[UxContract(Inline = true)]
+internal sealed class SyncPreLoadTL
+{
+    public string tlName = string.Empty;
+}
+
+[UxContract(Inline = true)]
+internal sealed class SyncUnLoadTL
+{
+    public string tlName = string.Empty;
 }
 
 [UxContract(Inline = true)]
@@ -68,7 +92,6 @@ internal sealed class AskSetGamePause
     public byte reason;
 }
 
-/// <summary>Client -> GameScene AskSwitchSpirit(uint spiritId).</summary>
 [UxContract(Inline = true)]
 internal sealed class AskSwitchSpirit
 {
@@ -137,7 +160,6 @@ internal sealed class SyncAllSpiritCombatPower
     public Dictionary<uint, float> combatPower = [];
 }
 
-// Client -> GameScene loading barrier messages.
 [UxContract(Inline = true)]
 internal sealed class AskLoadSceneCompleted
 {
@@ -158,7 +180,6 @@ internal sealed class AskLoadingFinished
     public ulong sessionId;
 }
 
-// Client -> GameScene movement report: List7Bit<LogicAgentSyncData>.
 [UxContract(Inline = true)]
 internal sealed class AskReportLogicAgentSyncData
 {
@@ -173,8 +194,6 @@ internal sealed class LogicAgentSyncData
     public UxVector3 Rotation;
 }
 
-
-// Client movement contracts from RPCSerializeAuto.lua (build 4229938).
 [UxContract(Inline = true)]
 internal struct SimpleMoveActionData
 {
@@ -260,8 +279,6 @@ internal sealed class AskUnitMoveActionWithGround
     public uint clientLocalTime;
 }
 
-// Full SyncUnitPositionAndFacing tuple. The last two complex values are always null on our path;
-// keeping named null-only placeholders documents the 4229938 wire instead of writing marker bytes by hand.
 [UxContract]
 internal sealed class MoveGroundInfoNullOnly { }
 

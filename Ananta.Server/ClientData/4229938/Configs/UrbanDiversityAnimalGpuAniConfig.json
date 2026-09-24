@@ -1,0 +1,4592 @@
+{
+  "_class": "UrbanDiversityAnimalGpuAniConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 226,
+  "records": [
+    {
+      "Id": 10000,
+      "Name": "angry01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#angry01.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 1011,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        1011
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 1011023,
+      "GOActionKeys": [
+        1011023
+      ]
+    },
+    {
+      "Id": 10001,
+      "Name": "cat_ballplay01_end",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_ballplay01_end.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10002,
+      "Name": "cat_ballplay01_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_ballplay01_loop.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10003,
+      "Name": "cat_ballplay01_start",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_ballplay01_start.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10004,
+      "Name": "cat_bury01_end",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_bury01_end.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10005,
+      "Name": "cat_bury01_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_bury01_loop.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10006,
+      "Name": "cat_bury01_start",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_bury01_start.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10007,
+      "Name": "cat_feeding01_end",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_feeding01_end.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10008,
+      "Name": "cat_feeding01_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_feeding01_loop.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10009,
+      "Name": "cat_feeding01_start",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_feeding01_start.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10010,
+      "Name": "cat_hold01_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_hold01_loop.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10011,
+      "Name": "cat_hold01_start",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_hold01_start.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10012,
+      "Name": "cat_hold01_walk",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_hold01_walk.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10013,
+      "Name": "cat_idle01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_idle01.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 1001,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        1001
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 1001023,
+      "GOActionKeys": [
+        1001023
+      ]
+    },
+    {
+      "Id": 10014,
+      "Name": "cat_lift01_end",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_lift01_end.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10015,
+      "Name": "cat_lift01_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_lift01_loop.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10016,
+      "Name": "cat_lift01_start",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_lift01_start.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10017,
+      "Name": "cat_lying01_end",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_lying01_end.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 3003,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        3003
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 3003023,
+      "GOActionKeys": [
+        3003023
+      ]
+    },
+    {
+      "Id": 10018,
+      "Name": "cat_lying01_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_lying01_loop.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 3002,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        3002
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 3002023,
+      "GOActionKeys": [
+        3002023
+      ]
+    },
+    {
+      "Id": 10019,
+      "Name": "cat_lying01_start",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_lying01_start.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 3001,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        3001
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 3001023,
+      "GOActionKeys": [
+        3001023
+      ]
+    },
+    {
+      "Id": 10020,
+      "Name": "cat_playdrink01_end",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_playdrink01_end.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10021,
+      "Name": "cat_playdrink01_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_playdrink01_loop.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10022,
+      "Name": "cat_playdrink01_start",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_playdrink01_start.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10023,
+      "Name": "cat_relax01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_relax01.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 4001,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        4001
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 4001023,
+      "GOActionKeys": [
+        4001023
+      ]
+    },
+    {
+      "Id": 10024,
+      "Name": "cat_relax03",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_relax03.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 4003,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        4003
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 4003023,
+      "GOActionKeys": [
+        4003023
+      ]
+    },
+    {
+      "Id": 10025,
+      "Name": "cat_relax05",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_relax05.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 4005,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        4005
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 4005023,
+      "GOActionKeys": [
+        4005023
+      ]
+    },
+    {
+      "Id": 10026,
+      "Name": "cat_sit01_end",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_sit01_end.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 2003,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        2003
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 2003023,
+      "GOActionKeys": [
+        2003023
+      ]
+    },
+    {
+      "Id": 10027,
+      "Name": "cat_sit01_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_sit01_loop.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 2002,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        2002
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 2002023,
+      "GOActionKeys": [
+        2002023
+      ]
+    },
+    {
+      "Id": 10028,
+      "Name": "cat_sit01_start",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_sit01_start.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 2001,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        2001
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 2001023,
+      "GOActionKeys": [
+        2001023
+      ]
+    },
+    {
+      "Id": 10029,
+      "Name": "cat_sit01_to_idle01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_sit01_to_idle01.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 2004,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        2004
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 2004023,
+      "GOActionKeys": [
+        2004023
+      ]
+    },
+    {
+      "Id": 10030,
+      "Name": "cat_srokingbody01_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_srokingbody01_loop.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 2102,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        2102
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 2102023,
+      "GOActionKeys": [
+        2102023
+      ]
+    },
+    {
+      "Id": 10031,
+      "Name": "cat_stretch01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_stretch01.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10032,
+      "Name": "cat_strokingback01_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_strokingback01_loop.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 2103,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        2103
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 2103023,
+      "GOActionKeys": [
+        2103023
+      ]
+    },
+    {
+      "Id": 10033,
+      "Name": "cat_strokingbelly01_end",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_strokingbelly01_end.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 2112,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        2112
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 2112023,
+      "GOActionKeys": [
+        2112023
+      ]
+    },
+    {
+      "Id": 10034,
+      "Name": "cat_strokingbelly01_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_strokingbelly01_loop.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 2111,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        2111
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 2111023,
+      "GOActionKeys": [
+        2111023
+      ]
+    },
+    {
+      "Id": 10035,
+      "Name": "cat_strokingbelly01_start",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_strokingbelly01_start.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 2110,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        2110
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 2110023,
+      "GOActionKeys": [
+        2110023
+      ]
+    },
+    {
+      "Id": 10036,
+      "Name": "cat_strokingchin01_end",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_strokingchin01_end.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10037,
+      "Name": "cat_strokingchin01_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_strokingchin01_loop.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10038,
+      "Name": "cat_strokingchin01_start",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_strokingchin01_start.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10039,
+      "Name": "cat_strokinghead01_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_strokinghead01_loop.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 2101,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        2101
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 2101023,
+      "GOActionKeys": [
+        2101023
+      ]
+    },
+    {
+      "Id": 10040,
+      "Name": "cat_turn30_left",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_turn30_left.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 1153,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        1153
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 1153023,
+      "GOActionKeys": [
+        1153023
+      ]
+    },
+    {
+      "Id": 10041,
+      "Name": "cat_turn30_right",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_turn30_right.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 1154,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        1154
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 1154023,
+      "GOActionKeys": [
+        1154023
+      ]
+    },
+    {
+      "Id": 10042,
+      "Name": "cat_turn90_left",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_turn90_left.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 1151,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        1151
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 1151023,
+      "GOActionKeys": [
+        1151023
+      ]
+    },
+    {
+      "Id": 10043,
+      "Name": "cat_turn90_right",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_turn90_right.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 1152,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        1152
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 1152023,
+      "GOActionKeys": [
+        1152023
+      ]
+    },
+    {
+      "Id": 10044,
+      "Name": "cat_walk01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_walk01.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 1100,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        1100
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 1100023,
+      "GOActionKeys": [
+        1100023
+      ]
+    },
+    {
+      "Id": 10045,
+      "Name": "cat_washface01_sit_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_washface01_sit_loop.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 1020,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        1020
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 1020023,
+      "GOActionKeys": [
+        1020023
+      ]
+    },
+    {
+      "Id": 10046,
+      "Name": "cat_washface_sit",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_washface_sit.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 1010,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        1010
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 1010023,
+      "GOActionKeys": [
+        1010023
+      ]
+    },
+    {
+      "Id": 10047,
+      "Name": "idle01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#idle01.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10048,
+      "Name": "jump01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#jump01.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 1102,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        1102
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 1102023,
+      "GOActionKeys": [
+        1102023
+      ]
+    },
+    {
+      "Id": 10049,
+      "Name": "LKC05",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#LKC05.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10050,
+      "Name": "lyingdown01_end01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#lyingdown01_end01.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10051,
+      "Name": "lyingdown01_loop01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#lyingdown01_loop01.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 42,
+      "TypeId": 1001,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        1001
+      ],
+      "GOGroupId": [
+        42
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 1001042,
+      "GOActionKeys": [
+        1001042
+      ]
+    },
+    {
+      "Id": 10052,
+      "Name": "lyingdown01_start01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#lyingdown01_start01.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10053,
+      "Name": "petting_reaction03_end",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#petting_reaction03_end.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10054,
+      "Name": "petting_reaction03_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#petting_reaction03_loop.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 210,
+      "TypeId": 2111,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        2111
+      ],
+      "GOGroupId": [
+        210
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 2111210,
+      "GOActionKeys": [
+        2111210
+      ]
+    },
+    {
+      "Id": 10055,
+      "Name": "petting_reaction03_start",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#petting_reaction03_start.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10056,
+      "Name": "pet_bury01_end01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#pet_bury01_end01.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10057,
+      "Name": "pet_bury01_loop01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#pet_bury01_loop01.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10058,
+      "Name": "pet_bury01_start01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#pet_bury01_start01.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10059,
+      "Name": "pet_eat01_end01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#pet_eat01_end01.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10060,
+      "Name": "pet_eat01_loop01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#pet_eat01_loop01.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10061,
+      "Name": "pet_eat01_start01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#pet_eat01_start01.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10062,
+      "Name": "pet_hold01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#pet_hold01.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 3004,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        3004
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 3004023,
+      "GOActionKeys": [
+        3004023
+      ]
+    },
+    {
+      "Id": 10063,
+      "Name": "pet_hold02",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#pet_hold02.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 3005,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        3005
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 3005023,
+      "GOActionKeys": [
+        3005023
+      ]
+    },
+    {
+      "Id": 10064,
+      "Name": "pet_hold03",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#pet_hold03.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 3006,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        3006
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 3006023,
+      "GOActionKeys": [
+        3006023
+      ]
+    },
+    {
+      "Id": 10065,
+      "Name": "pet_lift01_end01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#pet_lift01_end01.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10066,
+      "Name": "pet_lift01_loop01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#pet_lift01_loop01.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10067,
+      "Name": "pet_lift01_start01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#pet_lift01_start01.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10068,
+      "Name": "pet_pv01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#pet_pv01.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 11,
+      "TypeId": 1001,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        1001
+      ],
+      "GOGroupId": [
+        11
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 1001011,
+      "GOActionKeys": [
+        1001011
+      ]
+    },
+    {
+      "Id": 10069,
+      "Name": "pet_pv01_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#pet_pv01_loop.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10070,
+      "Name": "pet_reaction01_loop01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#pet_reaction01_loop01.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10071,
+      "Name": "pet_reaction02",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#pet_reaction02.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10072,
+      "Name": "pet_reaction02_end",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#pet_reaction02_end.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 2106,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        2106
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 2106023,
+      "GOActionKeys": [
+        2106023
+      ]
+    },
+    {
+      "Id": 10073,
+      "Name": "pet_reaction02_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#pet_reaction02_loop.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 2105,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        2105
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 2105023,
+      "GOActionKeys": [
+        2105023
+      ]
+    },
+    {
+      "Id": 10074,
+      "Name": "pet_reaction02_start",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#pet_reaction02_start.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 2104,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        2104
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 2104023,
+      "GOActionKeys": [
+        2104023
+      ]
+    },
+    {
+      "Id": 10075,
+      "Name": "pet_reaction03",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#pet_reaction03.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 24,
+      "TypeId": 1003,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        1003
+      ],
+      "GOGroupId": [
+        24
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 1003024,
+      "GOActionKeys": [
+        1003024
+      ]
+    },
+    {
+      "Id": 10076,
+      "Name": "pet_reaction04_end",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#pet_reaction04_end.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 2109,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        2109
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 2109023,
+      "GOActionKeys": [
+        2109023
+      ]
+    },
+    {
+      "Id": 10077,
+      "Name": "pet_reaction04_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#pet_reaction04_loop.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 2108,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        2108
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 2108023,
+      "GOActionKeys": [
+        2108023
+      ]
+    },
+    {
+      "Id": 10078,
+      "Name": "pet_reaction04_start",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#pet_reaction04_start.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 2107,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        2107
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 2107023,
+      "GOActionKeys": [
+        2107023
+      ]
+    },
+    {
+      "Id": 10079,
+      "Name": "pet_reaction07_end",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#pet_reaction07_end.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10080,
+      "Name": "pet_reaction07_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#pet_reaction07_loop.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10081,
+      "Name": "pet_reaction07_start",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#pet_reaction07_start.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10082,
+      "Name": "pet_relax01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#pet_relax01.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10083,
+      "Name": "pet_relax02",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#pet_relax02.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 4002,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        4002
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 4002023,
+      "GOActionKeys": [
+        4002023
+      ]
+    },
+    {
+      "Id": 10084,
+      "Name": "pet_relax03",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#pet_relax03.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10085,
+      "Name": "pet_relax04",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#pet_relax04.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 23,
+      "TypeId": 4004,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        4004
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 4004023,
+      "GOActionKeys": [
+        4004023
+      ]
+    },
+    {
+      "Id": 10086,
+      "Name": "pet_relax05",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#pet_relax05.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10087,
+      "Name": "run01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#run01.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 40,
+      "TypeId": 1101,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        1101
+      ],
+      "GOGroupId": [
+        40
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 1101040,
+      "GOActionKeys": [
+        1101040
+      ]
+    },
+    {
+      "Id": 10088,
+      "Name": "sit01_end01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#sit01_end01.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10089,
+      "Name": "sit01_loop01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#sit01_loop01.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 40,
+      "TypeId": 1001,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        1001
+      ],
+      "GOGroupId": [
+        40
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 1001040,
+      "GOActionKeys": [
+        1001040
+      ]
+    },
+    {
+      "Id": 10090,
+      "Name": "sit01_start01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#sit01_start01.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10091,
+      "Name": "sit01_to_idle01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#sit01_to_idle01.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10092,
+      "Name": "stretch01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#stretch01.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 24,
+      "TypeId": 1001,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        1001
+      ],
+      "GOGroupId": [
+        24
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 1001024,
+      "GOActionKeys": [
+        1001024
+      ]
+    },
+    {
+      "Id": 10093,
+      "Name": "turn01_left_90",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#turn01_left_90.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10094,
+      "Name": "turn01_right_90",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#turn01_right_90.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10095,
+      "Name": "walk01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#walk01.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 40,
+      "TypeId": 1100,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        1100
+      ],
+      "GOGroupId": [
+        40
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 1100040,
+      "GOActionKeys": [
+        1100040
+      ]
+    },
+    {
+      "Id": 10096,
+      "Name": "washface01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#washface01.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 10097,
+      "Name": "washface01_loop01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#washface01_loop01.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 211,
+      "TypeId": 2113,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        2113
+      ],
+      "GOGroupId": [
+        211
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 2113211,
+      "GOActionKeys": [
+        2113211
+      ]
+    },
+    {
+      "Id": 10098,
+      "Name": "趴姿_猫_正式动作01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#cat_lying01_loop.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "490",
+      "ActionName": "6275",
+      "GPUFps": 5,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "490",
+      "GOActionName": [
+        "6275"
+      ],
+      "BakeActionKey": 513808515,
+      "GOActionKeys": [
+        513808515
+      ]
+    },
+    {
+      "Id": 10099,
+      "Name": "蹲姿_猫_正式动作01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A601003_gm/Animator/animal_A601003_gm#sit01_loop01.fbx",
+      "ModelAssetName": "animal_A601003_cf1_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "490",
+      "ActionName": "8480",
+      "GPUFps": 5,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "490",
+      "GOActionName": [
+        "8480"
+      ],
+      "BakeActionKey": 513810720,
+      "GOActionKeys": [
+        513810720
+      ]
+    },
+    {
+      "Id": 11000,
+      "Name": "dog_fwnpc_sp_dogscoping",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#dog_fwnpc_sp_dogscoping.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 11001,
+      "Name": "dog_hold01_end",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#dog_hold01_end.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 11002,
+      "Name": "dog_hold01_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#dog_hold01_loop.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 11003,
+      "Name": "dog_hold01_start",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#dog_hold01_start.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 11004,
+      "Name": "dog_hold01_walk",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#dog_hold01_walk.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 11005,
+      "Name": "dog_idle01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#dog_idle01.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 23,
+      "TypeId": 1001,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        1001
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 1001023,
+      "GOActionKeys": [
+        1001023
+      ]
+    },
+    {
+      "Id": 11006,
+      "Name": "dog_roll01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#dog_roll01.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 23,
+      "TypeId": 3300,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        3300
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 3300023,
+      "GOActionKeys": [
+        3300023
+      ]
+    },
+    {
+      "Id": 11007,
+      "Name": "dog_sit01_end",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#dog_sit01_end.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 23,
+      "TypeId": 2003,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        2003
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 2003023,
+      "GOActionKeys": [
+        2003023
+      ]
+    },
+    {
+      "Id": 11008,
+      "Name": "dog_sit01_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#dog_sit01_loop.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 23,
+      "TypeId": 2002,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        2002
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 2002023,
+      "GOActionKeys": [
+        2002023
+      ]
+    },
+    {
+      "Id": 11009,
+      "Name": "dog_sit01_start",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#dog_sit01_start.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 23,
+      "TypeId": 2001,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        2001
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 2001023,
+      "GOActionKeys": [
+        2001023
+      ]
+    },
+    {
+      "Id": 11010,
+      "Name": "dog_strokingbelly01_end",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#dog_strokingbelly01_end.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 23,
+      "TypeId": 3103,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        3103
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 3103023,
+      "GOActionKeys": [
+        3103023
+      ]
+    },
+    {
+      "Id": 11011,
+      "Name": "dog_strokingbelly01_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#dog_strokingbelly01_loop.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 23,
+      "TypeId": 3102,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        3102
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 3102023,
+      "GOActionKeys": [
+        3102023
+      ]
+    },
+    {
+      "Id": 11012,
+      "Name": "dog_strokingbelly01_start",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#dog_strokingbelly01_start.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 23,
+      "TypeId": 3101,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        3101
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 3101023,
+      "GOActionKeys": [
+        3101023
+      ]
+    },
+    {
+      "Id": 11013,
+      "Name": "dog_strokingface01_sit_end",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#dog_strokingface01_sit_end.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 23,
+      "TypeId": 3203,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        3203
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 3203023,
+      "GOActionKeys": [
+        3203023
+      ]
+    },
+    {
+      "Id": 11014,
+      "Name": "dog_strokingface01_sit_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#dog_strokingface01_sit_loop.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 23,
+      "TypeId": 3202,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        3202
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 3202023,
+      "GOActionKeys": [
+        3202023
+      ]
+    },
+    {
+      "Id": 11015,
+      "Name": "dog_strokingface01_sit_start",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#dog_strokingface01_sit_start.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 23,
+      "TypeId": 3201,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        3201
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 3201023,
+      "GOActionKeys": [
+        3201023
+      ]
+    },
+    {
+      "Id": 11016,
+      "Name": "dog_walk01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#dog_walk01.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 23,
+      "TypeId": 1100,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        1100
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 1100023,
+      "GOActionKeys": [
+        1100023
+      ]
+    },
+    {
+      "Id": 11017,
+      "Name": "MimikoSTL03_dog_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#MimikoSTL03_dog_loop.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 11018,
+      "Name": "petting_doghold03_run",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#petting_doghold03_run.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 11019,
+      "Name": "pet_hold01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#pet_hold01.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 23,
+      "TypeId": 3004,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        3004
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 3004023,
+      "GOActionKeys": [
+        3004023
+      ]
+    },
+    {
+      "Id": 11020,
+      "Name": "pet_hold02",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#pet_hold02.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 23,
+      "TypeId": 3005,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        3005
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 3005023,
+      "GOActionKeys": [
+        3005023
+      ]
+    },
+    {
+      "Id": 11021,
+      "Name": "pet_hold04",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#pet_hold04.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 23,
+      "TypeId": 3007,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        3007
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 3007023,
+      "GOActionKeys": [
+        3007023
+      ]
+    },
+    {
+      "Id": 11022,
+      "Name": "pet_holddog03_walk",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#pet_holddog03_walk.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 23,
+      "TypeId": 3006,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        3006
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 3006023,
+      "GOActionKeys": [
+        3006023
+      ]
+    },
+    {
+      "Id": 11023,
+      "Name": "pet_reaction05_end",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#pet_reaction05_end.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 11024,
+      "Name": "pet_reaction05_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#pet_reaction05_loop.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 11025,
+      "Name": "pet_reaction05_start",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#pet_reaction05_start.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 11026,
+      "Name": "pet_reaction06_end",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#pet_reaction06_end.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 11027,
+      "Name": "pet_reaction06_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#pet_reaction06_loop.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 11028,
+      "Name": "pet_reaction06_start",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#pet_reaction06_start.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 11029,
+      "Name": "pet_reaction07",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#pet_reaction07.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 11030,
+      "Name": "pet_relax06_end",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#pet_relax06_end.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 23,
+      "TypeId": 1023,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        1023
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 1023023,
+      "GOActionKeys": [
+        1023023
+      ]
+    },
+    {
+      "Id": 11031,
+      "Name": "pet_relax06_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#pet_relax06_loop.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 23,
+      "TypeId": 1022,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        1022
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 1022023,
+      "GOActionKeys": [
+        1022023
+      ]
+    },
+    {
+      "Id": 11032,
+      "Name": "pet_relax06_start",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#pet_relax06_start.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 23,
+      "TypeId": 1021,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        1021
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 1021023,
+      "GOActionKeys": [
+        1021023
+      ]
+    },
+    {
+      "Id": 11033,
+      "Name": "pet_roll_end",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#pet_roll_end.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 23,
+      "TypeId": 3302,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        3302
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 3302023,
+      "GOActionKeys": [
+        3302023
+      ]
+    },
+    {
+      "Id": 11034,
+      "Name": "pet_roll_start",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#pet_roll_start.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 23,
+      "TypeId": 3301,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        3301
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 3301023,
+      "GOActionKeys": [
+        3301023
+      ]
+    },
+    {
+      "Id": 11035,
+      "Name": "turn01_left_30",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#turn01_left_30.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 23,
+      "TypeId": 3303,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        3303
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 3303023,
+      "GOActionKeys": [
+        3303023
+      ]
+    },
+    {
+      "Id": 11036,
+      "Name": "turn01_right_30",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#turn01_right_30.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 23,
+      "TypeId": 3304,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        3304
+      ],
+      "GOGroupId": [
+        23
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 3304023,
+      "GOActionKeys": [
+        3304023
+      ]
+    },
+    {
+      "Id": 11037,
+      "Name": "蹲姿_狗_正式动作01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#dog_sit01_loop.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "496",
+      "ActionName": "8545",
+      "GPUFps": 5,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "496",
+      "GOActionName": [
+        "8545"
+      ],
+      "BakeActionKey": 520102241,
+      "GOActionKeys": [
+        520102241
+      ]
+    },
+    {
+      "Id": 11038,
+      "Name": "趴姿_狗_正式动作01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A602001_gm/Animator/animal_A602001_gm#pet_relax06_loop.fbx",
+      "ModelAssetName": "animal_A602001_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "496",
+      "ActionName": "8585",
+      "GPUFps": 5,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "496",
+      "GOActionName": [
+        "8585"
+      ],
+      "BakeActionKey": 520102281,
+      "GOActionKeys": [
+        520102281
+      ]
+    },
+    {
+      "Id": 12000,
+      "Name": "pigeon_eat01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A603001_gm/Animator/animal_A603001_gm#pigeon_eat01.fbx",
+      "ModelAssetName": "animal_A603001_ddm_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 12001,
+      "Name": "pigeon_fly_end",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A603001_gm/Animator/animal_A603001_gm#pigeon_fly_end.fbx",
+      "ModelAssetName": "animal_A603001_ddm_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 12002,
+      "Name": "pigeon_fly_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A603001_gm/Animator/animal_A603001_gm#pigeon_fly_loop.fbx",
+      "ModelAssetName": "animal_A603001_ddm_gm",
+      "GroupId": 30,
+      "TypeId": 1002,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        1002
+      ],
+      "GOGroupId": [
+        30
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 1002030,
+      "GOActionKeys": [
+        1002030
+      ]
+    },
+    {
+      "Id": 12003,
+      "Name": "pigeon_fly_start",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A603001_gm/Animator/animal_A603001_gm#pigeon_fly_start.fbx",
+      "ModelAssetName": "animal_A603001_ddm_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 12004,
+      "Name": "pigeon_idle01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A603001_gm/Animator/animal_A603001_gm#pigeon_idle01.fbx",
+      "ModelAssetName": "animal_A603001_ddm_gm",
+      "GroupId": 30,
+      "TypeId": 1003,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        1003
+      ],
+      "GOGroupId": [
+        30
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 1003030,
+      "GOActionKeys": [
+        1003030
+      ]
+    },
+    {
+      "Id": 12005,
+      "Name": "pigeon_idle02",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A603001_gm/Animator/animal_A603001_gm#pigeon_idle02.fbx",
+      "ModelAssetName": "animal_A603001_ddm_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 12006,
+      "Name": "pigeon_idle03",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A603001_gm/Animator/animal_A603001_gm#pigeon_idle03.fbx",
+      "ModelAssetName": "animal_A603001_ddm_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 12007,
+      "Name": "pigeon_stare01_chaos",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A603001_gm/Animator/animal_A603001_gm#pigeon_stare01_chaos.fbx",
+      "ModelAssetName": "animal_A603001_ddm_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 12008,
+      "Name": "pigeon_walk01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A603001_gm/Animator/animal_A603001_gm#pigeon_walk01.fbx",
+      "ModelAssetName": "animal_A603001_ddm_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 12009,
+      "Name": "pigeon_walk02",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A603001_gm/Animator/animal_A603001_gm#pigeon_walk02.fbx",
+      "ModelAssetName": "animal_A603001_ddm_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 12010,
+      "Name": "pigeon_walk_stop01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A603001_gm/Animator/animal_A603001_gm#pigeon_walk_stop01.fbx",
+      "ModelAssetName": "animal_A603001_ddm_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 12011,
+      "Name": "quest_multi_birdShoulder_co_end",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A603001_gm/Animator/animal_A603001_gm#quest_multi_birdShoulder_co_end.fbx",
+      "ModelAssetName": "animal_A603001_ddm_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 12012,
+      "Name": "quest_multi_birdShoulder_co_idle",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A603001_gm/Animator/animal_A603001_gm#quest_multi_birdShoulder_co_idle.fbx",
+      "ModelAssetName": "animal_A603001_ddm_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 12013,
+      "Name": "quest_multi_birdShoulder_co_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A603001_gm/Animator/animal_A603001_gm#quest_multi_birdShoulder_co_loop.fbx",
+      "ModelAssetName": "animal_A603001_ddm_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 12014,
+      "Name": "quest_multi_birdShoulder_co_start01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A603001_gm/Animator/animal_A603001_gm#quest_multi_birdShoulder_co_start01.fbx",
+      "ModelAssetName": "animal_A603001_ddm_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 12015,
+      "Name": "quest_multi_birdShoulder_co_start02",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A603001_gm/Animator/animal_A603001_gm#quest_multi_birdShoulder_co_start02.fbx",
+      "ModelAssetName": "animal_A603001_ddm_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 12016,
+      "Name": "pigeon_fly_end_nomove",
+      "ClipPath": "",
+      "ModelAssetName": "animal_A603001_ddm_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 12017,
+      "Name": "pigeon_fly_start_nomove",
+      "ClipPath": "",
+      "ModelAssetName": "animal_A603001_ddm_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 13000,
+      "Name": "Squirrel_idle01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A604001_gm/Animator/animal_A604001_gm#Squirrel_idle01.fbx",
+      "ModelAssetName": "animal_A604001_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 13001,
+      "Name": "Squirrel_idle01_end",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A604001_gm/Animator/animal_A604001_gm#Squirrel_idle01_end.fbx",
+      "ModelAssetName": "animal_A604001_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 13002,
+      "Name": "Squirrel_idle01_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A604001_gm/Animator/animal_A604001_gm#Squirrel_idle01_loop.fbx",
+      "ModelAssetName": "animal_A604001_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 13003,
+      "Name": "Squirrel_idle01_start",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A604001_gm/Animator/animal_A604001_gm#Squirrel_idle01_start.fbx",
+      "ModelAssetName": "animal_A604001_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 13004,
+      "Name": "Squirrel_walk01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_A604001_gm/Animator/animal_A604001_gm#Squirrel_walk01.fbx",
+      "ModelAssetName": "animal_A604001_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 14000,
+      "Name": "behit01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_C610003_gm/Animator/animal_C610003_gm#behit01.fbx",
+      "ModelAssetName": "animal_C610001_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 14001,
+      "Name": "bescared01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_C610003_gm/Animator/animal_C610003_gm#bescared01.fbx",
+      "ModelAssetName": "animal_C610001_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 14002,
+      "Name": "call01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_C610003_gm/Animator/animal_C610003_gm#call01.fbx",
+      "ModelAssetName": "animal_C610001_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 14003,
+      "Name": "call02",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_C610003_gm/Animator/animal_C610003_gm#call02.fbx",
+      "ModelAssetName": "animal_C610001_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 14004,
+      "Name": "fly01_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_C610003_gm/Animator/animal_C610003_gm#fly01_loop.fbx",
+      "ModelAssetName": "animal_C610001_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 14005,
+      "Name": "hector01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_C610003_gm/Animator/animal_C610003_gm#hector01.fbx",
+      "ModelAssetName": "animal_C610001_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 14006,
+      "Name": "idle01_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_C610003_gm/Animator/animal_C610003_gm#idle01_loop.fbx",
+      "ModelAssetName": "animal_C610001_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 14007,
+      "Name": "swim01_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_C610003_gm/Animator/animal_C610003_gm#swim01_loop.fbx",
+      "ModelAssetName": "animal_C610001_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 14008,
+      "Name": "idle02",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_C610001_gm/Animator/animal_C610001_gm#idle02.fbx",
+      "ModelAssetName": "animal_C610001_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 14009,
+      "Name": "idle03",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_C610001_gm/Animator/animal_C610001_gm#idle03.fbx",
+      "ModelAssetName": "animal_C610001_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 14010,
+      "Name": "fly_start",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_C610001_gm/Animator/animal_C610001_gm#fly_start.fbx",
+      "ModelAssetName": "animal_C610001_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 14011,
+      "Name": "fly_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_C610001_gm/Animator/animal_C610001_gm#fly_loop.fbx",
+      "ModelAssetName": "animal_C610001_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 14012,
+      "Name": "fly_end",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/animal/animal_C610001_gm/Animator/animal_C610001_gm#fly_end.fbx",
+      "ModelAssetName": "animal_C610001_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 16000,
+      "Name": "redlight_start01",
+      "ClipPath": "",
+      "ModelAssetName": "honglvdeng",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 16001,
+      "Name": "redlight_lookaround01",
+      "ClipPath": "",
+      "ModelAssetName": "honglvdeng",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 16002,
+      "Name": "redlight_end01",
+      "ClipPath": "",
+      "ModelAssetName": "honglvdeng",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 18000,
+      "Name": "hit_01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339002_gm/Animator/monster_A339002_gm#hit_01.fbx",
+      "ModelAssetName": "monster_A339002_gm",
+      "GroupId": 0,
+      "TypeId": 6810,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        6810
+      ],
+      "GOGroupId": [
+        0
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 6810000,
+      "GOActionKeys": [
+        6810000
+      ]
+    },
+    {
+      "Id": 18001,
+      "Name": "hit_02",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339002_gm/Animator/monster_A339002_gm#hit_02.fbx",
+      "ModelAssetName": "monster_A339002_gm",
+      "GroupId": 0,
+      "TypeId": 6800,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        6800
+      ],
+      "GOGroupId": [
+        0
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 6800000,
+      "GOActionKeys": [
+        6800000
+      ]
+    },
+    {
+      "Id": 18002,
+      "Name": "idle01_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339002_gm/Animator/monster_A339002_gm#idle01_loop.fbx",
+      "ModelAssetName": "monster_A339002_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 18003,
+      "Name": "idle02_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339002_gm/Animator/monster_A339002_gm#idle02_loop.fbx",
+      "ModelAssetName": "monster_A339002_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 18004,
+      "Name": "shake01_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339002_gm/Animator/monster_A339002_gm#shake01_loop.fbx",
+      "ModelAssetName": "monster_A339002_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 18005,
+      "Name": "skill_b01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339002_gm/Animator/monster_A339002_gm#skill_b01.fbx",
+      "ModelAssetName": "monster_A339002_gm",
+      "GroupId": 0,
+      "TypeId": 6801,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        6801
+      ],
+      "GOGroupId": [
+        0
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 6801000,
+      "GOActionKeys": [
+        6801000
+      ]
+    },
+    {
+      "Id": 18006,
+      "Name": "skill_f01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339002_gm/Animator/monster_A339002_gm#skill_f01.fbx",
+      "ModelAssetName": "monster_A339002_gm",
+      "GroupId": 0,
+      "TypeId": 6811,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        6811
+      ],
+      "GOGroupId": [
+        0
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 6811000,
+      "GOActionKeys": [
+        6811000
+      ]
+    },
+    {
+      "Id": 18007,
+      "Name": "up_b01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339002_gm/Animator/monster_A339002_gm#up_b01.fbx",
+      "ModelAssetName": "monster_A339002_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 18008,
+      "Name": "up_f01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339002_gm/Animator/monster_A339002_gm#up_f01.fbx",
+      "ModelAssetName": "monster_A339002_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 19000,
+      "Name": "hit_01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339003_gm/Animator/monster_A339003_gm#hit_01.fbx",
+      "ModelAssetName": "monster_A339003_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 19001,
+      "Name": "hit_02",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339003_gm/Animator/monster_A339003_gm#hit_02.fbx",
+      "ModelAssetName": "monster_A339003_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 19002,
+      "Name": "idle01_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339003_gm/Animator/monster_A339003_gm#idle01_loop.fbx",
+      "ModelAssetName": "monster_A339003_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 19003,
+      "Name": "idle02_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339003_gm/Animator/monster_A339003_gm#idle02_loop.fbx",
+      "ModelAssetName": "monster_A339003_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 19004,
+      "Name": "shake01_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339003_gm/Animator/monster_A339003_gm#shake01_loop.fbx",
+      "ModelAssetName": "monster_A339003_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 19005,
+      "Name": "skill_b01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339003_gm/Animator/monster_A339003_gm#skill_b01.fbx",
+      "ModelAssetName": "monster_A339003_gm",
+      "GroupId": 0,
+      "TypeId": 6801,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        6801
+      ],
+      "GOGroupId": [
+        0
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 6801000,
+      "GOActionKeys": [
+        6801000
+      ]
+    },
+    {
+      "Id": 19006,
+      "Name": "skill_f01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339003_gm/Animator/monster_A339003_gm#skill_f01.fbx",
+      "ModelAssetName": "monster_A339003_gm",
+      "GroupId": 0,
+      "TypeId": 6811,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        6811
+      ],
+      "GOGroupId": [
+        0
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 6811000,
+      "GOActionKeys": [
+        6811000
+      ]
+    },
+    {
+      "Id": 19007,
+      "Name": "upl_b01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339003_gm/Animator/monster_A339003_gm#upl_b01.fbx",
+      "ModelAssetName": "monster_A339003_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 19008,
+      "Name": "up_f01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339003_gm/Animator/monster_A339003_gm#up_f01.fbx",
+      "ModelAssetName": "monster_A339003_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 20000,
+      "Name": "hit_01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339004_gm/Animator/monster_A339004_gm#hit_01.fbx",
+      "ModelAssetName": "monster_A339004_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 20001,
+      "Name": "hit_02",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339004_gm/Animator/monster_A339004_gm#hit_02.fbx",
+      "ModelAssetName": "monster_A339004_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 20002,
+      "Name": "idle01_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339004_gm/Animator/monster_A339004_gm#idle01_loop.fbx",
+      "ModelAssetName": "monster_A339004_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 20003,
+      "Name": "idle02_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339004_gm/Animator/monster_A339004_gm#idle02_loop.fbx",
+      "ModelAssetName": "monster_A339004_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 20004,
+      "Name": "shake01_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339004_gm/Animator/monster_A339004_gm#shake01_loop.fbx",
+      "ModelAssetName": "monster_A339004_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 20005,
+      "Name": "skill_b01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339004_gm/Animator/monster_A339004_gm#skill_b01.fbx",
+      "ModelAssetName": "monster_A339004_gm",
+      "GroupId": 0,
+      "TypeId": 6801,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        6801
+      ],
+      "GOGroupId": [
+        0
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 6801000,
+      "GOActionKeys": [
+        6801000
+      ]
+    },
+    {
+      "Id": 20006,
+      "Name": "skill_f01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339004_gm/Animator/monster_A339004_gm#skill_f01.fbx",
+      "ModelAssetName": "monster_A339004_gm",
+      "GroupId": 0,
+      "TypeId": 6811,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        6811
+      ],
+      "GOGroupId": [
+        0
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 6811000,
+      "GOActionKeys": [
+        6811000
+      ]
+    },
+    {
+      "Id": 20007,
+      "Name": "up_b01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339004_gm/Animator/monster_A339004_gm#up_b01.fbx",
+      "ModelAssetName": "monster_A339004_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 20008,
+      "Name": "up_f01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339004_gm/Animator/monster_A339004_gm#up_f01.fbx",
+      "ModelAssetName": "monster_A339004_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 21000,
+      "Name": "hit_01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339005_gm/Animator/monster_A339005_gm#hit_01.fbx",
+      "ModelAssetName": "monster_A339005_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 21001,
+      "Name": "hit_02",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339005_gm/Animator/monster_A339005_gm#hit_02.fbx",
+      "ModelAssetName": "monster_A339005_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 21002,
+      "Name": "idle01_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339005_gm/Animator/monster_A339005_gm#idle01_loop.fbx",
+      "ModelAssetName": "monster_A339005_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 21003,
+      "Name": "idle02_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339005_gm/Animator/monster_A339005_gm#idle02_loop.fbx",
+      "ModelAssetName": "monster_A339005_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 21004,
+      "Name": "shake01_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339005_gm/Animator/monster_A339005_gm#shake01_loop.fbx",
+      "ModelAssetName": "monster_A339005_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 21005,
+      "Name": "skill_b01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339005_gm/Animator/monster_A339005_gm#skill_b01.fbx",
+      "ModelAssetName": "monster_A339005_gm",
+      "GroupId": 0,
+      "TypeId": 6801,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        6801
+      ],
+      "GOGroupId": [
+        0
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 6801000,
+      "GOActionKeys": [
+        6801000
+      ]
+    },
+    {
+      "Id": 21006,
+      "Name": "skill_f01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339005_gm/Animator/monster_A339005_gm#skill_f01.fbx",
+      "ModelAssetName": "monster_A339005_gm",
+      "GroupId": 0,
+      "TypeId": 6811,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        6811
+      ],
+      "GOGroupId": [
+        0
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 6811000,
+      "GOActionKeys": [
+        6811000
+      ]
+    },
+    {
+      "Id": 21007,
+      "Name": "up_b01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339005_gm/Animator/monster_A339005_gm#up_b01.fbx",
+      "ModelAssetName": "monster_A339005_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 21008,
+      "Name": "up_f01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339005_gm/Animator/monster_A339005_gm#up_f01.fbx",
+      "ModelAssetName": "monster_A339005_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 22000,
+      "Name": "hit_01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339006_gm/Animator/monster_A339006_gm#hit_01.fbx",
+      "ModelAssetName": "monster_A339006_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 22001,
+      "Name": "hit_02",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339006_gm/Animator/monster_A339006_gm#hit_02.fbx",
+      "ModelAssetName": "monster_A339006_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 22002,
+      "Name": "idle01_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339006_gm/Animator/monster_A339006_gm#idle01_loop.fbx",
+      "ModelAssetName": "monster_A339006_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 22003,
+      "Name": "idle02_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339006_gm/Animator/monster_A339006_gm#idle02_loop.fbx",
+      "ModelAssetName": "monster_A339006_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 22004,
+      "Name": "shake01_loop",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339006_gm/Animator/monster_A339006_gm#shake01_loop.fbx",
+      "ModelAssetName": "monster_A339006_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 22005,
+      "Name": "skill_b01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339006_gm/Animator/monster_A339006_gm#skill_b01.fbx",
+      "ModelAssetName": "monster_A339006_gm",
+      "GroupId": 0,
+      "TypeId": 6801,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        6801
+      ],
+      "GOGroupId": [
+        0
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 6801000,
+      "GOActionKeys": [
+        6801000
+      ]
+    },
+    {
+      "Id": 22006,
+      "Name": "skill_f01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339006_gm/Animator/monster_A339006_gm#skill_f01.fbx",
+      "ModelAssetName": "monster_A339006_gm",
+      "GroupId": 0,
+      "TypeId": 6811,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [
+        6811
+      ],
+      "GOGroupId": [
+        0
+      ],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 6811000,
+      "GOActionKeys": [
+        6811000
+      ]
+    },
+    {
+      "Id": 22007,
+      "Name": "up_b01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339006_gm/Animator/monster_A339006_gm#up_b01.fbx",
+      "ModelAssetName": "monster_A339006_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 22008,
+      "Name": "up_f01",
+      "ClipPath": "Assets/Res/CharactersAnimFBX/monster_fy/monster_A339006_gm/Animator/monster_A339006_gm#up_f01.fbx",
+      "ModelAssetName": "monster_A339006_gm",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 23000,
+      "Name": "qianzhihe_fly01_loop",
+      "ClipPath": "",
+      "ModelAssetName": "paper_crane",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 23001,
+      "Name": "qianzhihe_fly01_start",
+      "ClipPath": "",
+      "ModelAssetName": "paper_crane",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    },
+    {
+      "Id": 23002,
+      "Name": "qianzhihe_idle01",
+      "ClipPath": "",
+      "ModelAssetName": "paper_crane",
+      "GroupId": 0,
+      "TypeId": 0,
+      "ActionSet": "",
+      "ActionName": "",
+      "GPUFps": 30,
+      "ApplyRootMotion": false,
+      "GOTypeId": [],
+      "GOGroupId": [],
+      "GOActionSet": "",
+      "GOActionName": [],
+      "BakeActionKey": 0,
+      "GOActionKeys": []
+    }
+  ],
+  "_dumpedCount": 226,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -1,0 +1,466 @@
+{
+  "_class": "TaskRoleConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 38,
+  "records": [
+    {
+      "Id": 1001,
+      "Name": "可操作科斯",
+      "IsDefault": false,
+      "FightSpiritId": 0,
+      "SpiritCaseId": 122,
+      "SuitId": 0,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 1002,
+      "Name": "抢银行绿鬼帮小",
+      "IsDefault": false,
+      "FightSpiritId": 0,
+      "SpiritCaseId": 114,
+      "SuitId": 0,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 1003,
+      "Name": "抢银行绿鬼帮",
+      "IsDefault": false,
+      "FightSpiritId": 0,
+      "SpiritCaseId": 105,
+      "SuitId": 0,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 101000,
+      "Name": "主角",
+      "IsDefault": true,
+      "FightSpiritId": 0,
+      "SpiritCaseId": 0,
+      "SuitId": 0,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 101001,
+      "Name": "训练用主角1",
+      "IsDefault": true,
+      "FightSpiritId": 0,
+      "SpiritCaseId": 0,
+      "SuitId": 0,
+      "SpiritCaseDefaultIds": {
+        "Male": 131,
+        "Female": 132
+      }
+    },
+    {
+      "Id": 102000,
+      "Name": "塔菲",
+      "IsDefault": false,
+      "FightSpiritId": 15020992,
+      "SpiritCaseId": 0,
+      "SuitId": 0,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 102001,
+      "Name": "无培养塔菲",
+      "IsDefault": false,
+      "FightSpiritId": 0,
+      "SpiritCaseId": 12,
+      "SuitId": 0,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 102002,
+      "Name": "新手本塔菲",
+      "IsDefault": false,
+      "FightSpiritId": 0,
+      "SpiritCaseId": 106,
+      "SuitId": 0,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 102004,
+      "Name": "皮套塔菲2",
+      "IsDefault": false,
+      "FightSpiritId": 15020992,
+      "SpiritCaseId": 0,
+      "SuitId": 11190098,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 102005,
+      "Name": "幼年塔菲",
+      "IsDefault": false,
+      "FightSpiritId": 15021050,
+      "SpiritCaseId": 137,
+      "SuitId": 0,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 105000,
+      "Name": "艾诺米",
+      "IsDefault": false,
+      "FightSpiritId": 15021038,
+      "SpiritCaseId": 0,
+      "SuitId": 0,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 106000,
+      "Name": "弥弥古",
+      "IsDefault": false,
+      "FightSpiritId": 15021029,
+      "SpiritCaseId": 0,
+      "SuitId": 0,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 107000,
+      "Name": "林檎",
+      "IsDefault": false,
+      "FightSpiritId": 15021022,
+      "SpiritCaseId": 0,
+      "SuitId": 0,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 108000,
+      "Name": "里希",
+      "IsDefault": false,
+      "FightSpiritId": 15021021,
+      "SpiritCaseId": 0,
+      "SuitId": 0,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 108001,
+      "Name": "重霄水枪纪平（里希占位）",
+      "IsDefault": false,
+      "FightSpiritId": 15021021,
+      "SpiritCaseId": 0,
+      "SuitId": 0,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 108002,
+      "Name": "时装测试里希",
+      "IsDefault": false,
+      "FightSpiritId": 15021021,
+      "SpiritCaseId": 0,
+      "SuitId": 11190023,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 108003,
+      "Name": "真里希(+临时塔菲)",
+      "IsDefault": false,
+      "FightSpiritId": 15021021,
+      "SpiritCaseId": 106,
+      "SuitId": 0,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 109000,
+      "Name": "赛默",
+      "IsDefault": false,
+      "FightSpiritId": 15021023,
+      "SpiritCaseId": 0,
+      "SuitId": 0,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 110000,
+      "Name": "梅卡妮卡",
+      "IsDefault": false,
+      "FightSpiritId": 15021017,
+      "SpiritCaseId": 0,
+      "SuitId": 0,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 110001,
+      "Name": "真梅卡(+临时)",
+      "IsDefault": false,
+      "FightSpiritId": 15021017,
+      "SpiritCaseId": 103,
+      "SuitId": 0,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 111001,
+      "Name": "重霄水枪柚枝（狄菈占位）",
+      "IsDefault": false,
+      "FightSpiritId": 15020997,
+      "SpiritCaseId": 0,
+      "SuitId": 0,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 112000,
+      "Name": "班茜",
+      "IsDefault": false,
+      "FightSpiritId": 15020991,
+      "SpiritCaseId": 0,
+      "SuitId": 0,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 113000,
+      "Name": "嘉姆",
+      "IsDefault": false,
+      "FightSpiritId": 15020989,
+      "SpiritCaseId": 0,
+      "SuitId": 0,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 115000,
+      "Name": "爱琳",
+      "IsDefault": false,
+      "FightSpiritId": 15021024,
+      "SpiritCaseId": 0,
+      "SuitId": 0,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 115001,
+      "Name": "同伴爱琳",
+      "IsDefault": false,
+      "FightSpiritId": 0,
+      "SpiritCaseId": 107,
+      "SuitId": 0,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 116000,
+      "Name": "璎珑",
+      "IsDefault": false,
+      "FightSpiritId": 15021040,
+      "SpiritCaseId": 0,
+      "SuitId": 0,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 117000,
+      "Name": "白靖",
+      "IsDefault": false,
+      "FightSpiritId": 15021039,
+      "SpiritCaseId": 0,
+      "SuitId": 0,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 118000,
+      "Name": "程酿",
+      "IsDefault": false,
+      "FightSpiritId": 15021045,
+      "SpiritCaseId": 0,
+      "SuitId": 0,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 119000,
+      "Name": "时夜",
+      "IsDefault": false,
+      "FightSpiritId": 15021041,
+      "SpiritCaseId": 0,
+      "SuitId": 0,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 119001,
+      "Name": "重霄第一幕Q4_方野",
+      "IsDefault": false,
+      "FightSpiritId": 0,
+      "SpiritCaseId": 135,
+      "SuitId": 11190918,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 119002,
+      "Name": "重霄第一幕Q4_白靖",
+      "IsDefault": false,
+      "FightSpiritId": 0,
+      "SpiritCaseId": 133,
+      "SuitId": 0,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 119003,
+      "Name": "重霄第一幕Q4_时夜",
+      "IsDefault": false,
+      "FightSpiritId": 0,
+      "SpiritCaseId": 134,
+      "SuitId": 0,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 119004,
+      "Name": "重霄第一幕Q5_方野",
+      "IsDefault": false,
+      "FightSpiritId": 0,
+      "SpiritCaseId": 138,
+      "SuitId": 0,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 120000,
+      "Name": "莱卡娅",
+      "IsDefault": false,
+      "FightSpiritId": 15021025,
+      "SpiritCaseId": 0,
+      "SuitId": 0,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 120001,
+      "Name": "舞会用莱卡娅",
+      "IsDefault": false,
+      "FightSpiritId": 0,
+      "SpiritCaseId": 129,
+      "SuitId": 0,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 120010,
+      "Name": "重霄楔子Q4柚枝",
+      "IsDefault": false,
+      "FightSpiritId": 15021043,
+      "SpiritCaseId": 128,
+      "SuitId": 0,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 120011,
+      "Name": "柚枝",
+      "IsDefault": false,
+      "FightSpiritId": 15021043,
+      "SpiritCaseId": 0,
+      "SuitId": 0,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    },
+    {
+      "Id": 120012,
+      "Name": "少年宫专用梦核男主",
+      "IsDefault": false,
+      "FightSpiritId": 15021049,
+      "SpiritCaseId": 0,
+      "SuitId": 0,
+      "SpiritCaseDefaultIds": {
+        "Male": 0,
+        "Female": 0
+      }
+    }
+  ],
+  "_dumpedCount": 38,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

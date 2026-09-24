@@ -1,0 +1,80 @@
+{
+  "_class": "CarShopConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 2,
+  "records": [
+    {
+      "Id": 1,
+      "Shop": "repairshop1",
+      "Name": "Smokey Drift",
+      "Desc": "Welcome to the Smokey Drift!",
+      "ShopID": 94100069,
+      "VehicleIdentifyAreaId": 39000667,
+      "CarShopId": 4,
+      "ParkingWaypoint": "Repairshop1Park",
+      "ParkingWaypointId": 1017175,
+      "StopCarWaypoint": "Repairshop1Enter",
+      "StopCarWaypointId": 1017174,
+      "StopCarFacing": 180,
+      "LeaveWaypoint": "Repairshop1Exit",
+      "LeaveWaypointId": 1017176,
+      "LeaveFacing": 180,
+      "EnterTimeline": [
+        "loading_garage_in02",
+        "loading_garage_in03"
+      ],
+      "ExitTimeline": [
+        "loading_garage_out02",
+        "loading_garage_out03"
+      ],
+      "CameraPos": [
+        -3,
+        1,
+        4.5
+      ],
+      "UnlockTask": 0,
+      "__IDX__Name": 68071,
+      "__RAW__Name": "",
+      "__IDX__Desc": 72346,
+      "__RAW__Desc": ""
+    },
+    {
+      "Id": 2,
+      "Shop": "repairshop2",
+      "Name": "Smokey Drift",
+      "Desc": "Welcome to the Smokey Drift!",
+      "ShopID": 94100070,
+      "VehicleIdentifyAreaId": 39000669,
+      "CarShopId": 47,
+      "ParkingWaypoint": "Repairshop2Park",
+      "ParkingWaypointId": 1029715,
+      "StopCarWaypoint": "Repairshop2Enter",
+      "StopCarWaypointId": 1029714,
+      "StopCarFacing": 0,
+      "LeaveWaypoint": "Repairshop2Exit",
+      "LeaveWaypointId": 1029716,
+      "LeaveFacing": 180,
+      "EnterTimeline": [
+        "loading_garage_in02",
+        "loading_garage_in03"
+      ],
+      "ExitTimeline": [
+        "loading_garage_out02",
+        "loading_garage_out03"
+      ],
+      "CameraPos": [
+        -3,
+        1,
+        4.5
+      ],
+      "UnlockTask": 0,
+      "__IDX__Name": 68072,
+      "__RAW__Name": "",
+      "__IDX__Desc": 72347,
+      "__RAW__Desc": ""
+    }
+  ],
+  "_dumpedCount": 2,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

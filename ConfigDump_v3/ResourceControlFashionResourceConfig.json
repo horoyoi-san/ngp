@@ -1,0 +1,209 @@
+{
+  "_class": "ResourceControlFashionResourceConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 14,
+  "records": [
+    {
+      "Id": 30350000,
+      "FashionName": "伯纳德专属时装",
+      "FashionId": [
+        11100070,
+        11100072,
+        11100073
+      ],
+      "ModelResource": "(?i).*(bernard|A101001|bonade).*",
+      "PrefabResource": "(?i).*(bernard|A101001|bonade).*",
+      "TextureResource": "(?i).*(bernard|A101001|bonade).*",
+      "ResourceStartVersion": "V99.0.0",
+      "ResourceTagList": [
+        0
+      ]
+    },
+    {
+      "Id": 30350001,
+      "FashionName": "白靖专属时装",
+      "FashionId": [],
+      "ModelResource": "(?i).*(baijing|C101002).*",
+      "PrefabResource": "(?i).*(baijing|C101002).*",
+      "TextureResource": "(?i).*(baijing|C101002).*",
+      "ResourceStartVersion": "V99.0.0",
+      "ResourceTagList": [
+        0,
+        1
+      ]
+    },
+    {
+      "Id": 30350002,
+      "FashionName": "S级时装女团01",
+      "FashionId": [],
+      "ModelResource": "(?i).*(p25nvtuan01).*",
+      "PrefabResource": "(?i).*(p25nvtuan01).*",
+      "TextureResource": "(?i).*(p25nvtuan01).*",
+      "ResourceStartVersion": "V99.0.0",
+      "ResourceTagList": [
+        0
+      ]
+    },
+    {
+      "Id": 30350003,
+      "FashionName": "S级时装女团02",
+      "FashionId": [],
+      "ModelResource": "(?i).*(p25nvtuan02).*",
+      "PrefabResource": "(?i).*(p25nvtuan02).*",
+      "TextureResource": "(?i).*(p25nvtuan02).*",
+      "ResourceStartVersion": "V99.0.0",
+      "ResourceTagList": [
+        0
+      ]
+    },
+    {
+      "Id": 30350004,
+      "FashionName": "A级richao01",
+      "FashionId": [],
+      "ModelResource": "(?i).*(p24richao01).*",
+      "PrefabResource": "(?i).*(p24richao01).*",
+      "TextureResource": "(?i).*(p24richao01).*",
+      "ResourceStartVersion": "V99.0.0",
+      "ResourceTagList": [
+        0
+      ]
+    },
+    {
+      "Id": 30350005,
+      "FashionName": "A级gete01",
+      "FashionId": [],
+      "ModelResource": "(?i).*(p25gete01).*",
+      "PrefabResource": "(?i).*(p25gete01).*",
+      "TextureResource": "(?i).*(p25gete01).*",
+      "ResourceStartVersion": "V99.0.0",
+      "ResourceTagList": [
+        0
+      ]
+    },
+    {
+      "Id": 30350006,
+      "FashionName": "A级gete02",
+      "FashionId": [],
+      "ModelResource": "(?i).*(p25gete02).*",
+      "PrefabResource": "(?i).*(p25gete02).*",
+      "TextureResource": "(?i).*(p25gete02).*",
+      "ResourceStartVersion": "V99.0.0",
+      "ResourceTagList": [
+        0
+      ]
+    },
+    {
+      "Id": 30350007,
+      "FashionName": "A级shuiyi06",
+      "FashionId": [],
+      "ModelResource": "(?i).*(p25shuiyi06).*",
+      "PrefabResource": "(?i).*(p25shuiyi06).*",
+      "TextureResource": "(?i).*(p25shuiyi06).*",
+      "ResourceStartVersion": "V99.0.0",
+      "ResourceTagList": [
+        0
+      ]
+    },
+    {
+      "Id": 30350008,
+      "FashionName": "缤可专属时装",
+      "FashionId": [
+        11100079,
+        11100080,
+        11100081,
+        11100082,
+        11100083
+      ],
+      "ModelResource": "(?i).*(sprinkle).*",
+      "PrefabResource": "(?i).*(sprinkle).*",
+      "TextureResource": "(?i).*(sprinkle).*",
+      "ResourceStartVersion": "V99.0.0",
+      "ResourceTagList": [
+        0
+      ]
+    },
+    {
+      "Id": 30350009,
+      "FashionName": "凛专属时装",
+      "FashionId": [
+        11100028,
+        11100030,
+        11100046
+      ],
+      "ModelResource": "(?:(?!.*linqin).*lin.*|.*A12001.*)",
+      "PrefabResource": "(?:(?!.*linqin).*lin.*|.*A12001.*)",
+      "TextureResource": "(?:(?!.*linqin).*lin.*|.*A12001.*)",
+      "ResourceStartVersion": "V99.0.0",
+      "ResourceTagList": [
+        0,
+        1
+      ]
+    },
+    {
+      "Id": 30350010,
+      "FashionName": "克里斯蒂娜专属时装",
+      "FashionId": [
+        11100059,
+        11100060,
+        11100061,
+        11100062,
+        11100063,
+        11100104
+      ],
+      "ModelResource": "(?i).*(christina).*",
+      "PrefabResource": "(?i).*(christina).*",
+      "TextureResource": "(?i).*(christina).*",
+      "ResourceStartVersion": "V99.0.0",
+      "ResourceTagList": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "Id": 30350011,
+      "FashionName": "霍索恩专属时装",
+      "FashionId": [],
+      "ModelResource": "(?i).*(horne).*",
+      "PrefabResource": "(?i).*(horne).*",
+      "TextureResource": "(?i).*(horne).*",
+      "ResourceStartVersion": "V99.0.0",
+      "ResourceTagList": [
+        0
+      ]
+    },
+    {
+      "Id": 30350012,
+      "FashionName": "柠檬专属时装",
+      "FashionId": [
+        11100102,
+        11100101,
+        11100100
+      ],
+      "ModelResource": "(?i).*(lemon).*",
+      "PrefabResource": "(?i).*(lemon).*",
+      "TextureResource": "(?i).*(lemon).*",
+      "ResourceStartVersion": "V99.0.0",
+      "ResourceTagList": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "Id": 30350013,
+      "FashionName": "柚枝专属时装",
+      "FashionId": [],
+      "ModelResource": "(?i).*(youzhi).*",
+      "PrefabResource": "(?i).*(youzhi).*",
+      "TextureResource": "(?i).*(youzhi).*",
+      "ResourceStartVersion": "V99.0.0",
+      "ResourceTagList": [
+        0
+      ]
+    }
+  ],
+  "_dumpedCount": 14,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

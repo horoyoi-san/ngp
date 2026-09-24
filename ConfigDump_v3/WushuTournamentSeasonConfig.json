@@ -1,0 +1,38 @@
+{
+  "_class": "WushuTournamentSeasonConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 1,
+  "records": [
+    {
+      "Id": 1,
+      "RoundIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "StartTime": {
+        "year": 2026,
+        "month": 6,
+        "day": 20,
+        "hour": 23,
+        "minute": 59,
+        "second": 59
+      },
+      "EndTime": {
+        "year": 2026,
+        "month": 8,
+        "day": 30,
+        "hour": 23,
+        "minute": 59,
+        "second": 59
+      }
+    }
+  ],
+  "_dumpedCount": 1,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

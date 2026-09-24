@@ -1,0 +1,56 @@
+{
+  "_class": "FightSpiritGroupChatConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 6,
+  "records": [
+    {
+      "Id": 1,
+      "FightSpiritId": [
+        15020967,
+        15020968
+      ],
+      "ChatDialog": "欢迎班茜加入",
+      "ChatType": 2
+    },
+    {
+      "Id": 2,
+      "FightSpiritId": [
+        15020967,
+        15020968
+      ],
+      "ChatDialog": "欢迎狄菈加入",
+      "ChatType": 2
+    },
+    {
+      "Id": 3,
+      "FightSpiritId": [
+        15020992
+      ],
+      "ChatDialog": "欢迎班茜加入",
+      "ChatType": 1
+    },
+    {
+      "Id": 4,
+      "FightSpiritId": [
+        15020992
+      ],
+      "ChatDialog": "欢迎狄菈加入",
+      "ChatType": 1
+    },
+    {
+      "Id": 7,
+      "FightSpiritId": [],
+      "ChatDialog": "班茜加入了群聊",
+      "ChatType": 3
+    },
+    {
+      "Id": 8,
+      "FightSpiritId": [],
+      "ChatDialog": "狄菈加入了群聊",
+      "ChatType": 3
+    }
+  ],
+  "_dumpedCount": 6,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

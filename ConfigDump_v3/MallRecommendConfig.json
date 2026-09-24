@@ -1,0 +1,693 @@
+{
+  "_class": "MallRecommendConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 14,
+  "records": [
+    {
+      "Id": 89050001,
+      "Type": 1,
+      "SubType": 0,
+      "IsPermanent": false,
+      "GetGachaTime": 1,
+      "Name": "Wishing Wheel",
+      "BannerTitle": 73970827,
+      "SubTitle": "Ember Weave",
+      "Picture": 28002237,
+      "BannerBg": 28002239,
+      "BigPicture": 28002238,
+      "Lable": "",
+      "Weight": 100,
+      "PurchasedWeight": 0,
+      "LinkTo": [
+        4,
+        6
+      ],
+      "DisplayCommodities": [
+        89020000
+      ],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 129878,
+      "__RAW__Name": "",
+      "__IDX__SubTitle": 129879,
+      "__RAW__SubTitle": "",
+      "__IDX__Lable": 0,
+      "__RAW__Lable": "",
+      "OnShelfTime": {
+        "year": 2025,
+        "month": 12,
+        "day": 9,
+        "hour": 0,
+        "minute": 0,
+        "second": 0
+      },
+      "OffShelfTime": {
+        "year": 2026,
+        "month": 10,
+        "day": 28,
+        "hour": 3,
+        "minute": 59,
+        "second": 59
+      }
+    },
+    {
+      "Id": 89050002,
+      "Type": 1,
+      "SubType": 2,
+      "IsPermanent": false,
+      "GetGachaTime": 3,
+      "Name": "Heartbeat Lootbox",
+      "BannerTitle": 73970828,
+      "SubTitle": "Moonlit Serenade",
+      "Picture": 28002236,
+      "BannerBg": 28002239,
+      "BigPicture": 28002226,
+      "Lable": "",
+      "Weight": 120,
+      "PurchasedWeight": 0,
+      "LinkTo": [
+        4,
+        5
+      ],
+      "DisplayCommodities": [
+        89030000
+      ],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 129880,
+      "__RAW__Name": "",
+      "__IDX__SubTitle": 129881,
+      "__RAW__SubTitle": "",
+      "__IDX__Lable": 0,
+      "__RAW__Lable": "",
+      "OnShelfTime": {
+        "year": 2025,
+        "month": 12,
+        "day": 9,
+        "hour": 0,
+        "minute": 0,
+        "second": 0
+      },
+      "OffShelfTime": {
+        "year": 2026,
+        "month": 10,
+        "day": 28,
+        "hour": 3,
+        "minute": 59,
+        "second": 59
+      }
+    },
+    {
+      "Id": 89050003,
+      "Type": 1,
+      "SubType": 1,
+      "IsPermanent": false,
+      "GetGachaTime": 0,
+      "Name": "Bundle",
+      "BannerTitle": 73970832,
+      "SubTitle": "NeutraMan",
+      "Picture": 28002210,
+      "BannerBg": 28002239,
+      "BigPicture": 28002215,
+      "Lable": "",
+      "Weight": 62,
+      "PurchasedWeight": 22,
+      "LinkTo": [
+        2,
+        89040001
+      ],
+      "DisplayCommodities": [],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 129882,
+      "__RAW__Name": "",
+      "__IDX__SubTitle": 129883,
+      "__RAW__SubTitle": "",
+      "__IDX__Lable": 0,
+      "__RAW__Lable": "",
+      "OnShelfTime": {
+        "year": 2025,
+        "month": 12,
+        "day": 9,
+        "hour": 0,
+        "minute": 0,
+        "second": 0
+      },
+      "OffShelfTime": {
+        "year": 2026,
+        "month": 10,
+        "day": 28,
+        "hour": 3,
+        "minute": 59,
+        "second": 59
+      }
+    },
+    {
+      "Id": 89050004,
+      "Type": 1,
+      "SubType": 1,
+      "IsPermanent": false,
+      "GetGachaTime": 0,
+      "Name": "Bundle",
+      "BannerTitle": 73970832,
+      "SubTitle": "Street Punk",
+      "Picture": 28002209,
+      "BannerBg": 28002239,
+      "BigPicture": 28002214,
+      "Lable": "",
+      "Weight": 61,
+      "PurchasedWeight": 21,
+      "LinkTo": [
+        2,
+        89040003
+      ],
+      "DisplayCommodities": [],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 129884,
+      "__RAW__Name": "",
+      "__IDX__SubTitle": 129885,
+      "__RAW__SubTitle": "",
+      "__IDX__Lable": 0,
+      "__RAW__Lable": "",
+      "OnShelfTime": {
+        "year": 2025,
+        "month": 12,
+        "day": 9,
+        "hour": 0,
+        "minute": 0,
+        "second": 0
+      },
+      "OffShelfTime": {
+        "year": 2026,
+        "month": 10,
+        "day": 28,
+        "hour": 3,
+        "minute": 59,
+        "second": 59
+      }
+    },
+    {
+      "Id": 89050005,
+      "Type": 2,
+      "SubType": 3,
+      "IsPermanent": true,
+      "GetGachaTime": 0,
+      "Name": "Monthly Supply",
+      "BannerTitle": 73970830,
+      "SubTitle": "",
+      "Picture": 28002208,
+      "BannerBg": 28002239,
+      "BigPicture": 0,
+      "Lable": "12x Value Rebate",
+      "Weight": 80,
+      "PurchasedWeight": 40,
+      "LinkTo": [],
+      "DisplayCommodities": [],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 129887,
+      "__RAW__Name": "",
+      "__IDX__SubTitle": 0,
+      "__RAW__SubTitle": "",
+      "__IDX__Lable": 129886,
+      "__RAW__Lable": "",
+      "OnShelfTime": {
+        "year": 0,
+        "month": 0,
+        "day": 0,
+        "hour": 0,
+        "minute": 0,
+        "second": 0
+      },
+      "OffShelfTime": {
+        "year": 0,
+        "month": 0,
+        "day": 0,
+        "hour": 0,
+        "minute": 0,
+        "second": 0
+      }
+    },
+    {
+      "Id": 89050006,
+      "Type": 2,
+      "SubType": 4,
+      "IsPermanent": true,
+      "GetGachaTime": 0,
+      "Name": "Pass",
+      "BannerTitle": 73970831,
+      "SubTitle": "",
+      "Picture": 28004432,
+      "BannerBg": 28002239,
+      "BigPicture": 28004431,
+      "Lable": "Up to 18x Return Rate",
+      "Weight": 80,
+      "PurchasedWeight": 40,
+      "LinkTo": [
+        1,
+        1049
+      ],
+      "DisplayCommodities": [],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 129889,
+      "__RAW__Name": "",
+      "__IDX__SubTitle": 0,
+      "__RAW__SubTitle": "",
+      "__IDX__Lable": 129888,
+      "__RAW__Lable": "",
+      "OnShelfTime": {
+        "year": 0,
+        "month": 0,
+        "day": 0,
+        "hour": 0,
+        "minute": 0,
+        "second": 0
+      },
+      "OffShelfTime": {
+        "year": 0,
+        "month": 0,
+        "day": 0,
+        "hour": 0,
+        "minute": 0,
+        "second": 0
+      }
+    },
+    {
+      "Id": 89050007,
+      "Type": 3,
+      "SubType": 5,
+      "IsPermanent": false,
+      "GetGachaTime": 0,
+      "Name": "",
+      "BannerTitle": 0,
+      "SubTitle": "",
+      "Picture": 0,
+      "BannerBg": 0,
+      "BigPicture": 0,
+      "Lable": "Discount remaining: %s",
+      "Weight": 40,
+      "PurchasedWeight": 0,
+      "LinkTo": [],
+      "DisplayCommodities": [],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 0,
+      "__RAW__Name": "",
+      "__IDX__SubTitle": 0,
+      "__RAW__SubTitle": "",
+      "__IDX__Lable": 129890,
+      "__RAW__Lable": "",
+      "OnShelfTime": {
+        "year": 0,
+        "month": 0,
+        "day": 0,
+        "hour": 0,
+        "minute": 0,
+        "second": 0
+      },
+      "OffShelfTime": {
+        "year": 0,
+        "month": 0,
+        "day": 0,
+        "hour": 0,
+        "minute": 0,
+        "second": 0
+      }
+    },
+    {
+      "Id": 89050008,
+      "Type": 1,
+      "SubType": 1,
+      "IsPermanent": false,
+      "GetGachaTime": 0,
+      "Name": "捆绑包",
+      "BannerTitle": 73970832,
+      "SubTitle": "A级武侠",
+      "Picture": 28002209,
+      "BannerBg": 0,
+      "BigPicture": 28002214,
+      "Lable": "",
+      "Weight": 60,
+      "PurchasedWeight": 20,
+      "LinkTo": [
+        2,
+        89040004
+      ],
+      "DisplayCommodities": [],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "捆绑包",
+      "__IDX__SubTitle": 4294967293,
+      "__RAW__SubTitle": "A级武侠",
+      "__IDX__Lable": 0,
+      "__RAW__Lable": "",
+      "OnShelfTime": {
+        "year": 2025,
+        "month": 12,
+        "day": 9,
+        "hour": 0,
+        "minute": 0,
+        "second": 0
+      },
+      "OffShelfTime": {
+        "year": 2026,
+        "month": 10,
+        "day": 28,
+        "hour": 3,
+        "minute": 59,
+        "second": 59
+      }
+    },
+    {
+      "Id": 89050009,
+      "Type": 1,
+      "SubType": 1,
+      "IsPermanent": false,
+      "GetGachaTime": 0,
+      "Name": "捆绑包",
+      "BannerTitle": 73970832,
+      "SubTitle": "B级武侠",
+      "Picture": 28002209,
+      "BannerBg": 0,
+      "BigPicture": 28002214,
+      "Lable": "",
+      "Weight": 59,
+      "PurchasedWeight": 19,
+      "LinkTo": [
+        2,
+        89040005
+      ],
+      "DisplayCommodities": [],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "捆绑包",
+      "__IDX__SubTitle": 4294967293,
+      "__RAW__SubTitle": "B级武侠",
+      "__IDX__Lable": 0,
+      "__RAW__Lable": "",
+      "OnShelfTime": {
+        "year": 2025,
+        "month": 12,
+        "day": 9,
+        "hour": 0,
+        "minute": 0,
+        "second": 0
+      },
+      "OffShelfTime": {
+        "year": 2026,
+        "month": 10,
+        "day": 28,
+        "hour": 3,
+        "minute": 59,
+        "second": 59
+      }
+    },
+    {
+      "Id": 89050010,
+      "Type": 1,
+      "SubType": 9,
+      "IsPermanent": false,
+      "GetGachaTime": 5,
+      "Name": "限定特辑",
+      "BannerTitle": 73970829,
+      "SubTitle": "全场焦点",
+      "Picture": 28201648,
+      "BannerBg": 0,
+      "BigPicture": 28201645,
+      "Lable": "",
+      "Weight": 110,
+      "PurchasedWeight": 0,
+      "LinkTo": [
+        4,
+        7
+      ],
+      "DisplayCommodities": [
+        89030003
+      ],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "限定特辑",
+      "__IDX__SubTitle": 4294967293,
+      "__RAW__SubTitle": "全场焦点",
+      "__IDX__Lable": 0,
+      "__RAW__Lable": "",
+      "OnShelfTime": {
+        "year": 2025,
+        "month": 12,
+        "day": 9,
+        "hour": 0,
+        "minute": 0,
+        "second": 0
+      },
+      "OffShelfTime": {
+        "year": 2026,
+        "month": 10,
+        "day": 28,
+        "hour": 3,
+        "minute": 59,
+        "second": 59
+      }
+    },
+    {
+      "Id": 89050011,
+      "Type": 1,
+      "SubType": 1,
+      "IsPermanent": false,
+      "GetGachaTime": 0,
+      "Name": "捆绑包",
+      "BannerTitle": 73970832,
+      "SubTitle": "校服",
+      "Picture": 28002209,
+      "BannerBg": 0,
+      "BigPicture": 28002214,
+      "Lable": "",
+      "Weight": 60,
+      "PurchasedWeight": 20,
+      "LinkTo": [
+        2,
+        89040006
+      ],
+      "DisplayCommodities": [],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "捆绑包",
+      "__IDX__SubTitle": 4294967293,
+      "__RAW__SubTitle": "校服",
+      "__IDX__Lable": 0,
+      "__RAW__Lable": "",
+      "OnShelfTime": {
+        "year": 2026,
+        "month": 11,
+        "day": 18,
+        "hour": 4,
+        "minute": 0,
+        "second": 0
+      },
+      "OffShelfTime": {
+        "year": 2027,
+        "month": 10,
+        "day": 28,
+        "hour": 3,
+        "minute": 59,
+        "second": 59
+      }
+    },
+    {
+      "Id": 89050012,
+      "Type": 1,
+      "SubType": 1,
+      "IsPermanent": false,
+      "GetGachaTime": 0,
+      "Name": "捆绑包",
+      "BannerTitle": 73970832,
+      "SubTitle": "摇滚",
+      "Picture": 28002209,
+      "BannerBg": 0,
+      "BigPicture": 28002214,
+      "Lable": "",
+      "Weight": 60,
+      "PurchasedWeight": 20,
+      "LinkTo": [
+        2,
+        89040007
+      ],
+      "DisplayCommodities": [],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "捆绑包",
+      "__IDX__SubTitle": 4294967293,
+      "__RAW__SubTitle": "摇滚",
+      "__IDX__Lable": 0,
+      "__RAW__Lable": "",
+      "OnShelfTime": {
+        "year": 2026,
+        "month": 12,
+        "day": 9,
+        "hour": 4,
+        "minute": 0,
+        "second": 0
+      },
+      "OffShelfTime": {
+        "year": 2027,
+        "month": 10,
+        "day": 28,
+        "hour": 3,
+        "minute": 59,
+        "second": 59
+      }
+    },
+    {
+      "Id": 89050013,
+      "Type": 1,
+      "SubType": 1,
+      "IsPermanent": false,
+      "GetGachaTime": 0,
+      "Name": "捆绑包",
+      "BannerTitle": 73970832,
+      "SubTitle": "新年",
+      "Picture": 28002209,
+      "BannerBg": 0,
+      "BigPicture": 28002214,
+      "Lable": "",
+      "Weight": 60,
+      "PurchasedWeight": 20,
+      "LinkTo": [
+        2,
+        89040008
+      ],
+      "DisplayCommodities": [],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "捆绑包",
+      "__IDX__SubTitle": 4294967293,
+      "__RAW__SubTitle": "新年",
+      "__IDX__Lable": 0,
+      "__RAW__Lable": "",
+      "OnShelfTime": {
+        "year": 2026,
+        "month": 12,
+        "day": 30,
+        "hour": 4,
+        "minute": 0,
+        "second": 0
+      },
+      "OffShelfTime": {
+        "year": 2027,
+        "month": 10,
+        "day": 28,
+        "hour": 3,
+        "minute": 59,
+        "second": 59
+      }
+    },
+    {
+      "Id": 89050014,
+      "Type": 1,
+      "SubType": 1,
+      "IsPermanent": false,
+      "GetGachaTime": 0,
+      "Name": "捆绑包",
+      "BannerTitle": 73970832,
+      "SubTitle": "街头",
+      "Picture": 28002209,
+      "BannerBg": 0,
+      "BigPicture": 28002214,
+      "Lable": "",
+      "Weight": 60,
+      "PurchasedWeight": 20,
+      "LinkTo": [
+        2,
+        89040009
+      ],
+      "DisplayCommodities": [],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "捆绑包",
+      "__IDX__SubTitle": 4294967293,
+      "__RAW__SubTitle": "街头",
+      "__IDX__Lable": 0,
+      "__RAW__Lable": "",
+      "OnShelfTime": {
+        "year": 2026,
+        "month": 12,
+        "day": 30,
+        "hour": 4,
+        "minute": 0,
+        "second": 0
+      },
+      "OffShelfTime": {
+        "year": 2027,
+        "month": 10,
+        "day": 28,
+        "hour": 3,
+        "minute": 59,
+        "second": 59
+      }
+    }
+  ],
+  "_dumpedCount": 14,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

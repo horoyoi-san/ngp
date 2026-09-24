@@ -1,0 +1,70 @@
+{
+  "_class": "HackerMenuConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 4,
+  "records": [
+    {
+      "Id": 1,
+      "MenuType": 0,
+      "Title": "EonBug Forum",
+      "Description": "接取黑客差事、磨练黑客技巧",
+      "Image": 28003912,
+      "FuncAction": "CheckShowPanel()",
+      "PanelId": 703,
+      "GuideId": "BBS",
+      "BuffID": 0,
+      "__IDX__Title": 93690,
+      "__RAW__Title": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "接取黑客差事、磨练黑客技巧"
+    },
+    {
+      "Id": 2,
+      "MenuType": 1,
+      "Title": "Spider Bot",
+      "Description": "",
+      "Image": 28002972,
+      "FuncAction": "SpiderSkill()",
+      "PanelId": 0,
+      "GuideId": "Spider",
+      "BuffID": 52606149,
+      "__IDX__Title": 100815,
+      "__RAW__Title": "",
+      "__IDX__Description": 0,
+      "__RAW__Description": ""
+    },
+    {
+      "Id": 3,
+      "MenuType": 1,
+      "Title": "Hacker Drone",
+      "Description": "",
+      "Image": 28002971,
+      "FuncAction": "DroneSkill()",
+      "PanelId": 0,
+      "GuideId": "HackerDrone",
+      "BuffID": 52606150,
+      "__IDX__Title": 93691,
+      "__RAW__Title": "",
+      "__IDX__Description": 0,
+      "__RAW__Description": ""
+    },
+    {
+      "Id": 4,
+      "MenuType": 0,
+      "Title": "大停电",
+      "Description": "",
+      "Image": 0,
+      "FuncAction": "",
+      "PanelId": 0,
+      "GuideId": "",
+      "BuffID": 0,
+      "__IDX__Title": 4294967295,
+      "__RAW__Title": "大停电",
+      "__IDX__Description": 0,
+      "__RAW__Description": ""
+    }
+  ],
+  "_dumpedCount": 4,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

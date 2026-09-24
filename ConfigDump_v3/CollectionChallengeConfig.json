@@ -1,0 +1,2462 @@
+{
+  "_class": "CollectionChallengeConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 48,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "杀敌挑战",
+      "ChallengeType": 0,
+      "RelatedTasks": [
+        60990700
+      ],
+      "CanTeleport": false,
+      "ShowFinishState": true,
+      "Description": "在规定时间内击杀所有敌人，用时越少得分越高",
+      "GoalDescription": [],
+      "DetailGoalDescrition": [],
+      "DescriptionId": [],
+      "TargetSource": 0,
+      "ChallengeGoals": [
+        300,
+        180,
+        120
+      ],
+      "RepeatReward": 0,
+      "AchievementTag": [],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 776,
+      "__RAW__Name": "",
+      "__IDX__Description": 790,
+      "__RAW__Description": "",
+      "__IDX__GoalDescription": [],
+      "__RAW__GoalDescription": [],
+      "__IDX__DetailGoalDescrition": [],
+      "__RAW__DetailGoalDescrition": [],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14560002
+        },
+        {
+          "level": 2,
+          "dropId": 14560003
+        },
+        {
+          "level": 3,
+          "dropId": 14560004
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "Name": "无人机挑战",
+      "ChallengeType": 1,
+      "RelatedTasks": [
+        61086006
+      ],
+      "CanTeleport": false,
+      "ShowFinishState": true,
+      "Description": "跟上无人机的同时触碰能量球",
+      "GoalDescription": [
+        ">= 2 points",
+        ">= 8 points",
+        "= 12 Points"
+      ],
+      "DetailGoalDescrition": [
+        "Score 2 points or more.",
+        "Score 8 points or more.",
+        "Score 12 points."
+      ],
+      "DescriptionId": [],
+      "TargetSource": 3,
+      "ChallengeGoals": [
+        2,
+        8,
+        12
+      ],
+      "RepeatReward": 0,
+      "AchievementTag": [],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 777,
+      "__RAW__Name": "",
+      "__IDX__Description": 791,
+      "__RAW__Description": "",
+      "__IDX__GoalDescription": [
+        803,
+        804,
+        805
+      ],
+      "__RAW__GoalDescription": [
+        "",
+        "",
+        ""
+      ],
+      "__IDX__DetailGoalDescrition": [
+        837,
+        838,
+        839
+      ],
+      "__RAW__DetailGoalDescrition": [
+        "",
+        "",
+        ""
+      ],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14560002
+        },
+        {
+          "level": 2,
+          "dropId": 14560003
+        },
+        {
+          "level": 3,
+          "dropId": 14560004
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "Name": "潜入挑战",
+      "ChallengeType": 0,
+      "RelatedTasks": [
+        60990702
+      ],
+      "CanTeleport": false,
+      "ShowFinishState": true,
+      "Description": "在规定时间内潜行击杀所有敌人，用时越少得分越高，被发现会立刻失败",
+      "GoalDescription": [],
+      "DetailGoalDescrition": [],
+      "DescriptionId": [],
+      "TargetSource": 3,
+      "ChallengeGoals": [
+        9,
+        12,
+        17
+      ],
+      "RepeatReward": 0,
+      "AchievementTag": [],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 778,
+      "__RAW__Name": "",
+      "__IDX__Description": 792,
+      "__RAW__Description": "",
+      "__IDX__GoalDescription": [],
+      "__RAW__GoalDescription": [],
+      "__IDX__DetailGoalDescrition": [],
+      "__RAW__DetailGoalDescrition": [],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14560002
+        },
+        {
+          "level": 2,
+          "dropId": 14560003
+        },
+        {
+          "level": 3,
+          "dropId": 14560004
+        }
+      ]
+    },
+    {
+      "Id": 5,
+      "Name": "杀敌挑战",
+      "ChallengeType": 0,
+      "RelatedTasks": [
+        60990711
+      ],
+      "CanTeleport": false,
+      "ShowFinishState": true,
+      "Description": "在规定时间内击杀所有敌人，用时越少得分越高",
+      "GoalDescription": [],
+      "DetailGoalDescrition": [],
+      "DescriptionId": [],
+      "TargetSource": 0,
+      "ChallengeGoals": [
+        300,
+        180,
+        120
+      ],
+      "RepeatReward": 0,
+      "AchievementTag": [],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 780,
+      "__RAW__Name": "",
+      "__IDX__Description": 794,
+      "__RAW__Description": "",
+      "__IDX__GoalDescription": [],
+      "__RAW__GoalDescription": [],
+      "__IDX__DetailGoalDescrition": [],
+      "__RAW__DetailGoalDescrition": [],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14560002
+        },
+        {
+          "level": 2,
+          "dropId": 14560003
+        },
+        {
+          "level": 3,
+          "dropId": 14560004
+        }
+      ]
+    },
+    {
+      "Id": 7,
+      "Name": "虚像竞速",
+      "ChallengeType": 2,
+      "RelatedTasks": [
+        60000833
+      ],
+      "CanTeleport": false,
+      "ShowFinishState": true,
+      "Description": "跑酷竞速赛，按名次计分！",
+      "GoalDescription": [
+        "Third place",
+        "Second place",
+        "First place"
+      ],
+      "DetailGoalDescrition": [
+        "Arrived before Taffy.",
+        "Came in second place.",
+        "Came in first!"
+      ],
+      "DescriptionId": [],
+      "TargetSource": 2,
+      "ChallengeGoals": [
+        3,
+        2,
+        1
+      ],
+      "RepeatReward": 0,
+      "AchievementTag": [],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 782,
+      "__RAW__Name": "",
+      "__IDX__Description": 796,
+      "__RAW__Description": "",
+      "__IDX__GoalDescription": [
+        812,
+        813,
+        814
+      ],
+      "__RAW__GoalDescription": [
+        "",
+        "",
+        ""
+      ],
+      "__IDX__DetailGoalDescrition": [
+        846,
+        847,
+        848
+      ],
+      "__RAW__DetailGoalDescrition": [
+        "",
+        "",
+        ""
+      ],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14560002
+        },
+        {
+          "level": 2,
+          "dropId": 14560003
+        },
+        {
+          "level": 3,
+          "dropId": 14560004
+        }
+      ]
+    },
+    {
+      "Id": 8,
+      "Name": "疯狂赛椅",
+      "ChallengeType": 2,
+      "RelatedTasks": [
+        60001234
+      ],
+      "CanTeleport": true,
+      "ShowFinishState": false,
+      "Description": "收到巡卫署转接的市民委托，狂悖街区的强袭团需要一位“勇者”进行赛道竞速测试。",
+      "GoalDescription": [
+        ">= 200 points",
+        ">= 350 points",
+        ">= 500 points"
+      ],
+      "DetailGoalDescrition": [
+        ">= 200 points",
+        ">= 350 points",
+        ">= 500 points"
+      ],
+      "DescriptionId": [
+        1000010
+      ],
+      "TargetSource": 3,
+      "ChallengeGoals": [
+        200,
+        350,
+        500
+      ],
+      "RepeatReward": 0,
+      "AchievementTag": [],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 783,
+      "__RAW__Name": "",
+      "__IDX__Description": 797,
+      "__RAW__Description": "",
+      "__IDX__GoalDescription": [
+        815,
+        816,
+        817
+      ],
+      "__RAW__GoalDescription": [
+        "",
+        "",
+        ""
+      ],
+      "__IDX__DetailGoalDescrition": [
+        849,
+        850,
+        851
+      ],
+      "__RAW__DetailGoalDescrition": [
+        "",
+        "",
+        ""
+      ],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14560002
+        },
+        {
+          "level": 2,
+          "dropId": 14560003
+        },
+        {
+          "level": 3,
+          "dropId": 14560004
+        }
+      ]
+    },
+    {
+      "Id": 9,
+      "Name": "机械大作战",
+      "ChallengeType": 2,
+      "RelatedTasks": [
+        60001235
+      ],
+      "CanTeleport": false,
+      "ShowFinishState": true,
+      "Description": "收到巡卫署转接的市民委托，岸泊机械师希望调查员对混厄机械进行协助测试。",
+      "GoalDescription": [
+        ">=01:00",
+        ">=02:00",
+        ">=03:00"
+      ],
+      "DetailGoalDescrition": [
+        "Dodge Time >= 01:00",
+        "Dodge Time >= 02:00",
+        "Dodge Time >= 03:00"
+      ],
+      "DescriptionId": [
+        1000000,
+        1000001
+      ],
+      "TargetSource": 1,
+      "ChallengeGoals": [
+        60,
+        120,
+        180
+      ],
+      "RepeatReward": 0,
+      "AchievementTag": [],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 784,
+      "__RAW__Name": "",
+      "__IDX__Description": 798,
+      "__RAW__Description": "",
+      "__IDX__GoalDescription": [
+        818,
+        819,
+        820
+      ],
+      "__RAW__GoalDescription": [
+        "",
+        "",
+        ""
+      ],
+      "__IDX__DetailGoalDescrition": [
+        852,
+        853,
+        854
+      ],
+      "__RAW__DetailGoalDescrition": [
+        "",
+        "",
+        ""
+      ],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14560002
+        },
+        {
+          "level": 2,
+          "dropId": 14560003
+        },
+        {
+          "level": 3,
+          "dropId": 14560004
+        }
+      ]
+    },
+    {
+      "Id": 13,
+      "Name": "Rockin’ Rixxy Warrior",
+      "ChallengeType": 2,
+      "RelatedTasks": [
+        60005234
+      ],
+      "CanTeleport": true,
+      "ShowFinishState": false,
+      "Description": "In the storyline of Rixxy Warriors, the research vessel en route to Sarr 388 encountered a significant Rixxy attack. Your mission is to break through this onslaught, eliminating as many Rixxies as possible to ensure the safety of the research vessel.",
+      "GoalDescription": [
+        ">= 1,500 points",
+        ">= 4,500 points",
+        ">= 9900 points"
+      ],
+      "DetailGoalDescrition": [
+        ">= 3500 points",
+        ">= 7500 points",
+        ">= 9900 points"
+      ],
+      "DescriptionId": [
+        1000013
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        3500,
+        7500,
+        9900
+      ],
+      "RepeatReward": 0,
+      "AchievementTag": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 788,
+      "__RAW__Name": "",
+      "__IDX__Description": 802,
+      "__RAW__Description": "",
+      "__IDX__GoalDescription": [
+        830,
+        831,
+        832
+      ],
+      "__RAW__GoalDescription": [
+        "",
+        "",
+        ""
+      ],
+      "__IDX__DetailGoalDescrition": [
+        864,
+        865,
+        866
+      ],
+      "__RAW__DetailGoalDescrition": [
+        "",
+        "",
+        ""
+      ],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14560002
+        },
+        {
+          "level": 2,
+          "dropId": 14560003
+        },
+        {
+          "level": 3,
+          "dropId": 14560004
+        }
+      ]
+    },
+    {
+      "Id": 14,
+      "Name": "Street Hoops · Red Prime",
+      "ChallengeType": 2,
+      "RelatedTasks": [
+        60005233
+      ],
+      "CanTeleport": true,
+      "ShowFinishState": false,
+      "Description": "Pinchbot, only three months into the game, is now a star player for the Chaos Basketball Team in Paradox Plaza. With mad hours of practice, he’s nailing those free throws. Difficulty: ★",
+      "GoalDescription": [
+        "Defeat the opponent"
+      ],
+      "DetailGoalDescrition": [
+        "Defeat the opponent"
+      ],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14500205,
+      "AchievementTag": [],
+      "StartVersion": "V0.10.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 30739,
+      "__RAW__Name": "",
+      "__IDX__Description": 30738,
+      "__RAW__Description": "",
+      "__IDX__GoalDescription": [
+        833
+      ],
+      "__RAW__GoalDescription": [
+        ""
+      ],
+      "__IDX__DetailGoalDescrition": [
+        867
+      ],
+      "__RAW__DetailGoalDescrition": [
+        ""
+      ],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14500201
+        }
+      ]
+    },
+    {
+      "Id": 15,
+      "Name": "Street Hoops · Prince",
+      "ChallengeType": 2,
+      "RelatedTasks": [
+        60005237
+      ],
+      "CanTeleport": true,
+      "ShowFinishState": false,
+      "Description": "Catch the heat with Luminary Academy’s star forward and the hoop dream sensation with a legion of followers! This baller’s got game and a notorious beef with Red Prime that’s got the streets buzzin’… Difficulty: ★★",
+      "GoalDescription": [
+        "Defeat the opponent"
+      ],
+      "DetailGoalDescrition": [
+        "Defeat the opponent"
+      ],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14500208,
+      "AchievementTag": [],
+      "StartVersion": "V0.10.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 789,
+      "__RAW__Name": "",
+      "__IDX__Description": 30740,
+      "__RAW__Description": "",
+      "__IDX__GoalDescription": [
+        834
+      ],
+      "__RAW__GoalDescription": [
+        ""
+      ],
+      "__IDX__DetailGoalDescrition": [
+        868
+      ],
+      "__RAW__DetailGoalDescrition": [
+        ""
+      ],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14500204
+        }
+      ]
+    },
+    {
+      "Id": 17,
+      "Name": "Street Hoops · Chef",
+      "ChallengeType": 2,
+      "RelatedTasks": [
+        60005238
+      ],
+      "CanTeleport": true,
+      "ShowFinishState": false,
+      "Description": "Step into the kitchen and the court with MM’s cafeteria king and the Captain of the MM basketball team – the Chef. Serving up spicy curry and sizzling crossovers, he’s the undisputed “Double Threat.” Difficulty: ★★★★",
+      "GoalDescription": [
+        "Defeat the opponent"
+      ],
+      "DetailGoalDescrition": [
+        "Defeat the opponent"
+      ],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14500206,
+      "AchievementTag": [],
+      "StartVersion": "V0.9.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 30742,
+      "__RAW__Name": "",
+      "__IDX__Description": 30741,
+      "__RAW__Description": "",
+      "__IDX__GoalDescription": [
+        835
+      ],
+      "__RAW__GoalDescription": [
+        ""
+      ],
+      "__IDX__DetailGoalDescrition": [
+        869
+      ],
+      "__RAW__DetailGoalDescrition": [
+        ""
+      ],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14500202
+        }
+      ]
+    },
+    {
+      "Id": 18,
+      "Name": "Street Hoops · 40K",
+      "ChallengeType": 2,
+      "RelatedTasks": [
+        60005239
+      ],
+      "CanTeleport": true,
+      "ShowFinishState": false,
+      "Description": "Meet “40K,” the enigmatic hoop phenomenon storming the scene straight outta Nova. With a rap sheet claiming 40,000 points. This legend leaves his opponents shook, ducking rematches… Difficulty: ★★★★★",
+      "GoalDescription": [
+        "Defeat the opponent"
+      ],
+      "DetailGoalDescrition": [
+        "Defeat the opponent"
+      ],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14500207,
+      "AchievementTag": [],
+      "StartVersion": "V0.9.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 30744,
+      "__RAW__Name": "",
+      "__IDX__Description": 30743,
+      "__RAW__Description": "",
+      "__IDX__GoalDescription": [
+        836
+      ],
+      "__RAW__GoalDescription": [
+        ""
+      ],
+      "__IDX__DetailGoalDescrition": [
+        870
+      ],
+      "__RAW__DetailGoalDescrition": [
+        ""
+      ],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14500203
+        }
+      ]
+    },
+    {
+      "Id": 20,
+      "Name": "Darts (Beginner)",
+      "ChallengeType": 2,
+      "RelatedTasks": [],
+      "CanTeleport": false,
+      "ShowFinishState": false,
+      "Description": "Darts (Beginner)",
+      "GoalDescription": [
+        "Defeat Opponent"
+      ],
+      "DetailGoalDescrition": [
+        "Defeat Opponent"
+      ],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14500604,
+      "AchievementTag": [],
+      "StartVersion": "V0.9.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 33356,
+      "__RAW__Name": "",
+      "__IDX__Description": 33353,
+      "__RAW__Description": "",
+      "__IDX__GoalDescription": [
+        33355
+      ],
+      "__RAW__GoalDescription": [
+        ""
+      ],
+      "__IDX__DetailGoalDescrition": [
+        33354
+      ],
+      "__RAW__DetailGoalDescrition": [
+        ""
+      ],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14500600
+        }
+      ]
+    },
+    {
+      "Id": 21,
+      "Name": "Darts (Intermediate)",
+      "ChallengeType": 2,
+      "RelatedTasks": [],
+      "CanTeleport": false,
+      "ShowFinishState": false,
+      "Description": "Darts (Intermediate)",
+      "GoalDescription": [
+        "Defeat Opponent"
+      ],
+      "DetailGoalDescrition": [
+        "Defeat Opponent"
+      ],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14500605,
+      "AchievementTag": [],
+      "StartVersion": "V0.9.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 33360,
+      "__RAW__Name": "",
+      "__IDX__Description": 33357,
+      "__RAW__Description": "",
+      "__IDX__GoalDescription": [
+        33359
+      ],
+      "__RAW__GoalDescription": [
+        ""
+      ],
+      "__IDX__DetailGoalDescrition": [
+        33358
+      ],
+      "__RAW__DetailGoalDescrition": [
+        ""
+      ],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14500601
+        }
+      ]
+    },
+    {
+      "Id": 22,
+      "Name": "Beach Volleyball",
+      "ChallengeType": 2,
+      "RelatedTasks": [
+        60005252
+      ],
+      "CanTeleport": false,
+      "ShowFinishState": false,
+      "Description": "Beach Volleyball",
+      "GoalDescription": [
+        "Defeat Opponent"
+      ],
+      "DetailGoalDescrition": [
+        "Defeat Opponent"
+      ],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14500700,
+      "AchievementTag": [],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 33364,
+      "__RAW__Name": "",
+      "__IDX__Description": 33361,
+      "__RAW__Description": "",
+      "__IDX__GoalDescription": [
+        33363
+      ],
+      "__RAW__GoalDescription": [
+        ""
+      ],
+      "__IDX__DetailGoalDescrition": [
+        33362
+      ],
+      "__RAW__DetailGoalDescrition": [
+        ""
+      ],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14560004
+        }
+      ]
+    },
+    {
+      "Id": 23,
+      "Name": "Darts (Advanced)",
+      "ChallengeType": 2,
+      "RelatedTasks": [],
+      "CanTeleport": false,
+      "ShowFinishState": false,
+      "Description": "Darts (Advanced)",
+      "GoalDescription": [
+        "Defeat Opponent"
+      ],
+      "DetailGoalDescrition": [
+        "Defeat Opponent"
+      ],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14500606,
+      "AchievementTag": [],
+      "StartVersion": "V0.9.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 33368,
+      "__RAW__Name": "",
+      "__IDX__Description": 33365,
+      "__RAW__Description": "",
+      "__IDX__GoalDescription": [
+        33367
+      ],
+      "__RAW__GoalDescription": [
+        ""
+      ],
+      "__IDX__DetailGoalDescrition": [
+        33366
+      ],
+      "__RAW__DetailGoalDescrition": [
+        ""
+      ],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14500602
+        }
+      ]
+    },
+    {
+      "Id": 24,
+      "Name": "Darts (Professional)",
+      "ChallengeType": 2,
+      "RelatedTasks": [],
+      "CanTeleport": false,
+      "ShowFinishState": false,
+      "Description": "Darts (Professional)",
+      "GoalDescription": [
+        "Defeat Opponent"
+      ],
+      "DetailGoalDescrition": [
+        "Defeat Opponent"
+      ],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14500607,
+      "AchievementTag": [],
+      "StartVersion": "V0.9.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 33372,
+      "__RAW__Name": "",
+      "__IDX__Description": 33369,
+      "__RAW__Description": "",
+      "__IDX__GoalDescription": [
+        33371
+      ],
+      "__RAW__GoalDescription": [
+        ""
+      ],
+      "__IDX__DetailGoalDescrition": [
+        33370
+      ],
+      "__RAW__DetailGoalDescrition": [
+        ""
+      ],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14500603
+        }
+      ]
+    },
+    {
+      "Id": 25,
+      "Name": "Street Hoops: First Shot Fired",
+      "ChallengeType": 2,
+      "RelatedTasks": [
+        60006417
+      ],
+      "CanTeleport": true,
+      "ShowFinishState": false,
+      "Description": "First Basketball Challenge",
+      "GoalDescription": [
+        "Defeat Opponent"
+      ],
+      "DetailGoalDescrition": [
+        "Defeat Opponent"
+      ],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14500200,
+      "AchievementTag": [],
+      "StartVersion": "V0.10.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 33376,
+      "__RAW__Name": "",
+      "__IDX__Description": 33373,
+      "__RAW__Description": "",
+      "__IDX__GoalDescription": [
+        33375
+      ],
+      "__RAW__GoalDescription": [
+        ""
+      ],
+      "__IDX__DetailGoalDescrition": [
+        33374
+      ],
+      "__RAW__DetailGoalDescrition": [
+        ""
+      ],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14500200
+        }
+      ]
+    },
+    {
+      "Id": 27,
+      "Name": "飞镖·爱琳",
+      "ChallengeType": 2,
+      "RelatedTasks": [],
+      "CanTeleport": false,
+      "ShowFinishState": false,
+      "Description": "飞镖·爱琳",
+      "GoalDescription": [
+        "Defeat Opponent"
+      ],
+      "DetailGoalDescrition": [
+        "Defeat Opponent"
+      ],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14500616,
+      "AchievementTag": [],
+      "StartVersion": "V0.10.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "飞镖·爱琳",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "飞镖·爱琳",
+      "__IDX__GoalDescription": [
+        54987
+      ],
+      "__RAW__GoalDescription": [
+        ""
+      ],
+      "__IDX__DetailGoalDescrition": [
+        54986
+      ],
+      "__RAW__DetailGoalDescrition": [
+        ""
+      ],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14500608
+        }
+      ]
+    },
+    {
+      "Id": 28,
+      "Name": "飞镖·塔菲",
+      "ChallengeType": 2,
+      "RelatedTasks": [],
+      "CanTeleport": false,
+      "ShowFinishState": false,
+      "Description": "飞镖·塔菲",
+      "GoalDescription": [
+        "Defeat Opponent"
+      ],
+      "DetailGoalDescrition": [
+        "Defeat Opponent"
+      ],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14500617,
+      "AchievementTag": [],
+      "StartVersion": "V0.10.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "飞镖·塔菲",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "飞镖·塔菲",
+      "__IDX__GoalDescription": [
+        54989
+      ],
+      "__RAW__GoalDescription": [
+        ""
+      ],
+      "__IDX__DetailGoalDescrition": [
+        54988
+      ],
+      "__RAW__DetailGoalDescrition": [
+        ""
+      ],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14500609
+        }
+      ]
+    },
+    {
+      "Id": 29,
+      "Name": "飞镖·班茜",
+      "ChallengeType": 2,
+      "RelatedTasks": [],
+      "CanTeleport": false,
+      "ShowFinishState": false,
+      "Description": "飞镖·班茜",
+      "GoalDescription": [
+        "Defeat Opponent"
+      ],
+      "DetailGoalDescrition": [
+        "Defeat Opponent"
+      ],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14500618,
+      "AchievementTag": [],
+      "StartVersion": "V0.10.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "飞镖·班茜",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "飞镖·班茜",
+      "__IDX__GoalDescription": [
+        54991
+      ],
+      "__RAW__GoalDescription": [
+        ""
+      ],
+      "__IDX__DetailGoalDescrition": [
+        54990
+      ],
+      "__RAW__DetailGoalDescrition": [
+        ""
+      ],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14500610
+        }
+      ]
+    },
+    {
+      "Id": 30,
+      "Name": "飞镖·梅卡妮卡",
+      "ChallengeType": 2,
+      "RelatedTasks": [],
+      "CanTeleport": false,
+      "ShowFinishState": false,
+      "Description": "飞镖·梅卡妮卡",
+      "GoalDescription": [
+        "Defeat Opponent"
+      ],
+      "DetailGoalDescrition": [
+        "Defeat Opponent"
+      ],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14500619,
+      "AchievementTag": [],
+      "StartVersion": "V0.10.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "飞镖·梅卡妮卡",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "飞镖·梅卡妮卡",
+      "__IDX__GoalDescription": [
+        54993
+      ],
+      "__RAW__GoalDescription": [
+        ""
+      ],
+      "__IDX__DetailGoalDescrition": [
+        54992
+      ],
+      "__RAW__DetailGoalDescrition": [
+        ""
+      ],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14500611
+        }
+      ]
+    },
+    {
+      "Id": 31,
+      "Name": "飞镖·里希",
+      "ChallengeType": 2,
+      "RelatedTasks": [],
+      "CanTeleport": false,
+      "ShowFinishState": false,
+      "Description": "飞镖·里希",
+      "GoalDescription": [
+        "Defeat Opponent"
+      ],
+      "DetailGoalDescrition": [
+        "Defeat Opponent"
+      ],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14500620,
+      "AchievementTag": [],
+      "StartVersion": "V0.10.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "飞镖·里希",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "飞镖·里希",
+      "__IDX__GoalDescription": [
+        54995
+      ],
+      "__RAW__GoalDescription": [
+        ""
+      ],
+      "__IDX__DetailGoalDescrition": [
+        54994
+      ],
+      "__RAW__DetailGoalDescrition": [
+        ""
+      ],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14500612
+        }
+      ]
+    },
+    {
+      "Id": 32,
+      "Name": "飞镖·狄菈",
+      "ChallengeType": 2,
+      "RelatedTasks": [],
+      "CanTeleport": false,
+      "ShowFinishState": false,
+      "Description": "飞镖·狄菈",
+      "GoalDescription": [
+        "Defeat Opponent"
+      ],
+      "DetailGoalDescrition": [
+        "Defeat Opponent"
+      ],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14500621,
+      "AchievementTag": [],
+      "StartVersion": "V0.10.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "飞镖·狄菈",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "飞镖·狄菈",
+      "__IDX__GoalDescription": [
+        54997
+      ],
+      "__RAW__GoalDescription": [
+        ""
+      ],
+      "__IDX__DetailGoalDescrition": [
+        54996
+      ],
+      "__RAW__DetailGoalDescrition": [
+        ""
+      ],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14500613
+        }
+      ]
+    },
+    {
+      "Id": 33,
+      "Name": "飞镖·艾诺米",
+      "ChallengeType": 2,
+      "RelatedTasks": [],
+      "CanTeleport": false,
+      "ShowFinishState": false,
+      "Description": "飞镖·艾诺米",
+      "GoalDescription": [
+        "Defeat Opponent"
+      ],
+      "DetailGoalDescrition": [
+        "Defeat Opponent"
+      ],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14500622,
+      "AchievementTag": [],
+      "StartVersion": "V0.10.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "飞镖·艾诺米",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "飞镖·艾诺米",
+      "__IDX__GoalDescription": [
+        54999
+      ],
+      "__RAW__GoalDescription": [
+        ""
+      ],
+      "__IDX__DetailGoalDescrition": [
+        54998
+      ],
+      "__RAW__DetailGoalDescrition": [
+        ""
+      ],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14500614
+        }
+      ]
+    },
+    {
+      "Id": 34,
+      "Name": "飞镖·弥弥古",
+      "ChallengeType": 2,
+      "RelatedTasks": [],
+      "CanTeleport": false,
+      "ShowFinishState": false,
+      "Description": "飞镖·弥弥古",
+      "GoalDescription": [
+        "Defeat Opponent"
+      ],
+      "DetailGoalDescrition": [
+        "Defeat Opponent"
+      ],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14500623,
+      "AchievementTag": [],
+      "StartVersion": "V0.10.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "飞镖·弥弥古",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "飞镖·弥弥古",
+      "__IDX__GoalDescription": [
+        55001
+      ],
+      "__RAW__GoalDescription": [
+        ""
+      ],
+      "__IDX__DetailGoalDescrition": [
+        55000
+      ],
+      "__RAW__DetailGoalDescrition": [
+        ""
+      ],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14500615
+        }
+      ]
+    },
+    {
+      "Id": 35,
+      "Name": "骰子：初级",
+      "ChallengeType": 2,
+      "RelatedTasks": [],
+      "CanTeleport": false,
+      "ShowFinishState": false,
+      "Description": "骰子：初级",
+      "GoalDescription": [
+        "Defeat Opponent"
+      ],
+      "DetailGoalDescrition": [
+        "Defeat Opponent"
+      ],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14501404,
+      "AchievementTag": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "骰子：初级",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "骰子：初级",
+      "__IDX__GoalDescription": [
+        55003
+      ],
+      "__RAW__GoalDescription": [
+        ""
+      ],
+      "__IDX__DetailGoalDescrition": [
+        55002
+      ],
+      "__RAW__DetailGoalDescrition": [
+        ""
+      ],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14501400
+        }
+      ]
+    },
+    {
+      "Id": 36,
+      "Name": "骰子：中级",
+      "ChallengeType": 2,
+      "RelatedTasks": [],
+      "CanTeleport": false,
+      "ShowFinishState": false,
+      "Description": "骰子：中级",
+      "GoalDescription": [
+        "Defeat Opponent"
+      ],
+      "DetailGoalDescrition": [
+        "Defeat Opponent"
+      ],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14501405,
+      "AchievementTag": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "骰子：中级",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "骰子：中级",
+      "__IDX__GoalDescription": [
+        55005
+      ],
+      "__RAW__GoalDescription": [
+        ""
+      ],
+      "__IDX__DetailGoalDescrition": [
+        55004
+      ],
+      "__RAW__DetailGoalDescrition": [
+        ""
+      ],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14501401
+        }
+      ]
+    },
+    {
+      "Id": 37,
+      "Name": "骰子：高级",
+      "ChallengeType": 2,
+      "RelatedTasks": [],
+      "CanTeleport": false,
+      "ShowFinishState": false,
+      "Description": "骰子：高级",
+      "GoalDescription": [
+        "Defeat Opponent"
+      ],
+      "DetailGoalDescrition": [
+        "Defeat Opponent"
+      ],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14501406,
+      "AchievementTag": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "骰子：高级",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "骰子：高级",
+      "__IDX__GoalDescription": [
+        55007
+      ],
+      "__RAW__GoalDescription": [
+        ""
+      ],
+      "__IDX__DetailGoalDescrition": [
+        55006
+      ],
+      "__RAW__DetailGoalDescrition": [
+        ""
+      ],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14501402
+        }
+      ]
+    },
+    {
+      "Id": 38,
+      "Name": "骰子：职业",
+      "ChallengeType": 2,
+      "RelatedTasks": [],
+      "CanTeleport": false,
+      "ShowFinishState": false,
+      "Description": "骰子：职业",
+      "GoalDescription": [
+        "Defeat Opponent"
+      ],
+      "DetailGoalDescrition": [
+        "Defeat Opponent"
+      ],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14501407,
+      "AchievementTag": [],
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "骰子：职业",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "骰子：职业",
+      "__IDX__GoalDescription": [
+        55009
+      ],
+      "__RAW__GoalDescription": [
+        ""
+      ],
+      "__IDX__DetailGoalDescrition": [
+        55008
+      ],
+      "__RAW__DetailGoalDescrition": [
+        ""
+      ],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14501403
+        }
+      ]
+    },
+    {
+      "Id": 39,
+      "Name": "骰子：pvp胜利",
+      "ChallengeType": 2,
+      "RelatedTasks": [],
+      "CanTeleport": false,
+      "ShowFinishState": false,
+      "Description": "骰子：pvp胜利",
+      "GoalDescription": [
+        "Defeat Opponent"
+      ],
+      "DetailGoalDescrition": [
+        "Defeat Opponent"
+      ],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14579007,
+      "AchievementTag": [],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "骰子：pvp胜利",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "骰子：pvp胜利",
+      "__IDX__GoalDescription": [
+        55011
+      ],
+      "__RAW__GoalDescription": [
+        ""
+      ],
+      "__IDX__DetailGoalDescrition": [
+        55010
+      ],
+      "__RAW__DetailGoalDescrition": [
+        ""
+      ],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14579007
+        }
+      ]
+    },
+    {
+      "Id": 40,
+      "Name": "骰子：pvp失败",
+      "ChallengeType": 2,
+      "RelatedTasks": [],
+      "CanTeleport": false,
+      "ShowFinishState": false,
+      "Description": "骰子：pvp失败",
+      "GoalDescription": [
+        "Defeat Opponent"
+      ],
+      "DetailGoalDescrition": [
+        "Defeat Opponent"
+      ],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14579007,
+      "AchievementTag": [],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "骰子：pvp失败",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "骰子：pvp失败",
+      "__IDX__GoalDescription": [
+        55013
+      ],
+      "__RAW__GoalDescription": [
+        ""
+      ],
+      "__IDX__DetailGoalDescrition": [
+        55012
+      ],
+      "__RAW__DetailGoalDescrition": [
+        ""
+      ],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14579007
+        }
+      ]
+    },
+    {
+      "Id": 41,
+      "Name": "骰子：pvp平局",
+      "ChallengeType": 2,
+      "RelatedTasks": [],
+      "CanTeleport": false,
+      "ShowFinishState": false,
+      "Description": "骰子：pvp平局",
+      "GoalDescription": [
+        "Defeat Opponent"
+      ],
+      "DetailGoalDescrition": [
+        "Defeat Opponent"
+      ],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14579007,
+      "AchievementTag": [],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "骰子：pvp平局",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "骰子：pvp平局",
+      "__IDX__GoalDescription": [
+        55015
+      ],
+      "__RAW__GoalDescription": [
+        ""
+      ],
+      "__IDX__DetailGoalDescrition": [
+        55014
+      ],
+      "__RAW__DetailGoalDescrition": [
+        ""
+      ],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14579007
+        }
+      ]
+    },
+    {
+      "Id": 42,
+      "Name": "飞镖·赛默",
+      "ChallengeType": 2,
+      "RelatedTasks": [],
+      "CanTeleport": false,
+      "ShowFinishState": false,
+      "Description": "飞镖·艾诺米",
+      "GoalDescription": [],
+      "DetailGoalDescrition": [],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14500633,
+      "AchievementTag": [],
+      "StartVersion": "V0.10.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "飞镖·赛默",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "飞镖·艾诺米",
+      "__IDX__GoalDescription": [],
+      "__RAW__GoalDescription": [],
+      "__IDX__DetailGoalDescrition": [],
+      "__RAW__DetailGoalDescrition": [],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14500624
+        }
+      ]
+    },
+    {
+      "Id": 43,
+      "Name": "飞镖·嘉姆",
+      "ChallengeType": 2,
+      "RelatedTasks": [],
+      "CanTeleport": false,
+      "ShowFinishState": false,
+      "Description": "飞镖·弥弥古",
+      "GoalDescription": [],
+      "DetailGoalDescrition": [],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14500634,
+      "AchievementTag": [],
+      "StartVersion": "V0.10.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "飞镖·嘉姆",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "飞镖·弥弥古",
+      "__IDX__GoalDescription": [],
+      "__RAW__GoalDescription": [],
+      "__IDX__DetailGoalDescrition": [],
+      "__RAW__DetailGoalDescrition": [],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14500625
+        }
+      ]
+    },
+    {
+      "Id": 44,
+      "Name": "飞镖·莱卡娅",
+      "ChallengeType": 2,
+      "RelatedTasks": [],
+      "CanTeleport": false,
+      "ShowFinishState": false,
+      "Description": "莱卡娅",
+      "GoalDescription": [],
+      "DetailGoalDescrition": [],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14500635,
+      "AchievementTag": [],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "飞镖·莱卡娅",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "莱卡娅",
+      "__IDX__GoalDescription": [],
+      "__RAW__GoalDescription": [],
+      "__IDX__DetailGoalDescrition": [],
+      "__RAW__DetailGoalDescrition": [],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14500626
+        }
+      ]
+    },
+    {
+      "Id": 45,
+      "Name": "飞镖·凛",
+      "ChallengeType": 2,
+      "RelatedTasks": [],
+      "CanTeleport": false,
+      "ShowFinishState": false,
+      "Description": "凛",
+      "GoalDescription": [],
+      "DetailGoalDescrition": [],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14500636,
+      "AchievementTag": [],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "飞镖·凛",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "凛",
+      "__IDX__GoalDescription": [],
+      "__RAW__GoalDescription": [],
+      "__IDX__DetailGoalDescrition": [],
+      "__RAW__DetailGoalDescrition": [],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14500627
+        }
+      ]
+    },
+    {
+      "Id": 46,
+      "Name": "飞镖·林檎",
+      "ChallengeType": 2,
+      "RelatedTasks": [],
+      "CanTeleport": false,
+      "ShowFinishState": false,
+      "Description": "林檎",
+      "GoalDescription": [],
+      "DetailGoalDescrition": [],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14500637,
+      "AchievementTag": [],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "飞镖·林檎",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "林檎",
+      "__IDX__GoalDescription": [],
+      "__RAW__GoalDescription": [],
+      "__IDX__DetailGoalDescrition": [],
+      "__RAW__DetailGoalDescrition": [],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14500628
+        }
+      ]
+    },
+    {
+      "Id": 47,
+      "Name": "飞镖·伯纳德",
+      "ChallengeType": 2,
+      "RelatedTasks": [],
+      "CanTeleport": false,
+      "ShowFinishState": false,
+      "Description": "伯纳德",
+      "GoalDescription": [],
+      "DetailGoalDescrition": [],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14500638,
+      "AchievementTag": [],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "飞镖·伯纳德",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "伯纳德",
+      "__IDX__GoalDescription": [],
+      "__RAW__GoalDescription": [],
+      "__IDX__DetailGoalDescrition": [],
+      "__RAW__DetailGoalDescrition": [],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14500629
+        }
+      ]
+    },
+    {
+      "Id": 48,
+      "Name": "飞镖·亚兰",
+      "ChallengeType": 2,
+      "RelatedTasks": [],
+      "CanTeleport": false,
+      "ShowFinishState": false,
+      "Description": "亚兰",
+      "GoalDescription": [],
+      "DetailGoalDescrition": [],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14500639,
+      "AchievementTag": [],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "飞镖·亚兰",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "亚兰",
+      "__IDX__GoalDescription": [],
+      "__RAW__GoalDescription": [],
+      "__IDX__DetailGoalDescrition": [],
+      "__RAW__DetailGoalDescrition": [],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14500630
+        }
+      ]
+    },
+    {
+      "Id": 49,
+      "Name": "娱乐达人·投篮",
+      "ChallengeType": 2,
+      "RelatedTasks": [
+        60011540
+      ],
+      "CanTeleport": true,
+      "ShowFinishState": false,
+      "Description": "娱乐达人网红亚兰发起了挑战，想要在篮球赛场上赢过风头正盛的踹飞侠……",
+      "GoalDescription": [
+        "击败对手"
+      ],
+      "DetailGoalDescrition": [
+        "击败对手"
+      ],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 0,
+      "AchievementTag": [],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "娱乐达人·投篮",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "娱乐达人网红亚兰发起了挑战，想要在篮球赛场上赢过风头正盛的踹飞侠……",
+      "__IDX__GoalDescription": [
+        4294967293
+      ],
+      "__RAW__GoalDescription": [
+        "击败对手"
+      ],
+      "__IDX__DetailGoalDescrition": [
+        4294967293
+      ],
+      "__RAW__DetailGoalDescrition": [
+        "击败对手"
+      ],
+      "RewardList": []
+    },
+    {
+      "Id": 50,
+      "Name": "飞镖·白靖",
+      "ChallengeType": 2,
+      "RelatedTasks": [],
+      "CanTeleport": false,
+      "ShowFinishState": false,
+      "Description": "白靖",
+      "GoalDescription": [],
+      "DetailGoalDescrition": [],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14500640,
+      "AchievementTag": [],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "飞镖·白靖",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "白靖",
+      "__IDX__GoalDescription": [],
+      "__RAW__GoalDescription": [],
+      "__IDX__DetailGoalDescrition": [],
+      "__RAW__DetailGoalDescrition": [],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14500631
+        }
+      ]
+    },
+    {
+      "Id": 51,
+      "Name": "飞镖·璎珑",
+      "ChallengeType": 2,
+      "RelatedTasks": [],
+      "CanTeleport": false,
+      "ShowFinishState": false,
+      "Description": "璎珑",
+      "GoalDescription": [],
+      "DetailGoalDescrition": [],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14500641,
+      "AchievementTag": [],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "飞镖·璎珑",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "璎珑",
+      "__IDX__GoalDescription": [],
+      "__RAW__GoalDescription": [],
+      "__IDX__DetailGoalDescrition": [],
+      "__RAW__DetailGoalDescrition": [],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14500632
+        }
+      ]
+    },
+    {
+      "Id": 52,
+      "Name": "李扶风",
+      "ChallengeType": 2,
+      "RelatedTasks": [],
+      "CanTeleport": false,
+      "ShowFinishState": false,
+      "Description": "李扶风",
+      "GoalDescription": [],
+      "DetailGoalDescrition": [],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14500643,
+      "AchievementTag": [],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "李扶风",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "李扶风",
+      "__IDX__GoalDescription": [],
+      "__RAW__GoalDescription": [],
+      "__IDX__DetailGoalDescrition": [],
+      "__RAW__DetailGoalDescrition": [],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14500642
+        }
+      ]
+    },
+    {
+      "Id": 53,
+      "Name": "时夜",
+      "ChallengeType": 2,
+      "RelatedTasks": [],
+      "CanTeleport": false,
+      "ShowFinishState": false,
+      "Description": "时夜",
+      "GoalDescription": [],
+      "DetailGoalDescrition": [],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14500645,
+      "AchievementTag": [],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "时夜",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "时夜",
+      "__IDX__GoalDescription": [],
+      "__RAW__GoalDescription": [],
+      "__IDX__DetailGoalDescrition": [],
+      "__RAW__DetailGoalDescrition": [],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14500644
+        }
+      ]
+    },
+    {
+      "Id": 54,
+      "Name": "柚枝",
+      "ChallengeType": 2,
+      "RelatedTasks": [],
+      "CanTeleport": false,
+      "ShowFinishState": false,
+      "Description": "柚枝",
+      "GoalDescription": [],
+      "DetailGoalDescrition": [],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14500647,
+      "AchievementTag": [],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "柚枝",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "柚枝",
+      "__IDX__GoalDescription": [],
+      "__RAW__GoalDescription": [],
+      "__IDX__DetailGoalDescrition": [],
+      "__RAW__DetailGoalDescrition": [],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14500646
+        }
+      ]
+    },
+    {
+      "Id": 55,
+      "Name": "程酿",
+      "ChallengeType": 2,
+      "RelatedTasks": [],
+      "CanTeleport": false,
+      "ShowFinishState": false,
+      "Description": "程酿",
+      "GoalDescription": [],
+      "DetailGoalDescrition": [],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14500649,
+      "AchievementTag": [],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "程酿",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "程酿",
+      "__IDX__GoalDescription": [],
+      "__RAW__GoalDescription": [],
+      "__IDX__DetailGoalDescrition": [],
+      "__RAW__DetailGoalDescrition": [],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14500648
+        }
+      ]
+    },
+    {
+      "Id": 56,
+      "Name": "街头篮球·主线复用",
+      "ChallengeType": 2,
+      "RelatedTasks": [
+        60029952
+      ],
+      "CanTeleport": true,
+      "ShowFinishState": false,
+      "Description": "嚣张的富二代",
+      "GoalDescription": [
+        "击败对手"
+      ],
+      "DetailGoalDescrition": [
+        "击败对手"
+      ],
+      "DescriptionId": [
+        1000014
+      ],
+      "TargetSource": 4,
+      "ChallengeGoals": [
+        1
+      ],
+      "RepeatReward": 14500200,
+      "AchievementTag": [],
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "街头篮球·主线复用",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "嚣张的富二代",
+      "__IDX__GoalDescription": [
+        4294967293
+      ],
+      "__RAW__GoalDescription": [
+        "击败对手"
+      ],
+      "__IDX__DetailGoalDescrition": [
+        4294967293
+      ],
+      "__RAW__DetailGoalDescrition": [
+        "击败对手"
+      ],
+      "RewardList": [
+        {
+          "level": 1,
+          "dropId": 14500200
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 48,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

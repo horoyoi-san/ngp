@@ -1,0 +1,326 @@
+{
+  "_class": "PlanningBoardStepDetailConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 19,
+  "records": [
+    {
+      "Id": 12151001,
+      "PreStep": [],
+      "StepType": 1,
+      "TaskId": 1218,
+      "MethodTitle": "Recon",
+      "Describe": "Thanks to Taffy’s recon, we know exactly how to prepare for this operation.",
+      "OptionIds": [],
+      "RouteGroup": 0,
+      "__IDX__MethodTitle": 130687,
+      "__RAW__MethodTitle": "",
+      "__IDX__Describe": 130686,
+      "__RAW__Describe": ""
+    },
+    {
+      "Id": 12151002,
+      "PreStep": [
+        12151001
+      ],
+      "StepType": 1,
+      "TaskId": 1219,
+      "MethodTitle": "Obtain ID",
+      "Describe": "To infiltrate Saturn Entertainment, we’ll need IDs.",
+      "OptionIds": [],
+      "RouteGroup": 0,
+      "__IDX__MethodTitle": 130689,
+      "__RAW__MethodTitle": "",
+      "__IDX__Describe": 130688,
+      "__RAW__Describe": ""
+    },
+    {
+      "Id": 12151003,
+      "PreStep": [
+        12151001
+      ],
+      "StepType": 2,
+      "TaskId": 0,
+      "MethodTitle": "上船方式",
+      "Describe": "",
+      "OptionIds": [
+        12152001,
+        12152002
+      ],
+      "RouteGroup": 0,
+      "__IDX__MethodTitle": 4294967293,
+      "__RAW__MethodTitle": "上船方式",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": ""
+    },
+    {
+      "Id": 12151004,
+      "PreStep": [
+        12151001
+      ],
+      "StepType": 1,
+      "TaskId": 1220,
+      "MethodTitle": "Obtain a keycard",
+      "Describe": "Saturn’s internal layout is intricate; obtaining a keycard will speed things up.",
+      "OptionIds": [],
+      "RouteGroup": 0,
+      "__IDX__MethodTitle": 130691,
+      "__RAW__MethodTitle": "",
+      "__IDX__Describe": 130690,
+      "__RAW__Describe": ""
+    },
+    {
+      "Id": 12151005,
+      "PreStep": [
+        12151002,
+        12151004
+      ],
+      "StepType": 2,
+      "TaskId": 0,
+      "MethodTitle": "Choose a distraction tactic",
+      "Describe": "",
+      "OptionIds": [
+        12152003,
+        12152004,
+        12152005
+      ],
+      "RouteGroup": 0,
+      "__IDX__MethodTitle": 130692,
+      "__RAW__MethodTitle": "",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": ""
+    },
+    {
+      "Id": 12151006,
+      "PreStep": [
+        12151002,
+        12151004
+      ],
+      "StepType": 2,
+      "TaskId": 0,
+      "MethodTitle": "Choose a vehicle",
+      "Describe": "",
+      "OptionIds": [
+        12152006,
+        12152007,
+        12152008
+      ],
+      "RouteGroup": 0,
+      "__IDX__MethodTitle": 130693,
+      "__RAW__MethodTitle": "",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": ""
+    },
+    {
+      "Id": 12151007,
+      "PreStep": [
+        12151005,
+        12151006
+      ],
+      "StepType": 1,
+      "TaskId": 1221,
+      "MethodTitle": "Final operation!",
+      "Describe": "All set and ready to roll!",
+      "OptionIds": [],
+      "RouteGroup": 0,
+      "__IDX__MethodTitle": 130695,
+      "__RAW__MethodTitle": "",
+      "__IDX__Describe": 130694,
+      "__RAW__Describe": ""
+    },
+    {
+      "Id": 12151010,
+      "PreStep": [],
+      "StepType": 3,
+      "TaskId": 12110003,
+      "MethodTitle": "",
+      "Describe": "",
+      "OptionIds": [],
+      "RouteGroup": 12153001,
+      "__IDX__MethodTitle": 0,
+      "__RAW__MethodTitle": "",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": ""
+    },
+    {
+      "Id": 12151011,
+      "PreStep": [],
+      "StepType": 3,
+      "TaskId": 12110004,
+      "MethodTitle": "",
+      "Describe": "",
+      "OptionIds": [],
+      "RouteGroup": 12153001,
+      "__IDX__MethodTitle": 0,
+      "__RAW__MethodTitle": "",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": ""
+    },
+    {
+      "Id": 12151012,
+      "PreStep": [],
+      "StepType": 3,
+      "TaskId": 12110005,
+      "MethodTitle": "",
+      "Describe": "",
+      "OptionIds": [],
+      "RouteGroup": 12153001,
+      "__IDX__MethodTitle": 0,
+      "__RAW__MethodTitle": "",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": ""
+    },
+    {
+      "Id": 12151013,
+      "PreStep": [
+        12151010,
+        12151011,
+        12151012
+      ],
+      "StepType": 3,
+      "TaskId": 12110006,
+      "MethodTitle": "",
+      "Describe": "",
+      "OptionIds": [],
+      "RouteGroup": 12153001,
+      "__IDX__MethodTitle": 0,
+      "__RAW__MethodTitle": "",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": ""
+    },
+    {
+      "Id": 12151014,
+      "PreStep": [
+        12151013
+      ],
+      "StepType": 3,
+      "TaskId": 12110009,
+      "MethodTitle": "",
+      "Describe": "",
+      "OptionIds": [],
+      "RouteGroup": 12153002,
+      "__IDX__MethodTitle": 0,
+      "__RAW__MethodTitle": "",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": ""
+    },
+    {
+      "Id": 12151015,
+      "PreStep": [
+        12151013
+      ],
+      "StepType": 3,
+      "TaskId": 12110010,
+      "MethodTitle": "",
+      "Describe": "",
+      "OptionIds": [],
+      "RouteGroup": 12153002,
+      "__IDX__MethodTitle": 0,
+      "__RAW__MethodTitle": "",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": ""
+    },
+    {
+      "Id": 12151016,
+      "PreStep": [
+        12151013
+      ],
+      "StepType": 3,
+      "TaskId": 12110012,
+      "MethodTitle": "",
+      "Describe": "",
+      "OptionIds": [],
+      "RouteGroup": 12153002,
+      "__IDX__MethodTitle": 0,
+      "__RAW__MethodTitle": "",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": ""
+    },
+    {
+      "Id": 12151017,
+      "PreStep": [
+        12151014,
+        12151015,
+        12151016
+      ],
+      "StepType": 3,
+      "TaskId": 12110011,
+      "MethodTitle": "",
+      "Describe": "",
+      "OptionIds": [],
+      "RouteGroup": 12153002,
+      "__IDX__MethodTitle": 0,
+      "__RAW__MethodTitle": "",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": ""
+    },
+    {
+      "Id": 12151018,
+      "PreStep": [
+        12151017
+      ],
+      "StepType": 3,
+      "TaskId": 12110018,
+      "MethodTitle": "",
+      "Describe": "",
+      "OptionIds": [],
+      "RouteGroup": 12153003,
+      "__IDX__MethodTitle": 0,
+      "__RAW__MethodTitle": "",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": ""
+    },
+    {
+      "Id": 12151019,
+      "PreStep": [
+        12151017
+      ],
+      "StepType": 3,
+      "TaskId": 12110017,
+      "MethodTitle": "",
+      "Describe": "",
+      "OptionIds": [],
+      "RouteGroup": 12153003,
+      "__IDX__MethodTitle": 0,
+      "__RAW__MethodTitle": "",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": ""
+    },
+    {
+      "Id": 12151020,
+      "PreStep": [
+        12151017
+      ],
+      "StepType": 3,
+      "TaskId": 12110016,
+      "MethodTitle": "",
+      "Describe": "",
+      "OptionIds": [],
+      "RouteGroup": 12153003,
+      "__IDX__MethodTitle": 0,
+      "__RAW__MethodTitle": "",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": ""
+    },
+    {
+      "Id": 12151021,
+      "PreStep": [
+        12151018,
+        12151019,
+        12151020
+      ],
+      "StepType": 3,
+      "TaskId": 12110015,
+      "MethodTitle": "",
+      "Describe": "",
+      "OptionIds": [],
+      "RouteGroup": 12153003,
+      "__IDX__MethodTitle": 0,
+      "__RAW__MethodTitle": "",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": ""
+    }
+  ],
+  "_dumpedCount": 19,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

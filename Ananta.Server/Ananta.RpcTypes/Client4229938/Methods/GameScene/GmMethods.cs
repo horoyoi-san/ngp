@@ -2,11 +2,6 @@ using Ananta.SDK.Serialization;
 
 namespace Ananta.Server.RpcTypes.Client4229938.Methods.GameScene;
 
-/// <summary>
-/// Client -&gt; GameSceneGM GmSpawnVehicle(uint32 templateid, UXVector3 position, float facing,
-/// uint32 suitid, bool loadownvehicle, string spoonname).
-/// From ClientToGameSceneGMDelegate.lua (build 4229938). Returns u64 entity id.
-/// </summary>
 [UxContract(Inline = true)]
 internal sealed class GmSpawnVehicle
 {
@@ -18,10 +13,6 @@ internal sealed class GmSpawnVehicle
     public string SpoonName = string.Empty;
 }
 
-/// <summary>
-/// Client -&gt; GameSceneGM GmAddEnemyWithPosition(uint32 enemyid, byte camp-enum92,
-/// UXVector3 position, uint32 navtagtype, bool outsideaoimove). Returns u64 entity id.
-/// </summary>
 [UxContract(Inline = true)]
 internal sealed class GmAddEnemyWithPosition
 {
@@ -32,10 +23,6 @@ internal sealed class GmAddEnemyWithPosition
     public bool OutsideAoiMove;
 }
 
-/// <summary>
-/// Client -&gt; GameSceneGM GmAddEnemy(uint32 enemyid, byte camp-enum92, string treename,
-/// uint32 navtagtype, bool outsideaoimove). Returns u64 entity id.
-/// </summary>
 [UxContract(Inline = true)]
 internal sealed class GmAddEnemy
 {
@@ -46,10 +33,6 @@ internal sealed class GmAddEnemy
     public bool OutsideAoiMove;
 }
 
-/// <summary>
-/// Client -&gt; GameSceneGM GmAddEnemyByPlayer(uint32 enemyid, byte camp-enum92).
-/// Returns u64 entity id.
-/// </summary>
 [UxContract(Inline = true)]
 internal sealed class GmAddEnemyByPlayer
 {
@@ -57,10 +40,6 @@ internal sealed class GmAddEnemyByPlayer
     public byte Camp;
 }
 
-/// <summary>
-/// Client -&gt; GameSceneGM GmTeleportXYZ(float x, float y, float z, float facing).
-/// Returns void.
-/// </summary>
 [UxContract(Inline = true)]
 internal sealed class GmTeleportXYZ
 {

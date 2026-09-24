@@ -1,0 +1,600 @@
+{
+  "_class": "HitMaterialTypeConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 56,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "UnitBody",
+      "PhysicsTag": "UnitBody",
+      "IsBodyPart": true,
+      "AudioSwitchName": "SW_Material_HitAgent",
+      "AudioSwitchValue": "HitBody",
+      "HitMaterialTypeLink": 0,
+      "Effect_Through": []
+    },
+    {
+      "Id": 2,
+      "Name": "UnitMetal",
+      "PhysicsTag": "UnitMetal",
+      "IsBodyPart": true,
+      "AudioSwitchName": "SW_Material_HitAgent",
+      "AudioSwitchValue": "HitMetal",
+      "HitMaterialTypeLink": 13,
+      "Effect_Through": []
+    },
+    {
+      "Id": 3,
+      "Name": "UnitWood",
+      "PhysicsTag": "UnitWood",
+      "IsBodyPart": true,
+      "AudioSwitchName": "SW_Material_HitAgent",
+      "AudioSwitchValue": "HitWood",
+      "HitMaterialTypeLink": 12,
+      "Effect_Through": []
+    },
+    {
+      "Id": 4,
+      "Name": "CarShell",
+      "PhysicsTag": "CarShell",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material_HitVehicle",
+      "AudioSwitchValue": "HitCarShell",
+      "HitMaterialTypeLink": 0,
+      "Effect_Through": []
+    },
+    {
+      "Id": 5,
+      "Name": "ArmoredCarShell",
+      "PhysicsTag": "ArmoredCarShell",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material_HitVehicle",
+      "AudioSwitchValue": "HitArmoredCarShell",
+      "HitMaterialTypeLink": 0,
+      "Effect_Through": []
+    },
+    {
+      "Id": 6,
+      "Name": "CarGlass",
+      "PhysicsTag": "CarGlass",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material_HitVehicle",
+      "AudioSwitchValue": "HitCarGlass",
+      "HitMaterialTypeLink": 0,
+      "Effect_Through": []
+    },
+    {
+      "Id": 7,
+      "Name": "ArmoredCarGlass",
+      "PhysicsTag": "ArmoredCarGlass",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material_HitVehicle",
+      "AudioSwitchValue": "HitArmoredCarGlass",
+      "HitMaterialTypeLink": 6,
+      "Effect_Through": []
+    },
+    {
+      "Id": 8,
+      "Name": "Tire",
+      "PhysicsTag": "Tire",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material_HitVehicle",
+      "AudioSwitchValue": "HitCarTire",
+      "HitMaterialTypeLink": 0,
+      "Effect_Through": []
+    },
+    {
+      "Id": 9,
+      "Name": "Soil",
+      "PhysicsTag": "Soil",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Soil",
+      "HitMaterialTypeLink": 0,
+      "Effect_Through": []
+    },
+    {
+      "Id": 10,
+      "Name": "Water",
+      "PhysicsTag": "Water",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Water",
+      "HitMaterialTypeLink": 0,
+      "Effect_Through": []
+    },
+    {
+      "Id": 11,
+      "Name": "Marble",
+      "PhysicsTag": "Marble",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Marble",
+      "HitMaterialTypeLink": 0,
+      "Effect_Through": []
+    },
+    {
+      "Id": 12,
+      "Name": "Wood",
+      "PhysicsTag": "Wood",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Wood",
+      "HitMaterialTypeLink": 0,
+      "Effect_Through": []
+    },
+    {
+      "Id": 13,
+      "Name": "Metal",
+      "PhysicsTag": "Metal",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Metal",
+      "HitMaterialTypeLink": 0,
+      "Effect_Through": []
+    },
+    {
+      "Id": 14,
+      "Name": "Plastic",
+      "PhysicsTag": "Plastic",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Plastic",
+      "HitMaterialTypeLink": 0,
+      "Effect_Through": []
+    },
+    {
+      "Id": 15,
+      "Name": "Glass",
+      "PhysicsTag": "Glass",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Glass",
+      "HitMaterialTypeLink": 0,
+      "Effect_Through": []
+    },
+    {
+      "Id": 16,
+      "Name": "Fabric",
+      "PhysicsTag": "Fabric",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Fabric",
+      "HitMaterialTypeLink": 0,
+      "Effect_Through": []
+    },
+    {
+      "Id": 17,
+      "Name": "Leaf",
+      "PhysicsTag": "Leaf",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Leaf",
+      "HitMaterialTypeLink": 0,
+      "Effect_Through": [
+        53623603,
+        53623604
+      ]
+    },
+    {
+      "Id": 18,
+      "Name": "Grass",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Grass",
+      "HitMaterialTypeLink": 9,
+      "Effect_Through": []
+    },
+    {
+      "Id": 19,
+      "Name": "Sand",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Sand",
+      "HitMaterialTypeLink": 9,
+      "Effect_Through": []
+    },
+    {
+      "Id": 20,
+      "Name": "Concrete",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Concrete",
+      "HitMaterialTypeLink": 9,
+      "Effect_Through": []
+    },
+    {
+      "Id": 21,
+      "Name": "Asphalt",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Asphalt",
+      "HitMaterialTypeLink": 11,
+      "Effect_Through": []
+    },
+    {
+      "Id": 22,
+      "Name": "Plaster",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Plaster",
+      "HitMaterialTypeLink": 11,
+      "Effect_Through": []
+    },
+    {
+      "Id": 23,
+      "Name": "Clay",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Clay",
+      "HitMaterialTypeLink": 11,
+      "Effect_Through": []
+    },
+    {
+      "Id": 24,
+      "Name": "Ceramic",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Ceramic",
+      "HitMaterialTypeLink": 11,
+      "Effect_Through": []
+    },
+    {
+      "Id": 25,
+      "Name": "BlueTile",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Marble",
+      "HitMaterialTypeLink": 11,
+      "Effect_Through": []
+    },
+    {
+      "Id": 26,
+      "Name": "ShallowWater",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "ShallowWater",
+      "HitMaterialTypeLink": 10,
+      "Effect_Through": []
+    },
+    {
+      "Id": 27,
+      "Name": "Rubber",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Rubber",
+      "HitMaterialTypeLink": 14,
+      "Effect_Through": []
+    },
+    {
+      "Id": 28,
+      "Name": "Paper",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Paper",
+      "HitMaterialTypeLink": 16,
+      "Effect_Through": []
+    },
+    {
+      "Id": 29,
+      "Name": "Carton",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Carton",
+      "HitMaterialTypeLink": 12,
+      "Effect_Through": []
+    },
+    {
+      "Id": 30,
+      "Name": "Teatree",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Leaf",
+      "HitMaterialTypeLink": 12,
+      "Effect_Through": [
+        53623603,
+        53623604
+      ]
+    },
+    {
+      "Id": 31,
+      "Name": "Trunk",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Wood",
+      "HitMaterialTypeLink": 12,
+      "Effect_Through": []
+    },
+    {
+      "Id": 32,
+      "Name": "Novf",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Wood",
+      "HitMaterialTypeLink": 12,
+      "Effect_Through": []
+    },
+    {
+      "Id": 33,
+      "Name": "Vine",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Leaf",
+      "HitMaterialTypeLink": 12,
+      "Effect_Through": []
+    },
+    {
+      "Id": 34,
+      "Name": "Bamboo",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Wood",
+      "HitMaterialTypeLink": 12,
+      "Effect_Through": [
+        53623611,
+        53623612
+      ]
+    },
+    {
+      "Id": 35,
+      "Name": "Hydrangeas",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Leaf",
+      "HitMaterialTypeLink": 17,
+      "Effect_Through": [
+        53623605,
+        53623606
+      ]
+    },
+    {
+      "Id": 36,
+      "Name": "Sakura",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Leaf",
+      "HitMaterialTypeLink": 17,
+      "Effect_Through": [
+        53623609,
+        53623610
+      ]
+    },
+    {
+      "Id": 37,
+      "Name": "Peach",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Leaf",
+      "HitMaterialTypeLink": 17,
+      "Effect_Through": [
+        53623609,
+        53623610
+      ]
+    },
+    {
+      "Id": 38,
+      "Name": "Willow",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Leaf",
+      "HitMaterialTypeLink": 17,
+      "Effect_Through": []
+    },
+    {
+      "Id": 39,
+      "Name": "MapleRed",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Leaf",
+      "HitMaterialTypeLink": 17,
+      "Effect_Through": [
+        53623613,
+        53623614
+      ]
+    },
+    {
+      "Id": 40,
+      "Name": "SycamoreYellow",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Leaf",
+      "HitMaterialTypeLink": 17,
+      "Effect_Through": [
+        53623615,
+        53623616
+      ]
+    },
+    {
+      "Id": 41,
+      "Name": "Metasequoia",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Leaf",
+      "HitMaterialTypeLink": 17,
+      "Effect_Through": []
+    },
+    {
+      "Id": 42,
+      "Name": "MetasequoiaRed",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Leaf",
+      "HitMaterialTypeLink": 17,
+      "Effect_Through": []
+    },
+    {
+      "Id": 43,
+      "Name": "MapleYellow",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Leaf",
+      "HitMaterialTypeLink": 17,
+      "Effect_Through": []
+    },
+    {
+      "Id": 44,
+      "Name": "GinkgoYellow",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Leaf",
+      "HitMaterialTypeLink": 17,
+      "Effect_Through": [
+        53623617,
+        53623618
+      ]
+    },
+    {
+      "Id": 45,
+      "Name": "Redflower",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Leaf",
+      "HitMaterialTypeLink": 17,
+      "Effect_Through": []
+    },
+    {
+      "Id": 46,
+      "Name": "PinkFlower",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Leaf",
+      "HitMaterialTypeLink": 17,
+      "Effect_Through": [
+        53623607,
+        53623608
+      ]
+    },
+    {
+      "Id": 47,
+      "Name": "PurpleFlower",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Leaf",
+      "HitMaterialTypeLink": 17,
+      "Effect_Through": []
+    },
+    {
+      "Id": 48,
+      "Name": "YellowFlower",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Leaf",
+      "HitMaterialTypeLink": 17,
+      "Effect_Through": []
+    },
+    {
+      "Id": 49,
+      "Name": "Jacaranda",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Leaf",
+      "HitMaterialTypeLink": 17,
+      "Effect_Through": []
+    },
+    {
+      "Id": 50,
+      "Name": "Buleflower",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Leaf",
+      "HitMaterialTypeLink": 17,
+      "Effect_Through": []
+    },
+    {
+      "Id": 51,
+      "Name": "Whiteflower",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Leaf",
+      "HitMaterialTypeLink": 17,
+      "Effect_Through": []
+    },
+    {
+      "Id": 52,
+      "Name": "LeafRed",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Leaf",
+      "HitMaterialTypeLink": 17,
+      "Effect_Through": []
+    },
+    {
+      "Id": 53,
+      "Name": "LeafYellow",
+      "PhysicsTag": "",
+      "IsBodyPart": false,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "Leaf",
+      "HitMaterialTypeLink": 17,
+      "Effect_Through": []
+    },
+    {
+      "Id": 54,
+      "Name": "UnitBalloon",
+      "PhysicsTag": "",
+      "IsBodyPart": true,
+      "AudioSwitchName": "SW_Material_HitAgent",
+      "AudioSwitchValue": "HitBalloon",
+      "HitMaterialTypeLink": 1,
+      "Effect_Through": []
+    },
+    {
+      "Id": 55,
+      "Name": "UnitSuperMetal",
+      "PhysicsTag": "UnitSuperMetal",
+      "IsBodyPart": true,
+      "AudioSwitchName": "SW_Material",
+      "AudioSwitchValue": "HitMetal",
+      "HitMaterialTypeLink": 0,
+      "Effect_Through": []
+    },
+    {
+      "Id": 56,
+      "Name": "UnitArmor",
+      "PhysicsTag": "UnitArmor",
+      "IsBodyPart": true,
+      "AudioSwitchName": "SW_Material_HitAgent",
+      "AudioSwitchValue": "HitWood",
+      "HitMaterialTypeLink": 0,
+      "Effect_Through": []
+    }
+  ],
+  "_dumpedCount": 56,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

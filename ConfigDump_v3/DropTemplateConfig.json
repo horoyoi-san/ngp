@@ -1,0 +1,45 @@
+{
+  "_class": "DropTemplateConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 7,
+  "records": [
+    {
+      "Id": 1,
+      "RewardAction": "ShowRewardWindow",
+      "ShowSpecial": true
+    },
+    {
+      "Id": 2,
+      "RewardAction": "ShowRewardWindow",
+      "ShowSpecial": false
+    },
+    {
+      "Id": 5,
+      "RewardAction": "ShowCornerRewardType2",
+      "ShowSpecial": true
+    },
+    {
+      "Id": 6,
+      "RewardAction": "0",
+      "ShowSpecial": true
+    },
+    {
+      "Id": 7,
+      "RewardAction": "0",
+      "ShowSpecial": false
+    },
+    {
+      "Id": 8,
+      "RewardAction": "ShowProRewardWindow",
+      "ShowSpecial": false
+    },
+    {
+      "Id": 9,
+      "RewardAction": "ShowRewardWindowTimer",
+      "ShowSpecial": false
+    }
+  ],
+  "_dumpedCount": 7,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

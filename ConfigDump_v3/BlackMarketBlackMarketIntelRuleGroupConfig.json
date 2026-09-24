@@ -1,0 +1,27 @@
+{
+  "_class": "BlackMarketBlackMarketIntelRuleGroupConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 1,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "默认规则组",
+      "Desc": "默认货源情报规则组,包含所有买卖两侧的偏离区间规则",
+      "RuleIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    }
+  ],
+  "_dumpedCount": 1,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -1,0 +1,52 @@
+{
+  "_class": "ShopNpcActionConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 2,
+  "records": [
+    {
+      "Id": 94305000,
+      "FriendlyWelcomeAction": [
+        1400
+      ],
+      "NeutralWelcomeAction": [
+        1402
+      ],
+      "HostileWelcomeAction": [
+        1402
+      ],
+      "FriendlyPurchaseAction": [
+        1403
+      ],
+      "NeutralPurchaseAction": [
+        1402
+      ],
+      "HostilePurchaseAction": [
+        1402
+      ],
+      "FriendlyFarewellAction": [
+        1421
+      ],
+      "NeutralFarewellAction": [
+        1402
+      ],
+      "HostileFarewellAction": [
+        1402
+      ]
+    },
+    {
+      "Id": 94305999,
+      "FriendlyWelcomeAction": [],
+      "NeutralWelcomeAction": [],
+      "HostileWelcomeAction": [],
+      "FriendlyPurchaseAction": [],
+      "NeutralPurchaseAction": [],
+      "HostilePurchaseAction": [],
+      "FriendlyFarewellAction": [],
+      "NeutralFarewellAction": [],
+      "HostileFarewellAction": []
+    }
+  ],
+  "_dumpedCount": 2,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

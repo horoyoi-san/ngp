@@ -1,0 +1,122 @@
+{
+  "_class": "VehicleEffectCollisionConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 4,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "默认",
+      "Layer": "Default",
+      "Material": "",
+      "BangFX1": 53810007,
+      "BangFX2": 53810023,
+      "BangFX3": 0,
+      "ScrapeFX1": 53810005,
+      "ScrapeFX2": 53810023,
+      "ScrapeFX3": 0,
+      "BangVelocity": {
+        "min": 13,
+        "max": 27
+      },
+      "BangImpulse": {
+        "min": 20000,
+        "max": 40000
+      },
+      "ScrapeVelocity": {
+        "min": 0.200000003,
+        "max": 13
+      },
+      "ScrapeImpulse": {
+        "min": 100,
+        "max": 20000
+      }
+    },
+    {
+      "Id": 2,
+      "Name": "墙壁",
+      "Layer": "Wall",
+      "Material": "",
+      "BangFX1": 53810007,
+      "BangFX2": 53810023,
+      "BangFX3": 0,
+      "ScrapeFX1": 53810005,
+      "ScrapeFX2": 53810023,
+      "ScrapeFX3": 0,
+      "BangVelocity": {
+        "min": 13,
+        "max": 27
+      },
+      "BangImpulse": {
+        "min": 20000,
+        "max": 40000
+      },
+      "ScrapeVelocity": {
+        "min": 0.200000003,
+        "max": 13
+      },
+      "ScrapeImpulse": {
+        "min": 100,
+        "max": 20000
+      }
+    },
+    {
+      "Id": 3,
+      "Name": "载具",
+      "Layer": "_Vehicle",
+      "Material": "",
+      "BangFX1": 53810007,
+      "BangFX2": 53810023,
+      "BangFX3": 0,
+      "ScrapeFX1": 53810005,
+      "ScrapeFX2": 53810023,
+      "ScrapeFX3": 0,
+      "BangVelocity": {
+        "min": 13,
+        "max": 27
+      },
+      "BangImpulse": {
+        "min": 20000,
+        "max": 40000
+      },
+      "ScrapeVelocity": {
+        "min": 0.200000003,
+        "max": 13
+      },
+      "ScrapeImpulse": {
+        "min": 100,
+        "max": 20000
+      }
+    },
+    {
+      "Id": 4,
+      "Name": "装饰",
+      "Layer": "_Decoration",
+      "Material": "",
+      "BangFX1": 53810007,
+      "BangFX2": 53810023,
+      "BangFX3": 0,
+      "ScrapeFX1": 53810005,
+      "ScrapeFX2": 53810023,
+      "ScrapeFX3": 0,
+      "BangVelocity": {
+        "min": 13,
+        "max": 27
+      },
+      "BangImpulse": {
+        "min": 20000,
+        "max": 40000
+      },
+      "ScrapeVelocity": {
+        "min": 0.200000003,
+        "max": 13
+      },
+      "ScrapeImpulse": {
+        "min": 100,
+        "max": 20000
+      }
+    }
+  ],
+  "_dumpedCount": 4,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

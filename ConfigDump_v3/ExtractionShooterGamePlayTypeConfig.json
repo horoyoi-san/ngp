@@ -1,0 +1,86 @@
+{
+  "_class": "ExtractionShooterGamePlayTypeConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 2,
+  "records": [
+    {
+      "Id": 1,
+      "Type": 1,
+      "Remark": "1.0搜打撤",
+      "Name": "不要抬头！",
+      "SeasonSchemeId": 1001,
+      "ShowMoneyTypeList": [
+        36920002,
+        36920011
+      ],
+      "SellableShops": [
+        94100077,
+        94100082
+      ],
+      "ShopUseFundList": [
+        94100077
+      ],
+      "MoneyLimitPool": [
+        94100077
+      ],
+      "QuickSellShop": 94100077,
+      "GameInfo": 12119301,
+      "MutilplayerId": [
+        12112001
+      ],
+      "BeginnerplayId": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "不要抬头！",
+      "FundPoolSet": {
+        "fundType": 36920002,
+        "InitialFund": 200000,
+        "fundNumber": 1000000
+      },
+      "StorageSet": {
+        "normal": 99952001,
+        "safebox": 99952002,
+        "inventory": 99952003,
+        "wheel": 99952004
+      },
+      "EquipSlotSet": {
+        "strength": 99952006,
+        "shield": 99952007
+      }
+    },
+    {
+      "Id": 2,
+      "Type": 2,
+      "Remark": "古墓摸金",
+      "Name": "古墓摸金",
+      "SeasonSchemeId": 0,
+      "ShowMoneyTypeList": [],
+      "SellableShops": [],
+      "ShopUseFundList": [],
+      "MoneyLimitPool": [],
+      "QuickSellShop": 0,
+      "GameInfo": 0,
+      "MutilplayerId": [],
+      "BeginnerplayId": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "古墓摸金",
+      "FundPoolSet": {
+        "fundType": 0,
+        "InitialFund": 0,
+        "fundNumber": 0
+      },
+      "StorageSet": {
+        "normal": 0,
+        "safebox": 0,
+        "inventory": 0,
+        "wheel": 0
+      },
+      "EquipSlotSet": {
+        "strength": 0,
+        "shield": 0
+      }
+    }
+  ],
+  "_dumpedCount": 2,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

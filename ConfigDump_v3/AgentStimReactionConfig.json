@@ -1,0 +1,680 @@
+{
+  "_class": "AgentStimReactionConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 134,
+  "records": [
+    {
+      "Id": 1,
+      "Behavior": "BattleAngryReaction",
+      "GroupBehavior": "Group_AidReaction_Emotion"
+    },
+    {
+      "Id": 2,
+      "Behavior": "CallPoliceAngryReaction",
+      "GroupBehavior": "Group_AidReaction_Emotion"
+    },
+    {
+      "Id": 3,
+      "Behavior": "AvoidDangerMove",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 4,
+      "Behavior": "Test_EmotionTest",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 5,
+      "Behavior": "Circusee",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 6,
+      "Behavior": "Watch",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 7,
+      "Behavior": "Argue",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 8,
+      "Behavior": "Push",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 9,
+      "Behavior": "BeBeatenThenFight",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 10,
+      "Behavior": "BeBeatenThenCallPolice",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 11,
+      "Behavior": "BeBeaten",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 15,
+      "Behavior": "Talk",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 16,
+      "Behavior": "ReprimandedByPolice",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 17,
+      "Behavior": "BeQuestionedByPolice",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 18,
+      "Behavior": "RunAway",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 19,
+      "Behavior": "RunAwayFromDanger",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 20,
+      "Behavior": "RunAwayToAvoidVehicle",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 23,
+      "Behavior": "BePushedThenPush",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 24,
+      "Behavior": "BePushedThenFight",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 25,
+      "Behavior": "BePushed",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 26,
+      "Behavior": "FallDownFromSitting",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 27,
+      "Behavior": "BeScaredByAttack",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 29,
+      "Behavior": "BeScaredUnderAttack",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 32,
+      "Behavior": "BeTrappedInABucket",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 33,
+      "Behavior": "InPlayerCamera",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 34,
+      "Behavior": "AimedByMindPower",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 36,
+      "Behavior": "",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 38,
+      "Behavior": "AtkHitReactInVehicle",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 39,
+      "Behavior": "AtkMissReactInVehicle",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 41,
+      "Behavior": "MindPowerAimedReactInVehicle",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 42,
+      "Behavior": "ShotAimedReactInVehicle",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 43,
+      "Behavior": "TimidAngryReaction",
+      "GroupBehavior": "Group_AidReaction_Emotion"
+    },
+    {
+      "Id": 44,
+      "Behavior": "PoliceExaminePutHands",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 45,
+      "Behavior": "PoliceExamineCrouch",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 46,
+      "Behavior": "PoliceExamineLie",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 47,
+      "Behavior": "PoliceGuardLeave",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 49,
+      "Behavior": "PoliceExamineFlee",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 50,
+      "Behavior": "QuestNPC_VedioStore",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 51,
+      "Behavior": "PedBaseSick",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 52,
+      "Behavior": "StandInFrontOfVehicleCar",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 53,
+      "Behavior": "StandOnVehicleCar",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 54,
+      "Behavior": "CarCollideCar",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 55,
+      "Behavior": "ProvokeThenFight",
+      "GroupBehavior": "Group_AidReaction_NonEmotion_SecondToThird"
+    },
+    {
+      "Id": 56,
+      "Behavior": "IdleCurse",
+      "GroupBehavior": "Group_AidReaction_NonEmotion_FirstToThird"
+    },
+    {
+      "Id": 57,
+      "Behavior": "Dislike_Moving",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 58,
+      "Behavior": "Greeting_Moving",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 59,
+      "Behavior": "GreetingOrHelpFight",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 60,
+      "Behavior": "Greeting",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 61,
+      "Behavior": "HelpFight",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 62,
+      "Behavior": "BaseFlee",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 63,
+      "Behavior": "BaseEnterBattle",
+      "GroupBehavior": "Group_AidReaction_ThirdStage"
+    },
+    {
+      "Id": 64,
+      "Behavior": "LookatStimTarget",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 65,
+      "Behavior": "MoveToStimTarget",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 66,
+      "Behavior": "EnterBattle",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 67,
+      "Behavior": "LookatStimLocation",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 68,
+      "Behavior": "BaseShocked",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 69,
+      "Behavior": "PhoneRingingMusicReaction",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 70,
+      "Behavior": "PhoneRingingMessageReaction",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 71,
+      "Behavior": "HighReputation",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 73,
+      "Behavior": "SResponse_vehStim_avoidDangerMove",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 74,
+      "Behavior": "SResponse_BeCollideInVeh_Angry",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 75,
+      "Behavior": "SResponse_BeCollideInVeh_Afraid",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 76,
+      "Behavior": "SResponse_BeAtkShockInVehCar_Angry",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 77,
+      "Behavior": "SResponse_BeAtkShockInVehCar_Afraid",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 78,
+      "Behavior": "BaseFearWalk",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 79,
+      "Behavior": "GangBackToIdle",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 80,
+      "Behavior": "",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 81,
+      "Behavior": "SResponse_Quest_VideoStore_CopSpawn_inFear",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 82,
+      "Behavior": "SResponse_seeCrime_vehCar_fleeInVeh",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 83,
+      "Behavior": "SResponse_vehStim_avoidDangerWalk",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 84,
+      "Behavior": "StandInFrontOfVehicleCar_Violence",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 85,
+      "Behavior": "Sresponse_Quest_VideoStore_FallDownFlee",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 86,
+      "Behavior": "GangBattleReaction",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 87,
+      "Behavior": "AvoidTargetPedMove",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 88,
+      "Behavior": "BaseTakePhotos",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 89,
+      "Behavior": "SlightShockedThenLeave",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 90,
+      "Behavior": "SlightShockedThenTakePhotos",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 91,
+      "Behavior": "Group_AidReaction_Emotion",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 92,
+      "Behavior": "Group_AidReaction_NonEmotion_FirstToThird",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 93,
+      "Behavior": "Group_AidReaction_NonEmotion_SecondToThird",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 94,
+      "Behavior": "Group_AidReaction_ThirdStage",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 95,
+      "Behavior": "Companion_Response_RichieBeKnocked",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 96,
+      "Behavior": "Companion_Response_TaffyBeKnocked",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 97,
+      "Behavior": "FavourNPC_InPlayerCamera",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 98,
+      "Behavior": "QuestNPC_AGroupOfThree",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 99,
+      "Behavior": "SlightShockedThenHurryLeave",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 100,
+      "Behavior": "AngryTakePhotos",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 101,
+      "Behavior": "BaseAvoidTargetPedMove",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 102,
+      "Behavior": "TurnLookThenHurryLeave",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 103,
+      "Behavior": "GangDirectEnterBattle",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 104,
+      "Behavior": "GangOpenDetect",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 105,
+      "Behavior": "ShockedFastTakePhotos",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 106,
+      "Behavior": "HappyTakePhotos",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 107,
+      "Behavior": "GreetingReaction",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 108,
+      "Behavior": "GangEnterBattle",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 109,
+      "Behavior": "WaitingInvestigation",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 110,
+      "Behavior": "TurnLookThenAvoidTargetPedMove",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 111,
+      "Behavior": "InvestigationOrBaseflee",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 112,
+      "Behavior": "Companion_Reaction_Richie_Crash",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 113,
+      "Behavior": "Animal_Toilet_Flee",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 114,
+      "Behavior": "SResponse_AvoidCleaner",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 115,
+      "Behavior": "Sresponse_Char_SayHi",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 116,
+      "Behavior": "Sresponse_Char_NTR",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 117,
+      "Behavior": "RunAwayFromTheFireEngine",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 118,
+      "Behavior": "ProvokingPlayer",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 119,
+      "Behavior": "Companion_Reaction_LookAtTarget_Strange",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 120,
+      "Behavior": "Companion_Reaction_LookAtTarget_LuxuryCar",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 121,
+      "Behavior": "Companion_Reaction_LookAtTarget_Cat",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 122,
+      "Behavior": "Companion_Reaction_AimedLong",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 123,
+      "Behavior": "Companion_Reaction_PlayerSwing",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 124,
+      "Behavior": "Companion_Reaction_Watch",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 125,
+      "Behavior": "Companion_Reaction_Toilet",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 126,
+      "Behavior": "Companion_Reaction_Car_Fast",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 127,
+      "Behavior": "Companion_Reaction_Car_PlayerJump",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 128,
+      "Behavior": "Companion_Reaction_CarCollision",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 129,
+      "Behavior": "FearCrouchDown",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 130,
+      "Behavior": "Companion_Reaction_CarLittleImpact",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 131,
+      "Behavior": "Companion_Reaction_CarLargeImpact",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 132,
+      "Behavior": "Animal_CommonFlee",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 133,
+      "Behavior": "Animal_CommonFollow",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 134,
+      "Behavior": "Dog_BarkConfrontation",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 135,
+      "Behavior": "Animal_FlyingFlee",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 136,
+      "Behavior": "ChaosDuck_Warning",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 137,
+      "Behavior": "NPC_BeScare",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 138,
+      "Behavior": "ChaosDuck_Flee",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 139,
+      "Behavior": "PushPlayerThenComplain",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 140,
+      "Behavior": "BaseFearWalkCallPolice",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 141,
+      "Behavior": "BaseFleeCallPolice",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 142,
+      "Behavior": "CallPolice",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 143,
+      "Behavior": "GazeReaction",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 144,
+      "Behavior": "Mascot_Turn",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 145,
+      "Behavior": "Mascot_Flee",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 146,
+      "Behavior": "Companion_Reaction_CarWatch",
+      "GroupBehavior": ""
+    },
+    {
+      "Id": 147,
+      "Behavior": "Companion_Reaction_PlayerSingleAction",
+      "GroupBehavior": ""
+    }
+  ],
+  "_dumpedCount": 134,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

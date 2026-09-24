@@ -1,0 +1,1034 @@
+{
+  "_class": "CameraPostProcessingConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 64,
+  "records": [
+    {
+      "Id": 99200001,
+      "Type": 0,
+      "RadialBlurHoldTime": 0,
+      "RadialBlurTime": 0,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0,
+      "RBQuality": 0,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "",
+      "RBCenterPos": {
+        "posX": 0,
+        "posY": 0
+      }
+    },
+    {
+      "Id": 99200002,
+      "Type": 1,
+      "RadialBlurHoldTime": 0,
+      "RadialBlurTime": 0.230000004,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.449999988,
+      "RBQuality": 1,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "梦言协同技斩十字",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200003,
+      "Type": 1,
+      "RadialBlurHoldTime": 0,
+      "RadialBlurTime": 0.300000012,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.100000001,
+      "RBQuality": 1,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "飞索飞行时模糊",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200004,
+      "Type": 1,
+      "RadialBlurHoldTime": 0,
+      "RadialBlurTime": 0.300000012,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.100000001,
+      "RBQuality": 1,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "秋鹰协同技爆炸",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200005,
+      "Type": 1,
+      "RadialBlurHoldTime": 0,
+      "RadialBlurTime": 0.5,
+      "RBCenterOffsetY": 0,
+      "RBAmount": -0.150000006,
+      "RBQuality": 1,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "朱鸾协同技径向模糊",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200006,
+      "Type": 1,
+      "RadialBlurHoldTime": 0,
+      "RadialBlurTime": 1.5,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.100000001,
+      "RBQuality": 2,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "花溟吼",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200007,
+      "Type": 1,
+      "RadialBlurHoldTime": 0,
+      "RadialBlurTime": 0.300000012,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.100000001,
+      "RBQuality": 1,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "受击模糊小",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200008,
+      "Type": 1,
+      "RadialBlurHoldTime": 0,
+      "RadialBlurTime": 0.5,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.200000003,
+      "RBQuality": 1,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "受击模糊大",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200009,
+      "Type": 1,
+      "RadialBlurHoldTime": 0,
+      "RadialBlurTime": 4.19999981,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.100000001,
+      "RBQuality": 2,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "雷龟吼",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200010,
+      "Type": 1,
+      "RadialBlurHoldTime": 0,
+      "RadialBlurTime": 0.400000006,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.100000001,
+      "RBQuality": 1,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "雷龟落地",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200011,
+      "Type": 1,
+      "RadialBlurHoldTime": 0,
+      "RadialBlurTime": 1.5,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.0500000007,
+      "RBQuality": 2,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "雷龟skill04镜头表现",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200012,
+      "Type": 1,
+      "RadialBlurHoldTime": 0,
+      "RadialBlurTime": 0.5,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.100000001,
+      "RBQuality": 2,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "龙帝同调镜头表现",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200013,
+      "Type": 1,
+      "RadialBlurHoldTime": 0,
+      "RadialBlurTime": 0.200000003,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.100000001,
+      "RBQuality": 2,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "长业超骇",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200014,
+      "Type": 1,
+      "RadialBlurHoldTime": 0,
+      "RadialBlurTime": 4.19999981,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.100000001,
+      "RBQuality": 2,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "占位",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200015,
+      "Type": 1,
+      "RadialBlurHoldTime": 0,
+      "RadialBlurTime": 4.19999981,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.100000001,
+      "RBQuality": 2,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "占位",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200016,
+      "Type": 1,
+      "RadialBlurHoldTime": 0,
+      "RadialBlurTime": 0.300000012,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.200000003,
+      "RBQuality": 2,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "伊拉同调",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200017,
+      "Type": 1,
+      "RadialBlurHoldTime": 0,
+      "RadialBlurTime": 0.200000003,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.349999994,
+      "RBQuality": 2,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "梦言同调",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200018,
+      "Type": 1,
+      "RadialBlurHoldTime": 0,
+      "RadialBlurTime": 3,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.0500000007,
+      "RBQuality": 1,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "金傀同调",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200019,
+      "Type": 1,
+      "RadialBlurHoldTime": 0,
+      "RadialBlurTime": 0.300000012,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.100000001,
+      "RBQuality": 1,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "角色通用径向模糊0.3秒小",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200020,
+      "Type": 1,
+      "RadialBlurHoldTime": 0,
+      "RadialBlurTime": 0.300000012,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.300000012,
+      "RBQuality": 1,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "角色通用径向模糊0.3秒大",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200021,
+      "Type": 1,
+      "RadialBlurHoldTime": 0,
+      "RadialBlurTime": 0.200000003,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.100000001,
+      "RBQuality": 1,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "伊拉召回",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200022,
+      "Type": 1,
+      "RadialBlurHoldTime": 0.400000006,
+      "RadialBlurTime": 0.200000003,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.100000001,
+      "RBQuality": 1,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "玄同调怒吼",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200023,
+      "Type": 1,
+      "RadialBlurHoldTime": 0,
+      "RadialBlurTime": 0.200000003,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.100000001,
+      "RBQuality": 1,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "玄同调砸地小",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200024,
+      "Type": 1,
+      "RadialBlurHoldTime": 0,
+      "RadialBlurTime": 0.300000012,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.150000006,
+      "RBQuality": 1,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "玄同调砸地大",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200025,
+      "Type": 1,
+      "RadialBlurHoldTime": 0,
+      "RadialBlurTime": 0.200000003,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.200000003,
+      "RBQuality": 2,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "觉醒梦言同调",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200026,
+      "Type": 1,
+      "RadialBlurHoldTime": 0,
+      "RadialBlurTime": 0.200000003,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.100000001,
+      "RBQuality": 2,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "觉醒梦言同调模糊轻",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200027,
+      "Type": 1,
+      "RadialBlurHoldTime": 0,
+      "RadialBlurTime": 0.0500000007,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.0500000007,
+      "RBQuality": 1,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "角色通用径向模糊0.05秒小",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200028,
+      "Type": 1,
+      "RadialBlurHoldTime": 0,
+      "RadialBlurTime": 0.200000003,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.200000003,
+      "RBQuality": 1,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "玄同调1最后一刀",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200029,
+      "Type": 1,
+      "RadialBlurHoldTime": 0.100000001,
+      "RadialBlurTime": 0.0500000007,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.100000001,
+      "RBQuality": 1,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "花信风",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200030,
+      "Type": 1,
+      "RadialBlurHoldTime": 0.200000003,
+      "RadialBlurTime": 0.100000001,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.100000001,
+      "RBQuality": 1,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "夺命金钩",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200031,
+      "Type": 1,
+      "RadialBlurHoldTime": 0,
+      "RadialBlurTime": 0.699999988,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.100000001,
+      "RBQuality": 1,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "通用死亡",
+      "RBCenterPos": {
+        "posX": 0,
+        "posY": 0
+      }
+    },
+    {
+      "Id": 99200032,
+      "Type": 1,
+      "RadialBlurHoldTime": 0.100000001,
+      "RadialBlurTime": 0.166999996,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.100000001,
+      "RBQuality": 2,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "浅井长政脚01跺地",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200033,
+      "Type": 1,
+      "RadialBlurHoldTime": 0.100000001,
+      "RadialBlurTime": 0.232999995,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.100000001,
+      "RBQuality": 2,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "浅井长政脚02前踢命中",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200034,
+      "Type": 1,
+      "RadialBlurHoldTime": 0.100000001,
+      "RadialBlurTime": 0.333000004,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.300000012,
+      "RBQuality": 2,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "浅井长政脚03重砸",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200035,
+      "Type": 1,
+      "RadialBlurHoldTime": 0.0670000017,
+      "RadialBlurTime": 0.133000001,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.200000003,
+      "RBQuality": 2,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "抓取1小模糊",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200036,
+      "Type": 1,
+      "RadialBlurHoldTime": 0.100000001,
+      "RadialBlurTime": 0.200000003,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.270000011,
+      "RBQuality": 2,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "抓取1大模糊",
+      "RBCenterPos": {
+        "posX": 0.649999976,
+        "posY": 0.400000006
+      }
+    },
+    {
+      "Id": 99200037,
+      "Type": 1,
+      "RadialBlurHoldTime": 0.0670000017,
+      "RadialBlurTime": 0.133000001,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.200000003,
+      "RBQuality": 2,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "抓取2小模糊",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200038,
+      "Type": 1,
+      "RadialBlurHoldTime": 0.100000001,
+      "RadialBlurTime": 0.200000003,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.270000011,
+      "RBQuality": 2,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "抓取2大模糊",
+      "RBCenterPos": {
+        "posX": 0.550000012,
+        "posY": 0.449999988
+      }
+    },
+    {
+      "Id": 99200039,
+      "Type": 1,
+      "RadialBlurHoldTime": 0.0670000017,
+      "RadialBlurTime": 0.133000001,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.200000003,
+      "RBQuality": 2,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "抓取3小模糊",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200040,
+      "Type": 1,
+      "RadialBlurHoldTime": 0.133000001,
+      "RadialBlurTime": 0.232999995,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.319999993,
+      "RBQuality": 2,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "抓取3大模糊",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200041,
+      "Type": 1,
+      "RadialBlurHoldTime": 0.100000001,
+      "RadialBlurTime": 0.200000003,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.25,
+      "RBQuality": 2,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "迅妖怪化处决模糊",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200042,
+      "Type": 1,
+      "RadialBlurHoldTime": 0.100000001,
+      "RadialBlurTime": 0.200000003,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.25,
+      "RBQuality": 2,
+      "RBBoneName": "upbody",
+      "Usage": 0,
+      "Name": "深空利刺模糊",
+      "RBCenterPos": {
+        "posX": 0,
+        "posY": 0
+      }
+    },
+    {
+      "Id": 99200043,
+      "Type": 1,
+      "RadialBlurHoldTime": 0.166999996,
+      "RadialBlurTime": 0.333000004,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.449999988,
+      "RBQuality": 2,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "主角qte技能预留",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200044,
+      "Type": 1,
+      "RadialBlurHoldTime": 0.0500000007,
+      "RadialBlurTime": 0.100000001,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.0500000007,
+      "RBQuality": 2,
+      "RBBoneName": "upbody",
+      "Usage": 0,
+      "Name": "超短命中小模糊",
+      "RBCenterPos": {
+        "posX": 0,
+        "posY": 0
+      }
+    },
+    {
+      "Id": 99200045,
+      "Type": 1,
+      "RadialBlurHoldTime": 0.0670000017,
+      "RadialBlurTime": 0.133000001,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.200000003,
+      "RBQuality": 2,
+      "RBBoneName": "upbody",
+      "Usage": 0,
+      "Name": "超短命中中模糊",
+      "RBCenterPos": {
+        "posX": 0,
+        "posY": 0
+      }
+    },
+    {
+      "Id": 99200046,
+      "Type": 1,
+      "RadialBlurHoldTime": 0.0670000017,
+      "RadialBlurTime": 0.133000001,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.330000013,
+      "RBQuality": 2,
+      "RBBoneName": "upbody",
+      "Usage": 0,
+      "Name": "超短命中大模糊",
+      "RBCenterPos": {
+        "posX": 0,
+        "posY": 0
+      }
+    },
+    {
+      "Id": 99200047,
+      "Type": 1,
+      "RadialBlurHoldTime": 0.150000006,
+      "RadialBlurTime": 0.150000006,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.00999999978,
+      "RBQuality": 2,
+      "RBBoneName": "upbody",
+      "Usage": 0,
+      "Name": "闪避长时间的小模糊",
+      "RBCenterPos": {
+        "posX": 0,
+        "posY": 0
+      }
+    },
+    {
+      "Id": 99200048,
+      "Type": 1,
+      "RadialBlurHoldTime": 0.100000001,
+      "RadialBlurTime": 0.100000001,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.300000012,
+      "RBQuality": 2,
+      "RBBoneName": "upbody",
+      "Usage": 0,
+      "Name": "闪避长时间的小模糊",
+      "RBCenterPos": {
+        "posX": 0,
+        "posY": 0
+      }
+    },
+    {
+      "Id": 99200049,
+      "Type": 1,
+      "RadialBlurHoldTime": 0.100000001,
+      "RadialBlurTime": 0.200000003,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.25,
+      "RBQuality": 2,
+      "RBBoneName": "upbody",
+      "Usage": 0,
+      "Name": "迅妖怪化处决模糊",
+      "RBCenterPos": {
+        "posX": 0,
+        "posY": 0
+      }
+    },
+    {
+      "Id": 99200050,
+      "Type": 1,
+      "RadialBlurHoldTime": 0.100000001,
+      "RadialBlurTime": 0.100000001,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.300000012,
+      "RBQuality": 2,
+      "RBBoneName": "upbody",
+      "Usage": 0,
+      "Name": "",
+      "RBCenterPos": {
+        "posX": 0,
+        "posY": 0
+      }
+    },
+    {
+      "Id": 99200051,
+      "Type": 1,
+      "RadialBlurHoldTime": 0.300000012,
+      "RadialBlurTime": 1.20000005,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.100000001,
+      "RBQuality": 2,
+      "RBBoneName": "upbody",
+      "Usage": 0,
+      "Name": "赤刃怒吼",
+      "RBCenterPos": {
+        "posX": 0,
+        "posY": 0
+      }
+    },
+    {
+      "Id": 99200052,
+      "Type": 1,
+      "RadialBlurHoldTime": 0.0299999993,
+      "RadialBlurTime": 0.100000001,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.100000001,
+      "RBQuality": 2,
+      "RBBoneName": "upbody",
+      "Usage": 0,
+      "Name": "塔菲普攻1",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200053,
+      "Type": 1,
+      "RadialBlurHoldTime": 0.0500000007,
+      "RadialBlurTime": 0.150000006,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.100000001,
+      "RBQuality": 2,
+      "RBBoneName": "upbody",
+      "Usage": 0,
+      "Name": "塔菲普攻2",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200054,
+      "Type": 1,
+      "RadialBlurHoldTime": 0.150000006,
+      "RadialBlurTime": 0.0500000007,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.100000001,
+      "RBQuality": 2,
+      "RBBoneName": "upbody",
+      "Usage": 0,
+      "Name": "塔菲普攻3",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200055,
+      "Type": 1,
+      "RadialBlurHoldTime": 0.170000002,
+      "RadialBlurTime": 0.100000001,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.100000001,
+      "RBQuality": 2,
+      "RBBoneName": "upbody",
+      "Usage": 0,
+      "Name": "塔菲普攻4",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200056,
+      "Type": 1,
+      "RadialBlurHoldTime": 0.00999999978,
+      "RadialBlurTime": 0.0599999987,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.0500000007,
+      "RBQuality": 2,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "射击多茜测试",
+      "RBCenterPos": {
+        "posX": 0.100000001,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200057,
+      "Type": 1,
+      "RadialBlurHoldTime": 0.300000012,
+      "RadialBlurTime": 1.04999995,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.100000001,
+      "RBQuality": 2,
+      "RBBoneName": "upbody",
+      "Usage": 0,
+      "Name": "花溟啸叫",
+      "RBCenterPos": {
+        "posX": 0,
+        "posY": 0
+      }
+    },
+    {
+      "Id": 99200059,
+      "Type": 1,
+      "RadialBlurHoldTime": 0,
+      "RadialBlurTime": 0.150000006,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.200000003,
+      "RBQuality": 2,
+      "RBBoneName": "upbody",
+      "Usage": 0,
+      "Name": "炸弹连续小模糊",
+      "RBCenterPos": {
+        "posX": 0,
+        "posY": 0
+      }
+    },
+    {
+      "Id": 99200060,
+      "Type": 1,
+      "RadialBlurHoldTime": 0.150000006,
+      "RadialBlurTime": 0.100000001,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.0799999982,
+      "RBQuality": 2,
+      "RBBoneName": "upbody",
+      "Usage": 0,
+      "Name": "千子狩附魔额外风刃",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0
+      }
+    },
+    {
+      "Id": 99200061,
+      "Type": 1,
+      "RadialBlurHoldTime": 0.150000006,
+      "RadialBlurTime": 0.100000001,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.0799999982,
+      "RBQuality": 2,
+      "RBBoneName": "upbody",
+      "Usage": 0,
+      "Name": "班茜普攻第5段第2下",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0
+      }
+    },
+    {
+      "Id": 99200062,
+      "Type": 1,
+      "RadialBlurHoldTime": 0.0299999993,
+      "RadialBlurTime": 0.0599999987,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.0799999982,
+      "RBQuality": 1,
+      "RBBoneName": "upbody",
+      "Usage": 0,
+      "Name": "班茜普攻小",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200063,
+      "Type": 1,
+      "RadialBlurHoldTime": 0,
+      "RadialBlurTime": 0.150000006,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.100000001,
+      "RBQuality": 1,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200064,
+      "Type": 1,
+      "RadialBlurHoldTime": 0,
+      "RadialBlurTime": 0.400000006,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.0799999982,
+      "RBQuality": 1,
+      "RBBoneName": "",
+      "Usage": 0,
+      "Name": "",
+      "RBCenterPos": {
+        "posX": 0.100000001,
+        "posY": 0.5
+      }
+    },
+    {
+      "Id": 99200065,
+      "Type": 1,
+      "RadialBlurHoldTime": 0.100000001,
+      "RadialBlurTime": 0.100000001,
+      "RBCenterOffsetY": 0,
+      "RBAmount": 0.200000003,
+      "RBQuality": 1,
+      "RBBoneName": "upbody",
+      "Usage": 0,
+      "Name": "电表命中敌人径向模糊",
+      "RBCenterPos": {
+        "posX": 0.5,
+        "posY": 0.5
+      }
+    }
+  ],
+  "_dumpedCount": 64,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

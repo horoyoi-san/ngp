@@ -1,0 +1,22 @@
+{
+  "_class": "SwitchSpiritAcrossRaidTLConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 2,
+  "records": [
+    {
+      "Id": 1,
+      "FromRaidId": 23300888,
+      "ToRaidId": 23300999,
+      "TimeLine": "SwitchChar_map_shot02"
+    },
+    {
+      "Id": 2,
+      "FromRaidId": 23300999,
+      "ToRaidId": 23300888,
+      "TimeLine": "SwitchChar_map_shot04"
+    }
+  ],
+  "_dumpedCount": 2,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

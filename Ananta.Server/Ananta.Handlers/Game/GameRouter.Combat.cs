@@ -1,4 +1,6 @@
 using Ananta.SDK.Rpc;
+using Ananta.SDK.Network;
+using Ananta.Server.Configuration;
 using Ananta.Server.ClientData.Client4229938;
 using Ananta.Server.Handlers;
 using Ananta.Server.Protocol.Client4229938;
@@ -7,7 +9,6 @@ using SceneMethods = Ananta.Server.RpcTypes.Client4229938.Methods.GameScene;
 
 namespace Ananta.Server.Handlers.Game;
 
-/// <summary>Authoritative weapon, fight-style and skill lifecycle for the current local unit.</summary>
 internal sealed partial class GameRouter
 {
     async Task OnClientUseSkill(RpcContext ctx, SceneMethods.SkillUseData req)
@@ -31,7 +32,13 @@ internal sealed partial class GameRouter
         var weapon = CombatCodec.Weapon(state.ActiveSpiritTemplateId, state.ActiveWeaponInstanceId)
             ?? CombatCodec.DefaultWeapon(state.ActiveSpiritTemplateId);
         if (weapon.IsReloadSkill(req.SkillId))
-            await ReloadWeapon4229938(ctx, state, weapon);
+        {
+            
+            
+            
+            state.PendingReloadWeaponInstanceId = weapon.InstanceId;
+            ctx.Session.Log.Info($"[AMMO] reload-start weapon={weapon.TemplateId}/{weapon.InstanceId} skill={req.SkillId} (补弹延后到技能结束)");
+        }
         if (!weapon.AllowsSkill(style, req.SkillId))
         {
             ctx.Session.Log.Warn($"[COMBAT] reject unknown-skill style={style.Id} weapon={state.ActiveWeaponInstanceId} skill={req.SkillId} inst={req.SkillInstanceId}");
@@ -63,15 +70,29 @@ internal sealed partial class GameRouter
         if (state.CombatEndCount <= 20 || state.CombatEndCount % 50 == 0)
             ctx.Session.Log.Info($"[COMBAT] end unit={report.unitId} token={report.skillId} next={report.newSkillId} break={report.isBreak} elapsedMs={elapsed} count={state.CombatEndCount}");
 
+        
+        
+        
+        if (state.PendingReloadWeaponInstanceId != 0)
+        {
+            var reloadInstance = state.PendingReloadWeaponInstanceId;
+            state.PendingReloadWeaponInstanceId = 0;
+            var reloadWeapon = CombatCatalogRepository.Weapon(state.ActiveSpiritTemplateId, reloadInstance)
+                ?? CombatCatalogRepository.Weapon(reloadInstance)
+                ?? CombatCodec.Weapon(state.ActiveSpiritTemplateId, state.ActiveWeaponInstanceId)
+                ?? CombatCodec.DefaultWeapon(state.ActiveSpiritTemplateId);
+            await ReloadWeapon4229938(ctx, state, reloadWeapon);
+        }
+
         var style = ActiveStyle(state);
         var weapon = CombatCodec.Weapon(state.ActiveSpiritTemplateId, state.ActiveWeaponInstanceId)
             ?? CombatCodec.DefaultWeapon(state.ActiveSpiritTemplateId);
         if (report.newSkillId != 0 && weapon.AllowsSkill(style, report.newSkillId))
         {
-            // isBreak describes how the previous native action ended, not whether the authored chain
-            // ended. The client reports isBreak=true + a non-zero newSkillId for ordinary rapid-click
-            // combo transitions. Keep every known next skill alive and never inject cooldown/resource
-            // snapshots between click, hold and release stages.
+            
+            
+            
+            
             state.ActiveSkillId = report.newSkillId;
             state.ActiveClientSkillInstanceId = 0;
             state.ActiveSkillStartedTicks = Environment.TickCount64;
@@ -84,15 +105,15 @@ internal sealed partial class GameRouter
         state.ActiveClientSkillInstanceId = 0;
         state.ActiveSkillStartedTicks = 0;
 
-        // Ordinary attacks must finish without any server-side skill-state rewrite. Re-publishing the
-        // whole charge/resource snapshot after each common attack can make the client save a new action
-        // while the previous trigger graph is still iterating, which restarts the first animation on
-        // every click. Only cooldown/charge abilities and ultimates need sandbox restoration.
+        
+        
+        
+        
         if (!restoreResources)
             return;
 
-        // The private server runs an unrestricted combat sandbox: restore charges and ultimate energy
-        // only after the complete authored ability chain has ended, never between combo/hold stages.
+        
+        
         await ctx.NotifyAsync(MethodId.SyncPlayerAllSkillChargeData,
             CombatCodec.AllSkillCharges(state.ActiveSpiritUnitId, weapon, style));
         await ctx.NotifyAsync(MethodId.SyncFightResource,
@@ -154,8 +175,8 @@ internal sealed partial class GameRouter
         state.ActiveFightStyleId = style.Id;
         state.LastWeaponBySpirit[state.ActiveSpiritTemplateId] = weapon.InstanceId;
 
-        // Re-send the authoritative slot snapshot as a cheap self-heal if the client rebuilt its
-        // WeaponManager during a scene/UI transition.
+        
+        
         await PublishWeaponSnapshot(ctx, state.ActiveSpiritUnitId, state.ActiveSpiritTemplateId, weapon.InstanceId);
         await ctx.NotifyAsync(MethodId.SyncSpiritSwitchWeaponAction,
             CombatCodec.SpiritSwitchWeapon(state.ActiveSpiritUnitId, weapon.InstanceId));
@@ -186,16 +207,16 @@ internal sealed partial class GameRouter
             return;
         }
 
-        // The RPC carries the category being replaced. Keep exactly that key; duplicating the
-        // style under FightSkillConfig.FightSkillType can overwrite an unrelated special category.
+        
+        
         state.SpiritStyleOverrides[(spiritId, fightStyleTypeId)] = fightStyleId;
         await ctx.NotifyAsync(MethodId.SyncSpiritFightStyleChangeAction,
             CombatCodec.FightStyleAction(spiritId, SpiritFightStyleOverrides(state, spiritId)));
 
         if (spiritId == state.ActiveSpiritTemplateId)
         {
-            // FightStyleManager also keeps a weapon-instance style cache. Refresh the equipped
-            // instances in this category so the explicit live FightStyleId follows Replace All.
+            
+            
             foreach (var instanceId in WeaponSlotIds(state, spiritId).Where(x => x != 0).Distinct())
             {
                 if (CombatCodec.Weapon(spiritId, instanceId) is not { } slotWeapon)
@@ -311,8 +332,8 @@ internal sealed partial class GameRouter
             return;
         }
 
-        // Empty wheel positions are represented by a normal complex-object null marker. Keep the
-        // shared armory intact while removing the weapon only from this character's personal wheel.
+        
+        
         slots[slotIndex] = 0;
         await PublishWeaponSlotsAfterMutation(ctx, spiritId, $"deposit:{slotIndex}");
     }
@@ -416,13 +437,22 @@ internal sealed partial class GameRouter
         if (!weapon.IsShootWeapon || weapon.MagazineAmmo == 0)
             return Task.CompletedTask;
 
+        
+        
+        
+        if (weapon.IsReloadSkill((uint)Math.Max(0, skillInstanceId)))
+        {
+            ctx.Session.Log.Info($"[AMMO] skip-consume (reload skill) weapon={weapon.TemplateId}/{weapon.InstanceId} skill={skillInstanceId}");
+            return Task.CompletedTask;
+        }
+
         var current = EnsureMagazine4229938(state, weapon);
         if (current > 0)
             state.WeaponMagazineAmmo[weapon.InstanceId] = --current;
 
-        // Separate-bullet firearms consume only the loaded magazine; their reserve is an ordinary
-        // backpack item. Other firearms use Durability as total remaining ammunition, so decrement
-        // total and magazine together. Infinite (-1) values stay infinite.
+        
+        
+        
         var durability = CurrentDurability4229938(state, weapon, current);
         if (!weapon.SeparateBullets && durability > 0)
         {
@@ -448,17 +478,29 @@ internal sealed partial class GameRouter
         var state = GetWorldState(ctx);
         var weapon = CombatCatalogRepository.Weapon(state.ActiveSpiritTemplateId, weaponInstanceId)
             ?? CombatCatalogRepository.Weapon(weaponInstanceId);
-        if (weapon is null || !weapon.SeparateBullets || bulletId == 0 || !weapon.BulletIds.Contains(bulletId))
+        if (weapon is null || bulletId == 0)
         {
             ctx.Session.Log.Warn($"[AMMO] equip rejected weapon={weaponInstanceId} bullet={bulletId}");
             return;
         }
+
+        
+        
+        
+        
+        
+        
+        if (weapon.BulletIds.Count > 0 && !weapon.BulletIds.Contains(bulletId))
+            ctx.Session.Log.Warn($"[AMMO] equip bullet={bulletId} 不在 weapon={weapon.TemplateId} 的弹药表里，仍按客户端为准接受");
+
         state.WeaponBulletByInstance[weaponInstanceId] = bulletId;
+        state.PendingReloadWeaponInstanceId = weaponInstanceId;
         var mag = EnsureMagazine4229938(state, weapon);
         var reserve = EnsureReserve4229938(state, bulletId);
+        ctx.Session.Log.Info($"[AMMO] equip weapon={weapon.TemplateId}/{weapon.InstanceId} bullet={bulletId} mag={mag}/{weapon.MagazineAmmo} reserve={reserve} separate={weapon.SeparateBullets} (补弹延后)");
+
         await ctx.NotifyAsync(MethodId.SyncSpiritWeaponDurabilityChangedAction,
             CombatCodec.WeaponDurabilityChanged(state.ActiveSpiritTemplateId, state.ActiveSpiritUnitId, weapon, mag, mag, bulletId));
-        ctx.Session.Log.Info($"[AMMO] bullet-selected weapon={weapon.TemplateId}/{weapon.InstanceId} bullet={bulletId} mag={mag}/{weapon.MagazineAmmo} reserve={reserve}");
     }
 
     private async Task ReloadWeapon4229938(RpcContext ctx, WorldEntryState state, CombatWeaponDefinition weapon)
@@ -470,6 +512,38 @@ internal sealed partial class GameRouter
         if (mag < 0 || mag >= capacity)
             return;
         var bulletId = EnsureBullet4229938(state, weapon);
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        if (PrivateServerConfigStore.Current.Gameplay.Combat.InfiniteAmmo)
+        {
+            state.WeaponMagazineAmmo[weapon.InstanceId] = capacity;
+            var infiniteBullet = EnsureBullet4229938(state, weapon);
+            int total;
+            if (weapon.SeparateBullets)
+            {
+                total = capacity;
+            }
+            else
+            {
+                total = -1;   
+                state.WeaponDurabilityAmmo[weapon.InstanceId] = -1;
+            }
+            await ctx.NotifyAsync(MethodId.SyncSpiritWeaponDurabilityChangedAction,
+                CombatCodec.WeaponDurabilityChanged(state.ActiveSpiritTemplateId, state.ActiveSpiritUnitId,
+                    weapon, total, capacity, infiniteBullet));
+            ctx.Session.Log.Info($"[AMMO] reload(infinite) weapon={weapon.TemplateId}/{weapon.InstanceId} mag={capacity}/{capacity} total={total}");
+            return;
+        }
 
         if (weapon.SeparateBullets && bulletId != 0)
         {
@@ -493,8 +567,8 @@ internal sealed partial class GameRouter
             return;
         }
 
-        // Non-separate firearms use Durability as total remaining ammunition. Reload moves rounds
-        // from reserve into the magazine without increasing total ammo. A total of -1 is infinite.
+        
+        
         var durability = EnsureDurability4229938(state, weapon);
         var reserveNonSeparate = NonSeparateReserve4229938(durability, mag);
         var needed = Math.Max(0, capacity - mag);
@@ -573,14 +647,52 @@ internal sealed partial class GameRouter
         CombatWeaponDefinition weapon,
         CombatStyleDefinition style)
     {
-        // Switching/individually styling one weapon must never overwrite the character-wide
-        // FightStyleInfo map. OnSwitchFightStyle publishes that map explicitly.
+        
+        
         await ctx.NotifyAsync(MethodId.SyncPlayerAllSkillChargeData,
             CombatCodec.AllSkillCharges(unitId, weapon, style));
         await PublishCombatResources(ctx, unitId);
         await PublishSkillBindings(ctx, unitId, weapon, style);
         await ctx.NotifyAsync(MethodId.SyncSpiritLastUsedWeapon,
             CombatCodec.SpiritLastUsedWeapon(templateId, weapon.InstanceId));
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        GetWorldState(ctx).CombatProfilePublished = true;
+    }
+
+    
+    
+    
+    
+    
+    
+    
+    internal async Task PublishInitialCombatProfileAsync(TcpSession session)
+    {
+        if (!session.Items.TryGetValue(WorldStateKey, out var raw) || raw is not WorldEntryState state)
+            return;
+        if (state.ActiveSpiritUnitId == 0)
+            return;
+
+        var weapon = CombatCodec.Weapon(state.ActiveSpiritTemplateId, state.ActiveWeaponInstanceId)
+            ?? CombatCodec.DefaultWeapon(state.ActiveSpiritTemplateId);
+        var style = ResolveWeaponStyle(state, weapon);
+
+        
+        var ctx = new RpcContext(session, new RpcPacket(RpcPacketKind.Notify, 0, 0, []), CancellationToken.None);
+        await PublishSelectedWeaponProfile(ctx, state.ActiveSpiritUnitId, state.ActiveSpiritTemplateId, weapon, style);
+        session.Log.Info(
+            $"[COMBAT] 进世界发布战斗档案 unit={state.ActiveSpiritUnitId} weapon={weapon.TemplateId}/{weapon.InstanceId} "
+            + $"style={style.Id} → CombatProfilePublished=true（不置位客户端所有技能/换弹请求都会被丢弃）");
     }
 
     private static CombatStyleDefinition ResolveWeaponStyle(WorldEntryState state, CombatWeaponDefinition weapon)

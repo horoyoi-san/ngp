@@ -1,0 +1,7756 @@
+{
+  "NoEffectCfg": {
+    "Id": 405,
+    "StiffTag": 1,
+    "ABPTag": 0,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "ExecuteNoEffectCfg": {
+    "Id": 406,
+    "StiffTag": 1,
+    "ABPTag": 0,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "EnemyExecuteNoEffectCfg": {
+    "Id": 407,
+    "StiffTag": 1,
+    "ABPTag": 0,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0.300000012,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": 0.300000012,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "MicroShakeCfg": {
+    "Id": 400,
+    "StiffTag": 1,
+    "ABPTag": 1,
+    "ActionSetName": 400,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 6400
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "MicroShakeLeftCfg": {
+    "Id": 402,
+    "StiffTag": 1,
+    "ABPTag": 1,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 6402
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "MicroShakeRightCfg": {
+    "Id": 403,
+    "StiffTag": 1,
+    "ABPTag": 1,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 6403
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "MicroShakeBackCfg": {
+    "Id": 401,
+    "StiffTag": 1,
+    "ABPTag": 1,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 6401
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "MicroHitCfg": {
+    "Id": 800,
+    "StiffTag": 0,
+    "ABPTag": 2,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6800
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0.300000012,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 1000001,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 1,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 0.300000012,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "MicroHitLeftCfg": {
+    "Id": 820,
+    "StiffTag": 0,
+    "ABPTag": 2,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6820
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0.300000012,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 1,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 0.300000012,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "MicroHitRightCfg": {
+    "Id": 830,
+    "StiffTag": 0,
+    "ABPTag": 2,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6830
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0.300000012,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 1,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 0.300000012,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "MocriHitBackCfg": {
+    "Id": 810,
+    "StiffTag": 0,
+    "ABPTag": 2,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 7,
+    "IsRandomAction": false,
+    "ActionList": [
+      6810
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0.300000012,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 1000001,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 1,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 0.300000012,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "HitBackCloseCfg": {
+    "Id": 806,
+    "StiffTag": 0,
+    "ABPTag": 3,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6806
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0.449999988,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 1000002,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 2,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 0.532999992,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "HitBackCfg": {
+    "Id": 801,
+    "StiffTag": 0,
+    "ABPTag": 4,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6801
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [
+      61092
+    ],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 1000002,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 2,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 0.449999988,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "HitBackBackCfg": {
+    "Id": 811,
+    "StiffTag": 0,
+    "ABPTag": 4,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 7,
+    "IsRandomAction": false,
+    "ActionList": [
+      6811
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [
+      61092
+    ],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 1000002,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 2,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 0.449999988,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "HitBackLeftCfg": {
+    "Id": 821,
+    "StiffTag": 0,
+    "ABPTag": 4,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6821
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [
+      61092
+    ],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 2,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 0.449999988,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "HitBackRightCfg": {
+    "Id": 831,
+    "StiffTag": 0,
+    "ABPTag": 4,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6831
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [
+      61092
+    ],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 2,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 0.449999988,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "HitBackFarCfg": {
+    "Id": 802,
+    "StiffTag": 0,
+    "ABPTag": 5,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6802
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [
+      61093
+    ],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 1000003,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 3,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [
+      {
+        "stateId": 10355,
+        "duration": 1,
+        "targetType": 0,
+        "removeOnEnd": true,
+        "keepInDuration": false,
+        "delay": 0,
+        "delayType": 1,
+        "onlyWithStiff": false
+      }
+    ],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "HitBackFarBackCfg": {
+    "Id": 812,
+    "StiffTag": 0,
+    "ABPTag": 5,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 7,
+    "IsRandomAction": false,
+    "ActionList": [
+      6812
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [
+      61092
+    ],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 1000003,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 3,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [
+      {
+        "stateId": 10355,
+        "duration": 1,
+        "targetType": 0,
+        "removeOnEnd": true,
+        "keepInDuration": false,
+        "delay": 0,
+        "delayType": 1,
+        "onlyWithStiff": false
+      }
+    ],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "HitBackFarLeftCfg": {
+    "Id": 822,
+    "StiffTag": 0,
+    "ABPTag": 5,
+    "ActionSetName": 822,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6822
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [
+      61092
+    ],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 3,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [
+      {
+        "stateId": 10355,
+        "duration": 1,
+        "targetType": 0,
+        "removeOnEnd": true,
+        "keepInDuration": false,
+        "delay": 0,
+        "delayType": 1,
+        "onlyWithStiff": false
+      }
+    ],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "HitBackFarRightCfg": {
+    "Id": 832,
+    "StiffTag": 0,
+    "ABPTag": 5,
+    "ActionSetName": 832,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6832
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [
+      61092
+    ],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 3,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [
+      {
+        "stateId": 10355,
+        "duration": 1,
+        "targetType": 0,
+        "removeOnEnd": true,
+        "keepInDuration": false,
+        "delay": 0,
+        "delayType": 1,
+        "onlyWithStiff": false
+      }
+    ],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "HitBackToFloorCfg": {
+    "Id": 803,
+    "StiffTag": 4,
+    "ABPTag": 6,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 520,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6803
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 4,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [
+      {
+        "stateId": 373,
+        "duration": 5,
+        "targetType": 0,
+        "removeOnEnd": false,
+        "keepInDuration": false,
+        "delay": 0.200000003,
+        "delayType": 2,
+        "onlyWithStiff": false
+      }
+    ],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "HitBackToFloorLeftCfg": {
+    "Id": 823,
+    "StiffTag": 4,
+    "ABPTag": 6,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 520,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6823
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 4,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [
+      {
+        "stateId": 373,
+        "duration": 5,
+        "targetType": 0,
+        "removeOnEnd": false,
+        "keepInDuration": false,
+        "delay": 0.200000003,
+        "delayType": 2,
+        "onlyWithStiff": false
+      }
+    ],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "HitBackToFloorRightCfg": {
+    "Id": 833,
+    "StiffTag": 4,
+    "ABPTag": 6,
+    "ActionSetName": 833,
+    "StiffBehaviourOrder": 520,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6833
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 4,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [
+      {
+        "stateId": 373,
+        "duration": 5,
+        "targetType": 0,
+        "removeOnEnd": false,
+        "keepInDuration": false,
+        "delay": 0.200000003,
+        "delayType": 2,
+        "onlyWithStiff": false
+      }
+    ],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "HugeBackToFloorCfg": {
+    "Id": 8230,
+    "StiffTag": 4,
+    "ABPTag": 0,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 520,
+    "StiffFacing": 7,
+    "IsRandomAction": false,
+    "ActionList": [
+      6813
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 4,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [
+      {
+        "stateId": 10355,
+        "duration": 1,
+        "targetType": 0,
+        "removeOnEnd": true,
+        "keepInDuration": false,
+        "delay": 0,
+        "delayType": 1,
+        "onlyWithStiff": false
+      }
+    ],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "HitFlyCfg": {
+    "Id": 804,
+    "StiffTag": 2,
+    "ABPTag": 6,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 520,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6804
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 1000000,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 4,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 99,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": 99,
+      "KeepInDuration": false
+    },
+    "AddState": [
+      {
+        "stateId": 10355,
+        "duration": 1,
+        "targetType": 0,
+        "removeOnEnd": true,
+        "keepInDuration": false,
+        "delay": 0,
+        "delayType": 1,
+        "onlyWithStiff": false
+      }
+    ],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "HitflyLoopCfg": {
+    "Id": 914,
+    "StiffTag": 0,
+    "ABPTag": 0,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6914
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 4,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [
+      {
+        "stateId": 10397,
+        "duration": 2,
+        "targetType": 0,
+        "removeOnEnd": true,
+        "keepInDuration": false,
+        "delay": 0,
+        "delayType": 1,
+        "onlyWithStiff": false
+      }
+    ],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "NewFlyendGetUpCfg": {
+    "Id": 924,
+    "StiffTag": 5,
+    "ABPTag": 0,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 1020,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6924,
+      6934
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 1000000,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 4,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 99,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [
+      {
+        "stateId": 10355,
+        "duration": 1,
+        "targetType": 0,
+        "removeOnEnd": true,
+        "keepInDuration": false,
+        "delay": 0,
+        "delayType": 1,
+        "onlyWithStiff": false
+      },
+      {
+        "stateId": 373,
+        "duration": 5,
+        "targetType": 0,
+        "removeOnEnd": true,
+        "keepInDuration": false,
+        "delay": 0.5,
+        "delayType": 2,
+        "onlyWithStiff": false
+      }
+    ],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "NormalGetUpCfg": {
+    "Id": 944,
+    "StiffTag": 6,
+    "ABPTag": 0,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6944
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0.300000012,
+    "BuffId": 52970053,
+    "BreakId": 1000000,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 4,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 0,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [
+      {
+        "stateId": 373,
+        "duration": 1,
+        "targetType": 0,
+        "removeOnEnd": false,
+        "keepInDuration": false,
+        "delay": 0,
+        "delayType": 0,
+        "onlyWithStiff": false
+      }
+    ],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "FlyHurtCfg": {
+    "Id": 904,
+    "StiffTag": 9,
+    "ABPTag": 0,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6904
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 2,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "HitDownCfg": {
+    "Id": 805,
+    "StiffTag": 3,
+    "ABPTag": 6,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 520,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [
+      6805
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 4,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [
+      {
+        "stateId": 10355,
+        "duration": 1,
+        "targetType": 0,
+        "removeOnEnd": true,
+        "keepInDuration": false,
+        "delay": 0,
+        "delayType": 1,
+        "onlyWithStiff": false
+      },
+      {
+        "stateId": 373,
+        "duration": 5,
+        "targetType": 0,
+        "removeOnEnd": true,
+        "keepInDuration": false,
+        "delay": 0.5,
+        "delayType": 2,
+        "onlyWithStiff": false
+      }
+    ],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": true,
+      "delay": 0,
+      "time": 0.200000003,
+      "offsetDis": 0
+    }
+  },
+  "HitDownInAirCfg": {
+    "Id": 935,
+    "StiffTag": 3,
+    "ABPTag": 0,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6935
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 4,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 99,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": 99,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "HitDownInAirLoopCfg": {
+    "Id": 945,
+    "StiffTag": 0,
+    "ABPTag": 0,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6945
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 4,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 99,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": 99,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "HitDownInAirEndCfg": {
+    "Id": 955,
+    "StiffTag": 0,
+    "ABPTag": 0,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6955
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 4,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "WallHit_GroundCfg": {
+    "Id": 864,
+    "StiffTag": 0,
+    "ABPTag": 0,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6864
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0.75,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 4,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "WallHit_AirCfg": {
+    "Id": 874,
+    "StiffTag": 0,
+    "ABPTag": 0,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6874
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 4,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 99,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": 99,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "WallHit_ExcuteCfg": {
+    "Id": 884,
+    "StiffTag": 0,
+    "ABPTag": 0,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "HitFlyLoop_FaceToGroundCfg": {
+    "Id": 954,
+    "StiffTag": 0,
+    "ABPTag": 0,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6954
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 99,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": 99,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "DownFlyEndCfg": {
+    "Id": 964,
+    "StiffTag": 5,
+    "ABPTag": 0,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 550,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6964,
+      6965
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 99,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": 99,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "HitTableCfg": {
+    "Id": 984,
+    "StiffTag": 0,
+    "ABPTag": 0,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6984
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "HitFallStaggerCfg": {
+    "Id": 994,
+    "StiffTag": 0,
+    "ABPTag": 0,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6994
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "EnemyShieldDefendCfg": {
+    "Id": 720,
+    "StiffTag": 0,
+    "ABPTag": 0,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6720
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "EnemyShieldBreakCfg": {
+    "Id": 721,
+    "StiffTag": 0,
+    "ABPTag": 0,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6721
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 5,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "PuppetCfg": {
+    "Id": 100,
+    "StiffTag": 7,
+    "ABPTag": 0,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 20,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": 20,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "PuppetImpactCfg": {
+    "Id": 102,
+    "StiffTag": 8,
+    "ABPTag": 0,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": 20,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "PuppetImpactFromMotorCfg": {
+    "Id": 103,
+    "StiffTag": 7,
+    "ABPTag": 0,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": 20,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "SittingRagdollCfg": {
+    "Id": 104,
+    "StiffTag": 8,
+    "ABPTag": 0,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": 3,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "TafeiSpecialPuppetImpactCfg": {
+    "Id": 105,
+    "StiffTag": 8,
+    "ABPTag": 0,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 20,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": 20,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "ExecuteCfg": {
+    "Id": 1000,
+    "StiffTag": 0,
+    "ABPTag": 7,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 1020,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 5,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "ExecutelyingdownCfg": {
+    "Id": 1001,
+    "StiffTag": 4,
+    "ABPTag": 7,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 1020,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 5,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "ExecutelyingupCfg": {
+    "Id": 1002,
+    "StiffTag": 4,
+    "ABPTag": 7,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 1020,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 5,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "ExecuteflyCfg": {
+    "Id": 1003,
+    "StiffTag": 2,
+    "ABPTag": 7,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 1020,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 5,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "ExecuteSpiritupCfg": {
+    "Id": 1004,
+    "StiffTag": 4,
+    "ABPTag": 7,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 1020,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 5,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "ExecuteSpiritdownCfg": {
+    "Id": 1005,
+    "StiffTag": 4,
+    "ABPTag": 7,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 1020,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 5,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "ExecuteDeadEndCfg": {
+    "Id": 1006,
+    "StiffTag": 4,
+    "ABPTag": 7,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 1020,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 5,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "BiShakeCfg": {
+    "Id": 1159,
+    "StiffTag": 0,
+    "ABPTag": 15,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      61159
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "BiWeakCfg": {
+    "Id": 1160,
+    "StiffTag": 0,
+    "ABPTag": 16,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      61160
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "BiStrongCfg": {
+    "Id": 1161,
+    "StiffTag": 0,
+    "ABPTag": 17,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      61161
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "WholeBody_KnockawayCfg": {
+    "Id": 1200,
+    "StiffTag": 0,
+    "ABPTag": 8,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [
+      6804
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 6400
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "WholeBody_KnockdownCfg": {
+    "Id": 1201,
+    "StiffTag": 0,
+    "ABPTag": 9,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [
+      6803
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "WholeBody_CrippleCfg": {
+    "Id": 1202,
+    "StiffTag": 0,
+    "ABPTag": 10,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "WholeBody_StumbleCfg": {
+    "Id": 1203,
+    "StiffTag": 0,
+    "ABPTag": 11,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "WholeBody_StaggerCfg": {
+    "Id": 1204,
+    "StiffTag": 0,
+    "ABPTag": 12,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [
+      88110
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "WholeBody_OverkillCfg": {
+    "Id": 1205,
+    "StiffTag": 0,
+    "ABPTag": 13,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": true,
+    "ActionList": [
+      88400
+    ],
+    "RandomActionPool": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "WholeBody_AdditiveFlinchCfg": {
+    "Id": 1206,
+    "StiffTag": 0,
+    "ABPTag": 14,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [
+      88010
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "Head_KnockawayCfg": {
+    "Id": 1207,
+    "StiffTag": 0,
+    "ABPTag": 8,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [
+      6804
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 6400
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "Head_KnockdownCfg": {
+    "Id": 1208,
+    "StiffTag": 0,
+    "ABPTag": 9,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [
+      6803
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "Head_CrippleCfg": {
+    "Id": 1209,
+    "StiffTag": 0,
+    "ABPTag": 10,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "Head_StumbleCfg": {
+    "Id": 1210,
+    "StiffTag": 0,
+    "ABPTag": 11,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "Head_StaggerCfg": {
+    "Id": 1211,
+    "StiffTag": 0,
+    "ABPTag": 12,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [
+      88100
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "Head_OverkillCfg": {
+    "Id": 1212,
+    "StiffTag": 0,
+    "ABPTag": 13,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": true,
+    "ActionList": [
+      88401
+    ],
+    "RandomActionPool": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "Head_AdditiveFlinchCfg": {
+    "Id": 1213,
+    "StiffTag": 0,
+    "ABPTag": 14,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [
+      88000
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "Body_KnockawayCfg": {
+    "Id": 1214,
+    "StiffTag": 0,
+    "ABPTag": 8,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [
+      6804
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 6400
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "Body_KnockdownCfg": {
+    "Id": 1215,
+    "StiffTag": 0,
+    "ABPTag": 9,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [
+      6803
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "Body_CrippleCfg": {
+    "Id": 1216,
+    "StiffTag": 0,
+    "ABPTag": 10,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "Body_StumbleCfg": {
+    "Id": 1217,
+    "StiffTag": 0,
+    "ABPTag": 11,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "Body_StaggerCfg": {
+    "Id": 1218,
+    "StiffTag": 0,
+    "ABPTag": 12,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [
+      88110
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "Body_OverkillCfg": {
+    "Id": 1219,
+    "StiffTag": 0,
+    "ABPTag": 13,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": true,
+    "ActionList": [
+      88402
+    ],
+    "RandomActionPool": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "Body_AdditiveFlinchCfg": {
+    "Id": 1220,
+    "StiffTag": 0,
+    "ABPTag": 14,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [
+      88010
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "LeftArm_KnockawayCfg": {
+    "Id": 1221,
+    "StiffTag": 0,
+    "ABPTag": 8,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [
+      6804
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 6400
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "LeftArm_KnockdownCfg": {
+    "Id": 1222,
+    "StiffTag": 0,
+    "ABPTag": 9,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [
+      6803
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "LeftArm_CrippleCfg": {
+    "Id": 1223,
+    "StiffTag": 0,
+    "ABPTag": 10,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "LeftArm_StumbleCfg": {
+    "Id": 1224,
+    "StiffTag": 0,
+    "ABPTag": 11,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "LeftArm_StaggerCfg": {
+    "Id": 1225,
+    "StiffTag": 0,
+    "ABPTag": 12,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [
+      88120
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "LeftArm_OverkillCfg": {
+    "Id": 1226,
+    "StiffTag": 0,
+    "ABPTag": 13,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": true,
+    "ActionList": [
+      88403
+    ],
+    "RandomActionPool": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "LeftArm_AdditiveFlinchCfg": {
+    "Id": 1227,
+    "StiffTag": 0,
+    "ABPTag": 14,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [
+      88020
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "RightArm_KnockawayCfg": {
+    "Id": 1228,
+    "StiffTag": 0,
+    "ABPTag": 8,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [
+      6804
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 6400
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "RightArm_KnockdownCfg": {
+    "Id": 1229,
+    "StiffTag": 0,
+    "ABPTag": 9,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [
+      6803
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "RightArm_CrippleCfg": {
+    "Id": 1230,
+    "StiffTag": 0,
+    "ABPTag": 10,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "RightArm_StumbleCfg": {
+    "Id": 1231,
+    "StiffTag": 0,
+    "ABPTag": 11,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "RightArm_StaggerCfg": {
+    "Id": 1232,
+    "StiffTag": 0,
+    "ABPTag": 12,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [
+      88130
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "RightArm_OverkillCfg": {
+    "Id": 1233,
+    "StiffTag": 0,
+    "ABPTag": 13,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": true,
+    "ActionList": [
+      88400
+    ],
+    "RandomActionPool": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "RightArm_AdditiveFlinchCfg": {
+    "Id": 1234,
+    "StiffTag": 0,
+    "ABPTag": 14,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [
+      88030
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "LeftLeg_KnockawayCfg": {
+    "Id": 1235,
+    "StiffTag": 0,
+    "ABPTag": 8,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [
+      6804
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 6400
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "LeftLeg_KnockdownCfg": {
+    "Id": 1236,
+    "StiffTag": 0,
+    "ABPTag": 9,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [
+      6803
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "LeftLeg_CrippleCfg": {
+    "Id": 1237,
+    "StiffTag": 0,
+    "ABPTag": 10,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "LeftLeg_StumbleCfg": {
+    "Id": 1238,
+    "StiffTag": 0,
+    "ABPTag": 11,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "LeftLeg_StaggerCfg": {
+    "Id": 1239,
+    "StiffTag": 0,
+    "ABPTag": 12,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [
+      88140
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "LeftLeg_OverkillCfg": {
+    "Id": 1240,
+    "StiffTag": 0,
+    "ABPTag": 13,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": true,
+    "ActionList": [
+      88401
+    ],
+    "RandomActionPool": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "LeftLeg_AdditiveFlinchCfg": {
+    "Id": 1241,
+    "StiffTag": 0,
+    "ABPTag": 14,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [
+      88040
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "RightLeg_KnockawayCfg": {
+    "Id": 1242,
+    "StiffTag": 0,
+    "ABPTag": 8,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [
+      6804
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 6400
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "RightLeg_KnockdownCfg": {
+    "Id": 1243,
+    "StiffTag": 0,
+    "ABPTag": 9,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [
+      6803
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "RightLeg_CrippleCfg": {
+    "Id": 1244,
+    "StiffTag": 0,
+    "ABPTag": 10,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "RightLeg_StumbleCfg": {
+    "Id": 1245,
+    "StiffTag": 0,
+    "ABPTag": 11,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "RightLeg_StaggerCfg": {
+    "Id": 1246,
+    "StiffTag": 0,
+    "ABPTag": 12,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [
+      88150
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "RightLeg_OverkillCfg": {
+    "Id": 1247,
+    "StiffTag": 0,
+    "ABPTag": 13,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": true,
+    "ActionList": [
+      88402
+    ],
+    "RandomActionPool": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "RightLeg_AdditiveFlinchCfg": {
+    "Id": 1248,
+    "StiffTag": 0,
+    "ABPTag": 14,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [
+      88050
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "RightLeg_AdditiveFlinchLedttLeg_AdditiveFlinchCfg": {
+    "Id": 1249,
+    "StiffTag": 0,
+    "ABPTag": 14,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [
+      88050,
+      88040
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "WholeBody_AdditiveFlinch_AICompanionCfg": {
+    "Id": 1250,
+    "StiffTag": 0,
+    "ABPTag": 14,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [
+      88010
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "SpiritMicroHitCfg": {
+    "Id": 8000,
+    "StiffTag": 0,
+    "ABPTag": 2,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6800
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 1000001,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 1,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 0.300000012,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "SpiritMicroHitLeftCfg": {
+    "Id": 8200,
+    "StiffTag": 0,
+    "ABPTag": 2,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [
+      6820
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 1000001,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 1,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 0.300000012,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "SpiritMicroHitRightCfg": {
+    "Id": 8300,
+    "StiffTag": 0,
+    "ABPTag": 2,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [
+      6830
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 1000001,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 1,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 0.300000012,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "SpiritMocriHitBackCfg": {
+    "Id": 8100,
+    "StiffTag": 0,
+    "ABPTag": 2,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 7,
+    "IsRandomAction": false,
+    "ActionList": [
+      6810
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 1000001,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 1,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 0.300000012,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "SpiritHitBackCfg": {
+    "Id": 8010,
+    "StiffTag": 0,
+    "ABPTag": 4,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6801
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 1000002,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 2,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 0.449999988,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "SpiritHitBackBackCfg": {
+    "Id": 8110,
+    "StiffTag": 0,
+    "ABPTag": 4,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 7,
+    "IsRandomAction": false,
+    "ActionList": [
+      6811
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 1000002,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 2,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 0.449999988,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "SpiritHitBackLeftCfg": {
+    "Id": 8210,
+    "StiffTag": 0,
+    "ABPTag": 4,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [
+      6821
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 1000002,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 2,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 0.449999988,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "SpiritHitBackRightCfg": {
+    "Id": 8310,
+    "StiffTag": 0,
+    "ABPTag": 4,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 2,
+    "IsRandomAction": false,
+    "ActionList": [
+      6831
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 1000002,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 2,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 0.449999988,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "SpiritHitBackFarCfg": {
+    "Id": 8020,
+    "StiffTag": 0,
+    "ABPTag": 5,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6802
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 1000003,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 3,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 0.800000012,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [
+      {
+        "stateId": 10355,
+        "duration": 1,
+        "targetType": 0,
+        "removeOnEnd": false,
+        "keepInDuration": false,
+        "delay": 0,
+        "delayType": 0,
+        "onlyWithStiff": false
+      }
+    ],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "SpiritHitBackFarBackCfg": {
+    "Id": 8120,
+    "StiffTag": 0,
+    "ABPTag": 5,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 7,
+    "IsRandomAction": false,
+    "ActionList": [
+      6812
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 1000003,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 3,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 0.800000012,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [
+      {
+        "stateId": 10355,
+        "duration": 1,
+        "targetType": 0,
+        "removeOnEnd": false,
+        "keepInDuration": false,
+        "delay": 0,
+        "delayType": 0,
+        "onlyWithStiff": false
+      }
+    ],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "SpiritHitFlyCfg": {
+    "Id": 8040,
+    "StiffTag": 2,
+    "ABPTag": 6,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6804
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 4,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 99,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": 99,
+      "KeepInDuration": false
+    },
+    "AddState": [
+      {
+        "stateId": 10355,
+        "duration": 1,
+        "targetType": 0,
+        "removeOnEnd": false,
+        "keepInDuration": false,
+        "delay": 0,
+        "delayType": 0,
+        "onlyWithStiff": false
+      }
+    ],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "SpiritHitflyLoopCfg": {
+    "Id": 9140,
+    "StiffTag": 0,
+    "ABPTag": 0,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6914
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 4,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [
+      {
+        "stateId": 10397,
+        "duration": 2,
+        "targetType": 0,
+        "removeOnEnd": true,
+        "keepInDuration": false,
+        "delay": 0,
+        "delayType": 1,
+        "onlyWithStiff": false
+      }
+    ],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "SpiritGetUpCfg": {
+    "Id": 9240,
+    "StiffTag": 6,
+    "ABPTag": 0,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6924
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 1000000,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 4,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 0.699999988,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [
+      {
+        "stateId": 10355,
+        "duration": 1,
+        "targetType": 0,
+        "removeOnEnd": false,
+        "keepInDuration": false,
+        "delay": 0,
+        "delayType": 0,
+        "onlyWithStiff": false
+      }
+    ],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "SpiritHitFlyBackCfg": {
+    "Id": 8140,
+    "StiffTag": 2,
+    "ABPTag": 6,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 7,
+    "IsRandomAction": false,
+    "ActionList": [
+      6814
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 4,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 99,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": 99,
+      "KeepInDuration": false
+    },
+    "AddState": [
+      {
+        "stateId": 10355,
+        "duration": 1,
+        "targetType": 0,
+        "removeOnEnd": false,
+        "keepInDuration": false,
+        "delay": 0,
+        "delayType": 0,
+        "onlyWithStiff": false
+      }
+    ],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "SpiritHitflyLoopBackCfg": {
+    "Id": 9540,
+    "StiffTag": 0,
+    "ABPTag": 0,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6954
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 0,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 4,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [
+      {
+        "stateId": 10397,
+        "duration": 2,
+        "targetType": 0,
+        "removeOnEnd": true,
+        "keepInDuration": false,
+        "delay": 0,
+        "delayType": 1,
+        "onlyWithStiff": false
+      }
+    ],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "SpiritGetUpBackCfg": {
+    "Id": 9640,
+    "StiffTag": 6,
+    "ABPTag": 0,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [
+      6964
+    ],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 1000000,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 4,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 0.699999988,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [
+      {
+        "stateId": 10355,
+        "duration": 1,
+        "targetType": 0,
+        "removeOnEnd": false,
+        "keepInDuration": false,
+        "delay": 0,
+        "delayType": 0,
+        "onlyWithStiff": false
+      }
+    ],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "SpiritElectricHitCfg": {
+    "Id": 8050,
+    "StiffTag": 0,
+    "ABPTag": 20,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 1000004,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 1.39999998,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "SpiritDeflectCfg": {
+    "Id": 8060,
+    "StiffTag": 10,
+    "ABPTag": 21,
+    "ActionSetName": 0,
+    "StiffBehaviourOrder": 0,
+    "StiffFacing": 0,
+    "IsRandomAction": false,
+    "ActionList": [],
+    "RandomActionPool": [],
+    "BackSwingList": [],
+    "ActionTimes": [],
+    "ActionIdleTime": 0,
+    "AbpTriggerParam": 0,
+    "IKAnimation": 0,
+    "InertiaAcceleratedSpeed": 0,
+    "BreakStiffTime": 0,
+    "BuffId": 0,
+    "BreakId": 1000006,
+    "DealyElectricShock": 0.449999988,
+    "BreakThreshold": 13,
+    "TypeForHurtCd": [],
+    "HurtCd": [],
+    "StiffLevel": 0,
+    "NeedDelayFreezeFrame": [
+      false
+    ],
+    "IsEnableRagdoll": false,
+    "RagdollHitForce": 0,
+    "IsWeakSound": 0,
+    "ParallelActionList": [],
+    "SlightShakeParams": {
+      "actionId": 0
+    },
+    "StiffTimeForPlayer": {
+      "Time": 0.550000012,
+      "KeepInDuration": false
+    },
+    "StiffTime": {
+      "Time": -1,
+      "KeepInDuration": false
+    },
+    "AddState": [],
+    "PullStiffParams": {
+      "enable": false,
+      "distance": 0,
+      "cannotBeHitTime": 0,
+      "isNew": false
+    },
+    "KeeyAwayParams": {
+      "enable": false,
+      "delay": 0,
+      "time": 0,
+      "offsetDis": 0
+    }
+  },
+  "FlyEndStiff": 700,
+  "Base": 2,
+  "HoverIdleMap": [
+    {
+      "startActionType": 7912,
+      "loopActionType": 7913
+    },
+    {
+      "startActionType": 7916,
+      "loopActionType": 7913
+    }
+  ],
+  "FallGroundDeadTime": 0,
+  "FlyHurtHeight": {
+    "height": 0.5,
+    "speed": 0.300000012
+  },
+  "NavOutStiff": [
+    803,
+    823,
+    833,
+    804,
+    824,
+    834,
+    723,
+    1000
+  ],
+  "HitWallPause": {
+    "scale": 0.300000012,
+    "length": 0.200000003
+  },
+  "AirHitWallHeight": 0.5,
+  "GroundHitWallStiff": 864,
+  "AirHitWallStiff": 874,
+  "HitWallCondition": {
+    "distance": 0.300000012,
+    "airDistance": 0.100000001,
+    "angle": 45,
+    "speed": 999
+  },
+  "CanHitWallStiffs": [
+    {
+      "stiffId": 802,
+      "minRate": 0,
+      "maxRate": 0.800000012
+    },
+    {
+      "stiffId": 822,
+      "minRate": 0,
+      "maxRate": 0.800000012
+    },
+    {
+      "stiffId": 832,
+      "minRate": 0,
+      "maxRate": 0.800000012
+    },
+    {
+      "stiffId": 803,
+      "minRate": 0,
+      "maxRate": 0.25
+    },
+    {
+      "stiffId": 823,
+      "minRate": 0,
+      "maxRate": 0.25
+    },
+    {
+      "stiffId": 833,
+      "minRate": 0,
+      "maxRate": 0.25
+    },
+    {
+      "stiffId": 804,
+      "minRate": 0,
+      "maxRate": 0.330000013
+    },
+    {
+      "stiffId": 824,
+      "minRate": 0,
+      "maxRate": 0.400000006
+    },
+    {
+      "stiffId": 834,
+      "minRate": 0,
+      "maxRate": 0.330000013
+    },
+    {
+      "stiffId": 844,
+      "minRate": 0,
+      "maxRate": 0.330000013
+    },
+    {
+      "stiffId": 1000,
+      "minRate": 0,
+      "maxRate": 1
+    }
+  ],
+  "HitWallEffect": 53004008,
+  "AirHitWallEffect": 53004008,
+  "AirHitWallFallSpeedRate": {
+    "hSpeedRate": 1,
+    "vSpeedRate": 0
+  },
+  "AirHitWallCondition": {
+    "timeRate": 0.400000006,
+    "blendParamX": 0.300000012
+  },
+  "HitInAirParam": {
+    "flyTime": 0.5,
+    "flyStartSpeed": 8,
+    "fallStartSpeed": 5
+  },
+  "MicroShakeScaleForPlayerAction": [
+    {
+      "ActionType": 1001,
+      "IKValue": 0.5
+    }
+  ],
+  "MaxDieStartDelay": 16,
+  "DragPullEndStiff": 864,
+  "DragPullEndStiffDiaup": 874,
+  "StiffCantCoverByElementStiff": 0.200000003,
+  "ShieldBreakStiff": {
+    "microStiff": 729,
+    "minStiff": 730,
+    "maxStiff": 731,
+    "numb": 3
+  },
+  "BackMoveTriggerDistance": 0.5,
+  "BackMoveTime": 0.100000001,
+  "BackMoveMaxDistance": 1.5,
+  "StiffDistanceNotTrigBackMove": 0.200000003,
+  "SpiritAttackMove": 0.100000001,
+  "DropWeaponLifeTime": 60,
+  "HoverDownAndGetupMap": [
+    {
+      "LoopStiffID": 280,
+      "GetupStiffID": 281
+    },
+    {
+      "LoopStiffID": 282,
+      "GetupStiffID": 283
+    }
+  ],
+  "HitNavOutCapsuleRadius": 0,
+  "HitNavOutSpeedLimit": 1,
+  "HitNavOutHitFlyHurteffectID": 55009999,
+  "HitBackToFloorNavOutTime": 0.5,
+  "HitBackToFloorNavOutHSpeedAcc": 1,
+  "HitBackToFloorNavOutFadeInTime": 0.400000006,
+  "HitNavOutFadeInTime": 0.400000006,
+  "HitNavOutNoGravityTime": 0.25,
+  "HitNavOutActionStartTime": 0.232999995,
+  "HitNavOutBatiTime": 0.200000003,
+  "FreezeStateCoefficient": 0.349999994,
+  "LyingFadeInTime": 0.25,
+  "LyingAccelerationHSpeed": -5,
+  "ToughnessMinAndMax": {
+    "minToughness": 0,
+    "maxToughness": 6
+  },
+  "DeathSettingMaxDistance": 900,
+  "DeathSettingMaxCount": 30,
+  "StiffBodyParts": {
+    "head": 0.300000012,
+    "body": 0.400000006,
+    "leg": 0.300000012
+  },
+  "OverkillTriggerMaxCount": 5,
+  "OverkillTriggerTimeout": 1.25,
+  "LookAtIKFadeOutDurationOnFlinchEnter": 0.200000003,
+  "LookAtIKFadeInDurationOnFlinchExit": 0.200000003,
+  "FootIKMaxGroundDistanceDuringFlinch": 0.200000003,
+  "AdditiveFlinchTriggerCooldown": 0.25,
+  "FlinchMaxRotationClamp": 20,
+  "FlinchReboundSpeedScale": 0.5,
+  "DualHandIkWeaponTypes": [
+    "TwoHandedLongWeapons",
+    "TwoHandedHeavyWeapons",
+    "TwoHandedSharpWeapon",
+    "Rifle",
+    "SniperRifle",
+    "SubmachineGun",
+    "Shotgun",
+    "LightMachineGun",
+    "RocketLauncher",
+    "GrenadeLauncher",
+    "Cannon"
+  ],
+  "DualHandIkFadeInTime": 0.200000003,
+  "OverkillTriggerAngleLimit": 90,
+  "WeakBreakTime": 0.5,
+  "SpecialWallHit": {
+    "unitstate": 10437,
+    "stiffid": 793
+  },
+  "SpecialNavOutStiff": {
+    "unitstate": 10437,
+    "stiffid": 794
+  },
+  "HighFrequencyHitData": {
+    "ikWeightThreshold": 0.300000012,
+    "cd": 2
+  },
+  "NavOutCheckThresholdData": {
+    "navOutCheckOffset": 2,
+    "navOutCheckHeight": 20
+  },
+  "NoStandardWallCheckHeight": 0.600000024,
+  "NoStandardWallHit": {
+    "unitstate": 10437,
+    "stiffid": 793
+  }
+}

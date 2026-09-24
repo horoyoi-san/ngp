@@ -1,0 +1,215 @@
+{
+  "ChangeClothesCfg": {
+    "Id": 84047215,
+    "NextMessage": [
+      84047216,
+      84047217
+    ],
+    "IsPlayerMessage": false,
+    "Speaker": 91050014,
+    "AsNpcCultivation": 1,
+    "NPCid": 91050014,
+    "ChatGroup": 84025031,
+    "OptionText": "",
+    "Message": "要怎么打扮才好呢",
+    "ChatType": 2,
+    "SubChatType": 0,
+    "CustomChatType": 0,
+    "IsFirst": true,
+    "MaxProgress": 1,
+    "Eventid": 0,
+    "MessageText": "",
+    "FakeChatAutoPlay": false,
+    "Delay": 0,
+    "OneClickSkip": false,
+    "IsPlayedTimeline": true,
+    "Chatdrop": 0,
+    "IsPopup": true,
+    "IsComePanel": false,
+    "SpecialMsgType": 0,
+    "SpecialMsgTaskid": 0,
+    "NeedClick": false,
+    "ShareMsgTitle": "",
+    "ShareMsgIntro": "",
+    "ShareMsgIcon": 0,
+    "WebPageID": 0,
+    "MsgSubType": 0,
+    "Taskid2": 0,
+    "SIcon": [],
+    "ShowAsReceiver": false,
+    "Coordinate": [],
+    "RaidId": 23300888,
+    "SecondsAfterPre": 0,
+    "FakeMsgForceRead": false,
+    "HypeLinkId": 0,
+    "HypeLinkParam": 0,
+    "SpecialReadableCharacter": 0,
+    "taskEventId": 0,
+    "BlockDuringTask": false,
+    "IsOnline": false,
+    "__IDX__OptionText": 0,
+    "__RAW__OptionText": "",
+    "__IDX__Message": 4294967293,
+    "__RAW__Message": "要怎么打扮才好呢",
+    "__IDX__MessageText": 0,
+    "__RAW__MessageText": "",
+    "__IDX__ShareMsgTitle": 0,
+    "__RAW__ShareMsgTitle": "",
+    "__IDX__ShareMsgIntro": 0,
+    "__RAW__ShareMsgIntro": "",
+    "TuiteParam": {
+      "tuiteId": 0,
+      "isHalfScreen": false,
+      "secondShowType": 0
+    }
+  },
+  "MessageWaitTime": 10,
+  "MessageUpperLimit": 20,
+  "InviteWaitTime": 1,
+  "NormalChatMessageTime": 5,
+  "DialogChatMessageTime": 3,
+  "MessageBeforeTime": 2,
+  "AlbumTitleList": [
+    "This Week",
+    "This Month",
+    "Earlier"
+  ],
+  "AlbumAppExitTips": "似乎还有关键信息没有找到，再仔细看看吧",
+  "NpcsPhoneTabNames": [
+    "好友",
+    "全部"
+  ],
+  "NewFriendHint": "Say hi to your new friends!",
+  "ChatFinishHint": "End",
+  "CallFinishHint": "Call Log Generated",
+  "DefaultAtmosphereNpcId": 84020000,
+  "DefaultPlayerSignature": "Online",
+  "NextEllipsisBubbleDelay": 0.5,
+  "MultiInviteButtonText": "Submit (%d/%d)",
+  "SearchFriendInterval": 1,
+  "MessageReceivingDelay": [
+    {
+      "MaxCharCount": 20,
+      "AvgTime": 0.5,
+      "Sigma": 0
+    },
+    {
+      "MaxCharCount": 30,
+      "AvgTime": 0.800000012,
+      "Sigma": 0.300000012
+    },
+    {
+      "MaxCharCount": 50,
+      "AvgTime": 1.10000002,
+      "Sigma": 0.400000006
+    },
+    {
+      "MaxCharCount": 70,
+      "AvgTime": 1.39999998,
+      "Sigma": 0.400000006
+    },
+    {
+      "MaxCharCount": 90,
+      "AvgTime": 1.70000005,
+      "Sigma": 0.400000006
+    },
+    {
+      "MaxCharCount": 1000,
+      "AvgTime": 2,
+      "Sigma": 0.400000006
+    }
+  ],
+  "NewFriendHudMessage": "你有一条新的好友申请",
+  "NpcsPhoneScreenAttack": [
+    {
+      "Probability": 0.0599999987,
+      "NpcsPhoneImageId": 28008201
+    },
+    {
+      "Probability": 0.0599999987,
+      "NpcsPhoneImageId": 28008202
+    },
+    {
+      "Probability": 0.0599999987,
+      "NpcsPhoneImageId": 28008203
+    }
+  ],
+  "NpcsPhoneScreenStrongCollision": [
+    {
+      "Probability": 0.0500000007,
+      "NpcsPhoneImageId": 28008201
+    },
+    {
+      "Probability": 0.0500000007,
+      "NpcsPhoneImageId": 28008202
+    },
+    {
+      "Probability": 0.0500000007,
+      "NpcsPhoneImageId": 28008203
+    }
+  ],
+  "NpcsPhoneScreenLittleCollision": [
+    {
+      "Probability": 0.0299999993,
+      "NpcsPhoneImageId": 28008201
+    },
+    {
+      "Probability": 0.0299999993,
+      "NpcsPhoneImageId": 28008202
+    },
+    {
+      "Probability": 0.0299999993,
+      "NpcsPhoneImageId": 28008203
+    }
+  ],
+  "NpcsPhoneScreenBeTrapped": [
+    {
+      "Probability": 0.0500000007,
+      "NpcsPhoneImageId": 28008201
+    },
+    {
+      "Probability": 0.0500000007,
+      "NpcsPhoneImageId": 28008202
+    },
+    {
+      "Probability": 0.0500000007,
+      "NpcsPhoneImageId": 28008203
+    }
+  ],
+  "NpcsPhoneScreenAttackScaredByAction": [
+    {
+      "Probability": 0.0299999993,
+      "NpcsPhoneImageId": 28008201
+    },
+    {
+      "Probability": 0.0299999993,
+      "NpcsPhoneImageId": 28008202
+    },
+    {
+      "Probability": 0.0299999993,
+      "NpcsPhoneImageId": 28008203
+    }
+  ],
+  "PopUpIconId": 28002100,
+  "HintNeedClickItemMessage": "请先查看聊天中的交互内容再退出",
+  "HistoryMessageSeparatorText": "Message history",
+  "DefaultChatGroupNoticeIcon": 28002104,
+  "PopUpTotalIconId": 28002103,
+  "PopUpTotalMainTitle": "BBChat",
+  "PopUpTotalContent": "You have %d new messages",
+  "SkipButtonTriggerSentenceCount": 5,
+  "SpecialMsgDisplayText": [
+    "[Restaurant Info]",
+    "[Locate]",
+    "[Image]",
+    "[Image]",
+    "[Image]",
+    "[Image]",
+    "[Link]",
+    "[Transfer]",
+    "[Scope Link]",
+    "[Link]"
+  ],
+  "MultiInviteRequirementText": "本次邀约可选择 %s ~ %s 位伙伴",
+  "RangeInviteButtonText": "发起邀请(%d)"
+}

@@ -1,0 +1,1808 @@
+{
+  "BVBCfg": {
+    "Id": 12110008,
+    "Name": "混厄召唤师对战",
+    "Description": "混厄召唤师pvp",
+    "BoardPics": [],
+    "IconId": 28017589,
+    "PreparePic": 0,
+    "SubQuestId": 236,
+    "MultiType": 4,
+    "TierGroupId": 0,
+    "IsRankMode": false,
+    "Tags": 1,
+    "DividendsExpectation": 0,
+    "IsIntro": false,
+    "PlayerNum": [
+      2,
+      2
+    ],
+    "IsAIAllowed": false,
+    "LinkAIInfo": 0,
+    "IsAllowCustomize": true,
+    "EventId": 1068,
+    "IsCampus": false,
+    "DropSuccess": [
+      14584018
+    ],
+    "DropFail": [
+      14584019
+    ],
+    "DropSurrenderWin": [],
+    "DropSurrenderFail": [],
+    "Draw": [],
+    "FloatingDropFormula": 0,
+    "KeyId": 0,
+    "NeedKeyIds": [],
+    "UseVehicle": false,
+    "VehicleTypeLimit": [],
+    "ShowMemberInfo": false,
+    "ModelViewType": 7,
+    "CoolDownTime": 0,
+    "FailureDieCount": 0,
+    "IngameTitle": "",
+    "IngameShowType": 0,
+    "PanelType": 1,
+    "TargetRaid": 23300888,
+    "PrepareTime": 600,
+    "ConcedeTime": 0,
+    "CameraXYAxisValues": [],
+    "IsMirrorWorld": true,
+    "MaxTime": 1800,
+    "ConfirmType": 2,
+    "SkipPrepare": false,
+    "StartTime": 0,
+    "SuccessGpsPosition": [
+      609.72998,
+      -59.6436806,
+      2184.3501
+    ],
+    "SuccessRaidId": 23300888,
+    "ExtractionSettings": 0,
+    "DetachType": 2,
+    "IsBenifits": false,
+    "EndPanelType": 2,
+    "DeadPanelType": 0,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "混厄召唤师对战",
+    "__IDX__Description": 4294967293,
+    "__RAW__Description": "混厄召唤师pvp",
+    "__IDX__IngameTitle": 0,
+    "__RAW__IngameTitle": "",
+    "Stages": [
+      {
+        "Stage": 11,
+        "Timeout": 20
+      }
+    ],
+    "MemberComposition": [],
+    "FloatingDrop": {
+      "DropId": 0,
+      "SyncValueId": 0
+    },
+    "ExtraStates": [],
+    "DropScaleBadge": []
+  },
+  "DartHighCfg": {
+    "Id": 12111100,
+    "Name": "Darts",
+    "Description": "Players take turns throwing darts at the board. Hitting the bullseye and inner rings grants more points. The game includes “High Score Mode” and “01 Mode,” which is randomly selected when you enter a match.",
+    "BoardPics": [],
+    "IconId": 28017649,
+    "PreparePic": 28002965,
+    "SubQuestId": 0,
+    "MultiType": 3,
+    "TierGroupId": 0,
+    "IsRankMode": false,
+    "Tags": 1,
+    "DividendsExpectation": 0,
+    "IsIntro": false,
+    "PlayerNum": [
+      2,
+      2
+    ],
+    "IsAIAllowed": true,
+    "LinkAIInfo": 3,
+    "IsAllowCustomize": true,
+    "EventId": 0,
+    "IsCampus": false,
+    "DropSuccess": [
+      14584020
+    ],
+    "DropFail": [
+      14584021
+    ],
+    "DropSurrenderWin": [],
+    "DropSurrenderFail": [],
+    "Draw": [],
+    "FloatingDropFormula": 0,
+    "KeyId": 0,
+    "NeedKeyIds": [],
+    "UseVehicle": false,
+    "VehicleTypeLimit": [],
+    "ShowMemberInfo": false,
+    "ModelViewType": 0,
+    "CoolDownTime": 0,
+    "FailureDieCount": 0,
+    "IngameTitle": "",
+    "IngameShowType": 0,
+    "PanelType": 1,
+    "TargetRaid": 0,
+    "PrepareTime": 0,
+    "ConcedeTime": 0,
+    "CameraXYAxisValues": [
+      0,
+      0.5
+    ],
+    "IsMirrorWorld": false,
+    "MaxTime": 0,
+    "ConfirmType": 2,
+    "SkipPrepare": true,
+    "StartTime": 0,
+    "SuccessGpsPosition": [],
+    "SuccessRaidId": 0,
+    "ExtractionSettings": 0,
+    "DetachType": 2,
+    "IsBenifits": false,
+    "EndPanelType": 4,
+    "DeadPanelType": 0,
+    "__IDX__Name": 140115,
+    "__RAW__Name": "",
+    "__IDX__Description": 142295,
+    "__RAW__Description": "",
+    "__IDX__IngameTitle": 0,
+    "__RAW__IngameTitle": "",
+    "Stages": [
+      {
+        "Stage": 11,
+        "Timeout": 20
+      }
+    ],
+    "MemberComposition": [],
+    "FloatingDrop": {
+      "DropId": 0,
+      "SyncValueId": 0
+    },
+    "ExtraStates": [],
+    "DropScaleBadge": []
+  },
+  "Dart301Cfg": {
+    "Id": 12111101,
+    "Name": "301 Mode",
+    "Description": "Both players start at 301 points—hit the board to subtract from your score. First to land exactly at zero wins.",
+    "BoardPics": [],
+    "IconId": 28017649,
+    "PreparePic": 28002965,
+    "SubQuestId": 0,
+    "MultiType": 3,
+    "TierGroupId": 0,
+    "IsRankMode": false,
+    "Tags": 1,
+    "DividendsExpectation": 0,
+    "IsIntro": false,
+    "PlayerNum": [
+      2,
+      2
+    ],
+    "IsAIAllowed": true,
+    "LinkAIInfo": 3,
+    "IsAllowCustomize": true,
+    "EventId": 0,
+    "IsCampus": false,
+    "DropSuccess": [
+      14584020
+    ],
+    "DropFail": [
+      14584021
+    ],
+    "DropSurrenderWin": [],
+    "DropSurrenderFail": [],
+    "Draw": [],
+    "FloatingDropFormula": 0,
+    "KeyId": 0,
+    "NeedKeyIds": [],
+    "UseVehicle": false,
+    "VehicleTypeLimit": [],
+    "ShowMemberInfo": false,
+    "ModelViewType": 0,
+    "CoolDownTime": 0,
+    "FailureDieCount": 0,
+    "IngameTitle": "",
+    "IngameShowType": 0,
+    "PanelType": 1,
+    "TargetRaid": 0,
+    "PrepareTime": 0,
+    "ConcedeTime": 0,
+    "CameraXYAxisValues": [
+      0,
+      0.5
+    ],
+    "IsMirrorWorld": false,
+    "MaxTime": 0,
+    "ConfirmType": 2,
+    "SkipPrepare": true,
+    "StartTime": 0,
+    "SuccessGpsPosition": [],
+    "SuccessRaidId": 0,
+    "ExtractionSettings": 0,
+    "DetachType": 2,
+    "IsBenifits": false,
+    "EndPanelType": 9,
+    "DeadPanelType": 0,
+    "__IDX__Name": 139959,
+    "__RAW__Name": "",
+    "__IDX__Description": 139958,
+    "__RAW__Description": "",
+    "__IDX__IngameTitle": 0,
+    "__RAW__IngameTitle": "",
+    "Stages": [
+      {
+        "Stage": 11,
+        "Timeout": 20
+      }
+    ],
+    "MemberComposition": [],
+    "FloatingDrop": {
+      "DropId": 0,
+      "SyncValueId": 0
+    },
+    "ExtraStates": [],
+    "DropScaleBadge": []
+  },
+  "Dart501Cfg": {
+    "Id": 12111102,
+    "Name": "501 Mode",
+    "Description": "Both players start at 501 points—hit the board to subtract from your score. First to land exactly at zero wins.",
+    "BoardPics": [],
+    "IconId": 28017649,
+    "PreparePic": 28002965,
+    "SubQuestId": 0,
+    "MultiType": 3,
+    "TierGroupId": 0,
+    "IsRankMode": false,
+    "Tags": 1,
+    "DividendsExpectation": 0,
+    "IsIntro": false,
+    "PlayerNum": [
+      2,
+      2
+    ],
+    "IsAIAllowed": true,
+    "LinkAIInfo": 3,
+    "IsAllowCustomize": true,
+    "EventId": 0,
+    "IsCampus": false,
+    "DropSuccess": [
+      14584020
+    ],
+    "DropFail": [
+      14584021
+    ],
+    "DropSurrenderWin": [],
+    "DropSurrenderFail": [],
+    "Draw": [],
+    "FloatingDropFormula": 0,
+    "KeyId": 0,
+    "NeedKeyIds": [],
+    "UseVehicle": false,
+    "VehicleTypeLimit": [],
+    "ShowMemberInfo": false,
+    "ModelViewType": 0,
+    "CoolDownTime": 0,
+    "FailureDieCount": 0,
+    "IngameTitle": "",
+    "IngameShowType": 0,
+    "PanelType": 1,
+    "TargetRaid": 0,
+    "PrepareTime": 0,
+    "ConcedeTime": 0,
+    "CameraXYAxisValues": [
+      0,
+      0.5
+    ],
+    "IsMirrorWorld": false,
+    "MaxTime": 0,
+    "ConfirmType": 2,
+    "SkipPrepare": true,
+    "StartTime": 0,
+    "SuccessGpsPosition": [],
+    "SuccessRaidId": 0,
+    "ExtractionSettings": 0,
+    "DetachType": 2,
+    "IsBenifits": false,
+    "EndPanelType": 9,
+    "DeadPanelType": 0,
+    "__IDX__Name": 139961,
+    "__RAW__Name": "",
+    "__IDX__Description": 139960,
+    "__RAW__Description": "",
+    "__IDX__IngameTitle": 0,
+    "__RAW__IngameTitle": "",
+    "Stages": [
+      {
+        "Stage": 11,
+        "Timeout": 20
+      }
+    ],
+    "MemberComposition": [],
+    "FloatingDrop": {
+      "DropId": 0,
+      "SyncValueId": 0
+    },
+    "ExtraStates": [],
+    "DropScaleBadge": []
+  },
+  "BowlingCfg": {
+    "Id": 12111110,
+    "Name": "Bowling",
+    "Description": "Test your bowling skills against other players and score a strike on your opponents!",
+    "BoardPics": [],
+    "IconId": 28101257,
+    "PreparePic": 28002964,
+    "SubQuestId": 0,
+    "MultiType": 3,
+    "TierGroupId": 0,
+    "IsRankMode": false,
+    "Tags": 1,
+    "DividendsExpectation": 0,
+    "IsIntro": false,
+    "PlayerNum": [
+      2,
+      2
+    ],
+    "IsAIAllowed": true,
+    "LinkAIInfo": 1,
+    "IsAllowCustomize": true,
+    "EventId": 0,
+    "IsCampus": false,
+    "DropSuccess": [
+      14584022
+    ],
+    "DropFail": [
+      14584023
+    ],
+    "DropSurrenderWin": [],
+    "DropSurrenderFail": [],
+    "Draw": [],
+    "FloatingDropFormula": 0,
+    "KeyId": 0,
+    "NeedKeyIds": [],
+    "UseVehicle": false,
+    "VehicleTypeLimit": [],
+    "ShowMemberInfo": false,
+    "ModelViewType": 0,
+    "CoolDownTime": 0,
+    "FailureDieCount": 0,
+    "IngameTitle": "",
+    "IngameShowType": 0,
+    "PanelType": 1,
+    "TargetRaid": 0,
+    "PrepareTime": 0,
+    "ConcedeTime": 0,
+    "CameraXYAxisValues": [
+      0,
+      0.5
+    ],
+    "IsMirrorWorld": false,
+    "MaxTime": 0,
+    "ConfirmType": 2,
+    "SkipPrepare": true,
+    "StartTime": 0,
+    "SuccessGpsPosition": [],
+    "SuccessRaidId": 0,
+    "ExtractionSettings": 0,
+    "DetachType": 2,
+    "IsBenifits": false,
+    "EndPanelType": 4,
+    "DeadPanelType": 0,
+    "__IDX__Name": 139963,
+    "__RAW__Name": "",
+    "__IDX__Description": 139962,
+    "__RAW__Description": "",
+    "__IDX__IngameTitle": 0,
+    "__RAW__IngameTitle": "",
+    "Stages": [
+      {
+        "Stage": 11,
+        "Timeout": 20
+      }
+    ],
+    "MemberComposition": [],
+    "FloatingDrop": {
+      "DropId": 0,
+      "SyncValueId": 0
+    },
+    "ExtraStates": [],
+    "DropScaleBadge": []
+  },
+  "SkillGomokuCfg": {
+    "Id": 12111112,
+    "Name": "Skill Match",
+    "Description": "Black moves first. Players then alternate placing stones. The first to line up five stones in a row—either horizontally, vertically, or diagonally—wins. Before the match begins, each player picks one special skill.",
+    "BoardPics": [],
+    "IconId": 28017650,
+    "PreparePic": 28051436,
+    "SubQuestId": 0,
+    "MultiType": 3,
+    "TierGroupId": 0,
+    "IsRankMode": false,
+    "Tags": 1,
+    "DividendsExpectation": 0,
+    "IsIntro": false,
+    "PlayerNum": [
+      2,
+      2
+    ],
+    "IsAIAllowed": true,
+    "LinkAIInfo": 1,
+    "IsAllowCustomize": true,
+    "EventId": 0,
+    "IsCampus": false,
+    "DropSuccess": [
+      14550053
+    ],
+    "DropFail": [
+      14550049
+    ],
+    "DropSurrenderWin": [],
+    "DropSurrenderFail": [],
+    "Draw": [],
+    "FloatingDropFormula": 0,
+    "KeyId": 0,
+    "NeedKeyIds": [],
+    "UseVehicle": false,
+    "VehicleTypeLimit": [],
+    "ShowMemberInfo": false,
+    "ModelViewType": 0,
+    "CoolDownTime": 0,
+    "FailureDieCount": 0,
+    "IngameTitle": "",
+    "IngameShowType": 0,
+    "PanelType": 0,
+    "TargetRaid": 0,
+    "PrepareTime": 0,
+    "ConcedeTime": 0,
+    "CameraXYAxisValues": [
+      0,
+      0.5
+    ],
+    "IsMirrorWorld": false,
+    "MaxTime": 0,
+    "ConfirmType": 2,
+    "SkipPrepare": true,
+    "StartTime": 0,
+    "SuccessGpsPosition": [],
+    "SuccessRaidId": 0,
+    "ExtractionSettings": 0,
+    "DetachType": 2,
+    "IsBenifits": false,
+    "EndPanelType": 5,
+    "DeadPanelType": 0,
+    "__IDX__Name": 139967,
+    "__RAW__Name": "",
+    "__IDX__Description": 139966,
+    "__RAW__Description": "",
+    "__IDX__IngameTitle": 0,
+    "__RAW__IngameTitle": "",
+    "Stages": [
+      {
+        "Stage": 11,
+        "Timeout": 20
+      }
+    ],
+    "MemberComposition": [],
+    "FloatingDrop": {
+      "DropId": 0,
+      "SyncValueId": 0
+    },
+    "ExtraStates": [],
+    "DropScaleBadge": []
+  },
+  "GomokuCfg": {
+    "Id": 12111111,
+    "Name": "Classic Match",
+    "Description": "Black moves first. Players then alternate placing stones. The first to line up five stone in a row—either horizontally, vertically, or diagonally—wins.",
+    "BoardPics": [],
+    "IconId": 28017650,
+    "PreparePic": 28051436,
+    "SubQuestId": 0,
+    "MultiType": 3,
+    "TierGroupId": 0,
+    "IsRankMode": false,
+    "Tags": 1,
+    "DividendsExpectation": 0,
+    "IsIntro": false,
+    "PlayerNum": [
+      2,
+      2
+    ],
+    "IsAIAllowed": true,
+    "LinkAIInfo": 1,
+    "IsAllowCustomize": true,
+    "EventId": 0,
+    "IsCampus": false,
+    "DropSuccess": [
+      14550053
+    ],
+    "DropFail": [
+      14550049
+    ],
+    "DropSurrenderWin": [],
+    "DropSurrenderFail": [],
+    "Draw": [],
+    "FloatingDropFormula": 0,
+    "KeyId": 0,
+    "NeedKeyIds": [],
+    "UseVehicle": false,
+    "VehicleTypeLimit": [],
+    "ShowMemberInfo": false,
+    "ModelViewType": 0,
+    "CoolDownTime": 0,
+    "FailureDieCount": 0,
+    "IngameTitle": "",
+    "IngameShowType": 0,
+    "PanelType": 0,
+    "TargetRaid": 0,
+    "PrepareTime": 0,
+    "ConcedeTime": 0,
+    "CameraXYAxisValues": [
+      0,
+      0.5
+    ],
+    "IsMirrorWorld": false,
+    "MaxTime": 0,
+    "ConfirmType": 2,
+    "SkipPrepare": true,
+    "StartTime": 0,
+    "SuccessGpsPosition": [],
+    "SuccessRaidId": 0,
+    "ExtractionSettings": 0,
+    "DetachType": 2,
+    "IsBenifits": false,
+    "EndPanelType": 5,
+    "DeadPanelType": 0,
+    "__IDX__Name": 139965,
+    "__RAW__Name": "",
+    "__IDX__Description": 139964,
+    "__RAW__Description": "",
+    "__IDX__IngameTitle": 0,
+    "__RAW__IngameTitle": "",
+    "Stages": [
+      {
+        "Stage": 11,
+        "Timeout": 20
+      }
+    ],
+    "MemberComposition": [],
+    "FloatingDrop": {
+      "DropId": 0,
+      "SyncValueId": 0
+    },
+    "ExtraStates": [],
+    "DropScaleBadge": []
+  },
+  "BBQCfg": {
+    "Id": 12111113,
+    "Name": "烤肉",
+    "Description": "和其他玩家一起烤肉吧！控制火候，比比谁烤出的肉最美味！",
+    "BoardPics": [],
+    "IconId": 28017589,
+    "PreparePic": 0,
+    "SubQuestId": 0,
+    "MultiType": 3,
+    "TierGroupId": 0,
+    "IsRankMode": false,
+    "Tags": 1,
+    "DividendsExpectation": 0,
+    "IsIntro": false,
+    "PlayerNum": [
+      4,
+      4
+    ],
+    "IsAIAllowed": false,
+    "LinkAIInfo": 0,
+    "IsAllowCustomize": true,
+    "EventId": 0,
+    "IsCampus": false,
+    "DropSuccess": [],
+    "DropFail": [],
+    "DropSurrenderWin": [],
+    "DropSurrenderFail": [],
+    "Draw": [],
+    "FloatingDropFormula": 0,
+    "KeyId": 0,
+    "NeedKeyIds": [],
+    "UseVehicle": false,
+    "VehicleTypeLimit": [],
+    "ShowMemberInfo": false,
+    "ModelViewType": 0,
+    "CoolDownTime": 0,
+    "FailureDieCount": 0,
+    "IngameTitle": "",
+    "IngameShowType": 0,
+    "PanelType": 1,
+    "TargetRaid": 0,
+    "PrepareTime": 0,
+    "ConcedeTime": 0,
+    "CameraXYAxisValues": [
+      0,
+      0.5
+    ],
+    "IsMirrorWorld": false,
+    "MaxTime": 0,
+    "ConfirmType": 2,
+    "SkipPrepare": true,
+    "StartTime": 0,
+    "SuccessGpsPosition": [],
+    "SuccessRaidId": 0,
+    "ExtractionSettings": 0,
+    "DetachType": 2,
+    "IsBenifits": false,
+    "EndPanelType": 10,
+    "DeadPanelType": 0,
+    "__IDX__Name": 4294967295,
+    "__RAW__Name": "烤肉",
+    "__IDX__Description": 4294967295,
+    "__RAW__Description": "和其他玩家一起烤肉吧！控制火候，比比谁烤出的肉最美味！",
+    "__IDX__IngameTitle": 0,
+    "__RAW__IngameTitle": "",
+    "Stages": [
+      {
+        "Stage": 11,
+        "Timeout": 20
+      }
+    ],
+    "MemberComposition": [],
+    "FloatingDrop": {
+      "DropId": 0,
+      "SyncValueId": 0
+    },
+    "ExtraStates": [],
+    "DropScaleBadge": []
+  },
+  "NormalMahjongCfg": {
+    "Id": 12111114,
+    "Name": "Casual Mode",
+    "Description": "Four players to a table. Chow, Pong, and Kong your way to a winning hand. First to call mahjong wins.",
+    "BoardPics": [],
+    "IconId": 28101264,
+    "PreparePic": 28051437,
+    "SubQuestId": 0,
+    "MultiType": 3,
+    "TierGroupId": 0,
+    "IsRankMode": false,
+    "Tags": 4,
+    "DividendsExpectation": 0,
+    "IsIntro": false,
+    "PlayerNum": [
+      4,
+      4
+    ],
+    "IsAIAllowed": true,
+    "LinkAIInfo": 1,
+    "IsAllowCustomize": true,
+    "EventId": 0,
+    "IsCampus": false,
+    "DropSuccess": [
+      14550065
+    ],
+    "DropFail": [
+      14550066
+    ],
+    "DropSurrenderWin": [],
+    "DropSurrenderFail": [],
+    "Draw": [],
+    "FloatingDropFormula": 0,
+    "KeyId": 0,
+    "NeedKeyIds": [],
+    "UseVehicle": false,
+    "VehicleTypeLimit": [],
+    "ShowMemberInfo": false,
+    "ModelViewType": 0,
+    "CoolDownTime": 0,
+    "FailureDieCount": 0,
+    "IngameTitle": "",
+    "IngameShowType": 0,
+    "PanelType": 1,
+    "TargetRaid": 0,
+    "PrepareTime": 0,
+    "ConcedeTime": 0,
+    "CameraXYAxisValues": [
+      0,
+      0.5
+    ],
+    "IsMirrorWorld": false,
+    "MaxTime": 0,
+    "ConfirmType": 2,
+    "SkipPrepare": false,
+    "StartTime": 0,
+    "SuccessGpsPosition": [],
+    "SuccessRaidId": 0,
+    "ExtractionSettings": 0,
+    "DetachType": 2,
+    "IsBenifits": false,
+    "EndPanelType": 7,
+    "DeadPanelType": 0,
+    "__IDX__Name": 139969,
+    "__RAW__Name": "",
+    "__IDX__Description": 139968,
+    "__RAW__Description": "",
+    "__IDX__IngameTitle": 0,
+    "__RAW__IngameTitle": "",
+    "Stages": [
+      {
+        "Stage": 11,
+        "Timeout": 20
+      }
+    ],
+    "MemberComposition": [
+      {
+        "duty": 12114040,
+        "num": 1,
+        "teamId": 0
+      },
+      {
+        "duty": 12114041,
+        "num": 1,
+        "teamId": 0
+      },
+      {
+        "duty": 12114042,
+        "num": 1,
+        "teamId": 0
+      },
+      {
+        "duty": 12114043,
+        "num": 1,
+        "teamId": 0
+      }
+    ],
+    "FloatingDrop": {
+      "DropId": 0,
+      "SyncValueId": 0
+    },
+    "ExtraStates": [],
+    "DropScaleBadge": []
+  },
+  "RankMahjongCfg": {
+    "Id": 12111115,
+    "Name": "Ranked Mode",
+    "Description": "Four players to a table. Chow, Pong, and Kong your way to a winning hand. First to call mahjong wins.",
+    "BoardPics": [],
+    "IconId": 28101264,
+    "PreparePic": 28051437,
+    "SubQuestId": 0,
+    "MultiType": 3,
+    "TierGroupId": 0,
+    "IsRankMode": false,
+    "Tags": 4,
+    "DividendsExpectation": 0,
+    "IsIntro": false,
+    "PlayerNum": [
+      4,
+      4
+    ],
+    "IsAIAllowed": false,
+    "LinkAIInfo": 0,
+    "IsAllowCustomize": true,
+    "EventId": 0,
+    "IsCampus": false,
+    "DropSuccess": [
+      14550065
+    ],
+    "DropFail": [
+      14550066
+    ],
+    "DropSurrenderWin": [],
+    "DropSurrenderFail": [],
+    "Draw": [],
+    "FloatingDropFormula": 0,
+    "KeyId": 0,
+    "NeedKeyIds": [],
+    "UseVehicle": false,
+    "VehicleTypeLimit": [],
+    "ShowMemberInfo": false,
+    "ModelViewType": 0,
+    "CoolDownTime": 0,
+    "FailureDieCount": 0,
+    "IngameTitle": "",
+    "IngameShowType": 0,
+    "PanelType": 1,
+    "TargetRaid": 0,
+    "PrepareTime": 0,
+    "ConcedeTime": 0,
+    "CameraXYAxisValues": [
+      0,
+      0.5
+    ],
+    "IsMirrorWorld": false,
+    "MaxTime": 0,
+    "ConfirmType": 2,
+    "SkipPrepare": false,
+    "StartTime": 0,
+    "SuccessGpsPosition": [],
+    "SuccessRaidId": 0,
+    "ExtractionSettings": 0,
+    "DetachType": 2,
+    "IsBenifits": false,
+    "EndPanelType": 7,
+    "DeadPanelType": 0,
+    "__IDX__Name": 139971,
+    "__RAW__Name": "",
+    "__IDX__Description": 139970,
+    "__RAW__Description": "",
+    "__IDX__IngameTitle": 0,
+    "__RAW__IngameTitle": "",
+    "Stages": [
+      {
+        "Stage": 11,
+        "Timeout": 20
+      }
+    ],
+    "MemberComposition": [
+      {
+        "duty": 12114040,
+        "num": 1,
+        "teamId": 0
+      },
+      {
+        "duty": 12114041,
+        "num": 1,
+        "teamId": 0
+      },
+      {
+        "duty": 12114042,
+        "num": 1,
+        "teamId": 0
+      },
+      {
+        "duty": 12114043,
+        "num": 1,
+        "teamId": 0
+      }
+    ],
+    "FloatingDrop": {
+      "DropId": 0,
+      "SyncValueId": 0
+    },
+    "ExtraStates": [],
+    "DropScaleBadge": []
+  },
+  "NormalMahjongReachCfg": {
+    "Id": 12111120,
+    "Name": "立直麻将",
+    "Description": "四人同桌竞技，立直、副露、和牌，一局东风战定顺位。",
+    "BoardPics": [],
+    "IconId": 28101264,
+    "PreparePic": 28051437,
+    "SubQuestId": 0,
+    "MultiType": 3,
+    "TierGroupId": 0,
+    "IsRankMode": false,
+    "Tags": 4,
+    "DividendsExpectation": 0,
+    "IsIntro": false,
+    "PlayerNum": [
+      4,
+      4
+    ],
+    "IsAIAllowed": true,
+    "LinkAIInfo": 1,
+    "IsAllowCustomize": true,
+    "EventId": 0,
+    "IsCampus": false,
+    "DropSuccess": [
+      14550065
+    ],
+    "DropFail": [
+      14550066
+    ],
+    "DropSurrenderWin": [],
+    "DropSurrenderFail": [],
+    "Draw": [],
+    "FloatingDropFormula": 0,
+    "KeyId": 0,
+    "NeedKeyIds": [],
+    "UseVehicle": false,
+    "VehicleTypeLimit": [],
+    "ShowMemberInfo": false,
+    "ModelViewType": 0,
+    "CoolDownTime": 0,
+    "FailureDieCount": 0,
+    "IngameTitle": "",
+    "IngameShowType": 0,
+    "PanelType": 1,
+    "TargetRaid": 0,
+    "PrepareTime": 0,
+    "ConcedeTime": 0,
+    "CameraXYAxisValues": [
+      0,
+      0.5
+    ],
+    "IsMirrorWorld": false,
+    "MaxTime": 0,
+    "ConfirmType": 2,
+    "SkipPrepare": false,
+    "StartTime": 0,
+    "SuccessGpsPosition": [],
+    "SuccessRaidId": 0,
+    "ExtractionSettings": 0,
+    "DetachType": 2,
+    "IsBenifits": false,
+    "EndPanelType": 7,
+    "DeadPanelType": 0,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "立直麻将",
+    "__IDX__Description": 4294967293,
+    "__RAW__Description": "四人同桌竞技，立直、副露、和牌，一局东风战定顺位。",
+    "__IDX__IngameTitle": 0,
+    "__RAW__IngameTitle": "",
+    "Stages": [
+      {
+        "Stage": 11,
+        "Timeout": 20
+      }
+    ],
+    "MemberComposition": [
+      {
+        "duty": 12114040,
+        "num": 1,
+        "teamId": 0
+      },
+      {
+        "duty": 12114041,
+        "num": 1,
+        "teamId": 0
+      },
+      {
+        "duty": 12114042,
+        "num": 1,
+        "teamId": 0
+      },
+      {
+        "duty": 12114043,
+        "num": 1,
+        "teamId": 0
+      }
+    ],
+    "FloatingDrop": {
+      "DropId": 0,
+      "SyncValueId": 0
+    },
+    "ExtraStates": [],
+    "DropScaleBadge": []
+  },
+  "ChineseChessNormalCfg": {
+    "Id": 12111116,
+    "Name": "标准对弈",
+    "Description": "楚河汉界，排兵布阵！执红先行，运筹帷幄。车马炮各显神通，将士象守卫大营。谁能率先擒王，谁就是棋盘霸主！",
+    "BoardPics": [],
+    "IconId": 28017589,
+    "PreparePic": 0,
+    "SubQuestId": 0,
+    "MultiType": 1,
+    "TierGroupId": 0,
+    "IsRankMode": false,
+    "Tags": 1,
+    "DividendsExpectation": 0,
+    "IsIntro": false,
+    "PlayerNum": [
+      2,
+      2
+    ],
+    "IsAIAllowed": true,
+    "LinkAIInfo": 1,
+    "IsAllowCustomize": true,
+    "EventId": 0,
+    "IsCampus": false,
+    "DropSuccess": [],
+    "DropFail": [],
+    "DropSurrenderWin": [],
+    "DropSurrenderFail": [],
+    "Draw": [],
+    "FloatingDropFormula": 0,
+    "KeyId": 0,
+    "NeedKeyIds": [],
+    "UseVehicle": false,
+    "VehicleTypeLimit": [],
+    "ShowMemberInfo": false,
+    "ModelViewType": 0,
+    "CoolDownTime": 0,
+    "FailureDieCount": 0,
+    "IngameTitle": "",
+    "IngameShowType": 0,
+    "PanelType": 0,
+    "TargetRaid": 0,
+    "PrepareTime": 0,
+    "ConcedeTime": 0,
+    "CameraXYAxisValues": [],
+    "IsMirrorWorld": false,
+    "MaxTime": 0,
+    "ConfirmType": 2,
+    "SkipPrepare": false,
+    "StartTime": 0,
+    "SuccessGpsPosition": [],
+    "SuccessRaidId": 0,
+    "ExtractionSettings": 0,
+    "DetachType": 1,
+    "IsBenifits": false,
+    "EndPanelType": 1,
+    "DeadPanelType": 0,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "标准对弈",
+    "__IDX__Description": 4294967293,
+    "__RAW__Description": "楚河汉界，排兵布阵！执红先行，运筹帷幄。车马炮各显神通，将士象守卫大营。谁能率先擒王，谁就是棋盘霸主！",
+    "__IDX__IngameTitle": 0,
+    "__RAW__IngameTitle": "",
+    "Stages": [],
+    "MemberComposition": [],
+    "FloatingDrop": {
+      "DropId": 0,
+      "SyncValueId": 0
+    },
+    "ExtraStates": [],
+    "DropScaleBadge": []
+  },
+  "ChineseChessFlipCfg": {
+    "Id": 12111117,
+    "Name": "翻翻棋对局",
+    "Description": "棋盘暗藏，翻牌为战！所有棋子扣放随机排列，双方轮流翻棋揭面。翻开的那一刻，敌友立辨，战局瞬变！按等级吃子——将帅吃车马，车马吃兵卒，兵卒反过来吃将帅，循环克制，以小博大！记住已翻棋子的位置，算计未知的底牌，运气与谋略缺一不可。翻出惊喜还是惊吓？来试试你的手气！",
+    "BoardPics": [],
+    "IconId": 28017589,
+    "PreparePic": 0,
+    "SubQuestId": 0,
+    "MultiType": 1,
+    "TierGroupId": 0,
+    "IsRankMode": false,
+    "Tags": 1,
+    "DividendsExpectation": 0,
+    "IsIntro": false,
+    "PlayerNum": [
+      2,
+      2
+    ],
+    "IsAIAllowed": true,
+    "LinkAIInfo": 1,
+    "IsAllowCustomize": true,
+    "EventId": 0,
+    "IsCampus": false,
+    "DropSuccess": [],
+    "DropFail": [],
+    "DropSurrenderWin": [],
+    "DropSurrenderFail": [],
+    "Draw": [],
+    "FloatingDropFormula": 0,
+    "KeyId": 0,
+    "NeedKeyIds": [],
+    "UseVehicle": false,
+    "VehicleTypeLimit": [],
+    "ShowMemberInfo": false,
+    "ModelViewType": 0,
+    "CoolDownTime": 0,
+    "FailureDieCount": 0,
+    "IngameTitle": "",
+    "IngameShowType": 0,
+    "PanelType": 0,
+    "TargetRaid": 0,
+    "PrepareTime": 0,
+    "ConcedeTime": 0,
+    "CameraXYAxisValues": [],
+    "IsMirrorWorld": false,
+    "MaxTime": 0,
+    "ConfirmType": 2,
+    "SkipPrepare": false,
+    "StartTime": 0,
+    "SuccessGpsPosition": [],
+    "SuccessRaidId": 0,
+    "ExtractionSettings": 0,
+    "DetachType": 1,
+    "IsBenifits": false,
+    "EndPanelType": 1,
+    "DeadPanelType": 0,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "翻翻棋对局",
+    "__IDX__Description": 4294967293,
+    "__RAW__Description": "棋盘暗藏，翻牌为战！所有棋子扣放随机排列，双方轮流翻棋揭面。翻开的那一刻，敌友立辨，战局瞬变！按等级吃子——将帅吃车马，车马吃兵卒，兵卒反过来吃将帅，循环克制，以小博大！记住已翻棋子的位置，算计未知的底牌，运气与谋略缺一不可。翻出惊喜还是惊吓？来试试你的手气！",
+    "__IDX__IngameTitle": 0,
+    "__RAW__IngameTitle": "",
+    "Stages": [],
+    "MemberComposition": [],
+    "FloatingDrop": {
+      "DropId": 0,
+      "SyncValueId": 0
+    },
+    "ExtraStates": [],
+    "DropScaleBadge": []
+  },
+  "DiceGame_ComplexCfg": {
+    "Id": 12119501,
+    "Name": "复杂模式",
+    "Description": "摇6颗骰子计分，可锁定部分骰子，其余重摇搏高分。但若摇不出任何骰型又无1或6点，本轮分数清零。是见好就收，还是放手一搏？",
+    "BoardPics": [],
+    "IconId": 28005011,
+    "PreparePic": 28051436,
+    "SubQuestId": 0,
+    "MultiType": 3,
+    "TierGroupId": 0,
+    "IsRankMode": false,
+    "Tags": 1,
+    "DividendsExpectation": 0,
+    "IsIntro": false,
+    "PlayerNum": [
+      2,
+      2
+    ],
+    "IsAIAllowed": true,
+    "LinkAIInfo": 1,
+    "IsAllowCustomize": true,
+    "EventId": 0,
+    "IsCampus": false,
+    "DropSuccess": [
+      14585624
+    ],
+    "DropFail": [
+      14585625
+    ],
+    "DropSurrenderWin": [],
+    "DropSurrenderFail": [],
+    "Draw": [],
+    "FloatingDropFormula": 0,
+    "KeyId": 0,
+    "NeedKeyIds": [],
+    "UseVehicle": false,
+    "VehicleTypeLimit": [],
+    "ShowMemberInfo": false,
+    "ModelViewType": 0,
+    "CoolDownTime": 0,
+    "FailureDieCount": 0,
+    "IngameTitle": "",
+    "IngameShowType": 0,
+    "PanelType": 0,
+    "TargetRaid": 0,
+    "PrepareTime": 0,
+    "ConcedeTime": 0,
+    "CameraXYAxisValues": [
+      0,
+      0.5
+    ],
+    "IsMirrorWorld": false,
+    "MaxTime": 0,
+    "ConfirmType": 2,
+    "SkipPrepare": true,
+    "StartTime": 0,
+    "SuccessGpsPosition": [],
+    "SuccessRaidId": 0,
+    "ExtractionSettings": 0,
+    "DetachType": 2,
+    "IsBenifits": false,
+    "EndPanelType": 5,
+    "DeadPanelType": 0,
+    "__IDX__Name": 4294967295,
+    "__RAW__Name": "复杂模式",
+    "__IDX__Description": 4294967295,
+    "__RAW__Description": "摇6颗骰子计分，可锁定部分骰子，其余重摇搏高分。但若摇不出任何骰型又无1或6点，本轮分数清零。是见好就收，还是放手一搏？",
+    "__IDX__IngameTitle": 0,
+    "__RAW__IngameTitle": "",
+    "Stages": [
+      {
+        "Stage": 11,
+        "Timeout": 20
+      }
+    ],
+    "MemberComposition": [
+      {
+        "duty": 12114044,
+        "num": 1,
+        "teamId": 1
+      },
+      {
+        "duty": 12114045,
+        "num": 1,
+        "teamId": 1
+      }
+    ],
+    "FloatingDrop": {
+      "DropId": 0,
+      "SyncValueId": 0
+    },
+    "ExtraStates": [],
+    "DropScaleBadge": []
+  },
+  "DiceGame_SimpleCfg": {
+    "Id": 12119502,
+    "Name": "普通模式",
+    "Description": "各摇5枚骰子，一把定胜负。骰型不同比大小，骰型相同比点数。骰型大小：五条＞四条＞三带二＞三条＞两对＞一对。",
+    "BoardPics": [],
+    "IconId": 28005011,
+    "PreparePic": 28051436,
+    "SubQuestId": 0,
+    "MultiType": 3,
+    "TierGroupId": 0,
+    "IsRankMode": false,
+    "Tags": 1,
+    "DividendsExpectation": 0,
+    "IsIntro": false,
+    "PlayerNum": [
+      2,
+      2
+    ],
+    "IsAIAllowed": false,
+    "LinkAIInfo": 1,
+    "IsAllowCustomize": true,
+    "EventId": 0,
+    "IsCampus": false,
+    "DropSuccess": [
+      14585622
+    ],
+    "DropFail": [
+      14585623
+    ],
+    "DropSurrenderWin": [],
+    "DropSurrenderFail": [],
+    "Draw": [],
+    "FloatingDropFormula": 0,
+    "KeyId": 0,
+    "NeedKeyIds": [],
+    "UseVehicle": false,
+    "VehicleTypeLimit": [],
+    "ShowMemberInfo": false,
+    "ModelViewType": 0,
+    "CoolDownTime": 0,
+    "FailureDieCount": 0,
+    "IngameTitle": "",
+    "IngameShowType": 0,
+    "PanelType": 0,
+    "TargetRaid": 0,
+    "PrepareTime": 0,
+    "ConcedeTime": 0,
+    "CameraXYAxisValues": [
+      0,
+      0.5
+    ],
+    "IsMirrorWorld": false,
+    "MaxTime": 0,
+    "ConfirmType": 2,
+    "SkipPrepare": true,
+    "StartTime": 0,
+    "SuccessGpsPosition": [],
+    "SuccessRaidId": 0,
+    "ExtractionSettings": 0,
+    "DetachType": 2,
+    "IsBenifits": false,
+    "EndPanelType": 5,
+    "DeadPanelType": 0,
+    "__IDX__Name": 4294967295,
+    "__RAW__Name": "普通模式",
+    "__IDX__Description": 4294967295,
+    "__RAW__Description": "各摇5枚骰子，一把定胜负。骰型不同比大小，骰型相同比点数。骰型大小：五条＞四条＞三带二＞三条＞两对＞一对。",
+    "__IDX__IngameTitle": 0,
+    "__RAW__IngameTitle": "",
+    "Stages": [
+      {
+        "Stage": 11,
+        "Timeout": 20
+      }
+    ],
+    "MemberComposition": [
+      {
+        "duty": 12114044,
+        "num": 1,
+        "teamId": 1
+      },
+      {
+        "duty": 12114045,
+        "num": 1,
+        "teamId": 1
+      }
+    ],
+    "FloatingDrop": {
+      "DropId": 0,
+      "SyncValueId": 0
+    },
+    "ExtraStates": [],
+    "DropScaleBadge": []
+  },
+  "HideAndSeekCfg": {
+    "Id": 12112101,
+    "Name": "躲猫猫",
+    "Description": "和其他玩家来场躲猫猫比赛！加入躲避方，幻形成场景中的任何物件以躲避追捕；或是加入追捕方，利用各种各样的技能找到躲避方玩家。无论在加入哪方，都有无穷欢乐！",
+    "BoardPics": [],
+    "IconId": 28017589,
+    "PreparePic": 0,
+    "SubQuestId": 0,
+    "MultiType": 6,
+    "TierGroupId": 0,
+    "IsRankMode": false,
+    "Tags": 1,
+    "DividendsExpectation": 0,
+    "IsIntro": false,
+    "PlayerNum": [
+      3,
+      6
+    ],
+    "IsAIAllowed": false,
+    "LinkAIInfo": 0,
+    "IsAllowCustomize": true,
+    "EventId": 1837,
+    "IsCampus": true,
+    "DropSuccess": [],
+    "DropFail": [],
+    "DropSurrenderWin": [],
+    "DropSurrenderFail": [],
+    "Draw": [],
+    "FloatingDropFormula": 0,
+    "KeyId": 0,
+    "NeedKeyIds": [],
+    "UseVehicle": false,
+    "VehicleTypeLimit": [],
+    "ShowMemberInfo": false,
+    "ModelViewType": 6,
+    "CoolDownTime": 0,
+    "FailureDieCount": 0,
+    "IngameTitle": "",
+    "IngameShowType": 0,
+    "PanelType": 1,
+    "TargetRaid": 23300888,
+    "PrepareTime": 600,
+    "ConcedeTime": 0,
+    "CameraXYAxisValues": [
+      0,
+      0.5
+    ],
+    "IsMirrorWorld": true,
+    "MaxTime": 3600,
+    "ConfirmType": 2,
+    "SkipPrepare": false,
+    "StartTime": 0,
+    "SuccessGpsPosition": [
+      1163.09204,
+      7.45433712,
+      2339.20508
+    ],
+    "SuccessRaidId": 23300888,
+    "ExtractionSettings": 0,
+    "DetachType": 2,
+    "IsBenifits": false,
+    "EndPanelType": 8,
+    "DeadPanelType": 0,
+    "__IDX__Name": 4294967295,
+    "__RAW__Name": "躲猫猫",
+    "__IDX__Description": 4294967295,
+    "__RAW__Description": "和其他玩家来场躲猫猫比赛！加入躲避方，幻形成场景中的任何物件以躲避追捕；或是加入追捕方，利用各种各样的技能找到躲避方玩家。无论在加入哪方，都有无穷欢乐！",
+    "__IDX__IngameTitle": 0,
+    "__RAW__IngameTitle": "",
+    "Stages": [
+      {
+        "Stage": 11,
+        "Timeout": 20
+      },
+      {
+        "Stage": 21,
+        "Timeout": 90
+      }
+    ],
+    "MemberComposition": [
+      {
+        "duty": 12114023,
+        "num": 4,
+        "teamId": 1
+      },
+      {
+        "duty": 12114022,
+        "num": 2,
+        "teamId": 2
+      }
+    ],
+    "FloatingDrop": {
+      "DropId": 0,
+      "SyncValueId": 0
+    },
+    "ExtraStates": [],
+    "DropScaleBadge": []
+  },
+  "UGCRaceCfg": {
+    "Id": 12113015,
+    "Name": "UGC赛车玩法【待策划补充】",
+    "Description": "UGC赛车玩法",
+    "BoardPics": [],
+    "IconId": 28101258,
+    "PreparePic": 28051435,
+    "SubQuestId": 0,
+    "MultiType": 1,
+    "TierGroupId": 7001,
+    "IsRankMode": true,
+    "Tags": 1,
+    "DividendsExpectation": 0,
+    "IsIntro": false,
+    "PlayerNum": [
+      8,
+      8
+    ],
+    "IsAIAllowed": true,
+    "LinkAIInfo": 0,
+    "IsAllowCustomize": true,
+    "EventId": 3429,
+    "IsCampus": false,
+    "DropSuccess": [
+      14584028,
+      14584029,
+      14584030,
+      14584031
+    ],
+    "DropFail": [],
+    "DropSurrenderWin": [],
+    "DropSurrenderFail": [],
+    "Draw": [],
+    "FloatingDropFormula": 0,
+    "KeyId": 0,
+    "NeedKeyIds": [],
+    "UseVehicle": true,
+    "VehicleTypeLimit": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "ShowMemberInfo": false,
+    "ModelViewType": 2,
+    "CoolDownTime": 0,
+    "FailureDieCount": 0,
+    "IngameTitle": "",
+    "IngameShowType": 0,
+    "PanelType": 0,
+    "TargetRaid": 23301313,
+    "PrepareTime": 600,
+    "ConcedeTime": 0,
+    "CameraXYAxisValues": [
+      90,
+      0.600000024
+    ],
+    "IsMirrorWorld": true,
+    "MaxTime": 3600,
+    "ConfirmType": 2,
+    "SkipPrepare": false,
+    "StartTime": 0,
+    "SuccessGpsPosition": [
+      1781.14001,
+      0,
+      1317.20996
+    ],
+    "SuccessRaidId": 23300888,
+    "ExtractionSettings": 0,
+    "DetachType": 2,
+    "IsBenifits": false,
+    "EndPanelType": 1,
+    "DeadPanelType": 0,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "UGC赛车玩法【待策划补充】",
+    "__IDX__Description": 4294967293,
+    "__RAW__Description": "UGC赛车玩法",
+    "__IDX__IngameTitle": 0,
+    "__RAW__IngameTitle": "",
+    "Stages": [
+      {
+        "Stage": 11,
+        "Timeout": 20
+      },
+      {
+        "Stage": 21,
+        "Timeout": 90
+      }
+    ],
+    "MemberComposition": [],
+    "FloatingDrop": {
+      "DropId": 0,
+      "SyncValueId": 0
+    },
+    "ExtraStates": [],
+    "DropScaleBadge": []
+  },
+  "OneVsOneBasketBallCfg": {
+    "Id": 12113500,
+    "Name": "Basketball 1v1",
+    "Description": "Face off against other players on the court!",
+    "BoardPics": [],
+    "IconId": 28101243,
+    "PreparePic": 28002963,
+    "SubQuestId": 0,
+    "MultiType": 3,
+    "TierGroupId": 7002,
+    "IsRankMode": true,
+    "Tags": 1,
+    "DividendsExpectation": 0,
+    "IsIntro": false,
+    "PlayerNum": [
+      2,
+      2
+    ],
+    "IsAIAllowed": true,
+    "LinkAIInfo": 2,
+    "IsAllowCustomize": true,
+    "EventId": 0,
+    "IsCampus": false,
+    "DropSuccess": [
+      14584025,
+      14584027
+    ],
+    "DropFail": [
+      14584026
+    ],
+    "DropSurrenderWin": [],
+    "DropSurrenderFail": [],
+    "Draw": [],
+    "FloatingDropFormula": 0,
+    "KeyId": 0,
+    "NeedKeyIds": [],
+    "UseVehicle": false,
+    "VehicleTypeLimit": [],
+    "ShowMemberInfo": false,
+    "ModelViewType": 7,
+    "CoolDownTime": 0,
+    "FailureDieCount": 0,
+    "IngameTitle": "",
+    "IngameShowType": 0,
+    "PanelType": 1,
+    "TargetRaid": 0,
+    "PrepareTime": 600,
+    "ConcedeTime": 0,
+    "CameraXYAxisValues": [
+      0,
+      0.5
+    ],
+    "IsMirrorWorld": false,
+    "MaxTime": 0,
+    "ConfirmType": 2,
+    "SkipPrepare": true,
+    "StartTime": 0,
+    "SuccessGpsPosition": [],
+    "SuccessRaidId": 0,
+    "ExtractionSettings": 0,
+    "DetachType": 2,
+    "IsBenifits": false,
+    "EndPanelType": 6,
+    "DeadPanelType": 0,
+    "__IDX__Name": 139973,
+    "__RAW__Name": "",
+    "__IDX__Description": 139972,
+    "__RAW__Description": "",
+    "__IDX__IngameTitle": 0,
+    "__RAW__IngameTitle": "",
+    "Stages": [
+      {
+        "Stage": 21,
+        "Timeout": 60
+      }
+    ],
+    "MemberComposition": [
+      {
+        "duty": 121140301,
+        "num": 1,
+        "teamId": 1
+      },
+      {
+        "duty": 12114031,
+        "num": 1,
+        "teamId": 2
+      }
+    ],
+    "FloatingDrop": {
+      "DropId": 0,
+      "SyncValueId": 0
+    },
+    "ExtraStates": [],
+    "DropScaleBadge": [
+      {
+        "badgeId": 19000041,
+        "dropscale": 0.100000001
+      },
+      {
+        "badgeId": 19000042,
+        "dropscale": 0.150000006
+      }
+    ]
+  },
+  "ThreeVsThreeBasketBallCfg": {
+    "Id": 12113501,
+    "Name": "篮球3V3",
+    "Description": "篮球3V3测试",
+    "BoardPics": [],
+    "IconId": 28101243,
+    "PreparePic": 28002963,
+    "SubQuestId": 0,
+    "MultiType": 3,
+    "TierGroupId": 7002,
+    "IsRankMode": true,
+    "Tags": 1,
+    "DividendsExpectation": 0,
+    "IsIntro": false,
+    "PlayerNum": [
+      6,
+      6
+    ],
+    "IsAIAllowed": true,
+    "LinkAIInfo": 2,
+    "IsAllowCustomize": true,
+    "EventId": 0,
+    "IsCampus": false,
+    "DropSuccess": [
+      14584025,
+      14584027
+    ],
+    "DropFail": [
+      14584026
+    ],
+    "DropSurrenderWin": [],
+    "DropSurrenderFail": [],
+    "Draw": [],
+    "FloatingDropFormula": 0,
+    "KeyId": 0,
+    "NeedKeyIds": [],
+    "UseVehicle": false,
+    "VehicleTypeLimit": [],
+    "ShowMemberInfo": false,
+    "ModelViewType": 6,
+    "CoolDownTime": 0,
+    "FailureDieCount": 0,
+    "IngameTitle": "",
+    "IngameShowType": 0,
+    "PanelType": 1,
+    "TargetRaid": 0,
+    "PrepareTime": 600,
+    "ConcedeTime": 0,
+    "CameraXYAxisValues": [
+      0,
+      0.5
+    ],
+    "IsMirrorWorld": false,
+    "MaxTime": 0,
+    "ConfirmType": 2,
+    "SkipPrepare": true,
+    "StartTime": 0,
+    "SuccessGpsPosition": [],
+    "SuccessRaidId": 0,
+    "ExtractionSettings": 0,
+    "DetachType": 2,
+    "IsBenifits": false,
+    "EndPanelType": 6,
+    "DeadPanelType": 0,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "篮球3V3",
+    "__IDX__Description": 4294967293,
+    "__RAW__Description": "篮球3V3测试",
+    "__IDX__IngameTitle": 0,
+    "__RAW__IngameTitle": "",
+    "Stages": [
+      {
+        "Stage": 21,
+        "Timeout": 60
+      }
+    ],
+    "MemberComposition": [
+      {
+        "duty": 12114034,
+        "num": 1,
+        "teamId": 1
+      },
+      {
+        "duty": 12114035,
+        "num": 1,
+        "teamId": 1
+      },
+      {
+        "duty": 12114036,
+        "num": 1,
+        "teamId": 1
+      },
+      {
+        "duty": 12114037,
+        "num": 1,
+        "teamId": 2
+      },
+      {
+        "duty": 12114038,
+        "num": 1,
+        "teamId": 2
+      },
+      {
+        "duty": 12114039,
+        "num": 1,
+        "teamId": 2
+      }
+    ],
+    "FloatingDrop": {
+      "DropId": 0,
+      "SyncValueId": 0
+    },
+    "ExtraStates": [],
+    "DropScaleBadge": [
+      {
+        "badgeId": 19000041,
+        "dropscale": 0.100000001
+      },
+      {
+        "badgeId": 19000042,
+        "dropscale": 0.150000006
+      }
+    ]
+  },
+  "DiceCfg": {
+    "Id": 12111118,
+    "Name": "骰子对决",
+    "Description": "与其他玩家掷骰对决，比拼运气与策略！",
+    "BoardPics": [],
+    "IconId": 28004989,
+    "PreparePic": 0,
+    "SubQuestId": 0,
+    "MultiType": 3,
+    "TierGroupId": 0,
+    "IsRankMode": false,
+    "Tags": 1,
+    "DividendsExpectation": 0,
+    "IsIntro": false,
+    "PlayerNum": [
+      2,
+      2
+    ],
+    "IsAIAllowed": true,
+    "LinkAIInfo": 1,
+    "IsAllowCustomize": true,
+    "EventId": 0,
+    "IsCampus": false,
+    "DropSuccess": [],
+    "DropFail": [],
+    "DropSurrenderWin": [],
+    "DropSurrenderFail": [],
+    "Draw": [],
+    "FloatingDropFormula": 0,
+    "KeyId": 0,
+    "NeedKeyIds": [],
+    "UseVehicle": false,
+    "VehicleTypeLimit": [],
+    "ShowMemberInfo": false,
+    "ModelViewType": 0,
+    "CoolDownTime": 0,
+    "FailureDieCount": 0,
+    "IngameTitle": "",
+    "IngameShowType": 0,
+    "PanelType": 1,
+    "TargetRaid": 0,
+    "PrepareTime": 0,
+    "ConcedeTime": 0,
+    "CameraXYAxisValues": [
+      0,
+      0.5
+    ],
+    "IsMirrorWorld": false,
+    "MaxTime": 0,
+    "ConfirmType": 2,
+    "SkipPrepare": true,
+    "StartTime": 0,
+    "SuccessGpsPosition": [],
+    "SuccessRaidId": 0,
+    "ExtractionSettings": 0,
+    "DetachType": 2,
+    "IsBenifits": false,
+    "EndPanelType": 4,
+    "DeadPanelType": 0,
+    "__IDX__Name": 4294967295,
+    "__RAW__Name": "骰子对决",
+    "__IDX__Description": 4294967295,
+    "__RAW__Description": "与其他玩家掷骰对决，比拼运气与策略！",
+    "__IDX__IngameTitle": 0,
+    "__RAW__IngameTitle": "",
+    "Stages": [
+      {
+        "Stage": 11,
+        "Timeout": 20
+      }
+    ],
+    "MemberComposition": [],
+    "FloatingDrop": {
+      "DropId": 0,
+      "SyncValueId": 0
+    },
+    "ExtraStates": [],
+    "DropScaleBadge": []
+  }
+}

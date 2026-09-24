@@ -1,0 +1,59 @@
+{
+  "GroupMaxCount": 10,
+  "DefaultGroupList": [
+    "置顶",
+    "我的好友"
+  ],
+  "CallRecordMaxCount": 100,
+  "ManualAddContactMaxCount": 100,
+  "ContactNameMaxLength": 16,
+  "GroupNameMaxLength": 30,
+  "ContactNumberMaxLength": 10,
+  "ContactNameEmptyTips": "Nickname cannot be blank",
+  "ContactNumberEmptyTips": "Number cannot be blank",
+  "ContactNameMaxLengthTips": "Character limit exceeded",
+  "ContactNumberMaxLengthTips": "Number limit exceeded",
+  "ContactAddMaxTips": "Unable to add any more contacts",
+  "ContactPhoneNumberExistTips": "Contact already exists",
+  "ContactForbidModifyPhoneNumberTips": "Unable to modify number",
+  "ContactInputPhoneNumberTips": "Please enter a phone number",
+  "ContactCallFail": "Call Unsuccessful",
+  "ContactDefaultAvatarId": 25901023,
+  "ContactPhoneNumberList": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "*",
+    "0",
+    "#"
+  ],
+  "ContactLongPressThreshold": 0.0199999996,
+  "ContactUnknownPhoneNumberDialogId": 50006203,
+  "MaxPoliceCarOnCall": 1,
+  "MaxPoliceCarDistance": 200,
+  "MaxPoliceCarTime": 600,
+  "ContactDefaultSAvatarId": 28000032,
+  "PhoneCallInWaitAnswerTime": 10,
+  "PhoneCallInWaitRecallTime": 5,
+  "SpecialMilkCarSpiritId": 15021038,
+  "ContactSelfDialogId": 50006270,
+  "PhoneCallInQueueWaitTime": 5,
+  "IgnoreAutoClosePhoneDialogIdList": [
+    50006218
+  ],
+  "PopupContactIcon": 28001443,
+  "ShortCutCallCar": {
+    "contactId": 111111111,
+    "pcKeyControl": 0
+  },
+  "ShortCutCallMilkVehicle": {
+    "contactId": 111111112,
+    "pcKeyControl": 1
+  }
+}

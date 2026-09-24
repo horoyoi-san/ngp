@@ -1,0 +1,216 @@
+{
+  "PoliceStationCfg": {
+    "Id": 167,
+    "Name": "NCCA (Nova City Crime Agency)",
+    "NameTag": "巡卫官职业据点",
+    "ParentRaid": 23300888,
+    "CountryId": 1,
+    "FactionId": 18000110,
+    "SceneId": 23300888,
+    "CameraParameter": 99000430,
+    "EntryPosIn": [],
+    "EntryPosOut": [],
+    "SMapName": 28001719,
+    "MapFloorList": [
+      -1,
+      1,
+      2,
+      36
+    ],
+    "MiniMapPic": [
+      0,
+      2024,
+      1796
+    ],
+    "MiniMapPos": [
+      2330,
+      1799,
+      2410,
+      1870,
+      0,
+      0,
+      2024,
+      1796
+    ],
+    "MapDefaultRate": 1.20000005,
+    "MapMinRate": 0.800000012,
+    "MapMaxRate": 1.5,
+    "MapMidRate": 1.20000005,
+    "MiniMapScale": 3,
+    "MiniMapRange": 40,
+    "MiniMapBase": true,
+    "SMiniMapIconId": 0,
+    "SIconId": 0,
+    "Block": 0,
+    "Coordinate": [],
+    "ShowType": 0,
+    "ShopType": 0,
+    "SImageId": 28017117,
+    "Information": "",
+    "GameplayList": [],
+    "Score": [],
+    "FashionFunctionSuitApplyId": 0,
+    "SystemUnlock": 0,
+    "MaxProgress": 0,
+    "ShowLimitSpirit": [],
+    "LinkShowMode": [],
+    "WeaponLimitation": 1,
+    "PlaySoundId": 0,
+    "SoundPriority": 4,
+    "SoundAuxName": [
+      "Aux_FX_Room"
+    ],
+    "EnableOcclusion": true,
+    "InviteRideHighlightIconId": 0,
+    "InviteRideTaskId": 0,
+    "ShopId": 0,
+    "IsAboveFog": false,
+    "AgentGOCountLimit": 20,
+    "VisibleOutside": false,
+    "RelatedSector": "",
+    "IgnoreGps": false,
+    "LinkBlackBornPos": [],
+    "BlockDateTag": false,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1,
+      2
+    ],
+    "__IDX__Name": 129774,
+    "__RAW__Name": "",
+    "__IDX__Information": 0,
+    "__RAW__Information": "",
+    "ExtraMapResInfo": [
+      {
+        "MinY": -2,
+        "ImageId": 28001720
+      },
+      {
+        "MinY": 5,
+        "ImageId": 28001721
+      },
+      {
+        "MinY": 155,
+        "ImageId": 28001722
+      }
+    ],
+    "SoundStateList": [
+      {
+        "groupName": "StateGroup_PlayerArea",
+        "value": "State_InRoom"
+      }
+    ]
+  },
+  "TaffyApartmentCfg": {
+    "Id": 200,
+    "Name": "Beachside Bungalow",
+    "NameTag": "塔菲公寓_0档位",
+    "ParentRaid": 23300888,
+    "CountryId": 1,
+    "FactionId": 18000111,
+    "SceneId": 23300888,
+    "CameraParameter": 99000430,
+    "EntryPosIn": [],
+    "EntryPosOut": [],
+    "SMapName": 28009043,
+    "MapFloorList": [],
+    "MiniMapPic": [
+      0,
+      1360,
+      1008
+    ],
+    "MiniMapPos": [
+      1593,
+      1567,
+      1620,
+      1553,
+      152,
+      894,
+      1257,
+      320
+    ],
+    "MapDefaultRate": 1.20000005,
+    "MapMinRate": 0.800000012,
+    "MapMaxRate": 1.5,
+    "MapMidRate": 1.20000005,
+    "MiniMapScale": 5,
+    "MiniMapRange": 40,
+    "MiniMapBase": true,
+    "SMiniMapIconId": 0,
+    "SIconId": 0,
+    "Block": 0,
+    "Coordinate": [
+      1605.03699,
+      0.126000002,
+      1574.37598
+    ],
+    "ShowType": 0,
+    "ShopType": 0,
+    "SImageId": 28017107,
+    "Information": "Live the easy life, in a vibrant community, with Reign Real Estate apartments.",
+    "GameplayList": [],
+    "Score": [],
+    "FashionFunctionSuitApplyId": 0,
+    "SystemUnlock": 0,
+    "MaxProgress": 0,
+    "ShowLimitSpirit": [
+      15020967,
+      15020968,
+      15020992
+    ],
+    "LinkShowMode": [
+      1
+    ],
+    "WeaponLimitation": 1,
+    "PlaySoundId": 0,
+    "SoundPriority": 4,
+    "SoundAuxName": [
+      "Aux_FX_Room"
+    ],
+    "EnableOcclusion": true,
+    "InviteRideHighlightIconId": 0,
+    "InviteRideTaskId": 0,
+    "ShopId": 0,
+    "IsAboveFog": false,
+    "AgentGOCountLimit": 20,
+    "VisibleOutside": false,
+    "RelatedSector": "",
+    "IgnoreGps": false,
+    "LinkBlackBornPos": [
+      1609.41797,
+      0.0203900002,
+      1578.76904,
+      54.7900009
+    ],
+    "BlockDateTag": false,
+    "StartVersion": "V1.1.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1,
+      2
+    ],
+    "__IDX__Name": 58799,
+    "__RAW__Name": "",
+    "__IDX__Information": 58798,
+    "__RAW__Information": "",
+    "ExtraMapResInfo": [],
+    "SoundStateList": [
+      {
+        "groupName": "StateGroup_PlayerArea",
+        "value": "State_InRoom"
+      },
+      {
+        "groupName": "StateGroup_PlayerIndoor",
+        "value": "State_Tafeigongyu"
+      }
+    ]
+  },
+  "LinkMilkCarPointId": [
+    12006030,
+    12006031
+  ],
+  "IndoorAbilityLimitId": 106002
+}

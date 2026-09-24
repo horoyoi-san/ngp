@@ -1,0 +1,75 @@
+{
+  "_class": "LinkPrepareActionConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 5,
+  "records": [
+    {
+      "Id": 1,
+      "ActionName": "默认",
+      "ActionImage": 28000754,
+      "BodyType": 126,
+      "__IDX__ActionName": 4294967293,
+      "__RAW__ActionName": "默认",
+      "Action": {
+        "actionid": 1001,
+        "groupid": 35,
+        "expressionid": 0
+      }
+    },
+    {
+      "Id": 2,
+      "ActionName": "女摸头",
+      "ActionImage": 28000754,
+      "BodyType": 112,
+      "__IDX__ActionName": 4294967293,
+      "__RAW__ActionName": "女摸头",
+      "Action": {
+        "actionid": 4707,
+        "groupid": 35,
+        "expressionid": 0
+      }
+    },
+    {
+      "Id": 3,
+      "ActionName": "男摸头",
+      "ActionImage": 28004200,
+      "BodyType": 14,
+      "__IDX__ActionName": 4294967293,
+      "__RAW__ActionName": "男摸头",
+      "Action": {
+        "actionid": 4707,
+        "groupid": 35,
+        "expressionid": 0
+      }
+    },
+    {
+      "Id": 4,
+      "ActionName": "女抬手",
+      "ActionImage": 28001084,
+      "BodyType": 112,
+      "__IDX__ActionName": 4294967293,
+      "__RAW__ActionName": "女抬手",
+      "Action": {
+        "actionid": 4704,
+        "groupid": 35,
+        "expressionid": 0
+      }
+    },
+    {
+      "Id": 5,
+      "ActionName": "男抬脚",
+      "ActionImage": 28000754,
+      "BodyType": 14,
+      "__IDX__ActionName": 4294967293,
+      "__RAW__ActionName": "男抬脚",
+      "Action": {
+        "actionid": 4708,
+        "groupid": 35,
+        "expressionid": 0
+      }
+    }
+  ],
+  "_dumpedCount": 5,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

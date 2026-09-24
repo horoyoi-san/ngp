@@ -94,10 +94,6 @@ internal sealed class SpiritSwitchWeaponAction
     public byte reason;
 }
 
-/// <summary>
-/// Scene weapon snapshot used by SyncSpiritWeaponDetail. Unlike the persistent WeaponData stored in
-/// PlayerInfo, WeaponDetail has five scene-source fields in front of the common weapon payload.
-/// </summary>
 [UxContract]
 internal sealed class WeaponDetail
 {
@@ -123,8 +119,8 @@ internal sealed class WeaponDetail
     public int MagazineAmmo;
     public ulong BindPid;
     public bool IsPlayerLocked;
-    // Exact 4229938 RPCSerializeAuto.lua tail. Omitting these four fields shifts the next
-    // WeaponDetail in SpiritWeaponDetail and eventually makes the client deserialize BulletDatas as null.
+    
+    
     [UxCollection(Count = UxCountEncoding.Int32, ItemObjectEncoding = UxObjectEncoding.Complex)]
     public List<Auto.WeaponEnchantSlot> EnchantSlots = [];
     public uint NonDirectionalEnchantCount;
@@ -142,10 +138,6 @@ internal sealed class WeaponWheelData
     public int LockMaxSlotCounts;
 }
 
-/// <summary>
-/// Atomic client WeaponManager hydration. The client must receive this before a switch action:
-/// SyncSpiritSwitchWeaponAction only selects an instance already present in CurrWeaponSlots.
-/// </summary>
 [UxContract]
 internal sealed class SpiritWeaponDetail
 {
@@ -160,14 +152,12 @@ internal sealed class SpiritWeaponDetail
     public Dictionary<int, WeaponDetail> VirtualWeaponSlots = [];
 }
 
-// Client -> GameScene AskSwitchWeapon(int index), zero-based.
 [UxContract(Inline = true)]
 internal sealed class AskSwitchWeapon { public int index; }
 
 [UxContract(Inline = true)]
 internal sealed class SyncBreakSkill { public ulong unitId; }
 
-// Client -> GameScene AskUseSkill / AskClientUseCommonSkill.
 [UxContract(Inline = true)]
 internal sealed class AskUseSkill
 {

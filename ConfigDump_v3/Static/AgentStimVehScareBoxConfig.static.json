@@ -1,0 +1,51 @@
+{
+  "DefaultHighCfg": {
+    "Id": 1,
+    "CheckSpeed": 15,
+    "BoxOffset": [
+      0,
+      0,
+      0
+    ],
+    "BoxWidthRatio": 1,
+    "BoxHeightRatio": 1,
+    "BoxLength": 5,
+    "LengthMap": [
+      5,
+      2,
+      100,
+      25
+    ]
+  },
+  "DefaultSlowCfg": {
+    "Id": 2,
+    "CheckSpeed": 5,
+    "BoxOffset": [
+      0,
+      0,
+      0
+    ],
+    "BoxWidthRatio": 1,
+    "BoxHeightRatio": 1,
+    "BoxLength": 5,
+    "LengthMap": []
+  },
+  "DefaultSideCfg": {
+    "Id": 3,
+    "CheckSpeed": 15,
+    "BoxOffset": [
+      0,
+      0,
+      0
+    ],
+    "BoxWidthRatio": 2,
+    "BoxHeightRatio": 1,
+    "BoxLength": 5,
+    "LengthMap": [
+      5,
+      2,
+      100,
+      25
+    ]
+  }
+}

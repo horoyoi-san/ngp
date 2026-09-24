@@ -1,0 +1,198 @@
+{
+  "ClubCfg": {
+    "Id": 94100092,
+    "ShopName": "Club Shop",
+    "CommodityGroupIdList": [
+      94103097
+    ],
+    "BuybackCommodityGroupIdList": [],
+    "IsPaginatedByGroup": false,
+    "SellRefreshCooldown": 0,
+    "BuybackRefreshCooldown": 0,
+    "ManualRefreshCountResetTime": "",
+    "ShowGroupAll": false,
+    "SellBrands": [],
+    "Position": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "MaxProgress": 0,
+    "BelongFactionId": 0,
+    "Money": 36920005,
+    "TalkId": 94300999,
+    "ActionId": 94305999,
+    "ShopLogo": 0,
+    "CameraActionStatusId": 0,
+    "SellCameraActionStatusId": 0,
+    "CameraHeightOffest": 0,
+    "SellCameraHeightOffest": 0,
+    "ChatBubbleOffset": 0,
+    "CameraPosition": [
+      0.5,
+      0.600000024,
+      2,
+      30
+    ],
+    "Banner": 0,
+    "Scale": [],
+    "Offset": [],
+    "IfBlackTransition": false,
+    "ShopType": 1,
+    "StartVersion": "V0.10.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1
+    ],
+    "SellShelfType": 0,
+    "SellRefreshLimit": 0,
+    "BuyBackRefreshLimit": 0,
+    "BuyBackShelfType": 0,
+    "CanSell": true,
+    "ShopDescription": 0,
+    "IsShowFund": false,
+    "SystemUnlock": 0,
+    "IntelRuleGroupId": 0,
+    "CanSellRefreshPlus": false,
+    "CanBuybackRefreshPlus": false,
+    "__IDX__ShopName": 145889,
+    "__RAW__ShopName": "",
+    "SellRefreshItem": [],
+    "BuybackRefreshItem": [],
+    "IsRestockAfterManualRefresh": {
+      "Sell": false,
+      "BuyBack": false
+    }
+  },
+  "HouseFurnitureCfg": {
+    "Id": 94100122,
+    "ShopName": "家具商店",
+    "CommodityGroupIdList": [
+      94103130
+    ],
+    "BuybackCommodityGroupIdList": [],
+    "IsPaginatedByGroup": false,
+    "SellRefreshCooldown": 0,
+    "BuybackRefreshCooldown": 0,
+    "ManualRefreshCountResetTime": "",
+    "ShowGroupAll": false,
+    "SellBrands": [],
+    "Position": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "MaxProgress": 0,
+    "BelongFactionId": 0,
+    "Money": 36920008,
+    "TalkId": 94300999,
+    "ActionId": 94305999,
+    "ShopLogo": 0,
+    "CameraActionStatusId": 0,
+    "SellCameraActionStatusId": 0,
+    "CameraHeightOffest": 0,
+    "SellCameraHeightOffest": 0,
+    "ChatBubbleOffset": 0,
+    "CameraPosition": [
+      0.5,
+      0.600000024,
+      2,
+      30
+    ],
+    "Banner": 0,
+    "Scale": [],
+    "Offset": [],
+    "IfBlackTransition": false,
+    "ShopType": 1,
+    "StartVersion": "V0.10.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1
+    ],
+    "SellShelfType": 0,
+    "SellRefreshLimit": 0,
+    "BuyBackRefreshLimit": 0,
+    "BuyBackShelfType": 0,
+    "CanSell": true,
+    "ShopDescription": 0,
+    "IsShowFund": false,
+    "SystemUnlock": 0,
+    "IntelRuleGroupId": 0,
+    "CanSellRefreshPlus": false,
+    "CanBuybackRefreshPlus": false,
+    "__IDX__ShopName": 4294967293,
+    "__RAW__ShopName": "家具商店",
+    "SellRefreshItem": [],
+    "BuybackRefreshItem": [],
+    "IsRestockAfterManualRefresh": {
+      "Sell": false,
+      "BuyBack": false
+    }
+  },
+  "BlackTransitionTime": 1,
+  "SeasonRaidChaosShops": [
+    94100013
+  ],
+  "ShopFactionDiscountTextSeparatedValue": 100,
+  "FactionDiscountText": [
+    "Current Reputation Discount %s%%",
+    "Current Reputation offers no discounts",
+    "Current Reputation Surcharge %s%%"
+  ],
+  "FactionNextLevelDiscountText": [
+    "下一阶段声望影响：%s%%折扣",
+    "下一阶段声望影响：无影响",
+    "下一阶段声望影响：原价格%s%%"
+  ],
+  "VehicleShopCreatePositon": [
+    {
+      "x": 3607.90991,
+      "y": -0.100000001,
+      "z": 2353.90991,
+      "facing": -31.1864891
+    },
+    {
+      "x": 821.380127,
+      "y": -0.114696503,
+      "z": 1501.07898,
+      "facing": 47.2364998
+    },
+    {
+      "x": 1829.34595,
+      "y": -0.133309096,
+      "z": 1536.99695,
+      "facing": -69.2217102
+    }
+  ],
+  "BuyLimitOnceMaxNum": 999,
+  "ValidBuyDistanceSq": 500,
+  "WeaponAddedToWheelText": "Added to the weapon wheel automatically.",
+  "WeaponStoredText": "The wheel is full. It has been moved to the Express Depot automatically.",
+  "GroupAllName": "All",
+  "GroupAllIcon": 28000162,
+  "ShopTabTypeText": [
+    "购买",
+    "出售"
+  ],
+  "ShopTabTypeTextGuideId": [
+    "BuyItem",
+    "SaleItem"
+  ],
+  "NoneDiscountText": "No discounts available",
+  "ShowBudgetDescThreshold": 0.800000012,
+  "TabGuideId": [
+    "Buy",
+    "Sale"
+  ],
+  "DiscountIcon": 28000811,
+  "MarkupIcon": 28000809,
+  "OffsetOriginalPriceIcon": 28000810,
+  "NoDiscountIcon": 28000810,
+  "SellFactionDiscountText": [
+    "当前声望加价%s%%",
+    "当前声望无优惠",
+    "当前声望售卖减价%s%%"
+  ]
+}

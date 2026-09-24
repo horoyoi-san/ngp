@@ -1,0 +1,1490 @@
+{
+  "OnlyWalkCfg": {
+    "Id": 1010,
+    "Desc": "只能走路，不能跑步&冲刺",
+    "Name": "OnlyWalk",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1303
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "OnlyRushCfg": {
+    "Id": 1020,
+    "Desc": "只能冲刺，不能走路&跑步",
+    "Name": "OnlyRush",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1302
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "JumpCfg": {
+    "Id": 1030,
+    "Desc": "禁止跳跃",
+    "Name": "Jump",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1307
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "RushCfg": {
+    "Id": 1040,
+    "Desc": "禁止冲刺",
+    "Name": "Rush",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1304
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "CoiledJumpCfg": {
+    "Id": 1050,
+    "Desc": "禁止翻越障碍",
+    "Name": "CoiledJump",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1308
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "ClimbCfg": {
+    "Id": 1060,
+    "Desc": "禁止爬墙",
+    "Name": "Climb",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1309
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "AllFightCfg": {
+    "Id": 2000,
+    "Desc": "禁用所有Fight（DontbeSelect的状态）",
+    "Name": "AllFight",
+    "LimitType": 2,
+    "UnitStateIds": [
+      62
+    ],
+    "ButtonEnum": [
+      6,
+      1,
+      16,
+      2,
+      17,
+      3,
+      4,
+      5,
+      20
+    ],
+    "GamePlayTags": [],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "DodgeCfg": {
+    "Id": 2010,
+    "Desc": "禁止Shift按键（闪避）",
+    "Name": "Dodge",
+    "LimitType": 2,
+    "UnitStateIds": [],
+    "ButtonEnum": [
+      6
+    ],
+    "GamePlayTags": [],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "NormalAttackCfg": {
+    "Id": 2020,
+    "Desc": "禁止鼠标左键（普攻）",
+    "Name": "NormalAttack",
+    "LimitType": 2,
+    "UnitStateIds": [],
+    "ButtonEnum": [
+      1,
+      16
+    ],
+    "GamePlayTags": [],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "BasicCfg": {
+    "Id": 2030,
+    "Desc": "禁止E技能（重击）",
+    "Name": "Basic",
+    "LimitType": 2,
+    "UnitStateIds": [],
+    "ButtonEnum": [
+      2
+    ],
+    "GamePlayTags": [],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "BigSkillCfg": {
+    "Id": 2040,
+    "Desc": "禁止R技能（大招/换弹）",
+    "Name": "BigSkill",
+    "LimitType": 2,
+    "UnitStateIds": [],
+    "ButtonEnum": [
+      3
+    ],
+    "GamePlayTags": [],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "MindPowerCfg": {
+    "Id": 2050,
+    "Desc": "禁止Q技能（念力）",
+    "Name": "MindPower",
+    "LimitType": 2,
+    "UnitStateIds": [],
+    "ButtonEnum": [
+      4
+    ],
+    "GamePlayTags": [],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "HeavyAttackCfg": {
+    "Id": 2070,
+    "Desc": "禁止鼠标右键（格挡）",
+    "Name": "HeavyAttack",
+    "LimitType": 2,
+    "UnitStateIds": [],
+    "ButtonEnum": [
+      5
+    ],
+    "GamePlayTags": [],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "WeaponCfg": {
+    "Id": 2080,
+    "Desc": "禁止武器轮盘&切换（禁Tab&鼠标滚轮）",
+    "Name": "Weapon",
+    "LimitType": 2,
+    "UnitStateIds": [],
+    "ButtonEnum": [
+      20
+    ],
+    "GamePlayTags": [],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "ForbidPuppetModeCfg": {
+    "Id": 2090,
+    "Desc": "禁止进入布娃娃受击",
+    "Name": "ForbidPuppetMode",
+    "LimitType": 2,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      917
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "KeepScopeCfg": {
+    "Id": 2091,
+    "Desc": "保持右键开镜",
+    "Name": "KeepScope",
+    "LimitType": 2,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1341
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "JiaMuSummonCfg": {
+    "Id": 2093,
+    "Desc": "禁用嘉姆召唤轮盘",
+    "Name": "JiaMuSummon",
+    "LimitType": 2,
+    "UnitStateIds": [],
+    "ButtonEnum": [
+      33
+    ],
+    "GamePlayTags": [],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "CanMotoLightCfg": {
+    "Id": 2094,
+    "Desc": "允许使用塔菲机车车灯",
+    "Name": "CanMotoLight",
+    "LimitType": 2,
+    "UnitStateIds": [],
+    "ButtonEnum": [
+      41
+    ],
+    "GamePlayTags": [],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "ForbidFeiSuoCfg": {
+    "Id": 3010,
+    "Desc": "禁止主角飞索",
+    "Name": "ForbidFeiSuo",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1310
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "ForbidSwingCfg": {
+    "Id": 3011,
+    "Desc": "禁止主角摆荡",
+    "Name": "ForbidSwing",
+    "LimitType": 1,
+    "UnitStateIds": [
+      10344
+    ],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1311
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "ForbidAirrushCfg": {
+    "Id": 3012,
+    "Desc": "禁止主角空中冲刺",
+    "Name": "ForbidAirrush",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1312
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "FeisuoJumpOutCfg": {
+    "Id": 3020,
+    "Desc": "禁止主角飞索结尾跳出",
+    "Name": "FeisuoJumpOut",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1313
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "MotoCfg": {
+    "Id": 3030,
+    "Desc": "禁止塔菲摩托",
+    "Name": "Moto",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1314
+    ],
+    "isMoveVarient": true,
+    "QueryId": 190,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 302,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "MotoRushSpeedCfg": {
+    "Id": 3031,
+    "Desc": "机车加速",
+    "Name": "MotoRushSpeed",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1315
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "ForbidKillingCfg": {
+    "Id": 3032,
+    "Desc": "禁止璎珑跑酷",
+    "Name": "ForbidKilling",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1331
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "ForbidFloatFlightCfg": {
+    "Id": 3033,
+    "Desc": "禁止进入荻菈念力飞行",
+    "Name": "ForbidFloatFlight",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1332
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "SlowClimbCfg": {
+    "Id": 1061,
+    "Desc": "禁止慢速爬墙",
+    "Name": "SlowClimb",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1316
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "ClimbJumpCfg": {
+    "Id": 1062,
+    "Desc": "禁止墙面上蹬出墙",
+    "Name": "ClimbJump",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1317
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "LimitClimbJumpCfg": {
+    "Id": 1063,
+    "Desc": "禁止墙上跳出",
+    "Name": "LimitClimbJump",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1318
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "XuliJumpCfg": {
+    "Id": 1031,
+    "Desc": "禁止蓄力跳",
+    "Name": "XuliJump",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "BigJumpCfg": {
+    "Id": 1032,
+    "Desc": "悬崖大小跳以及没有找到点的下翻跳",
+    "Name": "BigJump",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "ForbidRushGroundAutoTurnOverCfg": {
+    "Id": 1033,
+    "Desc": "禁止疾跑中自动翻越障碍",
+    "Name": "ForbidRushGroundAutoTurnOver",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      2319
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "CrouchJumpCfg": {
+    "Id": 4001,
+    "Desc": "蹲伏跳出",
+    "Name": "CrouchJump",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1319
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "LimitRunCfg": {
+    "Id": 4002,
+    "Desc": "路线尽头限制移动动作",
+    "Name": "LimitRun",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1320
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "PipeExitCfg": {
+    "Id": 4003,
+    "Desc": "通风管口区域",
+    "Name": "PipeExit",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1321
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "PeekCfg": {
+    "Id": 4004,
+    "Desc": "偷听区域",
+    "Name": "Peek",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1322
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "OnlyFindIndoorFeisuoCfg": {
+    "Id": 4005,
+    "Desc": "只找室内飞索线",
+    "Name": "OnlyFindIndoorFeisuo",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1323
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "IndoorFeisuoCfg": {
+    "Id": 4006,
+    "Desc": "标记是狭小区域（飞索位移高度会变）（沈睿）",
+    "Name": "IndoorFeisuo",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1324
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "LimitWalkCrouchCfg": {
+    "Id": 4007,
+    "Desc": "只容许慢速蹲伏（刘飞翔）",
+    "Name": "LimitWalkCrouch",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1325
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "GameTrampolineCfg": {
+    "Id": 4008,
+    "Desc": "玩法蹦床区域",
+    "Name": "GameTrampoline",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1334
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "gluestuckCfg": {
+    "Id": 4009,
+    "Desc": "胶水区域",
+    "Name": "gluestuck",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1353
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "ForbidPogostickCfg": {
+    "Id": 4010,
+    "Desc": "禁止跳跳杆",
+    "Name": "ForbidPogostick",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      4002
+    ],
+    "isMoveVarient": true,
+    "QueryId": 248,
+    "EnterGameplaySignal": 50101,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "ClosePeaceModeCfg": {
+    "Id": 4100,
+    "Desc": "关闭和谐模式",
+    "Name": "ClosePeaceMode",
+    "LimitType": 2,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1344
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "LinkTimelineCfg": {
+    "Id": 4101,
+    "Desc": "联机tl期间无敌（非同步型）",
+    "Name": "LinkTimeline",
+    "LimitType": 2,
+    "UnitStateIds": [
+      24,
+      25,
+      22,
+      62,
+      66,
+      10004,
+      10564
+    ],
+    "ButtonEnum": [],
+    "GamePlayTags": [],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "ForbidChangeFightSpiritCfg": {
+    "Id": 4102,
+    "Desc": "禁止切人",
+    "Name": "ForbidChangeFightSpirit",
+    "LimitType": 2,
+    "UnitStateIds": [
+      10289
+    ],
+    "ButtonEnum": [],
+    "GamePlayTags": [],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "LinkTimelineSyncCfg": {
+    "Id": 4103,
+    "Desc": "联机tl期间无敌（同步型）",
+    "Name": "LinkTimelineSync",
+    "LimitType": 2,
+    "UnitStateIds": [
+      24,
+      25,
+      62,
+      66,
+      10004,
+      10564
+    ],
+    "ButtonEnum": [],
+    "GamePlayTags": [],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "ForbidGroundIKCfg": {
+    "Id": 4104,
+    "Desc": "禁止地面IK",
+    "Name": "ForbidGroundIK",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      2710
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "BanRandomventCfg": {
+    "Id": 4105,
+    "Desc": "禁止随机事件和遭遇时间",
+    "Name": "BanRandomvent",
+    "LimitType": 2,
+    "UnitStateIds": [
+      10324
+    ],
+    "ButtonEnum": [],
+    "GamePlayTags": [],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "TaFeiMotoDashCfg": {
+    "Id": 4201,
+    "Desc": "发起塔菲冲刺",
+    "Name": "TaFeiMotoDash",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [],
+    "isMoveVarient": true,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 303,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "TaFeiMotoEnterCfg": {
+    "Id": 4202,
+    "Desc": "强制塔菲上车",
+    "Name": "TaFeiMotoEnter",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [],
+    "isMoveVarient": true,
+    "QueryId": 118,
+    "EnterGameplaySignal": 50101,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 301,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "ForbidIdleRelaxCfg": {
+    "Id": 4301,
+    "Desc": "禁止休闲待机",
+    "Name": "ForbidIdleRelax",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      2506
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "NoGunConstraintCfg": {
+    "Id": 2092,
+    "Desc": "大世界枪械限制解除开关(添加 State_NoGunConstraint 关闭限制)",
+    "Name": "NoGunConstraint",
+    "LimitType": 2,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      2711
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "Interaction_Scene_SlideCfg": {
+    "Id": 4302,
+    "Desc": "禁止滑梯",
+    "Name": "Interaction_Scene_Slide",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      763
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "ProwlCfg": {
+    "Id": 5010,
+    "Desc": "潜行",
+    "Name": "Prowl",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1301
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "OnlyIgnorePlayerCrossCfg": {
+    "Id": 5020,
+    "Desc": "可以穿过PlayerCrossTag的碰撞",
+    "Name": "OnlyIgnorePlayerCross",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "OnlineCanSwitchSpiritCfg": {
+    "Id": 5030,
+    "Desc": "可以切换角色（联机模式判断）",
+    "Name": "OnlineCanSwitchSpirit",
+    "LimitType": 1,
+    "UnitStateIds": [
+      10507
+    ],
+    "ButtonEnum": [],
+    "GamePlayTags": [],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "MultipleJumpCfg": {
+    "Id": 5040,
+    "Desc": "开启连跳",
+    "Name": "MultipleJump",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1326
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "SlowProwlCfg": {
+    "Id": 5050,
+    "Desc": "开启慢速潜行模式（需要开潜行本身）",
+    "Name": "SlowProwl",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1327
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "UnlockAssassinCfg": {
+    "Id": 5051,
+    "Desc": "解锁暗杀",
+    "Name": "UnlockAssassin",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1333
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "LongJumpCfg": {
+    "Id": 5052,
+    "Desc": "开启大跳",
+    "Name": "LongJump",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1339
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "WeakStandCfg": {
+    "Id": 5053,
+    "Desc": "开启虚弱站立",
+    "Name": "WeakStand",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1342
+    ],
+    "isMoveVarient": true,
+    "QueryId": 193,
+    "EnterGameplaySignal": 11901,
+    "ExitGameplaySignal": 11902,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "WeakProwlCfg": {
+    "Id": 5054,
+    "Desc": "开启虚弱蹲行",
+    "Name": "WeakProwl",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1343
+    ],
+    "isMoveVarient": true,
+    "QueryId": 194,
+    "EnterGameplaySignal": 11903,
+    "ExitGameplaySignal": 11904,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "DeepWaterMoveCfg": {
+    "Id": 5055,
+    "Desc": "开启深水移动模式",
+    "Name": "DeepWaterMove",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      2001
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "AllowDiveCfg": {
+    "Id": 5056,
+    "Desc": "允许潜水",
+    "Name": "AllowDive",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1347
+    ],
+    "isMoveVarient": true,
+    "QueryId": 185,
+    "EnterGameplaySignal": 7301,
+    "ExitGameplaySignal": 7302,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "ForbidDiveCfg": {
+    "Id": 5057,
+    "Desc": "禁止潜水",
+    "Name": "ForbidDive",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1348
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "TaijiSyncCfg": {
+    "Id": 5058,
+    "Desc": "开启同步打太极",
+    "Name": "TaijiSync",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      2403
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "AllowTouchWallCfg": {
+    "Id": 5059,
+    "Desc": "开启扶墙",
+    "Name": "AllowTouchWall",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      2601
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "DreamcoreCfg": {
+    "Id": 5060,
+    "Desc": "开启梦核",
+    "Name": "Dreamcore",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      2713
+    ],
+    "isMoveVarient": true,
+    "QueryId": 228,
+    "EnterGameplaySignal": 11909,
+    "ExitGameplaySignal": 11910,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "ManInBoxCfg": {
+    "Id": 5061,
+    "Desc": "穿着潜行迷彩",
+    "Name": "ManInBox",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      2801
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "CanUseUmbrellaCfg": {
+    "Id": 5062,
+    "Desc": "允许撑伞",
+    "Name": "CanUseUmbrella",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      2727
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "TongRenSyncCfg": {
+    "Id": 5063,
+    "Desc": "开启同步铜人练武",
+    "Name": "TongRenSync",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      2802
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "MetalCfg": {
+    "Id": 5064,
+    "Desc": "开启任务应援状态",
+    "Name": "Metal",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1358
+    ],
+    "isMoveVarient": true,
+    "QueryId": 240,
+    "EnterGameplaySignal": 8038,
+    "ExitGameplaySignal": 8039,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "AllowFrontHitWallCfg": {
+    "Id": 5065,
+    "Desc": "开启正面撞墙",
+    "Name": "AllowFrontHitWall",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      4004
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "KillingPrototypeCfg": {
+    "Id": 3040,
+    "Desc": "开启樱珑八步赶蝉（史晨阳）",
+    "Name": "KillingPrototype",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1306
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "ParachuteCfg": {
+    "Id": 3041,
+    "Desc": "开启伞降（史晨阳）",
+    "Name": "Parachute",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1328
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "State_ArrestedCfg": {
+    "Id": 3050,
+    "Desc": "嘉姆被逮捕状态",
+    "Name": "State_Arrested",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1340
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "StaggerJumpYinglongCfg": {
+    "Id": 3051,
+    "Desc": "允许进行任务璎珑跑酷踉跄大跳（板鸭）",
+    "Name": "StaggerJumpYinglong",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1330
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "StaggerFallYinglongCfg": {
+    "Id": 3052,
+    "Desc": "允许璎珑踏空坠落【任务专属】",
+    "Name": "StaggerFallYinglong",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      1349
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "CanTaskjokerskateCfg": {
+    "Id": 3053,
+    "Desc": "允许任务滑板手舞足蹈【任务专属】",
+    "Name": "CanTaskjokerskate",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      2317
+    ],
+    "isMoveVarient": true,
+    "QueryId": 214,
+    "EnterGameplaySignal": 1207,
+    "ExitGameplaySignal": 1208,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "CanTaffyCatWalkCfg": {
+    "Id": 3054,
+    "Desc": "允许塔菲逗比台步",
+    "Name": "CanTaffyCatWalk",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 200
+  },
+  "HasFeisuoAbilityCfg": {
+    "Id": 3013,
+    "Desc": "赋予角色飞索能力",
+    "Name": "HasFeisuoAbility",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      2318
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  },
+  "TaFiMotoLightAbilityCfg": {
+    "Id": 3014,
+    "Desc": "赋予玩家开启塔菲车灯能力",
+    "Name": "TaFiMotoLightAbility",
+    "LimitType": 1,
+    "UnitStateIds": [],
+    "ButtonEnum": [],
+    "GamePlayTags": [
+      2320
+    ],
+    "isMoveVarient": false,
+    "QueryId": 0,
+    "EnterGameplaySignal": 0,
+    "ExitGameplaySignal": 0,
+    "EnterCCCEvent": 0,
+    "ExitCCCEvent": 0,
+    "animationSet": 0
+  }
+}

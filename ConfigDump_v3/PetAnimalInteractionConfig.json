@@ -1,0 +1,497 @@
+{
+  "_class": "PetAnimalInteractionConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 11,
+  "records": [
+    {
+      "Id": 2,
+      "InteractTextId": 289,
+      "InteractionDesc": "fixed猫摸头",
+      "Icon": 28006992,
+      "FavorLevel": 1,
+      "StartActions": [
+        2001,
+        2101
+      ],
+      "StartActionTimes": [
+        1.70000005,
+        9999
+      ],
+      "StartFadeInTime": 0.300000012,
+      "StopActions": [
+        2004
+      ],
+      "StopActionTimes": [
+        0.600000024
+      ],
+      "StopFadeInTime": 0.5,
+      "PickUpMoveAction": 0,
+      "PickUpIdleAction": 0,
+      "ChangeName": false,
+      "PickUp": false,
+      "PetActionDelay": 0,
+      "PlayerActionDelay": 0,
+      "EffectId": 0,
+      "Bubbles": [
+        28000623
+      ],
+      "BubbleShowTime1": [
+        3,
+        6
+      ],
+      "BubbleWeight1": [
+        1
+      ],
+      "BubbleShowTime2": [
+        15,
+        18
+      ],
+      "BubbleWeight2": [
+        1,
+        1
+      ]
+    },
+    {
+      "Id": 3,
+      "InteractTextId": 291,
+      "InteractionDesc": "fixed猫摸背",
+      "Icon": 28008032,
+      "FavorLevel": 2,
+      "StartActions": [
+        1152,
+        3001,
+        2103
+      ],
+      "StartActionTimes": [
+        1,
+        2.07999992,
+        9999
+      ],
+      "StartFadeInTime": 0.300000012,
+      "StopActions": [
+        3003,
+        1151
+      ],
+      "StopActionTimes": [
+        5.5,
+        1
+      ],
+      "StopFadeInTime": 0.5,
+      "PickUpMoveAction": 0,
+      "PickUpIdleAction": 0,
+      "ChangeName": false,
+      "PickUp": false,
+      "PetActionDelay": 0,
+      "PlayerActionDelay": 1.60000002,
+      "EffectId": 0,
+      "Bubbles": [
+        28000623
+      ],
+      "BubbleShowTime1": [
+        3,
+        6
+      ],
+      "BubbleWeight1": [
+        1
+      ],
+      "BubbleShowTime2": [
+        15,
+        18
+      ],
+      "BubbleWeight2": [
+        1,
+        1
+      ]
+    },
+    {
+      "Id": 4,
+      "InteractTextId": 293,
+      "InteractionDesc": "fixed猫起名",
+      "Icon": 28008034,
+      "FavorLevel": 3,
+      "StartActions": [],
+      "StartActionTimes": [],
+      "StartFadeInTime": 0,
+      "StopActions": [],
+      "StopActionTimes": [],
+      "StopFadeInTime": 0,
+      "PickUpMoveAction": 0,
+      "PickUpIdleAction": 0,
+      "ChangeName": true,
+      "PickUp": false,
+      "PetActionDelay": 0,
+      "PlayerActionDelay": 0,
+      "EffectId": 0,
+      "Bubbles": [],
+      "BubbleShowTime1": [],
+      "BubbleWeight1": [],
+      "BubbleShowTime2": [],
+      "BubbleWeight2": []
+    },
+    {
+      "Id": 5,
+      "InteractTextId": 294,
+      "InteractionDesc": "猫抱起",
+      "Icon": 28006993,
+      "FavorLevel": 1,
+      "StartActions": [
+        3004,
+        3005
+      ],
+      "StartActionTimes": [
+        2.0999999,
+        9999
+      ],
+      "StartFadeInTime": 0,
+      "StopActions": [],
+      "StopActionTimes": [],
+      "StopFadeInTime": 0,
+      "PickUpMoveAction": 3006,
+      "PickUpIdleAction": 3005,
+      "ChangeName": false,
+      "PickUp": true,
+      "PetActionDelay": 0,
+      "PlayerActionDelay": 0,
+      "EffectId": 0,
+      "Bubbles": [
+        30300102,
+        30300103
+      ],
+      "BubbleShowTime1": [
+        5,
+        8
+      ],
+      "BubbleWeight1": [
+        1,
+        1
+      ],
+      "BubbleShowTime2": [
+        15,
+        18
+      ],
+      "BubbleWeight2": [
+        1,
+        1
+      ]
+    },
+    {
+      "Id": 7,
+      "InteractTextId": 295,
+      "InteractionDesc": "猫炸毛",
+      "Icon": 28006993,
+      "FavorLevel": 2,
+      "StartActions": [
+        1011
+      ],
+      "StartActionTimes": [
+        2.5
+      ],
+      "StartFadeInTime": 0.5,
+      "StopActions": [
+        1001
+      ],
+      "StopActionTimes": [
+        9999
+      ],
+      "StopFadeInTime": 0.5,
+      "PickUpMoveAction": 0,
+      "PickUpIdleAction": 0,
+      "ChangeName": false,
+      "PickUp": false,
+      "PetActionDelay": 0,
+      "PlayerActionDelay": 0,
+      "EffectId": 0,
+      "Bubbles": [],
+      "BubbleShowTime1": [],
+      "BubbleWeight1": [],
+      "BubbleShowTime2": [],
+      "BubbleWeight2": []
+    },
+    {
+      "Id": 8,
+      "InteractTextId": 296,
+      "InteractionDesc": "fixed狗揉脸",
+      "Icon": 28006998,
+      "FavorLevel": 1,
+      "StartActions": [
+        3201,
+        3202
+      ],
+      "StartActionTimes": [
+        2.83299994,
+        9999
+      ],
+      "StartFadeInTime": 0.5,
+      "StopActions": [
+        3203,
+        2003
+      ],
+      "StopActionTimes": [
+        2.67000008,
+        0.870000005
+      ],
+      "StopFadeInTime": 0.5,
+      "PickUpMoveAction": 0,
+      "PickUpIdleAction": 0,
+      "ChangeName": false,
+      "PickUp": false,
+      "PetActionDelay": 0,
+      "PlayerActionDelay": 0,
+      "EffectId": 0,
+      "Bubbles": [
+        28000626
+      ],
+      "BubbleShowTime1": [
+        3,
+        6
+      ],
+      "BubbleWeight1": [
+        1
+      ],
+      "BubbleShowTime2": [
+        15,
+        18
+      ],
+      "BubbleWeight2": [
+        1,
+        1
+      ]
+    },
+    {
+      "Id": 9,
+      "InteractTextId": 290,
+      "InteractionDesc": "fixed狗揉肚皮",
+      "Icon": 28006997,
+      "FavorLevel": 2,
+      "StartActions": [
+        3101,
+        3102
+      ],
+      "StartActionTimes": [
+        3.73300004,
+        9999
+      ],
+      "StartFadeInTime": 0.5,
+      "StopActions": [
+        3103,
+        2003
+      ],
+      "StopActionTimes": [
+        5.17000008,
+        0.870000005
+      ],
+      "StopFadeInTime": 0.5,
+      "PickUpMoveAction": 0,
+      "PickUpIdleAction": 0,
+      "ChangeName": false,
+      "PickUp": false,
+      "PetActionDelay": 0,
+      "PlayerActionDelay": 0,
+      "EffectId": 0,
+      "Bubbles": [
+        28000627
+      ],
+      "BubbleShowTime1": [
+        3,
+        6
+      ],
+      "BubbleWeight1": [
+        1
+      ],
+      "BubbleShowTime2": [
+        15,
+        18
+      ],
+      "BubbleWeight2": [
+        1,
+        1
+      ]
+    },
+    {
+      "Id": 10,
+      "InteractTextId": 294,
+      "InteractionDesc": "狗抱起",
+      "Icon": 28006996,
+      "FavorLevel": 3,
+      "StartActions": [
+        3004,
+        3005
+      ],
+      "StartActionTimes": [
+        3.26999998,
+        9999
+      ],
+      "StartFadeInTime": 0,
+      "StopActions": [
+        3007
+      ],
+      "StopActionTimes": [
+        1.73000002
+      ],
+      "StopFadeInTime": 0.200000003,
+      "PickUpMoveAction": 3006,
+      "PickUpIdleAction": 3005,
+      "ChangeName": false,
+      "PickUp": true,
+      "PetActionDelay": 0,
+      "PlayerActionDelay": 0,
+      "EffectId": 0,
+      "Bubbles": [],
+      "BubbleShowTime1": [],
+      "BubbleWeight1": [],
+      "BubbleShowTime2": [],
+      "BubbleWeight2": []
+    },
+    {
+      "Id": 21,
+      "InteractTextId": 298,
+      "InteractionDesc": "猫喂食",
+      "Icon": 28006995,
+      "FavorLevel": 1,
+      "StartActions": [
+        2107,
+        2108
+      ],
+      "StartActionTimes": [
+        2.67000008,
+        9999
+      ],
+      "StartFadeInTime": 0.5,
+      "StopActions": [
+        2109
+      ],
+      "StopActionTimes": [
+        1.76999998
+      ],
+      "StopFadeInTime": 0.5,
+      "PickUpMoveAction": 0,
+      "PickUpIdleAction": 0,
+      "ChangeName": false,
+      "PickUp": false,
+      "PetActionDelay": 0,
+      "PlayerActionDelay": 0,
+      "EffectId": 0,
+      "Bubbles": [
+        30300102,
+        30300103
+      ],
+      "BubbleShowTime1": [
+        3,
+        6
+      ],
+      "BubbleWeight1": [
+        1,
+        1
+      ],
+      "BubbleShowTime2": [
+        15,
+        18
+      ],
+      "BubbleWeight2": [
+        1,
+        1
+      ]
+    },
+    {
+      "Id": 22,
+      "InteractTextId": 297,
+      "InteractionDesc": "猫玩球",
+      "Icon": 28006994,
+      "FavorLevel": 1,
+      "StartActions": [
+        2104,
+        2105
+      ],
+      "StartActionTimes": [
+        3.26999998,
+        9999
+      ],
+      "StartFadeInTime": 0.5,
+      "StopActions": [
+        2106
+      ],
+      "StopActionTimes": [
+        3.43000007
+      ],
+      "StopFadeInTime": 0.5,
+      "PickUpMoveAction": 0,
+      "PickUpIdleAction": 0,
+      "ChangeName": false,
+      "PickUp": false,
+      "PetActionDelay": 0,
+      "PlayerActionDelay": 0,
+      "EffectId": 0,
+      "Bubbles": [
+        30300102,
+        30300103
+      ],
+      "BubbleShowTime1": [
+        3,
+        6
+      ],
+      "BubbleWeight1": [
+        1,
+        1
+      ],
+      "BubbleShowTime2": [
+        15,
+        18
+      ],
+      "BubbleWeight2": [
+        1,
+        1
+      ]
+    },
+    {
+      "Id": 23,
+      "InteractTextId": 290,
+      "InteractionDesc": "fixed猫揉肚皮",
+      "Icon": 28006991,
+      "FavorLevel": 3,
+      "StartActions": [
+        2110,
+        2111
+      ],
+      "StartActionTimes": [
+        6.67000008,
+        9999
+      ],
+      "StartFadeInTime": 0.5,
+      "StopActions": [
+        2112
+      ],
+      "StopActionTimes": [
+        2.26999998
+      ],
+      "StopFadeInTime": 0.5,
+      "PickUpMoveAction": 0,
+      "PickUpIdleAction": 0,
+      "ChangeName": false,
+      "PickUp": false,
+      "PetActionDelay": 0,
+      "PlayerActionDelay": 0,
+      "EffectId": 0,
+      "Bubbles": [
+        28000623
+      ],
+      "BubbleShowTime1": [
+        3,
+        6
+      ],
+      "BubbleWeight1": [
+        1
+      ],
+      "BubbleShowTime2": [
+        15,
+        18
+      ],
+      "BubbleWeight2": [
+        1,
+        1
+      ]
+    }
+  ],
+  "_dumpedCount": 11,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

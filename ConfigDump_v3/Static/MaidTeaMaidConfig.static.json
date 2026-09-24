@@ -1,0 +1,88 @@
+{
+  "BossCfg": {
+    "Id": 29120003,
+    "Name": "店长",
+    "ModelId": 86951857,
+    "ChooseTime": 10,
+    "UINodeIndex": 0,
+    "ImgID": 0,
+    "IdleActionId": 9902,
+    "MixTeaActionId": 9901,
+    "Npcid": 0,
+    "SelectSoundId": 0,
+    "UnlockLevel": 0,
+    "MaidDesc": "",
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "店长",
+    "__IDX__MaidDesc": 0,
+    "__RAW__MaidDesc": "",
+    "NoChooseDialog": {
+      "dialogText": "",
+      "__IDX__dialogText": 4294967293,
+      "__RAW__dialogText": "why not?",
+      "actionId": 0
+    },
+    "MaidQuestionID": [],
+    "MaidGetTeaDialog": [],
+    "TeaComment": [],
+    "IntroDialog": []
+  },
+  "DateMaidCfg": {
+    "Id": 29120006,
+    "Name": "依依",
+    "ModelId": 86952236,
+    "ChooseTime": 20,
+    "UINodeIndex": 0,
+    "ImgID": 0,
+    "IdleActionId": 9902,
+    "MixTeaActionId": 9903,
+    "Npcid": 0,
+    "SelectSoundId": 0,
+    "UnlockLevel": 0,
+    "MaidDesc": "",
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "依依",
+    "__IDX__MaidDesc": 0,
+    "__RAW__MaidDesc": "",
+    "NoChooseDialog": {
+      "dialogText": "",
+      "__IDX__dialogText": 0,
+      "__RAW__dialogText": "",
+      "actionId": 0
+    },
+    "MaidQuestionID": [],
+    "MaidGetTeaDialog": [
+      {
+        "CompleteScore": 80,
+        "DialogId": 50033095
+      },
+      {
+        "CompleteScore": 1,
+        "DialogId": 50033598
+      },
+      {
+        "CompleteScore": 0,
+        "DialogId": 50033598
+      }
+    ],
+    "TeaComment": [],
+    "IntroDialog": [
+      {
+        "FoodId": 87001018,
+        "DialogId": 50033043
+      },
+      {
+        "FoodId": 87001019,
+        "DialogId": 50033043
+      },
+      {
+        "FoodId": 87001020,
+        "DialogId": 50033043
+      },
+      {
+        "FoodId": 87001021,
+        "DialogId": 50033043
+      }
+    ]
+  }
+}

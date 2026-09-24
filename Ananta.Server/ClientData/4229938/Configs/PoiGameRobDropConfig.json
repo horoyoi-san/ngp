@@ -1,0 +1,35 @@
+{
+  "_class": "PoiGameRobDropConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 5,
+  "records": [
+    {
+      "Id": 1,
+      "ValueMin": 5000,
+      "ValueMax": 7500
+    },
+    {
+      "Id": 2,
+      "ValueMin": 6000,
+      "ValueMax": 12000
+    },
+    {
+      "Id": 3,
+      "ValueMin": 10000,
+      "ValueMax": 24000
+    },
+    {
+      "Id": 4,
+      "ValueMin": 20000,
+      "ValueMax": 40000
+    },
+    {
+      "Id": 5,
+      "ValueMin": 60000,
+      "ValueMax": 100
+    }
+  ],
+  "_dumpedCount": 5,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

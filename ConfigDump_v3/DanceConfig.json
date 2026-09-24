@@ -1,0 +1,106 @@
+{
+  "_class": "DanceConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 4,
+  "records": [
+    {
+      "Id": 87005000,
+      "SoundID": 15000522,
+      "IsDayTime": false,
+      "Camera": 0,
+      "DanceStartGroup": [
+        {
+          "PersonalityType": 2,
+          "EnterDiscoActionGroup": 1
+        },
+        {
+          "PersonalityType": 1,
+          "EnterDiscoActionGroup": 4
+        },
+        {
+          "PersonalityType": 3,
+          "EnterDiscoActionGroup": 7
+        },
+        {
+          "PersonalityType": 0,
+          "EnterDiscoActionGroup": 1
+        }
+      ]
+    },
+    {
+      "Id": 87005001,
+      "SoundID": 15000522,
+      "IsDayTime": true,
+      "Camera": 0,
+      "DanceStartGroup": [
+        {
+          "PersonalityType": 2,
+          "EnterDiscoActionGroup": 1
+        },
+        {
+          "PersonalityType": 1,
+          "EnterDiscoActionGroup": 4
+        },
+        {
+          "PersonalityType": 3,
+          "EnterDiscoActionGroup": 7
+        },
+        {
+          "PersonalityType": 0,
+          "EnterDiscoActionGroup": 1
+        }
+      ]
+    },
+    {
+      "Id": 87005002,
+      "SoundID": 15000523,
+      "IsDayTime": true,
+      "Camera": 0,
+      "DanceStartGroup": [
+        {
+          "PersonalityType": 2,
+          "EnterDiscoActionGroup": 1
+        },
+        {
+          "PersonalityType": 1,
+          "EnterDiscoActionGroup": 4
+        },
+        {
+          "PersonalityType": 3,
+          "EnterDiscoActionGroup": 7
+        },
+        {
+          "PersonalityType": 0,
+          "EnterDiscoActionGroup": 1
+        }
+      ]
+    },
+    {
+      "Id": 87005003,
+      "SoundID": 15000523,
+      "IsDayTime": false,
+      "Camera": 0,
+      "DanceStartGroup": [
+        {
+          "PersonalityType": 2,
+          "EnterDiscoActionGroup": 1
+        },
+        {
+          "PersonalityType": 1,
+          "EnterDiscoActionGroup": 4
+        },
+        {
+          "PersonalityType": 3,
+          "EnterDiscoActionGroup": 7
+        },
+        {
+          "PersonalityType": 0,
+          "EnterDiscoActionGroup": 1
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 4,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

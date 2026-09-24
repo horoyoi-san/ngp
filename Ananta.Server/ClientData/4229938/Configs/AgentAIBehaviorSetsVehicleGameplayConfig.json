@@ -1,0 +1,54 @@
+{
+  "_class": "AgentAIBehaviorSetsVehicleGameplayConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 4,
+  "records": [
+    {
+      "Id": 40210001,
+      "Name": "无骑乘设置",
+      "VehicleId": 0,
+      "VehicleExistTime": 0,
+      "VehicleChangeCommonSkill": 0,
+      "VehicleChangeActiveSkill": 0,
+      "SpawnVehicle": {
+        "vehicleId": 0
+      }
+    },
+    {
+      "Id": 40210002,
+      "Name": "猫机灵骑乘",
+      "VehicleId": 81000009,
+      "VehicleExistTime": 0,
+      "VehicleChangeCommonSkill": 0,
+      "VehicleChangeActiveSkill": 0,
+      "SpawnVehicle": {
+        "vehicleId": 81000009
+      }
+    },
+    {
+      "Id": 40210003,
+      "Name": "斯贝德骑乘",
+      "VehicleId": 0,
+      "VehicleExistTime": 0,
+      "VehicleChangeCommonSkill": 0,
+      "VehicleChangeActiveSkill": 0,
+      "SpawnVehicle": {
+        "vehicleId": 81007023
+      }
+    },
+    {
+      "Id": 40210004,
+      "Name": "钢博坦骑乘",
+      "VehicleId": 81007023,
+      "VehicleExistTime": 60,
+      "VehicleChangeCommonSkill": 51900497,
+      "VehicleChangeActiveSkill": 0,
+      "SpawnVehicle": {
+        "vehicleId": 81007023
+      }
+    }
+  ],
+  "_dumpedCount": 4,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

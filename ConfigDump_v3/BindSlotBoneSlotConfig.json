@@ -1,0 +1,154 @@
+{
+  "_class": "BindSlotBoneSlotConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 24,
+  "records": [
+    {
+      "Id": 1,
+      "BoneName": "Handr",
+      "BoneDescribe": "右手",
+      "BoneDetailedDescription": "建议骨骼点不脱手使用"
+    },
+    {
+      "Id": 2,
+      "BoneName": "Handl",
+      "BoneDescribe": "左手",
+      "BoneDetailedDescription": "建议骨骼点不脱手使用"
+    },
+    {
+      "Id": 3,
+      "BoneName": "Weapon_R_world",
+      "BoneDescribe": "右手_world",
+      "BoneDetailedDescription": "骨骼父节点为根节点，仅坐标与Handr一致，骨骼链路不一致，用于避免抖动，建议骨骼点会脱手的情况使用"
+    },
+    {
+      "Id": 4,
+      "BoneName": "Weapon_L_world",
+      "BoneDescribe": "左手_world",
+      "BoneDetailedDescription": "骨骼父节点为根节点，仅坐标与Handl一致，骨骼链路不一致，用于避免抖动，建议骨骼点会脱手的情况使用"
+    },
+    {
+      "Id": 5,
+      "BoneName": "Reference",
+      "BoneDescribe": "根节点",
+      "BoneDetailedDescription": "脚底根节点，角色逻辑位置"
+    },
+    {
+      "Id": 6,
+      "BoneName": "Head",
+      "BoneDescribe": "头部",
+      "BoneDetailedDescription": "实际是脖子最上面"
+    },
+    {
+      "Id": 7,
+      "BoneName": "UpbodySlot",
+      "BoneDescribe": "身体",
+      "BoneDetailedDescription": "胸部左右"
+    },
+    {
+      "Id": 8,
+      "BoneName": "RightHand",
+      "BoneDescribe": "右手手腕",
+      "BoneDetailedDescription": "正常用Handr"
+    },
+    {
+      "Id": 9,
+      "BoneName": "LeftHand",
+      "BoneDescribe": "左手手腕",
+      "BoneDetailedDescription": "正常用Handl"
+    },
+    {
+      "Id": 10,
+      "BoneName": "RootSlot",
+      "BoneDescribe": "RootSlot",
+      "BoneDetailedDescription": ""
+    },
+    {
+      "Id": 11,
+      "BoneName": "Vehicles_anipoint",
+      "BoneDescribe": "Vehicles_anipoint",
+      "BoneDetailedDescription": ""
+    },
+    {
+      "Id": 13,
+      "BoneName": "zibenjia_Weapon_L_world",
+      "BoneDescribe": "zibenjia_Weapon_L_world",
+      "BoneDetailedDescription": ""
+    },
+    {
+      "Id": 14,
+      "BoneName": "MindWeapon",
+      "BoneDescribe": "MindWeapon",
+      "BoneDetailedDescription": ""
+    },
+    {
+      "Id": 15,
+      "BoneName": "R_world",
+      "BoneDescribe": "R_world",
+      "BoneDetailedDescription": ""
+    },
+    {
+      "Id": 16,
+      "BoneName": "Weapon_R_01",
+      "BoneDescribe": "Weapon_R_01",
+      "BoneDetailedDescription": ""
+    },
+    {
+      "Id": 17,
+      "BoneName": "control_anipoint",
+      "BoneDescribe": "control_anipoint",
+      "BoneDetailedDescription": ""
+    },
+    {
+      "Id": 18,
+      "BoneName": "cat_Weapon_R_world",
+      "BoneDescribe": "cat_Weapon_R_world",
+      "BoneDetailedDescription": ""
+    },
+    {
+      "Id": 19,
+      "BoneName": "Weapon_L",
+      "BoneDescribe": "Weapon_L",
+      "BoneDetailedDescription": ""
+    },
+    {
+      "Id": 20,
+      "BoneName": "Weapon_R",
+      "BoneDescribe": "Weapon_R",
+      "BoneDetailedDescription": ""
+    },
+    {
+      "Id": 21,
+      "BoneName": "shieldslot",
+      "BoneDescribe": "shieldslot",
+      "BoneDetailedDescription": ""
+    },
+    {
+      "Id": 22,
+      "BoneName": "Zhijia",
+      "BoneDescribe": "Zhijia",
+      "BoneDetailedDescription": ""
+    },
+    {
+      "Id": 23,
+      "BoneName": "Rocket",
+      "BoneDescribe": "Rocket",
+      "BoneDetailedDescription": ""
+    },
+    {
+      "Id": 24,
+      "BoneName": "Weapon_L_01",
+      "BoneDescribe": "Weapon_L_01",
+      "BoneDetailedDescription": ""
+    },
+    {
+      "Id": 25,
+      "BoneName": "Weapon_R_01_world",
+      "BoneDescribe": "Weapon_R_01_world",
+      "BoneDetailedDescription": ""
+    }
+  ],
+  "_dumpedCount": 24,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

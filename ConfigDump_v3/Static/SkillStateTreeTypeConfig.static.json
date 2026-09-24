@@ -1,0 +1,317 @@
+{
+  "ShiftDownCfg": {
+    "Id": 1,
+    "Name": "ShiftDown",
+    "SessionBreakSignal": 0
+  },
+  "ShiftUpCfg": {
+    "Id": 2,
+    "Name": "ShiftUp",
+    "SessionBreakSignal": 0
+  },
+  "FloatFlightEnterCfg": {
+    "Id": 3,
+    "Name": "FloatFlightEnter",
+    "SessionBreakSignal": 0
+  },
+  "FloatFlightExitCfg": {
+    "Id": 4,
+    "Name": "FloatFlightExit",
+    "SessionBreakSignal": 0
+  },
+  "FireCfg": {
+    "Id": 5,
+    "Name": "Fire",
+    "SessionBreakSignal": 59
+  },
+  "ReloadCfg": {
+    "Id": 6,
+    "Name": "Reload",
+    "SessionBreakSignal": 49
+  },
+  "SwitchAimStateCfg": {
+    "Id": 8,
+    "Name": "SwitchAimState",
+    "SessionBreakSignal": 0
+  },
+  "TafeiXuliStartCfg": {
+    "Id": 9,
+    "Name": "TafeiXuliStart",
+    "SessionBreakSignal": 0
+  },
+  "TafeiXuliLoopCfg": {
+    "Id": 10,
+    "Name": "TafeiXuliLoop",
+    "SessionBreakSignal": 0
+  },
+  "BattleIdleToNormalIdleCfg": {
+    "Id": 13,
+    "Name": "BattleIdleToNormalIdle",
+    "SessionBreakSignal": 0
+  },
+  "CarShootModeCfg": {
+    "Id": 14,
+    "Name": "CarShootMode",
+    "SessionBreakSignal": 0
+  },
+  "SummonSpiderCfg": {
+    "Id": 15,
+    "Name": "SummonSpider",
+    "SessionBreakSignal": 0
+  },
+  "SummonUAVCfg": {
+    "Id": 16,
+    "Name": "SummonUAV",
+    "SessionBreakSignal": 0
+  },
+  "SummonDogCfg": {
+    "Id": 17,
+    "Name": "SummonDog",
+    "SessionBreakSignal": 0
+  },
+  "StrongLockTargetChangedCfg": {
+    "Id": 18,
+    "Name": "StrongLockTargetChanged",
+    "SessionBreakSignal": 0
+  },
+  "WeakLockTargetChangedCfg": {
+    "Id": 19,
+    "Name": "WeakLockTargetChanged",
+    "SessionBreakSignal": 0
+  },
+  "StrongLockTargetOnCfg": {
+    "Id": 20,
+    "Name": "StrongLockTargetOn",
+    "SessionBreakSignal": 0
+  },
+  "StrongLockTargetOffCfg": {
+    "Id": 21,
+    "Name": "StrongLockTargetOff",
+    "SessionBreakSignal": 0
+  },
+  "WeakLockTargetOnCfg": {
+    "Id": 22,
+    "Name": "WeakLockTargetOn",
+    "SessionBreakSignal": 0
+  },
+  "WeakLockTargetOffCfg": {
+    "Id": 23,
+    "Name": "WeakLockTargetOff",
+    "SessionBreakSignal": 0
+  },
+  "AnyLockTargetChangedCfg": {
+    "Id": 24,
+    "Name": "AnyLockTargetChanged",
+    "SessionBreakSignal": 0
+  },
+  "AnyLockTargetOnCfg": {
+    "Id": 25,
+    "Name": "AnyLockTargetOn",
+    "SessionBreakSignal": 0
+  },
+  "AnyLockTargetOffCfg": {
+    "Id": 26,
+    "Name": "AnyLockTargetOff",
+    "SessionBreakSignal": 0
+  },
+  "DefaultDrinkCfg": {
+    "Id": 27,
+    "Name": "DefaultDrink",
+    "SessionBreakSignal": 0
+  },
+  "WaterGunReload01Cfg": {
+    "Id": 28,
+    "Name": "WaterGunReload01",
+    "SessionBreakSignal": 0
+  },
+  "WaterGunReloadCfg": {
+    "Id": 29,
+    "Name": "WaterGunReload",
+    "SessionBreakSignal": 0
+  },
+  "GetWashLiquidCfg": {
+    "Id": 30,
+    "Name": "GetWashLiquid",
+    "SessionBreakSignal": 0
+  },
+  "AutoFireStartCfg": {
+    "Id": 31,
+    "Name": "连射开始",
+    "SessionBreakSignal": 0
+  },
+  "AutoFireEndCfg": {
+    "Id": 32,
+    "Name": "连射结束",
+    "SessionBreakSignal": 0
+  },
+  "ThrowCSmonsterCfg": {
+    "Id": 33,
+    "Name": "丢出召唤物",
+    "SessionBreakSignal": 0
+  },
+  "HoldSceneItemThrownCfg": {
+    "Id": 34,
+    "Name": "Hold物体丢出",
+    "SessionBreakSignal": 0
+  },
+  "AimDodgeCfg": {
+    "Id": 35,
+    "Name": "瞄准状态下闪避",
+    "SessionBreakSignal": 0
+  },
+  "CombatPoseEnterCfg": {
+    "Id": 36,
+    "Name": "战斗姿态进入",
+    "SessionBreakSignal": 0
+  },
+  "CombatPoseExitCfg": {
+    "Id": 37,
+    "Name": "战斗姿态退出",
+    "SessionBreakSignal": 0
+  },
+  "CombatConfrontEnterCfg": {
+    "Id": 38,
+    "Name": "对峙姿态进入",
+    "SessionBreakSignal": 0
+  },
+  "CombatConfrontExitCfg": {
+    "Id": 39,
+    "Name": "对峙姿态退出",
+    "SessionBreakSignal": 0
+  },
+  "SlightHurtCfg": {
+    "Id": 40,
+    "Name": "SlightHurt",
+    "SessionBreakSignal": 0
+  },
+  "WaterGunReloadFailedCfg": {
+    "Id": 41,
+    "Name": "WaterGunReloadFailed",
+    "SessionBreakSignal": 0
+  },
+  "LoadOneBulletCfg": {
+    "Id": 42,
+    "Name": "拉栓上膛",
+    "SessionBreakSignal": 0
+  },
+  "SendFlyerClickStartCfg": {
+    "Id": 43,
+    "Name": "SendFlyerClickStart",
+    "SessionBreakSignal": 0
+  },
+  "SendFlyerClickHitEndCfg": {
+    "Id": 44,
+    "Name": "SendFlyerClickHitEnd",
+    "SessionBreakSignal": 0
+  },
+  "SendFlyerHoldStartCfg": {
+    "Id": 45,
+    "Name": "SendFlyerHoldStart",
+    "SessionBreakSignal": 0
+  },
+  "SendFlyerHoldHitEndCfg": {
+    "Id": 46,
+    "Name": "SendFlyerHoldHitEnd",
+    "SessionBreakSignal": 0
+  },
+  "SendFlyerHoldNormalEndCfg": {
+    "Id": 47,
+    "Name": "SendFlyerHoldNormalEnd",
+    "SessionBreakSignal": 0
+  },
+  "ReloadLoopOnceCfg": {
+    "Id": 48,
+    "Name": "换弹Loop一次（用于Start-Loop-End类型）",
+    "SessionBreakSignal": 0
+  },
+  "ReloadEndCfg": {
+    "Id": 49,
+    "Name": "换弹结束（用于Start-Loop-End类型）",
+    "SessionBreakSignal": 0
+  },
+  "SprayEndCfg": {
+    "Id": 50,
+    "Name": "喷射结束",
+    "SessionBreakSignal": 0
+  },
+  "DrunkStyleDrunkCfg": {
+    "Id": 51,
+    "Name": "醉拳武学R",
+    "SessionBreakSignal": 0
+  },
+  "DefaultEatingCfg": {
+    "Id": 52,
+    "Name": "通用吃东西",
+    "SessionBreakSignal": 0
+  },
+  "MindAgentHitCfg": {
+    "Id": 53,
+    "Name": "念动Agent击中地面",
+    "SessionBreakSignal": 0
+  },
+  "ThrowModeCfg": {
+    "Id": 54,
+    "Name": "投掷模式",
+    "SessionBreakSignal": 0
+  },
+  "ThrowEndCfg": {
+    "Id": 55,
+    "Name": "投掷蓄力结束",
+    "SessionBreakSignal": 0
+  },
+  "ThrowCastStartCfg": {
+    "Id": 56,
+    "Name": "投掷开始",
+    "SessionBreakSignal": 0
+  },
+  "ThrowAimStartCfg": {
+    "Id": 57,
+    "Name": "投掷瞄准开始",
+    "SessionBreakSignal": 0
+  },
+  "ThrowAimEndCfg": {
+    "Id": 58,
+    "Name": "投掷瞄准结束",
+    "SessionBreakSignal": 0
+  },
+  "FireEndCfg": {
+    "Id": 59,
+    "Name": "开火结束",
+    "SessionBreakSignal": 0
+  },
+  "StartChargeCfg": {
+    "Id": 61,
+    "Name": "蓄力炮开始蓄力",
+    "SessionBreakSignal": 0
+  },
+  "CancelChargeCfg": {
+    "Id": 62,
+    "Name": "蓄力炮取消蓄力",
+    "SessionBreakSignal": 0
+  },
+  "ChargedCfg": {
+    "Id": 63,
+    "Name": "蓄力炮蓄力完成",
+    "SessionBreakSignal": 0
+  },
+  "ChargedReleaseCfg": {
+    "Id": 64,
+    "Name": "蓄力炮蓄力发射",
+    "SessionBreakSignal": 0
+  },
+  "SpecialFireCfg": {
+    "Id": 65,
+    "Name": "E键特殊射击",
+    "SessionBreakSignal": 0
+  },
+  "SpiderRobotDanceCfg": {
+    "Id": 66,
+    "Name": "蜘蛛机器人跳舞",
+    "SessionBreakSignal": 0
+  },
+  "xingyiquanRCfg": {
+    "Id": 67,
+    "Name": "形意拳R",
+    "SessionBreakSignal": 0
+  }
+}

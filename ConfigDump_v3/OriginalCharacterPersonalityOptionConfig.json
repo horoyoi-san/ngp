@@ -1,0 +1,54 @@
+{
+  "_class": "OriginalCharacterPersonalityOptionConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 3,
+  "records": [
+    {
+      "Id": 1,
+      "Title": "兴趣爱好",
+      "TIndex": [
+        0
+      ],
+      "IPContext": [
+        "Likes",
+        "GoodAt"
+      ],
+      "Icon": "28001430",
+      "InputTips": [
+        "Ta有什么爱好？",
+        "Ta擅长什么？"
+      ]
+    },
+    {
+      "Id": 2,
+      "Title": "弱点",
+      "TIndex": [
+        0
+      ],
+      "IPContext": [
+        "WeakAt",
+        "Dislikes"
+      ],
+      "Icon": "28001429",
+      "InputTips": [
+        "Ta的弱点是什么？",
+        "Ta不喜欢什么？"
+      ]
+    },
+    {
+      "Id": 3,
+      "Title": "怪癖",
+      "TIndex": [
+        0
+      ],
+      "IPContext": [],
+      "Icon": "28001428",
+      "InputTips": [
+        "Ta有什么怪癖"
+      ]
+    }
+  ],
+  "_dumpedCount": 3,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

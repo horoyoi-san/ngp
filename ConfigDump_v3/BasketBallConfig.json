@@ -1,0 +1,44 @@
+{
+  "_class": "BasketBallConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 2,
+  "records": [
+    {
+      "Id": 16000000,
+      "Mode": 0,
+      "IsRank": false,
+      "TargetScore": 11,
+      "ShotClock": 20,
+      "OffensiveReboundClock": 0,
+      "IsFoul": false,
+      "ScorePanel": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "LinkMultiPlayerId": 12113500
+    },
+    {
+      "Id": 16000001,
+      "Mode": 1,
+      "IsRank": false,
+      "TargetScore": 15,
+      "ShotClock": 24,
+      "OffensiveReboundClock": 14,
+      "IsFoul": false,
+      "ScorePanel": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "LinkMultiPlayerId": 12113501
+    }
+  ],
+  "_dumpedCount": 2,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

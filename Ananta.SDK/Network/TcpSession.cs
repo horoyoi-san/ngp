@@ -33,18 +33,18 @@ public sealed class TcpSession
         if (clientHandshake.Length < 20)
             throw new InvalidDataException($"4229938 C2S handshake is only {clientHandshake.Length} bytes");
 
-        // C2S handshake layout: 4229938 SendHandShakeFrontEnd writes
-        // magic(4) + the plain 16-byte UXAES.Generate() key at [4..20)
-        // (its UXRSA.Encrypt call is patched out client-side), padded to 260.
+        
+        
+        
         byte[] aesKey = clientHandshake.Slice(4, 16).ToArray();
         Log.Info($"HS raw[0..32]={Convert.ToHexString(clientHandshake.Slice(0, 32).ToArray())}");
 
-        // Decrypted S2C handshake blob expected by TrySetupChaChaOnHandshake:
-        //   [0..32)  = client's write key  => server READ key
-        //   [32..64) = client's read key   => server WRITE key
-        //   [64..76) = shared 96-bit nonce
-        // Empirically verified against 4229938: the client encrypts its frames
-        // with blob[0..32) (FrameCodec raw-head capture + keystream match).
+        
+        
+        
+        
+        
+        
         byte[] clientWriteKey = RandomNumberGenerator.GetBytes(32);
         byte[] clientReadKey = RandomNumberGenerator.GetBytes(32);
         byte[] streamNonce = RandomNumberGenerator.GetBytes(12);
@@ -65,15 +65,15 @@ public sealed class TcpSession
         aesNonce.CopyTo(payload, 8);
         cipher.CopyTo(payload, 20);
         tag.CopyTo(payload, 96);
-        // payload[112..368] is the RSA-2048 signature field. The client's
-        // UXRSA.Verify result branch is patched out to accept the local
-        // unsigned handshake.
+        
+        
+        
 
         await _sendLock.WaitAsync(token);
         try
         {
-            // The handshake reply itself is plaintext. Encryption becomes active
-            // only for the next frame in each direction.
+            
+            
             await FrameCodec.WriteFrameAsync(Stream, 0x01, payload, cryptor: null, token: token);
             _readCryptor = new UxChaCha8(clientWriteKey, streamNonce);
             _writeCryptor = new UxChaCha8(clientReadKey, streamNonce);

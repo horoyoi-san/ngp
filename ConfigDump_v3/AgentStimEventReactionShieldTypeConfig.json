@@ -1,0 +1,26 @@
+{
+  "_class": "AgentStimEventReactionShieldTypeConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 4,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "None"
+    },
+    {
+      "Id": 2,
+      "Name": "ResponseOnly"
+    },
+    {
+      "Id": 3,
+      "Name": "DecideOnly"
+    },
+    {
+      "Id": 4,
+      "Name": "ResponseAndDecide"
+    }
+  ],
+  "_dumpedCount": 4,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

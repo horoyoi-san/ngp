@@ -1,0 +1,186 @@
+{
+  "_class": "PackageBundlesConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 7,
+  "records": [
+    {
+      "Id": 1,
+      "ResourceName": [
+        "app"
+      ],
+      "Type": 0,
+      "DefaultOrder": 1,
+      "Name": "母包",
+      "Description": "母包",
+      "BtnImageId": 0,
+      "BGImageId": 0,
+      "AutoDownload": true,
+      "DefaultRequireDownload": true,
+      "DefaultRriorityDownload": false,
+      "AllowDeletion": false,
+      "RequireDownloadCondition": 1,
+      "RriorityDownloadCondition": 0,
+      "RelatedLinkMode": [],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "母包",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "母包"
+    },
+    {
+      "Id": 2,
+      "ResourceName": [
+        "core"
+      ],
+      "Type": 1,
+      "DefaultOrder": 2,
+      "Name": "新启",
+      "Description": "这里是故事的原点。在这里，每一个明天、每一种未来的可能性都是「无限大」！\n保持轻松愉快的假期心情，自由地探索这座城市吧！",
+      "BtnImageId": 28002231,
+      "BGImageId": 28002234,
+      "AutoDownload": true,
+      "DefaultRequireDownload": true,
+      "DefaultRriorityDownload": false,
+      "AllowDeletion": false,
+      "RequireDownloadCondition": 1,
+      "RriorityDownloadCondition": 0,
+      "RelatedLinkMode": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "新启",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "这里是故事的原点。在这里，每一个明天、每一种未来的可能性都是「无限大」！\n保持轻松愉快的假期心情，自由地探索这座城市吧！"
+    },
+    {
+      "Id": 3,
+      "ResourceName": [
+        "chongxiao"
+      ],
+      "Type": 1,
+      "DefaultOrder": 10,
+      "Name": "重霄",
+      "Description": "朱红的墙、明黄的瓦，静静对着霓虹闪烁的摩天楼；老巷的烟火气，悄然漫入玻璃幕墙的流光。传说的影痕与未来的脉搏，就在某个不经意的街角，轻轻碰面。",
+      "BtnImageId": 28002230,
+      "BGImageId": 28002232,
+      "AutoDownload": true,
+      "DefaultRequireDownload": false,
+      "DefaultRriorityDownload": true,
+      "AllowDeletion": false,
+      "RequireDownloadCondition": 0,
+      "RriorityDownloadCondition": 0,
+      "RelatedLinkMode": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "重霄",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "朱红的墙、明黄的瓦，静静对着霓虹闪烁的摩天楼；老巷的烟火气，悄然漫入玻璃幕墙的流光。传说的影痕与未来的脉搏，就在某个不经意的街角，轻轻碰面。"
+    },
+    {
+      "Id": 4,
+      "ResourceName": [
+        "zhCN"
+      ],
+      "Type": 2,
+      "DefaultOrder": 100,
+      "Name": "中文语音",
+      "Description": "中文剧情语音资源，可在游戏内随时切换。",
+      "BtnImageId": 28002227,
+      "BGImageId": 28002233,
+      "AutoDownload": false,
+      "DefaultRequireDownload": false,
+      "DefaultRriorityDownload": false,
+      "AllowDeletion": true,
+      "RequireDownloadCondition": 0,
+      "RriorityDownloadCondition": 0,
+      "RelatedLinkMode": [],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "中文语音",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "中文剧情语音资源，可在游戏内随时切换。"
+    },
+    {
+      "Id": 5,
+      "ResourceName": [
+        "jaJP"
+      ],
+      "Type": 2,
+      "DefaultOrder": 101,
+      "Name": "日语语音",
+      "Description": "日文剧情语音资源，可在游戏内随时切换。",
+      "BtnImageId": 28002229,
+      "BGImageId": 28002233,
+      "AutoDownload": false,
+      "DefaultRequireDownload": false,
+      "DefaultRriorityDownload": false,
+      "AllowDeletion": true,
+      "RequireDownloadCondition": 0,
+      "RriorityDownloadCondition": 0,
+      "RelatedLinkMode": [],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "日语语音",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "日文剧情语音资源，可在游戏内随时切换。"
+    },
+    {
+      "Id": 6,
+      "ResourceName": [
+        "enUS"
+      ],
+      "Type": 2,
+      "DefaultOrder": 102,
+      "Name": "英文语音",
+      "Description": "英文剧情语音资源，可在游戏内随时切换。",
+      "BtnImageId": 28002228,
+      "BGImageId": 28002233,
+      "AutoDownload": false,
+      "DefaultRequireDownload": false,
+      "DefaultRriorityDownload": false,
+      "AllowDeletion": true,
+      "RequireDownloadCondition": 0,
+      "RriorityDownloadCondition": 0,
+      "RelatedLinkMode": [],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "英文语音",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "英文剧情语音资源，可在游戏内随时切换。"
+    },
+    {
+      "Id": 7,
+      "ResourceName": [
+        "extraction"
+      ],
+      "Type": 1,
+      "DefaultOrder": 50,
+      "Name": "搜打撤",
+      "Description": "搜打撤玩法资源包",
+      "BtnImageId": 28002228,
+      "BGImageId": 28002233,
+      "AutoDownload": false,
+      "DefaultRequireDownload": false,
+      "DefaultRriorityDownload": true,
+      "AllowDeletion": false,
+      "RequireDownloadCondition": 0,
+      "RriorityDownloadCondition": 0,
+      "RelatedLinkMode": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "搜打撤",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "搜打撤玩法资源包"
+    }
+  ],
+  "_dumpedCount": 7,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

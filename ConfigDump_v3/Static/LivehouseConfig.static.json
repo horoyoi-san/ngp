@@ -1,0 +1,194 @@
+{
+  "NoteSensitivity": {
+    "hitGridPerfectBeforeWidth": 3,
+    "hitGridPerfectBehindWidth": 2,
+    "hitGridGreatBeforeWidth": 5,
+    "hitGridGreatBehindWidth": 4
+  },
+  "MobileNoteSensitivity": {
+    "hitGridPerfectBeforeWidth": 3,
+    "hitGridPerfectBehindWidth": 2,
+    "hitGridGreatBeforeWidth": 5,
+    "hitGridGreatBehindWidth": 4
+  },
+  "NoteSensitivityTime": {
+    "PerfectBeforeTime": 0.300000012,
+    "PerfectBehindTime": 0.200000003,
+    "GreatBeforeTime": 0.5,
+    "GreatBehindTime": 0.400000006
+  },
+  "MobileNoteSensitivityTime": {
+    "PerfectBeforeTime": 0.300000012,
+    "PerfectBehindTime": 0.200000003,
+    "GreatBeforeTime": 0.5,
+    "GreatBehindTime": 0.400000006
+  },
+  "TapScore": {
+    "perfecttapscore": 500,
+    "successtapscore": 300,
+    "misstapscore": 0,
+    "specialtapscore": 1000
+  },
+  "HoldScore": [
+    {
+      "scoretype": 1,
+      "holdscore": 1000
+    },
+    {
+      "scoretype": 2,
+      "holdscore": 600
+    },
+    {
+      "scoretype": 3,
+      "holdscore": 0
+    }
+  ],
+  "FullComboName": "FULL COMBO!!!",
+  "NoteSpeed": 900,
+  "NoteSound": [
+    {
+      "scoretype": 1,
+      "soundID": 70390203
+    },
+    {
+      "scoretype": 2,
+      "soundID": 70390201
+    },
+    {
+      "scoretype": 3,
+      "soundID": 70390204
+    },
+    {
+      "scoretype": 4,
+      "soundID": 70390203
+    }
+  ],
+  "OldTimeLineNpcName": "被邀请角色",
+  "DialogBeforeTimelineSingle": [
+    {
+      "LivehouseID": 91130000,
+      "DialogID": 50016542
+    },
+    {
+      "LivehouseID": 91130001,
+      "DialogID": 50016542
+    },
+    {
+      "LivehouseID": 91130002,
+      "DialogID": 50016542
+    },
+    {
+      "LivehouseID": 91130003,
+      "DialogID": 50016542
+    },
+    {
+      "LivehouseID": 91130004,
+      "DialogID": 50016542
+    },
+    {
+      "LivehouseID": 91130005,
+      "DialogID": 50016542
+    }
+  ],
+  "DialogAfterTimelineSingle": [
+    {
+      "LivehouseID": 91130000,
+      "DialogID": 50016553
+    },
+    {
+      "LivehouseID": 91130001,
+      "DialogID": 50016554
+    },
+    {
+      "LivehouseID": 91130002,
+      "DialogID": 50016556
+    },
+    {
+      "LivehouseID": 91130003,
+      "DialogID": 50016557
+    },
+    {
+      "LivehouseID": 91130004,
+      "DialogID": 50016558
+    },
+    {
+      "LivehouseID": 91130005,
+      "DialogID": 50016559
+    }
+  ],
+  "scoretype": [
+    {
+      "scoretype": 1,
+      "scorename": "perfect"
+    },
+    {
+      "scoretype": 2,
+      "scorename": "great"
+    },
+    {
+      "scoretype": 3,
+      "scorename": "miss"
+    }
+  ],
+  "ComboEffect": [
+    {
+      "combo": 5,
+      "soundID": 70390203
+    },
+    {
+      "combo": 10,
+      "soundID": 70390201
+    },
+    {
+      "combo": 20,
+      "soundID": 70390204
+    }
+  ],
+  "EditMusicType": [
+    "Save",
+    "Import",
+    "Reset"
+  ],
+  "DifficultyName": [
+    "Easy",
+    "Standard",
+    "Hard"
+  ],
+  "LivehouseInviteTL": "TL_general_start",
+  "LivehouseIntroTL": "TL_Livehouse_01",
+  "LivehouseMainTL": "TL_Livehouse_02",
+  "LivehouseEndTL": "TL_Livehouse_03",
+  "LivehouseEndTLList": [
+    "TL_Livehouse_03",
+    "TL_Livehouse_04"
+  ],
+  "SingleEndDialogIDList": [
+    50016631,
+    100082650
+  ],
+  "LivehouseInviteTL_ActorName": "飞镖邀约角色",
+  "LivehouseInviteTL_Transform": [
+    {
+      "gameplaytype": 84002017,
+      "transformx": 1878.73999,
+      "transformy": -4.67269897,
+      "transformz": 2421.31006,
+      "rotationy": -85.5999985
+    }
+  ],
+  "InvitationTaskPlayButtonName": "开始应援",
+  "MusicGenreText": "流派",
+  "ArtistText": "艺术家",
+  "minScale": 0.400000006,
+  "maxScale": 1.39999998,
+  "PartyDanceAppearTime": 1.5,
+  "PartyDanceShrinkDelay": 0.5,
+  "PartyDanceResetDelay": 0.800000012,
+  "LevelsStartPercentage": [
+    0,
+    50,
+    70,
+    90,
+    99.9000015
+  ]
+}

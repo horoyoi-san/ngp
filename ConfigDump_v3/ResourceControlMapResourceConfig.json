@@ -1,0 +1,75 @@
+{
+  "_class": "ResourceControlMapResourceConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 4,
+  "records": [
+    {
+      "Id": 30310000,
+      "MapName": "重霄",
+      "RaidId": [
+        23300999
+      ],
+      "TextureResource": "S_chongxiao.png",
+      "PrefabResource": "SegmentMap/S_1152_FullMap.prefab;\nS_1152SimpleMap.prefab",
+      "IndoorPrefabResource": "",
+      "MinimapPrefabResource": "",
+      "ResourceStartVersion": "V99.0.0",
+      "ResourceTagList": [
+        0,
+        1
+      ]
+    },
+    {
+      "Id": 30310001,
+      "MapName": "电影院",
+      "RaidId": [
+        23301091
+      ],
+      "TextureResource": "S_Cinema.png",
+      "PrefabResource": "",
+      "IndoorPrefabResource": "Image/S_Cinema.png",
+      "MinimapPrefabResource": "",
+      "ResourceStartVersion": "V0.9.0",
+      "ResourceTagList": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "Id": 30310002,
+      "MapName": "银行室内",
+      "RaidId": [
+        23301139
+      ],
+      "TextureResource": "Indoor/(?i).*(IndoorMap_Bank).*",
+      "PrefabResource": "",
+      "IndoorPrefabResource": "",
+      "MinimapPrefabResource": "",
+      "ResourceStartVersion": "V99.0.0",
+      "ResourceTagList": [
+        0
+      ]
+    },
+    {
+      "Id": 30310003,
+      "MapName": "混厄工厂01",
+      "RaidId": [
+        23301184
+      ],
+      "TextureResource": "Indoor/(?i).*(Factory).*",
+      "PrefabResource": "",
+      "IndoorPrefabResource": "",
+      "MinimapPrefabResource": "",
+      "ResourceStartVersion": "V0.9.0",
+      "ResourceTagList": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "_dumpedCount": 4,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

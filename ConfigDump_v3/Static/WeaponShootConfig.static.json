@@ -1,0 +1,76 @@
+{
+  "CameraRadiusList": [
+    0,
+    200,
+    400,
+    100,
+    15
+  ],
+  "CameraMoveEscapeAttachLimit": 10,
+  "AutoAimAttachEllipseRatio": 2,
+  "BarrierBlockPreviewEffectMinPixel": 10,
+  "AutoAimInputLeaveAngle": 90,
+  "AutoAimInputLeaveScore": [
+    {
+      "duration": 0.5,
+      "score": -50
+    },
+    {
+      "duration": 1.5,
+      "score": -25
+    }
+  ],
+  "AutoAimInputLeaveBeginTime": 0.5,
+  "ADSHUDOpacity": 0.300000012,
+  "BulletIgnoreArmorDefRate": [
+    {
+      "bulletId": 36010001,
+      "IgnoreArmorDefRate": 0.200000003
+    },
+    {
+      "bulletId": 36010101,
+      "IgnoreArmorDefRate": 0.300000012
+    },
+    {
+      "bulletId": 36010201,
+      "IgnoreArmorDefRate": 0.5
+    }
+  ],
+  "BulletDamRate": [
+    {
+      "bulletId": 36010001,
+      "damRate": 0.150000006
+    },
+    {
+      "bulletId": 36010101,
+      "damRate": 0.150000006
+    },
+    {
+      "bulletId": 36010201,
+      "damRate": 0.150000006
+    }
+  ],
+  "AimRayPointBarrierThreshold": 3,
+  "DroppedMagazineLifeTime": 10,
+  "GunRestrictionScreenPercentage": 0.899999976,
+  "GunRestrictionDetectDistance": 300,
+  "GunRestrictionUseOcculusion": false,
+  "GunRestrictionWeaponHoldTime": 4,
+  "GunRestrictionFeatureEnable": false,
+  "TacticalFlashlightEffectID": 53800209,
+  "TacticalFlashlightBindPosOffset": [
+    {
+      "x": 0.0579999983,
+      "y": 0.00999999978,
+      "z": -0.273000002
+    }
+  ],
+  "TacticalFlashlightBindRotOffset": [
+    {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  ],
+  "DodgeShortUpTime": 0.300000012
+}

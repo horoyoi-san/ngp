@@ -1,0 +1,2529 @@
+{
+  "_class": "SceneitemMaterialConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 41,
+  "records": [
+    {
+      "Id": 1000,
+      "Name": "默认",
+      "Type": "默认",
+      "Density": 1,
+      "Hp": [
+        1,
+        1,
+        1
+      ],
+      "HitStop": 2,
+      "PhysicMaterialName": "DPhysic_Metal",
+      "HurtEffect": 0,
+      "HurtEffectId": 1000,
+      "ContactEffectId": 1000,
+      "BrokenEffectSmall": [],
+      "BrokenEffectMiddle": [],
+      "BrokenEffectBig": [],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [],
+      "DisappearEffect": 0,
+      "MindHurtEffect": [],
+      "VehicleThreshold": [
+        100,
+        100,
+        100
+      ],
+      "PaoKuThreshold": [
+        100,
+        100,
+        100
+      ],
+      "ImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1001,
+      "Name": "重金属",
+      "Type": "实心",
+      "Density": 9000,
+      "Hp": [
+        1,
+        8,
+        12
+      ],
+      "HitStop": 2,
+      "PhysicMaterialName": "DPhysic_Metal",
+      "HurtEffect": 53610456,
+      "HurtEffectId": 1001,
+      "ContactEffectId": 1001,
+      "BrokenEffectSmall": [
+        53610453
+      ],
+      "BrokenEffectMiddle": [
+        53610454
+      ],
+      "BrokenEffectBig": [
+        53610455
+      ],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [
+        53610629,
+        53610630,
+        53610631
+      ],
+      "DisappearEffect": 53610443,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        7,
+        20,
+        35
+      ],
+      "PaoKuThreshold": [
+        11,
+        20,
+        35
+      ],
+      "ImpactThreshold": [
+        15,
+        20,
+        25
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1002,
+      "Name": "重金属",
+      "Type": "空心",
+      "Density": 3000,
+      "Hp": [
+        1,
+        8,
+        12
+      ],
+      "HitStop": 2,
+      "PhysicMaterialName": "DPhysic_Metal",
+      "HurtEffect": 53610456,
+      "HurtEffectId": 1001,
+      "ContactEffectId": 1001,
+      "BrokenEffectSmall": [
+        53610453
+      ],
+      "BrokenEffectMiddle": [
+        53610454
+      ],
+      "BrokenEffectBig": [
+        53610455
+      ],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [
+        53610629,
+        53610630,
+        53610631
+      ],
+      "DisappearEffect": 53610443,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        7,
+        15,
+        25
+      ],
+      "PaoKuThreshold": [
+        11,
+        15,
+        25
+      ],
+      "ImpactThreshold": [
+        15,
+        20,
+        25
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1003,
+      "Name": "轻金属",
+      "Type": "实心",
+      "Density": 2000,
+      "Hp": [
+        1,
+        7,
+        10
+      ],
+      "HitStop": 2,
+      "PhysicMaterialName": "DPhysic_Metal",
+      "HurtEffect": 53610456,
+      "HurtEffectId": 1001,
+      "ContactEffectId": 1001,
+      "BrokenEffectSmall": [
+        53610453
+      ],
+      "BrokenEffectMiddle": [
+        53610454
+      ],
+      "BrokenEffectBig": [
+        53610455
+      ],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [
+        53610629,
+        53610630,
+        53610631
+      ],
+      "DisappearEffect": 53610443,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        7,
+        15,
+        35
+      ],
+      "PaoKuThreshold": [
+        11,
+        15,
+        35
+      ],
+      "ImpactThreshold": [
+        15,
+        20,
+        25
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1004,
+      "Name": "轻金属",
+      "Type": "空心",
+      "Density": 1250,
+      "Hp": [
+        1,
+        5,
+        7
+      ],
+      "HitStop": 2,
+      "PhysicMaterialName": "DPhysic_Metal",
+      "HurtEffect": 53610456,
+      "HurtEffectId": 1001,
+      "ContactEffectId": 1001,
+      "BrokenEffectSmall": [
+        53610453
+      ],
+      "BrokenEffectMiddle": [
+        53610454
+      ],
+      "BrokenEffectBig": [
+        53610455
+      ],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [
+        53610629,
+        53610630,
+        53610631
+      ],
+      "DisappearEffect": 53610443,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        7,
+        15,
+        25
+      ],
+      "PaoKuThreshold": [
+        11,
+        15,
+        25
+      ],
+      "ImpactThreshold": [
+        15,
+        20,
+        25
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1005,
+      "Name": "重金属",
+      "Type": "完全空心",
+      "Density": 450,
+      "Hp": [
+        1,
+        8,
+        12
+      ],
+      "HitStop": 2,
+      "PhysicMaterialName": "DPhysic_Metal",
+      "HurtEffect": 53610456,
+      "HurtEffectId": 1001,
+      "ContactEffectId": 1001,
+      "BrokenEffectSmall": [
+        53610453
+      ],
+      "BrokenEffectMiddle": [
+        53610454
+      ],
+      "BrokenEffectBig": [
+        53610455
+      ],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [
+        53610629,
+        53610630,
+        53610631
+      ],
+      "DisappearEffect": 53610443,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        7,
+        15,
+        35
+      ],
+      "PaoKuThreshold": [
+        11,
+        15,
+        35
+      ],
+      "ImpactThreshold": [
+        15,
+        20,
+        25
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1006,
+      "Name": "轻金属",
+      "Type": "完全空心",
+      "Density": 120,
+      "Hp": [
+        1,
+        5,
+        7
+      ],
+      "HitStop": 2,
+      "PhysicMaterialName": "DPhysic_Metal",
+      "HurtEffect": 53610456,
+      "HurtEffectId": 1001,
+      "ContactEffectId": 1001,
+      "BrokenEffectSmall": [
+        53610453
+      ],
+      "BrokenEffectMiddle": [
+        53610454
+      ],
+      "BrokenEffectBig": [
+        53610455
+      ],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [
+        53610629,
+        53610630,
+        53610631
+      ],
+      "DisappearEffect": 53610443,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        7,
+        15,
+        25
+      ],
+      "PaoKuThreshold": [
+        11,
+        15,
+        25
+      ],
+      "ImpactThreshold": [
+        15,
+        20,
+        25
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1007,
+      "Name": "随机事件车金属",
+      "Type": "实心",
+      "Density": 1600,
+      "Hp": [
+        1,
+        8,
+        12
+      ],
+      "HitStop": 2,
+      "PhysicMaterialName": "DPhysic_RandomEventCar",
+      "HurtEffect": 53610628,
+      "HurtEffectId": 1001,
+      "ContactEffectId": 1001,
+      "BrokenEffectSmall": [
+        53610453
+      ],
+      "BrokenEffectMiddle": [
+        53610454
+      ],
+      "BrokenEffectBig": [
+        53610455
+      ],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [
+        53610629,
+        53610630,
+        53610631
+      ],
+      "DisappearEffect": 53610443,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        7,
+        20,
+        35
+      ],
+      "PaoKuThreshold": [
+        11,
+        20,
+        35
+      ],
+      "ImpactThreshold": [
+        15,
+        20,
+        25
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1101,
+      "Name": "玻璃",
+      "Type": "实心",
+      "Density": 3000,
+      "Hp": [
+        1,
+        2,
+        3
+      ],
+      "HitStop": 1,
+      "PhysicMaterialName": "DPhysic_Metal",
+      "HurtEffect": 53610457,
+      "HurtEffectId": 1101,
+      "ContactEffectId": 1101,
+      "BrokenEffectSmall": [
+        53610473
+      ],
+      "BrokenEffectMiddle": [
+        53610474
+      ],
+      "BrokenEffectBig": [
+        53610475
+      ],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [],
+      "DisappearEffect": 53610444,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        7,
+        15,
+        25
+      ],
+      "PaoKuThreshold": [
+        7,
+        15,
+        25
+      ],
+      "ImpactThreshold": [
+        5,
+        5,
+        5
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1102,
+      "Name": "玻璃",
+      "Type": "空心",
+      "Density": 1500,
+      "Hp": [
+        1,
+        2,
+        3
+      ],
+      "HitStop": 1,
+      "PhysicMaterialName": "DPhysic_Metal",
+      "HurtEffect": 53610457,
+      "HurtEffectId": 1101,
+      "ContactEffectId": 1101,
+      "BrokenEffectSmall": [
+        53610473
+      ],
+      "BrokenEffectMiddle": [
+        53610474
+      ],
+      "BrokenEffectBig": [
+        53610475
+      ],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [],
+      "DisappearEffect": 53610444,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        7,
+        15,
+        25
+      ],
+      "PaoKuThreshold": [
+        7,
+        15,
+        25
+      ],
+      "ImpactThreshold": [
+        5,
+        5,
+        5
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1201,
+      "Name": "塑料",
+      "Type": "实心",
+      "Density": 600,
+      "Hp": [
+        1,
+        2,
+        3
+      ],
+      "HitStop": 1,
+      "PhysicMaterialName": "DPhysic_Plastic",
+      "HurtEffect": 53610457,
+      "HurtEffectId": 1201,
+      "ContactEffectId": 1201,
+      "BrokenEffectSmall": [
+        53610461
+      ],
+      "BrokenEffectMiddle": [
+        53610462
+      ],
+      "BrokenEffectBig": [
+        53610463
+      ],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [],
+      "DisappearEffect": 53610445,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        7,
+        15,
+        35
+      ],
+      "PaoKuThreshold": [
+        7,
+        15,
+        35
+      ],
+      "ImpactThreshold": [
+        5,
+        5,
+        5
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1202,
+      "Name": "塑料",
+      "Type": "空心",
+      "Density": 150,
+      "Hp": [
+        1,
+        2,
+        3
+      ],
+      "HitStop": 1,
+      "PhysicMaterialName": "DPhysic_Plastic",
+      "HurtEffect": 53610457,
+      "HurtEffectId": 1201,
+      "ContactEffectId": 1201,
+      "BrokenEffectSmall": [
+        53610461
+      ],
+      "BrokenEffectMiddle": [
+        53610462
+      ],
+      "BrokenEffectBig": [
+        53610463
+      ],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [],
+      "DisappearEffect": 53610445,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        7,
+        15,
+        35
+      ],
+      "PaoKuThreshold": [
+        7,
+        15,
+        35
+      ],
+      "ImpactThreshold": [
+        5,
+        5,
+        5
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1203,
+      "Name": "纸张",
+      "Type": "实心",
+      "Density": 600,
+      "Hp": [
+        1,
+        2,
+        3
+      ],
+      "HitStop": 1,
+      "PhysicMaterialName": "DPhysic_Plastic",
+      "HurtEffect": 53610457,
+      "HurtEffectId": 1203,
+      "ContactEffectId": 1203,
+      "BrokenEffectSmall": [
+        53610464
+      ],
+      "BrokenEffectMiddle": [
+        53610465
+      ],
+      "BrokenEffectBig": [
+        53610466
+      ],
+      "BrokenDecal": [
+        53610489
+      ],
+      "BrokenDecalMiddle": [
+        53610489
+      ],
+      "BrokenDecalBig": [
+        53610489
+      ],
+      "HurtDecal": [],
+      "DisappearEffect": 53610446,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        5,
+        8,
+        15
+      ],
+      "PaoKuThreshold": [
+        5,
+        8,
+        15
+      ],
+      "ImpactThreshold": [
+        5,
+        5,
+        5
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1204,
+      "Name": "纸张",
+      "Type": "空心",
+      "Density": 150,
+      "Hp": [
+        1,
+        2,
+        3
+      ],
+      "HitStop": 1,
+      "PhysicMaterialName": "DPhysic_Plastic",
+      "HurtEffect": 53610457,
+      "HurtEffectId": 1203,
+      "ContactEffectId": 1203,
+      "BrokenEffectSmall": [
+        53610464
+      ],
+      "BrokenEffectMiddle": [
+        53610465
+      ],
+      "BrokenEffectBig": [
+        53610466
+      ],
+      "BrokenDecal": [
+        53610489
+      ],
+      "BrokenDecalMiddle": [
+        53610489
+      ],
+      "BrokenDecalBig": [
+        53610489
+      ],
+      "HurtDecal": [],
+      "DisappearEffect": 53610446,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        5,
+        8,
+        15
+      ],
+      "PaoKuThreshold": [
+        5,
+        8,
+        15
+      ],
+      "ImpactThreshold": [
+        5,
+        5,
+        5
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1205,
+      "Name": "塑料",
+      "Type": "完全空心",
+      "Density": 36,
+      "Hp": [
+        1,
+        2,
+        3
+      ],
+      "HitStop": 1,
+      "PhysicMaterialName": "DPhysic_Plastic",
+      "HurtEffect": 53610457,
+      "HurtEffectId": 1201,
+      "ContactEffectId": 1201,
+      "BrokenEffectSmall": [
+        53610461
+      ],
+      "BrokenEffectMiddle": [
+        53610462
+      ],
+      "BrokenEffectBig": [
+        53610463
+      ],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [],
+      "DisappearEffect": 53610445,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        7,
+        10,
+        35
+      ],
+      "PaoKuThreshold": [
+        7,
+        10,
+        35
+      ],
+      "ImpactThreshold": [
+        5,
+        5,
+        5
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1206,
+      "Name": "塑料",
+      "Type": "水马",
+      "Density": 1000,
+      "Hp": [
+        1,
+        2,
+        3
+      ],
+      "HitStop": 1,
+      "PhysicMaterialName": "DPhysic_Plastic",
+      "HurtEffect": 53610457,
+      "HurtEffectId": 1201,
+      "ContactEffectId": 1201,
+      "BrokenEffectSmall": [
+        53610461
+      ],
+      "BrokenEffectMiddle": [
+        53610462
+      ],
+      "BrokenEffectBig": [
+        53610463
+      ],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [],
+      "DisappearEffect": 53610445,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        7,
+        15,
+        35
+      ],
+      "PaoKuThreshold": [
+        7,
+        15,
+        35
+      ],
+      "ImpactThreshold": [
+        5,
+        5,
+        5
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1207,
+      "Name": "纸张",
+      "Type": "漫画书",
+      "Density": 600,
+      "Hp": [
+        1,
+        2,
+        3
+      ],
+      "HitStop": 1,
+      "PhysicMaterialName": "DPhysic_Plastic",
+      "HurtEffect": 53610457,
+      "HurtEffectId": 1203,
+      "ContactEffectId": 1203,
+      "BrokenEffectSmall": [
+        53610704
+      ],
+      "BrokenEffectMiddle": [
+        53610704
+      ],
+      "BrokenEffectBig": [
+        53610704
+      ],
+      "BrokenDecal": [
+        53610489
+      ],
+      "BrokenDecalMiddle": [
+        53610489
+      ],
+      "BrokenDecalBig": [
+        53610489
+      ],
+      "HurtDecal": [],
+      "DisappearEffect": 53610446,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        5,
+        8,
+        15
+      ],
+      "PaoKuThreshold": [
+        5,
+        8,
+        15
+      ],
+      "ImpactThreshold": [
+        5,
+        5,
+        5
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1208,
+      "Name": "纸张",
+      "Type": "钱堆A",
+      "Density": 150,
+      "Hp": [
+        1,
+        2,
+        3
+      ],
+      "HitStop": 1,
+      "PhysicMaterialName": "DPhysic_Plastic",
+      "HurtEffect": 53610457,
+      "HurtEffectId": 1204,
+      "ContactEffectId": 1203,
+      "BrokenEffectSmall": [
+        53611179
+      ],
+      "BrokenEffectMiddle": [
+        53611179
+      ],
+      "BrokenEffectBig": [
+        53611179
+      ],
+      "BrokenDecal": [
+        53610489
+      ],
+      "BrokenDecalMiddle": [
+        53610489
+      ],
+      "BrokenDecalBig": [
+        53610489
+      ],
+      "HurtDecal": [],
+      "DisappearEffect": 53610446,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        5,
+        8,
+        15
+      ],
+      "PaoKuThreshold": [
+        5,
+        8,
+        15
+      ],
+      "ImpactThreshold": [
+        5,
+        5,
+        5
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1209,
+      "Name": "纸张",
+      "Type": "钱堆B",
+      "Density": 150,
+      "Hp": [
+        1,
+        2,
+        3
+      ],
+      "HitStop": 1,
+      "PhysicMaterialName": "DPhysic_Plastic",
+      "HurtEffect": 53610457,
+      "HurtEffectId": 1205,
+      "ContactEffectId": 1203,
+      "BrokenEffectSmall": [
+        53611180
+      ],
+      "BrokenEffectMiddle": [
+        53611180
+      ],
+      "BrokenEffectBig": [
+        53611180
+      ],
+      "BrokenDecal": [
+        53610489
+      ],
+      "BrokenDecalMiddle": [
+        53610489
+      ],
+      "BrokenDecalBig": [
+        53610489
+      ],
+      "HurtDecal": [],
+      "DisappearEffect": 53610446,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        5,
+        8,
+        15
+      ],
+      "PaoKuThreshold": [
+        5,
+        8,
+        15
+      ],
+      "ImpactThreshold": [
+        5,
+        5,
+        5
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1301,
+      "Name": "岩石",
+      "Type": "实心",
+      "Density": 4500,
+      "Hp": [
+        8,
+        8,
+        12
+      ],
+      "HitStop": 2,
+      "PhysicMaterialName": "DPhysic_Rock",
+      "HurtEffect": 53610456,
+      "HurtEffectId": 1301,
+      "ContactEffectId": 1301,
+      "BrokenEffectSmall": [
+        53610458
+      ],
+      "BrokenEffectMiddle": [
+        53610459
+      ],
+      "BrokenEffectBig": [
+        53610460
+      ],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [],
+      "DisappearEffect": 53610447,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        7,
+        15,
+        35
+      ],
+      "PaoKuThreshold": [
+        11,
+        15,
+        35
+      ],
+      "ImpactThreshold": [
+        15,
+        20,
+        25
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1302,
+      "Name": "岩石",
+      "Type": "空心",
+      "Density": 1500,
+      "Hp": [
+        8,
+        8,
+        12
+      ],
+      "HitStop": 2,
+      "PhysicMaterialName": "DPhysic_Rock",
+      "HurtEffect": 53610456,
+      "HurtEffectId": 1301,
+      "ContactEffectId": 1301,
+      "BrokenEffectSmall": [
+        53610458
+      ],
+      "BrokenEffectMiddle": [
+        53610459
+      ],
+      "BrokenEffectBig": [
+        53610460
+      ],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [],
+      "DisappearEffect": 53610447,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        7,
+        15,
+        35
+      ],
+      "PaoKuThreshold": [
+        11,
+        15,
+        35
+      ],
+      "ImpactThreshold": [
+        15,
+        20,
+        25
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1303,
+      "Name": "岩石",
+      "Type": "花盆",
+      "Density": 1500,
+      "Hp": [
+        8,
+        8,
+        12
+      ],
+      "HitStop": 2,
+      "PhysicMaterialName": "DPhysic_Rock",
+      "HurtEffect": 53610456,
+      "HurtEffectId": 1301,
+      "ContactEffectId": 1301,
+      "BrokenEffectSmall": [
+        53610458,
+        53611135
+      ],
+      "BrokenEffectMiddle": [
+        53610459,
+        53611135
+      ],
+      "BrokenEffectBig": [
+        53610460,
+        53611135
+      ],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [],
+      "DisappearEffect": 53610447,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        7,
+        15,
+        35
+      ],
+      "PaoKuThreshold": [
+        11,
+        15,
+        35
+      ],
+      "ImpactThreshold": [
+        15,
+        20,
+        25
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1401,
+      "Name": "植物",
+      "Type": "实心",
+      "Density": 600,
+      "Hp": [
+        1,
+        1,
+        1
+      ],
+      "HitStop": 1,
+      "PhysicMaterialName": "DPhysic_Plastic",
+      "HurtEffect": 53610457,
+      "HurtEffectId": 1401,
+      "ContactEffectId": 1401,
+      "BrokenEffectSmall": [],
+      "BrokenEffectMiddle": [],
+      "BrokenEffectBig": [],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [],
+      "DisappearEffect": 53610448,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        7,
+        8,
+        15
+      ],
+      "PaoKuThreshold": [
+        7,
+        8,
+        15
+      ],
+      "ImpactThreshold": [
+        5,
+        5,
+        5
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1402,
+      "Name": "植物",
+      "Type": "空心",
+      "Density": 150,
+      "Hp": [
+        1,
+        1,
+        1
+      ],
+      "HitStop": 1,
+      "PhysicMaterialName": "DPhysic_Plastic",
+      "HurtEffect": 53610457,
+      "HurtEffectId": 1401,
+      "ContactEffectId": 1401,
+      "BrokenEffectSmall": [],
+      "BrokenEffectMiddle": [],
+      "BrokenEffectBig": [],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [],
+      "DisappearEffect": 53610448,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        7,
+        8,
+        15
+      ],
+      "PaoKuThreshold": [
+        7,
+        8,
+        15
+      ],
+      "ImpactThreshold": [
+        5,
+        5,
+        5
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1403,
+      "Name": "植物",
+      "Type": "盆栽",
+      "Density": 150,
+      "Hp": [
+        1,
+        1,
+        1
+      ],
+      "HitStop": 1,
+      "PhysicMaterialName": "DPhysic_Plastic",
+      "HurtEffect": 53610457,
+      "HurtEffectId": 1401,
+      "ContactEffectId": 1401,
+      "BrokenEffectSmall": [],
+      "BrokenEffectMiddle": [],
+      "BrokenEffectBig": [],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [],
+      "DisappearEffect": 53610448,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        7,
+        8,
+        15
+      ],
+      "PaoKuThreshold": [
+        7,
+        8,
+        15
+      ],
+      "ImpactThreshold": [
+        5,
+        5,
+        5
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1404,
+      "Name": "植物",
+      "Type": "TGS盆栽",
+      "Density": 150,
+      "Hp": [
+        1,
+        1,
+        1
+      ],
+      "HitStop": 1,
+      "PhysicMaterialName": "DPhysic_Plastic",
+      "HurtEffect": 53610457,
+      "HurtEffectId": 1401,
+      "ContactEffectId": 1401,
+      "BrokenEffectSmall": [
+        53610467
+      ],
+      "BrokenEffectMiddle": [
+        53610468
+      ],
+      "BrokenEffectBig": [
+        53610469
+      ],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [],
+      "DisappearEffect": 53610448,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        7,
+        8,
+        15
+      ],
+      "PaoKuThreshold": [
+        7,
+        8,
+        15
+      ],
+      "ImpactThreshold": [
+        5,
+        5,
+        5
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1501,
+      "Name": "实木",
+      "Type": "实心",
+      "Density": 1000,
+      "Hp": [
+        1,
+        3,
+        5
+      ],
+      "HitStop": 2,
+      "PhysicMaterialName": "DPhysic_Wood",
+      "HurtEffect": 53610457,
+      "HurtEffectId": 1501,
+      "ContactEffectId": 1501,
+      "BrokenEffectSmall": [
+        53610470
+      ],
+      "BrokenEffectMiddle": [
+        53610471
+      ],
+      "BrokenEffectBig": [
+        53610472
+      ],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [
+        53610632,
+        53610633,
+        53610634
+      ],
+      "DisappearEffect": 53610449,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        7,
+        15,
+        35
+      ],
+      "PaoKuThreshold": [
+        11,
+        15,
+        35
+      ],
+      "ImpactThreshold": [
+        15,
+        20,
+        25
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1502,
+      "Name": "实木",
+      "Type": "空心",
+      "Density": 400,
+      "Hp": [
+        1,
+        3,
+        5
+      ],
+      "HitStop": 2,
+      "PhysicMaterialName": "DPhysic_Wood",
+      "HurtEffect": 53610457,
+      "HurtEffectId": 1501,
+      "ContactEffectId": 1501,
+      "BrokenEffectSmall": [
+        53610470
+      ],
+      "BrokenEffectMiddle": [
+        53610471
+      ],
+      "BrokenEffectBig": [
+        53610472
+      ],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [
+        53610632,
+        53610633,
+        53610634
+      ],
+      "DisappearEffect": 53610449,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        7,
+        15,
+        25
+      ],
+      "PaoKuThreshold": [
+        11,
+        15,
+        25
+      ],
+      "ImpactThreshold": [
+        15,
+        20,
+        25
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1503,
+      "Name": "实木",
+      "Type": "地板",
+      "Density": 450,
+      "Hp": [
+        1,
+        3,
+        5
+      ],
+      "HitStop": 1,
+      "PhysicMaterialName": "DPhysic_Wood",
+      "HurtEffect": 53610457,
+      "HurtEffectId": 1501,
+      "ContactEffectId": 1501,
+      "BrokenEffectSmall": [
+        53610470
+      ],
+      "BrokenEffectMiddle": [
+        53610471
+      ],
+      "BrokenEffectBig": [
+        53610472
+      ],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [
+        53610632,
+        53610633,
+        53610634
+      ],
+      "DisappearEffect": 53610449,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        7,
+        15,
+        25
+      ],
+      "PaoKuThreshold": [
+        11,
+        15,
+        25
+      ],
+      "ImpactThreshold": [
+        15,
+        20,
+        25
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1504,
+      "Name": "实木",
+      "Type": "实心-白",
+      "Density": 1000,
+      "Hp": [
+        1,
+        3,
+        5
+      ],
+      "HitStop": 2,
+      "PhysicMaterialName": "DPhysic_Wood",
+      "HurtEffect": 53610457,
+      "HurtEffectId": 1501,
+      "ContactEffectId": 1501,
+      "BrokenEffectSmall": [
+        53611148
+      ],
+      "BrokenEffectMiddle": [
+        53611149
+      ],
+      "BrokenEffectBig": [
+        53611150
+      ],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [
+        53610632,
+        53610633,
+        53610634
+      ],
+      "DisappearEffect": 53610449,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        7,
+        15,
+        35
+      ],
+      "PaoKuThreshold": [
+        11,
+        15,
+        35
+      ],
+      "ImpactThreshold": [
+        15,
+        20,
+        25
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1505,
+      "Name": "实木",
+      "Type": "空心-白",
+      "Density": 400,
+      "Hp": [
+        1,
+        3,
+        5
+      ],
+      "HitStop": 2,
+      "PhysicMaterialName": "DPhysic_Wood",
+      "HurtEffect": 53610457,
+      "HurtEffectId": 1501,
+      "ContactEffectId": 1501,
+      "BrokenEffectSmall": [
+        53611148
+      ],
+      "BrokenEffectMiddle": [
+        53611149
+      ],
+      "BrokenEffectBig": [
+        53611150
+      ],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [
+        53610632,
+        53610633,
+        53610634
+      ],
+      "DisappearEffect": 53610449,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        7,
+        15,
+        25
+      ],
+      "PaoKuThreshold": [
+        11,
+        15,
+        25
+      ],
+      "ImpactThreshold": [
+        15,
+        20,
+        25
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1506,
+      "Name": "实木",
+      "Type": "实心-黑",
+      "Density": 1000,
+      "Hp": [
+        1,
+        3,
+        5
+      ],
+      "HitStop": 2,
+      "PhysicMaterialName": "DPhysic_Wood",
+      "HurtEffect": 53610457,
+      "HurtEffectId": 1501,
+      "ContactEffectId": 1501,
+      "BrokenEffectSmall": [
+        53611151
+      ],
+      "BrokenEffectMiddle": [
+        53611152
+      ],
+      "BrokenEffectBig": [
+        53611153
+      ],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [
+        53610632,
+        53610633,
+        53610634
+      ],
+      "DisappearEffect": 53610449,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        7,
+        15,
+        35
+      ],
+      "PaoKuThreshold": [
+        11,
+        15,
+        35
+      ],
+      "ImpactThreshold": [
+        15,
+        20,
+        25
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1507,
+      "Name": "实木",
+      "Type": "空心-黑",
+      "Density": 400,
+      "Hp": [
+        1,
+        3,
+        5
+      ],
+      "HitStop": 2,
+      "PhysicMaterialName": "DPhysic_Wood",
+      "HurtEffect": 53610457,
+      "HurtEffectId": 1501,
+      "ContactEffectId": 1501,
+      "BrokenEffectSmall": [
+        53611151
+      ],
+      "BrokenEffectMiddle": [
+        53611152
+      ],
+      "BrokenEffectBig": [
+        53611153
+      ],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [
+        53610632,
+        53610633,
+        53610634
+      ],
+      "DisappearEffect": 53610449,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        7,
+        15,
+        25
+      ],
+      "PaoKuThreshold": [
+        11,
+        15,
+        25
+      ],
+      "ImpactThreshold": [
+        15,
+        20,
+        25
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1508,
+      "Name": "实木",
+      "Type": "实心-绿",
+      "Density": 1000,
+      "Hp": [
+        1,
+        3,
+        5
+      ],
+      "HitStop": 2,
+      "PhysicMaterialName": "DPhysic_Wood",
+      "HurtEffect": 53610457,
+      "HurtEffectId": 1501,
+      "ContactEffectId": 1501,
+      "BrokenEffectSmall": [
+        53611154
+      ],
+      "BrokenEffectMiddle": [
+        53611155
+      ],
+      "BrokenEffectBig": [
+        53611156
+      ],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [
+        53610632,
+        53610633,
+        53610634
+      ],
+      "DisappearEffect": 53610449,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        7,
+        15,
+        35
+      ],
+      "PaoKuThreshold": [
+        11,
+        15,
+        35
+      ],
+      "ImpactThreshold": [
+        15,
+        20,
+        25
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1509,
+      "Name": "实木",
+      "Type": "空心-绿",
+      "Density": 400,
+      "Hp": [
+        1,
+        3,
+        5
+      ],
+      "HitStop": 2,
+      "PhysicMaterialName": "DPhysic_Wood",
+      "HurtEffect": 53610457,
+      "HurtEffectId": 1501,
+      "ContactEffectId": 1501,
+      "BrokenEffectSmall": [
+        53611154
+      ],
+      "BrokenEffectMiddle": [
+        53611155
+      ],
+      "BrokenEffectBig": [
+        53611156
+      ],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [
+        53610632,
+        53610633,
+        53610634
+      ],
+      "DisappearEffect": 53610449,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        7,
+        15,
+        25
+      ],
+      "PaoKuThreshold": [
+        11,
+        15,
+        25
+      ],
+      "ImpactThreshold": [
+        15,
+        20,
+        25
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1601,
+      "Name": "橡胶制品",
+      "Type": "实心",
+      "Density": 1500,
+      "Hp": [
+        999999,
+        999999,
+        999999
+      ],
+      "HitStop": 1,
+      "PhysicMaterialName": "DPhysic_Rubber",
+      "HurtEffect": 53610457,
+      "HurtEffectId": 1601,
+      "ContactEffectId": 1601,
+      "BrokenEffectSmall": [
+        53610434
+      ],
+      "BrokenEffectMiddle": [
+        53610434
+      ],
+      "BrokenEffectBig": [
+        53610434
+      ],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [],
+      "DisappearEffect": 53610450,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        20,
+        30,
+        50
+      ],
+      "PaoKuThreshold": [
+        20,
+        30,
+        50
+      ],
+      "ImpactThreshold": [
+        9999,
+        9999,
+        9999
+      ],
+      "HurtImpactThreshold": [
+        9999,
+        9999,
+        9999
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1602,
+      "Name": "橡胶制品",
+      "Type": "空心",
+      "Density": 300,
+      "Hp": [
+        999999,
+        999999,
+        999999
+      ],
+      "HitStop": 1,
+      "PhysicMaterialName": "DPhysic_Rubber",
+      "HurtEffect": 53610457,
+      "HurtEffectId": 1601,
+      "ContactEffectId": 1601,
+      "BrokenEffectSmall": [
+        53610434
+      ],
+      "BrokenEffectMiddle": [
+        53610434
+      ],
+      "BrokenEffectBig": [
+        53610434
+      ],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [],
+      "DisappearEffect": 53610450,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        20,
+        30,
+        50
+      ],
+      "PaoKuThreshold": [
+        20,
+        30,
+        50
+      ],
+      "ImpactThreshold": [
+        9999,
+        9999,
+        9999
+      ],
+      "HurtImpactThreshold": [
+        9999,
+        9999,
+        9999
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1603,
+      "Name": "橡胶制品",
+      "Type": "球",
+      "Density": 150,
+      "Hp": [
+        999999,
+        999999,
+        999999
+      ],
+      "HitStop": 1,
+      "PhysicMaterialName": "DPhysic_Ball",
+      "HurtEffect": 53610457,
+      "HurtEffectId": 1601,
+      "ContactEffectId": 1601,
+      "BrokenEffectSmall": [
+        53610434
+      ],
+      "BrokenEffectMiddle": [
+        53610434
+      ],
+      "BrokenEffectBig": [
+        53610434
+      ],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [],
+      "DisappearEffect": 53610450,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        20,
+        30,
+        50
+      ],
+      "PaoKuThreshold": [
+        20,
+        30,
+        50
+      ],
+      "ImpactThreshold": [
+        9999,
+        9999,
+        9999
+      ],
+      "HurtImpactThreshold": [
+        9999,
+        9999,
+        9999
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1701,
+      "Name": "绒毛制品",
+      "Type": "内部软",
+      "Density": 36,
+      "Hp": [
+        1,
+        1,
+        1
+      ],
+      "HitStop": 1,
+      "PhysicMaterialName": "DPhysic_Lint",
+      "HurtEffect": 53610457,
+      "HurtEffectId": 1701,
+      "ContactEffectId": 1701,
+      "BrokenEffectSmall": [
+        53610624
+      ],
+      "BrokenEffectMiddle": [
+        53610625
+      ],
+      "BrokenEffectBig": [
+        53610626
+      ],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [],
+      "DisappearEffect": 53610448,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        7,
+        8,
+        15
+      ],
+      "PaoKuThreshold": [
+        7,
+        8,
+        15
+      ],
+      "ImpactThreshold": [
+        15,
+        20,
+        25
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1702,
+      "Name": "绒毛制品",
+      "Type": "内部硬",
+      "Density": 450,
+      "Hp": [
+        2,
+        4,
+        6
+      ],
+      "HitStop": 1,
+      "PhysicMaterialName": "DPhysic_Lint",
+      "HurtEffect": 53610457,
+      "HurtEffectId": 1701,
+      "ContactEffectId": 1701,
+      "BrokenEffectSmall": [
+        53610624
+      ],
+      "BrokenEffectMiddle": [
+        53610625
+      ],
+      "BrokenEffectBig": [
+        53610626
+      ],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [],
+      "DisappearEffect": 53610448,
+      "MindHurtEffect": [
+        55001232,
+        55001233,
+        55001234
+      ],
+      "VehicleThreshold": [
+        7,
+        8,
+        15
+      ],
+      "PaoKuThreshold": [
+        7,
+        8,
+        15
+      ],
+      "ImpactThreshold": [
+        15,
+        20,
+        25
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    },
+    {
+      "Id": 1801,
+      "Name": "小动物",
+      "Type": "实心",
+      "Density": 1,
+      "Hp": [
+        1,
+        1,
+        1
+      ],
+      "HitStop": 2,
+      "PhysicMaterialName": "DPhysic_Animal",
+      "HurtEffect": 0,
+      "HurtEffectId": 1801,
+      "ContactEffectId": 1801,
+      "BrokenEffectSmall": [],
+      "BrokenEffectMiddle": [],
+      "BrokenEffectBig": [],
+      "BrokenDecal": [],
+      "BrokenDecalMiddle": [],
+      "BrokenDecalBig": [],
+      "HurtDecal": [],
+      "DisappearEffect": 0,
+      "MindHurtEffect": [],
+      "VehicleThreshold": [
+        100,
+        100,
+        100
+      ],
+      "PaoKuThreshold": [
+        100,
+        100,
+        100
+      ],
+      "ImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtImpactThreshold": [
+        0,
+        0,
+        0
+      ],
+      "HurtSoundId": 0,
+      "IsPlaySoundByCharacter": true,
+      "PlaySoundThresholdByCharacter": 99999,
+      "PlaySoundThresholdByVehicle": 0.5,
+      "PlaySoundThresholdByPhysics": 0.00999999978
+    }
+  ],
+  "_dumpedCount": 41,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

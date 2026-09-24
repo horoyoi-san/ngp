@@ -1,0 +1,147 @@
+{
+  "_class": "ProduceEnchantConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 11,
+  "records": [
+    {
+      "Id": 1,
+      "Material": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "coincost": 100,
+      "EnchantStoneID": [
+        {
+          "itemId": 36210100,
+          "num": 1
+        }
+      ],
+      "DirectedEnchantMaterial": [
+        {
+          "itemId": 36011000,
+          "num": 1
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "Material": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "coincost": 1000,
+      "EnchantStoneID": [
+        {
+          "itemId": 36210101,
+          "num": 1
+        }
+      ],
+      "DirectedEnchantMaterial": [
+        {
+          "itemId": 36011001,
+          "num": 3
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "Material": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "coincost": 5000,
+      "EnchantStoneID": [
+        {
+          "itemId": 36210102,
+          "num": 1
+        }
+      ],
+      "DirectedEnchantMaterial": [
+        {
+          "itemId": 36011002,
+          "num": 5
+        }
+      ]
+    },
+    {
+      "Id": 4,
+      "Material": [
+        1000,
+        1000,
+        1000,
+        1000
+      ],
+      "coincost": 10000,
+      "EnchantStoneID": [
+        {
+          "itemId": 36210102,
+          "num": 5
+        }
+      ],
+      "DirectedEnchantMaterial": [
+        {
+          "itemId": 36011003,
+          "num": 5
+        }
+      ]
+    },
+    {
+      "Id": 5,
+      "Material": [],
+      "coincost": 0,
+      "EnchantStoneID": [],
+      "DirectedEnchantMaterial": []
+    },
+    {
+      "Id": 6,
+      "Material": [],
+      "coincost": 0,
+      "EnchantStoneID": [],
+      "DirectedEnchantMaterial": []
+    },
+    {
+      "Id": 7,
+      "Material": [],
+      "coincost": 0,
+      "EnchantStoneID": [],
+      "DirectedEnchantMaterial": []
+    },
+    {
+      "Id": 8,
+      "Material": [],
+      "coincost": 0,
+      "EnchantStoneID": [],
+      "DirectedEnchantMaterial": []
+    },
+    {
+      "Id": 9,
+      "Material": [],
+      "coincost": 0,
+      "EnchantStoneID": [],
+      "DirectedEnchantMaterial": []
+    },
+    {
+      "Id": 10,
+      "Material": [],
+      "coincost": 0,
+      "EnchantStoneID": [],
+      "DirectedEnchantMaterial": []
+    },
+    {
+      "Id": 11,
+      "Material": [],
+      "coincost": 0,
+      "EnchantStoneID": [],
+      "DirectedEnchantMaterial": []
+    }
+  ],
+  "_dumpedCount": 11,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

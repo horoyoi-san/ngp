@@ -1,0 +1,1678 @@
+{
+  "_class": "LootConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 35,
+  "records": [
+    {
+      "Id": 1,
+      "Category": 0,
+      "DropId": 14499241,
+      "ConsumableID": 36130000,
+      "SyncValue": 5,
+      "SyncValueAdd": 0,
+      "InteractionTL": [
+        "ol_play_bankrob_takepaint"
+      ],
+      "TimelineActor": "Assets/Res/TimelineActors/sc_yishuhuan01a_gm_actor",
+      "InteractId": 0,
+      "FixedModel": "",
+      "SpawnRate": 0.00999999978,
+      "RandomGroup": 1,
+      "ShowInPedia": true,
+      "CollectionScore": 100,
+      "HypeLinkID": 0,
+      "FrameRandomPool": [
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a_collider.prefab"
+        }
+      ],
+      "SceneModel": {
+        "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_ad003a/p_map01_level_prop_robhotel01_ad003a.prefab",
+        "collisionPath": ""
+      }
+    },
+    {
+      "Id": 2,
+      "Category": 0,
+      "DropId": 14499241,
+      "ConsumableID": 36130001,
+      "SyncValue": 5,
+      "SyncValueAdd": 0,
+      "InteractionTL": [
+        "ol_play_bankrob_takepaint"
+      ],
+      "TimelineActor": "Assets/Res/TimelineActors/sc_yishuhuan01a_cf1_gm_actor",
+      "InteractId": 0,
+      "FixedModel": "",
+      "SpawnRate": 0.00999999978,
+      "RandomGroup": 1,
+      "ShowInPedia": true,
+      "CollectionScore": 100,
+      "HypeLinkID": 0,
+      "FrameRandomPool": [
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a_collider.prefab"
+        }
+      ],
+      "SceneModel": {
+        "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_ad003b/p_map01_level_prop_robhotel01_ad003b.prefab",
+        "collisionPath": ""
+      }
+    },
+    {
+      "Id": 3,
+      "Category": 0,
+      "DropId": 14499241,
+      "ConsumableID": 36130002,
+      "SyncValue": 5,
+      "SyncValueAdd": 0,
+      "InteractionTL": [
+        "ol_play_bankrob_takepaint"
+      ],
+      "TimelineActor": "Assets/Res/TimelineActors/sc_yishuhuan01a_cf2_gm_actor",
+      "InteractId": 0,
+      "FixedModel": "",
+      "SpawnRate": 0.00999999978,
+      "RandomGroup": 1,
+      "ShowInPedia": true,
+      "CollectionScore": 100,
+      "HypeLinkID": 0,
+      "FrameRandomPool": [
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a_collider.prefab"
+        }
+      ],
+      "SceneModel": {
+        "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_ad003c/p_map01_level_prop_robhotel01_ad003c.prefab",
+        "collisionPath": ""
+      }
+    },
+    {
+      "Id": 4,
+      "Category": 0,
+      "DropId": 14499241,
+      "ConsumableID": 36130003,
+      "SyncValue": 5,
+      "SyncValueAdd": 0,
+      "InteractionTL": [
+        "ol_play_bankrob_takepaint"
+      ],
+      "TimelineActor": "Assets/Res/TimelineActors/sc_yishuhuan01a_cf3_gm_actor",
+      "InteractId": 0,
+      "FixedModel": "",
+      "SpawnRate": 0.00999999978,
+      "RandomGroup": 1,
+      "ShowInPedia": true,
+      "CollectionScore": 100,
+      "HypeLinkID": 0,
+      "FrameRandomPool": [
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a_collider.prefab"
+        }
+      ],
+      "SceneModel": {
+        "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_ad003d/p_map01_level_prop_robhotel01_ad003d.prefab",
+        "collisionPath": ""
+      }
+    },
+    {
+      "Id": 5,
+      "Category": 0,
+      "DropId": 14499241,
+      "ConsumableID": 36130004,
+      "SyncValue": 5,
+      "SyncValueAdd": 0,
+      "InteractionTL": [
+        "ol_play_bankrob_takepaint"
+      ],
+      "TimelineActor": "Assets/Res/TimelineActors/sc_yishuhuan02a_gm_actor",
+      "InteractId": 0,
+      "FixedModel": "",
+      "SpawnRate": 0.00999999978,
+      "RandomGroup": 1,
+      "ShowInPedia": true,
+      "CollectionScore": 100,
+      "HypeLinkID": 0,
+      "FrameRandomPool": [
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a_collider.prefab"
+        }
+      ],
+      "SceneModel": {
+        "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_ad004a/p_map01_level_prop_robhotel01_ad004a.prefab",
+        "collisionPath": ""
+      }
+    },
+    {
+      "Id": 6,
+      "Category": 0,
+      "DropId": 14499241,
+      "ConsumableID": 36130005,
+      "SyncValue": 5,
+      "SyncValueAdd": 0,
+      "InteractionTL": [
+        "ol_play_bankrob_takepaint"
+      ],
+      "TimelineActor": "Assets/Res/TimelineActors/sc_yishuhuan02a_cf1_gm_actor",
+      "InteractId": 0,
+      "FixedModel": "",
+      "SpawnRate": 0.00999999978,
+      "RandomGroup": 1,
+      "ShowInPedia": true,
+      "CollectionScore": 100,
+      "HypeLinkID": 0,
+      "FrameRandomPool": [
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a_collider.prefab"
+        }
+      ],
+      "SceneModel": {
+        "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_ad004b/p_map01_level_prop_robhotel01_ad004b.prefab",
+        "collisionPath": ""
+      }
+    },
+    {
+      "Id": 7,
+      "Category": 0,
+      "DropId": 14499241,
+      "ConsumableID": 36130006,
+      "SyncValue": 5,
+      "SyncValueAdd": 0,
+      "InteractionTL": [
+        "ol_play_bankrob_takepaint"
+      ],
+      "TimelineActor": "Assets/Res/TimelineActors/sc_yishuhuan02a_cf2_gm_actor",
+      "InteractId": 0,
+      "FixedModel": "",
+      "SpawnRate": 0.00999999978,
+      "RandomGroup": 1,
+      "ShowInPedia": true,
+      "CollectionScore": 100,
+      "HypeLinkID": 0,
+      "FrameRandomPool": [
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a_collider.prefab"
+        }
+      ],
+      "SceneModel": {
+        "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_ad004c/p_map01_level_prop_robhotel01_ad004c.prefab",
+        "collisionPath": ""
+      }
+    },
+    {
+      "Id": 8,
+      "Category": 0,
+      "DropId": 14499241,
+      "ConsumableID": 36130007,
+      "SyncValue": 5,
+      "SyncValueAdd": 0,
+      "InteractionTL": [
+        "ol_play_bankrob_takepaint"
+      ],
+      "TimelineActor": "Assets/Res/TimelineActors/sc_yishuhuan02a_cf3_gm_actor",
+      "InteractId": 0,
+      "FixedModel": "",
+      "SpawnRate": 0.00999999978,
+      "RandomGroup": 1,
+      "ShowInPedia": true,
+      "CollectionScore": 100,
+      "HypeLinkID": 0,
+      "FrameRandomPool": [
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a_collider.prefab"
+        }
+      ],
+      "SceneModel": {
+        "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_ad004d/p_map01_level_prop_robhotel01_ad004d.prefab",
+        "collisionPath": ""
+      }
+    },
+    {
+      "Id": 9,
+      "Category": 0,
+      "DropId": 14499241,
+      "ConsumableID": 36130008,
+      "SyncValue": 5,
+      "SyncValueAdd": 0,
+      "InteractionTL": [
+        "ol_play_bankrob_takepaint"
+      ],
+      "TimelineActor": "Assets/Res/TimelineActors/sc_yishuhuan03a_gm_actor",
+      "InteractId": 0,
+      "FixedModel": "",
+      "SpawnRate": 0.00999999978,
+      "RandomGroup": 1,
+      "ShowInPedia": true,
+      "CollectionScore": 100,
+      "HypeLinkID": 0,
+      "FrameRandomPool": [
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a_collider.prefab"
+        }
+      ],
+      "SceneModel": {
+        "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_ad005a/p_map01_level_prop_robhotel01_ad005a.prefab",
+        "collisionPath": ""
+      }
+    },
+    {
+      "Id": 10,
+      "Category": 0,
+      "DropId": 14499241,
+      "ConsumableID": 36130009,
+      "SyncValue": 5,
+      "SyncValueAdd": 0,
+      "InteractionTL": [
+        "ol_play_bankrob_takepaint"
+      ],
+      "TimelineActor": "Assets/Res/TimelineActors/sc_yishuhuan03a_cf1_gm_actor",
+      "InteractId": 0,
+      "FixedModel": "",
+      "SpawnRate": 0.00999999978,
+      "RandomGroup": 1,
+      "ShowInPedia": true,
+      "CollectionScore": 100,
+      "HypeLinkID": 0,
+      "FrameRandomPool": [
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a_collider.prefab"
+        }
+      ],
+      "SceneModel": {
+        "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_ad005b/p_map01_level_prop_robhotel01_ad005b.prefab",
+        "collisionPath": ""
+      }
+    },
+    {
+      "Id": 11,
+      "Category": 0,
+      "DropId": 14499241,
+      "ConsumableID": 36130010,
+      "SyncValue": 5,
+      "SyncValueAdd": 0,
+      "InteractionTL": [
+        "ol_play_bankrob_takepaint"
+      ],
+      "TimelineActor": "Assets/Res/TimelineActors/sc_yishuhuan03a_cf2_gm_actor",
+      "InteractId": 0,
+      "FixedModel": "",
+      "SpawnRate": 0.00999999978,
+      "RandomGroup": 1,
+      "ShowInPedia": true,
+      "CollectionScore": 100,
+      "HypeLinkID": 0,
+      "FrameRandomPool": [
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a_collider.prefab"
+        }
+      ],
+      "SceneModel": {
+        "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_ad005c/p_map01_level_prop_robhotel01_ad005c.prefab",
+        "collisionPath": ""
+      }
+    },
+    {
+      "Id": 12,
+      "Category": 0,
+      "DropId": 14499241,
+      "ConsumableID": 36130011,
+      "SyncValue": 5,
+      "SyncValueAdd": 0,
+      "InteractionTL": [
+        "ol_play_bankrob_takepaint"
+      ],
+      "TimelineActor": "Assets/Res/TimelineActors/sc_yishuhuan03a_cf3_gm_actor",
+      "InteractId": 0,
+      "FixedModel": "",
+      "SpawnRate": 0.00999999978,
+      "RandomGroup": 1,
+      "ShowInPedia": true,
+      "CollectionScore": 100,
+      "HypeLinkID": 0,
+      "FrameRandomPool": [
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a_collider.prefab"
+        }
+      ],
+      "SceneModel": {
+        "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_ad005d/p_map01_level_prop_robhotel01_ad005d.prefab",
+        "collisionPath": ""
+      }
+    },
+    {
+      "Id": 13,
+      "Category": 0,
+      "DropId": 14499241,
+      "ConsumableID": 36130012,
+      "SyncValue": 5,
+      "SyncValueAdd": 0,
+      "InteractionTL": [
+        "ol_play_bankrob_takepaint"
+      ],
+      "TimelineActor": "Assets/Res/TimelineActors/sc_yishuhuan04a_gm_actor",
+      "InteractId": 0,
+      "FixedModel": "",
+      "SpawnRate": 0.00999999978,
+      "RandomGroup": 1,
+      "ShowInPedia": true,
+      "CollectionScore": 100,
+      "HypeLinkID": 0,
+      "FrameRandomPool": [
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a_collider.prefab"
+        }
+      ],
+      "SceneModel": {
+        "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_ad006a/p_map01_level_prop_robhotel01_ad006a.prefab",
+        "collisionPath": ""
+      }
+    },
+    {
+      "Id": 14,
+      "Category": 0,
+      "DropId": 14499241,
+      "ConsumableID": 36130013,
+      "SyncValue": 5,
+      "SyncValueAdd": 0,
+      "InteractionTL": [
+        "ol_play_bankrob_takepaint"
+      ],
+      "TimelineActor": "Assets/Res/TimelineActors/sc_yishuhuan04a_cf1_gm_actor",
+      "InteractId": 0,
+      "FixedModel": "",
+      "SpawnRate": 0.00999999978,
+      "RandomGroup": 1,
+      "ShowInPedia": true,
+      "CollectionScore": 100,
+      "HypeLinkID": 0,
+      "FrameRandomPool": [
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a_collider.prefab"
+        }
+      ],
+      "SceneModel": {
+        "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_ad006b/p_map01_level_prop_robhotel01_ad006b.prefab",
+        "collisionPath": ""
+      }
+    },
+    {
+      "Id": 15,
+      "Category": 0,
+      "DropId": 14499241,
+      "ConsumableID": 36130014,
+      "SyncValue": 5,
+      "SyncValueAdd": 0,
+      "InteractionTL": [
+        "ol_play_bankrob_takepaint"
+      ],
+      "TimelineActor": "Assets/Res/TimelineActors/sc_yishuhuan04a_cf2_gm_actor",
+      "InteractId": 0,
+      "FixedModel": "",
+      "SpawnRate": 0.00999999978,
+      "RandomGroup": 1,
+      "ShowInPedia": true,
+      "CollectionScore": 100,
+      "HypeLinkID": 0,
+      "FrameRandomPool": [
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a_collider.prefab"
+        }
+      ],
+      "SceneModel": {
+        "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_ad006c/p_map01_level_prop_robhotel01_ad006c.prefab",
+        "collisionPath": ""
+      }
+    },
+    {
+      "Id": 16,
+      "Category": 0,
+      "DropId": 14499241,
+      "ConsumableID": 36130015,
+      "SyncValue": 5,
+      "SyncValueAdd": 0,
+      "InteractionTL": [
+        "ol_play_bankrob_takepaint"
+      ],
+      "TimelineActor": "Assets/Res/TimelineActors/sc_yishuhuan04a_cf3_gm_actor",
+      "InteractId": 0,
+      "FixedModel": "",
+      "SpawnRate": 0.00999999978,
+      "RandomGroup": 1,
+      "ShowInPedia": true,
+      "CollectionScore": 100,
+      "HypeLinkID": 0,
+      "FrameRandomPool": [
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a_collider.prefab"
+        }
+      ],
+      "SceneModel": {
+        "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_ad006d/p_map01_level_prop_robhotel01_ad006d.prefab",
+        "collisionPath": ""
+      }
+    },
+    {
+      "Id": 17,
+      "Category": 0,
+      "DropId": 14499241,
+      "ConsumableID": 36130016,
+      "SyncValue": 5,
+      "SyncValueAdd": 0,
+      "InteractionTL": [
+        "ol_play_bankrob_takepaint"
+      ],
+      "TimelineActor": "Assets/Res/TimelineActors/sc_yishuhuan05a_gm_actor",
+      "InteractId": 0,
+      "FixedModel": "",
+      "SpawnRate": 0.00999999978,
+      "RandomGroup": 1,
+      "ShowInPedia": true,
+      "CollectionScore": 100,
+      "HypeLinkID": 0,
+      "FrameRandomPool": [
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a_collider.prefab"
+        }
+      ],
+      "SceneModel": {
+        "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_ad007a/p_map01_level_prop_robhotel01_ad007a.prefab",
+        "collisionPath": ""
+      }
+    },
+    {
+      "Id": 18,
+      "Category": 0,
+      "DropId": 14499241,
+      "ConsumableID": 36130017,
+      "SyncValue": 5,
+      "SyncValueAdd": 0,
+      "InteractionTL": [
+        "ol_play_bankrob_takepaint"
+      ],
+      "TimelineActor": "Assets/Res/TimelineActors/sc_yishuhuan05a_cf1_gm_actor",
+      "InteractId": 0,
+      "FixedModel": "",
+      "SpawnRate": 0.00999999978,
+      "RandomGroup": 1,
+      "ShowInPedia": true,
+      "CollectionScore": 100,
+      "HypeLinkID": 0,
+      "FrameRandomPool": [
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a_collider.prefab"
+        }
+      ],
+      "SceneModel": {
+        "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_ad007b/p_map01_level_prop_robhotel01_ad007b.prefab",
+        "collisionPath": ""
+      }
+    },
+    {
+      "Id": 19,
+      "Category": 0,
+      "DropId": 14499241,
+      "ConsumableID": 36130018,
+      "SyncValue": 5,
+      "SyncValueAdd": 0,
+      "InteractionTL": [
+        "ol_play_bankrob_takepaint"
+      ],
+      "TimelineActor": "Assets/Res/TimelineActors/sc_yishuhuan05a_cf2_gm_actor",
+      "InteractId": 0,
+      "FixedModel": "",
+      "SpawnRate": 0.00999999978,
+      "RandomGroup": 1,
+      "ShowInPedia": true,
+      "CollectionScore": 100,
+      "HypeLinkID": 0,
+      "FrameRandomPool": [
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a_collider.prefab"
+        }
+      ],
+      "SceneModel": {
+        "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_ad007c/p_map01_level_prop_robhotel01_ad007c.prefab",
+        "collisionPath": ""
+      }
+    },
+    {
+      "Id": 20,
+      "Category": 0,
+      "DropId": 14499241,
+      "ConsumableID": 36130019,
+      "SyncValue": 5,
+      "SyncValueAdd": 0,
+      "InteractionTL": [
+        "ol_play_bankrob_takepaint"
+      ],
+      "TimelineActor": "Assets/Res/TimelineActors/sc_yishuhuan05a_cf3_gm_actor",
+      "InteractId": 0,
+      "FixedModel": "",
+      "SpawnRate": 0.00999999978,
+      "RandomGroup": 1,
+      "ShowInPedia": true,
+      "CollectionScore": 100,
+      "HypeLinkID": 0,
+      "FrameRandomPool": [
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a_collider.prefab"
+        }
+      ],
+      "SceneModel": {
+        "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_ad007d/p_map01_level_prop_robhotel01_ad007d.prefab",
+        "collisionPath": ""
+      }
+    },
+    {
+      "Id": 21,
+      "Category": 0,
+      "DropId": 14499241,
+      "ConsumableID": 36130020,
+      "SyncValue": 5,
+      "SyncValueAdd": 0,
+      "InteractionTL": [
+        "ol_play_bankrob_takepaint"
+      ],
+      "TimelineActor": "Assets/Res/TimelineActors/sc_yishuhuan06a_gm_actor",
+      "InteractId": 0,
+      "FixedModel": "",
+      "SpawnRate": 0.00999999978,
+      "RandomGroup": 1,
+      "ShowInPedia": true,
+      "CollectionScore": 100,
+      "HypeLinkID": 0,
+      "FrameRandomPool": [
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a_collider.prefab"
+        }
+      ],
+      "SceneModel": {
+        "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_ad008a/p_map01_level_prop_robhotel01_ad008a.prefab",
+        "collisionPath": ""
+      }
+    },
+    {
+      "Id": 22,
+      "Category": 0,
+      "DropId": 14499241,
+      "ConsumableID": 36130021,
+      "SyncValue": 5,
+      "SyncValueAdd": 0,
+      "InteractionTL": [
+        "ol_play_bankrob_takepaint"
+      ],
+      "TimelineActor": "Assets/Res/TimelineActors/sc_yishuhuan06a_cf1_gm_actor",
+      "InteractId": 0,
+      "FixedModel": "",
+      "SpawnRate": 0.00999999978,
+      "RandomGroup": 1,
+      "ShowInPedia": true,
+      "CollectionScore": 100,
+      "HypeLinkID": 0,
+      "FrameRandomPool": [
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a_collider.prefab"
+        }
+      ],
+      "SceneModel": {
+        "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_ad008b/p_map01_level_prop_robhotel01_ad008b.prefab",
+        "collisionPath": ""
+      }
+    },
+    {
+      "Id": 23,
+      "Category": 0,
+      "DropId": 14499241,
+      "ConsumableID": 36130022,
+      "SyncValue": 5,
+      "SyncValueAdd": 0,
+      "InteractionTL": [
+        "ol_play_bankrob_takepaint"
+      ],
+      "TimelineActor": "Assets/Res/TimelineActors/sc_yishuhuan06a_cf2_gm_actor",
+      "InteractId": 0,
+      "FixedModel": "",
+      "SpawnRate": 0.00999999978,
+      "RandomGroup": 1,
+      "ShowInPedia": true,
+      "CollectionScore": 100,
+      "HypeLinkID": 0,
+      "FrameRandomPool": [
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a_collider.prefab"
+        }
+      ],
+      "SceneModel": {
+        "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_ad008c/p_map01_level_prop_robhotel01_ad008c.prefab",
+        "collisionPath": ""
+      }
+    },
+    {
+      "Id": 24,
+      "Category": 0,
+      "DropId": 14499241,
+      "ConsumableID": 36130023,
+      "SyncValue": 5,
+      "SyncValueAdd": 0,
+      "InteractionTL": [
+        "ol_play_bankrob_takepaint"
+      ],
+      "TimelineActor": "Assets/Res/TimelineActors/sc_yishuhuan06a_cf3_gm_actor",
+      "InteractId": 0,
+      "FixedModel": "",
+      "SpawnRate": 0.00999999978,
+      "RandomGroup": 1,
+      "ShowInPedia": true,
+      "CollectionScore": 100,
+      "HypeLinkID": 0,
+      "FrameRandomPool": [
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a_collider.prefab"
+        }
+      ],
+      "SceneModel": {
+        "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_ad008d/p_map01_level_prop_robhotel01_ad008d.prefab",
+        "collisionPath": ""
+      }
+    },
+    {
+      "Id": 25,
+      "Category": 0,
+      "DropId": 14499241,
+      "ConsumableID": 36130024,
+      "SyncValue": 5,
+      "SyncValueAdd": 0,
+      "InteractionTL": [
+        "ol_play_bankrob_takepaint"
+      ],
+      "TimelineActor": "Assets/Res/TimelineActors/sc_yishuhuan07a_gm_actor",
+      "InteractId": 0,
+      "FixedModel": "",
+      "SpawnRate": 0.00999999978,
+      "RandomGroup": 1,
+      "ShowInPedia": true,
+      "CollectionScore": 100,
+      "HypeLinkID": 0,
+      "FrameRandomPool": [
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a_collider.prefab"
+        }
+      ],
+      "SceneModel": {
+        "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_ad009a/p_map01_level_prop_robhotel01_ad009a.prefab",
+        "collisionPath": ""
+      }
+    },
+    {
+      "Id": 26,
+      "Category": 0,
+      "DropId": 14499241,
+      "ConsumableID": 36130025,
+      "SyncValue": 5,
+      "SyncValueAdd": 0,
+      "InteractionTL": [
+        "ol_play_bankrob_takepaint"
+      ],
+      "TimelineActor": "Assets/Res/TimelineActors/sc_yishuhuan07a_cf1_gm_actor",
+      "InteractId": 0,
+      "FixedModel": "",
+      "SpawnRate": 0.00999999978,
+      "RandomGroup": 1,
+      "ShowInPedia": true,
+      "CollectionScore": 100,
+      "HypeLinkID": 0,
+      "FrameRandomPool": [
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a_collider.prefab"
+        }
+      ],
+      "SceneModel": {
+        "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_ad009b/p_map01_level_prop_robhotel01_ad009b.prefab",
+        "collisionPath": ""
+      }
+    },
+    {
+      "Id": 27,
+      "Category": 0,
+      "DropId": 14499241,
+      "ConsumableID": 36130026,
+      "SyncValue": 5,
+      "SyncValueAdd": 0,
+      "InteractionTL": [
+        "ol_play_bankrob_takepaint"
+      ],
+      "TimelineActor": "Assets/Res/TimelineActors/sc_yishuhuan07a_cf2_gm_actor",
+      "InteractId": 0,
+      "FixedModel": "",
+      "SpawnRate": 0.00999999978,
+      "RandomGroup": 1,
+      "ShowInPedia": true,
+      "CollectionScore": 100,
+      "HypeLinkID": 0,
+      "FrameRandomPool": [
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a_collider.prefab"
+        }
+      ],
+      "SceneModel": {
+        "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_ad009c/p_map01_level_prop_robhotel01_ad009c.prefab",
+        "collisionPath": ""
+      }
+    },
+    {
+      "Id": 28,
+      "Category": 0,
+      "DropId": 14499241,
+      "ConsumableID": 36130027,
+      "SyncValue": 5,
+      "SyncValueAdd": 0,
+      "InteractionTL": [
+        "ol_play_bankrob_takepaint"
+      ],
+      "TimelineActor": "Assets/Res/TimelineActors/sc_yishuhuan07a_cf3_gm_actor",
+      "InteractId": 0,
+      "FixedModel": "",
+      "SpawnRate": 0.00999999978,
+      "RandomGroup": 1,
+      "ShowInPedia": true,
+      "CollectionScore": 100,
+      "HypeLinkID": 0,
+      "FrameRandomPool": [
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame003a/p_map01_level_prop_robhotel01_frame003a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame004a/p_map01_level_prop_robhotel01_frame004a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame005a/p_map01_level_prop_robhotel01_frame005a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame006a/p_map01_level_prop_robhotel01_frame006a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame007a/p_map01_level_prop_robhotel01_frame007a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame008a/p_map01_level_prop_robhotel01_frame008a_collider.prefab"
+        },
+        {
+          "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a.prefab",
+          "collisionPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_frame009a/p_map01_level_prop_robhotel01_frame009a_collider.prefab"
+        }
+      ],
+      "SceneModel": {
+        "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_ad009d/p_map01_level_prop_robhotel01_ad009d.prefab",
+        "collisionPath": ""
+      }
+    },
+    {
+      "Id": 29,
+      "Category": 1,
+      "DropId": 0,
+      "ConsumableID": 0,
+      "SyncValue": 0,
+      "SyncValueAdd": 0,
+      "InteractionTL": [
+        "ol_play_bankrob_takepaint"
+      ],
+      "TimelineActor": "",
+      "InteractId": 0,
+      "FixedModel": "",
+      "SpawnRate": 0.00999999978,
+      "RandomGroup": 1,
+      "ShowInPedia": true,
+      "CollectionScore": 100,
+      "HypeLinkID": 0,
+      "FrameRandomPool": [],
+      "SceneModel": {
+        "assetPath": "Assets/Res/env/3dmodels/map01/level/prop/robhotel/map01_level_prop_robhotel01_ad009d/p_map01_level_prop_robhotel01_ad009d.prefab",
+        "collisionPath": ""
+      }
+    },
+    {
+      "Id": 1001,
+      "Category": 2,
+      "DropId": 14499241,
+      "ConsumableID": 36131000,
+      "SyncValue": 5,
+      "SyncValueAdd": 0,
+      "InteractionTL": [],
+      "TimelineActor": "",
+      "InteractId": 121,
+      "FixedModel": "",
+      "SpawnRate": 0.00999999978,
+      "RandomGroup": 4,
+      "ShowInPedia": true,
+      "CollectionScore": 100,
+      "HypeLinkID": 0,
+      "FrameRandomPool": [],
+      "SceneModel": {
+        "assetPath": "",
+        "collisionPath": ""
+      }
+    },
+    {
+      "Id": 1500,
+      "Category": 3,
+      "DropId": 14499241,
+      "ConsumableID": 36131001,
+      "SyncValue": 5,
+      "SyncValueAdd": 0,
+      "InteractionTL": [],
+      "TimelineActor": "",
+      "InteractId": 121,
+      "FixedModel": "",
+      "SpawnRate": 0.00999999978,
+      "RandomGroup": 3,
+      "ShowInPedia": true,
+      "CollectionScore": 100,
+      "HypeLinkID": 0,
+      "FrameRandomPool": [],
+      "SceneModel": {
+        "assetPath": "",
+        "collisionPath": ""
+      }
+    },
+    {
+      "Id": 2001,
+      "Category": 4,
+      "DropId": 14499241,
+      "ConsumableID": 36131002,
+      "SyncValue": 5,
+      "SyncValueAdd": 0,
+      "InteractionTL": [
+        "ol_play_bankrob_takemoney01",
+        "ol_play_bankrob_takemoney02",
+        "ol_play_bankrob_takemoney03",
+        "ol_play_bankrob_takeitem04",
+        "ol_play_bankrob_takeitem05",
+        "ol_play_bankrob_takeitem06"
+      ],
+      "TimelineActor": "sc_chaopiao01_gm_actor",
+      "InteractId": 0,
+      "FixedModel": "",
+      "SpawnRate": 0.00999999978,
+      "RandomGroup": 5,
+      "ShowInPedia": true,
+      "CollectionScore": 100,
+      "HypeLinkID": 0,
+      "FrameRandomPool": [],
+      "SceneModel": {
+        "assetPath": "Assets/Res/interaction/GadgetsProperty/prefab/interaction_gadgetsproperty_box008a/p_interaction_gadgetsproperty_money008a.prefab",
+        "collisionPath": "Assets/Res/interaction/GadgetsProperty/prefab/interaction_gadgetsproperty_box008a/p_interaction_gadgetsproperty_money008a_collider.prefab"
+      }
+    },
+    {
+      "Id": 2002,
+      "Category": 4,
+      "DropId": 14499241,
+      "ConsumableID": 36131003,
+      "SyncValue": 5,
+      "SyncValueAdd": 0,
+      "InteractionTL": [
+        "ol_play_bankrob_takemoney01",
+        "ol_play_bankrob_takemoney02",
+        "ol_play_bankrob_takemoney03",
+        "ol_play_bankrob_takeitem04",
+        "ol_play_bankrob_takeitem05",
+        "ol_play_bankrob_takeitem06"
+      ],
+      "TimelineActor": "sc_weijinpin01_gm_actor",
+      "InteractId": 0,
+      "FixedModel": "",
+      "SpawnRate": 0.00999999978,
+      "RandomGroup": 5,
+      "ShowInPedia": true,
+      "CollectionScore": 100,
+      "HypeLinkID": 0,
+      "FrameRandomPool": [],
+      "SceneModel": {
+        "assetPath": "Assets/Res/interaction/GadgetsProperty/prefab/interaction_gadgetsproperty_box009a/p_interaction_gadgetsproperty_box009a.prefab",
+        "collisionPath": "Assets/Res/interaction/GadgetsProperty/prefab/interaction_gadgetsproperty_box009a/p_interaction_gadgetsproperty_box009a_collider.prefab"
+      }
+    },
+    {
+      "Id": 2003,
+      "Category": 4,
+      "DropId": 14499241,
+      "ConsumableID": 36131004,
+      "SyncValue": 5,
+      "SyncValueAdd": 0,
+      "InteractionTL": [
+        "ol_play_bankrob_takemoney01",
+        "ol_play_bankrob_takemoney02",
+        "ol_play_bankrob_takemoney03",
+        "ol_play_bankrob_takeitem04",
+        "ol_play_bankrob_takeitem05",
+        "ol_play_bankrob_takeitem06"
+      ],
+      "TimelineActor": "sc_jtiao01_gm_actor",
+      "InteractId": 0,
+      "FixedModel": "",
+      "SpawnRate": 0.00999999978,
+      "RandomGroup": 5,
+      "ShowInPedia": true,
+      "CollectionScore": 100,
+      "HypeLinkID": 0,
+      "FrameRandomPool": [],
+      "SceneModel": {
+        "assetPath": "Assets/Res/interaction/GadgetsProperty/prefab/interaction_gadgetsproperty_sundboard002a/p_interaction_gadgetsproperty_sundboard002a.prefab",
+        "collisionPath": "Assets/Res/interaction/GadgetsProperty/prefab/interaction_gadgetsproperty_sundboard002a/p_interaction_gadgetsproperty_sundboard002a_collider.prefab"
+      }
+    },
+    {
+      "Id": 2004,
+      "Category": 5,
+      "DropId": 14499241,
+      "ConsumableID": 36131005,
+      "SyncValue": 5,
+      "SyncValueAdd": 0,
+      "InteractionTL": [
+        "ol_play_bankrob_takemoney01",
+        "ol_play_bankrob_takemoney02",
+        "ol_play_bankrob_takemoney03",
+        "ol_play_bankrob_takeitem04",
+        "ol_play_bankrob_takeitem05",
+        "ol_play_bankrob_takeitem06"
+      ],
+      "TimelineActor": "sc_zuanshi01a_gm_actor",
+      "InteractId": 0,
+      "FixedModel": "",
+      "SpawnRate": 0.00999999978,
+      "RandomGroup": 5,
+      "ShowInPedia": true,
+      "CollectionScore": 100,
+      "HypeLinkID": 0,
+      "FrameRandomPool": [],
+      "SceneModel": {
+        "assetPath": "Assets/Res/interaction/GadgetsProperty/prefab/interaction_gadgetsproperty_sundboard001a/p_interaction_gadgetsproperty_sundboard001a.prefab",
+        "collisionPath": "Assets/Res/interaction/GadgetsProperty/prefab/interaction_gadgetsproperty_sundboard001a/p_interaction_gadgetsproperty_sundboard001a_collider.prefab"
+      }
+    }
+  ],
+  "_dumpedCount": 35,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

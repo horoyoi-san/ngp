@@ -1,0 +1,92 @@
+{
+  "RecommendListNumberPerGroup": 12,
+  "RecommendClubActivityCond": 500,
+  "RecommendListMaxNumber": 48,
+  "ClubNameLengthLimit": [
+    2,
+    16
+  ],
+  "ClubAnnouncementMaxLength": 100,
+  "ClubDefaultMemberNum": 40,
+  "ClubDefaultAdministratorNum": 2,
+  "ClubExpGainRatio": 1000,
+  "ClubExitCD": 12,
+  "ClubBeAppliedMaxNum": 30,
+  "ClubEstablishCost": [
+    36920006,
+    1,
+    89005003
+  ],
+  "ApplyPanelTabs": [
+    "Apply to Club",
+    "Create Club"
+  ],
+  "MainPanelTabs": [
+    "Home",
+    "Member List",
+    "Co-Build",
+    "Shop"
+  ],
+  "ClubMemberTypeText": [
+    "Member",
+    "President",
+    "Admin"
+  ],
+  "MainPanelListSubTabs": [
+    "Member List",
+    "Application List"
+  ],
+  "MainPanelPopupActions": [
+    "Transfer Presidency",
+    "Set as Admin",
+    "Remove Admin",
+    "Remove from Club",
+    "辞去职位"
+  ],
+  "HonorMaxAmount": 50,
+  "HonorMaxTime": 90,
+  "RacingMinTier": 2003,
+  "BasketballMinTier": 2006,
+  "MahjongMinTier": 0,
+  "ServerMinRank": 999,
+  "AreaMinRank": 100,
+  "RankPushRule": [
+    {
+      "min": 1,
+      "max": 10,
+      "RankUpRequired": 1
+    },
+    {
+      "min": 11,
+      "max": 50,
+      "RankUpRequired": 5
+    },
+    {
+      "min": 51,
+      "max": 100,
+      "RankUpRequired": 10
+    },
+    {
+      "min": 101,
+      "max": 999,
+      "RankUpRequired": 50
+    }
+  ],
+  "ClothMinRarity": 0,
+  "VehicleMinRarity": 0,
+  "HouseMinRarity": 0,
+  "ActivityRequired": 2400,
+  "StarRankRequiredAll": 0,
+  "StarRankRequired": 0,
+  "PositionPlaceHolderText": "Enter a position title.",
+  "PositionMaxAmount": 6,
+  "PositionNameTextRange": 6,
+  "DefaultClubName": "未知俱乐部",
+  "PositionEditMaxTime": 3,
+  "PresidentColor": "#FF9900FF",
+  "AdminColor": "#4CAF50FF",
+  "CustomPositionColor": "#9C27B0FF",
+  "MemberColor": "#FFFFFFFF",
+  "StarVacantName": "虚位以待",
+  "StarRankRequiredText": "所需排名"
+}

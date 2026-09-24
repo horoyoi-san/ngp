@@ -5,7 +5,6 @@ using Ananta.Server.Protocol.Client4229938;
 
 namespace Ananta.Server.Handlers.Game;
 
-/// <summary>Protagonist traversal/web buff handling. Buff ids come from private-server.json.</summary>
 internal sealed partial class GameRouter
 {
     static bool IsActiveProtagonist(WorldEntryState state, ulong unitId = 0)
@@ -77,9 +76,9 @@ internal sealed partial class GameRouter
             ctx.Session.Log.Info($"[WEB] client-buff-add denied unit={unitId} template={state.ActiveSpiritTemplateId} buff={buffId} protagonist=false");
             return;
         }
-        // SwingBuff/WallRushBuff are action states, not unlocks. The 4229938 client requests them
-        // when an action starts and removes them when it ends. Track one exact instance per unit/buff
-        // so repeated client requests refresh the state instead of stacking permanent super-armor.
+        
+        
+        
         if (WebTraversal.IsClientLifecycleBuff(buffId))
         {
             var key = (unitId, buffId);
@@ -138,12 +137,12 @@ internal sealed partial class GameRouter
                 ctx.Session.Log.Info($"[WEB] client-buff-remove transient={buffId} instance={instanceId}");
             }
 
-            // Client 4229938 reports grapple teardown by buff *id*, not by instance.
-            // Locally that teardown can consume the configured resident grapple gate as well as the short-lived
-            // action copy.  This is especially visible on the female protagonist: the first grapple
-            // succeeds, then no second client-buff-add is emitted. Re-arm one untracked resident gate
-            // after teardown for either protagonist. It is deliberately NOT stored as
-            // ActiveFeiSuoBuffInstanceId; that slot is reserved for the next action copy only.
+            
+            
+            
+            
+            
+            
             await Task.Delay(WebTraversal.GrappleRearmDelayMs);
             if (IsActiveProtagonist(state, unitId))
             {

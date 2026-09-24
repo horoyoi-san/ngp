@@ -2,10 +2,6 @@ using Ananta.SDK.Serialization;
 
 namespace Ananta.Server.RpcTypes.Client4229938.Methods.GameScene;
 
-/// <summary>
-/// Client -&gt; GameScene AskSummonVehicle(uint32 vehicleconfigid, UXVector3 position, float facingdirection).
-/// From ClientToGameSceneDelegate.lua (build 4229938).
-/// </summary>
 [UxContract(Inline = true)]
 internal sealed class AskSummonVehicle
 {
@@ -14,10 +10,6 @@ internal sealed class AskSummonVehicle
     public float FacingDirection;
 }
 
-/// <summary>
-/// Server -&gt; client SummonVehicleResult: inline struct { ulong VehicleEntityId; ulong TaskToken; }
-/// (RPCDeserializeAuto reader 674, read via Base.ReadStruct).
-/// </summary>
 [UxContract(Inline = true)]
 internal sealed class SummonVehicleResult
 {
@@ -25,7 +17,6 @@ internal sealed class SummonVehicleResult
     public ulong TaskToken;
 }
 
-/// <summary>VehicleClientPart: struct reader 1618 { uint Type; uint ConfigId; }.</summary>
 [UxContract(Inline = true)]
 internal struct VehicleClientPart
 {
@@ -33,10 +24,6 @@ internal struct VehicleClientPart
     public uint ConfigId;
 }
 
-/// <summary>
-/// PlayerVehicleClientDetail: complex reader 434
-/// { uint Id; List7Bit&lt;struct VehicleClientPart&gt; Parts; uint SuitId; bool IsPersistent; }.
-/// </summary>
 [UxContract]
 internal sealed class PlayerVehicleClientDetail
 {
@@ -47,17 +34,12 @@ internal sealed class PlayerVehicleClientDetail
     public bool IsPersistent;
 }
 
-/// <summary>
-/// Server -&gt; client SyncLogicVehicleEnter: full world-vehicle spawn (reader: complex).
-/// Field order verified against IL2CPP metadata (UX.Game.LogicVehicleClientInfo,
-/// 11 fields) and Lua Auto.WriteLogicVehicleClientInfo (RPCSerializeAuto.lua).
-/// </summary>
 [UxContract]
 internal sealed class SyncLogicVehicleEnter
 {
     public ulong EntityId;
     public uint VehicleConfigId;
-    /// <summary>UX.Game.VehicleCreateSourceType as byte (Invalid=0, Task=1, Summon=2, ...).</summary>
+    
     public byte CreateSourceType;
     [UxCollection(Count = UxCountEncoding.Int7, ItemObjectEncoding = UxObjectEncoding.Struct)]
     public List<VehicleClientPart> Parts = [];
@@ -70,10 +52,6 @@ internal sealed class SyncLogicVehicleEnter
     public string? VehicleSpoonName;
 }
 
-/// <summary>
-/// Raid vehicle seat entry (IL2CPP UX.Game.RaidVehicleSeatInfo + V2 wire):
-/// { u64 EntityId; byte SeatIndex; byte SeatState; bool DestroyRelated }.
-/// </summary>
 [UxContract]
 internal sealed class RaidVehicleSeatInfo
 {
@@ -83,10 +61,6 @@ internal sealed class RaidVehicleSeatInfo
     public bool DestroyRelated;
 }
 
-/// <summary>
-/// Server -&gt; client SyncSpawnVehicle payload (V2 field order, verified against
-/// IL2CPP UX.Game.VehicleClientInfo typedef): the notify that materializes the car.
-/// </summary>
 [UxContract]
 internal sealed class VehicleClientInfo
 {
@@ -114,10 +88,6 @@ internal sealed class VehicleClientInfo
     public string LicensePlate = string.Empty;
 }
 
-/// <summary>
-/// Server -&gt; client SyncDestroyVehicle(entityId, destroyType, distance, dynamicGoId).
-/// Signature from IL2CPP metadata (UX.Game.IGameSceneToClient).
-/// </summary>
 [UxContract(Inline = true)]
 internal sealed class DestroyVehicle
 {
@@ -127,10 +97,6 @@ internal sealed class DestroyVehicle
     public int DynamicGoId;
 }
 
-/// <summary>
-/// Return body of AskGetUnlockedVehicles: top-level List7Bit&lt;PlayerVehicleClientDetail&gt;
-/// (midToReturnMessageReader[63272881]: ReadList7Bit + ReadComplex reader 434).
-/// </summary>
 [UxContract(Inline = true)]
 internal sealed class AskGetUnlockedVehiclesResult
 {
@@ -138,10 +104,6 @@ internal sealed class AskGetUnlockedVehiclesResult
     public List<PlayerVehicleClientDetail> Vehicles = [];
 }
 
-/// <summary>
-/// Server -&gt; client SyncTeleportVehicle(entityId, position, rotation, velocity, reset, moveToken).
-/// Signature from IL2CPP metadata (UX.Game.IGameSceneToClient): all primitives/inline.
-/// </summary>
 [UxContract(Inline = true)]
 internal sealed class SyncTeleportVehicle
 {
@@ -153,21 +115,12 @@ internal sealed class SyncTeleportVehicle
     public int MoveToken;
 }
 
-/// <summary>Server -&gt; client SyncRemoveVehicle(entityId). Signature from IL2CPP metadata.</summary>
 [UxContract(Inline = true)]
 internal sealed class SyncRemoveVehicle
 {
     public ulong EntityId;
 }
 
-/// <summary>
-/// Client -&gt; GameScene AskVehicleMove payload: complex RaidVehicleSyncData
-/// { u64 Id; struct UXVector3 Position; f32 facingDirection;
-///   struct UXVector3 EulerAngles; struct UXVector3 Velocity;
-///   List7Bit&lt;byte&gt; Bits; i32 MoveToken }.
-/// (ClientToGameSceneDelegate AskVehicleMove + Auto.WriteRaidVehicleSyncData.)
-/// Server only tracks Position/facing for the debug panel; simulation stays client-side.
-/// </summary>
 [UxContract]
 internal sealed class RaidVehicleSyncData
 {
@@ -181,34 +134,98 @@ internal sealed class RaidVehicleSyncData
     public int MoveToken;
 }
 
-/// <summary>
-/// Server -&gt; client SyncAetherAIInitDatas: vehicle-AI subsystem init (mirrors V2).
-/// Lists stay empty on a private server; the header alone unblocks DriveManager.
-/// </summary>
 [UxContract]
 internal sealed class AetherAIInitData
 {
     public uint RaidId;
     public bool HasZoneGraph;
     public int ZoneStorageDataHandle;
+
     [UxCollection(Count = UxCountEncoding.Int7, ItemObjectEncoding = UxObjectEncoding.Complex)]
-    public List<AetherInitStub> Intersections = [];
-    [UxCollection(Count = UxCountEncoding.Int7, ItemObjectEncoding = UxObjectEncoding.Complex)]
-    public List<AetherInitStub> Vehicles = [];
-    [UxCollection(Count = UxCountEncoding.Int7, ItemObjectEncoding = UxObjectEncoding.Complex)]
-    public List<AetherInitStub> StaticVehicles = [];
+    public List<ClientTrafficIntersectionInitInfo> Intersections = [];
 }
 
-/// <summary>Never serialized (all Aether init lists are empty); satisfies the serializer.</summary>
 [UxContract]
-internal sealed class AetherInitStub
+internal sealed class ClientTrafficIntersectionInitInfo
 {
+    public ulong InstanceId;
+    public int ZoneIndex;
+    public byte CurrentState;
+    public byte CurrentPeriodIndex;
+    public byte NextPeriodIndex;
+    public byte RailPeriodIndex;
 }
 
-/// <summary>
-/// Server -> client SyncChangeVehicleInteractable(ulong vehicleInstanceId, bool interactable).
-/// Inline struct (no complex marker). From RPCDeserializeAuto reader for 68943521.
-/// </summary>
+[UxContract]
+internal sealed class ClientVehicleInitData
+{
+    public uint VehicleConfigId;
+    public uint VehicleColorId;
+    public byte VehicleLightState;
+    public int LaneHandle;
+    public float DistanceAlongLane;
+    public ulong NextVehicleId;
+    public double Timestamp;
+    public byte ControlType;
+    public float Speed;
+    public float DustRatio;
+
+    [UxCollection(Count = UxCountEncoding.Int7, ItemObjectEncoding = UxObjectEncoding.Struct)]
+    public List<VehicleClientPart> Parts = [];
+
+    public uint SuitId;
+
+    
+    
+    
+    public float RandomFraction;
+
+    public ulong Id;
+
+    
+    
+    
+    [UxObject(Encoding = UxObjectEncoding.Struct)]
+    public Auto.UXVector3 Position = new();
+
+    public float Facing;
+
+    [UxObject(Encoding = UxObjectEncoding.Struct)]
+    public Auto.UXVector3 EulerAngles = new();
+}
+
+[UxContract]
+internal sealed class ClientStaticVehicleInitData
+{
+    public uint VehicleConfigId;
+    public uint ColorConfigId;
+    public uint DamageStatusId;
+    public double Timestamp;
+    public bool NotDrive;
+    public float RotationX;
+    public float RotationY;
+    public float RotationZ;
+    public float RotationW;
+
+    [UxCollection(Count = UxCountEncoding.Int7, ItemObjectEncoding = UxObjectEncoding.Struct)]
+    public List<VehicleClientPart> Parts = [];
+
+    public uint SuitId;
+    public float DustRatio;
+    public ulong Id;
+
+    
+    
+    
+    [UxObject(Encoding = UxObjectEncoding.Struct)]
+    public Auto.UXVector3 Position = new();
+
+    public float Facing;
+
+    [UxObject(Encoding = UxObjectEncoding.Struct)]
+    public Auto.UXVector3 EulerAngles = new();
+}
+
 [UxContract(Inline = true)]
 internal sealed class SyncChangeVehicleInteractable
 {
@@ -216,10 +233,6 @@ internal sealed class SyncChangeVehicleInteractable
     public bool Interactable;
 }
 
-/// <summary>
-/// Server -> client SyncChangeVehicleController(ulong vehicleInstanceId, ulong controllerPid).
-/// Inline struct. Mirrors V2 (verified against client drive lifecycle).
-/// </summary>
 [UxContract(Inline = true)]
 internal sealed class SyncChangeVehicleController
 {
@@ -227,7 +240,6 @@ internal sealed class SyncChangeVehicleController
     public ulong ControllerPid;
 }
 
-/// <summary>Boarding ext info: WriteBoardingExtInfo field order (V2-verified vs Lua).</summary>
 [UxContract]
 internal sealed class BoardingExtInfo
 {
@@ -239,11 +251,6 @@ internal sealed class BoardingExtInfo
     public uint ActionId;
 }
 
-/// <summary>
-/// Server -> client SyncUnitVehicleStatus payload: WriteNewClientBoardingInfo order
-/// { u64 EntityId; byte Status; u64 VehicleUId; byte SeatIndex; ExtInfo? }.
-/// Status: 0=none, 2=enter-start, 3=enter-phase2, 4=seated, 5=exit-start.
-/// </summary>
 [UxContract]
 internal sealed class NewClientBoardingInfo
 {
@@ -254,7 +261,6 @@ internal sealed class NewClientBoardingInfo
     public BoardingExtInfo? ExtInfo;
 }
 
-/// <summary>Server -> client SyncPlayerMoveToDriveSeat(pid, vehicleEntityId). Inline.</summary>
 [UxContract(Inline = true)]
 internal sealed class SyncPlayerMoveToDriveSeat
 {
@@ -262,7 +268,6 @@ internal sealed class SyncPlayerMoveToDriveSeat
     public ulong VehicleEntityId;
 }
 
-/// <summary>Server -> client SyncPlayerExitVehicle(vehicleEntityId, force, stopBeforeLeave). Inline.</summary>
 [UxContract(Inline = true)]
 internal sealed class SyncPlayerExitVehicle
 {
@@ -271,11 +276,6 @@ internal sealed class SyncPlayerExitVehicle
     public bool StopBeforeLeave;
 }
 
-/// <summary>
-/// Drive-state struct shared by client notifies and server enter/exit notifies
-/// (SyncPlayerStartEnterOrExitVehicl / SyncPlayerVehicleStateChange /
-/// SyncPlayerFinishEnterOrExitVehic). V2-verified order; SeatIndex is int.
-/// </summary>
 [UxContract(Inline = true)]
 internal sealed class PlayerVehicleDriveStateInfo
 {
@@ -289,11 +289,244 @@ internal sealed class PlayerVehicleDriveStateInfo
     public int OpenDoorActionClipLength;
 }
 
-/// <summary>Client -> server AskClaimVehicleSeat(vehicleEntityId, seatIndices). Inline.</summary>
+[UxContract]
+internal sealed class PlayerVehicleDriveStateInfoClientArg4229938
+{
+    public ulong Pid;
+    public bool EnterOrLeave;
+    public ulong VehicleEntityId;
+    public int SeatIndex;
+    public bool IfForce;
+    public int OpenDoorTypeId;
+    public int OpenDoorActionSpeed;
+    public int OpenDoorActionClipLength;
+}
+
 [UxContract(Inline = true)]
 internal sealed class AskClaimVehicleSeatArgs
 {
     public ulong VehicleEntityId;
     [UxCollection(Count = UxCountEncoding.Int7)]
     public List<byte> SeatIndices = [];
+}
+
+[UxContract(Inline = true)]
+internal sealed class SyncVehicleForceGo4229938
+{
+    public ulong vehicleEntityId;
+    public bool isForceGo;
+}
+
+[UxContract]
+internal sealed class ClientVehicleNpcInitData4229938
+{
+    
+    public ulong Id;
+
+    
+    public uint NpcFormworkId;
+
+    
+    public ulong BindVehicleId;
+
+    
+    public byte SeatIndex;
+}
+
+[UxContract(Inline = true)]
+internal sealed class SyncAetherAIVehicleNpcAdd4229938
+{
+    public ClientVehicleNpcInitData4229938 initData = new();
+}
+
+[UxContract(Inline = true)]
+internal sealed class SyncAetherAIVehicleRemove4229938
+{
+    public ulong pid;
+}
+
+[UxContract(Inline = true)]
+internal sealed class SyncAetherAIVehicleForceGo4229938
+{
+    public ulong instanceId;
+    public bool forceGo;
+}
+
+[UxContract(Inline = true)]
+internal sealed class SyncAgentForceGo4229938
+{
+    public ulong id;
+    public bool isForceGo;
+}
+
+[UxContract(Inline = true)]
+internal sealed class SyncAetherAIChangeVehicleControlType4229938
+{
+    public ulong vehicleId;
+    public byte vehicleControlType;
+}
+
+[UxContract(Inline = true)]
+internal sealed class SyncAetherAINpcRemove4229938
+{
+    public ulong pid;
+}
+
+[UxContract]
+internal sealed class ClientCrowdInitData4229938
+{
+    public uint NpcFormworkId;
+    public uint AgentPersonaId;
+    public uint UrbanDiversityConfigId;
+    public float DesiredSpeed;
+    public ushort ActionId;
+    public byte TargetLocationReason;
+    public uint FashionSuitId;
+    public ulong Id;
+
+    [UxObject(Encoding = UxObjectEncoding.Struct)]
+    public Auto.UXVector3 Position = new();
+
+    public float Facing;
+
+    [UxObject(Encoding = UxObjectEncoding.Struct)]
+    public Auto.UXVector3 EulerAngles = new();
+}
+
+[UxContract(Inline = true)]
+internal sealed class SyncAetherAICrowdAdd4229938
+{
+    public ClientCrowdInitData4229938 crowd = new();
+}
+
+[UxContract]
+internal sealed class ClientStaticNpcInitData4229938
+{
+    public ulong StaticNpcInfoId;
+    public uint NpcFormworkId;
+    public uint AgentPersonaId;
+    public uint SPoiActionId;
+    public uint CPoiActionId;
+    public uint UrbanDiversityId;
+    public bool IgnoreAllStim;
+    public bool TaskRelated;
+    public bool EnableHack;
+    public int NpcPid;
+
+    
+    [UxObject(Encoding = UxObjectEncoding.Complex)]
+    public AgentSyncClientInfo4229938? AgentSyncClientInfo;
+
+    public uint LookAtDecisionRulesId;
+    public bool ForceGo;
+    public byte SourceType;
+
+    
+    
+    
+    
+    public uint MartialArtistGossipConfigID;
+
+    public ulong Id;
+
+    [UxObject(Encoding = UxObjectEncoding.Struct)]
+    public Auto.UXVector3 Position = new();
+
+    public float Facing;
+
+    [UxObject(Encoding = UxObjectEncoding.Struct)]
+    public Auto.UXVector3 EulerAngles = new();
+}
+
+[UxContract(Inline = true)]
+internal sealed class SyncAetherAIStaticNpcAddData4229938
+{
+    public ClientStaticNpcInitData4229938 data = new();
+}
+
+[UxContract]
+internal sealed class AgentSyncClientInfo4229938
+{
+    public bool NeedFTF180DegreeInteract;
+    public bool PlayerFTF180DegreeInteract;
+    public uint IndoorId;
+    public ulong chairId;
+    public ulong gadgetId;
+    public bool forbidAetherAI;
+    public bool isApproachNpc;
+    public bool TriggerLeaveEvent;
+    public int approachDistance;
+    public int LeaveDistance;
+    public string? petPerformData = "";
+    [UxCollection(Count = UxCountEncoding.Int7)]
+    public List<int> stimIDList = [];
+    public uint randomModelCfgId;
+    public int layer;
+    public float gpsOffsetY;
+    public bool isTemp;
+    [UxCollection(Count = UxCountEncoding.Int7)]
+    public List<uint> spawnEffectId = [];
+    public uint hideEffectId;
+    public uint actionId;
+    public uint actionGroupId;
+    public uint initPoiActionId;
+    public bool useDefaultPoiOnReturn;
+    [UxCollection(Count = UxCountEncoding.Int7)]
+    public List<uint> returnPoiActionIds = [];
+
+    
+    [UxObject(Encoding = UxObjectEncoding.Complex)]
+    public NpcAdhereMovingPlatformInfo4229938? AdherePlatformInfo;
+
+    public uint AgentDataSetsActivityCfgId;
+    public uint GameplaySignalId;
+    public string treeName = "";
+    public int sitIndex;
+    [UxCollection(Count = UxCountEncoding.Int7)]
+    public List<uint> indoorList = [];
+    [UxCollection(Count = UxCountEncoding.Int7)]
+    public List<int> roomIds = [];
+    public byte forbidStimulateType;
+    public byte agentStimType;
+    public byte beHitType;
+    public int SpoonAgentId;
+    public bool isAttackInSafeMode;
+    public bool FeiSuo;
+    public uint FashionSuitId;
+    public bool CanBeExaminedByPolice;
+    public bool IgnoreWanted;
+    public bool BeAttackIgnorePolicePunish;
+    public uint InteractId;
+    public uint AISetting;
+    public NpcLinkAIAgentInfo4229938 AIAgentInfo = new();
+    public bool HackerBetray;
+}
+
+[UxContract]
+internal sealed class NpcAdhereMovingPlatformInfo4229938
+{
+    public byte PlatformType;
+    public bool IsScene;
+    public ulong PlatformId;
+    public uint PartId;
+    public ulong PlatformEid;
+}
+
+[UxContract]
+internal sealed class NpcLinkAIAgentInfo4229938
+{
+    public ulong Uid;
+    public uint FightSpiritId;
+    public NpcLinkAIFashionInfo4229938? Fashion;
+    public string? Nickname;
+    public uint NameId;
+    public uint AvatarImageId;
+    public uint VehicleId;
+}
+
+[UxContract]
+internal sealed class NpcLinkAIFashionInfo4229938
+{
+    public uint SuitId;
+    public Auto.OtherPlayerSpiritWearFashionsInfo WearInfo = new();
 }

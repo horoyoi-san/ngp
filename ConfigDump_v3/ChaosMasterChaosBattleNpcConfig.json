@@ -1,0 +1,436 @@
+{
+  "_class": "ChaosMasterChaosBattleNpcConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 12,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "联机npc",
+      "NormalNpcId": 42042000,
+      "DifficultyLevel": 1,
+      "ChaosBattleSceneId": 1,
+      "DropId": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "联机npc",
+      "ChaosBattleText": [
+        {
+          "title": "标题",
+          "Explanation": "正文介绍"
+        }
+      ],
+      "ChoasEnemyInfo": [
+        {
+          "ChoasEnemyId": 221,
+          "q": -2,
+          "r": 2,
+          "s": 0
+        },
+        {
+          "ChoasEnemyId": 181,
+          "q": -3,
+          "r": 2,
+          "s": 1
+        },
+        {
+          "ChoasEnemyId": 261,
+          "q": -1,
+          "r": 1,
+          "s": 0
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "Name": "测试2",
+      "NormalNpcId": 42042000,
+      "DifficultyLevel": 2,
+      "ChaosBattleSceneId": 2,
+      "DropId": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "测试2",
+      "ChaosBattleText": [
+        {
+          "title": "标题",
+          "Explanation": "正文介绍"
+        }
+      ],
+      "ChoasEnemyInfo": [
+        {
+          "ChoasEnemyId": 101,
+          "q": -3,
+          "r": 1,
+          "s": 2
+        },
+        {
+          "ChoasEnemyId": 121,
+          "q": -1,
+          "r": 1,
+          "s": 0
+        },
+        {
+          "ChoasEnemyId": 141,
+          "q": -1,
+          "r": 3,
+          "s": -2
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "Name": "林檎",
+      "NormalNpcId": 42042007,
+      "DifficultyLevel": 1,
+      "ChaosBattleSceneId": 3,
+      "DropId": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "林檎",
+      "ChaosBattleText": [
+        {
+          "title": "标题",
+          "Explanation": "正文介绍"
+        }
+      ],
+      "ChoasEnemyInfo": [
+        {
+          "ChoasEnemyId": 101,
+          "q": -3,
+          "r": 1,
+          "s": 2
+        },
+        {
+          "ChoasEnemyId": 121,
+          "q": -1,
+          "r": 1,
+          "s": 0
+        }
+      ]
+    },
+    {
+      "Id": 4,
+      "Name": "测试4",
+      "NormalNpcId": 42042003,
+      "DifficultyLevel": 4,
+      "ChaosBattleSceneId": 1,
+      "DropId": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "测试4",
+      "ChaosBattleText": [
+        {
+          "title": "标题",
+          "Explanation": "正文介绍"
+        }
+      ],
+      "ChoasEnemyInfo": [
+        {
+          "ChoasEnemyId": 101,
+          "q": -3,
+          "r": 1,
+          "s": 2
+        },
+        {
+          "ChoasEnemyId": 121,
+          "q": -1,
+          "r": 1,
+          "s": 0
+        },
+        {
+          "ChoasEnemyId": 141,
+          "q": -1,
+          "r": 3,
+          "s": -2
+        }
+      ]
+    },
+    {
+      "Id": 5,
+      "Name": "测试5",
+      "NormalNpcId": 42042004,
+      "DifficultyLevel": 5,
+      "ChaosBattleSceneId": 1,
+      "DropId": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "测试5",
+      "ChaosBattleText": [
+        {
+          "title": "标题",
+          "Explanation": "正文介绍"
+        }
+      ],
+      "ChoasEnemyInfo": [
+        {
+          "ChoasEnemyId": 101,
+          "q": -3,
+          "r": 1,
+          "s": 2
+        },
+        {
+          "ChoasEnemyId": 121,
+          "q": -1,
+          "r": 1,
+          "s": 0
+        },
+        {
+          "ChoasEnemyId": 141,
+          "q": -1,
+          "r": 3,
+          "s": -2
+        }
+      ]
+    },
+    {
+      "Id": 100,
+      "Name": "怪兽狂",
+      "NormalNpcId": 42042100,
+      "DifficultyLevel": 1,
+      "ChaosBattleSceneId": 100,
+      "DropId": 14230101,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "怪兽狂",
+      "ChaosBattleText": [
+        {
+          "title": "标题",
+          "Explanation": "正文介绍"
+        }
+      ],
+      "ChoasEnemyInfo": [
+        {
+          "ChoasEnemyId": 221,
+          "q": -2,
+          "r": 2,
+          "s": 0
+        },
+        {
+          "ChoasEnemyId": 181,
+          "q": -3,
+          "r": 2,
+          "s": 1
+        },
+        {
+          "ChoasEnemyId": 261,
+          "q": -1,
+          "r": 1,
+          "s": 0
+        }
+      ]
+    },
+    {
+      "Id": 101,
+      "Name": "空手道王",
+      "NormalNpcId": 42042101,
+      "DifficultyLevel": 1,
+      "ChaosBattleSceneId": 101,
+      "DropId": 14230105,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "空手道王",
+      "ChaosBattleText": [
+        {
+          "title": "标题",
+          "Explanation": "正文介绍"
+        }
+      ],
+      "ChoasEnemyInfo": [
+        {
+          "ChoasEnemyId": 101,
+          "q": -3,
+          "r": 1,
+          "s": 2
+        },
+        {
+          "ChoasEnemyId": 121,
+          "q": -1,
+          "r": 1,
+          "s": 0
+        },
+        {
+          "ChoasEnemyId": 141,
+          "q": -1,
+          "r": 3,
+          "s": -2
+        }
+      ]
+    },
+    {
+      "Id": 102,
+      "Name": "超能力者",
+      "NormalNpcId": 42042102,
+      "DifficultyLevel": 2,
+      "ChaosBattleSceneId": 102,
+      "DropId": 14230102,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "超能力者",
+      "ChaosBattleText": [
+        {
+          "title": "标题",
+          "Explanation": "正文介绍"
+        }
+      ],
+      "ChoasEnemyInfo": [
+        {
+          "ChoasEnemyId": 101,
+          "q": -3,
+          "r": 1,
+          "s": 2
+        },
+        {
+          "ChoasEnemyId": 121,
+          "q": -1,
+          "r": 1,
+          "s": 0
+        },
+        {
+          "ChoasEnemyId": 141,
+          "q": -1,
+          "r": 3,
+          "s": -2
+        }
+      ]
+    },
+    {
+      "Id": 103,
+      "Name": "绅士",
+      "NormalNpcId": 42042103,
+      "DifficultyLevel": 2,
+      "ChaosBattleSceneId": 103,
+      "DropId": 14230106,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "绅士",
+      "ChaosBattleText": [
+        {
+          "title": "标题",
+          "Explanation": "正文介绍"
+        }
+      ],
+      "ChoasEnemyInfo": [
+        {
+          "ChoasEnemyId": 101,
+          "q": -3,
+          "r": 1,
+          "s": 2
+        },
+        {
+          "ChoasEnemyId": 121,
+          "q": -1,
+          "r": 1,
+          "s": 0
+        },
+        {
+          "ChoasEnemyId": 141,
+          "q": -1,
+          "r": 3,
+          "s": -2
+        }
+      ]
+    },
+    {
+      "Id": 104,
+      "Name": "杂耍艺人",
+      "NormalNpcId": 42042104,
+      "DifficultyLevel": 3,
+      "ChaosBattleSceneId": 104,
+      "DropId": 14230103,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "杂耍艺人",
+      "ChaosBattleText": [
+        {
+          "title": "标题",
+          "Explanation": "正文介绍"
+        }
+      ],
+      "ChoasEnemyInfo": [
+        {
+          "ChoasEnemyId": 101,
+          "q": -3,
+          "r": 1,
+          "s": 2
+        },
+        {
+          "ChoasEnemyId": 121,
+          "q": -1,
+          "r": 1,
+          "s": 0
+        },
+        {
+          "ChoasEnemyId": 141,
+          "q": -1,
+          "r": 3,
+          "s": -2
+        }
+      ]
+    },
+    {
+      "Id": 105,
+      "Name": "短裤小子",
+      "NormalNpcId": 42042105,
+      "DifficultyLevel": 3,
+      "ChaosBattleSceneId": 105,
+      "DropId": 14230107,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "短裤小子",
+      "ChaosBattleText": [
+        {
+          "title": "标题",
+          "Explanation": "正文介绍"
+        }
+      ],
+      "ChoasEnemyInfo": [
+        {
+          "ChoasEnemyId": 101,
+          "q": -3,
+          "r": 1,
+          "s": 2
+        },
+        {
+          "ChoasEnemyId": 121,
+          "q": -1,
+          "r": 1,
+          "s": 0
+        },
+        {
+          "ChoasEnemyId": 141,
+          "q": -1,
+          "r": 3,
+          "s": -2
+        }
+      ]
+    },
+    {
+      "Id": 106,
+      "Name": "精英训练家",
+      "NormalNpcId": 42042106,
+      "DifficultyLevel": 4,
+      "ChaosBattleSceneId": 106,
+      "DropId": 14230104,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "精英训练家",
+      "ChaosBattleText": [
+        {
+          "title": "标题",
+          "Explanation": "正文介绍"
+        }
+      ],
+      "ChoasEnemyInfo": [
+        {
+          "ChoasEnemyId": 101,
+          "q": -3,
+          "r": 1,
+          "s": 2
+        },
+        {
+          "ChoasEnemyId": 121,
+          "q": -1,
+          "r": 1,
+          "s": 0
+        },
+        {
+          "ChoasEnemyId": 141,
+          "q": -1,
+          "r": 3,
+          "s": -2
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 12,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

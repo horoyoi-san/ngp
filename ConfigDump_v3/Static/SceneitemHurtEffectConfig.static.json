@@ -1,0 +1,337 @@
+{
+  "DefaultHurtEffectCfg": {
+    "Id": 1000,
+    "Default": [],
+    "Cut": [
+      0
+    ],
+    "Blunt": [
+      0
+    ],
+    "SmallBullet": [
+      0
+    ],
+    "LargeBullet": [
+      0
+    ],
+    "Boom": [],
+    "MildVehicleImpact": [],
+    "SevereVehicleImpact": []
+  },
+  "MetalHurtEffectCfg": {
+    "Id": 1001,
+    "Default": [
+      53611109
+    ],
+    "Cut": [
+      53611117
+    ],
+    "Blunt": [
+      53611125
+    ],
+    "SmallBullet": [
+      53611167
+    ],
+    "LargeBullet": [
+      53611168
+    ],
+    "Boom": [
+      53611109
+    ],
+    "MildVehicleImpact": [
+      53610456
+    ],
+    "SevereVehicleImpact": [
+      53611109
+    ]
+  },
+  "GlassHurtEffectCfg": {
+    "Id": 1101,
+    "Default": [
+      53611110
+    ],
+    "Cut": [
+      53611119
+    ],
+    "Blunt": [
+      53611127
+    ],
+    "SmallBullet": [
+      53611171
+    ],
+    "LargeBullet": [
+      53611172
+    ],
+    "Boom": [
+      53611110
+    ],
+    "MildVehicleImpact": [
+      53610457
+    ],
+    "SevereVehicleImpact": [
+      53611110
+    ]
+  },
+  "PlasticHurtEffectCfg": {
+    "Id": 1201,
+    "Default": [
+      53611113
+    ],
+    "Cut": [
+      53611121
+    ],
+    "Blunt": [
+      53611129
+    ],
+    "SmallBullet": [
+      53611169
+    ],
+    "LargeBullet": [
+      53611170
+    ],
+    "Boom": [
+      53611113
+    ],
+    "MildVehicleImpact": [
+      53610457
+    ],
+    "SevereVehicleImpact": [
+      53611113
+    ]
+  },
+  "PaperHurtEffectCfg": {
+    "Id": 1203,
+    "Default": [
+      53611115
+    ],
+    "Cut": [
+      53611123
+    ],
+    "Blunt": [
+      53611131
+    ],
+    "SmallBullet": [
+      53610457
+    ],
+    "LargeBullet": [
+      53610457
+    ],
+    "Boom": [
+      53611115
+    ],
+    "MildVehicleImpact": [
+      53610457
+    ],
+    "SevereVehicleImpact": [
+      53611115
+    ]
+  },
+  "MoneyACfg": {
+    "Id": 1204,
+    "Default": [
+      53611179
+    ],
+    "Cut": [
+      53611179
+    ],
+    "Blunt": [
+      53611179
+    ],
+    "SmallBullet": [
+      53611179
+    ],
+    "LargeBullet": [
+      53611179
+    ],
+    "Boom": [
+      53611179
+    ],
+    "MildVehicleImpact": [
+      53611179
+    ],
+    "SevereVehicleImpact": [
+      53611179
+    ]
+  },
+  "MoneyBCfg": {
+    "Id": 1205,
+    "Default": [
+      53611180
+    ],
+    "Cut": [
+      53611180
+    ],
+    "Blunt": [
+      53611180
+    ],
+    "SmallBullet": [
+      53611180
+    ],
+    "LargeBullet": [
+      53611180
+    ],
+    "Boom": [
+      53611180
+    ],
+    "MildVehicleImpact": [
+      53611180
+    ],
+    "SevereVehicleImpact": [
+      53611180
+    ]
+  },
+  "RockHurtEffectCfg": {
+    "Id": 1301,
+    "Default": [
+      53611112
+    ],
+    "Cut": [
+      53611120
+    ],
+    "Blunt": [
+      53611128
+    ],
+    "SmallBullet": [
+      53611165
+    ],
+    "LargeBullet": [
+      53611166
+    ],
+    "Boom": [
+      53611112
+    ],
+    "MildVehicleImpact": [
+      53610456
+    ],
+    "SevereVehicleImpact": [
+      53611112
+    ]
+  },
+  "PlantsHurtEffectCfg": {
+    "Id": 1401,
+    "Default": [
+      53610457
+    ],
+    "Cut": [
+      53611118
+    ],
+    "Blunt": [
+      53610457
+    ],
+    "SmallBullet": [
+      53610457
+    ],
+    "LargeBullet": [
+      53610457
+    ],
+    "Boom": [
+      53610457
+    ],
+    "MildVehicleImpact": [
+      53610457
+    ],
+    "SevereVehicleImpact": [
+      53610457
+    ]
+  },
+  "WoodHurtEffectCfg": {
+    "Id": 1501,
+    "Default": [
+      53611111
+    ],
+    "Cut": [
+      53611118
+    ],
+    "Blunt": [
+      53611126
+    ],
+    "SmallBullet": [
+      53611173
+    ],
+    "LargeBullet": [
+      53611174
+    ],
+    "Boom": [
+      53611111
+    ],
+    "MildVehicleImpact": [
+      53610457
+    ],
+    "SevereVehicleImpact": [
+      53611111
+    ]
+  },
+  "RubberHurtEffectCfg": {
+    "Id": 1601,
+    "Default": [
+      53611114
+    ],
+    "Cut": [
+      53611122
+    ],
+    "Blunt": [
+      53611130
+    ],
+    "SmallBullet": [
+      53610457
+    ],
+    "LargeBullet": [
+      53610457
+    ],
+    "Boom": [
+      53611114
+    ],
+    "MildVehicleImpact": [
+      53610457
+    ],
+    "SevereVehicleImpact": [
+      53611114
+    ]
+  },
+  "LintHurtEffectCfg": {
+    "Id": 1701,
+    "Default": [
+      53610457
+    ],
+    "Cut": [
+      53610457
+    ],
+    "Blunt": [
+      53610457
+    ],
+    "SmallBullet": [
+      53610457
+    ],
+    "LargeBullet": [
+      53610457
+    ],
+    "Boom": [
+      53610457
+    ],
+    "MildVehicleImpact": [
+      53610457
+    ],
+    "SevereVehicleImpact": [
+      53610457
+    ]
+  },
+  "AnimalHurtEffectCfg": {
+    "Id": 1801,
+    "Default": [],
+    "Cut": [
+      0
+    ],
+    "Blunt": [
+      0
+    ],
+    "SmallBullet": [
+      0
+    ],
+    "LargeBullet": [
+      0
+    ],
+    "Boom": [],
+    "MildVehicleImpact": [],
+    "SevereVehicleImpact": []
+  }
+}

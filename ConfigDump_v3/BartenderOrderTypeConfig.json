@@ -1,0 +1,285 @@
+{
+  "_class": "BartenderOrderTypeConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 8,
+  "records": [
+    {
+      "Id": 1003,
+      "DialogID1": 100043113,
+      "DialogID2": 100043113,
+      "MustTag": [
+        "sweet"
+      ],
+      "ExtraTag": [
+        "fruit",
+        "happy"
+      ],
+      "order_unknownUI": "",
+      "order_clearUI": "",
+      "TagMenu1": [
+        {
+          "DialogID": 100043117,
+          "MenuID": 87005305
+        },
+        {
+          "DialogID": 100043116,
+          "MenuID": 87005301
+        },
+        {
+          "DialogID": 100043115,
+          "MenuID": 87005302
+        }
+      ],
+      "TagMenu2": [
+        {
+          "DialogID": 100043117,
+          "MenuID": 87005305
+        },
+        {
+          "DialogID": 100043116,
+          "MenuID": 87005301
+        },
+        {
+          "DialogID": 100043115,
+          "MenuID": 87005302
+        }
+      ]
+    },
+    {
+      "Id": 1004,
+      "DialogID1": 100043114,
+      "DialogID2": 100043114,
+      "MustTag": [
+        "sweet"
+      ],
+      "ExtraTag": [
+        "bitter"
+      ],
+      "order_unknownUI": "",
+      "order_clearUI": "",
+      "TagMenu1": [
+        {
+          "DialogID": 100043121,
+          "MenuID": 87005303
+        },
+        {
+          "DialogID": 100043120,
+          "MenuID": 87005302
+        }
+      ],
+      "TagMenu2": [
+        {
+          "DialogID": 100043121,
+          "MenuID": 87005303
+        },
+        {
+          "DialogID": 100043120,
+          "MenuID": 87005302
+        }
+      ]
+    },
+    {
+      "Id": 1005,
+      "DialogID1": 100043123,
+      "DialogID2": 100043123,
+      "MustTag": [
+        "bitter"
+      ],
+      "ExtraTag": [
+        "spicy"
+      ],
+      "order_unknownUI": "",
+      "order_clearUI": "",
+      "TagMenu1": [
+        {
+          "DialogID": 100043127,
+          "MenuID": 87005305
+        },
+        {
+          "DialogID": 100043126,
+          "MenuID": 87005301
+        }
+      ],
+      "TagMenu2": [
+        {
+          "DialogID": 100043127,
+          "MenuID": 87005305
+        },
+        {
+          "DialogID": 100043126,
+          "MenuID": 87005301
+        }
+      ]
+    },
+    {
+      "Id": 1006,
+      "DialogID1": 100043124,
+      "DialogID2": 100043124,
+      "MustTag": [
+        "bitter"
+      ],
+      "ExtraTag": [
+        "spark"
+      ],
+      "order_unknownUI": "",
+      "order_clearUI": "",
+      "TagMenu1": [
+        {
+          "DialogID": 100043129,
+          "MenuID": 87005302
+        },
+        {
+          "DialogID": 100043131,
+          "MenuID": 87005307
+        }
+      ],
+      "TagMenu2": [
+        {
+          "DialogID": 100043129,
+          "MenuID": 87005302
+        },
+        {
+          "DialogID": 100043131,
+          "MenuID": 87005307
+        }
+      ]
+    },
+    {
+      "Id": 1007,
+      "DialogID1": 100043132,
+      "DialogID2": 100043132,
+      "MustTag": [
+        "spark"
+      ],
+      "ExtraTag": [
+        "bitter"
+      ],
+      "order_unknownUI": "",
+      "order_clearUI": "",
+      "TagMenu1": [
+        {
+          "DialogID": 100045022,
+          "MenuID": 87005303
+        },
+        {
+          "DialogID": 100043134,
+          "MenuID": 87005305
+        }
+      ],
+      "TagMenu2": [
+        {
+          "DialogID": 100043135,
+          "MenuID": 87005303
+        },
+        {
+          "DialogID": 100043134,
+          "MenuID": 87005305
+        }
+      ]
+    },
+    {
+      "Id": 1008,
+      "DialogID1": 100043133,
+      "DialogID2": 100043133,
+      "MustTag": [
+        "spark"
+      ],
+      "ExtraTag": [
+        "fruit"
+      ],
+      "order_unknownUI": "",
+      "order_clearUI": "",
+      "TagMenu1": [
+        {
+          "DialogID": 100043138,
+          "MenuID": 87005307
+        },
+        {
+          "DialogID": 100043137,
+          "MenuID": 87005302
+        }
+      ],
+      "TagMenu2": [
+        {
+          "DialogID": 100043138,
+          "MenuID": 87005307
+        },
+        {
+          "DialogID": 100043137,
+          "MenuID": 87005302
+        }
+      ]
+    },
+    {
+      "Id": 1009,
+      "DialogID1": 100043140,
+      "DialogID2": 100043140,
+      "MustTag": [
+        "fruit"
+      ],
+      "ExtraTag": [
+        "spicy",
+        "sweet"
+      ],
+      "order_unknownUI": "",
+      "order_clearUI": "",
+      "TagMenu1": [
+        {
+          "DialogID": 100043143,
+          "MenuID": 87005303
+        },
+        {
+          "DialogID": 100043142,
+          "MenuID": 87005306
+        }
+      ],
+      "TagMenu2": [
+        {
+          "DialogID": 100043143,
+          "MenuID": 87005303
+        },
+        {
+          "DialogID": 100043142,
+          "MenuID": 87005306
+        }
+      ]
+    },
+    {
+      "Id": 1010,
+      "DialogID1": 100043141,
+      "DialogID2": 100043141,
+      "MustTag": [
+        "fruit"
+      ],
+      "ExtraTag": [
+        "sweet",
+        "ice"
+      ],
+      "order_unknownUI": "",
+      "order_clearUI": "",
+      "TagMenu1": [
+        {
+          "DialogID": 100043146,
+          "MenuID": 87005305
+        },
+        {
+          "DialogID": 100043145,
+          "MenuID": 87005307
+        }
+      ],
+      "TagMenu2": [
+        {
+          "DialogID": 100043146,
+          "MenuID": 87005305
+        },
+        {
+          "DialogID": 100043145,
+          "MenuID": 87005307
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 8,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

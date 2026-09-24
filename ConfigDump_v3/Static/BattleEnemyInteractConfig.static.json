@@ -1,0 +1,27 @@
+{
+  "BackAssassinCfg": {
+    "Id": 10023,
+    "Priority": 4,
+    "Type": 0,
+    "EnableForFightSpirit": [],
+    "EnableForFightSkill": [],
+    "Condition": 13,
+    "Params": [],
+    "UnitStateCondition": 0,
+    "BuffCondition": 0,
+    "ConditionGroupIdLogic": "!1001&&(1002||1003)",
+    "SearchRange": 3,
+    "IsUseInStealth": true,
+    "MindInteractId": 0,
+    "MindButtonType": 1,
+    "SkillText": 247,
+    "ClickMindSkill": 51941505,
+    "LongPressMindSkill": 0,
+    "MindMode": 0,
+    "ShowInteractionIcon": true,
+    "ResourceCondition": {
+      "resourceType": 0,
+      "count": 0
+    }
+  }
+}

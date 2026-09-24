@@ -1,0 +1,3274 @@
+{
+  "_class": "AutoComboConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 117,
+  "records": [
+    {
+      "Id": 500000,
+      "SkillPoolID": 0,
+      "ComboSpiritID": 15020992,
+      "Priority": 10,
+      "Weight": 50,
+      "ComboIntroduction": "塔菲普攻",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": -1,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 1,
+        "WeightChange": 40,
+        "Duration": 3
+      }
+    },
+    {
+      "Id": 500001,
+      "SkillPoolID": 1,
+      "ComboSpiritID": 15020992,
+      "Priority": 7,
+      "Weight": 80,
+      "ComboIntroduction": "塔菲主动技",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        5
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500002,
+      "SkillPoolID": 2,
+      "ComboSpiritID": 15020992,
+      "Priority": 6,
+      "Weight": 50,
+      "ComboIntroduction": "塔菲大招",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": -2,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500003,
+      "SkillPoolID": 3,
+      "ComboSpiritID": 15020992,
+      "Priority": 10,
+      "Weight": 50,
+      "ComboIntroduction": "塔菲重击",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 1,
+      "LongPressRange1": [
+        2,
+        2
+      ],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500004,
+      "SkillPoolID": 4,
+      "ComboSpiritID": 15020992,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "塔菲钩锁攻击",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500005,
+      "SkillPoolID": 5,
+      "ComboSpiritID": 15020992,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "塔菲闪避攻击",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500006,
+      "SkillPoolID": 6,
+      "ComboSpiritID": 15020992,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "塔菲跳劈",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500007,
+      "SkillPoolID": 7,
+      "ComboSpiritID": 15020992,
+      "Priority": 8,
+      "Weight": 50,
+      "ComboIntroduction": "塔菲切换角色（有念力）",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 0,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500008,
+      "SkillPoolID": 8,
+      "ComboSpiritID": 15020992,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "塔菲切换角色（无念力）",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 0,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500009,
+      "SkillPoolID": 9,
+      "ComboSpiritID": 15020992,
+      "Priority": 6,
+      "Weight": 50,
+      "ComboIntroduction": "塔菲念动破盾破坏物",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        10
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500010,
+      "SkillPoolID": 10,
+      "ComboSpiritID": 15020992,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "塔菲念动破坏物",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        10
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500011,
+      "SkillPoolID": 11,
+      "ComboSpiritID": 15020992,
+      "Priority": 7,
+      "Weight": 50,
+      "ComboIntroduction": "塔菲超级念动",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        10
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500012,
+      "SkillPoolID": 12,
+      "ComboSpiritID": 15020992,
+      "Priority": 5,
+      "Weight": 50,
+      "ComboIntroduction": "塔菲处决",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        3
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500030,
+      "SkillPoolID": 0,
+      "ComboSpiritID": 15020967,
+      "Priority": 10,
+      "Weight": 50,
+      "ComboIntroduction": "男主普攻",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 1,
+        "WeightChange": 40,
+        "Duration": 3
+      }
+    },
+    {
+      "Id": 500031,
+      "SkillPoolID": 1,
+      "ComboSpiritID": 15020967,
+      "Priority": 7,
+      "Weight": 80,
+      "ComboIntroduction": "男主主动技",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 2,
+      "LongPressRange1": [
+        1,
+        2
+      ],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500032,
+      "SkillPoolID": 2,
+      "ComboSpiritID": 15020967,
+      "Priority": 6,
+      "Weight": 50,
+      "ComboIntroduction": "男主大招",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500033,
+      "SkillPoolID": 3,
+      "ComboSpiritID": 15020967,
+      "Priority": 10,
+      "Weight": 50,
+      "ComboIntroduction": "男主重击",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 1,
+      "LongPressRange1": [
+        1,
+        2
+      ],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500034,
+      "SkillPoolID": 4,
+      "ComboSpiritID": 15020967,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "男主钩锁攻击",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500035,
+      "SkillPoolID": 5,
+      "ComboSpiritID": 15020967,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "男主闪避攻击",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500036,
+      "SkillPoolID": 6,
+      "ComboSpiritID": 15020967,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "男主跳劈",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500037,
+      "SkillPoolID": 7,
+      "ComboSpiritID": 15020967,
+      "Priority": 8,
+      "Weight": 50,
+      "ComboIntroduction": "男主切换角色（有念力）",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 0,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500038,
+      "SkillPoolID": 8,
+      "ComboSpiritID": 15020967,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "男主切换角色（无念力）",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 0,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500039,
+      "SkillPoolID": 9,
+      "ComboSpiritID": 15020967,
+      "Priority": 6,
+      "Weight": 50,
+      "ComboIntroduction": "男主念动破盾破坏物",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        10
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500040,
+      "SkillPoolID": 10,
+      "ComboSpiritID": 15020967,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "男主念动破坏物",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        10
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500041,
+      "SkillPoolID": 11,
+      "ComboSpiritID": 15020967,
+      "Priority": 7,
+      "Weight": 50,
+      "ComboIntroduction": "男主超级念动",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        10
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500042,
+      "SkillPoolID": 12,
+      "ComboSpiritID": 15020967,
+      "Priority": 5,
+      "Weight": 50,
+      "ComboIntroduction": "男主处决",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        3
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500060,
+      "SkillPoolID": 0,
+      "ComboSpiritID": 15021017,
+      "Priority": 10,
+      "Weight": 50,
+      "ComboIntroduction": "梅卡普攻",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": -1,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 1,
+        "WeightChange": 40,
+        "Duration": 3
+      }
+    },
+    {
+      "Id": 500061,
+      "SkillPoolID": 1,
+      "ComboSpiritID": 15021017,
+      "Priority": 7,
+      "Weight": 80,
+      "ComboIntroduction": "梅卡主动技",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500062,
+      "SkillPoolID": 2,
+      "ComboSpiritID": 15021017,
+      "Priority": 6,
+      "Weight": 50,
+      "ComboIntroduction": "梅卡大招",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": -2,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500063,
+      "SkillPoolID": 3,
+      "ComboSpiritID": 15021017,
+      "Priority": 10,
+      "Weight": 50,
+      "ComboIntroduction": "梅卡重击",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500064,
+      "SkillPoolID": 4,
+      "ComboSpiritID": 15021017,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "梅卡钩锁攻击",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500065,
+      "SkillPoolID": 5,
+      "ComboSpiritID": 15021017,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "梅卡闪避攻击",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500066,
+      "SkillPoolID": 6,
+      "ComboSpiritID": 15021017,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "梅卡跳劈",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500067,
+      "SkillPoolID": 7,
+      "ComboSpiritID": 15021017,
+      "Priority": 8,
+      "Weight": 50,
+      "ComboIntroduction": "梅卡切换角色（有念力）",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 0,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500068,
+      "SkillPoolID": 8,
+      "ComboSpiritID": 15021017,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "梅卡切换角色（无念力）",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 0,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500069,
+      "SkillPoolID": 9,
+      "ComboSpiritID": 15021017,
+      "Priority": 6,
+      "Weight": 50,
+      "ComboIntroduction": "梅卡念动破盾破坏物",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        10
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500070,
+      "SkillPoolID": 10,
+      "ComboSpiritID": 15021017,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "梅卡念动破坏物",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        10
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500071,
+      "SkillPoolID": 11,
+      "ComboSpiritID": 15021017,
+      "Priority": 7,
+      "Weight": 50,
+      "ComboIntroduction": "梅卡超级念动",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        10
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500072,
+      "SkillPoolID": 12,
+      "ComboSpiritID": 15021017,
+      "Priority": 5,
+      "Weight": 50,
+      "ComboIntroduction": "梅卡处决",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        3
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500090,
+      "SkillPoolID": 0,
+      "ComboSpiritID": 15020990,
+      "Priority": 10,
+      "Weight": 80,
+      "ComboIntroduction": "凛普攻",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": -1,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 1,
+        "WeightChange": 40,
+        "Duration": 3
+      }
+    },
+    {
+      "Id": 500091,
+      "SkillPoolID": 1,
+      "ComboSpiritID": 15020990,
+      "Priority": 7,
+      "Weight": 80,
+      "ComboIntroduction": "凛主动技",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500092,
+      "SkillPoolID": 2,
+      "ComboSpiritID": 15020990,
+      "Priority": 6,
+      "Weight": 50,
+      "ComboIntroduction": "凛大招",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": -2,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500093,
+      "SkillPoolID": 3,
+      "ComboSpiritID": 15020990,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "凛重击",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500094,
+      "SkillPoolID": 4,
+      "ComboSpiritID": 15020990,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "凛钩锁攻击",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500095,
+      "SkillPoolID": 5,
+      "ComboSpiritID": 15020990,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "凛闪避攻击",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500096,
+      "SkillPoolID": 6,
+      "ComboSpiritID": 15020990,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "凛跳劈",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500097,
+      "SkillPoolID": 7,
+      "ComboSpiritID": 15020990,
+      "Priority": 8,
+      "Weight": 50,
+      "ComboIntroduction": "凛切换角色（有念力）",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 0,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500098,
+      "SkillPoolID": 8,
+      "ComboSpiritID": 15020990,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "凛切换角色（无念力）",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 0,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500099,
+      "SkillPoolID": 9,
+      "ComboSpiritID": 15020990,
+      "Priority": 6,
+      "Weight": 50,
+      "ComboIntroduction": "凛念动破盾破坏物",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        10
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500100,
+      "SkillPoolID": 10,
+      "ComboSpiritID": 15020990,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "凛念动破坏物",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        10
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500101,
+      "SkillPoolID": 11,
+      "ComboSpiritID": 15020990,
+      "Priority": 7,
+      "Weight": 50,
+      "ComboIntroduction": "凛超级念动",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        10
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500102,
+      "SkillPoolID": 12,
+      "ComboSpiritID": 15020990,
+      "Priority": 5,
+      "Weight": 50,
+      "ComboIntroduction": "凛处决",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        3
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500110,
+      "SkillPoolID": 0,
+      "ComboSpiritID": 15021024,
+      "Priority": 10,
+      "Weight": 50,
+      "ComboIntroduction": "爱琳普攻",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": -1,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 1,
+        "WeightChange": 40,
+        "Duration": 3
+      }
+    },
+    {
+      "Id": 500111,
+      "SkillPoolID": 1,
+      "ComboSpiritID": 15021024,
+      "Priority": 7,
+      "Weight": 80,
+      "ComboIntroduction": "爱琳主动技",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500112,
+      "SkillPoolID": 2,
+      "ComboSpiritID": 15021024,
+      "Priority": 6,
+      "Weight": 50,
+      "ComboIntroduction": "爱琳大招",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500113,
+      "SkillPoolID": 3,
+      "ComboSpiritID": 15021024,
+      "Priority": 10,
+      "Weight": 50,
+      "ComboIntroduction": "爱琳重击",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500114,
+      "SkillPoolID": 4,
+      "ComboSpiritID": 15021024,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "爱琳钩锁攻击",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500115,
+      "SkillPoolID": 5,
+      "ComboSpiritID": 15021024,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "爱琳闪避攻击",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500116,
+      "SkillPoolID": 6,
+      "ComboSpiritID": 15021024,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "爱琳跳劈",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        4,
+        8
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500117,
+      "SkillPoolID": 7,
+      "ComboSpiritID": 15021024,
+      "Priority": 8,
+      "Weight": 50,
+      "ComboIntroduction": "爱琳切换角色（有念力）",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 0,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500118,
+      "SkillPoolID": 8,
+      "ComboSpiritID": 15021024,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "爱琳切换角色（无念力）",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 0,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500119,
+      "SkillPoolID": 9,
+      "ComboSpiritID": 15021024,
+      "Priority": 6,
+      "Weight": 50,
+      "ComboIntroduction": "爱琳念动破盾破坏物",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        10
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500120,
+      "SkillPoolID": 10,
+      "ComboSpiritID": 15021024,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "爱琳念动破坏物",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        10
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500121,
+      "SkillPoolID": 11,
+      "ComboSpiritID": 15021024,
+      "Priority": 7,
+      "Weight": 50,
+      "ComboIntroduction": "爱琳超级念动",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        10
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500122,
+      "SkillPoolID": 12,
+      "ComboSpiritID": 15021024,
+      "Priority": 5,
+      "Weight": 50,
+      "ComboIntroduction": "爱琳处决",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        3
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500130,
+      "SkillPoolID": 0,
+      "ComboSpiritID": 15020991,
+      "Priority": 10,
+      "Weight": 50,
+      "ComboIntroduction": "班茜普攻",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 1,
+        "WeightChange": 40,
+        "Duration": 3
+      }
+    },
+    {
+      "Id": 500131,
+      "SkillPoolID": 1,
+      "ComboSpiritID": 15020991,
+      "Priority": 7,
+      "Weight": 80,
+      "ComboIntroduction": "班茜主动技",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500132,
+      "SkillPoolID": 2,
+      "ComboSpiritID": 15020991,
+      "Priority": 6,
+      "Weight": 50,
+      "ComboIntroduction": "班茜大招",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": -2,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500133,
+      "SkillPoolID": 3,
+      "ComboSpiritID": 15020991,
+      "Priority": 10,
+      "Weight": 50,
+      "ComboIntroduction": "班茜重击",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 1,
+      "LongPressRange1": [
+        1,
+        2
+      ],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500134,
+      "SkillPoolID": 4,
+      "ComboSpiritID": 15020991,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "班茜钩锁攻击",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500135,
+      "SkillPoolID": 5,
+      "ComboSpiritID": 15020991,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "班茜闪避攻击",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500136,
+      "SkillPoolID": 6,
+      "ComboSpiritID": 15020991,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "班茜跳劈",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500137,
+      "SkillPoolID": 7,
+      "ComboSpiritID": 15020991,
+      "Priority": 8,
+      "Weight": 50,
+      "ComboIntroduction": "班茜切换角色（有念力）",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 0,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500138,
+      "SkillPoolID": 8,
+      "ComboSpiritID": 15020991,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "班茜切换角色（无念力）",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 0,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500139,
+      "SkillPoolID": 9,
+      "ComboSpiritID": 15020991,
+      "Priority": 6,
+      "Weight": 50,
+      "ComboIntroduction": "班茜念动破盾破坏物",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        10
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500140,
+      "SkillPoolID": 10,
+      "ComboSpiritID": 15020991,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "班茜念动破坏物",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        10
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500141,
+      "SkillPoolID": 11,
+      "ComboSpiritID": 15020991,
+      "Priority": 7,
+      "Weight": 50,
+      "ComboIntroduction": "班茜超级念动",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        10
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500142,
+      "SkillPoolID": 12,
+      "ComboSpiritID": 15020991,
+      "Priority": 5,
+      "Weight": 50,
+      "ComboIntroduction": "班茜处决",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        3
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500150,
+      "SkillPoolID": 0,
+      "ComboSpiritID": 15020997,
+      "Priority": 10,
+      "Weight": 50,
+      "ComboIntroduction": "狄菈普攻",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": -1,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 1,
+        "WeightChange": 40,
+        "Duration": 3
+      }
+    },
+    {
+      "Id": 500151,
+      "SkillPoolID": 1,
+      "ComboSpiritID": 15020997,
+      "Priority": 7,
+      "Weight": 80,
+      "ComboIntroduction": "狄菈主动技",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500152,
+      "SkillPoolID": 2,
+      "ComboSpiritID": 15020997,
+      "Priority": 6,
+      "Weight": 50,
+      "ComboIntroduction": "狄菈大招",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": -2,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500153,
+      "SkillPoolID": 3,
+      "ComboSpiritID": 15020997,
+      "Priority": 10,
+      "Weight": 50,
+      "ComboIntroduction": "狄菈重击",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500154,
+      "SkillPoolID": 4,
+      "ComboSpiritID": 15020997,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "狄菈钩锁攻击",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500155,
+      "SkillPoolID": 5,
+      "ComboSpiritID": 15020997,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "狄菈闪避攻击",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500156,
+      "SkillPoolID": 6,
+      "ComboSpiritID": 15020997,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "狄菈跳劈",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500157,
+      "SkillPoolID": 7,
+      "ComboSpiritID": 15020997,
+      "Priority": 8,
+      "Weight": 50,
+      "ComboIntroduction": "狄菈切换角色（有念力）",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 0,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500158,
+      "SkillPoolID": 8,
+      "ComboSpiritID": 15020997,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "狄菈切换角色（无念力）",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 0,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500159,
+      "SkillPoolID": 9,
+      "ComboSpiritID": 15020997,
+      "Priority": 6,
+      "Weight": 50,
+      "ComboIntroduction": "狄菈念动破盾破坏物",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        10
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500160,
+      "SkillPoolID": 10,
+      "ComboSpiritID": 15020997,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "狄菈念动破坏物",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        10
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500161,
+      "SkillPoolID": 11,
+      "ComboSpiritID": 15020997,
+      "Priority": 7,
+      "Weight": 50,
+      "ComboIntroduction": "狄菈超级念动",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        10
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500162,
+      "SkillPoolID": 12,
+      "ComboSpiritID": 15020997,
+      "Priority": 5,
+      "Weight": 50,
+      "ComboIntroduction": "狄菈处决",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        3
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500170,
+      "SkillPoolID": 0,
+      "ComboSpiritID": 15020989,
+      "Priority": 10,
+      "Weight": 50,
+      "ComboIntroduction": "嘉姆普攻",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 1,
+        "WeightChange": 40,
+        "Duration": 3
+      }
+    },
+    {
+      "Id": 500171,
+      "SkillPoolID": 1,
+      "ComboSpiritID": 15020989,
+      "Priority": 7,
+      "Weight": 80,
+      "ComboIntroduction": "嘉姆主动技",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500172,
+      "SkillPoolID": 2,
+      "ComboSpiritID": 15020989,
+      "Priority": 6,
+      "Weight": 50,
+      "ComboIntroduction": "嘉姆大招",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500173,
+      "SkillPoolID": 3,
+      "ComboSpiritID": 15020989,
+      "Priority": 10,
+      "Weight": 50,
+      "ComboIntroduction": "嘉姆重击",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500174,
+      "SkillPoolID": 4,
+      "ComboSpiritID": 15020989,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "嘉姆钩锁攻击",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500175,
+      "SkillPoolID": 5,
+      "ComboSpiritID": 15020989,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "嘉姆闪避攻击",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500176,
+      "SkillPoolID": 6,
+      "ComboSpiritID": 15020989,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "嘉姆跳劈",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500177,
+      "SkillPoolID": 7,
+      "ComboSpiritID": 15020989,
+      "Priority": 8,
+      "Weight": 50,
+      "ComboIntroduction": "嘉姆切换角色（有念力）",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 0,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500178,
+      "SkillPoolID": 8,
+      "ComboSpiritID": 15020989,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "嘉姆切换角色（无念力）",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 0,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500179,
+      "SkillPoolID": 9,
+      "ComboSpiritID": 15020989,
+      "Priority": 6,
+      "Weight": 50,
+      "ComboIntroduction": "嘉姆念动破盾破坏物",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        10
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500180,
+      "SkillPoolID": 10,
+      "ComboSpiritID": 15020989,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "嘉姆念动破坏物",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        10
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500181,
+      "SkillPoolID": 11,
+      "ComboSpiritID": 15020989,
+      "Priority": 7,
+      "Weight": 50,
+      "ComboIntroduction": "嘉姆超级念动",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        10
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500182,
+      "SkillPoolID": 12,
+      "ComboSpiritID": 15020989,
+      "Priority": 5,
+      "Weight": 50,
+      "ComboIntroduction": "嘉姆处决",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        3
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500190,
+      "SkillPoolID": 0,
+      "ComboSpiritID": 15021016,
+      "Priority": 10,
+      "Weight": 50,
+      "ComboIntroduction": "亚兰普攻",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 1,
+        "WeightChange": 40,
+        "Duration": 3
+      }
+    },
+    {
+      "Id": 500191,
+      "SkillPoolID": 1,
+      "ComboSpiritID": 15021016,
+      "Priority": 7,
+      "Weight": 80,
+      "ComboIntroduction": "亚兰主动技",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500192,
+      "SkillPoolID": 2,
+      "ComboSpiritID": 15021016,
+      "Priority": 6,
+      "Weight": 50,
+      "ComboIntroduction": "亚兰大招",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500193,
+      "SkillPoolID": 3,
+      "ComboSpiritID": 15021016,
+      "Priority": 10,
+      "Weight": 50,
+      "ComboIntroduction": "亚兰重击",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 1,
+      "LongPressRange1": [
+        1,
+        2
+      ],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500194,
+      "SkillPoolID": 4,
+      "ComboSpiritID": 15021016,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "亚兰钩锁攻击",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500195,
+      "SkillPoolID": 5,
+      "ComboSpiritID": 15021016,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "亚兰闪避攻击",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500196,
+      "SkillPoolID": 6,
+      "ComboSpiritID": 15021016,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "亚兰跳劈",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500197,
+      "SkillPoolID": 7,
+      "ComboSpiritID": 15021016,
+      "Priority": 8,
+      "Weight": 50,
+      "ComboIntroduction": "亚兰切换角色（有念力）",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 0,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500198,
+      "SkillPoolID": 8,
+      "ComboSpiritID": 15021016,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "亚兰切换角色（无念力）",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        7
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 0,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500199,
+      "SkillPoolID": 9,
+      "ComboSpiritID": 15021016,
+      "Priority": 6,
+      "Weight": 50,
+      "ComboIntroduction": "亚兰念动破盾破坏物",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        10
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500200,
+      "SkillPoolID": 10,
+      "ComboSpiritID": 15021016,
+      "Priority": 10,
+      "Weight": 30,
+      "ComboIntroduction": "亚兰念动破坏物",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        10
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500201,
+      "SkillPoolID": 11,
+      "ComboSpiritID": 15021016,
+      "Priority": 7,
+      "Weight": 50,
+      "ComboIntroduction": "亚兰超级念动",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        10
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    },
+    {
+      "Id": 500202,
+      "SkillPoolID": 12,
+      "ComboSpiritID": 15021016,
+      "Priority": 5,
+      "Weight": 50,
+      "ComboIntroduction": "亚兰处决",
+      "PutInSkillPool": true,
+      "ComboLockDistance": [
+        0,
+        3
+      ],
+      "HealSkill": false,
+      "OnlyShortPress": 0,
+      "LongPressRange1": [],
+      "SkillSwitchTimeOffset": 0,
+      "ExecuteTime": 1,
+      "ImpactOnOtherSkillPriority": {
+        "SkillPoolID": 0,
+        "PriorityChange": 0,
+        "Duration": 0
+      },
+      "ImpactOnOtherSkillWeight": {
+        "SkillPoolID": 0,
+        "WeightChange": 0,
+        "Duration": 0
+      }
+    }
+  ],
+  "_dumpedCount": 117,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

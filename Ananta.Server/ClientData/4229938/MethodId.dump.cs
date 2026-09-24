@@ -1,7 +1,5 @@
-// RPC ids synchronized with Ananta client 4229938 (trunk build 2026-08-05).
-// Source: Auto.Client/UX/Game/Client/ServerMessageProcId.cs from the matching IL2CPP dump.
-// Flat 4229938 names are reused for every stable id (2391 of 4203);
-// the remaining methods keep their interface-qualified trunk dump names.
+
+
 namespace UX.RPC.Protocol
 {
 	public enum MethodId

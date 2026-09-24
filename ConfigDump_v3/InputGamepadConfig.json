@@ -1,0 +1,962 @@
+{
+  "_class": "InputGamepadConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 36,
+  "records": [
+    {
+      "Id": 1,
+      "ButtonName": "<Gamepad>/buttonNorth",
+      "PSButtonName": "△；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按/HUD按住",
+      "PSButtonIcon": [
+        28000203,
+        28001419,
+        28001331,
+        28001332,
+        28000235,
+        28000300,
+        28000243,
+        28001455,
+        28001398
+      ],
+      "XBoxButtonName": "Y",
+      "XBoxButtonIcon": [
+        28000219,
+        28001432,
+        28001357,
+        28001358,
+        28000239,
+        28000295,
+        28000247,
+        28001450,
+        28001403
+      ],
+      "RebindXboxIcon": 28000219,
+      "RebindCtrl": 0,
+      "RebindPSIcon": 28000203
+    },
+    {
+      "Id": 2,
+      "ButtonName": "<Gamepad>/buttonEast",
+      "PSButtonName": "〇；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000201,
+        28001409,
+        28001311,
+        28001312,
+        28000233,
+        28000302,
+        28000241,
+        28001457
+      ],
+      "XBoxButtonName": "B",
+      "XBoxButtonIcon": [
+        28000217,
+        28001452,
+        28001337,
+        28001338,
+        28000237,
+        28000297,
+        28000245,
+        28001452
+      ],
+      "RebindXboxIcon": 28000217,
+      "RebindCtrl": 1,
+      "RebindPSIcon": 28000201
+    },
+    {
+      "Id": 3,
+      "ButtonName": "<Gamepad>/buttonSouth",
+      "PSButtonName": "×；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000200,
+        28001421,
+        28001333,
+        28001334,
+        28000232,
+        28000301,
+        28000240,
+        28001454
+      ],
+      "XBoxButtonName": "A",
+      "XBoxButtonIcon": [
+        28000216,
+        28001420,
+        28001335,
+        28001336,
+        28000236,
+        28000298,
+        28000244,
+        28001453
+      ],
+      "RebindXboxIcon": 28000216,
+      "RebindCtrl": 2,
+      "RebindPSIcon": 28000200
+    },
+    {
+      "Id": 4,
+      "ButtonName": "<Gamepad>/buttonWest",
+      "PSButtonName": "□；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按/HUD按住",
+      "PSButtonIcon": [
+        28000202,
+        28001418,
+        28001329,
+        28001330,
+        28000234,
+        28000299,
+        28000242,
+        28001456,
+        28001397
+      ],
+      "XBoxButtonName": "X",
+      "XBoxButtonIcon": [
+        28000218,
+        28001431,
+        28001355,
+        28001356,
+        28000238,
+        28000296,
+        28000246,
+        28001451,
+        28001393
+      ],
+      "RebindXboxIcon": 28000218,
+      "RebindCtrl": 3,
+      "RebindPSIcon": 28000202
+    },
+    {
+      "Id": 5,
+      "ButtonName": "<Gamepad>/leftShoulder",
+      "PSButtonName": "L1；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按/HUD按住",
+      "PSButtonIcon": [
+        28000204,
+        28001410,
+        28001313,
+        28001314,
+        28000253,
+        28022256,
+        28005294,
+        28022262,
+        28001889
+      ],
+      "XBoxButtonName": "LB",
+      "XBoxButtonIcon": [
+        28000220,
+        28001423,
+        28001339,
+        28001340,
+        28000261,
+        28022250,
+        28022275,
+        28022276,
+        28001888
+      ],
+      "RebindXboxIcon": 28000220,
+      "RebindCtrl": 4,
+      "RebindPSIcon": 28000204
+    },
+    {
+      "Id": 6,
+      "ButtonName": "<Gamepad>/rightShoulder",
+      "PSButtonName": "R1；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按/HUD按住",
+      "PSButtonIcon": [
+        28000205,
+        28001412,
+        28001323,
+        28001324,
+        28000258,
+        28022253,
+        28004204,
+        28022270,
+        28001401
+      ],
+      "XBoxButtonName": "RB",
+      "XBoxButtonIcon": [
+        28000221,
+        28001427,
+        28001349,
+        28001350,
+        28000266,
+        28022247,
+        28022284,
+        28022285,
+        28001402
+      ],
+      "RebindXboxIcon": 28000221,
+      "RebindCtrl": 5,
+      "RebindPSIcon": 28000205
+    },
+    {
+      "Id": 7,
+      "ButtonName": "<Gamepad>/leftTrigger",
+      "PSButtonName": "L2；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000214,
+        28001411,
+        28001315,
+        28001316,
+        28000254,
+        28022255,
+        28008012,
+        28022263
+      ],
+      "XBoxButtonName": "LT",
+      "XBoxButtonIcon": [
+        28000226,
+        28001425,
+        28001343,
+        28001344,
+        28000262,
+        28022248,
+        28008013,
+        28022279
+      ],
+      "RebindXboxIcon": 28000226,
+      "RebindCtrl": 6,
+      "RebindPSIcon": 28000214
+    },
+    {
+      "Id": 8,
+      "ButtonName": "<Gamepad>/rightTrigger",
+      "PSButtonName": "R2；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000215,
+        28001416,
+        28001325,
+        28001326,
+        28000259,
+        28022252,
+        28022271,
+        28022272
+      ],
+      "XBoxButtonName": "RT",
+      "XBoxButtonIcon": [
+        28000227,
+        28001430,
+        28001353,
+        28001354,
+        28000267,
+        28022246,
+        28022288,
+        28022289
+      ],
+      "RebindXboxIcon": 28000227,
+      "RebindCtrl": 7,
+      "RebindPSIcon": 28000215
+    },
+    {
+      "Id": 9,
+      "ButtonName": "<Gamepad>/leftStick",
+      "PSButtonName": "L；黄色/黄色预留/白色/蓝色/黑色/示波器/白色四箭头",
+      "PSButtonIcon": [
+        28000251,
+        28000251,
+        28001305,
+        28000269,
+        28022258,
+        28000293,
+        28000250
+      ],
+      "XBoxButtonName": "LS",
+      "XBoxButtonIcon": [
+        28000251,
+        28001305,
+        28000269,
+        28022258,
+        28000293,
+        28000250
+      ],
+      "RebindXboxIcon": 28000251,
+      "RebindCtrl": 8,
+      "RebindPSIcon": 28000251
+    },
+    {
+      "Id": 10,
+      "ButtonName": "<Gamepad>/rightStick",
+      "PSButtonName": "R；黄色/黄色预留/白色/蓝色/黑色/示波器/白色四箭头",
+      "PSButtonIcon": [
+        28000252,
+        28000252,
+        28001306,
+        28000270,
+        28022257,
+        28000294,
+        28000249
+      ],
+      "XBoxButtonName": "RS",
+      "XBoxButtonIcon": [
+        28000252,
+        28001306,
+        28000270,
+        28022257,
+        28000294,
+        28000249
+      ],
+      "RebindXboxIcon": 28000252,
+      "RebindCtrl": 9,
+      "RebindPSIcon": 28000252
+    },
+    {
+      "Id": 11,
+      "ButtonName": "<Gamepad>/options",
+      "PSButtonName": "opt；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000208,
+        28001414,
+        28001319,
+        28001320,
+        28000256,
+        28022244,
+        28022266,
+        28022267
+      ],
+      "XBoxButtonName": "Menu",
+      "XBoxButtonIcon": [
+        28000224,
+        28001429,
+        28001345,
+        28001346,
+        28000264,
+        28022241,
+        28022280,
+        28022281
+      ],
+      "RebindXboxIcon": 28000224,
+      "RebindCtrl": 14,
+      "RebindPSIcon": 28000208
+    },
+    {
+      "Id": 12,
+      "ButtonName": "<Gamepad>/menu",
+      "PSButtonName": "opt；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000208,
+        28001414,
+        28001319,
+        28001320,
+        28000256,
+        28022244,
+        28022266,
+        28022267
+      ],
+      "XBoxButtonName": "Menu",
+      "XBoxButtonIcon": [
+        28000224,
+        28001429,
+        28001345,
+        28001346,
+        28000264,
+        28022241,
+        28022280,
+        28022281
+      ],
+      "RebindXboxIcon": 28000224,
+      "RebindCtrl": 14,
+      "RebindPSIcon": 28000208
+    },
+    {
+      "Id": 13,
+      "ButtonName": "<Gamepad>/leftStickPress",
+      "PSButtonName": "L3；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000206,
+        28001415,
+        28001317,
+        28001318,
+        28000255,
+        28022254,
+        28022264,
+        28022265
+      ],
+      "XBoxButtonName": "LS",
+      "XBoxButtonIcon": [
+        28000222,
+        28001424,
+        28001341,
+        28001342,
+        28000263,
+        28022249,
+        28022277,
+        28022278
+      ],
+      "RebindXboxIcon": 28000222,
+      "RebindCtrl": 8,
+      "RebindPSIcon": 28000206
+    },
+    {
+      "Id": 14,
+      "ButtonName": "<Gamepad>/rightStickPress",
+      "PSButtonName": "R3；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000207,
+        28001417,
+        28001327,
+        28001328,
+        28000260,
+        28022251,
+        28022273,
+        28022274
+      ],
+      "XBoxButtonName": "RS",
+      "XBoxButtonIcon": [
+        28000223,
+        28001426,
+        28001351,
+        28001352,
+        28000268,
+        28022245,
+        28022273,
+        28022274
+      ],
+      "RebindXboxIcon": 28000223,
+      "RebindCtrl": 9,
+      "RebindPSIcon": 28000207
+    },
+    {
+      "Id": 15,
+      "ButtonName": "<Gamepad>/dpad",
+      "PSButtonName": "",
+      "PSButtonIcon": [],
+      "XBoxButtonName": "",
+      "XBoxButtonIcon": [],
+      "RebindXboxIcon": 0,
+      "RebindCtrl": 0,
+      "RebindPSIcon": 0
+    },
+    {
+      "Id": 16,
+      "ButtonName": "<Gamepad>/dpad/up",
+      "PSButtonName": "↑；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按/白色上下",
+      "PSButtonIcon": [
+        28000212,
+        28001408,
+        28001303,
+        28001304,
+        28005515,
+        28022239,
+        28022291,
+        28022292,
+        28004202
+      ],
+      "XBoxButtonName": "↑",
+      "XBoxButtonIcon": [
+        28000212,
+        28001408,
+        28001303,
+        28001304,
+        28005515,
+        28004202,
+        28022291,
+        28022292,
+        28022239
+      ],
+      "RebindXboxIcon": 28000212,
+      "RebindCtrl": 12,
+      "RebindPSIcon": 28000212
+    },
+    {
+      "Id": 17,
+      "ButtonName": "<Gamepad>/dpad/left",
+      "PSButtonName": "←；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按/白色左右/白色全键",
+      "PSButtonIcon": [
+        28000210,
+        28001406,
+        28001299,
+        28001300,
+        28005513,
+        28022238,
+        28022293,
+        28022294,
+        28005205,
+        28000688
+      ],
+      "XBoxButtonName": "←",
+      "XBoxButtonIcon": [
+        28000210,
+        28001406,
+        28001299,
+        28001300,
+        28005513,
+        28022238,
+        28022293,
+        28022294,
+        28005205,
+        28000688
+      ],
+      "RebindXboxIcon": 28000210,
+      "RebindCtrl": 10,
+      "RebindPSIcon": 28000210
+    },
+    {
+      "Id": 18,
+      "ButtonName": "<Gamepad>/dpad/right",
+      "PSButtonName": "→；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000211,
+        28001407,
+        28001301,
+        28001302,
+        28005514,
+        28022240,
+        28022259,
+        28022260
+      ],
+      "XBoxButtonName": "→",
+      "XBoxButtonIcon": [
+        28000211,
+        28001407,
+        28001301,
+        28001302,
+        28005514,
+        28022240,
+        28022259,
+        28022260
+      ],
+      "RebindXboxIcon": 28000211,
+      "RebindCtrl": 11,
+      "RebindPSIcon": 28000211
+    },
+    {
+      "Id": 19,
+      "ButtonName": "<Gamepad>/dpad/down",
+      "PSButtonName": "↓；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000213,
+        28001405,
+        28001297,
+        28001298,
+        28005512,
+        28022237,
+        28022296,
+        28022295
+      ],
+      "XBoxButtonName": "↓",
+      "XBoxButtonIcon": [
+        28000213,
+        28001405,
+        28001297,
+        28001298,
+        28005512,
+        28022237,
+        28022296,
+        28022295
+      ],
+      "RebindXboxIcon": 28000213,
+      "RebindCtrl": 13,
+      "RebindPSIcon": 28000213
+    },
+    {
+      "Id": 20,
+      "ButtonName": "<DualShockGamepad>/touchpadButton",
+      "PSButtonName": "Tap；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000209,
+        28001413,
+        28001321,
+        28001322,
+        28000257,
+        28022243,
+        28022268,
+        28022269
+      ],
+      "XBoxButtonName": "View",
+      "XBoxButtonIcon": [
+        28000225,
+        28001428,
+        28001347,
+        28001348,
+        28000265,
+        28022242,
+        28022282,
+        28022283
+      ],
+      "RebindXboxIcon": 28000225,
+      "RebindCtrl": 15,
+      "RebindPSIcon": 28000209
+    },
+    {
+      "Id": 21,
+      "ButtonName": "<Gamepad>/touchpadButton",
+      "PSButtonName": "Tap；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000209,
+        28001413,
+        28001321,
+        28001322,
+        28000257,
+        28022243,
+        28022268,
+        28022269
+      ],
+      "XBoxButtonName": "View",
+      "XBoxButtonIcon": [
+        28000225,
+        28001428,
+        28001347,
+        28001348,
+        28000265,
+        28022242,
+        28022282,
+        28022283
+      ],
+      "RebindXboxIcon": 28000225,
+      "RebindCtrl": 15,
+      "RebindPSIcon": 28000209
+    },
+    {
+      "Id": 22,
+      "ButtonName": "<Gamepad>/select",
+      "PSButtonName": "Tap；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000209,
+        28001413,
+        28001321,
+        28001322,
+        28000257,
+        28022243,
+        28022268,
+        28022269
+      ],
+      "XBoxButtonName": "View",
+      "XBoxButtonIcon": [
+        28000225,
+        28001428,
+        28001347,
+        28001348,
+        28000265,
+        28022242,
+        28022282,
+        28022283
+      ],
+      "RebindXboxIcon": 28000225,
+      "RebindCtrl": 15,
+      "RebindPSIcon": 28000209
+    },
+    {
+      "Id": 23,
+      "ButtonName": "<XInputController>/select",
+      "PSButtonName": "Tap；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000209,
+        28001413,
+        28001321,
+        28001322,
+        28000257,
+        28022243,
+        28022268,
+        28022269
+      ],
+      "XBoxButtonName": "View",
+      "XBoxButtonIcon": [
+        28000225,
+        28001428,
+        28001347,
+        28001348,
+        28000265,
+        28022242,
+        28022282,
+        28022283
+      ],
+      "RebindXboxIcon": 28000225,
+      "RebindCtrl": 15,
+      "RebindPSIcon": 28000209
+    },
+    {
+      "Id": 24,
+      "ButtonName": "<Gamepad>/{menu}",
+      "PSButtonName": "opt；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000208,
+        28001414,
+        28001319,
+        28001320,
+        28000256,
+        28022244,
+        28022266,
+        28022267
+      ],
+      "XBoxButtonName": "Menu",
+      "XBoxButtonIcon": [
+        28000224,
+        28001429,
+        28001345,
+        28001346,
+        28000264,
+        28022241,
+        28022280,
+        28022281
+      ],
+      "RebindXboxIcon": 28000224,
+      "RebindCtrl": 14,
+      "RebindPSIcon": 28000208
+    },
+    {
+      "Id": 25,
+      "ButtonName": "<DualShockGamepad>/select",
+      "PSButtonName": "Tap；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000209,
+        28001413,
+        28001321,
+        28001322,
+        28000257,
+        28022243,
+        28022268,
+        28022269
+      ],
+      "XBoxButtonName": "View",
+      "XBoxButtonIcon": [
+        28000225,
+        28001428,
+        28001347,
+        28001348,
+        28000265,
+        28022242,
+        28022282,
+        28022283
+      ],
+      "RebindXboxIcon": 28000225,
+      "RebindCtrl": 15,
+      "RebindPSIcon": 28000209
+    },
+    {
+      "Id": 26,
+      "ButtonName": "<XInputController>/start",
+      "PSButtonName": "opt；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000208,
+        28001414,
+        28001319,
+        28001320,
+        28000256,
+        28022244,
+        28022266,
+        28022267
+      ],
+      "XBoxButtonName": "Menu",
+      "XBoxButtonIcon": [
+        28000224,
+        28001429,
+        28001345,
+        28001346,
+        28000264,
+        28022241,
+        28022280,
+        28022281
+      ],
+      "RebindXboxIcon": 28000224,
+      "RebindCtrl": 14,
+      "RebindPSIcon": 28000208
+    },
+    {
+      "Id": 27,
+      "ButtonName": "<DualShockGamepad>/start",
+      "PSButtonName": "opt；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000208,
+        28001414,
+        28001319,
+        28001320,
+        28000256,
+        28022244,
+        28022266,
+        28022267
+      ],
+      "XBoxButtonName": "Menu",
+      "XBoxButtonIcon": [
+        28000224,
+        28001429,
+        28001345,
+        28001346,
+        28000264,
+        28022241,
+        28022280,
+        28022281
+      ],
+      "RebindXboxIcon": 28000224,
+      "RebindCtrl": 14,
+      "RebindPSIcon": 28000208
+    },
+    {
+      "Id": 28,
+      "ButtonName": "<XInputController>/{Back}",
+      "PSButtonName": "",
+      "PSButtonIcon": [],
+      "XBoxButtonName": "BK",
+      "XBoxButtonIcon": [
+        28000224,
+        28001429,
+        28001345,
+        28001346,
+        28000264
+      ],
+      "RebindXboxIcon": 0,
+      "RebindCtrl": 0,
+      "RebindPSIcon": 0
+    },
+    {
+      "Id": 29,
+      "ButtonName": "<Gamepad>/start",
+      "PSButtonName": "",
+      "PSButtonIcon": [],
+      "XBoxButtonName": "ST",
+      "XBoxButtonIcon": [
+        28000225,
+        28001428,
+        28001347,
+        28001348,
+        28000265
+      ],
+      "RebindXboxIcon": 0,
+      "RebindCtrl": 0,
+      "RebindPSIcon": 0
+    },
+    {
+      "Id": 30,
+      "ButtonName": "LeftStickX",
+      "PSButtonName": "L水平移动；黄色/白色/蓝色/L左白/L左蓝/L左黄/L右白/L右蓝/L右黄",
+      "PSButtonIcon": [
+        28000248,
+        28001308,
+        28003443,
+        28022228,
+        28022229,
+        28022230,
+        28022231,
+        28022232,
+        28022233
+      ],
+      "XBoxButtonName": "L水平移动",
+      "XBoxButtonIcon": [
+        28000248,
+        28001308,
+        28003443,
+        28022228,
+        28022229,
+        28022230,
+        28022231,
+        28022232,
+        28022233
+      ],
+      "RebindXboxIcon": 0,
+      "RebindCtrl": 0,
+      "RebindPSIcon": 0
+    },
+    {
+      "Id": 31,
+      "ButtonName": "LeftStickY",
+      "PSButtonName": "L垂直移动；黄色/白色/蓝色L上白/L上蓝/L上黄/L下白/L下蓝/L下黄",
+      "PSButtonIcon": [
+        28000231,
+        28001307,
+        28003437,
+        28022234,
+        28022235,
+        28022236,
+        28022225,
+        28022226,
+        28022227
+      ],
+      "XBoxButtonName": "L垂直移动",
+      "XBoxButtonIcon": [
+        28000231,
+        28001307,
+        28003437,
+        28022234,
+        28022235,
+        28022236,
+        28022225,
+        28022226,
+        28022227
+      ],
+      "RebindXboxIcon": 0,
+      "RebindCtrl": 0,
+      "RebindPSIcon": 0
+    },
+    {
+      "Id": 32,
+      "ButtonName": "RightStickX",
+      "PSButtonName": "R水平移动；黄色/白色/蓝色",
+      "PSButtonIcon": [
+        28000276,
+        28001309,
+        28003442
+      ],
+      "XBoxButtonName": "R水平移动",
+      "XBoxButtonIcon": [
+        28000276,
+        28001309,
+        28003442
+      ],
+      "RebindXboxIcon": 0,
+      "RebindCtrl": 0,
+      "RebindPSIcon": 0
+    },
+    {
+      "Id": 33,
+      "ButtonName": "RightStickY",
+      "PSButtonName": "R垂直移动；黄色/白色/蓝色",
+      "PSButtonIcon": [
+        28000230,
+        28001310,
+        28003436
+      ],
+      "XBoxButtonName": "R垂直移动",
+      "XBoxButtonIcon": [
+        28000230,
+        28001310,
+        28003436
+      ],
+      "RebindXboxIcon": 0,
+      "RebindCtrl": 0,
+      "RebindPSIcon": 0
+    },
+    {
+      "Id": 34,
+      "ButtonName": "<PS5DualSenseGamepad>/touch0",
+      "PSButtonName": "TouchPadTouch",
+      "PSButtonIcon": [
+        28000687,
+        28000686,
+        28001886
+      ],
+      "XBoxButtonName": "TouchPadTouch",
+      "XBoxButtonIcon": [],
+      "RebindXboxIcon": 0,
+      "RebindCtrl": 0,
+      "RebindPSIcon": 0
+    },
+    {
+      "Id": 35,
+      "ButtonName": "<Gamepad>/acceleration",
+      "PSButtonName": "DualSenseMotion",
+      "PSButtonIcon": [
+        28000689
+      ],
+      "XBoxButtonName": "DualSenseMotion",
+      "XBoxButtonIcon": [],
+      "RebindXboxIcon": 0,
+      "RebindCtrl": 0,
+      "RebindPSIcon": 0
+    },
+    {
+      "Id": 36,
+      "ButtonName": "Keyboard",
+      "PSButtonName": "Keyboard",
+      "PSButtonIcon": [
+        28005462,
+        28005463
+      ],
+      "XBoxButtonName": "Keyboard",
+      "XBoxButtonIcon": [
+        28005462,
+        28005463
+      ],
+      "RebindXboxIcon": 0,
+      "RebindCtrl": 0,
+      "RebindPSIcon": 0
+    }
+  ],
+  "_dumpedCount": 36,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -5,7 +5,6 @@ using SceneMethods = Ananta.Server.RpcTypes.Client4229938.Methods.GameScene;
 
 namespace Ananta.Server.Handlers.Game;
 
-/// <summary>Only RPC endpoints used by the maintained 4229938 private-server feature set.</summary>
 internal sealed partial class GameRouter
 {
     [Handler(MethodId.LoginGame, HandlerPacketKind.Notify)]

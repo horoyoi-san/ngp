@@ -1,0 +1,86 @@
+{
+  "_class": "ClubClubLevelConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 5,
+  "records": [
+    {
+      "Id": 10106201,
+      "Level": 1,
+      "Exp": 100000,
+      "BenefitId": 0,
+      "Param": [],
+      "MemberLimit": 40,
+      "IconUnlocked": [],
+      "ItemUnlocked": []
+    },
+    {
+      "Id": 10106202,
+      "Level": 2,
+      "Exp": 300000,
+      "BenefitId": 1,
+      "Param": [
+        10
+      ],
+      "MemberLimit": 50,
+      "IconUnlocked": [],
+      "ItemUnlocked": []
+    },
+    {
+      "Id": 10106203,
+      "Level": 3,
+      "Exp": 800000,
+      "BenefitId": 2,
+      "Param": [
+        10106022,
+        10106023,
+        10106024
+      ],
+      "MemberLimit": 50,
+      "IconUnlocked": [
+        10106022,
+        10106023,
+        10106024
+      ],
+      "ItemUnlocked": []
+    },
+    {
+      "Id": 10106204,
+      "Level": 4,
+      "Exp": 2000000,
+      "BenefitId": 3,
+      "Param": [
+        94207002
+      ],
+      "MemberLimit": 50,
+      "IconUnlocked": [
+        10106022,
+        10106023,
+        10106024
+      ],
+      "ItemUnlocked": [
+        94207002
+      ]
+    },
+    {
+      "Id": 10106205,
+      "Level": 5,
+      "Exp": 5000000,
+      "BenefitId": 1,
+      "Param": [
+        10
+      ],
+      "MemberLimit": 60,
+      "IconUnlocked": [
+        10106022,
+        10106023,
+        10106024
+      ],
+      "ItemUnlocked": [
+        94207002
+      ]
+    }
+  ],
+  "_dumpedCount": 5,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -3,10 +3,6 @@ using Ananta.Server.Configuration;
 
 namespace Ananta.Server.ClientData.Client4229938;
 
-/// <summary>
-/// Build-4229938 combat catalog reconstructed from the unmodified extracted client tables.
-/// It is the single source of truth for weapon slots, weapon-specific fight styles and skill bindings.
-/// </summary>
 internal static class CombatCatalogRepository
 {
     private static CombatCatalog Data => Cache.Value;
@@ -37,6 +33,30 @@ internal static class CombatCatalogRepository
 
     internal static IReadOnlyList<uint> AmmoTemplateIds => Data.AmmoTemplateIds;
 
+    
+    
+    
+    
+    
+    internal static IReadOnlyList<ArmoryWeaponEntry> ArmoryWeapons => Data.ArmoryWeapons;
+
+    private static readonly Lazy<Dictionary<uint, ulong>> InstanceByTemplate = new(() =>
+        AccountWeapons.GroupBy(w => w.TemplateId).ToDictionary(g => g.Key, g => g.First().InstanceId));
+
+    
+    
+    
+    
+    internal static ulong InstanceIdForTemplate(uint templateId)
+        => InstanceByTemplate.Value.TryGetValue(templateId, out var id) ? id : 0;
+
+    private static readonly Lazy<Dictionary<uint, CombatWeaponDefinition>> AccountWeaponByTemplateMap = new(() =>
+        AccountWeapons.GroupBy(w => w.TemplateId).ToDictionary(g => g.Key, g => g.First()));
+
+    
+    internal static CombatWeaponDefinition? AccountWeaponByTemplate(uint templateId)
+        => AccountWeaponByTemplateMap.Value.TryGetValue(templateId, out var value) ? value : null;
+
     internal static uint SkillCastTag(uint skillId)
         => Data.SkillCastTags.GetValueOrDefault(skillId);
 
@@ -48,11 +68,11 @@ internal static class CombatCatalogRepository
 
     internal static bool IsStyleCompatible(CombatWeaponDefinition weapon, CombatStyleDefinition style)
     {
-        // Stock WeaponArmoryPanelStore only treats a martial art as adaptive when its
-        // FightSkillType exactly matches SceneitemConfig.FightSkillType. ActionType is the
-        // animation/action-set selected BY that martial art; it is not a compatibility gate.
-        // FIX24J2 incorrectly compared ActionType and therefore accepted one style, then restored
-        // every other perfectly valid style from the same category.
+        
+        
+        
+        
+        
         if (style.SpiritIds.Count > 0 && !style.SpiritIds.Contains(weapon.SpiritTemplateId))
             return false;
         return weapon.WeaponFightSkillTypeId != 0 &&
@@ -165,10 +185,10 @@ internal static class CombatCatalogRepository
                 fixedStyle.FightSkillTypeId != 0)
                 return fixedStyle.FightSkillTypeId;
 
-            // A few signature/prototype rows (notably Bansy's build-4229938 scene item) ship with
-            // FightSkillType=0 and a hidden prototype FixedFightSkill whose own type is also zero.
-            // Infer only signature weapons from the character's authored attachment slot; never apply
-            // this heuristic to generic props in the shared armory.
+            
+            
+            
+            
             if (weapon.OwnerSpiritId != 0 && spiritCombat.TryGetValue(weapon.OwnerSpiritId, out var ownerCombat))
             {
                 var slots = ownerCombat.WeaponSlotNames;
@@ -242,15 +262,15 @@ internal static class CombatCatalogRepository
                 ? authoredFists
                 : fallbackFists;
 
-            // Ownership is account-wide. Build a character-specific runtime view for every shared
-            // account instance so any armory weapon can be installed in any character's 16 slots.
-            // The instance id is derived only from the Sceneitem template, never from the character.
+            
+            
+            
             foreach (var source in accountWeaponSources)
             {
-                // A handful of private scene items only author a style for their original owner.
-                // They still belong to the shared account armory; on another character, use that
-                // character's complete ability style so the weapon remains executable instead of
-                // producing an empty attack/ability binding.
+                
+                
+                
+                
                 var effectiveType = EffectiveFightSkillType(source);
                 var style = ResolveStyle(source, effectiveType, spiritId, initialStyles, styles, defaultStyleByType, config)
                     ?? ResolveAuthoredAccountStyle(source, effectiveType, styles, defaultStyleByType)
@@ -276,10 +296,10 @@ internal static class CombatCatalogRepository
                         abilityFallbackStyle));
             }
 
-            // Personal wheel = authored personal equipment only. Slot 0 is fists, then signature
-            // weapon(s) and authored general initialization. The remaining positions stay nil instead
-            // of being padded with random account weapons. All 634 authored weapons live in the shared
-            // armory and can still be installed manually into an empty slot.
+            
+            
+            
+            
             var personalSources = new List<WeaponSource> { fistWeapon };
             if (weapons.TryGetValue(authored.PrivateSceneItemId, out var privateWeapon) && IsArmoryWeapon(privateWeapon))
                 personalSources.Add(privateWeapon);
@@ -312,12 +332,12 @@ internal static class CombatCatalogRepository
                 .Select(id => personalWeapons.FirstOrDefault(x => x.TemplateId == id))
                 .FirstOrDefault(x => x is not null);
             var defaultWeapon = signatureWeapon ?? authoredGeneral ?? personalWeapons[0];
-            // FightStyleManager indexes the server map by the WEAPON fight-style category.
-            // Do not key this by FightSkillConfig.FightSkillType: special authored defaults can
-            // deliberately use a style whose own type differs from the Sceneitem category.
+            
+            
+            
             var styleByType = resolvedPersonal
-                // FixedFightSkill is resolved directly from SceneitemConfig and must not pollute
-                // the per-spirit category map used by other, non-fixed weapons of the same type.
+                
+                
                 .Where(x => x.Weapon.FixedFightStyleId == 0)
                 .Select(x => (TypeId: EffectiveFightSkillType(x.Weapon), Style: x.Style!))
                 .Where(x => x.TypeId != 0)
@@ -326,8 +346,8 @@ internal static class CombatCatalogRepository
             loadouts.Add(spiritId, new CombatLoadout(spiritId, personalWeapons, personalSlots, defaultWeapon, styleByType));
         }
 
-        // Unlock every authored style. IsShowInArmony remains a client-side presentation filter,
-        // while hidden/private character styles must still be executable by their weapon slots.
+        
+        
         var unlockedStyleIds = styles.Values
             .Select(x => x.Id)
             .OrderBy(x => x)
@@ -336,9 +356,9 @@ internal static class CombatCatalogRepository
             .Where(x => TryUInt32(x, "Id", out _) && TrySingle(x, "Max", out _))
             .ToDictionary(x => x.GetProperty("Id").GetUInt32(), x => x.GetProperty("Max").GetSingle());
 
-        // Shared-armory metadata must be authored from the weapon itself, not from the initial
-        // protagonist's character-specific view. Otherwise ordinary fist weapons inherit Void Claw
-        // and signature weapons such as Garm's bat lose their owner-only DK9 style in the inventory UI.
+        
+        
+        
         var accountWeapons = accountWeaponSources
             .Select(source =>
             {
@@ -383,7 +403,10 @@ internal static class CombatCatalogRepository
             unlockedStyleIds,
             resourceMaximums,
             skillMetadata.ToDictionary(x => x.Key, x => x.Value.CastTypeTag),
-            accountWeaponSources.SelectMany(x => x.BulletIds).Where(x => x != 0).Distinct().OrderBy(x => x).ToArray());
+            accountWeaponSources.SelectMany(x => x.BulletIds).Where(x => x != 0).Distinct().OrderBy(x => x).ToArray(),
+            accountWeaponSources
+                .Select(x => new ArmoryWeaponEntry(x.TemplateId, x.Name, x.LegacyWeaponId, x.OwnerSpiritId, x.IsShootWeapon))
+                .ToArray());
     }
 
     private static CombatStyleDefinition? ResolveStyle(
@@ -403,10 +426,10 @@ internal static class CombatCatalogRepository
         bool AuthoredTypeCompatible(CombatStyleDefinition style)
             => TypeCompatible(style) ||
                (defaultStyleByType.TryGetValue(effectiveFightSkillTypeId, out var authoredDefault) && authoredDefault == style.Id);
-        // Stock build 4229938 makes SceneitemConfig.FixedFightSkill authoritative: both the Lua
-        // WeaponManager and FightStyleManager return it before consulting the per-character/default
-        // category. Keep the exact authored fixed row even when FightSkillType is zero; substituting a
-        // guessed generic style is what produced the wrong signature/prototype martial arts.
+        
+        
+        
+        
         if (weapon.FixedFightStyleId != 0 &&
             styles.TryGetValue(weapon.FixedFightStyleId, out var fixedStyle))
             return fixedStyle;
@@ -480,9 +503,9 @@ internal static class CombatCatalogRepository
         {
             if (!skills.TryGetValue(skillId, out var metadata))
                 continue;
-            // SkillJumpId contains timed/input transitions while SkillReplace contains conditional
-            // variants (distance, stance, buffs and several charged-attack stages). Both arrays hold
-            // SkillJumpConfig ids and therefore must be resolved through SkillJumpConfig.Skillid.
+            
+            
+            
             foreach (var next in metadata.RelatedSkills
                          .Concat(metadata.TransitionIds.Select(transitionId => jumpTargets.GetValueOrDefault(transitionId)))
                          .Concat(metadata.TransitionIds.SelectMany(
@@ -503,7 +526,7 @@ internal static class CombatCatalogRepository
         var active = FirstTagged(6u, activeRoots);
         if (active == 0) active = First(activeRoots);
         var unique = First(uniqueRoots);
-        // Gun Fu and a few other authored styles store an ultimate in a long-press field.
+        
         if (unique == 0) unique = FirstTagged(7u, rootSkills);
 
         return new CombatStyleDefinition(
@@ -534,9 +557,9 @@ internal static class CombatCatalogRepository
     {
         if (!TryUInt32(value, "Id", out var id))
             return null;
-        // ClientConfig declares Cooldown as a float period and CooldownTime as an integer use/stock
-        // count. Treating CooldownTime as seconds gives charge/combo attacks (Cooldown=0,
-        // CooldownTime=1) an artificial one-second cooldown and breaks their release transitions.
+        
+        
+        
         var cooldown = TrySingle(value, "Cooldown", out var seconds) && seconds > 0f ? seconds : 0f;
         var maximumCharges = TryUInt32(value, "CooldownTime", out var configuredCharges)
             ? configuredCharges
@@ -659,7 +682,8 @@ internal static class CombatCatalogRepository
         uint[] UnlockedStyleIds,
         Dictionary<uint, float> ResourceMaximums,
         Dictionary<uint, uint> SkillCastTags,
-        uint[] AmmoTemplateIds);
+        uint[] AmmoTemplateIds,
+        ArmoryWeaponEntry[] ArmoryWeapons);
 
     private sealed record WeaponSource(
         uint TemplateId,
@@ -745,12 +769,12 @@ internal sealed record CombatWeaponDefinition(
         => selectedStyle.AllowedSkillIds.Contains(skillId) ||
            AbilityFallbackStyle.AllowedSkillIds.Contains(skillId) ||
            (IsShootWeapon && CombatCatalogRepository.IsNativeShootSkill(skillId)) ||
-           // Build 4229938 executes many stance/charge/conditional subskills from the native
-           // SkillJumpGraphAsset. Those graph nodes are not exported in the JSON config set, so an
-           // exact server-side reconstruction of AllowedSkillIds is necessarily incomplete. Trust
-           // the unmodified stock client for graph membership and reject only ids absent from the
-           // build's own SkillConfig. This keeps style selection authoritative while allowing every
-           // native subskill the selected martial art can actually emit.
+           
+           
+           
+           
+           
+           
            CombatCatalogRepository.IsKnownSkill(skillId);
 
     internal int InitialMagazineAmmo
@@ -758,8 +782,8 @@ internal sealed record CombatWeaponDefinition(
             ? MagazineAmmo
             : Math.Min(MagazineAmmo, Durability);
 
-    // Separate-ammo guns use Durability as the loaded-ammo value in the shared Armory UI,
-    // while ordinary guns use it as total remaining ammo (magazine + reserve).
+    
+    
     internal int InitialClientDurability
         => IsShootWeapon && SeparateBullets ? InitialMagazineAmmo : Durability;
 
@@ -810,3 +834,5 @@ internal sealed record CombatStyleDefinition(
     internal uint MaximumCharges(uint skillId)
         => SkillMaximumCharges.TryGetValue(skillId, out var value) ? value : 0u;
 }
+
+internal sealed record ArmoryWeaponEntry(uint TemplateId, string Name, uint LegacyWeaponId, uint OwnerSpiritId, bool IsShootWeapon);

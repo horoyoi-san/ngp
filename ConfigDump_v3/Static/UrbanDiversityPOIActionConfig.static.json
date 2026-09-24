@@ -1,0 +1,261 @@
+{
+  "WalkCfg": {
+    "Id": 1,
+    "Name": "走路",
+    "ActionTag1": "",
+    "ActionTag2": "",
+    "ActionTag3": "",
+    "ActionTag4": "",
+    "ActionFocusLevel": 0,
+    "ApplyRootMotion": false,
+    "BehaviorPostureGameplayTag": 0,
+    "MainActionGroup": 400,
+    "MainActions": [
+      9018
+    ],
+    "PoiBehaviorType": 0,
+    "UsageId": 0,
+    "AgentEmotionTag": 3,
+    "AgentEmotionLevel": 1,
+    "IsSpecialPOI": false,
+    "ActionSetName": "",
+    "ActionName": "",
+    "IsRandomChangeAnimSpeed": false,
+    "GamePlayTag": [],
+    "ExcitementLevel": 1,
+    "RainPlayable": true,
+    "OccupyGadget": {
+      "LeftOccupy": 0,
+      "RightOccupy": 0
+    },
+    "LockGadget": {
+      "LeftLock": 0,
+      "RightLock": 0
+    },
+    "BehaviorVariant": [
+      {
+        "Type": 2,
+        "GPUid": 10
+      },
+      {
+        "Type": 3,
+        "GPUid": 11
+      },
+      {
+        "Type": 4,
+        "GPUid": 13
+      }
+    ]
+  },
+  "IdleCfg": {
+    "Id": 2,
+    "Name": "idle",
+    "ActionTag1": "",
+    "ActionTag2": "",
+    "ActionTag3": "",
+    "ActionTag4": "",
+    "ActionFocusLevel": 0,
+    "ApplyRootMotion": false,
+    "BehaviorPostureGameplayTag": 0,
+    "MainActionGroup": 400,
+    "MainActions": [
+      1001
+    ],
+    "PoiBehaviorType": 0,
+    "UsageId": 0,
+    "AgentEmotionTag": 3,
+    "AgentEmotionLevel": 1,
+    "IsSpecialPOI": false,
+    "ActionSetName": "",
+    "ActionName": "",
+    "IsRandomChangeAnimSpeed": false,
+    "GamePlayTag": [],
+    "ExcitementLevel": 1,
+    "RainPlayable": true,
+    "OccupyGadget": {
+      "LeftOccupy": 0,
+      "RightOccupy": 0
+    },
+    "LockGadget": {
+      "LeftLock": 0,
+      "RightLock": 0
+    },
+    "BehaviorVariant": []
+  },
+  "FleeCfg": {
+    "Id": 3,
+    "Name": "受惊",
+    "ActionTag1": "",
+    "ActionTag2": "",
+    "ActionTag3": "",
+    "ActionTag4": "",
+    "ActionFocusLevel": 0,
+    "ApplyRootMotion": false,
+    "BehaviorPostureGameplayTag": 0,
+    "MainActionGroup": 400,
+    "MainActions": [
+      62046
+    ],
+    "PoiBehaviorType": 0,
+    "UsageId": 0,
+    "AgentEmotionTag": 3,
+    "AgentEmotionLevel": 1,
+    "IsSpecialPOI": false,
+    "ActionSetName": "",
+    "ActionName": "",
+    "IsRandomChangeAnimSpeed": false,
+    "GamePlayTag": [],
+    "ExcitementLevel": 1,
+    "RainPlayable": true,
+    "OccupyGadget": {
+      "LeftOccupy": 0,
+      "RightOccupy": 0
+    },
+    "LockGadget": {
+      "LeftLock": 0,
+      "RightLock": 0
+    },
+    "BehaviorVariant": []
+  },
+  "RunCfg": {
+    "Id": 4,
+    "Name": "跑步",
+    "ActionTag1": "",
+    "ActionTag2": "",
+    "ActionTag3": "",
+    "ActionTag4": "",
+    "ActionFocusLevel": 0,
+    "ApplyRootMotion": false,
+    "BehaviorPostureGameplayTag": 0,
+    "MainActionGroup": 400,
+    "MainActions": [
+      60030
+    ],
+    "PoiBehaviorType": 0,
+    "UsageId": 0,
+    "AgentEmotionTag": 3,
+    "AgentEmotionLevel": 1,
+    "IsSpecialPOI": false,
+    "ActionSetName": "",
+    "ActionName": "",
+    "IsRandomChangeAnimSpeed": false,
+    "GamePlayTag": [],
+    "ExcitementLevel": 1,
+    "RainPlayable": true,
+    "OccupyGadget": {
+      "LeftOccupy": 0,
+      "RightOccupy": 0
+    },
+    "LockGadget": {
+      "LeftLock": 0,
+      "RightLock": 0
+    },
+    "BehaviorVariant": []
+  },
+  "WatchCfg": {
+    "Id": 5,
+    "Name": "围观",
+    "ActionTag1": "",
+    "ActionTag2": "",
+    "ActionTag3": "",
+    "ActionTag4": "",
+    "ActionFocusLevel": 0,
+    "ApplyRootMotion": false,
+    "BehaviorPostureGameplayTag": 0,
+    "MainActionGroup": 400,
+    "MainActions": [
+      4900,
+      4901
+    ],
+    "PoiBehaviorType": 0,
+    "UsageId": 0,
+    "AgentEmotionTag": 3,
+    "AgentEmotionLevel": 1,
+    "IsSpecialPOI": false,
+    "ActionSetName": "",
+    "ActionName": "",
+    "IsRandomChangeAnimSpeed": false,
+    "GamePlayTag": [],
+    "ExcitementLevel": 1,
+    "RainPlayable": true,
+    "OccupyGadget": {
+      "LeftOccupy": 0,
+      "RightOccupy": 0
+    },
+    "LockGadget": {
+      "LeftLock": 0,
+      "RightLock": 0
+    },
+    "BehaviorVariant": []
+  },
+  "DriverCfg": {
+    "Id": 200,
+    "Name": "驾驶",
+    "ActionTag1": "大世界",
+    "ActionTag2": "载具",
+    "ActionTag3": "坐姿",
+    "ActionTag4": "场景互动",
+    "ActionFocusLevel": 0,
+    "ApplyRootMotion": false,
+    "BehaviorPostureGameplayTag": 36,
+    "MainActionGroup": 400,
+    "MainActions": [
+      8502
+    ],
+    "PoiBehaviorType": 0,
+    "UsageId": 0,
+    "AgentEmotionTag": 3,
+    "AgentEmotionLevel": 1,
+    "IsSpecialPOI": false,
+    "ActionSetName": "",
+    "ActionName": "",
+    "IsRandomChangeAnimSpeed": false,
+    "GamePlayTag": [],
+    "ExcitementLevel": 1,
+    "RainPlayable": true,
+    "OccupyGadget": {
+      "LeftOccupy": 0,
+      "RightOccupy": 0
+    },
+    "LockGadget": {
+      "LeftLock": 0,
+      "RightLock": 0
+    },
+    "BehaviorVariant": []
+  },
+  "PassengerCfg": {
+    "Id": 201,
+    "Name": "乘客",
+    "ActionTag1": "大世界",
+    "ActionTag2": "载具",
+    "ActionTag3": "坐姿",
+    "ActionTag4": "场景互动",
+    "ActionFocusLevel": 0,
+    "ApplyRootMotion": false,
+    "BehaviorPostureGameplayTag": 36,
+    "MainActionGroup": 400,
+    "MainActions": [
+      8502
+    ],
+    "PoiBehaviorType": 0,
+    "UsageId": 0,
+    "AgentEmotionTag": 3,
+    "AgentEmotionLevel": 1,
+    "IsSpecialPOI": false,
+    "ActionSetName": "",
+    "ActionName": "",
+    "IsRandomChangeAnimSpeed": false,
+    "GamePlayTag": [],
+    "ExcitementLevel": 1,
+    "RainPlayable": true,
+    "OccupyGadget": {
+      "LeftOccupy": 0,
+      "RightOccupy": 0
+    },
+    "LockGadget": {
+      "LeftLock": 0,
+      "RightLock": 0
+    },
+    "BehaviorVariant": []
+  }
+}

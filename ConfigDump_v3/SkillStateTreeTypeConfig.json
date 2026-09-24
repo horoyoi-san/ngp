@@ -1,0 +1,330 @@
+{
+  "_class": "SkillStateTreeTypeConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 64,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "ShiftDown",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 2,
+      "Name": "ShiftUp",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 3,
+      "Name": "FloatFlightEnter",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 4,
+      "Name": "FloatFlightExit",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 5,
+      "Name": "Fire",
+      "SessionBreakSignal": 59
+    },
+    {
+      "Id": 6,
+      "Name": "Reload",
+      "SessionBreakSignal": 49
+    },
+    {
+      "Id": 8,
+      "Name": "SwitchAimState",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 9,
+      "Name": "TafeiXuliStart",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 10,
+      "Name": "TafeiXuliLoop",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 13,
+      "Name": "BattleIdleToNormalIdle",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 14,
+      "Name": "CarShootMode",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 15,
+      "Name": "SummonSpider",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 16,
+      "Name": "SummonUAV",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 17,
+      "Name": "SummonDog",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 18,
+      "Name": "StrongLockTargetChanged",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 19,
+      "Name": "WeakLockTargetChanged",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 20,
+      "Name": "StrongLockTargetOn",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 21,
+      "Name": "StrongLockTargetOff",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 22,
+      "Name": "WeakLockTargetOn",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 23,
+      "Name": "WeakLockTargetOff",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 24,
+      "Name": "AnyLockTargetChanged",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 25,
+      "Name": "AnyLockTargetOn",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 26,
+      "Name": "AnyLockTargetOff",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 27,
+      "Name": "DefaultDrink",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 28,
+      "Name": "WaterGunReload01",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 29,
+      "Name": "WaterGunReload",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 30,
+      "Name": "GetWashLiquid",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 31,
+      "Name": "连射开始",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 32,
+      "Name": "连射结束",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 33,
+      "Name": "丢出召唤物",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 34,
+      "Name": "Hold物体丢出",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 35,
+      "Name": "瞄准状态下闪避",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 36,
+      "Name": "战斗姿态进入",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 37,
+      "Name": "战斗姿态退出",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 38,
+      "Name": "对峙姿态进入",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 39,
+      "Name": "对峙姿态退出",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 40,
+      "Name": "SlightHurt",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 41,
+      "Name": "WaterGunReloadFailed",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 42,
+      "Name": "拉栓上膛",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 43,
+      "Name": "SendFlyerClickStart",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 44,
+      "Name": "SendFlyerClickHitEnd",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 45,
+      "Name": "SendFlyerHoldStart",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 46,
+      "Name": "SendFlyerHoldHitEnd",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 47,
+      "Name": "SendFlyerHoldNormalEnd",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 48,
+      "Name": "换弹Loop一次（用于Start-Loop-End类型）",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 49,
+      "Name": "换弹结束（用于Start-Loop-End类型）",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 50,
+      "Name": "喷射结束",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 51,
+      "Name": "醉拳武学R",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 52,
+      "Name": "通用吃东西",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 53,
+      "Name": "念动Agent击中地面",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 54,
+      "Name": "投掷模式",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 55,
+      "Name": "投掷蓄力结束",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 56,
+      "Name": "投掷开始",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 57,
+      "Name": "投掷瞄准开始",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 58,
+      "Name": "投掷瞄准结束",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 59,
+      "Name": "开火结束",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 60,
+      "Name": "榴弹炮开火",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 61,
+      "Name": "蓄力炮开始蓄力",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 62,
+      "Name": "蓄力炮取消蓄力",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 63,
+      "Name": "蓄力炮蓄力完成",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 64,
+      "Name": "蓄力炮蓄力发射",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 65,
+      "Name": "E键特殊射击",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 66,
+      "Name": "蜘蛛机器人跳舞",
+      "SessionBreakSignal": 0
+    },
+    {
+      "Id": 67,
+      "Name": "形意拳R",
+      "SessionBreakSignal": 0
+    }
+  ],
+  "_dumpedCount": 64,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

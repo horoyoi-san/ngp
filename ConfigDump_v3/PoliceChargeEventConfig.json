@@ -1,0 +1,89 @@
+{
+  "_class": "PoliceChargeEventConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 5,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "Drift",
+      "EventThreshold": [
+        30
+      ],
+      "Charge": 30,
+      "BadgeId": 0,
+      "__IDX__Name": 63752,
+      "__RAW__Name": "",
+      "Buff": {
+        "buffid": 0,
+        "percent": 0
+      }
+    },
+    {
+      "Id": 2,
+      "Name": "Swift",
+      "EventThreshold": [
+        50,
+        5
+      ],
+      "Charge": 30,
+      "BadgeId": 0,
+      "__IDX__Name": 63753,
+      "__RAW__Name": "",
+      "Buff": {
+        "buffid": 0,
+        "percent": 0
+      }
+    },
+    {
+      "Id": 3,
+      "Name": "Maintaining top speed",
+      "EventThreshold": [
+        50,
+        1
+      ],
+      "Charge": 15,
+      "BadgeId": 0,
+      "__IDX__Name": 63754,
+      "__RAW__Name": "",
+      "Buff": {
+        "buffid": 0,
+        "percent": 0
+      }
+    },
+    {
+      "Id": 4,
+      "Name": "Close proximity",
+      "EventThreshold": [
+        10,
+        2
+      ],
+      "Charge": 20,
+      "BadgeId": 0,
+      "__IDX__Name": 63755,
+      "__RAW__Name": "",
+      "Buff": {
+        "buffid": 0,
+        "percent": 0
+      }
+    },
+    {
+      "Id": 5,
+      "Name": "Maintaining close proximity",
+      "EventThreshold": [
+        10,
+        1
+      ],
+      "Charge": 15,
+      "BadgeId": 0,
+      "__IDX__Name": 63756,
+      "__RAW__Name": "",
+      "Buff": {
+        "buffid": 0,
+        "percent": 0
+      }
+    }
+  ],
+  "_dumpedCount": 5,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

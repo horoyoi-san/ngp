@@ -1,0 +1,221 @@
+{
+  "DefaultLeadingWayParamCfg": {
+    "Id": 1,
+    "LeadingRanges": [
+      4,
+      4,
+      8,
+      7,
+      7,
+      16
+    ],
+    "WaitingActionInterval": [
+      0.200000003,
+      0.300000012,
+      0.100000001,
+      0.166999996,
+      8,
+      12
+    ],
+    "LimitBeLedUnitMoveDistance": 0.100000001,
+    "RemoveLimitMoveDistance": 0,
+    "AheadEnough": [
+      2.5,
+      4.5,
+      4.5
+    ],
+    "BehindEnough": [
+      0.800000012,
+      -2,
+      -3
+    ],
+    "AdjustMoveInterval": [
+      0.100000001,
+      0.200000003
+    ],
+    "WalkSpeedLerp": [
+      -0.5,
+      1.25,
+      1,
+      1.25
+    ],
+    "RunSpeedLerp": [
+      -0.5,
+      1.25,
+      1,
+      1.25
+    ],
+    "RushSpeedLerp": [
+      -0.100000001,
+      1.5,
+      1,
+      1.25
+    ],
+    "PartnerAheadEnough": [
+      0.0500000007,
+      0.5,
+      1
+    ],
+    "PartnerBehindEnough": [
+      0.800000012,
+      1,
+      1.20000005
+    ],
+    "PartnerSpeedLerp": [
+      -1,
+      1,
+      0.800000012,
+      1.20000005
+    ],
+    "LeadWayIdleTurnTypeSpliter": 10,
+    "LeadWayIdleTurnToleranceAngle": 45,
+    "LeadWayIdleTurnToleranceDuration": 3,
+    "LeadWaySideStanceRatio": 0.5
+  },
+  "Event1218LeadingWayParamCfg": {
+    "Id": 3,
+    "LeadingRanges": [
+      4,
+      4,
+      8,
+      7,
+      7,
+      16
+    ],
+    "WaitingActionInterval": [
+      0.200000003,
+      0.300000012,
+      0.100000001,
+      0.166999996,
+      8,
+      12
+    ],
+    "LimitBeLedUnitMoveDistance": -1.5,
+    "RemoveLimitMoveDistance": 0,
+    "AheadEnough": [
+      2.5,
+      4.5,
+      4.5
+    ],
+    "BehindEnough": [
+      0.800000012,
+      -2,
+      -3
+    ],
+    "AdjustMoveInterval": [
+      0.100000001,
+      0.200000003
+    ],
+    "WalkSpeedLerp": [
+      -0.5,
+      1.25,
+      1,
+      1.25
+    ],
+    "RunSpeedLerp": [
+      -0.5,
+      1.25,
+      1,
+      1.25
+    ],
+    "RushSpeedLerp": [
+      -0.100000001,
+      1.5,
+      1,
+      1.25
+    ],
+    "PartnerAheadEnough": [
+      0.0500000007,
+      0.5,
+      1
+    ],
+    "PartnerBehindEnough": [
+      0.800000012,
+      1,
+      1.20000005
+    ],
+    "PartnerSpeedLerp": [
+      -1,
+      1,
+      0.800000012,
+      1.20000005
+    ],
+    "LeadWayIdleTurnTypeSpliter": 10,
+    "LeadWayIdleTurnToleranceAngle": 45,
+    "LeadWayIdleTurnToleranceDuration": 3,
+    "LeadWaySideStanceRatio": 0.5
+  },
+  "Event2042LeadingWayParamCfg": {
+    "Id": 4,
+    "LeadingRanges": [
+      8,
+      8,
+      16,
+      14,
+      14,
+      32
+    ],
+    "WaitingActionInterval": [
+      0.200000003,
+      0.300000012,
+      0.100000001,
+      0.166999996,
+      8,
+      12
+    ],
+    "LimitBeLedUnitMoveDistance": -1.5,
+    "RemoveLimitMoveDistance": 0,
+    "AheadEnough": [
+      2.5,
+      4.5,
+      4.5
+    ],
+    "BehindEnough": [
+      0.800000012,
+      -2,
+      -3
+    ],
+    "AdjustMoveInterval": [
+      0.100000001,
+      0.200000003
+    ],
+    "WalkSpeedLerp": [
+      -0.5,
+      1.25,
+      1,
+      1.25
+    ],
+    "RunSpeedLerp": [
+      -0.5,
+      1.25,
+      1,
+      1.25
+    ],
+    "RushSpeedLerp": [
+      -0.100000001,
+      1.5,
+      1,
+      1.25
+    ],
+    "PartnerAheadEnough": [
+      0.0500000007,
+      0.5,
+      1
+    ],
+    "PartnerBehindEnough": [
+      0.800000012,
+      1,
+      1.20000005
+    ],
+    "PartnerSpeedLerp": [
+      -1,
+      1,
+      0.800000012,
+      1.20000005
+    ],
+    "LeadWayIdleTurnTypeSpliter": 18,
+    "LeadWayIdleTurnToleranceAngle": 45,
+    "LeadWayIdleTurnToleranceDuration": 3,
+    "LeadWaySideStanceRatio": 0.5
+  }
+}

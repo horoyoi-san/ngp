@@ -1,0 +1,32 @@
+{
+  "_class": "ExtractionShooterBringOutValueSetsConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 1,
+  "records": [
+    {
+      "Id": 30301,
+      "GameFundPool": 1,
+      "DailyBringOutAddLimit": 200000,
+      "CD": "0 4 * * * *",
+      "StartTime": {
+        "year": 2026,
+        "month": 3,
+        "day": 31,
+        "hour": 0,
+        "minute": 0,
+        "second": 0
+      },
+      "EndTime": {
+        "year": 2026,
+        "month": 6,
+        "day": 30,
+        "hour": 23,
+        "minute": 59,
+        "second": 59
+      }
+    }
+  ],
+  "_dumpedCount": 1,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

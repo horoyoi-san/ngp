@@ -1,0 +1,20 @@
+{
+  "_class": "CrimeActionDefinationConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 2,
+  "records": [
+    {
+      "Id": 1,
+      "CrimeActionName": "CrimeAction",
+      "ParentCrimeAction": ""
+    },
+    {
+      "Id": 2,
+      "CrimeActionName": "CrimeAction_Delivery",
+      "ParentCrimeAction": "CrimeAction"
+    }
+  ],
+  "_dumpedCount": 2,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

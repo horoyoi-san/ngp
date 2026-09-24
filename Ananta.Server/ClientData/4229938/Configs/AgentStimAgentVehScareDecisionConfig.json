@@ -1,0 +1,82 @@
+{
+  "_class": "AgentStimAgentVehScareDecisionConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 6,
+  "records": [
+    {
+      "Id": 1,
+      "SpeciesTypeMatch": 0,
+      "SpecificTypeMatch": 7,
+      "RuntimeCondition": 2,
+      "StimTriggerSlow": 300404,
+      "OverrideBoxSlow": 5,
+      "StimTriggerHigh": 300400,
+      "OverrideBoxHigh": 4,
+      "StimTriggerSide": 300403,
+      "OverrideBoxSide": 6
+    },
+    {
+      "Id": 2,
+      "SpeciesTypeMatch": 13,
+      "SpecificTypeMatch": 0,
+      "RuntimeCondition": 1,
+      "StimTriggerSlow": 300404,
+      "OverrideBoxSlow": 5,
+      "StimTriggerHigh": 300400,
+      "OverrideBoxHigh": 4,
+      "StimTriggerSide": 300403,
+      "OverrideBoxSide": 6
+    },
+    {
+      "Id": 3,
+      "SpeciesTypeMatch": 0,
+      "SpecificTypeMatch": 25,
+      "RuntimeCondition": 3,
+      "StimTriggerSlow": 300404,
+      "OverrideBoxSlow": 5,
+      "StimTriggerHigh": 300400,
+      "OverrideBoxHigh": 4,
+      "StimTriggerSide": 300403,
+      "OverrideBoxSide": 6
+    },
+    {
+      "Id": 4,
+      "SpeciesTypeMatch": 15,
+      "SpecificTypeMatch": 0,
+      "RuntimeCondition": 0,
+      "StimTriggerSlow": 300405,
+      "OverrideBoxSlow": 8,
+      "StimTriggerHigh": 300405,
+      "OverrideBoxHigh": 7,
+      "StimTriggerSide": 300405,
+      "OverrideBoxSide": 9
+    },
+    {
+      "Id": 5,
+      "SpeciesTypeMatch": 0,
+      "SpecificTypeMatch": 0,
+      "RuntimeCondition": 4,
+      "StimTriggerSlow": 300404,
+      "OverrideBoxSlow": 11,
+      "StimTriggerHigh": 300400,
+      "OverrideBoxHigh": 10,
+      "StimTriggerSide": 300403,
+      "OverrideBoxSide": 12
+    },
+    {
+      "Id": 6,
+      "SpeciesTypeMatch": 10,
+      "SpecificTypeMatch": 0,
+      "RuntimeCondition": 1,
+      "StimTriggerSlow": 0,
+      "OverrideBoxSlow": 0,
+      "StimTriggerHigh": 0,
+      "OverrideBoxHigh": 0,
+      "StimTriggerSide": 0,
+      "OverrideBoxSide": 0
+    }
+  ],
+  "_dumpedCount": 6,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

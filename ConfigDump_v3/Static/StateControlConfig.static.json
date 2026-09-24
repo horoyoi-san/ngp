@@ -1,0 +1,20 @@
+{
+  "FunctionOpenCfg": {
+    "Id": 2,
+    "Action": "return TaskFinish(60026505) or level>=20 or TaskAccept(60014211)",
+    "ClickMessage": "[序章]后开启",
+    "PanelIdList": [
+      "TEACHER",
+      "RANK_LIST_NEW"
+    ]
+  },
+  "FunctionOpen2Cfg": {
+    "Id": 3,
+    "Action": "return raid~=23300888",
+    "ClickMessage": "888后开启",
+    "PanelIdList": [
+      "TEACHER",
+      "RANK_LIST_NEW"
+    ]
+  }
+}

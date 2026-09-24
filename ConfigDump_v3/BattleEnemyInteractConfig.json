@@ -1,0 +1,1254 @@
+{
+  "_class": "BattleEnemyInteractConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 47,
+  "records": [
+    {
+      "Id": 10002,
+      "Priority": 10,
+      "Type": 0,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [],
+      "Condition": 0,
+      "Params": [],
+      "UnitStateCondition": 0,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 18,
+      "IsUseInStealth": false,
+      "MindInteractId": 10001,
+      "MindButtonType": 0,
+      "SkillText": 0,
+      "ClickMindSkill": 0,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10015,
+      "Priority": 1,
+      "Type": 0,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 10371,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 1000,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 0,
+      "SkillText": 0,
+      "ClickMindSkill": 51984515,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10022,
+      "Priority": 1,
+      "Type": 0,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 10425,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 4,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 1,
+      "SkillText": 650,
+      "ClickMindSkill": 51943219,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10023,
+      "Priority": 4,
+      "Type": 0,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [],
+      "Condition": 13,
+      "Params": [],
+      "UnitStateCondition": 0,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "!1001&&(1002||1003)",
+      "SearchRange": 3,
+      "IsUseInStealth": true,
+      "MindInteractId": 0,
+      "MindButtonType": 1,
+      "SkillText": 247,
+      "ClickMindSkill": 51941505,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10024,
+      "Priority": 2,
+      "Type": 0,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [],
+      "Condition": 10,
+      "Params": [],
+      "UnitStateCondition": 0,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 5,
+      "IsUseInStealth": true,
+      "MindInteractId": 0,
+      "MindButtonType": 1,
+      "SkillText": 649,
+      "ClickMindSkill": 0,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10032,
+      "Priority": 2,
+      "Type": 3,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [],
+      "Condition": 7,
+      "Params": [],
+      "UnitStateCondition": 0,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 5,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 1,
+      "SkillText": 649,
+      "ClickMindSkill": 0,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10033,
+      "Priority": 9,
+      "Type": 1,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [],
+      "Condition": 3,
+      "Params": [
+        1.20000005
+      ],
+      "UnitStateCondition": 0,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 3,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 1,
+      "SkillText": 649,
+      "ClickMindSkill": 51934975,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10034,
+      "Priority": 6,
+      "Type": 1,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [],
+      "Condition": 3,
+      "Params": [
+        5
+      ],
+      "UnitStateCondition": 0,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 3,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 1,
+      "SkillText": 649,
+      "ClickMindSkill": 51934975,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10132,
+      "Priority": 1,
+      "Type": 2,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [
+        39000013
+      ],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 340,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 4,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 3,
+      "SkillText": 650,
+      "ClickMindSkill": 51942149,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10133,
+      "Priority": 10,
+      "Type": 1,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [
+        39000006,
+        39000013
+      ],
+      "Condition": 9,
+      "Params": [],
+      "UnitStateCondition": 0,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 2,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 1,
+      "SkillText": 650,
+      "ClickMindSkill": 51942116,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10134,
+      "Priority": 1,
+      "Type": 2,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [
+        39000701
+      ],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 340,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 4,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 3,
+      "SkillText": 650,
+      "ClickMindSkill": 51939670,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10135,
+      "Priority": 1,
+      "Type": 2,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [
+        39000703
+      ],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 340,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 4,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 3,
+      "SkillText": 650,
+      "ClickMindSkill": 51939426,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10137,
+      "Priority": 1,
+      "Type": 2,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [
+        39000009
+      ],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 340,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 4,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 3,
+      "SkillText": 650,
+      "ClickMindSkill": 51942519,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10138,
+      "Priority": 1,
+      "Type": 2,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [
+        39000003,
+        39000004
+      ],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 340,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 3,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 3,
+      "SkillText": 650,
+      "ClickMindSkill": 51936756,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10139,
+      "Priority": 1,
+      "Type": 2,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [
+        39000716
+      ],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 340,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 3,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 3,
+      "SkillText": 650,
+      "ClickMindSkill": 51942617,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10140,
+      "Priority": 1,
+      "Type": 2,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [
+        39000704,
+        39000720
+      ],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 340,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 3,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 3,
+      "SkillText": 650,
+      "ClickMindSkill": 51942718,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10141,
+      "Priority": 1,
+      "Type": 2,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [
+        39000702
+      ],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 340,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 4,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 3,
+      "SkillText": 650,
+      "ClickMindSkill": 51942819,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10142,
+      "Priority": 1,
+      "Type": 2,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [
+        39000001
+      ],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 340,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 3,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 3,
+      "SkillText": 650,
+      "ClickMindSkill": 51943118,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10143,
+      "Priority": 1,
+      "Type": 2,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [
+        39000005,
+        39000002
+      ],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 340,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 3,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 3,
+      "SkillText": 650,
+      "ClickMindSkill": 51943219,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10145,
+      "Priority": 1,
+      "Type": 2,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [
+        39000011
+      ],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 340,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 3,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 3,
+      "SkillText": 650,
+      "ClickMindSkill": 51943032,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10146,
+      "Priority": 1,
+      "Type": 2,
+      "EnableForFightSpirit": [
+        15021025
+      ],
+      "EnableForFightSkill": [
+        39000010
+      ],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 340,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 8,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 3,
+      "SkillText": 650,
+      "ClickMindSkill": 51945451,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10147,
+      "Priority": 1,
+      "Type": 2,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [
+        39000706
+      ],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 340,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 4,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 3,
+      "SkillText": 650,
+      "ClickMindSkill": 51943826,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10148,
+      "Priority": 1,
+      "Type": 2,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [
+        39000705
+      ],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 340,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 4,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 3,
+      "SkillText": 650,
+      "ClickMindSkill": 51943758,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10149,
+      "Priority": 1,
+      "Type": 2,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [
+        39000717
+      ],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 340,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 3,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 3,
+      "SkillText": 650,
+      "ClickMindSkill": 51942671,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10150,
+      "Priority": 1,
+      "Type": 2,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [
+        39000709
+      ],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 340,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 4,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 3,
+      "SkillText": 650,
+      "ClickMindSkill": 51944134,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10151,
+      "Priority": 1,
+      "Type": 2,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [
+        39000710
+      ],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 340,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 7,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 3,
+      "SkillText": 650,
+      "ClickMindSkill": 51944727,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10152,
+      "Priority": 1,
+      "Type": 2,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [
+        39000715
+      ],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 340,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 4,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 3,
+      "SkillText": 650,
+      "ClickMindSkill": 51942819,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10153,
+      "Priority": 1,
+      "Type": 2,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [
+        39000712
+      ],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 340,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 4,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 3,
+      "SkillText": 650,
+      "ClickMindSkill": 51945101,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10154,
+      "Priority": 1,
+      "Type": 2,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [
+        39000714,
+        39000722
+      ],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 340,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 4,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 3,
+      "SkillText": 650,
+      "ClickMindSkill": 51943940,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10155,
+      "Priority": 1,
+      "Type": 2,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [
+        39000708
+      ],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 340,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 4,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 3,
+      "SkillText": 650,
+      "ClickMindSkill": 51944481,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10156,
+      "Priority": 1,
+      "Type": 2,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [
+        39000013
+      ],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 340,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 4,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 3,
+      "SkillText": 650,
+      "ClickMindSkill": 51942192,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10157,
+      "Priority": 1,
+      "Type": 2,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [
+        39000707
+      ],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 340,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 4,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 3,
+      "SkillText": 650,
+      "ClickMindSkill": 51944560,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10158,
+      "Priority": 1,
+      "Type": 2,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [
+        39000711
+      ],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 340,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 3,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 3,
+      "SkillText": 650,
+      "ClickMindSkill": 51943219,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10159,
+      "Priority": 1,
+      "Type": 2,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [
+        39000721
+      ],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 340,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 4,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 3,
+      "SkillText": 650,
+      "ClickMindSkill": 51945390,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10200,
+      "Priority": 20,
+      "Type": 0,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 341,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 18,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 0,
+      "SkillText": 0,
+      "ClickMindSkill": 0,
+      "LongPressMindSkill": 0,
+      "MindMode": 2,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10201,
+      "Priority": 1,
+      "Type": 0,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 340,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 20,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 3,
+      "SkillText": 0,
+      "ClickMindSkill": 51939111,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10202,
+      "Priority": 1,
+      "Type": 0,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 10430,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 20,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 3,
+      "SkillText": 650,
+      "ClickMindSkill": 51939112,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10203,
+      "Priority": 1,
+      "Type": 0,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 10432,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 15,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 5,
+      "SkillText": 0,
+      "ClickMindSkill": 51939115,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": false,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10204,
+      "Priority": 1,
+      "Type": 0,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 340,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 4,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 1,
+      "SkillText": 0,
+      "ClickMindSkill": 51942149,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10205,
+      "Priority": 1,
+      "Type": 0,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 10508,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 4,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 1,
+      "SkillText": 0,
+      "ClickMindSkill": 51944201,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10206,
+      "Priority": 1,
+      "Type": 0,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 10509,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 4,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 1,
+      "SkillText": 0,
+      "ClickMindSkill": 51944202,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10207,
+      "Priority": 1,
+      "Type": 1,
+      "EnableForFightSpirit": [
+        15020967,
+        15020968
+      ],
+      "EnableForFightSkill": [],
+      "Condition": 12,
+      "Params": [],
+      "UnitStateCondition": 0,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 25,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 1,
+      "SkillText": 247,
+      "ClickMindSkill": 51160285,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": false,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10208,
+      "Priority": 1,
+      "Type": 0,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 340,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 8,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 3,
+      "SkillText": 650,
+      "ClickMindSkill": 51939117,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10210,
+      "Priority": 1,
+      "Type": 0,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 10570,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 4,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 1,
+      "SkillText": 650,
+      "ClickMindSkill": 51939670,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10211,
+      "Priority": 1,
+      "Type": 0,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 10571,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 4,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 1,
+      "SkillText": 650,
+      "ClickMindSkill": 51936733,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 10501,
+      "Priority": 1,
+      "Type": 0,
+      "EnableForFightSpirit": [
+        15020967,
+        15020968
+      ],
+      "EnableForFightSkill": [],
+      "Condition": 0,
+      "Params": [],
+      "UnitStateCondition": 0,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 4,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 1,
+      "SkillText": 650,
+      "ClickMindSkill": 51942101,
+      "LongPressMindSkill": 0,
+      "MindMode": 0,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 90000,
+      "Priority": 10,
+      "Type": 0,
+      "EnableForFightSpirit": [],
+      "EnableForFightSkill": [],
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 340,
+      "BuffCondition": 0,
+      "ConditionGroupIdLogic": "",
+      "SearchRange": 18,
+      "IsUseInStealth": false,
+      "MindInteractId": 0,
+      "MindButtonType": 0,
+      "SkillText": 0,
+      "ClickMindSkill": 0,
+      "LongPressMindSkill": 0,
+      "MindMode": 3,
+      "ShowInteractionIcon": true,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    }
+  ],
+  "_dumpedCount": 47,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

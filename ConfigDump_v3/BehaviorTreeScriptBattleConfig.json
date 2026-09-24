@@ -1,0 +1,22 @@
+{
+  "_class": "BehaviorTreeScriptBattleConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 3,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "TestCheck"
+    },
+    {
+      "Id": 2,
+      "Name": "TestAction"
+    },
+    {
+      "Id": 3,
+      "Name": "是否目标周围5米有大于等于2个友方单位"
+    }
+  ],
+  "_dumpedCount": 3,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

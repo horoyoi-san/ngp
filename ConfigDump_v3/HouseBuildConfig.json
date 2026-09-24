@@ -1,0 +1,319 @@
+{
+  "_class": "HouseBuildConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 4,
+  "records": [
+    {
+      "Id": 2,
+      "IndoorId": 301,
+      "BuildType": 3,
+      "HouseCapacity": 10000,
+      "BuildDefaultTowards": "180",
+      "maintypePlaceLimits": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "ReflectionProbePath": "",
+      "RenderLoadRange": 70,
+      "RenderUnloadRange": 100,
+      "CeilingUidList": [
+        "'5595608524757374349",
+        "153689156904996047",
+        "1623227321658094441",
+        "-856139239987520070",
+        "-4873939735601209870",
+        "-464638441471302888",
+        "-4979634327929395320",
+        "1970073755056991966",
+        "2132168089161924134",
+        "-8317559072165044048",
+        "622816720954186527",
+        "-5547991018628094744",
+        "1100952012578979757"
+      ],
+      "FloorUidList": [],
+      "Floors": 1,
+      "CameraTopViewFollowPlayer": true,
+      "MoveSpeed": 35,
+      "SpinSpeed": 30,
+      "ZoomSpeed": 30,
+      "FurnitureTemplateIds": [
+        14001
+      ],
+      "WallDataId": 10001,
+      "GridOrigin": [
+        2275.07007,
+        160.720001,
+        1400.51001,
+        0,
+        -180,
+        0
+      ],
+      "subtypePlaceLimits": [
+        {
+          "subtype": 50,
+          "count": 6
+        }
+      ],
+      "FloorsName": [
+        {
+          "name": "Increases the amount of damage dealt by a fixed amount.",
+          "floor": 1,
+          "__IDX__name": 4294967293,
+          "__RAW__name": "1F"
+        }
+      ],
+      "BuildBound": [
+        {
+          "floor": 1,
+          "IndoorBoundId": 1
+        }
+      ],
+      "CameraBound": [
+        {
+          "floor": 1,
+          "IndoorBoundId": 1
+        }
+      ],
+      "CameraTopViewPoint": [
+        {
+          "floor": 1,
+          "posx": 2277.53906,
+          "posy": 164.5,
+          "posz": 1397.71802,
+          "rotx": 45,
+          "roty": -90,
+          "rotz": 0
+        }
+      ],
+      "CameraPosName": []
+    },
+    {
+      "Id": 3,
+      "IndoorId": 205,
+      "BuildType": 1,
+      "HouseCapacity": 10000,
+      "BuildDefaultTowards": "180",
+      "maintypePlaceLimits": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "ReflectionProbePath": "",
+      "RenderLoadRange": 30,
+      "RenderUnloadRange": 50,
+      "CeilingUidList": [],
+      "FloorUidList": [],
+      "Floors": 1,
+      "CameraTopViewFollowPlayer": false,
+      "MoveSpeed": 35,
+      "SpinSpeed": 30,
+      "ZoomSpeed": 30,
+      "FurnitureTemplateIds": [
+        10013
+      ],
+      "WallDataId": 0,
+      "GridOrigin": [],
+      "subtypePlaceLimits": [
+        {
+          "subtype": 50,
+          "count": 2
+        }
+      ],
+      "FloorsName": [
+        {
+          "name": "Increases the amount of damage dealt by a fixed amount.",
+          "floor": 1,
+          "__IDX__name": 4294967293,
+          "__RAW__name": "1F"
+        }
+      ],
+      "BuildBound": [
+        {
+          "floor": 1,
+          "IndoorBoundId": 1
+        }
+      ],
+      "CameraBound": [
+        {
+          "floor": 1,
+          "IndoorBoundId": 1
+        }
+      ],
+      "CameraTopViewPoint": [
+        {
+          "floor": 1,
+          "posx": 1658.72302,
+          "posy": -1,
+          "posz": 2336.12988,
+          "rotx": 45,
+          "roty": -90,
+          "rotz": 0
+        }
+      ],
+      "CameraPosName": []
+    },
+    {
+      "Id": 4,
+      "IndoorId": 298,
+      "BuildType": 1,
+      "HouseCapacity": 10000,
+      "BuildDefaultTowards": "180",
+      "maintypePlaceLimits": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "ReflectionProbePath": "",
+      "RenderLoadRange": 100,
+      "RenderUnloadRange": 100,
+      "CeilingUidList": [],
+      "FloorUidList": [],
+      "Floors": 1,
+      "CameraTopViewFollowPlayer": true,
+      "MoveSpeed": 35,
+      "SpinSpeed": 30,
+      "ZoomSpeed": 30,
+      "FurnitureTemplateIds": [
+        14000
+      ],
+      "WallDataId": 0,
+      "GridOrigin": [],
+      "subtypePlaceLimits": [
+        {
+          "subtype": 50,
+          "count": 6
+        }
+      ],
+      "FloorsName": [
+        {
+          "name": "Increases the amount of damage dealt by a fixed amount.",
+          "floor": 1,
+          "__IDX__name": 4294967293,
+          "__RAW__name": "1F"
+        }
+      ],
+      "BuildBound": [
+        {
+          "floor": 1,
+          "IndoorBoundId": 1
+        }
+      ],
+      "CameraBound": [
+        {
+          "floor": 1,
+          "IndoorBoundId": 1
+        }
+      ],
+      "CameraTopViewPoint": [
+        {
+          "floor": 1,
+          "posx": 2631,
+          "posy": 192,
+          "posz": 2620,
+          "rotx": 45,
+          "roty": -90,
+          "rotz": 0
+        }
+      ],
+      "CameraPosName": []
+    },
+    {
+      "Id": 5,
+      "IndoorId": 378,
+      "BuildType": 1,
+      "HouseCapacity": 10000,
+      "BuildDefaultTowards": "180",
+      "maintypePlaceLimits": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "ReflectionProbePath": "",
+      "RenderLoadRange": 50,
+      "RenderUnloadRange": 80,
+      "CeilingUidList": [],
+      "FloorUidList": [],
+      "Floors": 2,
+      "CameraTopViewFollowPlayer": false,
+      "MoveSpeed": 35,
+      "SpinSpeed": 30,
+      "ZoomSpeed": 30,
+      "FurnitureTemplateIds": [
+        13000
+      ],
+      "WallDataId": 0,
+      "GridOrigin": [],
+      "subtypePlaceLimits": [
+        {
+          "subtype": 50,
+          "count": 2
+        }
+      ],
+      "FloorsName": [
+        {
+          "name": "Increases the amount of damage dealt by a fixed amount.",
+          "floor": 1,
+          "__IDX__name": 4294967293,
+          "__RAW__name": "1F"
+        },
+        {
+          "name": "Increases the amount of damage dealt by a fixed amount.",
+          "floor": 2,
+          "__IDX__name": 4294967293,
+          "__RAW__name": "2F"
+        }
+      ],
+      "BuildBound": [
+        {
+          "floor": 1,
+          "IndoorBoundId": 1
+        },
+        {
+          "floor": 2,
+          "IndoorBoundId": 2
+        }
+      ],
+      "CameraBound": [
+        {
+          "floor": 1,
+          "IndoorBoundId": 1
+        },
+        {
+          "floor": 2,
+          "IndoorBoundId": 2
+        }
+      ],
+      "CameraTopViewPoint": [
+        {
+          "floor": 1,
+          "posx": 1100,
+          "posy": 12.8000002,
+          "posz": 2383,
+          "rotx": 45,
+          "roty": -90,
+          "rotz": 0
+        },
+        {
+          "floor": 2,
+          "posx": 1100,
+          "posy": 16.7999992,
+          "posz": 2383,
+          "rotx": 45,
+          "roty": -90,
+          "rotz": 0
+        }
+      ],
+      "CameraPosName": []
+    }
+  ],
+  "_dumpedCount": 4,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

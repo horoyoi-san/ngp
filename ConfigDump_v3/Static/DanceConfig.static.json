@@ -1,0 +1,103 @@
+{
+  "HitMsDeviation": {
+    "hitmstBefore": 200,
+    "hitmsBehind": 200
+  },
+  "BitProgressChange": {
+    "beatAddProgress": 0.125,
+    "bitLostProgress": -0.0625
+  },
+  "tweenTimeRatio": 0.300000012,
+  "DropID": 14500400,
+  "DanceRoomScoreLimit": 30,
+  "DancePlayScoreLimit": 70,
+  "DanceRoomScoreRule": [
+    {
+      "DanceRoomSecond": 0,
+      "ScorePerTwoSeconds": 0.5
+    },
+    {
+      "DanceRoomSecond": 60,
+      "ScorePerTwoSeconds": 0.340000004
+    },
+    {
+      "DanceRoomSecond": 120,
+      "ScorePerTwoSeconds": 0.159999996
+    }
+  ],
+  "DancePlayScoreRule": [
+    {
+      "DancePlaySecond": 0,
+      "ScorePerTwoSeconds": 4
+    },
+    {
+      "DancePlaySecond": 20,
+      "ScorePerTwoSeconds": 2
+    },
+    {
+      "DancePlaySecond": 40,
+      "ScorePerTwoSeconds": 1
+    }
+  ],
+  "DropScore": [
+    17,
+    34,
+    50,
+    67,
+    84,
+    100
+  ],
+  "NpcCultivationDanceType": [
+    {
+      "PersonalityType": 2,
+      "DiscoGroupPara1": 1,
+      "DiscoGroupPara2": 4,
+      "DiscoGroupPara3": 7
+    },
+    {
+      "PersonalityType": 1,
+      "DiscoGroupPara1": 1,
+      "DiscoGroupPara2": 4,
+      "DiscoGroupPara3": 7
+    },
+    {
+      "PersonalityType": 3,
+      "DiscoGroupPara1": 1,
+      "DiscoGroupPara2": 4,
+      "DiscoGroupPara3": 7
+    }
+  ],
+  "DefaultDanceTypeOld": [
+    1,
+    4,
+    7,
+    0
+  ],
+  "DanceIconTab": [
+    {
+      "DanceTabID": 28004793,
+      "DanceGroupId": 1,
+      "DanceTabName": "舞蹈种类"
+    },
+    {
+      "DanceTabID": 28004794,
+      "DanceGroupId": 2,
+      "DanceTabName": "嗨起来"
+    }
+  ],
+  "DanceSpeakProbability": 0.400000006,
+  "HiDanceSpeakCheckTime": 4.5,
+  "DanceGroupSpeakCheckCount": 3,
+  "DanceBPM": 124,
+  "DefaultDanceType": 1,
+  "DanceStateSpeakCD": 3,
+  "DanceUpKeep": 1.5,
+  "DanceDownKeep": 1.5,
+  "DanceMaxKeep": {
+    "time": 5.5,
+    "cishua": 2
+  },
+  "BlendToIdleWaitTime": 0.200000003,
+  "BlendSpeed": 5,
+  "CameraDistanceEasingHorizontalRadius": 0.5
+}

@@ -1,0 +1,31 @@
+{
+  "_class": "ExtractionBotAIConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 3,
+  "records": [
+    {
+      "Id": 10001,
+      "BotPerceptionId": 1001,
+      "BehaviorTreeName": "Bot_Common_SMG",
+      "FightSpiritId": 15020967,
+      "Camp": 1
+    },
+    {
+      "Id": 10002,
+      "BotPerceptionId": 1001,
+      "BehaviorTreeName": "Bot_HideAndSeek_Cat",
+      "FightSpiritId": 15020967,
+      "Camp": 1
+    },
+    {
+      "Id": 10003,
+      "BotPerceptionId": 1001,
+      "BehaviorTreeName": "Bot_HideAndSeek_Mouse",
+      "FightSpiritId": 15020967,
+      "Camp": 1
+    }
+  ],
+  "_dumpedCount": 3,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

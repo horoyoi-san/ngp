@@ -1,0 +1,1689 @@
+{
+  "BossHackCfg": {
+    "Id": 1,
+    "DeepHackOnly": false,
+    "InteractionSprite": 25600280,
+    "InteractionLabel": "发现漏洞"
+  },
+  "DiviceCfg": {
+    "Id": 2,
+    "DeepHackOnly": false,
+    "InteractionSprite": 25600280,
+    "InteractionLabel": "入侵终端"
+  },
+  "HackNPCCfg": {
+    "Id": 3,
+    "DeepHackOnly": false,
+    "InteractionSprite": 25600280,
+    "InteractionLabel": "入侵程序"
+  },
+  "PaokuFlyCfg": {
+    "Id": 4,
+    "DeepHackOnly": false,
+    "InteractionSprite": 25600281,
+    "InteractionLabel": "发射钩锁"
+  },
+  "PaokuCubeCfg": {
+    "Id": 5,
+    "DeepHackOnly": false,
+    "InteractionSprite": 25600282,
+    "InteractionLabel": "逾矩生成"
+  },
+  "AnimalsCfg": {
+    "Id": 6,
+    "DeepHackOnly": false,
+    "InteractionSprite": 25600280,
+    "InteractionLabel": "生物扫描"
+  },
+  "CloseCfg": {
+    "Id": 7,
+    "DeepHackOnly": false,
+    "InteractionSprite": 25600334,
+    "InteractionLabel": "结束进程"
+  },
+  "MonitorCfg": {
+    "Id": 8,
+    "DeepHackOnly": false,
+    "InteractionSprite": 25600280,
+    "InteractionLabel": "入侵监控"
+  },
+  "ZiplineCfg": {
+    "Id": 9,
+    "DeepHackOnly": false,
+    "InteractionSprite": 25600281,
+    "InteractionLabel": "高空滑索"
+  },
+  "SCIICfg": {
+    "Id": 10,
+    "DeepHackOnly": false,
+    "InteractionSprite": 25600280,
+    "InteractionLabel": "改变结构"
+  },
+  "FeiSuoFlyCfg": {
+    "Id": 11,
+    "DeepHackOnly": false,
+    "InteractionSprite": 25600501,
+    "InteractionLabel": "发射钩锁"
+  },
+  "FeiSuoEnemyNoCrouchCfg": {
+    "Id": 12,
+    "DeepHackOnly": false,
+    "InteractionSprite": 25600282,
+    "InteractionLabel": "发射钩锁"
+  },
+  "FeiSuoEnemyCrouchCfg": {
+    "Id": 13,
+    "DeepHackOnly": false,
+    "InteractionSprite": 25200697,
+    "InteractionLabel": "发射钩锁"
+  },
+  "JiGuangCfg": {
+    "Id": 1001,
+    "DeepHackOnly": false,
+    "InteractionSprite": 25600280,
+    "InteractionLabel": "链入操控"
+  },
+  "ScanEnemyRadius": 100,
+  "ScanEnemyTime": 10,
+  "ScanMapRadius1": 50,
+  "ScanMapRadius2": 400,
+  "ScanMapTime": 5,
+  "DroneFlyRadius": 999,
+  "FallEnemy": [
+    40650205,
+    40650208,
+    40980113,
+    0
+  ],
+  "DroneCameraYAxis": 0.5,
+  "ViewingAngleSlidingSpeed": 0.200000003,
+  "ShootFarthestDistance": 100,
+  "ShootShortestDistance": 2,
+  "DroneGrabCameraChangeBackTime": 2,
+  "AutoAimingSpeedX": 30,
+  "AutoAimingSpeedY": 0.5,
+  "AutoAimingMaxAngle": 10,
+  "AutoAimingMaxAnglePro": 20,
+  "AutoAimingMaxDis": 40,
+  "WallMinimumHeight": 0.5,
+  "ClimbWallCameraXY": [
+    {
+      "XAxis": 0,
+      "YAxis": 0
+    },
+    {
+      "XAxis": -85,
+      "YAxis": 0.5
+    },
+    {
+      "XAxis": 85,
+      "YAxis": 0.5
+    }
+  ],
+  "DroneCameraChangeYAxis": 0.899999976,
+  "DroneCameraChangeYAxisTime": 0.699999988,
+  "WallMinimumWidth": 0.5,
+  "WallMaxRotateSpeed": 3,
+  "WallParkourMaxTiltAngle": 10,
+  "WallChangeDeflectionAngle": 45,
+  "WallChangeDeflectionStretchAngle": 0,
+  "WallTurnBackAngle": 145,
+  "EnterWallTransitionTime": 0.200000003,
+  "LeaveWallTransitionTime": 0,
+  "EnterRailFusionDis": 1,
+  "EnterRailFusionTime": 0.200000003,
+  "EnterRailButtonLastTime": 1.5,
+  "EnterRailJudgeOffset": 0.699999988,
+  "HangingRailOffset": [
+    1.79999995,
+    2
+  ],
+  "RailUpToDownPre": 0.5,
+  "RailDownToUpPre": 1,
+  "RailUpToDown": 1,
+  "RailDownToUp": 1.5,
+  "EavesJumpYRootmotion": [
+    2,
+    2
+  ],
+  "EavesJumpXZOffset": [
+    0.400000006,
+    0.400000006
+  ],
+  "EavesJumpHigh": [
+    1.85000002,
+    1.85000002
+  ],
+  "EavesJumpTransitionDelay": 0.00999999978,
+  "EavesJumpTransitionLast": 0.100000001,
+  "EavesJumpXZTransitionLast": 0.0500000007,
+  "ActionTransition_CameraFOVdefault": 40,
+  "ActionTransition_CameraFOVlist": [
+    {
+      "groupid": 1,
+      "fov": 40,
+      "fadein": 0.300000012
+    },
+    {
+      "groupid": 3,
+      "fov": 40,
+      "fadein": 0.300000012
+    },
+    {
+      "groupid": 28,
+      "fov": 60,
+      "fadein": 0.300000012
+    }
+  ],
+  "BuildingDetectPara": [
+    0.100000001,
+    0.800000012,
+    0.100000001
+  ],
+  "WallJudgeMaxAngle": 30,
+  "GuardrailJumpHigh": [
+    -1.10000002,
+    -1.20000005
+  ],
+  "GuardrailJumpXZDis": [
+    -0.550000012,
+    -0.550000012
+  ],
+  "GuardrailJumpTransitionDelay": 0,
+  "GuardrailJumpTransitionLast": 0.140000001,
+  "GuardrailJumpIgnoreColliderTime": 0.300000012,
+  "WallAngularVelocity": 270,
+  "GetBuildingRoofRootUp": 1.20000005,
+  "GetBuildingRoofForward": 1,
+  "GetBuildingRoofAway": 0.5,
+  "GetBuildingRoofUp": 40,
+  "GetBuildingRoofUpGround": 4.19999981,
+  "GetBuildingRoofTowards": 1,
+  "GetBuildingRoofTowardsLittle": 0.550000012,
+  "GetBuildingMaxAngle": 5,
+  "GetBuildingClimbMaxAngle": 30,
+  "GetBuildingEavesMaxDis": 3,
+  "GetBuildingEavesDown": 0.5,
+  "GetBuildingEavesAway": 5,
+  "GetBuildingEavesUp": 0.600000024,
+  "RailCrouchYCheck": 0.5,
+  "RailCrouchXCheck": 0.5,
+  "RailObstacleCheckDis": 1,
+  "RailForecastNextTowardsDistance": 4,
+  "GuardrailJumpHigh07": [
+    -0.899999976,
+    -1
+  ],
+  "GuardrailJumpXZDis07": [
+    -0.200000003,
+    -0.200000003
+  ],
+  "GuardrailJumpTransitionDelay07": 0,
+  "GuardrailJumpTransitionLast07": 0.140000001,
+  "GuardrailJumpIgnoreColliderTime07": 0.300000012,
+  "GuardrailJumpHigh08": [
+    -4,
+    -4
+  ],
+  "GuardrailJumpXZDis08": [
+    -0.550000012,
+    -0.550000012
+  ],
+  "GuardrailJumpTransitionDelay8": 0,
+  "GuardrailJumpTransitionLast08": 0.100000001,
+  "GuardrailJumpIgnoreColliderTime08": 0.300000012,
+  "GuardrailJumpHigh09": [
+    -0.100000001,
+    -0.100000001
+  ],
+  "GuardrailJumpXZDis09": [
+    -0.100000001,
+    -0.100000001
+  ],
+  "GuardrailJumpTransitionDelay09": 0,
+  "GuardrailJumpTransitionLast09": 0.140000001,
+  "GuardrailJumpIgnoreColliderTime09": 0.300000012,
+  "GuardrailJumpHigh10": [
+    -0.100000001,
+    -0.100000001
+  ],
+  "GuardrailJumpXZDis10": [
+    -1.20000005,
+    -1.20000005
+  ],
+  "GuardrailJumpTransitionDelay10": 0,
+  "GuardrailJumpTransitionLast10": 0.140000001,
+  "GuardrailJumpIgnoreColliderTime10": 0.300000012,
+  "RailShakeLittleDis": 1,
+  "RailShakeLargeDis": 1,
+  "RailCrouchAngle": 30,
+  "RailShakeLittleAngle": 360,
+  "RailShakeLargeAngle": 360,
+  "ResetSecondJumpArray": [
+    {
+      "groupid": 5,
+      "Type": 1323
+    },
+    {
+      "groupid": 5,
+      "Type": 1324
+    },
+    {
+      "groupid": 5,
+      "Type": 1333
+    },
+    {
+      "groupid": 5,
+      "Type": 1408
+    },
+    {
+      "groupid": 5,
+      "Type": 1417
+    },
+    {
+      "groupid": 5,
+      "Type": 1416
+    },
+    {
+      "groupid": 5,
+      "Type": 1412
+    },
+    {
+      "groupid": 5,
+      "Type": 1413
+    }
+  ],
+  "FeisuoMaxDis": 40,
+  "FeisuoMinDis": 1,
+  "FeisuoWildEnemyMaxDis": 40,
+  "FeisuoWildEnemyMinDis": 2,
+  "FeisuoAngle": 30,
+  "CliffFrontDis": 0.5,
+  "CliffDownMinDis": 15,
+  "SwingLeaveAngle": 175,
+  "SwingLeaveAngleEarly": 150,
+  "SwingChangeAngleMinHeight": 3.5,
+  "SwingMinSpeedAutoStop": 10,
+  "SwingMinSpeedAutoStopMin": 4,
+  "SwingOutCheckAngle": 160,
+  "SwingOutCheckSpeedMin": 15,
+  "ChangeRailStartTime": 0.166700006,
+  "ChangeRailLastTime": 0.933300018,
+  "SwingMaxRotateSpeed": 30,
+  "SwingMinLinespeed": 5,
+  "BuildingCeilingAngle": 30,
+  "BuildingCeilingCheckDis": 3,
+  "BuildingEdgeFindUpDis": 0.400000006,
+  "BuildingEdgeFindMaxDis": 8,
+  "BuildingEdgeFindMinDis": 1,
+  "BuildingEdgeFindYDifferenceCheck": 0.5,
+  "BuildingEdgeFindMaxHigh": 3,
+  "BuildingEdgeFindMaxDown": 3,
+  "BuildingEdgeFindAngle": 30,
+  "SwingFindPointZBestDis": 25,
+  "CoiledJumpCheckNum": 8,
+  "CoiledJumpCheckDis": 1,
+  "CoiledJumpYInterval": [
+    -1,
+    1
+  ],
+  "SwingEndZAddSpeed": 10,
+  "SwingEndZMaxSpeed": 35,
+  "SwingLinkEffectDelayTime": 0.100000001,
+  "SwingJoyStickRotateRate": 1.5,
+  "CoiledJumpFirstDis": 1,
+  "WallJumpFirstDis": 4,
+  "WallJumpFrontDelayTime": 0,
+  "WallJumpFrontLastTime": 0.349999994,
+  "WallJumpLeftRightDelayTime": 0,
+  "WallJumpLeftRightLastTime": 0.300000012,
+  "WallJumpFrontDelayTimeY": 0,
+  "WallJumpFrontLastTimeY": 0.300000012,
+  "WallJumpLeftRightDelayTimeY": 0,
+  "WallJumpLeftRightLastTimeY": 0.300000012,
+  "SwingFindPointZBestDisGround": 20,
+  "SwingDownInterrupZAddSpeed": 1,
+  "SwingDownInterrupZMaxSpeed": 15,
+  "SwingBottomInterrupZAddSpeed": 5,
+  "SwingBottomInterrupZMaxSpeed": 30,
+  "SwingRiseInterrupZAddSpeed": 5,
+  "SwingRiseInterrupZMaxSpeed": 30,
+  "ChangeRailTransitionDis": 10,
+  "ChangeRailTransitionXMaxDis": 6,
+  "ChangeRailTransitionXMinDis": 0.200000003,
+  "ChangeRailTransitionMaxAngle": 60,
+  "GuardrailJumpSwingMaxDis": 1,
+  "GuardrailJumpSwingMinusMaxDis": -1,
+  "BuildEdgeMinDepth": 3.5,
+  "GetRandomGpsMinDis": 200,
+  "GetRandomGpsMaxDis": 400,
+  "CoiledJumpMaxAngle": 45,
+  "SwingCheckLowUpDis": 0.699999988,
+  "GetRandomGpsAngle": 30,
+  "SwingPointSiftAngle": 90,
+  "SwingPointSiftMaxDis": 100,
+  "SwingPointSiftMaxHitDisDiff": 20,
+  "SwingPointSiftMaxZ": 50,
+  "SwingPointSiftMinY": 3,
+  "SwingPointSiftMinYGround": 5,
+  "SwingPointSiftMaxZGround": 40,
+  "SwingPointSiftMinZ": 8,
+  "SwingPointSiftXDivZ": 1,
+  "SwingFindCoiledUp": 0.600000024,
+  "CoiledJumpBackCheckDis": 0.300000012,
+  "CoiledJumpBackCheckDownDis": 0.400000006,
+  "LeaveBuildingCheckAngle": 90,
+  "FeiSuoJumpKeyDownLastTime": 1,
+  "FeiSuoLinkEffectDelayTime": 0.25,
+  "NearFeiSuoLinkEffectDelayTime": 0.200000003,
+  "SwingFindPointBestZYRateMaxDis": 20,
+  "FeiSuoLastFindScores": 5,
+  "SwingEffectBindBone": [
+    {
+      "bone": "handl",
+      "type": 27110,
+      "bone2": "fp_litijidong_L"
+    },
+    {
+      "bone": "handr",
+      "type": 27200,
+      "bone2": "fp_litijidong_R"
+    },
+    {
+      "bone": "handl",
+      "type": 27260,
+      "bone2": "fp_litijidong_L"
+    },
+    {
+      "bone": "handr",
+      "type": 27320,
+      "bone2": "fp_litijidong_R"
+    },
+    {
+      "bone": "handl",
+      "type": 27001,
+      "bone2": "fp_litijidong_L"
+    },
+    {
+      "bone": "handr",
+      "type": 27002,
+      "bone2": "fp_litijidong_R"
+    }
+  ],
+  "FeiSuoFindPointCheckShortenDis": 2,
+  "SwingViewingAngleSlidingSpeedRate": 1.5,
+  "SwingViewingAngleSlidingSpeedRateY": 0.699999988,
+  "SwingPoleBenchmarkY": 10,
+  "FengDuPartThreePos": [
+    332.049988,
+    90.3799973,
+    -493.049988
+  ],
+  "LTJDSwingOutZAddSpeed": 5,
+  "LTJDSwingOutZMaxSpeed": 40,
+  "SwingCD": 0.5,
+  "EnterRailUpYDelayTime": 0.100000001,
+  "EnterRailUpYLastTime": 1.13300002,
+  "EnterRailUpXDelayTime": 0.100000001,
+  "EnterRailUpXLastTime": 1.13300002,
+  "EnterRailUpRevolveDelayTime": 0.100000001,
+  "EnterRailUpRevolveLastTime": 0.200000003,
+  "FeiSuoEndJumpTime": 0.5,
+  "ClimbWallLowColliderUpDis": 1,
+  "ClimbWallLowColliderAwayDis": 0.800000012,
+  "RailUpToDownDelayTime": 0,
+  "RailUpToDownLastTime": 0.300000012,
+  "RailDownToUpDelayTime": 0.100000001,
+  "RailDownToUpLastTime": 0.400000006,
+  "KeepClimbOffsetTime": 0,
+  "LTJDColliderTouchDis": 20,
+  "LTJDColliderTouchAngle": 60,
+  "CheckHeightBuildingDis": 80,
+  "FeiSuoUpChooseAngle": 20,
+  "FeiSuoDownChooseAngle": 12,
+  "FeiSuoUpLeaveAngle": 30,
+  "FeiSuoDownLeaveAngle": 30,
+  "FeiSuoLeftRightChooseAngle": 7.5,
+  "FeiSuoLeftRightLeaveAngle": 30,
+  "FeiSuoMaxChooseDis": 30,
+  "FeiSuoMinChooseDis": 1.5,
+  "FeiSuoMinLeaveDis": 1,
+  "FeiSuoMinChooseDisCamp": 2,
+  "FeiSuoMinLeaveDisCamp": 1,
+  "FeiSuoCentreAnglePrecision": 2,
+  "FeiSuoEnemyPoint": 5,
+  "GroundMaxHigh": 1,
+  "PreSwingZMinSpeed": 2,
+  "PreSwingAvoidObstaclesMaxRate": 0.5,
+  "SwingAvoidObstaclesMaxRate": 0.200000003,
+  "AirTurningSmoothing": 3.5,
+  "FeiSuoDotShapedScores": 10,
+  "ScanEffect": [
+    53800330,
+    53800331
+  ],
+  "FeiSuoSuperJumpCD": 0.5,
+  "SwingAvoidObstaclesExHigh": 0.5,
+  "SwingTooLowAvoidObstaclesMaxRate": 0.5,
+  "SwingLeftHandAngleLimit": [
+    -180,
+    0
+  ],
+  "SwingRightHandAngleLimit": [
+    0,
+    180
+  ],
+  "FeiSuoCheckColliderUpDis": 1.5,
+  "PaoKuTestTaskA": [
+    {
+      "taskid": 60019700,
+      "x": 3027.6001,
+      "y": 73.7900009,
+      "z": 2280.1001
+    },
+    {
+      "taskid": 60019703,
+      "x": 3058.80005,
+      "y": 29.5650005,
+      "z": 2007.30005
+    },
+    {
+      "taskid": 60019706,
+      "x": 2046.51001,
+      "y": 45.7299995,
+      "z": 2165.61011
+    },
+    {
+      "taskid": 60019709,
+      "x": 1072.31995,
+      "y": 37.2999992,
+      "z": 2070.29004
+    },
+    {
+      "taskid": 60019712,
+      "x": 1590.59998,
+      "y": 41.4300003,
+      "z": 1933.06995
+    }
+  ],
+  "PaoKuTestTaskB": [
+    {
+      "taskid": 60019715,
+      "x": 1772.05005,
+      "y": 45.6599998,
+      "z": 2020.48999
+    },
+    {
+      "taskid": 60019717,
+      "x": 1018.26001,
+      "y": 46.8899994,
+      "z": 2115.6499
+    },
+    {
+      "taskid": 60019719,
+      "x": 1703.19995,
+      "y": 67.3000031,
+      "z": 1811.59998
+    }
+  ],
+  "SwingStartIgnoreJoystickAngle": 1,
+  "GetJoystickGroundAngleHeight": 2,
+  "CheckJumpEndExtraDis": 1,
+  "FeiSuoCheckCapsuleUpDis": 0.300000012,
+  "ZhangAiAngle": 10,
+  "ZhangAiDistance": 4,
+  "AirRushRayUpDis": 1,
+  "AirRushRayMaxDis": 150,
+  "AirRushTraverseMaxDis": 150,
+  "AirRushTraverseMaxYAngle": 15,
+  "AirRushTraverseMaxZAngle": 15,
+  "AirXZMaxSpeed": 30,
+  "ZhangAiRotateTime": 0.200000003,
+  "AirRushRotateTime": 0.200000003,
+  "AirRushSpeedUpTime": 0.200000003,
+  "AirRushCD": 1.5,
+  "FeiSuoCloseRotateTime": 0.300000012,
+  "FeiSuoClose02EffectDelayTime": 0.300000012,
+  "AirRushGravity": 7,
+  "SwingRotateAngleLimit": 100,
+  "coiledRotateAngleLimit": 15,
+  "coiledMaxRange": 8,
+  "SwingUseFeisuoJumpSpeedCheck": 15,
+  "SwingUseFeisuoJumpAngleCheck": 30,
+  "SwingUseFeisuoJumpTimeCheck": 0.5,
+  "CliffForwardDistance": 5,
+  "LineEdgeCheckUpDis": 0.5,
+  "LineEdgeCheckLeftRightDis": 0.300000012,
+  "LineEdgeCheckDownDis": 0.699999988,
+  "CloseSwingPointSiftMinZ": 1,
+  "JumpOverWallDis": 3,
+  "WallrushSpeedLimited": 12,
+  "EavesJumpTiming": [
+    0.266663998,
+    0.266663998,
+    0.266663998,
+    0.266663998,
+    0.266663998,
+    0.266663998
+  ],
+  "EavesJumpOffset": [
+    1.39999998,
+    1.39999998,
+    1.39999998,
+    1.39999998,
+    1.39999998,
+    1.39999998
+  ],
+  "TopEdgePassTiming": [
+    0.266663998,
+    0.266663998,
+    0.266663998,
+    0.266663998,
+    0.266663998,
+    0.266663998
+  ],
+  "TopEdgePassSecondTiming": [
+    0.399998993,
+    0.399996012,
+    0.399998993,
+    0.399998993,
+    0.399996012,
+    0.399998993
+  ],
+  "TopEdgePassOffset": [
+    -0.400000006,
+    -0.600000024,
+    -0.400000006,
+    -0.400000006,
+    -0.400000006,
+    -0.400000006
+  ],
+  "TopEdgePassOffsetX": [
+    0.300000012,
+    0.300000012,
+    0.300000012,
+    0.300000012,
+    0.300000012,
+    0.300000012
+  ],
+  "TopEdgePassOffsetY": [
+    0.100000001,
+    0.100000001,
+    0.100000001,
+    0.100000001,
+    0.100000001,
+    0.100000001
+  ],
+  "BottomEdgePassTiming": [
+    0.233330995,
+    0.233330995,
+    0.233330995,
+    0.233330995,
+    0.233330995,
+    0.233330995
+  ],
+  "BottomEdgePassSecondTiming": [
+    0.366665989,
+    0.366665989,
+    0.366665989,
+    0.366665989,
+    0.366665989,
+    0.366665989
+  ],
+  "BottomEdgePassOffset": [
+    -0.800000012,
+    -0.800000012,
+    -0.800000012,
+    -0.800000012,
+    -0.800000012,
+    -0.800000012
+  ],
+  "BottomEdgePassOffsetX": [
+    -1.20000005,
+    -1.20000005,
+    -1.20000005,
+    -1.20000005,
+    -1.20000005,
+    -1.20000005
+  ],
+  "BottomEdgePassOffsetY": [
+    0.200000003,
+    0.200000003,
+    0.200000003,
+    0.200000003,
+    0.200000003,
+    0.200000003
+  ],
+  "BalconyFlatPassTiming": [
+    0.333332986,
+    0.333332986,
+    0.333332986,
+    0.333332986,
+    0.333332986,
+    0.333332986
+  ],
+  "BalconyFlatPassSecondTiming": [
+    0.0999990031,
+    0.0999990031,
+    0.0999990031,
+    0.0999990031,
+    0.0999990031,
+    0.0999990031
+  ],
+  "BalconyFlatPassOffset": [
+    -0.300000012,
+    -0.300000012,
+    -0.300000012,
+    -0.300000012,
+    -0.300000012,
+    -0.300000012
+  ],
+  "BalconyFlatPassOffsetX": [
+    -0.200000003,
+    -0.200000003,
+    -0.200000003,
+    -0.200000003,
+    -0.200000003,
+    -0.200000003
+  ],
+  "BalconyFlatPassOffsetY": [
+    0.100000001,
+    0.100000001,
+    0.100000001,
+    0.100000001,
+    0.100000001,
+    0.100000001
+  ],
+  "BlockOutTiming": [
+    0.199998006,
+    0.199998006,
+    0.199998006,
+    0.199998006,
+    0.199998006,
+    0.199998006
+  ],
+  "BlockOutOffset": [
+    -0.800000012,
+    -0.800000012,
+    -0.800000012,
+    -0.800000012,
+    -0.800000012,
+    -0.800000012
+  ],
+  "BlockOutOffsetY": [
+    0.400000006,
+    0.400000006,
+    0.400000006,
+    0.400000006,
+    0.400000006,
+    0.400000006
+  ],
+  "SpecialHookSpeedAngle": 120,
+  "SpecialHookYMinSpeed": 5,
+  "SpecialHookWallDis": 3,
+  "SpecialHookWallRoofMaxDis": 10,
+  "AirSpecialHookMinSpeed": 10,
+  "AirSpecialHookRayRate": 1,
+  "AirSpecialHookMaxHight": 10,
+  "AirSpecialHookMinAngle": 75,
+  "AirSpecialHookUpAngle": 140,
+  "FenceMinAngle": 60,
+  "ClimbEffectDelayTime": 0.200000003,
+  "PedalOutPointAddHeight": 12,
+  "XuLiDeltaTime": 0.400000006,
+  "FastJumpFallGravity": 40,
+  "FastJumpStartAction": [
+    1466,
+    5
+  ],
+  "FastJumpStartActionRate": 1,
+  "NormalJumpFallGravity": 20,
+  "ThinObstacleDetectRange": [
+    -10,
+    10
+  ],
+  "RunJumpEndMaxRate": 3,
+  "JumpEndMaxRate": 1.5,
+  "JumpEndMinRate": 0.5,
+  "JumpEndMaxTimeDiff": 0.5,
+  "JumpEndLeaveTime": 0.5,
+  "AirSpecialHookZDis": 1,
+  "AcrossMaxDis": 5,
+  "AcrossHigh": 1.29999995,
+  "AcrossLow": 0.800000012,
+  "MaxVelocityY": 60,
+  "CliffPosDistance": 2,
+  "CalcGroundActionTypeAccSpeed": 20,
+  "CoiledMiniMunDis": 3.20000005,
+  "CornerTurnEffectOffset": [
+    4,
+    -2.5
+  ],
+  "CornerTurnEffectDelay": 0.166659996,
+  "K_coiledlarge": 0.400000006,
+  "coiledrush_across_Len": 5.5,
+  "coiledrush_fastcross_Len": 4.4000001,
+  "coiledrush_down_Len": 6.0999999,
+  "DynamicFeiSuoPointDis": 30,
+  "SwingHitPointUpY": 1.5,
+  "SwingFirsthalfHitMinYdiff": 3,
+  "SwingMaxRate": 0.5,
+  "SwingGroundDownRate": 2,
+  "SwingGroundUpRate": 3,
+  "SwingMaxUpAngle": 30,
+  "TopLeaveWallParameters": [
+    5,
+    5,
+    0.5,
+    2
+  ],
+  "K_coiledlarge_y": 0.400000006,
+  "coiledair_check": 2,
+  "coiledair_N_max": 1.5,
+  "coiledair_N_less": 0.5,
+  "coiledair_H_max": 2.5,
+  "coiledair_H_less": 1.5,
+  "UpColJumpOffset": [
+    -1.5,
+    1.5
+  ],
+  "UpColliderCheckDsis": 5,
+  "UpColJumpStart": -3,
+  "PedalOutTiming": 0.233309999,
+  "PedalOutPointOffset": [
+    0,
+    0.5,
+    -1
+  ],
+  "PedalOutStartSpeed": 35,
+  "PedalOutAftertimingActionSpeed": 0.649999976,
+  "AirMoveNotJoyStickInRushSpeed": 10,
+  "AirMoveNotJoyStickNotRushSpeed": 10,
+  "AirMoveNotJoyStickSpiderSpeed": 0,
+  "AirMoveJoyStickInRushSpeed": 15,
+  "AirMoveJoyStickNotRushSpeed": 5,
+  "AirMoveJoyStickSpiderSpeed": 4.5,
+  "CornerTurnMinSpeed": 5,
+  "CornerTurnMaxSpeed": [
+    15,
+    0.100000001
+  ],
+  "CornerTurnInitialSpeed": 20,
+  "WallPreChekFrontDis": 1,
+  "WallChekNormalDis": 0.699999988,
+  "CornerTurnCheckTime": 1,
+  "coiledrush_min": 0.550000012,
+  "coiledtypeThree_maxhigh": 20,
+  "CoiledCliffDetR": 0.200000003,
+  "InClimbTooLowAngle": 120,
+  "usePointSort_Ky": 4,
+  "PedalOutThreshold": 30,
+  "FeiSuoCheckAngle": 100,
+  "SwingNoGetJoyStickGravityRateFirstHalf": 0.5,
+  "SwingNoGetJoyStickGravityRateSecondHalf": 1.5,
+  "SwingHitPointMaxHigh": 3.5,
+  "SwingHitPointMinDiff": 5,
+  "TaskFeiSuoHideDis": 5,
+  "TaskFeiSuoDis": 50,
+  "TaskFeiSuoLeftRightAngle": 60,
+  "TaskFeiSuoUpDownAngle": 60,
+  "TaskFeiSuoCallBack": [
+    "FeiSuoAction()",
+    ""
+  ],
+  "LeaveWallFaceChangeTime": 0.300000012,
+  "SwingStartCheckSpeed": 12,
+  "MotoRotateSpeed": 75,
+  "MotoSlopeBoundaryAngle": 60,
+  "MotoSlopeTransitionSpeed": 3,
+  "FireHandMax": 60,
+  "FireHandMin": -60,
+  "VerticalSpecialClimbCheckDis": 4,
+  "VerticalSpecialClimbCheckDisInAir": 6,
+  "VerticalSpecialClimbYOffset": [
+    0,
+    0,
+    0,
+    0,
+    -1.25,
+    0
+  ],
+  "VerticalSpecialClimbZOffset": [
+    -0.600000024,
+    -0.600000024,
+    -0.600000024,
+    -0.600000024,
+    -0.5,
+    -0.600000024
+  ],
+  "VerticalSpecialClimbStartKeyFrame": 0.142800003,
+  "VerticalSpecialClimbStartSecondFrame": 0.302780002,
+  "VerticalSpecialClimbStartTiming": 0.499994993,
+  "VerticalSpecialClimbTiming": 0.344999999,
+  "MotoAngleCheckUpDis": 1.5,
+  "MotoFrontWheelOffset": 0.5,
+  "MotoRearWheelOffset": 1,
+  "MotoAngleCheckDwonDis": 4,
+  "MotoAngleCheckRecordTime": 0.0500000007,
+  "MaxStepHeight": 0.600000024,
+  "MotoAngleCheckUpDisStop": 0.5,
+  "MotoFrontWheelOffsetStop": 0.25,
+  "MotoRearWheelOffsetStop": 0.25,
+  "MotoAngleCheckDwonDisStop": 1,
+  "MotoGroundAngleCheckRadiusStop": 0.25,
+  "MotoGroundAngleCheckBackRadiusStop": 0.25,
+  "MotoAirCheckDownDis": 1,
+  "MotoAirCheckDis": 0.300000012,
+  "MotoAirGravity": 20,
+  "MotoAirMaxYSpeed": 60,
+  "MotoCheckWallDis": 0.200000003,
+  "MotoCheckWallAngle": 30,
+  "CoiledCliffCheckHigh": 1.79999995,
+  "FireCameraMax": 80,
+  "FireCameraMin": -80,
+  "FireHandUp_K": 1,
+  "FireHandDown_K": 1,
+  "SideColliderCheckDis": 5,
+  "SideColJumpOffset": [
+    0.5,
+    0.600000024
+  ],
+  "SideColJumpStart": 5,
+  "FireCameraDelayMin": 0.150000006,
+  "FireCameraDelayMax": 0.25,
+  "MotoNoGravityPitchAngle": -90,
+  "MotoGroundAngleCheckRadius": 0.5,
+  "MotoGroundAngleCheckBackRadius": 0.25,
+  "MotoAirFrontCheckDis": 0.5,
+  "MotoRearWheelOffsetBackDis": 0.100000001,
+  "MotoTurnBackMinScale": 0.400000006,
+  "MotoTurnBackMaxScale": 3,
+  "MotoTurnBackThresholdRate": 180,
+  "coiledtypeThree_Midhigh": 3.20000005,
+  "ShootFireCameraOffsetAngle": 0,
+  "IsRayCastWallHeight": 1,
+  "FeiSuoJumpMaxRotateSpeed": 300,
+  "FeiSuoJumpRotateTime": 0.150000006,
+  "FeiSuoJumpFindColliderUp": 0.5,
+  "FeiSuoJumpColliderUpDis": 0.5,
+  "coiledrush_flat_littleOffect": 2.5,
+  "coiledrush_flat_normalOffect": 4.5,
+  "coiledrush_flat_largeOffect": 6.80000019,
+  "coiledrush_down_PosLen": 3,
+  "coiledrush_flat_ignoreOffect": 1,
+  "coiledrush_cliff_fornt": 0.600000024,
+  "coiled_cheightMid": 2,
+  "coiled_Rv1": 1,
+  "coiled_Rv2": 1,
+  "coiled_Rv3": 1,
+  "coiled_bounce_downani_high": 1.5,
+  "coiled_bounce_BX_k": 3.4000001,
+  "MotoRunSpeed": 10,
+  "MotoRushSpeed": 18,
+  "MotoRunStopTime": 0.633333385,
+  "MotoRushStopTime": 0.633333385,
+  "MotoIdleStopAccSpeed": 20,
+  "ShootXZdis": 20,
+  "FeiSuoExtraHitCheckDiff": 1,
+  "FeiSuoExtraHitCheckDis": 0.5,
+  "MotoAirEndChangeTime": 0.300000012,
+  "PreSwingTime": 0.26699999,
+  "CheckPosUnderGoundMaxHigh": 0.400000006,
+  "CheckPosUpHigh": 1,
+  "SwingPointSiftWallUpDis": 3,
+  "SwingPointSiftPlayerUpDis": 0.5,
+  "ignoreIKDis": 5,
+  "MotoAngleCheckTolerance": 5,
+  "ShowWallUIDelayTime": 1,
+  "MotoRunTurnBackDecelerateTime": 0.300000012,
+  "MotoRushTurnBackDecelerateTime": 0.600000024,
+  "WallrushSpeedLimitedSlow": 6,
+  "SwitchPaoKuLongPressTime": 0.5,
+  "MindPowerMoveTransitionTime": 0.150000006,
+  "MotoRunSpeedChair": 15,
+  "MotoRunStopTimeChair": 0.633333385,
+  "MotoRushSpeedChair": 30,
+  "MotoRushStopTimeChair": 0.633333385,
+  "MotoAirGravityChair": 20,
+  "MotoAirMaxYSpeedChair": 60,
+  "MotoAngleCheckUpDisChair": 1.5,
+  "MotoFrontWheelOffsetChair": 0.5,
+  "MotoRearWheelOffsetChair": 1,
+  "MotoAngleCheckDwonDisChair": 4,
+  "MotoAngleCheckRecordTimeChair": 0.0500000007,
+  "MotoAirCheckDownDisChair": 1,
+  "MotoAirCheckDisChair": 0.300000012,
+  "MotoGroundAngleCheckRadiusChair": 0.5,
+  "MotoGroundAngleCheckBackRadiusChair": 0.25,
+  "MotoAirFrontCheckDisChair": 0.5,
+  "MotoRearWheelOffsetBackDisChair": 0.100000001,
+  "MotoNoGravityPitchAngleChair": -90,
+  "MotoAngleCheckToleranceChair": 5,
+  "ChairDashCd": 5,
+  "ChairDashAddSpeed": 20,
+  "ChairDashLastTime": 5,
+  "AirMoveNotJoyStickNotRushSpeedMoto": 10,
+  "AirMoveNotJoyStickInRushSpeedMoto": 20,
+  "AirMoveJoyStickInRushSpeedMoto": 20,
+  "AirMoveJoyStickNotRushSpeedMoto": 8,
+  "MonsterMoveTransitionSpeed": 3,
+  "MonsterMoveLeftRightChangeSpeed": 0.5,
+  "WallClimbIkForntDis": 1,
+  "WallClimbIkDis": 1,
+  "MonsterMoveLeftRightChangeThreshold": 10,
+  "ClimbAngularVelocity": 180,
+  "ClimbActionMinAge": 30,
+  "ClimbBodyIKUpDis": 0.100000001,
+  "ClimbExtraDownDis": 0.200000003,
+  "ClimbFindNextWallDis": 1,
+  "FindGroundUpDis": 0.5,
+  "FindGroundDownDis": 0.100000001,
+  "FindGroundDetR": 0.5,
+  "FindForwardCollideDis": 0.400000006,
+  "DefaultMaxStepHeight": 0.5,
+  "GroundTryClimbTime": 0,
+  "FindForwardCollideUpDis": 0.200000003,
+  "CoiledCanStartUPDis": 0.219999999,
+  "CoiledCanStartDetR": 0.5,
+  "CoiledCanStartHigh": 1.5,
+  "FindNearestCollideForwardDis": 3,
+  "FindNearestCollideMinY": 0.400000006,
+  "FindNearestCollideMaxY": 2,
+  "coiledtypeThree_Min": 0.800000012,
+  "coiledtypeThree_Min2": 0.400000006,
+  "FindNearestCollideCheckAngle": 60,
+  "FindClimbtopPosHigh": 1.29999995,
+  "JumpEndTypeMoreTime": 1,
+  "FindClimbtopLineDis": 1.5,
+  "ClimbRotateAng": -50,
+  "ClimbRotateForwardDis": 2,
+  "MotoSlopeCheckRate": 0.699999988,
+  "BlendtreeJoyDelayTime": 0.0666000023,
+  "SlowClimbIkOffset": [
+    0.0700000003,
+    0.129999995
+  ],
+  "SlowClimbIkOffsetBack": [
+    0.0700000003,
+    0.129999995
+  ],
+  "CrouchFindAdsorbXZLessDis": 0.300000012,
+  "CrouchFindAdsorbMinY": 0,
+  "CrouchFindAdsorbMaxY": 1,
+  "CrouchFindAdsorbMaxXZ": 0.800000012,
+  "CrouchFindAdsorbStaticXZ": 0.400000006,
+  "TouchNPCRadius": 0.600000024,
+  "TouchNPCDis": 3,
+  "TouchNPCMaxDis": 5,
+  "WalkTouchNPCDis": 0.5,
+  "TouchNPCTime": 0.800000012,
+  "CrouchFeiSuoLineHangUpDis": 0.300000012,
+  "CrouchFeiSuoLineHangXZDis": 0.5,
+  "CrouchFeiSuoLineHangDetR": 0.200000003,
+  "CrouchFeiSuoLineHangMinHight": 0.5,
+  "ClimbPosADis": 0.00999999978,
+  "ClimbPosBBackDis": 0.5,
+  "ClimbPosBMotionDis": 0.100000001,
+  "ClimbPosBFinallyDis": 2,
+  "ClimbPosBAngle": 45,
+  "ClimbRotateSpeed": 200,
+  "ClimbStayRotateSpeed": 300,
+  "ClimbAwayCoiledDis": 0.5,
+  "ClimbUpOutFindDis": 0.5,
+  "ClimbUpForwardFindDis": 0.5,
+  "CoiledFirstFindBestDis": 0.5,
+  "WallLowCoiledForwardDis": 3,
+  "WallLowCoiledBackDis": 0.5,
+  "WallLowCoiledExtraForwardDis": 0.5,
+  "WallLowCoiledInDis": 0.5,
+  "WallHighCoiledFirstAwayDis": 0.5,
+  "WallHighCoiledNotWallExtraForwardDis": 0.5,
+  "WallHighCoiledBackDis": 0.5,
+  "WallHighCoiledAwayDis": 3,
+  "WallHighCoiledExtraForwardDis": 0.5,
+  "WallHighCoiledInDis": 0.5,
+  "SwimNormalSpeed": 5,
+  "SwimTurbulenceSpeed": 1,
+  "SwimFindWaterVoxelUpDis": 0.5,
+  "SwimLeaveWaterCheckTolerance": 0.100000001,
+  "SwimFloatTransitionTime": 0.800000012,
+  "SwimJumpHigh": 1.5,
+  "TeamUiAction": [
+    66,
+    6001
+  ],
+  "TeamChooseUiAction": [
+    1,
+    1001
+  ],
+  "DetailUiAction": [
+    1,
+    1001
+  ],
+  "WeaponUiAction": [
+    3,
+    1001
+  ],
+  "TeamUiShowActionList": [
+    66,
+    6005,
+    6010
+  ],
+  "DetailUiShowActionList": [
+    66,
+    6011,
+    6015
+  ],
+  "ChairShowActionFirstDelayTime": [
+    2,
+    4
+  ],
+  "ChairShowActionNormalDelayTime": [
+    8,
+    12
+  ],
+  "MainShowActionFirstDelayTime": [
+    5,
+    8
+  ],
+  "MainShowActionNormalDelayTime": [
+    15,
+    20
+  ],
+  "ShowActionRepeatRate": 0.200000003,
+  "DirectionSameTolerance": 5,
+  "HoldAttackRunFindEnemyMaxAng": 30,
+  "HoldAttackRushFindEnemyMaxAng": 30,
+  "HoldFindEnemyDetV": 0.100000001,
+  "TeamUiActionFacing": 200,
+  "ShowActionDelayTime": [
+    25,
+    40
+  ],
+  "WorldShowActionRepeatRate": 0.200000003,
+  "SwimTargetSafeHeight": 0.300000012,
+  "VehicleTargetSafeHeight": 0.300000012,
+  "NormalIdleAction": [
+    1,
+    1001
+  ],
+  "IdleShowActionList": [
+    6100,
+    6110
+  ],
+  "MagnetHoldFindGroundEffect": 53800411,
+  "MagnetHoldEndEffect": 53800412,
+  "MagnetXZPos": 3,
+  "MagnetA_K": 4,
+  "MagnetB_X": 0,
+  "MagnetMaxLeaveDis": 6,
+  "MindHoldThingEffect": 53800414,
+  "MindHoldEndEffect": 53800416,
+  "MindHoldNeedCleanEffect": 53103370,
+  "MindHoldNeedEndEffect": 53103371,
+  "EnemyFallDis": 1,
+  "EnemyFallGravity": 20,
+  "ChairDashCost": 30,
+  "ChairRushCost": 20,
+  "SlowClimbOutSpeed": 0.5,
+  "ChairCostRecover": 20,
+  "NotNewActionAge": 25,
+  "NeedTurnAge": 105,
+  "HengliangVerAng": 62,
+  "WalkTouchFindNpcZDis": 2,
+  "WalkTouchFindNpcXDis": 1,
+  "TouchFindNpcCloseDis": 0.5,
+  "WalkTouchFindNpcActionZDis": 0.600000024,
+  "RunTouchFindNpcZDis": 2,
+  "RunTouchFindNpcXDis": 1,
+  "RunTouchFindNpcActionZDis": 0.600000024,
+  "RushTouchFindNpcZDis": 2,
+  "RushTouchFindNpcXDis": 1,
+  "RushTouchFindNpcActionZDis": 0.699999988,
+  "RushTouchNpcActionSpeed": 0.800000012,
+  "CheckLinemaxDis": 0.400000006,
+  "Hlflytime": 0.0666700006,
+  "findHL_R": 0.5,
+  "findHL_Y": 0.800000012,
+  "find_Low_Y": -0.0500000007,
+  "SlideCrossDis": 2.5,
+  "SlideCross_R": 1,
+  "HasWallDis": 2.5,
+  "EndPointDis": 0.5,
+  "CrouchWallUpDis": 0.5,
+  "SlideCrossMoveTime": 0.2333,
+  "FeisuoPointTurnAng": 110,
+  "FeisuoPointTurnTime": 0.200000003,
+  "DriverEnterXZOffset": [
+    -1.49102998,
+    0.0509000011
+  ],
+  "DriverEnterAngleOffset": 90,
+  "DriverEnterAngleOffsetDoorOpen": 45,
+  "LeaveHLtime": 0.2667,
+  "EnterCarCameraTransitionTime": 0.5,
+  "PlayerCapsuleRadius": 0.300000012,
+  "HengliangTime2": 0.200000003,
+  "HengliangTime3": 0.366699994,
+  "HengliangTime4": 0.200000003,
+  "HengliangTime6": 0.300000012,
+  "HengliangTime7": 0.200000003,
+  "HengliangTime8": 0.449999988,
+  "MotoCheckHitDis": 0.460000008,
+  "BuildMinDis_wall": 0.699999988,
+  "BuildTopLeave_K": 4,
+  "BuildTopLeave_A": -2,
+  "MotoCheckHitAngle": 30,
+  "LeaceCarXZOffset": [
+    -1.45000005,
+    -0.170000002
+  ],
+  "RunUpLessDetV": 0.100000001,
+  "BanDodgeSkillParkourState": [
+    2,
+    3,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    18,
+    19
+  ],
+  "FeisuoLine2to1Dis": 0.800000012,
+  "FeisuoLineMinDis": 0.5,
+  "FeisuoLineMaxAng": 30,
+  "OpenRunSlowUpParkourState": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    19
+  ],
+  "RunUpNeedRecordFrame": 10,
+  "CapsuleChangeInterval": 0.200000003,
+  "MotoCapsuleRadius": 0.5,
+  "CliffJumpYSpeed": 20,
+  "GetCheckAirEdgeAngOfPlayandJoy": 35,
+  "VirtualSwingPointCheckY": 200,
+  "VirtualSwingPointZDis": 30,
+  "VirtualSwingPointXDis": 10,
+  "VirtualSwingPointYDis": 25,
+  "CliffStayCameraOffsetLenth": 1,
+  "CliffStayCameraOffsetTime": 1,
+  "CheckFeiSuoPointUp": 0.100000001,
+  "CommonType52ActionSwitch": [
+    {
+      "Type5Id": 4551,
+      "Type2Id": 4554
+    },
+    {
+      "Type5Id": 4552,
+      "Type2Id": 4555
+    },
+    {
+      "Type5Id": 4561,
+      "Type2Id": 4564
+    },
+    {
+      "Type5Id": 4562,
+      "Type2Id": 4565
+    }
+  ],
+  "FindCoiledHengLiang": 3,
+  "HengliangFindCoiledPos": 1,
+  "feisuoLockTargetScreenOffset": [
+    0,
+    0.180000007
+  ],
+  "feisuoLockTargetBlendTime": 1,
+  "feisuoLockTargetRotateRange": [
+    40,
+    0.449999988
+  ],
+  "feisuoLockTargetSelectRange": 30,
+  "feisuoLockTargetSelectAngle": 120,
+  "feisuoLockTargetSelectMaxHight": 8,
+  "feisuoLockTargetSelectMinHight": 15,
+  "feisuoLockTargetSelectCenter": 10,
+  "crouchLockTargetHandControlCD": 1,
+  "crouchLockTargetBlendTime": 1,
+  "crouchLockTargetScreenOffset": [
+    0,
+    0.300000012
+  ],
+  "ClimbIkFadeInTime": 0.300000012,
+  "ClimbIkFadeOutTime": 0.300000012,
+  "HandsClimbIkRayCastFrontDis": 0.5,
+  "HandsClimbIkRayCastLeftRightDis": 0.5,
+  "HandsClimbIkRayCastDownDis": 0.5,
+  "HandsClimbIkRayCastLeftRightAngle": 60,
+  "HandsClimbIkRayCastDownAngle": 60,
+  "FootsClimbIkBackDis": 0.5,
+  "FootsClimbIkRayCastFrontDis": 0.5,
+  "FootsClimbIkRayCastUpDis": 1,
+  "FootsClimbIkUpDis": 0.100000001,
+  "DynamicFeiSuoMaxSpeed": 60,
+  "CrouchIKFadeTime": 0.200000003,
+  "CrouchIKCameraFirstPosDis": 12,
+  "CrouchEyeHigh": 0.800000012,
+  "LookToDis": 8,
+  "CrouchRunIKBodyHand": {
+    "body": 0.100000001,
+    "head": 0.800000012
+  },
+  "CrouchIKBodyHand": {
+    "body": 0.100000001,
+    "head": 0.800000012
+  },
+  "CrouchIKFadeOutTime": 0.150000006,
+  "ClimbFacingUpDis": 1.5,
+  "ClimbFacingLeftRightDis": 0.300000012,
+  "ClimbFacingFrontDis": 0.300000012,
+  "ClimbFacingInclineDis": 0.300000012,
+  "ClimbFacingInclineAngle": 60,
+  "ClimbHandOffset": 0.100000001,
+  "ClimbFootOffset": 0.200000003,
+  "ClimbHandRotate": {
+    "X": -0.379999995,
+    "Y": -72.5899963,
+    "Z": -92.0599976
+  },
+  "ClimbIKMaxDis": 0.0299999993,
+  "ClimbLeftHandRotate": {
+    "X": 2.50999999,
+    "Y": -100.57,
+    "Z": -92.8399963
+  },
+  "ClimbHandRotateSpeed": 0.200000003,
+  "EnterCarPositionTransition": [
+    {
+      "typeid": 8501,
+      "delaytime": 0.800000012,
+      "duringtime": 0.699999988
+    },
+    {
+      "typeid": 8511,
+      "delaytime": 3.9000001,
+      "duringtime": 0.800000012
+    },
+    {
+      "typeid": 8510,
+      "delaytime": 7.9000001,
+      "duringtime": 0.800000012
+    },
+    {
+      "typeid": 8521,
+      "delaytime": 0.800000012,
+      "duringtime": 0.400000006
+    },
+    {
+      "typeid": 8583,
+      "delaytime": 2.5,
+      "duringtime": 1
+    },
+    {
+      "typeid": 8580,
+      "delaytime": 1.70000005,
+      "duringtime": 1
+    },
+    {
+      "typeid": 8570,
+      "delaytime": 0,
+      "duringtime": 0.300000012
+    },
+    {
+      "typeid": 8571,
+      "delaytime": 1,
+      "duringtime": 1.33000004
+    },
+    {
+      "typeid": 8573,
+      "delaytime": 0,
+      "duringtime": 0.300000012
+    },
+    {
+      "typeid": 8574,
+      "delaytime": 1,
+      "duringtime": 1.29999995
+    },
+    {
+      "typeid": 8532,
+      "delaytime": 1.5,
+      "duringtime": 0.5
+    },
+    {
+      "typeid": 8506,
+      "delaytime": 0.200000003,
+      "duringtime": 1
+    },
+    {
+      "typeid": 8592,
+      "delaytime": 1,
+      "duringtime": 1
+    },
+    {
+      "typeid": 8526,
+      "delaytime": 0.200000003,
+      "duringtime": 1
+    },
+    {
+      "typeid": 8611,
+      "delaytime": 1.39999998,
+      "duringtime": 0.449999988
+    },
+    {
+      "typeid": 8621,
+      "delaytime": 1,
+      "duringtime": 0.600000024
+    }
+  ],
+  "LeaveCarPositionTransition": [
+    {
+      "typeid": 8503,
+      "delaytime": 0.400000006,
+      "duringtime": 0.200000003,
+      "leaveRigidTime": 1.5
+    },
+    {
+      "typeid": 8591,
+      "delaytime": 1.5,
+      "duringtime": 1,
+      "leaveRigidTime": 1.83299994
+    },
+    {
+      "typeid": 8507,
+      "delaytime": 0.5,
+      "duringtime": 0.5,
+      "leaveRigidTime": 1
+    },
+    {
+      "typeid": 8582,
+      "delaytime": 1.5,
+      "duringtime": 1,
+      "leaveRigidTime": 3
+    },
+    {
+      "typeid": 8585,
+      "delaytime": 2,
+      "duringtime": 1,
+      "leaveRigidTime": 3
+    },
+    {
+      "typeid": 8523,
+      "delaytime": 0.532999992,
+      "duringtime": 0.300000012,
+      "leaveRigidTime": 1.20000005
+    },
+    {
+      "typeid": 8527,
+      "delaytime": 0.5,
+      "duringtime": 0.5,
+      "leaveRigidTime": 1.20000005
+    },
+    {
+      "typeid": 8613,
+      "delaytime": 0.600000024,
+      "duringtime": 0.5,
+      "leaveRigidTime": 1.20000005
+    },
+    {
+      "typeid": 8623,
+      "delaytime": 1.33299994,
+      "duringtime": 0.300000012,
+      "leaveRigidTime": 1.20000005
+    },
+    {
+      "typeid": 8821,
+      "delaytime": 0.400000006,
+      "duringtime": 0.200000003,
+      "leaveRigidTime": 1.5
+    }
+  ],
+  "EnterCarIKTransition": [
+    {
+      "typeid": 8501,
+      "delaytime": 1.70000005,
+      "duringtime": 1,
+      "offsetY": 0.159999996
+    },
+    {
+      "typeid": 8511,
+      "delaytime": 4,
+      "duringtime": 0.800000012,
+      "offsetY": 0.159999996
+    }
+  ],
+  "CheckWallNormalDis": 0.300000012,
+  "CheckWallNormalMinAng": 5,
+  "LeaveCarIKTransition": [
+    {
+      "typeid": 8503,
+      "delaytime": 0,
+      "duringtime": 5,
+      "offsetY": 0.159999996
+    }
+  ],
+  "CapsuleNeedSlipDis": 0.100000001,
+  "CapsuleNeedSlipMaxChange": 0.200000003,
+  "TouchGroundNextDis": 0.200000003,
+  "EnterCarFootOffset": [
+    -0.174560398,
+    0.0935054123
+  ],
+  "LeaveCarCheckSpeed": 10,
+  "FeiSuoHanEffectMoveTime": 0.200000003,
+  "MytoFirstSlip": 5,
+  "FirstoScendSlip": 0.400000006,
+  "LeaveCarCheckUpDis": 0.349999994,
+  "LeaveCarCheckFrontDis": 1.45000005,
+  "LeaveCarCheckSuccessDis": 1,
+  "LeaveCarCheckBackDis": 0.100000001,
+  "LeaveCarCheckDownDis": 0.699999988,
+  "RushVEveryBody": [
+    7.36000013,
+    8.77000046,
+    9.31000042,
+    7.36000013,
+    8.77000046,
+    9.31000042
+  ],
+  "NeedSlipMaxXZSpeed": 2.5,
+  "UpbodyBoneYawAxis": {
+    "X": 0,
+    "Y": 1,
+    "Z": 0
+  },
+  "UpbodyBonePitchAxis": {
+    "X": 1,
+    "Y": 0,
+    "Z": 0
+  },
+  "SwingOtherSideAddPointLastTime": 10,
+  "SwingOtherSideAddPoint": 80,
+  "ShootBattleNormGroup": 25,
+  "HoldWeaponNormGroup": 250,
+  "HoldWeaponAttackNormGroup": 26,
+  "DiscoDownTime": 3,
+  "ArcadegameCanSitEnterAniType": 4125026,
+  "ArcadegameCanSitLoopAniType": 4126026,
+  "ArcadegameCanSitLeaveAniType": 4127026,
+  "ArcadegameEnterAniType": 4120026,
+  "ArcadegameLoopAniType": 4121026,
+  "ArcadegameLeaveAniType": 4122026,
+  "DollmachineEnterAniType": 4120026,
+  "DollmachineLoopAniType": 4121026,
+  "DollmachineLeaveAniType": 4122026,
+  "DestroyWindowDis": 1.5,
+  "GamepadWalkThreshold": 0.75,
+  "IsRayCastWall2NoJoyDis": 1,
+  "CrouchCapsulBodyDis": 0.300000012,
+  "CrouchCapsulBodyHigh": 1.20000005,
+  "FeisuoEffectTransitionTime": 0.200000003,
+  "WallDashCheckTime": 0.5,
+  "HoldSixBlendTime": 0.150000006,
+  "WallSuperJumpFrontDis": 12,
+  "TopLeaveWallMinV": 5,
+  "TopLeaveWalldY": 0.300000012,
+  "CheckAirUpHigh": 0.400000006,
+  "CheckAirDownHigh": 2,
+  "CheckAirDowndt": 0.200000003,
+  "DragholdMinAng": 110,
+  "WallNormalForWroldYAng": 45,
+  "CarShootUPAng": 10,
+  "CarShootDownAng": -60,
+  "CarShootYaxisRange": {
+    "minY": 0.444000006,
+    "maxY": 0.787999988
+  },
+  "CarShootBlendTime": 0.400000006,
+  "CarShootBlendCurveId": 67100368,
+  "CarShootHideShootSwitchAngle": {
+    "enterAngle": -40,
+    "leftEdgeAngle": -60,
+    "rightEdgeAngle": -15
+  },
+  "CarShootAimParameters": {
+    "offsetDis": 2.5,
+    "minDis": 4,
+    "maxDis": 50
+  },
+  "IdleKCameraFirstPosDis": 12,
+  "PoChuangCheckTime": 0.5,
+  "PoChuangZSpeedStartTime": 0.600000024,
+  "PoChuangZSpeedDuringTime": 0.400000006,
+  "PoChuangZEndSpeed": 5,
+  "DynamicBindItemDestroyTime": 300,
+  "PushNPCMinDis": 0.5,
+  "PushNPCMaxDis": 0.600000024,
+  "PushNPCXMinDis": 0.100000001,
+  "PushNPCXMaxDis": 0.5,
+  "wallclimbturnfront": 0.400000006,
+  "CollisionLevel": [
+    40,
+    70
+  ],
+  "PipeFrontDis": 0.400000006,
+  "PipeFindR": 0.600000024,
+  "EnterBackCar": 5,
+  "ExitBackCar": 5,
+  "NeedChangeNPCphoneAction": [
+    14005001,
+    14006001,
+    14007001,
+    4065027,
+    4066027,
+    4067027,
+    4068027,
+    4069027,
+    4100027,
+    4101027,
+    4102001,
+    4103027,
+    14010001,
+    8671001,
+    8672001,
+    8673001,
+    14013001,
+    14014001,
+    14015001,
+    14016001,
+    14017001
+  ],
+  "PushNpcCD": 3,
+  "RoofLine": [
+    50,
+    45,
+    3
+  ],
+  "BulgeLine": [
+    0,
+    0.5,
+    3
+  ],
+  "DepressionLine": [
+    1,
+    0,
+    0.200000003,
+    3,
+    4
+  ],
+  "FootPoint": [
+    0.100000001
+  ],
+  "AnimLookAtIK": 0,
+  "ActionSelectorParam": 0,
+  "WeaponLayerActionType": [
+    18,
+    19
+  ],
+  "PushNpcDelayTime": 0.300000012,
+  "DeepWaterLine": [
+    {
+      "WaterLine": 0,
+      "WaterEffect": "fx_sc_interaction_waterjump01"
+    },
+    {
+      "WaterLine": 0.200000003,
+      "WaterEffect": "fx_sc_interaction_waterjump"
+    },
+    {
+      "WaterLine": 0.5,
+      "WaterEffect": "fx_sc_interaction_waterjump02"
+    },
+    {
+      "WaterLine": 1,
+      "WaterEffect": "fx_sc_interaction_waterjump03"
+    }
+  ],
+  "FallIntoWaterEffect": [
+    {
+      "SpeedLine": 10,
+      "WaterEffect": "fx_sc_interaction_waterfall"
+    },
+    {
+      "SpeedLine": 20,
+      "WaterEffect": "fx_sc_interaction_waterfall"
+    }
+  ],
+  "Timeline20BlendFadeTime": 0.400000006,
+  "ProwlCapsulBodyHigh": 1.5,
+  "ShootAimDis": 10,
+  "ShootAimNeedTurnAngle": [
+    -2,
+    2
+  ],
+  "ShootAimMaxAngle": [
+    -160,
+    160
+  ],
+  "ShootAimUpDis": 0.200000003,
+  "ShootAimIdleAction": [
+    16001001,
+    16005001,
+    16006001
+  ],
+  "earphoneoutVx": 3,
+  "earphoneoutVy": -1,
+  "earphoneoutVz": 1,
+  "WalkJoystickCheckTime": 0.5,
+  "SwimWaveRadius": 0.200000003,
+  "SwimWaveCount": 0.300000012,
+  "SwimWaveStrength": 1.29999995,
+  "RunWallInputForwardThreshold": 22.5,
+  "WallRotateLerpSpeed": 90,
+  "CrouchChangeLineMinDis": 0.800000012,
+  "CrouchCanMoveAngle": 15,
+  "UnderWaterDetectDistance": 100,
+  "EnterDiveDistance": 2,
+  "EnterSwimDistance": 0.5,
+  "CameraEnterWaveEffectId": 53621010,
+  "CameraEnterWaveFilterPath": "Assets/Res/env/3dmodels/map01/outdoor/daiqianyi/map01_outdoor_daiqianyi_logo01a/sc_fd_ytyh_wather_digong.mat",
+  "CameraEnterWaveFilterHeight": 43.5
+}

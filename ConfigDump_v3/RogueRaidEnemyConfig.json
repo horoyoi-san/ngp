@@ -1,0 +1,643 @@
+{
+  "_class": "RogueRaidEnemyConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 61,
+  "records": [
+    {
+      "Id": 10140100,
+      "Name": "测试组",
+      "EnemyList": [
+        40151000,
+        40151005,
+        40151013,
+        40151014,
+        40151021,
+        40151028
+      ],
+      "Type": 1,
+      "Available": false
+    },
+    {
+      "Id": 10140101,
+      "Name": "狂悖野猪",
+      "EnemyList": [
+        40180116,
+        40180117,
+        40180119
+      ],
+      "Type": 1,
+      "Available": true
+    },
+    {
+      "Id": 10140102,
+      "Name": "八面兽",
+      "EnemyList": [
+        40125001,
+        40125002,
+        40125003,
+        40125004,
+        40125010,
+        40125011,
+        40125012,
+        40125013
+      ],
+      "Type": 1,
+      "Available": true
+    },
+    {
+      "Id": 10140103,
+      "Name": "梦核怪",
+      "EnemyList": [
+        40900785,
+        40900786,
+        40900787
+      ],
+      "Type": 1,
+      "Available": true
+    },
+    {
+      "Id": 10140104,
+      "Name": "山王会",
+      "EnemyList": [
+        40122100,
+        40122101,
+        40122103,
+        40122104
+      ],
+      "Type": 1,
+      "Available": true
+    },
+    {
+      "Id": 10140105,
+      "Name": "锅联会",
+      "EnemyList": [
+        40147015,
+        40147016,
+        40147017,
+        40147018,
+        40147019
+      ],
+      "Type": 1,
+      "Available": false
+    },
+    {
+      "Id": 10140106,
+      "Name": "新战斗循环验证（5小1大）",
+      "EnemyList": [
+        40951160,
+        40951160,
+        40951160,
+        40951160,
+        40951160,
+        40124010
+      ],
+      "Type": 1,
+      "Available": true
+    },
+    {
+      "Id": 10140107,
+      "Name": "新战斗循环验证（2大）",
+      "EnemyList": [
+        40124010,
+        40124010
+      ],
+      "Type": 1,
+      "Available": true
+    },
+    {
+      "Id": 10140108,
+      "Name": "新战斗循环验证（5小2大）",
+      "EnemyList": [
+        40951160,
+        40951160,
+        40951160,
+        40951160,
+        40951160,
+        40124010,
+        40124010
+      ],
+      "Type": 1,
+      "Available": true
+    },
+    {
+      "Id": 10140109,
+      "Name": "混厄工厂工人",
+      "EnemyList": [
+        40151000,
+        40151005,
+        40151013,
+        40151014,
+        40151021,
+        40151028
+      ],
+      "Type": 1,
+      "Available": true
+    },
+    {
+      "Id": 10140110,
+      "Name": "谜面帮",
+      "EnemyList": [
+        40121745,
+        40121579,
+        40120878,
+        40121467,
+        40120856,
+        40122034
+      ],
+      "Type": 1,
+      "Available": true
+    },
+    {
+      "Id": 10140111,
+      "Name": "电视机头",
+      "EnemyList": [
+        40120855,
+        40120694,
+        40120857,
+        40121476,
+        40120879,
+        40120865
+      ],
+      "Type": 1,
+      "Available": true
+    },
+    {
+      "Id": 10140112,
+      "Name": "焱风联合会测试",
+      "EnemyList": [
+        40900717,
+        40900721,
+        40900722,
+        40900725,
+        40900759,
+        40150002
+      ],
+      "Type": 1,
+      "Available": true
+    },
+    {
+      "Id": 10140113,
+      "Name": "安保",
+      "EnemyList": [
+        40124013,
+        40124050,
+        40124052,
+        40124054,
+        40124058,
+        40124062
+      ],
+      "Type": 1,
+      "Available": true
+    },
+    {
+      "Id": 10140114,
+      "Name": "黑金组",
+      "EnemyList": [
+        40962002,
+        40962002,
+        40962002,
+        40962014,
+        40962014,
+        40962014
+      ],
+      "Type": 1,
+      "Available": true
+    },
+    {
+      "Id": 10140115,
+      "Name": "浪摄团",
+      "EnemyList": [
+        40151902,
+        40150400,
+        40151907
+      ],
+      "Type": 1,
+      "Available": true
+    },
+    {
+      "Id": 10140116,
+      "Name": "群怪测试-五阶段",
+      "EnemyList": [
+        40951254,
+        40951254,
+        40951254,
+        40951254,
+        40951255,
+        40951255,
+        40951255,
+        40951255,
+        40951256,
+        40951256
+      ],
+      "Type": 1,
+      "Available": true
+    },
+    {
+      "Id": 10140117,
+      "Name": "群怪测试-三阶段",
+      "EnemyList": [
+        40951251,
+        40951251,
+        40951251,
+        40951252,
+        40951252,
+        40951252,
+        40951253
+      ],
+      "Type": 0,
+      "Available": true
+    },
+    {
+      "Id": 10140118,
+      "Name": "群怪测试-一阶段",
+      "EnemyList": [
+        40951248,
+        40951248,
+        40951249,
+        40951249,
+        40951250
+      ],
+      "Type": 1,
+      "Available": true
+    },
+    {
+      "Id": 10140119,
+      "Name": "超频帮测试",
+      "EnemyList": [
+        40900742,
+        40900748,
+        40900749,
+        40900755,
+        40900756
+      ],
+      "Type": 0,
+      "Available": false
+    },
+    {
+      "Id": 10140120,
+      "Name": "",
+      "EnemyList": [],
+      "Type": 0,
+      "Available": false
+    },
+    {
+      "Id": 10140201,
+      "Name": "",
+      "EnemyList": [],
+      "Type": 0,
+      "Available": false
+    },
+    {
+      "Id": 10140202,
+      "Name": "盖斯",
+      "EnemyList": [
+        40650521
+      ],
+      "Type": 2,
+      "Available": false
+    },
+    {
+      "Id": 10140203,
+      "Name": "源治",
+      "EnemyList": [
+        45156030
+      ],
+      "Type": 2,
+      "Available": true
+    },
+    {
+      "Id": 10140204,
+      "Name": "冈田勇",
+      "EnemyList": [
+        45156031
+      ],
+      "Type": 2,
+      "Available": true
+    },
+    {
+      "Id": 10140205,
+      "Name": "蒸汽狂飙",
+      "EnemyList": [
+        45156028
+      ],
+      "Type": 2,
+      "Available": true
+    },
+    {
+      "Id": 10140206,
+      "Name": "塔菲",
+      "EnemyList": [
+        40650502
+      ],
+      "Type": 2,
+      "Available": false
+    },
+    {
+      "Id": 10140207,
+      "Name": "里希",
+      "EnemyList": [
+        40650508
+      ],
+      "Type": 2,
+      "Available": false
+    },
+    {
+      "Id": 10140208,
+      "Name": "嘉姆",
+      "EnemyList": [
+        40650500
+      ],
+      "Type": 2,
+      "Available": false
+    },
+    {
+      "Id": 10140209,
+      "Name": "爱琳",
+      "EnemyList": [
+        40650501
+      ],
+      "Type": 2,
+      "Available": false
+    },
+    {
+      "Id": 10140210,
+      "Name": "莱卡娅",
+      "EnemyList": [
+        40650504
+      ],
+      "Type": 2,
+      "Available": false
+    },
+    {
+      "Id": 10140211,
+      "Name": "晴",
+      "EnemyList": [
+        40650507
+      ],
+      "Type": 2,
+      "Available": false
+    },
+    {
+      "Id": 10140212,
+      "Name": "格温",
+      "EnemyList": [
+        40650520
+      ],
+      "Type": 2,
+      "Available": false
+    },
+    {
+      "Id": 10140213,
+      "Name": "洛德",
+      "EnemyList": [
+        40650526
+      ],
+      "Type": 2,
+      "Available": false
+    },
+    {
+      "Id": 10140214,
+      "Name": "七星剑",
+      "EnemyList": [
+        40960992,
+        40960993,
+        40960994,
+        40960995,
+        40960996,
+        40960997,
+        40960998
+      ],
+      "Type": 2,
+      "Available": false
+    },
+    {
+      "Id": 10140215,
+      "Name": "伪人-近战",
+      "EnemyList": [
+        40124079
+      ],
+      "Type": 2,
+      "Available": true
+    },
+    {
+      "Id": 10140216,
+      "Name": "伪人-远程",
+      "EnemyList": [
+        40124091
+      ],
+      "Type": 2,
+      "Available": true
+    },
+    {
+      "Id": 10140217,
+      "Name": "程酿",
+      "EnemyList": [],
+      "Type": 2,
+      "Available": false
+    },
+    {
+      "Id": 10140218,
+      "Name": "安保精英三人组",
+      "EnemyList": [
+        40124009,
+        40124010,
+        40124011
+      ],
+      "Type": 2,
+      "Available": true
+    },
+    {
+      "Id": 10140219,
+      "Name": "",
+      "EnemyList": [],
+      "Type": 0,
+      "Available": false
+    },
+    {
+      "Id": 10140220,
+      "Name": "",
+      "EnemyList": [],
+      "Type": 0,
+      "Available": false
+    },
+    {
+      "Id": 10140301,
+      "Name": "鹿听雨",
+      "EnemyList": [
+        40650524
+      ],
+      "Type": 3,
+      "Available": false
+    },
+    {
+      "Id": 10140302,
+      "Name": "李扶风",
+      "EnemyList": [
+        40650522
+      ],
+      "Type": 3,
+      "Available": false
+    },
+    {
+      "Id": 10140303,
+      "Name": "陆辛夷",
+      "EnemyList": [
+        40650523
+      ],
+      "Type": 3,
+      "Available": false
+    },
+    {
+      "Id": 10140304,
+      "Name": "时临",
+      "EnemyList": [
+        40650529
+      ],
+      "Type": 3,
+      "Available": false
+    },
+    {
+      "Id": 10140305,
+      "Name": "洛芙",
+      "EnemyList": [
+        40650518
+      ],
+      "Type": 3,
+      "Available": false
+    },
+    {
+      "Id": 10140306,
+      "Name": "罗伯特",
+      "EnemyList": [
+        40650516
+      ],
+      "Type": 3,
+      "Available": false
+    },
+    {
+      "Id": 10140307,
+      "Name": "林震",
+      "EnemyList": [
+        40650514
+      ],
+      "Type": 3,
+      "Available": false
+    },
+    {
+      "Id": 10140308,
+      "Name": "戚明华",
+      "EnemyList": [
+        40650513
+      ],
+      "Type": 3,
+      "Available": false
+    },
+    {
+      "Id": 10140309,
+      "Name": "张谷丰",
+      "EnemyList": [
+        40650512
+      ],
+      "Type": 3,
+      "Available": false
+    },
+    {
+      "Id": 10140310,
+      "Name": "叶惊澜",
+      "EnemyList": [
+        40650511
+      ],
+      "Type": 3,
+      "Available": false
+    },
+    {
+      "Id": 10140311,
+      "Name": "周晓",
+      "EnemyList": [
+        40650510
+      ],
+      "Type": 3,
+      "Available": false
+    },
+    {
+      "Id": 10140312,
+      "Name": "阿青",
+      "EnemyList": [
+        40650509
+      ],
+      "Type": 3,
+      "Available": false
+    },
+    {
+      "Id": 10140313,
+      "Name": "空空仙人",
+      "EnemyList": [
+        40650505
+      ],
+      "Type": 3,
+      "Available": false
+    },
+    {
+      "Id": 10140314,
+      "Name": "铁山",
+      "EnemyList": [
+        40650503
+      ],
+      "Type": 3,
+      "Available": false
+    },
+    {
+      "Id": 10140315,
+      "Name": "奥列格",
+      "EnemyList": [
+        45156029
+      ],
+      "Type": 3,
+      "Available": true
+    },
+    {
+      "Id": 10140316,
+      "Name": "张麒麟",
+      "EnemyList": [
+        40122000
+      ],
+      "Type": 3,
+      "Available": false
+    },
+    {
+      "Id": 10140317,
+      "Name": "科斯",
+      "EnemyList": [],
+      "Type": 3,
+      "Available": false
+    },
+    {
+      "Id": 10140318,
+      "Name": "力王",
+      "EnemyList": [],
+      "Type": 3,
+      "Available": false
+    },
+    {
+      "Id": 10140319,
+      "Name": "迈亚特",
+      "EnemyList": [
+        40924600
+      ],
+      "Type": 3,
+      "Available": false
+    },
+    {
+      "Id": 10140320,
+      "Name": "吊龙",
+      "EnemyList": [
+        40650515
+      ],
+      "Type": 3,
+      "Available": false
+    }
+  ],
+  "_dumpedCount": 61,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

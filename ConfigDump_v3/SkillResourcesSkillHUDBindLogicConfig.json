@@ -1,0 +1,406 @@
+{
+  "_class": "SkillResourcesSkillHUDBindLogicConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 19,
+  "records": [
+    {
+      "Id": 10,
+      "describe": "醉拳临时计数",
+      "skillResourceID": "ZuiQuanLayer",
+      "bindField": "count",
+      "bindType": 2,
+      "uiStoreName": "WeaponFightResUIStore",
+      "listContainerName": "",
+      "listContainerIndex": 0,
+      "bindLogicItems": []
+    },
+    {
+      "Id": 100,
+      "describe": "戚家刀-气刃条",
+      "skillResourceID": "QiJiaSwordLevel",
+      "bindField": "fightResUIFill",
+      "bindType": 1,
+      "uiStoreName": "WeaponFightResUIStore",
+      "listContainerName": "",
+      "listContainerIndex": 0,
+      "bindLogicItems": []
+    },
+    {
+      "Id": 101,
+      "describe": "戚家刀-气刃条",
+      "skillResourceID": "QiJiaSwordLevel",
+      "bindField": "fightResUIFillColorCtrl",
+      "bindType": 3,
+      "uiStoreName": "WeaponFightResUIStore",
+      "listContainerName": "",
+      "listContainerIndex": 0,
+      "bindLogicItems": [
+        {
+          "threshold": 59,
+          "result": 0,
+          "animClipName": "",
+          "animPlayMode": 0
+        },
+        {
+          "threshold": 100,
+          "result": 1,
+          "animClipName": "",
+          "animPlayMode": 0
+        }
+      ]
+    },
+    {
+      "Id": 110,
+      "describe": "形意拳-猫选中",
+      "skillResourceID": "PreXingyiGoldEnergy",
+      "bindField": "selecting",
+      "bindType": 3,
+      "uiStoreName": "WeaponFightResUIStore",
+      "listContainerName": "xingyiquanList",
+      "listContainerIndex": 0,
+      "bindLogicItems": [
+        {
+          "threshold": 1,
+          "result": 0,
+          "animClipName": "",
+          "animPlayMode": 0
+        },
+        {
+          "threshold": 3,
+          "result": 1,
+          "animClipName": "",
+          "animPlayMode": 0
+        }
+      ]
+    },
+    {
+      "Id": 111,
+      "describe": "形意拳-猪选中",
+      "skillResourceID": "PreXingyiWoodEnergy",
+      "bindField": "selecting",
+      "bindType": 3,
+      "uiStoreName": "WeaponFightResUIStore",
+      "listContainerName": "xingyiquanList",
+      "listContainerIndex": 1,
+      "bindLogicItems": [
+        {
+          "threshold": 1,
+          "result": 0,
+          "animClipName": "",
+          "animPlayMode": 0
+        },
+        {
+          "threshold": 3,
+          "result": 1,
+          "animClipName": "",
+          "animPlayMode": 0
+        }
+      ]
+    },
+    {
+      "Id": 112,
+      "describe": "形意拳-鹅选中",
+      "skillResourceID": "PreXingyiEarthEnergy",
+      "bindField": "selecting",
+      "bindType": 3,
+      "uiStoreName": "WeaponFightResUIStore",
+      "listContainerName": "xingyiquanList",
+      "listContainerIndex": 2,
+      "bindLogicItems": [
+        {
+          "threshold": 1,
+          "result": 0,
+          "animClipName": "",
+          "animPlayMode": 0
+        },
+        {
+          "threshold": 3,
+          "result": 1,
+          "animClipName": "",
+          "animPlayMode": 0
+        }
+      ]
+    },
+    {
+      "Id": 113,
+      "describe": "形意拳-猫能量满-样式",
+      "skillResourceID": "XingyiGoldEnergy",
+      "bindField": "energyFull",
+      "bindType": 3,
+      "uiStoreName": "WeaponFightResUIStore",
+      "listContainerName": "xingyiquanList",
+      "listContainerIndex": 0,
+      "bindLogicItems": [
+        {
+          "threshold": 99,
+          "result": 0,
+          "animClipName": "",
+          "animPlayMode": 0
+        },
+        {
+          "threshold": 100,
+          "result": 1,
+          "animClipName": "",
+          "animPlayMode": 0
+        }
+      ]
+    },
+    {
+      "Id": 114,
+      "describe": "形意拳-猪能量满-样式",
+      "skillResourceID": "XingyiWoodEnergy",
+      "bindField": "energyFull",
+      "bindType": 3,
+      "uiStoreName": "WeaponFightResUIStore",
+      "listContainerName": "xingyiquanList",
+      "listContainerIndex": 1,
+      "bindLogicItems": [
+        {
+          "threshold": 99,
+          "result": 0,
+          "animClipName": "",
+          "animPlayMode": 0
+        },
+        {
+          "threshold": 100,
+          "result": 1,
+          "animClipName": "",
+          "animPlayMode": 0
+        }
+      ]
+    },
+    {
+      "Id": 115,
+      "describe": "形意拳-鹅能量满-样式",
+      "skillResourceID": "XingyiEarthEnergy",
+      "bindField": "energyFull",
+      "bindType": 3,
+      "uiStoreName": "WeaponFightResUIStore",
+      "listContainerName": "xingyiquanList",
+      "listContainerIndex": 2,
+      "bindLogicItems": [
+        {
+          "threshold": 99,
+          "result": 0,
+          "animClipName": "",
+          "animPlayMode": 0
+        },
+        {
+          "threshold": 100,
+          "result": 1,
+          "animClipName": "",
+          "animPlayMode": 0
+        }
+      ]
+    },
+    {
+      "Id": 116,
+      "describe": "形意拳-猫能量满-动效",
+      "skillResourceID": "XingyiGoldEnergy",
+      "bindField": "firstAnim",
+      "bindType": 4,
+      "uiStoreName": "WeaponFightResUIStore",
+      "listContainerName": "xingyiquanList",
+      "listContainerIndex": 0,
+      "bindLogicItems": [
+        {
+          "threshold": 99,
+          "result": 0,
+          "animClipName": "",
+          "animPlayMode": 0
+        },
+        {
+          "threshold": 100,
+          "result": 1,
+          "animClipName": "",
+          "animPlayMode": 0
+        }
+      ]
+    },
+    {
+      "Id": 117,
+      "describe": "形意拳-猪能量满-动效",
+      "skillResourceID": "XingyiWoodEnergy",
+      "bindField": "secAnim",
+      "bindType": 4,
+      "uiStoreName": "WeaponFightResUIStore",
+      "listContainerName": "xingyiquanList",
+      "listContainerIndex": 1,
+      "bindLogicItems": [
+        {
+          "threshold": 99,
+          "result": 0,
+          "animClipName": "",
+          "animPlayMode": 0
+        },
+        {
+          "threshold": 100,
+          "result": 1,
+          "animClipName": "",
+          "animPlayMode": 0
+        }
+      ]
+    },
+    {
+      "Id": 118,
+      "describe": "形意拳-鹅能量满-动效",
+      "skillResourceID": "XingyiEarthEnergy",
+      "bindField": "thirdAnim",
+      "bindType": 4,
+      "uiStoreName": "WeaponFightResUIStore",
+      "listContainerName": "xingyiquanList",
+      "listContainerIndex": 2,
+      "bindLogicItems": [
+        {
+          "threshold": 99,
+          "result": 0,
+          "animClipName": "",
+          "animPlayMode": 0
+        },
+        {
+          "threshold": 100,
+          "result": 1,
+          "animClipName": "",
+          "animPlayMode": 0
+        }
+      ]
+    },
+    {
+      "Id": 119,
+      "describe": "形意拳-猫能量-Fill",
+      "skillResourceID": "XingyiGoldEnergy",
+      "bindField": "fill",
+      "bindType": 1,
+      "uiStoreName": "WeaponFightResUIStore",
+      "listContainerName": "xingyiquanList",
+      "listContainerIndex": 0,
+      "bindLogicItems": []
+    },
+    {
+      "Id": 120,
+      "describe": "形意拳-猪能量-Fill",
+      "skillResourceID": "XingyiWoodEnergy",
+      "bindField": "fill",
+      "bindType": 1,
+      "uiStoreName": "WeaponFightResUIStore",
+      "listContainerName": "xingyiquanList",
+      "listContainerIndex": 1,
+      "bindLogicItems": []
+    },
+    {
+      "Id": 121,
+      "describe": "形意拳-鹅能量-Fill",
+      "skillResourceID": "XingyiEarthEnergy",
+      "bindField": "fill",
+      "bindType": 1,
+      "uiStoreName": "WeaponFightResUIStore",
+      "listContainerName": "xingyiquanList",
+      "listContainerIndex": 2,
+      "bindLogicItems": []
+    },
+    {
+      "Id": 200,
+      "describe": "连击数-count",
+      "skillResourceID": "YongChunCombolCount",
+      "bindField": "count",
+      "bindType": 2,
+      "uiStoreName": "WeaponFightResUIStore",
+      "listContainerName": "",
+      "listContainerIndex": 0,
+      "bindLogicItems": []
+    },
+    {
+      "Id": 201,
+      "describe": "增长动效",
+      "skillResourceID": "YongChunCombolCount",
+      "bindField": "anim",
+      "bindType": 4,
+      "uiStoreName": "WeaponFightResUIStore",
+      "listContainerName": "",
+      "listContainerIndex": 0,
+      "bindLogicItems": [
+        {
+          "threshold": 49,
+          "result": 1,
+          "animClipName": "S_CombatCharEnergyBar_WingChun_levelAdd",
+          "animPlayMode": 2
+        },
+        {
+          "threshold": 99,
+          "result": 1,
+          "animClipName": "S_CombatCharEnergyBar_WingChun_levelAdd2",
+          "animPlayMode": 2
+        },
+        {
+          "threshold": 9999,
+          "result": 1,
+          "animClipName": "S_CombatCharEnergyBar_WingChun_levelAdd3",
+          "animPlayMode": 2
+        }
+      ]
+    },
+    {
+      "Id": 202,
+      "describe": "连击数的样式",
+      "skillResourceID": "YongChunCombolCount",
+      "bindField": "levelColorCtrl",
+      "bindType": 3,
+      "uiStoreName": "WeaponFightResUIStore",
+      "listContainerName": "",
+      "listContainerIndex": 0,
+      "bindLogicItems": [
+        {
+          "threshold": 49,
+          "result": 0,
+          "animClipName": "",
+          "animPlayMode": 0
+        },
+        {
+          "threshold": 99,
+          "result": 1,
+          "animClipName": "",
+          "animPlayMode": 0
+        },
+        {
+          "threshold": 999,
+          "result": 2,
+          "animClipName": "",
+          "animPlayMode": 0
+        }
+      ]
+    },
+    {
+      "Id": 203,
+      "describe": "第三位0的显示和隐藏",
+      "skillResourceID": "YongChunCombolCount",
+      "bindField": "hideZeroCtrl",
+      "bindType": 3,
+      "uiStoreName": "WeaponFightResUIStore",
+      "listContainerName": "",
+      "listContainerIndex": 0,
+      "bindLogicItems": [
+        {
+          "threshold": 9,
+          "result": 0,
+          "animClipName": "",
+          "animPlayMode": 0
+        },
+        {
+          "threshold": 99,
+          "result": 1,
+          "animClipName": "",
+          "animPlayMode": 0
+        },
+        {
+          "threshold": 999,
+          "result": 2,
+          "animClipName": "",
+          "animPlayMode": 0
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 19,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

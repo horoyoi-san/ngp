@@ -3,20 +3,24 @@ using Ananta.SDK.Network;
 using Ananta.SDK.Rpc;
 using Ananta.Server.Configuration;
 using Ananta.Server.Handlers.Game;
+using Ananta.Server.State;
 using Ananta.Server.Handlers.LoginGate;
 using Ananta.Server.Protocol.Client4229938;
 using Ananta.Server.Network;
 
 namespace Ananta.Server.App;
 
-/// <summary>
-/// Wires configuration, RPC routers and TCP listeners together.
-/// Game behavior lives in Ananta.Handlers; protocol encoding lives in Ananta.Core/Protocol/Client4229938.
-/// </summary>
 internal sealed class PrivateServerApplication(PrivateServerConfig config)
 {
     internal async Task RunAsync(CancellationToken cancellationToken)
     {
+        var projectRoot = Path.GetDirectoryName(PrivateServerConfigStore.ResolveProjectPath(config.Logging.Directory)) ?? ".";
+        AccountStore.Initialize(Path.GetFullPath(Path.Combine(projectRoot, "data", "accounts")));
+
+        
+        
+        
+
         var gateSessions = new GateSessionHub();
         var gameSessions = new GameSessionHub();
         var loginRouter = new LoginGateRouter(gateSessions).Build();
@@ -32,7 +36,7 @@ internal sealed class PrivateServerApplication(PrivateServerConfig config)
             CreateServer("game", bindHost, config.Network.GamePort, gameRouter, gameSessions),
         };
 
-        // Localhost debug API for debug-panel.py (optional, never blocks the game stack).
+        
         using var debugApi = config.Debug.Enabled ? new DebugApiServer(config, gameSessions) : null;
         var webInfo = "web=off";
         if (debugApi is not null)
@@ -48,9 +52,13 @@ internal sealed class PrivateServerApplication(PrivateServerConfig config)
             }
         }
 
-        // Bootstrap diagnostics stay in console-latest/archive; runtime output becomes visible here.
+        
         RuntimeLogs.EndBootstrapQuietMode();
-        Console.WriteLine($"[READY] นี่คือเวอร์ชั่น DEV ที่ไม่ได้รับคุณภาพจากเกม Ananta GAY | client={config.Client.Version} | pid={Profile.PlayerPid} | login={config.Network.AdvertisedHost}:{loginPortA},{loginPortB} | game=:{config.Network.GamePort}");
+        
+        var banner = config.Ui.UidLabel.Enabled && !string.IsNullOrWhiteSpace(config.Ui.UidLabel.Text)
+            ? config.Ui.UidLabel.Text
+            : "Ananta Private Server";
+        Console.WriteLine($"[READY] {banner} | client={config.Client.Version} | pid={Profile.PlayerPid} | login={config.Network.AdvertisedHost}:{loginPortA},{loginPortB} | game=:{config.Network.GamePort}");
         var savedColor = Console.ForegroundColor;
         try
         {

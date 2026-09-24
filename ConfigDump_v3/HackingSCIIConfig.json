@@ -1,0 +1,1998 @@
+{
+  "_class": "HackingSCIIConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 71,
+  "records": [
+    {
+      "Id": 91350000,
+      "HackTooltipId": 0,
+      "ItemName": "紧锁的大门",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600280,
+      "InteractionLabel": "尝试侵入",
+      "InteractionPreFunction": "",
+      "InteractionAfterFunction": "SwitchInteractionId(91350002)",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "紧锁的大门",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "尝试侵入",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350001,
+      "HackTooltipId": 0,
+      "ItemName": "机关锁",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600436,
+      "InteractionLabel": "解开门锁",
+      "InteractionPreFunction": "UnlockTrigger()",
+      "InteractionAfterFunction": "SwitchLinkedInteractionId(91350002,91350000)",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "机关锁",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "解开门锁",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350002,
+      "HackTooltipId": 0,
+      "ItemName": "基地大门",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600437,
+      "InteractionLabel": "开门",
+      "InteractionPreFunction": "AskOpen()",
+      "InteractionAfterFunction": "SwitchInteractionId(91350003)",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "基地大门",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "开门",
+      "InteractionTimeline": {
+        "TimeLineName": "Hack_ShiwaiMen_Open",
+        "type": 1
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350003,
+      "HackTooltipId": 0,
+      "ItemName": "基地大门",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600434,
+      "InteractionLabel": "关门",
+      "InteractionPreFunction": "AskClose()",
+      "InteractionAfterFunction": "SwitchInteractionId(91350002)",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "基地大门",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "关门",
+      "InteractionTimeline": {
+        "TimeLineName": "Hack_ShiwaiMen_Close",
+        "type": 1
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350004,
+      "HackTooltipId": 0,
+      "ItemName": "密闭的小门",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600280,
+      "InteractionLabel": "尝试侵入",
+      "InteractionPreFunction": "",
+      "InteractionAfterFunction": "SwitchInteractionId(91350006)",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "密闭的小门",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "尝试侵入",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350005,
+      "HackTooltipId": 0,
+      "ItemName": "机关锁",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600436,
+      "InteractionLabel": "解开门锁",
+      "InteractionPreFunction": "UnlockTrigger()",
+      "InteractionAfterFunction": "SwitchLinkedInteractionId(91350006,91350004)",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "机关锁",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "解开门锁",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350006,
+      "HackTooltipId": 0,
+      "ItemName": "密室小门",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600437,
+      "InteractionLabel": "开门",
+      "InteractionPreFunction": "AskOpen()",
+      "InteractionAfterFunction": "SwitchInteractionId(91350007)",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "密室小门",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "开门",
+      "InteractionTimeline": {
+        "TimeLineName": "Hack_ShineiMen_Open",
+        "type": 1
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350007,
+      "HackTooltipId": 0,
+      "ItemName": "密室小门",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600434,
+      "InteractionLabel": "关门",
+      "InteractionPreFunction": "AskClose()",
+      "InteractionAfterFunction": "SwitchInteractionId(91350006)",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "密室小门",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "关门",
+      "InteractionTimeline": {
+        "TimeLineName": "Hack_ShineiMen_Close",
+        "type": 1
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350012,
+      "HackTooltipId": 42902621,
+      "ItemName": "摄像头终端",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600435,
+      "InteractionLabel": "侵入摄像头",
+      "InteractionPreFunction": "",
+      "InteractionAfterFunction": "HackInLinkedMonitor()",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "摄像头终端",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "侵入摄像头",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350016,
+      "HackTooltipId": 0,
+      "ItemName": "关闭的蜘蛛通道",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600280,
+      "InteractionLabel": "尝试侵入",
+      "InteractionPreFunction": "",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "关闭的蜘蛛通道",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "尝试侵入",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350017,
+      "HackTooltipId": 0,
+      "ItemName": "机关锁",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600436,
+      "InteractionLabel": "解开门锁",
+      "InteractionPreFunction": "UnlockTrigger()",
+      "InteractionAfterFunction": "SwitchLinkedInteractionId(91350018,91350016)",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "机关锁",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "解开门锁",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350018,
+      "HackTooltipId": 0,
+      "ItemName": "蜘蛛通道",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600437,
+      "InteractionLabel": "开门",
+      "InteractionPreFunction": "AskOpen()",
+      "InteractionAfterFunction": "SwitchInteractionId(91350019)",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "蜘蛛通道",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "开门",
+      "InteractionTimeline": {
+        "TimeLineName": "Hack_ZhizhuMen_Open",
+        "type": 1
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350019,
+      "HackTooltipId": 0,
+      "ItemName": "蜘蛛通道",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600434,
+      "InteractionLabel": "关门",
+      "InteractionPreFunction": "AskClose()",
+      "InteractionAfterFunction": "SwitchInteractionId(91350018)",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "蜘蛛通道",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "关门",
+      "InteractionTimeline": {
+        "TimeLineName": "Hack_ZhizhuMen_Close",
+        "type": 1
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350020,
+      "HackTooltipId": 0,
+      "ItemName": "电路",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600439,
+      "InteractionLabel": "旋转电路",
+      "InteractionPreFunction": "",
+      "InteractionAfterFunction": "RotateNode()",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "电路",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "旋转电路",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": true,
+        "distance": 6
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350021,
+      "HackTooltipId": 0,
+      "ItemName": "锁定节点",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600440,
+      "InteractionLabel": "解锁",
+      "InteractionPreFunction": "",
+      "InteractionAfterFunction": "UnlockNode()",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "锁定节点",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "解锁",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": true,
+        "distance": 6
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350022,
+      "HackTooltipId": 0,
+      "ItemName": "电路终点",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600440,
+      "InteractionLabel": "解锁",
+      "InteractionPreFunction": "",
+      "InteractionAfterFunction": "FinishPipeGame()",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "电路终点",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "解锁",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": true,
+        "distance": 6
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350023,
+      "HackTooltipId": 0,
+      "ItemName": "跳跃平台",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600280,
+      "InteractionLabel": "开启",
+      "InteractionPreFunction": "AskOpen()",
+      "InteractionAfterFunction": "SwitchInteractionId(91350024)",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "跳跃平台",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "开启",
+      "InteractionTimeline": {
+        "TimeLineName": "Test_minitaizi_open_jcy",
+        "type": 1
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350024,
+      "HackTooltipId": 0,
+      "ItemName": "跳跃平台",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600280,
+      "InteractionLabel": "关闭",
+      "InteractionPreFunction": "AskClose()",
+      "InteractionAfterFunction": "SwitchInteractionId(91350023)",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "跳跃平台",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "关闭",
+      "InteractionTimeline": {
+        "TimeLineName": "Test_minitaizi_close_jcy",
+        "type": 1
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350026,
+      "HackTooltipId": 0,
+      "ItemName": "入侵结构",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600437,
+      "InteractionLabel": "开启",
+      "InteractionPreFunction": "OpenSpiderMachine(MobiePlatform)",
+      "InteractionAfterFunction": "SwitchInteractionId(91350027)",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "入侵结构",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "开启",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350027,
+      "HackTooltipId": 0,
+      "ItemName": "入侵结构",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600434,
+      "InteractionLabel": "关闭",
+      "InteractionPreFunction": "StopSpiderMachine(MobiePlatform)",
+      "InteractionAfterFunction": "SwitchInteractionId(91350026)",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "入侵结构",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "关闭",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350028,
+      "HackTooltipId": 0,
+      "ItemName": "入侵结构",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600437,
+      "InteractionLabel": "正向播放",
+      "InteractionPreFunction": "PlayMachineForward(MobiePlatform)",
+      "InteractionAfterFunction": "SwitchInteractionId(91350029)",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "入侵结构",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "正向播放",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350029,
+      "HackTooltipId": 0,
+      "ItemName": "入侵结构",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600434,
+      "InteractionLabel": "反向播放",
+      "InteractionPreFunction": "PlayMachineReverse(MobiePlatform)",
+      "InteractionAfterFunction": "SwitchInteractionId(91350028)",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "入侵结构",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "反向播放",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350031,
+      "HackTooltipId": 0,
+      "ItemName": "紧锁的天窗",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600280,
+      "InteractionLabel": "尝试侵入",
+      "InteractionPreFunction": "",
+      "InteractionAfterFunction": "SwitchInteractionId(91350033)",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "紧锁的天窗",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "尝试侵入",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350032,
+      "HackTooltipId": 0,
+      "ItemName": "机关锁",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600436,
+      "InteractionLabel": "解开门锁",
+      "InteractionPreFunction": "UnlockTrigger()",
+      "InteractionAfterFunction": "SwitchLinkedInteractionId(91350033,91350031)",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "机关锁",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "解开门锁",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350033,
+      "HackTooltipId": 0,
+      "ItemName": "天窗",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600437,
+      "InteractionLabel": "开门",
+      "InteractionPreFunction": "AskOpen()",
+      "InteractionAfterFunction": "SwitchInteractionId(91350034)",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "天窗",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "开门",
+      "InteractionTimeline": {
+        "TimeLineName": "Hack_Tianchuang_Open",
+        "type": 1
+      },
+      "NearHack": {
+        "isNeedNear": true,
+        "distance": 3
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350034,
+      "HackTooltipId": 0,
+      "ItemName": "天窗",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600434,
+      "InteractionLabel": "关门",
+      "InteractionPreFunction": "AskClose()",
+      "InteractionAfterFunction": "SwitchInteractionId(91350033)",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "天窗",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "关门",
+      "InteractionTimeline": {
+        "TimeLineName": "Hack_Tianchuang_Close",
+        "type": 1
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350035,
+      "HackTooltipId": 0,
+      "ItemName": "紧锁的车库",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600280,
+      "InteractionLabel": "尝试侵入",
+      "InteractionPreFunction": "",
+      "InteractionAfterFunction": "SwitchInteractionId(91350037)",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "紧锁的车库",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "尝试侵入",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350036,
+      "HackTooltipId": 0,
+      "ItemName": "机关锁",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600436,
+      "InteractionLabel": "解开门锁",
+      "InteractionPreFunction": "UnlockTrigger()",
+      "InteractionAfterFunction": "SwitchLinkedInteractionId(91350037,91350035)",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "机关锁",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "解开门锁",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350037,
+      "HackTooltipId": 0,
+      "ItemName": "车库",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600437,
+      "InteractionLabel": "开门",
+      "InteractionPreFunction": "AskOpen()",
+      "InteractionAfterFunction": "SwitchInteractionId(91350038)",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "车库",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "开门",
+      "InteractionTimeline": {
+        "TimeLineName": "Hack_ChekuMen_Open",
+        "type": 1
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350038,
+      "HackTooltipId": 0,
+      "ItemName": "车库",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600434,
+      "InteractionLabel": "关门",
+      "InteractionPreFunction": "AskClose()",
+      "InteractionAfterFunction": "SwitchInteractionId(91350037)",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "车库",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "关门",
+      "InteractionTimeline": {
+        "TimeLineName": "Hack_ChekuMen_Close",
+        "type": 1
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350040,
+      "HackTooltipId": 0,
+      "ItemName": "集装箱",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600437,
+      "InteractionLabel": "开门",
+      "InteractionPreFunction": "",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 60019809,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "集装箱",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "开门",
+      "InteractionTimeline": {
+        "TimeLineName": "Hack_Jizhuangxiang_Open",
+        "type": 1
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 60019809,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350041,
+      "HackTooltipId": 0,
+      "ItemName": "集装箱",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600434,
+      "InteractionLabel": "关门",
+      "InteractionPreFunction": "AskClose()",
+      "InteractionAfterFunction": "SwitchInteractionId(91350040)",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "集装箱",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "关门",
+      "InteractionTimeline": {
+        "TimeLineName": "Hack_Jizhuangxiang_Close",
+        "type": 1
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350042,
+      "HackTooltipId": 0,
+      "ItemName": "电箱",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600434,
+      "InteractionLabel": "骇入电箱",
+      "InteractionPreFunction": "",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 61001058,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "电箱",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "骇入电箱",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350050,
+      "HackTooltipId": 0,
+      "ItemName": "开门",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600434,
+      "InteractionLabel": "开门1",
+      "InteractionPreFunction": "",
+      "InteractionAfterFunction": "StartRaid()",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "开门",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "开门1",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350060,
+      "HackTooltipId": 0,
+      "ItemName": "爆炸即是艺术",
+      "InteractionHide": 1,
+      "InteractionSprite": 25600280,
+      "InteractionLabel": "引爆",
+      "InteractionPreFunction": "TriggerTrap(56980136,10)",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "爆炸即是艺术",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "引爆",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350061,
+      "HackTooltipId": 0,
+      "ItemName": "冰冻陷阱",
+      "InteractionHide": 1,
+      "InteractionSprite": 25600280,
+      "InteractionLabel": "引爆",
+      "InteractionPreFunction": "TriggerTrap(56770145,60)",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "冰冻陷阱",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "引爆",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350062,
+      "HackTooltipId": 0,
+      "ItemName": "落雷陷阱",
+      "InteractionHide": 1,
+      "InteractionSprite": 25600280,
+      "InteractionLabel": "引爆",
+      "InteractionPreFunction": "TriggerTrap(56770146,60)",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "落雷陷阱",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "引爆",
+      "InteractionTimeline": {
+        "TimeLineName": "Hack_Baozhawu01",
+        "type": 1
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350063,
+      "HackTooltipId": 0,
+      "ItemName": "大爆炸",
+      "InteractionHide": 1,
+      "InteractionSprite": 25600280,
+      "InteractionLabel": "引爆",
+      "InteractionPreFunction": "TriggerTrap(56770147,60)",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "大爆炸",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "引爆",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350064,
+      "HackTooltipId": 0,
+      "ItemName": "小爆炸",
+      "InteractionHide": 1,
+      "InteractionSprite": 25600280,
+      "InteractionLabel": "引爆",
+      "InteractionPreFunction": "TriggerTrap(56770148,60)",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "小爆炸",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "引爆",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350065,
+      "HackTooltipId": 0,
+      "ItemName": "秒杀小爆炸",
+      "InteractionHide": 1,
+      "InteractionSprite": 25600280,
+      "InteractionLabel": "引爆",
+      "InteractionPreFunction": "TriggerTrap(56770150,60)",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "秒杀小爆炸",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "引爆",
+      "InteractionTimeline": {
+        "TimeLineName": "Hack_Baozhawu_tong",
+        "type": 1
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350066,
+      "HackTooltipId": 0,
+      "ItemName": "神秘装置",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600440,
+      "InteractionLabel": "解锁",
+      "InteractionPreFunction": "",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 61009002,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "神秘装置",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "解锁",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 61009002,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350067,
+      "HackTooltipId": 0,
+      "ItemName": "神秘装置",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600440,
+      "InteractionLabel": "解锁",
+      "InteractionPreFunction": "",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 61009003,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "神秘装置",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "解锁",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 61009003,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350068,
+      "HackTooltipId": 0,
+      "ItemName": "神秘装置",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600440,
+      "InteractionLabel": "解锁",
+      "InteractionPreFunction": "",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 61009004,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "神秘装置",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "解锁",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 61009004,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350069,
+      "HackTooltipId": 0,
+      "ItemName": "神秘装置",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600440,
+      "InteractionLabel": "解锁",
+      "InteractionPreFunction": "",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 61009005,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "神秘装置",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "解锁",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 61009005,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350070,
+      "HackTooltipId": 0,
+      "ItemName": "神秘装置",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600440,
+      "InteractionLabel": "解锁",
+      "InteractionPreFunction": "",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 61009006,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "神秘装置",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "解锁",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 61009006,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350072,
+      "HackTooltipId": 0,
+      "ItemName": "秒杀小爆炸",
+      "InteractionHide": 1,
+      "InteractionSprite": 25600280,
+      "InteractionLabel": "引爆",
+      "InteractionPreFunction": "TriggerTrap(56770150,60)",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "秒杀小爆炸",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "引爆",
+      "InteractionTimeline": {
+        "TimeLineName": "Hack_Baozhawu_tong",
+        "type": 1
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350073,
+      "HackTooltipId": 0,
+      "ItemName": "被骇入的屏幕",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600438,
+      "InteractionLabel": "修复装置1",
+      "InteractionPreFunction": "",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 60019666,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "被骇入的屏幕",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "修复装置1",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 60019666,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350074,
+      "HackTooltipId": 0,
+      "ItemName": "被骇入的屏幕",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600438,
+      "InteractionLabel": "修复装置2",
+      "InteractionPreFunction": "",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 60019667,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "被骇入的屏幕",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "修复装置2",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 60019667,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350075,
+      "HackTooltipId": 0,
+      "ItemName": "被骇入的屏幕",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600438,
+      "InteractionLabel": "修复装置3",
+      "InteractionPreFunction": "",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 60019668,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "被骇入的屏幕",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "修复装置3",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 60019668,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350076,
+      "HackTooltipId": 0,
+      "ItemName": "被骇入的屏幕",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600438,
+      "InteractionLabel": "修复装置4",
+      "InteractionPreFunction": "",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 60019669,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "被骇入的屏幕",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "修复装置4",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 60019669,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350077,
+      "HackTooltipId": 0,
+      "ItemName": "被骇入的屏幕",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600438,
+      "InteractionLabel": "修复装置5",
+      "InteractionPreFunction": "",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 60019670,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "被骇入的屏幕",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "修复装置5",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 60019670,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350078,
+      "HackTooltipId": 0,
+      "ItemName": "被骇入的屏幕",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600438,
+      "InteractionLabel": "修复装置6",
+      "InteractionPreFunction": "",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 60019671,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "被骇入的屏幕",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "修复装置6",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 60019671,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350079,
+      "HackTooltipId": 0,
+      "ItemName": "被骇入的屏幕",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600438,
+      "InteractionLabel": "查看录像",
+      "InteractionPreFunction": "OpenInquiryVideoGame(15,hackingtestTree,91370001,91370002)",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 60911136,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "被骇入的屏幕",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "查看录像",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 60911136,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350080,
+      "HackTooltipId": 0,
+      "ItemName": "音爆监控终端",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600439,
+      "InteractionLabel": "查看录像",
+      "InteractionPreFunction": "OpenLinkedInquiryVideoGame();",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 60000013,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "音爆监控终端",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "查看录像",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": true,
+        "distance": 5
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350081,
+      "HackTooltipId": 0,
+      "ItemName": "音爆摄像头",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600440,
+      "InteractionLabel": "查看录像",
+      "InteractionPreFunction": "OpenInquiryVideoGame(30,zhuxian1_6cameraTree,91370003,91370004,91370005)",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 60000013,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "音爆摄像头",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "查看录像",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": true,
+        "distance": 1
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350082,
+      "HackTooltipId": 0,
+      "ItemName": "被骇入的屏幕",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600441,
+      "InteractionLabel": "查看录像",
+      "InteractionPreFunction": "OpenInquiryVideoGame(10,Cleaverzhuxianluxiang6-3Tree,91370005)",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 60000013,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "被骇入的屏幕",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "查看录像",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350083,
+      "HackTooltipId": 0,
+      "ItemName": "方块",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600434,
+      "InteractionLabel": "改变结构",
+      "InteractionPreFunction": "",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "方块",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "改变结构",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350084,
+      "HackTooltipId": 0,
+      "ItemName": "道路摄像头1345号",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600438,
+      "InteractionLabel": "查看录像",
+      "InteractionPreFunction": "OpenInquiryVideoGame(30,Cleaverzhuxianluxiang6-1Tree,91370006,91370007,91370008)",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "道路摄像头1345号",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "查看录像",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": true,
+        "distance": 6
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350085,
+      "HackTooltipId": 0,
+      "ItemName": "道路摄像头1346号",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600438,
+      "InteractionLabel": "查看录像",
+      "InteractionPreFunction": "OpenInquiryVideoGame(30,Cleaverzhuxianluxiang6-2Tree,91370009,91370010,91370011)",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "道路摄像头1346号",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "查看录像",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": true,
+        "distance": 6
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350086,
+      "HackTooltipId": 0,
+      "ItemName": "鹰庭银行监控系统",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600438,
+      "InteractionLabel": "查看监控",
+      "InteractionPreFunction": "OpenInquiryVideoGame(30,Cleavertelianna1Tree,91370012)",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 60005955,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "鹰庭银行监控系统",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "查看监控",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": true,
+        "distance": 6
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350087,
+      "HackTooltipId": 0,
+      "ItemName": "岸泊工业摄像头2号",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600438,
+      "InteractionLabel": "查看监控",
+      "InteractionPreFunction": "OpenInquiryVideoGame(30,Cleavertelianna2Tree,91370013)",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 60004585,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "岸泊工业摄像头2号",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "查看监控",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": true,
+        "distance": 6
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350089,
+      "HackTooltipId": 0,
+      "ItemName": "音爆摄像头",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600440,
+      "InteractionLabel": "查看录像",
+      "InteractionPreFunction": "OpenVideoGameByTimeline(Timeline_SuperNat_Det08_LivehouseVideo)",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 60001959,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "音爆摄像头",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "查看录像",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": true,
+        "distance": 0.300000012
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350090,
+      "HackTooltipId": 0,
+      "ItemName": "音爆监控终端",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600439,
+      "InteractionLabel": "查看录像",
+      "InteractionPreFunction": "OpenVideoGameByTimeline(Timeline_SuperNat_Det08_LivehouseVideo)",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 60001959,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "音爆监控终端",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "查看录像",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": true,
+        "distance": 6
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350091,
+      "HackTooltipId": 0,
+      "ItemName": "音爆摄像头",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600439,
+      "InteractionLabel": "查看录像",
+      "InteractionPreFunction": "",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 60001957,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "音爆摄像头",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "查看录像",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": true,
+        "distance": 3
+      },
+      "SetTaskCounter": {
+        "taskId": 60001957,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350092,
+      "HackTooltipId": 0,
+      "ItemName": "修复摄像头拍摄位置",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600438,
+      "InteractionLabel": "查看录像",
+      "InteractionPreFunction": "OpenInquiryVideoGame(15,Cleaver_main_S1E5Tree,91370023)",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 60003891,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "修复摄像头拍摄位置",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "查看录像",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350093,
+      "HackTooltipId": 0,
+      "ItemName": "修复摄像头调查位置",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600439,
+      "InteractionLabel": "查看录像",
+      "InteractionPreFunction": "OpenLinkedInquiryVideoGame();",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 60003891,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "修复摄像头调查位置",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "查看录像",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": true,
+        "distance": 3
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350094,
+      "HackTooltipId": 0,
+      "ItemName": "查看展览地附近的监控",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600439,
+      "InteractionLabel": "查看监控",
+      "InteractionPreFunction": "OpenVideoGameByTimeline(Meika_camera01)",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 60005777,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "查看展览地附近的监控",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "查看监控",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": true,
+        "distance": 6
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350095,
+      "HackTooltipId": 0,
+      "ItemName": "查看展览地附近的监控",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600439,
+      "InteractionLabel": "查看监控",
+      "InteractionPreFunction": "OpenVideoGameByTimeline(Timeline_Meika_chehuoxianchang02)",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 60005777,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "查看展览地附近的监控",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "查看监控",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": true,
+        "distance": 6
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350096,
+      "HackTooltipId": 0,
+      "ItemName": "酒吧找画录像",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600439,
+      "InteractionLabel": "查看录像",
+      "InteractionPreFunction": "OpenVideoGameByTimeline(Timeline_MainQuest_Q5_P4_zhaohua)",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 60006517,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "酒吧找画录像",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "查看录像",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": true,
+        "distance": 4
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350100,
+      "HackTooltipId": 0,
+      "ItemName": "密码箱",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600434,
+      "InteractionLabel": "尝试解锁",
+      "InteractionPreFunction": "OpenLinkedGather()",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "密码箱",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "尝试解锁",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    },
+    {
+      "Id": 91350101,
+      "HackTooltipId": 0,
+      "ItemName": "简并方块",
+      "InteractionHide": 0,
+      "InteractionSprite": 25600434,
+      "InteractionLabel": "结构更迭",
+      "InteractionPreFunction": "",
+      "InteractionAfterFunction": "",
+      "EnableFightHack": true,
+      "TaskRequire": 0,
+      "__IDX__ItemName": 4294967293,
+      "__RAW__ItemName": "简并方块",
+      "__IDX__InteractionLabel": 4294967293,
+      "__RAW__InteractionLabel": "结构更迭",
+      "InteractionTimeline": {
+        "TimeLineName": "",
+        "type": 0
+      },
+      "NearHack": {
+        "isNeedNear": false,
+        "distance": 20
+      },
+      "SetTaskCounter": {
+        "taskId": 0,
+        "counterId": 0
+      }
+    }
+  ],
+  "_dumpedCount": 71,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

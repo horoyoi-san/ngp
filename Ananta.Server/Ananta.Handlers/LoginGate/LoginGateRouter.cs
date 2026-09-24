@@ -5,10 +5,6 @@ using GameMethods = Ananta.Server.RpcTypes.Client4229938.Methods.Game;
 
 namespace Ananta.Server.Handlers.LoginGate;
 
-/// <summary>
-/// Login/gate endpoints for build 4229938. Method mapping is visible directly on each handler.
-/// Business values still come from private-server.json.
-/// </summary>
 internal sealed class LoginGateRouter
 {
     private readonly GateSessionHub? _gateSessions;
@@ -109,13 +105,52 @@ internal sealed class LoginGateRouter
     [Handler(MethodId.Login, HandlerPacketKind.Invoke)]
     private async Task GateLogin(Connection conn, UxRpcMessage msg)
     {
-        // Build 4229938 routes IMasterToClient to ServerMark.Gate. Capture the
-        // authenticated Gate socket here; login and gate can share the same TCP port.
+        
+        
         _gateSessions?.Touch(conn.Session);
         conn.Log.Info("[GATE] authenticated session registered for IMasterToClient S2C");
         await conn.ReturnEmptyOkAsync(msg);
         await conn.NotifyAsync(MethodId.SendServerTime, LoginCodec.ServerTime());
+        await PushGameSwitchesAsync(conn);
         await conn.NotifyAsync(MethodId.SyncPlayerGameServerInfo,
             LoginCodec.GameServerInfo(Config.Network.AdvertisedHost, Config.Network.GamePort));
+    }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    private async Task PushGameSwitchesAsync(Connection conn)
+    {
+        var settings = Config.Gameplay.GameSwitch;
+        if (!settings.Enabled)
+        {
+            conn.Log.Warn("[SWITCH] gameplay.gameSwitch.enabled=false —— 不下发 GameSwitch，"
+                + "客户端所有 C# 开关将保持 false（车/NPC/交通灯都可能不正常）");
+            return;
+        }
+
+        var framing = GameSwitchCodec.ParseFraming(settings.Framing);
+        var body = GameSwitchCodec.BuildPush(settings.Overrides, framing);
+        
+        
+        
+        await conn.NotifyRawAsync(MethodId.SyncGameSwitchToClient_3, body);
+        conn.Log.Info(
+            $"[SWITCH] SyncGameSwitchToClient(53940944) 已下发 {GameSwitchCatalog.Count} 个开关"
+            + $"（开启 {GameSwitchCatalog.EnabledCount} / 关闭 {GameSwitchCatalog.Count - GameSwitchCatalog.EnabledCount}，"
+            + $"帧格式 {framing}，{body.Length} 字节 —— 期望线上 body 等于此值，不能多 3）");
     }
 }

@@ -1,0 +1,2846 @@
+{
+  "_class": "RoomActionConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 113,
+  "records": [
+    {
+      "Id": 10000001,
+      "RotationY": 0,
+      "Type": [
+        1,
+        2
+      ],
+      "EnterAction": "ShowOrHideTaskGps(false)",
+      "ExitAction": "ShowOrHideTaskGps(true)",
+      "RaidId": 23300502,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 109.959999,
+          "PosY": 0,
+          "PosZ": 0.170000002
+        },
+        {
+          "PosX": 150,
+          "PosY": 0,
+          "PosZ": 0.170000002
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 30,
+          "ScaleY": 40,
+          "ScaleZ": 50
+        },
+        {
+          "ScaleX": 20,
+          "ScaleY": 20,
+          "ScaleZ": 1
+        }
+      ]
+    },
+    {
+      "Id": 10000002,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "StartOrStopHackArea(true)",
+      "ExitAction": "StartOrStopHackArea(false)",
+      "RaidId": 23300436,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 346.799988,
+          "PosY": 213.5,
+          "PosZ": -80.3000031
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 3,
+          "ScaleY": 5,
+          "ScaleZ": 3
+        }
+      ]
+    },
+    {
+      "Id": 10000003,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "EnterTaskHackArea(60001027,False,0,0,{41700090,41700091,41700116},{10000002,10000003},180)",
+      "ExitAction": "LeaveHackArea()",
+      "RaidId": 23300436,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 346.799988,
+          "PosY": 213.5,
+          "PosZ": -80.3000031
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 20,
+          "ScaleY": 10,
+          "ScaleZ": 20
+        }
+      ]
+    },
+    {
+      "Id": 10000004,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "ShowOrHideTaskGps(false)",
+      "ExitAction": "ShowOrHideTaskGps(true)",
+      "RaidId": 23300436,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 346.799988,
+          "PosY": 213.5,
+          "PosZ": -80.3000031
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 20,
+          "ScaleY": 10,
+          "ScaleZ": 20
+        }
+      ]
+    },
+    {
+      "Id": 91221001,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "ShowOrHideTaskGps(false)",
+      "ExitAction": "ShowOrHideTaskGps(true)",
+      "RaidId": 23300436,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": -819.200012,
+          "PosY": 204.600006,
+          "PosZ": -57
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 60,
+          "ScaleY": 40,
+          "ScaleZ": 80
+        }
+      ]
+    },
+    {
+      "Id": 91221002,
+      "RotationY": 30.2000008,
+      "Type": [
+        1
+      ],
+      "EnterAction": "ShowOrHideTaskGps(false)",
+      "ExitAction": "ShowOrHideTaskGps(true)",
+      "RaidId": 23300436,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": -32,
+          "PosY": -7.4000001,
+          "PosZ": 34.2999992
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 50,
+          "ScaleY": 47,
+          "ScaleZ": 25.7999992
+        }
+      ]
+    },
+    {
+      "Id": 91221003,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "ShowOrHideTaskGps(false)",
+      "ExitAction": "ShowOrHideTaskGps(true)",
+      "RaidId": 23300436,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 102,
+          "PosY": -4.69999981,
+          "PosZ": 106.699997
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 50,
+          "ScaleY": 15,
+          "ScaleZ": 50
+        }
+      ]
+    },
+    {
+      "Id": 91221004,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "ShowOrHideTaskGps(false)",
+      "ExitAction": "ShowOrHideTaskGps(true)",
+      "RaidId": 23300436,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": -716.799988,
+          "PosY": 210.699997,
+          "PosZ": -27.2999992
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 60,
+          "ScaleY": 30,
+          "ScaleZ": 60
+        }
+      ]
+    },
+    {
+      "Id": 91221005,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "StartOrStopHackArea(true)",
+      "ExitAction": "StartOrStopHackArea(false)",
+      "RaidId": 23300436,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": -709.799988,
+          "PosY": 215.5,
+          "PosZ": -17.7999992
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 3,
+          "ScaleY": 10,
+          "ScaleZ": 3
+        }
+      ]
+    },
+    {
+      "Id": 91221006,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "EnterTaskHackArea(60001130,False,0,0,{41700128,41700129,41700130,41700131,41700133,41700134,41700135,41700137,41700138},{91221005,91221006},180,211)",
+      "ExitAction": "LeaveHackArea()",
+      "RaidId": 23300436,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": -709.799988,
+          "PosY": 215.5,
+          "PosZ": -17.7999992
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 15,
+          "ScaleY": 15,
+          "ScaleZ": 15
+        }
+      ]
+    },
+    {
+      "Id": 91221007,
+      "RotationY": 0,
+      "Type": [
+        2
+      ],
+      "EnterAction": "ShowOrHideTaskGps(false)",
+      "ExitAction": "ShowOrHideTaskGps(true)",
+      "RaidId": 23300436,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": -709.799988,
+          "PosY": 215.5,
+          "PosZ": -17.7999992
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 2,
+          "ScaleY": 10,
+          "ScaleZ": 2
+        }
+      ]
+    },
+    {
+      "Id": 91221008,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "ShowOrHideTaskGps(false)",
+      "ExitAction": "ShowOrHideTaskGps(true)",
+      "RaidId": 23300776,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 147,
+          "PosY": 53,
+          "PosZ": 119.199997
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 60,
+          "ScaleY": 60,
+          "ScaleZ": 60
+        }
+      ]
+    },
+    {
+      "Id": 91222001,
+      "RotationY": 31.7000008,
+      "Type": [
+        1
+      ],
+      "EnterAction": "ShowOrHideTaskGps(false);CloseTaskStoryPanel()",
+      "ExitAction": "ShowOrHideTaskGps(true)",
+      "RaidId": 23300463,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 150.5,
+          "PosY": -130.399994,
+          "PosZ": 49.5999985
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 26,
+          "ScaleY": 10,
+          "ScaleZ": 17
+        }
+      ]
+    },
+    {
+      "Id": 91222002,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "ShowOrHideTaskGps(false)",
+      "ExitAction": "ShowOrHideTaskGps(true)",
+      "RaidId": 23300463,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 132,
+          "PosY": -118.5,
+          "PosZ": 106.5
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 28,
+          "ScaleY": 10,
+          "ScaleZ": 28
+        }
+      ]
+    },
+    {
+      "Id": 91222003,
+      "RotationY": -7.5,
+      "Type": [
+        1
+      ],
+      "EnterAction": "ShowOrHideTaskGps(false)",
+      "ExitAction": "ShowOrHideTaskGps(true)",
+      "RaidId": 23300463,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 30.2999992,
+          "PosY": -119.5,
+          "PosZ": 101
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 28,
+          "ScaleY": 10,
+          "ScaleZ": 23
+        }
+      ]
+    },
+    {
+      "Id": 91222004,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "StartOrStopHackArea(true)",
+      "ExitAction": "StartOrStopHackArea(false)",
+      "RaidId": 23300463,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 72.25,
+          "PosY": -118.660004,
+          "PosZ": 116
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 3,
+          "ScaleY": 20,
+          "ScaleZ": 3
+        }
+      ]
+    },
+    {
+      "Id": 91222005,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "EnterTaskHackArea(60012513,False,0,0,{41994006,41994008},{91222004,91222005},180)",
+      "ExitAction": "LeaveHackArea()",
+      "RaidId": 23300463,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 72.25,
+          "PosY": -118.660004,
+          "PosZ": 116
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 15,
+          "ScaleY": 15,
+          "ScaleZ": 15
+        }
+      ]
+    },
+    {
+      "Id": 91222006,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "ShowOrHideTaskGps(false)",
+      "ExitAction": "ShowOrHideTaskGps(true)",
+      "RaidId": 23300463,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 72.25,
+          "PosY": -118.660004,
+          "PosZ": 116
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 15,
+          "ScaleY": 15,
+          "ScaleZ": 15
+        }
+      ]
+    },
+    {
+      "Id": 91222007,
+      "RotationY": 0,
+      "Type": [
+        2
+      ],
+      "EnterAction": "StartOrStopHackArea(true)",
+      "ExitAction": "StartOrStopHackArea(false)",
+      "RaidId": 23300578,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": -31,
+          "PosY": 201,
+          "PosZ": 36
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 5,
+          "ScaleY": 10,
+          "ScaleZ": 1
+        }
+      ]
+    },
+    {
+      "Id": 91222008,
+      "RotationY": 0,
+      "Type": [
+        2
+      ],
+      "EnterAction": "EnterTaskHackArea(60012616,False,0,0,{41870033},{91222007,91222008},180)",
+      "ExitAction": "LeaveHackArea()",
+      "RaidId": 23300578,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": -31,
+          "PosY": 201,
+          "PosZ": 36
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 10,
+          "ScaleY": 10,
+          "ScaleZ": 1
+        }
+      ]
+    },
+    {
+      "Id": 91222009,
+      "RotationY": 0,
+      "Type": [
+        2
+      ],
+      "EnterAction": "StartOrStopHackArea(true)",
+      "ExitAction": "StartOrStopHackArea(false)",
+      "RaidId": 23300578,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": -54,
+          "PosY": 200,
+          "PosZ": 78
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 5,
+          "ScaleY": 10,
+          "ScaleZ": 1
+        }
+      ]
+    },
+    {
+      "Id": 91222010,
+      "RotationY": 0,
+      "Type": [
+        2
+      ],
+      "EnterAction": "EnterTaskHackArea(60012620,False,0,0,{41870023,41870024},{91222009,91222010},180)",
+      "ExitAction": "LeaveHackArea()",
+      "RaidId": 23300578,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": -54,
+          "PosY": 200,
+          "PosZ": 78
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 10,
+          "ScaleY": 10,
+          "ScaleZ": 1
+        }
+      ]
+    },
+    {
+      "Id": 91222011,
+      "RotationY": 0,
+      "Type": [
+        2
+      ],
+      "EnterAction": "StartOrStopHackArea(true)",
+      "ExitAction": "StartOrStopHackArea(false)",
+      "RaidId": 23300578,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 25,
+          "PosY": 212,
+          "PosZ": 66
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 5,
+          "ScaleY": 10,
+          "ScaleZ": 1
+        }
+      ]
+    },
+    {
+      "Id": 91222012,
+      "RotationY": 0,
+      "Type": [
+        2
+      ],
+      "EnterAction": "EnterTaskHackArea(60012620,False,0,0,{41870025},{91222011,91222012},180)",
+      "ExitAction": "LeaveHackArea()",
+      "RaidId": 23300578,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 25,
+          "PosY": 212,
+          "PosZ": 66
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 10,
+          "ScaleY": 10,
+          "ScaleZ": 1
+        }
+      ]
+    },
+    {
+      "Id": 91222013,
+      "RotationY": 0,
+      "Type": [
+        2
+      ],
+      "EnterAction": "StartOrStopHackArea(true)",
+      "ExitAction": "StartOrStopHackArea(false)",
+      "RaidId": 23300578,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 109,
+          "PosY": 221,
+          "PosZ": 116
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 6,
+          "ScaleY": 10,
+          "ScaleZ": 1
+        }
+      ]
+    },
+    {
+      "Id": 91222014,
+      "RotationY": 0,
+      "Type": [
+        2
+      ],
+      "EnterAction": "EnterTaskHackArea(60012624,False,0,0,{40140039;41870030;41870031;41870040;41870041;41870042;41870032},{91222013,91222014},180)",
+      "ExitAction": "LeaveHackArea()",
+      "RaidId": 23300578,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 109,
+          "PosY": 221,
+          "PosZ": 116
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 10,
+          "ScaleY": 10,
+          "ScaleZ": 1
+        }
+      ]
+    },
+    {
+      "Id": 91222017,
+      "RotationY": 0,
+      "Type": [
+        2
+      ],
+      "EnterAction": "ShowBountyHunterTask()",
+      "ExitAction": "HideBountyHunterTask()",
+      "RaidId": 23300888,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": -29.9799995,
+          "PosY": 42.3800011,
+          "PosZ": -424.600006
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 40,
+          "ScaleY": 40,
+          "ScaleZ": 1
+        }
+      ]
+    },
+    {
+      "Id": 91222018,
+      "RotationY": 0,
+      "Type": [
+        2
+      ],
+      "EnterAction": "ShowBountyHunterTask()",
+      "ExitAction": "HideBountyHunterTask()",
+      "RaidId": 23300888,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": -29.9799995,
+          "PosY": 42.3800011,
+          "PosZ": -424.600006
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 40,
+          "ScaleY": 40,
+          "ScaleZ": 1
+        }
+      ]
+    },
+    {
+      "Id": 91223001,
+      "RotationY": 43.2999992,
+      "Type": [
+        1
+      ],
+      "EnterAction": "StartOrStopHackArea(true)",
+      "ExitAction": "StartOrStopHackArea(false)",
+      "RaidId": 23300452,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 59.4000015,
+          "PosY": 5.0999999,
+          "PosZ": 34.2000008
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 39,
+          "ScaleY": 20,
+          "ScaleZ": 19
+        }
+      ]
+    },
+    {
+      "Id": 91223002,
+      "RotationY": 43.2999992,
+      "Type": [
+        1
+      ],
+      "EnterAction": "EnterTaskHackArea(60018515,False,71.7,20.1,{41993315},{91223001,91223002},180)",
+      "ExitAction": "LeaveHackArea()",
+      "RaidId": 23300452,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 59.4000015,
+          "PosY": 5.0999999,
+          "PosZ": 34.2000008
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 40,
+          "ScaleY": 20,
+          "ScaleZ": 20
+        }
+      ]
+    },
+    {
+      "Id": 91223003,
+      "RotationY": 43.2999992,
+      "Type": [
+        1
+      ],
+      "EnterAction": "ShowOrHideTaskGps(false)",
+      "ExitAction": "ShowOrHideTaskGps(true)",
+      "RaidId": 23300452,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 60.2000008,
+          "PosY": 5.0999999,
+          "PosZ": 35
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 45,
+          "ScaleY": 20,
+          "ScaleZ": 20
+        }
+      ]
+    },
+    {
+      "Id": 91223004,
+      "RotationY": 8.69999981,
+      "Type": [
+        2
+      ],
+      "EnterAction": "StartOrStopHackArea(true)",
+      "ExitAction": "StartOrStopHackArea(false)",
+      "RaidId": 23300531,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 17,
+          "PosY": 212.5,
+          "PosZ": 64
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 17,
+          "ScaleY": 10,
+          "ScaleZ": 1
+        }
+      ]
+    },
+    {
+      "Id": 91223005,
+      "RotationY": 8.69999981,
+      "Type": [
+        2
+      ],
+      "EnterAction": "EnterTaskHackArea(60018331,False,23,70,{41993521,41993522,41993523,41993524,41993253},{91223004,91223005},180)",
+      "ExitAction": "LeaveHackArea()",
+      "RaidId": 23300531,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 17,
+          "PosY": 212.5,
+          "PosZ": 64
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 19,
+          "ScaleY": 10,
+          "ScaleZ": 1
+        }
+      ]
+    },
+    {
+      "Id": 91223006,
+      "RotationY": 8.69999981,
+      "Type": [
+        2
+      ],
+      "EnterAction": "ShowOrHideTaskGps(false)",
+      "ExitAction": "ShowOrHideTaskGps(true)",
+      "RaidId": 23300531,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 17,
+          "PosY": 212.5,
+          "PosZ": 64
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 21,
+          "ScaleY": 10,
+          "ScaleZ": 1
+        }
+      ]
+    },
+    {
+      "Id": 91223007,
+      "RotationY": 8.69999981,
+      "Type": [
+        2
+      ],
+      "EnterAction": "StartOrStopHackArea(true)",
+      "ExitAction": "StartOrStopHackArea(false)",
+      "RaidId": 23300531,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 17,
+          "PosY": 212.5,
+          "PosZ": 64
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 17,
+          "ScaleY": 10,
+          "ScaleZ": 1
+        }
+      ]
+    },
+    {
+      "Id": 91223008,
+      "RotationY": 8.69999981,
+      "Type": [
+        2
+      ],
+      "EnterAction": "EnterTaskHackArea(60018353,False,23,70,{41993526,41993527,41993528,41993525,41993253},{91223007,91223008},180)",
+      "ExitAction": "LeaveHackArea()",
+      "RaidId": 23300531,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 17,
+          "PosY": 212.5,
+          "PosZ": 64
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 19,
+          "ScaleY": 10,
+          "ScaleZ": 1
+        }
+      ]
+    },
+    {
+      "Id": 91223009,
+      "RotationY": 8.69999981,
+      "Type": [
+        2
+      ],
+      "EnterAction": "ShowOrHideTaskGps(false)",
+      "ExitAction": "ShowOrHideTaskGps(true)",
+      "RaidId": 23300531,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 17,
+          "PosY": 212.5,
+          "PosZ": 64
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 21,
+          "ScaleY": 10,
+          "ScaleZ": 1
+        }
+      ]
+    },
+    {
+      "Id": 91223010,
+      "RotationY": 0,
+      "Type": [
+        2
+      ],
+      "EnterAction": "ShowOrHideTaskGps(false)",
+      "ExitAction": "ShowOrHideTaskGps(true)",
+      "RaidId": 23300531,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 22.5,
+          "PosY": 12.1999998,
+          "PosZ": 68.5
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 24,
+          "ScaleY": 6,
+          "ScaleZ": 1
+        }
+      ]
+    },
+    {
+      "Id": 91223011,
+      "RotationY": -53,
+      "Type": [
+        1
+      ],
+      "EnterAction": "ShowOrHideTaskGps(false)",
+      "ExitAction": "ShowOrHideTaskGps(true)",
+      "RaidId": 23300531,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 32,
+          "PosY": 47.5999985,
+          "PosZ": 182
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 50,
+          "ScaleY": 20,
+          "ScaleZ": 55
+        }
+      ]
+    },
+    {
+      "Id": 91223012,
+      "RotationY": -67,
+      "Type": [
+        1
+      ],
+      "EnterAction": "StartOrStopHackArea(true)",
+      "ExitAction": "StartOrStopHackArea(false)",
+      "RaidId": 23300531,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": -10.5,
+          "PosY": 0,
+          "PosZ": 4.9000001
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 10,
+          "ScaleY": 10,
+          "ScaleZ": 11
+        }
+      ]
+    },
+    {
+      "Id": 91223013,
+      "RotationY": -67,
+      "Type": [
+        1
+      ],
+      "EnterAction": "EnterTaskHackArea(60018289,False,-8,6.6,{41993511,41993512,41993513},{91223012,91223013},180)",
+      "ExitAction": "LeaveHackArea()",
+      "RaidId": 23300531,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": -9,
+          "PosY": 0,
+          "PosZ": 4.5
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 10,
+          "ScaleY": 10,
+          "ScaleZ": 15
+        }
+      ]
+    },
+    {
+      "Id": 91223014,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "StartOrStopHackArea(true)",
+      "ExitAction": "StartOrStopHackArea(false)",
+      "RaidId": 23300531,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": -10,
+          "PosY": 0,
+          "PosZ": 26
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 10,
+          "ScaleY": 10,
+          "ScaleZ": 10
+        }
+      ]
+    },
+    {
+      "Id": 91223015,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "EnterTaskHackArea(60018289,False,-10,28,{41993514,41993515},{91223015,91223016},180)",
+      "ExitAction": "LeaveHackArea()",
+      "RaidId": 23300531,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": -10,
+          "PosY": 0,
+          "PosZ": 26
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 10,
+          "ScaleY": 10,
+          "ScaleZ": 20
+        }
+      ]
+    },
+    {
+      "Id": 91223016,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "StartOrStopHackArea(true)",
+      "ExitAction": "StartOrStopHackArea(false)",
+      "RaidId": 23300531,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": -68,
+          "PosY": 0,
+          "PosZ": 92
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 15,
+          "ScaleY": 10,
+          "ScaleZ": 15
+        }
+      ]
+    },
+    {
+      "Id": 91223017,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "EnterTaskHackArea(60018289,False,-67,88,{41993516,41993517},{91223016,91223017},180)",
+      "ExitAction": "LeaveHackArea()",
+      "RaidId": 23300531,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": -68,
+          "PosY": 0,
+          "PosZ": 92
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 30,
+          "ScaleY": 10,
+          "ScaleZ": 30
+        }
+      ]
+    },
+    {
+      "Id": 91223018,
+      "RotationY": 33,
+      "Type": [
+        1
+      ],
+      "EnterAction": "StartOrStopHackArea(true)",
+      "ExitAction": "StartOrStopHackArea(false)",
+      "RaidId": 23300531,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 1.70000005,
+          "PosY": 0,
+          "PosZ": 19.3999996
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 9,
+          "ScaleY": 15,
+          "ScaleZ": 12
+        }
+      ]
+    },
+    {
+      "Id": 91223019,
+      "RotationY": 33,
+      "Type": [
+        1
+      ],
+      "EnterAction": "EnterTaskHackArea(60018289,False,-1.2,16.3,{41993518,41993519},{91223018,91223019},180)",
+      "ExitAction": "LeaveHackArea()",
+      "RaidId": 23300531,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 1.70000005,
+          "PosY": 0,
+          "PosZ": 19.3999996
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 10,
+          "ScaleY": 15,
+          "ScaleZ": 16
+        }
+      ]
+    },
+    {
+      "Id": 91223020,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "StartOrStopHackArea(true)",
+      "ExitAction": "StartOrStopHackArea(false)",
+      "RaidId": 23300531,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": -31,
+          "PosY": 3,
+          "PosZ": 91
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 10,
+          "ScaleY": 10,
+          "ScaleZ": 10
+        }
+      ]
+    },
+    {
+      "Id": 91223021,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "EnterTaskHackArea(60018289,False,-28,90,{41993520},{91223020,91223021},180)",
+      "ExitAction": "LeaveHackArea()",
+      "RaidId": 23300531,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": -27,
+          "PosY": 3,
+          "PosZ": 92.8000031
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 15,
+          "ScaleY": 10,
+          "ScaleZ": 30
+        }
+      ]
+    },
+    {
+      "Id": 91223022,
+      "RotationY": 10,
+      "Type": [
+        1
+      ],
+      "EnterAction": "StartOrStopHackArea(true)",
+      "ExitAction": "StartOrStopHackArea(false)",
+      "RaidId": 23300531,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": -13.3000002,
+          "PosY": 3.5999999,
+          "PosZ": 83.5
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 10,
+          "ScaleY": 5,
+          "ScaleZ": 6
+        }
+      ]
+    },
+    {
+      "Id": 91223023,
+      "RotationY": 8,
+      "Type": [
+        1
+      ],
+      "EnterAction": "EnterTaskHackArea(60018289,False,-10,84,{41993520},{91223022,91223023},180)",
+      "ExitAction": "LeaveHackArea()",
+      "RaidId": 23300531,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": -16.8999996,
+          "PosY": 3.5999999,
+          "PosZ": 85.5999985
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 20,
+          "ScaleY": 5,
+          "ScaleZ": 20
+        }
+      ]
+    },
+    {
+      "Id": 91223024,
+      "RotationY": 0,
+      "Type": [
+        2
+      ],
+      "EnterAction": "ShowOrHideTaskGps(false)",
+      "ExitAction": "ShowOrHideTaskGps(true)",
+      "RaidId": 23300531,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 22.5,
+          "PosY": 12.1999998,
+          "PosZ": 68.5
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 24,
+          "ScaleY": 6,
+          "ScaleZ": 1
+        }
+      ]
+    },
+    {
+      "Id": 91223025,
+      "RotationY": 0,
+      "Type": [
+        2
+      ],
+      "EnterAction": "ShowOrHideTaskGps(false)",
+      "ExitAction": "ShowOrHideTaskGps(true)",
+      "RaidId": 23300531,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 22.5,
+          "PosY": 12.1999998,
+          "PosZ": 68.5
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 24,
+          "ScaleY": 6,
+          "ScaleZ": 1
+        }
+      ]
+    },
+    {
+      "Id": 91223030,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "StartOrStopHackArea(true)",
+      "ExitAction": "StartOrStopHackArea(false)",
+      "RaidId": 23300531,
+      "NotInLand": true,
+      "Position": [
+        {
+          "PosX": -11,
+          "PosY": 200.300003,
+          "PosZ": 8
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 6,
+          "ScaleY": 5,
+          "ScaleZ": 10
+        }
+      ]
+    },
+    {
+      "Id": 91223031,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "EnterTaskHackArea(60018491,False,-9.4,6.1,{41993511,41993512,41993513},{91223030,91223031},180)",
+      "ExitAction": "LeaveHackArea()",
+      "RaidId": 23300531,
+      "NotInLand": true,
+      "Position": [
+        {
+          "PosX": -8.19999981,
+          "PosY": 201,
+          "PosZ": 10.8000002
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 30,
+          "ScaleY": 10,
+          "ScaleZ": 20
+        }
+      ]
+    },
+    {
+      "Id": 91223032,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "StartOrStopHackArea(true)",
+      "ExitAction": "StartOrStopHackArea(false)",
+      "RaidId": 23300531,
+      "NotInLand": true,
+      "Position": [
+        {
+          "PosX": -45.2999992,
+          "PosY": 203.300003,
+          "PosZ": 38.4000015
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 12,
+          "ScaleY": 5,
+          "ScaleZ": 12
+        }
+      ]
+    },
+    {
+      "Id": 91223033,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "EnterTaskHackArea(60018491,False,-42.5,34,{41993514,41993515},{91223032,91223033},180)",
+      "ExitAction": "LeaveHackArea()",
+      "RaidId": 23300531,
+      "NotInLand": true,
+      "Position": [
+        {
+          "PosX": -41.5999985,
+          "PosY": 201,
+          "PosZ": 43.5
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 30,
+          "ScaleY": 10,
+          "ScaleZ": 40
+        }
+      ]
+    },
+    {
+      "Id": 91223034,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "StartOrStopHackArea(true)",
+      "ExitAction": "StartOrStopHackArea(false)",
+      "RaidId": 23300531,
+      "NotInLand": true,
+      "Position": [
+        {
+          "PosX": -55.7000008,
+          "PosY": 202.100006,
+          "PosZ": 74.4000015
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 8,
+          "ScaleY": 5,
+          "ScaleZ": 8
+        }
+      ]
+    },
+    {
+      "Id": 91223035,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "EnterTaskHackArea(60018491,False,-57.9,76,{41993516,41993517},{91223034,91223035},180)",
+      "ExitAction": "LeaveHackArea()",
+      "RaidId": 23300531,
+      "NotInLand": true,
+      "Position": [
+        {
+          "PosX": -54.5999985,
+          "PosY": 201,
+          "PosZ": 75.6999969
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 25,
+          "ScaleY": 10,
+          "ScaleZ": 22
+        }
+      ]
+    },
+    {
+      "Id": 91223036,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "StartOrStopHackArea(true)",
+      "ExitAction": "StartOrStopHackArea(false)",
+      "RaidId": 23300531,
+      "NotInLand": true,
+      "Position": [
+        {
+          "PosX": -32.9000015,
+          "PosY": 203.610001,
+          "PosZ": 86.4000015
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 10,
+          "ScaleY": 5,
+          "ScaleZ": 20
+        }
+      ]
+    },
+    {
+      "Id": 91223037,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "EnterTaskHackArea(60018491,False,-30.6,85,{41993518,41993519},{91223036,91223037},180)",
+      "ExitAction": "LeaveHackArea()",
+      "RaidId": 23300531,
+      "NotInLand": true,
+      "Position": [
+        {
+          "PosX": -35.5999985,
+          "PosY": 201.600006,
+          "PosZ": 87.1999969
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 22,
+          "ScaleY": 10,
+          "ScaleZ": 22
+        }
+      ]
+    },
+    {
+      "Id": 91223038,
+      "RotationY": 10,
+      "Type": [
+        1
+      ],
+      "EnterAction": "StartOrStopHackArea(true)",
+      "ExitAction": "StartOrStopHackArea(false)",
+      "RaidId": 23300531,
+      "NotInLand": true,
+      "Position": [
+        {
+          "PosX": -13.3000002,
+          "PosY": 203.600006,
+          "PosZ": 83.5
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 10,
+          "ScaleY": 5,
+          "ScaleZ": 6
+        }
+      ]
+    },
+    {
+      "Id": 91223039,
+      "RotationY": 8,
+      "Type": [
+        1
+      ],
+      "EnterAction": "EnterTaskHackArea(60018491,False,-10,84,{41993520},{91223038,91223039},180)",
+      "ExitAction": "LeaveHackArea()",
+      "RaidId": 23300531,
+      "NotInLand": true,
+      "Position": [
+        {
+          "PosX": -16.8999996,
+          "PosY": 203.600006,
+          "PosZ": 85.5999985
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 20,
+          "ScaleY": 5,
+          "ScaleZ": 20
+        }
+      ]
+    },
+    {
+      "Id": 91223040,
+      "RotationY": 10,
+      "Type": [
+        1
+      ],
+      "EnterAction": "StartOrStopHackArea(true)",
+      "ExitAction": "StartOrStopHackArea(false)",
+      "RaidId": 23300531,
+      "NotInLand": true,
+      "Position": [
+        {
+          "PosX": -13.3000002,
+          "PosY": 203.600006,
+          "PosZ": 83.5
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 10,
+          "ScaleY": 5,
+          "ScaleZ": 6
+        }
+      ]
+    },
+    {
+      "Id": 91223041,
+      "RotationY": 8,
+      "Type": [
+        1
+      ],
+      "EnterAction": "EnterTaskHackArea(60018491,False,-10,84,{41993520},{91223040,91223041},180)",
+      "ExitAction": "LeaveHackArea()",
+      "RaidId": 23300531,
+      "NotInLand": true,
+      "Position": [
+        {
+          "PosX": -16.8999996,
+          "PosY": 203.600006,
+          "PosZ": 85.5999985
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 20,
+          "ScaleY": 5,
+          "ScaleZ": 20
+        }
+      ]
+    },
+    {
+      "Id": 91223045,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "StartOrStopHackArea(true)",
+      "ExitAction": "StartOrStopHackArea(false)",
+      "RaidId": 23300546,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 156.399994,
+          "PosY": 0,
+          "PosZ": 52.7000008
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 20,
+          "ScaleY": 15,
+          "ScaleZ": 20
+        }
+      ]
+    },
+    {
+      "Id": 91223046,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "EnterTaskHackArea(60018707,False,158,46.9,{41993619,41993620,41993621,41993622,41993623,41993624},{91223045,91223046},180)",
+      "ExitAction": "LeaveHackArea()",
+      "RaidId": 23300546,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 156.399994,
+          "PosY": 0,
+          "PosZ": 52.7000008
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 40,
+          "ScaleY": 15,
+          "ScaleZ": 40
+        }
+      ]
+    },
+    {
+      "Id": 91223047,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "StartOrStopHackArea(true)",
+      "ExitAction": "StartOrStopHackArea(false)",
+      "RaidId": 23300538,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 471,
+          "PosY": 74,
+          "PosZ": 44
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 9,
+          "ScaleY": 10,
+          "ScaleZ": 9
+        }
+      ]
+    },
+    {
+      "Id": 91223048,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "EnterTaskHackArea(60018752,False,470,43.5,{41993653},{91223047,91223048},180)",
+      "ExitAction": "LeaveHackArea()",
+      "RaidId": 23300538,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 471,
+          "PosY": 74,
+          "PosZ": 44
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 10,
+          "ScaleY": 10,
+          "ScaleZ": 10
+        }
+      ]
+    },
+    {
+      "Id": 91223049,
+      "RotationY": -50,
+      "Type": [
+        1
+      ],
+      "EnterAction": "StartOrStopHackArea(true)",
+      "ExitAction": "StartOrStopHackArea(false)",
+      "RaidId": 23300462,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 100,
+          "PosY": -119,
+          "PosZ": 100
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 12,
+          "ScaleY": 10,
+          "ScaleZ": 10
+        }
+      ]
+    },
+    {
+      "Id": 91223050,
+      "RotationY": -50,
+      "Type": [
+        1
+      ],
+      "EnterAction": "EnterTaskHackArea(60018784,False,105,102,{41993662},{91223049,91223050},180)",
+      "ExitAction": "LeaveHackArea()",
+      "RaidId": 23300462,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 100,
+          "PosY": -119,
+          "PosZ": 100
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 20,
+          "ScaleY": 10,
+          "ScaleZ": 15
+        }
+      ]
+    },
+    {
+      "Id": 91223051,
+      "RotationY": 43.2999992,
+      "Type": [
+        1
+      ],
+      "EnterAction": "StartOrStopHackArea(true)",
+      "ExitAction": "StartOrStopHackArea(false)",
+      "RaidId": 23300452,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 57,
+          "PosY": 3,
+          "PosZ": 35.5
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 10,
+          "ScaleY": 20,
+          "ScaleZ": 10
+        }
+      ]
+    },
+    {
+      "Id": 91223052,
+      "RotationY": 43.2999992,
+      "Type": [
+        1
+      ],
+      "EnterAction": "EnterTaskHackArea(60018516,False,59,34,{41993314},{91223051,91223052},180)",
+      "ExitAction": "LeaveHackArea()",
+      "RaidId": 23300452,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 59.4000015,
+          "PosY": 5.0999999,
+          "PosZ": 34.2000008
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 40,
+          "ScaleY": 20,
+          "ScaleZ": 20
+        }
+      ]
+    },
+    {
+      "Id": 91223053,
+      "RotationY": 30,
+      "Type": [
+        1
+      ],
+      "EnterAction": "StartOrStopHackArea(true)",
+      "ExitAction": "StartOrStopHackArea(false)",
+      "RaidId": 23300710,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 359.600006,
+          "PosY": 180,
+          "PosZ": 373
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 19,
+          "ScaleY": 20,
+          "ScaleZ": 24
+        }
+      ]
+    },
+    {
+      "Id": 91223054,
+      "RotationY": -35,
+      "Type": [
+        1
+      ],
+      "EnterAction": "EnterTaskHackArea(60019208,False,359,379,{41994139,41994140,41994141},{91223053,91223054},180)",
+      "ExitAction": "LeaveHackArea()",
+      "RaidId": 23300710,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 359.600006,
+          "PosY": 180,
+          "PosZ": 373
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 20,
+          "ScaleY": 20,
+          "ScaleZ": 25
+        }
+      ]
+    },
+    {
+      "Id": 91225002,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "ShowOrHideTaskGps(false)",
+      "ExitAction": "ShowOrHideTaskGps(true)",
+      "RaidId": 23300439,
+      "NotInLand": true,
+      "Position": [
+        {
+          "PosX": -9.39999962,
+          "PosY": 30.6000004,
+          "PosZ": 21.3999996
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 68.7399979,
+          "ScaleY": 55.1199989,
+          "ScaleZ": 47.8699989
+        }
+      ]
+    },
+    {
+      "Id": 91225003,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "ShowOrHideTaskGps(false)",
+      "ExitAction": "ShowOrHideTaskGps(true)",
+      "RaidId": 23300439,
+      "NotInLand": true,
+      "Position": [
+        {
+          "PosX": -9.39999962,
+          "PosY": 30.6000004,
+          "PosZ": 21.3999996
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 68.7399979,
+          "ScaleY": 55.1199989,
+          "ScaleZ": 47.8699989
+        }
+      ]
+    },
+    {
+      "Id": 91225007,
+      "RotationY": -17.8899994,
+      "Type": [
+        1
+      ],
+      "EnterAction": "ShowOrHideTaskGps(false)",
+      "ExitAction": "ShowOrHideTaskGps(true)",
+      "RaidId": 23300439,
+      "NotInLand": true,
+      "Position": [
+        {
+          "PosX": 51.0999985,
+          "PosY": 57.3499985,
+          "PosZ": 47.2000008
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 34.5,
+          "ScaleY": 22.0699997,
+          "ScaleZ": 101.639999
+        }
+      ]
+    },
+    {
+      "Id": 91225008,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "StartOrStopHackArea(true)",
+      "ExitAction": "StartOrStopHackArea(false)",
+      "RaidId": 23300439,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": -259.940002,
+          "PosY": 389.619995,
+          "PosZ": 0
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 4.63000011,
+          "ScaleY": 4.75,
+          "ScaleZ": -4.53999996
+        }
+      ]
+    },
+    {
+      "Id": 91225009,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "EnterTaskHackArea(60005010,False,0,0,0,{91225008,91225009},168.3)",
+      "ExitAction": "LeaveHackArea()",
+      "RaidId": 23300439,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": -261.480011,
+          "PosY": 388.26001,
+          "PosZ": 0
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 33.4000015,
+          "ScaleY": 15,
+          "ScaleZ": 30.2999992
+        }
+      ]
+    },
+    {
+      "Id": 91225010,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "ShowOrHideTaskGps(false)",
+      "ExitAction": "ShowOrHideTaskGps(true)",
+      "RaidId": 23300439,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": -261.480011,
+          "PosY": 388.26001,
+          "PosZ": 0
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 33.4000015,
+          "ScaleY": 15,
+          "ScaleZ": 30.2999992
+        }
+      ]
+    },
+    {
+      "Id": 91225011,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "ShowOrHideTaskGps(false)",
+      "ExitAction": "ShowOrHideTaskGps(true)",
+      "RaidId": 23300439,
+      "NotInLand": true,
+      "Position": [
+        {
+          "PosX": -63.4900017,
+          "PosY": 39.6541786,
+          "PosZ": 21.5599995
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 40,
+          "ScaleY": 20,
+          "ScaleZ": 40
+        }
+      ]
+    },
+    {
+      "Id": 91225012,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "ShowOrHideTaskGps(false)",
+      "ExitAction": "ShowOrHideTaskGps(true)",
+      "RaidId": 23300439,
+      "NotInLand": true,
+      "Position": [
+        {
+          "PosX": -102.400002,
+          "PosY": 37.8699989,
+          "PosZ": 11.8999996
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 40,
+          "ScaleY": 11,
+          "ScaleZ": 44
+        }
+      ]
+    },
+    {
+      "Id": 91225013,
+      "RotationY": -28.6000004,
+      "Type": [
+        1
+      ],
+      "EnterAction": "StartOrStopHackArea(true)",
+      "ExitAction": "StartOrStopHackArea(false)",
+      "RaidId": 23300710,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 160,
+          "PosY": 59,
+          "PosZ": 81.3700027
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 40,
+          "ScaleY": 30,
+          "ScaleZ": 37
+        }
+      ]
+    },
+    {
+      "Id": 91225014,
+      "RotationY": -28.6000004,
+      "Type": [
+        1
+      ],
+      "EnterAction": "EnterTaskHackArea(60018784,False,164,78,{41870171,41870172,41870173,41870174,41870175,41870176,41870177,41870178,41998081},{91225013,91225014},180)",
+      "ExitAction": "LeaveHackArea()",
+      "RaidId": 23300710,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 160,
+          "PosY": 59,
+          "PosZ": 81.3700027
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 40,
+          "ScaleY": 30,
+          "ScaleZ": 37
+        }
+      ]
+    },
+    {
+      "Id": 91225015,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "StartOrStopHackArea(true)",
+      "ExitAction": "StartOrStopHackArea(false)",
+      "RaidId": 23300710,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 291.230011,
+          "PosY": 114,
+          "PosZ": 232.449997
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 25,
+          "ScaleY": 23,
+          "ScaleZ": 33
+        }
+      ]
+    },
+    {
+      "Id": 91225016,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "EnterTaskHackArea(60005159,False,291,232,{41998090,41998091,41998088,41998089},{91225015,91225016},180)",
+      "ExitAction": "LeaveHackArea()",
+      "RaidId": 23300710,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 291.230011,
+          "PosY": 114,
+          "PosZ": 232.449997
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 25,
+          "ScaleY": 23,
+          "ScaleZ": 33
+        }
+      ]
+    },
+    {
+      "Id": 91225017,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "StartOrStopHackArea(true)",
+      "ExitAction": "StartOrStopHackArea(false)",
+      "RaidId": 23300710,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 291.230011,
+          "PosY": 114,
+          "PosZ": 232.449997
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 25,
+          "ScaleY": 23,
+          "ScaleZ": 33
+        }
+      ]
+    },
+    {
+      "Id": 91225018,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "EnterTaskHackArea(60005236,False,291,232,{41998090,41998091,41998088,41998092},{91225017,91225018},180)",
+      "ExitAction": "LeaveHackArea()",
+      "RaidId": 23300710,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 291.230011,
+          "PosY": 114,
+          "PosZ": 232.449997
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 25,
+          "ScaleY": 23,
+          "ScaleZ": 33
+        }
+      ]
+    },
+    {
+      "Id": 91226001,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "StartOrStopHackArea(true)",
+      "ExitAction": "StartOrStopHackArea(false)",
+      "RaidId": 23300429,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 27.3700008,
+          "PosY": 222.770004,
+          "PosZ": 254.690002
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 22,
+          "ScaleY": 28,
+          "ScaleZ": 19
+        }
+      ]
+    },
+    {
+      "Id": 91226002,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "EnterTaskHackArea(60013200,False,27.33,251.92,{42001005},{91226001,91226002},180)",
+      "ExitAction": "LeaveHackArea()",
+      "RaidId": 23300429,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 27.3700008,
+          "PosY": 222.770004,
+          "PosZ": 254.690002
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 22,
+          "ScaleY": 28,
+          "ScaleZ": 19
+        }
+      ]
+    },
+    {
+      "Id": 91226003,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "ShowOrHideTaskGps(false)",
+      "ExitAction": "ShowOrHideTaskGps(true)",
+      "RaidId": 23300429,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 27.3700008,
+          "PosY": 222.770004,
+          "PosZ": 254.690002
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 22,
+          "ScaleY": 28,
+          "ScaleZ": 19
+        }
+      ]
+    },
+    {
+      "Id": 91226004,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "StartOrStopHackArea(true)",
+      "ExitAction": "StartOrStopHackArea(false)",
+      "RaidId": 23300538,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 477,
+          "PosY": 74,
+          "PosZ": 60
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 15,
+          "ScaleY": 10,
+          "ScaleZ": 15
+        }
+      ]
+    },
+    {
+      "Id": 91226005,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "EnterTaskHackArea(60013233,False,0,0,{42001018,42001020},{91226004,91226005},180)",
+      "ExitAction": "LeaveHackArea()",
+      "RaidId": 23300538,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 477,
+          "PosY": 74,
+          "PosZ": 60
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 20,
+          "ScaleY": 10,
+          "ScaleZ": 20
+        }
+      ]
+    },
+    {
+      "Id": 91226006,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "ShowOrHideTaskGps(false)",
+      "ExitAction": "ShowOrHideTaskGps(true)",
+      "RaidId": 23300538,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 477,
+          "PosY": 74,
+          "PosZ": 60
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 20,
+          "ScaleY": 10,
+          "ScaleZ": 20
+        }
+      ]
+    },
+    {
+      "Id": 91226501,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "StartOrStopHackArea(true)",
+      "ExitAction": "StartOrStopHackArea(false)",
+      "RaidId": 23300538,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 467.299988,
+          "PosY": 74.0999985,
+          "PosZ": -6
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 5,
+          "ScaleY": 10,
+          "ScaleZ": 5
+        }
+      ]
+    },
+    {
+      "Id": 91226502,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "EnterTaskHackArea(60026125,False,0,0,{41739106,41739107},{91226501,91226502},180)",
+      "ExitAction": "LeaveHackArea()",
+      "RaidId": 23300538,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 467.299988,
+          "PosY": 74.0999985,
+          "PosZ": -6
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 15,
+          "ScaleY": 15,
+          "ScaleZ": 15
+        }
+      ]
+    },
+    {
+      "Id": 91226503,
+      "RotationY": 0,
+      "Type": [
+        1
+      ],
+      "EnterAction": "ShowOrHideTaskGps(false)",
+      "ExitAction": "ShowOrHideTaskGps(true)",
+      "RaidId": 23300538,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 467.299988,
+          "PosY": 74.0999985,
+          "PosZ": -6
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 15,
+          "ScaleY": 15,
+          "ScaleZ": 15
+        }
+      ]
+    },
+    {
+      "Id": 91227001,
+      "RotationY": 0,
+      "Type": [
+        2
+      ],
+      "EnterAction": "ShowBountyHunterTask()",
+      "ExitAction": "HideBountyHunterTask()",
+      "RaidId": 23300888,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 331,
+          "PosY": -8.44940853,
+          "PosZ": 275
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 60,
+          "ScaleY": 60,
+          "ScaleZ": 1
+        }
+      ]
+    },
+    {
+      "Id": 91227002,
+      "RotationY": 0,
+      "Type": [
+        2
+      ],
+      "EnterAction": "ShowBountyHunterTask()",
+      "ExitAction": "HideBountyHunterTask()",
+      "RaidId": 23300888,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 485,
+          "PosY": 5.38800001,
+          "PosZ": 415
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 60,
+          "ScaleY": 60,
+          "ScaleZ": 1
+        }
+      ]
+    },
+    {
+      "Id": 91227003,
+      "RotationY": 0,
+      "Type": [
+        2
+      ],
+      "EnterAction": "ShowBountyHunterTask()",
+      "ExitAction": "HideBountyHunterTask()",
+      "RaidId": 23300888,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 395,
+          "PosY": 15.9799995,
+          "PosZ": 540
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 60,
+          "ScaleY": 60,
+          "ScaleZ": 1
+        }
+      ]
+    },
+    {
+      "Id": 91227004,
+      "RotationY": 0,
+      "Type": [
+        2
+      ],
+      "EnterAction": "ShowBountyHunterTask()",
+      "ExitAction": "HideBountyHunterTask()",
+      "RaidId": 23300888,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": -128,
+          "PosY": 101.393402,
+          "PosZ": -128
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 60,
+          "ScaleY": 60,
+          "ScaleZ": 1
+        }
+      ]
+    },
+    {
+      "Id": 91227005,
+      "RotationY": 0,
+      "Type": [
+        2
+      ],
+      "EnterAction": "ShowBountyHunterTask()",
+      "ExitAction": "HideBountyHunterTask()",
+      "RaidId": 23300888,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 7,
+          "PosY": 125.312302,
+          "PosZ": -144
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 60,
+          "ScaleY": 60,
+          "ScaleZ": 1
+        }
+      ]
+    },
+    {
+      "Id": 91227006,
+      "RotationY": 0,
+      "Type": [
+        2
+      ],
+      "EnterAction": "ShowBountyHunterTask()",
+      "ExitAction": "HideBountyHunterTask()",
+      "RaidId": 23300888,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 21,
+          "PosY": 99.0186234,
+          "PosZ": -207
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 60,
+          "ScaleY": 60,
+          "ScaleZ": 1
+        }
+      ]
+    },
+    {
+      "Id": 91227007,
+      "RotationY": 0,
+      "Type": [
+        2
+      ],
+      "EnterAction": "ShowBountyHunterTask()",
+      "ExitAction": "HideBountyHunterTask()",
+      "RaidId": 23300888,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 100,
+          "PosY": 133.628906,
+          "PosZ": -215
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 60,
+          "ScaleY": 60,
+          "ScaleZ": 1
+        }
+      ]
+    },
+    {
+      "Id": 91227008,
+      "RotationY": 0,
+      "Type": [
+        2
+      ],
+      "EnterAction": "ShowBountyHunterTask()",
+      "ExitAction": "HideBountyHunterTask()",
+      "RaidId": 23300888,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": -45,
+          "PosY": 42.4000015,
+          "PosZ": -413
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 60,
+          "ScaleY": 60,
+          "ScaleZ": 1
+        }
+      ]
+    },
+    {
+      "Id": 91227009,
+      "RotationY": 0,
+      "Type": [
+        2
+      ],
+      "EnterAction": "ShowBountyHunterTask()",
+      "ExitAction": "HideBountyHunterTask()",
+      "RaidId": 23300888,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 89,
+          "PosY": 72.1900024,
+          "PosZ": -485
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 60,
+          "ScaleY": 60,
+          "ScaleZ": 1
+        }
+      ]
+    },
+    {
+      "Id": 91227010,
+      "RotationY": 0,
+      "Type": [
+        2
+      ],
+      "EnterAction": "ShowBountyHunterTask()",
+      "ExitAction": "HideBountyHunterTask()",
+      "RaidId": 23300888,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": 395,
+          "PosY": 15.9799995,
+          "PosZ": 540
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 60,
+          "ScaleY": 60,
+          "ScaleZ": 1
+        }
+      ]
+    },
+    {
+      "Id": 91227011,
+      "RotationY": 0,
+      "Type": [
+        2
+      ],
+      "EnterAction": "ShowBountyHunterTask()",
+      "ExitAction": "HideBountyHunterTask()",
+      "RaidId": 23300888,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": -435,
+          "PosY": 94.6728668,
+          "PosZ": 3
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 60,
+          "ScaleY": 60,
+          "ScaleZ": 1
+        }
+      ]
+    },
+    {
+      "Id": 91227012,
+      "RotationY": 0,
+      "Type": [
+        2
+      ],
+      "EnterAction": "ShowBountyHunterTask()",
+      "ExitAction": "HideBountyHunterTask()",
+      "RaidId": 23300888,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": -610,
+          "PosY": 96.8000031,
+          "PosZ": 120
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 60,
+          "ScaleY": 60,
+          "ScaleZ": 1
+        }
+      ]
+    },
+    {
+      "Id": 91227013,
+      "RotationY": 0,
+      "Type": [
+        2
+      ],
+      "EnterAction": "ShowBountyHunterTask()",
+      "ExitAction": "HideBountyHunterTask()",
+      "RaidId": 23300888,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": -475,
+          "PosY": 105.6875,
+          "PosZ": 291
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 60,
+          "ScaleY": 60,
+          "ScaleZ": 1
+        }
+      ]
+    },
+    {
+      "Id": 91227501,
+      "RotationY": 0,
+      "Type": [
+        2
+      ],
+      "EnterAction": "ShowOrHideTaskGps(false)",
+      "ExitAction": "ShowOrHideTaskGps(true)",
+      "RaidId": 23300888,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": -83,
+          "PosY": 45,
+          "PosZ": 57.7999992
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 20,
+          "ScaleY": 20,
+          "ScaleZ": 1
+        }
+      ]
+    },
+    {
+      "Id": 91227502,
+      "RotationY": 0,
+      "Type": [
+        2
+      ],
+      "EnterAction": "ShowOrHideTaskGps(false)",
+      "ExitAction": "ShowOrHideTaskGps(true)",
+      "RaidId": 23300888,
+      "NotInLand": false,
+      "Position": [
+        {
+          "PosX": -83,
+          "PosY": 45,
+          "PosZ": 57.7999992
+        }
+      ],
+      "Scale": [
+        {
+          "ScaleX": 20,
+          "ScaleY": 20,
+          "ScaleZ": 1
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 113,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

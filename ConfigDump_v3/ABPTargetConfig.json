@@ -1,0 +1,1529 @@
+{
+  "_class": "ABPTargetConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 217,
+  "records": [
+    {
+      "Id": 1,
+      "CodeName": "DestEdge",
+      "Deprecated": true,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 2,
+      "CodeName": "DestEdge2",
+      "Deprecated": true,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3,
+      "CodeName": "DestEdge3",
+      "Deprecated": true,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 11,
+      "CodeName": "Position",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 20,
+      "CodeName": "RotationTargetForward",
+      "Deprecated": true,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 21,
+      "CodeName": "OrientationTargetForward",
+      "Deprecated": true,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 22,
+      "CodeName": "KeyDownDirection",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 23,
+      "CodeName": "DirectionStartPoint",
+      "Deprecated": true,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 24,
+      "CodeName": "DirectionEndPoint",
+      "Deprecated": true,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 25,
+      "CodeName": "CurrentForward",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 26,
+      "CodeName": "Identity",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 27,
+      "CodeName": "CurrentForwardXZ",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 28,
+      "CodeName": "CameraYaw",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 29,
+      "CodeName": "StrafeDirYaw",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 33,
+      "CodeName": "FBBIkTargetLeftHand",
+      "Deprecated": true,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 34,
+      "CodeName": "FBBIkTargetRightHand",
+      "Deprecated": true,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 35,
+      "CodeName": "GameInteractIKTarget",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 36,
+      "CodeName": "GameInteractDest",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 37,
+      "CodeName": "SlowWallTopOutPoint",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 38,
+      "CodeName": "InterActionToMovement",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 83,
+      "CodeName": "VehicleEnterDirectionDoorClose",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 84,
+      "CodeName": "VehicleEnterDirectionDoorOpen",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 98,
+      "CodeName": "TurningDirection",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 99,
+      "CodeName": "BehaviorTarget",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 100,
+      "CodeName": "WeaponIK_LeftHand",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 101,
+      "CodeName": "FinalAngle",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 301,
+      "CodeName": "SelfIK_DrinkHandPoint",
+      "Deprecated": false,
+      "Group": 1,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 302,
+      "CodeName": "SelfIK_LeftHandOnWaist",
+      "Deprecated": false,
+      "Group": 1,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 303,
+      "CodeName": "SelfIK_RightHandOnWaist",
+      "Deprecated": false,
+      "Group": 1,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 1001,
+      "CodeName": "Inter2_AlcoholTest",
+      "Deprecated": false,
+      "Group": 2,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 1002,
+      "CodeName": "Inter2_DrugTest",
+      "Deprecated": false,
+      "Group": 2,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 1003,
+      "CodeName": "Inter2_Frisk0",
+      "Deprecated": false,
+      "Group": 2,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 1004,
+      "CodeName": "Inter2_Frisk1",
+      "Deprecated": false,
+      "Group": 2,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 1005,
+      "CodeName": "Inter2_Frisk2",
+      "Deprecated": false,
+      "Group": 2,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 1006,
+      "CodeName": "Inter2_Frisk3",
+      "Deprecated": false,
+      "Group": 2,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 1007,
+      "CodeName": "Inter2_Frisk4",
+      "Deprecated": false,
+      "Group": 2,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 1008,
+      "CodeName": "Inter2_Frisk5",
+      "Deprecated": false,
+      "Group": 2,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 1009,
+      "CodeName": "Inter2_IDCheck",
+      "Deprecated": false,
+      "Group": 2,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 1010,
+      "CodeName": "Inter2_Ticket",
+      "Deprecated": false,
+      "Group": 2,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 1011,
+      "CodeName": "Inter2_Arrest",
+      "Deprecated": false,
+      "Group": 2,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 1012,
+      "CodeName": "Inter2_Hug",
+      "Deprecated": false,
+      "Group": 2,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 1013,
+      "CodeName": "Inter2_PrincessHug",
+      "Deprecated": false,
+      "Group": 2,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 1014,
+      "CodeName": "Inter2_HoldLeftHand",
+      "Deprecated": false,
+      "Group": 2,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 1015,
+      "CodeName": "Inter2_HoldRightHand",
+      "Deprecated": false,
+      "Group": 2,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 1016,
+      "CodeName": "Inter2_PrincessBack",
+      "Deprecated": false,
+      "Group": 2,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 1017,
+      "CodeName": "Inter2_EscortHand",
+      "Deprecated": false,
+      "Group": 2,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 1018,
+      "CodeName": "Inter2_FaceCheck",
+      "Deprecated": false,
+      "Group": 2,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 1019,
+      "CodeName": "Inter2_PoliceDrugCheck",
+      "Deprecated": false,
+      "Group": 2,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 1020,
+      "CodeName": "Inter2_InteractDynamicPoint",
+      "Deprecated": false,
+      "Group": 2,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 1021,
+      "CodeName": "Inter2_InteractLocalTransform",
+      "Deprecated": false,
+      "Group": 2,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 1022,
+      "CodeName": "Inter2_ArrestHand",
+      "Deprecated": false,
+      "Group": 2,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 1023,
+      "CodeName": "Inter2_GadgetsDestination",
+      "Deprecated": false,
+      "Group": 2,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 1024,
+      "CodeName": "Inter2_PassiveMoveTarget",
+      "Deprecated": false,
+      "Group": 2,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 1025,
+      "CodeName": "Inter2_PrincessCarryStartWarp",
+      "Deprecated": false,
+      "Group": 2,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 1026,
+      "CodeName": "Inter2_EscortEnterVehicle",
+      "Deprecated": false,
+      "Group": 2,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 1027,
+      "CodeName": "Inter2_PrincessCarryEndWarp",
+      "Deprecated": false,
+      "Group": 2,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 2001,
+      "CodeName": "Mount_GeneralLeftHand",
+      "Deprecated": false,
+      "Group": 3,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 2002,
+      "CodeName": "Mount_GeneralRightHand",
+      "Deprecated": false,
+      "Group": 3,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 2023,
+      "CodeName": "Inter2_InteractInstantDir",
+      "Deprecated": false,
+      "Group": 2,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 2024,
+      "CodeName": "Inter2_PrincessCarrySyncHeight",
+      "Deprecated": false,
+      "Group": 2,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3000,
+      "CodeName": "NPCFocusTarget",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3001,
+      "CodeName": "NPCCarryEnd",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3002,
+      "CodeName": "NPCClimbTree",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3003,
+      "CodeName": "NPCAvoidVehicleMoveStart",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3004,
+      "CodeName": "NPCAvoidVehicleMoveEnd",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3005,
+      "CodeName": "NPCAvoidVehicleScaredDirection",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3006,
+      "CodeName": "NPCHookLeftHand",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3007,
+      "CodeName": "NPCHookRightHand",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3008,
+      "CodeName": "ChairInteractingTarget",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3009,
+      "CodeName": "PogoStickLandingPoint",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3010,
+      "CodeName": "NPCOpenPlayerVehicleDoor",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3100,
+      "CodeName": "CC_DestPosition",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3101,
+      "CodeName": "CC_DestRotation",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3102,
+      "CodeName": "CC_DestLeftFoot",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3103,
+      "CodeName": "CC_DestRightFoot",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3104,
+      "CodeName": "CC_CurrentActionDestPosition",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3105,
+      "CodeName": "CC_CurrentMoveDirection",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3106,
+      "CodeName": "CC_WalkOutDestPosition",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3107,
+      "CodeName": "CC_WalkOutDestRotation",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3108,
+      "CodeName": "CC_PrevDestination",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3109,
+      "CodeName": "CC_InteractionDestination",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3200,
+      "CodeName": "CrossGridClimbStart",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3201,
+      "CodeName": "CrossGridClimbEnd",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3202,
+      "CodeName": "CrossGridFinal",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3203,
+      "CodeName": "CrossGridDropStart",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3204,
+      "CodeName": "CrossGridDirection",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3205,
+      "CodeName": "CrossGridRotateToNextPoint",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3210,
+      "CodeName": "LockTarget",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3220,
+      "CodeName": "TargetDir",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3221,
+      "CodeName": "HurtWarpTarget",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3231,
+      "CodeName": "DownRidePos",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3232,
+      "CodeName": "StepOnRidePos",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3233,
+      "CodeName": "RideBindSlot",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3234,
+      "CodeName": "RideHandBindSlot",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3235,
+      "CodeName": "StepOnRidePos1",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3236,
+      "CodeName": "StepOnRideFootPos",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3237,
+      "CodeName": "StepOnRideFootPos1",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3240,
+      "CodeName": "GunAimTarget",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3300,
+      "CodeName": "BehaviorSeqTarget",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3301,
+      "CodeName": "BehaviorSeqTarget1",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3302,
+      "CodeName": "BehaviorSeqTarget2",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3303,
+      "CodeName": "BehaviorSeqTarget3",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3304,
+      "CodeName": "BehaviorSeqTarget4",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3305,
+      "CodeName": "BehaviorSeqTarget5",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3400,
+      "CodeName": "SlideEnterForward",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3401,
+      "CodeName": "SlideLeftFootIK",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3402,
+      "CodeName": "SlideRightFootIK",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3410,
+      "CodeName": "LogBridgeForward",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3500,
+      "CodeName": "SkillAIParam1",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3501,
+      "CodeName": "SkillAIParam2",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3502,
+      "CodeName": "SkillAIParam3",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3503,
+      "CodeName": "SkillAIParam4",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3504,
+      "CodeName": "SkillAIParam5",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3505,
+      "CodeName": "SkillRotateTarDir",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3506,
+      "CodeName": "SkillMoveTarPos",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3507,
+      "CodeName": "BunkerPosition",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3508,
+      "CodeName": "BunkerDirection",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3600,
+      "CodeName": "BasketBallPickUp",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3601,
+      "CodeName": "BasketBallPickUpDir",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3602,
+      "CodeName": "FootBallPos",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3603,
+      "CodeName": "FootBallRotate",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3604,
+      "CodeName": "FootBallKickRotate",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3605,
+      "CodeName": "BasketBallBlockPos",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3606,
+      "CodeName": "BasketBallBlockUnitPos",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3607,
+      "CodeName": "BasketBallBlockDir",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3608,
+      "CodeName": "BasketBallBlockUnitDirection",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3609,
+      "CodeName": "BaksetBallRimDir",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3610,
+      "CodeName": "BaksetBallDefendCameraYaw",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3611,
+      "CodeName": "BaksetBallDefendYaw",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3612,
+      "CodeName": "BasketBallForbidAreaPos",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3613,
+      "CodeName": "BaksetBallDefendPos",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3614,
+      "CodeName": "BasketBallHolderFuturePos",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3615,
+      "CodeName": "BasketBallHolderFutureQuat",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3616,
+      "CodeName": "BBPassBallTargetPos",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3617,
+      "CodeName": "BBPassBallTargetQuat",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3618,
+      "CodeName": "BasketBallReboundPos",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3619,
+      "CodeName": "BasketBallReboundDir",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3620,
+      "CodeName": "BaksetBallRimPos",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3621,
+      "CodeName": "BBInterceptPos",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3622,
+      "CodeName": "BBInterceptRot",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3651,
+      "CodeName": "InteractDestructible_IkPoint_weaponr",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3652,
+      "CodeName": "InteractDestructible_IkPoint_weaponl",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3653,
+      "CodeName": "InteractDestructible_handlePoint",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3654,
+      "CodeName": "InteractDestructible_DropInteractPoint",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3655,
+      "CodeName": "InteractDestructible_LeftHandPoint",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3656,
+      "CodeName": "InteractDestructible_RightHandPoint",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 3657,
+      "CodeName": "InteractDestructible_PickUpIkPoint",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 4001,
+      "CodeName": "AirRush_RotateToYaw",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 4006,
+      "CodeName": "DestroyWindows_Edge1",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 4007,
+      "CodeName": "DestroyWindows_Edge2",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 4008,
+      "CodeName": "DestroyWindows_Edge3",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 4009,
+      "CodeName": "DestroyWindows_Direction",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 4010,
+      "CodeName": "DestroyWindows_Direction2",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 4011,
+      "CodeName": "DestroyWindows_Direction3",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 4012,
+      "CodeName": "Edge_Pos1",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 4013,
+      "CodeName": "Edge_Pos2",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 4014,
+      "CodeName": "Edge_Direction",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 4015,
+      "CodeName": "Edge_Pos3",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 4016,
+      "CodeName": "Edge_PointDirectionV2",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 4017,
+      "CodeName": "Edge_NormalDirectionV2",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 4018,
+      "CodeName": "Edge_JoystickDirectionV2",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 4050,
+      "CodeName": "ChairCenter",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5101,
+      "CodeName": "DiveObstaceleRotation",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5102,
+      "CodeName": "DiveObstaclePosition",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5103,
+      "CodeName": "DiveEnterSwimPosition",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5104,
+      "CodeName": "DiveEnterSwimRotation",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5151,
+      "CodeName": "SlowClimbIk_LeftHand",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5152,
+      "CodeName": "SlowClimbIk_RightHand",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5153,
+      "CodeName": "SlowClimbIk_LeftFoot",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5154,
+      "CodeName": "SlowClimbIk_RightFoot",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5155,
+      "CodeName": "SlowClimb_TopWallAvoidPoint",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5156,
+      "CodeName": "RushWall_PedalOutWallPoint",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5157,
+      "CodeName": "RushWall_CrossPoint",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5158,
+      "CodeName": "Slow_Top_CrossPoint",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5159,
+      "CodeName": "SlowClimb_TopWallAvoidPoint2",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5160,
+      "CodeName": "Balcony_Point",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5161,
+      "CodeName": "TouchWall_Point",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5162,
+      "CodeName": "SpecialClimbPoint",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5200,
+      "CodeName": "Bartender_PourWine_RightHand",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5201,
+      "CodeName": "Bartender_PourWine_LeftHand",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5202,
+      "CodeName": "PlayerUnitPos",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5210,
+      "CodeName": "MajiangCardPos",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": true
+    },
+    {
+      "Id": 5211,
+      "CodeName": "MajiangHandCardAreaRightPos",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": true
+    },
+    {
+      "Id": 5212,
+      "CodeName": "MajiangCardTargetPos",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": true
+    },
+    {
+      "Id": 5220,
+      "CodeName": "Guitar_LeftHand",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5301,
+      "CodeName": "IntelligentThrowDir",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5310,
+      "CodeName": "FeisuoCrouch_Direction",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5311,
+      "CodeName": "FeisuoCrouch_TargetDirection",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5312,
+      "CodeName": "FeisuoCrouch_JumpObstacleTargetPoint",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5313,
+      "CodeName": "FeisuoCrouch_JumpObstacleTargetDirection",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5321,
+      "CodeName": "GomokuPlacePos",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": true
+    },
+    {
+      "Id": 5322,
+      "CodeName": "DrillShelfPos",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5331,
+      "CodeName": "BounceJumpObstaclePosition",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5332,
+      "CodeName": "BounceJumpObstacleRotation",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5341,
+      "CodeName": "Killing_Edge_Pos1",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5342,
+      "CodeName": "Killing_Edge_Pos2",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5343,
+      "CodeName": "Killing_Edge_PointDirectionV2",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5344,
+      "CodeName": "Killing_Edge_NormalDirectionV2",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5351,
+      "CodeName": "CameraYaw_Pre",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5361,
+      "CodeName": "PoliceArrestCarWithDoor",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5501,
+      "CodeName": "FaceLockTargetStartJoystickDirection",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5502,
+      "CodeName": "LockTargetDirection",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5601,
+      "CodeName": "ShoulderPole_LeftHand",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5602,
+      "CodeName": "ShoulderPole_RightHand",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5603,
+      "CodeName": "Meihuazhuang_LeftHand",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5604,
+      "CodeName": "Meihuazhuang_RightHand",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5611,
+      "CodeName": "GetJumpGridPos",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5621,
+      "CodeName": "VRFly_GazeDir",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5631,
+      "CodeName": "Swing_ObstaclePoint",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5651,
+      "CodeName": "ExtractionContainersFacing",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5661,
+      "CodeName": "TaffyWireStartPoint",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5671,
+      "CodeName": "RopeSwingCageHandPointL",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5672,
+      "CodeName": "RopeSwingCageHandPointR",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5681,
+      "CodeName": "BeefBall_Left1",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5682,
+      "CodeName": "BeefBall_Left2",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5683,
+      "CodeName": "BeefBall_Right1",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    },
+    {
+      "Id": 5684,
+      "CodeName": "BeefBall_Right2",
+      "Deprecated": false,
+      "Group": 0,
+      "ReplicateInIK": false
+    }
+  ],
+  "_dumpedCount": 217,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

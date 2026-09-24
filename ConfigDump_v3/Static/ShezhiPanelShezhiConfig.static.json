@@ -1,0 +1,1669 @@
+{
+  "DisplayLevelCfg": {
+    "Id": 8,
+    "Page": 1,
+    "Title": "Image Quality",
+    "Priority": 2,
+    "S_ItemType": 2,
+    "Active": [
+      1,
+      2,
+      3
+    ],
+    "ButtonName": [],
+    "IsConnectDisplayLevel": 0,
+    "IconIndex": 10000,
+    "StartAction": [],
+    "ResetAction": "ResetDisplay()",
+    "SliderProfile": 0,
+    "SlideAction": "",
+    "ClickProfile": [],
+    "ClickAction": [],
+    "SelectProfile": 2000,
+    "SelectAction": "SetDisplayLevel()",
+    "IsOpen": 1,
+    "OpenAction": "",
+    "IsShowReloadTips": 0,
+    "IsLoginShow": 1,
+    "TurnToAction": "",
+    "SubTitle": "",
+    "IsShowOnPS": false,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1,
+      2
+    ],
+    "UnlockEventId": 0,
+    "isServerMemory": false,
+    "ExplainPic": [],
+    "ExplainDesc": [
+      "Select a preset or customize the graphics settings."
+    ],
+    "__IDX__Title": 21226,
+    "__RAW__Title": "",
+    "__IDX__SubTitle": 0,
+    "__RAW__SubTitle": "",
+    "__IDX__ExplainDesc": [
+      164324
+    ],
+    "__RAW__ExplainDesc": [
+      ""
+    ],
+    "iOSName": [
+      {
+        "name": "",
+        "__IDX__name": 0,
+        "__RAW__name": "0",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 0,
+        "__RAW__name": "1",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 0,
+        "__RAW__name": "2",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 0,
+        "__RAW__name": "3",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 0,
+        "__RAW__name": "4",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 0,
+        "__RAW__name": "7",
+        "iconId": 0
+      }
+    ],
+    "AndriodName": [
+      {
+        "name": "",
+        "__IDX__name": 0,
+        "__RAW__name": "0",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 0,
+        "__RAW__name": "1",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 0,
+        "__RAW__name": "2",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 0,
+        "__RAW__name": "3",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 0,
+        "__RAW__name": "4",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 0,
+        "__RAW__name": "7",
+        "iconId": 0
+      }
+    ],
+    "PCName": [
+      {
+        "name": "",
+        "__IDX__name": 0,
+        "__RAW__name": "2",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 0,
+        "__RAW__name": "3",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 0,
+        "__RAW__name": "4",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 0,
+        "__RAW__name": "5",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 0,
+        "__RAW__name": "6",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 0,
+        "__RAW__name": "7",
+        "iconId": 0
+      }
+    ],
+    "PS5Name": [
+      {
+        "name": "",
+        "__IDX__name": 0,
+        "__RAW__name": "4",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 0,
+        "__RAW__name": "5",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 0,
+        "__RAW__name": "7",
+        "iconId": 0
+      }
+    ],
+    "SliderSetValues": {
+      "stepValue": 0,
+      "maxValue": 0,
+      "minValue": 0,
+      "sliderSetValues": 0
+    },
+    "SubTemplate": [],
+    "RebindAction": []
+  },
+  "ResolutionCfg": {
+    "Id": 10,
+    "Page": 1,
+    "Title": "Resolution",
+    "Priority": 4,
+    "S_ItemType": 2,
+    "Active": [
+      2,
+      3
+    ],
+    "ButtonName": [],
+    "IsConnectDisplayLevel": 0,
+    "IconIndex": 0,
+    "StartAction": [],
+    "ResetAction": "ResetPCResolution()",
+    "SliderProfile": 0,
+    "SlideAction": "",
+    "ClickProfile": [],
+    "ClickAction": [],
+    "SelectProfile": 0,
+    "SelectAction": "SetPCResolution()",
+    "IsOpen": 1,
+    "OpenAction": "",
+    "IsShowReloadTips": 0,
+    "IsLoginShow": 1,
+    "TurnToAction": "",
+    "SubTitle": "",
+    "IsShowOnPS": true,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1,
+      2
+    ],
+    "UnlockEventId": 0,
+    "isServerMemory": false,
+    "ExplainPic": [],
+    "ExplainDesc": [
+      "Select the game’s display resolution. A higher resolution produces a sharper image, but may affect performance."
+    ],
+    "__IDX__Title": 21228,
+    "__RAW__Title": "",
+    "__IDX__SubTitle": 0,
+    "__RAW__SubTitle": "",
+    "__IDX__ExplainDesc": [
+      164214
+    ],
+    "__RAW__ExplainDesc": [
+      ""
+    ],
+    "iOSName": [],
+    "AndriodName": [],
+    "PCName": [
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "3840x2160",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "3840x1620",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "3200x1800",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "2560x1440",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "2048x1536",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "1920x2160",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "1920x1080",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "1600x900",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "1280x1024",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "1280x720",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "1176x664",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "1152x864",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "1152x864",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "1024x768",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "800x600",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "720x480",
+        "iconId": 0
+      }
+    ],
+    "PS5Name": [
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "3840x2160",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "3840x1620",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "3200x1800",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "2560x1440",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "2048x1536",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "1920x2160",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "1920x1080",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "1600x900",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "1280x1024",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "1280x720",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "1176x664",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "1152x864",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "1152x864",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "1024x768",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "800x600",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "720x480",
+        "iconId": 0
+      }
+    ],
+    "SliderSetValues": {
+      "stepValue": 0,
+      "maxValue": 0,
+      "minValue": 0,
+      "sliderSetValues": 0
+    },
+    "SubTemplate": [],
+    "RebindAction": []
+  },
+  "DisplayIndexCfg": {
+    "Id": 12,
+    "Page": 1,
+    "Title": "Select Display",
+    "Priority": 6,
+    "S_ItemType": 2,
+    "Active": [
+      2
+    ],
+    "ButtonName": [],
+    "IsConnectDisplayLevel": 0,
+    "IconIndex": 0,
+    "StartAction": [],
+    "ResetAction": "",
+    "SliderProfile": 0,
+    "SlideAction": "",
+    "ClickProfile": [],
+    "ClickAction": [],
+    "SelectProfile": 2020,
+    "SelectAction": "SetPCDisplayIndex()",
+    "IsOpen": 1,
+    "OpenAction": "",
+    "IsShowReloadTips": 0,
+    "IsLoginShow": 1,
+    "TurnToAction": "",
+    "SubTitle": "",
+    "IsShowOnPS": true,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1,
+      2
+    ],
+    "UnlockEventId": 0,
+    "isServerMemory": false,
+    "ExplainPic": [],
+    "ExplainDesc": [
+      "Select the monitor used to display the game."
+    ],
+    "__IDX__Title": 21230,
+    "__RAW__Title": "",
+    "__IDX__SubTitle": 0,
+    "__RAW__SubTitle": "",
+    "__IDX__ExplainDesc": [
+      164232
+    ],
+    "__RAW__ExplainDesc": [
+      ""
+    ],
+    "iOSName": [],
+    "AndriodName": [],
+    "PCName": [],
+    "PS5Name": [],
+    "SliderSetValues": {
+      "stepValue": 0,
+      "maxValue": 0,
+      "minValue": 0,
+      "sliderSetValues": 0
+    },
+    "SubTemplate": [],
+    "RebindAction": []
+  },
+  "AntialiasingQualityCfg": {
+    "Id": 158,
+    "Page": 1,
+    "Title": "Anti-Aliasing Type",
+    "Priority": 36,
+    "S_ItemType": 2,
+    "Active": [
+      1,
+      2,
+      3
+    ],
+    "ButtonName": [],
+    "IsConnectDisplayLevel": 1,
+    "IconIndex": 0,
+    "StartAction": [],
+    "ResetAction": "",
+    "SliderProfile": 0,
+    "SlideAction": "",
+    "ClickProfile": [],
+    "ClickAction": [],
+    "SelectProfile": 3018,
+    "SelectAction": "SetAntiAliasingQuality()",
+    "IsOpen": 1,
+    "OpenAction": "",
+    "IsShowReloadTips": 0,
+    "IsLoginShow": 1,
+    "TurnToAction": "",
+    "SubTitle": "",
+    "IsShowOnPS": true,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1,
+      2
+    ],
+    "UnlockEventId": 0,
+    "isServerMemory": false,
+    "ExplainPic": [],
+    "ExplainDesc": [
+      "Select the type of anti-aliasing to apply."
+    ],
+    "__IDX__Title": 92638,
+    "__RAW__Title": "",
+    "__IDX__SubTitle": 0,
+    "__RAW__SubTitle": "",
+    "__IDX__ExplainDesc": [
+      164242
+    ],
+    "__RAW__ExplainDesc": [
+      ""
+    ],
+    "iOSName": [],
+    "AndriodName": [],
+    "PCName": [],
+    "PS5Name": [],
+    "SliderSetValues": {
+      "stepValue": 0,
+      "maxValue": 0,
+      "minValue": 0,
+      "sliderSetValues": 0
+    },
+    "SubTemplate": [],
+    "RebindAction": []
+  },
+  "AntialiasingLevelCfg": {
+    "Id": 159,
+    "Page": 1,
+    "Title": "Anti-Aliasing Quality",
+    "Priority": 37,
+    "S_ItemType": 2,
+    "Active": [
+      1,
+      2,
+      3
+    ],
+    "ButtonName": [],
+    "IsConnectDisplayLevel": 1,
+    "IconIndex": 0,
+    "StartAction": [],
+    "ResetAction": "",
+    "SliderProfile": 0,
+    "SlideAction": "",
+    "ClickProfile": [],
+    "ClickAction": [],
+    "SelectProfile": 3019,
+    "SelectAction": "SetAntiAliasingLevel()",
+    "IsOpen": 1,
+    "OpenAction": "",
+    "IsShowReloadTips": 0,
+    "IsLoginShow": 1,
+    "TurnToAction": "",
+    "SubTitle": "",
+    "IsShowOnPS": true,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1,
+      2
+    ],
+    "UnlockEventId": 0,
+    "isServerMemory": false,
+    "ExplainPic": [],
+    "ExplainDesc": [
+      "Select the anti-aliasing quality. The higher the setting, the finer the anti-aliasing, but performance may be affected."
+    ],
+    "__IDX__Title": 92639,
+    "__RAW__Title": "",
+    "__IDX__SubTitle": 0,
+    "__RAW__SubTitle": "",
+    "__IDX__ExplainDesc": [
+      164243
+    ],
+    "__RAW__ExplainDesc": [
+      ""
+    ],
+    "iOSName": [],
+    "AndriodName": [],
+    "PCName": [],
+    "PS5Name": [],
+    "SliderSetValues": {
+      "stepValue": 0,
+      "maxValue": 0,
+      "minValue": 0,
+      "sliderSetValues": 0
+    },
+    "SubTemplate": [],
+    "RebindAction": []
+  },
+  "FrameGenCfg": {
+    "Id": 160,
+    "Page": 1,
+    "Title": "Frame Generation",
+    "Priority": 39,
+    "S_ItemType": 2,
+    "Active": [
+      1,
+      2
+    ],
+    "ButtonName": [],
+    "IsConnectDisplayLevel": 1,
+    "IconIndex": 0,
+    "StartAction": [],
+    "ResetAction": "",
+    "SliderProfile": 0,
+    "SlideAction": "",
+    "ClickProfile": [],
+    "ClickAction": [],
+    "SelectProfile": 3013,
+    "SelectAction": "SetFrameGen()",
+    "IsOpen": 1,
+    "OpenAction": "",
+    "IsShowReloadTips": 1,
+    "IsLoginShow": 1,
+    "TurnToAction": "",
+    "SubTitle": "",
+    "IsShowOnPS": true,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1,
+      2
+    ],
+    "UnlockEventId": 0,
+    "isServerMemory": false,
+    "ExplainPic": [],
+    "ExplainDesc": [
+      "Choose whether to enable frame generation and which type to use."
+    ],
+    "__IDX__Title": 92640,
+    "__RAW__Title": "",
+    "__IDX__SubTitle": 0,
+    "__RAW__SubTitle": "",
+    "__IDX__ExplainDesc": [
+      164245
+    ],
+    "__RAW__ExplainDesc": [
+      ""
+    ],
+    "iOSName": [],
+    "AndriodName": [],
+    "PCName": [],
+    "PS5Name": [],
+    "SliderSetValues": {
+      "stepValue": 0,
+      "maxValue": 0,
+      "minValue": 0,
+      "sliderSetValues": 0
+    },
+    "SubTemplate": [],
+    "RebindAction": []
+  },
+  "AliasingsCfg": {
+    "Id": 18,
+    "Page": 1,
+    "Title": "Anti-Aliasing",
+    "Priority": 42,
+    "S_ItemType": 2,
+    "Active": [
+      0
+    ],
+    "ButtonName": [],
+    "IsConnectDisplayLevel": 1,
+    "IconIndex": 0,
+    "StartAction": [],
+    "ResetAction": "",
+    "SliderProfile": 0,
+    "SlideAction": "",
+    "ClickProfile": [],
+    "ClickAction": [],
+    "SelectProfile": 2005,
+    "SelectAction": "SetAntiAliasing()",
+    "IsOpen": 1,
+    "OpenAction": "",
+    "IsShowReloadTips": 0,
+    "IsLoginShow": 1,
+    "TurnToAction": "",
+    "SubTitle": "",
+    "IsShowOnPS": true,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1,
+      2
+    ],
+    "UnlockEventId": 0,
+    "isServerMemory": false,
+    "ExplainPic": [],
+    "ExplainDesc": [],
+    "__IDX__Title": 21236,
+    "__RAW__Title": "",
+    "__IDX__SubTitle": 0,
+    "__RAW__SubTitle": "",
+    "__IDX__ExplainDesc": [],
+    "__RAW__ExplainDesc": [],
+    "iOSName": [],
+    "AndriodName": [],
+    "PCName": [],
+    "PS5Name": [],
+    "SliderSetValues": {
+      "stepValue": 0,
+      "maxValue": 0,
+      "minValue": 0,
+      "sliderSetValues": 0
+    },
+    "SubTemplate": [],
+    "RebindAction": []
+  },
+  "PlayerShowNameCfg": {
+    "Id": 201,
+    "Page": 2,
+    "Title": "Display Player Name",
+    "Priority": 32,
+    "S_ItemType": 2,
+    "Active": [
+      1,
+      2,
+      3
+    ],
+    "ButtonName": [],
+    "IsConnectDisplayLevel": 0,
+    "IconIndex": 0,
+    "StartAction": [],
+    "ResetAction": "ResetShowPlayerName()",
+    "SliderProfile": 0,
+    "SlideAction": "",
+    "ClickProfile": [],
+    "ClickAction": [],
+    "SelectProfile": 3007,
+    "SelectAction": "SetShowPlayerName()",
+    "IsOpen": 1,
+    "OpenAction": "",
+    "IsShowReloadTips": 0,
+    "IsLoginShow": 1,
+    "TurnToAction": "",
+    "SubTitle": "",
+    "IsShowOnPS": true,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1
+    ],
+    "UnlockEventId": 0,
+    "isServerMemory": true,
+    "ExplainPic": [],
+    "ExplainDesc": [
+      "Choose which name is displayed during story mode."
+    ],
+    "__IDX__Title": 102371,
+    "__RAW__Title": "",
+    "__IDX__SubTitle": 0,
+    "__RAW__SubTitle": "",
+    "__IDX__ExplainDesc": [
+      164254
+    ],
+    "__RAW__ExplainDesc": [
+      ""
+    ],
+    "iOSName": [
+      {
+        "name": "",
+        "__IDX__name": 102372,
+        "__RAW__name": "",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 102373,
+        "__RAW__name": "",
+        "iconId": 0
+      }
+    ],
+    "AndriodName": [],
+    "PCName": [],
+    "PS5Name": [],
+    "SliderSetValues": {
+      "stepValue": 0,
+      "maxValue": 0,
+      "minValue": 0,
+      "sliderSetValues": 0
+    },
+    "SubTemplate": [],
+    "RebindAction": []
+  },
+  "CallNameVoiceCfg": {
+    "Id": 304,
+    "Page": 2,
+    "Title": "Name Readout Feature",
+    "Priority": 34,
+    "S_ItemType": 11,
+    "Active": [
+      1,
+      2,
+      3
+    ],
+    "ButtonName": [],
+    "IsConnectDisplayLevel": 0,
+    "IconIndex": 0,
+    "StartAction": [],
+    "ResetAction": "",
+    "SliderProfile": 0,
+    "SlideAction": "",
+    "ClickProfile": [],
+    "ClickAction": [],
+    "SelectProfile": 0,
+    "SelectAction": "",
+    "IsOpen": 0,
+    "OpenAction": "",
+    "IsShowReloadTips": 0,
+    "IsLoginShow": 1,
+    "TurnToAction": "",
+    "SubTitle": "",
+    "IsShowOnPS": true,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0
+    ],
+    "UnlockEventId": 0,
+    "isServerMemory": true,
+    "ExplainPic": [],
+    "ExplainDesc": [
+      "Toggle name readout feature. When enabled, characters in the game will address you by your chosen name in voiced dialogue."
+    ],
+    "__IDX__Title": 164303,
+    "__RAW__Title": "",
+    "__IDX__SubTitle": 0,
+    "__RAW__SubTitle": "",
+    "__IDX__ExplainDesc": [
+      164302
+    ],
+    "__RAW__ExplainDesc": [
+      ""
+    ],
+    "iOSName": [
+      {
+        "name": "",
+        "__IDX__name": 164304,
+        "__RAW__name": "",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 164305,
+        "__RAW__name": "",
+        "iconId": 0
+      }
+    ],
+    "AndriodName": [],
+    "PCName": [],
+    "PS5Name": [],
+    "SliderSetValues": {
+      "stepValue": 0,
+      "maxValue": 0,
+      "minValue": 0,
+      "sliderSetValues": 0
+    },
+    "SubTemplate": [
+      {
+        "type": 0,
+        "setAction": "SetVoiceCallEnabled()",
+        "resetAction": "ResetVoiceCallEnabled()",
+        "visibleByIndex": 0,
+        "subTitle": "",
+        "data": "304001",
+        "gameProfileKey": "isVoiceCallEnabled",
+        "valueType": "number",
+        "hideByIndex": 0
+      },
+      {
+        "type": 1,
+        "setAction": "SetVoiceCallPinyin()",
+        "resetAction": "ResetVoiceCallPinyin()",
+        "visibleByIndex": 1,
+        "subTitle": "多音字设置与试听",
+        "data": "304002",
+        "gameProfileKey": "voiceCallPinyinData",
+        "valueType": "string",
+        "hideByIndex": 0
+      }
+    ],
+    "RebindAction": []
+  },
+  "AntidinicModeAllCfg": {
+    "Id": 113,
+    "Page": 4,
+    "Title": "Anti-Dizziness Mode",
+    "Priority": 7,
+    "S_ItemType": 2,
+    "Active": [
+      1,
+      2,
+      3
+    ],
+    "ButtonName": [],
+    "IsConnectDisplayLevel": 0,
+    "IconIndex": 0,
+    "StartAction": [],
+    "ResetAction": "ResetAntidinicModeAll()",
+    "SliderProfile": 0,
+    "SlideAction": "",
+    "ClickProfile": [],
+    "ClickAction": [],
+    "SelectProfile": 3015,
+    "SelectAction": "SetAntidinicModeAll()",
+    "IsOpen": 0,
+    "OpenAction": "",
+    "IsShowReloadTips": 0,
+    "IsLoginShow": 1,
+    "TurnToAction": "",
+    "SubTitle": "",
+    "IsShowOnPS": true,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1,
+      2
+    ],
+    "UnlockEventId": 0,
+    "isServerMemory": true,
+    "ExplainPic": [],
+    "ExplainDesc": [
+      "Toggle Anti-Dizziness Mode. Suitable for players prone to 3D-induced motion sickness."
+    ],
+    "__IDX__Title": 21331,
+    "__RAW__Title": "",
+    "__IDX__SubTitle": 0,
+    "__RAW__SubTitle": "",
+    "__IDX__ExplainDesc": [
+      164226
+    ],
+    "__RAW__ExplainDesc": [
+      ""
+    ],
+    "iOSName": [
+      {
+        "name": "",
+        "__IDX__name": 72925,
+        "__RAW__name": "",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 72926,
+        "__RAW__name": "",
+        "iconId": 0
+      }
+    ],
+    "AndriodName": [],
+    "PCName": [],
+    "PS5Name": [],
+    "SliderSetValues": {
+      "stepValue": 0,
+      "maxValue": 0,
+      "minValue": 0,
+      "sliderSetValues": 0
+    },
+    "SubTemplate": [],
+    "RebindAction": []
+  },
+  "CameraMotionBlurCfg": {
+    "Id": 114,
+    "Page": 4,
+    "Title": "Motion Blur Intensity",
+    "Priority": 8,
+    "S_ItemType": 1,
+    "Active": [
+      1,
+      2,
+      3
+    ],
+    "ButtonName": [],
+    "IsConnectDisplayLevel": 1,
+    "IconIndex": 0,
+    "StartAction": [],
+    "ResetAction": "ResetCameraMotionBlurIntensity()",
+    "SliderProfile": 7,
+    "SlideAction": "SetCameraMotionBlurIntensity()",
+    "ClickProfile": [],
+    "ClickAction": [],
+    "SelectProfile": 0,
+    "SelectAction": "",
+    "IsOpen": 1,
+    "OpenAction": "",
+    "IsShowReloadTips": 0,
+    "IsLoginShow": 1,
+    "TurnToAction": "",
+    "SubTitle": "",
+    "IsShowOnPS": true,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1,
+      2
+    ],
+    "UnlockEventId": 0,
+    "isServerMemory": false,
+    "ExplainPic": [],
+    "ExplainDesc": [
+      "Adjust the intensity of the blur effect produced by camera movement."
+    ],
+    "__IDX__Title": 21332,
+    "__RAW__Title": "",
+    "__IDX__SubTitle": 0,
+    "__RAW__SubTitle": "",
+    "__IDX__ExplainDesc": [
+      164227
+    ],
+    "__RAW__ExplainDesc": [
+      ""
+    ],
+    "iOSName": [],
+    "AndriodName": [],
+    "PCName": [],
+    "PS5Name": [],
+    "SliderSetValues": {
+      "stepValue": 1,
+      "maxValue": 10,
+      "minValue": 0,
+      "sliderSetValues": 1
+    },
+    "SubTemplate": [],
+    "RebindAction": []
+  },
+  "LensDistortionIntensityCfg": {
+    "Id": 115,
+    "Page": 4,
+    "Title": "Radial Distortion Intensity",
+    "Priority": 9,
+    "S_ItemType": 1,
+    "Active": [
+      1,
+      2,
+      3
+    ],
+    "ButtonName": [],
+    "IsConnectDisplayLevel": 0,
+    "IconIndex": 0,
+    "StartAction": [],
+    "ResetAction": "ResetLensDistortionIntensity()",
+    "SliderProfile": 22,
+    "SlideAction": "SetLensDistortionIntensity()",
+    "ClickProfile": [],
+    "ClickAction": [],
+    "SelectProfile": 0,
+    "SelectAction": "",
+    "IsOpen": 1,
+    "OpenAction": "",
+    "IsShowReloadTips": 0,
+    "IsLoginShow": 1,
+    "TurnToAction": "",
+    "SubTitle": "",
+    "IsShowOnPS": true,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1,
+      2
+    ],
+    "UnlockEventId": 0,
+    "isServerMemory": false,
+    "ExplainPic": [],
+    "ExplainDesc": [
+      "Adjust the intensity of the distortion on the edges of the screen."
+    ],
+    "__IDX__Title": 42502,
+    "__RAW__Title": "",
+    "__IDX__SubTitle": 0,
+    "__RAW__SubTitle": "",
+    "__IDX__ExplainDesc": [
+      164228
+    ],
+    "__RAW__ExplainDesc": [
+      ""
+    ],
+    "iOSName": [],
+    "AndriodName": [],
+    "PCName": [],
+    "PS5Name": [],
+    "SliderSetValues": {
+      "stepValue": 1,
+      "maxValue": 10,
+      "minValue": 0,
+      "sliderSetValues": 1
+    },
+    "SubTemplate": [],
+    "RebindAction": []
+  },
+  "SwingCameraItensityCfg": {
+    "Id": 116,
+    "Page": 4,
+    "Title": "Camera Motion Intensity",
+    "Priority": 10,
+    "S_ItemType": 1,
+    "Active": [
+      1,
+      2,
+      3
+    ],
+    "ButtonName": [],
+    "IsConnectDisplayLevel": 0,
+    "IconIndex": 0,
+    "StartAction": [],
+    "ResetAction": "ResetSwingCameraItensity()",
+    "SliderProfile": 6,
+    "SlideAction": "SwingCameraItensity()",
+    "ClickProfile": [],
+    "ClickAction": [],
+    "SelectProfile": 0,
+    "SelectAction": "",
+    "IsOpen": 1,
+    "OpenAction": "",
+    "IsShowReloadTips": 0,
+    "IsLoginShow": 1,
+    "TurnToAction": "",
+    "SubTitle": "",
+    "IsShowOnPS": true,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1,
+      2
+    ],
+    "UnlockEventId": 0,
+    "isServerMemory": false,
+    "ExplainPic": [],
+    "ExplainDesc": [
+      "Adjust how much the camera sways as the character moves in third-person."
+    ],
+    "__IDX__Title": 42507,
+    "__RAW__Title": "",
+    "__IDX__SubTitle": 0,
+    "__RAW__SubTitle": "",
+    "__IDX__ExplainDesc": [
+      164229
+    ],
+    "__RAW__ExplainDesc": [
+      ""
+    ],
+    "iOSName": [],
+    "AndriodName": [],
+    "PCName": [],
+    "PS5Name": [],
+    "SliderSetValues": {
+      "stepValue": 1,
+      "maxValue": 9,
+      "minValue": 1,
+      "sliderSetValues": 1
+    },
+    "SubTemplate": [],
+    "RebindAction": []
+  },
+  "PSOnlyCfg": {
+    "Id": 298,
+    "Page": 7,
+    "Title": "仅与PlayStation™Network的用户进行多人游戏",
+    "Priority": 3,
+    "S_ItemType": 2,
+    "Active": [
+      3
+    ],
+    "ButtonName": [],
+    "IsConnectDisplayLevel": 0,
+    "IconIndex": 0,
+    "StartAction": [],
+    "ResetAction": "",
+    "SliderProfile": 0,
+    "SlideAction": "",
+    "ClickProfile": [],
+    "ClickAction": [],
+    "SelectProfile": 0,
+    "SelectAction": "SetPSOnlySetting()",
+    "IsOpen": 0,
+    "OpenAction": "",
+    "IsShowReloadTips": 0,
+    "IsLoginShow": 1,
+    "TurnToAction": "",
+    "SubTitle": "",
+    "IsShowOnPS": true,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0
+    ],
+    "UnlockEventId": 0,
+    "isServerMemory": true,
+    "ExplainPic": [],
+    "ExplainDesc": [
+      "选择是否仅与PlayStation™Network的用户进行多人游戏。"
+    ],
+    "__IDX__Title": 4294967293,
+    "__RAW__Title": "仅与PlayStation™Network的用户进行多人游戏",
+    "__IDX__SubTitle": 0,
+    "__RAW__SubTitle": "",
+    "__IDX__ExplainDesc": [
+      4294967293
+    ],
+    "__RAW__ExplainDesc": [
+      "选择是否仅与PlayStation™Network的用户进行多人游戏。"
+    ],
+    "iOSName": [
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "开",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "关",
+        "iconId": 0
+      }
+    ],
+    "AndriodName": [],
+    "PCName": [],
+    "PS5Name": [],
+    "SliderSetValues": {
+      "stepValue": 0,
+      "maxValue": 0,
+      "minValue": 0,
+      "sliderSetValues": 0
+    },
+    "SubTemplate": [],
+    "RebindAction": []
+  },
+  "AllowVisitHouseCfg": {
+    "Id": 901,
+    "Page": 7,
+    "Title": "允许他人参观住宅",
+    "Priority": 9,
+    "S_ItemType": 2,
+    "Active": [
+      1,
+      2,
+      3
+    ],
+    "ButtonName": [],
+    "IsConnectDisplayLevel": 0,
+    "IconIndex": 0,
+    "StartAction": [],
+    "ResetAction": "",
+    "SliderProfile": 0,
+    "SlideAction": "",
+    "ClickProfile": [],
+    "ClickAction": [],
+    "SelectProfile": 0,
+    "SelectAction": "",
+    "IsOpen": 0,
+    "OpenAction": "",
+    "IsShowReloadTips": 0,
+    "IsLoginShow": 1,
+    "TurnToAction": "",
+    "SubTitle": "",
+    "IsShowOnPS": true,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0
+    ],
+    "UnlockEventId": 0,
+    "isServerMemory": true,
+    "ExplainPic": [],
+    "ExplainDesc": [
+      "选择哪些玩家可以参观你的住宅。\n\n所有人：允许所有其他玩家参观你的住宅。\n\n仅好友：只允许好友参观你的住宅。\n\n不允许：不允许任何玩家参观你的住宅。"
+    ],
+    "__IDX__Title": 4294967293,
+    "__RAW__Title": "允许他人参观住宅",
+    "__IDX__SubTitle": 0,
+    "__RAW__SubTitle": "",
+    "__IDX__ExplainDesc": [
+      4294967293
+    ],
+    "__RAW__ExplainDesc": [
+      "选择哪些玩家可以参观你的住宅。\n\n所有人：允许所有其他玩家参观你的住宅。\n\n仅好友：只允许好友参观你的住宅。\n\n不允许：不允许任何玩家参观你的住宅。"
+    ],
+    "iOSName": [
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "所有人",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "仅好友",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "不允许",
+        "iconId": 0
+      }
+    ],
+    "AndriodName": [],
+    "PCName": [],
+    "PS5Name": [],
+    "SliderSetValues": {
+      "stepValue": 0,
+      "maxValue": 0,
+      "minValue": 0,
+      "sliderSetValues": 0
+    },
+    "SubTemplate": [],
+    "RebindAction": []
+  },
+  "DefaultVisitHomeCfg": {
+    "Id": 902,
+    "Page": 7,
+    "Title": "默认参观住宅",
+    "Priority": 10,
+    "S_ItemType": 2,
+    "Active": [
+      1,
+      2,
+      3
+    ],
+    "ButtonName": [],
+    "IsConnectDisplayLevel": 0,
+    "IconIndex": 0,
+    "StartAction": [],
+    "ResetAction": "",
+    "SliderProfile": 0,
+    "SlideAction": "",
+    "ClickProfile": [],
+    "ClickAction": [],
+    "SelectProfile": 0,
+    "SelectAction": "",
+    "IsOpen": 0,
+    "OpenAction": "",
+    "IsShowReloadTips": 0,
+    "IsLoginShow": 1,
+    "TurnToAction": "",
+    "SubTitle": "",
+    "IsShowOnPS": true,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0
+    ],
+    "UnlockEventId": 0,
+    "isServerMemory": true,
+    "ExplainPic": [],
+    "ExplainDesc": [
+      "选择默认参观住宅。当其他玩家参观你的住宅时，会进入当前所选的住宅。"
+    ],
+    "__IDX__Title": 4294967293,
+    "__RAW__Title": "默认参观住宅",
+    "__IDX__SubTitle": 0,
+    "__RAW__SubTitle": "",
+    "__IDX__ExplainDesc": [
+      4294967293
+    ],
+    "__RAW__ExplainDesc": [
+      "选择默认参观住宅。当其他玩家参观你的住宅时，会进入当前所选的住宅。"
+    ],
+    "iOSName": [],
+    "AndriodName": [],
+    "PCName": [],
+    "PS5Name": [],
+    "SliderSetValues": {
+      "stepValue": 0,
+      "maxValue": 0,
+      "minValue": 0,
+      "sliderSetValues": 0
+    },
+    "SubTemplate": [],
+    "RebindAction": []
+  },
+  "AllowReceiveHouseVisitRequestCfg": {
+    "Id": 903,
+    "Page": 7,
+    "Title": "允许接收住宅拜访邀请",
+    "Priority": 11,
+    "S_ItemType": 2,
+    "Active": [
+      1,
+      2,
+      3
+    ],
+    "ButtonName": [],
+    "IsConnectDisplayLevel": 0,
+    "IconIndex": 0,
+    "StartAction": [],
+    "ResetAction": "",
+    "SliderProfile": 0,
+    "SlideAction": "",
+    "ClickProfile": [],
+    "ClickAction": [],
+    "SelectProfile": 0,
+    "SelectAction": "",
+    "IsOpen": 0,
+    "OpenAction": "",
+    "IsShowReloadTips": 0,
+    "IsLoginShow": 1,
+    "TurnToAction": "",
+    "SubTitle": "",
+    "IsShowOnPS": true,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0
+    ],
+    "UnlockEventId": 0,
+    "isServerMemory": true,
+    "ExplainPic": [],
+    "ExplainDesc": [
+      "选择是否允许接收其他玩家的住宅拜访邀请。\n\n所有人：允许接收所有其他玩家的住宅拜访邀请。\n\n仅好友：只允许接收好友的住宅拜访邀请。\n\n不允许：不允许接收任何玩家的住宅拜访邀请。"
+    ],
+    "__IDX__Title": 4294967293,
+    "__RAW__Title": "允许接收住宅拜访邀请",
+    "__IDX__SubTitle": 0,
+    "__RAW__SubTitle": "",
+    "__IDX__ExplainDesc": [
+      4294967293
+    ],
+    "__RAW__ExplainDesc": [
+      "选择是否允许接收其他玩家的住宅拜访邀请。\n\n所有人：允许接收所有其他玩家的住宅拜访邀请。\n\n仅好友：只允许接收好友的住宅拜访邀请。\n\n不允许：不允许接收任何玩家的住宅拜访邀请。"
+    ],
+    "iOSName": [
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "所有人",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "仅好友",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 4294967293,
+        "__RAW__name": "不允许",
+        "iconId": 0
+      }
+    ],
+    "AndriodName": [],
+    "PCName": [],
+    "PS5Name": [],
+    "SliderSetValues": {
+      "stepValue": 0,
+      "maxValue": 0,
+      "minValue": 0,
+      "sliderSetValues": 0
+    },
+    "SubTemplate": [],
+    "RebindAction": []
+  },
+  "TextLanguageCfg": {
+    "Id": 36,
+    "Page": 9,
+    "Title": "Text Language",
+    "Priority": 1,
+    "S_ItemType": 2,
+    "Active": [
+      1,
+      2,
+      3
+    ],
+    "ButtonName": [],
+    "IsConnectDisplayLevel": 0,
+    "IconIndex": 0,
+    "StartAction": [],
+    "ResetAction": "ResetLanguage()",
+    "SliderProfile": 0,
+    "SlideAction": "",
+    "ClickProfile": [],
+    "ClickAction": [],
+    "SelectProfile": 3001,
+    "SelectAction": "SetLanguage()",
+    "IsOpen": 1,
+    "OpenAction": "",
+    "IsShowReloadTips": 0,
+    "IsLoginShow": 1,
+    "TurnToAction": "",
+    "SubTitle": "",
+    "IsShowOnPS": true,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1,
+      2
+    ],
+    "UnlockEventId": 0,
+    "isServerMemory": true,
+    "ExplainPic": [],
+    "ExplainDesc": [
+      "Select the language for text shown in the game."
+    ],
+    "__IDX__Title": 21254,
+    "__RAW__Title": "",
+    "__IDX__SubTitle": 0,
+    "__RAW__SubTitle": "",
+    "__IDX__ExplainDesc": [
+      164309
+    ],
+    "__RAW__ExplainDesc": [
+      ""
+    ],
+    "iOSName": [
+      {
+        "name": "",
+        "__IDX__name": 0,
+        "__RAW__name": "#C(LangName_CN_Text)",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 0,
+        "__RAW__name": "#C(LangName_EN_Text)",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 0,
+        "__RAW__name": "#C(LangName_JP_Text)",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 0,
+        "__RAW__name": "#C(LangName_KR_Text)",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 0,
+        "__RAW__name": "#C(LangName_DE_Text)",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 0,
+        "__RAW__name": "#C(LangName_FR_Text)",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 0,
+        "__RAW__name": "#C(LangName_ES_Text)",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 0,
+        "__RAW__name": "#C(LangName_PT_Text)",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 0,
+        "__RAW__name": "#C(LangName_RU_Text)",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 0,
+        "__RAW__name": "#C(LangName_IT_Text)",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 0,
+        "__RAW__name": "#C(LangName_PL_Text)",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 0,
+        "__RAW__name": "<align＝right>#C(LangName_AR_Text)</align>",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 0,
+        "__RAW__name": "#C(LangName_CNTW_Text)",
+        "iconId": 0
+      },
+      {
+        "name": "",
+        "__IDX__name": 0,
+        "__RAW__name": "#C(LangName_VN_Text)",
+        "iconId": 0
+      }
+    ],
+    "AndriodName": [],
+    "PCName": [],
+    "PS5Name": [],
+    "SliderSetValues": {
+      "stepValue": 0,
+      "maxValue": 0,
+      "minValue": 0,
+      "sliderSetValues": 0
+    },
+    "SubTemplate": [],
+    "RebindAction": []
+  }
+}

@@ -1,0 +1,2290 @@
+{
+  "_class": "RankSmallTierConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 72,
+  "records": [
+    {
+      "Id": 4001,
+      "SubLevel": "卡丁小子III",
+      "Index": 7001,
+      "Describe": "",
+      "Icon": 28003971,
+      "DemoteType": 0,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "卡丁小子III",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 0,
+        "max": 99
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 3,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 5,
+          "Multiplier": 1.5
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.79999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4002,
+      "SubLevel": "卡丁小子II",
+      "Index": 7001,
+      "Describe": "",
+      "Icon": 28003971,
+      "DemoteType": 0,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "卡丁小子II",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 100,
+        "max": 199
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 3,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 5,
+          "Multiplier": 1.5
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.79999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4003,
+      "SubLevel": "卡丁小子I",
+      "Index": 7001,
+      "Describe": "",
+      "Icon": 28003971,
+      "DemoteType": 0,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "卡丁小子I",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 200,
+        "max": 299
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 3,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 5,
+          "Multiplier": 1.5
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.79999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4004,
+      "SubLevel": "崛起新星IV",
+      "Index": 7001,
+      "Describe": "",
+      "Icon": 28003972,
+      "DemoteType": 1,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "崛起新星IV",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 300,
+        "max": 399
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 3,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 5,
+          "Multiplier": 1.5
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.79999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4005,
+      "SubLevel": "崛起新星III",
+      "Index": 7001,
+      "Describe": "",
+      "Icon": 28003972,
+      "DemoteType": 1,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "崛起新星III",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 400,
+        "max": 499
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 3,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 5,
+          "Multiplier": 1.5
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.79999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4006,
+      "SubLevel": "崛起新星手II",
+      "Index": 7001,
+      "Describe": "",
+      "Icon": 28003972,
+      "DemoteType": 1,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "崛起新星手II",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 500,
+        "max": 599
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 3,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 5,
+          "Multiplier": 1.5
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.79999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4007,
+      "SubLevel": "崛起新星I",
+      "Index": 7001,
+      "Describe": "",
+      "Icon": 28003972,
+      "DemoteType": 1,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "崛起新星I",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 600,
+        "max": 699
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 3,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 5,
+          "Multiplier": 1.5
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.79999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4008,
+      "SubLevel": "职业赛手IV",
+      "Index": 7001,
+      "Describe": "",
+      "Icon": 28003973,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "职业赛手IV",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 700,
+        "max": 799
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 3,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 5,
+          "Multiplier": 1.5
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.79999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4009,
+      "SubLevel": "职业赛手III",
+      "Index": 7001,
+      "Describe": "",
+      "Icon": 28003973,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "职业赛手III",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 800,
+        "max": 899
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 3,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 5,
+          "Multiplier": 1.5
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.79999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4010,
+      "SubLevel": "职业赛手II",
+      "Index": 7001,
+      "Describe": "",
+      "Icon": 28003973,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "职业赛手II",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 900,
+        "max": 999
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 3,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 5,
+          "Multiplier": 1.5
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.79999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4011,
+      "SubLevel": "职业车手I",
+      "Index": 7001,
+      "Describe": "",
+      "Icon": 28003973,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "职业车手I",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 1000,
+        "max": 1099
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 3,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 5,
+          "Multiplier": 1.5
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.79999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4012,
+      "SubLevel": "决胜专家IV",
+      "Index": 7001,
+      "Describe": "",
+      "Icon": 28003975,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "决胜专家IV",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 1100,
+        "max": 1199
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 3,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 5,
+          "Multiplier": 1.5
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.79999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4013,
+      "SubLevel": "决胜专家III",
+      "Index": 7001,
+      "Describe": "",
+      "Icon": 28003975,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "决胜专家III",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 1200,
+        "max": 1299
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 3,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 5,
+          "Multiplier": 1.5
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.79999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4014,
+      "SubLevel": "决胜专家II",
+      "Index": 7001,
+      "Describe": "",
+      "Icon": 28003975,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "决胜专家II",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 1300,
+        "max": 1399
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 3,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 5,
+          "Multiplier": 1.5
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.79999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4015,
+      "SubLevel": "决胜专家I",
+      "Index": 7001,
+      "Describe": "",
+      "Icon": 28003975,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "决胜专家I",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 1400,
+        "max": 1499
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 3,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 5,
+          "Multiplier": 1.5
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.79999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4016,
+      "SubLevel": "赛道名将IV",
+      "Index": 7001,
+      "Describe": "",
+      "Icon": 28003974,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "赛道名将IV",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 1500,
+        "max": 1599
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.5
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4017,
+      "SubLevel": "赛道名将III",
+      "Index": 7001,
+      "Describe": "",
+      "Icon": 28003974,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "赛道名将III",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 1600,
+        "max": 1699
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.5
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4018,
+      "SubLevel": "赛道名将II",
+      "Index": 7001,
+      "Describe": "",
+      "Icon": 28003974,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "赛道名将II",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 1700,
+        "max": 1799
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.5
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4019,
+      "SubLevel": "赛道名将I",
+      "Index": 7001,
+      "Describe": "",
+      "Icon": 28003974,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "赛道名将I",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 1800,
+        "max": 1899
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.5
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4020,
+      "SubLevel": "围场之王IV",
+      "Index": 7001,
+      "Describe": "",
+      "Icon": 28003970,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "围场之王IV",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 1900,
+        "max": 1999
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.5
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4021,
+      "SubLevel": "围场之王III",
+      "Index": 7001,
+      "Describe": "",
+      "Icon": 28003970,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "围场之王III",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 2000,
+        "max": 2099
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.5
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4022,
+      "SubLevel": "围场之王II",
+      "Index": 7001,
+      "Describe": "",
+      "Icon": 28003970,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "围场之王II",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 2100,
+        "max": 2199
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.5
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4023,
+      "SubLevel": "围场之王I",
+      "Index": 7001,
+      "Describe": "",
+      "Icon": 28003970,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "围场之王I",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 2200,
+        "max": 2299
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.5
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4024,
+      "SubLevel": "传奇车神",
+      "Index": 7001,
+      "Describe": "",
+      "Icon": 28003976,
+      "DemoteType": 3,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "传奇车神",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 0,
+        "max": 0
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.5
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4025,
+      "SubLevel": "角色球员III",
+      "Index": 7002,
+      "Describe": "",
+      "Icon": 28003971,
+      "DemoteType": 0,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "角色球员III",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 0,
+        "max": 99
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.29999995
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.60000002
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4026,
+      "SubLevel": "角色球员II",
+      "Index": 7002,
+      "Describe": "",
+      "Icon": 28003971,
+      "DemoteType": 0,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "角色球员II",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 100,
+        "max": 199
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.29999995
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.60000002
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4027,
+      "SubLevel": "角色球员I",
+      "Index": 7002,
+      "Describe": "",
+      "Icon": 28003971,
+      "DemoteType": 0,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "角色球员I",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 200,
+        "max": 299
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.29999995
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.60000002
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4028,
+      "SubLevel": "主力悍将IV",
+      "Index": 7002,
+      "Describe": "",
+      "Icon": 28003972,
+      "DemoteType": 1,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "主力悍将IV",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 300,
+        "max": 399
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.29999995
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.60000002
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4029,
+      "SubLevel": "主力悍将III",
+      "Index": 7002,
+      "Describe": "",
+      "Icon": 28003972,
+      "DemoteType": 1,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "主力悍将III",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 400,
+        "max": 499
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.29999995
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.60000002
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4030,
+      "SubLevel": "主力悍将II",
+      "Index": 7002,
+      "Describe": "",
+      "Icon": 28003972,
+      "DemoteType": 1,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "主力悍将II",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 500,
+        "max": 599
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.29999995
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.60000002
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4031,
+      "SubLevel": "主力悍将I",
+      "Index": 7002,
+      "Describe": "",
+      "Icon": 28003972,
+      "DemoteType": 1,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "主力悍将I",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 600,
+        "max": 699
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.29999995
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.60000002
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4032,
+      "SubLevel": "球场核心IV",
+      "Index": 7002,
+      "Describe": "",
+      "Icon": 28003973,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "球场核心IV",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 700,
+        "max": 799
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.29999995
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.60000002
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4033,
+      "SubLevel": "球场核心III",
+      "Index": 7002,
+      "Describe": "",
+      "Icon": 28003973,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "球场核心III",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 800,
+        "max": 899
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.29999995
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.60000002
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4034,
+      "SubLevel": "球场核心II",
+      "Index": 7002,
+      "Describe": "",
+      "Icon": 28003973,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "球场核心II",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 900,
+        "max": 999
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.29999995
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.60000002
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4035,
+      "SubLevel": "球场核心I",
+      "Index": 7002,
+      "Describe": "",
+      "Icon": 28003973,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "球场核心I",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 1000,
+        "max": 1099
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.29999995
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.60000002
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4036,
+      "SubLevel": "绝对领袖IV",
+      "Index": 7002,
+      "Describe": "",
+      "Icon": 28003975,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "绝对领袖IV",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 1100,
+        "max": 1199
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.29999995
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.60000002
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4037,
+      "SubLevel": "绝对领袖III",
+      "Index": 7002,
+      "Describe": "",
+      "Icon": 28003975,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "绝对领袖III",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 1200,
+        "max": 1299
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.29999995
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.60000002
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4038,
+      "SubLevel": "绝对领袖II",
+      "Index": 7002,
+      "Describe": "",
+      "Icon": 28003975,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "绝对领袖II",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 1300,
+        "max": 1399
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.29999995
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.60000002
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4039,
+      "SubLevel": "绝对领袖I",
+      "Index": 7002,
+      "Describe": "",
+      "Icon": 28003975,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "绝对领袖I",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 1400,
+        "max": 1499
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.29999995
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.60000002
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4040,
+      "SubLevel": "全明星IV",
+      "Index": 7002,
+      "Describe": "",
+      "Icon": 28003974,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "全明星IV",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 1500,
+        "max": 1599
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.14999998
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.29999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4041,
+      "SubLevel": "全明星III",
+      "Index": 7002,
+      "Describe": "",
+      "Icon": 28003974,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "全明星III",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 1600,
+        "max": 1699
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.14999998
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.29999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4042,
+      "SubLevel": "全明星II",
+      "Index": 7002,
+      "Describe": "",
+      "Icon": 28003974,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "全明星II",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 1700,
+        "max": 1799
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.14999998
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.29999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4043,
+      "SubLevel": "全明星I",
+      "Index": 7002,
+      "Describe": "",
+      "Icon": 28003974,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "全明星I",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 1800,
+        "max": 1899
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.14999998
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.29999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4044,
+      "SubLevel": "名人堂IV",
+      "Index": 7002,
+      "Describe": "",
+      "Icon": 28003970,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "名人堂IV",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 1900,
+        "max": 1999
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.14999998
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.29999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4045,
+      "SubLevel": "名人堂III",
+      "Index": 7002,
+      "Describe": "",
+      "Icon": 28003970,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "名人堂III",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 2000,
+        "max": 2099
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.14999998
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.29999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4046,
+      "SubLevel": "名人堂II",
+      "Index": 7002,
+      "Describe": "",
+      "Icon": 28003970,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "名人堂II",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 2100,
+        "max": 2199
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.14999998
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.29999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4047,
+      "SubLevel": "名人堂I",
+      "Index": 7002,
+      "Describe": "",
+      "Icon": 28003970,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "名人堂I",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 2200,
+        "max": 2299
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.14999998
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.29999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4048,
+      "SubLevel": "传奇巨星",
+      "Index": 7002,
+      "Describe": "",
+      "Icon": 28003976,
+      "DemoteType": 3,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "传奇巨星",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 2300,
+        "max": 2399
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.14999998
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.29999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4049,
+      "SubLevel": "牌桌新秀III",
+      "Index": 7003,
+      "Describe": "",
+      "Icon": 28003971,
+      "DemoteType": 0,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "牌桌新秀III",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 0,
+        "max": 99
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 3,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 5,
+          "Multiplier": 1.5
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.79999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4050,
+      "SubLevel": "牌桌新秀II",
+      "Index": 7003,
+      "Describe": "",
+      "Icon": 28003971,
+      "DemoteType": 0,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "牌桌新秀II",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 100,
+        "max": 199
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 3,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 5,
+          "Multiplier": 1.5
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.79999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4051,
+      "SubLevel": "牌桌新秀I",
+      "Index": 7003,
+      "Describe": "",
+      "Icon": 28003971,
+      "DemoteType": 0,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "牌桌新秀I",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 200,
+        "max": 299
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 3,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 5,
+          "Multiplier": 1.5
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.79999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4052,
+      "SubLevel": "进阶强者IV",
+      "Index": 7003,
+      "Describe": "",
+      "Icon": 28003972,
+      "DemoteType": 1,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "进阶强者IV",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 300,
+        "max": 399
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 3,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 5,
+          "Multiplier": 1.5
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.79999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4053,
+      "SubLevel": "进阶强者III",
+      "Index": 7003,
+      "Describe": "",
+      "Icon": 28003972,
+      "DemoteType": 1,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "进阶强者III",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 400,
+        "max": 499
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 3,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 5,
+          "Multiplier": 1.5
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.79999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4054,
+      "SubLevel": "进阶强者II",
+      "Index": 7003,
+      "Describe": "",
+      "Icon": 28003972,
+      "DemoteType": 1,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "进阶强者II",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 500,
+        "max": 599
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 3,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 5,
+          "Multiplier": 1.5
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.79999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4055,
+      "SubLevel": "进阶强者I",
+      "Index": 7003,
+      "Describe": "",
+      "Icon": 28003972,
+      "DemoteType": 1,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "进阶强者I",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 600,
+        "max": 699
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 3,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 5,
+          "Multiplier": 1.5
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.79999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4056,
+      "SubLevel": "圈内名将IV",
+      "Index": 7003,
+      "Describe": "",
+      "Icon": 28003973,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "圈内名将IV",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 700,
+        "max": 799
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 3,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 5,
+          "Multiplier": 1.5
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.79999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4057,
+      "SubLevel": "圈内名将III",
+      "Index": 7003,
+      "Describe": "",
+      "Icon": 28003973,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "圈内名将III",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 800,
+        "max": 899
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 3,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 5,
+          "Multiplier": 1.5
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.79999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4058,
+      "SubLevel": "圈内名将II",
+      "Index": 7003,
+      "Describe": "",
+      "Icon": 28003973,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "圈内名将II",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 900,
+        "max": 999
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 3,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 5,
+          "Multiplier": 1.5
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.79999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4059,
+      "SubLevel": "圈内名将I",
+      "Index": 7003,
+      "Describe": "",
+      "Icon": 28003973,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "圈内名将I",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 1000,
+        "max": 1099
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 3,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 5,
+          "Multiplier": 1.5
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.79999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4060,
+      "SubLevel": "精英牌手IV",
+      "Index": 7003,
+      "Describe": "",
+      "Icon": 28003975,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "精英牌手IV",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 1100,
+        "max": 1199
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 3,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 5,
+          "Multiplier": 1.5
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.79999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4061,
+      "SubLevel": "精英牌手III",
+      "Index": 7003,
+      "Describe": "",
+      "Icon": 28003975,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "精英牌手III",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 1200,
+        "max": 1299
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 3,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 5,
+          "Multiplier": 1.5
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.79999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4062,
+      "SubLevel": "精英牌手II",
+      "Index": 7003,
+      "Describe": "",
+      "Icon": 28003975,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "精英牌手II",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 1300,
+        "max": 1399
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 3,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 5,
+          "Multiplier": 1.5
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.79999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4063,
+      "SubLevel": "精英牌手I",
+      "Index": 7003,
+      "Describe": "",
+      "Icon": 28003975,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "精英牌手I",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 1400,
+        "max": 1499
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 3,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 5,
+          "Multiplier": 1.5
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.79999995
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4064,
+      "SubLevel": "顶尖高手IV",
+      "Index": 7003,
+      "Describe": "",
+      "Icon": 28003974,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "顶尖高手IV",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 1500,
+        "max": 1599
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.5
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4065,
+      "SubLevel": "顶尖高手III",
+      "Index": 7003,
+      "Describe": "",
+      "Icon": 28003974,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "顶尖高手III",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 1600,
+        "max": 1699
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.5
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4066,
+      "SubLevel": "顶尖高手II",
+      "Index": 7003,
+      "Describe": "",
+      "Icon": 28003974,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "顶尖高手II",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 1700,
+        "max": 1799
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.5
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4067,
+      "SubLevel": "顶尖高手I",
+      "Index": 7003,
+      "Describe": "",
+      "Icon": 28003974,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "顶尖高手I",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 1800,
+        "max": 1899
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.5
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4068,
+      "SubLevel": "雀坛宗师IV",
+      "Index": 7003,
+      "Describe": "",
+      "Icon": 28003970,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "雀坛宗师IV",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 1900,
+        "max": 1999
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.5
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4069,
+      "SubLevel": "雀坛宗师III",
+      "Index": 7003,
+      "Describe": "",
+      "Icon": 28003970,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "雀坛宗师III",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 2000,
+        "max": 2099
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.5
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4070,
+      "SubLevel": "雀坛宗师II",
+      "Index": 7003,
+      "Describe": "",
+      "Icon": 28003970,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "雀坛宗师II",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 2100,
+        "max": 2199
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.5
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4071,
+      "SubLevel": "雀坛宗师I",
+      "Index": 7003,
+      "Describe": "",
+      "Icon": 28003970,
+      "DemoteType": 2,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "雀坛宗师I",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 2200,
+        "max": 2299
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.5
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 4072,
+      "SubLevel": "传奇雀神",
+      "Index": 7003,
+      "Describe": "",
+      "Icon": 28003976,
+      "DemoteType": 3,
+      "__IDX__SubLevel": 4294967295,
+      "__RAW__SubLevel": "传奇雀神",
+      "__IDX__Describe": 0,
+      "__RAW__Describe": "",
+      "Scope": {
+        "min": 2300,
+        "max": 2399
+      },
+      "StreakAdjustment": [
+        {
+          "Threshold": 5,
+          "Multiplier": 1.20000005
+        },
+        {
+          "Threshold": 7,
+          "Multiplier": 1.5
+        }
+      ],
+      "WinScoreClamp": {
+        "min": 0,
+        "max": 0
+      }
+    }
+  ],
+  "_dumpedCount": 72,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

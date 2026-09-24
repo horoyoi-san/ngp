@@ -1,0 +1,82 @@
+{
+  "_class": "HideAndSeekSkillConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 6,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "幻形",
+      "Type": 2,
+      "Description": "幻形成场景中的某个物体。短按可切换成其他物体。长按1秒可解除幻形。",
+      "Icon": 28004192,
+      "Fight_id": 51939611,
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "幻形",
+      "__IDX__Description": 4294967295,
+      "__RAW__Description": "幻形成场景中的某个物体。短按可切换成其他物体。长按1秒可解除幻形。"
+    },
+    {
+      "Id": 2,
+      "Name": "攻击",
+      "Type": 1,
+      "Description": "使用近战攻击或远程武器命中躲避方玩家以将其淘汰。",
+      "Icon": 28004195,
+      "Fight_id": 51939610,
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "攻击",
+      "__IDX__Description": 4294967295,
+      "__RAW__Description": "使用近战攻击或远程武器命中躲避方玩家以将其淘汰。"
+    },
+    {
+      "Id": 3,
+      "Name": "扫描",
+      "Type": 1,
+      "Description": "以自身为圆心，每隔1秒释放一次扫描波，持续5秒。若扫描到躲避方玩家，则自身头顶会出现提示。",
+      "Icon": 28004191,
+      "Fight_id": 51939615,
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "扫描",
+      "__IDX__Description": 4294967295,
+      "__RAW__Description": "以自身为圆心，每隔1秒释放一次扫描波，持续5秒。若扫描到躲避方玩家，则自身头顶会出现提示。"
+    },
+    {
+      "Id": 4,
+      "Name": "锁定",
+      "Type": 1,
+      "Description": "将随机一位躲避方玩家的位置显示在所有追捕方玩家的小地图上，持续5秒。",
+      "Icon": 28004189,
+      "Fight_id": 51939616,
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "锁定",
+      "__IDX__Description": 4294967295,
+      "__RAW__Description": "将随机一位躲避方玩家的位置显示在所有追捕方玩家的小地图上，持续5秒。"
+    },
+    {
+      "Id": 5,
+      "Name": "隐身",
+      "Type": 2,
+      "Description": "隐身5秒。隐身期间可以自由移动，但仍然可以被击中。",
+      "Icon": 28004201,
+      "Fight_id": 51939613,
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "隐身",
+      "__IDX__Description": 4294967295,
+      "__RAW__Description": "隐身5秒。隐身期间可以自由移动，但仍然可以被击中。"
+    },
+    {
+      "Id": 6,
+      "Name": "假身",
+      "Type": 2,
+      "Description": "在自身位置生成一个假人，持续5秒。假人会朝指定方向移动。",
+      "Icon": 28004190,
+      "Fight_id": 51939614,
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "假身",
+      "__IDX__Description": 4294967295,
+      "__RAW__Description": "在自身位置生成一个假人，持续5秒。假人会朝指定方向移动。"
+    }
+  ],
+  "_dumpedCount": 6,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

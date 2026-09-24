@@ -1,0 +1,75 @@
+{
+  "_class": "ChefSkillConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 5,
+  "records": [
+    {
+      "Id": 1,
+      "Combo": [],
+      "CookType": 1,
+      "PrepareType": [
+        1,
+        2
+      ],
+      "SkillSignal": 11813,
+      "SkillMinRecoveryTime": 1
+    },
+    {
+      "Id": 2,
+      "Combo": [],
+      "CookType": 1,
+      "PrepareType": [
+        1,
+        2
+      ],
+      "SkillSignal": 11814,
+      "SkillMinRecoveryTime": 1
+    },
+    {
+      "Id": 3,
+      "Combo": [
+        1,
+        1,
+        2
+      ],
+      "CookType": 1,
+      "PrepareType": [
+        1
+      ],
+      "SkillSignal": 11815,
+      "SkillMinRecoveryTime": 2
+    },
+    {
+      "Id": 4,
+      "Combo": [
+        2,
+        2,
+        1
+      ],
+      "CookType": 1,
+      "PrepareType": [
+        1
+      ],
+      "SkillSignal": 11816,
+      "SkillMinRecoveryTime": 2
+    },
+    {
+      "Id": 5,
+      "Combo": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "CookType": 1,
+      "PrepareType": [
+        1
+      ],
+      "SkillSignal": 11817,
+      "SkillMinRecoveryTime": 2
+    }
+  ],
+  "_dumpedCount": 5,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

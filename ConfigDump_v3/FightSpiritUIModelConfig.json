@@ -1,0 +1,585 @@
+{
+  "_class": "FightSpiritUIModelConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 25,
+  "records": [
+    {
+      "Id": 1,
+      "SpiritId": 15020967,
+      "UnitStateNote": "主角男",
+      "ModelStartAni": "",
+      "ModelNormalAni": "",
+      "SceneResPath": "Res/Prefab/Sector/UI/Preview/prefab_sector/sector_high_ui_preview_nanzhu.prefab",
+      "IdleDuration": 17.2000008,
+      "LoopDuration": 20.2000008,
+      "WeatherIndex": 16,
+      "WrapperResPath": "Res/Prefab/Sector/UI/Preview/prefab_lights/wrapper_nz.prefab",
+      "CharacterUIModel": 86952407,
+      "CameraPosition": {
+        "x": 2.53600001,
+        "y": 1.17900002,
+        "z": -3.05999994
+      },
+      "CameraRotation": {
+        "x": 8.82088852,
+        "y": 354.99295,
+        "z": 10.6077614
+      }
+    },
+    {
+      "Id": 2,
+      "SpiritId": 15020968,
+      "UnitStateNote": "主角女",
+      "ModelStartAni": "",
+      "ModelNormalAni": "",
+      "SceneResPath": "Res/Prefab/Sector/UI/Preview/prefab_sector/sector_high_ui_preview_zhaozhao.prefab",
+      "IdleDuration": 17.2000008,
+      "LoopDuration": 20.2000008,
+      "WeatherIndex": 16,
+      "WrapperResPath": "Res/Prefab/Sector/UI/Preview/prefab_lights/wrapper_nz.prefab",
+      "CharacterUIModel": 86960079,
+      "CameraPosition": {
+        "x": 2.53600001,
+        "y": 1.17900002,
+        "z": -3.05999994
+      },
+      "CameraRotation": {
+        "x": 8.82088947,
+        "y": -5.00705004,
+        "z": 10.6077604
+      }
+    },
+    {
+      "Id": 3,
+      "SpiritId": 15020989,
+      "UnitStateNote": "嘉姆",
+      "ModelStartAni": "",
+      "ModelNormalAni": "",
+      "SceneResPath": "Res/Prefab/Sector/UI/Preview/prefab_sector/sector_high_ui_preview_jiamu.prefab",
+      "IdleDuration": 15.8000002,
+      "LoopDuration": 9.30000019,
+      "WeatherIndex": 10,
+      "WrapperResPath": "Res/Prefab/Sector/UI/Preview/prefab_lights/wrapper_jm.prefab",
+      "CharacterUIModel": 86952773,
+      "CameraPosition": {
+        "x": 3.62400007,
+        "y": 0.731000006,
+        "z": -2.829
+      },
+      "CameraRotation": {
+        "x": 341.041779,
+        "y": 315.084045,
+        "z": 349.995697
+      }
+    },
+    {
+      "Id": 4,
+      "SpiritId": 15020990,
+      "UnitStateNote": "凛",
+      "ModelStartAni": "",
+      "ModelNormalAni": "",
+      "SceneResPath": "Res/SGUI/Panel/UrbanAbility/S_UrbanAbilityOtheriScene.prefab",
+      "IdleDuration": 18.6000004,
+      "LoopDuration": 26.1000004,
+      "WeatherIndex": 10,
+      "WrapperResPath": "Res/SGUI/Panel/UrbanAbility/Edit/nz/prefab/wrapper_nz.prefab",
+      "CharacterUIModel": 0,
+      "CameraPosition": {
+        "x": 3.11899996,
+        "y": 1.35399997,
+        "z": -2.21000004
+      },
+      "CameraRotation": {
+        "x": 11.0723782,
+        "y": 325.933136,
+        "z": 2
+      }
+    },
+    {
+      "Id": 5,
+      "SpiritId": 15020991,
+      "UnitStateNote": "班茜",
+      "ModelStartAni": "",
+      "ModelNormalAni": "",
+      "SceneResPath": "Res/SGUI/Panel/UrbanAbility/S_UrbanAbilityOtheriScene.prefab",
+      "IdleDuration": 18.6000004,
+      "LoopDuration": 26.1000004,
+      "WeatherIndex": 10,
+      "WrapperResPath": "Res/SGUI/Panel/UrbanAbility/Edit/nz/prefab/wrapper_nz.prefab",
+      "CharacterUIModel": 0,
+      "CameraPosition": {
+        "x": 3.11899996,
+        "y": 1.35399997,
+        "z": -2.21000004
+      },
+      "CameraRotation": {
+        "x": 11.0723782,
+        "y": 325.933136,
+        "z": 3
+      }
+    },
+    {
+      "Id": 6,
+      "SpiritId": 15020992,
+      "UnitStateNote": "塔菲",
+      "ModelStartAni": "",
+      "ModelNormalAni": "",
+      "SceneResPath": "Res/Prefab/Sector/UI/Preview/prefab_sector/sector_high_ui_preview_tafei.prefab",
+      "IdleDuration": 9.89999962,
+      "LoopDuration": 25.2000008,
+      "WeatherIndex": 14,
+      "WrapperResPath": "Res/Prefab/Sector/UI/Preview/prefab_lights/wrapper_tf.prefab",
+      "CharacterUIModel": 86952315,
+      "CameraPosition": {
+        "x": 2.9000001,
+        "y": 0.324999988,
+        "z": -3.62299991
+      },
+      "CameraRotation": {
+        "x": 355.665894,
+        "y": 342,
+        "z": 358.857422
+      }
+    },
+    {
+      "Id": 7,
+      "SpiritId": 15020997,
+      "UnitStateNote": "狄菈",
+      "ModelStartAni": "",
+      "ModelNormalAni": "",
+      "SceneResPath": "Res/Prefab/Sector/UI/Preview/prefab_sector/sector_high_ui_preview_dila.prefab",
+      "IdleDuration": 33.4000015,
+      "LoopDuration": 18.8999996,
+      "WeatherIndex": 12,
+      "WrapperResPath": "Res/Prefab/Sector/UI/Preview/prefab_lights/wrapper_dila.prefab",
+      "CharacterUIModel": 86952239,
+      "CameraPosition": {
+        "x": 2.60500002,
+        "y": 1.04700005,
+        "z": -3.34899998
+      },
+      "CameraRotation": {
+        "x": -8.62005615,
+        "y": -10.2596397,
+        "z": -11.4606304
+      }
+    },
+    {
+      "Id": 8,
+      "SpiritId": 15020999,
+      "UnitStateNote": "新男主",
+      "ModelStartAni": "",
+      "ModelNormalAni": "",
+      "SceneResPath": "Res/SGUI/Panel/UrbanAbility/S_UrbanAbilityNanzhuScene.prefab",
+      "IdleDuration": 18.6000004,
+      "LoopDuration": 26.1000004,
+      "WeatherIndex": 4,
+      "WrapperResPath": "Res/SGUI/Panel/UrbanAbility/Edit/nz/prefab/wrapper_nz.prefab",
+      "CharacterUIModel": 0,
+      "CameraPosition": {
+        "x": 2.41199994,
+        "y": 0.975000024,
+        "z": -3.59899998
+      },
+      "CameraRotation": {
+        "x": 359.001129,
+        "y": 355.678833,
+        "z": 0.17518115
+      }
+    },
+    {
+      "Id": 9,
+      "SpiritId": 15021016,
+      "UnitStateNote": "亚兰",
+      "ModelStartAni": "",
+      "ModelNormalAni": "",
+      "SceneResPath": "Res/SGUI/Panel/UrbanAbility/S_UrbanAbilityOtheriScene.prefab",
+      "IdleDuration": 18.6000004,
+      "LoopDuration": 26.1000004,
+      "WeatherIndex": 10,
+      "WrapperResPath": "Res/SGUI/Panel/UrbanAbility/Edit/nz/prefab/wrapper_nz.prefab",
+      "CharacterUIModel": 0,
+      "CameraPosition": {
+        "x": 3.11899996,
+        "y": 1.35399997,
+        "z": -2.21000004
+      },
+      "CameraRotation": {
+        "x": 11.0723782,
+        "y": 325.933136,
+        "z": 3
+      }
+    },
+    {
+      "Id": 10,
+      "SpiritId": 15021017,
+      "UnitStateNote": "梅卡妮卡",
+      "ModelStartAni": "",
+      "ModelNormalAni": "",
+      "SceneResPath": "Res/Prefab/Sector/UI/Preview/prefab_sector/sector_high_ui_preview_meikanika.prefab",
+      "IdleDuration": 9.89999962,
+      "LoopDuration": 14.6999998,
+      "WeatherIndex": 11,
+      "WrapperResPath": "Res/Prefab/Sector/UI/Preview/prefab_lights/wrapper_mknk.prefab",
+      "CharacterUIModel": 86952066,
+      "CameraPosition": {
+        "x": 3.91599989,
+        "y": 0.460000008,
+        "z": -2.41700006
+      },
+      "CameraRotation": {
+        "x": -9.31478882,
+        "y": -77.8854675,
+        "z": 10.5030603
+      }
+    },
+    {
+      "Id": 11,
+      "SpiritId": 15021020,
+      "UnitStateNote": "克里斯蒂娜",
+      "ModelStartAni": "",
+      "ModelNormalAni": "",
+      "SceneResPath": "Res/SGUI/Panel/UrbanAbility/S_UrbanAbilityOtheriScene.prefab",
+      "IdleDuration": 18.6000004,
+      "LoopDuration": 26.1000004,
+      "WeatherIndex": 10,
+      "WrapperResPath": "Res/SGUI/Panel/UrbanAbility/Edit/nz/prefab/wrapper_nz.prefab",
+      "CharacterUIModel": 0,
+      "CameraPosition": {
+        "x": 3.11899996,
+        "y": 1.35399997,
+        "z": -2.21000004
+      },
+      "CameraRotation": {
+        "x": 11.0723782,
+        "y": 325.933136,
+        "z": 5
+      }
+    },
+    {
+      "Id": 12,
+      "SpiritId": 15021021,
+      "UnitStateNote": "里希",
+      "ModelStartAni": "",
+      "ModelNormalAni": "",
+      "SceneResPath": "Res/Prefab/Sector/UI/Preview/prefab_sector/sector_high_ui_preview_lixi.prefab",
+      "IdleDuration": 9.89999962,
+      "LoopDuration": 8.89999962,
+      "WeatherIndex": 15,
+      "WrapperResPath": "Res/Prefab/Sector/UI/Preview/prefab_lights/wrapper_lx.prefab",
+      "CharacterUIModel": 86962001,
+      "CameraPosition": {
+        "x": 1.91530001,
+        "y": 1.82570004,
+        "z": -2.88989997
+      },
+      "CameraRotation": {
+        "x": 20.6337891,
+        "y": 23.9585495,
+        "z": -2.94940209
+      }
+    },
+    {
+      "Id": 14,
+      "SpiritId": 15021023,
+      "UnitStateNote": "赛默",
+      "ModelStartAni": "",
+      "ModelNormalAni": "",
+      "SceneResPath": "Res/Prefab/Sector/UI/Preview/prefab_sector/sector_high_ui_preview_saimo.prefab",
+      "IdleDuration": 9.89999962,
+      "LoopDuration": 14.6000004,
+      "WeatherIndex": 13,
+      "WrapperResPath": "Res/Prefab/Sector/UI/Preview/prefab_lights/wrapper_smo.prefab",
+      "CharacterUIModel": 86963124,
+      "CameraPosition": {
+        "x": 1.38100004,
+        "y": 1.301,
+        "z": -2.86899996
+      },
+      "CameraRotation": {
+        "x": 12.6099548,
+        "y": 38.840004,
+        "z": 355.490143
+      }
+    },
+    {
+      "Id": 15,
+      "SpiritId": 15021024,
+      "UnitStateNote": "爱琳",
+      "ModelStartAni": "",
+      "ModelNormalAni": "",
+      "SceneResPath": "Res/SGUI/Panel/UrbanAbility/S_UrbanAbilityOtheriScene.prefab",
+      "IdleDuration": 18.6000004,
+      "LoopDuration": 26.1000004,
+      "WeatherIndex": 10,
+      "WrapperResPath": "Res/SGUI/Panel/UrbanAbility/Edit/nz/prefab/wrapper_nz.prefab",
+      "CharacterUIModel": 0,
+      "CameraPosition": {
+        "x": 3.11899996,
+        "y": 1.35399997,
+        "z": -2.21000004
+      },
+      "CameraRotation": {
+        "x": 11.0723782,
+        "y": 325.933136,
+        "z": 6
+      }
+    },
+    {
+      "Id": 16,
+      "SpiritId": 15021025,
+      "UnitStateNote": "莱卡娅",
+      "ModelStartAni": "",
+      "ModelNormalAni": "",
+      "SceneResPath": "Res/Prefab/Sector/UI/Preview/prefab_sector/sector_high_ui_preview_laikaya.prefab",
+      "IdleDuration": 9.89999962,
+      "LoopDuration": 33,
+      "WeatherIndex": 7,
+      "WrapperResPath": "Res/Prefab/Sector/UI/Preview/prefab_lights/wrapper_lky.prefab",
+      "CharacterUIModel": 86952333,
+      "CameraPosition": {
+        "x": 3.24900007,
+        "y": 0.674000025,
+        "z": -3.65700006
+      },
+      "CameraRotation": {
+        "x": -5.20373487,
+        "y": -26.7774696,
+        "z": 0
+      }
+    },
+    {
+      "Id": 17,
+      "SpiritId": 15021026,
+      "UnitStateNote": "黛西贝尔",
+      "ModelStartAni": "",
+      "ModelNormalAni": "",
+      "SceneResPath": "",
+      "IdleDuration": 0,
+      "LoopDuration": 0,
+      "WeatherIndex": 0,
+      "WrapperResPath": "Res/SGUI/Panel/UrbanAbility/Edit/nz/prefab/wrapper_nz.prefab",
+      "CharacterUIModel": 0,
+      "CameraPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "CameraRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "Id": 18,
+      "SpiritId": 15021029,
+      "UnitStateNote": "弥弥古",
+      "ModelStartAni": "",
+      "ModelNormalAni": "",
+      "SceneResPath": "Res/SGUI/Panel/UrbanAbility/S_UrbanAbilityOtheriScene.prefab",
+      "IdleDuration": 18.6000004,
+      "LoopDuration": 26.1000004,
+      "WeatherIndex": 10,
+      "WrapperResPath": "Res/SGUI/Panel/UrbanAbility/Edit/nz/prefab/wrapper_nz.prefab",
+      "CharacterUIModel": 0,
+      "CameraPosition": {
+        "x": 3.11899996,
+        "y": 1.35399997,
+        "z": -2.21000004
+      },
+      "CameraRotation": {
+        "x": 11.0723782,
+        "y": 325.933136,
+        "z": 5
+      }
+    },
+    {
+      "Id": 19,
+      "SpiritId": 15021030,
+      "UnitStateNote": "伯纳德",
+      "ModelStartAni": "",
+      "ModelNormalAni": "",
+      "SceneResPath": "Res/SGUI/Panel/UrbanAbility/S_UrbanAbilityOtheriScene.prefab",
+      "IdleDuration": 18.6000004,
+      "LoopDuration": 26.1000004,
+      "WeatherIndex": 10,
+      "WrapperResPath": "Res/SGUI/Panel/UrbanAbility/Edit/nz/prefab/wrapper_nz.prefab",
+      "CharacterUIModel": 0,
+      "CameraPosition": {
+        "x": 3.11899996,
+        "y": 1.35399997,
+        "z": -2.21000004
+      },
+      "CameraRotation": {
+        "x": 11.0723782,
+        "y": 325.933136,
+        "z": 5
+      }
+    },
+    {
+      "Id": 20,
+      "SpiritId": 15021038,
+      "UnitStateNote": "艾诺米",
+      "ModelStartAni": "",
+      "ModelNormalAni": "",
+      "SceneResPath": "Res/SGUI/Panel/UrbanAbility/S_UrbanAbilityOtheriScene.prefab",
+      "IdleDuration": 18.6000004,
+      "LoopDuration": 26.1000004,
+      "WeatherIndex": 10,
+      "WrapperResPath": "Res/SGUI/Panel/UrbanAbility/Edit/nz/prefab/wrapper_nz.prefab",
+      "CharacterUIModel": 0,
+      "CameraPosition": {
+        "x": 3.11899996,
+        "y": 1.35399997,
+        "z": -2.21000004
+      },
+      "CameraRotation": {
+        "x": 11.0723782,
+        "y": 325.933136,
+        "z": 7
+      }
+    },
+    {
+      "Id": 21,
+      "SpiritId": 15021039,
+      "UnitStateNote": "白靖",
+      "ModelStartAni": "",
+      "ModelNormalAni": "",
+      "SceneResPath": "Res/Prefab/Sector/UI/Preview/prefab_sector/sector_high_ui_preview_baijing.prefab",
+      "IdleDuration": 9.89999962,
+      "LoopDuration": 11.3000002,
+      "WeatherIndex": 9,
+      "WrapperResPath": "Res/Prefab/Sector/UI/Preview/prefab_lights/wrapper_bj.prefab",
+      "CharacterUIModel": 0,
+      "CameraPosition": {
+        "x": 1.49000001,
+        "y": 0.680000007,
+        "z": -3.75999999
+      },
+      "CameraRotation": {
+        "x": 356.481934,
+        "y": 22.646698,
+        "z": 358.483612
+      }
+    },
+    {
+      "Id": 22,
+      "SpiritId": 15021040,
+      "UnitStateNote": "璎珑",
+      "ModelStartAni": "",
+      "ModelNormalAni": "",
+      "SceneResPath": "Res/SGUI/Panel/UrbanAbility/S_UrbanAbilityOtherScene2.prefab",
+      "IdleDuration": 18.6000004,
+      "LoopDuration": 26.1000004,
+      "WeatherIndex": 10,
+      "WrapperResPath": "Res/SGUI/Panel/UrbanAbility/Edit/nz/prefab/wrapper_nz.prefab",
+      "CharacterUIModel": 0,
+      "CameraPosition": {
+        "x": 2.99000001,
+        "y": 1.72000003,
+        "z": -3.61999989
+      },
+      "CameraRotation": {
+        "x": 10.6368027,
+        "y": 340.845795,
+        "z": 1.04450321
+      }
+    },
+    {
+      "Id": 23,
+      "SpiritId": 15021043,
+      "UnitStateNote": "柚枝",
+      "ModelStartAni": "",
+      "ModelNormalAni": "",
+      "SceneResPath": "Res/SGUI/Panel/UrbanAbility/S_UrbanAbilityOtheriScene.prefab",
+      "IdleDuration": 18.6000004,
+      "LoopDuration": 26.1000004,
+      "WeatherIndex": 12,
+      "WrapperResPath": "Res/SGUI/Panel/UrbanAbility/Edit/nz/prefab/wrapper_nz.prefab",
+      "CharacterUIModel": 0,
+      "CameraPosition": {
+        "x": 3.03999996,
+        "y": 1.20000005,
+        "z": -2.91000009
+      },
+      "CameraRotation": {
+        "x": -8.80000019,
+        "y": -24.9500008,
+        "z": 0
+      }
+    },
+    {
+      "Id": 24,
+      "SpiritId": 15021044,
+      "UnitStateNote": "李扶风",
+      "ModelStartAni": "",
+      "ModelNormalAni": "",
+      "SceneResPath": "Res/SGUI/Panel/UrbanAbility/S_UrbanAbilityOtheriScene.prefab",
+      "IdleDuration": 18.6000004,
+      "LoopDuration": 26.1000004,
+      "WeatherIndex": 12,
+      "WrapperResPath": "Res/SGUI/Panel/UrbanAbility/Edit/nz/prefab/wrapper_nz.prefab",
+      "CharacterUIModel": 0,
+      "CameraPosition": {
+        "x": 3.07999992,
+        "y": 1.38,
+        "z": -2.92000008
+      },
+      "CameraRotation": {
+        "x": -8.5,
+        "y": -32.7000008,
+        "z": 0
+      }
+    },
+    {
+      "Id": 25,
+      "SpiritId": 15021045,
+      "UnitStateNote": "程酿",
+      "ModelStartAni": "",
+      "ModelNormalAni": "",
+      "SceneResPath": "Res/Prefab/Sector/UI/Preview/prefab_sector/sector_high_ui_preview_chengniang.prefab",
+      "IdleDuration": 10.8999996,
+      "LoopDuration": 17.2999992,
+      "WeatherIndex": 26,
+      "WrapperResPath": "Res/Prefab/Sector/UI/Preview/prefab_lights/wrapper_chengniang.prefab",
+      "CharacterUIModel": 0,
+      "CameraPosition": {
+        "x": 2.24699998,
+        "y": 0.48300001,
+        "z": -3.02800012
+      },
+      "CameraRotation": {
+        "x": -35.2177391,
+        "y": 14.2769804,
+        "z": 8.47316265
+      }
+    },
+    {
+      "Id": 26,
+      "SpiritId": 15021041,
+      "UnitStateNote": "时夜",
+      "ModelStartAni": "",
+      "ModelNormalAni": "",
+      "SceneResPath": "Res/SGUI/Panel/UrbanAbility/S_UrbanAbilityOtheriScene.prefab",
+      "IdleDuration": 18.6000004,
+      "LoopDuration": 26.1000004,
+      "WeatherIndex": 12,
+      "WrapperResPath": "Res/SGUI/Panel/UrbanAbility/Edit/nz/prefab/wrapper_nz.prefab",
+      "CharacterUIModel": 0,
+      "CameraPosition": {
+        "x": 3.03999996,
+        "y": 1.29999995,
+        "z": -2.91000009
+      },
+      "CameraRotation": {
+        "x": -8.80000019,
+        "y": -27,
+        "z": 0
+      }
+    }
+  ],
+  "_dumpedCount": 25,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

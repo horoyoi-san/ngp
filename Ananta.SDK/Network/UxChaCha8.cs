@@ -3,14 +3,10 @@ using System.Numerics;
 
 namespace Ananta.SDK.Network;
 
-/// <summary>
-/// Exact stream cipher used by the 4229938 UXNetwork client.
-/// It is ChaCha8-shaped, but the four sigma constants are client-specific.
-/// </summary>
 internal sealed class UxChaCha8
 {
-    // GameAssembly.dll 4229938 / UXChaCha8Impl::.ctor
-    // NOTE: these deliberately differ from standard "expand 32-byte k".
+    
+    
     private const uint Sigma0 = 0x60707865;
     private const uint Sigma1 = 0x3321646e;
     private const uint Sigma2 = 0x79622d32;
@@ -35,7 +31,7 @@ internal sealed class UxChaCha8
         for (var i = 0; i < 8; i++)
             _state[4 + i] = BinaryPrimitives.ReadUInt32LittleEndian(key.Slice(i * 4, 4));
 
-        // Client constructor sets word 12 to zero and uses a 96-bit nonce.
+        
         _state[12] = 0;
         _state[13] = BinaryPrimitives.ReadUInt32LittleEndian(nonce.Slice(0, 4));
         _state[14] = BinaryPrimitives.ReadUInt32LittleEndian(nonce.Slice(4, 4));
@@ -67,7 +63,7 @@ internal sealed class UxChaCha8
         Span<uint> x = stackalloc uint[16];
         _state.AsSpan().CopyTo(x);
 
-        // UXChaCha8 is 8 rounds = four column+diagonal double-rounds.
+        
         for (var i = 0; i < 4; i++)
         {
             QuarterRound(ref x[0], ref x[4], ref x[8], ref x[12]);
@@ -84,7 +80,7 @@ internal sealed class UxChaCha8
         for (var i = 0; i < 16; i++)
             BinaryPrimitives.WriteUInt32LittleEndian(_keystream.AsSpan(i * 4, 4), unchecked(x[i] + _state[i]));
 
-        // Client increments only the 32-bit block counter (state[12]).
+        
         _state[12] = unchecked(_state[12] + 1);
     }
 

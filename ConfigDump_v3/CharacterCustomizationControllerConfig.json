@@ -1,0 +1,4222 @@
+{
+  "_class": "CharacterCustomizationControllerConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 160,
+  "records": [
+    {
+      "Id": 1,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "唇部",
+      "ControllerName": "上唇两侧_L",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1410,
+        1411,
+        1412,
+        1414,
+        1415,
+        1416
+      ],
+      "UINames": [
+        "T上唇中部",
+        "上下",
+        "前后",
+        "旋转",
+        "T上唇两侧",
+        "上下",
+        "前后",
+        "旋转"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [
+        1
+      ],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 2,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "唇部",
+      "ControllerName": "上唇两侧_R",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1410,
+        1411,
+        1412,
+        1418,
+        1419,
+        1420
+      ],
+      "UINames": [
+        "T上唇中部",
+        "上下",
+        "前后",
+        "旋转",
+        "T上唇两侧",
+        "上下",
+        "前后",
+        "旋转"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 3,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "唇部",
+      "ControllerName": "上唇中",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1410,
+        1411,
+        1412
+      ],
+      "UINames": [
+        "T上唇中部",
+        "上下",
+        "前后",
+        "旋转"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 4,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "唇部",
+      "ControllerName": "下唇两侧_L",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1421,
+        1422,
+        1423,
+        1425,
+        1426,
+        1427
+      ],
+      "UINames": [
+        "T下唇中部",
+        "上下",
+        "前后",
+        "旋转",
+        "T下唇两侧",
+        "上下",
+        "前后",
+        "旋转"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 5,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "唇部",
+      "ControllerName": "下唇两侧_R",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1421,
+        1422,
+        1423,
+        1429,
+        1430,
+        1431
+      ],
+      "UINames": [
+        "T下唇中部",
+        "上下",
+        "前后",
+        "旋转",
+        "T下唇两侧",
+        "上下",
+        "前后",
+        "旋转"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 6,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "唇部",
+      "ControllerName": "下唇中",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1421,
+        1422,
+        1423
+      ],
+      "UINames": [
+        "T下唇中部",
+        "上下",
+        "前后",
+        "旋转"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 7,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "唇部",
+      "ControllerName": "人中沟",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1441,
+        1442,
+        1443
+      ],
+      "UINames": [
+        "T移动",
+        "上下",
+        "前后",
+        "T旋转",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 8,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "唇部",
+      "ControllerName": "嘴整体",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1407,
+        1408,
+        1409
+      ],
+      "UINames": [
+        "T移动",
+        "上下",
+        "前后",
+        "T缩放",
+        "左右"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 9,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "唇部",
+      "ControllerName": "嘴角_L",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1432,
+        1433,
+        1434,
+        1435
+      ],
+      "UINames": [
+        "T移动",
+        "左右",
+        "上下",
+        "前后",
+        "T旋转",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 10,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "唇部",
+      "ControllerName": "嘴角_R",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1436,
+        1437,
+        1438,
+        1439
+      ],
+      "UINames": [
+        "T移动",
+        "左右",
+        "上下",
+        "前后",
+        "T旋转",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 11,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "眉眼",
+      "ControllerName": "上眼皮中_L",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1253,
+        1254,
+        1255
+      ],
+      "UINames": [
+        "T上眼中",
+        "左右",
+        "上下",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 12,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "眉眼",
+      "ControllerName": "上眼皮中_R",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1262,
+        1263,
+        1264
+      ],
+      "UINames": [
+        "T上眼中",
+        "左右",
+        "上下",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 13,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "眉眼",
+      "ControllerName": "上眼皮内_L",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1235,
+        1236,
+        1237,
+        1253,
+        1254,
+        1255,
+        1271,
+        1272,
+        1273
+      ],
+      "UINames": [
+        "T上眼内",
+        "左右",
+        "上下",
+        "前后",
+        "T上眼中",
+        "左右",
+        "上下",
+        "前后",
+        "T上眼外",
+        "左右",
+        "上下",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 14,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "眉眼",
+      "ControllerName": "上眼皮内_R",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1244,
+        1245,
+        1246,
+        1262,
+        1263,
+        1264,
+        1280,
+        1281,
+        1282
+      ],
+      "UINames": [
+        "T上眼内",
+        "左右",
+        "上下",
+        "前后",
+        "T上眼中",
+        "左右",
+        "上下",
+        "前后",
+        "T上眼外",
+        "左右",
+        "上下",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 15,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "眉眼",
+      "ControllerName": "上眼皮外_L",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1271,
+        1272,
+        1273
+      ],
+      "UINames": [
+        "T上眼外",
+        "左右",
+        "上下",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 16,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "眉眼",
+      "ControllerName": "上眼皮外_R",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1280,
+        1281,
+        1282
+      ],
+      "UINames": [
+        "T上眼外",
+        "左右",
+        "上下",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 17,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "眉眼",
+      "ControllerName": "下眼皮中_L",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1307,
+        1308,
+        1309
+      ],
+      "UINames": [
+        "T下眼中",
+        "左右",
+        "上下",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 18,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "眉眼",
+      "ControllerName": "下眼皮中_R",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1316,
+        1317,
+        1318
+      ],
+      "UINames": [
+        "T下眼中",
+        "左右",
+        "上下",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 19,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "眉眼",
+      "ControllerName": "下眼皮内_L",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1289,
+        1290,
+        1291,
+        1307,
+        1308,
+        1309,
+        1325,
+        1326,
+        1327
+      ],
+      "UINames": [
+        "T下眼内",
+        "左右",
+        "上下",
+        "前后",
+        "T下眼中",
+        "左右",
+        "上下",
+        "前后",
+        "T下眼外",
+        "左右",
+        "上下",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 20,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "眉眼",
+      "ControllerName": "下眼皮内_R",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1298,
+        1299,
+        1300,
+        1316,
+        1317,
+        1318,
+        1334,
+        1335,
+        1336
+      ],
+      "UINames": [
+        "T下眼内",
+        "左右",
+        "上下",
+        "前后",
+        "T下眼中",
+        "左右",
+        "上下",
+        "前后",
+        "T下眼外",
+        "左右",
+        "上下",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 21,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "眉眼",
+      "ControllerName": "下眼皮外_L",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1325,
+        1326,
+        1327
+      ],
+      "UINames": [
+        "T下眼外",
+        "左右",
+        "上下",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 22,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "眉眼",
+      "ControllerName": "下眼皮外_R",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1334,
+        1335,
+        1336
+      ],
+      "UINames": [
+        "T下眼外",
+        "左右",
+        "上下",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 23,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "眉眼",
+      "ControllerName": "内眼角_L",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1343,
+        1344,
+        1345,
+        1350,
+        1349,
+        1346
+      ],
+      "UINames": [
+        "T移动",
+        "左右",
+        "上下",
+        "前后",
+        "T旋转",
+        "上下",
+        "内外",
+        "T缩放",
+        "上下"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 24,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "眉眼",
+      "ControllerName": "内眼角_R",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1352,
+        1353,
+        1354,
+        1359,
+        1358,
+        1355
+      ],
+      "UINames": [
+        "T移动",
+        "左右",
+        "上下",
+        "前后",
+        "T旋转",
+        "上下",
+        "内外",
+        "T缩放",
+        "上下"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 25,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "眉眼",
+      "ControllerName": "外眼角_L",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1361,
+        1362,
+        1363,
+        1368,
+        1367,
+        1364
+      ],
+      "UINames": [
+        "T移动",
+        "左右",
+        "上下",
+        "前后",
+        "T旋转",
+        "上下",
+        "内外",
+        "T缩放",
+        "上下"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 26,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "眉眼",
+      "ControllerName": "外眼角_R",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1370,
+        1371,
+        1372,
+        1377,
+        1376,
+        1373
+      ],
+      "UINames": [
+        "T移动",
+        "左右",
+        "上下",
+        "前后",
+        "T旋转",
+        "上下",
+        "内外",
+        "T缩放",
+        "上下"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 27,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "眉眼",
+      "ControllerName": "眉中_L",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1179,
+        1180,
+        1181,
+        1184,
+        1185,
+        1182
+      ],
+      "UINames": [
+        "T移动",
+        "左右",
+        "上下",
+        "前后",
+        "T旋转",
+        "上下",
+        "弧度",
+        "T缩放",
+        "上下"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 28,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "眉眼",
+      "ControllerName": "眉中_R",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1187,
+        1188,
+        1189,
+        1192,
+        1193,
+        1190
+      ],
+      "UINames": [
+        "T移动",
+        "左右",
+        "上下",
+        "前后",
+        "T旋转",
+        "上下",
+        "弧度",
+        "T缩放",
+        "上下"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 29,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "眉眼",
+      "ControllerName": "眉头_L",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1163,
+        1164,
+        1165,
+        1168,
+        1169,
+        1166
+      ],
+      "UINames": [
+        "T移动",
+        "左右",
+        "上下",
+        "前后",
+        "T旋转",
+        "上下",
+        "弧度",
+        "T缩放",
+        "上下"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 30,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "眉眼",
+      "ControllerName": "眉头_R",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1171,
+        1172,
+        1173,
+        1176,
+        1177,
+        1174
+      ],
+      "UINames": [
+        "T移动",
+        "左右",
+        "上下",
+        "前后",
+        "T旋转",
+        "上下",
+        "弧度",
+        "T缩放",
+        "上下"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 31,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "眉眼",
+      "ControllerName": "眉尾_L",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1195,
+        1196,
+        1197,
+        1200,
+        1201,
+        1198
+      ],
+      "UINames": [
+        "T移动",
+        "左右",
+        "上下",
+        "前后",
+        "T旋转",
+        "上下",
+        "弧度",
+        "T缩放",
+        "上下"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 32,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "眉眼",
+      "ControllerName": "眉尾_R",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1203,
+        1204,
+        1205,
+        1208,
+        1209,
+        1206
+      ],
+      "UINames": [
+        "T移动",
+        "左右",
+        "上下",
+        "前后",
+        "T旋转",
+        "上下",
+        "弧度",
+        "T缩放",
+        "上下"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 33,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "眉眼",
+      "ControllerName": "眉眼整体_L",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1153,
+        1151,
+        1152
+      ],
+      "UINames": [
+        "T移动",
+        "左右",
+        "上下",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 34,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "眉眼",
+      "ControllerName": "眉眼整体_R",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1156,
+        1154,
+        1155
+      ],
+      "UINames": [
+        "T移动",
+        "左右",
+        "上下",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 35,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "眉眼",
+      "ControllerName": "眉骨整体_L",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1157,
+        1158,
+        1159
+      ],
+      "UINames": [
+        "T移动",
+        "上下",
+        "前后",
+        "T旋转",
+        "倾斜"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 36,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "眉眼",
+      "ControllerName": "眉骨整体_R",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1160,
+        1161,
+        1162
+      ],
+      "UINames": [
+        "T移动",
+        "上下",
+        "前后",
+        "T旋转",
+        "倾斜"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 37,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "眉眼",
+      "ControllerName": "眼球_L",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1229,
+        1230,
+        1231,
+        1484
+      ],
+      "UINames": [
+        "T移动",
+        "左右",
+        "上下",
+        "T缩放",
+        "左右",
+        "上下"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 38,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "眉眼",
+      "ControllerName": "眼球_R",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1232,
+        1233,
+        1234,
+        1485
+      ],
+      "UINames": [
+        "T移动",
+        "左右",
+        "上下",
+        "T缩放",
+        "左右",
+        "上下"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 39,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "眉眼",
+      "ControllerName": "眼睛整体_L",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1211,
+        1212,
+        1213,
+        1219,
+        1218,
+        1217,
+        1214,
+        1215
+      ],
+      "UINames": [
+        "T移动",
+        "眼距",
+        "高度",
+        "前后",
+        "T旋转",
+        "上下",
+        "左右",
+        "倾斜",
+        "T缩放",
+        "左右",
+        "上下"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 40,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "眉眼",
+      "ControllerName": "眼睛整体_R",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1220,
+        1221,
+        1222,
+        1228,
+        1227,
+        1226,
+        1223,
+        1224
+      ],
+      "UINames": [
+        "T移动",
+        "眼距",
+        "高度",
+        "前后",
+        "T旋转",
+        "上下",
+        "左右",
+        "倾斜",
+        "T缩放",
+        "左右",
+        "上下"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 41,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "耳朵",
+      "ControllerName": "耳上_L",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1458,
+        1459,
+        1460,
+        1461
+      ],
+      "UINames": [
+        "T移动",
+        "左右",
+        "上下",
+        "前后",
+        "T旋转",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 42,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "耳朵",
+      "ControllerName": "耳上_R",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1462,
+        1463,
+        1464,
+        1465
+      ],
+      "UINames": [
+        "T移动",
+        "左右",
+        "上下",
+        "前后",
+        "T旋转",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 43,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "耳朵",
+      "ControllerName": "耳中_L",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1466,
+        1467,
+        1468,
+        1469
+      ],
+      "UINames": [
+        "T移动",
+        "左右",
+        "上下",
+        "前后",
+        "T旋转",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 44,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "耳朵",
+      "ControllerName": "耳中_R",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1470,
+        1471,
+        1472,
+        1473
+      ],
+      "UINames": [
+        "T移动",
+        "左右",
+        "上下",
+        "前后",
+        "T旋转",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 45,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "耳朵",
+      "ControllerName": "耳垂_L",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1474,
+        1475,
+        1476,
+        1478,
+        1477
+      ],
+      "UINames": [
+        "T移动",
+        "左右",
+        "上下",
+        "前后",
+        "T旋转",
+        "前后",
+        "T缩放",
+        "左右"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 46,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "耳朵",
+      "ControllerName": "耳垂_R",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1479,
+        1480,
+        1481,
+        1483,
+        1482
+      ],
+      "UINames": [
+        "T移动",
+        "左右",
+        "上下",
+        "前后",
+        "T旋转",
+        "前后",
+        "T缩放",
+        "左右"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 47,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "耳朵",
+      "ControllerName": "耳整体_L",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1445,
+        1446,
+        1449,
+        1448,
+        1450,
+        1447
+      ],
+      "UINames": [
+        "T移动",
+        "上下",
+        "前后",
+        "T旋转",
+        "上下",
+        "左右",
+        "前后",
+        "T缩放",
+        "左右"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 48,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "耳朵",
+      "ControllerName": "耳整体_R",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1452,
+        1453,
+        1456,
+        1455,
+        1457,
+        1454
+      ],
+      "UINames": [
+        "T移动",
+        "上下",
+        "前后",
+        "T旋转",
+        "上下",
+        "左右",
+        "前后",
+        "T缩放",
+        "左右"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 49,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "脸型",
+      "ControllerName": "下巴上方",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1112,
+        1113
+      ],
+      "UINames": [
+        "T移动",
+        "上下",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 50,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "脸型",
+      "ControllerName": "下巴两侧_L",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1116,
+        1117,
+        1125,
+        1119,
+        1120,
+        1126,
+        1129
+      ],
+      "UINames": [
+        "T下巴整体",
+        "长度",
+        "前后",
+        "宽度",
+        "T下巴尖",
+        "长度",
+        "前后",
+        "T下巴两侧",
+        "长度",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 51,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "脸型",
+      "ControllerName": "下巴两侧_R",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1116,
+        1117,
+        1133,
+        1119,
+        1120,
+        1134,
+        1137
+      ],
+      "UINames": [
+        "T下巴整体",
+        "长度",
+        "前后",
+        "宽度",
+        "T下巴尖",
+        "长度",
+        "前后",
+        "T下巴两侧",
+        "长度",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 52,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "脸型",
+      "ControllerName": "下巴尖",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1119,
+        1120
+      ],
+      "UINames": [
+        "T下巴尖",
+        "长度",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 53,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "脸型",
+      "ControllerName": "下巴整体",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1116,
+        1117,
+        1119,
+        1120
+      ],
+      "UINames": [
+        "T下巴整体",
+        "长度",
+        "前后",
+        "T下巴尖",
+        "长度",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 54,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "脸型",
+      "ControllerName": "下颌_L",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1080,
+        1078,
+        1079
+      ],
+      "UINames": [
+        "T下颌整体",
+        "宽度",
+        "长度",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 55,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "脸型",
+      "ControllerName": "下颌_R",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1088,
+        1078,
+        1079
+      ],
+      "UINames": [
+        "T下颌整体",
+        "宽度",
+        "长度",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 56,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "脸型",
+      "ControllerName": "下颌角_L",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1080,
+        1078,
+        1079,
+        1096,
+        1097,
+        1098,
+        1102
+      ],
+      "UINames": [
+        "T下颌整体",
+        "宽度",
+        "长度",
+        "前后",
+        "T下颌角",
+        "宽度",
+        "上下",
+        "前后",
+        "弧度"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 57,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "脸型",
+      "ControllerName": "下颌角_R",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1088,
+        1078,
+        1079,
+        1104,
+        1105,
+        1106,
+        1110
+      ],
+      "UINames": [
+        "T下颌整体",
+        "宽度",
+        "长度",
+        "前后",
+        "T下颌角",
+        "宽度",
+        "上下",
+        "前后",
+        "弧度"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 58,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "脸型",
+      "ControllerName": "下颚整体",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1078,
+        1079
+      ],
+      "UINames": [
+        "长度",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 59,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "脸型",
+      "ControllerName": "印堂",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1028,
+        1029
+      ],
+      "UINames": [
+        "T移动",
+        "上下",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 60,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "脸型",
+      "ControllerName": "太阳穴_L(B无A有)",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1141,
+        1142,
+        1143
+      ],
+      "UINames": [
+        "T移动",
+        "宽度",
+        "上下",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 61,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "脸型",
+      "ControllerName": "太阳穴_R(B无A有)",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1146,
+        1147,
+        1148
+      ],
+      "UINames": [
+        "T移动",
+        "宽度",
+        "上下",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 62,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "脸型",
+      "ControllerName": "头部整体",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1001,
+        1003,
+        1002,
+        1000
+      ],
+      "UINames": [
+        "T移动",
+        "上下",
+        "T缩放",
+        "左右",
+        "上下",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 63,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "脸型",
+      "ControllerName": "脸颊_L",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1056,
+        1057,
+        1058,
+        1059,
+        1060
+      ],
+      "UINames": [
+        "T移动",
+        "左右",
+        "上下",
+        "前后",
+        "T旋转",
+        "左右",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 64,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "脸型",
+      "ControllerName": "脸颊_R",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1062,
+        1063,
+        1064,
+        1065,
+        1066
+      ],
+      "UINames": [
+        "T移动",
+        "左右",
+        "上下",
+        "前后",
+        "T旋转",
+        "左右",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 65,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "脸型",
+      "ControllerName": "腮帮_L",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1068,
+        1069,
+        1070,
+        1071,
+        1072
+      ],
+      "UINames": [
+        "T移动",
+        "左右",
+        "上下",
+        "前后",
+        "T旋转",
+        "前后",
+        "T缩放",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 66,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "脸型",
+      "ControllerName": "腮帮_R",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1073,
+        1074,
+        1075,
+        1076,
+        1077
+      ],
+      "UINames": [
+        "T移动",
+        "左右",
+        "上下",
+        "前后",
+        "T旋转",
+        "前后",
+        "T缩放",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 67,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "脸型",
+      "ControllerName": "苹果肌_L",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1046,
+        1047,
+        1048,
+        1049,
+        1050
+      ],
+      "UINames": [
+        "T移动",
+        "左右",
+        "上下",
+        "前后",
+        "T旋转",
+        "弧度",
+        "T缩放",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 68,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "脸型",
+      "ControllerName": "苹果肌_R",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1051,
+        1052,
+        1053,
+        1054,
+        1055
+      ],
+      "UINames": [
+        "T移动",
+        "左右",
+        "上下",
+        "前后",
+        "T旋转",
+        "弧度",
+        "T缩放",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 69,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "脸型",
+      "ControllerName": "额头",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1004,
+        1005,
+        1028,
+        1029
+      ],
+      "UINames": [
+        "T额头整体",
+        "上下",
+        "前后",
+        "T印堂",
+        "上下",
+        "饱满度"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 70,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "脸型",
+      "ControllerName": "额头两侧_L",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1004,
+        1005,
+        1011,
+        1010,
+        1012,
+        1028,
+        1029
+      ],
+      "UINames": [
+        "T额头整体",
+        "上下",
+        "前后",
+        "T额头两侧",
+        "宽度",
+        "上下",
+        "饱满度",
+        "T印堂",
+        "上下",
+        "饱满度"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 71,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "脸型",
+      "ControllerName": "额头两侧_R",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1004,
+        1005,
+        1020,
+        1019,
+        1021,
+        1028,
+        1029
+      ],
+      "UINames": [
+        "T额头整体",
+        "上下",
+        "前后",
+        "T额头两侧",
+        "宽度",
+        "上下",
+        "饱满度",
+        "T印堂",
+        "上下",
+        "饱满度"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 72,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "脸型",
+      "ControllerName": "颧骨_L",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1034,
+        1035,
+        1036
+      ],
+      "UINames": [
+        "T移动",
+        "左右",
+        "上下",
+        "高度"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 73,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "脸型",
+      "ControllerName": "颧骨_R",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1040,
+        1041,
+        1042
+      ],
+      "UINames": [
+        "T移动",
+        "左右",
+        "上下",
+        "高度"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 74,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "鼻子",
+      "ControllerName": "鼻子整体",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1381,
+        1379,
+        1380,
+        1383,
+        1382,
+        1384
+      ],
+      "UINames": [
+        "T移动",
+        "左右",
+        "上下",
+        "前后",
+        "T旋转",
+        "角度",
+        "T缩放",
+        "左右",
+        "高度"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 75,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "鼻子",
+      "ControllerName": "鼻尖",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1385,
+        1386,
+        1389,
+        1387,
+        1388,
+        1390
+      ],
+      "UINames": [
+        "T移动",
+        "上下",
+        "前后",
+        "T旋转",
+        "前后",
+        "T缩放",
+        "左右",
+        "上下",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 76,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "鼻子",
+      "ControllerName": "鼻翼_L",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1391,
+        1392,
+        1393,
+        1396,
+        1397,
+        1398,
+        1395,
+        1394
+      ],
+      "UINames": [
+        "T移动",
+        "左右",
+        "上下",
+        "前后",
+        "T旋转",
+        "左右",
+        "上下",
+        "前后",
+        "T缩放",
+        "左右",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 77,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "鼻子",
+      "ControllerName": "鼻翼_R",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        1399,
+        1400,
+        1401,
+        1404,
+        1405,
+        1406,
+        1403,
+        1402
+      ],
+      "UINames": [
+        "T移动",
+        "左右",
+        "上下",
+        "前后",
+        "T旋转",
+        "左右",
+        "上下",
+        "前后",
+        "T缩放",
+        "左右",
+        "前后"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 100,
+      "Source": 1,
+      "Category": 1,
+      "GroupName": "",
+      "ControllerName": "",
+      "ControllerOrder": 0,
+      "IsShow": false,
+      "ParamId": [],
+      "UINames": [],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 101,
+      "Source": 0,
+      "Category": 1,
+      "GroupName": "Expert",
+      "ControllerName": "Head",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        2000
+      ],
+      "UINames": [
+        "大小"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 102,
+      "Source": 0,
+      "Category": 1,
+      "GroupName": "Expert",
+      "ControllerName": "Neck",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        2001
+      ],
+      "UINames": [
+        "长短"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 103,
+      "Source": 0,
+      "Category": 1,
+      "GroupName": "Expert",
+      "ControllerName": "L_Shoulder",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        2002,
+        2003,
+        2004
+      ],
+      "UINames": [
+        "宽度",
+        "前后",
+        "上下"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 104,
+      "Source": 0,
+      "Category": 1,
+      "GroupName": "Expert",
+      "ControllerName": "R_Shoulder",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        2005,
+        2006,
+        2007
+      ],
+      "UINames": [
+        "宽度",
+        "前后",
+        "上下"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 105,
+      "Source": 0,
+      "Category": 1,
+      "GroupName": "Expert",
+      "ControllerName": "L_Scapula",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        2008,
+        2010,
+        2009
+      ],
+      "UINames": [
+        "宽度",
+        "前后",
+        "上下"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 106,
+      "Source": 0,
+      "Category": 1,
+      "GroupName": "Expert",
+      "ControllerName": "R_Scapula",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        2011,
+        2013,
+        2012
+      ],
+      "UINames": [
+        "宽度",
+        "前后",
+        "上下"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 107,
+      "Source": 0,
+      "Category": 1,
+      "GroupName": "Expert",
+      "ControllerName": "Chest",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        2014
+      ],
+      "UINames": [
+        "长短"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 108,
+      "Source": 0,
+      "Category": 1,
+      "GroupName": "Expert",
+      "ControllerName": "Waist",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        2015
+      ],
+      "UINames": [
+        "上下"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 109,
+      "Source": 0,
+      "Category": 1,
+      "GroupName": "Expert",
+      "ControllerName": "L_Hip",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        2016
+      ],
+      "UINames": [
+        "左右"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 110,
+      "Source": 0,
+      "Category": 1,
+      "GroupName": "Expert",
+      "ControllerName": "R_Hip",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        2017
+      ],
+      "UINames": [
+        "左右"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 111,
+      "Source": 0,
+      "Category": 1,
+      "GroupName": "Expert",
+      "ControllerName": "L_UpperArm",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        2018,
+        2019
+      ],
+      "UINames": [
+        "长短",
+        "粗细"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 112,
+      "Source": 0,
+      "Category": 1,
+      "GroupName": "Expert",
+      "ControllerName": "R_UpperArm",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        2020,
+        2021
+      ],
+      "UINames": [
+        "长短",
+        "粗细"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 113,
+      "Source": 0,
+      "Category": 1,
+      "GroupName": "Expert",
+      "ControllerName": "L_Forearm",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        2022,
+        2023
+      ],
+      "UINames": [
+        "长短",
+        "粗细"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 114,
+      "Source": 0,
+      "Category": 1,
+      "GroupName": "Expert",
+      "ControllerName": "R_Forearm",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        2024,
+        2025
+      ],
+      "UINames": [
+        "长短",
+        "粗细"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 115,
+      "Source": 0,
+      "Category": 1,
+      "GroupName": "Expert",
+      "ControllerName": "L_Palm",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        2026
+      ],
+      "UINames": [
+        "大小"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 116,
+      "Source": 0,
+      "Category": 1,
+      "GroupName": "Expert",
+      "ControllerName": "R_Palm",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        2027
+      ],
+      "UINames": [
+        "大小"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 117,
+      "Source": 0,
+      "Category": 1,
+      "GroupName": "Expert",
+      "ControllerName": "L_Thigh",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        2028,
+        2029
+      ],
+      "UINames": [
+        "长短",
+        "粗细"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 118,
+      "Source": 0,
+      "Category": 1,
+      "GroupName": "Expert",
+      "ControllerName": "R_Thigh",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        2030,
+        2031
+      ],
+      "UINames": [
+        "长短",
+        "粗细"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 119,
+      "Source": 0,
+      "Category": 1,
+      "GroupName": "Expert",
+      "ControllerName": "L_LowerLeg",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        2032,
+        2033
+      ],
+      "UINames": [
+        "长短",
+        "粗细"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 120,
+      "Source": 0,
+      "Category": 1,
+      "GroupName": "Expert",
+      "ControllerName": "R_RowerLeg",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        2034,
+        2035
+      ],
+      "UINames": [
+        "长短",
+        "粗细"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 121,
+      "Source": 0,
+      "Category": 1,
+      "GroupName": "Expert",
+      "ControllerName": "L_Foot",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        2036
+      ],
+      "UINames": [
+        "大小"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 122,
+      "Source": 0,
+      "Category": 1,
+      "GroupName": "Expert",
+      "ControllerName": "R_Foot",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        2037
+      ],
+      "UINames": [
+        "大小"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 150,
+      "Source": 1,
+      "Category": 2,
+      "GroupName": "",
+      "ControllerName": "",
+      "ControllerOrder": 0,
+      "IsShow": false,
+      "ParamId": [],
+      "UINames": [],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 151,
+      "Source": 1,
+      "Category": 2,
+      "GroupName": "",
+      "ControllerName": "",
+      "ControllerOrder": 0,
+      "IsShow": false,
+      "ParamId": [
+        9001
+      ],
+      "UINames": [
+        "颜色"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 152,
+      "Source": 1,
+      "Category": 2,
+      "GroupName": "",
+      "ControllerName": "",
+      "ControllerOrder": 0,
+      "IsShow": false,
+      "ParamId": [
+        9002
+      ],
+      "UINames": [
+        "颜色"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 153,
+      "Source": 1,
+      "Category": 2,
+      "GroupName": "",
+      "ControllerName": "",
+      "ControllerOrder": 0,
+      "IsShow": false,
+      "ParamId": [
+        9003
+      ],
+      "UINames": [
+        "颜色"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 154,
+      "Source": 1,
+      "Category": 2,
+      "GroupName": "",
+      "ControllerName": "",
+      "ControllerOrder": 0,
+      "IsShow": false,
+      "ParamId": [
+        9004
+      ],
+      "UINames": [
+        "颜色"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 155,
+      "Source": 1,
+      "Category": 2,
+      "GroupName": "",
+      "ControllerName": "",
+      "ControllerOrder": 0,
+      "IsShow": false,
+      "ParamId": [
+        9005
+      ],
+      "UINames": [
+        "颜色"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 156,
+      "Source": 1,
+      "Category": 2,
+      "GroupName": "",
+      "ControllerName": "",
+      "ControllerOrder": 0,
+      "IsShow": false,
+      "ParamId": [
+        9006
+      ],
+      "UINames": [
+        "颜色"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 157,
+      "Source": 1,
+      "Category": 2,
+      "GroupName": "",
+      "ControllerName": "",
+      "ControllerOrder": 0,
+      "IsShow": false,
+      "ParamId": [
+        9007
+      ],
+      "UINames": [
+        "颜色"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 158,
+      "Source": 0,
+      "Category": 2,
+      "GroupName": "眉毛",
+      "ControllerName": "叠加色",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        3031,
+        3032
+      ],
+      "UINames": [
+        "叠加色"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 161,
+      "Source": 0,
+      "Category": 2,
+      "GroupName": "眼影",
+      "ControllerName": "遮罩",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        3000
+      ],
+      "UINames": [
+        "遮罩"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 163,
+      "Source": 0,
+      "Category": 2,
+      "GroupName": "眼影",
+      "ControllerName": "颜色",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        3001,
+        3002,
+        3003
+      ],
+      "UINames": [
+        "颜色",
+        "浓淡",
+        "闪片效果"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 166,
+      "Source": 0,
+      "Category": 2,
+      "GroupName": "眼球",
+      "ControllerName": "瞳孔大小",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        3019,
+        3020,
+        3023
+      ],
+      "UINames": [
+        "瞳孔大小",
+        "瞳孔颜色",
+        "浓淡"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 171,
+      "Source": 0,
+      "Category": 2,
+      "GroupName": "眼球",
+      "ControllerName": "瞳孔阴影外发光颜色",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        3018,
+        3022
+      ],
+      "UINames": [
+        "瞳空外缘颜色",
+        "强度"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 173,
+      "Source": 0,
+      "Category": 2,
+      "GroupName": "眼球",
+      "ControllerName": "虹膜大小",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        3025,
+        3027
+      ],
+      "UINames": [
+        "虹膜大小",
+        "虹膜颜色"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 177,
+      "Source": 0,
+      "Category": 2,
+      "GroupName": "眼白",
+      "ControllerName": "叠加色",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        3033
+      ],
+      "UINames": [
+        "叠加色"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 179,
+      "Source": 0,
+      "Category": 2,
+      "GroupName": "睫毛",
+      "ControllerName": "叠加色",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        3029
+      ],
+      "UINames": [
+        "叠加色"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 181,
+      "Source": 0,
+      "Category": 2,
+      "GroupName": "腮红",
+      "ControllerName": "浓淡",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        3006
+      ],
+      "UINames": [
+        "浓淡"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 182,
+      "Source": 0,
+      "Category": 2,
+      "GroupName": "腮红",
+      "ControllerName": "遮罩",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        3004
+      ],
+      "UINames": [
+        "遮罩"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 184,
+      "Source": 0,
+      "Category": 2,
+      "GroupName": "腮红",
+      "ControllerName": "颜色",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        3005,
+        3006,
+        3007
+      ],
+      "UINames": [
+        "颜色",
+        "浓淡",
+        "闪片强度"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 186,
+      "Source": 0,
+      "Category": 2,
+      "GroupName": "面纹",
+      "ControllerName": "宽",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        3011,
+        3012,
+        3009,
+        3010,
+        3015
+      ],
+      "UINames": [
+        "宽度",
+        "高度",
+        "移动上下",
+        "移动左右",
+        "旋转"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 190,
+      "Source": 0,
+      "Category": 2,
+      "GroupName": "面纹",
+      "ControllerName": "遮罩",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        3008
+      ],
+      "UINames": [
+        "遮罩"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 191,
+      "Source": 0,
+      "Category": 2,
+      "GroupName": "面纹",
+      "ControllerName": "颜色",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        3013,
+        3014
+      ],
+      "UINames": [
+        "颜色",
+        "浓淡"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 193,
+      "Source": 0,
+      "Category": 2,
+      "GroupName": "面纹",
+      "ControllerName": "宽",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        3039,
+        3040,
+        3037,
+        3038,
+        3043
+      ],
+      "UINames": [
+        "宽度",
+        "高度",
+        "移动上下",
+        "移动左右",
+        "旋转"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 194,
+      "Source": 0,
+      "Category": 2,
+      "GroupName": "面纹",
+      "ControllerName": "颜色",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        3041,
+        3042
+      ],
+      "UINames": [
+        "颜色",
+        "浓淡"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 195,
+      "Source": 0,
+      "Category": 2,
+      "GroupName": "面纹",
+      "ControllerName": "宽",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        3047,
+        3048,
+        3045,
+        3046,
+        3051
+      ],
+      "UINames": [
+        "宽度",
+        "高度",
+        "移动上下",
+        "移动左右",
+        "旋转"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 196,
+      "Source": 0,
+      "Category": 2,
+      "GroupName": "面纹",
+      "ControllerName": "颜色",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        3049,
+        3050
+      ],
+      "UINames": [
+        "颜色",
+        "浓淡"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 197,
+      "Source": 0,
+      "Category": 2,
+      "GroupName": "面纹",
+      "ControllerName": "宽",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        3055,
+        3056,
+        3053,
+        3054,
+        3059
+      ],
+      "UINames": [
+        "宽度",
+        "高度",
+        "移动上下",
+        "移动左右",
+        "旋转"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 198,
+      "Source": 0,
+      "Category": 2,
+      "GroupName": "面纹",
+      "ControllerName": "颜色",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        3057,
+        3058
+      ],
+      "UINames": [
+        "颜色",
+        "浓淡"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 199,
+      "Source": 0,
+      "Category": 2,
+      "GroupName": "左眼球",
+      "ControllerName": "瞳孔叠加色",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        3063,
+        3064
+      ],
+      "UINames": [
+        "瞳孔颜色"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": true
+    },
+    {
+      "Id": 219,
+      "Source": 0,
+      "Category": 2,
+      "GroupName": "右眼球",
+      "ControllerName": "瞳孔叠加色",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        3075,
+        3076
+      ],
+      "UINames": [
+        "瞳孔颜色"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": true
+    },
+    {
+      "Id": 220,
+      "Source": 0,
+      "Category": 2,
+      "GroupName": "左眼球",
+      "ControllerName": "瞳孔阴影外发光颜色",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        3065,
+        3066
+      ],
+      "UINames": [
+        "瞳空外缘颜色",
+        "强度"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 221,
+      "Source": 0,
+      "Category": 2,
+      "GroupName": "右眼球",
+      "ControllerName": "瞳孔阴影外发光颜色",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        3077,
+        3078
+      ],
+      "UINames": [
+        "瞳空外缘颜色",
+        "强度"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 222,
+      "Source": 0,
+      "Category": 2,
+      "GroupName": "左眼球",
+      "ControllerName": "虹膜叠加色",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        3067,
+        3068
+      ],
+      "UINames": [
+        "虹膜颜色"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 223,
+      "Source": 0,
+      "Category": 2,
+      "GroupName": "右眼球",
+      "ControllerName": "虹膜叠加色",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        3079,
+        3080
+      ],
+      "UINames": [
+        "虹膜颜色"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 224,
+      "Source": 0,
+      "Category": 2,
+      "GroupName": "左眼球",
+      "ControllerName": "虹膜弧形焦散颜色",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        3070,
+        3071
+      ],
+      "UINames": [
+        "焦散",
+        "高光"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 225,
+      "Source": 0,
+      "Category": 2,
+      "GroupName": "右眼球",
+      "ControllerName": "虹膜弧形焦散颜色",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        3082,
+        3083
+      ],
+      "UINames": [
+        "焦散",
+        "高光"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 226,
+      "Source": 1,
+      "Category": 2,
+      "GroupName": "左眼球",
+      "ControllerName": "",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        3060,
+        3061,
+        3062
+      ],
+      "UINames": [],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 227,
+      "Source": 1,
+      "Category": 2,
+      "GroupName": "右眼球",
+      "ControllerName": "",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        3072,
+        3073,
+        3074
+      ],
+      "UINames": [],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 228,
+      "Source": 0,
+      "Category": 2,
+      "GroupName": "面纹",
+      "ControllerName": "遮罩",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        3036
+      ],
+      "UINames": [
+        "遮罩"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 229,
+      "Source": 0,
+      "Category": 2,
+      "GroupName": "面纹",
+      "ControllerName": "遮罩",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        3044
+      ],
+      "UINames": [
+        "遮罩"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 230,
+      "Source": 0,
+      "Category": 2,
+      "GroupName": "面纹",
+      "ControllerName": "遮罩",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [
+        3052
+      ],
+      "UINames": [
+        "遮罩"
+      ],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 500,
+      "Source": 0,
+      "Category": 0,
+      "GroupName": "",
+      "ControllerName": "",
+      "ControllerOrder": 0,
+      "IsShow": false,
+      "ParamId": [],
+      "UINames": [],
+      "ControllerId": [],
+      "Controllers": [],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 501,
+      "Source": 1,
+      "Category": 0,
+      "GroupName": "",
+      "ControllerName": "",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [],
+      "UINames": [
+        "发型套装选择"
+      ],
+      "ControllerId": [],
+      "Controllers": [
+        16
+      ],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 502,
+      "Source": 1,
+      "Category": 0,
+      "GroupName": "",
+      "ControllerName": "",
+      "ControllerOrder": 0,
+      "IsShow": false,
+      "ParamId": [],
+      "UINames": [
+        "前发/刘海设置"
+      ],
+      "ControllerId": [],
+      "Controllers": [
+        16
+      ],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 503,
+      "Source": 1,
+      "Category": 0,
+      "GroupName": "",
+      "ControllerName": "",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [],
+      "UINames": [
+        "后发/发尾设置"
+      ],
+      "ControllerId": [],
+      "Controllers": [
+        16
+      ],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 504,
+      "Source": 1,
+      "Category": 0,
+      "GroupName": "",
+      "ControllerName": "",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [],
+      "UINames": [
+        "头顶发型设置"
+      ],
+      "ControllerId": [],
+      "Controllers": [
+        16
+      ],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 505,
+      "Source": 1,
+      "Category": 0,
+      "GroupName": "",
+      "ControllerName": "",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [],
+      "UINames": [
+        "发饰装饰选择"
+      ],
+      "ControllerId": [],
+      "Controllers": [
+        16
+      ],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 506,
+      "Source": 1,
+      "Category": 0,
+      "GroupName": "",
+      "ControllerName": "",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [],
+      "UINames": [
+        "基础脸型模板"
+      ],
+      "ControllerId": [],
+      "Controllers": [
+        16
+      ],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 507,
+      "Source": 1,
+      "Category": 0,
+      "GroupName": "",
+      "ControllerName": "",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [],
+      "UINames": [
+        "眉毛形状与粗细"
+      ],
+      "ControllerId": [],
+      "Controllers": [
+        16
+      ],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 508,
+      "Source": 1,
+      "Category": 0,
+      "GroupName": "",
+      "ControllerName": "",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [],
+      "UINames": [
+        "眼型模板选择"
+      ],
+      "ControllerId": [],
+      "Controllers": [
+        16
+      ],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 509,
+      "Source": 1,
+      "Category": 0,
+      "GroupName": "",
+      "ControllerName": "",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [],
+      "UINames": [
+        "鼻型模板选择"
+      ],
+      "ControllerId": [],
+      "Controllers": [
+        16
+      ],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 510,
+      "Source": 1,
+      "Category": 0,
+      "GroupName": "",
+      "ControllerName": "",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [],
+      "UINames": [
+        "嘴型模板选择"
+      ],
+      "ControllerId": [],
+      "Controllers": [
+        16
+      ],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 511,
+      "Source": 1,
+      "Category": 0,
+      "GroupName": "",
+      "ControllerName": "",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [],
+      "UINames": [
+        "肤色/皮肤材质"
+      ],
+      "ControllerId": [],
+      "Controllers": [
+        16
+      ],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 512,
+      "Source": 1,
+      "Category": 0,
+      "GroupName": "",
+      "ControllerName": "",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [],
+      "UINames": [
+        "眼影色彩与样式"
+      ],
+      "ControllerId": [],
+      "Controllers": [
+        16
+      ],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 513,
+      "Source": 1,
+      "Category": 0,
+      "GroupName": "",
+      "ControllerName": "",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [],
+      "UINames": [
+        "睫毛长度与密度"
+      ],
+      "ControllerId": [],
+      "Controllers": [
+        16
+      ],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 514,
+      "Source": 1,
+      "Category": 0,
+      "GroupName": "",
+      "ControllerName": "",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [],
+      "UINames": [
+        "瞳孔颜色与花纹"
+      ],
+      "ControllerId": [],
+      "Controllers": [
+        16
+      ],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 515,
+      "Source": 1,
+      "Category": 0,
+      "GroupName": "",
+      "ControllerName": "",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [],
+      "UINames": [
+        "腮红颜色与位置"
+      ],
+      "ControllerId": [],
+      "Controllers": [
+        16
+      ],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 516,
+      "Source": 1,
+      "Category": 0,
+      "GroupName": "",
+      "ControllerName": "",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [],
+      "UINames": [
+        "胡须样式选择"
+      ],
+      "ControllerId": [],
+      "Controllers": [
+        16
+      ],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 517,
+      "Source": 1,
+      "Category": 0,
+      "GroupName": "",
+      "ControllerName": "",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [],
+      "UINames": [
+        "面部/身体纹身"
+      ],
+      "ControllerId": [],
+      "Controllers": [
+        16
+      ],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    },
+    {
+      "Id": 518,
+      "Source": 1,
+      "Category": 0,
+      "GroupName": "",
+      "ControllerName": "",
+      "ControllerOrder": 0,
+      "IsShow": true,
+      "ParamId": [],
+      "UINames": [
+        "身体体型模板"
+      ],
+      "ControllerId": [],
+      "Controllers": [
+        16
+      ],
+      "IsAllowOneSide": 0,
+      "CameraName": 0,
+      "PresetCategory": [],
+      "IsMultiParamLinked": false
+    }
+  ],
+  "_dumpedCount": 160,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

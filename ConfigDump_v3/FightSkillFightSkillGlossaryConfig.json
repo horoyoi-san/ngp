@@ -1,0 +1,540 @@
+{
+  "_class": "FightSkillFightSkillGlossaryConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 53,
+  "records": [
+    {
+      "Id": 1,
+      "TermName": "决意",
+      "TermType": "武学特殊资源",
+      "TermDesc": "空手道武学专属资源。空手道的重击会消耗决意以获得强化。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "决意",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "空手道武学专属资源。空手道的重击会消耗决意以获得强化。"
+    },
+    {
+      "Id": 2,
+      "TermName": "残心",
+      "TermType": "武学特殊操作",
+      "TermDesc": "空手道武学专属机制。释放时可以触发格挡，且积攒决意。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "残心",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "空手道武学专属机制。释放时可以触发格挡，且积攒决意。"
+    },
+    {
+      "Id": 3,
+      "TermName": "拳势值",
+      "TermType": "武学特殊资源",
+      "TermDesc": "咏春拳专属资源，连续攻击敌人以积攒，拳势值越高，终结技越强力。",
+      "__IDX__TermName": 4294967293,
+      "__RAW__TermName": "拳势值",
+      "__IDX__TermDesc": 4294967293,
+      "__RAW__TermDesc": "咏春拳专属资源，连续攻击敌人以积攒，拳势值越高，终结技越强力。"
+    },
+    {
+      "Id": 4,
+      "TermName": "崩拳",
+      "TermType": "武学特殊操作",
+      "TermDesc": "八极拳专属机制，命中后可以积攒气脉。能通过多种连段派生。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "崩拳",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "八极拳专属机制，命中后可以积攒气脉。能通过多种连段派生。"
+    },
+    {
+      "Id": 5,
+      "TermName": "气脉",
+      "TermType": "武学特殊资源",
+      "TermDesc": "八极拳专属资源。可以通过崩拳积攒。每点气脉会提供一层伤害提升效果，叠加三层后可减少重击的精力值消耗。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "气脉",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "八极拳专属资源。可以通过崩拳积攒。每点气脉会提供一层伤害提升效果，叠加三层后可减少重击的精力值消耗。"
+    },
+    {
+      "Id": 6,
+      "TermName": "看破",
+      "TermType": "武学特殊操作",
+      "TermDesc": "使用璎珑专属武学时，在敌人攻击命中前释放大招闪避可触发看破回复精力，看破成功后可进行二段大招闪避。",
+      "__IDX__TermName": 4294967293,
+      "__RAW__TermName": "看破",
+      "__IDX__TermDesc": 4294967293,
+      "__RAW__TermDesc": "使用璎珑专属武学时，在敌人攻击命中前释放大招闪避可触发看破回复精力，看破成功后可进行二段大招闪避。"
+    },
+    {
+      "Id": 7,
+      "TermName": "二段看破",
+      "TermType": "武学特殊操作",
+      "TermDesc": "使用璎珑专属武学时，在敌人攻击命中前释放二段大招闪避可触发二段看破。成功后可派生特殊追击。",
+      "__IDX__TermName": 4294967293,
+      "__RAW__TermName": "二段看破",
+      "__IDX__TermDesc": 4294967293,
+      "__RAW__TermDesc": "使用璎珑专属武学时，在敌人攻击命中前释放二段大招闪避可触发二段看破。成功后可派生特殊追击。"
+    },
+    {
+      "Id": 8,
+      "TermName": "持续伤害",
+      "TermType": "数值相关术语",
+      "TermDesc": "持续期间内对敌人每秒造成伤害，无法暴击，会受到施加者。",
+      "__IDX__TermName": 4294967293,
+      "__RAW__TermName": "持续伤害",
+      "__IDX__TermDesc": 4294967293,
+      "__RAW__TermDesc": "持续期间内对敌人每秒造成伤害，无法暴击，会受到施加者。"
+    },
+    {
+      "Id": 9,
+      "TermName": "真实伤害",
+      "TermType": "数值相关术语",
+      "TermDesc": "无视敌人抗性和防御的伤害，无法暴击，也无法受到虚弱状态伤害增加的影响。",
+      "__IDX__TermName": 4294967293,
+      "__RAW__TermName": "真实伤害",
+      "__IDX__TermDesc": 4294967293,
+      "__RAW__TermDesc": "无视敌人抗性和防御的伤害，无法暴击，也无法受到虚弱状态伤害增加的影响。"
+    },
+    {
+      "Id": 10,
+      "TermName": "霸体",
+      "TermType": "数值相关术语",
+      "TermDesc": "处于该状态时，所有动作不会被打断。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "霸体",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "处于该状态时，所有动作不会被打断。"
+    },
+    {
+      "Id": 11,
+      "TermName": "强化状态",
+      "TermType": "数值相关术语",
+      "TermDesc": "处于该状态下时，使出的部分招式会产生变化。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "强化状态",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "处于该状态下时，使出的部分招式会产生变化。"
+    },
+    {
+      "Id": 13,
+      "TermName": "破防",
+      "TermType": "数值相关术语",
+      "TermDesc": "状态存在期间，该单位的防御力会降低，可叠加层数以提高效果。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "破防",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "状态存在期间，该单位的防御力会降低，可叠加层数以提高效果。"
+    },
+    {
+      "Id": 14,
+      "TermName": "创口",
+      "TermType": "数值相关术语",
+      "TermDesc": "状态存在期间，该单位会受到持续伤害，可叠加层数以提高效果。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "创口",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "状态存在期间，该单位会受到持续伤害，可叠加层数以提高效果。"
+    },
+    {
+      "Id": 15,
+      "TermName": "倒地",
+      "TermType": "数值相关术语",
+      "TermDesc": "敌人在一段时间内倒地不起。对倒地敌人使出的部分招式会产生变化。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "倒地",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "敌人在一段时间内倒地不起。对倒地敌人使出的部分招式会产生变化。"
+    },
+    {
+      "Id": 16,
+      "TermName": "意象",
+      "TermType": "武学特殊资源",
+      "TermDesc": "形意拳专属资源，分为猫、猪、鹅三种。各种意象积攒方式不同。消耗不同的意象可以使出不同的强力招式。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "意象",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "形意拳专属资源，分为猫、猪、鹅三种。各种意象积攒方式不同。消耗不同的意象可以使出不同的强力招式。"
+    },
+    {
+      "Id": 17,
+      "TermName": "集中模式",
+      "TermType": "武学特殊资源",
+      "TermDesc": "使用枪斗术时，能量满后可进入集中模式。集中模式下感官更为敏锐，瞄准时进入慢动作，并可使用终结技。",
+      "__IDX__TermName": 4294967293,
+      "__RAW__TermName": "集中模式",
+      "__IDX__TermDesc": 4294967293,
+      "__RAW__TermDesc": "使用枪斗术时，能量满后可进入集中模式。集中模式下感官更为敏锐，瞄准时进入慢动作，并可使用终结技。"
+    },
+    {
+      "Id": 18,
+      "TermName": "流势槽",
+      "TermType": "武学特殊资源",
+      "TermDesc": "使用截拳道武学时，可消耗流势槽使用截击技，强制打断敌人攻击。可长按重击键进入流水架势以快速积攒流势槽。",
+      "__IDX__TermName": 4294967293,
+      "__RAW__TermName": "流势槽",
+      "__IDX__TermDesc": 4294967293,
+      "__RAW__TermDesc": "使用截拳道武学时，可消耗流势槽使用截击技，强制打断敌人攻击。可长按重击键进入流水架势以快速积攒流势槽。"
+    },
+    {
+      "Id": 19,
+      "TermName": "裁决印记",
+      "TermType": "武学特殊操作",
+      "TermDesc": "使用枪斗术时，射击敌人可积攒裁决印记。突进命中拥有印记的敌人可立即派生处决。",
+      "__IDX__TermName": 4294967293,
+      "__RAW__TermName": "裁决印记",
+      "__IDX__TermDesc": 4294967293,
+      "__RAW__TermDesc": "使用枪斗术时，射击敌人可积攒裁决印记。突进命中拥有印记的敌人可立即派生处决。"
+    },
+    {
+      "Id": 20,
+      "TermName": "易伤",
+      "TermType": "数值相关术语",
+      "TermDesc": "导致单位受到伤害增加的负面状态。",
+      "__IDX__TermName": 4294967293,
+      "__RAW__TermName": "易伤",
+      "__IDX__TermDesc": 4294967293,
+      "__RAW__TermDesc": "导致单位受到伤害增加的负面状态。"
+    },
+    {
+      "Id": 21,
+      "TermName": "封脉",
+      "TermType": "武学特殊操作",
+      "TermDesc": "进入封脉状态的单位无法攻击和移动，受到一定量伤害后解除。状态解除时，会对该单位造成伤害。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "封脉",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "进入封脉状态的单位无法攻击和移动，受到一定量伤害后解除。状态解除时，会对该单位造成伤害。"
+    },
+    {
+      "Id": 22,
+      "TermName": "听劲",
+      "TermType": "武学特殊资源",
+      "TermDesc": "太极拳专属资源，可通化解积攒。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "听劲",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "太极拳专属资源，可通化解积攒。"
+    },
+    {
+      "Id": 23,
+      "TermName": "化解",
+      "TermType": "数值相关术语",
+      "TermDesc": "某些武学的特定招式在敌人攻击时释放，可以无效化该次攻击。某些攻击无法被化解。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "化解",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "某些武学的特定招式在敌人攻击时释放，可以无效化该次攻击。某些攻击无法被化解。"
+    },
+    {
+      "Id": 25,
+      "TermName": "九天揽月",
+      "TermType": "武学特殊操作",
+      "TermDesc": "醉拳的特殊化解招式。化解敌人此次攻击后进行攻击，恢复生命值，且积攒大量终结技能量。无法化解红光攻击。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "九天揽月",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "醉拳的特殊化解招式。化解敌人此次攻击后进行攻击，恢复生命值，且积攒大量终结技能量。无法化解红光攻击。"
+    },
+    {
+      "Id": 26,
+      "TermName": "得意尽欢",
+      "TermType": "武学特殊操作",
+      "TermDesc": "醉拳的特殊轻击。在出现闪光时点按轻击键释放，可造成大量伤害。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "得意尽欢",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "醉拳的特殊轻击。在出现闪光时点按轻击键释放，可造成大量伤害。"
+    },
+    {
+      "Id": 27,
+      "TermName": "道蕴",
+      "TermType": "武学特殊资源",
+      "TermDesc": "太极剑专属资源，分为阴仪、阳仪和太极三种，最多可积累三点。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "道蕴",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "太极剑专属资源，分为阴仪、阳仪和太极三种，最多可积累三点。"
+    },
+    {
+      "Id": 28,
+      "TermName": "破绽",
+      "TermType": "武学特殊操作",
+      "TermDesc": "八卦掌专属机制。积攒洞察可以使敌人身上出现破绽，单个敌人至多拥有四处破绽。在敌人存在破绽的一侧使用重击可以将其击破，造成额外伤害。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "破绽",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "八卦掌专属机制。积攒洞察可以使敌人身上出现破绽，单个敌人至多拥有四处破绽。在敌人存在破绽的一侧使用重击可以将其击破，造成额外伤害。"
+    },
+    {
+      "Id": 29,
+      "TermName": "击飞",
+      "TermType": "数值相关术语",
+      "TermDesc": "敌人向后飞出一段距离，且落地后会陷入倒地状态。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "击飞",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "敌人向后飞出一段距离，且落地后会陷入倒地状态。"
+    },
+    {
+      "Id": 30,
+      "TermName": "砸地攻击",
+      "TermType": "武学特殊操作",
+      "TermDesc": "重武蓄势流武学的特殊攻击招式。使用后可按重击键额外派生横扫攻击，造成范围伤害。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "砸地攻击",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "重武蓄势流武学的特殊攻击招式。使用后可按重击键额外派生横扫攻击，造成范围伤害。"
+    },
+    {
+      "Id": 31,
+      "TermName": "淤气",
+      "TermType": "武学特殊操作",
+      "TermDesc": "淤气标记会在一段时间后自动引爆，对该单位造成伤害。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "淤气",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "淤气标记会在一段时间后自动引爆，对该单位造成伤害。"
+    },
+    {
+      "Id": 32,
+      "TermName": "乱骨",
+      "TermType": "武学特殊操作",
+      "TermDesc": "乱骨效果会提高该单位受到的伤害。最多可叠加三层。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "乱骨",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "乱骨效果会提高该单位受到的伤害。最多可叠加三层。"
+    },
+    {
+      "Id": 33,
+      "TermName": "豪饮",
+      "TermType": "武学特殊操作",
+      "TermDesc": "醉拳的特殊机制。进行豪饮时会持续受到伤害，无法攻击或移动，但可以持续积攒终结技能量。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "豪饮",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "醉拳的特殊机制。进行豪饮时会持续受到伤害，无法攻击或移动，但可以持续积攒终结技能量。"
+    },
+    {
+      "Id": 34,
+      "TermName": "酣畅淋漓",
+      "TermType": "武学特殊操作",
+      "TermDesc": "醉拳的强化状态。该状态会持续消耗终结技能量。终结技能量耗尽会自动退出该状态。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "酣畅淋漓",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "醉拳的强化状态。该状态会持续消耗终结技能量。终结技能量耗尽会自动退出该状态。"
+    },
+    {
+      "Id": 35,
+      "TermName": "阳仪",
+      "TermType": "武学特殊资源",
+      "TermDesc": "太极剑法专属资源。可通过轻击积攒。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "阳仪",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "太极剑法专属资源。可通过轻击积攒。"
+    },
+    {
+      "Id": 36,
+      "TermName": "阴仪",
+      "TermType": "武学特殊资源",
+      "TermDesc": "太极剑法专属资源。可通过重击积攒。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "阴仪",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "太极剑法专属资源。可通过重击积攒。"
+    },
+    {
+      "Id": 37,
+      "TermName": "太极",
+      "TermType": "武学特殊资源",
+      "TermDesc": "太极剑法专属资源。只可在【无极】状态下通过重击获取。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "太极",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "太极剑法专属资源。只可在【无极】状态下通过重击获取。"
+    },
+    {
+      "Id": 38,
+      "TermName": "虚弱",
+      "TermType": "数值相关术语",
+      "TermDesc": "敌方的架势条积累满额时，会进入虚弱状态，此时敌方无法攻击或移动，玩家可对其进行击倒。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "虚弱",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "敌方的架势条积累满额时，会进入虚弱状态，此时敌方无法攻击或移动，玩家可对其进行击倒。"
+    },
+    {
+      "Id": 39,
+      "TermName": "击倒",
+      "TermType": "数值相关术语",
+      "TermDesc": "对处于虚弱状态的敌人可以使用击倒，以造成大量伤害。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "击倒",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "对处于虚弱状态的敌人可以使用击倒，以造成大量伤害。"
+    },
+    {
+      "Id": 41,
+      "TermName": "洞察",
+      "TermType": "武学特殊资源",
+      "TermDesc": "八卦掌专属机制。使用该武学时，攻击、精准格挡、反击均可积攒洞察，以观察到敌人身上的破绽。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "洞察",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "八卦掌专属机制。使用该武学时，攻击、精准格挡、反击均可积攒洞察，以观察到敌人身上的破绽。"
+    },
+    {
+      "Id": 43,
+      "TermName": "燃烧",
+      "TermType": "数值相关术语",
+      "TermDesc": "处于该状态时会受到持续伤害。部分敌人进入燃烧状态后，会在一段时间内无法行动。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "燃烧",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "处于该状态时会受到持续伤害。部分敌人进入燃烧状态后，会在一段时间内无法行动。"
+    },
+    {
+      "Id": 44,
+      "TermName": "中毒",
+      "TermType": "数值相关术语",
+      "TermDesc": "处于该状态时会受到持续伤害。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "中毒",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "处于该状态时会受到持续伤害。"
+    },
+    {
+      "Id": 45,
+      "TermName": "冰冻",
+      "TermType": "数值相关术语",
+      "TermDesc": "处于该状态时无法行动。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "冰冻",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "处于该状态时无法行动。"
+    },
+    {
+      "Id": 46,
+      "TermName": "触电",
+      "TermType": "数值相关术语",
+      "TermDesc": "处于该状态时，架势条会持续积累。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "触电",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "处于该状态时，架势条会持续积累。"
+    },
+    {
+      "Id": 47,
+      "TermName": "内伤",
+      "TermType": "数值相关术语",
+      "TermDesc": "部分武学可以通过攻击对敌人积累内伤。进入内伤状态的瞬间，敌人当前的动作会被打断。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "内伤",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "部分武学可以通过攻击对敌人积累内伤。进入内伤状态的瞬间，敌人当前的动作会被打断。"
+    },
+    {
+      "Id": 48,
+      "TermName": "破形",
+      "TermType": "数值相关术语",
+      "TermDesc": "处于该内伤状态的敌人，架势条上限会降低。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "破形",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "处于该内伤状态的敌人，架势条上限会降低。"
+    },
+    {
+      "Id": 49,
+      "TermName": "裂体",
+      "TermType": "数值相关术语",
+      "TermDesc": "处于该内伤状态的敌人，受到的所有伤害会提升。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "裂体",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "处于该内伤状态的敌人，受到的所有伤害会提升。"
+    },
+    {
+      "Id": 50,
+      "TermName": "断意",
+      "TermType": "数值相关术语",
+      "TermDesc": "处于该内伤状态的敌人，架势条无法自然恢复。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "断意",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "处于该内伤状态的敌人，架势条无法自然恢复。"
+    },
+    {
+      "Id": 51,
+      "TermName": "猫意象",
+      "TermType": "武学特殊资源",
+      "TermDesc": "猫形态意象资源，可在任意形态下通过重击积攒。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "猫意象",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "猫形态意象资源，可在任意形态下通过重击积攒。"
+    },
+    {
+      "Id": 52,
+      "TermName": "猪意象",
+      "TermType": "武学特殊资源",
+      "TermDesc": "猪形态意象资源，可在任意形态下通过格挡或反击积攒。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "猪意象",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "猪形态意象资源，可在任意形态下通过格挡或反击积攒。"
+    },
+    {
+      "Id": 53,
+      "TermName": "鹅意象",
+      "TermType": "武学特殊资源",
+      "TermDesc": "鹅形态意象资源，可在任意形态下通过极限闪避积攒.",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "鹅意象",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "鹅形态意象资源，可在任意形态下通过极限闪避积攒."
+    },
+    {
+      "Id": 54,
+      "TermName": "致命破绽",
+      "TermType": "武学特殊操作",
+      "TermDesc": "八卦掌专属机制。击破一定数量敌方破绽后，会洞察到敌方的致命破绽。将其击破会造成大量伤害。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "致命破绽",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "八卦掌专属机制。击破一定数量敌方破绽后，会洞察到敌方的致命破绽。将其击破会造成大量伤害。"
+    },
+    {
+      "Id": 55,
+      "TermName": "强蓄",
+      "TermType": "武学特殊资源",
+      "TermDesc": "重武蓄势流武学的特殊攻击状态。获得该状态时，蓄力速度会大幅提高，释放蓄力攻击会消耗该状态以强化该次攻击。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "强蓄",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "重武蓄势流武学的特殊攻击状态。获得该状态时，蓄力速度会大幅提高，释放蓄力攻击会消耗该状态以强化该次攻击。"
+    },
+    {
+      "Id": 56,
+      "TermName": "麻痹",
+      "TermType": "数值相关术语",
+      "TermDesc": "被麻痹的敌人会倒地，且在效果持续时间内无法行动。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "麻痹",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "被麻痹的敌人会倒地，且在效果持续时间内无法行动。"
+    },
+    {
+      "Id": 57,
+      "TermName": "致盲",
+      "TermType": "数值相关术语",
+      "TermDesc": "被致盲的敌人在效果持续时间内无法行动。",
+      "__IDX__TermName": 4294967295,
+      "__RAW__TermName": "致盲",
+      "__IDX__TermDesc": 4294967295,
+      "__RAW__TermDesc": "被致盲的敌人在效果持续时间内无法行动。"
+    }
+  ],
+  "_dumpedCount": 53,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

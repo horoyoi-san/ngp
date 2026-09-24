@@ -1,0 +1,105 @@
+{
+  "LandBtnHeight": 0.800000012,
+  "LandBtnTextId": 74009104,
+  "LandBtnIconId": 28005380,
+  "LandIkPos": [
+    0,
+    0,
+    0
+  ],
+  "HarvestEffectId": 53800108,
+  "SowEffectId": 53800107,
+  "GrothEffectId": 53800101,
+  "ReclaimBtnTextId": 74009118,
+  "HarvestBtnTextId": 74009101,
+  "DayStartHour": 6,
+  "DayEndHour": 17,
+  "PullOutPressTime": 2,
+  "LeftHandRotSpeed": 90,
+  "LHandRotLimit": [
+    40,
+    -40,
+    0
+  ],
+  "SoilCntRange": [
+    4,
+    5,
+    0
+  ],
+  "SoilTargetCnt": 4,
+  "SoilDissolveTime": 5,
+  "PullOutCamTransTime": 1,
+  "PullOutCamPosOffset": [
+    {
+      "x": 0.198200002,
+      "y": 0.348699987,
+      "z": 0.0133999996
+    },
+    {
+      "x": 0.0305000003,
+      "y": 1.45029998,
+      "z": -0.0461999997
+    }
+  ],
+  "PullOutCamRot": [
+    {
+      "x": 9.88000011,
+      "y": 0,
+      "z": 4.32999992
+    },
+    {
+      "x": 21.7752991,
+      "y": 335.896301,
+      "z": 1.74720001
+    }
+  ],
+  "PullOutFov": 53,
+  "PullOutGunPath": "Assets/Res/MiniGame/Prefab/Farm/Item/WaterGun.prefab",
+  "PullOutGunEffect": 538000449,
+  "PullOutCorpPosOffset": {
+    "x": -0.00999999978,
+    "y": 0,
+    "z": 0.0299999993
+  },
+  "PullOutCorpRotOffset": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "PullOutWaterGunPosOffset": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "PullOutWaterGunRotOffset": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "SoilDetectRadius": 0.300000012,
+  "CorpAddForce": 2,
+  "FarmCurrency": 36910417,
+  "WashRange": 0.25,
+  "WashPressure": 1,
+  "WashFinishPercent": 0.300000012,
+  "OrderTab": [
+    "全部订单",
+    "待接单",
+    "进行中",
+    "已完成"
+  ],
+  "MaxSellMutiOnRecommended": 2,
+  "MinSellMutiOnRecommended": 0.5,
+  "RevenueY": [
+    10,
+    20,
+    50,
+    100,
+    200,
+    500,
+    1000,
+    2000,
+    5000
+  ],
+  "FryTea_ObjectAmount": 5
+}

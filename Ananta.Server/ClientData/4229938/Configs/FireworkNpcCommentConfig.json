@@ -1,0 +1,60 @@
+{
+  "_class": "FireworkNpcCommentConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 2,
+  "records": [
+    {
+      "Id": 29112000,
+      "Npcid": 91050014,
+      "SpecialFireworkId": 29110002,
+      "FireworkPlanLike": [
+        29111000,
+        29111001
+      ],
+      "DialogDate": 49432020,
+      "DialogLike": 49432022,
+      "EndCommentDate": [
+        49432014,
+        49432015
+      ],
+      "EndCommentLike": [
+        49432010,
+        49432011,
+        49432012,
+        49432013
+      ],
+      "DateFireworkplanId": 12100204,
+      "EventTaskid": 60000061,
+      "TimeLineName": "fireworktesttimeline",
+      "EventFireworkID": 0
+    },
+    {
+      "Id": 29112001,
+      "Npcid": 91050014,
+      "SpecialFireworkId": 29110002,
+      "FireworkPlanLike": [
+        29111000,
+        29111001
+      ],
+      "DialogDate": 49432020,
+      "DialogLike": 49432022,
+      "EndCommentDate": [
+        49432014,
+        49432015
+      ],
+      "EndCommentLike": [
+        49432010,
+        49432011,
+        49432012,
+        49432013
+      ],
+      "DateFireworkplanId": 12100204,
+      "EventTaskid": 0,
+      "TimeLineName": "play_firework_1P_diaoche",
+      "EventFireworkID": 0
+    }
+  ],
+  "_dumpedCount": 2,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

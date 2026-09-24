@@ -1,0 +1,58 @@
+{
+  "_class": "FarmFryingProducRuleConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 3,
+  "records": [
+    {
+      "Id": 1,
+      "ProductType": 0,
+      "InputId": 36400011,
+      "OutputCount": 1,
+      "Output": [
+        {
+          "itemId": 36400021,
+          "weight": 7
+        },
+        {
+          "itemId": 36400033,
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "ProductType": 0,
+      "InputId": 36400012,
+      "OutputCount": 1,
+      "Output": [
+        {
+          "itemId": 36400038,
+          "weight": 8
+        },
+        {
+          "itemId": 36400039,
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "ProductType": 0,
+      "InputId": 36400013,
+      "OutputCount": 1,
+      "Output": [
+        {
+          "itemId": 36400018,
+          "weight": 8
+        },
+        {
+          "itemId": 36400034,
+          "weight": 2
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 3,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

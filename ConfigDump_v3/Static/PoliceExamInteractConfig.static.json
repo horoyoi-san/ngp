@@ -1,0 +1,162 @@
+{
+  "StartCfg": {
+    "Id": 1,
+    "Name": "开始盘问",
+    "Progress": 0
+  },
+  "QuestioningCfg": {
+    "Id": 2,
+    "Name": "询问",
+    "Progress": 2
+  },
+  "IdentityVerificationCfg": {
+    "Id": 3,
+    "Name": "身份确认",
+    "Progress": 5
+  },
+  "BodySearchCfg": {
+    "Id": 4,
+    "Name": "搜身",
+    "Progress": 5
+  },
+  "AlcoholTestCfg": {
+    "Id": 5,
+    "Name": "酒精测试",
+    "Progress": 5
+  },
+  "DrugTestCfg": {
+    "Id": 6,
+    "Name": "药物测试",
+    "Progress": 5
+  },
+  "HandsOnHeadCfg": {
+    "Id": 7,
+    "Name": "双手抱头",
+    "Progress": 1
+  },
+  "CrouchWithHandsOnHeadCfg": {
+    "Id": 8,
+    "Name": "抱头蹲下",
+    "Progress": 1
+  },
+  "OrderToPronePositionCfg": {
+    "Id": 9,
+    "Name": "要求趴下",
+    "Progress": 1
+  },
+  "OrderToStandUpCfg": {
+    "Id": 10,
+    "Name": "要求起身",
+    "Progress": 0
+  },
+  "IssueTicketSuccessCfg": {
+    "Id": 11,
+    "Name": "开罚单-判定成功",
+    "Progress": 10
+  },
+  "IssueTicketFailCfg": {
+    "Id": 12,
+    "Name": "开罚单-判定失败",
+    "Progress": 0
+  },
+  "ArrestCfg": {
+    "Id": 13,
+    "Name": "逮捕",
+    "Progress": 5
+  },
+  "ReleaseCfg": {
+    "Id": 14,
+    "Name": "放行",
+    "Progress": 0
+  },
+  "LeaveCfg": {
+    "Id": 15,
+    "Name": "手动退出盘问",
+    "Progress": 0
+  },
+  "ExamineCfg": {
+    "Id": 16,
+    "Name": "盘查",
+    "Progress": 0
+  },
+  "ClearanceCfg": {
+    "Id": 17,
+    "Name": "放行",
+    "Progress": 0
+  },
+  "TemporaryLeaveCfg": {
+    "Id": 18,
+    "Name": "暂离",
+    "Progress": 0
+  },
+  "EscortTransferCfg": {
+    "Id": 19,
+    "Name": "押送",
+    "Progress": 0
+  },
+  "EscortEnterCarCfg": {
+    "Id": 20,
+    "Name": "押送上车",
+    "Progress": 5
+  },
+  "EscortLeaveCarCfg": {
+    "Id": 21,
+    "Name": "押送下车",
+    "Progress": 0
+  },
+  "PoliceGuardEnterTLCfg": {
+    "Id": 22,
+    "Name": "押送-Timeline进押送",
+    "Progress": 0
+  },
+  "BegEscortCfg": {
+    "Id": 23,
+    "Name": "押送-求饶进押送",
+    "Progress": 10
+  },
+  "LyingEscortCfg": {
+    "Id": 24,
+    "Name": "押送-倒地进押送",
+    "Progress": 10
+  },
+  "FallDownEscortCfg": {
+    "Id": 25,
+    "Name": "押送-逃跑扑倒进押送",
+    "Progress": 10
+  },
+  "IssueTicketCfg": {
+    "Id": 26,
+    "Name": "",
+    "Progress": 10
+  },
+  "CarStartCfg": {
+    "Id": 27,
+    "Name": "查车-开始盘问",
+    "Progress": 2
+  },
+  "ForceStopCfg": {
+    "Id": 28,
+    "Name": "查车-截停",
+    "Progress": 10
+  },
+  "EscortSupportCfg": {
+    "Id": 29,
+    "Name": "",
+    "Progress": 5
+  },
+  "EscortToWardCfg": {
+    "Id": 30,
+    "Name": "",
+    "Progress": 30
+  },
+  "IssueTicketCarCfg": {
+    "Id": 31,
+    "Name": "",
+    "Progress": 5
+  },
+  "EscortToHearCfg": {
+    "Id": 32,
+    "Name": "",
+    "Progress": 30
+  }
+}

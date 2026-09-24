@@ -1,0 +1,86 @@
+{
+  "RotatePipeNodeCfg": {
+    "Id": 91350020,
+    "HackTooltipId": 0,
+    "ItemName": "电路",
+    "InteractionHide": 0,
+    "InteractionSprite": 25600439,
+    "InteractionLabel": "旋转电路",
+    "InteractionPreFunction": "",
+    "InteractionAfterFunction": "RotateNode()",
+    "EnableFightHack": true,
+    "TaskRequire": 0,
+    "__IDX__ItemName": 4294967293,
+    "__RAW__ItemName": "电路",
+    "__IDX__InteractionLabel": 4294967293,
+    "__RAW__InteractionLabel": "旋转电路",
+    "InteractionTimeline": {
+      "TimeLineName": "",
+      "type": 0
+    },
+    "NearHack": {
+      "isNeedNear": true,
+      "distance": 6
+    },
+    "SetTaskCounter": {
+      "taskId": 0,
+      "counterId": 0
+    }
+  },
+  "PipeNodeUnlockCfg": {
+    "Id": 91350021,
+    "HackTooltipId": 0,
+    "ItemName": "锁定节点",
+    "InteractionHide": 0,
+    "InteractionSprite": 25600440,
+    "InteractionLabel": "解锁",
+    "InteractionPreFunction": "",
+    "InteractionAfterFunction": "UnlockNode()",
+    "EnableFightHack": true,
+    "TaskRequire": 0,
+    "__IDX__ItemName": 4294967293,
+    "__RAW__ItemName": "锁定节点",
+    "__IDX__InteractionLabel": 4294967293,
+    "__RAW__InteractionLabel": "解锁",
+    "InteractionTimeline": {
+      "TimeLineName": "",
+      "type": 0
+    },
+    "NearHack": {
+      "isNeedNear": true,
+      "distance": 6
+    },
+    "SetTaskCounter": {
+      "taskId": 0,
+      "counterId": 0
+    }
+  },
+  "PipeNodeFinishCfg": {
+    "Id": 91350022,
+    "HackTooltipId": 0,
+    "ItemName": "电路终点",
+    "InteractionHide": 0,
+    "InteractionSprite": 25600440,
+    "InteractionLabel": "解锁",
+    "InteractionPreFunction": "",
+    "InteractionAfterFunction": "FinishPipeGame()",
+    "EnableFightHack": true,
+    "TaskRequire": 0,
+    "__IDX__ItemName": 4294967293,
+    "__RAW__ItemName": "电路终点",
+    "__IDX__InteractionLabel": 4294967293,
+    "__RAW__InteractionLabel": "解锁",
+    "InteractionTimeline": {
+      "TimeLineName": "",
+      "type": 0
+    },
+    "NearHack": {
+      "isNeedNear": true,
+      "distance": 6
+    },
+    "SetTaskCounter": {
+      "taskId": 0,
+      "counterId": 0
+    }
+  }
+}

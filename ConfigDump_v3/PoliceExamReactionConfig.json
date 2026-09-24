@@ -1,0 +1,1390 @@
+{
+  "_class": "PoliceExamReactionConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 138,
+  "records": [
+    {
+      "Id": 1,
+      "Dialog": 0,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 2,
+      "Dialog": 0,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 3
+    },
+    {
+      "Id": 101,
+      "Dialog": 101,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 59,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 102,
+      "Dialog": 0,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 59,
+      "NPCGameplaySignal": 1005,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 103,
+      "Dialog": 0,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 60,
+      "NPCGameplaySignal": 1006,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 104,
+      "Dialog": 0,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 64,
+      "NPCGameplaySignal": 1007,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 105,
+      "Dialog": 0,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 65,
+      "NPCGameplaySignal": 1008,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 106,
+      "Dialog": 0,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 66,
+      "NPCGameplaySignal": 1009,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 107,
+      "Dialog": 0,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 3
+    },
+    {
+      "Id": 108,
+      "Dialog": 0,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 61,
+      "NPCGameplaySignal": 1000,
+      "PlayerAnimation": 0,
+      "Exit": 3
+    },
+    {
+      "Id": 109,
+      "Dialog": 0,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 62,
+      "NPCGameplaySignal": 1001,
+      "PlayerAnimation": 0,
+      "Exit": 3
+    },
+    {
+      "Id": 110,
+      "Dialog": 0,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 67,
+      "NPCGameplaySignal": 1002,
+      "PlayerAnimation": 0,
+      "Exit": 3
+    },
+    {
+      "Id": 111,
+      "Dialog": 0,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 68,
+      "NPCGameplaySignal": 1003,
+      "PlayerAnimation": 0,
+      "Exit": 3
+    },
+    {
+      "Id": 112,
+      "Dialog": 0,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 69,
+      "NPCGameplaySignal": 1004,
+      "PlayerAnimation": 0,
+      "Exit": 3
+    },
+    {
+      "Id": 113,
+      "Dialog": 0,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 1045,
+      "NPCGameplaySignal": 1045,
+      "PlayerAnimation": 0,
+      "Exit": 2
+    },
+    {
+      "Id": 120,
+      "Dialog": 120,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 3
+    },
+    {
+      "Id": 1001,
+      "Dialog": 1001,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 71,
+      "NPCGameplaySignal": 1022,
+      "PlayerAnimation": 0,
+      "Exit": 0
+    },
+    {
+      "Id": 1002,
+      "Dialog": 1002,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 59,
+      "NPCGameplaySignal": 1005,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 1003,
+      "Dialog": 1003,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 3
+    },
+    {
+      "Id": 1004,
+      "Dialog": 1004,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 72,
+      "NPCGameplaySignal": 1023,
+      "PlayerAnimation": 0,
+      "Exit": 0
+    },
+    {
+      "Id": 1005,
+      "Dialog": 1005,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 59,
+      "NPCGameplaySignal": 1005,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 1006,
+      "Dialog": 1006,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 3
+    },
+    {
+      "Id": 1007,
+      "Dialog": 1007,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 59,
+      "NPCGameplaySignal": 1005,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 1008,
+      "Dialog": 1008,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 62,
+      "NPCGameplaySignal": 1001,
+      "PlayerAnimation": 0,
+      "Exit": 3
+    },
+    {
+      "Id": 1009,
+      "Dialog": 1009,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 68,
+      "NPCGameplaySignal": 1003,
+      "PlayerAnimation": 0,
+      "Exit": 3
+    },
+    {
+      "Id": 1010,
+      "Dialog": 1010,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 72,
+      "NPCGameplaySignal": 1023,
+      "PlayerAnimation": 0,
+      "Exit": 0
+    },
+    {
+      "Id": 1011,
+      "Dialog": 1011,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 72,
+      "NPCGameplaySignal": 1023,
+      "PlayerAnimation": 0,
+      "Exit": 0
+    },
+    {
+      "Id": 1012,
+      "Dialog": 1002,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 1045,
+      "NPCGameplaySignal": 1045,
+      "PlayerAnimation": 0,
+      "Exit": 2
+    },
+    {
+      "Id": 1013,
+      "Dialog": 1005,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 1045,
+      "NPCGameplaySignal": 1045,
+      "PlayerAnimation": 0,
+      "Exit": 2
+    },
+    {
+      "Id": 2001,
+      "Dialog": 2001,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 0
+    },
+    {
+      "Id": 3001,
+      "Dialog": 3001,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 56,
+      "NPCGameplaySignal": 1012,
+      "PlayerAnimation": 0,
+      "Exit": 0
+    },
+    {
+      "Id": 3002,
+      "Dialog": 3002,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 59,
+      "NPCGameplaySignal": 1005,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 3003,
+      "Dialog": 3003,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 3
+    },
+    {
+      "Id": 3004,
+      "Dialog": 3004,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 56,
+      "NPCGameplaySignal": 1012,
+      "PlayerAnimation": 0,
+      "Exit": 0
+    },
+    {
+      "Id": 3005,
+      "Dialog": 3005,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 59,
+      "NPCGameplaySignal": 1005,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 3006,
+      "Dialog": 3006,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 3
+    },
+    {
+      "Id": 3007,
+      "Dialog": 3002,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 1045,
+      "NPCGameplaySignal": 1045,
+      "PlayerAnimation": 0,
+      "Exit": 2
+    },
+    {
+      "Id": 3008,
+      "Dialog": 3005,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 1045,
+      "NPCGameplaySignal": 1045,
+      "PlayerAnimation": 0,
+      "Exit": 2
+    },
+    {
+      "Id": 3101,
+      "Dialog": 3101,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 65,
+      "NPCGameplaySignal": 1008,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 3102,
+      "Dialog": 3102,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 67,
+      "NPCGameplaySignal": 1002,
+      "PlayerAnimation": 0,
+      "Exit": 3
+    },
+    {
+      "Id": 3103,
+      "Dialog": 3103,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 64,
+      "NPCGameplaySignal": 1007,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 3104,
+      "Dialog": 3104,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 62,
+      "NPCGameplaySignal": 1001,
+      "PlayerAnimation": 0,
+      "Exit": 3
+    },
+    {
+      "Id": 3105,
+      "Dialog": 3105,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 66,
+      "NPCGameplaySignal": 1009,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 4001,
+      "Dialog": 4001,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 51,
+      "NPCGameplaySignal": 1013,
+      "PlayerAnimation": 0,
+      "Exit": 0
+    },
+    {
+      "Id": 4002,
+      "Dialog": 4002,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 59,
+      "NPCGameplaySignal": 1005,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 4003,
+      "Dialog": 4003,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 3
+    },
+    {
+      "Id": 4004,
+      "Dialog": 4004,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 51,
+      "NPCGameplaySignal": 1013,
+      "PlayerAnimation": 0,
+      "Exit": 0
+    },
+    {
+      "Id": 4005,
+      "Dialog": 4005,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 59,
+      "NPCGameplaySignal": 1005,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 4006,
+      "Dialog": 4006,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 3
+    },
+    {
+      "Id": 4007,
+      "Dialog": 4002,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 1045,
+      "NPCGameplaySignal": 1045,
+      "PlayerAnimation": 0,
+      "Exit": 2
+    },
+    {
+      "Id": 4008,
+      "Dialog": 4005,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 1045,
+      "NPCGameplaySignal": 1045,
+      "PlayerAnimation": 0,
+      "Exit": 2
+    },
+    {
+      "Id": 5001,
+      "Dialog": 5001,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 47,
+      "NPCGameplaySignal": 1010,
+      "PlayerAnimation": 0,
+      "Exit": 0
+    },
+    {
+      "Id": 5002,
+      "Dialog": 5002,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 59,
+      "NPCGameplaySignal": 1005,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 5003,
+      "Dialog": 5003,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 3
+    },
+    {
+      "Id": 5004,
+      "Dialog": 5004,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 47,
+      "NPCGameplaySignal": 1010,
+      "PlayerAnimation": 0,
+      "Exit": 0
+    },
+    {
+      "Id": 5005,
+      "Dialog": 5005,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 59,
+      "NPCGameplaySignal": 1005,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 5006,
+      "Dialog": 5006,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 3
+    },
+    {
+      "Id": 5007,
+      "Dialog": 5002,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 1045,
+      "NPCGameplaySignal": 1045,
+      "PlayerAnimation": 0,
+      "Exit": 2
+    },
+    {
+      "Id": 5008,
+      "Dialog": 5005,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 1045,
+      "NPCGameplaySignal": 1045,
+      "PlayerAnimation": 0,
+      "Exit": 2
+    },
+    {
+      "Id": 6001,
+      "Dialog": 6001,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 49,
+      "NPCGameplaySignal": 1011,
+      "PlayerAnimation": 0,
+      "Exit": 0
+    },
+    {
+      "Id": 6002,
+      "Dialog": 6002,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 59,
+      "NPCGameplaySignal": 1005,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 6003,
+      "Dialog": 6003,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 3
+    },
+    {
+      "Id": 6004,
+      "Dialog": 6004,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 49,
+      "NPCGameplaySignal": 1011,
+      "PlayerAnimation": 0,
+      "Exit": 0
+    },
+    {
+      "Id": 6005,
+      "Dialog": 6005,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 59,
+      "NPCGameplaySignal": 1005,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 6006,
+      "Dialog": 6006,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 3
+    },
+    {
+      "Id": 6007,
+      "Dialog": 6002,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 1045,
+      "NPCGameplaySignal": 1045,
+      "PlayerAnimation": 0,
+      "Exit": 2
+    },
+    {
+      "Id": 6008,
+      "Dialog": 6005,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 1045,
+      "NPCGameplaySignal": 1045,
+      "PlayerAnimation": 0,
+      "Exit": 2
+    },
+    {
+      "Id": 7001,
+      "Dialog": 7001,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 52,
+      "NPCGameplaySignal": 1014,
+      "PlayerAnimation": 0,
+      "Exit": 0
+    },
+    {
+      "Id": 7002,
+      "Dialog": 7002,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 59,
+      "NPCGameplaySignal": 1005,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 7003,
+      "Dialog": 7003,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 52,
+      "NPCGameplaySignal": 1014,
+      "PlayerAnimation": 0,
+      "Exit": 0
+    },
+    {
+      "Id": 7004,
+      "Dialog": 7004,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 59,
+      "NPCGameplaySignal": 1005,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 7005,
+      "Dialog": 7002,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 1045,
+      "NPCGameplaySignal": 1045,
+      "PlayerAnimation": 0,
+      "Exit": 2
+    },
+    {
+      "Id": 7006,
+      "Dialog": 7004,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 1045,
+      "NPCGameplaySignal": 1045,
+      "PlayerAnimation": 0,
+      "Exit": 2
+    },
+    {
+      "Id": 7101,
+      "Dialog": 7101,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 60,
+      "NPCGameplaySignal": 1006,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 7102,
+      "Dialog": 7102,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 66,
+      "NPCGameplaySignal": 1009,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 8001,
+      "Dialog": 8001,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 54,
+      "NPCGameplaySignal": 1015,
+      "PlayerAnimation": 0,
+      "Exit": 0
+    },
+    {
+      "Id": 8002,
+      "Dialog": 8002,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 59,
+      "NPCGameplaySignal": 1005,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 8003,
+      "Dialog": 8003,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 54,
+      "NPCGameplaySignal": 1015,
+      "PlayerAnimation": 0,
+      "Exit": 0
+    },
+    {
+      "Id": 8004,
+      "Dialog": 8004,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 59,
+      "NPCGameplaySignal": 1005,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 8005,
+      "Dialog": 8002,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 1045,
+      "NPCGameplaySignal": 1045,
+      "PlayerAnimation": 0,
+      "Exit": 2
+    },
+    {
+      "Id": 8006,
+      "Dialog": 8004,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 1045,
+      "NPCGameplaySignal": 1045,
+      "PlayerAnimation": 0,
+      "Exit": 2
+    },
+    {
+      "Id": 9001,
+      "Dialog": 9001,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 53,
+      "NPCGameplaySignal": 1016,
+      "PlayerAnimation": 0,
+      "Exit": 0
+    },
+    {
+      "Id": 9002,
+      "Dialog": 9002,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 59,
+      "NPCGameplaySignal": 1005,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 9003,
+      "Dialog": 9003,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 53,
+      "NPCGameplaySignal": 1016,
+      "PlayerAnimation": 0,
+      "Exit": 0
+    },
+    {
+      "Id": 9004,
+      "Dialog": 9004,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 59,
+      "NPCGameplaySignal": 1005,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 9005,
+      "Dialog": 9002,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 1045,
+      "NPCGameplaySignal": 1045,
+      "PlayerAnimation": 0,
+      "Exit": 2
+    },
+    {
+      "Id": 9006,
+      "Dialog": 9004,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 1045,
+      "NPCGameplaySignal": 1045,
+      "PlayerAnimation": 0,
+      "Exit": 2
+    },
+    {
+      "Id": 10001,
+      "Dialog": 10001,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 55,
+      "NPCGameplaySignal": 1017,
+      "PlayerAnimation": 0,
+      "Exit": 0
+    },
+    {
+      "Id": 11001,
+      "Dialog": 11001,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 63,
+      "NPCGameplaySignal": 1018,
+      "PlayerAnimation": 0,
+      "Exit": 0
+    },
+    {
+      "Id": 11002,
+      "Dialog": 11002,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 63,
+      "NPCGameplaySignal": 1018,
+      "PlayerAnimation": 0,
+      "Exit": 0
+    },
+    {
+      "Id": 11003,
+      "Dialog": 11003,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 59,
+      "NPCGameplaySignal": 1005,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 11004,
+      "Dialog": 11004,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 3
+    },
+    {
+      "Id": 11005,
+      "Dialog": 11003,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 1045,
+      "NPCGameplaySignal": 1045,
+      "PlayerAnimation": 0,
+      "Exit": 2
+    },
+    {
+      "Id": 11101,
+      "Dialog": 11101,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 64,
+      "NPCGameplaySignal": 1007,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 11102,
+      "Dialog": 11102,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 61,
+      "NPCGameplaySignal": 1000,
+      "PlayerAnimation": 0,
+      "Exit": 3
+    },
+    {
+      "Id": 12001,
+      "Dialog": 12001,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 59,
+      "NPCGameplaySignal": 1005,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 12002,
+      "Dialog": 12002,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 3
+    },
+    {
+      "Id": 12003,
+      "Dialog": 12003,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 11
+    },
+    {
+      "Id": 12004,
+      "Dialog": 12001,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 1045,
+      "NPCGameplaySignal": 1045,
+      "PlayerAnimation": 0,
+      "Exit": 2
+    },
+    {
+      "Id": 12101,
+      "Dialog": 12101,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 60,
+      "NPCGameplaySignal": 1006,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 12102,
+      "Dialog": 12102,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 69,
+      "NPCGameplaySignal": 1004,
+      "PlayerAnimation": 0,
+      "Exit": 3
+    },
+    {
+      "Id": 13001,
+      "Dialog": 13001,
+      "MultiInteractType": 4,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 5
+    },
+    {
+      "Id": 13002,
+      "Dialog": 13002,
+      "MultiInteractType": 4,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 5
+    },
+    {
+      "Id": 13003,
+      "Dialog": 13003,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 59,
+      "NPCGameplaySignal": 1005,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 13004,
+      "Dialog": 13004,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 3
+    },
+    {
+      "Id": 13005,
+      "Dialog": 13005,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 59,
+      "NPCGameplaySignal": 1005,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 13006,
+      "Dialog": 13006,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 3
+    },
+    {
+      "Id": 13007,
+      "Dialog": 13003,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 1045,
+      "NPCGameplaySignal": 1045,
+      "PlayerAnimation": 0,
+      "Exit": 2
+    },
+    {
+      "Id": 13008,
+      "Dialog": 13005,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 1045,
+      "NPCGameplaySignal": 1045,
+      "PlayerAnimation": 0,
+      "Exit": 2
+    },
+    {
+      "Id": 13101,
+      "Dialog": 13101,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 65,
+      "NPCGameplaySignal": 1008,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 13102,
+      "Dialog": 13102,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 68,
+      "NPCGameplaySignal": 1003,
+      "PlayerAnimation": 0,
+      "Exit": 3
+    },
+    {
+      "Id": 14001,
+      "Dialog": 14001,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 58,
+      "NPCGameplaySignal": 1020,
+      "PlayerAnimation": 0,
+      "Exit": 2
+    },
+    {
+      "Id": 15001,
+      "Dialog": 0,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 70,
+      "NPCGameplaySignal": 1021,
+      "PlayerAnimation": 0,
+      "Exit": 4
+    },
+    {
+      "Id": 15002,
+      "Dialog": 0,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 4
+    },
+    {
+      "Id": 15003,
+      "Dialog": 0,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 4
+    },
+    {
+      "Id": 15004,
+      "Dialog": 0,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 4
+    },
+    {
+      "Id": 16001,
+      "Dialog": 0,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": true,
+      "GameplayEvent": 73,
+      "NPCGameplaySignal": 1024,
+      "PlayerAnimation": 0,
+      "Exit": 6
+    },
+    {
+      "Id": 17001,
+      "Dialog": 14001,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": true,
+      "GameplayEvent": 74,
+      "NPCGameplaySignal": 1025,
+      "PlayerAnimation": 0,
+      "Exit": 2
+    },
+    {
+      "Id": 18001,
+      "Dialog": 18001,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": true,
+      "GameplayEvent": 75,
+      "NPCGameplaySignal": 1026,
+      "PlayerAnimation": 0,
+      "Exit": 4
+    },
+    {
+      "Id": 19001,
+      "Dialog": 0,
+      "MultiInteractType": 5,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 0
+    },
+    {
+      "Id": 20001,
+      "Dialog": 0,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 76,
+      "NPCGameplaySignal": 1028,
+      "PlayerAnimation": 0,
+      "Exit": 9
+    },
+    {
+      "Id": 21001,
+      "Dialog": 0,
+      "MultiInteractType": 7,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 77,
+      "NPCGameplaySignal": 1029,
+      "PlayerAnimation": 0,
+      "Exit": 0
+    },
+    {
+      "Id": 22001,
+      "Dialog": 0,
+      "MultiInteractType": 21,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 0
+    },
+    {
+      "Id": 23001,
+      "Dialog": 23001,
+      "MultiInteractType": 18,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 0
+    },
+    {
+      "Id": 23002,
+      "Dialog": 23002,
+      "MultiInteractType": 16,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 0
+    },
+    {
+      "Id": 24001,
+      "Dialog": 24001,
+      "MultiInteractType": 22,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 0
+    },
+    {
+      "Id": 27001,
+      "Dialog": 27001,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 0
+    },
+    {
+      "Id": 27002,
+      "Dialog": 27002,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 3
+    },
+    {
+      "Id": 27003,
+      "Dialog": 27003,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 0
+    },
+    {
+      "Id": 27004,
+      "Dialog": 27004,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 3
+    },
+    {
+      "Id": 28001,
+      "Dialog": 28001,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 3
+    },
+    {
+      "Id": 28002,
+      "Dialog": 28002,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 0,
+      "PlayerAnimation": 0,
+      "Exit": 1
+    },
+    {
+      "Id": 28003,
+      "Dialog": 28003,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 1042,
+      "PlayerAnimation": 0,
+      "Exit": 7
+    },
+    {
+      "Id": 28004,
+      "Dialog": 28004,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 1042,
+      "PlayerAnimation": 0,
+      "Exit": 7
+    },
+    {
+      "Id": 28005,
+      "Dialog": 28005,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": false,
+      "GameplayEvent": 0,
+      "NPCGameplaySignal": 1043,
+      "PlayerAnimation": 0,
+      "Exit": 8
+    },
+    {
+      "Id": 29001,
+      "Dialog": 0,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": true,
+      "GameplayEvent": 75,
+      "NPCGameplaySignal": 1026,
+      "PlayerAnimation": 0,
+      "Exit": 10
+    },
+    {
+      "Id": 30001,
+      "Dialog": 0,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": true,
+      "GameplayEvent": 75,
+      "NPCGameplaySignal": 1026,
+      "PlayerAnimation": 0,
+      "Exit": 4
+    },
+    {
+      "Id": 31001,
+      "Dialog": 0,
+      "MultiInteractType": 0,
+      "IsEndMultiInteract": true,
+      "GameplayEvent": 75,
+      "NPCGameplaySignal": 1026,
+      "PlayerAnimation": 0,
+      "Exit": 4
+    }
+  ],
+  "_dumpedCount": 138,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

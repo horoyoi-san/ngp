@@ -1,0 +1,127 @@
+{
+  "_class": "GuideNewbieConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 2,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "Vehicle Controls",
+      "Type": 2,
+      "Sort": 2,
+      "Title1": "Stick Mode",
+      "Desc1": [
+        "Use the left stick to control the vehicle’s direction."
+      ],
+      "Title2": "Button Mode (Left)",
+      "Desc2": [
+        "Use the left-hand button to move forward and the right-hand button to steer."
+      ],
+      "Title3": "",
+      "Desc3": [],
+      "SetFuncName": "SetVehicleOprMode",
+      "GetFuncName": "GetVehicleOprMode",
+      "__IDX__Name": 143749,
+      "__RAW__Name": "",
+      "__IDX__Title1": 163330,
+      "__RAW__Title1": "",
+      "__IDX__Desc1": [
+        143747
+      ],
+      "__RAW__Desc1": [
+        ""
+      ],
+      "__IDX__Title2": 163331,
+      "__RAW__Title2": "",
+      "__IDX__Desc2": [
+        143748
+      ],
+      "__RAW__Desc2": [
+        ""
+      ],
+      "__IDX__Title3": 0,
+      "__RAW__Title3": "",
+      "__IDX__Desc3": [],
+      "__RAW__Desc3": [],
+      "Source1": [
+        {
+          "sourceType": 1,
+          "sourceId": 28004339
+        }
+      ],
+      "Source2": [
+        {
+          "sourceType": 1,
+          "sourceId": 28004338
+        }
+      ],
+      "Source3": []
+    },
+    {
+      "Id": 2,
+      "Name": "Button Text Preview",
+      "Type": 2,
+      "Sort": 1,
+      "Title1": "Detailed Mode",
+      "Desc1": [
+        "Detailed text appears below buttons. Recommended for players experiencing the game for the first time."
+      ],
+      "Title2": "Balanced Mode",
+      "Desc2": [
+        "Brief text appears below buttons."
+      ],
+      "Title3": "Immersive Mode",
+      "Desc3": [
+        "No text below buttons."
+      ],
+      "SetFuncName": "SetMobileButtonTextNum",
+      "GetFuncName": "GetMobileButtonTextNum",
+      "__IDX__Name": 143753,
+      "__RAW__Name": "",
+      "__IDX__Title1": 163332,
+      "__RAW__Title1": "",
+      "__IDX__Desc1": [
+        143750
+      ],
+      "__RAW__Desc1": [
+        ""
+      ],
+      "__IDX__Title2": 163333,
+      "__RAW__Title2": "",
+      "__IDX__Desc2": [
+        143751
+      ],
+      "__RAW__Desc2": [
+        ""
+      ],
+      "__IDX__Title3": 163334,
+      "__RAW__Title3": "",
+      "__IDX__Desc3": [
+        143752
+      ],
+      "__RAW__Desc3": [
+        ""
+      ],
+      "Source1": [
+        {
+          "sourceType": 1,
+          "sourceId": 28004340
+        }
+      ],
+      "Source2": [
+        {
+          "sourceType": 1,
+          "sourceId": 28004341
+        }
+      ],
+      "Source3": [
+        {
+          "sourceType": 1,
+          "sourceId": 28004342
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 2,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

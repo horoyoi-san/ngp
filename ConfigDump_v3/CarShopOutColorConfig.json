@@ -1,0 +1,32 @@
+{
+  "_class": "CarShopOutColorConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 2,
+  "records": [
+    {
+      "Id": 10111001,
+      "Name": "银色",
+      "OutColorPart": 9994000,
+      "MaterialId": [
+        10112001,
+        10112002
+      ],
+      "CommodityId": 94201021,
+      "OutColorIcon": "28002025"
+    },
+    {
+      "Id": 10111002,
+      "Name": "黑色",
+      "OutColorPart": 9994001,
+      "MaterialId": [
+        10112003,
+        10112004
+      ],
+      "CommodityId": 94201022,
+      "OutColorIcon": "28002024"
+    }
+  ],
+  "_dumpedCount": 2,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

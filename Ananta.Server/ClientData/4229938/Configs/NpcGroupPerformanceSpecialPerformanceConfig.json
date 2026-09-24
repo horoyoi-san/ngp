@@ -1,0 +1,37 @@
+{
+  "_class": "NpcGroupPerformanceSpecialPerformanceConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 3,
+  "records": [
+    {
+      "Id": 100,
+      "TriggerType": 0,
+      "TriggerDistance": 1,
+      "TriggerCount": 2,
+      "AnimTypeId": 1004,
+      "NotifyServer": true,
+      "PhaseTwo": true
+    },
+    {
+      "Id": 101,
+      "TriggerType": 0,
+      "TriggerDistance": 1,
+      "TriggerCount": 1,
+      "AnimTypeId": 1003,
+      "NotifyServer": false,
+      "PhaseTwo": false
+    },
+    {
+      "Id": 102,
+      "TriggerType": 1,
+      "TriggerDistance": 3,
+      "TriggerCount": 1,
+      "AnimTypeId": 1002,
+      "NotifyServer": true,
+      "PhaseTwo": false
+    }
+  ],
+  "_dumpedCount": 3,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

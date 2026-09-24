@@ -4,12 +4,6 @@ using Ananta.Server.RpcTypes.Client4229938;
 
 namespace Ananta.Server.Configuration;
 
-/// <summary>
-/// Human-editable private-server settings.
-///
-/// Protocol constants (RPC ids, serializer layouts, client wire types) deliberately do NOT live
-/// here. Those belong to Protocol/Client4229938 and should only change when supporting a new client.
-/// </summary>
 public sealed class PrivateServerConfig
 {
     public ClientSettings Client { get; init; } = new();
@@ -106,7 +100,48 @@ public sealed class PrivateServerConfig
             if (Gameplay.Vehicles.SearchRadiusMeters < Gameplay.Vehicles.DesiredApproachMeters)
                 throw new InvalidDataException("gameplay.vehicles.searchRadiusMeters must cover desiredApproachMeters.");
             if (string.IsNullOrWhiteSpace(Paths.ZoneGraphLanes)) throw new InvalidDataException("paths.zoneGraphLanes must not be empty while vehicles are enabled.");
+            if (string.IsNullOrWhiteSpace(Paths.PedSpawns)) throw new InvalidDataException("paths.pedSpawns must not be empty while vehicles are enabled.");
         }
+        if (Gameplay.Aether.FixedNpcEnabled)
+        {
+            if (string.IsNullOrWhiteSpace(Paths.StaticNpcSpawns))
+                throw new InvalidDataException("paths.staticNpcSpawns must not be empty while gameplay.aether.fixedNpcEnabled=true.");
+            if (Gameplay.Aether.FixedNpcCount < 0)
+                throw new InvalidDataException("gameplay.aether.fixedNpcCount must be >= 0.");
+            if (Gameplay.Aether.FixedNpcRadiusMeters <= 0)
+                throw new InvalidDataException("gameplay.aether.fixedNpcRadiusMeters must be > 0.");
+
+            
+            
+            var fixedLeash = Gameplay.Aether.FixedNpcLeashMeters > 0f
+                ? Gameplay.Aether.FixedNpcLeashMeters
+                : Math.Max(300f, Gameplay.Aether.FixedNpcRadiusMeters * 1.4f);
+            if (fixedLeash <= Gameplay.Aether.FixedNpcRadiusMeters)
+                throw new InvalidDataException(
+                    $"gameplay.aether.fixedNpcLeashMeters ({Gameplay.Aether.FixedNpcLeashMeters}) 必须大于 "
+                    + $"fixedNpcRadiusMeters ({Gameplay.Aether.FixedNpcRadiusMeters})，否则刚生成就会被回收。0 = 自动。");
+
+            if (Gameplay.Aether.FixedNpcWander)
+            {
+                if (Gameplay.Aether.FixedNpcWanderMaxDis < Gameplay.Aether.FixedNpcWanderMinDis)
+                    throw new InvalidDataException(
+                        "gameplay.aether.fixedNpcWanderMaxDis 必须 >= fixedNpcWanderMinDis。");
+                
+                if (Gameplay.Aether.FixedNpcReWanderSeconds > 0f
+                    && Gameplay.Aether.FixedNpcReWanderSeconds >= Gameplay.Aether.FixedNpcWanderOnceTime)
+                    throw new InvalidDataException(
+                        $"gameplay.aether.fixedNpcReWanderSeconds ({Gameplay.Aether.FixedNpcReWanderSeconds}) "
+                        + $"必须小于 fixedNpcWanderOnceTime ({Gameplay.Aether.FixedNpcWanderOnceTime})，"
+                        + "否则单段走完了才重发、中间会站着不动。0 = 关。");
+            }
+        }
+
+        
+        if (Gameplay.Aether.CrowdReWanderSeconds > 0f
+            && Gameplay.Aether.CrowdReWanderSeconds >= Gameplay.Aether.CrowdWanderMaxTime)
+            throw new InvalidDataException(
+                $"gameplay.aether.crowdReWanderSeconds ({Gameplay.Aether.CrowdReWanderSeconds}) "
+                + $"必须小于 crowdWanderMaxTime ({Gameplay.Aether.CrowdWanderMaxTime})。0 = 关。");
         if (Ui.UidLabel.Enabled && string.IsNullOrWhiteSpace(Ui.UidLabel.Text))
             throw new InvalidDataException("ui.uidLabel.text must not be empty when ui.uidLabel.enabled=true.");
         if (Ui.CutscenePanel.Enabled)
@@ -187,28 +222,61 @@ public sealed class WorldSettings
     public float Facing { get; init; }
     public bool EntryOpeningEnabled { get; init; }
     public WorldContentSettings Content { get; init; } = new();
+    
+    public SceneContentAoiSettings SceneContentAoi { get; init; } = new();
+
 }
 
-/// <summary>
-/// World content streaming.  The client renders lampposts and street props from
-/// its baked SceneItemBlob once the server pushes the destructible grid window;
-/// gadgets (lifts, doors, vending machines) use the client build's own baked
-/// GadgetBlob through SyncGadgetGridAOIDecrease; DynamicGOs are re-seeded while
-/// the client finishes loading its world headers. All data comes from paths.worldData.
-/// </summary>
-public sealed class WorldContentSettings
+public sealed class SceneContentAoiSettings
 {
-    /// <summary>Master switch for all world-content streaming.</summary>
+    
     public bool Enabled { get; init; } = true;
 
-    /// <summary>Legacy primary scene name retained for config compatibility.</summary>
+    
+    
+    
+    
+    public bool ActivateSceneAoi { get; init; } = true;
+
+    
+    public float CellSizeMeters { get; init; } = 40f;
+
+    
+    public int RadiusCells { get; init; } = 3;
+
+    
+    public bool RepublishOnCellChange { get; init; } = true;
+
+    
+    public bool Gadgets { get; init; } = true;
+
+    
+    public bool Destructibles { get; init; } = true;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    public bool UseSectorFilter { get; init; } = true;
+}
+
+public sealed class WorldContentSettings
+{
+    
+    public bool Enabled { get; init; } = true;
+
+    
     public string Scene { get; init; } = "WorldMap_Release";
 
-    /// <summary>
-    /// Build-local scene data allowed to supplement the current free-roam scene.
-    /// FIX23V uses only WorldMap_Release for this server/raid; SceneItems themselves are
-    /// resolved from the client SceneItemBlob and do not use this list as a placement whitelist.
-    /// </summary>
+    
+    
+    
+    
+    
     public string[] ProductionScenes { get; init; } = ["WorldMap_Release"];
 
     public SceneItemStreamSettings SceneItems { get; init; } = new();
@@ -216,31 +284,29 @@ public sealed class WorldContentSettings
     public DynamicGoStreamSettings DynamicGo { get; init; } = new();
 }
 
-/// <summary>Grid window for baked scene items (lampposts, props, breakables).</summary>
 public sealed class SceneItemStreamSettings
 {
     public bool Enabled { get; init; } = true;
 
-    /// <summary>Window half-size in 40m cells (7x7 window at 3).</summary>
+    
     public int RadiusCells { get; init; } = 3;
 
-    /// <summary>Cells beyond this distance from the player are unloaded (hysteresis) when retention is disabled.</summary>
+    
     public int UnloadRadiusCells { get; init; } = 6;
 
-    /// <summary>Keep visited cells resident to avoid destroy/re-create races while streaming quickly.</summary>
+    
     public bool RetainVisitedCells { get; init; } = true;
 
-    /// <summary>When true, request every authored object in each production cell instead of applying the extracted sector filter.</summary>
+    
     public bool LoadAllSectors { get; init; } = false;
 
-    /// <summary>Exclude client-authored SceneItem entries whose build-local path is explicitly marked temp/test/debug.</summary>
+    
     public bool ExcludeTestItems { get; init; } = true;
 
-    /// <summary>Max new cells pushed per stream so the load staggers instead of hitching.</summary>
+    
     public int LoadBudgetCells { get; init; } = 49;
 }
 
-/// <summary>Grid window for client-baked gadgets (lifts, doors, vending machines).</summary>
 public sealed class GadgetStreamSettings
 {
     public bool Enabled { get; init; } = true;
@@ -249,25 +315,24 @@ public sealed class GadgetStreamSettings
     public int UnloadRadiusCells { get; init; } = 6;
     public bool RetainVisitedCells { get; init; } = true;
 
-    /// <summary>When true, request every authored gadget in each production cell instead of applying the extracted sector filter.</summary>
+    
     public bool LoadAllSectors { get; init; } = false;
 
-    /// <summary>Maximum new production cells sent per update. A 7x7 radius-3 window is 49 cells.</summary>
+    
     public int LoadBudgetCells { get; init; } = 49;
 }
 
-/// <summary>DynamicGo re-seeding after gameplay-ready.</summary>
 public sealed class DynamicGoStreamSettings
 {
     public bool Enabled { get; init; } = true;
 
-    /// <summary>How many times SyncDynamicGoActiveInfo is re-sent (client headers load async).</summary>
+    
     public int SeedAttempts { get; init; } = 12;
 
-    /// <summary>Activate every DynamicGo id found in the build-4229938 probe.</summary>
+    
     public bool ActivateAllKnown { get; init; } = true;
 
-    /// <summary>Force explicitly-authored test/temp/debug DynamicGo blockouts inactive.</summary>
+    
     public bool ExcludeTestPlaceholders { get; init; } = true;
 }
 
@@ -302,16 +367,771 @@ public sealed class GameplaySettings
     public CombatSettings Combat { get; init; } = new();
     public WebTraversalSettings WebTraversal { get; init; } = new();
     public VehicleSettings Vehicles { get; init; } = new();
+    public EconomySettings Economy { get; init; } = new();
+    public FashionSettings Fashions { get; init; } = new();
+    public QuestSettings Quests { get; init; } = new();
+    public TransitSettings Transit { get; init; } = new();
+    public AetherSettings Aether { get; init; } = new();
+    public ActionSettings Actions { get; init; } = new();
+    public SystemUnlockSettings Systems { get; init; } = new();
+    public PhoneSettings Phone { get; init; } = new();
+    public GameSwitchSettings GameSwitch { get; init; } = new();
+    public BasketballSettings Basketball { get; init; } = new();
+    public VehicleNavigationSettings VehicleNavigation { get; init; } = new();
+    public SpiritContentSettings SpiritContent { get; init; } = new();
+    public SocialAppSettings SocialApp { get; init; } = new();
+    public HackerBlackoutSettings HackerBlackout { get; init; } = new();
+}
+
+public sealed class HackerBlackoutSettings
+{
+    
+    public bool Enabled { get; init; } = true;
+
+    
+    public uint CreationId { get; init; } = 56860922;
+
+    
+    public uint Range { get; init; } = 100;
+
+    
+    public uint TalentId { get; init; } = 99906106;
+
+    
+    public uint CapabilityBuffId { get; init; } = 52606170;
+
+    
+    public uint JobClassId { get; init; } = 401;
+}
+
+public sealed class SocialAppSettings
+{
+    
+    public bool Enabled { get; init; } = true;
+
+    
+    
+    
+    
+    public long PostDateBaseUnix { get; init; }
+
+    
+    
+    
+    
+    
+    
+    public bool IncludeAllPosts { get; init; } = true;
+
+    
+    
+    
+    public uint PostDateStepSeconds { get; init; } = 7200;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public string GraffitoUrl { get; init; } = "http://127.0.0.1:5809";
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public bool SendNpcSchedule { get; init; } = true;
+}
+
+public sealed class SpiritContentSettings
+{
+    
+    public bool Enabled { get; init; } = true;
+
+    
+    
+    
+    
+    public bool UnlockExclusiveFightStyles { get; init; } = true;
+
+    
+    
+    
+    
+    
+    public bool UnlockAllFightStyles { get; init; } = true;
+
+    
+    
+    
+    
+    public uint FightStyleUnlockTime { get; init; } = 1;
+
+    
+    
+    
+    
+    public bool InstallExclusiveApps { get; init; } = true;
+
+    
+    
+    
+    
+    public bool InstallAutoDownloadApps { get; init; } = true;
+
+    
+    
+    
+    
+    public bool GrantDefaultJobs { get; init; } = true;
+
+    
+    
+    
+    
+    public bool UnlockJobSystems { get; init; } = true;
+
+    
+    
+    
+    
+    
+    
+    
+    public uint JobTalentPoint { get; init; } = 999;
+
+    
+    
+    
+    
+    public bool GrantSpiritTalents { get; init; } = true;
+
+    
+    
+    
+    
+    public uint SpiritTalentLayer { get; init; } = 1;
+
+    
+    
+    
+    public uint SpiritTalentPoint { get; init; } = 999;
+
+    
+    
+    
+    
+    public uint SpiritTalentLevel { get; init; } = 35;
+
+    
+    
+    
+    public uint CommonSpiritTalentExp { get; init; }
+
+    
+    
+    
+    public uint SpiritInitTalentPointAdd { get; init; }
+
+    
+    
+    
+    
+    
+    public bool GrantUrbanAbilities { get; init; } = true;
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    public bool MaxJobLevel { get; init; } = true;
+
+    
+    
+    
+    
+    
+    
+    
+    public uint JobMaxExp { get; init; }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    public bool JobTopTier { get; init; } = true;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    public bool UnlockAllJobTalents { get; init; } = true;
+
+    
+    
+    
+    
+    public bool UnlockAllSpiritTalents { get; init; } = true;
+
+    
+    
+    
+    
+    
+    public bool UnlockAllGameplayTalents { get; init; } = true;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public bool MaxUrbanAttribute { get; init; } = true;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public bool TruckOrdersEnabled { get; init; } = true;
+
+    
+    public int TruckOrderCount { get; init; } = 3;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public uint TruckTeachingEventId { get; init; } = 1234;
+
+    
+
+    
+    
+    
+    
+    
+    
+    public bool MarkVehiclesHackable { get; init; } = true;
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public bool HackTargetsEnabled { get; init; } = true;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public uint HackerBatteryTotal { get; init; } = 6;
+
+    
+    public uint HackerBatteryCurrent { get; init; } = 6;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public bool SendHackerBatteryCostInfo { get; init; }
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public bool PoliceAppContentEnabled { get; init; } = true;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public string[] PoliceCaseSpecs { get; init; } =
+    [
+        "40650550:1",
+        "4065053:4,5",
+    ];
+
+    
+    public int PoliceCaseDaysAgo { get; init; } = 3;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public bool UnlockPhoneAppJobs { get; init; } = true;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public bool GrantHackingAbilityBuff { get; init; } = true;
+
+    
+
+    
+    
+    
+    
+    
+    
+    public uint HackerSpiritTemplateId { get; init; } = 15_021_023;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public uint[] HackerAbilityBuffIds { get; init; } = DefaultHackerAbilityBuffIds;
+
+    
+    public static readonly uint[] DefaultHackerAbilityBuffIds =
+    [
+        52_606_133, 
+        52_606_134, 
+        52_606_135, 
+        52_606_136, 
+        52_606_137, 
+        52_606_138, 
+        52_606_161, 
+        52_606_162, 
+        52_606_178, 
+        52_606_179, 
+        52_606_167, 
+        52_606_168, 
+        52_606_149, 
+        52_606_150, 
+    ];
+
+    
+    
+    
+    
+    public bool UnlockUniqueSkill { get; init; } = true;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public bool GrantAvatarJobs { get; init; } = true;
+
+    
+    
+    
+    
+    
+    
+    
+    public string HackerName { get; init; } = "ZeroCool";
+
+    
+    
+    
+    public uint HackerRank { get; init; } = 1;
+
+    
+    
+    
+    
+    public bool UnlockHackerPosts { get; init; } = true;
+
+    
+    public int HackerPostState { get; init; }
+
+    
+    public bool HackerPostsRead { get; init; }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    public bool UnlockPoliceFakeFiles { get; init; } = true;
+
+    
+    
+    
+    
+    
+    public bool LogPerSpirit { get; init; } = true;
+}
+
+public sealed class VehicleNavigationSettings
+{
+    
+    public bool Enabled { get; init; } = true;
+
+    
+    
+    
+    
+    
+    public bool ForcePreferMainRoad { get; init; }
+
+    
+    
+    
+    
+    
+    public float MaxTargetSnapMeters { get; init; } = 250f;
+
+    
+    
+    
+    
+    public int MaxPathPoints { get; init; } = 4096;
+
+    
+    public bool LogEveryRequest { get; init; }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    public bool SendAutonomousDrivingState { get; init; } = true;
+}
+
+public sealed class BasketballSettings
+{
+    
+    public bool Enabled { get; init; } = true;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    public bool SpawnAtCourt { get; init; }
+
+    
+    
+    
+    
+    public int SpawnCourtId { get; init; }
+
+    
+    
+    
+    
+    public bool LogNearestOnWorldEntry { get; init; } = true;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    public bool ExplicitSpawnEnabled { get; init; }
+
+    
+    public int ExplicitSpawnCourtId { get; init; } = 1;
+
+    
+    public float ExplicitSpawnOffsetX { get; init; } = 20f;
+
+    public float ExplicitSpawnOffsetZ { get; init; } = 20f;
+}
+
+public sealed class GameSwitchSettings
+{
+    public bool Enabled { get; init; } = true;
+
+    
+    
+    
+    
+    public Dictionary<string, bool> Overrides { get; init; } = new(StringComparer.Ordinal);
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public string Framing { get; init; } = "nullTerminated";
+}
+
+public sealed class PhoneSettings
+{
+    public bool Enabled { get; init; } = true;
+
+    
+    public bool UnlockAllSkinParts { get; init; } = true;
+}
+
+public sealed class SystemUnlockSettings
+{
+    public bool Enabled { get; init; } = true;
+
+    
+    public bool UnlockAll { get; init; } = true;
+
+    
+    public uint[] UnlockIds { get; init; } = [];
+}
+
+public sealed class ActionSettings
+{
+    public bool Enabled { get; init; } = true;
+
+    
+    public bool UnlockAll { get; init; } = true;
+
+    
+    public uint[] UnlockIds { get; init; } = [];
 }
 
 public sealed class VehicleSettings
 {
     public bool Enabled { get; init; } = true;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public bool HasZoneGraph { get; init; } = true;
     public uint[] FleetIds { get; init; } = [];
     public float DesiredApproachMeters { get; init; } = 32f;
     public float MinimumApproachMeters { get; init; } = 24f;
     public float SearchRadiusMeters { get; init; } = 80f;
-    public int ZoneStorageDataHandle { get; init; } = -1044702623;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public int ZoneStorageDataHandle { get; init; }
+
+    
+    
+    
+    
+    
+    
+    public int AetherVehicleCount { get; init; }
 }
 
 public sealed class SwitchAnimationSettings
@@ -319,6 +1139,37 @@ public sealed class SwitchAnimationSettings
     public int SwitchType { get; init; }
     public string CommonTimelinePrefix { get; init; } = string.Empty;
     public bool AvoidImmediateRepeat { get; init; }
+
+    
+    
+    
+    
+    
+    
+    
+    public string TeleportTiming { get; init; } = "apex";
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public int ApexDelayMs { get; init; } = 3600;
 }
 
 public sealed class CombatSettings
@@ -334,6 +1185,14 @@ public sealed class CombatSettings
     public int[] DefaultUrbanAbilities { get; init; } = [];
     public WeaponSettings Weapon { get; init; } = new();
     public ResourceSettings Resource { get; init; } = new();
+
+    
+    
+    
+    
+    
+    
+    public bool InfiniteAmmo { get; init; } = true;
     public SkillSettings Skills { get; init; } = new();
     public SkillChargeSettings[] Charges { get; init; } = [];
 }
@@ -409,7 +1268,7 @@ public sealed class WebTraversalSettings
 
 public sealed class UiSettings
 {
-    /// <summary>White text rendered next to UID. This is the user-facing watermark setting.</summary>
+    
     public UidLabelSettings UidLabel { get; init; } = new();
     public bool RemoveStockConfidentialLabel { get; init; }
     public CutscenePanelSettings CutscenePanel { get; init; } = new();
@@ -428,12 +1287,775 @@ public sealed class UidLabelSettings
     public string Text { get; init; } = string.Empty;
 }
 
+public sealed class EconomySettings
+{
+    public bool Enabled { get; init; } = true;
+    public double Money { get; init; }
+    public double Gold { get; init; }
+    public double BindingGold { get; init; }
+    public double FreeGold { get; init; }
+
+    
+    public List<StartingItem> StartingItems { get; init; } = [];
+
+    
+    public bool GrantAllArmoryWeapons { get; init; }
+
+    
+    
+    
+    
+    public bool GrantAllAmmo { get; init; }
+
+    
+    public uint[] ExtraWeaponTemplateIds { get; init; } = [];
+
+    public sealed class StartingItem
+    {
+        public uint TemplateId { get; init; }
+        public uint Count { get; init; }
+    }
+}
+
+public sealed class FashionSettings
+{
+    public bool Enabled { get; init; } = true;
+
+    
+    
+    
+    
+    public bool UnlockAllFashions { get; init; } = true;
+
+    
+    public uint[] UnlockedFashionIds { get; init; } = [];
+
+    
+    public uint[] WearFashionIds { get; init; } = [];
+}
+
+public sealed class TransitSettings
+{
+    
+    public int SubwayFare { get; init; }
+}
+
+public sealed class QuestSettings
+{
+    public bool Enabled { get; init; } = true;
+    public bool SendLoginBootstrap { get; init; } = true;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public bool SendSpoonViewInfo { get; init; } = true;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public string SpoonAlias { get; init; } = "Xinshouben";
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public string[] SpoonAliasProbe { get; init; } = [];
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public string[] SceneSpoonNames { get; init; } = [];
+
+    
+    public string[] SceneSpoonMd5s { get; init; } = [];
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public uint[] EventIds { get; init; } = [];
+
+    
+    
+    
+    
+    
+    
+    public bool AutoDeriveEvents { get; init; } = true;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public byte EventStatusFlags { get; init; } = 21;
+
+    
+    
+    
+    
+    public bool EventTaskIdFollowsContainer { get; init; } = true;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public uint[] SubmitEventIds { get; init; } = [1234];
+
+    public uint[] StartingTaskIds { get; init; } = [];
+    public uint[] UnlockedQuestIds { get; init; } = [];
+    public uint[] CompletedSubQuestIds { get; init; } = [];
+    public uint[] FinishedGuideIds { get; init; } = [];
+    public byte StartingTaskState { get; init; } = 1;
+    public byte CurrentTaskReason { get; init; }
+    public bool AutoStartStoryChain { get; init; } = true;
+}
+
+public sealed class AetherSettings
+{
+    
+    
+    
+    
+    public int WorldEntryDelayMs { get; init; } = 5000;
+
+    
+    
+    
+    
+    public int InitSettleMs { get; init; } = 1500;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public string VehicleDriveMode { get; init; } = "laneData";
+
+    
+    
+    
+    
+    public byte VehicleControlType { get; init; } = 1;
+
+    
+    
+    
+    
+    public uint[] VehicleAiConfigIds { get; init; } = [];
+
+    
+    public int AiTaskWaypointCount { get; init; } = 6;
+
+    
+    
+    
+    
+    
+    
+    
+    public double ReAddVehicleDataSeconds { get; init; } = 10.0;
+
+    
+    
+    
+    
+    public bool IntersectionUpdateEnabled { get; init; } = true;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public string IntersectionIndexSource { get; init; } = "zoneIndex";
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public double IntersectionPeriodSeconds { get; init; } = 12.0;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public float VehicleMinGapMeters { get; init; } = 7.0f;
+
+    
+    
+    
+    
+    
+    public bool VehicleFollowEnabled { get; init; }
+
+    
+    
+    
+    
+    
+    
+    public bool VehicleSignalStopEnabled { get; init; }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public int VehicleNpcReAddCount { get; init; } = 2;
+
+    
+    
+    
+    public float IntersectionStopOffsetMeters { get; init; } = 3.0f;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public bool CrowdUseStaticNpcChannel { get; init; } = true;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public string CrowdBehaviorTreeName { get; init; } = "PedBase";
+
+    
+    
+    
+    
+    public uint CrowdFashionSuitId { get; init; } = 11190001;
+
+    
+
+    
+    
+    
+    
+    
+    
+    public bool CrowdWanderEnabled { get; init; } = true;
+
+    
+    public float CrowdWanderMinDis { get; init; } = 8f;
+
+    
+    public float CrowdWanderMaxDis { get; init; } = 35f;
+
+    
+    public float CrowdWanderMaxTime { get; init; } = 180f;
+
+    
+    public float CrowdWanderOnceTime { get; init; } = 25f;
+
+    
+    
+    
+    
+    public int CrowdWanderMoveType { get; init; }
+
+    
+    public bool CrowdWanderAvoidance { get; init; } = true;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    public float CrowdDesiredSpeedMin { get; init; } = 1.1f;
+
+    
+    public float CrowdDesiredSpeedMax { get; init; } = 1.7f;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    public int CrowdWanderPathTags { get; init; } = 6;
+
+    
+    
+    
+    
+    public float CrowdWanderLeftAngle { get; init; } = -180f;
+
+    
+    
+    
+    
+    public float CrowdWanderRightAngle { get; init; } = 180f;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public float CrowdReWanderSeconds { get; init; } = 150f;
+
+    
+    
+    
+    
+    
+    
+    
+    public int CrowdMaxPerWaitArea { get; init; } = 2;
+
+    
+    
+    
+    
+    
+    
+    
+    public int CrowdBehaviorTaskId { get; init; }
+
+    
+    
+    
+    
+    
+    public int VehicleNpcBehaviorTaskId { get; init; }
+
+    
+    public float VehicleSpawnRadiusMeters { get; init; } = 160f;
+
+    
+    
+    
+    
+    public float VehicleLeashMeters { get; init; }
+
+    
+    
+    
+    
+    
+    
+    
+    public float VehicleSpawnMinDistanceMeters { get; init; } = 90f;
+
+    
+    
+    
+    
+    public bool VehiclePreferInbound { get; init; } = true;
+
+    
+    public float VehicleSpeedMin { get; init; } = 8f;
+
+    
+    public float VehicleSpeedMax { get; init; } = 16f;
+
+    
+    public int PacketGapMs { get; init; } = 6;
+
+    
+    
+    
+    
+    public uint[] AmbientVehicleIds { get; init; } = [];
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public uint[] VehicleNpcFormworkIds { get; init; } = [];
+
+    
+    
+    
+    
+    public bool IntersectionsEnabled { get; init; } = true;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public bool CreateBaseVehicle { get; init; } = true;
+
+    
+    
+    
+    
+    public int LaneTickMs { get; init; } = 50;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public string LaneDataTimeBase { get; init; } = "unix";
+
+    
+    
+    
+    
+    
+    public bool ForceGo { get; init; } = true;
+
+    
+    
+    
+    
+    public float SpeedVariance { get; init; } = 0.3f;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public int ReAddVehicleDataEveryTicks { get; init; } = 20;
+
+    
+    public int CrowdCount { get; init; } = 30;
+
+    
+    public float CrowdRadiusMeters { get; init; } = 120f;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public uint[] NpcAgentConfigIds { get; init; } = [];
+
+    
+    
+    
+    public uint[] NpcPersonaIds { get; init; } = [45200003, 45200004, 45200007, 45200008];
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    public bool FixedNpcEnabled { get; init; } = true;
+
+    
+    public int FixedNpcCount { get; init; } = 40;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    public float FixedNpcRadiusMeters { get; init; } = 250f;
+
+    
+    
+    
+    
+    
+    
+    
+    public float FixedNpcLeashMeters { get; init; }
+
+    
+    
+    
+    
+    
+    
+    public float FixedNpcTopUpBackoffSeconds { get; init; } = 5f;
+
+    
+    
+    
+    
+    
+    public int FixedNpcSourceType { get; init; } = 10;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    public string FixedNpcBehaviorTreeName { get; init; } = "PedBase";
+
+    
+    
+    
+    
+    
+    
+    
+    
+    public float FixedNpcDesiredSpeed { get; init; } = 1.3f;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public bool FixedNpcWander { get; init; } = true;
+
+    
+    public float FixedNpcWanderMinDis { get; init; }
+
+    
+    
+    
+    
+    public float FixedNpcWanderMaxDis { get; init; } = 15f;
+
+    
+    public float FixedNpcWanderMaxTime { get; init; } = 3600f;
+
+    
+    public float FixedNpcWanderOnceTime { get; init; } = 60f;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public float FixedNpcReWanderSeconds { get; init; } = 50f;
+
+    
+    public uint FixedNpcFashionSuitId { get; init; }
+}
+
 public sealed class LoggingSettings
 {
-    /// <summary>Project-relative directory for console and packet logs.</summary>
+    
     public string Directory { get; init; } = string.Empty;
     public ConsoleLoggingSettings Console { get; init; } = new();
     public PacketLoggingSettings Packets { get; init; } = new();
+    
+    
 }
 
 public sealed class ConsoleLoggingSettings
@@ -446,25 +2068,72 @@ public sealed class PacketLoggingSettings
     public bool Enabled { get; init; }
     public bool IncludeHex { get; init; }
     public bool IncludeDecoded { get; init; }
-    /// <summary>Maximum packet body bytes written as hex; 0 means unlimited.</summary>
+    
     public int MaxBodyBytes { get; init; }
 }
 
 public sealed class PathSettings
 {
-    /// <summary>Directory containing client JSON configs such as FightSpiritConfig.json.</summary>
+    
     public string ClientConfigs { get; init; } = string.Empty;
     public string ZoneGraphLanes { get; init; } = string.Empty;
 
-    /// <summary>Directory with extracted world data (Gadget.json, SceneItem.json,
-    /// Destructible.json, gadget_cells.json, gadget_placements.json).</summary>
+    
+    
+    
+    
+    public string PedSpawns { get; init; } = string.Empty;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public string StaticNpcSpawns { get; init; }
+        = "Ananta.Server/Ananta.App/data/zonegraph_static_npc_spawns.csv";
+
+    
+    
+    
+    
+    
+    public string Intersections { get; init; } = string.Empty;
+
+    
+    
     public string WorldData { get; init; } = string.Empty;
 
-    /// <summary>Disposable generated fastpatch staging directory.</summary>
+    
+    
+    
+    
+    public string BasketballCourts { get; init; } = "Ananta.Server/Ananta.App/data/basketball_courts.json";
+
+    
+    
+    
+    
+    public string WorldCells { get; init; } = "Ananta.Server/Ananta.App/data/world_cells.json";
+
+    
+    
+    
+    
+    
+    
+    
+    
+    public string VehicleNavGraph { get; init; } = "Ananta.Server/Ananta.App/data/vehicle_nav_graph.bin";
+
+    
     public string RuntimeFastpatch { get; init; } = ".runtime/fastpatch";
 }
 
-/// <summary>Localhost-only HTTP debug API for the Python debug panel (status, garage resync, teleport).</summary>
 public sealed class DebugSettings
 {
     public bool Enabled { get; init; } = true;
@@ -506,14 +2175,14 @@ internal static class PrivateServerConfigStore
             if (string.IsNullOrWhiteSpace(start)) return null;
             var first = new DirectoryInfo(Path.GetFullPath(start));
 
-            // Prefer the solution root. A copied config may also exist under bin/Debug, but that
-            // directory is not the project root and must not become the base for ClientData/.runtime.
+            
+            
             for (var current = first; current is not null; current = current.Parent)
                 if (File.Exists(Path.Combine(current.FullName, "AnantaPS.sln")))
                     return current.FullName;
 
-            // Standalone deployments may not contain the solution file. In that case a config
-            // directory is the best available root marker.
+            
+            
             for (var current = first; current is not null; current = current.Parent)
                 if (File.Exists(Path.Combine(current.FullName, "config", "private-server.json")))
                     return current.FullName;

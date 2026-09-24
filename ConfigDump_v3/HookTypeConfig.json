@@ -1,0 +1,344 @@
+{
+  "_class": "HookTypeConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 15,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "挂接-桶-人形 //正式化",
+      "BodyTypes": [],
+      "RequireTag": "",
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "Priority": 0,
+      "SelectEnemyScore": 50,
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookStartSignal": "",
+      "HookFinishSignal": "",
+      "DelayUnhook": 8,
+      "HookEndHurtTime": 5,
+      "IsMindPowerAtkEnabled": true,
+      "HookSpecialSkill": 0,
+      "ReactiveUnhookSignal": "",
+      "AddUnitState": [
+        10554
+      ]
+    },
+    {
+      "Id": 2,
+      "Name": "挂接-轮胎-人形 //正式化",
+      "BodyTypes": [],
+      "RequireTag": "",
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "Priority": 1,
+      "SelectEnemyScore": 50,
+      "HookEventStr": "bodyCover",
+      "HookBone": "upbody",
+      "HookStartSignal": "",
+      "HookFinishSignal": "",
+      "DelayUnhook": 8,
+      "HookEndHurtTime": 5,
+      "IsMindPowerAtkEnabled": true,
+      "HookSpecialSkill": 0,
+      "ReactiveUnhookSignal": "",
+      "AddUnitState": [
+        10554
+      ]
+    },
+    {
+      "Id": 3,
+      "Name": "挂接-轮胎-胖子",
+      "BodyTypes": [],
+      "RequireTag": "",
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "Priority": 1,
+      "SelectEnemyScore": 50,
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookStartSignal": "",
+      "HookFinishSignal": "",
+      "DelayUnhook": 8,
+      "HookEndHurtTime": 5,
+      "IsMindPowerAtkEnabled": true,
+      "HookSpecialSkill": 0,
+      "ReactiveUnhookSignal": "",
+      "AddUnitState": []
+    },
+    {
+      "Id": 4,
+      "Name": "挂接-路障桶",
+      "BodyTypes": [],
+      "RequireTag": "",
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "Priority": 0,
+      "SelectEnemyScore": 50,
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookStartSignal": "",
+      "HookFinishSignal": "",
+      "DelayUnhook": 0,
+      "HookEndHurtTime": 10,
+      "IsMindPowerAtkEnabled": true,
+      "HookSpecialSkill": 0,
+      "ReactiveUnhookSignal": "",
+      "AddUnitState": []
+    },
+    {
+      "Id": 5,
+      "Name": "挂接-雕塑",
+      "BodyTypes": [],
+      "RequireTag": "",
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "Priority": 0,
+      "SelectEnemyScore": 50,
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookStartSignal": "",
+      "HookFinishSignal": "",
+      "DelayUnhook": 5,
+      "HookEndHurtTime": 9999,
+      "IsMindPowerAtkEnabled": true,
+      "HookSpecialSkill": 0,
+      "ReactiveUnhookSignal": "",
+      "AddUnitState": []
+    },
+    {
+      "Id": 6,
+      "Name": "挂接-垃圾桶怪",
+      "BodyTypes": [],
+      "RequireTag": "",
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "Priority": 0,
+      "SelectEnemyScore": 50,
+      "HookEventStr": "headCover",
+      "HookBone": "upbody",
+      "HookStartSignal": "",
+      "HookFinishSignal": "",
+      "DelayUnhook": 2,
+      "HookEndHurtTime": 1,
+      "IsMindPowerAtkEnabled": false,
+      "HookSpecialSkill": 0,
+      "ReactiveUnhookSignal": "",
+      "AddUnitState": []
+    },
+    {
+      "Id": 7,
+      "Name": "挂接-垃圾桶-特大（玩法用）",
+      "BodyTypes": [],
+      "RequireTag": "",
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "Priority": 0,
+      "SelectEnemyScore": 50,
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookStartSignal": "",
+      "HookFinishSignal": "",
+      "DelayUnhook": 5,
+      "HookEndHurtTime": 10,
+      "IsMindPowerAtkEnabled": true,
+      "HookSpecialSkill": 0,
+      "ReactiveUnhookSignal": "",
+      "AddUnitState": []
+    },
+    {
+      "Id": 8,
+      "Name": "挂接-纸箱（玩法用）",
+      "BodyTypes": [],
+      "RequireTag": "",
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "Priority": 0,
+      "SelectEnemyScore": 50,
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookStartSignal": "",
+      "HookFinishSignal": "",
+      "DelayUnhook": 0,
+      "HookEndHurtTime": 10,
+      "IsMindPowerAtkEnabled": true,
+      "HookSpecialSkill": 0,
+      "ReactiveUnhookSignal": "",
+      "AddUnitState": []
+    },
+    {
+      "Id": 9,
+      "Name": "挂接-新手本垃圾桶 //正式化",
+      "BodyTypes": [],
+      "RequireTag": "",
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "Priority": 0,
+      "SelectEnemyScore": 50,
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookStartSignal": "",
+      "HookFinishSignal": "",
+      "DelayUnhook": 8,
+      "HookEndHurtTime": 10,
+      "IsMindPowerAtkEnabled": true,
+      "HookSpecialSkill": 0,
+      "ReactiveUnhookSignal": "",
+      "AddUnitState": []
+    },
+    {
+      "Id": 10,
+      "Name": "挂接-氢气球",
+      "BodyTypes": [],
+      "RequireTag": "",
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "Priority": 0,
+      "SelectEnemyScore": 50,
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookStartSignal": "",
+      "HookFinishSignal": "",
+      "DelayUnhook": 7,
+      "HookEndHurtTime": 1,
+      "IsMindPowerAtkEnabled": true,
+      "HookSpecialSkill": 0,
+      "ReactiveUnhookSignal": "",
+      "AddUnitState": []
+    },
+    {
+      "Id": 11,
+      "Name": "挂接-椅子",
+      "BodyTypes": [],
+      "RequireTag": "",
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "Priority": 0,
+      "SelectEnemyScore": 50,
+      "HookEventStr": "headCover",
+      "HookBone": "RootSlot",
+      "HookStartSignal": "",
+      "HookFinishSignal": "",
+      "DelayUnhook": 8.32999992,
+      "HookEndHurtTime": 10,
+      "IsMindPowerAtkEnabled": true,
+      "HookSpecialSkill": 0,
+      "ReactiveUnhookSignal": "",
+      "AddUnitState": []
+    },
+    {
+      "Id": 12,
+      "Name": "挂接-流体史莱姆（玩法用）",
+      "BodyTypes": [],
+      "RequireTag": "",
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "Priority": 0,
+      "SelectEnemyScore": 50,
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookStartSignal": "",
+      "HookFinishSignal": "",
+      "DelayUnhook": 5.0999999,
+      "HookEndHurtTime": 10,
+      "IsMindPowerAtkEnabled": true,
+      "HookSpecialSkill": 0,
+      "ReactiveUnhookSignal": "",
+      "AddUnitState": []
+    },
+    {
+      "Id": 13,
+      "Name": "挂接-行人标志-（玩法用）",
+      "BodyTypes": [],
+      "RequireTag": "",
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "Priority": 0,
+      "SelectEnemyScore": 50,
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookStartSignal": "",
+      "HookFinishSignal": "",
+      "DelayUnhook": 5.0999999,
+      "HookEndHurtTime": 10,
+      "IsMindPowerAtkEnabled": true,
+      "HookSpecialSkill": 0,
+      "ReactiveUnhookSignal": "",
+      "AddUnitState": []
+    },
+    {
+      "Id": 14,
+      "Name": "挂接-混厄气球NPC-（玩法用）",
+      "BodyTypes": [],
+      "RequireTag": "",
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "Priority": 0,
+      "SelectEnemyScore": 50,
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookStartSignal": "",
+      "HookFinishSignal": "",
+      "DelayUnhook": 999999,
+      "HookEndHurtTime": 1,
+      "IsMindPowerAtkEnabled": true,
+      "HookSpecialSkill": 0,
+      "ReactiveUnhookSignal": "",
+      "AddUnitState": []
+    },
+    {
+      "Id": 15,
+      "Name": "挂接-混厄气球怪物-（玩法用）",
+      "BodyTypes": [],
+      "RequireTag": "",
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "Priority": 0,
+      "SelectEnemyScore": 50,
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookStartSignal": "",
+      "HookFinishSignal": "",
+      "DelayUnhook": 10,
+      "HookEndHurtTime": 1,
+      "IsMindPowerAtkEnabled": true,
+      "HookSpecialSkill": 0,
+      "ReactiveUnhookSignal": "",
+      "AddUnitState": []
+    }
+  ],
+  "_dumpedCount": 15,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

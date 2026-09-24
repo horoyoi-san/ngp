@@ -3,7 +3,6 @@ using Auto = Ananta.Server.RpcTypes.Client4229938.Auto;
 
 namespace Ananta.Server.RpcTypes.Client4229938.Methods.Game;
 
-/// <summary>Exact build-4229938 backpack delta used for separate firearm ammunition.</summary>
 [UxContract(Inline = true)]
 internal sealed class SyncBackpackItemChanged4229938
 {

@@ -1,0 +1,51 @@
+{
+  "_class": "RestaurantCameraSetConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 2,
+  "records": [
+    {
+      "Id": 1,
+      "Camera_OrderAlone": [
+        3,
+        4,
+        5
+      ],
+      "Camera_OrderInvite": [
+        6,
+        7
+      ],
+      "Camera_EatAlone": [
+        1,
+        2
+      ],
+      "Camera_EatInvite": [
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "Id": 2,
+      "Camera_OrderAlone": [
+        3,
+        4,
+        5
+      ],
+      "Camera_OrderInvite": [
+        6,
+        7
+      ],
+      "Camera_EatAlone": [
+        1,
+        2
+      ],
+      "Camera_EatInvite": [
+        9,
+        10
+      ]
+    }
+  ],
+  "_dumpedCount": 2,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -1,0 +1,54 @@
+{
+  "_class": "WheelAgentWeaponWheelConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 6,
+  "records": [
+    {
+      "Id": 7001,
+      "WheelName": "测试轮盘1",
+      "DefaultSceneItem": 80000798,
+      "AttachedSceneItems": [],
+      "InjectGrowthWeapon": true
+    },
+    {
+      "Id": 7002,
+      "WheelName": "农用无人机轮盘",
+      "DefaultSceneItem": 80003472,
+      "AttachedSceneItems": [
+        80003501
+      ],
+      "InjectGrowthWeapon": true
+    },
+    {
+      "Id": 7003,
+      "WheelName": "机器狗轮盘",
+      "DefaultSceneItem": 80003497,
+      "AttachedSceneItems": [],
+      "InjectGrowthWeapon": false
+    },
+    {
+      "Id": 7004,
+      "WheelName": "货用无人机轮盘",
+      "DefaultSceneItem": 80003472,
+      "AttachedSceneItems": [],
+      "InjectGrowthWeapon": true
+    },
+    {
+      "Id": 7005,
+      "WheelName": "任务用无人机",
+      "DefaultSceneItem": 80003471,
+      "AttachedSceneItems": [],
+      "InjectGrowthWeapon": false
+    },
+    {
+      "Id": 7006,
+      "WheelName": "蜘蛛机器人",
+      "DefaultSceneItem": 80005973,
+      "AttachedSceneItems": [],
+      "InjectGrowthWeapon": true
+    }
+  ],
+  "_dumpedCount": 6,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

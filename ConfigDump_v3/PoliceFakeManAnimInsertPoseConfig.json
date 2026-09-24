@@ -1,0 +1,64 @@
+{
+  "_class": "PoliceFakeManAnimInsertPoseConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 3,
+  "records": [
+    {
+      "Id": 1,
+      "PoseSet": [
+        825
+      ],
+      "PoseSetStartTime": [
+        0
+      ],
+      "Weight": 15,
+      "InsertPoseInterval": {
+        "min": 0.100000001,
+        "max": 0.200000003
+      },
+      "NextInsertInterval": {
+        "min": 10,
+        "max": 15
+      }
+    },
+    {
+      "Id": 2,
+      "PoseSet": [
+        834
+      ],
+      "PoseSetStartTime": [
+        0
+      ],
+      "Weight": 10,
+      "InsertPoseInterval": {
+        "min": 0.100000001,
+        "max": 0.200000003
+      },
+      "NextInsertInterval": {
+        "min": 10,
+        "max": 15
+      }
+    },
+    {
+      "Id": 3,
+      "PoseSet": [
+        836
+      ],
+      "PoseSetStartTime": [
+        0
+      ],
+      "Weight": 10,
+      "InsertPoseInterval": {
+        "min": 0.100000001,
+        "max": 0.200000003
+      },
+      "NextInsertInterval": {
+        "min": 10,
+        "max": 15
+      }
+    }
+  ],
+  "_dumpedCount": 3,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

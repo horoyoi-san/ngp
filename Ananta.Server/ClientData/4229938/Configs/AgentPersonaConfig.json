@@ -1,0 +1,5315 @@
+{
+  "_class": "AgentPersonaConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 156,
+  "records": [
+    {
+      "Id": 45200001,
+      "Name": "启明学生",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [
+        1
+      ],
+      "JobTag": [
+        1
+      ],
+      "JobFakeTag": "启明学院学生",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 4294967293,
+      "__RAW__JobFakeTag": "启明学院学生",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200002,
+      "Name": "创真学生",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [
+        1
+      ],
+      "JobTag": [
+        1
+      ],
+      "JobFakeTag": "创真学园学生",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 4294967293,
+      "__RAW__JobFakeTag": "创真学园学生",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200003,
+      "Name": "青少年普通男居民",
+      "ParentId": 45200078,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [
+        1
+      ],
+      "JobTag": [
+        2
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [
+        2,
+        1
+      ],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200004,
+      "Name": "青少年普通女居民",
+      "ParentId": 45200078,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [
+        1
+      ],
+      "JobTag": [
+        2
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [
+        2,
+        1
+      ],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200005,
+      "Name": "青少年精致男居民",
+      "ParentId": 45200081,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [
+        1
+      ],
+      "JobTag": [
+        2
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [
+        3,
+        4
+      ],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200006,
+      "Name": "青少年精致女居民",
+      "ParentId": 45200081,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [
+        1
+      ],
+      "JobTag": [
+        2
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [
+        3,
+        4
+      ],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200007,
+      "Name": "青壮年普通男居民",
+      "ParentId": 45200079,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [
+        2
+      ],
+      "JobTag": [
+        2
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [
+        2,
+        1
+      ],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200008,
+      "Name": "青壮年普通女居民",
+      "ParentId": 45200079,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [
+        2
+      ],
+      "JobTag": [
+        2
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [
+        2,
+        1
+      ],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200009,
+      "Name": "青壮年精致男居民",
+      "ParentId": 45200082,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [
+        2
+      ],
+      "JobTag": [
+        2
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [
+        3,
+        4
+      ],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200010,
+      "Name": "青壮年精致女居民",
+      "ParentId": 45200082,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [
+        2
+      ],
+      "JobTag": [
+        2
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [
+        3,
+        4
+      ],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200011,
+      "Name": "中老年普通男居民",
+      "ParentId": 45200080,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [
+        3
+      ],
+      "JobTag": [
+        2
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [
+        2,
+        1
+      ],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200012,
+      "Name": "中老年普通女居民",
+      "ParentId": 45200080,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [
+        3
+      ],
+      "JobTag": [
+        2
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [
+        2,
+        1
+      ],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200013,
+      "Name": "中老年精致男居民",
+      "ParentId": 45200083,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [
+        3
+      ],
+      "JobTag": [
+        2
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [
+        3,
+        4
+      ],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200014,
+      "Name": "中老年精致女居民",
+      "ParentId": 45200083,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [
+        3
+      ],
+      "JobTag": [
+        2
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [
+        3,
+        4
+      ],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200015,
+      "Name": "青壮年男上班族",
+      "ParentId": 45200086,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [
+        2
+      ],
+      "JobTag": [
+        3
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200016,
+      "Name": "青壮年女上班族",
+      "ParentId": 45200087,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [
+        2
+      ],
+      "JobTag": [
+        3
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200017,
+      "Name": "中老年男上班族",
+      "ParentId": 45200086,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [
+        3
+      ],
+      "JobTag": [
+        3
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200018,
+      "Name": "中老年女上班族",
+      "ParentId": 45200087,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [
+        3
+      ],
+      "JobTag": [
+        3
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200023,
+      "Name": "青少年普通男工人",
+      "ParentId": 45200089,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [
+        1
+      ],
+      "JobTag": [
+        5
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200024,
+      "Name": "青少年普通女工人",
+      "ParentId": 45200151,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [
+        1
+      ],
+      "JobTag": [
+        5
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200025,
+      "Name": "青壮年普通男工人",
+      "ParentId": 45200089,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [
+        2
+      ],
+      "JobTag": [
+        5
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200026,
+      "Name": "青壮年普通女工人",
+      "ParentId": 45200151,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [
+        2
+      ],
+      "JobTag": [
+        5
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200047,
+      "Name": "超级潮人男",
+      "ParentId": 45200182,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        9
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200048,
+      "Name": "超级潮人女",
+      "ParentId": 45200182,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        9
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200049,
+      "Name": "男混混（非势力）",
+      "ParentId": 45200183,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        10
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [
+        18000003,
+        18000004,
+        18000005
+      ],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200050,
+      "Name": "女混混（非势力）",
+      "ParentId": 45200183,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        10
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [
+        18000003,
+        18000004,
+        18000005
+      ],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200051,
+      "Name": "校服青少年女（乡村）",
+      "ParentId": 45200184,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [
+        1
+      ],
+      "JobTag": [
+        1
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        1
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200052,
+      "Name": "校服青少年男（乡村）",
+      "ParentId": 45200184,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [
+        1
+      ],
+      "JobTag": [
+        1
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        1
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200053,
+      "Name": "乡村青少年女",
+      "ParentId": 45200185,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [
+        1
+      ],
+      "JobTag": [
+        21
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        1
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200054,
+      "Name": "乡村青少年男",
+      "ParentId": 45200185,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [
+        1
+      ],
+      "JobTag": [
+        21
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        1
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200055,
+      "Name": "青壮年劳动男村民",
+      "ParentId": 45200156,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [
+        2
+      ],
+      "JobTag": [
+        21
+      ],
+      "JobFakeTag": "农民",
+      "AppearanceTag": [
+        4
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 4294967293,
+      "__RAW__JobFakeTag": "农民",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200056,
+      "Name": "青壮年劳动女村民",
+      "ParentId": 45200157,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [
+        2
+      ],
+      "JobTag": [
+        21
+      ],
+      "JobFakeTag": "农民",
+      "AppearanceTag": [
+        4
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 4294967293,
+      "__RAW__JobFakeTag": "农民",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200057,
+      "Name": "青壮年休闲男村民",
+      "ParentId": 45200156,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [
+        2
+      ],
+      "JobTag": [
+        21
+      ],
+      "JobFakeTag": "农民",
+      "AppearanceTag": [
+        1
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 4294967293,
+      "__RAW__JobFakeTag": "农民",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200058,
+      "Name": "青壮年休闲女村民",
+      "ParentId": 45200157,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [
+        2
+      ],
+      "JobTag": [
+        21
+      ],
+      "JobFakeTag": "农民",
+      "AppearanceTag": [
+        1
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2,
+        4,
+        5
+      ],
+      "SceneItemEntity": [
+        80003481,
+        80002737
+      ],
+      "BelongingOverrideTag": true,
+      "__IDX__JobFakeTag": 4294967293,
+      "__RAW__JobFakeTag": "农民",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200059,
+      "Name": "中老年劳动男村民",
+      "ParentId": 45200158,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [
+        3
+      ],
+      "JobTag": [
+        21
+      ],
+      "JobFakeTag": "农民",
+      "AppearanceTag": [
+        4
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 4294967293,
+      "__RAW__JobFakeTag": "农民",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200060,
+      "Name": "中老年劳动女村民",
+      "ParentId": 45200159,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [
+        3
+      ],
+      "JobTag": [
+        21
+      ],
+      "JobFakeTag": "农民",
+      "AppearanceTag": [
+        4
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 4294967293,
+      "__RAW__JobFakeTag": "农民",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200061,
+      "Name": "中老年休闲男村民",
+      "ParentId": 45200158,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [
+        3
+      ],
+      "JobTag": [
+        21
+      ],
+      "JobFakeTag": "农民",
+      "AppearanceTag": [
+        1
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2,
+        7
+      ],
+      "SceneItemEntity": [
+        80003481,
+        80003925
+      ],
+      "BelongingOverrideTag": true,
+      "__IDX__JobFakeTag": 4294967293,
+      "__RAW__JobFakeTag": "农民",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200062,
+      "Name": "中老年休闲女村民",
+      "ParentId": 45200159,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [
+        3
+      ],
+      "JobTag": [
+        21
+      ],
+      "JobFakeTag": "农民",
+      "AppearanceTag": [
+        1
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2,
+        7
+      ],
+      "SceneItemEntity": [
+        80003481,
+        80003925
+      ],
+      "BelongingOverrideTag": true,
+      "__IDX__JobFakeTag": 4294967293,
+      "__RAW__JobFakeTag": "农民",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200063,
+      "Name": "青壮年女茶农",
+      "ParentId": 45200161,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [
+        2
+      ],
+      "JobTag": [
+        21
+      ],
+      "JobFakeTag": "茶农",
+      "AppearanceTag": [
+        4
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 4294967293,
+      "__RAW__JobFakeTag": "茶农",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200064,
+      "Name": "青壮年男茶农",
+      "ParentId": 45200160,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [
+        2
+      ],
+      "JobTag": [
+        21
+      ],
+      "JobFakeTag": "茶农",
+      "AppearanceTag": [
+        4
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 4294967293,
+      "__RAW__JobFakeTag": "茶农",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200065,
+      "Name": "中老年女茶农",
+      "ParentId": 45200161,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [
+        3
+      ],
+      "JobTag": [
+        21
+      ],
+      "JobFakeTag": "茶农",
+      "AppearanceTag": [
+        4
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 4294967293,
+      "__RAW__JobFakeTag": "茶农",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200066,
+      "Name": "中老年男茶农",
+      "ParentId": 45200160,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [
+        3
+      ],
+      "JobTag": [
+        21
+      ],
+      "JobFakeTag": "茶农",
+      "AppearanceTag": [
+        4
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 4294967293,
+      "__RAW__JobFakeTag": "茶农",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200069,
+      "Name": "旅行团女游客",
+      "ParentId": 45200181,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        8
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        4
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200070,
+      "Name": "旅行团男游客",
+      "ParentId": 45200181,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        8
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        4
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200071,
+      "Name": "女登山客",
+      "ParentId": 45200180,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        22
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2,
+        4,
+        6
+      ],
+      "SceneItemEntity": [
+        80003481,
+        80004055
+      ],
+      "BelongingOverrideTag": true,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200072,
+      "Name": "男登山客",
+      "ParentId": 45200180,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        22
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2,
+        4,
+        6
+      ],
+      "SceneItemEntity": [
+        80003481,
+        80004055
+      ],
+      "BelongingOverrideTag": true,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200074,
+      "Name": "启明学生男",
+      "ParentId": 45200001,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [
+        1
+      ],
+      "JobTag": [
+        1
+      ],
+      "JobFakeTag": "启明学院学生",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 4294967293,
+      "__RAW__JobFakeTag": "启明学院学生",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200075,
+      "Name": "启明学生女",
+      "ParentId": 45200001,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [
+        1
+      ],
+      "JobTag": [
+        1
+      ],
+      "JobFakeTag": "启明学院学生",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 4294967293,
+      "__RAW__JobFakeTag": "启明学院学生",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200076,
+      "Name": "茶农",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        21
+      ],
+      "JobFakeTag": "茶农",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2,
+        4
+      ],
+      "SceneItemEntity": [
+        80003481
+      ],
+      "BelongingOverrideTag": true,
+      "__IDX__JobFakeTag": 4294967293,
+      "__RAW__JobFakeTag": "茶农",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200077,
+      "Name": "农民",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        21
+      ],
+      "JobFakeTag": "农民",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2,
+        4,
+        7
+      ],
+      "SceneItemEntity": [
+        80003481
+      ],
+      "BelongingOverrideTag": true,
+      "__IDX__JobFakeTag": 4294967293,
+      "__RAW__JobFakeTag": "农民",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200078,
+      "Name": "青少年普通居民",
+      "ParentId": 45200084,
+      "SexType": [],
+      "Race": [],
+      "Age": [
+        1
+      ],
+      "JobTag": [
+        2
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [
+        2,
+        1
+      ],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200079,
+      "Name": "青壮年普通居民",
+      "ParentId": 45200084,
+      "SexType": [],
+      "Race": [],
+      "Age": [
+        2
+      ],
+      "JobTag": [
+        2
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [
+        2,
+        1
+      ],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200080,
+      "Name": "中老年普通居民",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [
+        3
+      ],
+      "JobTag": [
+        2
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [
+        2,
+        1
+      ],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200081,
+      "Name": "青少年精致居民",
+      "ParentId": 45200085,
+      "SexType": [],
+      "Race": [],
+      "Age": [
+        1
+      ],
+      "JobTag": [
+        2
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [
+        3,
+        4
+      ],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200082,
+      "Name": "青壮年精致居民",
+      "ParentId": 45200085,
+      "SexType": [],
+      "Race": [],
+      "Age": [
+        2
+      ],
+      "JobTag": [
+        2
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [
+        3,
+        4
+      ],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200083,
+      "Name": "中老年精致居民",
+      "ParentId": 45200188,
+      "SexType": [],
+      "Race": [],
+      "Age": [
+        3
+      ],
+      "JobTag": [
+        2
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [
+        3,
+        4
+      ],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200084,
+      "Name": "青年普通居民",
+      "ParentId": 45200187,
+      "SexType": [],
+      "Race": [],
+      "Age": [
+        1,
+        2
+      ],
+      "JobTag": [
+        2
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [
+        2,
+        1
+      ],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200085,
+      "Name": "青年精致居民",
+      "ParentId": 45200188,
+      "SexType": [],
+      "Race": [],
+      "Age": [
+        1,
+        2
+      ],
+      "JobTag": [
+        2
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [
+        3,
+        4
+      ],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200086,
+      "Name": "男上班族",
+      "ParentId": 45200088,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        3
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200087,
+      "Name": "女上班族",
+      "ParentId": 45200088,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        3
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200088,
+      "Name": "上班族",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        3
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200089,
+      "Name": "普通男工人",
+      "ParentId": 45200152,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        5
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200090,
+      "Name": "车上NPC-巡卫官",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [
+        2,
+        3
+      ],
+      "JobTag": [
+        12
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        2
+      ],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200091,
+      "Name": "车上NPC-常规司机",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        2,
+        8,
+        21,
+        22,
+        25
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [
+        2,
+        1
+      ],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        2
+      ],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200092,
+      "Name": "车上NPC-富司机",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [
+        2,
+        3
+      ],
+      "JobTag": [
+        2,
+        3,
+        7,
+        5,
+        8
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [
+        3,
+        4
+      ],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        2
+      ],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200093,
+      "Name": "车上NPC-常规乘客",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        2,
+        8,
+        21,
+        22,
+        25
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [
+        2,
+        1
+      ],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        2
+      ],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200094,
+      "Name": "车上NPC-富乘客",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [
+        1,
+        2,
+        3
+      ],
+      "JobTag": [
+        2,
+        3,
+        7,
+        5,
+        8,
+        1,
+        25,
+        22
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [
+        3,
+        4
+      ],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        2
+      ],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200095,
+      "Name": "车上NPC-出租车司机",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [
+        2,
+        3
+      ],
+      "JobTag": [
+        3,
+        7,
+        21
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [
+        2,
+        1
+      ],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        2
+      ],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200096,
+      "Name": "沙滩男",
+      "ParentId": 45200186,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        19
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200097,
+      "Name": "沙滩女",
+      "ParentId": 45200186,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        19
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200099,
+      "Name": "车上NPC-司机",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [],
+      "JobTag": [],
+      "JobFakeTag": "司机",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        2
+      ],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 4294967293,
+      "__RAW__JobFakeTag": "司机",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200105,
+      "Name": "",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [],
+      "JobTag": [],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "SceneItemEntity": [
+        80003481,
+        80002737,
+        80003714,
+        80003716
+      ],
+      "BelongingOverrideTag": true,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200108,
+      "Name": "",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [],
+      "JobTag": [],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "SceneItemEntity": [
+        80003481,
+        80003713,
+        80003545
+      ],
+      "BelongingOverrideTag": true,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200136,
+      "Name": "",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [],
+      "JobTag": [],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "SceneItemEntity": [
+        80003481,
+        80002737,
+        80003714,
+        80003715
+      ],
+      "BelongingOverrideTag": true,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200151,
+      "Name": "普通女工人",
+      "ParentId": 45200152,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        5
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200152,
+      "Name": "普通工人",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        5
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200153,
+      "Name": "外国男游客",
+      "ParentId": 45200155,
+      "SexType": [
+        1
+      ],
+      "Race": [
+        2,
+        3,
+        4
+      ],
+      "Age": [],
+      "JobTag": [
+        8
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200154,
+      "Name": "外国女游客",
+      "ParentId": 45200155,
+      "SexType": [
+        2
+      ],
+      "Race": [
+        2,
+        3,
+        4
+      ],
+      "Age": [],
+      "JobTag": [
+        8
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200155,
+      "Name": "外国游客",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [
+        2,
+        3,
+        4
+      ],
+      "Age": [],
+      "JobTag": [
+        8
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200156,
+      "Name": "青壮年男村民",
+      "ParentId": 45200189,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [
+        2
+      ],
+      "JobTag": [
+        21
+      ],
+      "JobFakeTag": "农民",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 4294967293,
+      "__RAW__JobFakeTag": "农民",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200157,
+      "Name": "青壮年女村民",
+      "ParentId": 45200189,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [
+        2
+      ],
+      "JobTag": [
+        21
+      ],
+      "JobFakeTag": "农民",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 4294967293,
+      "__RAW__JobFakeTag": "农民",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200158,
+      "Name": "中老年男村民",
+      "ParentId": 45200190,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [
+        3
+      ],
+      "JobTag": [
+        21
+      ],
+      "JobFakeTag": "农民",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 4294967293,
+      "__RAW__JobFakeTag": "农民",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200159,
+      "Name": "中老年女村民",
+      "ParentId": 45200190,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [
+        3
+      ],
+      "JobTag": [
+        21
+      ],
+      "JobFakeTag": "农民",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 4294967293,
+      "__RAW__JobFakeTag": "农民",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200160,
+      "Name": "男茶农",
+      "ParentId": 45200076,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        21
+      ],
+      "JobFakeTag": "茶农",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 4294967293,
+      "__RAW__JobFakeTag": "茶农",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200161,
+      "Name": "女茶农",
+      "ParentId": 45200076,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        21
+      ],
+      "JobFakeTag": "茶农",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 4294967293,
+      "__RAW__JobFakeTag": "茶农",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200162,
+      "Name": "商务精英男",
+      "ParentId": 45200177,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        25
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200163,
+      "Name": "商务精英女",
+      "ParentId": 45200177,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        25
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200164,
+      "Name": "嘻哈男",
+      "ParentId": 45200176,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        26
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        8
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200165,
+      "Name": "嘻哈女",
+      "ParentId": 45200176,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        26
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        8
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200166,
+      "Name": "泛二次元男\n（含地雷男）",
+      "ParentId": 45200176,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        26
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        13
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200167,
+      "Name": "泛二次元女\n（含地雷女）",
+      "ParentId": 45200176,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        26
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        13
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200168,
+      "Name": "Coser男",
+      "ParentId": 45200176,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        26
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        4
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200169,
+      "Name": "Coser女",
+      "ParentId": 45200176,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        26
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        4
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200170,
+      "Name": "衣着先锋男\n（含新中式男）",
+      "ParentId": 45200176,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        26
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        12
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200171,
+      "Name": "衣着先锋女\n（含新中式女）",
+      "ParentId": 45200176,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        26
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        12
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200172,
+      "Name": "跑步者男",
+      "ParentId": 45200178,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        23
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        18
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200173,
+      "Name": "跑步者女",
+      "ParentId": 45200178,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        23
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        18
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200174,
+      "Name": "骑行者男",
+      "ParentId": 45200179,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        24
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        18
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200175,
+      "Name": "骑行者女",
+      "ParentId": 45200179,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        24
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        18
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200176,
+      "Name": "风格化亚文化群体",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        26
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200177,
+      "Name": "商务精英",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        25
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200178,
+      "Name": "跑步者",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        23
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        18
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200179,
+      "Name": "骑行者",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        24
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        18
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200180,
+      "Name": "登山客",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        22
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200181,
+      "Name": "旅行团游客",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        8
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        4
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2,
+        6,
+        4
+      ],
+      "SceneItemEntity": [
+        80003481,
+        80004055
+      ],
+      "BelongingOverrideTag": true,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200182,
+      "Name": "超级潮人",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        9
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200183,
+      "Name": "混混（非势力）",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        10
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [
+        18000003,
+        18000004,
+        18000005
+      ],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200184,
+      "Name": "校服青少年（乡村）",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [
+        1
+      ],
+      "JobTag": [
+        1
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        1
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200185,
+      "Name": "乡村青少年",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [
+        1
+      ],
+      "JobTag": [
+        21
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200186,
+      "Name": "沙滩男女",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        19
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200187,
+      "Name": "普通居民",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        2
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [
+        2,
+        1
+      ],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200188,
+      "Name": "精致居民",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        2
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [
+        3,
+        4
+      ],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200189,
+      "Name": "青壮年村民",
+      "ParentId": 45200077,
+      "SexType": [],
+      "Race": [],
+      "Age": [
+        2
+      ],
+      "JobTag": [
+        21
+      ],
+      "JobFakeTag": "农民",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 4294967293,
+      "__RAW__JobFakeTag": "农民",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200190,
+      "Name": "中老年村民",
+      "ParentId": 45200077,
+      "SexType": [],
+      "Race": [],
+      "Age": [
+        3
+      ],
+      "JobTag": [
+        21
+      ],
+      "JobFakeTag": "农民",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 4294967293,
+      "__RAW__JobFakeTag": "农民",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200191,
+      "Name": "衣着复古男（近代，含中山装）",
+      "ParentId": 45200176,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        26
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        10
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200192,
+      "Name": "衣着复古女（近代，含旗袍）",
+      "ParentId": 45200176,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        26
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        10
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200193,
+      "Name": "青少年男上班族",
+      "ParentId": 45200086,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [
+        1
+      ],
+      "JobTag": [
+        3
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200194,
+      "Name": "青少年女上班族",
+      "ParentId": 45200087,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [
+        1
+      ],
+      "JobTag": [
+        3
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200195,
+      "Name": "通用型云宙机器人",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [
+        0
+      ],
+      "Age": [],
+      "JobTag": [
+        5
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        4
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [
+        2
+      ],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1,
+        4
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200196,
+      "Name": "校服青少年（城市）",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [
+        1
+      ],
+      "JobTag": [
+        1
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        4
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200197,
+      "Name": "校服青少年女（城市）",
+      "ParentId": 45200196,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [
+        1
+      ],
+      "JobTag": [
+        1
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        4
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200198,
+      "Name": "校服青少年男（城市）",
+      "ParentId": 45200196,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [
+        1
+      ],
+      "JobTag": [
+        1
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        4
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200199,
+      "Name": "汉服女",
+      "ParentId": 0,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        26
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        11
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        4
+      ],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200200,
+      "Name": "龙治团混混",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [],
+      "JobTag": [],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [
+        18000102
+      ],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200201,
+      "Name": "超频帮混混",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [],
+      "JobTag": [],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [
+        18000103
+      ],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200202,
+      "Name": "焱风联合会混混",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [],
+      "JobTag": [],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [
+        18000101
+      ],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200203,
+      "Name": "汉服男",
+      "ParentId": 0,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        26
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        11
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        4
+      ],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200204,
+      "Name": "住院病人女",
+      "ParentId": 0,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        27
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        21
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        4
+      ],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200205,
+      "Name": "住院病人男",
+      "ParentId": 0,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        27
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        21
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        4
+      ],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200206,
+      "Name": "护士女",
+      "ParentId": 0,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        15
+      ],
+      "JobFakeTag": "护士",
+      "AppearanceTag": [
+        4
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        4
+      ],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 4294967293,
+      "__RAW__JobFakeTag": "护士",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200207,
+      "Name": "护士男",
+      "ParentId": 0,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        15
+      ],
+      "JobFakeTag": "护士",
+      "AppearanceTag": [
+        4
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        4
+      ],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 4294967293,
+      "__RAW__JobFakeTag": "护士",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200208,
+      "Name": "医生女",
+      "ParentId": 0,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        15
+      ],
+      "JobFakeTag": "医生",
+      "AppearanceTag": [
+        4
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        4
+      ],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 4294967293,
+      "__RAW__JobFakeTag": "医生",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200209,
+      "Name": "医生男",
+      "ParentId": 0,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        15
+      ],
+      "JobFakeTag": "医生",
+      "AppearanceTag": [
+        4
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        4
+      ],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 4294967293,
+      "__RAW__JobFakeTag": "医生",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200210,
+      "Name": "日料厨师女",
+      "ParentId": 0,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        16
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        7
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        4
+      ],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200211,
+      "Name": "日料厨师男",
+      "ParentId": 0,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        16
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        7
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        4
+      ],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200212,
+      "Name": "执法城安（云宙机器人）",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [
+        0
+      ],
+      "Age": [],
+      "JobTag": [
+        12
+      ],
+      "JobFakeTag": "城安",
+      "AppearanceTag": [
+        4
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [
+        3
+      ],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1,
+        4
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 4294967293,
+      "__RAW__JobFakeTag": "城安",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200213,
+      "Name": "云宙计划技术人员女",
+      "ParentId": 0,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        28
+      ],
+      "JobFakeTag": "云宙计划技术人员",
+      "AppearanceTag": [
+        4
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        4
+      ],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 4294967293,
+      "__RAW__JobFakeTag": "云宙计划技术人员",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200214,
+      "Name": "云宙计划技术人员男",
+      "ParentId": 0,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        28
+      ],
+      "JobFakeTag": "云宙计划技术人员",
+      "AppearanceTag": [
+        4
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        4
+      ],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 4294967293,
+      "__RAW__JobFakeTag": "云宙计划技术人员",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200215,
+      "Name": "手术服病人女",
+      "ParentId": 0,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        27
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        4
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        4
+      ],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45200216,
+      "Name": "手术服病人男",
+      "ParentId": 0,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        27
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [
+        4
+      ],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        4
+      ],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45210000,
+      "Name": "小怪",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [],
+      "JobTag": [],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [
+        1
+      ],
+      "LaunchProprety": [],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45210100,
+      "Name": "所有人",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [],
+      "JobTag": [],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45210101,
+      "Name": "男人",
+      "ParentId": 0,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1,
+        2
+      ],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45210102,
+      "Name": "女人",
+      "ParentId": 0,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1,
+        2
+      ],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45210105,
+      "Name": "学生",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        1
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1,
+        2
+      ],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45210106,
+      "Name": "男学生",
+      "ParentId": 0,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        1
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1,
+        2
+      ],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45210107,
+      "Name": "女学生",
+      "ParentId": 0,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        1
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1,
+        2
+      ],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45210108,
+      "Name": "社畜",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        3
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1,
+        2
+      ],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45210109,
+      "Name": "男社畜",
+      "ParentId": 0,
+      "SexType": [
+        1
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        3
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1,
+        2
+      ],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45210110,
+      "Name": "女社畜",
+      "ParentId": 0,
+      "SexType": [
+        2
+      ],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        3
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1,
+        2
+      ],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45210111,
+      "Name": "巡卫官",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        12
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45210112,
+      "Name": "混厄伪装人",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        20
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": true,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45210113,
+      "Name": "沙滩人",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [],
+      "JobTag": [
+        19
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1
+      ],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45210114,
+      "Name": "中年人",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [
+        3
+      ],
+      "JobTag": [
+        2
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1,
+        2
+      ],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45210115,
+      "Name": "中年人",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [
+        3
+      ],
+      "JobTag": [
+        2
+      ],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [
+        1,
+        2
+      ],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    },
+    {
+      "Id": 45210116,
+      "Name": "所有人,保底配置",
+      "ParentId": 0,
+      "SexType": [],
+      "Race": [],
+      "Age": [],
+      "JobTag": [],
+      "JobFakeTag": "",
+      "AppearanceTag": [],
+      "BodyTag": [],
+      "EconomicLevel": [],
+      "EnemyRank": [],
+      "LaunchProprety": [],
+      "IsPedForDebug": false,
+      "Faction": [],
+      "BelongingType": [
+        2
+      ],
+      "SceneItemEntity": [],
+      "BelongingOverrideTag": false,
+      "__IDX__JobFakeTag": 0,
+      "__RAW__JobFakeTag": "",
+      "Height": [],
+      "Weight": []
+    }
+  ],
+  "_dumpedCount": 156,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

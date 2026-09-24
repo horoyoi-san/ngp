@@ -1,0 +1,98 @@
+{
+  "_class": "GrowthEndorsementStageConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 4,
+  "records": [
+    {
+      "Id": 1,
+      "StageLv": 9,
+      "StageName": "记录者",
+      "StageIndex": 1,
+      "Title": "品牌代言邀约",
+      "Desc": "达到记录者阶段后，可从首批品牌邀约中选择一个进行签约。",
+      "OptionCount": 3,
+      "IsOpen": true,
+      "Icon": 28009893,
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__StageName": 4294967293,
+      "__RAW__StageName": "记录者",
+      "__IDX__Desc": 4294967293,
+      "__RAW__Desc": "达到记录者阶段后，可从首批品牌邀约中选择一个进行签约。"
+    },
+    {
+      "Id": 2,
+      "StageLv": 16,
+      "StageName": "创作者",
+      "StageIndex": 2,
+      "Title": "品牌代言邀约",
+      "Desc": "达到创作者阶段后，可从更高规格的代言邀约中选择一个进行签约。",
+      "OptionCount": 3,
+      "IsOpen": true,
+      "Icon": 28009898,
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__StageName": 4294967293,
+      "__RAW__StageName": "创作者",
+      "__IDX__Desc": 4294967293,
+      "__RAW__Desc": "达到创作者阶段后，可从更高规格的代言邀约中选择一个进行签约。"
+    },
+    {
+      "Id": 3,
+      "StageLv": 23,
+      "StageName": "类型博主",
+      "StageIndex": 3,
+      "Title": "品牌代言邀约",
+      "Desc": "达到类型博主阶段后，解锁新一批代言邀约。",
+      "OptionCount": 3,
+      "IsOpen": true,
+      "Icon": 28009897,
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__StageName": 4294967293,
+      "__RAW__StageName": "类型博主",
+      "__IDX__Desc": 4294967293,
+      "__RAW__Desc": "达到类型博主阶段后，解锁新一批代言邀约。"
+    },
+    {
+      "Id": 4,
+      "StageLv": 30,
+      "StageName": "平台红人",
+      "StageIndex": 4,
+      "Title": "品牌代言邀约",
+      "Desc": "达到平台红人阶段后，解锁更高关注度的代言邀约。",
+      "OptionCount": 3,
+      "IsOpen": true,
+      "Icon": 28009896,
+      "StartVersion": "V0.12.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__StageName": 4294967293,
+      "__RAW__StageName": "平台红人",
+      "__IDX__Desc": 4294967293,
+      "__RAW__Desc": "达到平台红人阶段后，解锁更高关注度的代言邀约。"
+    }
+  ],
+  "_dumpedCount": 4,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

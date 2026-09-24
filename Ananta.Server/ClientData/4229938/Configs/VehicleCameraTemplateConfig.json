@@ -1,0 +1,82 @@
+{
+  "_class": "VehicleCameraTemplateConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 4,
+  "records": [
+    {
+      "Id": 1,
+      "PediaCameraOffset": [
+        0.819999993,
+        2.01999998
+      ],
+      "PediaCameraZoomMaxLimit": -6,
+      "PediaCameraZoomMinLimit": -12,
+      "PediaCameraParm": {
+        "offsetx": 2,
+        "offsety": 1.32000005,
+        "offsetz": -9,
+        "eulerx": 4,
+        "eulery": 0,
+        "eulerz": 0,
+        "fov": 35
+      }
+    },
+    {
+      "Id": 2,
+      "PediaCameraOffset": [
+        0.819999993,
+        2.11999989
+      ],
+      "PediaCameraZoomMaxLimit": -8,
+      "PediaCameraZoomMinLimit": -12,
+      "PediaCameraParm": {
+        "offsetx": 1.79999995,
+        "offsety": 1.41999996,
+        "offsetz": -9,
+        "eulerx": 0,
+        "eulery": 0,
+        "eulerz": 0,
+        "fov": 40
+      }
+    },
+    {
+      "Id": 3,
+      "PediaCameraOffset": [
+        1.22000003,
+        3.31999993
+      ],
+      "PediaCameraZoomMaxLimit": -8,
+      "PediaCameraZoomMinLimit": -12,
+      "PediaCameraParm": {
+        "offsetx": 0.75,
+        "offsety": 2.31999993,
+        "offsetz": -11,
+        "eulerx": 5.42000008,
+        "eulery": 0,
+        "eulerz": 0,
+        "fov": 50
+      }
+    },
+    {
+      "Id": 4,
+      "PediaCameraOffset": [
+        0.670000017,
+        1.37
+      ],
+      "PediaCameraZoomMaxLimit": -6,
+      "PediaCameraZoomMinLimit": -12,
+      "PediaCameraParm": {
+        "offsetx": 2.30999994,
+        "offsety": 1.07000005,
+        "offsetz": -9,
+        "eulerx": 4,
+        "eulery": 0,
+        "eulerz": 0,
+        "fov": 20
+      }
+    }
+  ],
+  "_dumpedCount": 4,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -3,10 +3,6 @@ using System.Text.Json;
 
 namespace Ananta.SDK.Logging;
 
-/// <summary>
-/// Process-wide runtime logs shared by the SDK and server.
-/// Run-All.ps1 supplies one run id so C# and the Node proxy append to the same console files.
-/// </summary>
 public static class RuntimeLogs
 {
     private static readonly object FileLock = new();
@@ -62,7 +58,7 @@ public static class RuntimeLogs
         _packetArchive = Environment.GetEnvironmentVariable("Ananta_PACKET_LOG_ARCHIVE")
             ?? Path.Combine(logDirectory, $"packets-{runId}.log");
 
-        // When launched without Run-All, create a fresh latest/archive pair here.
+        
         if (Environment.GetEnvironmentVariable("Ananta_LOGS_PREPARED") != "1")
         {
             if (_consoleEnabled)
@@ -86,8 +82,8 @@ public static class RuntimeLogs
             _bootstrapConsoleHidden = Environment.GetEnvironmentVariable("Ananta_HIDE_BOOT_LOG") == "1";
             if (_bootstrapConsoleHidden)
             {
-                // Run-All already cleared the launcher window. Keep startup diagnostics in the
-                // normal console log files without repainting the interactive console.
+                
+                
                 Console.SetOut(new MirrorOnlyTextWriter(_originalOut.Encoding, AppendConsole));
                 Console.SetError(new MirrorOnlyTextWriter(_originalError.Encoding, AppendConsole));
             }
@@ -99,7 +95,7 @@ public static class RuntimeLogs
         }
     }
 
-    /// <summary>Restore normal runtime console output after boot diagnostics have completed.</summary>
+    
     public static void EndBootstrapQuietMode()
     {
         if (!_initialized || !_consoleEnabled || !_bootstrapConsoleHidden || _originalOut is null || _originalError is null)
@@ -282,7 +278,6 @@ public static class RuntimeLogs
     }
 }
 
-/// <summary>Small SDK-only view so the logging layer does not depend on RPC implementation types.</summary>
 public enum RpcPacketKindView
 {
     Invoke,
@@ -290,7 +285,6 @@ public enum RpcPacketKindView
     Return,
 }
 
-/// <summary>Global names populated by RpcRouter.Name; outgoing packets can therefore log symbolic MethodId names too.</summary>
 public static class RpcMethodNames
 {
     private static readonly object Lock = new();

@@ -1,0 +1,68 @@
+{
+  "_class": "GameInteractionTypeGameplayTagButConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 5,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "坐下交互",
+      "Tags": [
+        576
+      ],
+      "ParentTags": [],
+      "ForbidTags": [],
+      "ForbidParentTags": []
+    },
+    {
+      "Id": 2,
+      "Name": "潜水交互",
+      "Tags": [
+        567
+      ],
+      "ParentTags": [],
+      "ForbidTags": [],
+      "ForbidParentTags": []
+    },
+    {
+      "Id": 3,
+      "Name": "连续交互",
+      "Tags": [
+        784
+      ],
+      "ParentTags": [],
+      "ForbidTags": [],
+      "ForbidParentTags": []
+    },
+    {
+      "Id": 4,
+      "Name": "潜行交互",
+      "Tags": [
+        541,
+        1581
+      ],
+      "ParentTags": [],
+      "ForbidTags": [],
+      "ForbidParentTags": []
+    },
+    {
+      "Id": 5,
+      "Name": "基础地面直立交互（临时）",
+      "Tags": [
+        1580
+      ],
+      "ParentTags": [
+        10010,
+        10004,
+        10005,
+        10007,
+        10008,
+        10009
+      ],
+      "ForbidTags": [],
+      "ForbidParentTags": []
+    }
+  ],
+  "_dumpedCount": 5,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

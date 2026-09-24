@@ -1,0 +1,615 @@
+{
+  "_class": "FishingSpotConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 19,
+  "records": [
+    {
+      "Id": 10105150,
+      "Name": "绿顶水榭",
+      "Description": "草坡入水木桩护岸，深绿静水，底栖淡水鱼聚集。",
+      "Region": 0,
+      "MaxProgress": 0,
+      "FishIdList": [
+        10105001,
+        10105010,
+        10105022,
+        10105031,
+        10105052
+      ],
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "绿顶水榭",
+      "__IDX__Description": 4294967295,
+      "__RAW__Description": "草坡入水木桩护岸，深绿静水，底栖淡水鱼聚集。",
+      "InitGroup": [
+        {
+          "FishId": "10105001",
+          "Num": 4
+        },
+        {
+          "FishId": "10105010",
+          "Num": 4
+        },
+        {
+          "FishId": "10105022",
+          "Num": 4
+        },
+        {
+          "FishId": "10105031",
+          "Num": 4
+        },
+        {
+          "FishId": "10105052",
+          "Num": 4
+        }
+      ]
+    },
+    {
+      "Id": 10105151,
+      "Name": "伞树浅泽",
+      "Description": "巨伞树遮阴的田埂泥岸，浅水缓流，草根藏大鱼。",
+      "Region": 0,
+      "MaxProgress": 0,
+      "FishIdList": [
+        10105001,
+        10105010,
+        10105022,
+        10105026,
+        10105013
+      ],
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "伞树浅泽",
+      "__IDX__Description": 4294967295,
+      "__RAW__Description": "巨伞树遮阴的田埂泥岸，浅水缓流，草根藏大鱼。",
+      "InitGroup": [
+        {
+          "FishId": "10105001",
+          "Num": 4
+        },
+        {
+          "FishId": "10105010",
+          "Num": 4
+        },
+        {
+          "FishId": "10105022",
+          "Num": 4
+        },
+        {
+          "FishId": "10105026",
+          "Num": 4
+        },
+        {
+          "FishId": "10105013",
+          "Num": 4
+        }
+      ]
+    },
+    {
+      "Id": 10105152,
+      "Name": "金暮高岸",
+      "Description": "高地草坡远眺城市天际，高位岸钓，适合长竿深水。",
+      "Region": 0,
+      "MaxProgress": 0,
+      "FishIdList": [
+        10105001,
+        10105022,
+        10105031,
+        10105033,
+        10105015
+      ],
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "金暮高岸",
+      "__IDX__Description": 4294967295,
+      "__RAW__Description": "高地草坡远眺城市天际，高位岸钓，适合长竿深水。",
+      "InitGroup": [
+        {
+          "FishId": "10105001",
+          "Num": 3
+        },
+        {
+          "FishId": "10105022",
+          "Num": 3
+        },
+        {
+          "FishId": "10105031",
+          "Num": 4
+        },
+        {
+          "FishId": "10105033",
+          "Num": 5
+        },
+        {
+          "FishId": "10105015",
+          "Num": 5
+        }
+      ]
+    },
+    {
+      "Id": 10105153,
+      "Name": "远岛栈桥",
+      "Description": "木栈桥入海远眺孤岛，深蓝海面波光明显。",
+      "Region": 0,
+      "MaxProgress": 0,
+      "FishIdList": [
+        10105003,
+        10105004,
+        10105080,
+        10105069,
+        10105014
+      ],
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "远岛栈桥",
+      "__IDX__Description": 4294967295,
+      "__RAW__Description": "木栈桥入海远眺孤岛，深蓝海面波光明显。",
+      "InitGroup": [
+        {
+          "FishId": "10105003",
+          "Num": 1
+        },
+        {
+          "FishId": "10105004",
+          "Num": 4
+        },
+        {
+          "FishId": "10105080",
+          "Num": 6
+        },
+        {
+          "FishId": "10105069",
+          "Num": 5
+        },
+        {
+          "FishId": "10105014",
+          "Num": 4
+        }
+      ]
+    },
+    {
+      "Id": 10105154,
+      "Name": "白沙入海口",
+      "Description": "沙质松软的自然入海口，视野开阔无遮挡。",
+      "Region": 1,
+      "MaxProgress": 0,
+      "FishIdList": [
+        10105065,
+        10105083,
+        10105084,
+        10105069,
+        10105067
+      ],
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "白沙入海口",
+      "__IDX__Description": 4294967295,
+      "__RAW__Description": "沙质松软的自然入海口，视野开阔无遮挡。",
+      "InitGroup": [
+        {
+          "FishId": "10105065",
+          "Num": 5
+        },
+        {
+          "FishId": "10105083",
+          "Num": 4
+        },
+        {
+          "FishId": "10105084",
+          "Num": 4
+        },
+        {
+          "FishId": "10105069",
+          "Num": 4
+        },
+        {
+          "FishId": "10105067",
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 10105155,
+      "Name": "都市海礁",
+      "Description": "礁石岩台贴海临城，近礁直落深水，适合底钓。",
+      "Region": 0,
+      "MaxProgress": 0,
+      "FishIdList": [
+        10105074,
+        10105017,
+        10105075,
+        10105067,
+        10105063
+      ],
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "都市海礁",
+      "__IDX__Description": 4294967295,
+      "__RAW__Description": "礁石岩台贴海临城，近礁直落深水，适合底钓。",
+      "InitGroup": [
+        {
+          "FishId": "10105074",
+          "Num": 5
+        },
+        {
+          "FishId": "10105017",
+          "Num": 3
+        },
+        {
+          "FishId": "10105075",
+          "Num": 4
+        },
+        {
+          "FishId": "10105067",
+          "Num": 4
+        },
+        {
+          "FishId": "10105063",
+          "Num": 4
+        }
+      ]
+    },
+    {
+      "Id": 10105156,
+      "Name": "沉舟暗湾",
+      "Description": "废弃船体下的半封闭暗湾，静水幽暗，鱼群聚集。",
+      "Region": 1,
+      "MaxProgress": 0,
+      "FishIdList": [
+        10105006,
+        10105080,
+        10105074,
+        10105004,
+        10105021
+      ],
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "沉舟暗湾",
+      "__IDX__Description": 4294967295,
+      "__RAW__Description": "废弃船体下的半封闭暗湾，静水幽暗，鱼群聚集。",
+      "InitGroup": [
+        {
+          "FishId": "10105006",
+          "Num": 3
+        },
+        {
+          "FishId": "10105080",
+          "Num": 5
+        },
+        {
+          "FishId": "10105074",
+          "Num": 5
+        },
+        {
+          "FishId": "10105004",
+          "Num": 4
+        },
+        {
+          "FishId": "10105021",
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 10105157,
+      "Name": "白浪城滩",
+      "Description": "城市海湾白沙滩，青蓝海水浪涌适中，开阔岸抛。",
+      "Region": 0,
+      "MaxProgress": 0,
+      "FishIdList": [
+        10105065,
+        10105063,
+        10105075,
+        10105064,
+        10105084
+      ],
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "白浪城滩",
+      "__IDX__Description": 4294967295,
+      "__RAW__Description": "城市海湾白沙滩，青蓝海水浪涌适中，开阔岸抛。",
+      "InitGroup": [
+        {
+          "FishId": "10105065",
+          "Num": 5
+        },
+        {
+          "FishId": "10105063",
+          "Num": 4
+        },
+        {
+          "FishId": "10105075",
+          "Num": 4
+        },
+        {
+          "FishId": "10105064",
+          "Num": 3
+        },
+        {
+          "FishId": "10105084",
+          "Num": 4
+        }
+      ]
+    },
+    {
+      "Id": 10105158,
+      "Name": "望岛堤岸",
+      "Description": "海港石堤直落深水，远眺岛屿，适合重竿沉底。",
+      "Region": 0,
+      "MaxProgress": 0,
+      "FishIdList": [
+        10105003,
+        10105014,
+        10105080,
+        10105074,
+        10105066
+      ],
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "望岛堤岸",
+      "__IDX__Description": 4294967295,
+      "__RAW__Description": "海港石堤直落深水，远眺岛屿，适合重竿沉底。",
+      "InitGroup": [
+        {
+          "FishId": "10105003",
+          "Num": 1
+        },
+        {
+          "FishId": "10105014",
+          "Num": 4
+        },
+        {
+          "FishId": "10105080",
+          "Num": 5
+        },
+        {
+          "FishId": "10105074",
+          "Num": 5
+        },
+        {
+          "FishId": "10105066",
+          "Num": 5
+        }
+      ]
+    },
+    {
+      "Id": 10105159,
+      "Name": "龙栖钓点",
+      "Description": "青岩山脚下的天然湖泊，水质清澈、竹林环绕。常见鲫鱼、鲤鱼，偶有珍稀翡翠鲤。",
+      "Region": 1,
+      "MaxProgress": 0,
+      "FishIdList": [
+        10105002,
+        10105010
+      ],
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "龙栖钓点",
+      "__IDX__Description": 4294967295,
+      "__RAW__Description": "青岩山脚下的天然湖泊，水质清澈、竹林环绕。常见鲫鱼、鲤鱼，偶有珍稀翡翠鲤。",
+      "InitGroup": [
+        {
+          "FishId": "10105002",
+          "Num": 14
+        },
+        {
+          "FishId": "10105010",
+          "Num": 6
+        }
+      ]
+    },
+    {
+      "Id": 10105160,
+      "Name": "望潮码头",
+      "Description": "石砌码头探入开阔海面，远天无遮视线通透，适合远投浮钓",
+      "Region": 0,
+      "MaxProgress": 0,
+      "FishIdList": [
+        10105002,
+        10105010
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "望潮码头",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "石砌码头探入开阔海面，远天无遮视线通透，适合远投浮钓",
+      "InitGroup": [
+        {
+          "FishId": "10105002",
+          "Num": 14
+        },
+        {
+          "FishId": "10105010",
+          "Num": 6
+        }
+      ]
+    },
+    {
+      "Id": 10105161,
+      "Name": "晴屿码头",
+      "Description": "热带海岛的度假码头，碧海白沙椰影摇风，适合休闲慢钓看海景",
+      "Region": 0,
+      "MaxProgress": 0,
+      "FishIdList": [
+        10105002,
+        10105010
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "晴屿码头",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "热带海岛的度假码头，碧海白沙椰影摇风，适合休闲慢钓看海景",
+      "InitGroup": [
+        {
+          "FishId": "10105002",
+          "Num": 14
+        },
+        {
+          "FishId": "10105010",
+          "Num": 6
+        }
+      ]
+    },
+    {
+      "Id": 10105162,
+      "Name": "柳浪湖堤",
+      "Description": "湖岸畔垂柳拂波、风光如画，静水缓流，适合手竿细钓鲫鲤",
+      "Region": 1,
+      "MaxProgress": 0,
+      "FishIdList": [
+        10105002,
+        10105010
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "柳浪湖堤",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "湖岸畔垂柳拂波、风光如画，静水缓流，适合手竿细钓鲫鲤",
+      "InitGroup": [
+        {
+          "FishId": "10105002",
+          "Num": 14
+        },
+        {
+          "FishId": "10105010",
+          "Num": 6
+        }
+      ]
+    },
+    {
+      "Id": 10105163,
+      "Name": "城影江湾",
+      "Description": "城市江畔高楼倒影入水，江流开阔水流平稳，适合长竿深守钓大鲤",
+      "Region": 1,
+      "MaxProgress": 0,
+      "FishIdList": [
+        10105002,
+        10105010
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "城影江湾",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "城市江畔高楼倒影入水，江流开阔水流平稳，适合长竿深守钓大鲤",
+      "InitGroup": [
+        {
+          "FishId": "10105002",
+          "Num": 14
+        },
+        {
+          "FishId": "10105010",
+          "Num": 6
+        }
+      ]
+    },
+    {
+      "Id": 10105164,
+      "Name": "虹桥碧湾",
+      "Description": "公园湖面拱桥卧波，绿柳环岸水草丰茂，适合闲暇岸钓小憩",
+      "Region": 1,
+      "MaxProgress": 0,
+      "FishIdList": [
+        10105002,
+        10105010
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "虹桥碧湾",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "公园湖面拱桥卧波，绿柳环岸水草丰茂，适合闲暇岸钓小憩",
+      "InitGroup": [
+        {
+          "FishId": "10105002",
+          "Num": 14
+        },
+        {
+          "FishId": "10105010",
+          "Num": 6
+        }
+      ]
+    },
+    {
+      "Id": 10105165,
+      "Name": "浪击石矶",
+      "Description": "礁石矶台直面海浪，水深流急浪花翻涌，适合矶钓搏击海鱼",
+      "Region": 1,
+      "MaxProgress": 0,
+      "FishIdList": [
+        10105002,
+        10105010
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "浪击石矶",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "礁石矶台直面海浪，水深流急浪花翻涌，适合矶钓搏击海鱼",
+      "InitGroup": [
+        {
+          "FishId": "10105002",
+          "Num": 14
+        },
+        {
+          "FishId": "10105010",
+          "Num": 6
+        }
+      ]
+    },
+    {
+      "Id": 10105166,
+      "Name": "桥影阴湾",
+      "Description": "高架桥下的荫蔽水域，桥墩周围暗流涌动，常有大鲈藏匿，适合路亚",
+      "Region": 1,
+      "MaxProgress": 0,
+      "FishIdList": [
+        10105002,
+        10105010
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "桥影阴湾",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "高架桥下的荫蔽水域，桥墩周围暗流涌动，常有大鲈藏匿，适合路亚",
+      "InitGroup": [
+        {
+          "FishId": "10105002",
+          "Num": 14
+        },
+        {
+          "FishId": "10105010",
+          "Num": 6
+        }
+      ]
+    },
+    {
+      "Id": 10105167,
+      "Name": "深蓝远钓",
+      "Description": "开阔深水远海钓场，浪涌强劲水色深蓝，适合重坠远投搏大物",
+      "Region": 1,
+      "MaxProgress": 0,
+      "FishIdList": [
+        10105002,
+        10105010
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "深蓝远钓",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "开阔深水远海钓场，浪涌强劲水色深蓝，适合重坠远投搏大物",
+      "InitGroup": [
+        {
+          "FishId": "10105002",
+          "Num": 14
+        },
+        {
+          "FishId": "10105010",
+          "Num": 6
+        }
+      ]
+    },
+    {
+      "Id": 10105191,
+      "Name": "钓点",
+      "Description": "",
+      "Region": 1,
+      "MaxProgress": 0,
+      "FishIdList": [
+        10105141
+      ],
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "钓点",
+      "__IDX__Description": 0,
+      "__RAW__Description": "",
+      "InitGroup": [
+        {
+          "FishId": "10105141",
+          "Num": 20
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 19,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

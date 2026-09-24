@@ -1,0 +1,65 @@
+{
+  "_class": "AgentStimMultiStimConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 3,
+  "records": [
+    {
+      "Id": 1,
+      "RecordHostType": 0,
+      "TriggerStimId": 300519,
+      "ListenEvents": [
+        102017,
+        102019,
+        102020
+      ],
+      "ListenEventsWeight": [
+        1,
+        1,
+        1
+      ],
+      "ListenTriggers": [],
+      "ListenTriggersWeight": [],
+      "TimeWindow": 5,
+      "Count": 2
+    },
+    {
+      "Id": 2,
+      "RecordHostType": 1,
+      "TriggerStimId": 300314,
+      "ListenEvents": [
+        5,
+        9
+      ],
+      "ListenEventsWeight": [
+        1,
+        1
+      ],
+      "ListenTriggers": [],
+      "ListenTriggersWeight": [],
+      "TimeWindow": 5,
+      "Count": 3
+    },
+    {
+      "Id": 3,
+      "RecordHostType": 0,
+      "TriggerStimId": 300517,
+      "ListenEvents": [],
+      "ListenEventsWeight": [],
+      "ListenTriggers": [
+        200702,
+        200703,
+        200704
+      ],
+      "ListenTriggersWeight": [
+        1,
+        2,
+        4
+      ],
+      "TimeWindow": 10,
+      "Count": 7
+    }
+  ],
+  "_dumpedCount": 3,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

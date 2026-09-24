@@ -1,0 +1,68 @@
+{
+  "StartDuration": 5,
+  "MobileTipDuration": 2,
+  "ArtistString": "艺术家：",
+  "SingerString": "演唱者：",
+  "PanelArtistString": "艺术家",
+  "PanelMusicGenreString": "音乐流派",
+  "NoteSensitivity": {
+    "hitGridPerfectBeforeTime": 0.300000012,
+    "hitGridPerfectBehindTime": 0.200000003,
+    "hitGridGreatBeforeTime": 0.5,
+    "hitGridGreatBehindTime": 0.400000006
+  },
+  "ComboBound": 20,
+  "FirstLineOneShotSound": 70650534,
+  "FirstLineLoopSound": 70650533,
+  "SecondLineOneShotSound": 70650532,
+  "SecondLineLoopSound": 70650531,
+  "LevelsStartScore": [
+    0,
+    50,
+    70,
+    90,
+    99.9000015
+  ],
+  "TapScore": [
+    500,
+    300,
+    0
+  ],
+  "HoldOneBeatScore": 100,
+  "HoldAddScoreBeat": 1,
+  "DifficultyName": [
+    "Easy",
+    "Hard"
+  ],
+  "CanPlayKTVID": [
+    15020967,
+    15020968,
+    15021039
+  ],
+  "StartGameText": "单人演唱",
+  "InviteGameText": "Invite Someone",
+  "InviteEnterTimelineName": "TL_general_start",
+  "InviteEnterTimelineTransform": [
+    -1554.77295,
+    -1.33899999,
+    324.485992,
+    18.6647396
+  ],
+  "ResultScoreText": "演唱得分",
+  "ResultPerfectText": "Perfect",
+  "ResultGreatText": "Great",
+  "ResultMissText": "Miss",
+  "ResultMaxComboText": "最高连击",
+  "ResultHighestScoreText": "历史最高分",
+  "MoneyCost": 800,
+  "DecreaseMoneyTextId": 74002576,
+  "DecreaseMoneyLogoId": 28001531,
+  "SinglePlaySongCount": 5,
+  "BuyTicketDialogId": 100075658,
+  "IntroTLClipName": "Intro",
+  "ChorusTLClipName": "Chorus",
+  "ResultTLClipName": "Result",
+  "InviteEnterTimelineActor": "飞镖邀约角色",
+  "TaffyTaskLogoId": 28005991,
+  "CommonLogoId": 28005992
+}

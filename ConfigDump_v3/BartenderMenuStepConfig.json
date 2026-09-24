@@ -1,0 +1,495 @@
+{
+  "_class": "BartenderMenuStepConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 30,
+  "records": [
+    {
+      "Id": 90001,
+      "ElementID": 87005242,
+      "ActionType": 1,
+      "AmountOz": 0,
+      "TargetTemp": [],
+      "TargetCup": 87005232,
+      "AutoComplete": false,
+      "StepDescription": "在短玻璃杯中加入冰块",
+      "Checklist": [
+        "CorrectCup",
+        "RequiredIce"
+      ],
+      "__IDX__StepDescription": 4294967293,
+      "__RAW__StepDescription": "在短玻璃杯中加入冰块"
+    },
+    {
+      "Id": 90002,
+      "ElementID": 87005200,
+      "ActionType": 2,
+      "AmountOz": 2,
+      "TargetTemp": [],
+      "TargetCup": 87005232,
+      "AutoComplete": false,
+      "StepDescription": "添加 2.0oz波本威士忌到 短玻璃杯",
+      "Checklist": [
+        "CorrectCup",
+        "RequiredIngredients"
+      ],
+      "__IDX__StepDescription": 4294967293,
+      "__RAW__StepDescription": "添加 2.0oz波本威士忌到 短玻璃杯"
+    },
+    {
+      "Id": 90003,
+      "ElementID": 87005203,
+      "ActionType": 2,
+      "AmountOz": 0.5,
+      "TargetTemp": [],
+      "TargetCup": 87005232,
+      "AutoComplete": false,
+      "StepDescription": "添加 0.5oz 糖浆 到 短玻璃杯",
+      "Checklist": [
+        "CorrectCup",
+        "RequiredIngredients"
+      ],
+      "__IDX__StepDescription": 4294967293,
+      "__RAW__StepDescription": "添加 0.5oz 糖浆 到 短玻璃杯"
+    },
+    {
+      "Id": 90004,
+      "ElementID": 87005204,
+      "ActionType": 2,
+      "AmountOz": 0.200000003,
+      "TargetTemp": [],
+      "TargetCup": 87005232,
+      "AutoComplete": false,
+      "StepDescription": "添加 0.2oz 苦精 到 短玻璃杯",
+      "Checklist": [
+        "CorrectCup",
+        "RequiredIngredients"
+      ],
+      "__IDX__StepDescription": 4294967293,
+      "__RAW__StepDescription": "添加 0.2oz 苦精 到 短玻璃杯"
+    },
+    {
+      "Id": 90006,
+      "ElementID": 87005242,
+      "ActionType": 1,
+      "AmountOz": 0,
+      "TargetTemp": [],
+      "TargetCup": 87005240,
+      "AutoComplete": false,
+      "StepDescription": "在调酒器中加入冰块",
+      "Checklist": [
+        "CorrectCup",
+        "RequiredIce"
+      ],
+      "__IDX__StepDescription": 4294967293,
+      "__RAW__StepDescription": "在调酒器中加入冰块"
+    },
+    {
+      "Id": 90007,
+      "ElementID": 87005200,
+      "ActionType": 2,
+      "AmountOz": 2,
+      "TargetTemp": [],
+      "TargetCup": 87005240,
+      "AutoComplete": false,
+      "StepDescription": "添加 2oz 波本威士忌 到 调酒器",
+      "Checklist": [
+        "CorrectCup",
+        "RequiredIngredients"
+      ],
+      "__IDX__StepDescription": 4294967293,
+      "__RAW__StepDescription": "添加 2oz 波本威士忌 到 调酒器"
+    },
+    {
+      "Id": 90008,
+      "ElementID": 87005202,
+      "ActionType": 2,
+      "AmountOz": 1,
+      "TargetTemp": [],
+      "TargetCup": 87005240,
+      "AutoComplete": false,
+      "StepDescription": "添加 1oz 甜味苦艾酒 到 调酒器",
+      "Checklist": [
+        "CorrectCup",
+        "RequiredIngredients"
+      ],
+      "__IDX__StepDescription": 4294967293,
+      "__RAW__StepDescription": "添加 1oz 甜味苦艾酒 到 调酒器"
+    },
+    {
+      "Id": 90009,
+      "ElementID": 87005204,
+      "ActionType": 2,
+      "AmountOz": 0.100000001,
+      "TargetTemp": [],
+      "TargetCup": 87005240,
+      "AutoComplete": false,
+      "StepDescription": "添加 0.1oz 苦精 到 调酒器",
+      "Checklist": [
+        "CorrectCup",
+        "RequiredIngredients"
+      ],
+      "__IDX__StepDescription": 4294967293,
+      "__RAW__StepDescription": "添加 0.1oz 苦精 到 调酒器"
+    },
+    {
+      "Id": 90010,
+      "ElementID": 87005240,
+      "ActionType": 6,
+      "AmountOz": 0,
+      "TargetTemp": [
+        -2.5,
+        -1.5
+      ],
+      "TargetCup": 0,
+      "AutoComplete": false,
+      "StepDescription": "摇晃至液温达到-2摄氏度。",
+      "Checklist": [
+        "Shake"
+      ],
+      "__IDX__StepDescription": 4294967293,
+      "__RAW__StepDescription": "摇晃至液温达到-2摄氏度。"
+    },
+    {
+      "Id": 90011,
+      "ElementID": 87005240,
+      "ActionType": 4,
+      "AmountOz": 3.0999999,
+      "TargetTemp": [],
+      "TargetCup": 87005231,
+      "AutoComplete": true,
+      "StepDescription": "倒入到鸡尾酒杯中",
+      "Checklist": [
+        "CorrectCup",
+        "RequiredIngredients"
+      ],
+      "__IDX__StepDescription": 4294967293,
+      "__RAW__StepDescription": "倒入到鸡尾酒杯中"
+    },
+    {
+      "Id": 90012,
+      "ElementID": 87005242,
+      "ActionType": 1,
+      "AmountOz": 0,
+      "TargetTemp": [],
+      "TargetCup": 87005230,
+      "AutoComplete": false,
+      "StepDescription": "在高玻璃杯中加入冰块",
+      "Checklist": [
+        "CorrectCup"
+      ],
+      "__IDX__StepDescription": 4294967293,
+      "__RAW__StepDescription": "在高玻璃杯中加入冰块"
+    },
+    {
+      "Id": 90013,
+      "ElementID": 87005201,
+      "ActionType": 2,
+      "AmountOz": 2,
+      "TargetTemp": [],
+      "TargetCup": 87005230,
+      "AutoComplete": false,
+      "StepDescription": "添加 2oz 琴酒 到 高玻璃杯",
+      "Checklist": [
+        "CorrectCup",
+        "RequiredIngredients"
+      ],
+      "__IDX__StepDescription": 4294967293,
+      "__RAW__StepDescription": "添加 2oz 琴酒 到 高玻璃杯"
+    },
+    {
+      "Id": 90014,
+      "ElementID": 87005203,
+      "ActionType": 2,
+      "AmountOz": 1,
+      "TargetTemp": [],
+      "TargetCup": 87005230,
+      "AutoComplete": false,
+      "StepDescription": "添加 1oz 糖浆 到 高玻璃杯",
+      "Checklist": [
+        "CorrectCup",
+        "RequiredIngredients"
+      ],
+      "__IDX__StepDescription": 4294967293,
+      "__RAW__StepDescription": "添加 1oz 糖浆 到 高玻璃杯"
+    },
+    {
+      "Id": 90015,
+      "ElementID": 87005260,
+      "ActionType": 2,
+      "AmountOz": 3,
+      "TargetTemp": [],
+      "TargetCup": 87005230,
+      "AutoComplete": false,
+      "StepDescription": "添加 3oz 苏打水 到 高玻璃杯",
+      "Checklist": [
+        "CorrectCup",
+        "RequiredIngredients"
+      ],
+      "__IDX__StepDescription": 4294967293,
+      "__RAW__StepDescription": "添加 3oz 苏打水 到 高玻璃杯"
+    },
+    {
+      "Id": 90018,
+      "ElementID": 0,
+      "ActionType": 1,
+      "AmountOz": 0,
+      "TargetTemp": [],
+      "TargetCup": 87005240,
+      "AutoComplete": false,
+      "StepDescription": "在调酒器中加入冰块",
+      "Checklist": [
+        "CorrectCup",
+        "RequiredIce"
+      ],
+      "__IDX__StepDescription": 4294967293,
+      "__RAW__StepDescription": "在调酒器中加入冰块"
+    },
+    {
+      "Id": 90019,
+      "ElementID": 87005206,
+      "ActionType": 2,
+      "AmountOz": 2,
+      "TargetTemp": [],
+      "TargetCup": 87005240,
+      "AutoComplete": false,
+      "StepDescription": "添加 2oz 白朗姆酒 到 调酒器",
+      "Checklist": [
+        "CorrectCup",
+        "RequiredIngredients"
+      ],
+      "__IDX__StepDescription": 4294967293,
+      "__RAW__StepDescription": "添加 2oz 白朗姆酒 到 调酒器"
+    },
+    {
+      "Id": 90020,
+      "ElementID": 87005222,
+      "ActionType": 2,
+      "AmountOz": 1,
+      "TargetTemp": [],
+      "TargetCup": 87005240,
+      "AutoComplete": false,
+      "StepDescription": "添加 1oz 青柠汁 到 调酒器",
+      "Checklist": [
+        "CorrectCup",
+        "RequiredIngredients"
+      ],
+      "__IDX__StepDescription": 4294967293,
+      "__RAW__StepDescription": "添加 1oz 青柠汁 到 调酒器"
+    },
+    {
+      "Id": 90021,
+      "ElementID": 87005203,
+      "ActionType": 2,
+      "AmountOz": 0.5,
+      "TargetTemp": [],
+      "TargetCup": 87005240,
+      "AutoComplete": false,
+      "StepDescription": "添加 0.5oz 糖浆 到 调酒器",
+      "Checklist": [
+        "CorrectCup",
+        "RequiredIngredients"
+      ],
+      "__IDX__StepDescription": 4294967293,
+      "__RAW__StepDescription": "添加 0.5oz 糖浆 到 调酒器"
+    },
+    {
+      "Id": 90022,
+      "ElementID": 87005240,
+      "ActionType": 6,
+      "AmountOz": 0,
+      "TargetTemp": [
+        -2.5,
+        -1.5
+      ],
+      "TargetCup": 0,
+      "AutoComplete": false,
+      "StepDescription": "摇晃至液温达到-2摄氏度。",
+      "Checklist": [
+        "Shake"
+      ],
+      "__IDX__StepDescription": 4294967293,
+      "__RAW__StepDescription": "摇晃至液温达到-2摄氏度。"
+    },
+    {
+      "Id": 90023,
+      "ElementID": 87005240,
+      "ActionType": 4,
+      "AmountOz": 3.5,
+      "TargetTemp": [],
+      "TargetCup": 87005231,
+      "AutoComplete": true,
+      "StepDescription": "倒入到鸡尾酒杯中",
+      "Checklist": [
+        "CorrectCup",
+        "RequiredIngredients"
+      ],
+      "__IDX__StepDescription": 4294967293,
+      "__RAW__StepDescription": "倒入到鸡尾酒杯中"
+    },
+    {
+      "Id": 90026,
+      "ElementID": 87005242,
+      "ActionType": 1,
+      "AmountOz": 0,
+      "TargetTemp": [],
+      "TargetCup": 87005232,
+      "AutoComplete": false,
+      "StepDescription": "在短玻璃杯中加入冰块",
+      "Checklist": [
+        "CorrectCup",
+        "RequiredIce"
+      ],
+      "__IDX__StepDescription": 4294967293,
+      "__RAW__StepDescription": "在短玻璃杯中加入冰块"
+    },
+    {
+      "Id": 90027,
+      "ElementID": 87005207,
+      "ActionType": 2,
+      "AmountOz": 2,
+      "TargetTemp": [],
+      "TargetCup": 87005232,
+      "AutoComplete": false,
+      "StepDescription": "添加 2.0oz 龙舌兰 到 短玻璃杯",
+      "Checklist": [
+        "CorrectCup",
+        "RequiredIngredients"
+      ],
+      "__IDX__StepDescription": 4294967293,
+      "__RAW__StepDescription": "添加 2.0oz 龙舌兰 到 短玻璃杯"
+    },
+    {
+      "Id": 90028,
+      "ElementID": 87005221,
+      "ActionType": 2,
+      "AmountOz": 0.5,
+      "TargetTemp": [],
+      "TargetCup": 87005232,
+      "AutoComplete": false,
+      "StepDescription": "添加 0.5oz 橙汁 到 短玻璃杯",
+      "Checklist": [
+        "CorrectCup",
+        "RequiredIngredients"
+      ],
+      "__IDX__StepDescription": 4294967293,
+      "__RAW__StepDescription": "添加 0.5oz 橙汁 到 短玻璃杯"
+    },
+    {
+      "Id": 90029,
+      "ElementID": 87005222,
+      "ActionType": 2,
+      "AmountOz": 0.5,
+      "TargetTemp": [],
+      "TargetCup": 87005232,
+      "AutoComplete": false,
+      "StepDescription": "添加 0.5oz 青柠汁 到 短玻璃杯",
+      "Checklist": [
+        "CorrectCup",
+        "RequiredIngredients"
+      ],
+      "__IDX__StepDescription": 4294967293,
+      "__RAW__StepDescription": "添加 0.5oz 青柠汁 到 短玻璃杯"
+    },
+    {
+      "Id": 90031,
+      "ElementID": 87005242,
+      "ActionType": 1,
+      "AmountOz": 0,
+      "TargetTemp": [],
+      "TargetCup": 87005240,
+      "AutoComplete": false,
+      "StepDescription": "在调酒器中加入冰块",
+      "Checklist": [
+        "CorrectCup",
+        "RequiredIce"
+      ],
+      "__IDX__StepDescription": 4294967293,
+      "__RAW__StepDescription": "在调酒器中加入冰块"
+    },
+    {
+      "Id": 90032,
+      "ElementID": 87005201,
+      "ActionType": 2,
+      "AmountOz": 2.5,
+      "TargetTemp": [],
+      "TargetCup": 87005240,
+      "AutoComplete": false,
+      "StepDescription": "添加 2.5oz 琴酒 到 调酒器",
+      "Checklist": [
+        "CorrectCup",
+        "RequiredIngredients"
+      ],
+      "__IDX__StepDescription": 4294967293,
+      "__RAW__StepDescription": "添加 2.5oz 琴酒 到 调酒器"
+    },
+    {
+      "Id": 90033,
+      "ElementID": 87005222,
+      "ActionType": 2,
+      "AmountOz": 0.5,
+      "TargetTemp": [],
+      "TargetCup": 87005240,
+      "AutoComplete": false,
+      "StepDescription": "添加 0.5oz 青柠汁 到 调酒器",
+      "Checklist": [
+        "CorrectCup",
+        "RequiredIngredients"
+      ],
+      "__IDX__StepDescription": 4294967293,
+      "__RAW__StepDescription": "添加 0.5oz 青柠汁 到 调酒器"
+    },
+    {
+      "Id": 90034,
+      "ElementID": 87005203,
+      "ActionType": 2,
+      "AmountOz": 0.5,
+      "TargetTemp": [],
+      "TargetCup": 87005240,
+      "AutoComplete": false,
+      "StepDescription": "添加 0.5oz 糖浆 到 调酒器",
+      "Checklist": [
+        "CorrectCup",
+        "RequiredIngredients"
+      ],
+      "__IDX__StepDescription": 4294967293,
+      "__RAW__StepDescription": "添加 0.5oz 糖浆 到 调酒器"
+    },
+    {
+      "Id": 90035,
+      "ElementID": 87005240,
+      "ActionType": 6,
+      "AmountOz": 0,
+      "TargetTemp": [
+        -2.5,
+        -1.5
+      ],
+      "TargetCup": 0,
+      "AutoComplete": false,
+      "StepDescription": "摇晃至液温达到-2摄氏度。",
+      "Checklist": [
+        "Shake"
+      ],
+      "__IDX__StepDescription": 4294967293,
+      "__RAW__StepDescription": "摇晃至液温达到-2摄氏度。"
+    },
+    {
+      "Id": 90036,
+      "ElementID": 87005240,
+      "ActionType": 4,
+      "AmountOz": 3.5,
+      "TargetTemp": [],
+      "TargetCup": 87005231,
+      "AutoComplete": true,
+      "StepDescription": "倒入到鸡尾酒杯中",
+      "Checklist": [
+        "CorrectCup",
+        "RequiredIngredients"
+      ],
+      "__IDX__StepDescription": 4294967293,
+      "__RAW__StepDescription": "倒入到鸡尾酒杯中"
+    }
+  ],
+  "_dumpedCount": 30,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

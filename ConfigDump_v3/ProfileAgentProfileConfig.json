@@ -1,0 +1,4158 @@
+{
+  "_class": "ProfileAgentProfileConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 61,
+  "records": [
+    {
+      "Id": 38000002,
+      "Name": "Taffy",
+      "Description": "Your lone co-worker at the ACD. A natural-born layabout who despises nothing more than going to the office. While she may seem lackadaisical and unreliable, no one comes in clutch like she can.",
+      "UnlockClue": "Progress through the story mission, and you may meet him/her.",
+      "AgentId": 40140035,
+      "WebId": 1,
+      "Position": [],
+      "HeadIcon": 28002170,
+      "LockedHeadIcon": 28002090,
+      "WebMaxTrustHeadIcon": 28006455,
+      "FactionIcon": 28004067,
+      "OrderIndex": 1,
+      "CanJoin": true,
+      "NoTrustPop": true,
+      "MaxTrust": 1,
+      "Weight": 1,
+      "Characteristic": [
+        38003011,
+        38003012,
+        38003013
+      ],
+      "TrustTarget": [
+        38001004
+      ],
+      "TrustReward": [
+        38002905
+      ],
+      "MaxTrustReward": 14382102,
+      "MaxTrustRewardDescription": "塔菲加入小队",
+      "TalentLevel": 4,
+      "Title": [
+        "新人调查员",
+        "蓝猫物流员工"
+      ],
+      "UrbanAttribute": [
+        70,
+        78,
+        82,
+        88,
+        88,
+        76
+      ],
+      "GuideId": "TAFEI",
+      "SpecialRewardAnim": "S_Vx_page02_REWARDBG_Character_01tafei",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 102339,
+      "__RAW__Name": "",
+      "__IDX__Description": 130829,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 130830,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "塔菲加入小队",
+      "__IDX__Title": [
+        171062,
+        171063
+      ],
+      "__RAW__Title": [
+        "",
+        ""
+      ]
+    },
+    {
+      "Id": 38000004,
+      "Name": "Seymour",
+      "Description": "A somewhat self-important hacker who is perpetually wearing a mask unsuitable for the occasion. He may be peculiar, but he knows what he’s doing. Having him is bound to makes a job go smoother.",
+      "UnlockClue": "Progress through the story mission, and you may meet him/her.",
+      "AgentId": 40140042,
+      "WebId": 1,
+      "Position": [],
+      "HeadIcon": 28002169,
+      "LockedHeadIcon": 28002117,
+      "WebMaxTrustHeadIcon": 28001371,
+      "FactionIcon": 28004067,
+      "OrderIndex": 3,
+      "CanJoin": true,
+      "NoTrustPop": false,
+      "MaxTrust": 1,
+      "Weight": 1,
+      "Characteristic": [
+        38003032,
+        38003033,
+        38003034
+      ],
+      "TrustTarget": [
+        38001010
+      ],
+      "TrustReward": [
+        38002907
+      ],
+      "MaxTrustReward": 14382103,
+      "MaxTrustRewardDescription": "赛默加入小队",
+      "TalentLevel": 10,
+      "Title": [
+        "Hacker"
+      ],
+      "UrbanAttribute": [
+        55,
+        86,
+        76,
+        82,
+        84,
+        88
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "S_Vx_page02_REWARDBG_Character_02saimo",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 102340,
+      "__RAW__Name": "",
+      "__IDX__Description": 130831,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 130832,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "赛默加入小队",
+      "__IDX__Title": [
+        143833
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000006,
+      "Name": "Richie",
+      "Description": "A new NCCA recruit prone to bouts of absent-mindedness, which nevertheless does not prevent her from being effective at her job. She’s a model partner who possesses astonishing strength, along with a fearsome appetite to match.",
+      "UnlockClue": "Progress through the story mission, and you may meet him/her.",
+      "AgentId": 40140040,
+      "WebId": 1,
+      "Position": [],
+      "HeadIcon": 28002166,
+      "LockedHeadIcon": 28002088,
+      "WebMaxTrustHeadIcon": 28006452,
+      "FactionIcon": 28004067,
+      "OrderIndex": 2,
+      "CanJoin": true,
+      "NoTrustPop": false,
+      "MaxTrust": 1,
+      "Weight": 1,
+      "Characteristic": [
+        38003026,
+        38003027,
+        38003028
+      ],
+      "TrustTarget": [
+        38001016
+      ],
+      "TrustReward": [
+        38002909
+      ],
+      "MaxTrustReward": 14382105,
+      "MaxTrustRewardDescription": "里希加入小队",
+      "TalentLevel": 15,
+      "Title": [
+        "NCCA Officer"
+      ],
+      "UrbanAttribute": [
+        92,
+        88,
+        84,
+        76,
+        68,
+        72
+      ],
+      "GuideId": "LIXI",
+      "SpecialRewardAnim": "S_Vx_page02_REWARDBG_Character_03lixi",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 102341,
+      "__RAW__Name": "",
+      "__IDX__Description": 130833,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 130834,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "里希加入小队",
+      "__IDX__Title": [
+        143834
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000007,
+      "Name": "Mechanika",
+      "Description": "An easy-going and guileless Chaos inventor who watches over her peculiar flock of unruly sheep. Seemingly bereft of any character flaws, she almost comes off not human. One wonders what her dark side would be like…",
+      "UnlockClue": "Progress through the story mission, and you may meet him/her.",
+      "AgentId": 40140038,
+      "WebId": 1,
+      "Position": [],
+      "HeadIcon": 28002167,
+      "LockedHeadIcon": 28002116,
+      "WebMaxTrustHeadIcon": 28006453,
+      "FactionIcon": 28004067,
+      "OrderIndex": 13,
+      "CanJoin": true,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003024,
+        38003025
+      ],
+      "TrustTarget": [
+        38001101,
+        38001102,
+        38001400,
+        38001401
+      ],
+      "TrustReward": [
+        38002126,
+        38002201,
+        38002910
+      ],
+      "MaxTrustReward": 14382106,
+      "MaxTrustRewardDescription": "梅卡妮卡加入小队",
+      "TalentLevel": 7,
+      "Title": [
+        "民间发明家"
+      ],
+      "UrbanAttribute": [
+        58,
+        82,
+        90,
+        84,
+        82,
+        82
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "S_Vx_page02_REWARDBG_Character_05meika",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 102342,
+      "__RAW__Name": "",
+      "__IDX__Description": 130835,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 130836,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "梅卡妮卡加入小队",
+      "__IDX__Title": [
+        171064
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000008,
+      "Name": "Garm",
+      "Description": "The big cheese of the Demon Canine Society, or DK9. Comes off as intimidating due to her proclivity for speaking bluntly. Not averse to getting physical in order to solve problems. A trustworthy ally.",
+      "UnlockClue": "Progress through the story mission, and you may meet him/her.",
+      "AgentId": 40140032,
+      "WebId": 1,
+      "Position": [],
+      "HeadIcon": 28002163,
+      "LockedHeadIcon": 28002113,
+      "WebMaxTrustHeadIcon": 28006456,
+      "FactionIcon": 28004067,
+      "OrderIndex": 14,
+      "CanJoin": true,
+      "NoTrustPop": false,
+      "MaxTrust": 4,
+      "Weight": 1,
+      "Characteristic": [
+        38003008,
+        38003009
+      ],
+      "TrustTarget": [
+        38001103,
+        38001104,
+        38001105,
+        38001106,
+        38001402
+      ],
+      "TrustReward": [
+        38002202,
+        38002203,
+        38002271,
+        38002911
+      ],
+      "MaxTrustReward": 14382107,
+      "MaxTrustRewardDescription": "嘉姆加入小队",
+      "TalentLevel": 22,
+      "Title": [
+        "犬魔社继承人",
+        "格斗大师"
+      ],
+      "UrbanAttribute": [
+        88,
+        82,
+        90,
+        76,
+        82,
+        72
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "S_Vx_page02_REWARDBG_Character_04jiamu",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 102343,
+      "__RAW__Name": "",
+      "__IDX__Description": 130837,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 130838,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "嘉姆加入小队",
+      "__IDX__Title": [
+        171065,
+        171066
+      ],
+      "__RAW__Title": [
+        "",
+        ""
+      ]
+    },
+    {
+      "Id": 38000009,
+      "Name": "Lykaia",
+      "Description": "Director of the NCCA, and a prominent figure in Nova City. Can make 99% of traffic tickets disappear. Gives the feeling that she’s plotting something big, but is perpetually short on manpower, thus her frequent attempts to undermine the ACD.",
+      "UnlockClue": "Progress through the story mission, and you may meet him/her.",
+      "AgentId": 40140044,
+      "WebId": 1,
+      "Position": [],
+      "HeadIcon": 28002164,
+      "LockedHeadIcon": 28002087,
+      "WebMaxTrustHeadIcon": 28006458,
+      "FactionIcon": 28004067,
+      "OrderIndex": 12,
+      "CanJoin": true,
+      "NoTrustPop": false,
+      "MaxTrust": 4,
+      "Weight": 1,
+      "Characteristic": [
+        38003002,
+        38003001,
+        38003004,
+        38003003
+      ],
+      "TrustTarget": [
+        38001027,
+        38001108,
+        38001403,
+        38001026
+      ],
+      "TrustReward": [
+        38002134,
+        38002135,
+        38002270,
+        38002912
+      ],
+      "MaxTrustReward": 14382108,
+      "MaxTrustRewardDescription": "莱卡娅加入小队",
+      "TalentLevel": 20,
+      "Title": [
+        "巡卫署长"
+      ],
+      "UrbanAttribute": [
+        84,
+        84,
+        86,
+        94,
+        92,
+        76
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 102344,
+      "__RAW__Name": "",
+      "__IDX__Description": 130839,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 130840,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "莱卡娅加入小队",
+      "__IDX__Title": [
+        171067
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000010,
+      "Name": "Suzu",
+      "Description": "A paparazzo who knows ninjutsu. Will do anything for a sensational scoop.",
+      "UnlockClue": "Can meet during the Anomalies [Ninja Journalist] mission.",
+      "AgentId": 40140112,
+      "WebId": 1,
+      "Position": [],
+      "HeadIcon": 28002180,
+      "LockedHeadIcon": 28002102,
+      "WebMaxTrustHeadIcon": 28002102,
+      "FactionIcon": 28004067,
+      "OrderIndex": 5,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003213
+      ],
+      "TrustTarget": [
+        38001064,
+        38001065,
+        38001129,
+        38001179
+      ],
+      "TrustReward": [
+        38002219,
+        38002269,
+        38002277
+      ],
+      "MaxTrustReward": 14382117,
+      "MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "TalentLevel": 8,
+      "Title": [
+        "Reporter",
+        "忍术大师"
+      ],
+      "UrbanAttribute": [
+        38,
+        47,
+        40,
+        57,
+        60,
+        93
+      ],
+      "GuideId": "Reporter",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 102345,
+      "__RAW__Name": "",
+      "__IDX__Description": 130841,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 130842,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "__IDX__Title": [
+        143835,
+        171068
+      ],
+      "__RAW__Title": [
+        "",
+        ""
+      ]
+    },
+    {
+      "Id": 38000011,
+      "Name": "Anonym",
+      "Description": "The owner of Shannon Diary and the new landlord of the ACD building. While she can initially come off cold and calculating, she in fact a perfectly reasonable and approachable person.",
+      "UnlockClue": "Progress through the story mission, and you may meet him/her.",
+      "AgentId": 40140053,
+      "WebId": 1,
+      "Position": [],
+      "HeadIcon": 28002159,
+      "LockedHeadIcon": 28002086,
+      "WebMaxTrustHeadIcon": 28004262,
+      "FactionIcon": 28004067,
+      "OrderIndex": 4,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003038,
+        38003039
+      ],
+      "TrustTarget": [
+        38001028,
+        38001013,
+        38001030,
+        38001110,
+        38001111
+      ],
+      "TrustReward": [
+        38002041,
+        38002204,
+        38002136
+      ],
+      "MaxTrustReward": 14382109,
+      "MaxTrustRewardDescription": "获得雪浓工装",
+      "TalentLevel": 1,
+      "Title": [
+        "Owner of Shannon Dairy"
+      ],
+      "UrbanAttribute": [
+        55,
+        86,
+        66,
+        75,
+        68,
+        89
+      ],
+      "GuideId": "AiNuoMi",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 102346,
+      "__RAW__Name": "",
+      "__IDX__Description": 130843,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 130844,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "获得雪浓工装",
+      "__IDX__Title": [
+        143836
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000012,
+      "Name": "Aileen",
+      "Description": "The owner of the Dream Garden Cafe. Obsessed with martial arts from Chongxiao. Appears innocent and harmless on the surface, when in reality it’s a completely different story",
+      "UnlockClue": "Was spotted at the Dream Garden Cafe in Glimmergold.",
+      "AgentId": 40140043,
+      "WebId": 1,
+      "Position": [],
+      "HeadIcon": 28002158,
+      "LockedHeadIcon": 28002083,
+      "WebMaxTrustHeadIcon": 28000025,
+      "FactionIcon": 28004067,
+      "OrderIndex": 18,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003005,
+        38003006
+      ],
+      "TrustTarget": [
+        38001447,
+        38001112,
+        38001115,
+        38001404,
+        38001405
+      ],
+      "TrustReward": [
+        38002205,
+        38002206,
+        38002272
+      ],
+      "MaxTrustReward": 14382110,
+      "MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "TalentLevel": 24,
+      "Title": [
+        "梦花园店主",
+        "格斗高手"
+      ],
+      "UrbanAttribute": [
+        85,
+        85,
+        78,
+        55,
+        53,
+        77
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 102347,
+      "__RAW__Name": "",
+      "__IDX__Description": 130845,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 130846,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "__IDX__Title": [
+        171069,
+        171070
+      ],
+      "__RAW__Title": [
+        "",
+        ""
+      ]
+    },
+    {
+      "Id": 38000013,
+      "Name": "Bansy",
+      "Description": "A free-spirited graffiti artist who seems connected somehow with Harru coming into existence. Her schedule is jam-packed, as she’s always letting her creativity unfold on the streets or roaming the alleyways and avenues in search of inspiration.",
+      "UnlockClue": "Was spotted at a record shop.",
+      "AgentId": 40140034,
+      "WebId": 1,
+      "Position": [],
+      "HeadIcon": 28002160,
+      "LockedHeadIcon": 28002084,
+      "WebMaxTrustHeadIcon": 28000036,
+      "FactionIcon": 28004067,
+      "OrderIndex": 19,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003015
+      ],
+      "TrustTarget": [
+        38001448,
+        38001116,
+        38001117,
+        38001406
+      ],
+      "TrustReward": [
+        38002208,
+        38002209,
+        38002210
+      ],
+      "MaxTrustReward": 14382111,
+      "MaxTrustRewardDescription": "纽特曼主题沙袋",
+      "TalentLevel": 7,
+      "Title": [
+        "Street Artist"
+      ],
+      "UrbanAttribute": [
+        55,
+        88,
+        62,
+        65,
+        92,
+        70
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 102348,
+      "__RAW__Name": "",
+      "__IDX__Description": 130847,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 130848,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "纽特曼主题沙袋",
+      "__IDX__Title": [
+        143837
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000014,
+      "Name": "Mimiko",
+      "Description": "The top streamer around, and Taffy’s best friend. Runs her mouth and constantly throws shade during her streams, but becomes paralyzingly timid when offline. Can only cut loose amongst close friends. Currently struggling to remain relevant.",
+      "UnlockClue": "Progress through the story mission, and you may meet him/her.",
+      "AgentId": 40140048,
+      "WebId": 1,
+      "Position": [],
+      "HeadIcon": 28002168,
+      "LockedHeadIcon": 28002089,
+      "WebMaxTrustHeadIcon": 28004260,
+      "FactionIcon": 28004067,
+      "OrderIndex": 6,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 4,
+      "Weight": 1,
+      "Characteristic": [
+        38003037
+      ],
+      "TrustTarget": [
+        38001052,
+        38001053,
+        38001119,
+        38001407,
+        38001408
+      ],
+      "TrustReward": [
+        38002125,
+        38002211,
+        38002212,
+        38002273
+      ],
+      "MaxTrustReward": 14382112,
+      "MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "TalentLevel": 3,
+      "Title": [
+        "游戏主播"
+      ],
+      "UrbanAttribute": [
+        56,
+        55,
+        67,
+        78,
+        70,
+        65
+      ],
+      "GuideId": "MiMiGu",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 102349,
+      "__RAW__Name": "",
+      "__IDX__Description": 130849,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 130850,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "__IDX__Title": [
+        171071
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000016,
+      "Name": "Ringo",
+      "Description": "A student who can call herself Taffy’s “second-best friend.” A seasoned keyboard warrior with more aliases than you can shake a stick at. Spends her days online beefing with trolls. Worships the ACD and dreams of one day joining the Yeet Squad.",
+      "UnlockClue": "Progress through the story mission, and you may meet him/her.",
+      "AgentId": 40140041,
+      "WebId": 1,
+      "Position": [],
+      "HeadIcon": 28002165,
+      "LockedHeadIcon": 28002115,
+      "WebMaxTrustHeadIcon": 28000029,
+      "FactionIcon": 28004067,
+      "OrderIndex": 7,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 4,
+      "Weight": 1,
+      "Characteristic": [
+        38003031
+      ],
+      "TrustTarget": [
+        38001043,
+        38001045,
+        38001039,
+        38001121
+      ],
+      "TrustReward": [
+        38002127,
+        38002213,
+        38002214,
+        38002274
+      ],
+      "MaxTrustReward": 14382113,
+      "MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "TalentLevel": 3,
+      "Title": [
+        "在读学生"
+      ],
+      "UrbanAttribute": [
+        35,
+        35,
+        55,
+        65,
+        85,
+        72
+      ],
+      "GuideId": "LinQin",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 102350,
+      "__RAW__Name": "",
+      "__IDX__Description": 130851,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 130852,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "__IDX__Title": [
+        171072
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000018,
+      "Name": "Alan",
+      "Description": "A B-Tier streetball influencer. The textbook definition of impassioned, he could spend all afternoon talking to a dog on the street. He is consumed with the desire to accrue more followers, and is fixated on riding the coattails of the Yeet Master’s popularity.",
+      "UnlockClue": "Can meet during the Anomalies [Peak Performance] mission.",
+      "AgentId": 40140037,
+      "WebId": 1,
+      "Position": [],
+      "HeadIcon": 28002172,
+      "LockedHeadIcon": 28002118,
+      "WebMaxTrustHeadIcon": 28000040,
+      "FactionIcon": 28004067,
+      "OrderIndex": 25,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 4,
+      "Weight": 1,
+      "Characteristic": [
+        38003021,
+        38003022
+      ],
+      "TrustTarget": [
+        38001049,
+        38001050,
+        38001123,
+        38001410,
+        38001411
+      ],
+      "TrustReward": [
+        38002124,
+        38002215,
+        38002216,
+        38002275
+      ],
+      "MaxTrustReward": 14382114,
+      "MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "TalentLevel": 15,
+      "Title": [
+        "街球网红"
+      ],
+      "UrbanAttribute": [
+        70,
+        95,
+        90,
+        62,
+        42,
+        78
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 102351,
+      "__RAW__Name": "",
+      "__IDX__Description": 130853,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 130854,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "__IDX__Title": [
+        171073
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000020,
+      "Name": "Arms",
+      "Description": "Runs Solution Pawn. If there isn’t money to be made, he isn’t interested. A former crash test dummy with a veritable who’s who of shady connections, which allows him to sneak all sorts of prohibited merchandise past the authorities.",
+      "UnlockClue": "Progress through the story mission, and you may meet him/her.",
+      "AgentId": 40953022,
+      "WebId": 1,
+      "Position": [],
+      "HeadIcon": 28002171,
+      "LockedHeadIcon": 28002133,
+      "WebMaxTrustHeadIcon": 28002133,
+      "FactionIcon": 28004067,
+      "OrderIndex": 8,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 4,
+      "Weight": 1,
+      "Characteristic": [
+        38003200,
+        38003201
+      ],
+      "TrustTarget": [
+        38001055,
+        38001057,
+        38001046,
+        38001125,
+        38001056,
+        38001412,
+        38001413
+      ],
+      "TrustReward": [
+        38002133,
+        38002217,
+        38002132,
+        38002276
+      ],
+      "MaxTrustReward": 14382115,
+      "MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "TalentLevel": 12,
+      "Title": [
+        "武器商人"
+      ],
+      "UrbanAttribute": [
+        75,
+        80,
+        85,
+        45,
+        30,
+        35
+      ],
+      "GuideId": "AMuSi",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 102352,
+      "__RAW__Name": "",
+      "__IDX__Description": 130855,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 130856,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "__IDX__Title": [
+        171074
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000021,
+      "Name": "Harru",
+      "Description": "A particularly strange Chaos: a talking graffiti pooch which can only traverse via wall surfaces. Wants to escape its two-dimensional confinement in order to travel more places and help others.",
+      "UnlockClue": "Can meet during Anomalies [The Buddy Paws] mission.",
+      "AgentId": 40140146,
+      "WebId": 1,
+      "Position": [],
+      "HeadIcon": 28002162,
+      "LockedHeadIcon": 28002129,
+      "WebMaxTrustHeadIcon": 28002129,
+      "FactionIcon": 28004067,
+      "OrderIndex": 20,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003217,
+        38003218
+      ],
+      "TrustTarget": [
+        38001058,
+        38001059,
+        38001130
+      ],
+      "TrustReward": [
+        38002104,
+        38002221,
+        38002222
+      ],
+      "MaxTrustReward": 14382118,
+      "MaxTrustRewardDescription": "进阶染色剂",
+      "TalentLevel": 1,
+      "Title": [
+        "友善的混厄生物"
+      ],
+      "UrbanAttribute": [
+        10,
+        99,
+        10,
+        10,
+        99,
+        10
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 102353,
+      "__RAW__Name": "",
+      "__IDX__Description": 130857,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 130858,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "进阶染色剂",
+      "__IDX__Title": [
+        171075
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000023,
+      "Name": "Victor",
+      "Description": "A middle-aged office worker who’s down on his luck and put on a few pounds. He takes to the streets to dispense justice while wearing a comic book-inspired outfit he cobbled together, only to end up beaten to a pulp each and every time.",
+      "UnlockClue": "Can meet during the Anomalies [Everyday Superman] mission.",
+      "AgentId": 40140114,
+      "WebId": 1,
+      "Position": [],
+      "HeadIcon": 28002161,
+      "LockedHeadIcon": 28002128,
+      "WebMaxTrustHeadIcon": 28002128,
+      "FactionIcon": 28004067,
+      "OrderIndex": 10,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003210,
+        38003211
+      ],
+      "TrustTarget": [
+        38001067,
+        38001068,
+        38001069
+      ],
+      "TrustReward": [
+        38002117,
+        38002128,
+        38002218
+      ],
+      "MaxTrustReward": 14382116,
+      "MaxTrustRewardDescription": "获得A级武器(涡轮加速锤）",
+      "TalentLevel": 5,
+      "Title": [
+        "热心市民"
+      ],
+      "UrbanAttribute": [
+        45,
+        40,
+        30,
+        30,
+        40,
+        80
+      ],
+      "GuideId": "SuperDad",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 102354,
+      "__RAW__Name": "",
+      "__IDX__Description": 130859,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 130860,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "获得A级武器(涡轮加速锤）",
+      "__IDX__Title": [
+        171076
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000024,
+      "Name": "Qi Fei",
+      "Description": "A racing enthusiast who calls himself Nova City Flying Tiger and who has a real knack for vehicle mods. He sings his own praises to the heavens, when in reality his skills are questionable.",
+      "UnlockClue": "Progress through the story mission, and you may meet him/her.",
+      "AgentId": 40140130,
+      "WebId": 1,
+      "Position": [],
+      "HeadIcon": 28002183,
+      "LockedHeadIcon": 28002155,
+      "WebMaxTrustHeadIcon": 28002155,
+      "FactionIcon": 28004067,
+      "OrderIndex": 15,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003220,
+        38003221,
+        38003222
+      ],
+      "TrustTarget": [
+        38001092,
+        38001093,
+        38001073,
+        38001131,
+        38001415
+      ],
+      "TrustReward": [
+        38002120,
+        38002119,
+        38002278
+      ],
+      "MaxTrustReward": 14382119,
+      "MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "TalentLevel": 8,
+      "Title": [
+        "赛车手"
+      ],
+      "UrbanAttribute": [
+        90,
+        90,
+        85,
+        55,
+        88,
+        65
+      ],
+      "GuideId": "QiFei",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 102355,
+      "__RAW__Name": "",
+      "__IDX__Description": 130861,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 130862,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "__IDX__Title": [
+        171077
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000025,
+      "Name": "Kimball",
+      "Description": "A wheelchair-bound scientist who is an influential figure renowned throughout Nova City. He dreams of creating a perpetual flying machine.",
+      "UnlockClue": "Can meet during Anomalies [The Unreachable] mission.",
+      "AgentId": 40140141,
+      "WebId": 1,
+      "Position": [],
+      "HeadIcon": 28002181,
+      "LockedHeadIcon": 28002153,
+      "WebMaxTrustHeadIcon": 28002153,
+      "FactionIcon": 28004067,
+      "OrderIndex": 21,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 2,
+      "Weight": 1,
+      "Characteristic": [
+        38003023
+      ],
+      "TrustTarget": [
+        38001075,
+        38001416,
+        38001417
+      ],
+      "TrustReward": [
+        38002225,
+        38002224
+      ],
+      "MaxTrustReward": 14382120,
+      "MaxTrustRewardDescription": "获得红色云行翼装",
+      "TalentLevel": 35,
+      "Title": [
+        "阿曼德科技董事"
+      ],
+      "UrbanAttribute": [
+        55,
+        58,
+        53,
+        98,
+        65,
+        70
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 102356,
+      "__RAW__Name": "",
+      "__IDX__Description": 130863,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 130864,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "获得红色云行翼装",
+      "__IDX__Title": [
+        171078
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000026,
+      "Name": "Harry",
+      "Description": "A senior officer in the NCCA and Richie’s mentor. Despite his ardor, his personal and professional life are both in shambles.",
+      "UnlockClue": "Can meet during the Anomalies [Safe Driving] mission.",
+      "AgentId": 40953015,
+      "WebId": 1,
+      "Position": [],
+      "HeadIcon": 28002179,
+      "LockedHeadIcon": 28002152,
+      "WebMaxTrustHeadIcon": 28002152,
+      "FactionIcon": 28004067,
+      "OrderIndex": 22,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 4,
+      "Weight": 1,
+      "Characteristic": [
+        38003230
+      ],
+      "TrustTarget": [
+        38001086,
+        38001087,
+        38001134,
+        38001418,
+        38001419
+      ],
+      "TrustReward": [
+        38002083,
+        38002227,
+        38002228,
+        38002279
+      ],
+      "MaxTrustReward": 14382121,
+      "MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "TalentLevel": 16,
+      "Title": [
+        "资深巡卫官"
+      ],
+      "UrbanAttribute": [
+        85,
+        62,
+        87,
+        45,
+        70,
+        90
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 102357,
+      "__RAW__Name": "",
+      "__IDX__Description": 130865,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 130866,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "__IDX__Title": [
+        171079
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000027,
+      "Name": "Yue",
+      "Description": "A hero who ensures peace throughout the city.",
+      "UnlockClue": "Can meet during the Anomalies [Swing Training] mission.",
+      "AgentId": 40140142,
+      "WebId": 1,
+      "Position": [],
+      "HeadIcon": 28002186,
+      "LockedHeadIcon": 28002157,
+      "WebMaxTrustHeadIcon": 28002157,
+      "FactionIcon": 28004067,
+      "OrderIndex": 23,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003224
+      ],
+      "TrustTarget": [
+        38001080,
+        38001081,
+        38001421
+      ],
+      "TrustReward": [
+        38002229,
+        38002230,
+        38002231
+      ],
+      "MaxTrustReward": 14382122,
+      "MaxTrustRewardDescription": "获得自动储水喷壶",
+      "TalentLevel": 40,
+      "Title": [
+        "城市英雄"
+      ],
+      "UrbanAttribute": [
+        38,
+        47,
+        40,
+        57,
+        60,
+        93
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 102358,
+      "__RAW__Name": "",
+      "__IDX__Description": 130867,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 130868,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "获得自动储水喷壶",
+      "__IDX__Title": [
+        171080
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000028,
+      "Name": "Likka",
+      "Description": "An industrious nepo baby who runs her own youth employment agency. While she may look green, she in fact runs nearly every aspect of the business herself.",
+      "UnlockClue": "Can meet during the Anomalies [Welcome to Part-timers Paradise] mission.",
+      "AgentId": 40140136,
+      "WebId": 1,
+      "Position": [],
+      "HeadIcon": 28002182,
+      "LockedHeadIcon": 28002154,
+      "WebMaxTrustHeadIcon": 28002154,
+      "FactionIcon": 28004067,
+      "OrderIndex": 17,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 2,
+      "Weight": 1,
+      "Characteristic": [
+        38003225
+      ],
+      "TrustTarget": [
+        38001077,
+        38001422
+      ],
+      "TrustReward": [
+        38002232,
+        38002233
+      ],
+      "MaxTrustReward": 14382123,
+      "MaxTrustRewardDescription": "获得S级礼物(敲敲乐木鱼）",
+      "TalentLevel": 3,
+      "Title": [
+        "职业介绍所老板"
+      ],
+      "UrbanAttribute": [
+        55,
+        86,
+        66,
+        75,
+        68,
+        89
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 102359,
+      "__RAW__Name": "",
+      "__IDX__Description": 130869,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 130870,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "获得S级礼物(敲敲乐木鱼）",
+      "__IDX__Title": [
+        171081
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000029,
+      "Name": "Tie Shan",
+      "Description": "A bronze man Chaos from Chongxiao. The one in the duo who calls the shots. A lifetime spent immersed in martial arts means that his hand-to-hand and sword technique have reached their pinnacle. He has recently developed an interest in firearms and other forms of artillery.",
+      "UnlockClue": "Progress through the story mission, and you may meet him/her.",
+      "AgentId": 40953024,
+      "WebId": 1,
+      "Position": [],
+      "HeadIcon": 28002184,
+      "LockedHeadIcon": 28002184,
+      "WebMaxTrustHeadIcon": 28002184,
+      "FactionIcon": 28004067,
+      "OrderIndex": 11,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003227,
+        38003228
+      ],
+      "TrustTarget": [
+        38001085,
+        38001140,
+        38001423
+      ],
+      "TrustReward": [
+        38002030,
+        38002234,
+        38002280
+      ],
+      "MaxTrustReward": 14382124,
+      "MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "TalentLevel": 2,
+      "Title": [
+        "武学宗师"
+      ],
+      "UrbanAttribute": [
+        85,
+        85,
+        78,
+        55,
+        53,
+        77
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 102360,
+      "__RAW__Name": "",
+      "__IDX__Description": 130871,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 130872,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "__IDX__Title": [
+        171082
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000030,
+      "Name": "Master Kuukuu",
+      "Description": "隐形人空手道家，正烦恼于如何让弟子看到自己的教学。",
+      "UnlockClue": "Progress through the story mission, and you may meet him/her.",
+      "AgentId": 40140156,
+      "WebId": 1,
+      "Position": [],
+      "HeadIcon": 28006509,
+      "LockedHeadIcon": 28006487,
+      "WebMaxTrustHeadIcon": 28006487,
+      "FactionIcon": 28004067,
+      "OrderIndex": 9,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003233
+      ],
+      "TrustTarget": [
+        38001143,
+        38001145,
+        38001426
+      ],
+      "TrustReward": [
+        38002236,
+        38002237,
+        38002238
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "解锁空手道武学",
+      "TalentLevel": 10,
+      "Title": [
+        "武学高手"
+      ],
+      "UrbanAttribute": [
+        72,
+        99,
+        55,
+        68,
+        65,
+        28
+      ],
+      "GuideId": "KongKong",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 169235,
+      "__RAW__Name": "",
+      "__IDX__Description": 171083,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 143838,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "解锁空手道武学",
+      "__IDX__Title": [
+        171084
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000031,
+      "Name": "Jeffrey",
+      "Description": "蓝猫物流老板，异想天开的富家公子，有钱但穿得很邋遢。",
+      "UnlockClue": "Progress through the story mission, and you may meet him/her.",
+      "AgentId": 40140113,
+      "WebId": 1,
+      "Position": [],
+      "HeadIcon": 28006506,
+      "LockedHeadIcon": 28006489,
+      "WebMaxTrustHeadIcon": 28006489,
+      "FactionIcon": 28004067,
+      "OrderIndex": 26,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003234,
+        38003272,
+        38003305
+      ],
+      "TrustTarget": [
+        38001146,
+        38001148,
+        38001427,
+        38001428
+      ],
+      "TrustReward": [
+        38002239,
+        38002223,
+        38002268
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "解锁塔菲摩托车灯(占位）",
+      "TalentLevel": 7,
+      "Title": [
+        "Cat Express Boss"
+      ],
+      "UrbanAttribute": [
+        90,
+        90,
+        85,
+        55,
+        88,
+        65
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 143839,
+      "__RAW__Name": "",
+      "__IDX__Description": 171085,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 143841,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "解锁塔菲摩托车灯(占位）",
+      "__IDX__Title": [
+        143840
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000032,
+      "Name": "Gwen",
+      "Description": "一个除了本职巡卫官工作外，对其他事都很擅长的社交达人。",
+      "UnlockClue": "Progress through the story mission, and you may meet him/her.",
+      "AgentId": 40140133,
+      "WebId": 1,
+      "Position": [],
+      "HeadIcon": 28006476,
+      "LockedHeadIcon": 28006486,
+      "WebMaxTrustHeadIcon": 28006486,
+      "FactionIcon": 28004067,
+      "OrderIndex": 27,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 4,
+      "Weight": 1,
+      "Characteristic": [
+        38003235
+      ],
+      "TrustTarget": [
+        38001149,
+        38001151,
+        38001430,
+        38001431
+      ],
+      "TrustReward": [
+        38002242,
+        38002243,
+        38002244,
+        38002282
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "TalentLevel": 12,
+      "Title": [
+        "NCCA Officer"
+      ],
+      "UrbanAttribute": [
+        55,
+        58,
+        53,
+        98,
+        65,
+        70
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 143842,
+      "__RAW__Name": "",
+      "__IDX__Description": 171086,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 143844,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "__IDX__Title": [
+        143843
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000033,
+      "Name": "Ada",
+      "Description": "阿曼德科技的研发中心主任，经常好心办坏事的天才发明家。",
+      "UnlockClue": "Progress through the story mission, and you may meet him/her.",
+      "AgentId": 40140134,
+      "WebId": 1,
+      "Position": [],
+      "HeadIcon": 28006481,
+      "LockedHeadIcon": 28006482,
+      "WebMaxTrustHeadIcon": 28006482,
+      "FactionIcon": 28004067,
+      "OrderIndex": 28,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003304
+      ],
+      "TrustTarget": [
+        38001019,
+        38001020,
+        38001152,
+        38001432
+      ],
+      "TrustReward": [
+        38002245,
+        38002246,
+        38002247
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "获得天赋材料(精装传记）",
+      "TalentLevel": 7,
+      "Title": [
+        "阿曼德科技发明家"
+      ],
+      "UrbanAttribute": [
+        85,
+        62,
+        87,
+        45,
+        70,
+        90
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 143845,
+      "__RAW__Name": "",
+      "__IDX__Description": 171087,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 143846,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "获得天赋材料(精装传记）",
+      "__IDX__Title": [
+        171088
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000034,
+      "Name": "Mr. Lord",
+      "Description": "长途跋涉来到新启后，因为无法入乡随俗，在当地处处碰壁的吸血鬼混厄。洛德先生不得已地开始了流浪生涯，努力地生存下去。",
+      "UnlockClue": "Progress through the story mission, and you may meet him/her.",
+      "AgentId": 40140000,
+      "WebId": 1,
+      "Position": [],
+      "HeadIcon": 28006515,
+      "LockedHeadIcon": 28006495,
+      "WebMaxTrustHeadIcon": 28006495,
+      "FactionIcon": 28004067,
+      "OrderIndex": 29,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003237
+      ],
+      "TrustTarget": [
+        38001091,
+        38001141,
+        38001424,
+        38001425
+      ],
+      "TrustReward": [
+        38002137,
+        38002138,
+        38002281
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "TalentLevel": 25,
+      "Title": [
+        "落魄的血族"
+      ],
+      "UrbanAttribute": [
+        38,
+        47,
+        40,
+        57,
+        60,
+        93
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 148755,
+      "__RAW__Name": "",
+      "__IDX__Description": 171089,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 143847,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "__IDX__Title": [
+        171090
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000035,
+      "Name": "Pineapple",
+      "Description": "喜欢运动的阳光男孩，经常利用黑客技术惩恶扬善。",
+      "UnlockClue": "Progress through the story mission, and you may meet him/her.",
+      "AgentId": 40140135,
+      "WebId": 1,
+      "Position": [],
+      "HeadIcon": 28002189,
+      "LockedHeadIcon": 28002189,
+      "WebMaxTrustHeadIcon": 28002189,
+      "FactionIcon": 28004067,
+      "OrderIndex": 30,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003238
+      ],
+      "TrustTarget": [
+        38001155,
+        38001156,
+        38001433,
+        38001434
+      ],
+      "TrustReward": [
+        38002248,
+        38002249,
+        38002250
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "获得手枪使用手册",
+      "TalentLevel": 5,
+      "Title": [
+        "Hacker"
+      ],
+      "UrbanAttribute": [
+        55,
+        86,
+        66,
+        75,
+        68,
+        89
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 143848,
+      "__RAW__Name": "",
+      "__IDX__Description": 171091,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 143850,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "获得手枪使用手册",
+      "__IDX__Title": [
+        143849
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000036,
+      "Name": "Sunny",
+      "Description": "犬魔社成员，战斗能力不俗，擅长乔装与潜入。",
+      "UnlockClue": "Progress through the story mission, and you may meet him/her.",
+      "AgentId": 40155008,
+      "WebId": 1,
+      "Position": [],
+      "HeadIcon": 28006519,
+      "LockedHeadIcon": 28006500,
+      "WebMaxTrustHeadIcon": 28006500,
+      "FactionIcon": 28004067,
+      "OrderIndex": 31,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003312
+      ],
+      "TrustTarget": [
+        38001158,
+        38001159,
+        38001435,
+        38001436
+      ],
+      "TrustReward": [
+        38002251,
+        38002252,
+        38002284
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "TalentLevel": 28,
+      "Title": [
+        "DK9 Member",
+        "格斗大师"
+      ],
+      "UrbanAttribute": [
+        90,
+        90,
+        85,
+        55,
+        88,
+        65
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 143851,
+      "__RAW__Name": "",
+      "__IDX__Description": 171092,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 143853,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "__IDX__Title": [
+        143852,
+        171093
+      ],
+      "__RAW__Title": [
+        "",
+        ""
+      ]
+    },
+    {
+      "Id": 38000037,
+      "Name": "Klatt",
+      "Description": "自以为是硬汉的书呆子巡卫官，渴望通过晋升来证明自己。",
+      "UnlockClue": "Progress through the story mission, and you may meet him/her.",
+      "AgentId": 40155007,
+      "WebId": 1,
+      "Position": [],
+      "HeadIcon": 28006508,
+      "LockedHeadIcon": 28006488,
+      "WebMaxTrustHeadIcon": 28006488,
+      "FactionIcon": 28004067,
+      "OrderIndex": 32,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003279
+      ],
+      "TrustTarget": [
+        38001161,
+        38001437,
+        38001438
+      ],
+      "TrustReward": [
+        38002255,
+        38002256,
+        38002285
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "TalentLevel": 13,
+      "Title": [
+        "NCCA Officer"
+      ],
+      "UrbanAttribute": [
+        55,
+        58,
+        53,
+        98,
+        65,
+        70
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 143854,
+      "__RAW__Name": "",
+      "__IDX__Description": 171094,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 143856,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "__IDX__Title": [
+        143855
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000039,
+      "Name": "Lemon Sour",
+      "Description": "温柔、亲和的活力偶像。",
+      "UnlockClue": "在新启的某处，或许可以结识TA",
+      "AgentId": 40140076,
+      "WebId": 1,
+      "Position": [],
+      "HeadIcon": 28006517,
+      "LockedHeadIcon": 28006497,
+      "WebMaxTrustHeadIcon": 28006497,
+      "FactionIcon": 28004067,
+      "OrderIndex": 34,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 2,
+      "Weight": 1,
+      "Characteristic": [
+        38003242,
+        38003280
+      ],
+      "TrustTarget": [
+        38001169,
+        38001170,
+        38001153,
+        38001173
+      ],
+      "TrustReward": [
+        38002260,
+        38002261
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "热度值带来的粉丝数获取量额外提高20%",
+      "TalentLevel": 5,
+      "Title": [
+        "明星"
+      ],
+      "UrbanAttribute": [
+        38,
+        47,
+        40,
+        57,
+        60,
+        93
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 145637,
+      "__RAW__Name": "",
+      "__IDX__Description": 171095,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 171097,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "热度值带来的粉丝数获取量额外提高20%",
+      "__IDX__Title": [
+        171096
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000041,
+      "Name": "Luo Fu",
+      "Description": "落水狗俱乐部的酒保，为人义气豪爽。",
+      "UnlockClue": "Progress through the story mission, and you may meet him/her.",
+      "AgentId": 40140164,
+      "WebId": 1,
+      "Position": [],
+      "HeadIcon": 28024249,
+      "LockedHeadIcon": 28024255,
+      "WebMaxTrustHeadIcon": 28024255,
+      "FactionIcon": 28004067,
+      "OrderIndex": 36,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003261
+      ],
+      "TrustTarget": [
+        38001176,
+        38001177,
+        38001439,
+        38001440
+      ],
+      "TrustReward": [
+        38002266,
+        38002267,
+        38002283
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "TalentLevel": 18,
+      "Title": [
+        "落水狗酒保",
+        "格斗高手"
+      ],
+      "UrbanAttribute": [
+        85,
+        85,
+        78,
+        55,
+        53,
+        77
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 169236,
+      "__RAW__Name": "",
+      "__IDX__Description": 171098,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 143859,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "__IDX__Title": [
+        171099,
+        171100
+      ],
+      "__RAW__Title": [
+        "",
+        ""
+      ]
+    },
+    {
+      "Id": 38000042,
+      "Name": "勇次",
+      "Description": "描述占位待填",
+      "UnlockClue": "占位待填",
+      "AgentId": 40155056,
+      "WebId": 1,
+      "Position": [],
+      "HeadIcon": 28002185,
+      "LockedHeadIcon": 28021127,
+      "WebMaxTrustHeadIcon": 28002101,
+      "FactionIcon": 28004067,
+      "OrderIndex": 37,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003340,
+        38003341
+      ],
+      "TrustTarget": [
+        38001441,
+        38001442,
+        38001443
+      ],
+      "TrustReward": [
+        38002240,
+        38002262,
+        38002293
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "TalentLevel": 1,
+      "Title": [],
+      "UrbanAttribute": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "勇次",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "描述占位待填",
+      "__IDX__UnlockClue": 4294967293,
+      "__RAW__UnlockClue": "占位待填",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "__IDX__Title": [],
+      "__RAW__Title": []
+    },
+    {
+      "Id": 38000043,
+      "Name": "盖斯",
+      "Description": "描述占位待填",
+      "UnlockClue": "占位待填",
+      "AgentId": 40155016,
+      "WebId": 1,
+      "Position": [],
+      "HeadIcon": 28002185,
+      "LockedHeadIcon": 28021127,
+      "WebMaxTrustHeadIcon": 28002101,
+      "FactionIcon": 28004067,
+      "OrderIndex": 38,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003343,
+        38003344
+      ],
+      "TrustTarget": [
+        38001444,
+        38001445,
+        38001446
+      ],
+      "TrustReward": [
+        38002444,
+        38002258,
+        38002294
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "TalentLevel": 1,
+      "Title": [],
+      "UrbanAttribute": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "盖斯",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "描述占位待填",
+      "__IDX__UnlockClue": 4294967293,
+      "__RAW__UnlockClue": "占位待填",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "__IDX__Title": [],
+      "__RAW__Title": []
+    },
+    {
+      "Id": 38000044,
+      "Name": "夜尾",
+      "Description": "描述占位待填",
+      "UnlockClue": "占位待填",
+      "AgentId": 40140122,
+      "WebId": 1,
+      "Position": [],
+      "HeadIcon": 28002185,
+      "LockedHeadIcon": 28021127,
+      "WebMaxTrustHeadIcon": 28002101,
+      "FactionIcon": 28004067,
+      "OrderIndex": 39,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003376,
+        38003377
+      ],
+      "TrustTarget": [
+        38001449,
+        38001450,
+        38001451
+      ],
+      "TrustReward": [
+        38002477,
+        38002478,
+        38002479
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "解锁夜渡屋更多商品（占位）",
+      "TalentLevel": 1,
+      "Title": [],
+      "UrbanAttribute": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "夜尾",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "描述占位待填",
+      "__IDX__UnlockClue": 4294967293,
+      "__RAW__UnlockClue": "占位待填",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "解锁夜渡屋更多商品（占位）",
+      "__IDX__Title": [],
+      "__RAW__Title": []
+    },
+    {
+      "Id": 38000101,
+      "Name": "Fang Ye",
+      "Description": "北方兄弟影视旗下的知名武打明星，善良务实。",
+      "UnlockClue": "Progress through the story mission, and you may meet him/her.",
+      "AgentId": 40140148,
+      "WebId": 2,
+      "Position": [],
+      "HeadIcon": 28006477,
+      "LockedHeadIcon": 28006485,
+      "WebMaxTrustHeadIcon": 28006485,
+      "FactionIcon": 28004067,
+      "OrderIndex": 40,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003244,
+        38003327
+      ],
+      "TrustTarget": [
+        38001301,
+        38001302,
+        38001500,
+        38001501
+      ],
+      "TrustReward": [
+        38002400,
+        38002401,
+        38002402
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "获得S级单手武器（活字印）",
+      "TalentLevel": 7,
+      "Title": [
+        "功夫巨星"
+      ],
+      "UrbanAttribute": [
+        90,
+        90,
+        85,
+        55,
+        88,
+        65
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 154172,
+      "__RAW__Name": "",
+      "__IDX__Description": 171101,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 143860,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "获得S级单手武器（活字印）",
+      "__IDX__Title": [
+        171102
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000102,
+      "Name": "Qi Dong",
+      "Description": "极限运动爱好者，运动商城的老板。",
+      "UnlockClue": "Progress through the story mission, and you may meet him/her.",
+      "AgentId": 40155006,
+      "WebId": 2,
+      "Position": [],
+      "HeadIcon": 28006518,
+      "LockedHeadIcon": 28006498,
+      "WebMaxTrustHeadIcon": 28006498,
+      "FactionIcon": 28004067,
+      "OrderIndex": 41,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 4,
+      "Weight": 1,
+      "Characteristic": [
+        38003245,
+        38003283
+      ],
+      "TrustTarget": [
+        38001304,
+        38001305,
+        38001306,
+        38001341,
+        38001502
+      ],
+      "TrustReward": [
+        38002403,
+        38002404,
+        38002405,
+        38002287
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "TalentLevel": 9,
+      "Title": [
+        "极限运动家",
+        "Grocery Store Owner"
+      ],
+      "UrbanAttribute": [
+        55,
+        58,
+        53,
+        98,
+        65,
+        70
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 154173,
+      "__RAW__Name": "",
+      "__IDX__Description": 171103,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 143862,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "__IDX__Title": [
+        171104,
+        143861
+      ],
+      "__RAW__Title": [
+        "",
+        ""
+      ]
+    },
+    {
+      "Id": 38000103,
+      "Name": "Su Yingpu",
+      "Description": "被灵境管理局抓捕的盗墓贼，被发配到工地进行劳动改造。",
+      "UnlockClue": "Progress through the story mission, and you may meet him/her.",
+      "AgentId": 40155005,
+      "WebId": 2,
+      "Position": [],
+      "HeadIcon": 28007231,
+      "LockedHeadIcon": 28006502,
+      "WebMaxTrustHeadIcon": 28006502,
+      "FactionIcon": 28004067,
+      "OrderIndex": 42,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003246,
+        38003284
+      ],
+      "TrustTarget": [
+        38001307,
+        38001308,
+        38001309,
+        38001503,
+        38001504
+      ],
+      "TrustReward": [
+        38002406,
+        38002407,
+        38002408
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "获得黑金麦克风",
+      "TalentLevel": 5,
+      "Title": [
+        "建筑工人",
+        "盗墓贼"
+      ],
+      "UrbanAttribute": [
+        90,
+        90,
+        85,
+        55,
+        88,
+        65
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 169237,
+      "__RAW__Name": "",
+      "__IDX__Description": 171105,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 143863,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "获得黑金麦克风",
+      "__IDX__Title": [
+        171106,
+        171107
+      ],
+      "__RAW__Title": [
+        "",
+        ""
+      ]
+    },
+    {
+      "Id": 38000104,
+      "Name": "Chen Jimmy",
+      "Description": "失去了灵感和热情的摇滚乐手，沉溺在过去的荣光之中。",
+      "UnlockClue": "Progress through the story mission, and you may meet him/her.",
+      "AgentId": 40155004,
+      "WebId": 2,
+      "Position": [],
+      "HeadIcon": 28006507,
+      "LockedHeadIcon": 28006490,
+      "WebMaxTrustHeadIcon": 28006490,
+      "FactionIcon": 28004067,
+      "OrderIndex": 43,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003247
+      ],
+      "TrustTarget": [
+        38001310,
+        38001311,
+        38001312,
+        38001505,
+        38001516
+      ],
+      "TrustReward": [
+        38002409,
+        38002410,
+        38002411
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "获得自动储水喷壶",
+      "TalentLevel": 13,
+      "Title": [
+        "过气歌星"
+      ],
+      "UrbanAttribute": [
+        55,
+        58,
+        53,
+        98,
+        65,
+        70
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 169238,
+      "__RAW__Name": "",
+      "__IDX__Description": 171108,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 143864,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "获得自动储水喷壶",
+      "__IDX__Title": [
+        171109
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000105,
+      "Name": "Overalls",
+      "Description": "少儿频道《裤裤乐园》的主持人，招牌动作是“裤头兔子舞”。",
+      "UnlockClue": "Progress through the story mission, and you may meet him/her.",
+      "AgentId": 40155003,
+      "WebId": 2,
+      "Position": [],
+      "HeadIcon": 28006510,
+      "LockedHeadIcon": 28006491,
+      "WebMaxTrustHeadIcon": 28006491,
+      "FactionIcon": 28004067,
+      "OrderIndex": 44,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003319
+      ],
+      "TrustTarget": [
+        38001313,
+        38001314,
+        38001315,
+        38001517
+      ],
+      "TrustReward": [
+        38002412,
+        38002413,
+        38002414
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "获得天赋材料(精装传记）",
+      "TalentLevel": 15,
+      "Title": [
+        "少儿节目主持人",
+        "户外主播"
+      ],
+      "UrbanAttribute": [
+        85,
+        62,
+        87,
+        45,
+        70,
+        90
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 169239,
+      "__RAW__Name": "",
+      "__IDX__Description": 171110,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 143865,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "获得天赋材料(精装传记）",
+      "__IDX__Title": [
+        171111,
+        171112
+      ],
+      "__RAW__Title": [
+        "",
+        ""
+      ]
+    },
+    {
+      "Id": 38000106,
+      "Name": "Zhou Xiao",
+      "Description": "网猫网咖老板，为了店里的生意经常发传单。",
+      "UnlockClue": "Progress through the story mission, and you may meet him/her.",
+      "AgentId": 40155012,
+      "WebId": 2,
+      "Position": [],
+      "HeadIcon": 28007234,
+      "LockedHeadIcon": 28006505,
+      "WebMaxTrustHeadIcon": 28006505,
+      "FactionIcon": 28004067,
+      "OrderIndex": 45,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 1,
+      "Weight": 1,
+      "Characteristic": [
+        38003249
+      ],
+      "TrustTarget": [
+        38001334
+      ],
+      "TrustReward": [
+        38002290
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "TalentLevel": 27,
+      "Title": [
+        "网吧老板"
+      ],
+      "UrbanAttribute": [
+        38,
+        47,
+        40,
+        57,
+        60,
+        93
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 169240,
+      "__RAW__Name": "",
+      "__IDX__Description": 171113,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 143866,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "__IDX__Title": [
+        171114
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000107,
+      "Name": "Lu Xinyi",
+      "Description": "赤霄机动队现任队长，实力强劲，英武自信。",
+      "UnlockClue": "Progress through the story mission, and you may meet him/her.",
+      "AgentId": 40155002,
+      "WebId": 2,
+      "Position": [],
+      "HeadIcon": 28006516,
+      "LockedHeadIcon": 28006496,
+      "WebMaxTrustHeadIcon": 28006496,
+      "FactionIcon": 28004067,
+      "OrderIndex": 46,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 1,
+      "Weight": 1,
+      "Characteristic": [
+        38003250
+      ],
+      "TrustTarget": [
+        38001342
+      ],
+      "TrustReward": [
+        38002286
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "TalentLevel": 9,
+      "Title": [
+        "赤霄机动队队长"
+      ],
+      "UrbanAttribute": [
+        55,
+        86,
+        66,
+        75,
+        68,
+        89
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 154174,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967295,
+      "__RAW__Description": "赤霄机动队现任队长，实力强劲，英武自信。",
+      "__IDX__UnlockClue": 143867,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "__IDX__Title": [
+        4294967295
+      ],
+      "__RAW__Title": [
+        "赤霄机动队队长"
+      ]
+    },
+    {
+      "Id": 38000108,
+      "Name": "Hong Wulin",
+      "Description": "烟里巷的江湖骗子，油腔滑调，不务正业。",
+      "UnlockClue": "Progress through the story mission, and you may meet him/her.",
+      "AgentId": 40140145,
+      "WebId": 2,
+      "Position": [],
+      "HeadIcon": 28006479,
+      "LockedHeadIcon": 28006483,
+      "WebMaxTrustHeadIcon": 28006483,
+      "FactionIcon": 28004067,
+      "OrderIndex": 47,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003251
+      ],
+      "TrustTarget": [
+        38001319,
+        38001320,
+        38001321,
+        38001508,
+        38001549
+      ],
+      "TrustReward": [
+        38002418,
+        38002419,
+        38002288
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "TalentLevel": 12,
+      "Title": [
+        "真武传人"
+      ],
+      "UrbanAttribute": [
+        85,
+        85,
+        78,
+        55,
+        53,
+        77
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 154175,
+      "__RAW__Name": "",
+      "__IDX__Description": 171115,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 143868,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "__IDX__Title": [
+        171116
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000109,
+      "Name": "Li Fufeng",
+      "Description": "灵境管理局的员工，重霄最强战力。",
+      "UnlockClue": "Progress through the story mission, and you may meet him/her.",
+      "AgentId": 40155013,
+      "WebId": 2,
+      "Position": [],
+      "HeadIcon": 28006511,
+      "LockedHeadIcon": 28006492,
+      "WebMaxTrustHeadIcon": 28006492,
+      "FactionIcon": 28004067,
+      "OrderIndex": 48,
+      "CanJoin": true,
+      "NoTrustPop": false,
+      "MaxTrust": 4,
+      "Weight": 1,
+      "Characteristic": [
+        38003331
+      ],
+      "TrustTarget": [
+        38001324,
+        38001509,
+        38001511,
+        38001510
+      ],
+      "TrustReward": [
+        38002422,
+        38002421,
+        38002289,
+        38002423
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "李扶风加入小队",
+      "TalentLevel": 50,
+      "Title": [
+        "灵境管理局员工",
+        "格斗高手"
+      ],
+      "UrbanAttribute": [
+        92,
+        82,
+        86,
+        68,
+        70,
+        70
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 146504,
+      "__RAW__Name": "",
+      "__IDX__Description": 171117,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 143869,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "李扶风加入小队",
+      "__IDX__Title": [
+        171118,
+        171119
+      ],
+      "__RAW__Title": [
+        "",
+        ""
+      ]
+    },
+    {
+      "Id": 38000111,
+      "Name": "You Zhi",
+      "Description": "龙栖村的茶园博主，喜欢追求时尚潮流的“优等生”。",
+      "UnlockClue": "Progress through the story mission, and you may meet him/her.",
+      "AgentId": 40140077,
+      "WebId": 2,
+      "Position": [],
+      "HeadIcon": 28007232,
+      "LockedHeadIcon": 28006503,
+      "WebMaxTrustHeadIcon": 28006503,
+      "FactionIcon": 28004067,
+      "OrderIndex": 50,
+      "CanJoin": true,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003294
+      ],
+      "TrustTarget": [
+        38001512,
+        38001513,
+        38001328
+      ],
+      "TrustReward": [
+        38002424,
+        38002425,
+        38002426
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "柚枝加入小队",
+      "TalentLevel": 12,
+      "Title": [
+        "茶园博主"
+      ],
+      "UrbanAttribute": [
+        58,
+        84,
+        82,
+        96,
+        90,
+        82
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 143872,
+      "__RAW__Name": "",
+      "__IDX__Description": 171120,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 143873,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "柚枝加入小队",
+      "__IDX__Title": [
+        171121
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000112,
+      "Name": "Cheng Niang",
+      "Description": "都来饭店的老板，胆子很小的厨师。",
+      "UnlockClue": "Progress through the story mission, and you may meet him/her.",
+      "AgentId": 40155001,
+      "WebId": 2,
+      "Position": [],
+      "HeadIcon": 28006478,
+      "LockedHeadIcon": 28006484,
+      "WebMaxTrustHeadIcon": 28006484,
+      "FactionIcon": 28004067,
+      "OrderIndex": 51,
+      "CanJoin": true,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003255,
+        38003293,
+        38003326
+      ],
+      "TrustTarget": [
+        38001331,
+        38001514,
+        38001551
+      ],
+      "TrustReward": [
+        38002427,
+        38002428,
+        38002429
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "程酿加入小队",
+      "TalentLevel": 14,
+      "Title": [
+        "都来饭店厨师"
+      ],
+      "UrbanAttribute": [
+        56,
+        78,
+        72,
+        98,
+        92,
+        76
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 148756,
+      "__RAW__Name": "",
+      "__IDX__Description": 171122,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 143874,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "程酿加入小队",
+      "__IDX__Title": [
+        171123
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000113,
+      "Name": "Bai Jing",
+      "Description": "前职业车手，创造过很多辉煌，但现在已经落魄成为一个出租司机。",
+      "UnlockClue": "Progress through the story mission, and you may meet him/her.",
+      "AgentId": 40140054,
+      "WebId": 2,
+      "Position": [],
+      "HeadIcon": 28002177,
+      "LockedHeadIcon": 28003784,
+      "WebMaxTrustHeadIcon": 28003787,
+      "FactionIcon": 28004067,
+      "OrderIndex": 52,
+      "CanJoin": true,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003256
+      ],
+      "TrustTarget": [
+        38001332,
+        38001515,
+        38001518
+      ],
+      "TrustReward": [
+        38002445,
+        38002446,
+        38002431
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "白靖加入小队",
+      "TalentLevel": 16,
+      "Title": [
+        "Driver",
+        "赛车手"
+      ],
+      "UrbanAttribute": [
+        92,
+        84,
+        76,
+        86,
+        76,
+        70
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 143875,
+      "__RAW__Name": "",
+      "__IDX__Description": 171124,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 143877,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "白靖加入小队",
+      "__IDX__Title": [
+        143876,
+        171125
+      ],
+      "__RAW__Title": [
+        "",
+        ""
+      ]
+    },
+    {
+      "Id": 38000114,
+      "Name": "Ji Yueqing",
+      "Description": "按摩店老板娘，方野的母亲。",
+      "UnlockClue": "在凌云打听武师相关的线索，或许可以结识TA",
+      "AgentId": 40155011,
+      "WebId": 2,
+      "Position": [],
+      "HeadIcon": 28006520,
+      "LockedHeadIcon": 28006499,
+      "WebMaxTrustHeadIcon": 28006499,
+      "FactionIcon": 28004067,
+      "OrderIndex": 53,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 1,
+      "Weight": 1,
+      "Characteristic": [
+        38003257
+      ],
+      "TrustTarget": [
+        38001333
+      ],
+      "TrustReward": [
+        38002291
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "TalentLevel": 33,
+      "Title": [
+        "按摩店老板"
+      ],
+      "UrbanAttribute": [
+        90,
+        90,
+        85,
+        55,
+        88,
+        65
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 154176,
+      "__RAW__Name": "",
+      "__IDX__Description": 171126,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 171128,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "__IDX__Title": [
+        171127
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000115,
+      "Name": "Zhang Gufeng",
+      "Description": "环卫工大爷，非常喜欢喝咖啡。",
+      "UnlockClue": "在凌云打听武师相关的线索，或许可以结识TA",
+      "AgentId": 40155010,
+      "WebId": 2,
+      "Position": [],
+      "HeadIcon": 28007233,
+      "LockedHeadIcon": 28006504,
+      "WebMaxTrustHeadIcon": 28006504,
+      "FactionIcon": 28004067,
+      "OrderIndex": 54,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 1,
+      "Weight": 1,
+      "Characteristic": [
+        38003258
+      ],
+      "TrustTarget": [
+        38001336
+      ],
+      "TrustReward": [
+        38002292
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "TalentLevel": 34,
+      "Title": [
+        "环卫工人"
+      ],
+      "UrbanAttribute": [
+        55,
+        58,
+        53,
+        98,
+        65,
+        70
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 154177,
+      "__RAW__Name": "",
+      "__IDX__Description": 171129,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 171131,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "__IDX__Title": [
+        171130
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000117,
+      "Name": "Lu Tingyu",
+      "Description": "动物摄影师，重度社恐。",
+      "UnlockClue": "在凌云打听武师相关的线索，或许可以结识TA",
+      "AgentId": 40140160,
+      "WebId": 2,
+      "Position": [],
+      "HeadIcon": 28024247,
+      "LockedHeadIcon": 28024252,
+      "WebMaxTrustHeadIcon": 28024252,
+      "FactionIcon": 28004067,
+      "OrderIndex": 56,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 1,
+      "Weight": 1,
+      "Characteristic": [
+        38003262
+      ],
+      "TrustTarget": [
+        38001335
+      ],
+      "TrustReward": [
+        38002295
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "TalentLevel": 38,
+      "Title": [
+        "Photographer"
+      ],
+      "UrbanAttribute": [
+        38,
+        47,
+        40,
+        57,
+        60,
+        93
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 154178,
+      "__RAW__Name": "",
+      "__IDX__Description": 171132,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 171133,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "__IDX__Title": [
+        143878
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000120,
+      "Name": "Robert",
+      "Description": "正在经历中年危机的颓废机器人。",
+      "UnlockClue": "在凌云打听武师相关的线索，或许可以结识TA",
+      "AgentId": 40140163,
+      "WebId": 2,
+      "Position": [],
+      "HeadIcon": 28024251,
+      "LockedHeadIcon": 28024254,
+      "WebMaxTrustHeadIcon": 28024254,
+      "FactionIcon": 28004067,
+      "OrderIndex": 59,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 1,
+      "Weight": 1,
+      "Characteristic": [
+        38003265
+      ],
+      "TrustTarget": [
+        38001340
+      ],
+      "TrustReward": [
+        38002296
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "TalentLevel": 30,
+      "Title": [
+        "机器人"
+      ],
+      "UrbanAttribute": [
+        55,
+        86,
+        66,
+        75,
+        68,
+        89
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 169242,
+      "__RAW__Name": "",
+      "__IDX__Description": 171134,
+      "__RAW__Description": "",
+      "__IDX__UnlockClue": 171136,
+      "__RAW__UnlockClue": "",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "解锁轮盘召唤权限",
+      "__IDX__Title": [
+        171135
+      ],
+      "__RAW__Title": [
+        ""
+      ]
+    },
+    {
+      "Id": 38000121,
+      "Name": "锵锵",
+      "Description": "描述占位待填",
+      "UnlockClue": "占位待填",
+      "AgentId": 40155054,
+      "WebId": 2,
+      "Position": [],
+      "HeadIcon": 28002185,
+      "LockedHeadIcon": 28021127,
+      "WebMaxTrustHeadIcon": 28002101,
+      "FactionIcon": 28004067,
+      "OrderIndex": 60,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003346
+      ],
+      "TrustTarget": [
+        38001520,
+        38001521,
+        38001522
+      ],
+      "TrustReward": [
+        38002447,
+        38002448,
+        38002449
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "获得贵重品（占位）",
+      "TalentLevel": 1,
+      "Title": [],
+      "UrbanAttribute": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "锵锵",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "描述占位待填",
+      "__IDX__UnlockClue": 4294967293,
+      "__RAW__UnlockClue": "占位待填",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "获得贵重品（占位）",
+      "__IDX__Title": [],
+      "__RAW__Title": []
+    },
+    {
+      "Id": 38000122,
+      "Name": "目目小姐",
+      "Description": "描述占位待填",
+      "UnlockClue": "占位待填",
+      "AgentId": 40140132,
+      "WebId": 2,
+      "Position": [],
+      "HeadIcon": 28002185,
+      "LockedHeadIcon": 28021127,
+      "WebMaxTrustHeadIcon": 28002101,
+      "FactionIcon": 28004067,
+      "OrderIndex": 61,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003349,
+        38003350
+      ],
+      "TrustTarget": [
+        38001523,
+        38001524,
+        38001525
+      ],
+      "TrustReward": [
+        38002450,
+        38002451,
+        38002452
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "获得高级食谱（占位）",
+      "TalentLevel": 1,
+      "Title": [],
+      "UrbanAttribute": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "目目小姐",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "描述占位待填",
+      "__IDX__UnlockClue": 4294967293,
+      "__RAW__UnlockClue": "占位待填",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "获得高级食谱（占位）",
+      "__IDX__Title": [],
+      "__RAW__Title": []
+    },
+    {
+      "Id": 38000123,
+      "Name": "云嬉英雄",
+      "Description": "描述占位待填",
+      "UnlockClue": "占位待填",
+      "AgentId": 40155018,
+      "WebId": 2,
+      "Position": [],
+      "HeadIcon": 28002185,
+      "LockedHeadIcon": 28021127,
+      "WebMaxTrustHeadIcon": 28002101,
+      "FactionIcon": 28004067,
+      "OrderIndex": 62,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003352
+      ],
+      "TrustTarget": [
+        38001526,
+        38001527,
+        38001528
+      ],
+      "TrustReward": [
+        38002453,
+        38002454,
+        38002455
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "获得贵重品（占位）",
+      "TalentLevel": 1,
+      "Title": [],
+      "UrbanAttribute": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "云嬉英雄",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "描述占位待填",
+      "__IDX__UnlockClue": 4294967293,
+      "__RAW__UnlockClue": "占位待填",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "获得贵重品（占位）",
+      "__IDX__Title": [],
+      "__RAW__Title": []
+    },
+    {
+      "Id": 38000124,
+      "Name": "杨明",
+      "Description": "描述占位待填",
+      "UnlockClue": "占位待填",
+      "AgentId": 40155055,
+      "WebId": 2,
+      "Position": [],
+      "HeadIcon": 28002185,
+      "LockedHeadIcon": 28021127,
+      "WebMaxTrustHeadIcon": 28002101,
+      "FactionIcon": 28004067,
+      "OrderIndex": 63,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003355,
+        38003356
+      ],
+      "TrustTarget": [
+        38001529,
+        38001530,
+        38001531
+      ],
+      "TrustReward": [
+        38002456,
+        38002457,
+        38002458
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "重霄五金店打折（占位）",
+      "TalentLevel": 1,
+      "Title": [],
+      "UrbanAttribute": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "杨明",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "描述占位待填",
+      "__IDX__UnlockClue": 4294967293,
+      "__RAW__UnlockClue": "占位待填",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "重霄五金店打折（占位）",
+      "__IDX__Title": [],
+      "__RAW__Title": []
+    },
+    {
+      "Id": 38000125,
+      "Name": "启迪",
+      "Description": "描述占位待填",
+      "UnlockClue": "占位待填",
+      "AgentId": 40155050,
+      "WebId": 2,
+      "Position": [],
+      "HeadIcon": 28002185,
+      "LockedHeadIcon": 28021127,
+      "WebMaxTrustHeadIcon": 28002101,
+      "FactionIcon": 28004067,
+      "OrderIndex": 64,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003358,
+        38003359
+      ],
+      "TrustTarget": [
+        38001532,
+        38001533,
+        38001534
+      ],
+      "TrustReward": [
+        38002459,
+        38002460,
+        38002461
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "驾驶最大速度增加10%",
+      "TalentLevel": 1,
+      "Title": [],
+      "UrbanAttribute": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "启迪",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "描述占位待填",
+      "__IDX__UnlockClue": 4294967293,
+      "__RAW__UnlockClue": "占位待填",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "驾驶最大速度增加10%",
+      "__IDX__Title": [],
+      "__RAW__Title": []
+    },
+    {
+      "Id": 38000126,
+      "Name": "鱼秀姑",
+      "Description": "描述占位待填",
+      "UnlockClue": "占位待填",
+      "AgentId": 40155057,
+      "WebId": 2,
+      "Position": [],
+      "HeadIcon": 28002185,
+      "LockedHeadIcon": 28021127,
+      "WebMaxTrustHeadIcon": 28002101,
+      "FactionIcon": 28004067,
+      "OrderIndex": 65,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003361
+      ],
+      "TrustTarget": [
+        38001535,
+        38001536,
+        38001537
+      ],
+      "TrustReward": [
+        38002462,
+        38002463,
+        38002464
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "获得高级食谱（占位）",
+      "TalentLevel": 1,
+      "Title": [],
+      "UrbanAttribute": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "鱼秀姑",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "描述占位待填",
+      "__IDX__UnlockClue": 4294967293,
+      "__RAW__UnlockClue": "占位待填",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "获得高级食谱（占位）",
+      "__IDX__Title": [],
+      "__RAW__Title": []
+    },
+    {
+      "Id": 38000127,
+      "Name": "贾亦臻",
+      "Description": "描述占位待填",
+      "UnlockClue": "占位待填",
+      "AgentId": 40155058,
+      "WebId": 2,
+      "Position": [],
+      "HeadIcon": 28002185,
+      "LockedHeadIcon": 28021127,
+      "WebMaxTrustHeadIcon": 28002101,
+      "FactionIcon": 28004067,
+      "OrderIndex": 66,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003364
+      ],
+      "TrustTarget": [
+        38001538,
+        38001539,
+        38001540
+      ],
+      "TrustReward": [
+        38002465,
+        38002466,
+        38002467
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "解锁重霄金色武器购买权限（占位）",
+      "TalentLevel": 1,
+      "Title": [],
+      "UrbanAttribute": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "贾亦臻",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "描述占位待填",
+      "__IDX__UnlockClue": 4294967293,
+      "__RAW__UnlockClue": "占位待填",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "解锁重霄金色武器购买权限（占位）",
+      "__IDX__Title": [],
+      "__RAW__Title": []
+    },
+    {
+      "Id": 38000128,
+      "Name": "林清影",
+      "Description": "描述占位待填",
+      "UnlockClue": "占位待填",
+      "AgentId": 40155059,
+      "WebId": 2,
+      "Position": [],
+      "HeadIcon": 28002185,
+      "LockedHeadIcon": 28021127,
+      "WebMaxTrustHeadIcon": 28002101,
+      "FactionIcon": 28004067,
+      "OrderIndex": 67,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003367
+      ],
+      "TrustTarget": [
+        38001541,
+        38001542,
+        38001543,
+        38001550
+      ],
+      "TrustReward": [
+        38002468,
+        38002469,
+        38002470
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "获得贵重品（占位）",
+      "TalentLevel": 1,
+      "Title": [],
+      "UrbanAttribute": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "林清影",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "描述占位待填",
+      "__IDX__UnlockClue": 4294967293,
+      "__RAW__UnlockClue": "占位待填",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "获得贵重品（占位）",
+      "__IDX__Title": [],
+      "__RAW__Title": []
+    },
+    {
+      "Id": 38000129,
+      "Name": "济岳",
+      "Description": "描述占位待填",
+      "UnlockClue": "占位待填",
+      "AgentId": 40155060,
+      "WebId": 2,
+      "Position": [],
+      "HeadIcon": 28002185,
+      "LockedHeadIcon": 28021127,
+      "WebMaxTrustHeadIcon": 28002101,
+      "FactionIcon": 28004067,
+      "OrderIndex": 68,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 3,
+      "Weight": 1,
+      "Characteristic": [
+        38003370
+      ],
+      "TrustTarget": [
+        38001544,
+        38001545,
+        38001546
+      ],
+      "TrustReward": [
+        38002471,
+        38002420,
+        38002417
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "获得S级拳套",
+      "TalentLevel": 1,
+      "Title": [],
+      "UrbanAttribute": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "济岳",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "描述占位待填",
+      "__IDX__UnlockClue": 4294967293,
+      "__RAW__UnlockClue": "占位待填",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "获得S级拳套",
+      "__IDX__Title": [],
+      "__RAW__Title": []
+    },
+    {
+      "Id": 38000130,
+      "Name": "流浪战士",
+      "Description": "描述占位待填",
+      "UnlockClue": "占位待填",
+      "AgentId": 40155017,
+      "WebId": 2,
+      "Position": [],
+      "HeadIcon": 28002185,
+      "LockedHeadIcon": 28021127,
+      "WebMaxTrustHeadIcon": 28002101,
+      "FactionIcon": 28004067,
+      "OrderIndex": 69,
+      "CanJoin": false,
+      "NoTrustPop": false,
+      "MaxTrust": 2,
+      "Weight": 1,
+      "Characteristic": [
+        38003373
+      ],
+      "TrustTarget": [
+        38001547,
+        38001548
+      ],
+      "TrustReward": [
+        38002474,
+        38002475
+      ],
+      "MaxTrustReward": 0,
+      "MaxTrustRewardDescription": "获得贵重品（占位）",
+      "TalentLevel": 1,
+      "Title": [],
+      "UrbanAttribute": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "GuideId": "",
+      "SpecialRewardAnim": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "流浪战士",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "描述占位待填",
+      "__IDX__UnlockClue": 4294967293,
+      "__RAW__UnlockClue": "占位待填",
+      "__IDX__MaxTrustRewardDescription": 4294967293,
+      "__RAW__MaxTrustRewardDescription": "获得贵重品（占位）",
+      "__IDX__Title": [],
+      "__RAW__Title": []
+    }
+  ],
+  "_dumpedCount": 61,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

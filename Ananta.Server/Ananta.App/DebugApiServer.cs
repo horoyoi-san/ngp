@@ -11,12 +11,7 @@ using SceneMethods = Ananta.Server.RpcTypes.Client4229938.Methods.GameScene;
 
 namespace Ananta.Server.App;
 
-/// <summary>
-/// Localhost-only HTTP debug server: serves the embedded debug panel (GET /)
-/// plus the JSON API for it. Optional: enable via config "debug".
-/// Never exposed outside 127.0.0.1 by default.
-/// </summary>
-internal sealed class DebugApiServer(PrivateServerConfig config, GameSessionHub hub) : IDisposable
+internal sealed partial class DebugApiServer(PrivateServerConfig config, GameSessionHub hub) : IDisposable
 {
     private static readonly JsonSerializerOptions JsonOptions = new()
     {
@@ -37,6 +32,15 @@ internal sealed class DebugApiServer(PrivateServerConfig config, GameSessionHub 
     private readonly HttpListener _listener = new();
     private readonly CancellationTokenSource _cts = new();
     private Task? _loop;
+
+    
+    private static IEnumerable<string> PanelHtmlDiskCandidates()
+    {
+        yield return Path.Combine(AppContext.BaseDirectory, "DebugPanel", "index.html");
+        var dir = new DirectoryInfo(AppContext.BaseDirectory);
+        for (var i = 0; i < 6 && dir is not null; i++, dir = dir.Parent)
+            yield return Path.Combine(dir.FullName, "Ananta.Server", "Ananta.App", "DebugPanel", "index.html");
+    }
 
     internal void Start()
     {
@@ -92,6 +96,180 @@ internal sealed class DebugApiServer(PrivateServerConfig config, GameSessionHub 
 
             if (method == "GET" && (path == "/" || path == "/index.html"))
                 await WriteHtmlAsync(ctx, token);
+            else if (method == "GET" && path.StartsWith("/api/dict", StringComparison.Ordinal))
+                await WriteJsonAsync(ctx, Dict(path.Length > 9 ? path["/api/dict".Length..].Trim('/') : ""), token);
+            else if (method == "GET" && path == "/api/content")
+                await WriteJsonAsync(ctx, ContentSnapshot(), token);
+            
+            
+            
+            else if (method == "GET" && path == "/api/spirit/content")
+                await WriteJsonAsync(ctx, SpiritContentOverview(ctx.Request.Url?.Query), token);
+            else if (method == "POST" && path == "/api/spirit/job")
+                await WriteJsonAsync(ctx, await SpiritJobSetAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "POST" && path == "/api/spirit/talent")
+                await WriteJsonAsync(ctx, await SpiritTalentSetAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "POST" && path == "/api/spirit/installed-apps")
+                await WriteJsonAsync(ctx, SpiritInstalledAppsAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            
+            
+            
+            else if (method == "GET" && path == "/api/spirit/phoneapp")
+                await WriteJsonAsync(ctx, PhoneAppContentOverview(), token);
+            else if (method == "POST" && path == "/api/spirit/phoneapp/push")
+                await WriteJsonAsync(ctx, await PhoneAppContentPushAsync(token), token);
+            
+            
+            
+            else if (method == "GET" && path == "/api/jobability")
+                await WriteJsonAsync(ctx, JobAbilityOverview(), token);
+            else if (method == "POST" && path == "/api/jobability/push")
+                await WriteJsonAsync(ctx, await JobAbilityPushAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            
+            else if (method == "POST" && path == "/api/jobability/hack")
+                await WriteJsonAsync(ctx, await JobAbilityHackAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            
+            else if (method == "GET" && path == "/api/socialapp")
+                await WriteJsonAsync(ctx, SocialAppOverview(), token);
+            else if (method == "POST" && path == "/api/socialapp/reset")
+                await WriteJsonAsync(ctx, SocialAppReset(), token);
+            
+            else if (method == "GET" && path == "/api/hacker/blackout")
+                await WriteJsonAsync(ctx, BlackoutInfo(), token);
+            else if (method == "POST" && path == "/api/hacker/blackout")
+                await WriteJsonAsync(ctx, await BlackoutTriggerAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "POST" && path == "/api/world/switch-raid")
+                await WriteJsonAsync(ctx, await SwitchRaidAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "GET" && path == "/api/story/dialogs")
+                await WriteJsonAsync(ctx, StoryDialogs(ctx.Request.Url?.Query), token);
+            else if (method == "POST" && path == "/api/story/dialog")
+                await WriteJsonAsync(ctx, await StoryDialogPlayAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "POST" && path == "/api/story/dialog-voice")
+                await WriteJsonAsync(ctx, await StoryDialogVoiceAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "GET" && path == "/api/story/timelines")
+                await WriteJsonAsync(ctx, StoryTimelines(ctx.Request.Url?.Query), token);
+            else if (method == "GET" && path == "/api/story/switch-spirits")
+                await WriteJsonAsync(ctx, StorySwitchSpiritsRouter(ctx.Request.Url?.Query), token);
+            else if (method == "GET" && path == "/api/story/target-spirits")
+                await WriteJsonAsync(ctx, StoryTargetSpirits(), token);
+            else if (method == "GET" && path == "/api/story/timeline-groups")
+                await WriteJsonAsync(ctx, StoryTimelineGroups(), token);
+            else if (method == "POST" && path == "/api/story/timeline")
+                await WriteJsonAsync(ctx, await StoryTimelinePlayAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "POST" && path == "/api/story/cinematic")
+                await WriteJsonAsync(ctx, await StoryCinematicPlayAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "GET" && path == "/api/story/cinema")
+                await WriteJsonAsync(ctx, CinemaOverview(), token);
+            else if (method == "POST" && path == "/api/weather/set")
+                await WriteJsonAsync(ctx, await WeatherSetAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "GET" && path == "/api/weather/options")
+                await WriteJsonAsync(ctx, WeatherOptions(), token);
+            else if (method == "GET" && path == "/api/baseline/steps")
+                await WriteJsonAsync(ctx, BaselineSteps(), token);
+            else if (method == "POST" && path == "/api/baseline/push")
+                await WriteJsonAsync(ctx, await BaselinePushAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "POST" && path == "/api/content/baseline")
+                await WriteJsonAsync(ctx, await ContentBaselineAsync(token), token);
+            else if (method == "POST" && path == "/api/map/reveal")
+                await WriteJsonAsync(ctx, await MapRevealAsync(token), token);
+            else if (method == "POST" && path == "/api/achievement/unlock-all")
+                await WriteJsonAsync(ctx, await AchievementUnlockAllAsync(token), token);
+            else if (method == "POST" && path == "/api/pedia/unlock-all")
+                await WriteJsonAsync(ctx, await PediaUnlockAllAsync(token), token);
+            else if (method == "GET" && path == "/api/payload/login")
+                await WriteJsonAsync(ctx, LoginPayloadProbe(), token);
+            else if (method == "GET" && path == "/api/aether/probe")
+                await WriteJsonAsync(ctx, ProbeAetherInitBytes(), token);
+            else if (method == "GET" && path == "/api/aether/probe2")
+                await WriteJsonAsync(ctx, ProbeCrowdBytes(), token);
+            else if (method == "POST" && path == "/api/aether/spawnat")
+                await WriteJsonAsync(ctx, await SpawnAetherAtAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "POST" && path == "/api/aether/zonegraph")
+                await WriteJsonAsync(ctx, await PushZoneGraphAsync(token), token);
+            else if (method == "POST" && path == "/api/world/enter")
+                await WriteJsonAsync(ctx, await WorldEnterAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "GET" && path == "/api/world/options")
+                await WriteJsonAsync(ctx, WorldOptions(), token);
+            else if (method == "POST" && path == "/api/player/map-teleport")
+                await WriteJsonAsync(ctx, await MapTeleportAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "POST" && path == "/api/shop/open")
+                await WriteJsonAsync(ctx, await ShopOpenAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "POST" && path == "/api/house/buy")
+                await WriteJsonAsync(ctx, await HouseBuyAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "GET" && path == "/api/accounts")
+                await WriteJsonAsync(ctx, AccountList(), token);
+            else if (method == "POST" && path == "/api/accounts/create")
+                await WriteJsonAsync(ctx, AccountCreate(await ReadBodyAsync(ctx.Request, token)), token);
+            else if (method == "POST" && path == "/api/accounts/switch")
+                await WriteJsonAsync(ctx, AccountSwitch(await ReadBodyAsync(ctx.Request, token)), token);
+            else if (method == "POST" && path == "/api/accounts/delete")
+                await WriteJsonAsync(ctx, AccountDelete(await ReadBodyAsync(ctx.Request, token)), token);
+            else if (method == "POST" && path == "/api/weapon/add-all")
+                await WriteJsonAsync(ctx, await WeaponAddAllAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "POST" && path == "/api/item/add-ammo")
+                await WriteJsonAsync(ctx, await AmmoAddAllAsync(token), token);
+            else if (method == "GET" && path == "/api/enemy/groups")
+                await WriteJsonAsync(ctx, EnemyGroupsCatalog(), token);
+            else if (method == "POST" && path == "/api/enemy/spawn-group")
+                await WriteJsonAsync(ctx, await EnemyGroupSpawnAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "POST" && path == "/api/enemy/spawn")
+                await WriteJsonAsync(ctx, await EnemySpawnAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "POST" && path == "/api/npc/spawn")
+                await WriteJsonAsync(ctx, await NpcSpawnAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "GET" && path == "/api/npc/agents")
+                await WriteJsonAsync(ctx, AgentCatalog(ctx.Request.QueryString), token);
+            else if (method == "GET" && path == "/api/npc/street")
+                await WriteJsonAsync(ctx, StreetNpcList(), token);
+            else if (method == "POST" && path == "/api/npc/place")
+                await WriteJsonAsync(ctx, await StreetNpcPlaceAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "POST" && path == "/api/npc/remove")
+                await WriteJsonAsync(ctx, await StreetNpcRemoveAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "POST" && path == "/api/ammo/give")
+                await WriteJsonAsync(ctx, await AmmoGiveAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "POST" && path == "/api/item/add")
+                await WriteJsonAsync(ctx, await ItemAddAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "POST" && path == "/api/item/remove")
+                await WriteJsonAsync(ctx, await ItemRemoveAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "POST" && path == "/api/money/set")
+                await WriteJsonAsync(ctx, await MoneySetAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "POST" && path == "/api/money/add")
+                await WriteJsonAsync(ctx, await MoneyAddAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "POST" && path == "/api/weapon/add")
+                await WriteJsonAsync(ctx, await WeaponAddAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "POST" && path == "/api/weapon/remove")
+                await WriteJsonAsync(ctx, await WeaponRemoveAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "POST" && path == "/api/fashion/add")
+                await WriteJsonAsync(ctx, await FashionAddAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "POST" && path == "/api/fashion/remove")
+                await WriteJsonAsync(ctx, await FashionRemoveAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "POST" && path == "/api/quest/accept")
+                await WriteJsonAsync(ctx, await QuestAcceptAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "POST" && path == "/api/quest/complete")
+                await WriteJsonAsync(ctx, await QuestCompleteAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "POST" && path == "/api/quest/submit")
+                await WriteJsonAsync(ctx, await QuestSubmitAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "POST" && path == "/api/quest/reset")
+                await WriteJsonAsync(ctx, await QuestResetAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "POST" && path == "/api/quest/unlock")
+                await WriteJsonAsync(ctx, await QuestUnlockAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "POST" && path == "/api/quest/complete-sub")
+                await WriteJsonAsync(ctx, await QuestCompleteSubAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "GET" && path == "/api/story/chain")
+                await WriteJsonAsync(ctx, StoryChain(ctx.Request.QueryString), token);
+            else if (method == "POST" && path == "/api/story/start")
+                await WriteJsonAsync(ctx, await StoryStartAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "POST" && path == "/api/story/advance")
+                await WriteJsonAsync(ctx, await StoryAdvanceAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            else if (method == "GET" && path == "/api/tasks/search")
+                await WriteJsonAsync(ctx, TaskSearch(ctx.Request.QueryString), token);
+            else if (method == "GET" && path == "/api/debug/task-container-hex")
+                await WriteJsonAsync(ctx, TaskContainerHex(ctx.Request.QueryString), token);
+            else if (method == "GET" && path == "/api/debug/quest-packets")
+                await WriteJsonAsync(ctx, QuestPacketsProbe(ctx.Request.QueryString), token);
+            else if (method == "GET" && path == "/api/debug/map-entrances")
+                await WriteJsonAsync(ctx, MapEntrancesProbe(ctx.Request.QueryString), token);
+            else if (method == "POST" && path == "/api/shop/buy")
+                await WriteJsonAsync(ctx, await ShopBuyAsync(await ReadBodyAsync(ctx.Request, token), token), token);
             else if (method == "GET" && path == "/api/status")
                 await WriteJsonAsync(ctx, Status(), token);
             else if (method == "GET" && path == "/api/fleet")
@@ -118,6 +296,19 @@ internal sealed class DebugApiServer(PrivateServerConfig config, GameSessionHub 
                 await WriteJsonAsync(ctx, TimeStatus(), token);
             else if (method == "POST" && path == "/api/time/set")
                 await WriteJsonAsync(ctx, await TimeSetAsync(await ReadBodyAsync(ctx.Request, token), token), token);
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            else if (path.StartsWith("/social_media/", StringComparison.Ordinal))
+                await WriteJsonAsync(ctx, SocialMediaApiProbe(ctx.Request, path), token);
             else
                 await WriteJsonAsync(ctx, new { ok = false, error = "unknown route (GET /api/status, GET /api/fleet, GET /api/time, POST /api/time/set, POST /api/garage/resync, POST /api/garage/unlock-all, POST /api/player/teleport, POST /api/vehicle/spawn, POST /api/vehicle/to-me, POST /api/vehicle/goto, POST /api/vehicle/remove, POST /api/vehicle/enter, POST /api/vehicle/exit)" }, token, 404);
         }
@@ -185,285 +376,183 @@ internal sealed class DebugApiServer(PrivateServerConfig config, GameSessionHub 
             .ToList();
     }
 
-    /// <summary>
-    /// Full vehicle catalog (other team's list, 2026-09-09): id + display name + category.
-    /// Includes broken/undrivable entries (marked in the name) — spawn is warn-and-allow,
-    /// the client has the final say. Single source for the panel dropdowns.
-    /// </summary>
+    
+    
+    
+    
+    
     private static class VehicleCatalog
     {
         internal sealed record Entry(uint Id, string Name, string Category);
 
-        private static readonly Entry[] all =
+        internal static readonly Entry[] All =
         [
-            // Sport / Luxury / Unique
-            // Sportscars/Luxury
-            new(81002019, "Aico Darkside CC (奥柯·暗面 CC) - Audi TT", "Sport"),
-            new(81001029, "Belkraft Ting(霆) 6 GT - BMW i4 G26", "Sport"),
-            new(81002018, "Belkraft Ting 4 Forged Edition (贝凯夫·霆 4 锻造版) - BMW M2 G87", "Sport"),
-            new(81001028, "Erebos Orion E32 L - Mercedes C-Class V206 (Gen 5)", "Luxury"),
-            new(81005005, "Erebos Sirius 55 XL - Mercedes Ocean Drive", "Luxury"),
-            new(81007068, "Erebos Sirius 55 XL - Mercedes Ocean Drive [Broken Model]", "Luxury"),
-            new(81007085, "Erebos Sirius 55 XL - Mercedes Ocean Drive [Broken Model]", "Luxury"),
-            new(81002012, "Erebos Sirius 89 Lodestar - Mercedes S-Class W223", "Luxury"),
-            new(81004021, "Fusion Rhino S - Ramp Buggy", "Unique"),
-            new(81005006, "Fusion Rhino S2 - Ramp Buggy", "Unique"),
-            new(81006020, "FG Vision Aric - Flying Car", "Unique"),
-            new(81006023, "FG Vision Oracle - Self-Driving Limo", "Unique"),
-            new(81005008, "Hoyne Bridgemont Aether - Rolls-Royce Phantom", "Unique"),
-            new(81005001, "Kazama CE68 - Toyota Sprinter/Corolla AE86 Trueno Hatchback", "Unique"),
-            new(81007069, "Kazama CE68 - Toyota Sprinter/Corolla AE86 Trueno Hatchback", "Unique"),
-            new(81001009, "Kazama Elegance - Toyota Crown (14-15gen)", "Unique"),
-            new(81002013, "Kazama Senpu - Toyota GR86", "Unique"),
-            new(81002010, "Korou VeloWing SRX - Subaru WRX STI VA", "Unique"),
-            new(81002016, "Korou VeloWing SRX “Morning Star” - Subaru WRX STI Bodykit", "Unique"),
-            new(81002011, "Merse RZ-91 Solstice - Porsche 911 (992) Targa", "Unique"),
-            new(81002015, "Merse RZ-91 Solstice - Porsche 911 (930)", "Unique"),
-            new(81005009, "Pallas Solaris - Ferrari FXXK+F90", "Unique"),
-            new(81002008, "Rowden Cerberus - '67 Ford Mustang Restomod", "sport"),
-            new(81007071, "Rowden Cerberus - '67 Ford Mustang Restomod", "sport"),
-            new(81002017, "Rowden Cerberus GKREW - 67' Ford Mustang Restomod", "sport"),
-            new(81002021, "Rowden Cerberus Mad Boar Kai (洛顿·“狂猪改”) - '67 Ford Mustang Restomod", "sport"),
-            new(81001030, "Sovereign SV6 - Cadillac CT6 (Gen 1)", "sport"),
-            new(81002002, "Specter GTR-S55 Convertible - Nissan GTR R35 Convertible [Low-Poly Model]", "sport"),
-            new(81007064, "Specter GT X SPIDER - Nissan GTR R35 Roofless [Low-poly]", "sport"),
-            new(81000007, "Sunset GT X Specter (Coupe)", "sport"),
-            new(81000008, "Sunset GT X Specter (Coupe)", "sport"),
-            new(81005002, "Sunset GT X Specter (Coupe)", "sport"),
-            new(81007054, "Sunset GT X Specter (Coupe)", "sport"),
-            new(81007066, "Sunset GT X Specter (Coupe)", "sport"),
-            new(81007086, "Sunset GT X Specter (Coupe)", "sport"),
-            new(81005003, "Sunset GT X Spider (Сonvertible)", "sport"),
-            new(81007027, "Sunset GT X Spider (Сonvertible)", "sport"),
-            new(81002001, "Sunset GT-7 - Honda Integra Type R Gen 3", "sport"),
-            new(81007003, "Sunset GT-7 - Honda Integra Type R Gen 3", "sport"),
-            new(81007018, "Sunset GT-7 - Honda Integra Type R Gen 3", "sport"),
-            new(81007033, "Sunset GT-7 - Honda Integra Type R Gen 3", "sport"),
-            new(81002009, "Sunset Selena - Toyota 2000GT-ish Sportscar", "sport"),
-            new(81005013, "Sunset ??? - Acura NSX", "sport"),
-            new(81002014, "Smove Night Child S7 - Mazda RX7,8,9", "sport"),
-            new(81002006, "Smove SR-5 - Mazda Miata MX-5 ND", "sport"),
-            new(81007072, "Smove SR-5 - Mazda Miata MX-5 ND", "sport"),
-            new(81007087, "Smove SR-5 - Mazda Miata MX-5 ND", "sport"),
-            new(81001014, "Stahlwerk Speedster S - Volkswagen Golf R Gen 8", "sport"),
-            new(81005007, "Veloce Quicksilver - Lamborghini Murcielago", "sport"),
-
-            // Regular Cars
-            new(81001010, "Aico Prisma C5 - Audi A6 (C8)", "regular"),
-            new(81001006, "Kazama CRN6 - Toyota Comfort", "regular"),
-            new(81007074, "Kazama CRN6 - Toyota Comfort", "regular"),
-            new(81007090, "Kazama CRN6 - Toyota Comfort", "regular"),
-            new(81007098, "Kazama CRN6 - Toyota Comfort", "regular"),
-            new(81001007, "Kazama Grace - Toyota Corolla E170 (11gen) [Unfinished New Model]", "regular"),
-            new(81001016, "Kazama Venture - Toyota Prius 5", "regular"),
-            new(81001002, "Korou RV6 - Subaru Legacy Wagon Gen 5", "regular"),
-            new(81007001, "Korou RV6 - Subaru Legacy Wagon Gen 5", "regular"),
-            new(81003019, "Linx Squirrel - Wuling Hongguang Mini", "regular"),
-            new(81002007, "PICO Boxer Cat R - Mini Cooper S Convertible", "regular"),
-            new(81007002, "PICO Boxer Cat R - Mini Cooper S Convertible", "regular"),
-            new(81007011, "PICO Boxer Cat R - Mini Cooper S Convertible", "regular"),
-            new(81007082, "PICO Boxer Cat R (Beated texture) - Mini Cooper S Convertible", "regular"),
-            new(81001017, "Pulse Type 3 - Tesla Model 3", "regular"),
-            new(81003014, "ReiForce Kaka - Toyota WiLL Vi", "regular"),
-            new(81001013, "Smove S3 - Mazda 3 BM (3gen)", "regular"),
-            new(81001015, "Stahlwerk Prosper - Volkswagen Passat B8", "regular"),
-            new(81001022, "Stahlwerk Prosper T2 - Volkswagen Passat B2 Sedan", "regular"),
-            new(81001032, "Stahlwerk SurgeRise - Volkswagen Polo 4 Sedan", "regular"),
-            new(81001023, "Starway Journey (Chronix Voyage) - Regular Wagon", "regular"),
-            new(81001008, "Sunset Flyer - Honta Fit (Gen 2) [Unfinished New Model]", "regular"),
-            new(81001011, "Sunset NEO:E - 3door Hatchback EV", "regular"),
-            new(81007022, "Sunset Flyer - Honta Fit (Gen 2) [Unfinished New Model]", "regular"),
-            new(81007077, "Sunset Flyer - Honta Fit (Gen 2) [Unfinished New Model]", "regular"),
-            new(81007084, "Sunset Flyer - Honta Fit (Gen 2) [Unfinished New Model]", "regular"),
-            new(81001018, "Sunset Skyward - Sedan, Looks like Audi A5", "regular"),
-            new(81001001, "Sunset Skywing - Default Sedan", "regular"),
-            new(81007032, "Sunset Skywing - Default Sedan", "regular"),
-            new(81007096, "Sunset Skywing Crash Tested - Default Sedan", "regular"),
-            new(81001026, "Tengyun CloudSweet (腾云·云朵糖) - Changan Lumin", "regular"),
-            new(81001021, "Terra Nimbus S5 (Tengyun Stellaride) - Small Sedan [Unfinished Model]", "regular"),
-
-            // SUV/Pickups
-            new(81001034, "Belrkaft ??? - BMW iX3 (2020)", "suv"),
-            new(81001012, "Erebos Cygnus C380 - Mercedes GL", "suv"),
-            new(81003021, "Erebos W63 Titan - Mercedes G63", "suv"),
-            new(81003017, "Korou Titan - Isuzu VehiCross", "suv"),
-            new(81003008, "Reiforce Jim - Suzuki Jimmy", "suv"),
-            new(81003016, "Kazama Kanu - Toyota Hilux Gen 5", "suv"),
-            new(81001019, "Kazama Traveller 3 - Toyota RAV4", "suv"),
-            new(81001005, "Kazama Sandstorm 70 Classic - Toyota Land Cruiser 70 Stock [Old Model]", "suv"),
-            new(81003004, "Kazama Sandstorm 70 Classic - Toyota Land Cruiser 70 Stock", "suv"),
-            new(81007028, "Kazama Sandstorm 70 Classic - Toyota Land Cruiser 70 Stock", "suv"),
-            new(81003005, "Kazama Sandstorm 70 Custom - Toyota Land Cruiser 70 Offroad Spec", "suv"),
-            new(81003010, "Kazama Sandstorm 70 (Enemy Ver., 2 seats) - Toyota Land Cruiser 70", "suv"),
-            new(81007080, "Kazama Sandstorm 70 (Enemy Ver., 2 seats) - Toyota Land Cruiser 70", "suv"),
-            new(81007097, "Kazama Sandstorm 70 (Enemy Ver., 2 seats) - Toyota Land Cruiser 70", "suv"),
-            new(81003011, "Kazama Sandstorm 70 (Enemy Ver., 4 seats) - Toyota Land Cruiser 70", "suv"),
-            new(81003013, "Kazama Sandstorm 200 - Toyota Land Cruiser 1958 (2024)", "suv"),
-            new(81007093, "Kazama Sandstrom 200 - Toyota Land Cruiser 1958 (2024) [Broken Model]", "suv"),
-            new(81007015, "Kazama Sandstorm 200 (Dirty) - Toyota Land Cruiser 1958 (2024)", "suv"),
-            new(81005004, "Kazama Wasteland - Toyota Hilux Gen 3", "suv"),
-            new(81007004, "Kazama Wasteland (Dirty) - Toyota Hilux Gen3", "suv"),
-            new(81003012, "Kazama Wasteland (Enemy Ver.) - Toyota Hilux Gen 3", "suv"),
-            new(81001027, "Pulse Type E = Tesla Model Y", "suv"),
-            new(81003018, "Warlen Frontier - Jeep Wrangler", "suv"),
-            new(81003024, "Warlen Frontier Mad Boar Kai - Jeep Wrangler", "suv"),
-            new(81003023, "Warlen Longhorn 1500 (沃伦·长角 1500) - Invisible Pickup Truck", "suv"),
-            new(81001031, "Xiaosu XS 009 - Xiaomi SkyNomad N90", "suv"),
-            new(81001038, "??? ??? - Unfinished SUV", "suv"),
-
-            // Special Service Vehicles
-            new(81004044, "Dodo Delivery Bot T_DeliveryCar", "ssv"),
-            new(81004041, "Erebos T35 Armored - Mercedes Vito Сash-in-transit Van", "ssv"),
-            new(81004001, "Kazama CRN6 Taxi - Toyota Comfort Taxi (Undrivable)", "ssv"),
-            new(81004015, "Kazama CRN6 Taxi - Toyota Comfort Taxi (Undrivable)", "ssv"),
-            new(81007025, "Kazama CRN6 Taxi - Toyota Comfort Taxi", "ssv"),
-            new(81007043, "Kazama CRN6 Taxi - Toyota Comfort Taxi", "ssv"),
-            new(81007044, "Kazama CRN6 NCCA - Toyota Comfort Police", "ssv"),
-            new(81007029, "Kazama CRN6 Police - Toyota Comfort Police", "ssv"),
-            new(81004002, "Kazama Elegance NCCA - Toyota Crown (14-15gen) Police", "ssv"),
-            new(81004016, "Kazama Elegance NCCA - Toyota Crown (14-15gen) Police [Labeled as Kazama CRN6-P]", "ssv"),
-            new(81007078, "Kazama Elegance NCCA - Toyota Crown (14-15gen) Police", "ssv"),
-            new(81004026, "Kazama Elegance NCCA-P - Toyota Crown (14-15gen) (Unmarked Police)", "ssv"),
-            new(81004004, "Kazama NT-Comfort - Toyota Sienta JPN Taxi (Undrivable)", "ssv"),
-            new(81004027, "Kazama Sandstorm 200 NCCA - Toyota Land Cruiser 1958 (2024) Police", "ssv"),
-            new(81004011, "Kazama Seaway EMS - Toyota HiAce Gen 5 Ambulance", "ssv"),
-            new(81004033, "Kazama Traveller 3 Road Patrol - Toyota RAV4", "ssv"),
-            new(81004013, "Korou MT600 - Bus", "ssv"),
-            new(81004042, "Korou Transporter FT - Isuzu Elf Firetruck", "ssv"),
-            new(81004040, "Korou Transporter M - Isuzu Elf Advertisement Truck", "ssv"),
-            new(81004031, "Korou Transporter M Municipal - Isuzu Elf Water Truck", "ssv"),
-            new(81004032, "Korou Transporter M Municipal - Isuzu Elf Garbage Truck", "ssv"),
-            new(81007006, "Korou ??? - Double Decker Bus", "ssv"),
-            new(81007005, "Starway Journey (Chronix Voyage) Taxi - Regular Wagon [Unfinished model, broken texture, drivable]", "ssv"),
-            new(81004038, "Starway Journey (Chronix Voyage) Taxi - Regular Wagon [Unfinished model, broken texture, undrivable]", "ssv"),
-            new(81000004, "MM Inferno 3000 - Firetruck", "ssv"),
-            new(81004014, "MM Inferno 3000 - Firetruck", "ssv"),
-            new(81007012, "MM Inferno 3000 - Firetruck", "ssv"),
-            new(81007094, "MM Inferno 3000 - Firetruck", "ssv"),
-            new(81004028, "Shikage Freeman800 NCCA - Honda NT1100", "ssv"),
-            new(81004036, "Terra SF660 - Bus", "ssv"),
-
-            // Light Trucks/Vans
-            new(81000005, "Erebos Black Box - Mercedes Actros (Seymour's Truck)", "Trucks"),
-            new(81004043, "Erebos Black Box - Mercedes Actros (Seymour's Truck)", "Trucks"),
-            new(81001024, "Erebos T38 Enterprise - Mercedes V-Class (Vito) Gen 3 (W447)", "Trucks"),
-            new(81003009, "Kazama Express Van (Masked Malice Livery) - Toyota Quick Delivery", "Vans"),
-            new(81007017, "Kazama Express Van (Masked Malice Livery) - Toyota Quick Delivery", "Vans"),
-            new(81007063, "Kazama Express Van (Masked Malice Livery) - Toyota Quick Delivery", "Vans"),
-            new(81001020, "Kazama Prestige - Toyota HiAce  Gen 6 [Unfinished Model]", "Vans"),
-            new(81003002, "Kazama Seaway - Toyota HiAce Gen 5", "Vans"),
-            new(81001003, "Kazama Voyage - Toyota HiAce H300 (6gen)", "Vans"),
-            new(81007073, "Kazama Voyage - Toyota HiAce H300 (6gen)", "Vans"),
-            new(81007083, "Kazama Voyage - Toyota HiAce H300 (6gen)", "Vans"),
-            new(81004024, "Korou Transporter L - Isuzu Elf Livestock Truck", "ssv"),
-            new(81000002, "Korou Transporter M - Isuzu Elf Tow Truck with a hook [Broken cabin and no wheels]", "ssv"),
-            new(81004017, "Korou Transporter M - Isuzu Elf Stripped", "ssv"),
-            new(81004018, "Korou Transporter M - Isuzu Elf Flatbed", "ssv"),
-            new(81004019, "Korou Transporter M - Isuzu Elf Flatbed Tow Truck", "ssv"),
-            new(81004020, "Korou Transporter M - Isuzu Elf Tow Truck with a Hook", "ssv"),
-            new(81004025, "Korou Transporter MP - Isuzu Elf Refrigerator Truck", "ssv"),
-            new(81007088, "Korou Transporter MP - Isuzu Elf Refrigerator Truck", "Vans"),
-            new(81004022, "Korou Transporter MS - Isuzu Elf Cargo Truck", "Vans"),
-            new(81007079, "Korou Transporter MS - Isuzu Elf Cargo Truck", "Vans"),
-            new(81007091, "Korou Transporter MS - Isuzu Elf Cargo Truck [Vault Security Livery]", "Vans"),
-            new(81007092, "Korou Transporter MS - Isuzu Elf Cargo Truck", "Vans"),
-            new(81003020, "Linx Carrier - Wuling Light", "Vans"),
-            new(81007009, "Motus Shannon MK.VI (Freelander Yeti MK2) - Milk Van", "Vans"),
-            new(81007095, "Motus Shannon MK.VI (Freelander Yeti MK2) - Milk Van", "Vans"),
-            new(81003022, "ReiForce Cat Express - Suzuki Carry Gen 7", "Vans"),
-            new(81003006, "ReiForce Dee - Suzuki Every Gen 6", "Vans"),
-            new(81007040, "ReiForce Dee - Suzuki Every Gen 6 [Broken Windshield Texture]", "Vans"),
-            new(81007076, "ReiForce Dee - Suzuki Every Gen 6 [Pile of cash in opened trunk]", "Vans"),
-            new(81003003, "ReiForce Lightway - Suzuki Carry Gen 7", "Vans"),
-            new(81007024, "ReiForce Lightway - Suzuki Carry Gen 7", "Vans"),
-            new(81007060, "ReiForce Lightway - Suzuki Carry Gen 7", "Vans"),
-            new(81003001, "ReiForce Traveler W7 - Suzuki Wagon R Gen 6", "Vans"),
-            new(81007019, "ReiForce Traveler W7 - Suzuki Wagon R Gen 6", "Vans"),
-            new(81007021, "ReiForce Traveler W7 - Suzuki Wagon R Gen 6", "Vans"),
-            new(81007041, "ReiForce Traveler W7 - Suzuki Wagon R Gen 6 [Low-poly, Broken Camera]", "Vans"),
-            new(81003007, "Steeds F750 - Invisible Model, but should be a Van", "Vans"),
-
-            // Heavy-Duty
-            new(81004035, "MM EX M300 - Excavator", "Truck"),
-            new(81004007, "MM M300 (With pivot-fixed container trailer) - MAN TGS Hauling Truck", "Truck"),
-            new(81004008, "MM M300 (With pivot-fixed container trailer) - MAN TGS Hauling Truck", "Truck"),
-            new(81004009, "MM M300 (With pivot-fixed container trailer) - MAN TGS Hauling Truck", "Truck"),
-            new(81004010, "MM M300 (With pivot-fixed tanker trailer) - MAN TGS Hauling Truck", "Truck"),
-            new(81004005, "MM M300T - MAN TGS Cement Mixer Truck", "Truck"),
-            new(81004006, "MM M300T - MAN TGS Dump Truck", "Truck"),
-            new(81007053, "MM M500 - MAN TGS Hauling Truck", "Truck"),
-            new(81007055, "MM M500 - MAN TGS Hauling Truck", "Truck"),
-            new(81004023, "MM Nether Reaper - MAN TGS", "Truck"),
-            new(81004003, "MM RockBreaker 5 - MAN TGS Dump Truck", "Truck"),
-            new(81004012, "MM Trust 350 - Forklift", "Truck"),
-            new(81004039, "MM W800 - Massey Fergusson MF8700 (Tractor)", "Truck"),
-            new(81004029, "MM WL 500 - Wheel Loader", "Truck"),
-            new(81007013, "Motus Hercules - Scania G-Series (pivot-locked trailer with broken texture)", "Truck"),
-            new(81007075, "Motus Hercules - Scania G-Series (pivot-locked trailer)", "Truck"),
-
-            // Motorcycles/Bikes
-            new(81006019, "Accardi Speedy(速越) - Ducati Superleggera V4", "moto"),
-            new(81006007, "Belkraft Ironclad (Enemy Bike) - BMW R18", "moto"),
-            new(81007099, "Belkraft Ironclad (Enemy Bike) - BMW R18", "moto"),
-            new(81006002, "Belkraft Roast 1200 - BMW R100", "moto"),
-            new(81006101, "Belkraft Roast 1200 - BMW R100", "moto"),
-            new(81006015, "Henc Jiu TB01 - Invisible Bicycle", "moto"),
-            new(81006027, "Henc Jiu TB01 - Regular Bicycle", "moto"),
-            new(81007014, "Henc Jiu TB01 - Regular Bicycle", "moto"),
-            new(81006025, "Henc Jiu Tricycle (恒久·三轮车) - Pedal Cargo Tricycle", "moto"),
-            new(81006003, "Shikage Aero - Scooter", "moto"),
-            new(81007101, "Shikage Aero - Scooter", "moto"),
-            new(81007016, "Shikage Aero - Scooter", "moto"),
-            new(81007089, "Shikage Aero - Scooter", "moto"),
-            new(81006006, "Shikage Cat Express - Delivery Scooter (no livery)", "moto"),
-            new(81003015, "Shikage Rampage - Yamaha YFZ450 (Quad)", "moto"),
-            new(81006010, "Shikage Freeman800 - Honda NT1100", "moto"),
-            new(81007104, "Shikage Freeman800 - Honda NT1100", "moto"),
-            new(81006013, "Shikage SL550 - Dirtbike", "moto"),
-            new(81006011, "Sunset M125 - Honda CBX1000", "moto"),
-            new(81006012, "Sunset M125 Gale Riders - Honda CBX1000 Bosozoku", "moto"),
-            new(81006009, "Sunset M125-T - Cargo Tricycle no roof", "moto"),
-            new(81007100, "Sunset M125-T - Cargo Tricycle no roof", "moto"),
-            new(81006018, "Sunset M125-T - Cargo Tricycle with roof", "moto"),
-            new(81006022, "Spade Ruifeng S8 (黑桃·锐风 S8) - Highway Bicycle", "moto"),
-            new(81006030, "Tricycle with broken model", "moto"),
-
-            // Watercraft
-            new(81006008, "Shikage Sky Shark - Jet Ski", "Watercraft"),
-            new(81000010, "Shikage Speed Tour s200 - Speedboat", "Watercraft"),
-            new(81006005, "Shikage WaveS200 - Speedboat", "Watercraft"),
-            new(81006021, "Nautilus 02 (鹦鹉螺02) - Submersible", "Watercraft"),
-            new(81006017, "木浆船 - Wooden Paddle Boat", "Watercraft"),
-
-            // Aircraft
-            new(81006001, "Reed Ranger - NCCA Helicopter", "Helicopter"),
-            new(81007007, "Reed Ranger - NCCA Helicopter", "Helicopter"),
-
-            // Other/Leftovers
-            new(81007035, "Blinking Invisible Truck", "Other"),
-            new(81007036, "Blinking Invisible Truck", "Other"),
-            new(81007042, "Blinking Invisible Truck", "Other"),
-            new(81007008, "Coffin (棺材)", "Other"),
-            new(81006029, "Hovercraft", "Other"),
-            new(81007102, "MM M500 - MAN TGS [from trailer, wide, immovable]", "Other"),
-            new(81007020, "Monster Car (Old broken model)", "Other"),
-            new(81007023, "Monster Car (Old broken model)", "Other"),
-            new(81006016, "Shikage Badger MK1 - Kart", "Other"),
-            new(81006028, "SHIKAGE Badger MK2 - Bumper Car", "Other"),
-            new(81007103, "Shikage Speed Tour S200 on a trailer - Speedboat", "Other"),
-            new(81000006, "Test_Toilet - Invisible drivable vehicle", "Other"),
-            new(81000009, "Test_Yacht - Flat Rectangle", "Other"),
-            new(81007045, "Xuenong Heavy-Duty Truck (雪浓·重卡) [Broken]", "Other"),
+            
+            new(81005005, "Erebos E55 L convertible", "sport"),
+            new(81007068, "Erebos E55 L [broken]", "sport"),
+            new(81007085, "Erebos E55 L [broken]", "sport"),
+            new(81004021, "Fusion Rhino S2 [no livery]", "sport"),
+            new(81005006, "Fusion Rhino S2", "sport"),
+            new(81002008, "Rowden Bulldog", "sport"),
+            new(81007071, "Rowden Bulldog", "sport"),
+            new(81002006, "Smove SR-5", "sport"),
+            new(81007072, "Smove SR-5", "sport"),
+            new(81007087, "Smove SR-5", "sport"),
+            new(81007069, "Sunset CE86 [broken camera]", "sport"),
+            new(81005003, "Sunset GT X Convertible [black hood]", "sport"),
+            new(81007027, "Sunset GT X Convertible [carbon hood]", "sport"),
+            new(81000007, "Sunset GT X Coupe [carbon roof]", "sport"),
+            new(81000011, "Sunset GT X Coupe [black roof]", "sport"),
+            new(81005002, "Sunset GT X Coupe [carbon roof]", "sport"),
+            new(81007054, "Sunset GT X Coupe [black roof]", "sport"),
+            new(81007066, "Sunset GT X Coupe [black roof]", "sport"),
+            new(81002001, "Sunset GT7", "sport"),
+            new(81007003, "Sunset GT7", "sport"),
+            new(81007018, "Sunset GT7", "sport"),
+            new(81007033, "Sunset GT7 [broken camera]", "sport"),
+            new(81002009, "Sunset Selena GT", "sport"),
+            new(81005007, "Veloce Quicksilver", "sport"),
+            new(81000028, "Monster Car", "sport"),
+            new(81007020, "Monster Car Claws Out", "sport"),
+            new(81007023, "Monster Car Broken", "sport"),
+            new(81002002, "GTR R35 Roofless", "sport"),
+            new(81007064, "GTR R35 Roofless", "sport"),
+            
+            new(81001010, "Aico C5", "regular"),
+            new(81001006, "Kazama CRN6", "regular"),
+            new(81007074, "Kazama CRN6", "regular"),
+            new(81007090, "Kazama CRN6", "regular"),
+            new(81004001, "Kazama CRN6 Taxi [undrivable]", "regular"),
+            new(81004015, "Kazama CRN6 Taxi [undrivable]", "regular"),
+            new(81007025, "Kazama CRN6 Taxi", "regular"),
+            new(81007043, "Kazama CRN6 Taxi", "regular"),
+            new(81007029, "Kazama CRN6 Police", "regular"),
+            new(81007044, "Kazama CRN6 Police", "regular"),
+            new(81001009, "Kazama Elegant", "regular"),
+            new(81004002, "Kazama Elegant Police", "regular"),
+            new(81004016, "Kazama Elegant Police", "regular"),
+            new(81007078, "Kazama Elegant Police", "regular"),
+            new(81004026, "Kazama Elegant unmarked police", "regular"),
+            new(81001007, "Kazama Jiame", "regular"),
+            new(81004004, "Kazama NT-Comfort [undrivable]", "regular"),
+            new(81001016, "Kazama P300", "regular"),
+            new(81001002, "Korou RV6", "regular"),
+            new(81007001, "Korou RV6", "regular"),
+            new(81002007, "Pico Boxer Cat R", "regular"),
+            new(81007002, "Pico Boxer Cat R", "regular"),
+            new(81007011, "Pico Boxer Cat R", "regular"),
+            new(81007082, "Pico Boxer Cat R", "regular"),
+            new(81001017, "Pulse Type 3", "regular"),
+            new(81001013, "Smove S3", "regular"),
+            new(81001015, "Stahlwerk TengDa", "regular"),
+            new(81001008, "Sunset Asuka", "regular"),
+            new(81007084, "Sunset Asuka", "regular"),
+            new(81007077, "Sunset Asuka dirty", "regular"),
+            new(81001011, "Sunset NEO:E", "regular"),
+            new(81001001, "Sunset Spider", "regular"),
+            new(81007096, "Sunset Spider [broken]", "regular"),
+            new(81003001, "Sunset Traveler W7", "regular"),
+            new(81007019, "Sunset Traveler W7", "regular"),
+            new(81007021, "Sunset Traveler W7", "regular"),
+            new(81007041, "Sunset Traveler W7 [broken camera]", "regular"),
+            new(81003006, "Sunset XD", "regular"),
+            new(81007040, "Sunset XD [broken windshield]", "regular"),
+            new(81007076, "Sunset XD [undrivable]", "regular"),
+            new(81001018, "Sunset Tianyue", "regular"),
+            new(81007032, "Civic 2025 [unfinished]", "regular"),
+            
+            new(81001012, "Erebos SC53", "suv"),
+            new(81003016, "Kazama Kanu", "suv"),
+            new(81003004, "Sandstrom 70 stock", "suv"),
+            new(81003005, "Sandstrom 70 offroad", "suv"),
+            new(81007028, "Sandstrom 70 stock", "suv"),
+            new(81003010, "Sandstrom 70 enemy 2 seats", "suv"),
+            new(81003011, "Sandstrom 70 enemy 4 seats", "suv"),
+            new(81003013, "Highland Sandstrom 200", "suv"),
+            new(81007093, "Highland Sandstrom 200 [broken]", "suv"),
+            new(81004027, "Highland Sandstrom 200 police", "suv"),
+            new(81001019, "Traveler 3", "suv"),
+            new(81004033, "Traveler 3 patrol", "suv"),
+            new(81003012, "Wasteland pickup enemy", "suv"),
+            new(81005004, "Wasteland pickup", "suv"),
+            new(81003008, "Reiforce Jim", "suv"),
+            new(81003007, "Hilux-ish pickup", "suv"),
+            
+            new(81007009, "Freelander Yeti milk van", "van"),
+            new(81007095, "Freelander Yeti [broken anim]", "van"),
+            new(81003009, "Kazama Express Van", "van"),
+            new(81007063, "Kazama Express Van [undrivable]", "van"),
+            new(81001003, "Kazama Jialu", "van"),
+            new(81001020, "Normal20a", "van"),
+            new(81007073, "Kazama Jialu", "van"),
+            new(81007083, "Kazama Jialu", "van"),
+            new(81003002, "Kazama Kairo", "van"),
+            new(81004011, "Kazama Kairo ambulance", "van"),
+            new(81004013, "Korou MT600 bus", "van"),
+            
+            new(81000005, "Erebos BlackBox truck", "truck"),
+            new(81000004, "Firetruck", "truck"),
+            new(81004014, "Firetruck dirty", "truck"),
+            new(81007094, "Firetruck marine", "truck"),
+            new(81007012, "Firetruck [no water]", "truck"),
+            new(81004017, "Korou Cruze M stripped", "truck"),
+            new(81004018, "Korou Cruze M flatbed", "truck"),
+            new(81004019, "Korou Cruze M flatbed tow", "truck"),
+            new(81004020, "Korou Cruze M hook tow", "truck"),
+            new(81004022, "Korou Cruze cargo", "truck"),
+            new(81004024, "Korou Cruze L livestock", "truck"),
+            new(81004025, "Korou Cruze fridge", "truck"),
+            new(81007079, "Korou Cruze cargo [empty]", "truck"),
+            new(81007088, "Korou Cruze fridge [livery]", "truck"),
+            new(81007091, "Korou Cruze cargo [vault]", "truck"),
+            new(81007092, "Korou Cruze cargo", "truck"),
+            new(81004005, "Marine M300 mixer", "truck"),
+            new(81004006, "Marine M300 garbage", "truck"),
+            new(81004007, "Marine M300 hauler no trailer", "truck"),
+            new(81004008, "Marine M300 hauler + trailer", "truck"),
+            new(81004009, "Marine M300 hauler + trailer old", "truck"),
+            new(81004010, "Marine M300 tanker", "truck"),
+            new(81007035, "Marine M300 hauler", "truck"),
+            new(81007036, "Marine M300 hauler", "truck"),
+            new(81007042, "Marine M300 hauler", "truck"),
+            new(81004023, "Marine M500 enemy", "truck"),
+            new(81007053, "Marine M500 open", "truck"),
+            new(81007055, "Marine M500 closed", "truck"),
+            new(81004029, "Marine WL500 loader", "truck"),
+            new(81004012, "Forklift", "truck"),
+            new(81007075, "Motus Hercules + trailer", "truck"),
+            new(81003003, "Reiforce Lingtu", "truck"),
+            new(81003022, "Reiforce Lingtu", "truck"),
+            new(81007024, "Reiforce Lingtu", "truck"),
+            new(81007060, "Reiforce Lingtu", "truck"),
+            new(81004003, "Dump truck", "truck"),
+            
+            new(81006002, "Belkraft Dark Roast", "moto"),
+            new(81006007, "Belkraft Metal Knight enemy", "moto"),
+            new(81006006, "Shikage delivery scooter", "moto"),
+            new(81003015, "Shikage Junkrat quad", "moto"),
+            new(81004028, "Shikage Freelancer 800 police", "moto"),
+            new(81006003, "Shikage Excellent scooter", "moto"),
+            new(81007089, "Shikage Excellent scooter", "moto"),
+            new(81006010, "Shikage Freelancer 800", "moto"),
+            new(81006013, "Shikage SL550 dirt", "moto"),
+            new(81006011, "Sunset M125", "moto"),
+            new(81006012, "Sunset M125 bosozoku", "moto"),
+            new(81006009, "Sunset M125-T trike", "moto"),
+            
+            new(81006008, "SonicShark jetski", "water"),
+            new(81000010, "Speed Tour s200 boat", "water"),
+            new(81006005, "Speed Tour s200 boat", "water"),
+            
+            new(81006001, "Reed helicopter", "air"),
         ];
-
-        private static Entry[] All => all;
     }
 
-    /// <summary>
-    /// Pushes the FULL catalog (all entries incl. broken/unverified) as the owned
-    /// fleet. Explicit button-only action; the default auto-publish/resync stays on
-    /// the verified set (config fleetIds).
-    /// </summary>
+    
+    
+    
+    
+    
     private async Task<object> GarageUnlockAllAsync(CancellationToken token)
     {
         var session = hub.Current;
@@ -569,7 +658,7 @@ internal sealed class DebugApiServer(PrivateServerConfig config, GameSessionHub 
         if (target.EntityId == 0 || !target.HasFix)
             return new { ok = false, error = $"no live coordinates for entityId {entityId} (not tracked or never moved)" };
 
-        // Land behind the vehicle so the player does not spawn inside it.
+        
         var yawRad = target.Yaw * (float)Math.PI / 180f;
         var x = target.X - (float)Math.Sin(yawRad) * 3f;
         var z = target.Z - (float)Math.Cos(yawRad) * 3f;
@@ -834,7 +923,22 @@ internal sealed class DebugApiServer(PrivateServerConfig config, GameSessionHub 
 
     private static async Task WriteHtmlAsync(HttpListenerContext ctx, CancellationToken token)
     {
+        
+        
         var bytes = PanelHtml.Value;
+        foreach (var candidate in PanelHtmlDiskCandidates())
+        {
+            try
+            {
+                if (File.Exists(candidate))
+                {
+                    bytes = File.ReadAllBytes(candidate);
+                    break;
+                }
+            }
+            catch {  }
+        }
+
         ctx.Response.StatusCode = 200;
         ctx.Response.ContentType = "text/html; charset=utf-8";
         ctx.Response.ContentLength64 = bytes.Length;

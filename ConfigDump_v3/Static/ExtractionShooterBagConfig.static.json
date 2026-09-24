@@ -1,0 +1,213 @@
+{
+  "NormalCfg": {
+    "Id": 99952001,
+    "Name": "背包",
+    "GameplayType": 1,
+    "Type": 0,
+    "IsShow": true,
+    "AllowedItemTypes": [],
+    "Weight": 2,
+    "CarryWeightRise": 0,
+    "__IDX__Name": 4294967295,
+    "__RAW__Name": "背包",
+    "Capacity": {
+      "x": 4,
+      "y": 4
+    },
+    "SlotCapacity": {
+      "initial": 0,
+      "max": 0
+    }
+  },
+  "SafeBoxCfg": {
+    "Id": 99952002,
+    "Name": "安全箱",
+    "GameplayType": 1,
+    "Type": 1,
+    "IsShow": true,
+    "AllowedItemTypes": [],
+    "Weight": 0,
+    "CarryWeightRise": 0,
+    "__IDX__Name": 4294967295,
+    "__RAW__Name": "安全箱",
+    "Capacity": {
+      "x": 2,
+      "y": 1
+    },
+    "SlotCapacity": {
+      "initial": 0,
+      "max": 0
+    }
+  },
+  "InventoryCfg": {
+    "Id": 99952003,
+    "Name": "一号仓库",
+    "GameplayType": 1,
+    "Type": 2,
+    "IsShow": true,
+    "AllowedItemTypes": [],
+    "Weight": 0,
+    "CarryWeightRise": 0,
+    "__IDX__Name": 4294967295,
+    "__RAW__Name": "一号仓库",
+    "Capacity": {
+      "x": 7,
+      "y": 15
+    },
+    "SlotCapacity": {
+      "initial": 0,
+      "max": 0
+    }
+  },
+  "WheelWeaponCfg": {
+    "Id": 99952004,
+    "Name": "武器轮盘",
+    "GameplayType": 1,
+    "Type": 4,
+    "IsShow": true,
+    "AllowedItemTypes": [
+      1001,
+      1005,
+      1009,
+      1010,
+      1011,
+      1012
+    ],
+    "Weight": 0,
+    "CarryWeightRise": 0,
+    "__IDX__Name": 4294967295,
+    "__RAW__Name": "武器轮盘",
+    "Capacity": {
+      "x": 0,
+      "y": 0
+    },
+    "SlotCapacity": {
+      "initial": 8,
+      "max": 8
+    }
+  },
+  "StrengthenSlotCfg": {
+    "Id": 99952006,
+    "Name": "特殊战备",
+    "GameplayType": 1,
+    "Type": 5,
+    "IsShow": true,
+    "AllowedItemTypes": [
+      1003
+    ],
+    "Weight": 0,
+    "CarryWeightRise": 0,
+    "__IDX__Name": 4294967295,
+    "__RAW__Name": "特殊战备",
+    "Capacity": {
+      "x": 1,
+      "y": 1
+    },
+    "SlotCapacity": {
+      "initial": 1,
+      "max": 1
+    }
+  },
+  "ShieldSlotCfg": {
+    "Id": 99952007,
+    "Name": "扩容组件",
+    "GameplayType": 1,
+    "Type": 6,
+    "IsShow": true,
+    "AllowedItemTypes": [
+      1004
+    ],
+    "Weight": 0,
+    "CarryWeightRise": 0,
+    "__IDX__Name": 4294967295,
+    "__RAW__Name": "扩容组件",
+    "Capacity": {
+      "x": 1,
+      "y": 1
+    },
+    "SlotCapacity": {
+      "initial": 1,
+      "max": 1
+    }
+  },
+  "Inventory2Cfg": {
+    "Id": 99952008,
+    "Name": "二号仓库",
+    "GameplayType": 1,
+    "Type": 2,
+    "IsShow": true,
+    "AllowedItemTypes": [],
+    "Weight": 0,
+    "CarryWeightRise": 0,
+    "__IDX__Name": 4294967295,
+    "__RAW__Name": "二号仓库",
+    "Capacity": {
+      "x": 7,
+      "y": 5
+    },
+    "SlotCapacity": {
+      "initial": 0,
+      "max": 0
+    }
+  },
+  "Inventory3Cfg": {
+    "Id": 99952009,
+    "Name": "三号仓库",
+    "GameplayType": 1,
+    "Type": 2,
+    "IsShow": true,
+    "AllowedItemTypes": [],
+    "Weight": 0,
+    "CarryWeightRise": 0,
+    "__IDX__Name": 4294967295,
+    "__RAW__Name": "三号仓库",
+    "Capacity": {
+      "x": 7,
+      "y": 5
+    },
+    "SlotCapacity": {
+      "initial": 0,
+      "max": 0
+    }
+  },
+  "Inventory4Cfg": {
+    "Id": 99952010,
+    "Name": "四号仓库",
+    "GameplayType": 1,
+    "Type": 2,
+    "IsShow": true,
+    "AllowedItemTypes": [],
+    "Weight": 0,
+    "CarryWeightRise": 0,
+    "__IDX__Name": 4294967295,
+    "__RAW__Name": "四号仓库",
+    "Capacity": {
+      "x": 7,
+      "y": 5
+    },
+    "SlotCapacity": {
+      "initial": 0,
+      "max": 0
+    }
+  },
+  "Inventory5Cfg": {
+    "Id": 99952011,
+    "Name": "五号仓库",
+    "GameplayType": 1,
+    "Type": 2,
+    "IsShow": true,
+    "AllowedItemTypes": [],
+    "Weight": 0,
+    "CarryWeightRise": 0,
+    "__IDX__Name": 4294967295,
+    "__RAW__Name": "五号仓库",
+    "Capacity": {
+      "x": 7,
+      "y": 5
+    },
+    "SlotCapacity": {
+      "initial": 0,
+      "max": 0
+    }
+  }
+}

@@ -1,0 +1,1637 @@
+{
+  "_class": "ClientDetonatorConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 60,
+  "records": [
+    {
+      "Id": 58100001,
+      "UseOldData": 1,
+      "Event": 11001,
+      "EventParamList": [],
+      "EventConditionOP": 0,
+      "Action": 21001,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [],
+      "ActionFloatParamList": [
+        0.5,
+        -1
+      ],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100002,
+      "UseOldData": 0,
+      "Event": 11001,
+      "EventParamList": [],
+      "EventConditionOP": 0,
+      "Action": 21002,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [],
+      "ActionFloatParamList": [
+        0.100000001,
+        0.100000001,
+        1,
+        0
+      ],
+      "ActionStringParamList": [
+        "A106001_charge03_hammer_idle",
+        "High"
+      ],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100003,
+      "UseOldData": 0,
+      "Event": 11001,
+      "EventParamList": [],
+      "EventConditionOP": 0,
+      "Action": 21003,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [],
+      "ActionFloatParamList": [
+        0.100000001,
+        0.100000001
+      ],
+      "ActionStringParamList": [
+        "A106001_charge02_hammer_idle"
+      ],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100004,
+      "UseOldData": 0,
+      "Event": 11004,
+      "EventParamList": [
+        0
+      ],
+      "EventConditionOP": 0,
+      "Action": 21005,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [
+        51935242
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": true,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100005,
+      "UseOldData": 0,
+      "Event": 11004,
+      "EventParamList": [
+        0
+      ],
+      "EventConditionOP": 0,
+      "Action": 21005,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [
+        1,
+        80003410,
+        80003411
+      ],
+      "ActionIntParamList": [
+        51936742
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": [
+        {
+          "conditionID": 31003,
+          "conditionTarget": 0,
+          "conditionOP": 0,
+          "paramBegin": 0,
+          "paramEnd": 1
+        },
+        {
+          "conditionID": 31006,
+          "conditionTarget": 0,
+          "conditionOP": 0,
+          "paramBegin": 1,
+          "paramEnd": 3
+        }
+      ]
+    },
+    {
+      "Id": 58100006,
+      "UseOldData": 0,
+      "Event": 11001,
+      "EventParamList": [],
+      "EventConditionOP": 0,
+      "Action": 21006,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [
+        -1
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100007,
+      "UseOldData": 0,
+      "Event": 11001,
+      "EventParamList": [],
+      "EventConditionOP": 0,
+      "Action": 21002,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [],
+      "ActionFloatParamList": [
+        0.100000001,
+        0.100000001,
+        1,
+        0
+      ],
+      "ActionStringParamList": [
+        "A106001_discolight_start01",
+        "High",
+        "dj_A701001_106001_gm_lightMask"
+      ],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100008,
+      "UseOldData": 0,
+      "Event": 11001,
+      "EventParamList": [],
+      "EventConditionOP": 0,
+      "Action": 21002,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [],
+      "ActionFloatParamList": [
+        0.100000001,
+        0.100000001,
+        1,
+        0
+      ],
+      "ActionStringParamList": [
+        "A106001_discolight_end01",
+        "High",
+        "dj_A701001_106001_gm_lightMask"
+      ],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100009,
+      "UseOldData": 0,
+      "Event": 11001,
+      "EventParamList": [],
+      "EventConditionOP": 0,
+      "Action": 21002,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [],
+      "ActionFloatParamList": [
+        0.100000001,
+        0.100000001,
+        1,
+        0.200000003
+      ],
+      "ActionStringParamList": [
+        "A106001_discolight_loop01",
+        "High",
+        "dj_A701001_106001_gm_lightMask"
+      ],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100010,
+      "UseOldData": 0,
+      "Event": 11001,
+      "EventParamList": [],
+      "EventConditionOP": 0,
+      "Action": 21007,
+      "ActionTarget": 1,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [],
+      "ActionFloatParamList": [
+        -1.17999995,
+        0,
+        -0.200000003,
+        0,
+        0,
+        0
+      ],
+      "ActionStringParamList": [
+        "shieldslot"
+      ],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100011,
+      "UseOldData": 0,
+      "Event": 11015,
+      "EventParamList": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "EventConditionOP": 0,
+      "Action": 21008,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100012,
+      "UseOldData": 1,
+      "Event": 11002,
+      "EventParamList": [],
+      "EventConditionOP": 0,
+      "Action": 21004,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100013,
+      "UseOldData": 1,
+      "Event": 11001,
+      "EventParamList": [],
+      "EventConditionOP": 0,
+      "Action": 21009,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100014,
+      "UseOldData": 1,
+      "Event": 11001,
+      "EventParamList": [],
+      "EventConditionOP": 0,
+      "Action": 21010,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100015,
+      "UseOldData": 1,
+      "Event": 11001,
+      "EventParamList": [],
+      "EventConditionOP": 0,
+      "Action": 21011,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [
+        1,
+        1
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [
+        "ShieldCollider",
+        "ShieldHitCollider"
+      ],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100016,
+      "UseOldData": 0,
+      "Event": 11001,
+      "EventParamList": [],
+      "EventConditionOP": 0,
+      "Action": 21012,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [
+        8
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100017,
+      "UseOldData": 0,
+      "Event": 11001,
+      "EventParamList": [],
+      "EventConditionOP": 0,
+      "Action": 21012,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [
+        9
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100018,
+      "UseOldData": 0,
+      "Event": 11016,
+      "EventParamList": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        3982,
+        1,
+        2097152
+      ],
+      "EventConditionOP": 0,
+      "Action": 21013,
+      "ActionTarget": 3,
+      "ConditionRelation": 0,
+      "ConditionParamList": [
+        52980177,
+        52980178,
+        52980179,
+        10529
+      ],
+      "ActionIntParamList": [
+        55007196,
+        3
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": [
+        {
+          "conditionID": 31002,
+          "conditionTarget": 0,
+          "conditionOP": 1,
+          "paramBegin": 0,
+          "paramEnd": 3
+        },
+        {
+          "conditionID": 31004,
+          "conditionTarget": 0,
+          "conditionOP": 1,
+          "paramBegin": 3,
+          "paramEnd": 4
+        }
+      ]
+    },
+    {
+      "Id": 58100019,
+      "UseOldData": 0,
+      "Event": 11019,
+      "EventParamList": [],
+      "EventConditionOP": 0,
+      "Action": 21014,
+      "ActionTarget": 2,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [
+        0,
+        0
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [
+        "test"
+      ],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100020,
+      "UseOldData": 0,
+      "Event": 11022,
+      "EventParamList": [],
+      "EventConditionOP": 0,
+      "Action": 21014,
+      "ActionTarget": 2,
+      "ConditionRelation": 0,
+      "ConditionParamList": [
+        340
+      ],
+      "ActionIntParamList": [
+        0,
+        0
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [
+        "test"
+      ],
+      "HasServerAction": false,
+      "ConditionInstanceList": [
+        {
+          "conditionID": 31004,
+          "conditionTarget": 3,
+          "conditionOP": 0,
+          "paramBegin": 0,
+          "paramEnd": 1
+        }
+      ]
+    },
+    {
+      "Id": 58100021,
+      "UseOldData": 0,
+      "Event": 11016,
+      "EventParamList": [
+        0,
+        -135,
+        135,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        15
+      ],
+      "EventConditionOP": 0,
+      "Action": 21013,
+      "ActionTarget": 3,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [
+        55007196
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100022,
+      "UseOldData": 0,
+      "Event": 11015,
+      "EventParamList": [
+        0,
+        -135,
+        135,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "EventConditionOP": 1,
+      "Action": 21015,
+      "ActionTarget": 2,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [
+        1,
+        52980178
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100023,
+      "UseOldData": 0,
+      "Event": 11016,
+      "EventParamList": [
+        0,
+        -135,
+        135,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "EventConditionOP": 1,
+      "Action": 21013,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [
+        52980177,
+        52980179
+      ],
+      "ActionIntParamList": [
+        55007198
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": [
+        {
+          "conditionID": 31002,
+          "conditionTarget": 0,
+          "conditionOP": 1,
+          "paramBegin": 0,
+          "paramEnd": 2
+        }
+      ]
+    },
+    {
+      "Id": 58100024,
+      "UseOldData": 0,
+      "Event": 11016,
+      "EventParamList": [
+        0,
+        -113,
+        -67,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        112
+      ],
+      "EventConditionOP": 1,
+      "Action": 21013,
+      "ActionTarget": 3,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [
+        55007196
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100025,
+      "UseOldData": 0,
+      "Event": 11015,
+      "EventParamList": [
+        0,
+        -135,
+        -45,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "EventConditionOP": 0,
+      "Action": 21015,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [
+        1,
+        52980179
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100026,
+      "UseOldData": 0,
+      "Event": 11016,
+      "EventParamList": [
+        0,
+        -113,
+        -67,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "EventConditionOP": 0,
+      "Action": 21013,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [
+        52980177,
+        52980178
+      ],
+      "ActionIntParamList": [
+        55007198
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": [
+        {
+          "conditionID": 31002,
+          "conditionTarget": 0,
+          "conditionOP": 1,
+          "paramBegin": 0,
+          "paramEnd": 2
+        }
+      ]
+    },
+    {
+      "Id": 58100027,
+      "UseOldData": 0,
+      "Event": 11016,
+      "EventParamList": [
+        0,
+        45,
+        135,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        112
+      ],
+      "EventConditionOP": 1,
+      "Action": 21013,
+      "ActionTarget": 3,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [
+        55007196
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100028,
+      "UseOldData": 0,
+      "Event": 11015,
+      "EventParamList": [
+        0,
+        45,
+        135,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "EventConditionOP": 0,
+      "Action": 21015,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [
+        1,
+        52980177
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100029,
+      "UseOldData": 0,
+      "Event": 11016,
+      "EventParamList": [
+        0,
+        45,
+        135,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "EventConditionOP": 0,
+      "Action": 21013,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [
+        52980178,
+        52980179
+      ],
+      "ActionIntParamList": [
+        55007198
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": [
+        {
+          "conditionID": 31002,
+          "conditionTarget": 0,
+          "conditionOP": 1,
+          "paramBegin": 0,
+          "paramEnd": 2
+        }
+      ]
+    },
+    {
+      "Id": 58100030,
+      "UseOldData": 0,
+      "Event": 11015,
+      "EventParamList": [
+        0,
+        -135,
+        135,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "EventConditionOP": 1,
+      "Action": 21015,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [
+        52980177,
+        52980179
+      ],
+      "ActionIntParamList": [
+        1,
+        52980172
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": [
+        {
+          "conditionID": 31002,
+          "conditionTarget": 0,
+          "conditionOP": 1,
+          "paramBegin": 0,
+          "paramEnd": 2
+        }
+      ]
+    },
+    {
+      "Id": 58100031,
+      "UseOldData": 0,
+      "Event": 11015,
+      "EventParamList": [
+        0,
+        -135,
+        -45,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "EventConditionOP": 0,
+      "Action": 21015,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [
+        52980177,
+        52980178
+      ],
+      "ActionIntParamList": [
+        1,
+        52980172
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": [
+        {
+          "conditionID": 31002,
+          "conditionTarget": 0,
+          "conditionOP": 1,
+          "paramBegin": 0,
+          "paramEnd": 2
+        }
+      ]
+    },
+    {
+      "Id": 58100032,
+      "UseOldData": 0,
+      "Event": 11015,
+      "EventParamList": [
+        0,
+        45,
+        135,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "EventConditionOP": 0,
+      "Action": 21015,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [
+        52980178,
+        52980179
+      ],
+      "ActionIntParamList": [
+        1,
+        52980172
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": [
+        {
+          "conditionID": 31002,
+          "conditionTarget": 0,
+          "conditionOP": 1,
+          "paramBegin": 0,
+          "paramEnd": 2
+        }
+      ]
+    },
+    {
+      "Id": 58100033,
+      "UseOldData": 0,
+      "Event": 11001,
+      "EventParamList": [],
+      "EventConditionOP": 0,
+      "Action": 21008,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100034,
+      "UseOldData": 0,
+      "Event": 11016,
+      "EventParamList": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2097152
+      ],
+      "EventConditionOP": 0,
+      "Action": 21017,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [
+        369
+      ],
+      "ActionIntParamList": [
+        0,
+        1,
+        0,
+        3,
+        2,
+        53220307
+      ],
+      "ActionFloatParamList": [
+        5
+      ],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": [
+        {
+          "conditionID": 31004,
+          "conditionTarget": 0,
+          "conditionOP": 1,
+          "paramBegin": 0,
+          "paramEnd": 1
+        }
+      ]
+    },
+    {
+      "Id": 58100035,
+      "UseOldData": 0,
+      "Event": 11015,
+      "EventParamList": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2046,
+        0,
+        0
+      ],
+      "EventConditionOP": 0,
+      "Action": 21001,
+      "ActionTarget": 3,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [],
+      "ActionFloatParamList": [
+        0,
+        0.100000001
+      ],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100036,
+      "UseOldData": 0,
+      "Event": 11004,
+      "EventParamList": [
+        0
+      ],
+      "EventConditionOP": 0,
+      "Action": 21017,
+      "ActionTarget": 0,
+      "ConditionRelation": 1,
+      "ConditionParamList": [
+        1,
+        80003410,
+        80003411
+      ],
+      "ActionIntParamList": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ActionFloatParamList": [
+        0.100000001
+      ],
+      "ActionStringParamList": [],
+      "HasServerAction": true,
+      "ConditionInstanceList": [
+        {
+          "conditionID": 31003,
+          "conditionTarget": 0,
+          "conditionOP": 0,
+          "paramBegin": 0,
+          "paramEnd": 1
+        },
+        {
+          "conditionID": 31006,
+          "conditionTarget": 0,
+          "conditionOP": 0,
+          "paramBegin": 1,
+          "paramEnd": 3
+        }
+      ]
+    },
+    {
+      "Id": 58100037,
+      "UseOldData": 0,
+      "Event": 11010,
+      "EventParamList": [],
+      "EventConditionOP": 0,
+      "Action": 21001,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [
+        370
+      ],
+      "ActionIntParamList": [],
+      "ActionFloatParamList": [
+        0.5,
+        0.25
+      ],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": [
+        {
+          "conditionID": 31004,
+          "conditionTarget": 0,
+          "conditionOP": 0,
+          "paramBegin": 0,
+          "paramEnd": 1
+        }
+      ]
+    },
+    {
+      "Id": 58100038,
+      "UseOldData": 0,
+      "Event": 11010,
+      "EventParamList": [],
+      "EventConditionOP": 0,
+      "Action": 21015,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [
+        370
+      ],
+      "ActionIntParamList": [
+        0,
+        52815003
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": [
+        {
+          "conditionID": 31004,
+          "conditionTarget": 0,
+          "conditionOP": 0,
+          "paramBegin": 0,
+          "paramEnd": 1
+        }
+      ]
+    },
+    {
+      "Id": 58100039,
+      "UseOldData": 0,
+      "Event": 11001,
+      "EventParamList": [],
+      "EventConditionOP": 0,
+      "Action": 21019,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [
+        5
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100040,
+      "UseOldData": 0,
+      "Event": 11021,
+      "EventParamList": [],
+      "EventConditionOP": 0,
+      "Action": 21017,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [
+        51939429
+      ],
+      "ActionIntParamList": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        53212807
+      ],
+      "ActionFloatParamList": [
+        0.100000001
+      ],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": [
+        {
+          "conditionID": 31005,
+          "conditionTarget": 0,
+          "conditionOP": 1,
+          "paramBegin": 0,
+          "paramEnd": 1
+        }
+      ]
+    },
+    {
+      "Id": 58100041,
+      "UseOldData": 0,
+      "Event": 11021,
+      "EventParamList": [],
+      "EventConditionOP": 0,
+      "Action": 21017,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [
+        51939429
+      ],
+      "ActionIntParamList": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ActionFloatParamList": [
+        0.200000003
+      ],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": [
+        {
+          "conditionID": 31005,
+          "conditionTarget": 0,
+          "conditionOP": 1,
+          "paramBegin": 0,
+          "paramEnd": 1
+        }
+      ]
+    },
+    {
+      "Id": 58100042,
+      "UseOldData": 0,
+      "Event": 11001,
+      "EventParamList": [],
+      "EventConditionOP": 0,
+      "Action": 21020,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100043,
+      "UseOldData": 0,
+      "Event": 11016,
+      "EventParamList": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        2046,
+        1,
+        2097152
+      ],
+      "EventConditionOP": 0,
+      "Action": 21013,
+      "ActionTarget": 3,
+      "ConditionRelation": 0,
+      "ConditionParamList": [
+        52980177,
+        52980178,
+        52980179,
+        10529
+      ],
+      "ActionIntParamList": [
+        55007389,
+        1
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": [
+        {
+          "conditionID": 31002,
+          "conditionTarget": 0,
+          "conditionOP": 1,
+          "paramBegin": 0,
+          "paramEnd": 3
+        },
+        {
+          "conditionID": 31004,
+          "conditionTarget": 0,
+          "conditionOP": 1,
+          "paramBegin": 3,
+          "paramEnd": 4
+        }
+      ]
+    },
+    {
+      "Id": 58100044,
+      "UseOldData": 0,
+      "Event": 11015,
+      "EventParamList": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2046,
+        0,
+        0
+      ],
+      "EventConditionOP": 0,
+      "Action": 21005,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [
+        219
+      ],
+      "ActionIntParamList": [
+        51935636
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": [
+        {
+          "conditionID": 31008,
+          "conditionTarget": 0,
+          "conditionOP": 0,
+          "paramBegin": 0,
+          "paramEnd": 1
+        }
+      ]
+    },
+    {
+      "Id": 58100045,
+      "UseOldData": 0,
+      "Event": 11001,
+      "EventParamList": [],
+      "EventConditionOP": 0,
+      "Action": 21024,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [
+        0,
+        39000003,
+        80003410
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100046,
+      "UseOldData": 0,
+      "Event": 11001,
+      "EventParamList": [],
+      "EventConditionOP": 0,
+      "Action": 21021,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [
+        86090185
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100047,
+      "UseOldData": 0,
+      "Event": 0,
+      "EventParamList": [],
+      "EventConditionOP": 0,
+      "Action": 0,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100048,
+      "UseOldData": 0,
+      "Event": 11001,
+      "EventParamList": [],
+      "EventConditionOP": 0,
+      "Action": 21025,
+      "ActionTarget": 1,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [],
+      "ActionFloatParamList": [
+        0.5
+      ],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100049,
+      "UseOldData": 0,
+      "Event": 11001,
+      "EventParamList": [],
+      "EventConditionOP": 0,
+      "Action": 21022,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [
+        51,
+        124
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100050,
+      "UseOldData": 0,
+      "Event": 11004,
+      "EventParamList": [
+        52601905
+      ],
+      "EventConditionOP": 0,
+      "Action": 21022,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [
+        51,
+        0
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100051,
+      "UseOldData": 0,
+      "Event": 11025,
+      "EventParamList": [
+        0
+      ],
+      "EventConditionOP": 0,
+      "Action": 21015,
+      "ActionTarget": 3,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [
+        1,
+        52601826
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100052,
+      "UseOldData": 0,
+      "Event": 11025,
+      "EventParamList": [
+        0
+      ],
+      "EventConditionOP": 0,
+      "Action": 21015,
+      "ActionTarget": 3,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [
+        1,
+        52601827
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100053,
+      "UseOldData": 0,
+      "Event": 11001,
+      "EventParamList": [],
+      "EventConditionOP": 0,
+      "Action": 21022,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [
+        67,
+        125
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100054,
+      "UseOldData": 0,
+      "Event": 11004,
+      "EventParamList": [
+        0
+      ],
+      "EventConditionOP": 0,
+      "Action": 21022,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [
+        67,
+        0
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100055,
+      "UseOldData": 0,
+      "Event": 11001,
+      "EventParamList": [],
+      "EventConditionOP": 0,
+      "Action": 21007,
+      "ActionTarget": 1,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [],
+      "ActionFloatParamList": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ActionStringParamList": [
+        "HeadSlot"
+      ],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100056,
+      "UseOldData": 0,
+      "Event": 11001,
+      "EventParamList": [],
+      "EventConditionOP": 0,
+      "Action": 21021,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [
+        86963146
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100057,
+      "UseOldData": 0,
+      "Event": 11001,
+      "EventParamList": [],
+      "EventConditionOP": 0,
+      "Action": 21021,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [
+        86963147
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100058,
+      "UseOldData": 0,
+      "Event": 11001,
+      "EventParamList": [],
+      "EventConditionOP": 0,
+      "Action": 21021,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [
+        86963148
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100059,
+      "UseOldData": 0,
+      "Event": 11001,
+      "EventParamList": [],
+      "EventConditionOP": 0,
+      "Action": 21021,
+      "ActionTarget": 0,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [
+        86963149
+      ],
+      "ActionFloatParamList": [],
+      "ActionStringParamList": [],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    },
+    {
+      "Id": 58100060,
+      "UseOldData": 0,
+      "Event": 11001,
+      "EventParamList": [],
+      "EventConditionOP": 0,
+      "Action": 21007,
+      "ActionTarget": 1,
+      "ConditionRelation": 0,
+      "ConditionParamList": [],
+      "ActionIntParamList": [],
+      "ActionFloatParamList": [
+        0,
+        -0.216999993,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ActionStringParamList": [
+        "Dog_point"
+      ],
+      "HasServerAction": false,
+      "ConditionInstanceList": []
+    }
+  ],
+  "_dumpedCount": 60,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

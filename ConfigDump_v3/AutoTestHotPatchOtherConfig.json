@@ -1,0 +1,34 @@
+{
+  "_class": "AutoTestHotPatchOtherConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 4,
+  "records": [
+    {
+      "Id": 10069881,
+      "ConfigName": "Action_主角",
+      "ChangeData": "LayerIndex:1|FootEffectId:{70340002}|FootPlayPer:{0,0.5,1}|AniName:'airdash03_test'",
+      "RelatedId": 54200335
+    },
+    {
+      "Id": 10069882,
+      "ConfigName": "Action_主角",
+      "ChangeData": "LayerIndex:1|FootEffectId:{70340002}|FootPlayPer:{0,0.5,1}|AniName:'swing_pose_left03_test'",
+      "RelatedId": 54200678
+    },
+    {
+      "Id": 10069883,
+      "ConfigName": "MatrixItem",
+      "ChangeData": "SeriesId:91700200",
+      "RelatedId": 91400800
+    },
+    {
+      "Id": 10069884,
+      "ConfigName": "MatrixItem",
+      "ChangeData": "SeriesId:91700034",
+      "RelatedId": 91400600
+    }
+  ],
+  "_dumpedCount": 4,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

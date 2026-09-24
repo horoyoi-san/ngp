@@ -1,0 +1,50 @@
+{
+  "_class": "DivinerCustomerMoodConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 5,
+  "records": [
+    {
+      "Id": 1,
+      "name": "平静",
+      "MoodBasicPatience": 3,
+      "Icon": 28001196,
+      "des": "心情平静，毫无波澜。",
+      "MoodSkill": 0
+    },
+    {
+      "Id": 2,
+      "name": "愤怒",
+      "MoodBasicPatience": 0,
+      "Icon": 28001196,
+      "des": "每次回合开始减一耐心值",
+      "MoodSkill": 0
+    },
+    {
+      "Id": 3,
+      "name": "悲伤",
+      "MoodBasicPatience": 1,
+      "Icon": 28001196,
+      "des": "每回合开始信服度-2",
+      "MoodSkill": 0
+    },
+    {
+      "Id": 4,
+      "name": "恐惧",
+      "MoodBasicPatience": 1,
+      "Icon": 28001196,
+      "des": "每回合增加1点护盾值",
+      "MoodSkill": 0
+    },
+    {
+      "Id": 5,
+      "name": "紧张",
+      "MoodBasicPatience": 2,
+      "Icon": 28001196,
+      "des": "每回合起手解读条数-1",
+      "MoodSkill": 0
+    }
+  ],
+  "_dumpedCount": 5,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

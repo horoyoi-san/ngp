@@ -1,0 +1,79 @@
+{
+  "_class": "ClientPoiActionConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 4,
+  "records": [
+    {
+      "Id": 50030,
+      "Name": "站姿_通用_路边闲置动作组",
+      "BaseID": 5003,
+      "POIcompoments": [
+        50031,
+        50032,
+        50032,
+        50033,
+        50034
+      ],
+      "Runway": 0,
+      "Runtime": 0,
+      "SingerRunTime": {
+        "min": 1,
+        "max": 3
+      }
+    },
+    {
+      "Id": 50040,
+      "Name": "坐姿049_通用_椅子无扶手闲置动作组_测试用例1",
+      "BaseID": 5004,
+      "POIcompoments": [
+        50041,
+        50042,
+        50042,
+        50043,
+        50044
+      ],
+      "Runway": 1,
+      "Runtime": 0,
+      "SingerRunTime": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 500401,
+      "Name": "坐姿049_通用_椅子无扶手闲置动作组_测试用例2",
+      "BaseID": 5004,
+      "POIcompoments": [
+        50041,
+        50042,
+        50042,
+        50043,
+        50044
+      ],
+      "Runway": 1,
+      "Runtime": 2,
+      "SingerRunTime": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "Id": 500402,
+      "Name": "仰卧起坐",
+      "BaseID": 200083,
+      "POIcompoments": [
+        200087,
+        200088
+      ],
+      "Runway": 1,
+      "Runtime": 0,
+      "SingerRunTime": {
+        "min": 0,
+        "max": 0
+      }
+    }
+  ],
+  "_dumpedCount": 4,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -1,0 +1,62 @@
+{
+  "_class": "InstrumentTaikoConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 4,
+  "records": [
+    {
+      "Id": 1,
+      "MusicalNote": "lefthit",
+      "PlatformOnly": 0,
+      "GamePadPage": 1,
+      "AudioID": 70320108,
+      "PCKeyId": 2,
+      "GamePadId": 1,
+      "BelongArea": {
+        "hand": 1,
+        "weight": 0
+      }
+    },
+    {
+      "Id": 2,
+      "MusicalNote": "righthit",
+      "PlatformOnly": 0,
+      "GamePadPage": 1,
+      "AudioID": 70320109,
+      "PCKeyId": 3,
+      "GamePadId": 2,
+      "BelongArea": {
+        "hand": 1,
+        "weight": 0
+      }
+    },
+    {
+      "Id": 3,
+      "MusicalNote": "leftrim",
+      "PlatformOnly": 0,
+      "GamePadPage": 1,
+      "AudioID": 70320110,
+      "PCKeyId": 4,
+      "GamePadId": 3,
+      "BelongArea": {
+        "hand": 1,
+        "weight": 0
+      }
+    },
+    {
+      "Id": 4,
+      "MusicalNote": "rightrim",
+      "PlatformOnly": 0,
+      "GamePadPage": 1,
+      "AudioID": 70320111,
+      "PCKeyId": 5,
+      "GamePadId": 4,
+      "BelongArea": {
+        "hand": 1,
+        "weight": 0
+      }
+    }
+  ],
+  "_dumpedCount": 4,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

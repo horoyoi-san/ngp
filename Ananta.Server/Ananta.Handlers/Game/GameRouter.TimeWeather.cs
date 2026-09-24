@@ -6,12 +6,6 @@ using GameMethods = Ananta.Server.RpcTypes.Client4229938.Methods.Game;
 
 namespace Ananta.Server.Handlers.Game;
 
-/// <summary>
-/// Time + weather. The client runs its clock/atmosphere locally; these handlers make
-/// the in-game time UI work (accept + remember) and the debug panel can force it:
-/// time via SyncPlayerCurrentTime (proto-verified shape). Stored per session,
-/// re-pushed after every load.
-/// </summary>
 internal sealed partial class GameRouter
 {
     internal static WorldEntryState? GetStateIfExists(TcpSession session)
@@ -55,7 +49,7 @@ internal sealed partial class GameRouter
                 fix = fix,
                 isPause = false,
                 transitionSecond = transition,
-                reason = 0, // RaidTimeAndWeatherChangeReason.Gm
+                reason = 0, 
                 nodeId = 0,
             }), CancellationToken.None);
         session.Log.Info($"[TIME] push {hour:D2}:{minute:D2} fix={fix} transition={transition}s");

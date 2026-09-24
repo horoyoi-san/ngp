@@ -1,0 +1,75 @@
+{
+  "_class": "VehicleAIIndividualStrategiesConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 13,
+  "records": [
+    {
+      "Id": 1,
+      "Type": 0,
+      "Strategy": "GroupAttack"
+    },
+    {
+      "Id": 2,
+      "Type": 0,
+      "Strategy": "GroupTracing"
+    },
+    {
+      "Id": 3,
+      "Type": 0,
+      "Strategy": "LeaderAttack"
+    },
+    {
+      "Id": 4,
+      "Type": 0,
+      "Strategy": "LeaderFeignAttack"
+    },
+    {
+      "Id": 5,
+      "Type": 0,
+      "Strategy": "LeaderIntercept"
+    },
+    {
+      "Id": 6,
+      "Type": 0,
+      "Strategy": "LeaderParallel"
+    },
+    {
+      "Id": 7,
+      "Type": 1,
+      "Strategy": "Attacker"
+    },
+    {
+      "Id": 8,
+      "Type": 1,
+      "Strategy": "FakeSmasher"
+    },
+    {
+      "Id": 9,
+      "Type": 1,
+      "Strategy": "Intercept"
+    },
+    {
+      "Id": 10,
+      "Type": 1,
+      "Strategy": "Parallel"
+    },
+    {
+      "Id": 11,
+      "Type": 1,
+      "Strategy": "RearEnd"
+    },
+    {
+      "Id": 12,
+      "Type": 1,
+      "Strategy": "TrackerClose"
+    },
+    {
+      "Id": 13,
+      "Type": 1,
+      "Strategy": "TrackerDistant"
+    }
+  ],
+  "_dumpedCount": 13,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -1,0 +1,3899 @@
+{
+  "_class": "AgentAgentSpecificTypeConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 148,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "默认",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": false,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 2,
+      "Name": "男主",
+      "HeadIcon": [
+        28000043
+      ],
+      "HeadBgColor": "F67043",
+      "PhoneId": 0,
+      "VoiceTone": "player##longaotian",
+      "QImageId": 30301404,
+      "SImageId": 28005241,
+      "ImageScaleOffset": [
+        0.560000002,
+        5,
+        -538
+      ],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140030,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 3,
+      "Name": "女主",
+      "HeadIcon": [
+        28000042
+      ],
+      "HeadBgColor": "F67043",
+      "PhoneId": 0,
+      "VoiceTone": "youzhi##ziweichen",
+      "QImageId": 30301404,
+      "SImageId": 28005242,
+      "ImageScaleOffset": [
+        0.560000002,
+        5,
+        -539
+      ],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140031,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 4,
+      "Name": "嘉姆",
+      "HeadIcon": [
+        28000039
+      ],
+      "HeadBgColor": "B23E4E",
+      "PhoneId": 111111126,
+      "VoiceTone": "garm##game3_41",
+      "QImageId": 28009037,
+      "SImageId": 28002647,
+      "ImageScaleOffset": [
+        1,
+        0,
+        -59.7000008
+      ],
+      "ProfileId": 38000008,
+      "PoliceTask": 60000544,
+      "FightScore": 4000,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140032,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100068589,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002202,
+          "endDialogId": 100068632
+        },
+        {
+          "dialogId": 100049785,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002203,
+          "endDialogId": 100050712
+        },
+        {
+          "dialogId": 100049790,
+          "interactId": 11,
+          "tuiteId": 64500,
+          "profileRewardId": 38002911,
+          "endDialogId": 100050713
+        }
+      ]
+    },
+    {
+      "Id": 5,
+      "Name": "凛",
+      "HeadIcon": [
+        28000027
+      ],
+      "HeadBgColor": "3E5669",
+      "PhoneId": 12000023,
+      "VoiceTone": "",
+      "QImageId": 28017141,
+      "SImageId": 28000696,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -53
+      ],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140033,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100070434,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002257,
+          "endDialogId": 100070435
+        },
+        {
+          "dialogId": 100070436,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002258,
+          "endDialogId": 100070437
+        },
+        {
+          "dialogId": 100070438,
+          "interactId": 11,
+          "tuiteId": 64536,
+          "profileRewardId": 38002259,
+          "endDialogId": 100070439
+        }
+      ]
+    },
+    {
+      "Id": 6,
+      "Name": "班茜",
+      "HeadIcon": [
+        28000036
+      ],
+      "HeadBgColor": "AC528E",
+      "PhoneId": 111111125,
+      "VoiceTone": "",
+      "QImageId": 28000791,
+      "SImageId": 28002653,
+      "ImageScaleOffset": [
+        1,
+        0,
+        -59.7000008
+      ],
+      "ProfileId": 38000013,
+      "PoliceTask": 60000536,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140034,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100050760,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002208,
+          "endDialogId": 100050761
+        },
+        {
+          "dialogId": 100069599,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002209,
+          "endDialogId": 100069598
+        },
+        {
+          "dialogId": 100050766,
+          "interactId": 11,
+          "tuiteId": 64511,
+          "profileRewardId": 38002210,
+          "endDialogId": 100050767
+        }
+      ]
+    },
+    {
+      "Id": 7,
+      "Name": "塔菲",
+      "HeadIcon": [
+        28000037
+      ],
+      "HeadBgColor": "009886",
+      "PhoneId": 111111122,
+      "VoiceTone": "taffy##ringo",
+      "QImageId": 28000796,
+      "SImageId": 28002650,
+      "ImageScaleOffset": [
+        1,
+        3,
+        0
+      ],
+      "ProfileId": 38000002,
+      "PoliceTask": 0,
+      "FightScore": 4000,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140035,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 8,
+      "Name": "狄菈",
+      "HeadIcon": [
+        28000026
+      ],
+      "HeadBgColor": "5846A7",
+      "PhoneId": 111111116,
+      "VoiceTone": "dila##lishishi",
+      "QImageId": 28000792,
+      "SImageId": 28002646,
+      "ImageScaleOffset": [
+        1,
+        0,
+        -53
+      ],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140036,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100050676,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002108,
+          "endDialogId": 100050677
+        },
+        {
+          "dialogId": 100050682,
+          "interactId": 11,
+          "tuiteId": 64502,
+          "profileRewardId": 38002902,
+          "endDialogId": 100050684
+        }
+      ]
+    },
+    {
+      "Id": 9,
+      "Name": "亚兰",
+      "HeadIcon": [
+        28000040
+      ],
+      "HeadBgColor": "5882A9",
+      "PhoneId": 12000999,
+      "VoiceTone": "",
+      "QImageId": 28017139,
+      "SImageId": 28002658,
+      "ImageScaleOffset": [
+        1,
+        0,
+        -59.7000008
+      ],
+      "ProfileId": 38000018,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140037,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100050801,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002124,
+          "endDialogId": 100050802
+        },
+        {
+          "dialogId": 100050804,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002215,
+          "endDialogId": 100050805
+        },
+        {
+          "dialogId": 100050810,
+          "interactId": 11,
+          "tuiteId": 64514,
+          "profileRewardId": 38002275,
+          "endDialogId": 100050811
+        }
+      ]
+    },
+    {
+      "Id": 10,
+      "Name": "梅卡妮卡",
+      "HeadIcon": [
+        28000031
+      ],
+      "HeadBgColor": "7D74C5",
+      "PhoneId": 111111119,
+      "VoiceTone": "meikanika##game10_character51",
+      "QImageId": 28000794,
+      "SImageId": 28002648,
+      "ImageScaleOffset": [
+        1,
+        0,
+        -59.7000008
+      ],
+      "ProfileId": 38000007,
+      "PoliceTask": 0,
+      "FightScore": 4000,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140038,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100050703,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002126,
+          "endDialogId": 100050704
+        },
+        {
+          "dialogId": 100068580,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002201,
+          "endDialogId": 100068585
+        },
+        {
+          "dialogId": 100050708,
+          "interactId": 11,
+          "tuiteId": 64508,
+          "profileRewardId": 38002910,
+          "endDialogId": 100050709
+        }
+      ]
+    },
+    {
+      "Id": 11,
+      "Name": "克里斯蒂娜（废弃）",
+      "HeadIcon": [
+        28000028
+      ],
+      "HeadBgColor": "E8A48B",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28006732,
+      "SImageId": 28002651,
+      "ImageScaleOffset": [
+        1.5,
+        5,
+        -409
+      ],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140039,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 12,
+      "Name": "里希",
+      "HeadIcon": [
+        28000030
+      ],
+      "HeadBgColor": "258BE4",
+      "PhoneId": 111111129,
+      "VoiceTone": "richie##chuzhuluan",
+      "QImageId": 28000793,
+      "SImageId": 28002656,
+      "ImageScaleOffset": [
+        1,
+        0,
+        -42.9000015
+      ],
+      "ProfileId": 38000006,
+      "PoliceTask": 0,
+      "FightScore": 4000,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140040,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100050696,
+          "interactId": 11,
+          "tuiteId": 64507,
+          "profileRewardId": 38002909,
+          "endDialogId": 0
+        }
+      ]
+    },
+    {
+      "Id": 13,
+      "Name": "赛默",
+      "HeadIcon": [
+        28001371
+      ],
+      "HeadBgColor": "5ABE76",
+      "PhoneId": 12000018,
+      "VoiceTone": "saimo##yalan",
+      "QImageId": 28009040,
+      "SImageId": 28002649,
+      "ImageScaleOffset": [
+        1,
+        3,
+        0
+      ],
+      "ProfileId": 38000004,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140042,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 14,
+      "Name": "爱琳",
+      "HeadIcon": [
+        28000025
+      ],
+      "HeadBgColor": "8D99B3",
+      "PhoneId": 111111113,
+      "VoiceTone": "",
+      "QImageId": 28000789,
+      "SImageId": 28002652,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -70
+      ],
+      "ProfileId": 38000012,
+      "PoliceTask": 0,
+      "FightScore": 4000,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140043,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100068650,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002205,
+          "endDialogId": 100068699
+        },
+        {
+          "dialogId": 100050746,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002206,
+          "endDialogId": 100050748
+        },
+        {
+          "dialogId": 100050753,
+          "interactId": 11,
+          "tuiteId": 64510,
+          "profileRewardId": 38002272,
+          "endDialogId": 100050754
+        }
+      ]
+    },
+    {
+      "Id": 15,
+      "Name": "莱卡娅",
+      "HeadIcon": [
+        28000041
+      ],
+      "HeadBgColor": "5846A7",
+      "PhoneId": 111111117,
+      "VoiceTone": "lykaia##game1_lianhua",
+      "QImageId": 28009038,
+      "SImageId": 28002651,
+      "ImageScaleOffset": [
+        1,
+        0,
+        -53
+      ],
+      "ProfileId": 38000009,
+      "PoliceTask": 0,
+      "FightScore": 4000,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140044,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100050721,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002134,
+          "endDialogId": 100050722
+        },
+        {
+          "dialogId": 100050724,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002135,
+          "endDialogId": 100050725
+        },
+        {
+          "dialogId": 100050730,
+          "interactId": 11,
+          "tuiteId": 64509,
+          "profileRewardId": 38002912,
+          "endDialogId": 100050731
+        }
+      ]
+    },
+    {
+      "Id": 16,
+      "Name": "黛西贝尔",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140045,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 17,
+      "Name": "响",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140046,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 18,
+      "Name": "冰糖",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140047,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 19,
+      "Name": "弥弥古",
+      "HeadIcon": [
+        28004260
+      ],
+      "HeadBgColor": "6D318F",
+      "PhoneId": 111111128,
+      "VoiceTone": "",
+      "QImageId": 28000795,
+      "SImageId": 28002657,
+      "ImageScaleOffset": [
+        1,
+        3,
+        0
+      ],
+      "ProfileId": 38000014,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140048,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100050773,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002125,
+          "endDialogId": 100050774
+        },
+        {
+          "dialogId": 100069629,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002211,
+          "endDialogId": 100069628
+        },
+        {
+          "dialogId": 100050779,
+          "interactId": 11,
+          "tuiteId": 64512,
+          "profileRewardId": 38002273,
+          "endDialogId": 100050780
+        }
+      ]
+    },
+    {
+      "Id": 20,
+      "Name": "伯纳德",
+      "HeadIcon": [
+        28004261
+      ],
+      "HeadBgColor": "444C62",
+      "PhoneId": 12000022,
+      "VoiceTone": "",
+      "QImageId": 28017138,
+      "SImageId": 28006805,
+      "ImageScaleOffset": [
+        1.5,
+        -44,
+        -405
+      ],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140049,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 21,
+      "Name": "缤可",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140050,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 22,
+      "Name": "岁子",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140051,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 23,
+      "Name": "艾诺米",
+      "HeadIcon": [
+        28004262
+      ],
+      "HeadBgColor": "8CCAD0",
+      "PhoneId": 12000011,
+      "VoiceTone": "",
+      "QImageId": 28000790,
+      "SImageId": 28002654,
+      "ImageScaleOffset": [
+        1,
+        0,
+        -59.7000008
+      ],
+      "ProfileId": 38000011,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140053,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100049776,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002041,
+          "endDialogId": 0
+        },
+        {
+          "dialogId": 100050740,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002204,
+          "endDialogId": 100050739
+        },
+        {
+          "dialogId": 100049781,
+          "interactId": 11,
+          "tuiteId": 64501,
+          "profileRewardId": 38002136,
+          "endDialogId": 100050738
+        }
+      ]
+    },
+    {
+      "Id": 24,
+      "Name": "白靖",
+      "HeadIcon": [
+        28000898
+      ],
+      "HeadBgColor": "6A92C0",
+      "PhoneId": 12000030,
+      "VoiceTone": "finn##qinzhengyan",
+      "QImageId": 28017137,
+      "SImageId": 28002645,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -53
+      ],
+      "ProfileId": 38000113,
+      "PoliceTask": 0,
+      "FightScore": 4000,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140054,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100070591,
+          "interactId": 11,
+          "tuiteId": 64530,
+          "profileRewardId": 38002431,
+          "endDialogId": 100070521
+        }
+      ]
+    },
+    {
+      "Id": 25,
+      "Name": "璎珑",
+      "HeadIcon": [
+        28002101
+      ],
+      "HeadBgColor": "E8A48B",
+      "PhoneId": 12000031,
+      "VoiceTone": "",
+      "QImageId": 28017140,
+      "SImageId": 28000725,
+      "ImageScaleOffset": [
+        1,
+        0,
+        0
+      ],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140055,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 26,
+      "Name": "时夜",
+      "HeadIcon": [
+        28006521
+      ],
+      "HeadBgColor": "6A92C0",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017711,
+      "SImageId": 28000706,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -53
+      ],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140056,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100070588,
+          "interactId": 11,
+          "tuiteId": 64527,
+          "profileRewardId": 38002430,
+          "endDialogId": 100070507
+        }
+      ]
+    },
+    {
+      "Id": 27,
+      "Name": "夜尾",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28005656,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 38000044,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140122,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 28,
+      "Name": "暂未使用1",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017265,
+      "SImageId": 28017291,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": false,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 29,
+      "Name": "白老板",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140124,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 30,
+      "Name": "糖包",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140123,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 31,
+      "Name": "维克托",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017272,
+      "SImageId": 28017386,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -53
+      ],
+      "ProfileId": 38000023,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140114,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100050837,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002117,
+          "endDialogId": 100050838
+        },
+        {
+          "dialogId": 100050840,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002128,
+          "endDialogId": 100050841
+        },
+        {
+          "dialogId": 100050846,
+          "interactId": 11,
+          "tuiteId": 64516,
+          "profileRewardId": 38002218,
+          "endDialogId": 100050847
+        }
+      ]
+    },
+    {
+      "Id": 32,
+      "Name": "热狗人",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017273,
+      "SImageId": 28017297,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -53
+      ],
+      "ProfileId": 38000030,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": true,
+      "DefaultTemplateAgentId": 40140118,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 33,
+      "Name": "林檎",
+      "HeadIcon": [
+        28000029
+      ],
+      "HeadBgColor": "698142",
+      "PhoneId": 111111120,
+      "VoiceTone": "",
+      "QImageId": 28009039,
+      "SImageId": 28002655,
+      "ImageScaleOffset": [
+        1,
+        0,
+        -41
+      ],
+      "ProfileId": 38000016,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140041,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100050786,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002127,
+          "endDialogId": 100050787
+        },
+        {
+          "dialogId": 100069640,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002213,
+          "endDialogId": 100069637
+        },
+        {
+          "dialogId": 100050792,
+          "interactId": 11,
+          "tuiteId": 64513,
+          "profileRewardId": 38002274,
+          "endDialogId": 100050793
+        }
+      ]
+    },
+    {
+      "Id": 34,
+      "Name": "洛德先生",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28005655,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 38000034,
+      "PoliceTask": 0,
+      "FightScore": 4000,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140000,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100069851,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002137,
+          "endDialogId": 100069852
+        },
+        {
+          "dialogId": 100069853,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002138,
+          "endDialogId": 100069854
+        },
+        {
+          "dialogId": 100069858,
+          "interactId": 11,
+          "tuiteId": 64531,
+          "profileRewardId": 38002281,
+          "endDialogId": 100069856
+        }
+      ]
+    },
+    {
+      "Id": 35,
+      "Name": "阿姆斯",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017265,
+      "SImageId": 28017291,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -53
+      ],
+      "ProfileId": 38000020,
+      "PoliceTask": 0,
+      "FightScore": 4000,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100050819,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002133,
+          "endDialogId": 100050820
+        },
+        {
+          "dialogId": 100050822,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002132,
+          "endDialogId": 100050823
+        },
+        {
+          "dialogId": 100050828,
+          "interactId": 0,
+          "tuiteId": 64515,
+          "profileRewardId": 38002276,
+          "endDialogId": 100050829
+        }
+      ]
+    },
+    {
+      "Id": 36,
+      "Name": "暂未使用2",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": false,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 37,
+      "Name": "幻码",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140126,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 38,
+      "Name": "纪平",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28006736,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40155000,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 39,
+      "Name": "启飞",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017269,
+      "SImageId": 28017295,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -53
+      ],
+      "ProfileId": 38000024,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140130,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100050871,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002119,
+          "endDialogId": 100050872
+        },
+        {
+          "dialogId": 100050874,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002120,
+          "endDialogId": 100050875
+        },
+        {
+          "dialogId": 100050879,
+          "interactId": 11,
+          "tuiteId": 64519,
+          "profileRewardId": 38002278,
+          "endDialogId": 100050880
+        }
+      ]
+    },
+    {
+      "Id": 40,
+      "Name": "柚枝",
+      "HeadIcon": [
+        28007232
+      ],
+      "HeadBgColor": "6A92C0",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017712,
+      "SImageId": 28000708,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -53
+      ],
+      "ProfileId": 38000111,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140077,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100070508,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002424,
+          "endDialogId": 100070509
+        },
+        {
+          "dialogId": 100070510,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002425,
+          "endDialogId": 100070511
+        },
+        {
+          "dialogId": 100070589,
+          "interactId": 11,
+          "tuiteId": 64528,
+          "profileRewardId": 38002426,
+          "endDialogId": 100070513
+        }
+      ]
+    },
+    {
+      "Id": 41,
+      "Name": "黑羽玲",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017270,
+      "SImageId": 28002679,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -53
+      ],
+      "ProfileId": 38000010,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140112,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100069661,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002219,
+          "endDialogId": 100069662
+        },
+        {
+          "dialogId": 100050851,
+          "interactId": 11,
+          "tuiteId": 64517,
+          "profileRewardId": 38002277,
+          "endDialogId": 100050852
+        }
+      ]
+    },
+    {
+      "Id": 42,
+      "Name": "金博尔",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017264,
+      "SImageId": 28017290,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -53
+      ],
+      "ProfileId": 38000025,
+      "PoliceTask": 60000540,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140141,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100050886,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002225,
+          "endDialogId": 100050887
+        },
+        {
+          "dialogId": 100050891,
+          "interactId": 0,
+          "tuiteId": 64520,
+          "profileRewardId": 38002224,
+          "endDialogId": 100050892
+        }
+      ]
+    },
+    {
+      "Id": 43,
+      "Name": "跃",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017273,
+      "SImageId": 28017297,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -53
+      ],
+      "ProfileId": 38000027,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140142,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100050909,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002229,
+          "endDialogId": 100050910
+        },
+        {
+          "dialogId": 100069679,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002230,
+          "endDialogId": 100069680
+        },
+        {
+          "dialogId": 100050913,
+          "interactId": 11,
+          "tuiteId": 64522,
+          "profileRewardId": 38002231,
+          "endDialogId": 100050914
+        }
+      ]
+    },
+    {
+      "Id": 44,
+      "Name": "哈利",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017266,
+      "SImageId": 28017292,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -53
+      ],
+      "ProfileId": 38000026,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140117,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100050898,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002083,
+          "endDialogId": 100050899
+        },
+        {
+          "dialogId": 100069677,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002227,
+          "endDialogId": 100069678
+        },
+        {
+          "dialogId": 100050902,
+          "interactId": 11,
+          "tuiteId": 64521,
+          "profileRewardId": 38002279,
+          "endDialogId": 100050903
+        }
+      ]
+    },
+    {
+      "Id": 45,
+      "Name": "铁山",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017268,
+      "SImageId": 28017296,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -63.2400017
+      ],
+      "ProfileId": 38000029,
+      "PoliceTask": 0,
+      "FightScore": 4000,
+      "HasFightTask": true,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100050928,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002030,
+          "endDialogId": 100050929
+        },
+        {
+          "dialogId": 100050931,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002234,
+          "endDialogId": 100050932
+        },
+        {
+          "dialogId": 100050937,
+          "interactId": 11,
+          "tuiteId": 64524,
+          "profileRewardId": 38002280,
+          "endDialogId": 100050938
+        }
+      ]
+    },
+    {
+      "Id": 46,
+      "Name": "云锋",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017271,
+      "SImageId": 28017296,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -63.2400017
+      ],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 47,
+      "Name": "莉卡",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017282,
+      "SImageId": 28017294,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -53
+      ],
+      "ProfileId": 38000028,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140136,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100069848,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002232,
+          "endDialogId": 100069849
+        },
+        {
+          "dialogId": 100050919,
+          "interactId": 0,
+          "tuiteId": 64523,
+          "profileRewardId": 38002233,
+          "endDialogId": 100050920
+        }
+      ]
+    },
+    {
+      "Id": 48,
+      "Name": "哈鲁",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017267,
+      "SImageId": 28017293,
+      "ImageScaleOffset": [
+        1,
+        3,
+        53
+      ],
+      "ProfileId": 38000021,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140146,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100050858,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002104,
+          "endDialogId": 100050859
+        },
+        {
+          "dialogId": 100069673,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002221,
+          "endDialogId": 100069674
+        },
+        {
+          "dialogId": 100050862,
+          "interactId": 0,
+          "tuiteId": 64518,
+          "profileRewardId": 38002222,
+          "endDialogId": 100050863
+        }
+      ]
+    },
+    {
+      "Id": 49,
+      "Name": "松鼠电台",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": false,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 50,
+      "Name": "奶牛",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": false,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 51,
+      "Name": "南岛",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140128,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 52,
+      "Name": "杰弗瑞",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017746,
+      "SImageId": 28000704,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -53
+      ],
+      "ProfileId": 38000031,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140113,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100070065,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002239,
+          "endDialogId": 100070066
+        },
+        {
+          "dialogId": 100070067,
+          "interactId": 0,
+          "tuiteId": 64534,
+          "profileRewardId": 38002268,
+          "endDialogId": 100070068
+        }
+      ]
+    },
+    {
+      "Id": 53,
+      "Name": "黑羽音",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28006735,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140111,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 54,
+      "Name": "电视头约翰",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "john##huosanlang",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140108,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 55,
+      "Name": "埃里克·福斯特",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140107,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 56,
+      "Name": "威尔斯",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140116,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 57,
+      "Name": "迈亚特·布莱克本",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140119,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 58,
+      "Name": "宁羽",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140127,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 59,
+      "Name": "华莱士",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140129,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 60,
+      "Name": "伊崎明",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140131,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 61,
+      "Name": "目目小姐",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28006742,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 38000122,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140132,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 62,
+      "Name": "格温",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017744,
+      "SImageId": 28000691,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -53
+      ],
+      "ProfileId": 38000032,
+      "PoliceTask": 0,
+      "FightScore": 4000,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140133,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100070077,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002242,
+          "endDialogId": 100070078
+        },
+        {
+          "dialogId": 100070079,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002243,
+          "endDialogId": 100070080
+        },
+        {
+          "dialogId": 100070112,
+          "interactId": 11,
+          "tuiteId": 64533,
+          "profileRewardId": 38002282,
+          "endDialogId": 100070082
+        }
+      ]
+    },
+    {
+      "Id": 63,
+      "Name": "爱达",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017742,
+      "SImageId": 28000468,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -53
+      ],
+      "ProfileId": 38000033,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140134,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100070113,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002245,
+          "endDialogId": 100070114
+        },
+        {
+          "dialogId": 100070115,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002246,
+          "endDialogId": 100070116
+        },
+        {
+          "dialogId": 100070126,
+          "interactId": 11,
+          "tuiteId": 64537,
+          "profileRewardId": 38002247,
+          "endDialogId": 100070118
+        }
+      ]
+    },
+    {
+      "Id": 64,
+      "Name": "菠萝",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017743,
+      "SImageId": 28000584,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -53
+      ],
+      "ProfileId": 38000035,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140135,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100070131,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002248,
+          "endDialogId": 100070132
+        },
+        {
+          "dialogId": 100070133,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002249,
+          "endDialogId": 100070134
+        },
+        {
+          "dialogId": 100070143,
+          "interactId": 11,
+          "tuiteId": 64538,
+          "profileRewardId": 38002250,
+          "endDialogId": 100070136
+        }
+      ]
+    },
+    {
+      "Id": 65,
+      "Name": "加图",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140137,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 66,
+      "Name": "团野航太",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140138,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 67,
+      "Name": "大原平八",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140139,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 68,
+      "Name": "森天志",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140140,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 69,
+      "Name": "特里 · 帕佩尔",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140143,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 70,
+      "Name": "曹达宏（废弃）",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140145,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 71,
+      "Name": "席塔",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140147,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 72,
+      "Name": "方野",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017758,
+      "SImageId": 28000710,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -53
+      ],
+      "ProfileId": 38000101,
+      "PoliceTask": 0,
+      "FightScore": 4000,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140148,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100070458,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002400,
+          "endDialogId": 100070459
+        },
+        {
+          "dialogId": 100070460,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002401,
+          "endDialogId": 100070461
+        },
+        {
+          "dialogId": 100070580,
+          "interactId": 11,
+          "tuiteId": 64542,
+          "profileRewardId": 38002402,
+          "endDialogId": 100070463
+        }
+      ]
+    },
+    {
+      "Id": 73,
+      "Name": "柚伟",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140149,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 74,
+      "Name": "贞子",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140150,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 75,
+      "Name": "洛菲乌斯",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140155,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 76,
+      "Name": "奇拉米多",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140154,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 77,
+      "Name": "卢纳提克",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140153,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 78,
+      "Name": "蟹桶",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": false,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 79,
+      "Name": "柠檬沙瓦",
+      "HeadIcon": [
+        28002921
+      ],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "lykaia##dila",
+      "QImageId": 28017752,
+      "SImageId": 28000700,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -53
+      ],
+      "ProfileId": 38000039,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140076,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100070440,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002260,
+          "endDialogId": 100070441
+        },
+        {
+          "dialogId": 100070442,
+          "interactId": 11,
+          "tuiteId": 64540,
+          "profileRewardId": 38002261,
+          "endDialogId": 100070443
+        }
+      ]
+    },
+    {
+      "Id": 80,
+      "Name": "亨德里克",
+      "HeadIcon": [
+        28002920
+      ],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "yalan##renwuxian",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40122515,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 81,
+      "Name": "鸽子",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": false,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 82,
+      "Name": "空空",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017749,
+      "SImageId": 28000705,
+      "ImageScaleOffset": [
+        1,
+        0,
+        0
+      ],
+      "ProfileId": 38000030,
+      "PoliceTask": 0,
+      "FightScore": 4000,
+      "HasFightTask": true,
+      "DefaultTemplateAgentId": 40140156,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100070548,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002236,
+          "endDialogId": 100070549
+        },
+        {
+          "dialogId": 100070550,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002237,
+          "endDialogId": 100070551
+        },
+        {
+          "dialogId": 100070558,
+          "interactId": 11,
+          "tuiteId": 64532,
+          "profileRewardId": 38002238,
+          "endDialogId": 100070553
+        }
+      ]
+    },
+    {
+      "Id": 83,
+      "Name": "晴",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017754,
+      "SImageId": 28000702,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -53
+      ],
+      "ProfileId": 38000036,
+      "PoliceTask": 0,
+      "FightScore": 4000,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40155008,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100070145,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002251,
+          "endDialogId": 100070146
+        },
+        {
+          "dialogId": 100070147,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002252,
+          "endDialogId": 100070148
+        },
+        {
+          "dialogId": 100070561,
+          "interactId": 11,
+          "tuiteId": 64535,
+          "profileRewardId": 38002284,
+          "endDialogId": 100070150
+        }
+      ]
+    },
+    {
+      "Id": 84,
+      "Name": "克拉特",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017748,
+      "SImageId": 28000694,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -53
+      ],
+      "ProfileId": 38000037,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40155007,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100070428,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002255,
+          "endDialogId": 100070429
+        },
+        {
+          "dialogId": 100070430,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002256,
+          "endDialogId": 100070431
+        },
+        {
+          "dialogId": 100070575,
+          "interactId": 11,
+          "tuiteId": 64539,
+          "profileRewardId": 38002285,
+          "endDialogId": 100070433
+        }
+      ]
+    },
+    {
+      "Id": 85,
+      "Name": "零七",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017760,
+      "SImageId": 28000697,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -53
+      ],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140157,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100070446,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002263,
+          "endDialogId": 100070447
+        },
+        {
+          "dialogId": 100070448,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002264,
+          "endDialogId": 100070449
+        },
+        {
+          "dialogId": 100070578,
+          "interactId": 11,
+          "tuiteId": 64541,
+          "profileRewardId": 38002265,
+          "endDialogId": 100070451
+        }
+      ]
+    },
+    {
+      "Id": 86,
+      "Name": "程酿",
+      "HeadIcon": [
+        28006478
+      ],
+      "HeadBgColor": "6A92C0",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017709,
+      "SImageId": 28000690,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -53
+      ],
+      "ProfileId": 38000112,
+      "PoliceTask": 0,
+      "FightScore": 4000,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40155001,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100070514,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002427,
+          "endDialogId": 100070515
+        },
+        {
+          "dialogId": 100070516,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002428,
+          "endDialogId": 100070517
+        },
+        {
+          "dialogId": 100070590,
+          "interactId": 11,
+          "tuiteId": 64529,
+          "profileRewardId": 38002429,
+          "endDialogId": 100070519
+        }
+      ]
+    },
+    {
+      "Id": 87,
+      "Name": "扶风",
+      "HeadIcon": [
+        28006511
+      ],
+      "HeadBgColor": "6A92C0",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017710,
+      "SImageId": 28000692,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -53
+      ],
+      "ProfileId": 38000109,
+      "PoliceTask": 0,
+      "FightScore": 4000,
+      "HasFightTask": true,
+      "DefaultTemplateAgentId": 40155013,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100070500,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002421,
+          "endDialogId": 100070501
+        },
+        {
+          "dialogId": 100070502,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002422,
+          "endDialogId": 100070503
+        },
+        {
+          "dialogId": 100070587,
+          "interactId": 11,
+          "tuiteId": 64526,
+          "profileRewardId": 38002423,
+          "endDialogId": 100070505
+        }
+      ]
+    },
+    {
+      "Id": 88,
+      "Name": "启东",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017753,
+      "SImageId": 28000701,
+      "ImageScaleOffset": [
+        1,
+        0,
+        -53
+      ],
+      "ProfileId": 38000102,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40155006,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100070464,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002403,
+          "endDialogId": 100070465
+        },
+        {
+          "dialogId": 100070466,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002404,
+          "endDialogId": 100070467
+        },
+        {
+          "dialogId": 100070581,
+          "interactId": 11,
+          "tuiteId": 64543,
+          "profileRewardId": 38002287,
+          "endDialogId": 100070469
+        }
+      ]
+    },
+    {
+      "Id": 89,
+      "Name": "苏萤璞",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017756,
+      "SImageId": 28000707,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -53
+      ],
+      "ProfileId": 38000103,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40155005,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100070470,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002406,
+          "endDialogId": 100070471
+        },
+        {
+          "dialogId": 100070472,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002407,
+          "endDialogId": 100070473
+        },
+        {
+          "dialogId": 100070582,
+          "interactId": 11,
+          "tuiteId": 64544,
+          "profileRewardId": 38002408,
+          "endDialogId": 100070475
+        }
+      ]
+    },
+    {
+      "Id": 90,
+      "Name": "吉米·陈",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017747,
+      "SImageId": 28000693,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -53
+      ],
+      "ProfileId": 38000104,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40155004,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100070476,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002409,
+          "endDialogId": 100070477
+        },
+        {
+          "dialogId": 100070478,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002410,
+          "endDialogId": 100070479
+        },
+        {
+          "dialogId": 100070583,
+          "interactId": 11,
+          "tuiteId": 64545,
+          "profileRewardId": 38002411,
+          "endDialogId": 100070481
+        }
+      ]
+    },
+    {
+      "Id": 91,
+      "Name": "裤头",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017761,
+      "SImageId": 28000695,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -53
+      ],
+      "ProfileId": 38000105,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40155003,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100070482,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002412,
+          "endDialogId": 100070483
+        },
+        {
+          "dialogId": 100070484,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002413,
+          "endDialogId": 100070485
+        },
+        {
+          "dialogId": 100070584,
+          "interactId": 11,
+          "tuiteId": 64546,
+          "profileRewardId": 38002414,
+          "endDialogId": 100070487
+        }
+      ]
+    },
+    {
+      "Id": 92,
+      "Name": "周晓",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017759,
+      "SImageId": 28000711,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -53
+      ],
+      "ProfileId": 38000106,
+      "PoliceTask": 0,
+      "FightScore": 4000,
+      "HasFightTask": true,
+      "DefaultTemplateAgentId": 40155012,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100070592,
+          "interactId": 11,
+          "tuiteId": 64548,
+          "profileRewardId": 38002290,
+          "endDialogId": 100070532
+        }
+      ]
+    },
+    {
+      "Id": 93,
+      "Name": "陆辛夷",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017751,
+      "SImageId": 28000699,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -53
+      ],
+      "ProfileId": 38000107,
+      "PoliceTask": 0,
+      "FightScore": 4000,
+      "HasFightTask": true,
+      "DefaultTemplateAgentId": 40155002,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100070585,
+          "interactId": 11,
+          "tuiteId": 64553,
+          "profileRewardId": 38002286,
+          "endDialogId": 100070493
+        }
+      ]
+    },
+    {
+      "Id": 94,
+      "Name": "蒂娜",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28006732,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140039,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 95,
+      "Name": "谢倾城",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 96,
+      "Name": "柯里",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": false,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 97,
+      "Name": "马桶鸵鸟",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": false,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 98,
+      "Name": "维克托日常形态合并期临时tag（废弃）",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140115,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 99,
+      "Name": "季月青",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017755,
+      "SImageId": 28000703,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -53
+      ],
+      "ProfileId": 38000114,
+      "PoliceTask": 0,
+      "FightScore": 4000,
+      "HasFightTask": true,
+      "DefaultTemplateAgentId": 40155011,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100070593,
+          "interactId": 11,
+          "tuiteId": 64549,
+          "profileRewardId": 38002291,
+          "endDialogId": 100070534
+        }
+      ]
+    },
+    {
+      "Id": 100,
+      "Name": "张谷丰",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017757,
+      "SImageId": 28000709,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -53
+      ],
+      "ProfileId": 38000115,
+      "PoliceTask": 0,
+      "FightScore": 4000,
+      "HasFightTask": true,
+      "DefaultTemplateAgentId": 40155010,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100070594,
+          "interactId": 11,
+          "tuiteId": 64550,
+          "profileRewardId": 38002292,
+          "endDialogId": 100070536
+        }
+      ]
+    },
+    {
+      "Id": 101,
+      "Name": "林震",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017750,
+      "SImageId": 28000698,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -53
+      ],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 4000,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40155009,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100070595,
+          "interactId": 11,
+          "tuiteId": 64551,
+          "profileRewardId": 38002435,
+          "endDialogId": 100070538
+        }
+      ]
+    },
+    {
+      "Id": 102,
+      "Name": "洪武林",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28017745,
+      "SImageId": 28000585,
+      "ImageScaleOffset": [
+        1,
+        3,
+        -53
+      ],
+      "ProfileId": 38000108,
+      "PoliceTask": 0,
+      "FightScore": 4000,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140145,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100070494,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002418,
+          "endDialogId": 100070495
+        },
+        {
+          "dialogId": 100070496,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002419,
+          "endDialogId": 100070497
+        },
+        {
+          "dialogId": 100070586,
+          "interactId": 11,
+          "tuiteId": 64547,
+          "profileRewardId": 38002288,
+          "endDialogId": 100070499
+        }
+      ]
+    },
+    {
+      "Id": 103,
+      "Name": "天残",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": false,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 104,
+      "Name": "地缺",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": false,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 105,
+      "Name": "午马",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28006747,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140158,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 106,
+      "Name": "混厄广告牌",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": false,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 107,
+      "Name": "气球鸭",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": false,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 108,
+      "Name": "占位等有缘人1",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140159,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 109,
+      "Name": "鹿听雨",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28006741,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 38000117,
+      "PoliceTask": 0,
+      "FightScore": 4000,
+      "HasFightTask": true,
+      "DefaultTemplateAgentId": 40140160,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100070596,
+          "interactId": 11,
+          "tuiteId": 64554,
+          "profileRewardId": 38002295,
+          "endDialogId": 100070540
+        }
+      ]
+    },
+    {
+      "Id": 110,
+      "Name": "戚明华",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 4000,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140161,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100070597,
+          "interactId": 11,
+          "tuiteId": 64555,
+          "profileRewardId": 38002438,
+          "endDialogId": 100070542
+        }
+      ]
+    },
+    {
+      "Id": 111,
+      "Name": "吊龙",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28006731,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 4000,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140162,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100070598,
+          "interactId": 11,
+          "tuiteId": 64556,
+          "profileRewardId": 38002439,
+          "endDialogId": 100070544
+        }
+      ]
+    },
+    {
+      "Id": 112,
+      "Name": "罗伯特",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28006740,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 38000120,
+      "PoliceTask": 0,
+      "FightScore": 4000,
+      "HasFightTask": true,
+      "DefaultTemplateAgentId": 40140163,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100070599,
+          "interactId": 11,
+          "tuiteId": 64557,
+          "profileRewardId": 38002440,
+          "endDialogId": 100070547
+        }
+      ]
+    },
+    {
+      "Id": 113,
+      "Name": "洛芙",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28005654,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 38000041,
+      "PoliceTask": 0,
+      "FightScore": 4000,
+      "HasFightTask": true,
+      "DefaultTemplateAgentId": 40140164,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": [
+        {
+          "dialogId": 100070452,
+          "interactId": 0,
+          "tuiteId": 0,
+          "profileRewardId": 38002266,
+          "endDialogId": 100070453
+        },
+        {
+          "dialogId": 100070579,
+          "interactId": 11,
+          "tuiteId": 64552,
+          "profileRewardId": 38002283,
+          "endDialogId": 100070455
+        }
+      ]
+    },
+    {
+      "Id": 114,
+      "Name": "叶惊澜",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28006749,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40140165,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 115,
+      "Name": "猫咪",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": false,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 116,
+      "Name": "狗",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": false,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 117,
+      "Name": "鸭子",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": false,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 118,
+      "Name": "石敢当1",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": false,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 119,
+      "Name": "石敢当2",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": false,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 120,
+      "Name": "石敢当3",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": false,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 121,
+      "Name": "石敢当4",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": false,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 122,
+      "Name": "石敢当5",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": false,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 123,
+      "Name": "盖斯",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28006734,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 38000043,
+      "PoliceTask": 0,
+      "FightScore": 4000,
+      "HasFightTask": true,
+      "DefaultTemplateAgentId": 40155016,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 124,
+      "Name": "流浪战士",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28006738,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 38000130,
+      "PoliceTask": 0,
+      "FightScore": 4000,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40155017,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 125,
+      "Name": "桶哥",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 38000123,
+      "PoliceTask": 0,
+      "FightScore": 4000,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40155018,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 126,
+      "Name": "启迪",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28006744,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 38000125,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40155050,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 127,
+      "Name": "梦核男主",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40155051,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 128,
+      "Name": "梦核时夜",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40155052,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 129,
+      "Name": "阿呆",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": false,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 130,
+      "Name": "电子眼",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": false,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 131,
+      "Name": "绅士帽",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": false,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 132,
+      "Name": "飞机头",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": false,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 133,
+      "Name": "螺旋桨",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": false,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 134,
+      "Name": "黛本",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40155053,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 135,
+      "Name": "锵锵",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28006743,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 38000121,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40155054,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 136,
+      "Name": "杨明",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28006748,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 38000124,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40155055,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 137,
+      "Name": "勇次",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28006750,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 38000042,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40155056,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 138,
+      "Name": "鱼秀姑",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28006751,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 38000126,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40155057,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 139,
+      "Name": "贾亦臻",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 38000127,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40155058,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 140,
+      "Name": "林清影",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 38000128,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40155059,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 141,
+      "Name": "济岳",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28006737,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 38000129,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40155060,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 142,
+      "Name": "木桩",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": false,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 143,
+      "Name": "迈亚特",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": false,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 144,
+      "Name": "幼年塔菲",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 40155061,
+      "IsUniqueCharacter": true,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 145,
+      "Name": "垃圾桶",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": false,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 146,
+      "Name": "茶壶爬蛛",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": false,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 147,
+      "Name": "藕人",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": false,
+      "profileRewardInteract": []
+    },
+    {
+      "Id": 148,
+      "Name": "零号爪机",
+      "HeadIcon": [],
+      "HeadBgColor": "",
+      "PhoneId": 0,
+      "VoiceTone": "",
+      "QImageId": 28000754,
+      "SImageId": 28017589,
+      "ImageScaleOffset": [],
+      "ProfileId": 0,
+      "PoliceTask": 0,
+      "FightScore": 0,
+      "HasFightTask": false,
+      "DefaultTemplateAgentId": 0,
+      "IsUniqueCharacter": false,
+      "profileRewardInteract": []
+    }
+  ],
+  "_dumpedCount": 148,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

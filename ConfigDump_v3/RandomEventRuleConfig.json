@@ -1,0 +1,55 @@
+{
+  "_class": "RandomEventRuleConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 5,
+  "records": [
+    {
+      "Id": 1,
+      "AcceptRange": 220,
+      "AbandonRange": 220,
+      "MapRange": [
+        50,
+        20
+      ]
+    },
+    {
+      "Id": 2,
+      "AcceptRange": 120,
+      "AbandonRange": 200,
+      "MapRange": [
+        50,
+        20
+      ]
+    },
+    {
+      "Id": 3,
+      "AcceptRange": 60,
+      "AbandonRange": 250,
+      "MapRange": [
+        50,
+        20
+      ]
+    },
+    {
+      "Id": 4,
+      "AcceptRange": 100,
+      "AbandonRange": 0,
+      "MapRange": [
+        100,
+        20
+      ]
+    },
+    {
+      "Id": 5,
+      "AcceptRange": 100,
+      "AbandonRange": 170,
+      "MapRange": [
+        100,
+        20
+      ]
+    }
+  ],
+  "_dumpedCount": 5,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

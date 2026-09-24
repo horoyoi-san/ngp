@@ -1,0 +1,175 @@
+{
+  "_class": "RankConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 4,
+  "records": [
+    {
+      "Id": 1002,
+      "PlayMode": [
+        12113002
+      ],
+      "MainType": 1,
+      "Name": "城中高速线",
+      "RankMetric": 1,
+      "MetricName": "Time",
+      "RankMethod": 2,
+      "Breaker": [
+        1
+      ],
+      "Capacity": 100,
+      "MaxPlayerCount": 999,
+      "IsSupportWarZone": true,
+      "WarzoneRankMaxPlayers": 100,
+      "WarZoneChangeType": 1,
+      "WarZoneMaxSwitch": 0,
+      "ResetCycle": 4,
+      "RefreshTime": 10,
+      "Weight": 90,
+      "LinkAIInfoId": 1,
+      "RobotNumber": 20,
+      "HyperLink": 11707,
+      "Tier": 7001,
+      "RewardOnce": true,
+      "RewardTiming": 1,
+      "EnableBadgeSettle": false,
+      "BadgeResetCycle": 0,
+      "BadgeTopN": 0,
+      "__IDX__Name": 145642,
+      "__RAW__Name": "",
+      "__IDX__MetricName": 139505,
+      "__RAW__MetricName": "",
+      "RobotValue": {
+        "Min": 135000,
+        "Max": 190000
+      },
+      "Reward": []
+    },
+    {
+      "Id": 1003,
+      "PlayMode": [
+        12113004
+      ],
+      "MainType": 1,
+      "Name": "霓虹螺旋赛道",
+      "RankMetric": 1,
+      "MetricName": "Time",
+      "RankMethod": 2,
+      "Breaker": [
+        1
+      ],
+      "Capacity": 100,
+      "MaxPlayerCount": 999,
+      "IsSupportWarZone": true,
+      "WarzoneRankMaxPlayers": 100,
+      "WarZoneChangeType": 1,
+      "WarZoneMaxSwitch": 0,
+      "ResetCycle": 4,
+      "RefreshTime": 10,
+      "Weight": 80,
+      "LinkAIInfoId": 1,
+      "RobotNumber": 20,
+      "HyperLink": 11708,
+      "Tier": 7001,
+      "RewardOnce": true,
+      "RewardTiming": 1,
+      "EnableBadgeSettle": false,
+      "BadgeResetCycle": 0,
+      "BadgeTopN": 0,
+      "__IDX__Name": 145643,
+      "__RAW__Name": "",
+      "__IDX__MetricName": 139506,
+      "__RAW__MetricName": "",
+      "RobotValue": {
+        "Min": 300000,
+        "Max": 480000
+      },
+      "Reward": []
+    },
+    {
+      "Id": 1004,
+      "PlayMode": [
+        12113500
+      ],
+      "MainType": 2,
+      "Name": "Basketball 1v1",
+      "RankMetric": 1,
+      "MetricName": "Score",
+      "RankMethod": 1,
+      "Breaker": [
+        1
+      ],
+      "Capacity": 100,
+      "MaxPlayerCount": 999,
+      "IsSupportWarZone": true,
+      "WarzoneRankMaxPlayers": 100,
+      "WarZoneChangeType": 1,
+      "WarZoneMaxSwitch": 0,
+      "ResetCycle": 4,
+      "RefreshTime": 10,
+      "Weight": 0,
+      "LinkAIInfoId": 1,
+      "RobotNumber": 20,
+      "HyperLink": 11706,
+      "Tier": 7002,
+      "RewardOnce": true,
+      "RewardTiming": 1,
+      "EnableBadgeSettle": false,
+      "BadgeResetCycle": 0,
+      "BadgeTopN": 0,
+      "__IDX__Name": 148850,
+      "__RAW__Name": "",
+      "__IDX__MetricName": 139507,
+      "__RAW__MetricName": "",
+      "RobotValue": {
+        "Min": 1,
+        "Max": 20
+      },
+      "Reward": []
+    },
+    {
+      "Id": 1005,
+      "PlayMode": [
+        12111114,
+        12111115
+      ],
+      "MainType": 3,
+      "Name": "麻将",
+      "RankMetric": 1,
+      "MetricName": "积分",
+      "RankMethod": 1,
+      "Breaker": [
+        1
+      ],
+      "Capacity": 100,
+      "MaxPlayerCount": 999,
+      "IsSupportWarZone": true,
+      "WarzoneRankMaxPlayers": 100,
+      "WarZoneChangeType": 1,
+      "WarZoneMaxSwitch": 0,
+      "ResetCycle": 4,
+      "RefreshTime": 10,
+      "Weight": 0,
+      "LinkAIInfoId": 0,
+      "RobotNumber": 20,
+      "HyperLink": 0,
+      "Tier": 7003,
+      "RewardOnce": true,
+      "RewardTiming": 1,
+      "EnableBadgeSettle": false,
+      "BadgeResetCycle": 0,
+      "BadgeTopN": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "麻将",
+      "__IDX__MetricName": 4294967293,
+      "__RAW__MetricName": "积分",
+      "RobotValue": {
+        "Min": 100,
+        "Max": 1000
+      },
+      "Reward": []
+    }
+  ],
+  "_dumpedCount": 4,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

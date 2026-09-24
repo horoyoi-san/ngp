@@ -1,0 +1,4366 @@
+{
+  "_class": "HurtStiffTransitionnewConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 194,
+  "records": [
+    {
+      "Id": 1000800,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        800,
+        801,
+        802,
+        803,
+        804,
+        805
+      ],
+      "TarEnemyHurtStiffId": 102,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [
+        10380
+      ],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000801,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        800,
+        801,
+        802,
+        803,
+        804,
+        805
+      ],
+      "TarEnemyHurtStiffId": 405,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [
+        61
+      ],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000802,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        800,
+        801,
+        802,
+        803,
+        804,
+        805,
+        806
+      ],
+      "TarEnemyHurtStiffId": 452,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [
+        367
+      ],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000803,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        800,
+        801,
+        802,
+        803,
+        804,
+        805
+      ],
+      "TarEnemyHurtStiffId": 452,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [
+        10405
+      ],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000810,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1160,
+        1161,
+        400,
+        1159
+      ],
+      "TarEnemyHurtStiffId": 400,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86963029
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000811,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        400
+      ],
+      "TarEnemyHurtStiffId": 400,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86952480
+      ],
+      "HurterHasState": [
+        9
+      ],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000812,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        800,
+        801,
+        802,
+        803,
+        805
+      ],
+      "TarEnemyHurtStiffId": 455,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [
+        10425
+      ],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000813,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        400,
+        800,
+        801,
+        802,
+        803,
+        8230
+      ],
+      "TarEnemyHurtStiffId": 405,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86952248
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000814,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        800,
+        801,
+        802,
+        803,
+        804,
+        805
+      ],
+      "TarEnemyHurtStiffId": 805,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86964200,
+        86964201
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000815,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        400,
+        1160,
+        1161,
+        1159
+      ],
+      "TarEnemyHurtStiffId": 813,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [
+        10518
+      ],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000816,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        400,
+        1160,
+        1161,
+        1159
+      ],
+      "TarEnemyHurtStiffId": 803,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [
+        10518
+      ],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        0,
+        2,
+        3
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000817,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        400
+      ],
+      "TarEnemyHurtStiffId": 405,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [
+        10504
+      ],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000818,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1001,
+        1002,
+        1003
+      ],
+      "TarEnemyHurtStiffId": 1000,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86960310
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000819,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1160
+      ],
+      "TarEnemyHurtStiffId": 871,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        0
+      ],
+      "NewLeftOrRightHit": [
+        7,
+        8,
+        6
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000820,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1160
+      ],
+      "TarEnemyHurtStiffId": 861,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        0
+      ],
+      "NewLeftOrRightHit": [
+        3,
+        2,
+        4
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000821,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1160
+      ],
+      "TarEnemyHurtStiffId": 801,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        0
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000822,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1160
+      ],
+      "TarEnemyHurtStiffId": 891,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [
+        7,
+        8,
+        6
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000823,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1160
+      ],
+      "TarEnemyHurtStiffId": 881,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [
+        3,
+        2,
+        4
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000824,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1160
+      ],
+      "TarEnemyHurtStiffId": 811,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000825,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1160
+      ],
+      "TarEnemyHurtStiffId": 861,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        3
+      ],
+      "NewLeftOrRightHit": [
+        7,
+        8,
+        6
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000826,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1160
+      ],
+      "TarEnemyHurtStiffId": 891,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        3
+      ],
+      "NewLeftOrRightHit": [
+        3,
+        2,
+        4
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000827,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1160
+      ],
+      "TarEnemyHurtStiffId": 821,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        3
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000828,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1160
+      ],
+      "TarEnemyHurtStiffId": 881,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        2
+      ],
+      "NewLeftOrRightHit": [
+        7,
+        8,
+        6
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000829,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1160
+      ],
+      "TarEnemyHurtStiffId": 871,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        2
+      ],
+      "NewLeftOrRightHit": [
+        3,
+        2,
+        4
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000830,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1160
+      ],
+      "TarEnemyHurtStiffId": 831,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        2
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000831,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1159
+      ],
+      "TarEnemyHurtStiffId": 870,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        0
+      ],
+      "NewLeftOrRightHit": [
+        7,
+        8,
+        6
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000832,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1159
+      ],
+      "TarEnemyHurtStiffId": 860,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        0
+      ],
+      "NewLeftOrRightHit": [
+        3,
+        2,
+        4
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000833,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1159
+      ],
+      "TarEnemyHurtStiffId": 800,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        0
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000834,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1159
+      ],
+      "TarEnemyHurtStiffId": 890,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [
+        7,
+        8,
+        6
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000835,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1159
+      ],
+      "TarEnemyHurtStiffId": 880,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [
+        3,
+        2,
+        4
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000836,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1159
+      ],
+      "TarEnemyHurtStiffId": 810,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000837,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1159
+      ],
+      "TarEnemyHurtStiffId": 860,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        3
+      ],
+      "NewLeftOrRightHit": [
+        7,
+        8,
+        6
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000838,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1159
+      ],
+      "TarEnemyHurtStiffId": 890,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        3
+      ],
+      "NewLeftOrRightHit": [
+        3,
+        2,
+        4
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000839,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1159
+      ],
+      "TarEnemyHurtStiffId": 820,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        3
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000840,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1159
+      ],
+      "TarEnemyHurtStiffId": 880,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        2
+      ],
+      "NewLeftOrRightHit": [
+        7,
+        8,
+        6
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000841,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1159
+      ],
+      "TarEnemyHurtStiffId": 870,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        2
+      ],
+      "NewLeftOrRightHit": [
+        3,
+        2,
+        4
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000842,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1159
+      ],
+      "TarEnemyHurtStiffId": 830,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        2
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000843,
+      "Priority": 20,
+      "SrcHurtStiffIds": [
+        822
+      ],
+      "TarEnemyHurtStiffId": 832,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86951513
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000844,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1161
+      ],
+      "TarEnemyHurtStiffId": 872,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        0
+      ],
+      "NewLeftOrRightHit": [
+        7,
+        8,
+        6
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000845,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1161
+      ],
+      "TarEnemyHurtStiffId": 862,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        0
+      ],
+      "NewLeftOrRightHit": [
+        3,
+        2,
+        4
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000846,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1161
+      ],
+      "TarEnemyHurtStiffId": 802,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        0
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000847,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1161
+      ],
+      "TarEnemyHurtStiffId": 892,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [
+        7,
+        8,
+        6
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000848,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1161
+      ],
+      "TarEnemyHurtStiffId": 882,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [
+        3,
+        2,
+        4
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000849,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1161
+      ],
+      "TarEnemyHurtStiffId": 812,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000850,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1161
+      ],
+      "TarEnemyHurtStiffId": 862,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        3
+      ],
+      "NewLeftOrRightHit": [
+        7,
+        8,
+        6
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000851,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1161
+      ],
+      "TarEnemyHurtStiffId": 892,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        3
+      ],
+      "NewLeftOrRightHit": [
+        3,
+        2,
+        4
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000852,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1161
+      ],
+      "TarEnemyHurtStiffId": 822,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        3
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000853,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1161
+      ],
+      "TarEnemyHurtStiffId": 882,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        2
+      ],
+      "NewLeftOrRightHit": [
+        7,
+        8,
+        6
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000854,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1161
+      ],
+      "TarEnemyHurtStiffId": 872,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        2
+      ],
+      "NewLeftOrRightHit": [
+        3,
+        2,
+        4
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000855,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1161
+      ],
+      "TarEnemyHurtStiffId": 832,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86976019
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        2
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000861,
+      "Priority": 20,
+      "SrcHurtStiffIds": [
+        832
+      ],
+      "TarEnemyHurtStiffId": 822,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86951513
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000862,
+      "Priority": 20,
+      "SrcHurtStiffIds": [
+        800,
+        801,
+        802,
+        803,
+        805,
+        806
+      ],
+      "TarEnemyHurtStiffId": 715,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [
+        381
+      ],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        2,
+        4,
+        11,
+        14,
+        3
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000863,
+      "Priority": 20,
+      "SrcHurtStiffIds": [
+        800,
+        801,
+        802,
+        803,
+        805,
+        806
+      ],
+      "TarEnemyHurtStiffId": 716,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [
+        381
+      ],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000865,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1160
+      ],
+      "TarEnemyHurtStiffId": 801,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86951519,
+        86951520
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        0
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000866,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1160
+      ],
+      "TarEnemyHurtStiffId": 811,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86951519,
+        86951520
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000867,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1160
+      ],
+      "TarEnemyHurtStiffId": 821,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86951519,
+        86951520
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        3
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000868,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1160
+      ],
+      "TarEnemyHurtStiffId": 831,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86951519,
+        86951520
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        2
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000869,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1159
+      ],
+      "TarEnemyHurtStiffId": 800,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86951519,
+        86951520
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        0
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000870,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1159
+      ],
+      "TarEnemyHurtStiffId": 810,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86951519,
+        86951520
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000871,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1159
+      ],
+      "TarEnemyHurtStiffId": 820,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86951519,
+        86951520
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        3
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000872,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1159
+      ],
+      "TarEnemyHurtStiffId": 830,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86951519,
+        86951520
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        2
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000873,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1161
+      ],
+      "TarEnemyHurtStiffId": 802,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86951519,
+        86951520
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        0
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000874,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1161
+      ],
+      "TarEnemyHurtStiffId": 812,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86951519,
+        86951520
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000875,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1161
+      ],
+      "TarEnemyHurtStiffId": 822,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86951519,
+        86951520
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        3
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000876,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        1161
+      ],
+      "TarEnemyHurtStiffId": 832,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86951519,
+        86951520
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        2
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000877,
+      "Priority": 6,
+      "SrcHurtStiffIds": [
+        1160
+      ],
+      "TarEnemyHurtStiffId": 800,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86155063,
+        86155064,
+        86155065,
+        86155066,
+        86155067
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        0,
+        2,
+        3
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000878,
+      "Priority": 6,
+      "SrcHurtStiffIds": [
+        1160
+      ],
+      "TarEnemyHurtStiffId": 810,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86155063,
+        86155064,
+        86155065,
+        86155066,
+        86155067
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000879,
+      "Priority": 6,
+      "SrcHurtStiffIds": [
+        1161
+      ],
+      "TarEnemyHurtStiffId": 801,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86155063,
+        86155064,
+        86155065,
+        86155066,
+        86155067
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        0,
+        2,
+        3
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000880,
+      "Priority": 6,
+      "SrcHurtStiffIds": [
+        1161
+      ],
+      "TarEnemyHurtStiffId": 811,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86155063,
+        86155064,
+        86155065,
+        86155066,
+        86155067
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000887,
+      "Priority": 6,
+      "SrcHurtStiffIds": [
+        1159
+      ],
+      "TarEnemyHurtStiffId": 800,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86155084
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000889,
+      "Priority": 6,
+      "SrcHurtStiffIds": [
+        1161,
+        1160
+      ],
+      "TarEnemyHurtStiffId": 820,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86155084
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        0,
+        2,
+        3
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000890,
+      "Priority": 6,
+      "SrcHurtStiffIds": [
+        1161,
+        1160
+      ],
+      "TarEnemyHurtStiffId": 821,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86155084
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000891,
+      "Priority": 6,
+      "SrcHurtStiffIds": [
+        803
+      ],
+      "TarEnemyHurtStiffId": 400,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [
+        10347
+      ],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000970,
+      "Priority": 8,
+      "SrcHurtStiffIds": [
+        803,
+        804
+      ],
+      "TarEnemyHurtStiffId": 805,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [
+        53
+      ],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        5,
+        6,
+        4
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000971,
+      "Priority": 8,
+      "SrcHurtStiffIds": [
+        803,
+        804
+      ],
+      "TarEnemyHurtStiffId": 803,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [
+        53
+      ],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000980,
+      "Priority": 9,
+      "SrcHurtStiffIds": [
+        1159,
+        1160
+      ],
+      "TarEnemyHurtStiffId": 801,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86951513
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000981,
+      "Priority": 8,
+      "SrcHurtStiffIds": [
+        1159,
+        1160
+      ],
+      "TarEnemyHurtStiffId": 821,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86951513
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        6,
+        7,
+        8,
+        10,
+        13
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000982,
+      "Priority": 8,
+      "SrcHurtStiffIds": [
+        1159,
+        1160
+      ],
+      "TarEnemyHurtStiffId": 831,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86951513
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        2,
+        4,
+        11,
+        14,
+        3
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000983,
+      "Priority": 9,
+      "SrcHurtStiffIds": [
+        1161
+      ],
+      "TarEnemyHurtStiffId": 802,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86951513
+      ],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000984,
+      "Priority": 8,
+      "SrcHurtStiffIds": [
+        1159,
+        1160,
+        1161
+      ],
+      "TarEnemyHurtStiffId": 801,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86951513
+      ],
+      "HurterHasState": [
+        10426
+      ],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000985,
+      "Priority": 7,
+      "SrcHurtStiffIds": [
+        1159,
+        1160,
+        1161
+      ],
+      "TarEnemyHurtStiffId": 821,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86951513
+      ],
+      "HurterHasState": [
+        10426
+      ],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        6,
+        7,
+        8,
+        10,
+        13
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000986,
+      "Priority": 7,
+      "SrcHurtStiffIds": [
+        1159,
+        1160,
+        1161
+      ],
+      "TarEnemyHurtStiffId": 831,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [
+        86951513
+      ],
+      "HurterHasState": [
+        10426
+      ],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        2,
+        4,
+        11,
+        14,
+        3
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000990,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        800,
+        801,
+        802,
+        803,
+        804,
+        805
+      ],
+      "TarEnemyHurtStiffId": 723,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "return IsDestructibleItemHooked(59900002)",
+      "TransitionConditionNew": "return IsDestructibleItemHooked(59900002);"
+    },
+    {
+      "Id": 1000991,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        690
+      ],
+      "TarEnemyHurtStiffId": 735,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000992,
+      "Priority": 0,
+      "SrcHurtStiffIds": [
+        735
+      ],
+      "TarEnemyHurtStiffId": 610,
+      "Target": 0,
+      "UnitTypeForStiff": 3,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1000993,
+      "Priority": 9,
+      "SrcHurtStiffIds": [
+        800,
+        806
+      ],
+      "TarEnemyHurtStiffId": 601,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        2
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "return IsAttackerFightStyle(39000707)",
+      "TransitionConditionNew": "return IsAttackerFightStyle(39000707)"
+    },
+    {
+      "Id": 1000994,
+      "Priority": 9,
+      "SrcHurtStiffIds": [
+        801
+      ],
+      "TarEnemyHurtStiffId": 602,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        2
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "return IsAttackerFightStyle(39000707)",
+      "TransitionConditionNew": "return IsAttackerFightStyle(39000707)"
+    },
+    {
+      "Id": 1000995,
+      "Priority": 9,
+      "SrcHurtStiffIds": [
+        800,
+        806
+      ],
+      "TarEnemyHurtStiffId": 603,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        3
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "return IsAttackerFightStyle(39000707)",
+      "TransitionConditionNew": "return IsAttackerFightStyle(39000707)"
+    },
+    {
+      "Id": 1000996,
+      "Priority": 9,
+      "SrcHurtStiffIds": [
+        801
+      ],
+      "TarEnemyHurtStiffId": 604,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        3
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "return IsAttackerFightStyle(39000707)",
+      "TransitionConditionNew": "return IsAttackerFightStyle(39000707)"
+    },
+    {
+      "Id": 1000997,
+      "Priority": 9,
+      "SrcHurtStiffIds": [
+        802
+      ],
+      "TarEnemyHurtStiffId": 605,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        2
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "return IsAttackerFightStyle(39000707)",
+      "TransitionConditionNew": "return IsAttackerFightStyle(39000707)"
+    },
+    {
+      "Id": 1000998,
+      "Priority": 9,
+      "SrcHurtStiffIds": [
+        802
+      ],
+      "TarEnemyHurtStiffId": 606,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        3
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "return IsAttackerFightStyle(39000707)",
+      "TransitionConditionNew": "return IsAttackerFightStyle(39000707)"
+    },
+    {
+      "Id": 1001000,
+      "Priority": 8,
+      "SrcHurtStiffIds": [
+        800,
+        801,
+        802,
+        803,
+        804,
+        805,
+        806
+      ],
+      "TarEnemyHurtStiffId": 400,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [
+        1
+      ],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001001,
+      "Priority": 8,
+      "SrcHurtStiffIds": [
+        800
+      ],
+      "TarEnemyHurtStiffId": 400,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [
+        0
+      ],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001002,
+      "Priority": 8,
+      "SrcHurtStiffIds": [
+        801,
+        802
+      ],
+      "TarEnemyHurtStiffId": 904,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [
+        0
+      ],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001003,
+      "Priority": 8,
+      "SrcHurtStiffIds": [
+        803,
+        805,
+        804
+      ],
+      "TarEnemyHurtStiffId": 804,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [
+        0
+      ],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001004,
+      "Priority": 3,
+      "SrcHurtStiffIds": [
+        800,
+        801,
+        802,
+        803,
+        804,
+        805,
+        806
+      ],
+      "TarEnemyHurtStiffId": 104,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "return IsHaveGamePlayTag(35)",
+      "TransitionConditionNew": "return IsHaveGamePlayTag(35);"
+    },
+    {
+      "Id": 1001005,
+      "Priority": 3,
+      "SrcHurtStiffIds": [
+        800,
+        801,
+        802,
+        803,
+        804,
+        805,
+        806
+      ],
+      "TarEnemyHurtStiffId": 102,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "return IsHaveGamePlayTag(37) or IsHaveGamePlayTag(38) or IsHaveGamePlayTag(39)",
+      "TransitionConditionNew": "return IsHaveGamePlayTag(37) || IsHaveGamePlayTag(38) || IsHaveGamePlayTag(39)"
+    },
+    {
+      "Id": 1001025,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        800
+      ],
+      "TarEnemyHurtStiffId": 930,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [
+        1,
+        8,
+        2
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001026,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        800
+      ],
+      "TarEnemyHurtStiffId": 940,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [
+        12,
+        11,
+        10
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001028,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        800
+      ],
+      "TarEnemyHurtStiffId": 810,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001029,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        800
+      ],
+      "TarEnemyHurtStiffId": 820,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        3
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001030,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        800
+      ],
+      "TarEnemyHurtStiffId": 830,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        7
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001031,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        800
+      ],
+      "TarEnemyHurtStiffId": 840,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        1
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001032,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        800
+      ],
+      "TarEnemyHurtStiffId": 850,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        5
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001033,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        800
+      ],
+      "TarEnemyHurtStiffId": 860,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        4
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001034,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        800
+      ],
+      "TarEnemyHurtStiffId": 870,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        6
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001035,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        800
+      ],
+      "TarEnemyHurtStiffId": 880,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        2
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001036,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        800
+      ],
+      "TarEnemyHurtStiffId": 890,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        8
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001037,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        800
+      ],
+      "TarEnemyHurtStiffId": 950,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        9
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001038,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        800
+      ],
+      "TarEnemyHurtStiffId": 960,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        13
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001039,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        800
+      ],
+      "TarEnemyHurtStiffId": 970,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        14
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001040,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        801
+      ],
+      "TarEnemyHurtStiffId": 931,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [
+        1,
+        8,
+        2
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001041,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        801
+      ],
+      "TarEnemyHurtStiffId": 941,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [
+        12,
+        11,
+        10
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001042,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        801
+      ],
+      "TarEnemyHurtStiffId": 811,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001043,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        801
+      ],
+      "TarEnemyHurtStiffId": 821,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        3,
+        14
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001044,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        801
+      ],
+      "TarEnemyHurtStiffId": 831,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        7,
+        13
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001045,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        801
+      ],
+      "TarEnemyHurtStiffId": 841,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        1
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001046,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        801
+      ],
+      "TarEnemyHurtStiffId": 851,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        5
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001047,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        801
+      ],
+      "TarEnemyHurtStiffId": 861,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        4
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001048,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        801
+      ],
+      "TarEnemyHurtStiffId": 871,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        6
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001049,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        801
+      ],
+      "TarEnemyHurtStiffId": 881,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        2
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001050,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        801
+      ],
+      "TarEnemyHurtStiffId": 891,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        8
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001051,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        801
+      ],
+      "TarEnemyHurtStiffId": 901,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        12
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001052,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        801
+      ],
+      "TarEnemyHurtStiffId": 911,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        11
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001053,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        801
+      ],
+      "TarEnemyHurtStiffId": 921,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        10
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001054,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        802
+      ],
+      "TarEnemyHurtStiffId": 932,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [
+        1,
+        8,
+        2
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001055,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        802
+      ],
+      "TarEnemyHurtStiffId": 942,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [
+        12,
+        11,
+        10
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001056,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        802
+      ],
+      "TarEnemyHurtStiffId": 812,
+      "Target": 0,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001057,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        802
+      ],
+      "TarEnemyHurtStiffId": 822,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        3,
+        14
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001058,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        802
+      ],
+      "TarEnemyHurtStiffId": 832,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        7,
+        13
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001059,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        802
+      ],
+      "TarEnemyHurtStiffId": 842,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        1
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001060,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        802
+      ],
+      "TarEnemyHurtStiffId": 852,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        5
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001061,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        802
+      ],
+      "TarEnemyHurtStiffId": 862,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        4
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001062,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        802
+      ],
+      "TarEnemyHurtStiffId": 872,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        6
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001063,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        802
+      ],
+      "TarEnemyHurtStiffId": 882,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        2
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001064,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        802
+      ],
+      "TarEnemyHurtStiffId": 892,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        8
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001065,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        802
+      ],
+      "TarEnemyHurtStiffId": 902,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        12
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001066,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        802
+      ],
+      "TarEnemyHurtStiffId": 912,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        11
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001067,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        802
+      ],
+      "TarEnemyHurtStiffId": 922,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        10
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001068,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        806
+      ],
+      "TarEnemyHurtStiffId": 936,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [
+        1,
+        8,
+        2
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001069,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        806
+      ],
+      "TarEnemyHurtStiffId": 946,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [
+        12,
+        11,
+        10
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001070,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        806
+      ],
+      "TarEnemyHurtStiffId": 816,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001071,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        806
+      ],
+      "TarEnemyHurtStiffId": 826,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        3
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001072,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        806
+      ],
+      "TarEnemyHurtStiffId": 836,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        7
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001073,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        806
+      ],
+      "TarEnemyHurtStiffId": 846,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        1
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001074,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        806
+      ],
+      "TarEnemyHurtStiffId": 856,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        5
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001075,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        806
+      ],
+      "TarEnemyHurtStiffId": 866,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        4
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001076,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        806
+      ],
+      "TarEnemyHurtStiffId": 876,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        6
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001077,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        806
+      ],
+      "TarEnemyHurtStiffId": 886,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        2,
+        3
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001078,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        806
+      ],
+      "TarEnemyHurtStiffId": 896,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        8,
+        7
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001079,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        806
+      ],
+      "TarEnemyHurtStiffId": 906,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        12
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001080,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        806
+      ],
+      "TarEnemyHurtStiffId": 916,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        11
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001081,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        806
+      ],
+      "TarEnemyHurtStiffId": 926,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        10
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001082,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        806
+      ],
+      "TarEnemyHurtStiffId": 956,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        9
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001083,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        806
+      ],
+      "TarEnemyHurtStiffId": 966,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        13
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001084,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        806
+      ],
+      "TarEnemyHurtStiffId": 976,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        14
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001215,
+      "Priority": 11,
+      "SrcHurtStiffIds": [
+        803
+      ],
+      "TarEnemyHurtStiffId": 823,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        3
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001216,
+      "Priority": 11,
+      "SrcHurtStiffIds": [
+        803
+      ],
+      "TarEnemyHurtStiffId": 833,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        7
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001217,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        803
+      ],
+      "TarEnemyHurtStiffId": 814,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [
+        1
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001218,
+      "Priority": 11,
+      "SrcHurtStiffIds": [
+        803
+      ],
+      "TarEnemyHurtStiffId": 804,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        1
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001219,
+      "Priority": 11,
+      "SrcHurtStiffIds": [
+        803
+      ],
+      "TarEnemyHurtStiffId": 824,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        2
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001220,
+      "Priority": 11,
+      "SrcHurtStiffIds": [
+        803
+      ],
+      "TarEnemyHurtStiffId": 834,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        8
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001221,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        803
+      ],
+      "TarEnemyHurtStiffId": 805,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        5,
+        6,
+        4
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001222,
+      "Priority": 11,
+      "SrcHurtStiffIds": [
+        803
+      ],
+      "TarEnemyHurtStiffId": 863,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        11
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001233,
+      "Priority": 19,
+      "SrcHurtStiffIds": [
+        800
+      ],
+      "TarEnemyHurtStiffId": 810,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [
+        61,
+        62,
+        63,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001234,
+      "Priority": 19,
+      "SrcHurtStiffIds": [
+        803
+      ],
+      "TarEnemyHurtStiffId": 814,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [
+        61,
+        62,
+        63,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [
+        1
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001235,
+      "Priority": 19,
+      "SrcHurtStiffIds": [
+        802
+      ],
+      "TarEnemyHurtStiffId": 812,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [
+        61,
+        62,
+        63,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001236,
+      "Priority": 19,
+      "SrcHurtStiffIds": [
+        803
+      ],
+      "TarEnemyHurtStiffId": 813,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [
+        61,
+        62,
+        63,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001250,
+      "Priority": 11,
+      "SrcHurtStiffIds": [
+        803
+      ],
+      "TarEnemyHurtStiffId": 873,
+      "Target": 0,
+      "UnitTypeForStiff": 1,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [
+        10
+      ],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001300,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        8000
+      ],
+      "TarEnemyHurtStiffId": 8100,
+      "Target": 2,
+      "UnitTypeForStiff": 2,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001301,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        8000
+      ],
+      "TarEnemyHurtStiffId": 8200,
+      "Target": 2,
+      "UnitTypeForStiff": 2,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        2
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "return not (GetWeaponActionType() == 603 or GetWeaponActionType() == 700 or GetWeaponActionType() == 708)",
+      "TransitionConditionNew": "return not (GetWeaponActionType() == 603 or GetWeaponActionType() == 700 or GetWeaponActionType() == 708)"
+    },
+    {
+      "Id": 1001302,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        8000
+      ],
+      "TarEnemyHurtStiffId": 8300,
+      "Target": 2,
+      "UnitTypeForStiff": 2,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        3
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "return not (GetWeaponActionType() == 603 or GetWeaponActionType() == 700 or GetWeaponActionType() == 708)",
+      "TransitionConditionNew": "return not (GetWeaponActionType() == 603 or GetWeaponActionType() == 700 or GetWeaponActionType() == 708)"
+    },
+    {
+      "Id": 1001303,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        8010
+      ],
+      "TarEnemyHurtStiffId": 8110,
+      "Target": 2,
+      "UnitTypeForStiff": 2,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001304,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        8010
+      ],
+      "TarEnemyHurtStiffId": 8210,
+      "Target": 2,
+      "UnitTypeForStiff": 2,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        2
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "return not (GetWeaponActionType() == 603 or GetWeaponActionType() == 700 or GetWeaponActionType() == 708)",
+      "TransitionConditionNew": "return not (GetWeaponActionType() == 603 or GetWeaponActionType() == 700 or GetWeaponActionType() == 708)"
+    },
+    {
+      "Id": 1001305,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        8010
+      ],
+      "TarEnemyHurtStiffId": 8310,
+      "Target": 2,
+      "UnitTypeForStiff": 2,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        3
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "return not (GetWeaponActionType() == 603 or GetWeaponActionType() == 700 or GetWeaponActionType() == 708)",
+      "TransitionConditionNew": "return not (GetWeaponActionType() == 603 or GetWeaponActionType() == 700 or GetWeaponActionType() == 708)"
+    },
+    {
+      "Id": 1001306,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        8020
+      ],
+      "TarEnemyHurtStiffId": 8120,
+      "Target": 2,
+      "UnitTypeForStiff": 2,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001307,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        8040
+      ],
+      "TarEnemyHurtStiffId": 8140,
+      "Target": 2,
+      "UnitTypeForStiff": 2,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "return not (GetWeaponActionType() == 603 or GetWeaponActionType() == 700 or GetWeaponActionType() == 708)",
+      "TransitionConditionNew": "return not (GetWeaponActionType() == 603 or GetWeaponActionType() == 700 or GetWeaponActionType() == 708)"
+    },
+    {
+      "Id": 1001310,
+      "Priority": 10,
+      "SrcHurtStiffIds": [
+        400
+      ],
+      "TarEnemyHurtStiffId": 410,
+      "Target": 2,
+      "UnitTypeForStiff": 2,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "return IsIdle()",
+      "TransitionConditionNew": "return IsIdle();"
+    },
+    {
+      "Id": 1001311,
+      "Priority": 8,
+      "SrcHurtStiffIds": [
+        8000
+      ],
+      "TarEnemyHurtStiffId": 400,
+      "Target": 2,
+      "UnitTypeForStiff": 2,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [
+        0
+      ],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001312,
+      "Priority": 8,
+      "SrcHurtStiffIds": [
+        8010,
+        8020
+      ],
+      "TarEnemyHurtStiffId": 8040,
+      "Target": 2,
+      "UnitTypeForStiff": 2,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [
+        0
+      ],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001313,
+      "Priority": 6,
+      "SrcHurtStiffIds": [
+        8000,
+        8010,
+        8020
+      ],
+      "TarEnemyHurtStiffId": 8040,
+      "Target": 2,
+      "UnitTypeForStiff": 2,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [
+        345
+      ],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001314,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        8000,
+        8010,
+        8020,
+        8040
+      ],
+      "TarEnemyHurtStiffId": 102,
+      "Target": 2,
+      "UnitTypeForStiff": 2,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [
+        10380
+      ],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001315,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        8000,
+        8010,
+        8020,
+        8040
+      ],
+      "TarEnemyHurtStiffId": 405,
+      "Target": 2,
+      "UnitTypeForStiff": 2,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [
+        61
+      ],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001316,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        8000,
+        8010,
+        8020,
+        8040
+      ],
+      "TarEnemyHurtStiffId": 452,
+      "Target": 2,
+      "UnitTypeForStiff": 2,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [
+        367
+      ],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001317,
+      "Priority": 5,
+      "SrcHurtStiffIds": [
+        8000,
+        8010,
+        8020,
+        8040
+      ],
+      "TarEnemyHurtStiffId": 452,
+      "Target": 2,
+      "UnitTypeForStiff": 2,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [
+        10405
+      ],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001318,
+      "Priority": 3,
+      "SrcHurtStiffIds": [
+        8000,
+        8010,
+        8020,
+        8040
+      ],
+      "TarEnemyHurtStiffId": 400,
+      "Target": 2,
+      "UnitTypeForStiff": 2,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [
+        1
+      ],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001320,
+      "Priority": 20,
+      "SrcHurtStiffIds": [
+        708
+      ],
+      "TarEnemyHurtStiffId": 704,
+      "Target": 2,
+      "UnitTypeForStiff": 2,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        1
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001321,
+      "Priority": 20,
+      "SrcHurtStiffIds": [
+        708
+      ],
+      "TarEnemyHurtStiffId": 706,
+      "Target": 2,
+      "UnitTypeForStiff": 2,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        2
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 1001322,
+      "Priority": 20,
+      "SrcHurtStiffIds": [
+        708
+      ],
+      "TarEnemyHurtStiffId": 710,
+      "Target": 2,
+      "UnitTypeForStiff": 2,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [
+        3
+      ],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "",
+      "TransitionConditionNew": ""
+    },
+    {
+      "Id": 6000213,
+      "Priority": 8,
+      "SrcHurtStiffIds": [
+        400
+      ],
+      "TarEnemyHurtStiffId": 400,
+      "Target": 1,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "return  HasAction(6404) and HasAction(6400) and not IsIdle() and not IsDestructibleItemHooked(59900002) and HurterHasState(309)",
+      "TransitionConditionNew": "return  HasAction(6404) && HasAction(6400) && !IsIdle() && !IsDestructibleItemHooked(59900002) && HurterHasState(309)"
+    },
+    {
+      "Id": 6000214,
+      "Priority": 8,
+      "SrcHurtStiffIds": [
+        400
+      ],
+      "TarEnemyHurtStiffId": 414,
+      "Target": 1,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "return  HasAction(6404) and HasAction(6400) and IsIdle() and not IsDestructibleItemHooked(59900002) and HurterHasState(309)",
+      "TransitionConditionNew": "return  HasAction(6404) && HasAction(6400) && IsIdle() && !IsDestructibleItemHooked(59900002) && HurterHasState(309)"
+    },
+    {
+      "Id": 6000215,
+      "Priority": 20,
+      "SrcHurtStiffIds": [
+        453
+      ],
+      "TarEnemyHurtStiffId": 454,
+      "Target": 1,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "return IsStiffDownUp()",
+      "TransitionConditionNew": "return IsStiffDownUp();"
+    },
+    {
+      "Id": 6000216,
+      "Priority": 7,
+      "SrcHurtStiffIds": [
+        400
+      ],
+      "TarEnemyHurtStiffId": 456,
+      "Target": 1,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "return HurterHasState(10495)",
+      "TransitionConditionNew": "return HurterHasState(10495);"
+    },
+    {
+      "Id": 6000217,
+      "Priority": 20,
+      "SrcHurtStiffIds": [
+        462
+      ],
+      "TarEnemyHurtStiffId": 461,
+      "Target": 1,
+      "UnitTypeForStiff": 0,
+      "HitUnitBodyType": [],
+      "ModelIdEquals": [],
+      "HurterHasState": [],
+      "SpecialState": [],
+      "IsFourDirHit": [],
+      "NewLeftOrRightHit": [],
+      "TransitionCondition": "return IsStiffDownUp()",
+      "TransitionConditionNew": "return IsStiffDownUp();"
+    }
+  ],
+  "_dumpedCount": 194,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

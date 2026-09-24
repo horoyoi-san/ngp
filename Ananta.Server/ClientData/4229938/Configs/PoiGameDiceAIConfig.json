@@ -1,0 +1,340 @@
+{
+  "_class": "PoiGameDiceAIConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 12,
+  "records": [
+    {
+      "Id": 100,
+      "AgentID": 0,
+      "ModelID": [
+        42071200,
+        42071201,
+        42071202
+      ],
+      "BadgetID": [
+        100,
+        101,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114
+      ],
+      "BadgetCount": 0,
+      "ScoreRateCountUp": 300,
+      "ScoreRateRange": 0.300000012,
+      "ChallengeID": 35,
+      "TargetScore": 2000,
+      "FixRerollRate": 0.200000003,
+      "SelectionName": 73975627,
+      "BadgeEnable": true,
+      "Mode": 1,
+      "Drop": [
+        100
+      ],
+      "ScoreRangeList": [
+        {
+          "expect": 300,
+          "range": 30,
+          "prob": 100
+        }
+      ]
+    },
+    {
+      "Id": 101,
+      "AgentID": 0,
+      "ModelID": [
+        42071203,
+        42071204,
+        42071205
+      ],
+      "BadgetID": [
+        100,
+        101,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114
+      ],
+      "BadgetCount": 1,
+      "ScoreRateCountUp": 400,
+      "ScoreRateRange": 0.25,
+      "ChallengeID": 36,
+      "TargetScore": 3000,
+      "FixRerollRate": 0.150000006,
+      "SelectionName": 73975628,
+      "BadgeEnable": true,
+      "Mode": 1,
+      "Drop": [
+        101
+      ],
+      "ScoreRangeList": [
+        {
+          "expect": 400,
+          "range": 25,
+          "prob": 50
+        },
+        {
+          "expect": 500,
+          "range": 25,
+          "prob": 50
+        }
+      ]
+    },
+    {
+      "Id": 102,
+      "AgentID": 0,
+      "ModelID": [
+        42071206,
+        42071207,
+        42071208
+      ],
+      "BadgetID": [
+        100,
+        101,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114
+      ],
+      "BadgetCount": 2,
+      "ScoreRateCountUp": 500,
+      "ScoreRateRange": 0.200000003,
+      "ChallengeID": 37,
+      "TargetScore": 4000,
+      "FixRerollRate": 0.100000001,
+      "SelectionName": 73975629,
+      "BadgeEnable": true,
+      "Mode": 1,
+      "Drop": [
+        104
+      ],
+      "ScoreRangeList": [
+        {
+          "expect": 500,
+          "range": 20,
+          "prob": 100
+        }
+      ]
+    },
+    {
+      "Id": 103,
+      "AgentID": 0,
+      "ModelID": [
+        42071209,
+        42071210,
+        42071211
+      ],
+      "BadgetID": [
+        100,
+        101,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114
+      ],
+      "BadgetCount": 3,
+      "ScoreRateCountUp": 600,
+      "ScoreRateRange": 0.150000006,
+      "ChallengeID": 38,
+      "TargetScore": 5000,
+      "FixRerollRate": 0.0500000007,
+      "SelectionName": 73975630,
+      "BadgeEnable": true,
+      "Mode": 1,
+      "Drop": [
+        105
+      ],
+      "ScoreRangeList": [
+        {
+          "expect": 600,
+          "range": 15,
+          "prob": 50
+        },
+        {
+          "expect": 800,
+          "range": 15,
+          "prob": 50
+        }
+      ]
+    },
+    {
+      "Id": 104,
+      "AgentID": 0,
+      "ModelID": [],
+      "BadgetID": [],
+      "BadgetCount": 0,
+      "ScoreRateCountUp": 0,
+      "ScoreRateRange": 0,
+      "ChallengeID": 39,
+      "TargetScore": 0,
+      "FixRerollRate": 0,
+      "SelectionName": 0,
+      "BadgeEnable": false,
+      "Mode": 1,
+      "Drop": [],
+      "ScoreRangeList": []
+    },
+    {
+      "Id": 105,
+      "AgentID": 0,
+      "ModelID": [],
+      "BadgetID": [],
+      "BadgetCount": 0,
+      "ScoreRateCountUp": 0,
+      "ScoreRateRange": 0,
+      "ChallengeID": 40,
+      "TargetScore": 0,
+      "FixRerollRate": 0,
+      "SelectionName": 0,
+      "BadgeEnable": false,
+      "Mode": 1,
+      "Drop": [],
+      "ScoreRangeList": []
+    },
+    {
+      "Id": 106,
+      "AgentID": 0,
+      "ModelID": [],
+      "BadgetID": [],
+      "BadgetCount": 0,
+      "ScoreRateCountUp": 0,
+      "ScoreRateRange": 0,
+      "ChallengeID": 41,
+      "TargetScore": 0,
+      "FixRerollRate": 0,
+      "SelectionName": 0,
+      "BadgeEnable": false,
+      "Mode": 1,
+      "Drop": [],
+      "ScoreRangeList": []
+    },
+    {
+      "Id": 107,
+      "AgentID": 40650065,
+      "ModelID": [],
+      "BadgetID": [],
+      "BadgetCount": 0,
+      "ScoreRateCountUp": 500,
+      "ScoreRateRange": 0.400000006,
+      "ChallengeID": 35,
+      "TargetScore": 1000,
+      "FixRerollRate": 0.100000001,
+      "SelectionName": 73975631,
+      "BadgeEnable": false,
+      "Mode": 1,
+      "Drop": [],
+      "ScoreRangeList": [
+        {
+          "expect": 500,
+          "range": 40,
+          "prob": 100
+        }
+      ]
+    },
+    {
+      "Id": 108,
+      "AgentID": 42006223,
+      "ModelID": [],
+      "BadgetID": [],
+      "BadgetCount": 0,
+      "ScoreRateCountUp": 600,
+      "ScoreRateRange": 0.300000012,
+      "ChallengeID": 35,
+      "TargetScore": 1500,
+      "FixRerollRate": 0.699999988,
+      "SelectionName": 73975631,
+      "BadgeEnable": false,
+      "Mode": 1,
+      "Drop": [],
+      "ScoreRangeList": [
+        {
+          "expect": 600,
+          "range": 30,
+          "prob": 100
+        }
+      ]
+    },
+    {
+      "Id": 109,
+      "AgentID": 0,
+      "ModelID": [],
+      "BadgetID": [],
+      "BadgetCount": 0,
+      "ScoreRateCountUp": 0,
+      "ScoreRateRange": 0,
+      "ChallengeID": 42,
+      "TargetScore": 0,
+      "FixRerollRate": 0,
+      "SelectionName": 0,
+      "BadgeEnable": false,
+      "Mode": 0,
+      "Drop": [],
+      "ScoreRangeList": []
+    },
+    {
+      "Id": 110,
+      "AgentID": 0,
+      "ModelID": [],
+      "BadgetID": [],
+      "BadgetCount": 0,
+      "ScoreRateCountUp": 0,
+      "ScoreRateRange": 0,
+      "ChallengeID": 43,
+      "TargetScore": 0,
+      "FixRerollRate": 0,
+      "SelectionName": 0,
+      "BadgeEnable": false,
+      "Mode": 0,
+      "Drop": [],
+      "ScoreRangeList": []
+    },
+    {
+      "Id": 111,
+      "AgentID": 0,
+      "ModelID": [],
+      "BadgetID": [],
+      "BadgetCount": 0,
+      "ScoreRateCountUp": 0,
+      "ScoreRateRange": 0,
+      "ChallengeID": 44,
+      "TargetScore": 0,
+      "FixRerollRate": 0,
+      "SelectionName": 0,
+      "BadgeEnable": false,
+      "Mode": 0,
+      "Drop": [],
+      "ScoreRangeList": []
+    }
+  ],
+  "_dumpedCount": 12,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

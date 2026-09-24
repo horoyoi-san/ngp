@@ -1,0 +1,210 @@
+{
+  "_class": "AgentSenseResponseOutcomeConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 25,
+  "records": [
+    {
+      "Id": 1,
+      "ResponseRuleId": 8,
+      "Type": 1,
+      "RecipientSlotId": 0,
+      "VariantTableRef": "",
+      "Payload": "MultiInteractLookup"
+    },
+    {
+      "Id": 2,
+      "ResponseRuleId": 9,
+      "Type": 1,
+      "RecipientSlotId": 0,
+      "VariantTableRef": "",
+      "Payload": "LifeSchedulePrecisionCheck"
+    },
+    {
+      "Id": 3,
+      "ResponseRuleId": 4,
+      "Type": 5,
+      "RecipientSlotId": 0,
+      "VariantTableRef": "",
+      "Payload": "Player"
+    },
+    {
+      "Id": 4,
+      "ResponseRuleId": 6,
+      "Type": 5,
+      "RecipientSlotId": 0,
+      "VariantTableRef": "",
+      "Payload": "Agent"
+    },
+    {
+      "Id": 5,
+      "ResponseRuleId": 20,
+      "Type": 1,
+      "RecipientSlotId": 0,
+      "VariantTableRef": "",
+      "Payload": "PhotoLookAt"
+    },
+    {
+      "Id": 6,
+      "ResponseRuleId": 21,
+      "Type": 1,
+      "RecipientSlotId": 0,
+      "VariantTableRef": "",
+      "Payload": "PhotoLookAt"
+    },
+    {
+      "Id": 7,
+      "ResponseRuleId": 23,
+      "Type": 1,
+      "RecipientSlotId": 0,
+      "VariantTableRef": "",
+      "Payload": "AnimalLookAt"
+    },
+    {
+      "Id": 8,
+      "ResponseRuleId": 24,
+      "Type": 1,
+      "RecipientSlotId": 0,
+      "VariantTableRef": "",
+      "Payload": "AnimalLookAt"
+    },
+    {
+      "Id": 9,
+      "ResponseRuleId": 25,
+      "Type": 1,
+      "RecipientSlotId": 0,
+      "VariantTableRef": "",
+      "Payload": "AnimalLookAt"
+    },
+    {
+      "Id": 10,
+      "ResponseRuleId": 26,
+      "Type": 1,
+      "RecipientSlotId": 0,
+      "VariantTableRef": "",
+      "Payload": "CompanionReactHair"
+    },
+    {
+      "Id": 11,
+      "ResponseRuleId": 27,
+      "Type": 1,
+      "RecipientSlotId": 0,
+      "VariantTableRef": "",
+      "Payload": "CompanionReactOutfit"
+    },
+    {
+      "Id": 12,
+      "ResponseRuleId": 28,
+      "Type": 1,
+      "RecipientSlotId": 0,
+      "VariantTableRef": "",
+      "Payload": "CompanionReactVehicle"
+    },
+    {
+      "Id": 13,
+      "ResponseRuleId": 29,
+      "Type": 1,
+      "RecipientSlotId": 0,
+      "VariantTableRef": "",
+      "Payload": "CompanionReactRollover"
+    },
+    {
+      "Id": 14,
+      "ResponseRuleId": 30,
+      "Type": 1,
+      "RecipientSlotId": 0,
+      "VariantTableRef": "",
+      "Payload": "CompanionLongDistanceAway:15"
+    },
+    {
+      "Id": 15,
+      "ResponseRuleId": 31,
+      "Type": 1,
+      "RecipientSlotId": 0,
+      "VariantTableRef": "",
+      "Payload": "CompanionLongDistanceReturn"
+    },
+    {
+      "Id": 16,
+      "ResponseRuleId": 32,
+      "Type": 1,
+      "RecipientSlotId": 0,
+      "VariantTableRef": "",
+      "Payload": "PoiPerformanceGaze"
+    },
+    {
+      "Id": 17,
+      "ResponseRuleId": 33,
+      "Type": 1,
+      "RecipientSlotId": 0,
+      "VariantTableRef": "",
+      "Payload": "PoiPerformanceGaze"
+    },
+    {
+      "Id": 18,
+      "ResponseRuleId": 34,
+      "Type": 1,
+      "RecipientSlotId": 0,
+      "VariantTableRef": "",
+      "Payload": "CompanionReactSwing"
+    },
+    {
+      "Id": 19,
+      "ResponseRuleId": 35,
+      "Type": 1,
+      "RecipientSlotId": 0,
+      "VariantTableRef": "",
+      "Payload": "CompanionReactSwim"
+    },
+    {
+      "Id": 20,
+      "ResponseRuleId": 36,
+      "Type": 1,
+      "RecipientSlotId": 0,
+      "VariantTableRef": "",
+      "Payload": "CompanionReactHitFly"
+    },
+    {
+      "Id": 21,
+      "ResponseRuleId": 37,
+      "Type": 1,
+      "RecipientSlotId": 0,
+      "VariantTableRef": "",
+      "Payload": "CompanionReactHighSpeed"
+    },
+    {
+      "Id": 22,
+      "ResponseRuleId": 38,
+      "Type": 1,
+      "RecipientSlotId": 0,
+      "VariantTableRef": "",
+      "Payload": "CompanionReactToilet"
+    },
+    {
+      "Id": 23,
+      "ResponseRuleId": 39,
+      "Type": 1,
+      "RecipientSlotId": 0,
+      "VariantTableRef": "",
+      "Payload": "CompanionReactSeeCat"
+    },
+    {
+      "Id": 24,
+      "ResponseRuleId": 40,
+      "Type": 1,
+      "RecipientSlotId": 0,
+      "VariantTableRef": "",
+      "Payload": "CompanionReactSeeDog"
+    },
+    {
+      "Id": 25,
+      "ResponseRuleId": 41,
+      "Type": 1,
+      "RecipientSlotId": 0,
+      "VariantTableRef": "",
+      "Payload": "CompanionReactSeeRichVehicle"
+    }
+  ],
+  "_dumpedCount": 25,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

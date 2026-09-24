@@ -1,0 +1,450 @@
+{
+  "_class": "HurtStiffSpecialHitConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 22,
+  "records": [
+    {
+      "Id": 744,
+      "FallLinkStiffId": 0,
+      "LyingStiffId": 965,
+      "FaceDirection": 1,
+      "GetupSlowStiffId": 905,
+      "GetupCondition": 3,
+      "GetupQuickStiffId": 975,
+      "HitFallGroundHorizontalSpeedTime": 0,
+      "Lyingtime": {
+        "slowTime": 2,
+        "quickTime": 1
+      },
+      "FixedTimeFallGroundSetting": {
+        "time": 0,
+        "AccTime": 0,
+        "Acc": 0,
+        "LimitDistance": 0
+      }
+    },
+    {
+      "Id": 803,
+      "FallLinkStiffId": 0,
+      "LyingStiffId": 965,
+      "FaceDirection": 1,
+      "GetupSlowStiffId": 905,
+      "GetupCondition": 3,
+      "GetupQuickStiffId": 975,
+      "HitFallGroundHorizontalSpeedTime": 0,
+      "Lyingtime": {
+        "slowTime": 1,
+        "quickTime": 0.600000024
+      },
+      "FixedTimeFallGroundSetting": {
+        "time": 0,
+        "AccTime": 0,
+        "Acc": 0,
+        "LimitDistance": 0
+      }
+    },
+    {
+      "Id": 804,
+      "FallLinkStiffId": 914,
+      "LyingStiffId": 924,
+      "FaceDirection": 0,
+      "GetupSlowStiffId": 944,
+      "GetupCondition": 3,
+      "GetupQuickStiffId": 974,
+      "HitFallGroundHorizontalSpeedTime": 0.400000006,
+      "Lyingtime": {
+        "slowTime": 1,
+        "quickTime": 0.600000024
+      },
+      "FixedTimeFallGroundSetting": {
+        "time": 0.5,
+        "AccTime": 0.5,
+        "Acc": 100,
+        "LimitDistance": 10
+      }
+    },
+    {
+      "Id": 805,
+      "FallLinkStiffId": 0,
+      "LyingStiffId": 965,
+      "FaceDirection": 1,
+      "GetupSlowStiffId": 905,
+      "GetupCondition": 3,
+      "GetupQuickStiffId": 975,
+      "HitFallGroundHorizontalSpeedTime": 0,
+      "Lyingtime": {
+        "slowTime": 1,
+        "quickTime": 0.600000024
+      },
+      "FixedTimeFallGroundSetting": {
+        "time": 0,
+        "AccTime": 0,
+        "Acc": 0,
+        "LimitDistance": 0
+      }
+    },
+    {
+      "Id": 813,
+      "FallLinkStiffId": 0,
+      "LyingStiffId": 965,
+      "FaceDirection": 1,
+      "GetupSlowStiffId": 905,
+      "GetupCondition": 3,
+      "GetupQuickStiffId": 975,
+      "HitFallGroundHorizontalSpeedTime": 0,
+      "Lyingtime": {
+        "slowTime": 1,
+        "quickTime": 0.600000024
+      },
+      "FixedTimeFallGroundSetting": {
+        "time": 0,
+        "AccTime": 0,
+        "Acc": 0,
+        "LimitDistance": 0
+      }
+    },
+    {
+      "Id": 814,
+      "FallLinkStiffId": 954,
+      "LyingStiffId": 964,
+      "FaceDirection": 1,
+      "GetupSlowStiffId": 905,
+      "GetupCondition": 3,
+      "GetupQuickStiffId": 975,
+      "HitFallGroundHorizontalSpeedTime": 0.5,
+      "Lyingtime": {
+        "slowTime": 1,
+        "quickTime": 0.600000024
+      },
+      "FixedTimeFallGroundSetting": {
+        "time": 0.5,
+        "AccTime": 0.5,
+        "Acc": 100,
+        "LimitDistance": 10
+      }
+    },
+    {
+      "Id": 823,
+      "FallLinkStiffId": 0,
+      "LyingStiffId": 965,
+      "FaceDirection": 1,
+      "GetupSlowStiffId": 905,
+      "GetupCondition": 3,
+      "GetupQuickStiffId": 975,
+      "HitFallGroundHorizontalSpeedTime": 0,
+      "Lyingtime": {
+        "slowTime": 1,
+        "quickTime": 0.600000024
+      },
+      "FixedTimeFallGroundSetting": {
+        "time": 0,
+        "AccTime": 0,
+        "Acc": 0,
+        "LimitDistance": 0
+      }
+    },
+    {
+      "Id": 824,
+      "FallLinkStiffId": 954,
+      "LyingStiffId": 964,
+      "FaceDirection": 1,
+      "GetupSlowStiffId": 905,
+      "GetupCondition": 3,
+      "GetupQuickStiffId": 975,
+      "HitFallGroundHorizontalSpeedTime": 0.400000006,
+      "Lyingtime": {
+        "slowTime": 1,
+        "quickTime": 0.600000024
+      },
+      "FixedTimeFallGroundSetting": {
+        "time": 0.5,
+        "AccTime": 0.5,
+        "Acc": 100,
+        "LimitDistance": 10
+      }
+    },
+    {
+      "Id": 833,
+      "FallLinkStiffId": 0,
+      "LyingStiffId": 965,
+      "FaceDirection": 1,
+      "GetupSlowStiffId": 905,
+      "GetupCondition": 3,
+      "GetupQuickStiffId": 975,
+      "HitFallGroundHorizontalSpeedTime": 0,
+      "Lyingtime": {
+        "slowTime": 1,
+        "quickTime": 0.600000024
+      },
+      "FixedTimeFallGroundSetting": {
+        "time": 0,
+        "AccTime": 0,
+        "Acc": 0,
+        "LimitDistance": 0
+      }
+    },
+    {
+      "Id": 834,
+      "FallLinkStiffId": 954,
+      "LyingStiffId": 964,
+      "FaceDirection": 1,
+      "GetupSlowStiffId": 905,
+      "GetupCondition": 3,
+      "GetupQuickStiffId": 975,
+      "HitFallGroundHorizontalSpeedTime": 0.400000006,
+      "Lyingtime": {
+        "slowTime": 1,
+        "quickTime": 0.600000024
+      },
+      "FixedTimeFallGroundSetting": {
+        "time": 0.5,
+        "AccTime": 0.5,
+        "Acc": 100,
+        "LimitDistance": 10
+      }
+    },
+    {
+      "Id": 844,
+      "FallLinkStiffId": 914,
+      "LyingStiffId": 924,
+      "FaceDirection": 0,
+      "GetupSlowStiffId": 944,
+      "GetupCondition": 3,
+      "GetupQuickStiffId": 974,
+      "HitFallGroundHorizontalSpeedTime": 0.600000024,
+      "Lyingtime": {
+        "slowTime": 1,
+        "quickTime": 0.600000024
+      },
+      "FixedTimeFallGroundSetting": {
+        "time": 0.5,
+        "AccTime": 0.5,
+        "Acc": 100,
+        "LimitDistance": 10
+      }
+    },
+    {
+      "Id": 854,
+      "FallLinkStiffId": 914,
+      "LyingStiffId": 924,
+      "FaceDirection": 0,
+      "GetupSlowStiffId": 944,
+      "GetupCondition": 3,
+      "GetupQuickStiffId": 974,
+      "HitFallGroundHorizontalSpeedTime": 0,
+      "Lyingtime": {
+        "slowTime": 1,
+        "quickTime": 0.600000024
+      },
+      "FixedTimeFallGroundSetting": {
+        "time": 0,
+        "AccTime": 0,
+        "Acc": 0,
+        "LimitDistance": 0
+      }
+    },
+    {
+      "Id": 863,
+      "FallLinkStiffId": 0,
+      "LyingStiffId": 965,
+      "FaceDirection": 1,
+      "GetupSlowStiffId": 905,
+      "GetupCondition": 3,
+      "GetupQuickStiffId": 975,
+      "HitFallGroundHorizontalSpeedTime": 0,
+      "Lyingtime": {
+        "slowTime": 1,
+        "quickTime": 0.600000024
+      },
+      "FixedTimeFallGroundSetting": {
+        "time": 0,
+        "AccTime": 0,
+        "Acc": 0,
+        "LimitDistance": 0
+      }
+    },
+    {
+      "Id": 873,
+      "FallLinkStiffId": 0,
+      "LyingStiffId": 934,
+      "FaceDirection": 0,
+      "GetupSlowStiffId": 944,
+      "GetupCondition": 3,
+      "GetupQuickStiffId": 974,
+      "HitFallGroundHorizontalSpeedTime": 0,
+      "Lyingtime": {
+        "slowTime": 1,
+        "quickTime": 0.600000024
+      },
+      "FixedTimeFallGroundSetting": {
+        "time": 0,
+        "AccTime": 0,
+        "Acc": 0,
+        "LimitDistance": 0
+      }
+    },
+    {
+      "Id": 874,
+      "FallLinkStiffId": 954,
+      "LyingStiffId": 964,
+      "FaceDirection": 1,
+      "GetupSlowStiffId": 905,
+      "GetupCondition": 3,
+      "GetupQuickStiffId": 975,
+      "HitFallGroundHorizontalSpeedTime": 0,
+      "Lyingtime": {
+        "slowTime": 1,
+        "quickTime": 0.600000024
+      },
+      "FixedTimeFallGroundSetting": {
+        "time": 0,
+        "AccTime": 0,
+        "Acc": 0,
+        "LimitDistance": 0
+      }
+    },
+    {
+      "Id": 1001,
+      "FallLinkStiffId": 0,
+      "LyingStiffId": 934,
+      "FaceDirection": 0,
+      "GetupSlowStiffId": 944,
+      "GetupCondition": 3,
+      "GetupQuickStiffId": 974,
+      "HitFallGroundHorizontalSpeedTime": 0,
+      "Lyingtime": {
+        "slowTime": 1,
+        "quickTime": 0.600000024
+      },
+      "FixedTimeFallGroundSetting": {
+        "time": 0,
+        "AccTime": 0,
+        "Acc": 0,
+        "LimitDistance": 0
+      }
+    },
+    {
+      "Id": 1002,
+      "FallLinkStiffId": 0,
+      "LyingStiffId": 965,
+      "FaceDirection": 1,
+      "GetupSlowStiffId": 905,
+      "GetupCondition": 3,
+      "GetupQuickStiffId": 975,
+      "HitFallGroundHorizontalSpeedTime": 0,
+      "Lyingtime": {
+        "slowTime": 1,
+        "quickTime": 0.600000024
+      },
+      "FixedTimeFallGroundSetting": {
+        "time": 0,
+        "AccTime": 0,
+        "Acc": 0,
+        "LimitDistance": 0
+      }
+    },
+    {
+      "Id": 1003,
+      "FallLinkStiffId": 914,
+      "LyingStiffId": 924,
+      "FaceDirection": 0,
+      "GetupSlowStiffId": 944,
+      "GetupCondition": 3,
+      "GetupQuickStiffId": 974,
+      "HitFallGroundHorizontalSpeedTime": 0,
+      "Lyingtime": {
+        "slowTime": 1,
+        "quickTime": 0.600000024
+      },
+      "FixedTimeFallGroundSetting": {
+        "time": 0,
+        "AccTime": 0,
+        "Acc": 0,
+        "LimitDistance": 0
+      }
+    },
+    {
+      "Id": 1004,
+      "FallLinkStiffId": 0,
+      "LyingStiffId": 0,
+      "FaceDirection": 0,
+      "GetupSlowStiffId": 944,
+      "GetupCondition": 3,
+      "GetupQuickStiffId": 944,
+      "HitFallGroundHorizontalSpeedTime": 0,
+      "Lyingtime": {
+        "slowTime": 0,
+        "quickTime": 0
+      },
+      "FixedTimeFallGroundSetting": {
+        "time": 0,
+        "AccTime": 0,
+        "Acc": 0,
+        "LimitDistance": 0
+      }
+    },
+    {
+      "Id": 1005,
+      "FallLinkStiffId": 0,
+      "LyingStiffId": 0,
+      "FaceDirection": 0,
+      "GetupSlowStiffId": 0,
+      "GetupCondition": 3,
+      "GetupQuickStiffId": 0,
+      "HitFallGroundHorizontalSpeedTime": 0,
+      "Lyingtime": {
+        "slowTime": 0,
+        "quickTime": 0
+      },
+      "FixedTimeFallGroundSetting": {
+        "time": 0,
+        "AccTime": 0,
+        "Acc": 0,
+        "LimitDistance": 0
+      }
+    },
+    {
+      "Id": 8040,
+      "FallLinkStiffId": 9140,
+      "LyingStiffId": 0,
+      "FaceDirection": 0,
+      "GetupSlowStiffId": 9240,
+      "GetupCondition": 3,
+      "GetupQuickStiffId": 9240,
+      "HitFallGroundHorizontalSpeedTime": 0,
+      "Lyingtime": {
+        "slowTime": 0,
+        "quickTime": 0
+      },
+      "FixedTimeFallGroundSetting": {
+        "time": 0.5,
+        "AccTime": 0.5,
+        "Acc": 100,
+        "LimitDistance": 10
+      }
+    },
+    {
+      "Id": 8140,
+      "FallLinkStiffId": 9540,
+      "LyingStiffId": 0,
+      "FaceDirection": 0,
+      "GetupSlowStiffId": 9640,
+      "GetupCondition": 3,
+      "GetupQuickStiffId": 9640,
+      "HitFallGroundHorizontalSpeedTime": 0,
+      "Lyingtime": {
+        "slowTime": 0,
+        "quickTime": 0
+      },
+      "FixedTimeFallGroundSetting": {
+        "time": 0.5,
+        "AccTime": 0.5,
+        "Acc": 100,
+        "LimitDistance": 10
+      }
+    }
+  ],
+  "_dumpedCount": 22,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

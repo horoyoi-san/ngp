@@ -1,0 +1,4128 @@
+{
+  "_class": "DecorationConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 133,
+  "records": [
+    {
+      "Id": 98030000,
+      "Name": "强攻增幅",
+      "GuideId": "",
+      "Quality": 3,
+      "Description": "铜线卷",
+      "Effect": "造成的伤害提高#Blue15%#z",
+      "NumericalReference": [
+        "#Blue15%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009645,
+      "DecorationType": 1,
+      "__IDX__Name": 147275,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "铜线卷",
+      "__IDX__Effect": 147274,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Blue15%#z"
+      ]
+    },
+    {
+      "Id": 98030001,
+      "Name": "压制增幅",
+      "GuideId": "",
+      "Quality": 3,
+      "Description": "废铁堆",
+      "Effect": "造成的架势条积累量提高#Blue15%#z",
+      "NumericalReference": [
+        "#Blue15%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009578,
+      "DecorationType": 2,
+      "__IDX__Name": 147277,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "废铁堆",
+      "__IDX__Effect": 147276,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Blue15%#z"
+      ]
+    },
+    {
+      "Id": 98030002,
+      "Name": "砥砺增幅",
+      "GuideId": "",
+      "Quality": 3,
+      "Description": "铝板边料",
+      "Effect": "精力消耗降低#Blue10%#z",
+      "NumericalReference": [
+        "#Blue10%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009601,
+      "DecorationType": 3,
+      "__IDX__Name": 147279,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "铝板边料",
+      "__IDX__Effect": 147278,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Blue10%#z"
+      ]
+    },
+    {
+      "Id": 98030003,
+      "Name": "钝化防御",
+      "GuideId": "",
+      "Quality": 3,
+      "Description": "云母",
+      "Effect": "受到的伤害降低#Blue10%#z",
+      "NumericalReference": [
+        "#Blue10%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009596,
+      "DecorationType": 2,
+      "__IDX__Name": 147281,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "云母",
+      "__IDX__Effect": 147280,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Blue10%#z"
+      ]
+    },
+    {
+      "Id": 98030004,
+      "Name": "蓄能增幅",
+      "GuideId": "",
+      "Quality": 3,
+      "Description": "萤石",
+      "Effect": "终结技能量获取效率提高#Blue15%#z",
+      "NumericalReference": [
+        "#Blue15%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009559,
+      "DecorationType": 3,
+      "__IDX__Name": 147282,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "萤石",
+      "__IDX__Effect": 151508,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Blue15%#z"
+      ]
+    },
+    {
+      "Id": 98030005,
+      "Name": "精准增幅",
+      "GuideId": "",
+      "Quality": 3,
+      "Description": "石英",
+      "Effect": "暴击率提高#Blue10%#z",
+      "NumericalReference": [
+        "#Blue10%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009569,
+      "DecorationType": 1,
+      "__IDX__Name": 147284,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "石英",
+      "__IDX__Effect": 147283,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Blue10%#z"
+      ]
+    },
+    {
+      "Id": 98030006,
+      "Name": "侵蚀增幅",
+      "GuideId": "",
+      "Quality": 3,
+      "Description": "石英砂",
+      "Effect": "持续伤害造成的伤害提高#Blue25%#z",
+      "NumericalReference": [
+        "#Blue25%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009627,
+      "DecorationType": 1,
+      "__IDX__Name": 147285,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "石英砂",
+      "__IDX__Effect": 151509,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Blue25%#z"
+      ]
+    },
+    {
+      "Id": 98030007,
+      "Name": "精力增幅",
+      "GuideId": "",
+      "Quality": 3,
+      "Description": "镀锌网",
+      "Effect": "精力获取效率提高#Blue15%#z",
+      "NumericalReference": [
+        "#Blue15%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009561,
+      "DecorationType": 3,
+      "__IDX__Name": 147287,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "镀锌网",
+      "__IDX__Effect": 147286,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Blue15%#z"
+      ]
+    },
+    {
+      "Id": 98030008,
+      "Name": "冷却增幅",
+      "GuideId": "",
+      "Quality": 3,
+      "Description": "方解石",
+      "Effect": "终结技冷却时间降低#Blue10%#z",
+      "NumericalReference": [
+        "#Blue10%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009631,
+      "DecorationType": 3,
+      "__IDX__Name": 147289,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "方解石",
+      "__IDX__Effect": 147288,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Blue10%#z"
+      ]
+    },
+    {
+      "Id": 98030009,
+      "Name": "虚弱强攻",
+      "GuideId": "",
+      "Quality": 3,
+      "Description": "磷灰石",
+      "Effect": "对虚弱状态下的敌人造成的伤害提高#Blue30%#z",
+      "NumericalReference": [
+        "#Blue30%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009567,
+      "DecorationType": 2,
+      "__IDX__Name": 147291,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "磷灰石",
+      "__IDX__Effect": 147290,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Blue30%#z"
+      ]
+    },
+    {
+      "Id": 98030010,
+      "Name": "内伤压制",
+      "GuideId": "",
+      "Quality": 3,
+      "Description": "铅块锭",
+      "Effect": "对内伤状态下的敌人造成的架势条积累量提高#Blue30%#z",
+      "NumericalReference": [
+        "#Blue30%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009643,
+      "DecorationType": 2,
+      "__IDX__Name": 147293,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "铅块锭",
+      "__IDX__Effect": 147292,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Blue30%#z"
+      ]
+    },
+    {
+      "Id": 98030011,
+      "Name": "破防强攻",
+      "GuideId": "",
+      "Quality": 3,
+      "Description": "熔铜锭",
+      "Effect": "对破防状态下的敌人造成的伤害提高#Blue20%#z",
+      "NumericalReference": [
+        "#Blue20%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009634,
+      "DecorationType": 2,
+      "__IDX__Name": 147295,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "熔铜锭",
+      "__IDX__Effect": 147294,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Blue20%#z"
+      ]
+    },
+    {
+      "Id": 98030012,
+      "Name": "创口强攻",
+      "GuideId": "",
+      "Quality": 3,
+      "Description": "虎睛石",
+      "Effect": "对创口状态下的敌人造成的伤害提高#Blue20%#z",
+      "NumericalReference": [
+        "#Blue20%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009594,
+      "DecorationType": 2,
+      "__IDX__Name": 147297,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "虎睛石",
+      "__IDX__Effect": 147296,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Blue20%#z"
+      ]
+    },
+    {
+      "Id": 98030013,
+      "Name": "重击砥砺",
+      "GuideId": "",
+      "Quality": 4,
+      "Description": "石榴石",
+      "Effect": "每次使用重击后,精力消耗降低#Purple5%#z,持续#Purple6#z秒,至多叠加#Purple5#z层",
+      "NumericalReference": [
+        "#Purple5%#z",
+        "#Purple6#z",
+        "#Purple5#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009579,
+      "DecorationType": 1,
+      "__IDX__Name": 147299,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "石榴石",
+      "__IDX__Effect": 147298,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Purple5%#z",
+        "#Purple6#z",
+        "#Purple5#z"
+      ]
+    },
+    {
+      "Id": 98030014,
+      "Name": "侵蚀迅击",
+      "GuideId": "",
+      "Quality": 4,
+      "Description": "磁屑粉",
+      "Effect": "每次施加或叠加负面效果后,造成的伤害和架势条积累量提高#Purple4%#z,持续#Purple8#z秒,至多叠加#Purple5#z层",
+      "NumericalReference": [
+        "#Purple4%#z",
+        "#Purple8#z",
+        "#Purple5#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009602,
+      "DecorationType": 1,
+      "__IDX__Name": 147301,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "磁屑粉",
+      "__IDX__Effect": 147300,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Purple4%#z",
+        "#Purple8#z",
+        "#Purple5#z"
+      ]
+    },
+    {
+      "Id": 98030015,
+      "Name": "满能重击",
+      "GuideId": "",
+      "Quality": 4,
+      "Description": "钛合金板",
+      "Effect": "满精力时重击造成的伤害和架势条积累量提高#Purple40%#z",
+      "NumericalReference": [
+        "#Purple40%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009597,
+      "DecorationType": 1,
+      "__IDX__Name": 147303,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "钛合金板",
+      "__IDX__Effect": 147302,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Purple40%#z"
+      ]
+    },
+    {
+      "Id": 98030016,
+      "Name": "崩退迅击",
+      "GuideId": "",
+      "Quality": 4,
+      "Description": "紫水晶",
+      "Effect": "造成大击退、击飞或倒地状态后#Purple8#z秒内造成的伤害和架势条积累量提高#Purple4%#z,至多叠加#Purple5#z层",
+      "NumericalReference": [
+        "#Purple8#z",
+        "#Purple4%#z",
+        "#Purple5#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009560,
+      "DecorationType": 1,
+      "__IDX__Name": 147304,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "紫水晶",
+      "__IDX__Effect": 151510,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Purple8#z",
+        "#Purple4%#z",
+        "#Purple5#z"
+      ]
+    },
+    {
+      "Id": 98030017,
+      "Name": "险避迅击",
+      "GuideId": "",
+      "Quality": 4,
+      "Description": "电气石",
+      "Effect": "极限闪避后#Purple6#z秒内造成的伤害和架势条积累量提高#Purple4%#z,至多叠加#Purple5#z层",
+      "NumericalReference": [
+        "#Purple6#z",
+        "#Purple4%#z",
+        "#Purple5#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009570,
+      "DecorationType": 1,
+      "__IDX__Name": 147306,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "电气石",
+      "__IDX__Effect": 147305,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Purple6#z",
+        "#Purple4%#z",
+        "#Purple5#z"
+      ]
+    },
+    {
+      "Id": 98030018,
+      "Name": "愈后迅击",
+      "GuideId": "",
+      "Quality": 4,
+      "Description": "共振层",
+      "Effect": "每次获得治疗后#Purple8#z秒内造成的伤害和架势条积累量提高#Purple17%#z",
+      "NumericalReference": [
+        "#Purple8#z",
+        "#Purple17%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009628,
+      "DecorationType": 1,
+      "__IDX__Name": 147307,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "共振层",
+      "__IDX__Effect": 151511,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Purple8#z",
+        "#Purple17%#z"
+      ]
+    },
+    {
+      "Id": 98030019,
+      "Name": "创口深化",
+      "GuideId": "",
+      "Quality": 4,
+      "Description": "蚀刻镜",
+      "Effect": "创口造成的伤害提高#Purple50%#z",
+      "NumericalReference": [
+        "#Purple50%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009562,
+      "DecorationType": 2,
+      "__IDX__Name": 147309,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "蚀刻镜",
+      "__IDX__Effect": 147308,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Purple50%#z"
+      ]
+    },
+    {
+      "Id": 98030020,
+      "Name": "格挡迅击",
+      "GuideId": "",
+      "Quality": 4,
+      "Description": "聚焦核",
+      "Effect": "每次格挡成功后,格挡造成的架势条积累量提高#Purple10%#z,持续#Purple5#z秒,至多叠加#Purple5#z层",
+      "NumericalReference": [
+        "#Purple10%#z",
+        "#Purple5#z",
+        "#Purple5#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009632,
+      "DecorationType": 2,
+      "__IDX__Name": 147311,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "聚焦核",
+      "__IDX__Effect": 147310,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Purple10%#z",
+        "#Purple5#z",
+        "#Purple5#z"
+      ]
+    },
+    {
+      "Id": 98030021,
+      "Name": "险避钝化",
+      "GuideId": "",
+      "Quality": 4,
+      "Description": "动态瞄具",
+      "Effect": "每次极限闪避成功后,受到的伤害降低#Purple5%#z,持续#Purple6#z秒,至多叠加#Purple5#z层",
+      "NumericalReference": [
+        "#Purple5%#z",
+        "#Purple6#z",
+        "#Purple5#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009568,
+      "DecorationType": 2,
+      "__IDX__Name": 147313,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "动态瞄具",
+      "__IDX__Effect": 147312,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Purple5%#z",
+        "#Purple6#z",
+        "#Purple5#z"
+      ]
+    },
+    {
+      "Id": 98030022,
+      "Name": "精准增幅·改",
+      "GuideId": "",
+      "Quality": 4,
+      "Description": "穿甲锥",
+      "Effect": "暴击率提高#Purple20%#z",
+      "NumericalReference": [
+        "#Purple20%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009644,
+      "DecorationType": 1,
+      "__IDX__Name": 147315,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "穿甲锥",
+      "__IDX__Effect": 147314,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Purple20%#z"
+      ]
+    },
+    {
+      "Id": 98030023,
+      "Name": "破甲增幅",
+      "GuideId": "",
+      "Quality": 4,
+      "Description": "再生镀层",
+      "Effect": "防御穿透提高#Purple20%#z",
+      "NumericalReference": [
+        "#Purple20%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009635,
+      "DecorationType": 1,
+      "__IDX__Name": 147317,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "再生镀层",
+      "__IDX__Effect": 147316,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Purple20%#z"
+      ]
+    },
+    {
+      "Id": 98030024,
+      "Name": "内伤强化",
+      "GuideId": "",
+      "Quality": 4,
+      "Description": "充能栓",
+      "Effect": "内伤积累效率提高#Purple20%#z",
+      "NumericalReference": [
+        "#Purple20%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009595,
+      "DecorationType": 2,
+      "__IDX__Name": 147319,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "充能栓",
+      "__IDX__Effect": 147318,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Purple20%#z"
+      ]
+    },
+    {
+      "Id": 98030025,
+      "Name": "砥砺增幅·改",
+      "GuideId": "",
+      "Quality": 4,
+      "Description": "相位刃",
+      "Effect": "精力消耗降低#Purple15%#z",
+      "NumericalReference": [
+        "#Purple15%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009629,
+      "DecorationType": 3,
+      "__IDX__Name": 147321,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "相位刃",
+      "__IDX__Effect": 147320,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Purple15%#z"
+      ]
+    },
+    {
+      "Id": 98030026,
+      "Name": "钝化防御·改",
+      "GuideId": "",
+      "Quality": 4,
+      "Description": "折射棱镜",
+      "Effect": "受到的伤害降低#Purple15%#z",
+      "NumericalReference": [
+        "#Purple15%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009582,
+      "DecorationType": 2,
+      "__IDX__Name": 147323,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "折射棱镜",
+      "__IDX__Effect": 147322,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Purple15%#z"
+      ]
+    },
+    {
+      "Id": 98030027,
+      "Name": "异常导流",
+      "GuideId": "",
+      "Quality": 4,
+      "Description": "起爆器",
+      "Effect": "异常积累效率提高#Purple20%#z",
+      "NumericalReference": [
+        "#Purple20%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009571,
+      "DecorationType": 2,
+      "__IDX__Name": 147325,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "起爆器",
+      "__IDX__Effect": 147324,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Purple20%#z"
+      ]
+    },
+    {
+      "Id": 98030028,
+      "Name": "治疗强化",
+      "GuideId": "",
+      "Quality": 4,
+      "Description": "点火器",
+      "Effect": "获得的治疗量提高#Purple40%#z",
+      "NumericalReference": [
+        "#Purple40%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009584,
+      "DecorationType": 2,
+      "__IDX__Name": 147327,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "点火器",
+      "__IDX__Effect": 147326,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Purple40%#z"
+      ]
+    },
+    {
+      "Id": 98030029,
+      "Name": "奇巧轻击",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "约束环",
+      "Effect": "已装备的武器模块少于#Gold4#z个时,每少装备一个,轻击造成的伤害提高#Gold50%#z,至多提高#Gold100%#z",
+      "NumericalReference": [
+        "#Gold4#z",
+        "#Gold50%#z",
+        "#Gold100%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009585,
+      "DecorationType": 1,
+      "__IDX__Name": 147329,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "约束环",
+      "__IDX__Effect": 147328,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold4#z",
+        "#Gold50%#z",
+        "#Gold100%#z"
+      ]
+    },
+    {
+      "Id": 98030030,
+      "Name": "奇巧格挡",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "聚能环",
+      "Effect": "已装备的武器模块少于#Gold4#z个时,每少装备一个,格挡造成的架势条积累量提高#Gold50%#z,至多提高#Gold100%#z",
+      "NumericalReference": [
+        "#Gold4#z",
+        "#Gold50%#z",
+        "#Gold100%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009566,
+      "DecorationType": 2,
+      "__IDX__Name": 147331,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "聚能环",
+      "__IDX__Effect": 147330,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold4#z",
+        "#Gold50%#z",
+        "#Gold100%#z"
+      ]
+    },
+    {
+      "Id": 98030031,
+      "Name": "蓄力迅击",
+      "GuideId": "",
+      "Quality": 4,
+      "Description": "存储装置",
+      "Effect": "每次使用蓄力攻击后#Purple8#z秒内造成的伤害和架势条积累量提高#Purple4%#z,至多叠加#Purple5#z层",
+      "NumericalReference": [
+        "#Purple8#z",
+        "#Purple4%#z",
+        "#Purple5#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009590,
+      "DecorationType": 1,
+      "__IDX__Name": 147333,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "存储装置",
+      "__IDX__Effect": 147332,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Purple8#z",
+        "#Purple4%#z",
+        "#Purple5#z"
+      ]
+    },
+    {
+      "Id": 98030032,
+      "Name": "重击狂潮",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "修复网",
+      "Effect": "每次使用重击后#Gold5#z秒内重击造成的伤害提高#Gold15%#z,至多叠加#Gold10#z层,使用轻击或终结技命中敌人后重置层数",
+      "NumericalReference": [
+        "#Gold5#z",
+        "#Gold15%#z",
+        "#Gold10#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009572,
+      "DecorationType": 1,
+      "__IDX__Name": 147335,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "修复网",
+      "__IDX__Effect": 147334,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold5#z",
+        "#Gold15%#z",
+        "#Gold10#z"
+      ]
+    },
+    {
+      "Id": 98030033,
+      "Name": "格挡蓄能",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "装甲板",
+      "Effect": "精准格挡和格挡反击时额外获得#Gold20#z点终结技能量",
+      "NumericalReference": [
+        "#Gold20#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009646,
+      "DecorationType": 3,
+      "__IDX__Name": 147337,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "装甲板",
+      "__IDX__Effect": 147336,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold20#z"
+      ]
+    },
+    {
+      "Id": 98030034,
+      "Name": "精准压制",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "超导线圈",
+      "Effect": "精准格挡造成的架势条积累量提高#Gold60%#z,满精力时额外提高#Gold40%#z",
+      "NumericalReference": [
+        "#Gold60%#z",
+        "#Gold40%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009564,
+      "DecorationType": 2,
+      "__IDX__Name": 147339,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "超导线圈",
+      "__IDX__Effect": 147338,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold60%#z",
+        "#Gold40%#z"
+      ]
+    },
+    {
+      "Id": 98030035,
+      "Name": "终结狂潮",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "缓冲镀层",
+      "Effect": "使用终结技后#Gold25#z秒内终结技造成的伤害提高#Gold20%#z,至多叠加#Gold4#z层",
+      "NumericalReference": [
+        "#Gold25#z",
+        "#Gold20%#z",
+        "#Gold4#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009563,
+      "DecorationType": 1,
+      "__IDX__Name": 147341,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "缓冲镀层",
+      "__IDX__Effect": 147340,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold25#z",
+        "#Gold20%#z",
+        "#Gold4#z"
+      ]
+    },
+    {
+      "Id": 98030036,
+      "Name": "内伤压制·改",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "合金刃",
+      "Effect": "对内伤状态下的敌人造成的架势条积累量提高#Gold60%#z",
+      "NumericalReference": [
+        "#Gold60%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009642,
+      "DecorationType": 2,
+      "__IDX__Name": 147343,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "合金刃",
+      "__IDX__Effect": 147342,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold60%#z"
+      ]
+    },
+    {
+      "Id": 98030037,
+      "Name": "霸体强攻",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "怪异合金",
+      "Effect": "处于霸体状态时造成的伤害提高#Gold60%#z",
+      "NumericalReference": [
+        "#Gold60%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009577,
+      "DecorationType": 1,
+      "__IDX__Name": 147345,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "怪异合金",
+      "__IDX__Effect": 147344,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold60%#z"
+      ]
+    },
+    {
+      "Id": 98030038,
+      "Name": "终结特化",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "怪异晶簇",
+      "Effect": "终结技冷却时间降低#Gold50%#z,但终结技以外的伤害降低#Gold50%#z",
+      "NumericalReference": [
+        "#Gold50%#z",
+        "#Gold50%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009580,
+      "DecorationType": 3,
+      "__IDX__Name": 147347,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "怪异晶簇",
+      "__IDX__Effect": 147346,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold50%#z",
+        "#Gold50%#z"
+      ]
+    },
+    {
+      "Id": 98030039,
+      "Name": "巧连压制",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "吸附网",
+      "Effect": "巧连段造成的架势条积累量提高#Gold60%#z",
+      "NumericalReference": [
+        "#Gold60%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009641,
+      "DecorationType": 2,
+      "__IDX__Name": 147349,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "吸附网",
+      "__IDX__Effect": 147348,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold60%#z"
+      ]
+    },
+    {
+      "Id": 98030040,
+      "Name": "重击迅击",
+      "GuideId": "",
+      "Quality": 4,
+      "Description": "反应电池",
+      "Effect": "每次使用重击后#Purple5#z秒内造成的伤害和架势条积累量提高#Purple4%#z,至多叠加#Purple5#z层",
+      "NumericalReference": [
+        "#Purple5#z",
+        "#Purple4%#z",
+        "#Purple5#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009588,
+      "DecorationType": 1,
+      "__IDX__Name": 147351,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "反应电池",
+      "__IDX__Effect": 147350,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Purple5#z",
+        "#Purple4%#z",
+        "#Purple5#z"
+      ]
+    },
+    {
+      "Id": 98030041,
+      "Name": "背袭迅击",
+      "GuideId": "",
+      "Quality": 4,
+      "Description": "金属鞘槽",
+      "Effect": "每次从敌人背后攻击后#Purple8#z秒内造成的伤害和架势条积累量提高#Purple4%#z,至多叠加#Purple5#z层",
+      "NumericalReference": [
+        "#Purple8#z",
+        "#Purple4%#z",
+        "#Purple5#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009630,
+      "DecorationType": 1,
+      "__IDX__Name": 147353,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "金属鞘槽",
+      "__IDX__Effect": 147352,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Purple8#z",
+        "#Purple4%#z",
+        "#Purple5#z"
+      ]
+    },
+    {
+      "Id": 98030042,
+      "Name": "狂暴重击",
+      "GuideId": "",
+      "Quality": 4,
+      "Description": "放射撞针",
+      "Effect": "重击造成的伤害和架势条积累量提高#Purple40%#z,但精力消耗提高#Purple40%#z",
+      "NumericalReference": [
+        "#Purple40%#z",
+        "#Purple40%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009576,
+      "DecorationType": 1,
+      "__IDX__Name": 147355,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "放射撞针",
+      "__IDX__Effect": 147354,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Purple40%#z",
+        "#Purple40%#z"
+      ]
+    },
+    {
+      "Id": 98030043,
+      "Name": "侵蚀深化",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "纤维缠带",
+      "Effect": "叠层类负面效果层数上限提高#Gold100%#z",
+      "NumericalReference": [
+        "#Gold100%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009587,
+      "DecorationType": 2,
+      "__IDX__Name": 147357,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "纤维缠带",
+      "__IDX__Effect": 147356,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold100%#z"
+      ]
+    },
+    {
+      "Id": 98030044,
+      "Name": "险避狂潮",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "稳定器",
+      "Effect": "极限闪避后#Gold8#z秒内造成的伤害提高#Gold10%#z,至多叠加#Gold8#z层",
+      "NumericalReference": [
+        "#Gold8#z",
+        "#Gold10%#z",
+        "#Gold8#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009592,
+      "DecorationType": 1,
+      "__IDX__Name": 147359,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "稳定器",
+      "__IDX__Effect": 147358,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold8#z",
+        "#Gold10%#z",
+        "#Gold8#z"
+      ]
+    },
+    {
+      "Id": 98030045,
+      "Name": "侵蚀极化",
+      "GuideId": "",
+      "Quality": 6,
+      "Description": "粉碎器",
+      "Effect": "负面效果叠层时,有概率额外叠加#Orange1#z层,概率等于自身暴击率",
+      "NumericalReference": [
+        "#Orange1#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009589,
+      "DecorationType": 2,
+      "__IDX__Name": 147361,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "粉碎器",
+      "__IDX__Effect": 147360,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Orange1#z"
+      ]
+    },
+    {
+      "Id": 98030046,
+      "Name": "背袭强攻",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "动能转换器",
+      "Effect": "从敌人背后攻击造成的伤害提高#Gold60%#z",
+      "NumericalReference": [
+        "#Gold60%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009593,
+      "DecorationType": 1,
+      "__IDX__Name": 147363,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "动能转换器",
+      "__IDX__Effect": 147362,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold60%#z"
+      ]
+    },
+    {
+      "Id": 98030047,
+      "Name": "刚连强攻",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "腐蚀涂料",
+      "Effect": "刚连段造成的伤害提高#Gold60%#z",
+      "NumericalReference": [
+        "#Gold60%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009636,
+      "DecorationType": 1,
+      "__IDX__Name": 147365,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "腐蚀涂料",
+      "__IDX__Effect": 147364,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold60%#z"
+      ]
+    },
+    {
+      "Id": 98030048,
+      "Name": "背袭压制",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "震动粉碎器",
+      "Effect": "从敌人背后攻击造成的架势条积累量提高#Gold60%#z",
+      "NumericalReference": [
+        "#Gold60%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009633,
+      "DecorationType": 2,
+      "__IDX__Name": 147367,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "震动粉碎器",
+      "__IDX__Effect": 147366,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold60%#z"
+      ]
+    },
+    {
+      "Id": 98030049,
+      "Name": "霸体压制",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "聚合陶瓷板",
+      "Effect": "处于霸体状态时造成的架势条积累量提高#Gold60%#z",
+      "NumericalReference": [
+        "#Gold60%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009637,
+      "DecorationType": 2,
+      "__IDX__Name": 147369,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "聚合陶瓷板",
+      "__IDX__Effect": 147368,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold60%#z"
+      ]
+    },
+    {
+      "Id": 98030050,
+      "Name": "创口重压",
+      "GuideId": "",
+      "Quality": 6,
+      "Description": "信号收发器",
+      "Effect": "对创口状态下的敌人造成的架势条积累量提高#Orange60%#z,创口层数达到#Orange10#z层及以上时额外提高#Orange40%#z",
+      "NumericalReference": [
+        "#Orange60%#z",
+        "#Orange10#z",
+        "#Orange40%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009639,
+      "DecorationType": 2,
+      "__IDX__Name": 147371,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "信号收发器",
+      "__IDX__Effect": 147370,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Orange60%#z",
+        "#Orange10#z",
+        "#Orange40%#z"
+      ]
+    },
+    {
+      "Id": 98030051,
+      "Name": "蓄力强攻",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "温压炸药",
+      "Effect": "蓄力攻击造成的伤害提高#Gold60%#z",
+      "NumericalReference": [
+        "#Gold60%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009638,
+      "DecorationType": 1,
+      "__IDX__Name": 147373,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "温压炸药",
+      "__IDX__Effect": 147372,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold60%#z"
+      ]
+    },
+    {
+      "Id": 98030052,
+      "Name": "强化爆发",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "冷却芯",
+      "Effect": "处于强化状态时造成的伤害提高#Gold60%#z",
+      "NumericalReference": [
+        "#Gold60%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009648,
+      "DecorationType": 1,
+      "__IDX__Name": 147375,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "冷却芯",
+      "__IDX__Effect": 147374,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold60%#z"
+      ]
+    },
+    {
+      "Id": 98030053,
+      "Name": "虚弱强攻·改",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "阻尼器",
+      "Effect": "对虚弱状态下的敌人造成的伤害提高#Gold60%#z",
+      "NumericalReference": [
+        "#Gold60%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009647,
+      "DecorationType": 2,
+      "__IDX__Name": 147377,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "阻尼器",
+      "__IDX__Effect": 147376,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold60%#z"
+      ]
+    },
+    {
+      "Id": 98030054,
+      "Name": "强效治疗",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "记忆弹簧",
+      "Effect": "每次获得治疗后,额外获得一次原治疗量#Gold30%#z的治疗效果",
+      "NumericalReference": [
+        "#Gold30%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009649,
+      "DecorationType": 2,
+      "__IDX__Name": 147379,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "记忆弹簧",
+      "__IDX__Effect": 147378,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold30%#z"
+      ]
+    },
+    {
+      "Id": 98030055,
+      "Name": "健体强攻",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "超高压泵",
+      "Effect": "对非虚弱状态下的敌人造成的伤害提高#Gold60%#z",
+      "NumericalReference": [
+        "#Gold60%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009581,
+      "DecorationType": 2,
+      "__IDX__Name": 147381,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "超高压泵",
+      "__IDX__Effect": 147380,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold60%#z"
+      ]
+    },
+    {
+      "Id": 98030056,
+      "Name": "高能强攻",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "冷凝压缩器",
+      "Effect": "精力高于#Gold50%#z时造成的伤害提高#Gold60%#z",
+      "NumericalReference": [
+        "#Gold50%#z",
+        "#Gold60%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009556,
+      "DecorationType": 1,
+      "__IDX__Name": 147383,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "冷凝压缩器",
+      "__IDX__Effect": 147382,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold50%#z",
+        "#Gold60%#z"
+      ]
+    },
+    {
+      "Id": 98030057,
+      "Name": "内伤强攻",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "捕梦网",
+      "Effect": "对内伤状态下的敌人造成的伤害提高#Gold60%#z",
+      "NumericalReference": [
+        "#Gold60%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009565,
+      "DecorationType": 2,
+      "__IDX__Name": 147385,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "捕梦网",
+      "__IDX__Effect": 147384,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold60%#z"
+      ]
+    },
+    {
+      "Id": 98030058,
+      "Name": "创口猛击",
+      "GuideId": "",
+      "Quality": 6,
+      "Description": "瓶装闪电",
+      "Effect": "对创口状态下的敌人造成的伤害提高#Orange60%#z,创口层数达到#Orange10#z层及以上时额外提高#Orange40%#z",
+      "NumericalReference": [
+        "#Orange60%#z",
+        "#Orange10#z",
+        "#Orange40%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009573,
+      "DecorationType": 2,
+      "__IDX__Name": 147387,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "瓶装闪电",
+      "__IDX__Effect": 147386,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Orange60%#z",
+        "#Orange10#z",
+        "#Orange40%#z"
+      ]
+    },
+    {
+      "Id": 98030059,
+      "Name": "崩退重压",
+      "GuideId": "",
+      "Quality": 6,
+      "Description": "瓶装火焰",
+      "Effect": "造成大击退、击飞或倒地状态后#Orange10#z秒内造成的架势条积累量提高#Orange20%#z,至多叠加#Orange5#z层",
+      "NumericalReference": [
+        "#Orange10#z",
+        "#Orange20%#z",
+        "#Orange5#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009600,
+      "DecorationType": 2,
+      "__IDX__Name": 147389,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "瓶装火焰",
+      "__IDX__Effect": 147388,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Orange10#z",
+        "#Orange20%#z",
+        "#Orange5#z"
+      ]
+    },
+    {
+      "Id": 98030060,
+      "Name": "破防猛击",
+      "GuideId": "",
+      "Quality": 6,
+      "Description": "弯曲的勺子",
+      "Effect": "敌人破防层数越高,对其造成的伤害越高,破防层数达到#Orange5#z层时至多提高#Orange100%#z",
+      "NumericalReference": [
+        "#Orange5#z",
+        "#Orange100%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009586,
+      "DecorationType": 2,
+      "__IDX__Name": 147391,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "弯曲的勺子",
+      "__IDX__Effect": 147390,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Orange5#z",
+        "#Orange100%#z"
+      ]
+    },
+    {
+      "Id": 98030061,
+      "Name": "破防重压",
+      "GuideId": "",
+      "Quality": 6,
+      "Description": "折纸青蛙",
+      "Effect": "敌人破防层数越高,对其造成的架势条积累量越高,破防层数达到#Orange5#z层时至多提高#Orange100%#z",
+      "NumericalReference": [
+        "#Orange5#z",
+        "#Orange100%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009575,
+      "DecorationType": 2,
+      "__IDX__Name": 147393,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "折纸青蛙",
+      "__IDX__Effect": 147392,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Orange5#z",
+        "#Orange100%#z"
+      ]
+    },
+    {
+      "Id": 98030062,
+      "Name": "化解迅击",
+      "GuideId": "",
+      "Quality": 6,
+      "Description": "微缩鸟居",
+      "Effect": "每次化解敌人攻击后#Orange8#z秒内造成的伤害提高#Orange20%#z,至多叠加#Orange5#z层",
+      "NumericalReference": [
+        "#Orange8#z",
+        "#Orange20%#z",
+        "#Orange5#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009583,
+      "DecorationType": 1,
+      "__IDX__Name": 147395,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "微缩鸟居",
+      "__IDX__Effect": 147394,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Orange8#z",
+        "#Orange20%#z",
+        "#Orange5#z"
+      ]
+    },
+    {
+      "Id": 98030063,
+      "Name": "疾袭重压",
+      "GuideId": "",
+      "Quality": 6,
+      "Description": "纽特曼变身器",
+      "Effect": "每次使用\"位移\"技能后#Orange5#z秒内造成的架势条积累量提高#Orange20%#z,至多叠加#Orange5#z层",
+      "NumericalReference": [
+        "#Orange5#z",
+        "#Orange20%#z",
+        "#Orange5#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009640,
+      "DecorationType": 2,
+      "__IDX__Name": 147396,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "纽特曼变身器",
+      "__IDX__Effect": 149506,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Orange5#z",
+        "#Orange20%#z",
+        "#Orange5#z"
+      ]
+    },
+    {
+      "Id": 98030064,
+      "Name": "疾袭猛击",
+      "GuideId": "",
+      "Quality": 6,
+      "Description": "坊主的决心",
+      "Effect": "每次使用\"位移\"技能后#Orange5#z秒内造成的伤害提高#Orange20%#z,至多叠加#Orange5#z层",
+      "NumericalReference": [
+        "#Orange5#z",
+        "#Orange20%#z",
+        "#Orange5#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009574,
+      "DecorationType": 1,
+      "__IDX__Name": 147397,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "坊主的决心",
+      "__IDX__Effect": 149507,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Orange5#z",
+        "#Orange20%#z",
+        "#Orange5#z"
+      ]
+    },
+    {
+      "Id": 98030065,
+      "Name": "满能轻击",
+      "GuideId": "",
+      "Quality": 6,
+      "Description": "录鸦义眼",
+      "Effect": "轻击造成的伤害提高#Orange60%#z,满精力时额外提高#Orange40%#z",
+      "NumericalReference": [
+        "#Orange60%#z",
+        "#Orange40%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009591,
+      "DecorationType": 1,
+      "__IDX__Name": 147399,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "录鸦义眼",
+      "__IDX__Effect": 147398,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Orange60%#z",
+        "#Orange40%#z"
+      ]
+    },
+    {
+      "Id": 98030066,
+      "Name": "满能爆发",
+      "GuideId": "",
+      "Quality": 6,
+      "Description": "鲸鱼骨笛",
+      "Effect": "从满精力开始消耗精力后#Orange8#z秒内造成的伤害提高#Orange100%#z,该效果有#Orange25#z秒冷却时间",
+      "NumericalReference": [
+        "#Orange8#z",
+        "#Orange100%#z",
+        "#Orange25#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009598,
+      "DecorationType": 1,
+      "__IDX__Name": 147401,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "鲸鱼骨笛",
+      "__IDX__Effect": 147400,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Orange8#z",
+        "#Orange100%#z",
+        "#Orange25#z"
+      ]
+    },
+    {
+      "Id": 98030067,
+      "Name": "满能重压",
+      "GuideId": "",
+      "Quality": 6,
+      "Description": "聚合陶瓷板",
+      "Effect": "满精力时造成的架势条积累量提高#Orange100%#z",
+      "NumericalReference": [
+        "#Orange100%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009599,
+      "DecorationType": 2,
+      "__IDX__Name": 147403,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "聚合陶瓷板",
+      "__IDX__Effect": 147402,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Orange100%#z"
+      ]
+    },
+    {
+      "Id": 98030068,
+      "Name": "化解压制",
+      "GuideId": "",
+      "Quality": 6,
+      "Description": "破败王者之刃",
+      "Effect": "每次化解敌人攻击后#Orange8#z秒内造成的架势条积累量提高#Orange20%#z,至多叠加#Orange5#z层",
+      "NumericalReference": [
+        "#Orange8#z",
+        "#Orange20%#z",
+        "#Orange5#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009557,
+      "DecorationType": 2,
+      "__IDX__Name": 147405,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "破败王者之刃",
+      "__IDX__Effect": 147404,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Orange8#z",
+        "#Orange20%#z",
+        "#Orange5#z"
+      ]
+    },
+    {
+      "Id": 98030069,
+      "Name": "崩退猛击",
+      "GuideId": "",
+      "Quality": 6,
+      "Description": "卢登的回声",
+      "Effect": "造成大击退、击飞或倒地状态后#Orange10#z秒内造成的伤害提高#Orange20%#z,至多叠加#Orange5#z层",
+      "NumericalReference": [
+        "#Orange10#z",
+        "#Orange20%#z",
+        "#Orange5#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009558,
+      "DecorationType": 1,
+      "__IDX__Name": 147407,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "卢登的回声",
+      "__IDX__Effect": 147406,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Orange10#z",
+        "#Orange20%#z",
+        "#Orange5#z"
+      ]
+    },
+    {
+      "Id": 98030100,
+      "Name": "Firepower Boost",
+      "GuideId": "",
+      "Quality": 3,
+      "Description": "黑曜石",
+      "Effect": "提高#Blue5%#z攻击力",
+      "NumericalReference": [
+        "#Blue5%#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009603,
+      "DecorationType": 4,
+      "__IDX__Name": 147409,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "黑曜石",
+      "__IDX__Effect": 147408,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Blue5%#z"
+      ]
+    },
+    {
+      "Id": 98030101,
+      "Name": "Precision Aim",
+      "GuideId": "",
+      "Quality": 3,
+      "Description": "赤铁矿",
+      "Effect": "提高#Blue10%#z暴击率",
+      "NumericalReference": [
+        "#Blue10%#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009623,
+      "DecorationType": 4,
+      "__IDX__Name": 147411,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "赤铁矿",
+      "__IDX__Effect": 147410,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Blue10%#z"
+      ]
+    },
+    {
+      "Id": 98030102,
+      "Name": "Penetration Boost",
+      "GuideId": "",
+      "Quality": 3,
+      "Description": "孔雀石",
+      "Effect": "提高#Blue10%#z暴击伤害",
+      "NumericalReference": [
+        "#Blue10%#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009613,
+      "DecorationType": 4,
+      "__IDX__Name": 147413,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "孔雀石",
+      "__IDX__Effect": 147412,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Blue10%#z"
+      ]
+    },
+    {
+      "Id": 98030103,
+      "Name": "Vital Lock",
+      "GuideId": "",
+      "Quality": 3,
+      "Description": "钨钢砂",
+      "Effect": "提高#Blue15%#z要害部位伤害倍率",
+      "NumericalReference": [
+        "#Blue15%#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009605,
+      "DecorationType": 4,
+      "__IDX__Name": 147415,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "钨钢砂",
+      "__IDX__Effect": 147414,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Blue15%#z"
+      ]
+    },
+    {
+      "Id": 98030104,
+      "Name": "Tungsten Core",
+      "GuideId": "",
+      "Quality": 3,
+      "Description": "锡箔片",
+      "Effect": "提高#Blue0.1#z穿甲性能",
+      "NumericalReference": [
+        "#Blue0.1#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009612,
+      "DecorationType": 4,
+      "__IDX__Name": 147417,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "锡箔片",
+      "__IDX__Effect": 147416,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Blue0.1#z"
+      ]
+    },
+    {
+      "Id": 98030105,
+      "Name": "Recoil Balance",
+      "GuideId": "",
+      "Quality": 3,
+      "Description": "碧玺粉",
+      "Effect": "降低#Blue10%#z后坐力",
+      "NumericalReference": [
+        "#Blue10%#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009614,
+      "DecorationType": 4,
+      "__IDX__Name": 147419,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "碧玺粉",
+      "__IDX__Effect": 147418,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Blue10%#z"
+      ]
+    },
+    {
+      "Id": 98030106,
+      "Name": "Beam Trajectory",
+      "GuideId": "",
+      "Quality": 3,
+      "Description": "磁力锚",
+      "Effect": "降低#Blue10%#z子弹散布",
+      "NumericalReference": [
+        "#Blue10%#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009624,
+      "DecorationType": 4,
+      "__IDX__Name": 147421,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "磁力锚",
+      "__IDX__Effect": 147420,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Blue10%#z"
+      ]
+    },
+    {
+      "Id": 98030107,
+      "Name": "High-Speed Loading",
+      "GuideId": "",
+      "Quality": 3,
+      "Description": "玛瑙碎",
+      "Effect": "提高#Blue5%#z子弹射速",
+      "NumericalReference": [
+        "#Blue5%#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009606,
+      "DecorationType": 4,
+      "__IDX__Name": 147423,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "玛瑙碎",
+      "__IDX__Effect": 147422,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Blue5%#z"
+      ]
+    },
+    {
+      "Id": 98030108,
+      "Name": "Rapid Reload",
+      "GuideId": "",
+      "Quality": 3,
+      "Description": "增压阀",
+      "Effect": "提高#Blue10%#z换弹速度",
+      "NumericalReference": [
+        "#Blue10%#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009604,
+      "DecorationType": 4,
+      "__IDX__Name": 147425,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "增压阀",
+      "__IDX__Effect": 147424,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Blue10%#z"
+      ]
+    },
+    {
+      "Id": 98030109,
+      "Name": "Extended Magazine",
+      "GuideId": "",
+      "Quality": 3,
+      "Description": "白钨矿",
+      "Effect": "提高#Blue10%#z弹匣容量",
+      "NumericalReference": [
+        "#Blue10%#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009611,
+      "DecorationType": 4,
+      "__IDX__Name": 147427,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "白钨矿",
+      "__IDX__Effect": 147426,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Blue10%#z"
+      ]
+    },
+    {
+      "Id": 98030110,
+      "Name": "Firepower Boost · Modified",
+      "GuideId": "",
+      "Quality": 4,
+      "Description": "等离子栓",
+      "Effect": "提高#Purple10%#z攻击力",
+      "NumericalReference": [
+        "#Purple10%#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009622,
+      "DecorationType": 4,
+      "__IDX__Name": 147429,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "等离子栓",
+      "__IDX__Effect": 147428,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Purple10%#z"
+      ]
+    },
+    {
+      "Id": 98030111,
+      "Name": "Precision Aim · Modified",
+      "GuideId": "",
+      "Quality": 4,
+      "Description": "散热翅片",
+      "Effect": "提高#Purple15%#z暴击率",
+      "NumericalReference": [
+        "#Purple15%#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009609,
+      "DecorationType": 4,
+      "__IDX__Name": 147431,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "散热翅片",
+      "__IDX__Effect": 147430,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Purple15%#z"
+      ]
+    },
+    {
+      "Id": 98030112,
+      "Name": "Penetration Boost · Modified",
+      "GuideId": "",
+      "Quality": 4,
+      "Description": "淬火铆钉",
+      "Effect": "提高#Purple20%#z暴击伤害",
+      "NumericalReference": [
+        "#Purple20%#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009607,
+      "DecorationType": 4,
+      "__IDX__Name": 147433,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "淬火铆钉",
+      "__IDX__Effect": 147432,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Purple20%#z"
+      ]
+    },
+    {
+      "Id": 98030113,
+      "Name": "Vital Lock · Modified",
+      "GuideId": "",
+      "Quality": 4,
+      "Description": "脉冲芯片",
+      "Effect": "提高#Purple30%#z击中头部要害的伤害倍率",
+      "NumericalReference": [
+        "#Purple30%#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009605,
+      "DecorationType": 4,
+      "__IDX__Name": 147435,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "脉冲芯片",
+      "__IDX__Effect": 147434,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Purple30%#z"
+      ]
+    },
+    {
+      "Id": 98030114,
+      "Name": "Tungsten Core · Modified",
+      "GuideId": "",
+      "Quality": 4,
+      "Description": "偏转护盾",
+      "Effect": "提高#Purple0.15#z穿甲性能",
+      "NumericalReference": [
+        "#Purple0.15#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009618,
+      "DecorationType": 4,
+      "__IDX__Name": 147437,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "偏转护盾",
+      "__IDX__Effect": 147436,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Purple0.15#z"
+      ]
+    },
+    {
+      "Id": 98030115,
+      "Name": "Recoil Balance · Modified",
+      "GuideId": "",
+      "Quality": 4,
+      "Description": "重力均衡器",
+      "Effect": "降低#Purple20%#z后坐力",
+      "NumericalReference": [
+        "#Purple20%#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009610,
+      "DecorationType": 4,
+      "__IDX__Name": 147439,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "重力均衡器",
+      "__IDX__Effect": 147438,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Purple20%#z"
+      ]
+    },
+    {
+      "Id": 98030116,
+      "Name": "Beam Trajectory · Modified",
+      "GuideId": "",
+      "Quality": 4,
+      "Description": "离心涡轮",
+      "Effect": "降低#Purple20%#z子弹散布",
+      "NumericalReference": [
+        "#Purple20%#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009608,
+      "DecorationType": 4,
+      "__IDX__Name": 147441,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "离心涡轮",
+      "__IDX__Effect": 147440,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Purple20%#z"
+      ]
+    },
+    {
+      "Id": 98030117,
+      "Name": "High-Speed Loading · Modified",
+      "GuideId": "",
+      "Quality": 4,
+      "Description": "声波谐振器",
+      "Effect": "提高#Purple8%#z子弹射速",
+      "NumericalReference": [
+        "#Purple8%#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009617,
+      "DecorationType": 4,
+      "__IDX__Name": 147443,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "声波谐振器",
+      "__IDX__Effect": 147442,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Purple8%#z"
+      ]
+    },
+    {
+      "Id": 98030118,
+      "Name": "Rapid Reload · Modified",
+      "GuideId": "",
+      "Quality": 4,
+      "Description": "量子稳压器",
+      "Effect": "提高#Purple15%#z换弹速度",
+      "NumericalReference": [
+        "#Purple15%#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009620,
+      "DecorationType": 4,
+      "__IDX__Name": 147445,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "量子稳压器",
+      "__IDX__Effect": 147444,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Purple15%#z"
+      ]
+    },
+    {
+      "Id": 98030119,
+      "Name": "Extended Magazine · Modified",
+      "GuideId": "",
+      "Quality": 4,
+      "Description": "盲者的罗盘",
+      "Effect": "提高#Purple20%#z弹匣容量",
+      "NumericalReference": [
+        "#Purple20%#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009611,
+      "DecorationType": 4,
+      "__IDX__Name": 147447,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "盲者的罗盘",
+      "__IDX__Effect": 147446,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Purple20%#z"
+      ]
+    },
+    {
+      "Id": 98030120,
+      "Name": "Long-Range Trajectory",
+      "GuideId": "",
+      "Quality": 4,
+      "Description": "磁悬浮轴承",
+      "Effect": "提高#Purple20%#z子弹有效射程",
+      "NumericalReference": [
+        "#Purple20%#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009621,
+      "DecorationType": 4,
+      "__IDX__Name": 147449,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "磁悬浮轴承",
+      "__IDX__Effect": 147448,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Purple20%#z"
+      ]
+    },
+    {
+      "Id": 98030121,
+      "Name": "Last Stand",
+      "GuideId": "",
+      "Quality": 6,
+      "Description": "九命猫铃铛",
+      "Effect": "按照当前已损失的生命值比例提高造成的伤害,至多提高#Orange90%#z",
+      "NumericalReference": [
+        "#Orange90%#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009619,
+      "DecorationType": 4,
+      "__IDX__Name": 147451,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "九命猫铃铛",
+      "__IDX__Effect": 147450,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Orange90%#z"
+      ]
+    },
+    {
+      "Id": 98030122,
+      "Name": "收割火力",
+      "GuideId": "",
+      "Quality": 6,
+      "Description": "锈蚀的王冠",
+      "Effect": "每击杀#Orange1#z个敌人后获得#Orange30%#z攻击力加成,持续#Orange3#z秒,至多叠加#Orange5#z层",
+      "NumericalReference": [
+        "#Orange1#z",
+        "#Orange30%#z",
+        "#Orange3#z",
+        "#Orange5#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009616,
+      "DecorationType": 4,
+      "__IDX__Name": 147453,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "锈蚀的王冠",
+      "__IDX__Effect": 147452,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293,
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Orange1#z",
+        "#Orange30%#z",
+        "#Orange3#z",
+        "#Orange5#z"
+      ]
+    },
+    {
+      "Id": 98030123,
+      "Name": "Hollow-point",
+      "GuideId": "",
+      "Quality": 6,
+      "Description": "瓶装月光",
+      "Effect": "每次命中敌人时有#Orange20%#z概率造成#Orange1#z层创口",
+      "NumericalReference": [
+        "#Orange20%#z",
+        "#Orange1#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009615,
+      "DecorationType": 4,
+      "__IDX__Name": 147455,
+      "__RAW__Name": "",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "瓶装月光",
+      "__IDX__Effect": 147454,
+      "__RAW__Effect": "",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Orange20%#z",
+        "#Orange1#z"
+      ]
+    },
+    {
+      "Id": 98030124,
+      "Name": "测试用S级1",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "测试用S级1",
+      "Effect": "造成的伤害提高#Gold50%#z",
+      "NumericalReference": [
+        "#Gold50%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009581,
+      "DecorationType": 1,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "测试用S级1",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "测试用S级1",
+      "__IDX__Effect": 4294967293,
+      "__RAW__Effect": "造成的伤害提高{refer,Decoration,NumericalReference,98030124,1}",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold50%#z"
+      ]
+    },
+    {
+      "Id": 98030125,
+      "Name": "测试用S级2",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "测试用S级2",
+      "Effect": "造成的架势提高#Gold50%#z",
+      "NumericalReference": [
+        "#Gold50%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009556,
+      "DecorationType": 1,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "测试用S级2",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "测试用S级2",
+      "__IDX__Effect": 4294967293,
+      "__RAW__Effect": "造成的架势提高{refer,Decoration,NumericalReference,98030125,1}",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold50%#z"
+      ]
+    },
+    {
+      "Id": 98030126,
+      "Name": "测试用S级3",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "测试用S级3",
+      "Effect": "生命上限提高#Gold50%#z",
+      "NumericalReference": [
+        "#Gold50%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009565,
+      "DecorationType": 1,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "测试用S级3",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "测试用S级3",
+      "__IDX__Effect": 4294967293,
+      "__RAW__Effect": "生命上限提高{refer,Decoration,NumericalReference,98030126,1}",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold50%#z"
+      ]
+    },
+    {
+      "Id": 98030127,
+      "Name": "测试用S级4",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "测试用S级4",
+      "Effect": "造成的架势提高#Gold25%#z,精力消耗#Gold-20%#z",
+      "NumericalReference": [
+        "#Gold25%#z",
+        "#Gold-20%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009556,
+      "DecorationType": 1,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "测试用S级4",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "测试用S级4",
+      "__IDX__Effect": 4294967293,
+      "__RAW__Effect": "造成的架势提高{refer,Decoration,NumericalReference,98030127,1},精力消耗{refer,Decoration,NumericalReference,98030127,2}",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold25%#z",
+        "#Gold-20%#z"
+      ]
+    },
+    {
+      "Id": 98030128,
+      "Name": "测试用S级5",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "测试用S级5",
+      "Effect": "造成内伤时,内伤状态持续时间#Gold+50%#z;但造成的的伤害降低#Gold25%#z",
+      "NumericalReference": [
+        "#Gold+50%#z",
+        "#Gold25%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009565,
+      "DecorationType": 1,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "测试用S级5",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "测试用S级5",
+      "__IDX__Effect": 4294967293,
+      "__RAW__Effect": "造成内伤时,内伤状态持续时间{refer,Decoration,NumericalReference,98030128,1};但造成的的伤害降低{refer,Decoration,NumericalReference,98030128,2}",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold+50%#z",
+        "#Gold25%#z"
+      ]
+    },
+    {
+      "Id": 98030129,
+      "Name": "测试用S级6",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "测试用S级6",
+      "Effect": "使用咏春拳时内伤积累速度提高#Gold50%#z,但连击数上升速度和终结技能量获取效率降低#Gold50%#z",
+      "NumericalReference": [
+        "#Gold50%#z",
+        "#Gold50%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009565,
+      "DecorationType": 1,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "测试用S级6",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "测试用S级6",
+      "__IDX__Effect": 4294967293,
+      "__RAW__Effect": "使用咏春拳时内伤积累速度提高{refer,Decoration,NumericalReference,98030129,1},但连击数上升速度和终结技能量获取效率降低{refer,Decoration,NumericalReference,98030129,2}",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold50%#z",
+        "#Gold50%#z"
+      ]
+    },
+    {
+      "Id": 98030130,
+      "Name": "测试用S级7",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "测试用S级7",
+      "Effect": "造成内伤时,内伤状态持续时间#Gold+50%#z;但造成的的伤害降低#Gold25%#z",
+      "NumericalReference": [
+        "#Gold+50%#z",
+        "#Gold25%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28009565,
+      "DecorationType": 1,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "测试用S级7",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "测试用S级7",
+      "__IDX__Effect": 4294967293,
+      "__RAW__Effect": "造成内伤时,内伤状态持续时间{refer,Decoration,NumericalReference,98030130,1};但造成的的伤害降低{refer,Decoration,NumericalReference,98030130,2}",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold+50%#z",
+        "#Gold25%#z"
+      ]
+    },
+    {
+      "Id": 98030131,
+      "Name": "测试用S级8",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "测试用S级8",
+      "Effect": "当精力满时,对敌人造成的架势提高#Gold100%#z",
+      "NumericalReference": [
+        "#Gold100%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28000083,
+      "DecorationType": 1,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "测试用S级8",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "测试用S级8",
+      "__IDX__Effect": 4294967293,
+      "__RAW__Effect": "当精力满时,对敌人造成的架势提高{refer,Decoration,NumericalReference,98030131,1}",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold100%#z"
+      ]
+    },
+    {
+      "Id": 98030132,
+      "Name": "测试用S级9",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "测试用S级9",
+      "Effect": "刚连招对虚弱敌人伤害提高#Gold100%#z",
+      "NumericalReference": [
+        "#Gold100%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28000083,
+      "DecorationType": 1,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "测试用S级9",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "测试用S级9",
+      "__IDX__Effect": 4294967293,
+      "__RAW__Effect": "刚连招对虚弱敌人伤害提高{refer,Decoration,NumericalReference,98030132,1}",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold100%#z"
+      ]
+    },
+    {
+      "Id": 98030133,
+      "Name": "测试用S级10",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "测试用S级10",
+      "Effect": "使用空手道时,终结技不再回复决意,但是终结技伤害提高#Gold200%#z",
+      "NumericalReference": [
+        "#Gold200%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28000083,
+      "DecorationType": 1,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "测试用S级10",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "测试用S级10",
+      "__IDX__Effect": 4294967293,
+      "__RAW__Effect": "使用空手道时,终结技不再回复决意,但是终结技伤害提高{refer,Decoration,NumericalReference,98030133,1}",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold200%#z"
+      ]
+    },
+    {
+      "Id": 98030134,
+      "Name": "测试用S级11",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "测试用S级11",
+      "Effect": "使用终结技后#Gold10#z秒内刚连段造成的伤害提高#Gold100%#z",
+      "NumericalReference": [
+        "#Gold10#z",
+        "#Gold100%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28000083,
+      "DecorationType": 1,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "测试用S级11",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "测试用S级11",
+      "__IDX__Effect": 4294967293,
+      "__RAW__Effect": "使用终结技后{refer,Decoration,NumericalReference,98030134,1}秒内刚连段造成的伤害提高{refer,Decoration,NumericalReference,98030134,2}",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold10#z",
+        "#Gold100%#z"
+      ]
+    },
+    {
+      "Id": 98030135,
+      "Name": "测试用S级12",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "测试用S级12",
+      "Effect": "刚连招命中敌人时,根据敌人身上破防层数每层提高#Gold10%#z伤害并清除破防层数(至多计入#Gold20#z层),如果敌人处于虚弱则每层额外提升#Gold10%#z伤害",
+      "NumericalReference": [
+        "#Gold10%#z",
+        "#Gold20#z",
+        "#Gold10%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28000083,
+      "DecorationType": 1,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "测试用S级12",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "测试用S级12",
+      "__IDX__Effect": 4294967293,
+      "__RAW__Effect": "刚连招命中敌人时,根据敌人身上破防层数每层提高{refer,Decoration,NumericalReference,98030135,1}伤害并清除破防层数(至多计入{refer,Decoration,NumericalReference,98030135,2}层),如果敌人处于虚弱则每层额外提升{refer,Decoration,NumericalReference,98030135,3}伤害",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold10%#z",
+        "#Gold20#z",
+        "#Gold10%#z"
+      ]
+    },
+    {
+      "Id": 98030136,
+      "Name": "测试用S级13",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "测试用S级13",
+      "Effect": "敌人身上每有一层破防,对其造成的架势提高#Gold7%#z,至多计入#Gold20#z层",
+      "NumericalReference": [
+        "#Gold7%#z",
+        "#Gold20#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28000083,
+      "DecorationType": 1,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "测试用S级13",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "测试用S级13",
+      "__IDX__Effect": 4294967293,
+      "__RAW__Effect": "敌人身上每有一层破防,对其造成的架势提高{refer,Decoration,NumericalReference,98030136,1},至多计入{refer,Decoration,NumericalReference,98030136,2}层",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold7%#z",
+        "#Gold20#z"
+      ]
+    },
+    {
+      "Id": 98030137,
+      "Name": "测试用S级14",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "测试用S级14",
+      "Effect": "使用咏春拳时,内伤效率提高#Gold60%#z,造成内伤后#Gold8#z秒内获得连击数加倍",
+      "NumericalReference": [
+        "#Gold60%#z",
+        "#Gold8#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28000083,
+      "DecorationType": 1,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "测试用S级14",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "测试用S级14",
+      "__IDX__Effect": 4294967293,
+      "__RAW__Effect": "使用咏春拳时,内伤效率提高{refer,Decoration,NumericalReference,98030137,1},造成内伤后{refer,Decoration,NumericalReference,98030137,2}秒内获得连击数加倍",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold60%#z",
+        "#Gold8#z"
+      ]
+    },
+    {
+      "Id": 98030138,
+      "Name": "测试用S级15",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "测试用S级15",
+      "Effect": "刚连招命中敌人时叠加一层弱化,每层使敌人内伤抗性降低#Gold3%#z,至多叠加#Gold6#z层,持续#Gold10#z秒",
+      "NumericalReference": [
+        "#Gold3%#z",
+        "#Gold6#z",
+        "#Gold10#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28000083,
+      "DecorationType": 1,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "测试用S级15",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "测试用S级15",
+      "__IDX__Effect": 4294967293,
+      "__RAW__Effect": "刚连招命中敌人时叠加一层弱化,每层使敌人内伤抗性降低{refer,Decoration,NumericalReference,98030138,1},至多叠加{refer,Decoration,NumericalReference,98030138,2}层,持续{refer,Decoration,NumericalReference,98030138,3}秒",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold3%#z",
+        "#Gold6#z",
+        "#Gold10#z"
+      ]
+    },
+    {
+      "Id": 98030139,
+      "Name": "测试用S级16",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "测试用S级16",
+      "Effect": "攻击造成#Gold5#z秒以下效果:内伤结束后内伤保护时间降低#Gold2#z秒,每层弱化使内伤保护时间降低#Gold1#z秒",
+      "NumericalReference": [
+        "#Gold5#z",
+        "#Gold2#z",
+        "#Gold1#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28000083,
+      "DecorationType": 1,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "测试用S级16",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "测试用S级16",
+      "__IDX__Effect": 4294967293,
+      "__RAW__Effect": "攻击造成{refer,Decoration,NumericalReference,98030139,1}秒以下效果:内伤结束后内伤保护时间降低{refer,Decoration,NumericalReference,98030139,2}秒,每层弱化使内伤保护时间降低{refer,Decoration,NumericalReference,98030139,3}秒",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold5#z",
+        "#Gold2#z",
+        "#Gold1#z"
+      ]
+    },
+    {
+      "Id": 98030140,
+      "Name": "测试用S级17",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "测试用S级17",
+      "Effect": "刚连招造成的架势提高#Gold60%#z,敌人每有一层弱化则造成的架势提高#Gold10%#z",
+      "NumericalReference": [
+        "#Gold60%#z",
+        "#Gold10%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28000083,
+      "DecorationType": 1,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "测试用S级17",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "测试用S级17",
+      "__IDX__Effect": 4294967293,
+      "__RAW__Effect": "刚连招造成的架势提高{refer,Decoration,NumericalReference,98030140,1},敌人每有一层弱化则造成的架势提高{refer,Decoration,NumericalReference,98030140,2}",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold60%#z",
+        "#Gold10%#z"
+      ]
+    },
+    {
+      "Id": 98030141,
+      "Name": "测试用S级18",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "测试用S级18",
+      "Effect": "使用八极拳武学时,终结技能量积攒速度降低#Gold75%#z,但终结技伤害根据敌人弱化层数每层提升#Gold25%#z",
+      "NumericalReference": [
+        "#Gold75%#z",
+        "#Gold25%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28000083,
+      "DecorationType": 1,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "测试用S级18",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "测试用S级18",
+      "__IDX__Effect": 4294967293,
+      "__RAW__Effect": "使用八极拳武学时,终结技能量积攒速度降低{refer,Decoration,NumericalReference,98030141,1},但终结技伤害根据敌人弱化层数每层提升{refer,Decoration,NumericalReference,98030141,2}",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold75%#z",
+        "#Gold25%#z"
+      ]
+    },
+    {
+      "Id": 98030142,
+      "Name": "测试用S级19",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "测试用S级19",
+      "Effect": "精力消耗降低#Gold30%#z",
+      "NumericalReference": [
+        "#Gold30%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28000083,
+      "DecorationType": 1,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "测试用S级19",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "测试用S级19",
+      "__IDX__Effect": 4294967293,
+      "__RAW__Effect": "精力消耗降低{refer,Decoration,NumericalReference,98030142,1}",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold30%#z"
+      ]
+    },
+    {
+      "Id": 98030143,
+      "Name": "测试用A级1",
+      "GuideId": "",
+      "Quality": 4,
+      "Description": "测试用A级1",
+      "Effect": "造成的伤害提高#Purple35%#z",
+      "NumericalReference": [
+        "#Purple35%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28000083,
+      "DecorationType": 1,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "测试用A级1",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "测试用A级1",
+      "__IDX__Effect": 4294967293,
+      "__RAW__Effect": "造成的伤害提高{refer,Decoration,NumericalReference,98030143,1}",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Purple35%#z"
+      ]
+    },
+    {
+      "Id": 98030144,
+      "Name": "测试用A级2",
+      "GuideId": "",
+      "Quality": 4,
+      "Description": "测试用A级2",
+      "Effect": "造成的架势提高#Purple35%#z",
+      "NumericalReference": [
+        "#Purple35%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28000083,
+      "DecorationType": 1,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "测试用A级2",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "测试用A级2",
+      "__IDX__Effect": 4294967293,
+      "__RAW__Effect": "造成的架势提高{refer,Decoration,NumericalReference,98030144,1}",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Purple35%#z"
+      ]
+    },
+    {
+      "Id": 98030145,
+      "Name": "测试用A级2",
+      "GuideId": "",
+      "Quality": 4,
+      "Description": "测试用A级2",
+      "Effect": "生命值上限提高#Purple35%#z",
+      "NumericalReference": [
+        "#Purple35%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28000083,
+      "DecorationType": 1,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "测试用A级2",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "测试用A级2",
+      "__IDX__Effect": 4294967293,
+      "__RAW__Effect": "生命值上限提高{refer,Decoration,NumericalReference,98030145,1}",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Purple35%#z"
+      ]
+    },
+    {
+      "Id": 98030146,
+      "Name": "测试用B级1",
+      "GuideId": "",
+      "Quality": 3,
+      "Description": "测试用B级1",
+      "Effect": "造成的伤害提高#Blue20%#z",
+      "NumericalReference": [
+        "#Blue20%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28000083,
+      "DecorationType": 1,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "测试用B级1",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "测试用B级1",
+      "__IDX__Effect": 4294967293,
+      "__RAW__Effect": "造成的伤害提高{refer,Decoration,NumericalReference,98030146,1}",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Blue20%#z"
+      ]
+    },
+    {
+      "Id": 98030147,
+      "Name": "测试用B级2",
+      "GuideId": "",
+      "Quality": 3,
+      "Description": "测试用B级2",
+      "Effect": "造成的架势提高#Blue20%#z",
+      "NumericalReference": [
+        "#Blue20%#z"
+      ],
+      "MeleeOrRangedWeapon": 0,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28000083,
+      "DecorationType": 1,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "测试用B级2",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "测试用B级2",
+      "__IDX__Effect": 4294967293,
+      "__RAW__Effect": "造成的架势提高{refer,Decoration,NumericalReference,98030147,1}",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Blue20%#z"
+      ]
+    },
+    {
+      "Id": 98030148,
+      "Name": "猎手节奏",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "新枪械芯片1",
+      "Effect": "击杀敌人后,换弹速度提高#Gold30%#z、移动速度提高#Gold15%#z,持续#Gold5#z秒,不可叠加",
+      "NumericalReference": [
+        "#Gold30%#z",
+        "#Gold15%#z",
+        "#Gold5#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28000083,
+      "DecorationType": 4,
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "猎手节奏",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "新枪械芯片1",
+      "__IDX__Effect": 4294967295,
+      "__RAW__Effect": "击杀敌人后,换弹速度提高{refer,Decoration,NumericalReference,98030148,1}、移动速度提高{refer,Decoration,NumericalReference,98030148,2},持续{refer,Decoration,NumericalReference,98030148,3}秒,不可叠加",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold30%#z",
+        "#Gold15%#z",
+        "#Gold5#z"
+      ]
+    },
+    {
+      "Id": 98030149,
+      "Name": "战备扩容",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "新枪械芯片2",
+      "Effect": "弹匣容量提高#Gold30%#z,换弹速度提高#Gold10%#z",
+      "NumericalReference": [
+        "#Gold30%#z",
+        "#Gold10%#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28000083,
+      "DecorationType": 4,
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "战备扩容",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "新枪械芯片2",
+      "__IDX__Effect": 4294967295,
+      "__RAW__Effect": "弹匣容量提高{refer,Decoration,NumericalReference,98030149,1},换弹速度提高{refer,Decoration,NumericalReference,98030149,2}",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold30%#z",
+        "#Gold10%#z"
+      ]
+    },
+    {
+      "Id": 98030150,
+      "Name": "背水姿态",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "新枪械芯片3",
+      "Effect": "生命值低于#Gold30%#z时,造成的伤害提高#Gold15%#z、受到的伤害降低#Gold15%#z",
+      "NumericalReference": [
+        "#Gold30%#z",
+        "#Gold15%#z",
+        "#Gold15%#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28000083,
+      "DecorationType": 4,
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "背水姿态",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "新枪械芯片3",
+      "__IDX__Effect": 4294967295,
+      "__RAW__Effect": "生命值低于{refer,Decoration,NumericalReference,98030150,1}时,造成的伤害提高{refer,Decoration,NumericalReference,98030150,2}、受到的伤害降低{refer,Decoration,NumericalReference,98030150,3}",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold30%#z",
+        "#Gold15%#z",
+        "#Gold15%#z"
+      ]
+    },
+    {
+      "Id": 98030151,
+      "Name": "弹药追溯",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "新枪械芯片4",
+      "Effect": "未命中目标的子弹有#Gold25%#z概率回到弹匣",
+      "NumericalReference": [
+        "#Gold25%#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28000083,
+      "DecorationType": 4,
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "弹药追溯",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "新枪械芯片4",
+      "__IDX__Effect": 4294967295,
+      "__RAW__Effect": "未命中目标的子弹有{refer,Decoration,NumericalReference,98030151,1}概率回到弹匣",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold25%#z"
+      ]
+    },
+    {
+      "Id": 98030152,
+      "Name": "超距弹道",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "新枪械芯片5",
+      "Effect": "与目标距离每增加#Gold10#z米,造成的伤害提高#Gold6%#z,至多提高#Gold30%#z",
+      "NumericalReference": [
+        "#Gold10#z",
+        "#Gold6%#z",
+        "#Gold30%#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28000083,
+      "DecorationType": 4,
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "超距弹道",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "新枪械芯片5",
+      "__IDX__Effect": 4294967295,
+      "__RAW__Effect": "与目标距离每增加{refer,Decoration,NumericalReference,98030152,1}米,造成的伤害提高{refer,Decoration,NumericalReference,98030152,2},至多提高{refer,Decoration,NumericalReference,98030152,3}",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold10#z",
+        "#Gold6%#z",
+        "#Gold30%#z"
+      ]
+    },
+    {
+      "Id": 98030153,
+      "Name": "痛觉反射",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "新枪械芯片6",
+      "Effect": "受到伤害后,子弹射速提高#Gold20%#z、后坐力降低#Gold15%#z,持续#Gold4#z秒,该效果有#Gold12#z秒冷却时间",
+      "NumericalReference": [
+        "#Gold20%#z",
+        "#Gold15%#z",
+        "#Gold4#z",
+        "#Gold12#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28000083,
+      "DecorationType": 4,
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "痛觉反射",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "新枪械芯片6",
+      "__IDX__Effect": 4294967295,
+      "__RAW__Effect": "受到伤害后,子弹射速提高{refer,Decoration,NumericalReference,98030153,1}、后坐力降低{refer,Decoration,NumericalReference,98030153,2},持续{refer,Decoration,NumericalReference,98030153,3}秒,该效果有{refer,Decoration,NumericalReference,98030153,4}秒冷却时间",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293,
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold20%#z",
+        "#Gold15%#z",
+        "#Gold4#z",
+        "#Gold12#z"
+      ]
+    },
+    {
+      "Id": 98030154,
+      "Name": "危机装填",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "新枪械芯片7",
+      "Effect": "弹匣为空时受到伤害后,换弹速度提高#Gold100%#z,持续#Gold2#z秒,不可叠加",
+      "NumericalReference": [
+        "#Gold100%#z",
+        "#Gold2#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28000083,
+      "DecorationType": 4,
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "危机装填",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "新枪械芯片7",
+      "__IDX__Effect": 4294967295,
+      "__RAW__Effect": "弹匣为空时受到伤害后,换弹速度提高{refer,Decoration,NumericalReference,98030154,1},持续{refer,Decoration,NumericalReference,98030154,2}秒,不可叠加",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold100%#z",
+        "#Gold2#z"
+      ]
+    },
+    {
+      "Id": 98030155,
+      "Name": "弃膛增益",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "新枪械芯片8",
+      "Effect": "弹匣内剩余弹药超过一半时换弹,造成的伤害提高#Gold12%#z,持续#Gold5#z秒,不可叠加",
+      "NumericalReference": [
+        "#Gold12%#z",
+        "#Gold5#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28000083,
+      "DecorationType": 4,
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "弃膛增益",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "新枪械芯片8",
+      "__IDX__Effect": 4294967295,
+      "__RAW__Effect": "弹匣内剩余弹药超过一半时换弹,造成的伤害提高{refer,Decoration,NumericalReference,98030155,1},持续{refer,Decoration,NumericalReference,98030155,2}秒,不可叠加",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold12%#z",
+        "#Gold5#z"
+      ]
+    },
+    {
+      "Id": 98030156,
+      "Name": "从容制退",
+      "GuideId": "",
+      "Quality": 5,
+      "Description": "新枪械芯片9",
+      "Effect": "生命值高于#Gold85%#z时,后坐力降低#Gold30%#z",
+      "NumericalReference": [
+        "#Gold85%#z",
+        "#Gold30%#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28000083,
+      "DecorationType": 4,
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "从容制退",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "新枪械芯片9",
+      "__IDX__Effect": 4294967295,
+      "__RAW__Effect": "生命值高于{refer,Decoration,NumericalReference,98030156,1}时,后坐力降低{refer,Decoration,NumericalReference,98030156,2}",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Gold85%#z",
+        "#Gold30%#z"
+      ]
+    },
+    {
+      "Id": 98030157,
+      "Name": "战果征收",
+      "GuideId": "",
+      "Quality": 6,
+      "Description": "新枪械芯片10",
+      "Effect": "每次击杀敌人后返还#Orange1#z发子弹至弹匣",
+      "NumericalReference": [
+        "#Orange1#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28000083,
+      "DecorationType": 4,
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "战果征收",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "新枪械芯片10",
+      "__IDX__Effect": 4294967295,
+      "__RAW__Effect": "每次击杀敌人后返还{refer,Decoration,NumericalReference,98030157,1}发子弹至弹匣",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Orange1#z"
+      ]
+    },
+    {
+      "Id": 98030158,
+      "Name": "精准征收",
+      "GuideId": "",
+      "Quality": 6,
+      "Description": "新枪械芯片11",
+      "Effect": "每次击中敌人头部要害后返还#Orange1#z发子弹至弹匣",
+      "NumericalReference": [
+        "#Orange1#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28000083,
+      "DecorationType": 4,
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "精准征收",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "新枪械芯片11",
+      "__IDX__Effect": 4294967295,
+      "__RAW__Effect": "每次击中敌人头部要害后返还{refer,Decoration,NumericalReference,98030158,1}发子弹至弹匣",
+      "__IDX__NumericalReference": [
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Orange1#z"
+      ]
+    },
+    {
+      "Id": 98030159,
+      "Name": "链式弹道",
+      "GuideId": "",
+      "Quality": 6,
+      "Description": "新枪械芯片12",
+      "Effect": "子弹命中敌人后弹射至附近敌人",
+      "NumericalReference": [],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28000083,
+      "DecorationType": 4,
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "链式弹道",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "新枪械芯片12",
+      "__IDX__Effect": 4294967295,
+      "__RAW__Effect": "子弹命中敌人后弹射至附近敌人",
+      "__IDX__NumericalReference": [],
+      "__RAW__NumericalReference": []
+    },
+    {
+      "Id": 98030160,
+      "Name": "精确贯穿",
+      "GuideId": "",
+      "Quality": 6,
+      "Description": "新枪械芯片13",
+      "Effect": "暴击率提高#Orange20%#z,暴击伤害提高#Orange50%#z",
+      "NumericalReference": [
+        "#Orange20%#z",
+        "#Orange50%#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28000083,
+      "DecorationType": 4,
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "精确贯穿",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "新枪械芯片13",
+      "__IDX__Effect": 4294967295,
+      "__RAW__Effect": "暴击率提高{refer,Decoration,NumericalReference,98030160,1},暴击伤害提高{refer,Decoration,NumericalReference,98030160,2}",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Orange20%#z",
+        "#Orange50%#z"
+      ]
+    },
+    {
+      "Id": 98030161,
+      "Name": "破盾专攻",
+      "GuideId": "",
+      "Quality": 6,
+      "Description": "新枪械芯片14",
+      "Effect": "对有护盾状态的敌人造成的伤害提高#Orange30%#z,对无护盾状态的敌人造成的伤害降低#Orange10%#z",
+      "NumericalReference": [
+        "#Orange30%#z",
+        "#Orange10%#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28000083,
+      "DecorationType": 4,
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "破盾专攻",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "新枪械芯片14",
+      "__IDX__Effect": 4294967295,
+      "__RAW__Effect": "对有护盾状态的敌人造成的伤害提高{refer,Decoration,NumericalReference,98030161,1},对无护盾状态的敌人造成的伤害降低{refer,Decoration,NumericalReference,98030161,2}",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Orange30%#z",
+        "#Orange10%#z"
+      ]
+    },
+    {
+      "Id": 98030162,
+      "Name": "强态压制",
+      "GuideId": "",
+      "Quality": 6,
+      "Description": "新枪械芯片15",
+      "Effect": "生命值高于#Orange85%#z时,造成的伤害提高#Orange30%#z",
+      "NumericalReference": [
+        "#Orange85%#z",
+        "#Orange30%#z"
+      ],
+      "MeleeOrRangedWeapon": 2,
+      "MultiplayerOrNot": false,
+      "ValidUniverse": 0,
+      "WeaponType": 0,
+      "Icon": 28000083,
+      "DecorationType": 4,
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "强态压制",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "新枪械芯片15",
+      "__IDX__Effect": 4294967295,
+      "__RAW__Effect": "生命值高于{refer,Decoration,NumericalReference,98030162,1}时,造成的伤害提高{refer,Decoration,NumericalReference,98030162,2}",
+      "__IDX__NumericalReference": [
+        4294967293,
+        4294967293
+      ],
+      "__RAW__NumericalReference": [
+        "#Orange85%#z",
+        "#Orange30%#z"
+      ]
+    }
+  ],
+  "_dumpedCount": 133,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

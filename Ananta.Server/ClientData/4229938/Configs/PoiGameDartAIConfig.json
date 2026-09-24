@@ -1,0 +1,683 @@
+{
+  "_class": "PoiGameDartAIConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 25,
+  "records": [
+    {
+      "Id": 100,
+      "LevelName": "初级对手",
+      "AgentId": [
+        40130191,
+        40130201,
+        40130150,
+        40130948,
+        40130947
+      ],
+      "FightSpiritID": [
+        86952660,
+        86952661,
+        86952662
+      ],
+      "DartID": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "ScoreRateCountUp": 25,
+      "ScoreRateRange": 0.400000006,
+      "ChallengeId": 20,
+      "IsRatePerfect": false,
+      "BustCount": 3,
+      "ChallengeID": 20,
+      "DartsOffset": [
+        {
+          "x": -0.00499999989,
+          "y": -0.0199999996,
+          "z": 0.0219999999
+        },
+        {
+          "x": 0,
+          "y": -0.00600000005,
+          "z": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      ],
+      "DartsRot": [
+        {
+          "x": 345.25,
+          "y": 41.3899994,
+          "z": 346.950012
+        },
+        {
+          "x": 7.0999999,
+          "y": 3.57999992,
+          "z": 347.279999
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      ]
+    },
+    {
+      "Id": 101,
+      "LevelName": "中级对手",
+      "AgentId": [
+        40130562,
+        40130843,
+        40130484,
+        40130942,
+        40130941
+      ],
+      "FightSpiritID": [
+        86952663,
+        86952664,
+        86952665
+      ],
+      "DartID": [
+        7,
+        8,
+        9
+      ],
+      "ScoreRateCountUp": 35,
+      "ScoreRateRange": 0.300000012,
+      "ChallengeId": 21,
+      "IsRatePerfect": false,
+      "BustCount": 2,
+      "ChallengeID": 21,
+      "DartsOffset": [
+        {
+          "x": -0.00499999989,
+          "y": -0.0199999996,
+          "z": 0.0219999999
+        },
+        {
+          "x": 0,
+          "y": -0.00600000005,
+          "z": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      ],
+      "DartsRot": [
+        {
+          "x": 345.25,
+          "y": 41.3899994,
+          "z": 346.950012
+        },
+        {
+          "x": 7.0999999,
+          "y": 3.57999992,
+          "z": 347.279999
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      ]
+    },
+    {
+      "Id": 102,
+      "LevelName": "高级对手",
+      "AgentId": [
+        40130580,
+        40130699,
+        40130940,
+        40130192
+      ],
+      "FightSpiritID": [
+        86952666,
+        86952667,
+        86952668
+      ],
+      "DartID": [
+        10,
+        11,
+        12
+      ],
+      "ScoreRateCountUp": 45,
+      "ScoreRateRange": 0.200000003,
+      "ChallengeId": 23,
+      "IsRatePerfect": false,
+      "BustCount": 2,
+      "ChallengeID": 23,
+      "DartsOffset": [
+        {
+          "x": -0.00499999989,
+          "y": -0.0199999996,
+          "z": 0.0219999999
+        },
+        {
+          "x": 0,
+          "y": -0.00600000005,
+          "z": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      ],
+      "DartsRot": [
+        {
+          "x": 345.25,
+          "y": 41.3899994,
+          "z": 346.950012
+        },
+        {
+          "x": 7.0999999,
+          "y": 3.57999992,
+          "z": 347.279999
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      ]
+    },
+    {
+      "Id": 103,
+      "LevelName": "职业级对手",
+      "AgentId": [
+        40130879,
+        40130937
+      ],
+      "FightSpiritID": [
+        86952669
+      ],
+      "DartID": [
+        13,
+        14
+      ],
+      "ScoreRateCountUp": 55,
+      "ScoreRateRange": 0.100000001,
+      "ChallengeId": 24,
+      "IsRatePerfect": false,
+      "BustCount": 1,
+      "ChallengeID": 24,
+      "DartsOffset": [
+        {
+          "x": -0.00499999989,
+          "y": -0.0199999996,
+          "z": 0.0219999999
+        },
+        {
+          "x": 0,
+          "y": -0.00600000005,
+          "z": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      ],
+      "DartsRot": [
+        {
+          "x": 345.25,
+          "y": 41.3899994,
+          "z": 346.950012
+        },
+        {
+          "x": 7.0999999,
+          "y": 3.57999992,
+          "z": 347.279999
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      ]
+    },
+    {
+      "Id": 104,
+      "LevelName": "爱琳-01模式顶级水平",
+      "AgentId": [
+        40140043
+      ],
+      "FightSpiritID": [
+        86953008
+      ],
+      "DartID": [
+        10
+      ],
+      "ScoreRateCountUp": 55,
+      "ScoreRateRange": 0.100000001,
+      "ChallengeId": 0,
+      "IsRatePerfect": true,
+      "BustCount": 0,
+      "ChallengeID": 27,
+      "DartsOffset": [],
+      "DartsRot": []
+    },
+    {
+      "Id": 105,
+      "LevelName": "塔菲-高分稳定菜",
+      "AgentId": [
+        40140035
+      ],
+      "FightSpiritID": [
+        86963011
+      ],
+      "DartID": [
+        1
+      ],
+      "ScoreRateCountUp": 5,
+      "ScoreRateRange": 0.600000024,
+      "ChallengeId": 0,
+      "IsRatePerfect": false,
+      "BustCount": 3,
+      "ChallengeID": 28,
+      "DartsOffset": [],
+      "DartsRot": []
+    },
+    {
+      "Id": 106,
+      "LevelName": "班茜",
+      "AgentId": [
+        40140034
+      ],
+      "FightSpiritID": [
+        86963012
+      ],
+      "DartID": [
+        7
+      ],
+      "ScoreRateCountUp": 35,
+      "ScoreRateRange": 0.300000012,
+      "ChallengeId": 0,
+      "IsRatePerfect": false,
+      "BustCount": 2,
+      "ChallengeID": 29,
+      "DartsOffset": [],
+      "DartsRot": []
+    },
+    {
+      "Id": 107,
+      "LevelName": "梅卡妮卡",
+      "AgentId": [
+        40140038
+      ],
+      "FightSpiritID": [
+        86963013
+      ],
+      "DartID": [
+        2
+      ],
+      "ScoreRateCountUp": 25,
+      "ScoreRateRange": 0.400000006,
+      "ChallengeId": 0,
+      "IsRatePerfect": false,
+      "BustCount": 3,
+      "ChallengeID": 30,
+      "DartsOffset": [],
+      "DartsRot": []
+    },
+    {
+      "Id": 108,
+      "LevelName": "里希",
+      "AgentId": [
+        40140040
+      ],
+      "FightSpiritID": [
+        86952259
+      ],
+      "DartID": [
+        11
+      ],
+      "ScoreRateCountUp": 55,
+      "ScoreRateRange": 0.100000001,
+      "ChallengeId": 0,
+      "IsRatePerfect": false,
+      "BustCount": 1,
+      "ChallengeID": 31,
+      "DartsOffset": [],
+      "DartsRot": []
+    },
+    {
+      "Id": 109,
+      "LevelName": "狄菈",
+      "AgentId": [
+        40140036
+      ],
+      "FightSpiritID": [
+        86963015
+      ],
+      "DartID": [
+        8
+      ],
+      "ScoreRateCountUp": 35,
+      "ScoreRateRange": 0.300000012,
+      "ChallengeId": 0,
+      "IsRatePerfect": false,
+      "BustCount": 2,
+      "ChallengeID": 32,
+      "DartsOffset": [],
+      "DartsRot": []
+    },
+    {
+      "Id": 110,
+      "LevelName": "艾诺米",
+      "AgentId": [
+        40140053
+      ],
+      "FightSpiritID": [
+        86963016
+      ],
+      "DartID": [
+        3
+      ],
+      "ScoreRateCountUp": 25,
+      "ScoreRateRange": 0.400000006,
+      "ChallengeId": 0,
+      "IsRatePerfect": false,
+      "BustCount": 3,
+      "ChallengeID": 33,
+      "DartsOffset": [],
+      "DartsRot": []
+    },
+    {
+      "Id": 111,
+      "LevelName": "弥弥古-高分神经刀",
+      "AgentId": [
+        40140048
+      ],
+      "FightSpiritID": [
+        86952560
+      ],
+      "DartID": [
+        12
+      ],
+      "ScoreRateCountUp": 30,
+      "ScoreRateRange": 0.949999988,
+      "ChallengeId": 0,
+      "IsRatePerfect": false,
+      "BustCount": 2,
+      "ChallengeID": 34,
+      "DartsOffset": [],
+      "DartsRot": []
+    },
+    {
+      "Id": 112,
+      "LevelName": "赛默",
+      "AgentId": [
+        40140042
+      ],
+      "FightSpiritID": [
+        86963124
+      ],
+      "DartID": [
+        4
+      ],
+      "ScoreRateCountUp": 25,
+      "ScoreRateRange": 0.400000006,
+      "ChallengeId": 0,
+      "IsRatePerfect": false,
+      "BustCount": 3,
+      "ChallengeID": 42,
+      "DartsOffset": [],
+      "DartsRot": []
+    },
+    {
+      "Id": 113,
+      "LevelName": "嘉姆",
+      "AgentId": [
+        40140032
+      ],
+      "FightSpiritID": [
+        86963076
+      ],
+      "DartID": [
+        10
+      ],
+      "ScoreRateCountUp": 45,
+      "ScoreRateRange": 0.200000003,
+      "ChallengeId": 0,
+      "IsRatePerfect": false,
+      "BustCount": 2,
+      "ChallengeID": 43,
+      "DartsOffset": [],
+      "DartsRot": []
+    },
+    {
+      "Id": 114,
+      "LevelName": "莱卡娅-初级",
+      "AgentId": [
+        40140044
+      ],
+      "FightSpiritID": [
+        86952347
+      ],
+      "DartID": [
+        5
+      ],
+      "ScoreRateCountUp": 25,
+      "ScoreRateRange": 0.400000006,
+      "ChallengeId": 0,
+      "IsRatePerfect": false,
+      "BustCount": 3,
+      "ChallengeID": 44,
+      "DartsOffset": [],
+      "DartsRot": []
+    },
+    {
+      "Id": 115,
+      "LevelName": "凛-中级",
+      "AgentId": [
+        40140033
+      ],
+      "FightSpiritID": [
+        86952734
+      ],
+      "DartID": [
+        9
+      ],
+      "ScoreRateCountUp": 35,
+      "ScoreRateRange": 0.300000012,
+      "ChallengeId": 0,
+      "IsRatePerfect": false,
+      "BustCount": 2,
+      "ChallengeID": 45,
+      "DartsOffset": [],
+      "DartsRot": []
+    },
+    {
+      "Id": 116,
+      "LevelName": "林檎-01模式一直爆分",
+      "AgentId": [
+        40140041
+      ],
+      "FightSpiritID": [
+        86952257
+      ],
+      "DartID": [
+        6
+      ],
+      "ScoreRateCountUp": 35,
+      "ScoreRateRange": 0.5,
+      "ChallengeId": 0,
+      "IsRatePerfect": false,
+      "BustCount": 100,
+      "ChallengeID": 46,
+      "DartsOffset": [],
+      "DartsRot": []
+    },
+    {
+      "Id": 117,
+      "LevelName": "伯纳德-高级",
+      "AgentId": [
+        40140049
+      ],
+      "FightSpiritID": [
+        86952733
+      ],
+      "DartID": [
+        10
+      ],
+      "ScoreRateCountUp": 45,
+      "ScoreRateRange": 0.200000003,
+      "ChallengeId": 0,
+      "IsRatePerfect": false,
+      "BustCount": 2,
+      "ChallengeID": 47,
+      "DartsOffset": [],
+      "DartsRot": []
+    },
+    {
+      "Id": 118,
+      "LevelName": "亚兰-初级",
+      "AgentId": [
+        40140037
+      ],
+      "FightSpiritID": [
+        86952324
+      ],
+      "DartID": [
+        8
+      ],
+      "ScoreRateCountUp": 12,
+      "ScoreRateRange": 0.400000006,
+      "ChallengeId": 0,
+      "IsRatePerfect": false,
+      "BustCount": 3,
+      "ChallengeID": 48,
+      "DartsOffset": [],
+      "DartsRot": []
+    },
+    {
+      "Id": 119,
+      "LevelName": "白靖-高级",
+      "AgentId": [
+        40140054
+      ],
+      "FightSpiritID": [
+        86155008
+      ],
+      "DartID": [
+        11
+      ],
+      "ScoreRateCountUp": 45,
+      "ScoreRateRange": 0.200000003,
+      "ChallengeId": 0,
+      "IsRatePerfect": false,
+      "BustCount": 2,
+      "ChallengeID": 50,
+      "DartsOffset": [],
+      "DartsRot": []
+    },
+    {
+      "Id": 120,
+      "LevelName": "璎珑-中级",
+      "AgentId": [
+        40140055
+      ],
+      "FightSpiritID": [
+        86155010
+      ],
+      "DartID": [
+        1
+      ],
+      "ScoreRateCountUp": 35,
+      "ScoreRateRange": 0.300000012,
+      "ChallengeId": 0,
+      "IsRatePerfect": false,
+      "BustCount": 2,
+      "ChallengeID": 51,
+      "DartsOffset": [],
+      "DartsRot": []
+    },
+    {
+      "Id": 122,
+      "LevelName": "李扶风-中级",
+      "AgentId": [
+        40155013
+      ],
+      "FightSpiritID": [],
+      "DartID": [
+        4
+      ],
+      "ScoreRateCountUp": 35,
+      "ScoreRateRange": 0.300000012,
+      "ChallengeId": 0,
+      "IsRatePerfect": false,
+      "BustCount": 2,
+      "ChallengeID": 52,
+      "DartsOffset": [],
+      "DartsRot": []
+    },
+    {
+      "Id": 123,
+      "LevelName": "时夜-中级",
+      "AgentId": [
+        40140056
+      ],
+      "FightSpiritID": [],
+      "DartID": [
+        5
+      ],
+      "ScoreRateCountUp": 35,
+      "ScoreRateRange": 0.300000012,
+      "ChallengeId": 0,
+      "IsRatePerfect": false,
+      "BustCount": 2,
+      "ChallengeID": 53,
+      "DartsOffset": [],
+      "DartsRot": []
+    },
+    {
+      "Id": 124,
+      "LevelName": "柚枝-高级",
+      "AgentId": [
+        40140077
+      ],
+      "FightSpiritID": [],
+      "DartID": [
+        7
+      ],
+      "ScoreRateCountUp": 45,
+      "ScoreRateRange": 0.200000003,
+      "ChallengeId": 0,
+      "IsRatePerfect": false,
+      "BustCount": 2,
+      "ChallengeID": 54,
+      "DartsOffset": [],
+      "DartsRot": []
+    },
+    {
+      "Id": 125,
+      "LevelName": "程酿-菜",
+      "AgentId": [
+        40155001
+      ],
+      "FightSpiritID": [],
+      "DartID": [
+        2
+      ],
+      "ScoreRateCountUp": 10,
+      "ScoreRateRange": 0.400000006,
+      "ChallengeId": 0,
+      "IsRatePerfect": false,
+      "BustCount": 3,
+      "ChallengeID": 55,
+      "DartsOffset": [],
+      "DartsRot": []
+    }
+  ],
+  "_dumpedCount": 25,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

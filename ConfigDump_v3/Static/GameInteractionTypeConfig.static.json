@@ -1,0 +1,370 @@
+{
+  "StorageCfg": {
+    "Id": 5,
+    "Name": "混厄收容",
+    "AbleOnGround": 1,
+    "AbleOnWall": 0,
+    "AbleOnSit": 0,
+    "UseIk": 1,
+    "IgnoraCollider": 0,
+    "MovePointType": 999,
+    "IsLoop": 1,
+    "IsSit": 0,
+    "IsStateTree": true,
+    "Category": 1,
+    "FadeTime": [
+      0.200000003
+    ],
+    "IsHookUp": false,
+    "IsHookDown": false,
+    "NeedReportPlace": false,
+    "NoWeaponRPC": false,
+    "ActionTransition": [],
+    "ActionEndTime": 1,
+    "ColliderType": 0,
+    "EndUse": "废弃",
+    "BehaviorPosture": 0,
+    "CompanionAITag": 0,
+    "InteractionRootOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Actions": []
+  },
+  "SitCfg": {
+    "Id": 7,
+    "Name": "通用坐",
+    "AbleOnGround": 1,
+    "AbleOnWall": 0,
+    "AbleOnSit": 0,
+    "UseIk": 0,
+    "IgnoraCollider": 1,
+    "MovePointType": 1000,
+    "IsLoop": 1,
+    "IsSit": 1,
+    "IsStateTree": true,
+    "Category": 2,
+    "FadeTime": [
+      0
+    ],
+    "IsHookUp": false,
+    "IsHookDown": false,
+    "NeedReportPlace": false,
+    "NoWeaponRPC": false,
+    "ActionTransition": [],
+    "ActionEndTime": 1,
+    "ColliderType": 0,
+    "EndUse": "刘飞翔调整",
+    "BehaviorPosture": 35,
+    "CompanionAITag": 0,
+    "InteractionRootOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Actions": [
+      {
+        "type": 8060,
+        "group": 1
+      }
+    ]
+  },
+  "HighSitCfg": {
+    "Id": 11,
+    "Name": "坐高脚椅",
+    "AbleOnGround": 1,
+    "AbleOnWall": 0,
+    "AbleOnSit": 0,
+    "UseIk": 0,
+    "IgnoraCollider": 1,
+    "MovePointType": 2,
+    "IsLoop": 1,
+    "IsSit": 1,
+    "IsStateTree": true,
+    "Category": 3,
+    "FadeTime": [
+      0
+    ],
+    "IsHookUp": false,
+    "IsHookDown": false,
+    "NeedReportPlace": true,
+    "NoWeaponRPC": false,
+    "ActionTransition": [],
+    "ActionEndTime": 1,
+    "ColliderType": 0,
+    "EndUse": "配置完成",
+    "BehaviorPosture": 35,
+    "CompanionAITag": 0,
+    "InteractionRootOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Actions": []
+  },
+  "DrumCfg": {
+    "Id": 14,
+    "Name": "架子鼓",
+    "AbleOnGround": 1,
+    "AbleOnWall": 0,
+    "AbleOnSit": 0,
+    "UseIk": 0,
+    "IgnoraCollider": 1,
+    "MovePointType": 0,
+    "IsLoop": 1,
+    "IsSit": 1,
+    "IsStateTree": true,
+    "Category": 2,
+    "FadeTime": [
+      0
+    ],
+    "IsHookUp": false,
+    "IsHookDown": false,
+    "NeedReportPlace": true,
+    "NoWeaponRPC": false,
+    "ActionTransition": [],
+    "ActionEndTime": 1,
+    "ColliderType": 0,
+    "EndUse": "交互动作不带位移，配成上半身淡入的BP",
+    "BehaviorPosture": 0,
+    "CompanionAITag": 0,
+    "InteractionRootOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Actions": []
+  },
+  "ProneLyingCfg": {
+    "Id": 20,
+    "Name": "仰卧起坐",
+    "AbleOnGround": 1,
+    "AbleOnWall": 0,
+    "AbleOnSit": 0,
+    "UseIk": 0,
+    "IgnoraCollider": 0,
+    "MovePointType": 0,
+    "IsLoop": 1,
+    "IsSit": 0,
+    "IsStateTree": true,
+    "Category": 1,
+    "FadeTime": [
+      0
+    ],
+    "IsHookUp": false,
+    "IsHookDown": false,
+    "NeedReportPlace": false,
+    "NoWeaponRPC": false,
+    "ActionTransition": [],
+    "ActionEndTime": 1,
+    "ColliderType": 0,
+    "EndUse": "配置完成",
+    "BehaviorPosture": 0,
+    "CompanionAITag": 0,
+    "InteractionRootOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Actions": []
+  },
+  "PickCfg": {
+    "Id": 54,
+    "Name": "拿起",
+    "AbleOnGround": 1,
+    "AbleOnWall": 0,
+    "AbleOnSit": 0,
+    "UseIk": 0,
+    "IgnoraCollider": 0,
+    "MovePointType": 1,
+    "IsLoop": 0,
+    "IsSit": 0,
+    "IsStateTree": true,
+    "Category": 0,
+    "FadeTime": [
+      0
+    ],
+    "IsHookUp": true,
+    "IsHookDown": false,
+    "NeedReportPlace": false,
+    "NoWeaponRPC": false,
+    "ActionTransition": [],
+    "ActionEndTime": 1,
+    "ColliderType": 0,
+    "EndUse": "沈睿配置",
+    "BehaviorPosture": 0,
+    "CompanionAITag": 0,
+    "InteractionRootOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Actions": []
+  },
+  "RunCfg": {
+    "Id": 76,
+    "Name": "跑步机",
+    "AbleOnGround": 1,
+    "AbleOnWall": 0,
+    "AbleOnSit": 0,
+    "UseIk": 0,
+    "IgnoraCollider": 0,
+    "MovePointType": 0,
+    "IsLoop": 0,
+    "IsSit": 0,
+    "IsStateTree": true,
+    "Category": 0,
+    "FadeTime": [
+      0
+    ],
+    "IsHookUp": false,
+    "IsHookDown": false,
+    "NeedReportPlace": true,
+    "NoWeaponRPC": false,
+    "ActionTransition": [],
+    "ActionEndTime": 1,
+    "ColliderType": 0,
+    "EndUse": "刘飞翔配置",
+    "BehaviorPosture": 0,
+    "CompanionAITag": 0,
+    "InteractionRootOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Actions": []
+  },
+  "PickEitemCfg": {
+    "Id": 88,
+    "Name": "拾取eitem",
+    "AbleOnGround": 1,
+    "AbleOnWall": 0,
+    "AbleOnSit": 0,
+    "UseIk": 0,
+    "IgnoraCollider": 0,
+    "MovePointType": 999,
+    "IsLoop": 0,
+    "IsSit": 0,
+    "IsStateTree": true,
+    "Category": 2,
+    "FadeTime": [
+      0
+    ],
+    "IsHookUp": false,
+    "IsHookDown": false,
+    "NeedReportPlace": false,
+    "NoWeaponRPC": false,
+    "ActionTransition": [],
+    "ActionEndTime": 1,
+    "ColliderType": 0,
+    "EndUse": "不需要调整配置",
+    "BehaviorPosture": 0,
+    "CompanionAITag": 0,
+    "InteractionRootOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Actions": []
+  },
+  "DivingPickCfg": {
+    "Id": 201,
+    "Name": "潜水拿起鲸鱼骨头",
+    "AbleOnGround": 1,
+    "AbleOnWall": 0,
+    "AbleOnSit": 0,
+    "UseIk": 0,
+    "IgnoraCollider": 0,
+    "MovePointType": 1,
+    "IsLoop": 0,
+    "IsSit": 0,
+    "IsStateTree": true,
+    "Category": 0,
+    "FadeTime": [
+      0
+    ],
+    "IsHookUp": true,
+    "IsHookDown": false,
+    "NeedReportPlace": false,
+    "NoWeaponRPC": false,
+    "ActionTransition": [],
+    "ActionEndTime": 1,
+    "ColliderType": 0,
+    "EndUse": "刘飞翔配置",
+    "BehaviorPosture": 0,
+    "CompanionAITag": 0,
+    "InteractionRootOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Actions": []
+  },
+  "SwingCfg": {
+    "Id": 450,
+    "Name": "坐上秋千",
+    "AbleOnGround": 1,
+    "AbleOnWall": 0,
+    "AbleOnSit": 0,
+    "UseIk": 0,
+    "IgnoraCollider": 0,
+    "MovePointType": 0,
+    "IsLoop": 0,
+    "IsSit": 0,
+    "IsStateTree": true,
+    "Category": 2,
+    "FadeTime": [
+      0
+    ],
+    "IsHookUp": false,
+    "IsHookDown": false,
+    "NeedReportPlace": true,
+    "NoWeaponRPC": false,
+    "ActionTransition": [],
+    "ActionEndTime": 1,
+    "ColliderType": 0,
+    "EndUse": "舒益超配置",
+    "BehaviorPosture": 0,
+    "CompanionAITag": 1,
+    "InteractionRootOffset": {
+      "X": 0,
+      "Y": -0.50999999,
+      "Z": 0.595000029
+    },
+    "Actions": []
+  },
+  "AttachCfg": {
+    "Id": 616,
+    "Name": "扁担-挂接货物",
+    "AbleOnGround": 1,
+    "AbleOnWall": 0,
+    "AbleOnSit": 0,
+    "UseIk": 0,
+    "IgnoraCollider": 0,
+    "MovePointType": 0,
+    "IsLoop": 0,
+    "IsSit": 0,
+    "IsStateTree": true,
+    "Category": 1,
+    "FadeTime": [
+      0
+    ],
+    "IsHookUp": false,
+    "IsHookDown": false,
+    "NeedReportPlace": false,
+    "NoWeaponRPC": false,
+    "ActionTransition": [],
+    "ActionEndTime": 1,
+    "ColliderType": 0,
+    "EndUse": "刘飞翔配置",
+    "BehaviorPosture": 0,
+    "CompanionAITag": 0,
+    "InteractionRootOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Actions": []
+  }
+}

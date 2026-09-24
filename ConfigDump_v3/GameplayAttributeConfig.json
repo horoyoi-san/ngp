@@ -1,0 +1,46 @@
+{
+  "_class": "GameplayAttributeConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 4,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "斯拜科酒店-高难度",
+      "Description": "提高射击精度，减少弹道偏移",
+      "Type": 0,
+      "DifficultyLevel": 1,
+      "Icon": 28000083,
+      "MaxProgress": 0
+    },
+    {
+      "Id": 2,
+      "Name": "快速装填",
+      "Description": "缩短换弹时间，提升作战效率",
+      "Type": 0,
+      "DifficultyLevel": 2,
+      "Icon": 28000083,
+      "MaxProgress": 0
+    },
+    {
+      "Id": 3,
+      "Name": "医疗补给",
+      "Description": "增加生命值回复效果",
+      "Type": 1,
+      "DifficultyLevel": 0,
+      "Icon": 28000083,
+      "MaxProgress": 0
+    },
+    {
+      "Id": 4,
+      "Name": "弹药补充",
+      "Description": "增加弹药携带上限",
+      "Type": 1,
+      "DifficultyLevel": 0,
+      "Icon": 28000083,
+      "MaxProgress": 0
+    }
+  ],
+  "_dumpedCount": 4,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -1,0 +1,42 @@
+{
+  "_class": "NpcInformationAlcoholConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 4,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "无酒精",
+      "Range": [
+        0,
+        0
+      ]
+    },
+    {
+      "Id": 2,
+      "Name": "低酒精",
+      "Range": [
+        1,
+        19
+      ]
+    },
+    {
+      "Id": 3,
+      "Name": "饮酒",
+      "Range": [
+        20,
+        79
+      ]
+    },
+    {
+      "Id": 4,
+      "Name": "醉酒",
+      "Range": [
+        80,
+        120
+      ]
+    }
+  ],
+  "_dumpedCount": 4,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

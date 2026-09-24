@@ -1,0 +1,612 @@
+{
+  "_class": "ChaosMasterBodyConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 12,
+  "records": [
+    {
+      "Id": 1,
+      "BodyName": "谜面帮手雷妹",
+      "Quality": 3,
+      "BodyDescription": "谜面帮手雷妹",
+      "Cost": 3,
+      "BodyCode": "QS",
+      "CanUseCampId": [
+        1,
+        2
+      ],
+      "CanUseWeaponId": [
+        1
+      ],
+      "BuffStatFactorId": [
+        1
+      ],
+      "BuffStatValue": [
+        1000
+      ],
+      "BuffStatFactor": [
+        0
+      ],
+      "PassiveSkill": [
+        101,
+        213
+      ],
+      "IconID": 28002055,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "BodyName": "蒸汽狂飙",
+      "Quality": 4,
+      "BodyDescription": "蒸汽狂飙",
+      "Cost": 4,
+      "BodyCode": "ZQ",
+      "CanUseCampId": [
+        3,
+        4
+      ],
+      "CanUseWeaponId": [
+        2
+      ],
+      "BuffStatFactorId": [
+        1
+      ],
+      "BuffStatValue": [
+        500
+      ],
+      "BuffStatFactor": [
+        0
+      ],
+      "PassiveSkill": [
+        102,
+        215
+      ],
+      "IconID": 28002055,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "BodyName": "电视脑治疗兵",
+      "Quality": 3,
+      "BodyDescription": "电视脑治疗兵",
+      "Cost": 3,
+      "BodyCode": "TV",
+      "CanUseCampId": [
+        5,
+        6
+      ],
+      "CanUseWeaponId": [
+        3
+      ],
+      "BuffStatFactorId": [
+        1
+      ],
+      "BuffStatValue": [
+        800
+      ],
+      "BuffStatFactor": [
+        0
+      ],
+      "PassiveSkill": [
+        103,
+        214
+      ],
+      "IconID": 28002055,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 4,
+      "BodyName": "谜面帮炮兵",
+      "Quality": 3,
+      "BodyDescription": "谜面帮炮兵",
+      "Cost": 3,
+      "BodyCode": "QS",
+      "CanUseCampId": [
+        1,
+        2
+      ],
+      "CanUseWeaponId": [
+        4
+      ],
+      "BuffStatFactorId": [
+        1
+      ],
+      "BuffStatValue": [
+        900
+      ],
+      "BuffStatFactor": [
+        0
+      ],
+      "PassiveSkill": [
+        104,
+        213
+      ],
+      "IconID": 28002055,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 5,
+      "BodyName": "黑金组吉他手",
+      "Quality": 3,
+      "BodyDescription": "黑金组吉他手",
+      "Cost": 3,
+      "BodyCode": "BG",
+      "CanUseCampId": [
+        7,
+        8
+      ],
+      "CanUseWeaponId": [
+        5
+      ],
+      "BuffStatFactorId": [
+        1
+      ],
+      "BuffStatValue": [
+        600
+      ],
+      "BuffStatFactor": [
+        0
+      ],
+      "PassiveSkill": [
+        105,
+        212
+      ],
+      "IconID": 28002055,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 6,
+      "BodyName": "安保员",
+      "Quality": 4,
+      "BodyDescription": "安保员",
+      "Cost": 4,
+      "BodyCode": "BA",
+      "CanUseCampId": [
+        9,
+        10
+      ],
+      "CanUseWeaponId": [
+        6
+      ],
+      "BuffStatFactorId": [
+        1
+      ],
+      "BuffStatValue": [
+        600
+      ],
+      "BuffStatFactor": [
+        0
+      ],
+      "PassiveSkill": [
+        106,
+        212
+      ],
+      "IconID": 28002055,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 7,
+      "BodyName": "黑金组鼓手",
+      "Quality": 3,
+      "BodyDescription": "黑金组鼓手",
+      "Cost": 3,
+      "BodyCode": "BG",
+      "CanUseCampId": [
+        7,
+        8
+      ],
+      "CanUseWeaponId": [
+        7
+      ],
+      "BuffStatFactorId": [
+        1
+      ],
+      "BuffStatValue": [
+        800
+      ],
+      "BuffStatFactor": [
+        0
+      ],
+      "PassiveSkill": [
+        107,
+        214
+      ],
+      "IconID": 28002055,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 8,
+      "BodyName": "飞刀杂耍者",
+      "Quality": 3,
+      "BodyDescription": "飞刀杂耍者",
+      "Cost": 3,
+      "BodyCode": "TV",
+      "CanUseCampId": [
+        5,
+        6
+      ],
+      "CanUseWeaponId": [
+        8
+      ],
+      "BuffStatFactorId": [
+        1
+      ],
+      "BuffStatValue": [
+        800
+      ],
+      "BuffStatFactor": [
+        0
+      ],
+      "PassiveSkill": [
+        108,
+        215
+      ],
+      "IconID": 28002055,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 9,
+      "BodyName": "阿姆斯",
+      "Quality": 4,
+      "BodyDescription": "阿姆斯",
+      "Cost": 4,
+      "BodyCode": "JR",
+      "CanUseCampId": [
+        11,
+        12
+      ],
+      "CanUseWeaponId": [
+        9
+      ],
+      "BuffStatFactorId": [
+        1
+      ],
+      "BuffStatValue": [
+        1200
+      ],
+      "BuffStatFactor": [
+        0
+      ],
+      "PassiveSkill": [
+        109,
+        211
+      ],
+      "IconID": 28002055,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 10,
+      "BodyName": "巡卫署警卫",
+      "Quality": 4,
+      "BodyDescription": "巡卫署警卫",
+      "Cost": 4,
+      "BodyCode": "PL",
+      "CanUseCampId": [
+        13,
+        14
+      ],
+      "CanUseWeaponId": [
+        10
+      ],
+      "BuffStatFactorId": [
+        1
+      ],
+      "BuffStatValue": [
+        1000
+      ],
+      "BuffStatFactor": [
+        0
+      ],
+      "PassiveSkill": [
+        110,
+        211
+      ],
+      "IconID": 28002055,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 11,
+      "BodyName": "垃圾桶",
+      "Quality": 4,
+      "BodyDescription": "垃圾桶",
+      "Cost": 1,
+      "BodyCode": "PL",
+      "CanUseCampId": [
+        15
+      ],
+      "CanUseWeaponId": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "BuffStatFactorId": [
+        1
+      ],
+      "BuffStatValue": [
+        500
+      ],
+      "BuffStatFactor": [
+        0
+      ],
+      "PassiveSkill": [
+        110,
+        211
+      ],
+      "IconID": 28002055,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 12,
+      "BodyName": "恐龙",
+      "Quality": 4,
+      "BodyDescription": "恐龙",
+      "Cost": 6,
+      "BodyCode": "PL",
+      "CanUseCampId": [
+        16
+      ],
+      "CanUseWeaponId": [
+        16
+      ],
+      "BuffStatFactorId": [
+        1
+      ],
+      "BuffStatValue": [
+        3000
+      ],
+      "BuffStatFactor": [
+        0
+      ],
+      "PassiveSkill": [
+        110,
+        211
+      ],
+      "IconID": 28002055,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 12,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

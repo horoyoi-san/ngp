@@ -5,10 +5,6 @@ using SceneMethods = Ananta.Server.RpcTypes.Client4229938.Methods.GameScene;
 
 namespace Ananta.Server.Protocol.Client4229938;
 
-/// <summary>
-/// Typed factories for combat RPCs. Weapon/style/skill values come from the extracted build-4229938
-/// client tables; private-server.json only supplies private-server balance and identity values.
-/// </summary>
 internal static class CombatCodec
 {
     private static CombatSettings Settings => PrivateServerConfigStore.Current.Gameplay.Combat;
@@ -19,6 +15,27 @@ internal static class CombatCodec
         => CombatCatalogRepository.ResourceMaximum(UltimateResourceId, Settings.Resource.Max);
     internal static IReadOnlyDictionary<uint, float> AllResourceMaximums
         => CombatCatalogRepository.ResourceMaximums;
+
+    
+    
+    
+    
+    
+    internal static float PanelDamage => Settings.PanelDamage;
+    internal static float PanelDefenseDeduct => Settings.PanelDefenseDeduct;
+
+    
+    internal static Dictionary<uint, float> PanelAttrs() => new()
+    {
+        [1] = Settings.MaxHp,
+        [2] = Settings.Attack,
+        [7] = Settings.Defense,
+        [10] = Settings.MoveSpeedMultiplier,
+    };
+
+    
+    internal static Dictionary<uint, float> UrbanAttrMap()
+        => Settings.DefaultUrbanAbilities.ToDictionary(id => (uint)id, _ => 1f);
 
     internal static CombatLoadout Loadout(uint templateId)
         => CombatCatalogRepository.Loadout(templateId);
@@ -103,9 +120,9 @@ internal static class CombatCodec
                 return;
             var period = weapon.Cooldown(style, skillId, 0f);
             var maximum = weapon.MaximumCharges(style, skillId);
-            // A zero Cooldown means the skill is input/animation driven, not charge-count driven.
-            // Publishing ChargeData for such skills makes the client consume an invented stock and
-            // interferes with click/hold/release transitions in SkillJumpConfig.
+            
+            
+            
             if (period <= 0f || maximum == 0)
                 return;
             body.charges[skillId] = new SceneMethods.ChargeData
@@ -205,7 +222,7 @@ internal static class CombatCodec
             FightStyleId = weapon.Style.Id,
             MagazineAmmo = weapon.InitialMagazineAmmo,
             BulletDatas = new Auto.WeaponBulletDatas { BulletId = weapon.BulletId },
-            BindPid = PrivateServerConfigStore.Current.Player.Pid,
+            BindPid = Profile.PlayerPid,
             IsPlayerLocked = false
         };
 

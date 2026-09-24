@@ -1,0 +1,66 @@
+{
+  "_class": "SocialMediaTabConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 8,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "Home",
+      "bottomBtn": "homeBtn",
+      "NextTab": 2,
+      "showBackBtn": 2
+    },
+    {
+      "Id": 2,
+      "Name": "Post",
+      "bottomBtn": "postBtn",
+      "NextTab": 3,
+      "showBackBtn": 2
+    },
+    {
+      "Id": 3,
+      "Name": "Personal",
+      "bottomBtn": "mineBtn",
+      "NextTab": 1,
+      "showBackBtn": 2
+    },
+    {
+      "Id": 4,
+      "Name": "FriendHome",
+      "bottomBtn": "",
+      "NextTab": 0,
+      "showBackBtn": 1
+    },
+    {
+      "Id": 5,
+      "Name": "Film",
+      "bottomBtn": "",
+      "NextTab": 0,
+      "showBackBtn": 1
+    },
+    {
+      "Id": 6,
+      "Name": "Detail",
+      "bottomBtn": "",
+      "NextTab": 0,
+      "showBackBtn": 1
+    },
+    {
+      "Id": 7,
+      "Name": "My_post",
+      "bottomBtn": "",
+      "NextTab": 0,
+      "showBackBtn": 1
+    },
+    {
+      "Id": 8,
+      "Name": "Start",
+      "bottomBtn": "",
+      "NextTab": 0,
+      "showBackBtn": 2
+    }
+  ],
+  "_dumpedCount": 8,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

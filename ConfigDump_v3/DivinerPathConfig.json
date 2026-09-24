@@ -1,0 +1,894 @@
+{
+  "_class": "DivinerPathConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 34,
+  "records": [
+    {
+      "Id": 12008500,
+      "PathDes": "劝说分手",
+      "StageDestination": 74005017,
+      "PersuasionDialogTips": "命运指示已给出，请#c0055FE说服顾客分手#z。",
+      "SuccessResult": [
+        12011500
+      ],
+      "SucessDialogId": 100030941,
+      "SuccessReview": [
+        12014000,
+        12014001,
+        12014002,
+        12014003
+      ],
+      "FailResult": [
+        12011501
+      ],
+      "FailDialogId": 100030937,
+      "FailReview": [
+        12014008,
+        12014009
+      ],
+      "Persuasion": 0,
+      "SucessPersuasion": 78
+    },
+    {
+      "Id": 12008501,
+      "PathDes": "劝说不分手",
+      "StageDestination": 74005018,
+      "PersuasionDialogTips": "命运指示已给出，请#c0055FE说服顾客不分手#z。",
+      "SuccessResult": [
+        12011500
+      ],
+      "SucessDialogId": 100030953,
+      "SuccessReview": [
+        12014000,
+        12014001,
+        12014002,
+        12014003
+      ],
+      "FailResult": [
+        12011501
+      ],
+      "FailDialogId": 100030964,
+      "FailReview": [
+        12014008,
+        12014009
+      ],
+      "Persuasion": 0,
+      "SucessPersuasion": 78
+    },
+    {
+      "Id": 12008502,
+      "PathDes": "劝说跳槽",
+      "StageDestination": 74005019,
+      "PersuasionDialogTips": "命运指示已给出，请#c0055FE说服顾客跳槽#z。",
+      "SuccessResult": [
+        12011500
+      ],
+      "SucessDialogId": 100032045,
+      "SuccessReview": [
+        12014000,
+        12014001,
+        12014002,
+        12014003
+      ],
+      "FailResult": [
+        12011501
+      ],
+      "FailDialogId": 100032023,
+      "FailReview": [
+        12014008,
+        12014009
+      ],
+      "Persuasion": 0,
+      "SucessPersuasion": 78
+    },
+    {
+      "Id": 12008503,
+      "PathDes": "劝说留下",
+      "StageDestination": 74005020,
+      "PersuasionDialogTips": "命运指示已给出，请#c0055FE说服顾客留下#z。",
+      "SuccessResult": [
+        12011500
+      ],
+      "SucessDialogId": 100032024,
+      "SuccessReview": [
+        12014000,
+        12014001,
+        12014002,
+        12014003
+      ],
+      "FailResult": [
+        12011501
+      ],
+      "FailDialogId": 100032069,
+      "FailReview": [
+        12014008,
+        12014009
+      ],
+      "Persuasion": 0,
+      "SucessPersuasion": 78
+    },
+    {
+      "Id": 12008504,
+      "PathDes": "劝说外派",
+      "StageDestination": 74005021,
+      "PersuasionDialogTips": "命运指示已给出，请#c0055FE说服顾客外派#z。",
+      "SuccessResult": [
+        12011500
+      ],
+      "SucessDialogId": 100032083,
+      "SuccessReview": [
+        12014000,
+        12014001,
+        12014002,
+        12014003
+      ],
+      "FailResult": [
+        12011501
+      ],
+      "FailDialogId": 100032100,
+      "FailReview": [
+        12014008,
+        12014009
+      ],
+      "Persuasion": 0,
+      "SucessPersuasion": 78
+    },
+    {
+      "Id": 12008505,
+      "PathDes": "劝说选择爱情留下",
+      "StageDestination": 74005022,
+      "PersuasionDialogTips": "命运指示已给出，请#c0055FE说服顾客留下#z。",
+      "SuccessResult": [
+        12011500
+      ],
+      "SucessDialogId": 100032104,
+      "SuccessReview": [
+        12014000,
+        12014001,
+        12014002,
+        12014003
+      ],
+      "FailResult": [
+        12011501
+      ],
+      "FailDialogId": 100032108,
+      "FailReview": [
+        12014008,
+        12014009
+      ],
+      "Persuasion": 0,
+      "SucessPersuasion": 78
+    },
+    {
+      "Id": 12008506,
+      "PathDes": "劝说坚持",
+      "StageDestination": 74005023,
+      "PersuasionDialogTips": "命运指示已给出，请#c0055FE说服顾客坚持#z。",
+      "SuccessResult": [
+        12011500
+      ],
+      "SucessDialogId": 100032130,
+      "SuccessReview": [
+        12014000,
+        12014001,
+        12014002,
+        12014003
+      ],
+      "FailResult": [
+        12011501
+      ],
+      "FailDialogId": 100032134,
+      "FailReview": [
+        12014008,
+        12014009
+      ],
+      "Persuasion": 0,
+      "SucessPersuasion": 78
+    },
+    {
+      "Id": 12008507,
+      "PathDes": "劝说顾客放弃体育",
+      "StageDestination": 74005024,
+      "PersuasionDialogTips": "命运指示已给出，请#c0055FE说服顾客放弃#z。",
+      "SuccessResult": [
+        12011500
+      ],
+      "SucessDialogId": 100032137,
+      "SuccessReview": [
+        12014000,
+        12014001,
+        12014002,
+        12014003
+      ],
+      "FailResult": [
+        12011501
+      ],
+      "FailDialogId": 100032141,
+      "FailReview": [
+        12014008,
+        12014009
+      ],
+      "Persuasion": 0,
+      "SucessPersuasion": 78
+    },
+    {
+      "Id": 12008508,
+      "PathDes": "劝说分手",
+      "StageDestination": 74005017,
+      "PersuasionDialogTips": "命运指示已给出，请#c0055FE说服顾客分手#z。",
+      "SuccessResult": [
+        12011505
+      ],
+      "SucessDialogId": 100030941,
+      "SuccessReview": [
+        12014000,
+        12014001,
+        12014002,
+        12014003
+      ],
+      "FailResult": [
+        12011506
+      ],
+      "FailDialogId": 100030937,
+      "FailReview": [
+        12014008,
+        12014009
+      ],
+      "Persuasion": 0,
+      "SucessPersuasion": 78
+    },
+    {
+      "Id": 12008509,
+      "PathDes": "劝说不分手",
+      "StageDestination": 74005018,
+      "PersuasionDialogTips": "命运指示已给出，请#c0055FE说服顾客不分手#z。",
+      "SuccessResult": [
+        12011505
+      ],
+      "SucessDialogId": 100030953,
+      "SuccessReview": [
+        12014000,
+        12014001,
+        12014002,
+        12014003
+      ],
+      "FailResult": [
+        12011506
+      ],
+      "FailDialogId": 100030964,
+      "FailReview": [
+        12014008,
+        12014009
+      ],
+      "Persuasion": 0,
+      "SucessPersuasion": 78
+    },
+    {
+      "Id": 12008510,
+      "PathDes": "奉承她",
+      "StageDestination": 74005017,
+      "PersuasionDialogTips": "命运指示已给出，请围绕她“用秘密揭露黑暗、改变新启”的理想，认可其洞察与使命，并说服她继续扩展秘密牌阵。",
+      "SuccessResult": [
+        12011510
+      ],
+      "SucessDialogId": 0,
+      "SuccessReview": [
+        12014000,
+        12014001,
+        12014002,
+        12014003
+      ],
+      "FailResult": [
+        12011510
+      ],
+      "FailDialogId": 0,
+      "FailReview": [
+        12014008,
+        12014009
+      ],
+      "Persuasion": 0,
+      "SucessPersuasion": 60
+    },
+    {
+      "Id": 12008511,
+      "PathDes": "痛斥她",
+      "StageDestination": 74005018,
+      "PersuasionDialogTips": "命运指示已给出，请从信任被滥用、真相可能误判和权力失控三个方面质疑她的计划，并说服她停止扩张或建立严格边界。",
+      "SuccessResult": [
+        12011510
+      ],
+      "SucessDialogId": 0,
+      "SuccessReview": [
+        12014000,
+        12014001,
+        12014002,
+        12014003
+      ],
+      "FailResult": [
+        12011510
+      ],
+      "FailDialogId": 0,
+      "FailReview": [
+        12014008,
+        12014009
+      ],
+      "Persuasion": 0,
+      "SucessPersuasion": 60
+    },
+    {
+      "Id": 12008512,
+      "PathDes": "劝她认清骗局分手",
+      "StageDestination": 74005017,
+      "PersuasionDialogTips": "命运指示已给出，请说服顾客认清骗局并分手。",
+      "SuccessResult": [
+        12011500
+      ],
+      "SucessDialogId": 0,
+      "SuccessReview": [
+        12014000,
+        12014001,
+        12014002,
+        12014003
+      ],
+      "FailResult": [
+        12011501
+      ],
+      "FailDialogId": 0,
+      "FailReview": [
+        12014008,
+        12014009
+      ],
+      "Persuasion": 0,
+      "SucessPersuasion": 60
+    },
+    {
+      "Id": 12008513,
+      "PathDes": "告诉她再忍忍，会收获幸福的",
+      "StageDestination": 74005018,
+      "PersuasionDialogTips": "命运指示已给出，请说服顾客自己调查清楚再决定。",
+      "SuccessResult": [
+        12011500
+      ],
+      "SucessDialogId": 0,
+      "SuccessReview": [
+        12014000,
+        12014001,
+        12014002,
+        12014003
+      ],
+      "FailResult": [
+        12011501
+      ],
+      "FailDialogId": 0,
+      "FailReview": [
+        12014008,
+        12014009
+      ],
+      "Persuasion": 0,
+      "SucessPersuasion": 60
+    },
+    {
+      "Id": 12008514,
+      "PathDes": "劝他拒绝这次机会",
+      "StageDestination": 74005019,
+      "PersuasionDialogTips": "命运指示已给出，请说服顾客先调查清楚再决定是否入职。",
+      "SuccessResult": [
+        12011500
+      ],
+      "SucessDialogId": 0,
+      "SuccessReview": [
+        12014000,
+        12014001,
+        12014002,
+        12014003
+      ],
+      "FailResult": [
+        12011501
+      ],
+      "FailDialogId": 0,
+      "FailReview": [
+        12014008,
+        12014009
+      ],
+      "Persuasion": 0,
+      "SucessPersuasion": 60
+    },
+    {
+      "Id": 12008515,
+      "PathDes": "劝他接受新工作",
+      "StageDestination": 74005020,
+      "PersuasionDialogTips": "命运指示已给出，请说服顾客留在现在的岗位。",
+      "SuccessResult": [
+        12011500
+      ],
+      "SucessDialogId": 0,
+      "SuccessReview": [
+        12014000,
+        12014001,
+        12014002,
+        12014003
+      ],
+      "FailResult": [
+        12011501
+      ],
+      "FailDialogId": 0,
+      "FailReview": [
+        12014008,
+        12014009
+      ],
+      "Persuasion": 0,
+      "SucessPersuasion": 60
+    },
+    {
+      "Id": 12008516,
+      "PathDes": "劝他尊重儿子的选择",
+      "StageDestination": 74005021,
+      "PersuasionDialogTips": "命运指示已给出，请说服顾客尊重儿子的选择，让他去启明学院。",
+      "SuccessResult": [
+        12011500
+      ],
+      "SucessDialogId": 0,
+      "SuccessReview": [
+        12014000,
+        12014001,
+        12014002,
+        12014003
+      ],
+      "FailResult": [
+        12011501
+      ],
+      "FailDialogId": 0,
+      "FailReview": [
+        12014008,
+        12014009
+      ],
+      "Persuasion": 0,
+      "SucessPersuasion": 60
+    },
+    {
+      "Id": 12008517,
+      "PathDes": "继续劝他管教儿子",
+      "StageDestination": 74005022,
+      "PersuasionDialogTips": "命运指示已给出，请围绕继续控制儿子的人生方向说服顾客。",
+      "SuccessResult": [
+        12011500
+      ],
+      "SucessDialogId": 0,
+      "SuccessReview": [
+        12014000,
+        12014001,
+        12014002,
+        12014003
+      ],
+      "FailResult": [
+        12011501
+      ],
+      "FailDialogId": 0,
+      "FailReview": [
+        12014008,
+        12014009
+      ],
+      "Persuasion": 0,
+      "SucessPersuasion": 60
+    },
+    {
+      "Id": 12008518,
+      "PathDes": "支持她把房子给猫",
+      "StageDestination": 74005023,
+      "PersuasionDialogTips": "命运指示已给出，请说服顾客坚持自己的决定。",
+      "SuccessResult": [
+        12011500
+      ],
+      "SucessDialogId": 0,
+      "SuccessReview": [
+        12014000,
+        12014001,
+        12014002,
+        12014003
+      ],
+      "FailResult": [
+        12011501
+      ],
+      "FailDialogId": 0,
+      "FailReview": [
+        12014008,
+        12014009
+      ],
+      "Persuasion": 0,
+      "SucessPersuasion": 60
+    },
+    {
+      "Id": 12008519,
+      "PathDes": "劝她与子女重新沟通",
+      "StageDestination": 74005024,
+      "PersuasionDialogTips": "命运指示已给出，请说服顾客与子女重新沟通。",
+      "SuccessResult": [
+        12011500
+      ],
+      "SucessDialogId": 0,
+      "SuccessReview": [
+        12014000,
+        12014001,
+        12014002,
+        12014003
+      ],
+      "FailResult": [
+        12011501
+      ],
+      "FailDialogId": 0,
+      "FailReview": [
+        12014008,
+        12014009
+      ],
+      "Persuasion": 0,
+      "SucessPersuasion": 60
+    },
+    {
+      "Id": 12008520,
+      "PathDes": "劝她认清现实",
+      "StageDestination": 74005017,
+      "PersuasionDialogTips": "命运指示已给出，请说服顾客改变说话方式。",
+      "SuccessResult": [
+        12011500
+      ],
+      "SucessDialogId": 0,
+      "SuccessReview": [
+        12014000,
+        12014001,
+        12014002,
+        12014003
+      ],
+      "FailResult": [
+        12011501
+      ],
+      "FailDialogId": 0,
+      "FailReview": [
+        12014008,
+        12014009
+      ],
+      "Persuasion": 0,
+      "SucessPersuasion": 60
+    },
+    {
+      "Id": 12008521,
+      "PathDes": "鼓励她继续追逐",
+      "StageDestination": 74005018,
+      "PersuasionDialogTips": "命运指示已给出，请说服顾客保留真诚但学会温柔表达。",
+      "SuccessResult": [
+        12011500
+      ],
+      "SucessDialogId": 0,
+      "SuccessReview": [
+        12014000,
+        12014001,
+        12014002,
+        12014003
+      ],
+      "FailResult": [
+        12011501
+      ],
+      "FailDialogId": 0,
+      "FailReview": [
+        12014008,
+        12014009
+      ],
+      "Persuasion": 0,
+      "SucessPersuasion": 60
+    },
+    {
+      "Id": 12008522,
+      "PathDes": "劝他改变帮助人的方式",
+      "StageDestination": 74005019,
+      "PersuasionDialogTips": "命运指示已给出，请说服顾客学会先问再帮。",
+      "SuccessResult": [
+        12011500
+      ],
+      "SucessDialogId": 0,
+      "SuccessReview": [
+        12014000,
+        12014001,
+        12014002,
+        12014003
+      ],
+      "FailResult": [
+        12011501
+      ],
+      "FailDialogId": 0,
+      "FailReview": [
+        12014008,
+        12014009
+      ],
+      "Persuasion": 0,
+      "SucessPersuasion": 60
+    },
+    {
+      "Id": 12008523,
+      "PathDes": "鼓励顾客继续做好事，不要在意他人看法",
+      "StageDestination": 74005020,
+      "PersuasionDialogTips": "命运指示已给出，请说服顾客保持善意但放下被感谢的期待。",
+      "SuccessResult": [
+        12011500
+      ],
+      "SucessDialogId": 0,
+      "SuccessReview": [
+        12014000,
+        12014001,
+        12014002,
+        12014003
+      ],
+      "FailResult": [
+        12011501
+      ],
+      "FailDialogId": 0,
+      "FailReview": [
+        12014008,
+        12014009
+      ],
+      "Persuasion": 0,
+      "SucessPersuasion": 60
+    },
+    {
+      "Id": 12008524,
+      "PathDes": "劝他找一份新工作",
+      "StageDestination": 74005021,
+      "PersuasionDialogTips": "命运指示已给出，请说服顾客找一份新工作重新开始。",
+      "SuccessResult": [
+        12011500
+      ],
+      "SucessDialogId": 0,
+      "SuccessReview": [
+        12014000,
+        12014001,
+        12014002,
+        12014003
+      ],
+      "FailResult": [
+        12011501
+      ],
+      "FailDialogId": 0,
+      "FailReview": [
+        12014008,
+        12014009
+      ],
+      "Persuasion": 0,
+      "SucessPersuasion": 60
+    },
+    {
+      "Id": 12008525,
+      "PathDes": "劝他先跟过去告别",
+      "StageDestination": 74005022,
+      "PersuasionDialogTips": "命运指示已给出，请说服顾客先跟三年前的自己告别。",
+      "SuccessResult": [
+        12011500
+      ],
+      "SucessDialogId": 0,
+      "SuccessReview": [
+        12014000,
+        12014001,
+        12014002,
+        12014003
+      ],
+      "FailResult": [
+        12011501
+      ],
+      "FailDialogId": 0,
+      "FailReview": [
+        12014008,
+        12014009
+      ],
+      "Persuasion": 0,
+      "SucessPersuasion": 60
+    },
+    {
+      "Id": 12008526,
+      "PathDes": "加入她",
+      "StageDestination": 74005017,
+      "PersuasionDialogTips": "你已经发现秘密比金钱更有价值，也得知她的计划缺少人手。请证明自己理解秘密的分量、能承担具体职责，并说服她接纳你成为合作者。",
+      "SuccessResult": [
+        12011510
+      ],
+      "SucessDialogId": 0,
+      "SuccessReview": [
+        12014000,
+        12014001,
+        12014002,
+        12014003
+      ],
+      "FailResult": [
+        12011510
+      ],
+      "FailDialogId": 0,
+      "FailReview": [
+        12014008,
+        12014009
+      ],
+      "Persuasion": 0,
+      "SucessPersuasion": 60
+    },
+    {
+      "Id": 12008527,
+      "PathDes": "加入她的秘密网络",
+      "StageDestination": 74005017,
+      "PersuasionDialogTips": "你已发现她的计划缺人。请说服顾客让你加入她的秘密网络。",
+      "SuccessResult": [
+        12011510
+      ],
+      "SucessDialogId": 0,
+      "SuccessReview": [
+        12014000,
+        12014001,
+        12014002,
+        12014003
+      ],
+      "FailResult": [
+        12011510
+      ],
+      "FailDialogId": 0,
+      "FailReview": [
+        12014008,
+        12014009
+      ],
+      "Persuasion": 0,
+      "SucessPersuasion": 60
+    },
+    {
+      "Id": 12008528,
+      "PathDes": "劝他坦白简历造假的事实",
+      "StageDestination": 74005023,
+      "PersuasionDialogTips": "命运指示已给出，请说服顾客在年会前向公司坦白简历造假。",
+      "SuccessResult": [
+        12011500
+      ],
+      "SucessDialogId": 0,
+      "SuccessReview": [
+        12014000,
+        12014001,
+        12014002,
+        12014003
+      ],
+      "FailResult": [
+        12011501
+      ],
+      "FailDialogId": 0,
+      "FailReview": [
+        12014008,
+        12014009
+      ],
+      "Persuasion": 0,
+      "SucessPersuasion": 60
+    },
+    {
+      "Id": 12008529,
+      "PathDes": "劝他硬着头皮完成年会表演",
+      "StageDestination": 74005024,
+      "PersuasionDialogTips": "命运指示已给出，请说服顾客继续练习并完成年会表演。",
+      "SuccessResult": [
+        12011500
+      ],
+      "SucessDialogId": 0,
+      "SuccessReview": [
+        12014000,
+        12014001,
+        12014002,
+        12014003
+      ],
+      "FailResult": [
+        12011501
+      ],
+      "FailDialogId": 0,
+      "FailReview": [
+        12014008,
+        12014009
+      ],
+      "Persuasion": 0,
+      "SucessPersuasion": 60
+    },
+    {
+      "Id": 12008530,
+      "PathDes": "劝她速成拿手菜应付拍摄",
+      "StageDestination": 74005017,
+      "PersuasionDialogTips": "命运指示已给出，请说服顾客利用剩余时间速成拿手菜，完成节目拍摄。",
+      "SuccessResult": [
+        12011500
+      ],
+      "SucessDialogId": 0,
+      "SuccessReview": [
+        12014000,
+        12014001,
+        12014002,
+        12014003
+      ],
+      "FailResult": [
+        12011501
+      ],
+      "FailDialogId": 0,
+      "FailReview": [
+        12014008,
+        12014009
+      ],
+      "Persuasion": 0,
+      "SucessPersuasion": 60
+    },
+    {
+      "Id": 12008531,
+      "PathDes": "劝她向节目组坦白朋友圈造假",
+      "StageDestination": 74005018,
+      "PersuasionDialogTips": "命运指示已给出，请说服顾客在拍摄前向节目组说明真实情况。",
+      "SuccessResult": [
+        12011500
+      ],
+      "SucessDialogId": 0,
+      "SuccessReview": [
+        12014000,
+        12014001,
+        12014002,
+        12014003
+      ],
+      "FailResult": [
+        12011501
+      ],
+      "FailDialogId": 0,
+      "FailReview": [
+        12014008,
+        12014009
+      ],
+      "Persuasion": 0,
+      "SucessPersuasion": 60
+    },
+    {
+      "Id": 12008532,
+      "PathDes": "劝他向同事坦白女友是虚构的",
+      "StageDestination": 74005019,
+      "PersuasionDialogTips": "命运指示已给出，请说服顾客在团建前向同事坦白自己虚构了女友。",
+      "SuccessResult": [
+        12011500
+      ],
+      "SucessDialogId": 0,
+      "SuccessReview": [
+        12014000,
+        12014001,
+        12014002,
+        12014003
+      ],
+      "FailResult": [
+        12011501
+      ],
+      "FailDialogId": 0,
+      "FailReview": [
+        12014008,
+        12014009
+      ],
+      "Persuasion": 0,
+      "SucessPersuasion": 60
+    },
+    {
+      "Id": 12008533,
+      "PathDes": "劝他继续把假女友演到底",
+      "StageDestination": 74005020,
+      "PersuasionDialogTips": "命运指示已给出，请说服顾客继续维持设定，并解决团建带家属的问题。",
+      "SuccessResult": [
+        12011500
+      ],
+      "SucessDialogId": 0,
+      "SuccessReview": [
+        12014000,
+        12014001,
+        12014002,
+        12014003
+      ],
+      "FailResult": [
+        12011501
+      ],
+      "FailDialogId": 0,
+      "FailReview": [
+        12014008,
+        12014009
+      ],
+      "Persuasion": 0,
+      "SucessPersuasion": 60
+    }
+  ],
+  "_dumpedCount": 34,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

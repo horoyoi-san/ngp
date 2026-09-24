@@ -1,0 +1,57 @@
+{
+  "_class": "TaskTabPanelConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 6,
+  "records": [
+    {
+      "Id": 1,
+      "Title": [
+        {
+          "titleHeight": 40,
+          "template": 40,
+          "defaultCnt": 0
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "Title": [
+        {
+          "titleHeight": 40,
+          "template": 40,
+          "defaultCnt": 1
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "Title": [
+        {
+          "titleHeight": 40,
+          "template": 50,
+          "defaultCnt": 1
+        },
+        {
+          "titleHeight": 40,
+          "template": 50,
+          "defaultCnt": 1
+        }
+      ]
+    },
+    {
+      "Id": 4,
+      "Title": []
+    },
+    {
+      "Id": 5,
+      "Title": []
+    },
+    {
+      "Id": 6,
+      "Title": []
+    }
+  ],
+  "_dumpedCount": 6,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

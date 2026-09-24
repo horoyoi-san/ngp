@@ -1,0 +1,377 @@
+{
+  "InitStar": 3,
+  "MaxStar": 5,
+  "MinStar": 1,
+  "StarLevel": [
+    {
+      "lv": 1,
+      "iconId": 30305000
+    },
+    {
+      "lv": 2,
+      "iconId": 30305001
+    },
+    {
+      "lv": 3,
+      "iconId": 30305002
+    },
+    {
+      "lv": 4,
+      "iconId": 30305003
+    },
+    {
+      "lv": 5,
+      "iconId": 30305004
+    }
+  ],
+  "BasicDrop": 14340001,
+  "SecondPerDis": 0.330000013,
+  "PickUpPosTag": "PickUpPos",
+  "NpcPosTag": "NpcPos",
+  "DropOffPosTag": "DropOffPos",
+  "ScoreChangeTip": [
+    {
+      "reason": 1,
+      "scoreType": 1,
+      "des": "提前到达！"
+    },
+    {
+      "reason": 0,
+      "scoreType": 1,
+      "des": "快速反应"
+    },
+    {
+      "reason": 0,
+      "scoreType": -1,
+      "des": "错误反应"
+    }
+  ],
+  "StarChangeTip": [
+    {
+      "scoresource": "TimeStar",
+      "des": "提前到达"
+    },
+    {
+      "scoresource": "DialogStar",
+      "des": "对话反应"
+    }
+  ],
+  "PromoteTask": [
+    {
+      "lv": 2,
+      "taskId": 60008131
+    },
+    {
+      "lv": 3,
+      "taskId": 60008288
+    },
+    {
+      "lv": 501,
+      "taskId": 60010463
+    },
+    {
+      "lv": 503,
+      "taskId": 60008732
+    }
+  ],
+  "DidiJobs": [
+    1,
+    2,
+    3
+  ],
+  "TruckJobs": [
+    501,
+    502,
+    503
+  ],
+  "ChaosTruckJobs": [
+    601
+  ],
+  "TipsTimeDuration": 8,
+  "TipsDidiJobs": 2,
+  "WaitingTime": [
+    3,
+    5
+  ],
+  "RewardTemplate": 14340002,
+  "PlayParkourNumber": [
+    7,
+    6,
+    11,
+    13,
+    23,
+    26
+  ],
+  "DriverSpecialDropShowTime": 3,
+  "GoodsFarthestDistance": 50,
+  "IntegrityRungsChangeTxt": [
+    100028895,
+    100028896,
+    100028897
+  ],
+  "WhenJobStartTxt": [
+    100028892,
+    100028893,
+    100028894
+  ],
+  "PackupTxt": [
+    100028898,
+    100028899,
+    100028900
+  ],
+  "PackupAgainTxt": [
+    100028901,
+    100028902,
+    100028903
+  ],
+  "HaveMaxTimeTxt": 100009887,
+  "TimeoutTxt": 100064109,
+  "ResidentActivityTxt1": "快速取货！",
+  "ResidentActivityTxt2": "平稳驾驶！",
+  "NoGoodsTxt": 100012370,
+  "LowestIntactTxt": 100012376,
+  "LowestIntact": 0,
+  "IntegralDescription": [
+    "Base Points",
+    "Event Points",
+    "Total Points",
+    "Claim Reward"
+  ],
+  "IntactSectionDescription": [
+    {
+      "min": 100,
+      "max": 100,
+      "des": "完好"
+    },
+    {
+      "min": 70,
+      "max": 99,
+      "des": "轻度损坏"
+    },
+    {
+      "min": 40,
+      "max": 69,
+      "des": "中度损坏"
+    },
+    {
+      "min": 0,
+      "max": 39,
+      "des": "严重损坏"
+    }
+  ],
+  "TimeSection": [
+    {
+      "min": 0.5,
+      "max": 1
+    },
+    {
+      "min": 1,
+      "max": 1.5
+    },
+    {
+      "min": 1.5,
+      "max": 2
+    }
+  ],
+  "HighPriceTipsTime": 30,
+  "TruckGuideEventId": [
+    539,
+    541
+  ],
+  "TruckGuideContent": "Wooden Crate",
+  "TruckStateDescribe1": "Waiting for order…",
+  "TruckStateDescribe2": "Head to the pickup spot to collect your items.",
+  "TruckStateDescribe3": "Some items have gone missing. Be sure to check the shipment.",
+  "TruckStateDescribe4": "Head to the delivery spot to make the delivery",
+  "TruckStateDescribe5": "High-value Order Available",
+  "InitOrdersCountIfTodayFirst": 2,
+  "InitAcceptTime": 60,
+  "InitOrderInterval": 60,
+  "NormalTemperature": 28,
+  "TemperatureChangeInterval": 30,
+  "TemperatureDistanceThreshold": 0.5,
+  "TemperatureChangeSpeedInDis": 3,
+  "TemperatureChangeSpeedOutDis": 1,
+  "ThermometerInterval": 10,
+  "TakeOrderRefreshTime": 15,
+  "OrderRewardDropId": 14060007,
+  "RewardPointDropId": 14060013,
+  "QuickPickup": [
+    30,
+    50
+  ],
+  "ContinueTime1": [
+    5,
+    4,
+    2,
+    2
+  ],
+  "ContinueTime2": [
+    11,
+    6,
+    3,
+    2
+  ],
+  "ContinueTime3": [
+    19,
+    10,
+    5,
+    2
+  ],
+  "ContinueTriggerSpeed": 12,
+  "InitActivityTime": 1,
+  "ActivityTimeAddBagde": [
+    19001332,
+    19001333
+  ],
+  "FixedTaskDescription": [
+    10,
+    798,
+    1069,
+    3408,
+    3409
+  ],
+  "Badge19001303": 0.25,
+  "InitAcceptCount": 1,
+  "AddAcceptBadgeList": [
+    19001029,
+    19001030,
+    19001031
+  ],
+  "AddAcceptBuffList": [
+    52980312,
+    52980313,
+    52980314
+  ],
+  "TimeStopPara": [
+    {
+      "BuffId": 52959495,
+      "time": 5
+    },
+    {
+      "BuffId": 52980302,
+      "time": 10
+    }
+  ],
+  "InclineBadge": {
+    "BuffId": 52980308,
+    "para": 15
+  },
+  "TemparatureBadge": {
+    "BuffId": 52980309,
+    "para": 0.5
+  },
+  "HighValueBadge": 19001419,
+  "LoseDistance": 10,
+  "LoseDistancePara": {
+    "para1": 1,
+    "para2": 16,
+    "para3": 1
+  },
+  "RankIcon": [
+    28009123,
+    28009123,
+    28009120,
+    28009121,
+    28009122
+  ],
+  "PopupSubTitle": "%s Delivered",
+  "PopupMainTitle": "Cat Express",
+  "ProfileName": "%s的订单",
+  "OrderDefaultLocationIconId": 28009090,
+  "OrderTagIconIdList": [
+    {
+      "id": 1,
+      "iconId": 28009093
+    },
+    {
+      "id": 2,
+      "iconId": 28009094
+    },
+    {
+      "id": 3,
+      "iconId": 28009095
+    },
+    {
+      "id": 4,
+      "iconId": 28009096
+    },
+    {
+      "id": 5,
+      "iconId": 28009097
+    },
+    {
+      "id": 6,
+      "iconId": 28009098
+    },
+    {
+      "id": 7,
+      "iconId": 28009099
+    }
+  ],
+  "DialogCD": 15,
+  "DailyOrderList": [
+    1,
+    2,
+    1,
+    5,
+    4,
+    3,
+    7,
+    6,
+    8
+  ],
+  "DeliveryShortCut": [
+    "Open APP",
+    "Get Promoted"
+  ],
+  "TeachEventId": 1234,
+  "CanReceiveRaid": [
+    23300888,
+    23300999
+  ],
+  "TruckUAVStateDescribe": [
+    {
+      "des": "Increases the amount of damage dealt by a fixed amount.",
+      "state": 0,
+      "__IDX__des": 4294967293,
+      "__RAW__des": "等待中"
+    },
+    {
+      "des": "Increases the amount of damage dealt by a fixed amount.",
+      "state": 1,
+      "__IDX__des": 4294967293,
+      "__RAW__des": "去取货"
+    },
+    {
+      "des": "Increases the amount of damage dealt by a fixed amount.",
+      "state": 2,
+      "__IDX__des": 4294967293,
+      "__RAW__des": "送货中"
+    },
+    {
+      "des": "Increases the amount of damage dealt by a fixed amount.",
+      "state": 3,
+      "__IDX__des": 4294967293,
+      "__RAW__des": "前往车辆"
+    },
+    {
+      "des": "Increases the amount of damage dealt by a fixed amount.",
+      "state": 4,
+      "__IDX__des": 4294967293,
+      "__RAW__des": "返回车辆"
+    },
+    {
+      "des": "Increases the amount of damage dealt by a fixed amount.",
+      "state": 5,
+      "__IDX__des": 4294967293,
+      "__RAW__des": "停靠中"
+    },
+    {
+      "des": "Increases the amount of damage dealt by a fixed amount.",
+      "state": 6,
+      "__IDX__des": 4294967293,
+      "__RAW__des": "跟随中"
+    }
+  ]
+}

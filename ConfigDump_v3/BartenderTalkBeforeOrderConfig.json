@@ -1,0 +1,432 @@
+{
+  "_class": "BartenderTalkBeforeOrderConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 19,
+  "records": [
+    {
+      "Id": 7,
+      "DialogID": 100043041,
+      "IsCustomerSuper": false,
+      "SPLevelList": [
+        4
+      ],
+      "IsOrderTypeCp": false,
+      "AnswerScore": [
+        {
+          "DialogID": 100043047,
+          "SPScoreChange": 10
+        },
+        {
+          "DialogID": 100043046,
+          "SPScoreChange": -15
+        },
+        {
+          "DialogID": 100043045,
+          "SPScoreChange": 25
+        }
+      ]
+    },
+    {
+      "Id": 8,
+      "DialogID": 100043042,
+      "IsCustomerSuper": false,
+      "SPLevelList": [
+        3,
+        4
+      ],
+      "IsOrderTypeCp": false,
+      "AnswerScore": [
+        {
+          "DialogID": 100043050,
+          "SPScoreChange": 5
+        },
+        {
+          "DialogID": 100043049,
+          "SPScoreChange": 15
+        },
+        {
+          "DialogID": 100043048,
+          "SPScoreChange": 0
+        }
+      ]
+    },
+    {
+      "Id": 9,
+      "DialogID": 100043043,
+      "IsCustomerSuper": false,
+      "SPLevelList": [
+        4
+      ],
+      "IsOrderTypeCp": false,
+      "AnswerScore": [
+        {
+          "DialogID": 100043054,
+          "SPScoreChange": -20
+        },
+        {
+          "DialogID": 100043053,
+          "SPScoreChange": 10
+        },
+        {
+          "DialogID": 100043052,
+          "SPScoreChange": 20
+        }
+      ]
+    },
+    {
+      "Id": 10,
+      "DialogID": 100043056,
+      "IsCustomerSuper": false,
+      "SPLevelList": [
+        3
+      ],
+      "IsOrderTypeCp": false,
+      "AnswerScore": [
+        {
+          "DialogID": 100043062,
+          "SPScoreChange": 10
+        },
+        {
+          "DialogID": 100043061,
+          "SPScoreChange": -5
+        },
+        {
+          "DialogID": 100043060,
+          "SPScoreChange": 0
+        }
+      ]
+    },
+    {
+      "Id": 11,
+      "DialogID": 100043057,
+      "IsCustomerSuper": false,
+      "SPLevelList": [
+        3
+      ],
+      "IsOrderTypeCp": false,
+      "AnswerScore": [
+        {
+          "DialogID": 100043065,
+          "SPScoreChange": 10
+        },
+        {
+          "DialogID": 100043064,
+          "SPScoreChange": 5
+        },
+        {
+          "DialogID": 100043063,
+          "SPScoreChange": -10
+        }
+      ]
+    },
+    {
+      "Id": 12,
+      "DialogID": 100043066,
+      "IsCustomerSuper": false,
+      "SPLevelList": [
+        2
+      ],
+      "IsOrderTypeCp": false,
+      "AnswerScore": [
+        {
+          "DialogID": 100043071,
+          "SPScoreChange": 10
+        },
+        {
+          "DialogID": 100043070,
+          "SPScoreChange": 5
+        },
+        {
+          "DialogID": 100043069,
+          "SPScoreChange": -20
+        }
+      ]
+    },
+    {
+      "Id": 13,
+      "DialogID": 100043067,
+      "IsCustomerSuper": false,
+      "SPLevelList": [
+        2
+      ],
+      "IsOrderTypeCp": false,
+      "AnswerScore": [
+        {
+          "DialogID": 100043074,
+          "SPScoreChange": 5
+        },
+        {
+          "DialogID": 100043073,
+          "SPScoreChange": 10
+        },
+        {
+          "DialogID": 100043072,
+          "SPScoreChange": 0
+        }
+      ]
+    },
+    {
+      "Id": 14,
+      "DialogID": 100043068,
+      "IsCustomerSuper": false,
+      "SPLevelList": [
+        2
+      ],
+      "IsOrderTypeCp": false,
+      "AnswerScore": [
+        {
+          "DialogID": 100043077,
+          "SPScoreChange": 10
+        },
+        {
+          "DialogID": 100043076,
+          "SPScoreChange": -5
+        },
+        {
+          "DialogID": 100043075,
+          "SPScoreChange": -15
+        }
+      ]
+    },
+    {
+      "Id": 15,
+      "DialogID": 100043078,
+      "IsCustomerSuper": false,
+      "SPLevelList": [
+        1
+      ],
+      "IsOrderTypeCp": true,
+      "AnswerScore": [
+        {
+          "DialogID": 100043083,
+          "SPScoreChange": 5
+        },
+        {
+          "DialogID": 100043082,
+          "SPScoreChange": -15
+        },
+        {
+          "DialogID": 100043081,
+          "SPScoreChange": 10
+        }
+      ]
+    },
+    {
+      "Id": 16,
+      "DialogID": 100043079,
+      "IsCustomerSuper": false,
+      "SPLevelList": [
+        1
+      ],
+      "IsOrderTypeCp": false,
+      "AnswerScore": [
+        {
+          "DialogID": 100043086,
+          "SPScoreChange": -5
+        },
+        {
+          "DialogID": 100043085,
+          "SPScoreChange": 0
+        },
+        {
+          "DialogID": 100043084,
+          "SPScoreChange": 5
+        }
+      ]
+    },
+    {
+      "Id": 17,
+      "DialogID": 100043080,
+      "IsCustomerSuper": false,
+      "SPLevelList": [
+        1
+      ],
+      "IsOrderTypeCp": false,
+      "AnswerScore": [
+        {
+          "DialogID": 100043089,
+          "SPScoreChange": 5
+        },
+        {
+          "DialogID": 100043088,
+          "SPScoreChange": 15
+        },
+        {
+          "DialogID": 100043087,
+          "SPScoreChange": -10
+        }
+      ]
+    },
+    {
+      "Id": 20,
+      "DialogID": 100043170,
+      "IsCustomerSuper": true,
+      "SPLevelList": [],
+      "IsOrderTypeCp": false,
+      "AnswerScore": [
+        {
+          "DialogID": 100043180,
+          "SPScoreChange": -5
+        },
+        {
+          "DialogID": 100043179,
+          "SPScoreChange": 15
+        },
+        {
+          "DialogID": 100043178,
+          "SPScoreChange": -10
+        }
+      ]
+    },
+    {
+      "Id": 21,
+      "DialogID": 100043171,
+      "IsCustomerSuper": true,
+      "SPLevelList": [],
+      "IsOrderTypeCp": false,
+      "AnswerScore": [
+        {
+          "DialogID": 100043205,
+          "SPScoreChange": 15
+        },
+        {
+          "DialogID": 100043204,
+          "SPScoreChange": -10
+        },
+        {
+          "DialogID": 100043203,
+          "SPScoreChange": -5
+        }
+      ]
+    },
+    {
+      "Id": 22,
+      "DialogID": 100043243,
+      "IsCustomerSuper": true,
+      "SPLevelList": [],
+      "IsOrderTypeCp": false,
+      "AnswerScore": [
+        {
+          "DialogID": 100043257,
+          "SPScoreChange": 5
+        },
+        {
+          "DialogID": 100043256,
+          "SPScoreChange": -10
+        },
+        {
+          "DialogID": 100043255,
+          "SPScoreChange": -15
+        }
+      ]
+    },
+    {
+      "Id": 23,
+      "DialogID": 100043244,
+      "IsCustomerSuper": true,
+      "SPLevelList": [],
+      "IsOrderTypeCp": false,
+      "AnswerScore": [
+        {
+          "DialogID": 100043250,
+          "SPScoreChange": 15
+        },
+        {
+          "DialogID": 100043259,
+          "SPScoreChange": -15
+        },
+        {
+          "DialogID": 100043258,
+          "SPScoreChange": -5
+        }
+      ]
+    },
+    {
+      "Id": 24,
+      "DialogID": 100043245,
+      "IsCustomerSuper": true,
+      "SPLevelList": [],
+      "IsOrderTypeCp": false,
+      "AnswerScore": [
+        {
+          "DialogID": 100043264,
+          "SPScoreChange": 5
+        },
+        {
+          "DialogID": 100043263,
+          "SPScoreChange": 15
+        },
+        {
+          "DialogID": 100043251,
+          "SPScoreChange": -10
+        }
+      ]
+    },
+    {
+      "Id": 25,
+      "DialogID": 100043246,
+      "IsCustomerSuper": true,
+      "SPLevelList": [],
+      "IsOrderTypeCp": false,
+      "AnswerScore": [
+        {
+          "DialogID": 100043266,
+          "SPScoreChange": 15
+        },
+        {
+          "DialogID": 100043265,
+          "SPScoreChange": -10
+        },
+        {
+          "DialogID": 100043252,
+          "SPScoreChange": -5
+        }
+      ]
+    },
+    {
+      "Id": 26,
+      "DialogID": 100043253,
+      "IsCustomerSuper": true,
+      "SPLevelList": [],
+      "IsOrderTypeCp": false,
+      "AnswerScore": [
+        {
+          "DialogID": 100043271,
+          "SPScoreChange": 20
+        },
+        {
+          "DialogID": 100043270,
+          "SPScoreChange": -5
+        },
+        {
+          "DialogID": 100043269,
+          "SPScoreChange": -15
+        }
+      ]
+    },
+    {
+      "Id": 27,
+      "DialogID": 100043254,
+      "IsCustomerSuper": true,
+      "SPLevelList": [],
+      "IsOrderTypeCp": false,
+      "AnswerScore": [
+        {
+          "DialogID": 100043278,
+          "SPScoreChange": -5
+        },
+        {
+          "DialogID": 100043277,
+          "SPScoreChange": 10
+        },
+        {
+          "DialogID": 100043276,
+          "SPScoreChange": 15
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 19,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

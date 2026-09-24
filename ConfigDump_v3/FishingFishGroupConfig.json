@@ -1,0 +1,62 @@
+{
+  "_class": "FishingFishGroupConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 2,
+  "records": [
+    {
+      "Id": 1,
+      "FishIdList": [
+        2,
+        10
+      ],
+      "MaxCount": 20,
+      "InitGroup": [
+        {
+          "FishId": "2",
+          "Num": 14
+        },
+        {
+          "FishId": "10",
+          "Num": 6
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "FishIdList": [
+        3,
+        7,
+        15,
+        17,
+        18,
+        21
+      ],
+      "MaxCount": 30,
+      "InitGroup": [
+        {
+          "FishId": "3",
+          "Num": 1
+        },
+        {
+          "FishId": "7",
+          "Num": 14
+        },
+        {
+          "FishId": "15",
+          "Num": 4
+        },
+        {
+          "FishId": "18",
+          "Num": 2
+        },
+        {
+          "FishId": "21",
+          "Num": 7
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 2,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

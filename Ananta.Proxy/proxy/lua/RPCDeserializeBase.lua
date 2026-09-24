@@ -1,5 +1,4 @@
--- Original chunk: @Lua\LuaFiles\LX6\Service\RPCDeserializeBase.lua
--- Decompiled from: 02186_RPCDeserializeBase.lua_49bd54ceeac5.luajit
+
 
 local MidToName = require("LuaGen/AutoGen/RPCMethodIdToName")
 local LogUtils = LX6.Utils.LogUtilsLua

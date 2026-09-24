@@ -1,0 +1,214 @@
+{
+  "TraineeDriverCfg": {
+    "Id": 1,
+    "Name": "Trainee Driver",
+    "PreJob": 0,
+    "Level": 1,
+    "PromoteTask": 0,
+    "DropId": 0,
+    "JobClass": 11300001,
+    "Cost": 0,
+    "PromoteDes": "",
+    "FashionFunctionSuitApplyId": 0,
+    "Icon": 28009130,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0
+    ],
+    "__IDX__Name": 102573,
+    "__RAW__Name": "",
+    "__IDX__PromoteDes": 0,
+    "__RAW__PromoteDes": "",
+    "BriefDescription": [
+      {
+        "description": "Increases the amount of damage dealt by a fixed amount.",
+        "imageId": 28009085,
+        "__IDX__description": 4294967293,
+        "__RAW__description": "这个职业不用了"
+      }
+    ]
+  },
+  "DriverCfg": {
+    "Id": 2,
+    "Name": "Official Driver",
+    "PreJob": 1,
+    "Level": 2,
+    "PromoteTask": 0,
+    "DropId": 0,
+    "JobClass": 11300001,
+    "Cost": 0,
+    "PromoteDes": "",
+    "FashionFunctionSuitApplyId": 0,
+    "Icon": 28009130,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0
+    ],
+    "__IDX__Name": 102574,
+    "__RAW__Name": "",
+    "__IDX__PromoteDes": 0,
+    "__RAW__PromoteDes": "",
+    "BriefDescription": [
+      {
+        "description": "Increases the amount of damage dealt by a fixed amount.",
+        "imageId": 28009085,
+        "__IDX__description": 4294967293,
+        "__RAW__description": "这个职业不用了"
+      }
+    ]
+  },
+  "SeniorDriverCfg": {
+    "Id": 3,
+    "Name": "Senior Driver",
+    "PreJob": 2,
+    "Level": 3,
+    "PromoteTask": 0,
+    "DropId": 0,
+    "JobClass": 11300001,
+    "Cost": 0,
+    "PromoteDes": "",
+    "FashionFunctionSuitApplyId": 0,
+    "Icon": 28009130,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0
+    ],
+    "__IDX__Name": 102575,
+    "__RAW__Name": "",
+    "__IDX__PromoteDes": 0,
+    "__RAW__PromoteDes": "",
+    "BriefDescription": [
+      {
+        "description": "Increases the amount of damage dealt by a fixed amount.",
+        "imageId": 28009085,
+        "__IDX__description": 4294967293,
+        "__RAW__description": "这个职业不用了"
+      }
+    ]
+  },
+  "PolicePatrolOfficerCfg": {
+    "Id": 301,
+    "Name": "NCCA Officer",
+    "PreJob": 0,
+    "Level": 1,
+    "PromoteTask": 0,
+    "DropId": 0,
+    "JobClass": 11300003,
+    "Cost": 1,
+    "PromoteDes": "",
+    "FashionFunctionSuitApplyId": 0,
+    "Icon": 28009084,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1,
+      2
+    ],
+    "__IDX__Name": 84906,
+    "__RAW__Name": "",
+    "__IDX__PromoteDes": 0,
+    "__RAW__PromoteDes": "",
+    "BriefDescription": [
+      {
+        "description": "Increases the amount of damage dealt by a fixed amount.",
+        "imageId": 28009084,
+        "__IDX__description": 99330,
+        "__RAW__description": ""
+      },
+      {
+        "description": "Increases the amount of damage dealt by a fixed amount.",
+        "imageId": 28009085,
+        "__IDX__description": 99331,
+        "__RAW__description": ""
+      }
+    ]
+  },
+  "BartenderCfg": {
+    "Id": 901,
+    "Name": "初级调酒师",
+    "PreJob": 0,
+    "Level": 1,
+    "PromoteTask": 0,
+    "DropId": 0,
+    "JobClass": 11300010,
+    "Cost": 1,
+    "PromoteDes": "",
+    "FashionFunctionSuitApplyId": 0,
+    "Icon": 28009086,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1,
+      2
+    ],
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "初级调酒师",
+    "__IDX__PromoteDes": 0,
+    "__RAW__PromoteDes": "",
+    "BriefDescription": [
+      {
+        "description": "Increases the amount of damage dealt by a fixed amount.",
+        "imageId": 28009086,
+        "__IDX__description": 4294967293,
+        "__RAW__description": "职业还在开发中"
+      }
+    ]
+  },
+  "JoblessCfg": {
+    "Id": 100,
+    "Name": "无业",
+    "PreJob": 0,
+    "Level": 1,
+    "PromoteTask": 0,
+    "DropId": 0,
+    "JobClass": 0,
+    "Cost": 0,
+    "PromoteDes": "",
+    "FashionFunctionSuitApplyId": 0,
+    "Icon": 0,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1,
+      2
+    ],
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "无业",
+    "__IDX__PromoteDes": 0,
+    "__RAW__PromoteDes": "",
+    "BriefDescription": [
+      {
+        "description": "Increases the amount of damage dealt by a fixed amount.",
+        "imageId": 28009085,
+        "__IDX__description": 4294967293,
+        "__RAW__description": "家里蹲"
+      }
+    ]
+  },
+  "JobActiveFirstTaskForwardTime": [
+    1,
+    3
+  ],
+  "JobTaskRegularForwardTime": [
+    2,
+    5
+  ],
+  "JobTaskForwardInfoTime": 60,
+  "JobStartShot2": "0.3;1.1;2.3;4;180;0;50",
+  "JobStartShot3": "0.3;1.4;2.3;10;180;0;50",
+  "JobStartShot4": "0.3;1;2.2;5;180;0;45",
+  "JobStartShot5": "0.3;1.15;2.3;6;180;0;47",
+  "JobStartShot6": "0.3;1.1;2.3;4;180;0;50",
+  "JobBoardFirstAcceptTip": "应聘信息已发送，请前往任务面板查看后续流程",
+  "JobBoardResignMessage": "您已从该岗位离职",
+  "JobBoardAcceptSuccess": "应聘成功",
+  "JobBoardResignConfirm": "您确定要申请离职吗？",
+  "JobBoardResignTip": "离职后仍然保留职业进度等相关信息，可随时再次入职",
+  "JobBoardReEmployConfirm": "是否要应聘该职业？"
+}

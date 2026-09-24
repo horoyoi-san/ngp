@@ -1,265 +1,3419 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN" data-theme="light">
 <head>
 <meta charset="utf-8">
-<title>Debug Panel — vehicles</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ANANTA · 私服控制台</title>
 <style>
-  body { font-family: Consolas, monospace; background: #14161a; color: #d7dce2; max-width: 860px; margin: 24px auto; padding: 0 16px; }
-  h1 { font-size: 20px; }
-  h2 { font-size: 15px; color: #8fb8ff; border-bottom: 1px solid #333; padding-bottom: 4px; }
-  .card { background: #1d2026; border: 1px solid #333; border-radius: 8px; padding: 12px 16px; margin: 12px 0; }
-  .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: #666; margin-right: 6px; }
-  .dot.on { background: #4caf50; }
-  button { background: #2b6cb0; color: #fff; border: 0; border-radius: 6px; padding: 8px 14px; margin: 4px 4px 4px 0; cursor: pointer; font-family: inherit; }
-  button:hover { background: #3884d6; }
-  button.ghost { background: #3a3f47; }
-  input, select { background: #101215; color: #d7dce2; border: 1px solid #444; border-radius: 6px; padding: 7px 9px; margin: 2px; font-family: inherit; }
-  input[type=number] { width: 110px; }
-  input[type=range] { width: 100%; margin: 10px 0 2px 0; accent-color: #ffb74d; cursor: pointer; }
-  #clock { font-size: 30px; letter-spacing: 2px; color: #ffd88a; }
-  table { border-collapse: collapse; width: 100%; margin-top: 8px; }
-  td, th { border: 1px solid #333; padding: 4px 8px; text-align: left; font-size: 13px; }
-  .muted { color: #888; font-size: 12px; }
-  #log { white-space: pre-wrap; font-size: 12px; max-height: 160px; overflow-y: auto; }
+
+:root {
+  
+  --bg-page: #dbe0e7;
+  --bg-canvas: #dde2e9;
+  --bg-header: rgba(238, 242, 247, 0.92);
+  --bg-subnav: rgba(228, 233, 240, 0.88);
+  --bg-card: rgba(248, 250, 253, 0.82);
+  --bg-card-elevated: #ffffff;
+  --bg-card-sub: rgba(230, 236, 243, 0.6);
+  --bg-input: rgba(255, 255, 255, 0.9);
+
+  
+  --pill-active-bg: #23272e;
+  --pill-active-text: #ffffff;
+  --pill-inactive-bg: rgba(168, 179, 195, 0.28);
+  --pill-inactive-text: #3e4756;
+  --pill-hover-bg: rgba(168, 179, 195, 0.42);
+
+  --btn-primary-bg: #22262e;
+  --btn-primary-hover: #111419;
+  --btn-primary-text: #ffffff;
+  --btn-secondary-bg: rgba(160, 173, 190, 0.28);
+  --btn-secondary-hover: rgba(160, 173, 190, 0.42);
+  --btn-secondary-text: #22262e;
+
+  --keycap-bg: #ffffff;
+  --keycap-border: rgba(0, 0, 0, 0.12);
+  --keycap-text: #22262e;
+
+  --text-main: #181c23;
+  --text-2: #3a4352;
+  --text-3: #5f6b7c;
+  --text-4: #8a96a6;
+
+  --border-subtle: rgba(160, 175, 195, 0.35);
+  --border-card: rgba(255, 255, 255, 0.8);
+  --border-input: rgba(160, 175, 195, 0.5);
+
+  --accent-blue: #2b66ff;
+  --accent-glow: rgba(43, 102, 255, 0.35);
+
+  --red: #ef4444;
+  --green: #10b981;
+
+  --font-game: 'Bahnschrift', 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+  --font-mono: "SF Mono", "Segoe UI Mono", "Cascadia Mono", Consolas, "Courier New", monospace;
+}
+
+html[data-theme="dark"] {
+  --bg-page: #101319;
+  --bg-canvas: #12161f;
+  --bg-header: rgba(20, 25, 34, 0.92);
+  --bg-subnav: rgba(17, 21, 29, 0.88);
+  --bg-card: rgba(24, 29, 39, 0.82);
+  --bg-card-elevated: #1e2430;
+  --bg-card-sub: rgba(30, 36, 48, 0.6);
+  --bg-input: rgba(20, 25, 35, 0.9);
+
+  --pill-active-bg: #2d3442;
+  --pill-active-text: #ffffff;
+  --pill-inactive-bg: rgba(255, 255, 255, 0.08);
+  --pill-inactive-text: #cbd5e1;
+  --pill-hover-bg: rgba(255, 255, 255, 0.14);
+
+  --btn-primary-bg: #323b4b;
+  --btn-primary-hover: #404a5d;
+  --btn-primary-text: #ffffff;
+  --btn-secondary-bg: rgba(255, 255, 255, 0.1);
+  --btn-secondary-hover: rgba(255, 255, 255, 0.18);
+  --btn-secondary-text: #e2e8f0;
+
+  --keycap-bg: #262e3d;
+  --keycap-border: rgba(255, 255, 255, 0.15);
+  --keycap-text: #e2e8f0;
+
+  --text-main: #f8fafc;
+  --text-2: #e2e8f0;
+  --text-3: #94a3b8;
+  --text-4: #64748b;
+
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-card: rgba(255, 255, 255, 0.09);
+  --border-input: #334155;
+}
+
+html[dir="rtl"] { direction: rtl; text-align: right; }
+html[dir="rtl"] .brand { margin-right: 0; margin-left: 16px; }
+html[dir="rtl"] .keycap { margin-right: 0; margin-left: 8px; }
+html[dir="rtl"] .search-bar input { padding: 0 14px 0 36px; }
+html[dir="rtl"] .search-bar svg { left: 12px; right: auto; top: 50%; transform: translateY(-50%); }
+html[dir="rtl"] .footer-left { margin-right: 0; margin-left: auto; }
+html[dir="rtl"] .lang-menu { right: auto; left: 0; }
+html[dir="rtl"] table { text-align: right; }
+
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font-game);
+  font-size: 13.5px;
+  line-height: 1.45;
+  background-color: var(--bg-page);
+  
+  background-image:
+    radial-gradient(circle at 75% 45%, rgba(175, 190, 210, 0.28) 0%, rgba(219, 224, 231, 0) 65%),
+    radial-gradient(circle at 25% 65%, rgba(190, 205, 222, 0.22) 0%, rgba(219, 224, 231, 0) 50%);
+  background-attachment: fixed;
+  color: var(--text-main);
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar { width: 7px; height: 7px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(140, 150, 165, 0.4); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(140, 150, 165, 0.6); }
+
+.game-header {
+  position: sticky; top: 0; z-index: 100;
+  height: 50px;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 16px;
+  gap: 8px;
+  background: var(--bg-header);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border-bottom: 1px solid var(--border-subtle);
+  overflow: visible;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 0 0 auto;
+  flex-shrink: 0;
+  min-width: auto;
+}
+.ananta-svg-wrap {
+  display: flex;
+  align-items: center;
+  height: 18px;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+.ananta-svg-wrap:hover {
+  transform: scale(1.04);
+}
+.ananta-svg-logo {
+  height: 15px;
+  width: auto;
+  max-width: 68px;
+  color: var(--text-main);
+  display: block;
+}
+html[data-theme="dark"] .ananta-svg-logo {
+  color: #ffffff;
+  filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.25));
+}
+.brand-info {
+  display: flex;
+  flex-direction: column;
+}
+.brand-title {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-main);
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  margin: 0;
+  white-space: nowrap;
+}
+.brand-sub {
+  font-size: 9.5px;
+  color: var(--text-3);
+  font-family: var(--font-mono);
+  line-height: 1.2;
+  margin-top: 1px;
+  white-space: nowrap;
+}
+
+.game-nav {
+  display: flex; align-items: center; gap: 2px;
+  height: 100%;
+  flex: 1 1 auto;
+  min-width: 0;
+  justify-content: center;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.game-nav::-webkit-scrollbar {
+  display: none;
+}
+
+.nav-tab-btn {
+  position: relative;
+  height: 100%;
+  display: flex; align-items: center; gap: 4px;
+  padding: 0 8px;
+  border: none; background: transparent;
+  color: var(--text-3);
+  font-family: var(--font-game);
+  font-size: 12.5px; font-weight: 500;
+  cursor: pointer;
+  transition: color 0.15s ease;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nav-tab-btn:hover {
+  color: var(--text-main);
+}
+.nav-tab-btn.active {
+  color: var(--text-main);
+  font-weight: 700;
+}
+
+.nav-tab-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  width: 80%;
+  height: 2.5px;
+  background: var(--accent-blue);
+  border-radius: 2px 2px 0 0;
+  box-shadow: 0 0 8px var(--accent-glow);
+}
+
+.nav-badge {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: 16px; height: 16px; padding: 0 3px;
+  border-radius: 3px;
+  background: rgba(140, 155, 175, 0.22);
+  color: var(--text-2);
+  font-size: 10px; font-weight: 700; font-family: var(--font-mono);
+}
+.nav-tab-btn.active .nav-badge {
+  background: var(--pill-active-bg);
+  color: #ffffff;
+}
+
+.header-right {
+  display: flex; align-items: center; gap: 8px;
+  flex: 0 0 auto;
+  flex-shrink: 0;
+  min-width: auto;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.lang-dropdown { position: relative; z-index: 1001; }
+.lang-trigger {
+  display: inline-flex; align-items: center; gap: 6px;
+  height: 28px; padding: 0 10px;
+  border-radius: 4px;
+  border: 1px solid var(--border-subtle);
+  background: rgba(255, 255, 255, 0.6);
+  color: var(--text-2);
+  font-size: 12px; font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.lang-trigger:hover {
+  background: #ffffff;
+  border-color: var(--pill-active-bg);
+}
+.lang-menu {
+  position: absolute; top: calc(100% + 6px); right: 0;
+  width: 190px; max-height: 360px; overflow-y: auto;
+  background: var(--bg-card-elevated);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid var(--border-subtle);
+  border-radius: 8px;
+  box-shadow: 0 12px 36px rgba(0,0,0,0.22), 0 2px 8px rgba(0,0,0,0.12);
+  padding: 6px;
+  display: none; flex-direction: column; gap: 2px;
+  z-index: 1002;
+}
+.lang-menu.open { display: flex; }
+.lang-item {
+  display: flex; align-items: center; gap: 8px;
+  padding: 7px 10px;
+  border-radius: 6px; border: none; background: transparent;
+  color: var(--text-2); font-size: 12.5px; font-weight: 500;
+  cursor: pointer; text-align: left; width: 100%;
+}
+html[dir="rtl"] .lang-item { text-align: right; }
+.lang-item:hover { background: rgba(140, 155, 175, 0.15); color: var(--text-main); }
+.lang-item.active { background: var(--pill-active-bg); color: #ffffff; font-weight: 700; }
+.lang-item .flag { font-size: 15px; }
+
+.sys-telemetry {
+  display: flex; align-items: center; gap: 8px;
+  color: var(--text-2); font-size: 12.5px;
+}
+.signal-bars {
+  display: inline-flex; align-items: flex-end; gap: 2px; height: 13px;
+}
+.signal-bar {
+  width: 2.5px; border-radius: 0.5px; background: var(--text-2);
+}
+.sys-clock {
+  font-family: var(--font-game); font-weight: 600; font-size: 13px;
+  color: var(--text-main); letter-spacing: 0.02em;
+}
+
+.theme-icon-btn {
+  width: 28px; height: 28px;
+  display: grid; place-items: center;
+  border: 1px solid var(--border-subtle);
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.6);
+  color: var(--text-2);
+  cursor: pointer;
+}
+.theme-icon-btn:hover { background: #ffffff; color: var(--text-main); }
+.theme-icon-btn svg { width: 14px; height: 14px; }
+
+.status-pill {
+  display: inline-flex; align-items: center; gap: 6px;
+  height: 26px; padding: 0 9px;
+  border-radius: 13px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid var(--border-subtle);
+  font-size: 11.5px; font-weight: 600; color: var(--text-2);
+}
+.dot {
+  width: 7px; height: 7px; border-radius: 50%;
+  background: var(--text-4);
+}
+.dot.ok {
+  background: var(--green);
+  box-shadow: 0 0 0 2.5px rgba(16, 185, 129, 0.25);
+  animation: pulseBeacon 2s infinite;
+}
+@keyframes pulseBeacon {
+  0%, 100% { box-shadow: 0 0 0 2.5px rgba(16, 185, 129, 0.25); }
+  50% { box-shadow: 0 0 0 5px transparent; }
+}
+
+.game-subnav {
+  position: sticky; top: 52px; z-index: 90;
+  height: 44px;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 24px;
+  background: var(--bg-subnav);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.subnav-left {
+  display: flex; align-items: center; gap: 6px;
+  overflow-x: auto;
+}
+
+.keycap {
+  flex: none;
+  width: 22px; height: 22px;
+  display: inline-flex; align-items: center; justify-content: center;
+  border-radius: 4px;
+  background: var(--keycap-bg);
+  border: 1px solid var(--keycap-border);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+  font-family: var(--font-mono);
+  font-size: 11px; font-weight: 700; color: var(--keycap-text);
+  cursor: pointer; user-select: none;
+  transition: transform 0.1s ease;
+}
+.keycap:hover { background: #ffffff; border-color: var(--pill-active-bg); }
+.keycap:active { transform: translateY(1px); }
+
+.subtabs-list {
+  display: flex; align-items: center; gap: 4px;
+  overflow-x: auto;
+}
+
+.subtab-capsule {
+  position: relative;
+  display: inline-flex; align-items: center; gap: 6px;
+  height: 28px; padding: 0 14px;
+  border-radius: 4px;
+  border: none;
+  background: var(--pill-inactive-bg);
+  color: var(--pill-inactive-text);
+  font-family: var(--font-game);
+  font-size: 12.5px; font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+.subtab-capsule:hover {
+  background: var(--pill-hover-bg);
+  color: var(--text-main);
+}
+.subtab-capsule.active {
+  background: var(--pill-active-bg);
+  color: var(--pill-active-text);
+  font-weight: 600;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+}
+.subtab-capsule .nav-badge {
+  min-width: 18px; height: 17px; padding: 0 4px;
+  font-size: 10.5px; font-weight: 700;
+  border-radius: 3px;
+  background: rgba(140, 155, 175, 0.28);
+  color: var(--text-2);
+  transition: all 0.15s ease;
+}
+.subtab-capsule:hover .nav-badge {
+  color: var(--text-main);
+  background: rgba(140, 155, 175, 0.38);
+}
+.subtab-capsule.active .nav-badge {
+  background: rgba(255, 255, 255, 0.28);
+  color: #ffffff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+.subtab-dot {
+  width: 6px; height: 6px; border-radius: 50%;
+  background: var(--red);
+  display: inline-block;
+}
+
+.search-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-width: 220px;
+}
+.search-bar svg {
+  position: absolute;
+  right: 12px;
+  left: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 14px;
+  height: 14px;
+  color: var(--text-3);
+  pointer-events: none;
+  z-index: 2;
+}
+.search-bar input {
+  width: 100%;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 36px 0 14px;
+  border-radius: 16px;
+  border: 1px solid var(--border-input);
+  background: var(--bg-input);
+  color: var(--text-main);
+  font-family: var(--font-game);
+  font-size: 12.5px;
+  outline: none;
+  box-sizing: border-box;
+  transition: all 0.15s ease;
+}
+.search-bar input:focus {
+  border-color: var(--accent-blue);
+  box-shadow: 0 0 0 2px var(--accent-glow);
+}
+
+.game-main {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 20px 24px 64px;
+}
+
+.view-section {
+  display: none;
+  animation: viewFade 0.2s cubic-bezier(0.16,1,0.3,1) both;
+}
+.view-section.active { display: block; }
+@keyframes viewFade {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.view-head {
+  margin-bottom: 16px;
+}
+.view-head h2 {
+  margin: 0 0 4px;
+  font-size: 22px; font-weight: 700;
+  letter-spacing: -0.01em;
+}
+.view-head p {
+  margin: 0; font-size: 13px; color: var(--text-3);
+}
+
+.two-col-layout {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 16px;
+  align-items: start;
+}
+@media (max-width: 900px) {
+  .two-col-layout { grid-template-columns: 1fr; }
+}
+
+.folder-list {
+  display: flex; flex-direction: column; gap: 8px;
+}
+.folder-card {
+  position: relative;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 12px 14px;
+  border-radius: 8px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-2);
+  font-size: 13px; font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.folder-card:hover {
+  background: var(--pill-hover-bg);
+  color: var(--text-main);
+}
+.folder-card.active {
+  background: var(--pill-active-bg);
+  color: #ffffff;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+.folder-card.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 10%; width: 80%;
+  height: 2px;
+  background: var(--accent-blue);
+  border-radius: 2px;
+}
+.folder-tag {
+  font-size: 11px; opacity: 0.75; font-family: var(--font-mono);
+}
+
+.game-card {
+  background: var(--bg-card);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border-card);
+  border-radius: 10px;
+  padding: 18px 20px;
+  margin-bottom: 14px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+.game-card h3 {
+  margin: 0 0 8px;
+  font-size: 15px; font-weight: 700;
+  display: flex; align-items: center; gap: 8px;
+}
+.game-card h3 .hint {
+  font-size: 12px; font-weight: normal; color: var(--text-3);
+}
+.game-card .desc {
+  margin: 0 0 12px;
+  font-size: 12.5px; color: var(--text-3); line-height: 1.5;
+}
+
+.row {
+  display: flex; align-items: flex-end; gap: 10px;
+  margin-bottom: 12px;
+}
+.row.tight { gap: 6px; }
+.row:last-child { margin-bottom: 0; }
+.field {
+  display: flex; flex-direction: column; gap: 4px;
+}
+.field.grow { flex: 1; min-width: 0; }
+.field label {
+  font-size: 11.5px; font-weight: 600; color: var(--text-3);
+}
+
+body, button, input, select, textarea, option, optgroup {
+  font-family: var(--font-game) !important;
+}
+
+input[type="text"], input[type="number"], select {
+  height: 34px; padding: 0 10px;
+  border-radius: 6px;
+  border: 1px solid var(--border-input);
+  background: var(--bg-input);
+  color: var(--text-main);
+  font-family: var(--font-game) !important;
+  font-size: 13px;
+  outline: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+input[type="text"]:focus, input[type="number"]:focus, select:focus {
+  border-color: var(--accent-blue);
+  box-shadow: 0 0 0 2px var(--accent-glow);
+}
+
+select {
+  cursor: pointer;
+}
+option, optgroup {
+  font-family: var(--font-game) !important;
+  font-size: 13px;
+  background: var(--bg-card-elevated);
+  color: var(--text-main);
+  padding: 4px 8px;
+}
+
+button {
+  font-family: var(--font-game) !important;
+  cursor: pointer; user-select: none;
+  transition: all 0.14s ease;
+}
+
+.btn-filled {
+  height: 34px; padding: 0 16px;
+  border-radius: 6px; border: 1px solid rgba(0,0,0,0.12);
+  background: var(--btn-primary-bg); color: var(--btn-primary-text);
+  font-size: 13px; font-weight: 600;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.btn-filled:hover { background: var(--btn-primary-hover); transform: translateY(-1px); }
+.btn-filled:active { transform: translateY(0); }
+
+.btn-tonal {
+  height: 34px; padding: 0 14px;
+  border-radius: 6px; border: 1px solid var(--border-subtle);
+  background: var(--btn-secondary-bg); color: var(--btn-secondary-text);
+  font-size: 13px; font-weight: 600;
+}
+.btn-tonal:hover { background: var(--btn-secondary-hover); }
+
+.btn-outlined {
+  height: 34px; padding: 0 14px;
+  border-radius: 6px;
+  border: 1px solid var(--border-input);
+  background: rgba(255, 255, 255, 0.65);
+  color: var(--text-2); font-size: 13px; font-weight: 600;
+}
+.btn-outlined:hover { background: #ffffff; color: var(--text-main); border-color: var(--btn-primary-bg); }
+
+.btn-danger {
+  height: 34px; padding: 0 14px;
+  border-radius: 6px; border: none;
+  background: #dc2626; color: #ffffff;
+  font-size: 13px; font-weight: 600;
+  box-shadow: 0 1px 3px rgba(220, 38, 38, 0.2);
+}
+.btn-danger:hover { background: #b91c1c; }
+
+.btn-sm { height: 28px; padding: 0 10px; font-size: 12px; }
+.btn-text {
+  border: none; background: transparent; color: var(--text-2);
+  font-size: 12.5px; font-weight: 600; padding: 4px 8px;
+}
+.btn-text:hover { color: var(--text-main); }
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+.stat {
+  padding: 10px 14px;
+  border-radius: 8px;
+  background: var(--bg-card-sub);
+  border: 1px solid var(--border-subtle);
+}
+.stat .k {
+  font-size: 11px; font-weight: 600; color: var(--text-3);
+  text-transform: uppercase; margin-bottom: 2px;
+}
+.stat .v {
+  font-size: 18px; font-weight: 700; font-family: var(--font-mono);
+  color: var(--text-main);
+}
+.stat .v.small { font-size: 13px; word-break: break-all; }
+
+.table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--border-subtle);
+  border-radius: 8px;
+  background: var(--bg-card-sub);
+  margin-top: 10px;
+}
+table {
+  width: 100%; border-collapse: collapse;
+  font-size: 12.5px; text-align: left;
+}
+th {
+  padding: 8px 12px;
+  background: rgba(140, 155, 175, 0.16);
+  color: var(--text-3); font-weight: 600;
+  border-bottom: 1px solid var(--border-subtle);
+  white-space: nowrap;
+}
+td {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border-subtle);
+  color: var(--text-2);
+}
+tr:last-child td { border-bottom: none; }
+tr:hover td { background: rgba(140, 155, 175, 0.08); }
+td.id { font-family: var(--font-mono); font-weight: 600; color: var(--text-main); }
+td.empty { text-align: center; color: var(--text-4); padding: 22px; }
+
+.clock {
+  font-family: var(--font-mono); font-size: 36px; font-weight: 700;
+  color: var(--text-main); margin-bottom: 6px;
+}
+.clock-scale {
+  display: flex; justify-content: space-between;
+  font-size: 11px; color: var(--text-3); font-family: var(--font-mono);
+  margin-top: 6px;
+}
+input[type="range"] {
+  width: 100%; height: 5px;
+  border-radius: 3px; background: rgba(140, 155, 175, 0.35);
+  outline: none; -webkit-appearance: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 18px; height: 18px; border-radius: 50%;
+  background: var(--btn-primary-bg); border: 2px solid #ffffff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+
+pre#log {
+  margin: 0; padding: 12px 14px;
+  border-radius: 6px;
+  background: var(--bg-input);
+  border: 1px solid var(--border-subtle);
+  font-family: var(--font-mono); font-size: 12px; line-height: 1.5;
+  height: 480px; overflow-y: auto;
+  color: var(--text-2);
+}
+#log .t { color: var(--text-4); margin-right: 8px; }
+#log .ok { color: var(--green); }
+#log .err { color: var(--red); font-weight: 600; }
+
+.game-footer {
+  position: fixed; bottom: 0; left: 0; right: 0; z-index: 100;
+  height: 32px; padding: 0 24px;
+  background: var(--bg-header);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-top: 1px solid var(--border-subtle);
+  display: flex; align-items: center; justify-content: space-between;
+  font-size: 11.5px;
+}
+
+.footer-left {
+  display: flex; align-items: center; gap: 12px;
+}
+.esc-keycap {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 2px 7px; border-radius: 4px;
+  background: var(--keycap-bg);
+  border: 1px solid var(--keycap-border);
+  font-family: var(--font-mono); font-weight: 700;
+  color: var(--keycap-text); cursor: pointer; user-select: none;
+}
+.esc-keycap:hover { background: #ffffff; }
+
+.telemetry-txt {
+  font-family: var(--font-mono); color: var(--text-3); font-size: 11px;
+}
+
+.footer-right {
+  color: var(--text-4); font-size: 11px;
+}
+
+#snackbar {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column-reverse; 
+  gap: 8px;
+  pointer-events: none;
+  max-width: 360px;
+  width: auto;
+}
+
+.game-toast {
+  position: relative;
+  pointer-events: auto;
+  min-width: 260px;
+  max-width: 380px;
+  padding: 12px 18px 12px 14px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(46, 52, 64, 0.62) 0%, rgba(24, 28, 36, 0.72) 100%);
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.42), inset 0 1px 0 rgba(255, 255, 255, 0.18);
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  cursor: pointer;
+  overflow: hidden;
+  user-select: none;
+  animation: toastSlideIn 0.32s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  transition: transform 0.15s ease, opacity 0.2s ease, filter 0.15s ease, border-color 0.15s ease;
+}
+
+.game-toast:hover {
+  filter: brightness(1.08);
+  transform: translateY(-1px);
+  border-color: rgba(255, 255, 255, 0.28);
+}
+
+.game-toast.leaving {
+  animation: toastSlideOut 0.24s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes toastSlideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-30px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+@keyframes toastSlideOut {
+  from {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-30px) scale(0.96);
+  }
+}
+
+.toast-badge-wrap {
+  flex: 0 0 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.toast-star-svg {
+  width: 44px;
+  height: 44px;
+  filter: drop-shadow(0 2px 8px rgba(56, 189, 248, 0.4));
+}
+
+.toast-star-svg.err {
+  filter: drop-shadow(0 2px 8px rgba(239, 68, 68, 0.45));
+}
+
+.toast-content {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+}
+
+.toast-msg {
+  font-size: 14.5px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 1.35;
+  word-break: break-word;
+  letter-spacing: 0.2px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.toast-close {
+  flex: 0 0 auto;
+  color: rgba(255, 255, 255, 0.35);
+  font-size: 13px;
+  line-height: 1;
+  padding: 4px;
+  margin-right: -4px;
+  transition: color 0.15s ease, opacity 0.15s ease;
+  opacity: 0;
+}
+.game-toast:hover .toast-close {
+  opacity: 0.85;
+  color: #ffffff;
+}
+
+.game-toast.toast-error {
+  background: linear-gradient(135deg, rgba(58, 28, 34, 0.65) 0%, rgba(32, 16, 20, 0.75) 100%);
+  border: 1px solid rgba(248, 113, 113, 0.32);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.42), inset 0 1px 0 rgba(254, 202, 202, 0.2);
+}
+
+html[dir="rtl"] #snackbar {
+  left: auto;
+  right: 20px;
+}
+html[dir="rtl"] .game-toast {
+  text-align: right;
+  animation-name: toastSlideInRtl;
+}
+@keyframes toastSlideInRtl {
+  from { opacity: 0; transform: translateX(30px) scale(0.96); }
+  to { opacity: 1; transform: translateX(0) scale(1); }
+}
+
+@media (max-width: 900px) {
+  .two-col-layout {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .folder-list {
+    flex-direction: row;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    gap: 6px;
+    padding-bottom: 4px;
+  }
+  .folder-card {
+    flex-shrink: 0;
+    white-space: nowrap;
+    padding: 8px 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  
+  .game-header {
+    height: auto;
+    flex-wrap: wrap;
+    padding: 8px 12px 6px;
+    gap: 8px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .brand {
+    order: 1;
+    gap: 6px;
+  }
+  .header-right {
+    order: 2;
+    gap: 6px;
+    margin-left: auto;
+  }
+  .sys-telemetry {
+    display: none; 
+  }
+  .game-nav {
+    order: 3;
+    width: 100%;
+    height: 38px;
+    justify-content: flex-start;
+    border-top: 1px solid rgba(140, 155, 175, 0.15);
+    padding-top: 2px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .game-nav::-webkit-scrollbar {
+    display: none;
+  }
+  .nav-tab-btn {
+    padding: 0 10px;
+    font-size: 12.5px;
+    height: 36px;
+    flex-shrink: 0;
+  }
+
+  
+  .game-subnav {
+    position: relative;
+    top: 0;
+    height: auto;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 8px 12px;
+    gap: 8px;
+  }
+  .subnav-left {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    gap: 4px;
+    scrollbar-width: none;
+  }
+  .subnav-left::-webkit-scrollbar {
+    display: none;
+  }
+  .keycap {
+    display: none; 
+  }
+  .subtabs-list {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    gap: 6px;
+    scrollbar-width: none;
+  }
+  .subtabs-list::-webkit-scrollbar {
+    display: none;
+  }
+  .subtab-capsule {
+    padding: 0 12px;
+    height: 30px;
+    font-size: 12px;
+    flex-shrink: 0;
+  }
+  .search-bar {
+    width: 100%;
+    min-width: 0;
+  }
+  .search-bar input {
+    height: 34px;
+    font-size: 12.5px;
+  }
+
+  
+  .game-main {
+    padding: 12px 10px 48px;
+  }
+  .view-head {
+    margin-bottom: 10px;
+  }
+  .view-head h2 {
+    font-size: 18px;
+  }
+  .view-head p {
+    font-size: 12px;
+  }
+  .game-card {
+    padding: 14px 12px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+  }
+  .game-card h3 {
+    font-size: 14px;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  
+  .stats {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px;
+  }
+  .stat {
+    padding: 8px 10px;
+  }
+  .stat .k {
+    font-size: 10px;
+  }
+  .stat .v {
+    font-size: 14px;
+  }
+  .stat .v.small {
+    font-size: 11px;
+  }
+
+  
+  .row {
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 8px;
+  }
+  .row.tight {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .field {
+    flex: 1 1 calc(50% - 4px);
+    min-width: 0;
+  }
+  .field.grow {
+    flex: 1 1 calc(50% - 4px);
+  }
+  .field[style*="flex:3"],
+  .field[style*="flex: 3"],
+  .field[style*="flex:2"],
+  .field[style*="flex: 2"] {
+    flex: 1 1 100% !important;
+    max-width: 100% !important;
+  }
+  .field[style*="min-width"] {
+    min-width: 0 !important;
+    flex: 1 1 calc(50% - 4px) !important;
+  }
+  .field[style*="max-width"] {
+    max-width: 100% !important;
+  }
+
+  
+  button, .btn-filled, .btn-tonal, .btn-outlined, .btn-danger {
+    min-height: 36px;
+    touch-action: manipulation;
+  }
+  .row.tight > button,
+  .row > button {
+    flex: 1 1 auto;
+  }
+
+  
+  .table-wrap {
+    -webkit-overflow-scrolling: touch;
+    margin-top: 8px;
+  }
+  table {
+    font-size: 11.5px;
+  }
+  th, td {
+    padding: 6px 8px;
+  }
+
+  
+  .game-footer {
+    height: auto;
+    padding: 10px 12px;
+    flex-direction: column;
+    gap: 6px;
+    text-align: center;
+  }
+  .footer-left {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .esc-keycap, .telemetry-txt {
+    display: none;
+  }
+
+  
+  #snackbar {
+    left: 12px;
+    bottom: 16px;
+    max-width: calc(100vw - 24px);
+    width: calc(100vw - 24px);
+  }
+  .game-toast {
+    max-width: 100%;
+    min-width: 0;
+    padding: 9px 12px;
+  }
+  .toast-msg {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .field {
+    flex: 1 1 100%;
+  }
+  .field.grow {
+    flex: 1 1 100%;
+  }
+  .brand-title {
+    font-size: 11.5px;
+  }
+  .brand-sub {
+    display: none;
+  }
+  .lang-menu {
+    width: 160px;
+  }
+}
 </style>
 </head>
 <body>
-<h1><span id="dot" class="dot"></span>Vehicle debug</h1>
 
-<div class="card">
-  <h2>Status</h2>
-  <div id="status">connecting…</div>
-  <div class="muted">refreshes every 2 sec</div>
-</div>
-
-<div class="card">
-  <h2>Time of day</h2>
-  <div id="clock">12:00</div>
-  <input id="timeslider" type="range" min="0" max="1439" step="1" value="720" aria-label="Time of day">
-  <div class="muted">00:00 — night &nbsp;·&nbsp; 06:00 — morning &nbsp;·&nbsp; 12:00 — noon &nbsp;·&nbsp; 18:00 — evening &nbsp;·&nbsp; 23:59 — night</div>
-</div>
-
-<div class="card">
-  <h2>Garage (server vehicles)</h2>
-  <div>Category: <select id="fleetcat" onchange="filterFleet()"></select></div>
-  <div style="margin-top:6px">Vehicle: <select id="fleet"></select></div>
-  <div style="margin-top:8px">
-    <button onclick="spawnNear()">1. Spawn selected nearby</button>
-    <button onclick="enterLast()">2. Seat into latest</button>
+<header class="game-header">
+  
+  <div class="brand">
+    <div class="ananta-svg-wrap" title="ANANTA">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 118" fill="currentColor" fill-rule="evenodd" class="ananta-svg-logo">
+  <path d="M 386 2 L 388 11 L 390 13 L 390 16 L 393 25 L 395 27 L 398 39 L 400 41 L 401 47 L 405 54 L 406 60 L 411 71 L 411 74 L 413 76 L 416 88 L 418 90 L 422 104 L 426 114 L 428 116 L 455 115 L 445 94 L 445 92 L 447 90 L 457 90 L 461 94 L 475 116 L 510 116 L 510 114 L 502 104 L 501 101 L 473 64 L 472 61 L 439 17 L 433 7 L 428 2 Z M 416 26 L 418 25 L 423 26 L 432 42 L 437 48 L 437 50 L 440 53 L 440 55 L 443 58 L 444 61 L 442 63 L 434 63 L 432 61 Z M 333 2 L 335 7 L 336 17 L 338 20 L 338 24 L 340 29 L 349 29 L 353 33 L 354 40 L 356 42 L 357 50 L 361 59 L 362 68 L 364 70 L 367 85 L 369 87 L 370 95 L 372 98 L 372 102 L 374 104 L 375 112 L 377 116 L 406 116 L 405 108 L 403 106 L 403 102 L 400 93 L 398 91 L 395 79 L 393 76 L 387 58 L 387 55 L 385 52 L 385 49 L 379 34 L 379 32 L 382 29 L 388 29 L 387 23 L 385 21 L 382 8 L 380 6 L 379 2 Z M 260 2 L 260 16 L 262 24 L 263 46 L 265 51 L 266 77 L 268 80 L 269 105 L 271 109 L 272 116 L 299 116 L 298 100 L 296 96 L 296 88 L 294 84 L 293 69 L 291 65 L 292 62 L 294 61 L 297 64 L 297 66 L 299 68 L 299 70 L 307 84 L 307 86 L 310 90 L 310 92 L 312 94 L 312 96 L 315 100 L 321 114 L 323 116 L 356 116 L 353 101 L 351 98 L 350 89 L 346 79 L 345 70 L 341 60 L 340 51 L 338 49 L 338 44 L 336 41 L 335 32 L 333 30 L 333 25 L 330 18 L 330 13 L 328 11 L 328 7 L 326 2 L 304 2 L 305 10 L 307 13 L 307 18 L 309 21 L 310 31 L 312 34 L 312 39 L 310 41 L 308 40 L 291 10 L 291 8 L 286 2 Z M 210 2 L 208 7 L 208 12 L 206 15 L 205 24 L 203 27 L 203 32 L 201 34 L 200 44 L 198 47 L 198 52 L 196 55 L 195 65 L 193 67 L 193 72 L 190 80 L 190 85 L 188 87 L 187 97 L 185 100 L 185 105 L 183 107 L 182 116 L 211 116 L 213 111 L 213 105 L 215 101 L 215 95 L 217 90 L 232 90 L 234 92 L 234 116 L 264 115 L 262 98 L 262 84 L 260 80 L 260 67 L 258 61 L 257 34 L 255 31 L 255 18 L 253 12 L 252 2 Z M 228 25 L 232 25 L 233 27 L 233 61 L 231 63 L 221 62 L 222 51 L 224 47 L 224 40 L 226 37 L 226 30 Z M 202 2 L 179 3 L 177 8 L 177 12 L 175 14 L 172 30 L 170 32 L 169 40 L 166 42 L 164 40 L 164 22 L 162 2 L 135 2 L 133 4 L 130 15 L 128 17 L 125 28 L 123 30 L 120 39 L 120 42 L 112 61 L 112 64 L 110 66 L 109 72 L 105 79 L 104 85 L 99 96 L 99 99 L 97 101 L 94 113 L 92 115 L 125 115 L 127 111 L 128 104 L 130 102 L 130 98 L 132 95 L 133 88 L 135 86 L 135 82 L 138 76 L 138 72 L 141 64 L 143 62 L 146 63 L 146 78 L 148 86 L 148 109 L 150 116 L 175 116 L 177 110 L 177 105 L 179 103 L 180 93 L 182 90 L 182 85 L 184 82 L 185 72 L 187 69 L 190 52 L 192 49 L 193 39 L 195 36 L 198 19 L 200 16 Z M 126 2 L 84 2 L 2 115 L 38 116 L 42 112 L 42 110 L 47 104 L 47 102 L 56 90 L 66 90 L 68 93 L 60 109 L 59 116 L 86 115 L 94 94 L 94 91 L 96 89 L 97 83 L 101 75 L 102 69 L 104 67 L 105 61 L 109 53 L 110 47 L 112 45 L 115 33 L 117 31 L 118 25 L 120 23 L 120 20 L 125 9 Z M 94 24 L 96 26 L 96 28 L 94 30 L 91 39 L 89 41 L 81 60 L 78 63 L 70 63 L 68 60 L 76 49 L 76 47 L 81 41 L 89 27 L 92 24 Z" />
+</svg>
+    </div>
+    <div class="brand-info">
+      <h1 class="brand-title" data-i18n="brand_title">无限大 · 私服控制台</h1>
+      <div class="brand-sub" id="buildInfo">build 4229938 · 127.0.0.1:5809</div>
+    </div>
   </div>
-  <div style="margin-top:8px">
-    <button class="ghost" onclick="resync()">Verified (39)</button>
-    <button class="ghost" onclick="unlockAll()">SyncAllUnlockedVehicles (all 150)</button>
-  </div>
-  <div class="muted">By default only the 39 verified vehicles load into the game. All 150 (incl. broken/unverified) — only via SyncAllUnlockedVehicles.</div>
-  <div style="margin-top:8px">
-    Custom ID: <input id="rawId" type="number" style="width:130px" placeholder="81007068">
-    <button class="ghost" onclick="spawnRaw()">Spawn by ID</button>
-  </div>
-  <div class="muted">Custom ID — for testing excluded/broken ones (Broken Model, Undrivable): the server lets it through with a warning, the client has the final say.</div>
-  <div class="muted">Pushes SyncAllUnlockedVehicles — the vehicle list in the phone/garage updates without relogging.</div>
-</div>
 
-<div class="card">
-  <h2>Summoned vehicles</h2>
-  <div id="summoned">—</div>
-</div>
+  
+  <nav class="game-nav" id="primaryTabs">
+    <button class="nav-tab-btn active" data-tab="overview">
+      <span class="nav-badge">1</span>
+      <span data-i18n="tab_overview">仪表盘</span>
+    </button>
+    <button class="nav-tab-btn" data-tab="world">
+      <span class="nav-badge">2</span>
+      <span data-i18n="tab_world">世界环境</span>
+    </button>
+    <button class="nav-tab-btn" data-tab="assets">
+      <span class="nav-badge">3</span>
+      <span data-i18n="tab_assets">角色资产</span>
+    </button>
+    <button class="nav-tab-btn" data-tab="missions">
+      <span class="nav-badge">4</span>
+      <span data-i18n="tab_missions">任务剧情</span>
+    </button>
+    <button class="nav-tab-btn" data-tab="entities">
+      <span class="nav-badge">5</span>
+      <span data-i18n="tab_entities">实体生态</span>
+    </button>
+    <button class="nav-tab-btn" data-tab="system">
+      <span class="nav-badge">6</span>
+      <span data-i18n="tab_system">数据系统</span>
+    </button>
+  </nav>
 
-<div class="card">
-  <h2>Player teleport</h2>
-  <div>
-    X <input id="tx" type="number" step="0.5" value="0">
-    Y <input id="ty" type="number" step="0.5" value="0">
-    Z <input id="tz" type="number" step="0.5" value="0">
-    Facing <input id="tf" type="number" step="1" value="0">
-  </div>
-  <div style="margin-top:8px">
-    <button onclick="teleport()">Teleport</button>
-    <button class="ghost" onclick="fillCurrent()">Use current</button>
-    <button class="ghost" onclick="fillSpawn()">Spawn point</button>
-  </div>
-</div>
+  
+  <div class="header-right">
+    
+    <div class="lang-dropdown">
+      <button class="lang-trigger" id="langTrigger" onclick="toggleLangMenu()">
+        <span id="currentLangLabel">简体中文</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:10px;height:10px"><path d="m6 9 6 6 6-6"/></svg>
+      </button>
+      <div class="lang-menu" id="langMenu"></div>
+    </div>
 
-<div class="card">
-  <h2>Panel log</h2>
-  <div id="log"></div>
-</div>
+    
+    <button class="theme-icon-btn" id="themeBtn" title="切换深色 / 浅色模式" onclick="toggleTheme()">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z"/></svg>
+    </button>
+
+    
+    <div class="status-pill" id="connChip">
+      <span class="dot" id="connDot"></span>
+      <span id="connText" data-i18n="conn_connecting">连接中…</span>
+    </div>
+
+    
+    <div class="sys-telemetry">
+      <div class="signal-bars" title="网络信号">
+        <div class="signal-bar" style="height:4px"></div>
+        <div class="signal-bar" style="height:7px"></div>
+        <div class="signal-bar" style="height:10px"></div>
+        <div class="signal-bar" style="height:13px"></div>
+      </div>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;opacity:0.75;flex:none"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+      <span class="sys-clock" id="headerClock">--:--</span>
+      <script>try{var _d=new Date();document.getElementById('headerClock').textContent=String(_d.getHours()).padStart(2,'0')+':'+String(_d.getMinutes()).padStart(2,'0');}catch(e){}</script>
+    </div>
+  </div>
+</header>
+
+<nav class="game-subnav">
+  <div class="subnav-left">
+    <button class="keycap" onclick="navigateSubtab(-1)" title="按 Q 切换上一个">Q</button>
+    <div class="subtabs-list" id="subtabContainer">
+      
+    </div>
+    <button class="keycap" onclick="navigateSubtab(1)" title="按 E 切换下一个">E</button>
+  </div>
+
+  <div class="search-bar">
+    <input type="text" id="globalSearch" placeholder="搜索 / Search..." oninput="handleGlobalSearch(this.value)">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+  </div>
+</nav>
+
+<main class="game-main">
+
+  
+  <div class="tab-content" id="tab-overview">
+    
+    <section class="view-section active" data-sub="ov-status">
+      <div class="view-head">
+        <h2 data-i18n="sub_overview">会话总览</h2>
+        <p>会话状态与已推送内容的实时快照，每 2 秒自动刷新。</p>
+      </div>
+
+      <div class="game-card">
+        <h3 data-i18n="h_session_status">会话状态</h3>
+        <div class="stats" style="margin-top:10px">
+          <div class="stat"><div class="k" data-i18n="stat_connection">连接状态</div><div class="v small" id="ovConn">—</div></div>
+          <div class="stat"><div class="k" data-i18n="stat_pid">角色 PID</div><div class="v" id="ovPid">—</div></div>
+          <div class="stat"><div class="k" data-i18n="stat_spirit">当前角色</div><div class="v small" id="ovSpirit">—</div></div>
+          <div class="stat"><div class="k" data-i18n="stat_world_ready">世界就绪</div><div class="v small" id="ovReady">—</div></div>
+        </div>
+        <div class="stats" style="margin-top:10px">
+          <div class="stat"><div class="k" data-i18n="stat_coords">坐标 X / Y / Z</div><div class="v small" id="ovPos">—</div></div>
+          <div class="stat"><div class="k" data-i18n="stat_yaw">朝向 Yaw</div><div class="v small" id="ovYaw">—</div></div>
+          <div class="stat"><div class="k" data-i18n="stat_summoned">已召唤载具</div><div class="v" id="ovSummoned">0</div></div>
+          <div class="stat"><div class="k" data-i18n="stat_in_seat">车内状态</div><div class="v small" id="ovSeat">—</div></div>
+        </div>
+        <div id="ovExitWrap" style="margin-top:12px;display:none">
+          <button class="btn-tonal btn-sm" onclick="vehicleExit()" data-i18n="btn_exit_vehicle">下车</button>
+        </div>
+      </div>
+
+      <div class="game-card">
+        <h3 data-i18n="h_snapshots">本次已推送内容 <span class="hint">由控制台发出的内容，可随时移除</span></h3>
+        <div class="stats" style="margin-top:10px">
+          <div class="stat"><div class="k" data-i18n="stat_bag_count">背包物品</div><div class="v" id="ovBagCount">0</div></div>
+          <div class="stat"><div class="k" data-i18n="stat_weapon_count">武器数</div><div class="v" id="ovWeaponCount">0</div></div>
+          <div class="stat"><div class="k" data-i18n="stat_fashion_count">时装数</div><div class="v" id="ovFashionCount">0</div></div>
+          <div class="stat"><div class="k" data-i18n="stat_currencies">货币 / 金券 / 绑定</div><div class="v small" id="ovMoney">0 / 0 / 0</div></div>
+        </div>
+      </div>
+
+      <div class="game-card">
+        <h3 data-i18n="h_dict_status">字典状态</h3>
+        <p class="desc" id="ovDict" style="margin:0">加载中…</p>
+      </div>
+    </section>
+
+    
+    <section class="view-section" data-sub="ov-logs">
+      <div class="view-head">
+        <h2 data-i18n="sub_logs">操作日志</h2>
+        <p>控制台发出的每条请求与服务端回执。</p>
+      </div>
+      <div class="game-card">
+        <div class="row tight" style="margin-bottom:10px">
+          <button class="btn-outlined btn-sm" onclick="clearLog()" data-i18n="btn_clear">清空</button>
+        </div>
+        <pre id="log"></pre>
+      </div>
+    </section>
+  </div>
+
+  
+  <div class="tab-content" id="tab-world" style="display:none">
+    
+    <section class="view-section active" data-sub="w-time">
+      <div class="view-head">
+        <h2 data-i18n="sub_time_weather">时间与天气</h2>
+        <p>调整游戏内时间、昼夜交替与天气环境。</p>
+      </div>
+
+      <div class="game-card">
+        <h3 data-i18n="h_time_slider">时间 <span class="hint">拖动滑块，松手即下发</span></h3>
+        <div class="clock" id="clock">12:00</div>
+        <input id="timeSlider" type="range" min="0" max="1439" step="1" value="720" aria-label="游戏内时间">
+        <div class="clock-scale"><span>00:00 深夜</span><span>06:00 清晨</span><span>12:00 正午</span><span>18:00 黄昏</span><span>23:59</span></div>
+        <div class="row tight" style="margin-top:12px">
+          <button class="btn-tonal btn-sm" onclick="setQuickTime(6,0)" data-i18n="time_morning">清晨 06:00</button>
+          <button class="btn-tonal btn-sm" onclick="setQuickTime(12,0)" data-i18n="time_noon">正午 12:00</button>
+          <button class="btn-tonal btn-sm" onclick="setQuickTime(18,0)" data-i18n="time_dusk">黄昏 18:00</button>
+          <button class="btn-tonal btn-sm" onclick="setQuickTime(0,0)" data-i18n="time_midnight">午夜 00:00</button>
+        </div>
+      </div>
+
+      <div class="game-card">
+        <h3 data-i18n="h_weather">天气 <span class="hint">SyncPlayerWeather</span></h3>
+        <p class="desc">
+          服务端写 <code>WeatherId</code> 后下发 <code>SyncPlayerWeather</code>，客户端平滑过渡。
+        </p>
+        <div class="row tight" id="weatherBtns" style="flex-wrap:wrap"></div>
+        <div class="row" style="margin-top:12px">
+          <div class="field grow" style="max-width:200px">
+            <label data-i18n="lbl_transition_sec">过渡时长 (秒)</label>
+            <input id="weatherTransition" type="number" min="0" max="60" step="1" value="3">
+          </div>
+          <button class="btn-text btn-sm" onclick="loadWeatherOptions()" data-i18n="btn_refresh">刷新天气列表</button>
+        </div>
+        <div id="weatherInfo" class="hint" style="margin-top:6px"></div>
+      </div>
+    </section>
+
+    
+    <section class="view-section" data-sub="w-teleport">
+      <div class="view-head">
+        <h2 data-i18n="sub_teleport">坐标传送</h2>
+        <p>服务端通过 SyncUnitPositionAndFacing 直接改写角色位置。</p>
+      </div>
+      <div class="game-card">
+        <div class="row">
+          <div class="field grow"><label>X</label><input id="tx" type="number" step="0.5" value="0"></div>
+          <div class="field grow"><label>Y</label><input id="ty" type="number" step="0.5" value="0"></div>
+          <div class="field grow"><label>Z</label><input id="tz" type="number" step="0.5" value="0"></div>
+          <div class="field grow"><label data-i18n="th_facing">朝向</label><input id="tf" type="number" step="1" value="0"></div>
+        </div>
+        <div class="row tight" style="margin-top:12px">
+          <button class="btn-filled" onclick="teleport()" data-i18n="btn_teleport">传送</button>
+          <button class="btn-outlined" onclick="fillCurrent()" data-i18n="btn_fill_current">填入当前坐标</button>
+          <button class="btn-outlined" onclick="fillSpawn()" data-i18n="btn_fill_spawn">回到出生点</button>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="view-section" data-sub="w-raid">
+      <div class="view-head">
+        <h2 data-i18n="sub_raid">跨场景与副本切换</h2>
+        <p>写运行时 ActiveRaidId/InstanceId/UniverseId 并下发 SyncEnterScene。</p>
+      </div>
+      <div class="game-card">
+        <div class="row">
+          <div class="field grow"><label>raidId</label><input id="srRaid" type="number" value="23300999"></div>
+          <div class="field grow"><label>sceneInstanceId</label><input id="srInst" type="number" value="20001223"></div>
+          <div class="field grow"><label>universeId</label><input id="srUni" type="number" value="76000888"></div>
+          <div class="field" style="flex:2">
+            <label>落点预设 (自动填 X/Y/Z)</label>
+            <select id="srSpot" onchange="srApplySpot(this)">
+              <option value="">（手动填坐标）</option>
+              <option value="-1638,18,1540.5">凌云·首个地图入口（重霄）</option>
+              <option value="-4719.8,168.5,-2844.7">三岔口茶联集市（重霄）</option>
+              <option value="-4818.4,192.3,-2690.1">茶田（重霄）</option>
+              <option value="-4682.0,169.2,-2915.8">小巷子（重霄）</option>
+              <option value="-4306.0,156.8,-3240.8">虎侍禅院（重霄）</option>
+              <option value="158.7,18.0,1057.2">重霄武康大楼</option>
+              <option value="-1081.1,18.1,735.9">武师引导任务（重霄）</option>
+              <option value="-4876.2,215.5,-2624.8">第一次切到樱珑（重霄）</option>
+              <option value="-447.7,18.0,265.6">第一次切到白靖（重霄）</option>
+              <option value="3142.7,0,2522.8">新启主城出生点</option>
+            </select>
+          </div>
+        </div>
+        <div class="row" style="margin-top:12px">
+          <div class="field grow"><label>X</label><input id="srX" type="number" step="0.5" value="-1638"></div>
+          <div class="field grow"><label>Y</label><input id="srY" type="number" step="0.5" value="18"></div>
+          <div class="field grow"><label>Z</label><input id="srZ" type="number" step="0.5" value="1540.5"></div>
+          <div class="field grow"><label data-i18n="th_facing">朝向</label><input id="srFacing" type="number" step="1" value="0"></div>
+        </div>
+        <div class="row tight" style="margin-top:12px">
+          <button class="btn-filled" onclick="switchRaid()" data-i18n="btn_switch_scene">切换到该场景</button>
+          <button class="btn-tonal" onclick="switchBack()" data-i18n="btn_switch_city">切回新启主城</button>
+          <button class="btn-outlined" onclick="srFillCurrent()" data-i18n="btn_fill_current">填入当前坐标</button>
+          <button class="btn-text btn-sm" onclick="loadWorldOptions()" data-i18n="btn_list_raids">列出可用 Raid</button>
+        </div>
+        <div id="wrInfo" class="hint" style="margin-top:6px"></div>
+      </div>
+    </section>
+
+    
+    <section class="view-section" data-sub="w-map">
+      <div class="view-head">
+        <h2 data-i18n="sub_map_nav">地图探索</h2>
+        <p>全开传送点与未探索迷雾，推送合成路网及 Aether 探针。</p>
+      </div>
+      <div class="game-card">
+        <h3 data-i18n="btn_reveal_map">全开传送点与迷雾</h3>
+        <p class="desc">下发全部传送点（地铁 / 机场 / 地标）+ 阵营数据，并清除全 158 个场景未探索迷雾。</p>
+        <div class="row tight">
+          <button class="btn-filled" onclick="fixCall('/api/map/reveal','地图已全开（传送点 + 迷雾）')" data-i18n="btn_map_reveal">地图全开（含迷雾）</button>
+          <button class="btn-tonal" onclick="pushZoneGraph()" data-i18n="btn_push_zonegraph">推送合成路网</button>
+          <button class="btn-outlined" onclick="aetherAtPlayer()" data-i18n="btn_place_aether">在当前位置生成 Aether</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  
+  <div class="tab-content" id="tab-assets" style="display:none">
+    
+    <section class="view-section active" data-sub="a-items">
+      <div class="view-head">
+        <h2 data-i18n="sub_items">背包道具</h2>
+        <p>按物品 ID 增加或移除背包道具与弹药。</p>
+      </div>
+
+      <div class="game-card">
+        <h3 data-i18n="h_bag_items">添加物品</h3>
+        <div class="row">
+          <div class="field" style="flex:3">
+            <label>搜索（中文名 / 英文名 / ID）</label>
+            <input id="itemSearch" type="text" placeholder="例如 天赋点 / crystal / 36500400" oninput="renderItemOptions()">
+          </div>
+          <div class="field" style="flex:2"><label data-i18n="lbl_item">物品</label><select id="itemSelect" onchange="onItemPick()"></select></div>
+          <div class="field" style="min-width:100px"><label data-i18n="lbl_count">数量</label><input id="itemCount" type="number" value="1" min="1"></div>
+        </div>
+        <div class="row tight" style="margin-top:12px">
+          <button class="btn-filled" onclick="itemAdd()" data-i18n="btn_add_bag">添加到背包</button>
+          <button class="btn-tonal" onclick="ammoAddAll()" data-i18n="btn_fill_ammo">一键补齐全部弹药</button>
+          <button class="btn-text btn-sm" id="itemSelInfo" data-i18n="lbl_not_selected">未选择</button>
+        </div>
+      </div>
+
+      <div class="game-card">
+        <h3 data-i18n="h_cur_bag">当前背包 <span class="hint">本次会话推送过的物品</span></h3>
+        <div class="table-wrap"><table id="bagTable"></table></div>
+      </div>
+    </section>
+
+    
+    <section class="view-section" data-sub="a-weapons">
+      <div class="view-head">
+        <h2 data-i18n="sub_weapons">武器仓库</h2>
+        <p>武器通过 SyncArmoryAddWeapon 进入账号军械库。</p>
+      </div>
+
+      <div class="game-card">
+        <h3 data-i18n="h_weapon_grant">添加武器到仓库</h3>
+        <div class="row">
+          <div class="field" style="flex:3">
+            <label>搜索（中文名 / 英文名 / ID）</label>
+            <input id="weaponSearch" type="text" placeholder="例如 球棒 / hammer / 98003001" oninput="renderWeaponOptions()">
+          </div>
+          <div class="field" style="flex:2"><label data-i18n="lbl_weapon">武器</label><select id="weaponSelect" onchange="onWeaponPick()"></select></div>
+          <div class="field grow"><label data-i18n="lbl_belong_spirit">归属角色</label><select id="weaponSpirit"></select></div>
+        </div>
+        <div class="row tight" style="margin-top:12px">
+          <button class="btn-filled" onclick="weaponAdd()" data-i18n="btn_send_armory">发送到仓库</button>
+          <button class="btn-tonal" onclick="weaponAddAll(0)" data-i18n="btn_all_weapons">一键刷取全部武器</button>
+          <button class="btn-tonal" onclick="weaponAddAll(1)" data-i18n="btn_current_spirit_weapons">仅当前角色武器</button>
+          <button class="btn-text btn-sm" id="weaponSelInfo" data-i18n="lbl_not_selected">未选择</button>
+        </div>
+      </div>
+
+      <div class="game-card">
+        <h3 data-i18n="h_cur_weapons">仓库中的武器 <span class="hint">本次会话推送过的实例</span></h3>
+        <div class="table-wrap"><table id="weaponTable"></table></div>
+      </div>
+    </section>
+
+    
+    <section class="view-section" data-sub="a-fashions">
+      <div class="view-head">
+        <h2 data-i18n="sub_fashions">时装衣橱</h2>
+        <p>时装通过 SyncAddFashion 进入衣橱，可于游戏内更衣界面穿戴。</p>
+      </div>
+
+      <div class="game-card">
+        <h3>一键发送</h3>
+        <div class="row tight">
+          <button class="btn-filled" onclick="fashionAddAllCurrent()" data-i18n="btn_current_spirit_fashions">发送当前角色全部时装</button>
+          <button class="btn-tonal" onclick="fashionAddAll()" data-i18n="btn_all_fashions">发送全部角色时装</button>
+        </div>
+      </div>
+
+      <div class="game-card">
+        <h3 data-i18n="h_fashion_grant">单件添加</h3>
+        <div class="row">
+          <div class="field" style="flex:3">
+            <label>搜索（中文名 / 英文名 / ID / 角色 ID）</label>
+            <input id="fashionSearch" type="text" placeholder="例如 上衣 / graffiti / 11100000" oninput="renderFashionOptions()">
+          </div>
+          <div class="field" style="flex:2"><label data-i18n="lbl_fashion">时装</label><select id="fashionSelect" onchange="onFashionPick()"></select></div>
+        </div>
+        <div class="row tight" style="margin-top:12px">
+          <button class="btn-filled" onclick="fashionAdd()" data-i18n="btn_send_wardrobe">发送到衣橱</button>
+          <button class="btn-text btn-sm" id="fashionSelInfo" data-i18n="lbl_not_selected">未选择</button>
+        </div>
+      </div>
+
+      <div class="game-card">
+        <h3 data-i18n="h_cur_fashions">已发送时装 <span class="hint">可逐件移除</span></h3>
+        <div class="table-wrap"><table id="fashionTable"></table></div>
+      </div>
+    </section>
+
+    
+    <section class="view-section" data-sub="a-money">
+      <div class="view-head">
+        <h2 data-i18n="sub_money">货币钱包与商城</h2>
+        <p>SyncMoney 直接改写三种钱包数值，商城直接结算发货。</p>
+      </div>
+
+      <div class="game-card">
+        <h3 data-i18n="h_money_val">设置数值</h3>
+        <div class="row">
+          <div class="field grow"><label data-i18n="lbl_general_money">通用货币 Money</label><input id="mMoney" type="number" step="1" value="0"></div>
+          <div class="field grow"><label data-i18n="lbl_gold">金券 Gold</label><input id="mGold" type="number" step="1" value="0"></div>
+          <div class="field grow"><label data-i18n="lbl_binding_gold">绑定金币 BindingGold</label><input id="mBind" type="number" step="1" value="0"></div>
+        </div>
+        <div class="row tight" style="margin-top:12px">
+          <button class="btn-filled" onclick="moneySet()" data-i18n="btn_write_money">写入数值</button>
+          <button class="btn-tonal" onclick="moneyQuick(100000)" data-i18n="money_100k">+10 万</button>
+          <button class="btn-tonal" onclick="moneyQuick(1000000)" data-i18n="money_1m">+100 万</button>
+          <button class="btn-tonal" onclick="moneyQuick(99999999)" data-i18n="money_99m">+9999 万</button>
+          <button class="btn-outlined" onclick="moneyFillCurrent()" data-i18n="btn_read_money">读取当前值</button>
+        </div>
+      </div>
+
+      <div class="game-card">
+        <h3 data-i18n="h_shop_direct">商城直接结算</h3>
+        <div class="row">
+          <div class="field grow"><label>发放物品 / 时装 / 武器 ID</label><input id="shopBind" type="number" placeholder="bindId"></div>
+          <div class="field grow"><label>扣除价格</label><input id="shopPrice" type="number" value="0"></div>
+          <div class="field grow"><label>发放类型</label>
+            <select id="shopGrant">
+              <option value="item">背包物品</option>
+              <option value="fashion">时装</option>
+              <option value="weapon">武器</option>
+            </select>
+          </div>
+        </div>
+        <div class="row tight" style="margin-top:12px">
+          <button class="btn-filled" onclick="shopBuy()" data-i18n="btn_shop_buy">结算并发货</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  
+  <div class="tab-content" id="tab-missions" style="display:none">
+    
+    <section class="view-section active" data-sub="m-container">
+      <div class="view-head">
+        <h2 data-i18n="sub_quests">当前任务容器</h2>
+        <p>来自 GameRouter 的当前会话真实容器状态。</p>
+      </div>
+
+      <div class="game-card">
+        <div class="stats" style="margin-top:10px">
+          <div class="stat"><div class="k">进行中任务 ID</div><div class="v" id="qCurrent">无</div></div>
+          <div class="stat"><div class="k">任务名</div><div class="v small" id="qCurrentName">—</div></div>
+          <div class="stat"><div class="k">容器内任务数</div><div class="v" id="qCount">0</div></div>
+        </div>
+        <div class="table-wrap" style="margin-top:12px"><table id="qContainerTable"></table></div>
+        <div class="row tight" style="margin-top:12px">
+          <button class="btn-danger" onclick="questComplete(currentTaskId())" data-i18n="btn_complete_quest">完成当前任务并推进</button>
+          <button class="btn-text btn-sm" id="qHint" data-i18n="lbl_empty_container">未进世界时容器为空</button>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="view-section" data-sub="m-accept">
+      <div class="view-head">
+        <h2 data-i18n="sub_accept_tasks">任务接取</h2>
+        <p>TaskConfig 全量 4341 条任务检索与分发。</p>
+      </div>
+      <div class="game-card">
+        <div class="row">
+          <div class="field" style="flex:3">
+            <label>搜索（任务名 / ID）</label>
+            <input id="questSearch" type="text" placeholder="例如 隧道 / 火车 / 60004938" oninput="loadTaskSearch()">
+          </div>
+          <div class="field" style="flex:2"><label data-i18n="lbl_task">任务</label><select id="questSelect" onchange="onQuestPick()"></select></div>
+        </div>
+        <div class="row tight" style="margin-top:12px">
+          <button class="btn-filled" onclick="questAccept()" data-i18n="btn_accept_quest">接取任务</button>
+          <button class="btn-tonal" onclick="questSubmit()" data-i18n="btn_submit_quest">标记已提交</button>
+          <button class="btn-text btn-sm" id="questSelInfo" data-i18n="lbl_not_selected">未选择</button>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="view-section" data-sub="m-chain">
+      <div class="view-head">
+        <h2 data-i18n="sub_story_chain">主线剧情链</h2>
+        <p>TaskConfig.NextTasks 逐跳推进行程。</p>
+      </div>
+      <div class="game-card">
+        <div class="stats" style="margin-top:10px">
+          <div class="stat"><div class="k">链首</div><div class="v small" id="storyRoot">—</div></div>
+          <div class="stat"><div class="k">链长度</div><div class="v" id="storyLen">—</div></div>
+        </div>
+        <div class="row tight" style="margin-top:12px">
+          <button class="btn-filled" onclick="storyStart()" data-i18n="btn_story_start">启动 / 恢复主线</button>
+          <button class="btn-tonal" onclick="storyAdvance()" data-i18n="btn_story_advance">推进到下一个</button>
+          <button class="btn-tonal" onclick="questReset()" data-i18n="btn_quest_reset">重置任务容器</button>
+          <button class="btn-text btn-sm" onclick="questResetReseed()">重置并重新种</button>
+          <button class="btn-text btn-sm" onclick="taskContainerHex()" data-i18n="btn_hex_probe">探针容器字节</button>
+        </div>
+      </div>
+
+    </section>
+
+    
+    <section class="view-section" data-sub="m-switch">
+      <div class="view-head">
+        <h2 data-i18n="sub_switch_spirit">切人动画演出</h2>
+        <p>走原版「换人传送」协议链：锚点传送 + 角色交接 + 运镜演出。</p>
+      </div>
+      <div class="game-card">
+        <div class="row">
+          <div class="field" style="flex:2">
+            <label>搜索（timeline 名 / 中文描述 / ID）</label>
+            <input id="tlSearch" type="text" placeholder="例如 塔菲 / 散步打电话 / 摸鱼" oninput="loadTimelines()">
+          </div>
+          <div class="field" style="flex:2">
+            <label>范围</label>
+            <select id="tlKind" onchange="loadTimelines()">
+              <option value="playable">可播（Invalid=false）</option>
+              <option value="all">全部 201 条（含作废）</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="field" style="flex:2"><label>切人动画（题材 · 动作 · 距离）</label><select id="tlSelect" onchange="onTlPick()"></select></div>
+          <div class="field" style="flex:1"><label>切成（目标角色）</label><select id="tlTarget"></select></div>
+        </div>
+        <div class="row" style="margin-top:6px">
+          <label style="display:flex;align-items:center;gap:8px;font-size:12px">
+            <input type="checkbox" id="tlTeleport" checked>
+            <span>传送到锚点（原版行为）</span>
+          </label>
+          <label style="display:flex;align-items:center;gap:8px;font-size:12px;margin-left:20px">
+            <input type="checkbox" id="tlSkipPre">
+            <span>跳过预切换（诊断）</span>
+          </label>
+        </div>
+        <div class="row tight" style="margin-top:12px">
+          <button class="btn-filled" id="tlPlayBtn" onclick="playTimeline()" data-i18n="btn_play_switch">触发切人动画</button>
+          <button class="btn-text btn-sm" id="tlSelInfo" data-i18n="lbl_not_selected">未选择</button>
+        </div>
+        <p class="desc" id="tlChannelNote" style="margin-top:10px"></p>
+      </div>
+    </section>
+
+    
+    <section class="view-section" data-sub="m-cinema">
+      <div class="view-head">
+        <h2 data-i18n="sub_cinematics">过场播片 (电影式)</h2>
+        <p>走 SyncPlayTL(68508300)，直传 timeline 名字给客户端 LoadAndPlay。</p>
+      </div>
+      <div class="game-card">
+        <div class="row">
+          <div class="field" style="flex:2">
+            <label>搜索（timeline 名 / 章节 / ID）</label>
+            <input id="cinSearch" type="text" placeholder="例如 alien / 塔菲 / 序章" oninput="loadCinematics()">
+          </div>
+          <div class="field" style="flex:1">
+            <label>范围</label>
+            <select id="cinKind" onchange="loadCinematics()">
+              <option value="cinematic">电影式播片</option>
+              <option value="noskip">不许跳过的全部</option>
+              <option value="system">通用/无分组</option>
+              <option value="">全部 1443 条</option>
+            </select>
+          </div>
+          <div class="field" style="flex:1">
+            <label>章节</label>
+            <select id="cinGroup" onchange="loadCinematics()"><option value="">全部章节</option></select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="field" style="flex:3"><label>过场播片</label><select id="cinSelect" onchange="onCinPick()"></select></div>
+        </div>
+        <div class="row tight" style="margin-top:12px">
+          <button class="btn-filled" id="cinPlayBtn" onclick="playCinematic()" data-i18n="btn_play_cinema">触发过场播片</button>
+          <button class="btn-text btn-sm" id="cinSelInfo" data-i18n="lbl_not_selected">未选择</button>
+        </div>
+        <p class="desc" id="cinChannelNote" style="margin-top:10px"></p>
+      </div>
+    </section>
+
+    
+    <section class="view-section" data-sub="m-dialog">
+      <div class="view-head">
+        <h2 data-i18n="sub_dialogs">剧情对话与演出</h2>
+        <p>DialogConfig 台词下发与镜头模板演示。</p>
+      </div>
+      <div class="game-card">
+        <h3>触发过场镜头动画 <span class="hint">SyncShowDialog · 带镜头模板</span></h3>
+        <div class="row">
+          <div class="field" style="flex:3">
+            <label>搜索（台词内容 / 说话人 / ID）</label>
+            <input id="cutSearch" type="text" placeholder="例如 塔菲 / 10105201" oninput="loadCutscenes()">
+          </div>
+          <div class="field" style="flex:2"><label>过场</label><select id="cutSelect" onchange="onCutPick()"></select></div>
+        </div>
+        <div class="row tight" style="margin-top:12px">
+          <button class="btn-filled" onclick="playCutscene()" data-i18n="btn_play">播放</button>
+          <button class="btn-tonal" onclick="playCutsceneVoice()" data-i18n="btn_voice_only">只播语音</button>
+          <button class="btn-text btn-sm" id="cutSelInfo" data-i18n="lbl_not_selected">未选择</button>
+        </div>
+      </div>
+
+      <div class="game-card">
+        <h3>触发全量剧情对话</h3>
+        <div class="row">
+          <div class="field" style="flex:3">
+            <label>搜索（台词内容 / 说话人 / ID）</label>
+            <input id="dlgSearch" type="text" placeholder="例如 塔菲 / 10105201" oninput="loadDialogs()">
+          </div>
+          <div class="field" style="flex:2"><label>台词</label><select id="dlgSelect" onchange="onDlgPick()"></select></div>
+        </div>
+        <div class="row tight" style="margin-top:12px">
+          <button class="btn-filled" onclick="playDialog()" data-i18n="btn_play_dialog">播放台词</button>
+          <button class="btn-tonal" onclick="playDialogVoice()" data-i18n="btn_voice_only">只播语音</button>
+          <button class="btn-text btn-sm" id="dlgSelInfo" data-i18n="lbl_not_selected">未选择</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  
+  <div class="tab-content" id="tab-entities" style="display:none">
+    
+    <section class="view-section active" data-sub="e-garage">
+      <div class="view-head">
+        <h2 data-i18n="sub_garage">载具车库</h2>
+        <p>按分类挑选载具，召唤到身边或直接传送上车。</p>
+      </div>
+
+      <div class="game-card">
+        <h3 data-i18n="h_summon_vehicle">召唤载具</h3>
+        <div class="row">
+          <div class="field grow"><label data-i18n="lbl_category">分类</label><select id="fleetCat" onchange="filterFleet()"></select></div>
+          <div class="field grow" style="flex:2"><label data-i18n="lbl_vehicle">载具</label><select id="fleet"></select></div>
+          <div class="field" style="min-width:110px"><label data-i18n="lbl_distance_m">距离 (米)</label><input id="fleetDist" type="number" value="6" min="2" max="60"></div>
+        </div>
+        <div class="row tight" style="margin-top:12px">
+          <button class="btn-filled" onclick="spawnNear()" data-i18n="btn_summon">召唤到身边</button>
+          <button class="btn-tonal" onclick="enterLast()" data-i18n="btn_enter_last">坐进最近一辆</button>
+        </div>
+        <div class="row tight" style="margin-top:10px">
+          <div class="field grow"><label data-i18n="lbl_raw_id">自定义 ID</label><input id="rawId" type="number" placeholder="例如 81007068"></div>
+          <button class="btn-outlined" onclick="spawnRaw()" data-i18n="btn_spawn_raw">按 ID 召唤</button>
+        </div>
+      </div>
+
+      <div class="game-card">
+        <h3>车库列表同步</h3>
+        <p class="desc">推送 SyncAllUnlockedVehicles，手机 / 车库里的列表会立刻更新。</p>
+        <div class="row tight">
+          <button class="btn-tonal" onclick="resync()" data-i18n="btn_resync">同步已验证车辆</button>
+          <button class="btn-outlined" onclick="unlockAll()" data-i18n="btn_unlock_all">解锁全部车辆 (含未验证)</button>
+        </div>
+      </div>
+
+      <div class="game-card">
+        <h3 data-i18n="h_summoned_list">已召唤载具</h3>
+        <div class="table-wrap"><table id="summonedTable"></table></div>
+      </div>
+    </section>
+
+    
+    <section class="view-section" data-sub="e-enemies">
+      <div class="view-head">
+        <h2 data-i18n="sub_enemies">敌人生成</h2>
+        <p>激活敌人组或诊断单体 Agent。</p>
+      </div>
+
+      <div class="game-card">
+        <h3 data-i18n="h_enemy_groups">敌人组 <span class="hint">RandomEnemyConfig</span></h3>
+        <div class="row">
+          <div class="field" style="flex:3">
+            <label>搜索</label>
+            <input id="enemySearch" type="text" placeholder="例如 塔菲 / BOSS / 1001" oninput="renderEnemyOptions()">
+          </div>
+          <div class="field" style="flex:2"><label>敌人组</label><select id="enemySelect"></select></div>
+        </div>
+        <div class="row">
+          <div class="field"><label>阵营 campId (0=自动取首个)</label><input id="enemyCamp" type="number" value="0"></div>
+          <div class="field"><label>成员数 (0=按配置)</label><input id="enemyMembers" type="number" value="0"></div>
+        </div>
+        <div class="row tight" style="margin-top:12px">
+          <button class="btn-filled" onclick="enemySpawnGroup()" data-i18n="btn_spawn_group">激活敌人组</button>
+          <button class="btn-text btn-sm" id="enemySelInfo" data-i18n="lbl_not_selected">未选择</button>
+        </div>
+      </div>
+
+      <div class="game-card">
+        <h3 data-i18n="h_agent_spawn">单体生成 (诊断)</h3>
+        <div class="row">
+          <div class="field" style="flex:2">
+            <label>搜索 Agent (AgentConfig 9331 条)</label>
+            <input id="agentSearch" type="text" placeholder="例如 谜面帮 / 无人机 / 40100004" oninput="loadAgents()">
+          </div>
+          <div class="field" style="flex:2"><label>Agent</label><select id="agentSelect"></select></div>
+          <div class="field"><label>只看怪物</label>
+            <select id="agentMonsters"><option value="1">是</option><option value="0">否</option></select>
+          </div>
+        </div>
+        <div class="row tight" style="margin-top:12px">
+          <button class="btn-tonal" onclick="npcSpawn()" data-i18n="btn_spawn_npc">生成 NPC (前方)</button>
+          <button class="btn-tonal" onclick="enemySpawn()" data-i18n="btn_spawn_enemy">生成敌人 (前方)</button>
+          <button class="btn-tonal" onclick="ammoGive()" data-i18n="btn_ammo_refill">补齐弹药</button>
+          <button class="btn-text btn-sm" id="agentSelInfo" data-i18n="lbl_not_selected">未选择</button>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="view-section" data-sub="e-street">
+      <div class="view-head">
+        <h2 data-i18n="sub_street_npc">店员与 NPC 放置</h2>
+        <p>放置记录持久化存在账号存档 (StreetNpcs) 中，重登后按坐标重新投放。</p>
+      </div>
+
+      <div class="game-card">
+        <div class="row">
+          <div class="field" style="flex:2"><label>角色外观 / 模板</label>
+            <input id="placeTemplate" type="number" placeholder="留空则用选中的 Agent (默认 15020990)">
+          </div>
+          <div class="field" style="flex:2"><label>店员称号 / 名称</label>
+            <input id="placeName" type="text" placeholder="例如 武康路店长·凛">
+          </div>
+          <div class="field"><label data-i18n="lbl_distance_m">距离 (米)</label>
+            <input id="placeDistance" type="number" value="4" step="0.5">
+          </div>
+          <div class="field" style="flex:2"><label>自定义时装 ID (逗号分隔)</label>
+            <input id="placeFashions" type="text" placeholder="例如 11100005,11100006">
+          </div>
+        </div>
+        <div class="row tight" style="margin-top:12px">
+          <button class="btn-filled" onclick="placeNpcHere()" data-i18n="btn_place_npc_here">在当前位置放置店员</button>
+          <button class="btn-tonal" onclick="placeNpc()" data-i18n="btn_place_npc">放置到玩家前方</button>
+          <button class="btn-outlined" onclick="resetDefaultNpcs()" data-i18n="btn_reset_npc">恢复默认店员</button>
+          <button class="btn-text btn-sm" onclick="loadStreetNpcs()" data-i18n="btn_refresh">刷新列表</button>
+        </div>
+        <div class="table-wrap" style="margin-top:12px"><table id="streetNpcTable"></table></div>
+        <div class="row tight" style="margin-top:12px">
+          <button class="btn-danger" onclick="removeAllStreetNpcs()" data-i18n="btn_remove_all">清空全部放置</button>
+          <button class="btn-text btn-sm" id="streetNpcHint">—</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  
+  <div class="tab-content" id="tab-system" style="display:none">
+    
+    <section class="view-section active" data-sub="s-dict">
+      <div class="view-head">
+        <h2 data-i18n="sub_dict">ID 全量字典</h2>
+        <p>所有 ID 与名称对照，支持即时过滤搜索与复制。</p>
+      </div>
+      <div class="game-card">
+        <div class="row">
+          <div class="field grow" style="max-width:260px"><label data-i18n="lbl_category">类别</label>
+            <select id="dictKind" onchange="renderDict()">
+              <option value="characters">角色</option>
+              <option value="weapons">武器</option>
+              <option value="fashions">时装</option>
+              <option value="vehicles">载具</option>
+              <option value="vehicleTypes">载具类型</option>
+              <option value="items">物品</option>
+              <option value="tasks">任务</option>
+              <option value="chapters">章节</option>
+              <option value="mall">商城商品</option>
+            </select>
+          </div>
+          <div class="field" style="flex:3"><label>搜索（名称 / ID）</label>
+            <input id="dictSearch" type="text" placeholder="输入关键词过滤" oninput="renderDict()">
+          </div>
+          <button class="btn-outlined" onclick="copyDict()" data-i18n="btn_copy">复制当前列表</button>
+        </div>
+        <p class="desc" id="dictMeta" style="margin-top:10px"></p>
+        <div class="table-wrap" style="max-height:560px"><table id="dictTable"></table></div>
+      </div>
+    </section>
+
+    
+    <section class="view-section" data-sub="s-fixes">
+      <div class="view-head">
+        <h2 data-i18n="sub_fixes">功能修复与基线</h2>
+        <p>补齐客户端所需各项服务端数据与基线。</p>
+      </div>
+
+      <div class="game-card">
+        <h3>一键基线推送 <span class="hint">进世界时也会自动执行</span></h3>
+        <p class="desc">将整套账号级基线数据重推一次（地图、成就、百科、手机、衣橱等）。</p>
+        <div class="row tight">
+          <button class="btn-filled" onclick="fixCall('/api/content/baseline','基线已重新推送')" data-i18n="btn_baseline_all">重新推送全部基线数据</button>
+        </div>
+      </div>
+
+      <div class="game-card">
+        <h3>基线单项重发 <span class="hint">只发单项，不影响其它</span></h3>
+        <div class="row tight" id="baselineStepBtns" style="flex-wrap:wrap"></div>
+      </div>
+
+      <div class="game-card">
+        <h3>快捷修复工具</h3>
+        <div class="row tight" style="flex-wrap:wrap">
+          <button class="btn-filled" onclick="fixCall('/api/map/reveal','地图已全开')" data-i18n="btn_reveal_map">地图全开</button>
+          <button class="btn-filled" onclick="fixCall('/api/achievement/unlock-all','成就已全部下发')" data-i18n="btn_unlock_achieve">解锁全部成就</button>
+          <button class="btn-filled" onclick="fixCall('/api/pedia/unlock-all','百科已全部下发')" data-i18n="btn_unlock_pedia">解锁全部百科</button>
+          <button class="btn-tonal" onclick="fixCall('/api/content/baseline','手账资料已重新下发')">重新下发手账资料</button>
+          <button class="btn-tonal" onclick="fixCall('/api/content/baseline','手机皮肤已重新下发')">重新下发手机皮肤</button>
+        </div>
+      </div>
+
+      <div class="game-card">
+        <h3>传送 <span class="hint">AskTeleport → SyncTeleport</span></h3>
+        <div class="row">
+          <div class="field grow"><label>X</label><input id="tpX" type="number" step="0.5" value="1647.5"></div>
+          <div class="field grow"><label>Y</label><input id="tpY" type="number" step="0.5" value="0"></div>
+          <div class="field grow"><label>Z</label><input id="tpZ" type="number" step="0.5" value="2348.8"></div>
+          <div class="field grow"><label data-i18n="th_facing">朝向</label><input id="tpF" type="number" step="1" value="180"></div>
+        </div>
+        <div class="row tight" style="margin-top:12px">
+          <button class="btn-filled" onclick="fixTeleport()" data-i18n="btn_sync_teleport">下发 SyncTeleport</button>
+          <button class="btn-outlined" onclick="fillSpawn()" data-i18n="btn_fill_spawn">用出生点坐标</button>
+        </div>
+      </div>
+
+      <div class="game-card">
+        <h3>商店与房产</h3>
+        <div class="row">
+          <div class="field grow"><label>商店 ID（留空用默认）</label><input id="fixShopId" type="number" placeholder="例如 94100080"></div>
+          <button class="btn-filled" onclick="fixShop()" data-i18n="btn_fix_shop">推送商店货架</button>
+          <div class="field grow" style="margin-left:14px"><label>房产 ID（留空用默认）</label><input id="fixHouseId" type="number" placeholder="留空自动"></div>
+          <button class="btn-filled" onclick="fixHouse()" data-i18n="btn_fix_house">购买 / 下发房产</button>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="view-section" data-sub="s-accounts">
+      <div class="view-head">
+        <h2 data-i18n="sub_accounts">账号与存档</h2>
+        <p>所有进度按账号分别持久化到磁盘，重启服务端不丢。</p>
+      </div>
+
+      <div class="game-card">
+        <h3 data-i18n="h_account_create">新建账号</h3>
+        <div class="row">
+          <div class="field grow"><label>内部 ID（留空随机）</label><input id="accId" type="text" placeholder="例如 player2"></div>
+          <div class="field grow"><label>角色昵称</label><input id="accName" type="text" placeholder="例如 小号"></div>
+        </div>
+        <div class="row">
+          <div class="field grow"><label>用户名（登录用）</label><input id="accUser" type="text" placeholder="例如 p2@test.com"></div>
+          <div class="field grow"><label>密码</label><input id="accPass" type="text" placeholder="留空则默认 Ananta"></div>
+          <div class="field grow"><label>账号 UID（留空自动生成 16 位）</label><input id="accUid" type="text" placeholder="留空自动生成"></div>
+          <div class="field grow"><label>角色 PID（留空自动分配）</label><input id="accPid" type="number" placeholder="留空自动分配"></div>
+        </div>
+        <div class="row tight" style="margin-top:12px">
+          <button class="btn-filled" onclick="accountCreate()" data-i18n="btn_create">创建账号</button>
+        </div>
+      </div>
+
+      <div class="game-card">
+        <h3 data-i18n="h_account_list">账号列表</h3>
+        <p class="desc" id="accRoot"></p>
+        <div class="table-wrap"><table id="accTable"></table></div>
+      </div>
+    </section>
+  </div>
+
+</main>
+
+<footer class="game-footer">
+  <div class="footer-left">
+    <div class="esc-keycap" onclick="handleEscKey()" title="ESC">
+      <span>ESC</span>
+      <span data-i18n="esc_back">返回</span>
+    </div>
+    <span id="footerTelemetry" style="display:none"></span>
+  </div>
+  <div class="footer-right">
+    <span data-i18n="shortcuts_hint">快捷键：Q / E 切换子标签 · ESC 返回总览</span>
+  </div>
+</footer>
+
+<div id="snackbar" class="toast-stack"><span id="snackText" style="display:none"></span></div>
 
 <script>
-let lastStatus = null;
-let fleetData = [];
-const catNames = { sport: 'Sport / Luxury / Unique', regular: 'Regular Cars', suv: 'SUV / Pickups', van: 'Vans / Bus', truck: 'Trucks / Heavy Duty', moto: 'Motorcycles / Scooters', water: 'Watercraft', air: 'Aircraft' };
-let timeDragging = false;
-function fmtClock(totalMin) {
-  const h = Math.floor(totalMin / 60) % 24;
-  const m = totalMin % 60;
+'use strict';
+
+function updateRealComputerTime() {
+  const now = new Date();
+  const h = String(now.getHours()).padStart(2, '0');
+  const m = String(now.getMinutes()).padStart(2, '0');
+  const clockEl = document.getElementById('headerClock');
+  if (clockEl) clockEl.textContent = `${h}:${m}`;
+}
+setInterval(updateRealComputerTime, 1000);
+updateRealComputerTime();
+
+const I18N_DICT = {"brand_title": {"zh": "无限大 · 私服控制台", "en": "ANANTA · Server Console", "es": "ANANTA · Consola de Servidor", "fr": "ANANTA · Console Serveur", "de": "ANANTA · Server-Konsole", "ja": "ANANTA · サーバーコンソール", "pt": "ANANTA · Console do Servidor", "ru": "ANANTA · Консоль Сервера", "ar": "ANANTA · لوحة تحكم الخادم"}, "conn_connecting": {"zh": "连接中…", "en": "Connecting...", "es": "Conectando...", "fr": "Connexion...", "de": "Verbinden...", "ja": "接続中…", "pt": "Conectando...", "ru": "Подключение…", "ar": "جارٍ الاتصال..."}, "conn_online": {"zh": "客户端已连接", "en": "Client Connected", "es": "Cliente Conectado", "fr": "Client Connecté", "de": "Client Verbunden", "ja": "クライアント接続中", "pt": "Cliente Conectado", "ru": "Клиент подключен", "ar": "العميل متصل"}, "conn_offline": {"zh": "客户端未进入游戏", "en": "Client Offline / Not in World", "es": "Cliente Fuera de Sesión", "fr": "Client Hors Monde", "de": "Client Nicht in Welt", "ja": "クライアント未接続", "pt": "Cliente Fora do Jogo", "ru": "Клиент не в игре", "ar": "العميل غير متصل"}, "theme_toggle": {"zh": "切换深色 / 浅色", "en": "Toggle Dark / Light", "es": "Cambiar Tema Oscuro / Claro", "fr": "Thème Sombre / Clair", "de": "Dunkel- / Hellmodus", "ja": "ダーク/ライト切替", "pt": "Alternar Claro / Escuro", "ru": "Светлая / Темная тема", "ar": "تبديل المظهر"}, "lang_picker": {"zh": "选择语言", "en": "Language", "es": "Idioma", "fr": "Langue", "de": "Sprache", "ja": "言語切替", "pt": "Idioma", "ru": "Язык", "ar": "اللغة"}, "tab_overview": {"zh": "仪表盘", "en": "Overview", "es": "Tablero", "fr": "Tableau", "de": "Übersicht", "ja": "概要", "pt": "Painel", "ru": "Обзор", "ar": "اللوحة"}, "tab_world": {"zh": "世界环境", "en": "World", "es": "Mundo", "fr": "Monde", "de": "Welt", "ja": "世界", "pt": "Mundo", "ru": "Мир", "ar": "العالم"}, "tab_assets": {"zh": "角色资产", "en": "Assets", "es": "Activos", "fr": "Objets", "de": "Inventar", "ja": "資産", "pt": "Ativos", "ru": "Активы", "ar": "الأصول"}, "tab_missions": {"zh": "任务剧情", "en": "Missions", "es": "Misiones", "fr": "Missions", "de": "Missionen", "ja": "任務", "pt": "Missões", "ru": "Миссии", "ar": "المهام"}, "tab_entities": {"zh": "实体生态", "en": "Entities", "es": "Entidades", "fr": "Entités", "de": "Entitäten", "ja": "生態", "pt": "Entidades", "ru": "Сущности", "ar": "الكيانات"}, "tab_system": {"zh": "数据系统", "en": "System", "es": "Sistema", "fr": "Système", "de": "System", "ja": "システム", "pt": "Sistema", "ru": "Система", "ar": "النظام"}, "sub_overview": {"zh": "会话总览", "en": "Session Overview", "es": "Resumen de Sesión", "fr": "Aperçu de Session", "de": "Sitzungsübersicht", "ja": "セッション概要", "pt": "Visão Geral da Sessão", "ru": "Обзор сессии", "ar": "نظرة عامة على الجلسة"}, "sub_logs": {"zh": "操作日志", "en": "Operation Logs", "es": "Registro de Operaciones", "fr": "Journaux d'Opérations", "de": "Betriebsprotokolle", "ja": "操作ログ", "pt": "Registros de Operações", "ru": "Журнал операций", "ar": "سجلات العمليات"}, "sub_time_weather": {"zh": "时间与天气", "en": "Time & Weather", "es": "Tiempo y Clima", "fr": "Heure & Météo", "de": "Zeit & Wetter", "ja": "時間と天候", "pt": "Hora e Clima", "ru": "Время и Погода", "ar": "الوقت والطقس"}, "sub_teleport": {"zh": "坐标传送", "en": "Coordinate Teleport", "es": "Teletransporte", "fr": "Téléportation", "de": "Koordinaten-Teleport", "ja": "座標テレポート", "pt": "Teletransporte", "ru": "Телепортация", "ar": "الانتقال الآني"}, "sub_raid": {"zh": "跨场景切换", "en": "Cross-Scene Raid", "es": "Cambio de Escenario", "fr": "Changement de Scène", "de": "Szenenwechsel", "ja": "シーン切替", "pt": "Troca de Cena", "ru": "Смена сцен", "ar": "تبديل المشاهد"}, "sub_map_nav": {"zh": "地图探索", "en": "Map & Nav", "es": "Mapa y Navegación", "fr": "Carte & Navigation", "de": "Karte & Navigation", "ja": "マップ・ナビ", "pt": "Mapa e Navegação", "ru": "Карта и Навигация", "ar": "الخريطة والملاحة"}, "sub_items": {"zh": "背包道具", "en": "Backpack Items", "es": "Objetos de Mochila", "fr": "Objets du Sac", "de": "Rucksack-Gegenstände", "ja": "バッグアイテム", "pt": "Itens da Mochila", "ru": "Предметы инвентаря", "ar": "عناصر الحقيبة"}, "sub_weapons": {"zh": "武器仓库", "en": "Weapons Armory", "es": "Armería de Armas", "fr": "Armurerie d'Armes", "de": "Waffenarsenal", "ja": "武器倉庫", "pt": "Arsenal de Armas", "ru": "Оружейный склад", "ar": "مستودع الأسلحة"}, "sub_fashions": {"zh": "时装衣橱", "en": "Fashion Wardrobe", "es": "Guardarropa", "fr": "Garde-robe", "de": "Modegarderobe", "ja": "衣装ワードローブ", "pt": "Guarda-roupa", "ru": "Гардероб моды", "ar": "خزانة الأزياء"}, "sub_money": {"zh": "货币钱包", "en": "Currency & Mall", "es": "Monedero y Tienda", "fr": "Devises & Boutique", "de": "Währung & Shop", "ja": "通貨・モール", "pt": "Moeda e Loja", "ru": "Валюта и Магазин", "ar": "العملة والمتجر"}, "sub_quests": {"zh": "当前任务容器", "en": "Active Quests", "es": "Misiones Activas", "fr": "Quêtes Actives", "de": "Aktive Quests", "ja": "進行中任務", "pt": "Missões Ativas", "ru": "Активные задания", "ar": "المهام النشطة"}, "sub_accept_tasks": {"zh": "任务接取", "en": "Accept Tasks", "es": "Aceptar Tareas", "fr": "Accepter Tâches", "de": "Aufgaben annehmen", "ja": "任務受注", "pt": "Aceitar Tarefas", "ru": "Принятие заданий", "ar": "قبول المهام"}, "sub_story_chain": {"zh": "主线推进", "en": "Main Story Chain", "es": "Cadena de Historia", "fr": "Chaîne Principale", "de": "Hauptstory-Kette", "ja": "メインストーリー進行", "pt": "Cadeia Principal", "ru": "Сюжетная цепочка", "ar": "سلسلة القصة"}, "sub_switch_spirit": {"zh": "切人演出", "en": "Switch Cutscenes", "es": "Escenas de Cambio", "fr": "Cinématiques de Changement", "de": "Wechsel-Zwischensequenz", "ja": "キャラ切替演出", "pt": "Cutscenes de Troca", "ru": "Сцены смены героя", "ar": "مشاهد التبديل"}, "sub_cinematics": {"zh": "电影播片", "en": "Cinematics (TL)", "es": "Cinemáticas (TL)", "fr": "Cinématiques (TL)", "de": "Filmsequenzen (TL)", "ja": "ムービー再生 (TL)", "pt": "Cinemáticas (TL)", "ru": "Кинематография (TL)", "ar": "المشاهد السينمائية (TL)"}, "sub_dialogs": {"zh": "剧情对话", "en": "Story Dialogs", "es": "Diálogos de Historia", "fr": "Dialogues d'Histoire", "de": "Story-Dialoge", "ja": "ストーリー台詞", "pt": "Diálogos de História", "ru": "Сюжетные диалоги", "ar": "حوارات القصة"}, "sub_garage": {"zh": "载具车库", "en": "Vehicle Garage", "es": "Garaje de Vehículos", "fr": "Garage de Véhicules", "de": "Fahrzeuggarage", "ja": "車両ガレージ", "pt": "Garagem de Veículos", "ru": "Гараж техники", "ar": "مرآب المركبات"}, "sub_enemies": {"zh": "敌人生成", "en": "Enemy Spawner", "es": "Generador de Enemigos", "fr": "Générateur d'Ennemis", "de": "Gegner-Spawner", "ja": "敵生成", "pt": "Gerador de Inimigos", "ru": "Спавнер врагов", "ar": "توليد الأعداء"}, "sub_street_npc": {"zh": "店员与NPC放置", "en": "Street NPC Placement", "es": "Colocación de PNJ", "fr": "Placement de PNJ", "de": "Straßen-NPC Platzierung", "ja": "店員・NPC配置", "pt": "Colocação de PNJ", "ru": "Размещение NPC", "ar": "وضع الشخصيات"}, "sub_dict": {"zh": "ID 字典", "en": "ID Dictionary", "es": "Diccionario de ID", "fr": "Dictionnaire d'ID", "de": "ID-Wörterbuch", "ja": "ID辞書", "pt": "Dicionário de ID", "ru": "Справочник ID", "ar": "قاموس المعرفات"}, "sub_fixes": {"zh": "功能修复", "en": "System Fixes", "es": "Reparaciones de Sistema", "fr": "Correctifs Système", "de": "System-Reparaturen", "ja": "機能修復", "pt": "Correções do Sistema", "ru": "Исправления системы", "ar": "إصلاحات النظام"}, "sub_accounts": {"zh": "账号与存档", "en": "Accounts & Saves", "es": "Cuentas y Guardados", "fr": "Comptes & Sauvegardes", "de": "Konten & Speicherstände", "ja": "アカウントとセーブ", "pt": "Contas e Salvamentos", "ru": "Аккаунты и сейвы", "ar": "الحسابات والحفظ"}, "btn_search": {"zh": "搜索", "en": "Search", "es": "Buscar", "fr": "Rechercher", "de": "Suchen", "ja": "検索", "pt": "Pesquisar", "ru": "Поиск", "ar": "بحث"}, "btn_apply": {"zh": "应用", "en": "Apply", "es": "Aplicar", "fr": "Appliquer", "de": "Anwenden", "ja": "適用", "pt": "Aplicar", "ru": "Применить", "ar": "تطبيق"}, "btn_teleport": {"zh": "传送", "en": "Teleport", "es": "Teletransportar", "fr": "Téléporter", "de": "Teleportieren", "ja": "テレポート", "pt": "Teleportar", "ru": "Телепортироваться", "ar": "انتقال آني"}, "btn_fill_current": {"zh": "填入当前坐标", "en": "Fill Current Coords", "es": "Usar Coordenadas Actuales", "fr": "Coordonnées Actuelles", "de": "Aktuelle Koord. einfügen", "ja": "現在座標を取得", "pt": "Usar Coordenadas Atuais", "ru": "Текущие координаты", "ar": "ملء الإحداثيات الحالية"}, "btn_fill_spawn": {"zh": "回到出生点", "en": "Return to Spawn", "es": "Volver al Punto de Inicio", "fr": "Point d'Apparition", "de": "Zum Spawnpunkt", "ja": "リスポーン地点へ", "pt": "Voltar ao Início", "ru": "На спавн", "ar": "العودة إلى نقطة البداية"}, "btn_remove": {"zh": "移除", "en": "Remove", "es": "Eliminar", "fr": "Supprimer", "de": "Entfernen", "ja": "削除", "pt": "Remover", "ru": "Удалить", "ar": "إزالة"}, "btn_remove_all": {"zh": "全部移除", "en": "Remove All", "es": "Eliminar Todo", "fr": "Tout Supprimer", "de": "Alle Entfernen", "ja": "全削除", "pt": "Remover Tudo", "ru": "Удалить всё", "ar": "إزالة الكل"}, "btn_clear": {"zh": "清空", "en": "Clear", "es": "Limpiar", "fr": "Effacer", "de": "Löschen", "ja": "クリア", "pt": "Limpar", "ru": "Очистить", "ar": "مسح"}, "btn_create": {"zh": "创建", "en": "Create", "es": "Crear", "fr": "Créer", "de": "Erstellen", "ja": "作成", "pt": "Criar", "ru": "Создать", "ar": "إنشاء"}, "btn_switch": {"zh": "切换", "en": "Switch", "es": "Cambiar", "fr": "Changer", "de": "Wechseln", "ja": "切替", "pt": "Alternar", "ru": "Переключить", "ar": "تبديل"}, "btn_refresh": {"zh": "刷新", "en": "Refresh", "es": "Actualizar", "fr": "Actualiser", "de": "Aktualisieren", "ja": "更新", "pt": "Atualizar", "ru": "Обновить", "ar": "تحديث"}, "btn_copy": {"zh": "复制", "en": "Copy", "es": "Copiar", "fr": "Copier", "de": "Kopieren", "ja": "コピー", "pt": "Copiar", "ru": "Копировать", "ar": "نسخ"}, "btn_play": {"zh": "播放", "en": "Play", "es": "Reproducir", "fr": "Lire", "de": "Abspielen", "ja": "再生", "pt": "Reproduzir", "ru": "Воспроизвести", "ar": "تشغيل"}, "btn_voice_only": {"zh": "只播语音", "en": "Voice Only", "es": "Solo Voz", "fr": "Voix Seule", "de": "Nur Stimme", "ja": "音声のみ", "pt": "Apenas Voz", "ru": "Только голос", "ar": "صوت فقط"}, "btn_exit_vehicle": {"zh": "下车", "en": "Exit Vehicle", "es": "Salir del Vehículo", "fr": "Quitter le Véhicule", "de": "Fahrzeug Verlassen", "ja": "降車", "pt": "Sair do Veículo", "ru": "Выйти из машины", "ar": "النزول من المركبة"}, "btn_unlock_all": {"zh": "全部解锁", "en": "Unlock All", "es": "Desbloquear Todo", "fr": "Tout Débloquer", "de": "Alle Freischalten", "ja": "全解放", "pt": "Desbloquear Tudo", "ru": "Разблокировать всё", "ar": "فتح الكل"}, "btn_resync": {"zh": "同步已验证", "en": "Sync Verified", "es": "Sincronizar Verificados", "fr": "Synchroniser Validés", "de": "Verifizierte syncen", "ja": "検証済同期", "pt": "Sincronizar Verificados", "ru": "Синхронизировать проверенные", "ar": "مزامنة التي تم التحقق منها"}, "btn_summon": {"zh": "召唤到身边", "en": "Summon Near", "es": "Invocar Cerca", "fr": "Invoquer à Proximité", "de": "In der Nähe spawnen", "ja": "近くに召喚", "pt": "Invocar Perto", "ru": "Призвать рядом", "ar": "استدعاء بالقرب"}, "btn_enter_last": {"zh": "坐进最近一辆", "en": "Enter Closest", "es": "Entrar al Más Cercano", "fr": "Entrer dans le Plus Proche", "de": "In Nächstes einsteigen", "ja": "最寄りの車に乗る", "pt": "Entrar no Mais Próximo", "ru": "Сесть в ближайшую", "ar": "ركوب الأقرب"}, "btn_add_bag": {"zh": "添加到背包", "en": "Add to Backpack", "es": "Añadir a Mochila", "fr": "Ajouter au Sac", "de": "Zum Rucksack hinzufügen", "ja": "バッグに追加", "pt": "Adicionar à Mochila", "ru": "Добавить в инвентарь", "ar": "إضافة إلى الحقيبة"}, "btn_fill_ammo": {"zh": "一键补齐全部弹药", "en": "Refill All Ammo", "es": "Recargar Toda Munición", "fr": "Recharger Toutes Munitions", "de": "Alle Munition auffüllen", "ja": "全弾薬を一括補充", "pt": "Recarregar Toda Munição", "ru": "Пополнить все боеприпасы", "ar": "تعبئة جميع الذخيرة"}, "btn_send_armory": {"zh": "发送到仓库", "en": "Send to Armory", "es": "Enviar a Armería", "fr": "Envoyer à l'Armurerie", "de": "Ins Arsenal senden", "ja": "武器庫へ送信", "pt": "Enviar ao Arsenal", "ru": "Отправить на склад", "ar": "إرسال إلى المستودع"}, "btn_all_weapons": {"zh": "一键刷取全部武器", "en": "Add All Weapons", "es": "Añadir Todas las Armas", "fr": "Ajouter Toutes les Armes", "de": "Alle Waffen hinzufügen", "ja": "全武器を一括入手", "pt": "Adicionar Todas as Armas", "ru": "Добавить всё оружие", "ar": "إضافة جميع الأسلحة"}, "btn_current_spirit_weapons": {"zh": "仅当前角色武器", "en": "Current Spirit Only", "es": "Solo Personaje Actual", "fr": "Personnage Actuel Seulement", "de": "Nur aktiver Charakter", "ja": "現在キャラの武器のみ", "pt": "Apenas Personagem Atual", "ru": "Только оружие текущего", "ar": "شخصية حالية فقط"}, "btn_send_wardrobe": {"zh": "发送到衣橱", "en": "Send to Wardrobe", "es": "Enviar a Guardarropa", "fr": "Envoyer à la Garde-robe", "de": "In die Garderobe senden", "ja": "ワードローブへ送信", "pt": "Enviar ao Guarda-roupa", "ru": "Отправить в гардероб", "ar": "إرسال إلى الخزانة"}, "btn_current_spirit_fashions": {"zh": "发送当前角色全部时装", "en": "All Fashions (Current)", "es": "Toda Moda (Actual)", "fr": "Toutes Modes (Actuel)", "de": "Alle Outfits (Aktiver)", "ja": "現在キャラの全衣装", "pt": "Todas as Roupas (Atual)", "ru": "Все костюмы (текущий)", "ar": "أزياء الشخصية الحالية"}, "btn_all_fashions": {"zh": "发送全部角色时装", "en": "All Fashions (All)", "es": "Toda Moda (Todos)", "fr": "Toutes Modes (Tous)", "de": "Alle Outfits (Alle)", "ja": "全キャラの全衣装", "pt": "Todas as Roupas (Todos)", "ru": "Все костюмы (все)", "ar": "جميع الأزياء لكل الشخصيات"}, "btn_write_money": {"zh": "写入数值", "en": "Write Values", "es": "Guardar Valores", "fr": "Enregistrer Valeurs", "de": "Werte schreiben", "ja": "数値を反映", "pt": "Salvar Valores", "ru": "Записать значения", "ar": "حفظ القيم"}, "btn_read_money": {"zh": "读取当前值", "en": "Read Current", "es": "Leer Actual", "fr": "Lire Actuel", "de": "Aktuelle lesen", "ja": "現在値を読込", "pt": "Ler Atual", "ru": "Прочитать текущие", "ar": "قراءة القيم الحالية"}, "btn_shop_buy": {"zh": "结算并发货", "en": "Settle & Deliver", "es": "Liquidar y Entregar", "fr": "Régler & Livrer", "de": "Abrechnen & Liefern", "ja": "決済・アイテム付与", "pt": "Liquidar e Entregar", "ru": "Оформить и доставить", "ar": "تسوية وإرسال"}, "btn_complete_quest": {"zh": "完成当前任务并推进", "en": "Complete & Advance", "es": "Completar y Avanzar", "fr": "Terminer & Avancer", "de": "Abschließen & Weiter", "ja": "任務完了・次へ進行", "pt": "Concluir e Avançar", "ru": "Завершить и продолжить", "ar": "إكمال المهمة والتقدم"}, "btn_accept_quest": {"zh": "接取任务", "en": "Accept Quest", "es": "Aceptar Misión", "fr": "Accepter Quête", "de": "Quest annehmen", "ja": "任務を受注", "pt": "Aceitar Missão", "ru": "Принять квест", "ar": "قبول المهمة"}, "btn_submit_quest": {"zh": "标记已提交", "en": "Mark Submitted", "es": "Marcar Entregado", "fr": "Marquer Soumis", "de": "Als abgegeben markieren", "ja": "提出済みに設定", "pt": "Marcar como Entregue", "ru": "Отметить сданным", "ar": "تحديد كمكتمل"}, "btn_story_start": {"zh": "启动 / 恢复主线", "en": "Start / Resume Story", "es": "Iniciar / Reanudar Historia", "fr": "Démarrer / Reprendre", "de": "Story starten / fortsetzen", "ja": "メインストーリー開始/再開", "pt": "Iniciar / Retomar História", "ru": "Начать / продолжить сюжет", "ar": "بدء / استئناف القصة"}, "btn_story_advance": {"zh": "推进到下一个", "en": "Advance to Next", "es": "Avanzar al Siguiente", "fr": "Passer au Suivant", "de": "Zum nächsten Schritt", "ja": "次へ進行", "pt": "Avançar ao Próximo", "ru": "Перейти к следующему", "ar": "التقدم إلى التالي"}, "btn_quest_reset": {"zh": "重置任务容器", "en": "Reset Quest Container", "es": "Reiniciar Contenedor", "fr": "Réinitialiser Quêtes", "de": "Quest-Container zurücksetzen", "ja": "任務コンテナ初期化", "pt": "Redefinir Contêiner", "ru": "Сбросить квесты", "ar": "إعادة تعيين الحاوية"}, "btn_hex_probe": {"zh": "探针容器字节", "en": "Probe Hex Container", "es": "Sondear Hex", "fr": "Inspecter Hex", "de": "Hex-Container prüfen", "ja": "コンテナバイト検査", "pt": "Sondar Hex", "ru": "Анализ hex-контейнера", "ar": "فحص بايت الحاوية"}, "btn_play_switch": {"zh": "触发切人动画", "en": "Trigger Cutscene", "es": "Ejecutar Escena", "fr": "Déclencher Scène", "de": "Szene auslösen", "ja": "演出を発動", "pt": "Executar Cena", "ru": "Запустить кат-сцену", "ar": "تشغيل المشهد"}, "btn_play_cinema": {"zh": "触发过场播片", "en": "Play Cutscene Movie", "es": "Reproducir Película", "fr": "Lire Cinématique", "de": "Film abspielen", "ja": "ムービーを再生", "pt": "Reproduzir Filme", "ru": "Запустить фильм", "ar": "تشغيل الفيلم"}, "btn_play_dialog": {"zh": "播放台词", "en": "Play Dialog", "es": "Reproducir Diálogo", "fr": "Jouer Dialogue", "de": "Dialog abspielen", "ja": "台詞を再生", "pt": "Reproduzir Diálogo", "ru": "Воспроизвести диалог", "ar": "تشغيل الحوار"}, "btn_spawn_group": {"zh": "激活敌人组", "en": "Activate Enemy Group", "es": "Activar Grupo de Enemigos", "fr": "Activer Groupe d'Ennemis", "de": "Gegnergruppe aktivieren", "ja": "敵グループを活性化", "pt": "Ativar Grupo de Inimigos", "ru": "Активировать группу врагов", "ar": "تفعيل مجموعة الأعداء"}, "btn_spawn_npc": {"zh": "生成 NPC (前方)", "en": "Spawn NPC (Front)", "es": "Generar PNJ (Delante)", "fr": "Générer PNJ (Devant)", "de": "NPC spawnen (vorne)", "ja": "NPC生成 (前方)", "pt": "Gerar PNJ (Frente)", "ru": "Создать NPC (спереди)", "ar": "توليد شخصية (أمام)"}, "btn_spawn_enemy": {"zh": "生成敌人 (前方)", "en": "Spawn Enemy (Front)", "es": "Generar Enemigo (Delante)", "fr": "Générer Ennemi (Devant)", "de": "Gegner spawnen (vorne)", "ja": "敵生成 (前方)", "pt": "Gerar Inimigo (Frente)", "ru": "Создать врага (спереди)", "ar": "توليد عدو (أمام)"}, "btn_place_npc_here": {"zh": "在当前位置放置店员", "en": "Place NPC Here", "es": "Colocar PNJ Aquí", "fr": "Placer PNJ Ici", "de": "NPC hier platzieren", "ja": "現在位置に店員を配置", "pt": "Colocar PNJ Aqui", "ru": "Разместить NPC здесь", "ar": "وضع شخصية هنا"}, "btn_place_npc": {"zh": "放置到玩家前方", "en": "Place in Front", "es": "Colocar Delante", "fr": "Placer Devant", "de": "Vor Spieler platzieren", "ja": "プレイヤー前方に配置", "pt": "Colocar na Frente", "ru": "Разместить перед игроком", "ar": "وضع أمام اللاعب"}, "btn_reset_npc": {"zh": "恢复默认店员", "en": "Reset Default NPCs", "es": "Restablecer PNJ Predeterminados", "fr": "Réinitialiser PNJ par Défaut", "de": "Standard-NPCs zurücksetzen", "ja": "デフォルト店員に戻す", "pt": "Redefinir PNJ Padrão", "ru": "Сбросить NPC по умолчанию", "ar": "استعادة الشخصيات الافتراضية"}, "btn_switch_scene": {"zh": "切换到该场景", "en": "Switch to Scene", "es": "Cambiar a Escena", "fr": "Changer de Scène", "de": "Szene wechseln", "ja": "このシーンへ切替", "pt": "Trocar para Cena", "ru": "Перейти к этой сцене", "ar": "تبديل إلى هذا المشهد"}, "btn_switch_city": {"zh": "切回新启主城", "en": "Back to Main City", "es": "Volver a la Ciudad", "fr": "Retour Ville Principale", "de": "Zurück zur Hauptstadt", "ja": "メイン都市へ戻る", "pt": "Voltar à Cidade Principal", "ru": "Вернуться в главный город", "ar": "العودة للمدينة الرئيسية"}, "btn_baseline_all": {"zh": "重新推送全部基线数据", "en": "Push All Baseline Data", "es": "Enviar Datos Base Completos", "fr": "Envoyer Données de Base", "de": "Alle Baseline-Daten senden", "ja": "全ベースラインデータを再送信", "pt": "Enviar Todos os Dados Base", "ru": "Отправить все базовые данные", "ar": "إرسال كافة البيانات الأساسية"}, "btn_map_reveal": {"zh": "地图全开（含迷雾）", "en": "Reveal Entire Map", "es": "Desbloquear Mapa Completo", "fr": "Révéler Carte Complète", "de": "Gesamte Karte aufdecken", "ja": "全マップ解放 (霧解除)", "pt": "Revelar Todo o Mapa", "ru": "Открыть всю карту (с туманом)", "ar": "كشف الخريطة كاملة"}, "btn_unlock_achieve": {"zh": "解锁全部成就", "en": "Unlock All Feats", "es": "Desbloquear Logros", "fr": "Débloquer Succès", "de": "Alle Erfolge freischalten", "ja": "全実績解除", "pt": "Desbloquear Conquistas", "ru": "Открыть все достижения", "ar": "فتح جميع الإنجازات"}, "btn_unlock_pedia": {"zh": "解锁全图鉴", "en": "Unlock Full Pedia", "es": "Desbloquear Enciclopedia", "fr": "Débloquer Encyclopédie", "de": "Lexikon freischalten", "ja": "全図鑑解除", "pt": "Desbloquear Enciclopédia", "ru": "Открыть всю энциклопедию", "ar": "فتح الموسوعة كاملة"}, "btn_push_zonegraph": {"zh": "推送合成路网", "en": "Push Synthetic NavGraph", "es": "Enviar Red de Navegación", "fr": "Envoyer Graphe de Navigation", "de": "Navigationsnetz senden", "ja": "合成ナビメッシュを送信", "pt": "Enviar Malha de Navegação", "ru": "Отправить дорожный граф", "ar": "إرسال شبكة الملاحة"}, "lbl_time": {"zh": "时间", "en": "Time", "es": "Tiempo", "fr": "Heure", "de": "Zeit", "ja": "時間", "pt": "Hora", "ru": "Время", "ar": "الوقت"}, "lbl_weather": {"zh": "天气", "en": "Weather", "es": "Clima", "fr": "Météo", "de": "Wetter", "ja": "天候", "pt": "Clima", "ru": "Погода", "ar": "الطقس"}, "lbl_transition_sec": {"zh": "过渡时长 (秒)", "en": "Transition Duration (s)", "es": "Transición (s)", "fr": "Transition (s)", "de": "Übergangsdauer (s)", "ja": "遷移秒数 (秒)", "pt": "Transição (s)", "ru": "Длительность (сек)", "ar": "مدة الانتقال (ث)"}, "lbl_category": {"zh": "分类", "en": "Category", "es": "Categoría", "fr": "Catégorie", "de": "Kategorie", "ja": "カテゴリ", "pt": "Categoria", "ru": "Категория", "ar": "الفئة"}, "lbl_vehicle": {"zh": "载具", "en": "Vehicle", "es": "Vehículo", "fr": "Véhicule", "de": "Fahrzeug", "ja": "車両", "pt": "Veículo", "ru": "Техника", "ar": "المركبة"}, "lbl_distance_m": {"zh": "距离 (米)", "en": "Distance (m)", "es": "Distancia (m)", "fr": "Distance (m)", "de": "Distanz (m)", "ja": "距離 (メートル)", "pt": "Distância (m)", "ru": "Дистанция (м)", "ar": "المسافة (م)"}, "lbl_raw_id": {"zh": "自定义 ID", "en": "Custom ID", "es": "ID Personalizado", "fr": "ID Personnalisé", "de": "Eigene ID", "ja": "カスタムID", "pt": "ID Personalizado", "ru": "Пользовательский ID", "ar": "معرف مخصص"}, "lbl_item": {"zh": "物品", "en": "Item", "es": "Objeto", "fr": "Objet", "de": "Gegenstand", "ja": "アイテム", "pt": "Item", "ru": "Предмет", "ar": "العنصر"}, "lbl_count": {"zh": "数量", "en": "Quantity", "es": "Cantidad", "fr": "Quantité", "de": "Menge", "ja": "数量", "pt": "Quantidade", "ru": "Количество", "ar": "الكمية"}, "lbl_weapon": {"zh": "武器", "en": "Weapon", "es": "Arma", "fr": "Arme", "de": "Waffe", "ja": "武器", "pt": "Arma", "ru": "Оружие", "ar": "السلاح"}, "lbl_belong_spirit": {"zh": "归属角色", "en": "Owner Spirit", "es": "Personaje Propietario", "fr": "Personnage Propriétaire", "de": "Zugehöriger Geist", "ja": "帰属キャラクター", "pt": "Personagem Proprietário", "ru": "Владелец", "ar": "الشخصية المالكة"}, "lbl_fashion": {"zh": "时装", "en": "Fashion", "es": "Moda", "fr": "Mode", "de": "Outfit", "ja": "衣装", "pt": "Moda", "ru": "Костюм", "ar": "الزي"}, "lbl_task": {"zh": "任务", "en": "Task / Quest", "es": "Tarea / Misión", "fr": "Tâche / Quête", "de": "Aufgabe / Quest", "ja": "任務", "pt": "Tarefa / Missão", "ru": "Задание / Квест", "ar": "المهمة"}, "lbl_general_money": {"zh": "通用货币 Money", "en": "General Money", "es": "Dinero General", "fr": "Argent Général", "de": "Allgemeines Geld", "ja": "通常通貨 Money", "pt": "Dinheiro Geral", "ru": "Обычная валюта", "ar": "العملة العامة"}, "lbl_gold": {"zh": "金券 Gold", "en": "Gold Voucher", "es": "Vale de Oro", "fr": "Coupon d'Or", "de": "Goldschein", "ja": "金券 Gold", "pt": "Vale de Ouro", "ru": "Золотой ваучер", "ar": "قسيمة الذهب"}, "lbl_binding_gold": {"zh": "绑定金币 BindingGold", "en": "Binding Gold", "es": "Oro Vinculado", "fr": "Or Lié", "de": "Gebundenes Gold", "ja": "有償金貨 BindingGold", "pt": "Ouro Vinculado", "ru": "Связанное золото", "ar": "الذهب المقيد"}, "lbl_not_selected": {"zh": "未选择", "en": "Not selected", "es": "No seleccionado", "fr": "Non sélectionné", "de": "Nicht ausgewählt", "ja": "未選択", "pt": "Não selecionado", "ru": "Не выбрано", "ar": "لم يتم التحديد"}, "esc_back": {"zh": "ESC 返回", "en": "ESC Back", "es": "ESC Volver", "fr": "ESC Retour", "de": "ESC Zurück", "ja": "ESC 戻る", "pt": "ESC Voltar", "ru": "ESC Назад", "ar": "ESC رجوع"}, "shortcuts_hint": {"zh": "快捷键：Q / E 切换子标签 · ESC 返回总览", "en": "Hotkeys: Q / E switch subtabs · ESC to Overview", "es": "Atajos: Q / E cambiar pestañas · ESC al resumen", "fr": "Raccourcis : Q / E pour changer d'onglet · ESC pour l'aperçu", "de": "Tasten: Q / E Unter-Tabs wechseln · ESC zur Übersicht", "ja": "ショートカット：Q / E タブ切替 · ESC 概要へ戻る", "pt": "Atalhos: Q / E alternar abas · ESC ao painel", "ru": "Горячие клавиши: Q / E переключение вкладок · ESC в обзор", "ar": "اختصارات: Q / E لتبديل التبويبات · ESC للرجوع للرئيسية"}, "stat_connection": {"zh": "连接状态", "en": "Connection", "es": "Conexión", "fr": "Connexion", "de": "Verbindung", "ja": "接続状態", "pt": "Conexão", "ru": "Соединение", "ar": "الاتصال"}, "stat_pid": {"zh": "角色 PID", "en": "Player PID", "es": "PID del Jugador", "fr": "PID Joueur", "de": "Spieler-PID", "ja": "プレイヤーPID", "pt": "PID do Jogador", "ru": "PID игрока", "ar": "PID اللاعب"}, "stat_spirit": {"zh": "当前角色", "en": "Active Spirit", "es": "Personaje Activo", "fr": "Personnage Actif", "de": "Aktiver Geist", "ja": "現在キャラクター", "pt": "Personagem Ativo", "ru": "Текущий герой", "ar": "الشخصية النشطة"}, "stat_world_ready": {"zh": "世界就绪", "en": "World Ready", "es": "Mundo Listo", "fr": "Monde Prêt", "de": "Welt bereit", "ja": "ワールド準備", "pt": "Mundo Pronto", "ru": "Мир готов", "ar": "العالم جاهز"}, "stat_coords": {"zh": "坐标 X / Y / Z", "en": "Coords X / Y / Z", "es": "Coords X / Y / Z", "fr": "Coords X / Y / Z", "de": "Koord. X / Y / Z", "ja": "座標 X / Y / Z", "pt": "Coords X / Y / Z", "ru": "Коорд. X / Y / Z", "ar": "الإحداثيات X / Y / Z"}, "stat_yaw": {"zh": "朝向 Yaw", "en": "Facing Yaw", "es": "Orientación Yaw", "fr": "Angle Yaw", "de": "Ausrichtung Yaw", "ja": "向き Yaw", "pt": "Orientação Yaw", "ru": "Угол поворота", "ar": "زاوية الاتجاه"}, "stat_summoned": {"zh": "已召唤载具", "en": "Summoned Vehicles", "es": "Vehículos Invocados", "fr": "Véhicules Invoqués", "de": "Beschworene Fzg.", "ja": "召喚済車両", "pt": "Veículos Invocados", "ru": "Призванный транспорт", "ar": "مركبات مستدعاة"}, "stat_in_seat": {"zh": "车内状态", "en": "Vehicle Seating", "es": "Asiento de Vehículo", "fr": "État Véhicule", "de": "Fahrzeug-Status", "ja": "乗車状態", "pt": "Estado do Veículo", "ru": "Статус в машине", "ar": "حالة الركوب"}, "stat_bag_count": {"zh": "背包物品", "en": "Bag Items", "es": "Objetos de Mochila", "fr": "Objets Sac", "de": "Rucksack-Objekte", "ja": "バッグアイテム", "pt": "Itens Mochila", "ru": "Предметы сумки", "ar": "عناصر الحقيبة"}, "stat_weapon_count": {"zh": "武器数", "en": "Weapons", "es": "Armas", "fr": "Armes", "de": "Waffen", "ja": "武器数", "pt": "Armas", "ru": "Оружие", "ar": "الأسلحة"}, "stat_fashion_count": {"zh": "时装数", "en": "Fashions", "es": "Moda", "fr": "Modes", "de": "Outfits", "ja": "衣装数", "pt": "Roupas", "ru": "Костюмы", "ar": "الأزياء"}, "stat_currencies": {"zh": "货币 / 金券 / 绑定", "en": "Money / Gold / Binding", "es": "Dinero / Oro / Vinculado", "fr": "Argent / Or / Lié", "de": "Geld / Gold / Gebunden", "ja": "通貨 / 金券 / 有償", "pt": "Dinheiro / Ouro / Vinculado", "ru": "Валюта / Золото / Связанное", "ar": "عملة / ذهب / مقيد"}, "th_id": {"zh": "ID", "en": "ID", "es": "ID", "fr": "ID", "de": "ID", "ja": "ID", "pt": "ID", "ru": "ID", "ar": "المعرف"}, "th_name": {"zh": "名称", "en": "Name", "es": "Nombre", "fr": "Nom", "de": "Name", "ja": "名称", "pt": "Nome", "ru": "Название", "ar": "الاسم"}, "th_count": {"zh": "数量", "en": "Count", "es": "Cantidad", "fr": "Quantité", "de": "Anzahl", "ja": "数量", "pt": "Quantidade", "ru": "Количество", "ar": "العدد"}, "th_state": {"zh": "状态", "en": "State", "es": "Estado", "fr": "État", "de": "Status", "ja": "状態", "pt": "Estado", "ru": "Статус", "ar": "الحالة"}, "th_progress": {"zh": "目标进度", "en": "Progress", "es": "Progreso", "fr": "Progression", "de": "Fortschritt", "ja": "進捗", "pt": "Progresso", "ru": "Прогресс", "ar": "التقدم"}, "th_coords": {"zh": "坐标", "en": "Coordinates", "es": "Coordenadas", "fr": "Coordonnées", "de": "Koordinaten", "ja": "座標", "pt": "Coordenadas", "ru": "Координаты", "ar": "الإحداثيات"}, "th_facing": {"zh": "朝向", "en": "Facing", "es": "Orientación", "fr": "Orientation", "de": "Ausrichtung", "ja": "向き", "pt": "Orientação", "ru": "Направление", "ar": "الاتجاه"}, "th_template": {"zh": "模板", "en": "Template", "es": "Plantilla", "fr": "Modèle", "de": "Vorlage", "ja": "テンプレート", "pt": "Modelo", "ru": "Шаблон", "ar": "النموذج"}, "th_fashion": {"zh": "时装", "en": "Fashion", "es": "Moda", "fr": "Mode", "de": "Outfit", "ja": "衣装", "pt": "Roupa", "ru": "Костюм", "ar": "الزي"}, "th_action": {"zh": "操作", "en": "Action", "es": "Acción", "fr": "Action", "de": "Aktion", "ja": "操作", "pt": "Ação", "ru": "Действие", "ar": "الإجراء"}, "th_nickname": {"zh": "昵称", "en": "Nickname", "es": "Apodo", "fr": "Pseudo", "de": "Spitzname", "ja": "ニックネーム", "pt": "Apelido", "ru": "Никнейм", "ar": "الاسم المستعار"}, "th_uid": {"zh": "UID (账号)", "en": "UID (Account)", "es": "UID (Cuenta)", "fr": "UID (Compte)", "de": "UID (Konto)", "ja": "UID (アカウント)", "pt": "UID (Conta)", "ru": "UID (Аккаунт)", "ar": "UID (الحساب)"}, "th_pid": {"zh": "PID (角色)", "en": "PID (Role)", "es": "PID (Rol)", "fr": "PID (Rôle)", "de": "PID (Rolle)", "ja": "PID (キャラ)", "pt": "PID (Personagem)", "ru": "PID (Персонаж)", "ar": "PID (الشخصية)"}, "th_username": {"zh": "用户名", "en": "Username", "es": "Usuario", "fr": "Utilisateur", "de": "Benutzername", "ja": "ユーザー名", "pt": "Nome de Usuário", "ru": "Имя пользователя", "ar": "اسم المستخدم"}, "empty_bag": {"zh": "背包为空", "en": "Backpack is empty", "es": "Mochila vacía", "fr": "Sac vide", "de": "Rucksack ist leer", "ja": "バッグは空です", "pt": "Mochila vazia", "ru": "Инвентарь пуст", "ar": "الحقيبة فارغة"}, "empty_armory": {"zh": "仓库为空", "en": "Armory is empty", "es": "Armería vacía", "fr": "Armurerie vide", "de": "Arsenal ist leer", "ja": "武器庫は空です", "pt": "Arsenal vazio", "ru": "Склад пуст", "ar": "المستودع فارغ"}, "empty_wardrobe": {"zh": "衣橱为空", "en": "Wardrobe is empty", "es": "Guardarropa vacío", "fr": "Garde-robe vide", "de": "Garderobe ist leer", "ja": "ワードローブは空です", "pt": "Guarda-roupa vazio", "ru": "Гардероб пуст", "ar": "الخزانة فارغة"}, "empty_vehicles": {"zh": "还没有载具，先在上方召唤一辆", "en": "No vehicles yet. Summon one above!", "es": "No hay vehículos. ¡Invoca uno arriba!", "fr": "Aucun véhicule. Invoquez-en un ci-dessus !", "de": "Noch keine Fahrzeuge. Spawne oben eins!", "ja": "車両がありません。上部から召喚してください", "pt": "Sem veículos. Invoque um acima!", "ru": "Нет транспорта. Призовите сверху!", "ar": "لا توجد مركبات بعد. قم باستدعاء واحدة أعلاه!"}, "empty_quests": {"zh": "容器为空 —— 进世界后服务端会自动灌入主线链首", "en": "Container is empty — loaded automatically upon entering world", "es": "Contenedor vacío — cargado automáticamente al entrar", "fr": "Conteneur vide — chargé à l'entrée dans le monde", "de": "Container leer — wird beim Betreten geladen", "ja": "コンテナは空です — ワールド突入時に自動ロードされます", "pt": "Contêiner vazio — carregado ao entrar no mundo", "ru": "Контейнер пуст — загружается при входе в мир", "ar": "الحاوية فارغة - يتم تحميلها تلقائياً عند الدخول"}, "empty_npcs": {"zh": "还没有放置任何 NPC", "en": "No NPCs placed yet", "es": "Aún no se han colocado PNJ", "fr": "Aucun PNJ placé pour le moment", "de": "Noch keine NPCs platziert", "ja": "NPCが配置されていません", "pt": "Nenhum PNJ colocado ainda", "ru": "NPC пока не размещены", "ar": "لم يتم وضع أي شخصيات بعد"}, "empty_accounts": {"zh": "没有账号", "en": "No accounts found", "es": "No se encontraron cuentas", "fr": "Aucun compte trouvé", "de": "Keine Konten gefunden", "ja": "アカウントがありません", "pt": "Nenhuma conta encontrada", "ru": "Аккаунтов не найдено", "ar": "لم يتم العثور على حسابات"}, "empty_dict": {"zh": "没有数据 (字典可能未生成，或该类别为空)", "en": "No data (dictionary empty or not generated)", "es": "Sin datos (diccionario no generado)", "fr": "Aucune donnée (dictionnaire vide)", "de": "Keine Daten (Wörterbuch nicht generiert)", "ja": "データがありません (辞書未生成)", "pt": "Sem dados (dicionário não gerado)", "ru": "Нет данных (словарь пуст)", "ar": "لا توجد بيانات"}, "time_morning": {"zh": "清晨 06:00", "en": "Morning 06:00", "es": "Mañana 06:00", "fr": "Matin 06:00", "de": "Morgen 06:00", "ja": "早朝 06:00", "pt": "Manhã 06:00", "ru": "Утро 06:00", "ar": "الصباح 06:00"}, "time_noon": {"zh": "正午 12:00", "en": "Noon 12:00", "es": "Mediodía 12:00", "fr": "Midi 12:00", "de": "Mittag 12:00", "ja": "正午 12:00", "pt": "Meio-dia 12:00", "ru": "Полдень 12:00", "ar": "الظهيرة 12:00"}, "time_dusk": {"zh": "黄昏 18:00", "en": "Dusk 18:00", "es": "Atardecer 18:00", "fr": "Crépuscule 18:00", "de": "Abend 18:00", "ja": "夕暮れ 18:00", "pt": "Entardecer 18:00", "ru": "Закат 18:00", "ar": "المساء 18:00"}, "time_midnight": {"zh": "午夜 00:00", "en": "Midnight 00:00", "es": "Medianoche 00:00", "fr": "Minuit 00:00", "de": "Mitternacht 00:00", "ja": "深夜 00:00", "pt": "Meia-noite 00:00", "ru": "Полночь 00:00", "ar": "منتصف الليل 00:00"}, "money_100k": {"zh": "+10 万", "en": "+100K", "es": "+100K", "fr": "+100K", "de": "+100K", "ja": "+10万", "pt": "+100K", "ru": "+100 тыс", "ar": "+100 ألف"}, "money_1m": {"zh": "+100 万", "en": "+1M", "es": "+1M", "fr": "+1M", "de": "+1M", "ja": "+100万", "pt": "+1M", "ru": "+1 млн", "ar": "+1 مليون"}, "money_99m": {"zh": "+9999 万", "en": "+99M", "es": "+99M", "fr": "+99M", "de": "+99M", "ja": "+9999万", "pt": "+99M", "ru": "+99 млн", "ar": "+99 مليون"}, "btn_ammo_refill": {"zh": "补满弹药", "en": "Refill Ammo", "es": "Llenar Munición", "fr": "Munitions Max", "de": "Munition auffüllen", "ja": "弾薬補充", "pt": "Munição Máx", "ru": "Пополнить патроны", "ar": "ملء الذخيرة"}, "btn_spawn_raw": {"zh": "按 ID 召唤", "en": "Spawn by ID", "es": "Invocar por ID", "fr": "Invoquer par ID", "de": "Nach ID beschwören", "ja": "ID指定召喚", "pt": "Invocar por ID", "ru": "Призвать по ID", "ar": "استدعاء بالمعرف"}, "btn_place_aether": {"zh": "在当前位置放置 Aether", "en": "Place Aether at Pos", "es": "Colocar Aether aquí", "fr": "Placer Aether ici", "de": "Aether platzieren", "ja": "現在地にAether配置", "pt": "Colocar Aether aqui", "ru": "Разместить Aether", "ar": "وضع Aether هنا"}, "btn_reveal_map": {"zh": "一键全开地图", "en": "Reveal Entire Map", "es": "Revelar Todo el Mapa", "fr": "Révéler Toute la Carte", "de": "Ganze Karte aufdecken", "ja": "マップ全開放", "pt": "Revelar Mapa Completo", "ru": "Открыть всю карту", "ar": "كشف الخريطة كاملة"}, "btn_sync_teleport": {"zh": "下发 SyncTeleport", "en": "Send SyncTeleport", "es": "Enviar SyncTeleport", "fr": "Envoyer SyncTeleport", "de": "SyncTeleport senden", "ja": "SyncTeleport送信", "pt": "Enviar SyncTeleport", "ru": "Отправить SyncTeleport", "ar": "إرسال SyncTeleport"}, "btn_fix_shop": {"zh": "推送商店货架", "en": "Push Shop Goods", "es": "Actualizar Tienda", "fr": "Pousser Magasin", "de": "Shop-Waren senden", "ja": "ショップ商品送信", "pt": "Atualizar Loja", "ru": "Обновить магазин", "ar": "تحديث المتجر"}, "btn_fix_house": {"zh": "购买 / 下发房产", "en": "Grant Real Estate", "es": "Comprar Inmueble", "fr": "Accorder Propriété", "de": "Immobilie kaufen", "ja": "不動産購入/付与", "pt": "Conceder Imóvel", "ru": "Выдать недвижимость", "ar": "شراء / منح عقار"}, "btn_list_raids": {"zh": "列出所有 Raid", "en": "List All Raids", "es": "Listar Raids", "fr": "Lister Raids", "de": "Raids auflisten", "ja": "全レイド一覧", "pt": "Listar Raids", "ru": "Список рейдов", "ar": "قائمة الغارات"}, "h_session_status": {"zh": "会话状态", "en": "Session Status", "es": "Estado de Sesión", "fr": "État de la Session", "de": "Sitzungsstatus", "ja": "セッション状態", "pt": "Estado da Sessão", "ru": "Статус сессии", "ar": "حالة الجلسة"}, "h_snapshots": {"zh": "数据快照", "en": "Data Snapshots", "es": "Instantánea de Datos", "fr": "Instantanés de Données", "de": "Daten-Schnappschüsse", "ja": "データスナップショット", "pt": "Instantâneo de Dados", "ru": "Снимки данных", "ar": "لقطات البيانات"}, "h_dict_status": {"zh": "字典状态", "en": "Catalog Status", "es": "Estado del Catálogo", "fr": "État du Catalogue", "de": "Katalogstatus", "ja": "カタログ状態", "pt": "Estado do Catálogo", "ru": "Статус каталога", "ar": "حالة الدليل"}, "h_time_slider": {"zh": "时间控制", "en": "Time Control", "es": "Control de Tiempo", "fr": "Contrôle du Temps", "de": "Zeitsteuerung", "ja": "時間操作", "pt": "Controle de Tempo", "ru": "Управление временем", "ar": "التحكم في الوقت"}, "h_weather": {"zh": "天气模拟", "en": "Weather Simulation", "es": "Simulación del Clima", "fr": "Simulation Météo", "de": "Wettersimulation", "ja": "天候シミュレーション", "pt": "Simulação de Clima", "ru": "Симуляция погоды", "ar": "محاكاة الطقس"}, "h_bag_items": {"zh": "物品发放", "en": "Item Delivery", "es": "Entrega de Objetos", "fr": "Distribution d'Objets", "de": "Item-Vergabe", "ja": "アイテム付与", "pt": "Entrega de Itens", "ru": "Выдача предметов", "ar": "تسليم العناصر"}, "h_cur_bag": {"zh": "当前背包", "en": "Current Inventory", "es": "Inventario Actual", "fr": "Inventaire Actuel", "de": "Aktuelles Inventar", "ja": "現在のインベントリ", "pt": "Inventário Atual", "ru": "Текущий инвентарь", "ar": "المخزون الحالي"}, "h_weapon_grant": {"zh": "武器发放", "en": "Weapon Delivery", "es": "Entrega de Armas", "fr": "Distribution d'Armes", "de": "Waffen-Vergabe", "ja": "武器付与", "pt": "Entrega de Armas", "ru": "Выдача оружия", "ar": "تسليم الأسلحة"}, "h_cur_weapons": {"zh": "武器仓库", "en": "Weapon Armory", "es": "Arsenal de Armas", "fr": "Arsenal d'Armes", "de": "Waffenlager", "ja": "武器庫", "pt": "Arsenal de Armas", "ru": "Оружейная", "ar": "مستودع الأسلحة"}, "h_fashion_grant": {"zh": "时装穿戴与发放", "en": "Fashion & Wardrobe", "es": "Moda y Armario", "fr": "Tenues & Garde-robe", "de": "Mode & Kleiderschrank", "ja": "衣装・ワードローブ", "pt": "Moda e Guarda-roupa", "ru": "Костюмы и Гардероб", "ar": "الأزياء وخزانة الملابس"}, "h_cur_fashions": {"zh": "已发时装列表", "en": "Owned Outfits", "es": "Atuendos Obtenidos", "fr": "Tenues Possédées", "de": "Besessene Outfits", "ja": "所持衣装一覧", "pt": "Trajes Obtidos", "ru": "Список полученных костюмов", "ar": "قائمة الأزياء المملوكة"}, "h_money_val": {"zh": "钱包数值自由写入", "en": "Wallet Balances", "es": "Saldos de Billetera", "fr": "Soldes Portefeuille", "de": "Guthaben anpassen", "ja": "所持金・通貨設定", "pt": "Saldos da Carteira", "ru": "Баланс кошелька", "ar": "أرصدة المحفظة"}, "h_shop_direct": {"zh": "商城直通发货", "en": "Direct Mall Checkout", "es": "Entrega Directa de Tienda", "fr": "Achat Direct Boutique", "de": "Direktkauf im Shop", "ja": "ショップ直通決済", "pt": "Compra Direta da Loja", "ru": "Прямая выдача из магазина", "ar": "الشراء المباشر من المتجر"}, "h_task_accept": {"zh": "全量任务检索与接取", "en": "Task Search & Accept", "es": "Buscar y Aceptar Tareas", "fr": "Recherche & Acceptation", "de": "Aufgaben suchen & annehmen", "ja": "全任務検索・受注", "pt": "Pesquisar e Aceitar Tarefas", "ru": "Поиск и принятие заданий", "ar": "البحث عن المهام وقبولها"}, "h_task_chain": {"zh": "主线剧情链推进", "en": "Main Story Progression", "es": "Progreso de Historia Principal", "fr": "Progression Histoire", "de": "Hauptstory-Fortschritt", "ja": "メインストーリー進行", "pt": "Progresso da História Principal", "ru": "Продвижение сюжета", "ar": "تقدم القصة الرئيسية"}, "h_switch_spirit": {"zh": "切人演出实时触发", "en": "Character Switch Cutscenes", "es": "Cinemáticas de Cambio de Personaje", "fr": "Cinématiques de Changement", "de": "Charakterwechsel-Zwischensequenzen", "ja": "キャラ交代演出トリガー", "pt": "Cinemáticas de Troca de Personagem", "ru": "Катсцены переключения персонажей", "ar": "مشاهد تبديل الشخصية"}, "h_cinematics": {"zh": "电影播片 (SyncPlayTL)", "en": "Cinematic Timelines", "es": "Cinemáticas de Película", "fr": "Scènes Cinématiques", "de": "Filmsequenzen", "ja": "映画カットシーン", "pt": "Cinemáticas de Filme", "ru": "Кинематографические сцены", "ar": "المشاهد السينمائية"}, "h_dialogs": {"zh": "对话过场与语音", "en": "Dialogues & Voice", "es": "Diálogos y Voces", "fr": "Dialogues & Voix", "de": "Dialoge & Sprachausgabe", "ja": "会話演出・ボイス", "pt": "Diálogos e Vozes", "ru": "Диалоги и Озвучка", "ar": "الحوارات والأصوات"}, "h_summon_vehicle": {"zh": "召唤载具", "en": "Summon Vehicle", "es": "Invocar Vehículo", "fr": "Invoquer Véhicule", "de": "Fahrzeug beschwören", "ja": "乗り物召喚", "pt": "Invocar Veículo", "ru": "Призвать транспорт", "ar": "استدعاء مركبة"}, "h_summoned_list": {"zh": "已召唤载具列表", "en": "Summoned Vehicles", "es": "Vehículos Invocados", "fr": "Véhicules Invoqués", "de": "Beschworene Fahrzeuge", "ja": "召喚済み乗り物一覧", "pt": "Veículos Invocados", "ru": "Список призванного транспорта", "ar": "قائمة المركبات المستدعاة"}, "h_enemy_groups": {"zh": "敌人组激活", "en": "Enemy Group Spawn", "es": "Generar Grupo de Enemigos", "fr": "Apparition Groupe d'Ennemis", "de": "Gegnergruppen spawnen", "ja": "敵グループ出現", "pt": "Gerar Grupo de Inimigos", "ru": "Спавн группы врагов", "ar": "توليد مجموعة الأعداء"}, "h_agent_spawn": {"zh": "单体 Agent 诊断生成", "en": "Spawn Agent Monster", "es": "Generar Agente / Monstruo", "fr": "Générer Agent / Monstre", "de": "Agent / Monster spawnen", "ja": "単体Agent召喚", "pt": "Gerar Agente / Monstro", "ru": "Спавн монстра / агента", "ar": "توليد وحش / وكيل"}, "h_street_npc": {"zh": "街区店员与 NPC 放置", "en": "Street NPCs & Shopkeepers", "es": "NPCs y Vendedores Callejeros", "fr": "PNJ & Vendeurs de Rue", "de": "Straßen-NPCs & Verkäufer", "ja": "街頭NPC・店員配置", "pt": "NPCs e Comerciantes", "ru": "Уличные NPC и Торговцы", "ar": "شخصيات الشارع والبائعين"}, "h_id_dict": {"zh": "全量数据字典检索", "en": "Catalog & ID Dictionary", "es": "Catálogo y Diccionario de IDs", "fr": "Catalogue & Dictionnaire", "de": "ID-Katalog & Wörterbuch", "ja": "全量データ辞書検索", "pt": "Catálogo e Dicionário de IDs", "ru": "Каталог и Справочник ID", "ar": "فهرس وقاموس المعرفات"}, "h_baseline_sync": {"zh": "基线同步与修复", "en": "Baseline Sync & Fixes", "es": "Sincronización de Base y Correcciones", "fr": "Sync de Base & Correctifs", "de": "Basis-Synchronisierung & Korrekturen", "ja": "ベースライン同期・修復", "pt": "Sincronização de Linha de Base", "ru": "Синхронизация базы и исправления", "ar": "مزامنة القاعدة والإصلاحات"}, "h_account_create": {"zh": "新建账号", "en": "Create Account", "es": "Crear Cuenta", "fr": "Créer un Compte", "de": "Konto erstellen", "ja": "新規アカウント作成", "pt": "Criar Conta", "ru": "Создать аккаунт", "ar": "إنشاء حساب"}, "h_account_list": {"zh": "账号列表", "en": "Account List", "es": "Lista de Cuentas", "fr": "Liste des Comptes", "de": "Kontoliste", "ja": "アカウント一覧", "pt": "Lista de Contas", "ru": "Список аккаунтов", "ar": "قائمة الحسابات"}, "weather_1": {"zh": "晴天", "en": "Clear", "es": "Despejado", "fr": "Ensoleillé", "de": "Sonnig", "ja": "晴れ", "pt": "Ensolarado", "ru": "Ясно", "ar": "مشمس"}, "weather_2": {"zh": "阴天", "en": "Overcast", "es": "Nublado", "fr": "Nuageux", "de": "Bewölkt", "ja": "曇り", "pt": "Nublado", "ru": "Пасмурно", "ar": "غائم"}, "weather_3": {"zh": "雨天", "en": "Rainy", "es": "Lluvioso", "fr": "Pluvieux", "de": "Regnerisch", "ja": "雨天", "pt": "Chuvoso", "ru": "Дождь", "ar": "ممطر"}, "weather_4": {"zh": "大风", "en": "Windy", "es": "Ventoso", "fr": "Venteux", "de": "Windig", "ja": "強風", "pt": "Ventoso", "ru": "Ветрено", "ar": "عاصف"}, "weather_5": {"zh": "雨后", "en": "Post-Rain", "es": "Tras la lluvia", "fr": "Après la pluie", "de": "Nach dem Regen", "ja": "雨上がり", "pt": "Após a chuva", "ru": "После дождя", "ar": "بعد المطر"}, "step_hp": {"zh": "玩家单位血量", "en": "Player HP", "es": "Salud del Jugador", "fr": "Points de Vie", "de": "Spieler-LP", "ja": "プレイヤーHP", "pt": "Vida do Jogador", "ru": "HP Игрока", "ar": "صحة اللاعب"}, "step_systems": {"zh": "系统解锁 (195项)", "en": "Unlock Systems (195)", "es": "Sistemas (195)", "fr": "Systèmes (195)", "de": "Systeme (195)", "ja": "システム全開放(195)", "pt": "Sistemas (195)", "ru": "Разблокировка систем (195)", "ar": "فتح الأنظمة (195)"}, "step_actions": {"zh": "交互动作 (54个)", "en": "Emotes & Actions (54)", "es": "Acciones (54)", "fr": "Actions (54)", "de": "Aktionen (54)", "ja": "アクション(54)", "pt": "Ações (54)", "ru": "Действия и эмоции (54)", "ar": "الإجراءات (54)"}, "step_map": {"zh": "地图传送点与迷雾", "en": "Waypoints & Fog", "es": "Puntos y Niebla", "fr": "Points & Brouillard", "de": "Wegpunkte & Nebel", "ja": "マップ拠点・霧", "pt": "Pontos e Névoa", "ru": "Телепорты и туман", "ar": "النقاط والضباب"}, "step_factions": {"zh": "阵营数据", "en": "Faction Data", "es": "Facciones", "fr": "Factions", "de": "Fraktionen", "ja": "陣営データ", "pt": "Facções", "ru": "Фракции", "ar": "بيانات الفصائل"}, "step_metro": {"zh": "地铁运行线路", "en": "Metro Lines", "es": "Líneas de Metro", "fr": "Lignes de Métro", "de": "U-Bahn-Linien", "ja": "地下鉄運行路線", "pt": "Linhas do Metrô", "ru": "Линии метро", "ar": "خطوط المترو"}, "step_achievements": {"zh": "成就系统", "en": "Achievements", "es": "Logros", "fr": "Succès", "de": "Erfolge", "ja": "実績システム", "pt": "Conquistas", "ru": "Достижения", "ar": "الإنجازات"}, "step_pedia": {"zh": "都市百科", "en": "City Pedia", "es": "Enciclopedia Urbana", "fr": "Encyclopédie Urbaine", "de": "Stadtlexikon", "ja": "都市百科", "pt": "Enciclopédia Urbana", "ru": "Городская энциклопедия", "ar": "موسوعة المدينة"}, "step_handbook": {"zh": "手账与图鉴", "en": "Handbook & Badges", "es": "Manual y Placas", "fr": "Manuel & Badges", "de": "Handbuch & Abzeichen", "ja": "手帳・バッジ", "pt": "Manual e Emblemas", "ru": "Справочник и значки", "ar": "الكتيب والشارات"}, "step_phone": {"zh": "手机壁纸与装扮", "en": "Phone Personalization", "es": "Móvil y Fondos", "fr": "Personnalisation Mobile", "de": "Handy-Design", "ja": "スマホ着せ替え", "pt": "Celular e Temas", "ru": "Кастомизация телефона", "ar": "تخصيص الهاتف"}, "step_combatpower": {"zh": "角色战力", "en": "Combat Power", "es": "Poder de Combate", "fr": "Puissance de Combat", "de": "Kampfkraft", "ja": "戦闘力", "pt": "Poder de Combate", "ru": "Боевая мощь", "ar": "القوة القتالية"}, "step_tasks": {"zh": "任务列表基线", "en": "Task List Baseline", "es": "Base de Tareas", "fr": "Base des Tâches", "de": "Aufgaben-Basis", "ja": "任務リスト基線", "pt": "Base de Tarefas", "ru": "Базовые задачи", "ar": "قاعدة قائمة المهام"}, "step_fashions": {"zh": "穿戴时装同步", "en": "Wardrobe Sync", "es": "Sincronizar Ropa", "fr": "Sync des Tenues", "de": "Kleidung synchronisieren", "ja": "着用衣装同期", "pt": "Sincronizar Roupas", "ru": "Синхронизация одежды", "ar": "مزامنة خزانة الملابس"}, "status_online": {"zh": "在线", "en": "Online", "es": "En línea", "fr": "En ligne", "de": "Online", "ja": "オンライン", "pt": "Online", "ru": "В сети", "ar": "متصل"}, "status_offline": {"zh": "离线", "en": "Offline", "es": "Desconectado", "fr": "Hors ligne", "de": "Offline", "ja": "オフライン", "pt": "Desconectado", "ru": "Не в сети", "ar": "غير متصل"}, "status_ready": {"zh": "就绪", "en": "Ready", "es": "Listo", "fr": "Prêt", "de": "Bereit", "ja": "待機完了", "pt": "Pronto", "ru": "Готово", "ar": "جاهز"}, "status_loading": {"zh": "加载中", "en": "Loading", "es": "Cargando", "fr": "Chargement", "de": "Wird geladen", "ja": "読込中", "pt": "Carregando", "ru": "Загрузка", "ar": "جارٍ التحميل"}, "lbl_empty_container": {"zh": "未进世界时容器为空", "en": "Container empty outside world", "es": "Contenedor vacío fuera de partida", "fr": "Conteneur vide hors du monde", "de": "Behälter leer außerhalb der Welt", "ja": "非入室時はコンテナが空です", "pt": "Recipiente vazio fora do mundo", "ru": "Контейнер пуст вне мира", "ar": "الحاوية فارغة خارج العالم"}, "lbl_copied": {"zh": "已复制到剪贴板", "en": "Copied to clipboard", "es": "Copiado al portapapeles", "fr": "Copié dans le presse-papiers", "de": "In Zwischenablage kopiert", "ja": "クリップボードにコピーしました", "pt": "Copiado para a área de transferência", "ru": "Скопировано в буфер обмена", "ar": "تم النسخ إلى الحافظة"}, "toast_success": {"zh": "新成就解锁", "en": "FEAT UNLOCKED", "es": "LOGRO DESBLOQUEADO", "fr": "SUCCÈS DÉVERROUILLÉ", "de": "ERFOLG FREIGESCHALTET", "ja": "実績アンロック", "pt": "CONQUISTA DESBLOQUEADA", "ru": "ДОСТИЖЕНИЕ РАЗБЛОКИРОВАНО", "ar": "تم فتح الإنجاز"}, "toast_error": {"zh": "操作提示", "en": "SYSTEM ALERT", "es": "AVISO DEL SISTEMA", "fr": "ALERTE SYSTÈME", "de": "SYSTEMWARNUNG", "ja": "システム警告", "pt": "ALERTA DO SISTEMA", "ru": "СИСТЕМНОЕ ПРЕДУПРЕЖДЕНИЕ", "ar": "تنبيه النظام"}, "toast_info": {"zh": "系统通知", "en": "SYSTEM NOTICE", "es": "NOTIFICACIÓN", "fr": "NOTIFICATION", "de": "SYSTEMMITTEILUNG", "ja": "システム通知", "pt": "NOTIFICAÇÃO", "ru": "СИСТЕМНОЕ УВЕДОМЛЕНИЕ", "ar": "إشعار النظام"}};
+const LANG_LIST = [{"code": "zh", "name": "简体中文", "native": "简体中文", "flag": "🇨🇳"}, {"code": "en", "name": "English", "native": "English", "flag": "🇺🇸"}, {"code": "es", "name": "Spanish", "native": "Español", "flag": "🇪🇸"}, {"code": "fr", "name": "French", "native": "Français", "flag": "🇫🇷"}, {"code": "de", "name": "German", "native": "Deutsch", "flag": "🇩🇪"}, {"code": "ja", "name": "Japanese", "native": "日本語", "flag": "🇯🇵"}, {"code": "pt", "name": "Portuguese", "native": "Português", "flag": "🇵🇹"}, {"code": "ru", "name": "Russian", "native": "Русский", "flag": "🇷🇺"}, {"code": "ar", "name": "Arabic", "native": "العربية", "flag": "🇸🇦", "rtl": true}];
+
+let currentLang = 'zh';
+try { currentLang = localStorage.getItem('Ananta-lang') || 'zh'; } catch (e) { }
+
+function t(key, fallback) {
+  if (I18N_DICT[key] && I18N_DICT[key][currentLang]) {
+    return I18N_DICT[key][currentLang];
+  }
+  return fallback || (I18N_DICT[key] ? I18N_DICT[key]['zh'] : key);
+}
+
+function applyLanguage(lang) {
+  currentLang = lang;
+  try { localStorage.setItem('Ananta-lang', lang); } catch (e) { }
+
+  const langObj = LANG_LIST.find(x => x.code === lang) || LANG_LIST[0];
+  document.documentElement.lang = lang;
+  if (langObj.rtl) {
+    document.documentElement.setAttribute('dir', 'rtl');
+  } else {
+    document.documentElement.removeAttribute('dir');
+  }
+
+  $('currentLangLabel').textContent = langObj.native;
+
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const k = el.dataset.i18n;
+    if (I18N_DICT[k] && I18N_DICT[k][lang]) {
+      el.textContent = I18N_DICT[k][lang];
+    }
+  });
+
+  renderLangMenu();
+  renderSubtabs();
+  renderStatus();
+  renderContent();
+  loadWeatherOptions();
+  loadBaselineSteps();
+}
+
+function renderLangMenu() {
+  const menu = $('langMenu');
+  if (!menu) return;
+  menu.innerHTML = LANG_LIST.map(l => {
+    const active = l.code === currentLang ? ' active' : '';
+    return '<button class="lang-item' + active + '" onclick="selectLanguage(\'' + l.code + '\')">'
+      + '<span class="flag">' + l.flag + '</span>'
+      + '<span>' + l.native + '</span>'
+      + '</button>';
+  }).join('');
+}
+
+function toggleLangMenu() {
+  $('langMenu').classList.toggle('open');
+}
+function selectLanguage(lang) {
+  applyLanguage(lang);
+  $('langMenu').classList.remove('open');
+}
+
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('.lang-dropdown')) {
+    const m = $('langMenu');
+    if (m) m.classList.remove('open');
+  }
+});
+
+const state = {
+  status: null,
+  content: null,
+  dict: {},
+  dictMeta: null,
+  fleet: [],
+  accounts: [],
+  accRoot: '',
+  timeDragging: false,
+  story: null,
+  activeTab: 'overview',
+  activeSub: 'ov-status',
+};
+
+const TAB_SUBTABS = {
+  overview: [
+    { id: 'ov-status', labelKey: 'sub_overview', defaultLabel: '会话总览' },
+    { id: 'ov-logs', labelKey: 'sub_logs', defaultLabel: '操作日志' },
+  ],
+  world: [
+    { id: 'w-time', labelKey: 'sub_time_weather', defaultLabel: '时间与天气' },
+    { id: 'w-teleport', labelKey: 'sub_teleport', defaultLabel: '坐标传送' },
+    { id: 'w-raid', labelKey: 'sub_raid', defaultLabel: '跨场景切换' },
+    { id: 'w-map', labelKey: 'sub_map_nav', defaultLabel: '地图探索' },
+  ],
+  assets: [
+    { id: 'a-items', labelKey: 'sub_items', defaultLabel: '背包道具', badgeId: 'badgeItems' },
+    { id: 'a-weapons', labelKey: 'sub_weapons', defaultLabel: '武器仓库', badgeId: 'badgeWeapons' },
+    { id: 'a-fashions', labelKey: 'sub_fashions', defaultLabel: '时装衣橱', badgeId: 'badgeFashions' },
+    { id: 'a-money', labelKey: 'sub_money', defaultLabel: '货币钱包' },
+  ],
+  missions: [
+    { id: 'm-container', labelKey: 'sub_quests', defaultLabel: '当前任务容器', dot: true },
+    { id: 'm-accept', labelKey: 'sub_accept_tasks', defaultLabel: '任务接取' },
+    { id: 'm-chain', labelKey: 'sub_story_chain', defaultLabel: '主线推进' },
+    { id: 'm-switch', labelKey: 'sub_switch_spirit', defaultLabel: '切人动画' },
+    { id: 'm-cinema', labelKey: 'sub_cinematics', defaultLabel: '电影播片' },
+    { id: 'm-dialog', labelKey: 'sub_dialogs', defaultLabel: '剧情对话' },
+  ],
+  entities: [
+    { id: 'e-garage', labelKey: 'sub_garage', defaultLabel: '载具车库', badgeId: 'badgeGarage' },
+    { id: 'e-enemies', labelKey: 'sub_enemies', defaultLabel: '敌人生成' },
+    { id: 'e-street', labelKey: 'sub_street_npc', defaultLabel: '店员与NPC放置' },
+  ],
+  system: [
+    { id: 's-dict', labelKey: 'sub_dict', defaultLabel: 'ID 字典' },
+    { id: 's-fixes', labelKey: 'sub_fixes', defaultLabel: '功能修复' },
+    { id: 's-accounts', labelKey: 'sub_accounts', defaultLabel: '账号与存档' },
+  ]
+};
+
+const CAT_NAMES = {
+  sport: 'cat_sport', regular: 'cat_regular', suv: 'cat_suv', van: 'cat_van',
+  truck: 'cat_truck', moto: 'cat_moto', water: 'cat_water', air: 'cat_air',
+};
+
+const DICT_COLUMNS = {
+  characters:   [['th_id','id'],['colUnitId','unitId'],['colZh','zh'],['colEn','en']],
+  weapons:      [['th_id','id'],['colZh','zh'],['colEn','en'],['colBelong','belong'],['colType','type']],
+  fashions:     [['th_id','id'],['colZh','zh'],['colEn','en'],['colSpirit','spirit']],
+  vehicles:     [['th_id','id'],['colZh','zh'],['colEn','en'],['colBrand','brand'],['colSeats','seats']],
+  vehicleTypes: [['th_id','id'],['colZh','zh'],['colEn','en']],
+  items:        [['th_id','id'],['colZh','zh'],['colEn','en'],['colSubType','subType'],['colPrice','price']],
+  tasks:        [['th_id','id'],['colZh','zh'],['colEn','en'],['colChapter','chapter']],
+  chapters:     [['th_id','id'],['colZh','zh'],['colEn','en']],
+  mall:         [['th_id','id'],['colZh','zh'],['colEn','en'],['colBindId','bindId'],['colCurrency','currency'],['colPrice','price']],
+};
+
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s == null ? '' : s).replace(/[&<>"]/g, (c) => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;' }[c]));
+const label = (zh, en) => (zh && String(zh).trim()) ? zh : (en || '');
+const num = (v, d) => { const n = parseFloat(v); return Number.isFinite(n) ? n : (d || 0); };
+const fmt = (n, d) => Number(n == null ? 0 : n).toFixed(d === undefined ? 1 : d);
+
+async function api(path, opts) {
+  const res = await fetch(path, opts);
+  return await res.json().catch(() => ({ ok: false, error: '响应不是合法 JSON' }));
+}
+function post(path, body) {
+  return api(path, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body || {}) });
+}
+function log(text, kind) {
+  const el = $('log');
+  if (!el) return;
+  const t = new Date().toLocaleTimeString('zh-CN', { hour12: false });
+  el.innerHTML = '<span class="t">' + t + '</span> <span class="' + (kind || '') + '">' + esc(text) + '</span>\n' + el.innerHTML;
+}
+function clearLog() { $('log').innerHTML = ''; }
+
+function snack(text, kind) {
+  const container = $('snackbar');
+  if (!container) return;
+
+  const snackText = $('snackText');
+  if (snackText) snackText.textContent = text;
+
+  const isErr = kind === 'error';
+
+  
+  const starSvg = isErr
+    ? `<svg class="toast-star-svg err" viewBox="0 0 56 56" fill="none">
+         <defs>
+           <linearGradient id="alertHoloOuter" x1="0%" y1="0%" x2="100%" y2="100%">
+             <stop offset="0%" stop-color="#fee2e2" />
+             <stop offset="25%" stop-color="#fca5a5" />
+             <stop offset="50%" stop-color="#f87171" />
+             <stop offset="75%" stop-color="#ef4444" />
+             <stop offset="100%" stop-color="#be123c" />
+           </linearGradient>
+           <linearGradient id="alertHoloInner" x1="0%" y1="0%" x2="100%" y2="100%">
+             <stop offset="0%" stop-color="#fff1f2" />
+             <stop offset="40%" stop-color="#fecdd3" />
+             <stop offset="100%" stop-color="#fda4af" />
+           </linearGradient>
+         </defs>
+         <path d="M 33 2 C 34 2, 35 3, 35 4 L 37 14 C 37 15, 38 16, 39 16 L 50 20 C 52 21, 52 23, 50 24 L 41 29 C 40 30, 40 31, 41 32 L 44 43 C 45 45, 43 47, 41 46 L 35 42 L 34 46 C 33 48, 31 48, 30 46 L 27 41 C 27 41, 26 41, 25 41 L 5 41 C 3.5 41, 2.5 40, 2.5 38.5 L 2.5 34.5 C 2.5 33, 3.5 32, 5 32 L 12 32 L 7 21 C 6 19.5, 7 18, 9 18 L 17 18 C 18 18, 19 17, 19.5 16 L 31 3 C 31.5 2.2, 32.2 2, 33 2 Z" fill="url(#alertHoloOuter)" />
+         <path d="M 33 6 L 36.5 15.5 C 37 16.5, 38 17.2, 39 17.5 L 47 19.8 C 47.8 20, 47.8 21.2, 47 21.7 L 40 25.5 C 39 26, 38.5 27, 38.8 28 L 41 36.5 C 41.3 37.3, 40.4 38, 39.7 37.5 L 33.5 33.5 C 32.5 33, 31.5 33.2, 30.8 33.8 L 26.5 38 C 25.8 38.6, 24.8 38, 25 37.2 L 26.8 32 C 27 31, 26.5 30, 25.5 29.5 L 18 25 L 15 19.8 L 22.5 19.2 C 23.8 19.1, 24.8 18.2, 25.2 17 L 31.5 7.5 C 31.8 6.8, 32.5 6.5, 33 6 Z" fill="#201416" stroke="#201416" stroke-width="2" stroke-linejoin="round" />
+         <path d="M 33 9 L 35.8 16.5 L 43.5 18.8 L 38 23.5 L 39.8 31.5 L 33.5 28 L 27.5 31.5 L 29 25 L 20 21 L 25 18.5 L 33 9 Z" fill="url(#alertHoloInner)" />
+         <rect x="3.5" y="32" width="22" height="9" rx="2" fill="url(#alertHoloOuter)" />
+         <text x="14.5" y="38.8" font-family="'Bahnschrift', 'PingFang SC', sans-serif" font-size="6.5" font-weight="900" fill="#201416" text-anchor="middle" letter-spacing="0.4">ALERT</text>
+       </svg>`
+    : `<svg class="toast-star-svg" viewBox="0 0 56 56" fill="none">
+         <defs>
+           <linearGradient id="holoOuter" x1="0%" y1="0%" x2="100%" y2="100%">
+             <stop offset="0%" stop-color="#e0fbfc" />
+             <stop offset="25%" stop-color="#86efac" />
+             <stop offset="50%" stop-color="#38bdf8" />
+             <stop offset="75%" stop-color="#818cf8" />
+             <stop offset="100%" stop-color="#c084fc" />
+           </linearGradient>
+           <linearGradient id="holoInner" x1="0%" y1="0%" x2="100%" y2="100%">
+             <stop offset="0%" stop-color="#f0fdf4" />
+             <stop offset="40%" stop-color="#bae6fd" />
+             <stop offset="100%" stop-color="#c7d2fe" />
+           </linearGradient>
+         </defs>
+         <path d="M 33 2 C 34 2, 35 3, 35 4 L 37 14 C 37 15, 38 16, 39 16 L 50 20 C 52 21, 52 23, 50 24 L 41 29 C 40 30, 40 31, 41 32 L 44 43 C 45 45, 43 47, 41 46 L 35 42 L 34 46 C 33 48, 31 48, 30 46 L 27 41 C 27 41, 26 41, 25 41 L 5 41 C 3.5 41, 2.5 40, 2.5 38.5 L 2.5 34.5 C 2.5 33, 3.5 32, 5 32 L 12 32 L 7 21 C 6 19.5, 7 18, 9 18 L 17 18 C 18 18, 19 17, 19.5 16 L 31 3 C 31.5 2.2, 32.2 2, 33 2 Z" fill="url(#holoOuter)" />
+         <path d="M 33 6 L 36.5 15.5 C 37 16.5, 38 17.2, 39 17.5 L 47 19.8 C 47.8 20, 47.8 21.2, 47 21.7 L 40 25.5 C 39 26, 38.5 27, 38.8 28 L 41 36.5 C 41.3 37.3, 40.4 38, 39.7 37.5 L 33.5 33.5 C 32.5 33, 31.5 33.2, 30.8 33.8 L 26.5 38 C 25.8 38.6, 24.8 38, 25 37.2 L 26.8 32 C 27 31, 26.5 30, 25.5 29.5 L 18 25 L 15 19.8 L 22.5 19.2 C 23.8 19.1, 24.8 18.2, 25.2 17 L 31.5 7.5 C 31.8 6.8, 32.5 6.5, 33 6 Z" fill="#141720" stroke="#141720" stroke-width="2" stroke-linejoin="round" />
+         <path d="M 33 9 L 35.8 16.5 L 43.5 18.8 L 38 23.5 L 39.8 31.5 L 33.5 28 L 27.5 31.5 L 29 25 L 20 21 L 25 18.5 L 33 9 Z" fill="url(#holoInner)" />
+         <rect x="3.5" y="32" width="22" height="9" rx="2" fill="url(#holoOuter)" />
+         <text x="14.5" y="38.8" font-family="'Bahnschrift', 'PingFang SC', sans-serif" font-size="6.8" font-weight="900" fill="#11141c" text-anchor="middle" letter-spacing="0.5">FEATS</text>
+       </svg>`;
+
+  const card = document.createElement('div');
+  card.className = 'game-toast toast-' + (kind || 'info');
+  card.innerHTML = `
+    <div class="toast-badge-wrap">
+      ${starSvg}
+    </div>
+    <div class="toast-content">
+      <div class="toast-msg">${esc(text)}</div>
+    </div>
+    <div class="toast-close" title="Close">✕</div>
+  `;
+
+  function dismiss() {
+    if (card.classList.contains('leaving')) return;
+    card.classList.add('leaving');
+    setTimeout(() => { card.remove(); }, 240);
+  }
+  card.onclick = dismiss;
+
+  container.appendChild(card);
+
+  const existing = container.querySelectorAll('.game-toast:not(.leaving)');
+  if (existing.length > 5) {
+    existing[0].classList.add('leaving');
+    setTimeout(() => { existing[0].remove(); }, 200);
+  }
+
+  setTimeout(dismiss, 3600);
+}
+
+function hideSnack() {
+  const container = $('snackbar');
+  if (!container) return;
+  const toasts = container.querySelectorAll('.game-toast');
+  toasts.forEach(t => t.remove());
+}
+
+async function call(path, body, okText) {
+  const r = await post(path, body);
+  log(path + ' ' + (body ? JSON.stringify(body) : '') + ' => ' + JSON.stringify(r), r.ok === false ? 'err' : 'ok');
+  if (r.ok === false) snack(r.error || '操作失败', 'error');
+  else if (okText) snack(okText, 'ok');
+  await refreshAll();
+  return r;
+}
+
+function setPrimaryTab(tabId) {
+  state.activeTab = tabId;
+  document.querySelectorAll('.nav-tab-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.tab === tabId);
+  });
+  document.querySelectorAll('.tab-content').forEach(c => {
+    c.style.display = c.id === ('tab-' + tabId) ? 'block' : 'none';
+  });
+
+  renderSubtabs();
+
+  const list = TAB_SUBTABS[tabId] || [];
+  if (list.length > 0) {
+    setSubtab(list[0].id);
+  }
+}
+
+function renderSubtabs() {
+  const container = $('subtabContainer');
+  if (!container) return;
+  const list = TAB_SUBTABS[state.activeTab] || [];
+  container.innerHTML = list.map(item => {
+    const text = t(item.labelKey, item.defaultLabel);
+    const badge = item.badgeId ? '<span class="nav-badge" id="' + item.badgeId + '">0</span>' : '';
+    const dot = item.dot ? '<span class="subtab-dot"></span>' : '';
+    const active = item.id === state.activeSub ? ' active' : '';
+    return '<button class="subtab-capsule' + active + '" onclick="setSubtab(\'' + item.id + '\')">'
+      + dot + '<span>' + esc(text) + '</span>' + badge
+      + '</button>';
+  }).join('');
+}
+
+function setSubtab(subId) {
+  state.activeSub = subId;
+  const curContent = $('tab-' + state.activeTab);
+  if (!curContent) return;
+  curContent.querySelectorAll('.view-section').forEach(sec => {
+    sec.classList.toggle('active', sec.dataset.sub === subId);
+  });
+  renderSubtabs();
+}
+
+function navigateSubtab(dir) {
+  const list = TAB_SUBTABS[state.activeTab] || [];
+  if (list.length === 0) return;
+  const idx = list.findIndex(x => x.id === state.activeSub);
+  let nextIdx = idx + dir;
+  if (nextIdx < 0) nextIdx = list.length - 1;
+  if (nextIdx >= list.length) nextIdx = 0;
+  setSubtab(list[nextIdx].id);
+}
+
+function handleEscKey() {
+  setPrimaryTab('overview');
+  setSubtab('ov-status');
+}
+
+document.addEventListener('keydown', (e) => {
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT' || e.target.tagName === 'TEXTAREA') return;
+  if (e.key === 'q' || e.key === 'Q') {
+    e.preventDefault();
+    navigateSubtab(-1);
+  } else if (e.key === 'e' || e.key === 'E') {
+    e.preventDefault();
+    navigateSubtab(1);
+  } else if (e.key === 'Escape') {
+    e.preventDefault();
+    handleEscKey();
+  }
+});
+
+document.querySelectorAll('.nav-tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    setPrimaryTab(btn.dataset.tab);
+  });
+});
+
+function applyTheme(t) {
+  document.documentElement.setAttribute('data-theme', t);
+  try { localStorage.setItem('Ananta-theme', t); } catch (e) { }
+}
+function toggleTheme() {
+  const cur = document.documentElement.getAttribute('data-theme');
+  applyTheme(cur === 'dark' ? 'light' : 'dark');
+}
+let savedTheme = 'light';
+try { savedTheme = localStorage.getItem('Ananta-theme') || 'light'; } catch (e) { }
+applyTheme(savedTheme);
+
+function handleGlobalSearch(kw) {
+  if (state.activeSub === 'a-items' && $('itemSearch')) {
+    $('itemSearch').value = kw; renderItemOptions();
+  } else if (state.activeSub === 'a-weapons' && $('weaponSearch')) {
+    $('weaponSearch').value = kw; renderWeaponOptions();
+  } else if (state.activeSub === 'a-fashions' && $('fashionSearch')) {
+    $('fashionSearch').value = kw; renderFashionOptions();
+  } else if (state.activeSub === 'm-accept' && $('questSearch')) {
+    $('questSearch').value = kw; loadTaskSearch();
+  } else if (state.activeSub === 'm-switch' && $('tlSearch')) {
+    $('tlSearch').value = kw; loadTimelines();
+  } else if (state.activeSub === 'm-cinema' && $('cinSearch')) {
+    $('cinSearch').value = kw; loadCinematics();
+  } else if (state.activeSub === 'm-dialog' && $('dlgSearch')) {
+    $('dlgSearch').value = kw; loadDialogs();
+  } else if (state.activeSub === 'e-enemies' && $('enemySearch')) {
+    $('enemySearch').value = kw; renderEnemyOptions();
+  } else if (state.activeSub === 's-dict' && $('dictSearch')) {
+    $('dictSearch').value = kw; renderDict();
+  }
+}
+
+function fmtClock(total) {
+  const h = Math.floor(total / 60) % 24, m = total % 60;
   return String(h).padStart(2, '0') + ':' + String(m).padStart(2, '0');
 }
-function sliderMinutes() { return parseInt(document.getElementById('timeslider').value || '720', 10); }
+
+const WEATHER_ICONS = {
+  1: '<svg viewBox="0 0 24 24" fill="currentColor" style="width:14px;height:14px"><circle cx="12" cy="12" r="4.2"/><path d="M12 1.6v3.2M12 19.2v3.2M1.6 12h3.2M19.2 12h3.2M4.6 4.6l2.3 2.3M17.1 17.1l2.3 2.3M19.4 4.6l-2.3 2.3M6.9 17.1l-2.3 2.3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" fill="none"/></svg>',
+  2: '<svg viewBox="0 0 24 24" fill="currentColor" style="width:14px;height:14px"><path d="M6.5 19h11a4 4 0 0 0 .6-7.96 5.5 5.5 0 0 0-10.6-1.3A4.2 4.2 0 0 0 6.5 19z"/></svg>',
+  3: '<svg viewBox="0 0 24 24" fill="currentColor" style="width:14px;height:14px"><path d="M6.5 15h11a4 4 0 0 0 .6-7.96 5.5 5.5 0 0 0-10.6-1.3A4.2 4.2 0 0 0 6.5 15z"/><path d="M8 18.2l-1.2 2.6M12 18.2l-1.2 2.6M16 18.2l-1.2 2.6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" fill="none"/></svg>',
+  4: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" style="width:14px;height:14px"><path d="M3 8h9.5a2.5 2.5 0 1 0-2.5-2.5M3 12h13a2.5 2.5 0 1 1-2.5 2.5M3 16h7.5a2.5 2.5 0 1 1-2.5 2.5"/></svg>',
+  5: '<svg viewBox="0 0 24 24" fill="currentColor" style="width:14px;height:14px"><path d="M7 14h10a3.6 3.6 0 0 0 .5-7.16A5 5 0 0 0 8 5.9 3.8 3.8 0 0 0 7 14z"/><path d="M3 17.5h18M5 20.5h14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" fill="none"/></svg>',
+};
+
+let weatherList = [];
+async function loadWeatherOptions() {
+  try {
+    const r = await api('/api/weather/options');
+    weatherList = (r && r.weathers) || [];
+  } catch (e) { weatherList = []; }
+
+  if (weatherList.length === 0) {
+    weatherList = [
+      { id: 1, name: '晴天' }, { id: 2, name: '阴天' }, { id: 3, name: '雨天' },
+      { id: 4, name: '风' }, { id: 5, name: '雨后' },
+    ];
+  }
+
+  $('weatherBtns').innerHTML = weatherList.map((w) => {
+    const icon = WEATHER_ICONS[w.id] || WEATHER_ICONS[1];
+    const wName = t('weather_' + w.id, w.name);
+    return '<button class="btn-tonal btn-sm" onclick="setWeather(' + w.id + ')">'
+      + '<span style="display:inline-flex;margin-right:6px">' + icon + '</span>'
+      + esc(wName) + '</button>';
+  }).join('');
+  if ($('weatherInfo')) $('weatherInfo').textContent = '共 ' + weatherList.length + ' 种天气';
+}
+
+async function setWeather(weatherId) {
+  const transition = num($('weatherTransition') ? $('weatherTransition').value : 3, 3);
+  const r = await post('/api/weather/set', { weatherId, transition });
+  log('天气切换 => ' + JSON.stringify(r));
+  if (r.ok === false) { snack(r.error, 'error'); return; }
+  snack('天气已切换为「' + (r.name || weatherId) + '」', 'ok');
+}
+
 async function pushTime() {
-  const total = sliderMinutes();
-  const body = {
-    hour: Math.floor(total / 60) % 24,
-    minute: total % 60,
-    fix: true,
-    transition: 5
-  };
-  const r = await api('/api/time/set', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
-  log('time: ' + JSON.stringify(r));
+  const total = num($('timeSlider').value, 720);
+  const r = await post('/api/time/set', { hour: Math.floor(total / 60) % 24, minute: total % 60, fix: true, transition: 5 });
+  log('时间设置为 ' + fmtClock(total) + ' => ' + JSON.stringify(r));
 }
-function syncTimeUI(s) {
-  const slider = document.getElementById('timeslider');
-  const clock = document.getElementById('clock');
-  if (!s.online) {
-    slider.disabled = true;
-    return;
-  }
-  slider.disabled = false;
-  if (typeof s.hour === 'number' && typeof s.minute === 'number' && s.hasTime && !timeDragging) {
-    slider.value = s.hour * 60 + s.minute;
-    clock.textContent = fmtClock(s.hour * 60 + s.minute);
-  } else if (!timeDragging) {
-    clock.textContent = fmtClock(sliderMinutes());
-  }
+function setQuickTime(h, m) {
+  $('timeSlider').value = h * 60 + m;
+  $('clock').textContent = fmtClock(h * 60 + m);
+  pushTime();
 }
-function log(t) {
-  const el = document.getElementById('log');
-  el.textContent = new Date().toLocaleTimeString() + ' ' + t + '\n' + el.textContent;
-}
-async function api(path, opts) {
-  const r = await fetch(path, opts);
-  return await r.json();
-}
-async function refresh() {
-  try {
-    const s = await api('/api/status');
-    lastStatus = s;
-    document.getElementById('dot').className = 'dot' + (s.online ? ' on' : '');
-    if (!s.online) {
-      document.getElementById('status').textContent = 'client not in game (no live session)';
-      document.getElementById('summoned').textContent = '—';
-      syncTimeUI(s);
-      return;
-    }
-    const p = s.player;
-    document.getElementById('status').innerHTML =
-      `pid=${s.pid} ready=${s.ready} unit=${s.activeUnit}<br>` +
-      `pos=(${p.x.toFixed(1)}, ${p.y.toFixed(1)}, ${p.z.toFixed(1)}) yaw=${p.yaw.toFixed(1)} fix=${p.hasFix}<br>` +
-      `fleet=${s.fleetCount} summoned=${s.summoned.length}` +
-      (s.inVehicle ? `<br>in vehicle: entity=${s.inVehicle} seat=${s.inSeat} <button onclick="vehicleExit()">Exit</button>` : '');
-    document.getElementById('summoned').innerHTML = s.summoned.length
-      ? '<table><tr><th>entityId</th><th>configId</th><th>coordinates</th><th></th></tr>' +
-        s.summoned.map(v => `<tr><td>${v.entityId}</td><td>${v.configId}</td>` +
-          `<td>${v.hasFix ? `${v.x.toFixed(1)}, ${v.y.toFixed(1)}, ${v.z.toFixed(1)}` : '—'}</td>` +
-          `<td><button onclick="vehicleEnter(${v.entityId})">Enter</button> ` +
-          `<button onclick="vehicleToMe(${v.entityId})">To me</button> ` +
-          `<button onclick="vehicleGoto(${v.entityId})">To it</button> ` +
-          `<button class="ghost" onclick="vehicleRemove(${v.entityId})">Remove</button></td></tr>`).join('') + '</table>'
-      : 'empty — click "Spawn selected vehicle nearby" above';
-    syncTimeUI(s);
-  } catch (e) { log('status error: ' + e); }
-}
-async function loadFleet() {
-  try {
-    fleetData = await api('/api/fleet');
-    const cats = [...new Set(fleetData.map(v => v.cat))];
-    document.getElementById('fleetcat').innerHTML =
-      cats.map(c => `<option value="${c}">${catNames[c] || c}</option>`).join('');
-    filterFleet();
-  } catch (e) { log('fleet error: ' + e); }
-}
-function filterFleet() {
-  const c = document.getElementById('fleetcat').value;
-  const list = fleetData.filter(v => v.cat === c);
-  document.getElementById('fleet').innerHTML =
-    list.map(v => `<option value="${v.id}">${v.id} — ${v.name}</option>`).join('');
-}
-async function enterLast() {
-  const r = await api('/api/vehicle/enter', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: '{}' });
-  log('enter: ' + JSON.stringify(r));
-  refresh();
-}
-async function resync() {
-  const r = await api('/api/garage/resync', { method: 'POST' });
-  log('resync verified: ' + JSON.stringify(r));
-}
-async function unlockAll() {
-  const r = await api('/api/garage/unlock-all', { method: 'POST' });
-  log('unlock-all: ' + JSON.stringify(r));
-}
-async function spawnNear() {
-  const sel = document.getElementById('fleet');
-  const body = { configId: parseInt(sel.value || '0', 10), distance: 6 };
-  const r = await api('/api/vehicle/spawn', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
-  log('spawn: ' + JSON.stringify(r));
-  refresh();
-}
-async function spawnRaw() {
-  const id = parseInt(document.getElementById('rawId').value || '0', 10);
-  if (!id) { log('spawnRaw: enter an ID'); return; }
-  const r = await api('/api/vehicle/spawn', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ configId: id, distance: 6 }) });
-  log('spawnRaw: ' + JSON.stringify(r));
-  refresh();
-}
-async function vehicleEnter(entityId) {
-  const r = await api('/api/vehicle/enter', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ entityId }) });
-  log('enter: ' + JSON.stringify(r));
-  refresh();
-}
-async function vehicleExit() {
-  const r = await api('/api/vehicle/exit', { method: 'POST' });
-  log('exit: ' + JSON.stringify(r));
-  refresh();
-}
-async function vehicleToMe(entityId) {
-  const r = await api('/api/vehicle/to-me', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ entityId }) });
-  log('to-me: ' + JSON.stringify(r));
-}
-async function vehicleGoto(entityId) {
-  const r = await api('/api/vehicle/goto', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ entityId }) });
-  log('goto: ' + JSON.stringify(r));
-}
-async function vehicleRemove(entityId) {
-  const r = await api('/api/vehicle/remove', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ entityId }) });
-  log('remove: ' + JSON.stringify(r));
-  refresh();
-}
-async function teleport() {
-  const body = {
-    x: parseFloat(document.getElementById('tx').value),
-    y: parseFloat(document.getElementById('ty').value),
-    z: parseFloat(document.getElementById('tz').value),
-    facing: parseFloat(document.getElementById('tf').value)
-  };
-  const r = await api('/api/player/teleport', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
-  log('teleport: ' + JSON.stringify(r));
-}
+$('timeSlider').addEventListener('input', (e) => {
+  state.timeDragging = true;
+  $('clock').textContent = fmtClock(num(e.target.value, 720));
+});
+$('timeSlider').addEventListener('change', () => { state.timeDragging = false; pushTime(); });
+
 function fillCurrent() {
-  if (!lastStatus || !lastStatus.online) return;
-  const p = lastStatus.player;
-  document.getElementById('tx').value = p.x.toFixed(1);
-  document.getElementById('ty').value = p.y.toFixed(1);
-  document.getElementById('tz').value = p.z.toFixed(1);
-  document.getElementById('tf').value = p.yaw.toFixed(1);
+  if (!state.status || !state.status.online) return;
+  const p = state.status.player;
+  $('tx').value = fmt(p.x); $('ty').value = fmt(p.y); $('tz').value = fmt(p.z); $('tf').value = fmt(p.yaw);
 }
 function fillSpawn() {
-  if (!lastStatus || !lastStatus.online || !lastStatus.spawn) return;
-  document.getElementById('tx').value = lastStatus.spawn.x;
-  document.getElementById('ty').value = lastStatus.spawn.y;
-  document.getElementById('tz').value = lastStatus.spawn.z;
+  if (!state.status || !state.status.online || !state.status.spawn) return;
+  $('tx').value = state.status.spawn.x; $('ty').value = state.status.spawn.y; $('tz').value = state.status.spawn.z;
 }
-loadFleet();
-refresh();
-setInterval(refresh, 2000);
-document.getElementById('timeslider').addEventListener('input', e => {
-  timeDragging = true;
-  document.getElementById('clock').textContent = fmtClock(parseInt(e.target.value || '720', 10));
-});
-document.getElementById('timeslider').addEventListener('change', async () => {
-  timeDragging = false;
-  await pushTime();
-  refresh();
-});
+async function teleport() {
+  await call('/api/player/teleport', {
+    x: num($('tx').value), y: num($('ty').value), z: num($('tz').value), facing: num($('tf').value),
+  }, '已传送');
+}
+
+function srApplySpot(sel) {
+  const v = (sel.value || '').split(',');
+  if (v.length !== 3) return;
+  $('srX').value = v[0]; $('srY').value = v[1]; $('srZ').value = v[2];
+}
+function srFillCurrent() {
+  if (!state.status || !state.status.online || !state.status.player) {
+    snack('客户端不在游戏中，拿不到当前位置', 'error'); return;
+  }
+  const p = state.status.player;
+  $('srX').value = fmt(p.x); $('srY').value = fmt(p.y); $('srZ').value = fmt(p.z);
+  $('srFacing').value = fmt(p.yaw);
+}
+async function switchRaid() {
+  const body = {
+    raidId: num($('srRaid').value),
+    sceneInstanceId: num($('srInst').value),
+    universeId: num($('srUni').value),
+    x: num($('srX').value), y: num($('srY').value), z: num($('srZ').value),
+    facing: num($('srFacing').value),
+  };
+  if (!body.raidId || !body.sceneInstanceId || !body.universeId) {
+    snack('raidId + sceneInstanceId + universeId 都必填', 'error'); return;
+  }
+  const r = await post('/api/world/switch-raid', body);
+  log('场景切换 => ' + JSON.stringify(r));
+  if (r.ok === false) { snack(r.error, 'error'); return; }
+  snack('已切到 raid ' + r.raidId + ' / scene ' + r.sceneInstanceId, 'ok');
+  if ($('wrInfo')) $('wrInfo').textContent = r.note || '';
+  await refreshAll();
+}
+async function switchBack() {
+  $('srRaid').value = 23300888; $('srInst').value = 20001222; $('srUni').value = 76000888;
+  $('srX').value = 3142.7; $('srY').value = 0; $('srZ').value = 2522.8; $('srFacing').value = 0;
+  await switchRaid();
+}
+async function loadWorldOptions() {
+  try {
+    const r = await api('/api/world/options');
+    const raids = (r && r.raids) || [];
+    log('可用 Raid 共 ' + raids.length + ' 个');
+    if ($('wrInfo')) $('wrInfo').textContent = '可用 Raid ' + raids.length + ' 个（详见日志）';
+  } catch (e) { log('世界选项加载失败: ' + e, 'err'); }
+}
+
+async function loadFleet() {
+  try {
+    state.fleet = await api('/api/fleet');
+    if (!Array.isArray(state.fleet)) state.fleet = [];
+    const cats = [...new Set(state.fleet.map((v) => v.cat))];
+    $('fleetCat').innerHTML = cats.map((c) => {
+      const cLabel = t(CAT_NAMES[c] || c, c);
+      return '<option value="' + c + '">' + cLabel + '</option>';
+    }).join('');
+    filterFleet();
+  } catch (e) { log('载具目录加载失败: ' + e, 'err'); }
+}
+function filterFleet() {
+  const c = $('fleetCat').value;
+  const list = state.fleet.filter((v) => v.cat === c);
+  $('fleet').innerHTML = list.map((v) => '<option value="' + v.id + '">' + v.id + ' — ' + esc(v.name || '') + '</option>').join('')
+    || '<option value="">（该分类为空）</option>';
+}
+async function spawnNear() {
+  const id = parseInt($('fleet').value || '0', 10);
+  if (!id) return snack('请先选择载具', 'error');
+  await call('/api/vehicle/spawn', { configId: id, distance: num($('fleetDist').value, 6) }, '载具已召唤');
+}
+async function spawnRaw() {
+  const id = parseInt($('rawId').value || '0', 10);
+  if (!id) return snack('请输入载具 ID', 'error');
+  await call('/api/vehicle/spawn', { configId: id, distance: num($('fleetDist').value, 6) }, '载具已召唤');
+}
+async function enterLast() { await call('/api/vehicle/enter', {}); }
+async function resync() { const r = await post('/api/garage/resync'); log('同步已验证车辆 ' + JSON.stringify(r)); snack('车库已同步', 'ok'); }
+async function unlockAll() { const r = await post('/api/garage/unlock-all'); log('解锁全部车辆 ' + JSON.stringify(r)); snack('已解锁全部车辆', 'ok'); }
+async function vehicleEnter(id) { await call('/api/vehicle/enter', { entityId: id }); }
+async function vehicleExit() { await call('/api/vehicle/exit', {}); }
+async function vehicleToMe(id) { await call('/api/vehicle/to-me', { entityId: id }, '载具已拉到身边'); }
+async function vehicleGoto(id) { await call('/api/vehicle/goto', { entityId: id }, '已传送到载具旁'); }
+async function vehicleRemove(id) { await call('/api/vehicle/remove', { entityId: id }, '载具已移除'); }
+
+const itemRows = () => state.dict.items || [];
+function renderItemOptions() {
+  const kw = ($('itemSearch').value || '').trim().toLowerCase();
+  const rows = itemRows().filter((r) => !kw
+    || String(r.id).includes(kw)
+    || String(r.zh || '').toLowerCase().includes(kw)
+    || String(r.en || '').toLowerCase().includes(kw)).slice(0, 300);
+  $('itemSelect').innerHTML = rows.map((r) => '<option value="' + r.id + '">' + r.id + ' — ' + esc(label(r.zh, r.en)) + '</option>').join('')
+    || '<option value="">（无匹配）</option>';
+  onItemPick();
+}
+function onItemPick() {
+  const id = parseInt($('itemSelect').value || '0', 10);
+  const r = itemRows().find((x) => x.id === id);
+  $('itemSelInfo').textContent = r ? (r.id + ' · ' + label(r.zh, r.en) + (r.en && r.zh ? '（' + r.en + '）' : '')) : t('lbl_not_selected', '未选择');
+}
+async function itemAdd() {
+  const id = parseInt($('itemSelect').value || '0', 10);
+  if (!id) return snack('请选择物品', 'error');
+  await call('/api/item/add', { templateId: id, count: Math.max(1, parseInt($('itemCount').value || '1', 10)) }, '物品已添加');
+}
+async function itemRemove(id, all) { await call('/api/item/remove', { templateId: id, all: !!all }, '物品已移除'); }
+async function ammoAddAll() {
+  const r = await post('/api/item/add-ammo');
+  log('一键补齐弹药 => ' + JSON.stringify(r));
+  if (r.ok === false) snack(r.error, 'error'); else snack('已补齐 ' + r.count + ' 种弹药', 'ok');
+  await refreshAll();
+}
+
+function moneyFillCurrent() {
+  if (!state.content) return;
+  $('mMoney').value = state.content.money || 0;
+  $('mGold').value = state.content.gold || 0;
+  $('mBind').value = state.content.bindingGold || 0;
+}
+async function moneySet() {
+  await call('/api/money/set', {
+    money: num($('mMoney').value), gold: num($('mGold').value), bindingGold: num($('mBind').value),
+  }, '货币已写入');
+}
+async function moneyQuick(v) { await call('/api/money/add', { value: v, reason: 0, silence: true }, '已增加 ' + v.toLocaleString()); }
+async function shopBuy() {
+  const bindId = parseInt($('shopBind').value || '0', 10);
+  if (!bindId) return snack('请填写要发放的 ID', 'error');
+  await call('/api/shop/buy', { bindId: bindId, price: num($('shopPrice').value), grant: $('shopGrant').value, count: 1 }, '购买已结算');
+}
+
+const weaponRows = () => state.dict.weapons || [];
+function renderWeaponOptions() {
+  const kw = ($('weaponSearch').value || '').trim().toLowerCase();
+  const rows = weaponRows().filter((r) => !kw
+    || String(r.id).includes(kw)
+    || String(r.zh || '').toLowerCase().includes(kw)
+    || String(r.en || '').toLowerCase().includes(kw)).slice(0, 300);
+  $('weaponSelect').innerHTML = rows.map((r) => '<option value="' + r.id + '">' + r.id + ' — ' + esc(label(r.zh, r.en)) + '</option>').join('')
+    || '<option value="">（无匹配）</option>';
+  onWeaponPick();
+}
+function onWeaponPick() {
+  const id = parseInt($('weaponSelect').value || '0', 10);
+  const r = weaponRows().find((x) => x.id === id);
+  $('weaponSelInfo').textContent = r ? (r.id + ' · ' + label(r.zh, r.en) + (r.en && r.zh ? '（' + r.en + '）' : '')) : t('lbl_not_selected', '未选择');
+}
+async function weaponAdd() {
+  const id = parseInt($('weaponSelect').value || '0', 10);
+  if (!id) return snack('请选择武器', 'error');
+  await call('/api/weapon/add', { templateId: id, spiritId: parseInt($('weaponSpirit').value || '0', 10) }, '武器已发送到仓库');
+}
+async function weaponAddAll(currentOnly) {
+  const r = await post('/api/weapon/add-all', { currentSpiritOnly: !!currentOnly });
+  log('一键刷取武器 => ' + JSON.stringify(r));
+  if (r.ok === false) snack(r.error, 'error'); else snack('已刷取 ' + r.count + ' 件武器', 'ok');
+  await refreshAll();
+}
+async function weaponRemove(instanceId) { await call('/api/weapon/remove', { instanceId: instanceId }, '武器已移除'); }
+
+const fashionRows = () => state.dict.fashions || [];
+function renderFashionOptions() {
+  const kw = ($('fashionSearch').value || '').trim().toLowerCase();
+  const rows = fashionRows().filter((r) => !kw
+    || String(r.id).includes(kw)
+    || String(r.spirit).includes(kw)
+    || String(r.zh || '').toLowerCase().includes(kw)
+    || String(r.en || '').toLowerCase().includes(kw)).slice(0, 300);
+  $('fashionSelect').innerHTML = rows.map((r) =>
+    '<option value="' + r.id + '">' + r.id + ' — ' + esc(label(r.zh, r.en)) + '（角色 ' + r.spirit + '）</option>').join('')
+    || '<option value="">（无匹配）</option>';
+  onFashionPick();
+}
+function onFashionPick() {
+  const id = parseInt($('fashionSelect').value || '0', 10);
+  const r = fashionRows().find((x) => x.id === id);
+  $('fashionSelInfo').textContent = r ? (r.id + ' · ' + label(r.zh, r.en) + '（角色 ' + r.spirit + '）') : t('lbl_not_selected', '未选择');
+}
+async function fashionAdd() {
+  const id = parseInt($('fashionSelect').value || '0', 10);
+  if (!id) return snack('请选择时装', 'error');
+  await call('/api/fashion/add', { fashionId: id }, '时装已发送到衣橱');
+}
+async function fashionAddAllCurrent() { await call('/api/fashion/add', { all: true, currentSpiritOnly: true }, '当前角色时装已全部发送'); }
+async function fashionAddAll() { await call('/api/fashion/add', { all: true }, '全部时装已发送'); }
+async function fashionRemove(id) { await call('/api/fashion/remove', { fashionId: id }, '时装已移除'); }
+
+let taskHits = [];
+async function loadTaskSearch() {
+  const kw = ($('questSearch').value || '').trim();
+  try {
+    const r = await api('/api/tasks/search?limit=300' + (kw ? '&q=' + encodeURIComponent(kw) : ''));
+    taskHits = (r && r.tasks) || [];
+  } catch (e) { taskHits = []; }
+  $('questSelect').innerHTML = taskHits.map((t) =>
+    '<option value="' + t.id + '">' + t.id + ' — ' + esc(t.name || '') + '（目标 ' + t.counters + '）</option>').join('')
+    || '<option value="">（无匹配）</option>';
+  onQuestPick();
+}
+function pickedQuestId() { return parseInt($('questSelect').value || '0', 10); }
+function currentTaskId() { return (state.story && state.story.currentTask) || 0; }
+function onQuestPick() {
+  const id = pickedQuestId();
+  const tInfo = taskHits.find((x) => x.id === id);
+  $('questSelInfo').textContent = tInfo ? (tInfo.id + ' · ' + tInfo.name + ' · 目标 ' + tInfo.counters + ' 个') : t('lbl_not_selected', '未选择');
+}
+async function questAccept() {
+  const id = pickedQuestId();
+  if (!id) return snack('请选择任务', 'error');
+  const r = await call('/api/quest/accept', { taskId: id }, '任务已接取');
+  if (r && r.message) log('接取 => ' + r.message);
+  await loadStory();
+}
+async function questSubmit() {
+  const id = pickedQuestId();
+  if (!id) return snack('请选择任务', 'error');
+  const r = await call('/api/quest/submit', { taskId: id }, '已标记为已提交');
+  if (r && r.message) log('提交 => ' + r.message);
+  await loadStory();
+}
+async function questComplete(id) {
+  id = id || pickedQuestId();
+  if (!id) return snack('没有可完成的任务', 'error');
+  const r = await call('/api/quest/complete', { taskId: id }, '任务已完成并推进');
+  if (r && r.message) log('完成 => ' + r.message);
+  await loadStory();
+}
+
+async function loadStory() {
+  try {
+    const r = await api('/api/story/chain');
+    if (!r || !r.ok) return;
+    state.story = r;
+    $('storyRoot').textContent = r.root + (r.rootName ? ' · ' + r.rootName : '');
+    $('storyLen').textContent = r.length + ' 步';
+
+    const cur = r.currentTask || 0;
+    $('qCurrent').textContent = cur || '无';
+    $('qCurrentName').textContent = cur ? (r.currentTaskName || ('ID ' + cur)) : '—';
+    const tasks = r.tasks || [];
+    $('qCount').textContent = tasks.length;
+    $('qHint').textContent = r.hasSession ? ('会话中 · 容器 ' + tasks.length + ' 条') : '未进世界（客户端没连上时容器为空）';
+    $('qContainerTable').innerHTML = tasks.length === 0
+      ? '<tbody><tr><td class="empty">' + t('empty_quests', '容器为空 —— 进世界后服务端会自动灌入主线链首') + '</td></tr></tbody>'
+      : '<thead><tr><th>' + t('th_id', '任务 ID') + '</th><th>' + t('th_name', '名称') + '</th><th>' + t('th_state', '状态') + '</th><th>' + t('th_progress', '目标进度') + '</th></tr></thead><tbody>'
+        + tasks.map((tItem) => '<tr><td class="id">' + tItem.id + '</td><td>' + esc(tItem.name || '') + '</td>'
+            + '<td>' + tItem.state + '</td>'
+            + '<td>' + (tItem.counters ? ((tItem.values || []).join('/') + ' / ' + tItem.counters) : '—') + '</td></tr>').join('')
+        + '</tbody>';
+  } catch (e) { }
+}
+async function storyStart() {
+  const r = await call('/api/story/start', {}, '主线已启动');
+  if (r && r.message) log('主线 => ' + r.message);
+}
+async function storyAdvance() {
+  const id = currentTaskId();
+  if (!id) return snack('当前没有进行中的任务', 'error');
+  const r = await call('/api/story/advance', { taskId: id }, '已推进');
+  if (r && r.message) log('推进 => ' + r.message);
+}
+async function questReset() {
+  
+  
+  const r = await call('/api/quest/reset', { reseed: false }, '任务容器已清空');
+  if (r && r.message) log('重置 => ' + r.message);
+}
+async function questResetReseed() {
+  const r = await call('/api/quest/reset', { reseed: true }, '任务容器已重置并重新种');
+  if (r && r.message) log('重置+重新种 => ' + r.message);
+}
+async function taskContainerHex() {
+  const r = await api('/api/debug/task-container-hex');
+  log('任务容器 ' + JSON.stringify({ taskId: r.taskId, name: r.name, counters: r.counters, size: r.size }));
+  snack('容器 ' + r.size + ' 字节，已输出到日志', 'ok');
+}
+
+let tlList = [], tlTargets = [], tlTargetsLoaded = false;
+function tlOptionLabel(x) {
+  const scene = x.description || '';
+  const act = x.timelineDescription || '';
+  let tag = (scene && act && scene !== act) ? (' — ' + scene + ' · ' + act) : (' — ' + (act || scene || x.timeline || '?'));
+  const d = (typeof x.distance === 'number') ? ' · ' + Math.round(x.distance) + 'm' : '';
+  const star = x.isNearest ? '★ ' : '';
+  const ag = x.needsCompanionAgents ? ' · 带NPC×' + (x.agentIds || []).length : '';
+  return star + x.switchConfigId + ' · ' + (x.timeline || '?') + tag + d + ag;
+}
+
+async function loadTimelineTargets() {
+  if (tlTargetsLoaded) return;
+  try {
+    const r = await api('/api/story/target-spirits');
+    tlTargets = (r && r.spirits) || [];
+    tlTargetsLoaded = true;
+  } catch (e) { tlTargets = []; }
+  $('tlTarget').innerHTML = '<option value="0">（不换角色 · 只看动画）</option>'
+    + tlTargets.map((x) => '<option value="' + x.templateId + '">' + esc(x.templateId + ' · ' + x.name) + '</option>').join('');
+}
+
+async function loadTimelines() {
+  await loadTimelineTargets();
+  const q = $('tlSearch') ? $('tlSearch').value.trim() : '';
+  const kind = $('tlKind') ? $('tlKind').value : 'playable';
+  try {
+    const url = '/api/story/switch-spirits?limit=800' + (kind === 'all' ? '&all=1' : '') + '&q=' + encodeURIComponent(q);
+    const r = await api(url);
+    tlList = (r && r.rows) || [];
+    if (r && $('tlChannelNote')) {
+      $('tlChannelNote').innerHTML = '可播 <b>' + (r.playableTotal || 0) + '</b> 条 / 共 ' + (r.total || 0) + ' 条。'
+        + (r.playerPositionIsLive ? ' 距离列基于你当前实时站位。' : ' 基于出生点。');
+    }
+  } catch (e) { tlList = []; }
+  const ordered = tlList.slice().sort((a, b) => {
+    if (a.isNearest !== b.isNearest) return a.isNearest ? -1 : 1;
+    return (a.distance || 1e12) - (b.distance || 1e12);
+  });
+  $('tlSelect').innerHTML = ordered.map((x) =>
+    '<option value="' + x.switchConfigId + '">' + esc(tlOptionLabel(x)) + '</option>').join('');
+  onTlPick();
+}
+
+function onTlPick() {
+  const id = num($('tlSelect').value);
+  const x = tlList.find((d) => d.switchConfigId === id);
+  let info = x ? ('已选 ' + x.switchConfigId + ' · ' + (x.timeline || '') + (typeof x.distance === 'number' ? ' 离你 ' + Math.round(x.distance) + 'm' : '')) : t('lbl_not_selected', '未选择');
+  $('tlSelInfo').textContent = info;
+  if (x && x.defaultTargetSpiritId && $('tlTarget')) {
+    $('tlTarget').value = String(x.defaultTargetSpiritId);
+  }
+}
+
+async function playTimeline() {
+  const id = num($('tlSelect').value);
+  if (!id) { snack('请先选一条切人动画', 'error'); return; }
+  const targetSpiritId = num($('tlTarget').value);
+  if (!targetSpiritId) { snack('请先选「切成」的目标角色', 'error'); return; }
+  const teleport = $('tlTeleport') ? $('tlTeleport').checked : true;
+  const skipPreSwitch = $('tlSkipPre') ? $('tlSkipPre').checked : false;
+  const r = await post('/api/story/timeline', { switchConfigId: id, targetSpiritId, teleport, skipPreSwitch });
+  log('触发切人动画 => ' + JSON.stringify(r));
+  if (r.ok === false) { snack(r.error || '触发失败', 'error'); return; }
+  snack('已触发 ' + (r.timeline || id), 'ok');
+}
+
+let cinList = [], cinGroupsLoaded = false;
+function cinOptionLabel(x) {
+  const g = x.group ? '[' + x.group + '] ' : '';
+  return x.id + ' · ' + g + (x.name || '?');
+}
+
+async function loadCinemaGroups() {
+  if (cinGroupsLoaded) return;
+  try {
+    const r = await api('/api/story/timeline-groups');
+    const groups = (r && r.groups) || [];
+    if ($('cinGroup')) {
+      $('cinGroup').innerHTML = '<option value="">全部章节</option>'
+        + groups.filter((g) => g.raw).map((g) => '<option value="' + esc(g.raw) + '">' + esc(g.group) + ' (' + g.count + ')</option>').join('');
+    }
+    cinGroupsLoaded = true;
+  } catch (e) { }
+}
+
+async function loadCinematics() {
+  await loadCinemaGroups();
+  const q = $('cinSearch') ? $('cinSearch').value.trim() : '';
+  const kind = $('cinKind') ? $('cinKind').value : 'cinematic';
+  const group = $('cinGroup') ? $('cinGroup').value : '';
+  try {
+    const url = '/api/story/timelines?limit=600' + (kind ? '&kind=' + encodeURIComponent(kind) : '') + (group ? '&group=' + encodeURIComponent(group) : '') + '&q=' + encodeURIComponent(q);
+    const r = await api(url);
+    cinList = (r && r.timelines) || [];
+    if ($('cinChannelNote')) {
+      $('cinChannelNote').innerHTML = 'TimelineConfig 共 <b>' + (r.total || 0) + '</b> 条，电影式播片 <b>' + (r.cinematicTotal || 0) + '</b> 条。';
+    }
+  } catch (e) { cinList = []; }
+  $('cinSelect').innerHTML = cinList.map((x) =>
+    '<option value="' + x.id + '">' + esc(cinOptionLabel(x)) + '</option>').join('');
+  onCinPick();
+}
+
+function onCinPick() {
+  const id = num($('cinSelect').value);
+  const x = cinList.find((d) => d.id === id);
+  if (!x) { $('cinSelInfo').textContent = t('lbl_not_selected', '未选择'); return; }
+  $('cinSelInfo').textContent = '已选 ' + x.name;
+}
+
+async function playCinematic() {
+  const id = num($('cinSelect').value);
+  if (!id) { snack('请先选一条过场播片', 'error'); return; }
+  const r = await post('/api/story/cinematic', { timelineId: id });
+  log('触发过场播片 => ' + JSON.stringify(r));
+  if (r.ok === false) { snack(r.error || '触发失败', 'error'); return; }
+  snack('已触发过场播片 ' + (r.timeline || id), 'ok');
+}
+
+let cutList = [], dlgList = [];
+async function loadCutscenes() {
+  const q = $('cutSearch') ? $('cutSearch').value.trim() : '';
+  try {
+    const r = await api('/api/story/dialogs?cutscene=1&limit=400&q=' + encodeURIComponent(q));
+    cutList = (r && r.dialogs) || [];
+  } catch (e) { cutList = []; }
+  $('cutSelect').innerHTML = cutList.map((x) =>
+    '<option value="' + x.id + '">' + esc(x.id + ' · ' + (x.spk ? x.spk + '：' : '') + (x.msg || '').slice(0, 30)) + '</option>').join('');
+  onCutPick();
+}
+async function loadDialogs() {
+  const q = $('dlgSearch') ? $('dlgSearch').value.trim() : '';
+  try {
+    const r = await api('/api/story/dialogs?cutscene=0&limit=400&q=' + encodeURIComponent(q));
+    dlgList = (r && r.dialogs) || [];
+  } catch (e) { dlgList = []; }
+  $('dlgSelect').innerHTML = dlgList.map((x) =>
+    '<option value="' + x.id + '">' + esc(x.id + ' · ' + (x.spk ? x.spk + '：' : '') + (x.msg || '').slice(0, 30)) + '</option>').join('');
+  onDlgPick();
+}
+function onCutPick() {
+  const id = num($('cutSelect').value);
+  const x = cutList.find((d) => d.id === id);
+  $('cutSelInfo').textContent = x ? ('已选 ' + x.id + ' · 镜头 ' + x.cam) : t('lbl_not_selected', '未选择');
+}
+function onDlgPick() {
+  const id = num($('dlgSelect').value);
+  const x = dlgList.find((d) => d.id === id);
+  $('dlgSelInfo').textContent = x ? ('已选 ' + x.id + ' · ' + (x.spk || '旁白')) : t('lbl_not_selected', '未选择');
+}
+async function playCutscene() {
+  const id = num($('cutSelect').value);
+  if (!id) return snack('请先选一条过场', 'error');
+  const r = await post('/api/story/dialog', { dialogId: id });
+  log('触发过场 => ' + JSON.stringify(r));
+  if (r.ok === false) { snack(r.error, 'error'); return; }
+  snack('已触发过场 ' + id, 'ok');
+}
+async function playCutsceneVoice() {
+  const id = num($('cutSelect').value);
+  if (!id) return snack('请先选一条过场', 'error');
+  const r = await post('/api/story/dialog-voice', { dialogId: id });
+  if (r.ok === false) { snack(r.error, 'error'); return; }
+  snack('已播语音 ' + id, 'ok');
+}
+async function playDialog() {
+  const id = num($('dlgSelect').value);
+  if (!id) return snack('请先选一条台词', 'error');
+  const r = await post('/api/story/dialog', { dialogId: id });
+  log('播放台词 => ' + JSON.stringify(r));
+  if (r.ok === false) { snack(r.error, 'error'); return; }
+  snack('已播放台词 ' + id, 'ok');
+}
+async function playDialogVoice() {
+  const id = num($('dlgSelect').value);
+  if (!id) return snack('请先选一条台词', 'error');
+  const r = await post('/api/story/dialog-voice', { dialogId: id });
+  if (r.ok === false) { snack(r.error, 'error'); return; }
+  snack('已播语音 ' + id, 'ok');
+}
+
+let enemyGroups = [];
+async function loadEnemyGroups() {
+  try {
+    const r = await api('/api/enemy/groups');
+    enemyGroups = (r && r.groups) || [];
+    renderEnemyOptions();
+  } catch (e) { }
+}
+function renderEnemyOptions() {
+  const kw = ($('enemySearch').value || '').trim().toLowerCase();
+  const rows = enemyGroups.filter((g) => !kw || String(g.id).includes(kw) || (g.name || '').toLowerCase().includes(kw));
+  $('enemySelect').innerHTML = rows.map((g) =>
+    '<option value="' + g.id + '">' + g.id + ' — ' + esc(g.name) + '（' + g.members + '）</option>').join('')
+    || '<option value="">没有匹配的敌人组</option>';
+  onEnemyPick();
+}
+function pickedEnemyId() { return parseInt($('enemySelect').value || '0', 10); }
+function onEnemyPick() {
+  const id = pickedEnemyId();
+  const g = enemyGroups.find((x) => x.id === id);
+  $('enemySelInfo').textContent = g ? (g.id + ' · ' + g.name + ' · 成员 ' + g.members) : t('lbl_not_selected', '未选择');
+}
+async function enemySpawnGroup() {
+  const id = pickedEnemyId();
+  if (!id) return snack('请选择敌人组', 'error');
+  const body = {
+    groupId: id,
+    campId: parseInt($('enemyCamp').value || '0', 10) || 0,
+    members: parseInt($('enemyMembers').value || '0', 10) || 0,
+  };
+  const r = await call('/api/enemy/spawn-group', body, '敌人组已激活');
+  if (r && r.message) log('敌人组 => ' + r.message);
+}
+
+let agents = [];
+async function loadAgents() {
+  const kw = ($('agentSearch').value || '').trim();
+  const monsters = $('agentMonsters').value;
+  try {
+    const r = await api('/api/npc/agents?limit=200&monsters=' + monsters + (kw ? '&q=' + encodeURIComponent(kw) : ''));
+    agents = (r && r.agents) || [];
+    $('agentSelect').innerHTML = agents.map((a) =>
+      '<option value="' + a.id + '">' + a.id + ' — ' + esc(a.name) + '</option>').join('')
+      || '<option value="">没有匹配的 Agent</option>';
+    onAgentPick();
+  } catch (e) { }
+}
+function pickedAgentId() { return parseInt($('agentSelect').value || '0', 10); }
+function onAgentPick() {
+  const a = agents.find((x) => x.id === pickedAgentId());
+  $('agentSelInfo').textContent = a ? (a.id + ' · ' + a.name + ' · 怪物=' + a.monster) : t('lbl_not_selected', '未选择');
+}
+async function npcSpawn() {
+  const id = pickedAgentId();
+  if (!id) return snack('请选择 Agent', 'error');
+  const r = await call('/api/npc/spawn', { templateId: id, distance: 4 }, '已生成 NPC');
+  if (r && r.message) log('NPC => ' + r.message);
+}
+async function enemySpawn() {
+  const id = pickedAgentId();
+  if (!id) return snack('请选择 Agent', 'error');
+  const r = await call('/api/enemy/spawn', { templateId: id, count: 3, distance: 6 }, '已生成敌人');
+  if (r && r.message) log('敌人 => ' + r.message);
+}
+async function ammoGive() {
+  const r = await call('/api/ammo/give', { count: 999 }, '弹药已补齐');
+  if (r && r.message) log('弹药 => ' + r.message);
+}
+
+let streetNpcs = [];
+async function placeNpcHere() {
+  if (!state.status || !state.status.online || !state.status.player) {
+    snack('客户端不在游戏中，拿不到当前位置', 'error'); return;
+  }
+  const p = state.status.player;
+  const templateId = num($('placeTemplate').value) || num($('agentSelect') ? $('agentSelect').value : 0) || 15020990;
+  const body = {
+    templateId,
+    name: ($('placeName') && $('placeName').value.trim()) || undefined,
+    x: p.x, y: p.y, z: p.z, facing: p.yaw,
+  };
+  const r = await post('/api/npc/place', body);
+  log('在当前位置放置店员 => ' + JSON.stringify(r));
+  if (r.ok === false) { snack(r.error, 'error'); return; }
+  snack('已放置店员', 'ok');
+  if ($('placeName')) $('placeName').value = '';
+  await loadStreetNpcs();
+}
+
+async function resetDefaultNpcs() {
+  if (!confirm('确定恢复默认店员配置吗？会先清空当前放置的 NPC。')) return;
+  await removeAllStreetNpcs();
+  snack('已清空放置，重登后按默认配置投放', 'ok');
+}
+
+async function loadStreetNpcs() {
+  try {
+    const r = await api('/api/npc/street');
+    streetNpcs = (r && r.npcs) || [];
+  } catch (e) { streetNpcs = []; }
+  $('streetNpcHint').textContent = '已放置 ' + streetNpcs.length + ' 个';
+  $('streetNpcTable').innerHTML = streetNpcs.length === 0
+    ? '<tbody><tr><td class="empty">' + t('empty_npcs', '还没有放置任何 NPC') + '</td></tr></tbody>'
+    : '<thead><tr><th>' + t('th_id', 'ID') + '</th><th>' + t('th_name', '名称') + '</th><th>' + t('th_template', '模板') + '</th><th>' + t('th_coords', '坐标') + '</th><th>' + t('th_facing', '朝向') + '</th><th>' + t('th_fashion', '时装') + '</th><th style="width:90px">' + t('th_action', '操作') + '</th></tr></thead><tbody>'
+      + streetNpcs.map((n) => '<tr><td class="id">' + n.id + '</td><td>' + esc(n.name) + '</td>'
+          + '<td class="id">' + n.templateId + '</td>'
+          + '<td class="id">' + fmt(n.x) + ', ' + fmt(n.y) + ', ' + fmt(n.z) + '</td>'
+          + '<td class="id">' + fmt(n.facing) + '</td>'
+          + '<td class="id">' + ((n.fashions && n.fashions.length) ? n.fashions.join(',') : '默认') + '</td>'
+          + '<td><button class="btn-danger btn-sm" onclick="removeStreetNpc(' + n.id + ')">' + t('btn_remove', '移除') + '</button></td></tr>').join('')
+      + '</tbody>';
+}
+function placeTemplateId() {
+  const typed = parseInt($('placeTemplate').value || '0', 10);
+  return typed || pickedAgentId();
+}
+function placeFashionIds() {
+  return ($('placeFashions').value || '').split(/[,，\s]+/)
+    .map((s) => parseInt(s, 10)).filter((n) => Number.isFinite(n) && n > 0);
+}
+async function placeNpc() {
+  const id = placeTemplateId();
+  if (!id) return snack('请先选择 Agent 或填入模板 ID', 'error');
+  const body = {
+    templateId: id,
+    distance: parseFloat($('placeDistance').value || '4') || 4,
+    fashions: placeFashionIds(),
+  };
+  const r = await call('/api/npc/place', body, '已放置 NPC');
+  if (r && r.message) log('放置 => ' + r.message);
+  await loadStreetNpcs();
+}
+async function removeStreetNpc(id) {
+  const r = await call('/api/npc/remove', { id: id }, '已移除');
+  if (r && r.message) log('移除 => ' + r.message);
+  await loadStreetNpcs();
+}
+async function removeAllStreetNpcs() {
+  if (!confirm('会清空存档里所有放置的 NPC，确定？')) return;
+  const r = await call('/api/npc/remove', { all: true }, '已清空');
+  if (r && r.message) log('清空 => ' + r.message);
+  await loadStreetNpcs();
+}
+
+async function loadDict(kind) {
+  try {
+    const data = await api('/api/dict/' + kind);
+    if (Array.isArray(data)) state.dict[kind] = data;
+    else if (data && data.counts) state.dictMeta = data;
+    else state.dict[kind] = [];
+  } catch (e) { state.dict[kind] = []; }
+}
+function renderDict() {
+  const kind = $('dictKind').value;
+  const kw = ($('dictSearch').value || '').trim().toLowerCase();
+  const all = state.dict[kind] || [];
+  const rows = all.filter((r) => !kw || Object.values(r).some((v) => String(v == null ? '' : v).toLowerCase().includes(kw)));
+  const cols = DICT_COLUMNS[kind] || [['th_id', 'id']];
+  const shown = rows.slice(0, 500);
+  $('dictMeta').textContent = '共 ' + rows.length + ' 条' + (rows.length > shown.length ? '，显示前 ' + shown.length + ' 条' : '');
+  $('dictTable').innerHTML = rows.length === 0
+    ? '<tbody><tr><td class="empty">' + t('empty_dict', '没有数据') + '</td></tr></tbody>'
+    : '<thead><tr>' + cols.map((c) => '<th>' + t(c[0], c[0]) + '</th>').join('') + '</tr></thead><tbody>'
+      + shown.map((r) => '<tr>' + cols.map((c, i) => '<td class="' + (i === 0 ? 'id' : '') + '">' + esc(r[c[1]]) + '</td>').join('') + '</tr>').join('')
+      + '</tbody>';
+}
+async function copyDict() {
+  const kind = $('dictKind').value;
+  const rows = state.dict[kind] || [];
+  const text = rows.map((r) => Object.values(r).join('\t')).join('\n');
+  try { await navigator.clipboard.writeText(text); snack(t('copied', '已复制到剪贴板'), 'ok'); }
+  catch (e) { snack('复制失败', 'error'); }
+}
+
+async function fixCall(path, okText) {
+  const r = await post(path);
+  log(path + ' => ' + JSON.stringify(r));
+  if (r.ok === false) snack(r.error || '操作失败', 'error');
+  else snack(okText + (r.count !== undefined ? '（' + r.count + '）' : ''), 'ok');
+  await refreshAll();
+}
+async function loadBaselineSteps() {
+  try {
+    const r = await api('/api/baseline/steps');
+    const steps = (r && r.steps) || [];
+    $('baselineStepBtns').innerHTML = steps.map((x) => {
+      const lbl = t('step_' + x.key, x.label);
+      return '<button class="btn-outlined btn-sm" onclick="baselinePush(\'' + x.key + '\')">' + esc(lbl) + '</button>';
+    }).join('');
+  } catch (e) { }
+}
+async function baselinePush(key) {
+  const r = await post('/api/baseline/push', { step: key });
+  log('单项重发 ' + key + ' => ' + JSON.stringify(r));
+  if (r.ok === false) snack(r.error, 'error');
+  else snack(r.note || ('已重发 ' + key), 'ok');
+}
+async function aetherAtPlayer() {
+  if (!state.status || !state.status.online || !state.status.player) {
+    snack('客户端不在游戏中，拿不到当前位置', 'error'); return;
+  }
+  const p = state.status.player;
+  const r = await post('/api/aether/spawnat', { x: p.x, y: p.y, z: p.z });
+  log('/api/aether/spawnat => ' + JSON.stringify(r));
+  if (r.ok === false) snack(r.error || '生成失败', 'error');
+  else snack('已在当前位置生成 Aether', 'ok');
+}
+async function fixShop() {
+  const id = parseInt($('fixShopId').value || '0', 10) || 0;
+  const r = await post('/api/shop/open', { shopId: id });
+  log('/api/shop/open => ' + JSON.stringify(r));
+  if (r.ok === false) snack(r.error, 'error'); else snack('货架已推送', 'ok');
+}
+async function pushZoneGraph() {
+  const r = await post('/api/aether/zonegraph');
+  log('/api/aether/zonegraph => ' + JSON.stringify(r));
+  if (r.ok === false) snack(r.error, 'error'); else snack(r.message || '已推送', 'ok');
+}
+async function fixTeleport() {
+  const r = await post('/api/player/map-teleport', {
+    x: num($('tpX').value), y: num($('tpY').value), z: num($('tpZ').value), facing: num($('tpF').value),
+  });
+  log('/api/player/map-teleport => ' + JSON.stringify(r));
+  if (r.ok === false) snack(r.error, 'error'); else snack('已下发传送', 'ok');
+}
+async function fixHouse() {
+  const id = parseInt($('fixHouseId').value || '0', 10) || 0;
+  const r = await post('/api/house/buy', { houseId: id });
+  log('/api/house/buy => ' + JSON.stringify(r));
+  if (r.ok === false) snack(r.error, 'error'); else snack('房产已下发（ID ' + r.houseId + '）', 'ok');
+}
+
+async function refreshAccounts() {
+  try {
+    const r = await api('/api/accounts');
+    state.accounts = r.accounts || [];
+    state.accRoot = r.root || '';
+    $('accRoot').textContent = '存档目录：' + state.accRoot;
+    $('accTable').innerHTML = state.accounts.length === 0
+      ? '<tbody><tr><td class="empty">' + t('empty_accounts', '没有账号') + '</td></tr></tbody>'
+      : '<thead><tr><th>' + t('th_id', 'ID') + '</th><th>' + t('th_nickname', '昵称') + '</th><th>' + t('th_uid', 'UID') + '</th><th>' + t('th_pid', 'PID') + '</th><th>' + t('th_username', '用户名') + '</th><th>' + t('th_state', '状态') + '</th><th style="width:190px">' + t('th_action', '操作') + '</th></tr></thead><tbody>'
+        + state.accounts.map((a) => '<tr><td class="id">' + esc(a.id) + '</td><td>' + esc(a.name) + '</td>'
+            + '<td class="id">' + esc(a.uid) + '</td>'
+            + '<td class="id">' + esc(a.pid) + '</td>'
+            + '<td>' + esc(a.username) + '</td>'
+            + '<td>' + (a.active ? '<span class="status-pill" style="color:var(--green)">当前</span>' : '') + '</td>'
+            + '<td>' + (a.active ? '' : '<button class="btn-tonal btn-sm" onclick="accountSwitch(\'' + a.id + '\')">' + t('btn_switch', '切换') + '</button> ')
+            + '<button class="btn-danger btn-sm" onclick="accountDelete(\'' + a.id + '\')">' + t('btn_remove', '删除') + '</button></td></tr>').join('')
+        + '</tbody>';
+  } catch (e) { log('账号读取失败: ' + e, 'err'); }
+}
+async function accountCreate() {
+  const r = await post('/api/accounts/create', {
+    id: $('accId').value.trim(), name: $('accName').value.trim(),
+    username: $('accUser').value.trim(), password: $('accPass').value.trim(),
+    uid: $('accUid').value.trim(), pid: parseInt($('accPid').value || '0', 10) || 0,
+  });
+  if (r.ok === false) return snack(r.error, 'error');
+  $('accId').value = ''; $('accName').value = ''; $('accUser').value = ''; $('accPass').value = '';
+  $('accUid').value = ''; $('accPid').value = '';
+  await refreshAccounts();
+  snack('账号已创建', 'ok');
+}
+async function accountSwitch(id) {
+  const r = await post('/api/accounts/switch', { id });
+  if (r.ok === false) return snack(r.error, 'error');
+  await refreshAccounts();
+  await refreshAll();
+  snack('已切换到 ' + id + '（下次进游戏生效）', 'ok');
+}
+async function accountDelete(id) {
+  if (!confirm('删除账号 ' + id + ' 及其全部存档？此操作不可恢复。')) return;
+  const r = await post('/api/accounts/delete', { id });
+  if (r.ok === false) return snack(r.error, 'error');
+  await refreshAccounts();
+  snack('已删除', 'ok');
+}
+
+function findIn(kind, key, val) {
+  const rows = state.dict[kind] || [];
+  return rows.find((r) => r[key] === val);
+}
+function spiritName(unitId) {
+  const c = findIn('characters', 'unitId', unitId);
+  return c ? (label(c.zh, c.en) + ' (' + c.id + ')') : String(unitId);
+}
+function vehicleName(id) { const r = findIn('vehicles', 'id', id); return r ? label(r.zh, r.en) : ''; }
+function itemName(id)    { const r = findIn('items', 'id', id);    return r ? label(r.zh, r.en) : ('ID ' + id); }
+function weaponName(id)  { const r = findIn('weapons', 'id', id);  return r ? label(r.zh, r.en) : ('ID ' + id); }
+function fashionName(id) { const r = findIn('fashions', 'id', id); return r ? label(r.zh, r.en) : ('ID ' + id); }
+function taskName(id)    { const r = findIn('tasks', 'id', id);    return r ? label(r.zh, r.en) : ('ID ' + id); }
+
+function renderStatus() {
+  const s = state.status;
+  const online = !!(s && s.online);
+  const connDot = $('connDot');
+  const connText = $('connText');
+  const connChip = $('connChip');
+
+  if (connDot) connDot.className = 'dot ' + (online ? 'ok' : 'off');
+  if (connText) connText.textContent = online ? t('conn_online', '客户端已连接') : t('conn_offline', '客户端未进入游戏');
+
+  if ($('ovConn')) $('ovConn').textContent = online ? t('status_online', '已连接') : t('status_offline', '离线');
+  if ($('ovPid')) $('ovPid').textContent = online ? s.pid : '—';
+  if ($('ovSpirit')) $('ovSpirit').textContent = online ? spiritName(s.activeUnit) : '—';
+  if ($('ovReady')) $('ovReady').textContent = online ? (s.ready ? t('status_ready', '就绪') : t('status_loading', '加载中')) : '—';
+  if ($('ovPos')) $('ovPos').textContent = online ? (fmt(s.player.x) + ', ' + fmt(s.player.y) + ', ' + fmt(s.player.z)) : '—';
+  if ($('ovYaw')) $('ovYaw').textContent = online ? fmt(s.player.yaw) : '—';
+  if ($('ovSummoned')) $('ovSummoned').textContent = online ? s.summoned.length : 0;
+  if ($('ovSeat')) $('ovSeat').textContent = (online && s.inVehicle) ? ('实体 ' + s.inVehicle + ' · 座位 ' + s.inSeat) : '不在车内';
+  if ($('ovExitWrap')) $('ovExitWrap').style.display = (online && s.inVehicle) ? '' : 'none';
+
+  if ($('badgeGarage')) $('badgeGarage').textContent = online ? s.summoned.length : 0;
+
+  if ($('footerTelemetry')) {
+    $('footerTelemetry').textContent = '';
+  }
+
+  if (online) {
+    if (!state.timeDragging && typeof s.hour === 'number' && typeof s.minute === 'number' && s.hasTime) {
+      $('timeSlider').value = s.hour * 60 + s.minute;
+      $('clock').textContent = fmtClock(s.hour * 60 + s.minute);
+    }
+    $('timeSlider').disabled = false;
+  } else {
+    $('timeSlider').disabled = true;
+  }
+
+  const list = (online && s.summoned) ? s.summoned : [];
+  if ($('summonedTable')) {
+    $('summonedTable').innerHTML = list.length === 0
+      ? '<tbody><tr><td class="empty">' + t('empty_vehicles', '还没有载具，先在上方召唤一辆') + '</td></tr></tbody>'
+      : '<thead><tr><th>' + t('th_id', '实体 ID') + '</th><th>' + t('th_template', '配置 ID') + '</th><th>' + t('th_coords', '坐标') + '</th><th style="width:340px">' + t('th_action', '操作') + '</th></tr></thead><tbody>'
+        + list.map((v) => '<tr>'
+            + '<td class="id">' + v.entityId + '</td>'
+            + '<td class="id">' + v.configId + '<div style="font-size:11px;color:var(--text-3)">' + esc(vehicleName(v.configId)) + '</div></td>'
+            + '<td class="id">' + (v.hasFix ? (fmt(v.x) + ', ' + fmt(v.y) + ', ' + fmt(v.z)) : '—') + '</td>'
+            + '<td><button class="btn-tonal btn-sm" onclick="vehicleEnter(' + v.entityId + ')">上车</button> '
+            + '<button class="btn-outlined btn-sm" onclick="vehicleToMe(' + v.entityId + ')">拉到我身边</button> '
+            + '<button class="btn-outlined btn-sm" onclick="vehicleGoto(' + v.entityId + ')">传送过去</button> '
+            + '<button class="btn-danger btn-sm" onclick="vehicleRemove(' + v.entityId + ')">' + t('btn_remove', '移除') + '</button></td></tr>').join('')
+        + '</tbody>';
+  }
+}
+
+function renderContent() {
+  const c = state.content;
+  if (!c) return;
+  const bag = c.backpack || [], wp = c.weapons || [], fs = c.fashions || [];
+  if ($('ovBagCount')) $('ovBagCount').textContent = bag.length;
+  if ($('ovWeaponCount')) $('ovWeaponCount').textContent = wp.length;
+  if ($('ovFashionCount')) $('ovFashionCount').textContent = fs.length;
+  if ($('ovMoney')) $('ovMoney').textContent = (c.money || 0) + ' / ' + (c.gold || 0) + ' / ' + (c.bindingGold || 0);
+
+  if ($('badgeItems')) $('badgeItems').textContent = bag.length;
+  if ($('badgeWeapons')) $('badgeWeapons').textContent = wp.length;
+  if ($('badgeFashions')) $('badgeFashions').textContent = fs.length;
+
+  if ($('bagTable')) {
+    $('bagTable').innerHTML = bag.length === 0
+      ? '<tbody><tr><td class="empty">' + t('empty_bag', '背包为空') + '</td></tr></tbody>'
+      : '<thead><tr><th>' + t('th_id', '物品 ID') + '</th><th>' + t('th_name', '名称') + '</th><th>' + t('th_count', '数量') + '</th><th style="width:210px">' + t('th_action', '操作') + '</th></tr></thead><tbody>'
+        + bag.map((b) => '<tr><td class="id">' + b.templateId + '</td><td>' + esc(itemName(b.templateId)) + '</td>'
+            + '<td class="id">' + b.count + '</td><td>'
+            + '<button class="btn-outlined btn-sm" onclick="itemRemove(' + b.templateId + ',0)">-1</button> '
+            + '<button class="btn-danger btn-sm" onclick="itemRemove(' + b.templateId + ',1)">' + t('btn_remove_all', '全部移除') + '</button></td></tr>').join('')
+        + '</tbody>';
+  }
+
+  if ($('weaponTable')) {
+    $('weaponTable').innerHTML = wp.length === 0
+      ? '<tbody><tr><td class="empty">' + t('empty_armory', '仓库为空') + '</td></tr></tbody>'
+      : '<thead><tr><th>实例 ID</th><th>武器模板</th><th>名称</th><th style="width:120px">' + t('th_action', '操作') + '</th></tr></thead><tbody>'
+        + wp.map((w) => '<tr><td class="id">' + w.instanceId + '</td><td class="id">' + w.templateId + '</td>'
+            + '<td>' + esc(weaponName(w.templateId)) + '</td>'
+            + '<td><button class="btn-danger btn-sm" onclick="weaponRemove(' + w.instanceId + ')">' + t('btn_remove', '移除') + '</button></td></tr>').join('')
+        + '</tbody>';
+  }
+
+  if ($('fashionTable')) {
+    $('fashionTable').innerHTML = fs.length === 0
+      ? '<tbody><tr><td class="empty">' + t('empty_wardrobe', '衣橱为空') + '</td></tr></tbody>'
+      : '<thead><tr><th>时装 ID</th><th>名称</th><th style="width:120px">' + t('th_action', '操作') + '</th></tr></thead><tbody>'
+        + fs.map((f) => '<tr><td class="id">' + f + '</td><td>' + esc(fashionName(f)) + '</td>'
+            + '<td><button class="btn-danger btn-sm" onclick="fashionRemove(' + f + ')">' + t('btn_remove', '移除') + '</button></td></tr>').join('')
+        + '</tbody>';
+  }
+}
+
+let refreshing = false;
+async function refreshAll() {
+  if (refreshing) return;
+  refreshing = true;
+  try {
+    try { state.status = await api('/api/status'); } catch (e) { state.status = null; }
+    try { state.content = await api('/api/content'); } catch (e) { state.content = null; }
+    renderStatus();
+    renderContent();
+  } finally { refreshing = false; }
+}
+
+async function boot() {
+  applyLanguage(currentLang);
+  setPrimaryTab('overview');
+
+  log('控制台已启动，正在加载字典…');
+  await loadDict('characters');
+  await loadDict('meta');
+
+  if (state.dictMeta && state.dictMeta.counts) {
+    const c = state.dictMeta.counts;
+    $('ovDict').textContent = '角色 ' + (c.characters || 0) + ' · 武器 ' + (c.weapons || 0) + ' · 时装 ' + (c.fashions || 0)
+      + ' · 载具 ' + (c.vehicles || 0) + ' · 物品 ' + (c.items || 0) + ' · 任务 ' + (c.tasks || 0)
+      + ' · 章节 ' + (c.chapters || 0) + ' · 商城 ' + (c.mall || 0);
+  } else {
+    $('ovDict').textContent = '字典未生成。请在项目根目录运行：python tools_build_catalog.py';
+  }
+
+  $('weaponSpirit').innerHTML = '<option value="0">自动（首个角色）</option>'
+    + (state.dict.characters || []).map((c) => '<option value="' + c.id + '">' + esc(label(c.zh, c.en)) + ' — ' + c.id + '</option>').join('');
+
+  await loadFleet();
+  for (const k of ['weapons', 'fashions', 'items', 'tasks', 'vehicles', 'vehicleTypes', 'chapters', 'mall']) {
+    await loadDict(k);
+  }
+  renderItemOptions(); renderWeaponOptions(); renderFashionOptions(); renderDict();
+
+  await refreshAccounts();
+
+  $('enemySelect').addEventListener('change', onEnemyPick);
+  $('agentSelect').addEventListener('change', onAgentPick);
+  $('agentMonsters').addEventListener('change', loadAgents);
+  await loadStory();
+  await loadTaskSearch();
+  await loadEnemyGroups();
+  await loadAgents();
+  await loadStreetNpcs();
+
+  setInterval(loadStory, 5000);
+  await refreshAll();
+  setInterval(refreshAll, 2000);
+
+  await loadBaselineSteps();
+  await loadWeatherOptions();
+  await loadCutscenes();
+  await loadDialogs();
+  await loadTimelines();
+  await loadCinematics();
+
+  log('就绪');
+}
+
+boot();
 </script>
 </body>
 </html>

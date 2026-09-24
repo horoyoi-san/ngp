@@ -3,15 +3,15 @@ using Ananta.Server.Handlers;
 using Ananta.Server.Gameplay;
 using Ananta.Server.Protocol.Client4229938;
 using Ananta.Server.ClientData.Client4229938;
+using Ananta.Server.Configuration;
 using Ananta.Server.RpcTypes.Client4229938;
 using GameMethods = Ananta.Server.RpcTypes.Client4229938.Methods.Game;
 
 namespace Ananta.Server.Handlers.Game;
 
-/// <summary>World entry and client-driven scene loading barriers.</summary>
 internal sealed partial class GameRouter
 {
-    WorldEntryState GetWorldState(RpcContext ctx)
+    static WorldEntryState GetWorldState(RpcContext ctx)
     {
         if (ctx.Session.Items.TryGetValue(WorldStateKey, out var raw) && raw is WorldEntryState existing)
             return existing;
@@ -72,7 +72,6 @@ internal sealed partial class GameRouter
         await SendEnterSceneIfNeeded(ctx);
     }
 
-
     async Task SendEnterSceneIfNeeded(RpcContext ctx)
     {
         var state = GetWorldState(ctx);
@@ -85,8 +84,8 @@ internal sealed partial class GameRouter
         state.WorldEntryCreateHeroPosition = Profile.WorldSpawn;
         state.WorldEntryCreateHeroFacing = Profile.WorldFacing;
 
-        // Minimal mode intentionally does not ask the client to play an authored opening Timeline.
-        // Scene assets and native quest/story systems remain entirely client-owned.
+        
+        
         await ctx.NotifyAsync(MethodId.SyncEnterScene, RuntimePayloadFactory.EnterScene(
             Profile.RaidId,
             Profile.SceneInstanceId,
@@ -101,7 +100,6 @@ internal sealed partial class GameRouter
         ctx.Session.Log.Info($"[WORLD-MIN] enter generation={state.WorldEntryControlGeneration} raid={Profile.RaidId} instance={Profile.SceneInstanceId} universe={Profile.UniverseId} unit={Profile.InitialUnitId} template={Profile.InitialSpiritTemplateId} pos=({Profile.WorldSpawn.X:0.##},{Profile.WorldSpawn.Y:0.##},{Profile.WorldSpawn.Z:0.##}) opening=false switchShow=0");
     }
 
-
     async Task<bool> CommitWorldEntryCreateHeroData4229938(RpcContext ctx, int generation)
     {
         var state = GetWorldState(ctx);
@@ -112,9 +110,9 @@ internal sealed partial class GameRouter
         float createHeroFacing;
         string? reject = null;
 
-        // Port the proven v7 preflight literally: validate the complete canonical identity and
-        // CreateHero transform BEFORE claiming/sending the first authority packet. A failure after
-        // LogicAgentEnter would leave an orphan authority entity, so this block is fail-closed.
+        
+        
+        
         lock (state.SyncRoot)
         {
             if (!state.WorldEntryControlPending || state.WorldEntryControlFinalized)
@@ -153,8 +151,8 @@ internal sealed partial class GameRouter
 
             if (reject is null)
             {
-                // Both generation edges are claimed before any send. Partial failure remains
-                // fail-closed; a duplicate callback must never replay half of the transaction.
+                
+                
                 state.WorldEntryLogicProjectionPublishedGeneration = -generation;
                 state.WorldEntryCurrentMetadataPublishedGeneration = -generation;
             }
@@ -166,8 +164,8 @@ internal sealed partial class GameRouter
             return false;
         }
 
-        // Exact proven order from the supplied v7 guide. No sleep, no presentation hydration,
-        // no buffs and no weapon/fashion deltas may be interleaved into this quartet.
+        
+        
         await ctx.NotifyAsync(MethodId.SyncLogicAgentEnter, WorldCodec.LogicAgentEnter(unitId));
         await ctx.NotifyAsync(MethodId.SyncManagedLogicAgent, WorldCodec.ManagedLogicAgent(unitId, playerPid, 0));
         await ctx.NotifyAsync(MethodId.SyncRaidBattleUnitSpirit,
@@ -193,7 +191,6 @@ internal sealed partial class GameRouter
         ctx.Session.Log.Info($"[HANDOFF-V7] generation={generation} exact=LogicAgentEnter->ManagedLogicAgent->sameID-AOI->CurrentSpirit unit={unitId} template={templateId} presentation=false buffs=false duplicateActor=false");
         return true;
     }
-
 
     async Task OnLoadSceneCompleted(RpcContext ctx, ulong sceneId, ulong sessionId)
     {
@@ -232,8 +229,8 @@ internal sealed partial class GameRouter
         if (!await CommitWorldEntryCreateHeroData4229938(ctx, generation))
             return;
 
-        // The confirmed handoff transaction ends with CurrentSpirit. Do not interleave roster/combat/state
-        // hydration here; the client must reach AskLoadingFinished with the post-load quartet intact.
+        
+        
         ctx.Session.Log.Info($"[WORLD] load-edge committed generation={generation} scene={sceneId} session={sessionId} logicProjection={state.WorldEntryLogicProjectionPublishedGeneration} currentMetadata={state.WorldEntryCurrentMetadataPublishedGeneration} sceneComplete=false hydration=false");
     }
 
@@ -287,9 +284,9 @@ internal sealed partial class GameRouter
             return;
         }
 
-        // Supplied guide invariant: SyncSceneLoadCompleted is the FIRST and ONLY S2C gameplay edge
-        // of AskLoadingFinished. Do not put buffs/weapon/fashion/current before it. All optional
-        // runtime hydration is deferred to the first real gameplay movement after Ready=true.
+        
+        
+        
         await ctx.NotifyAsync(MethodId.SyncSceneLoadCompleted, WorldCodec.SceneLoadCompleted(sceneId));
 
         lock (state.SyncRoot)
@@ -299,7 +296,7 @@ internal sealed partial class GameRouter
                 state.WorldEntryLoadingCompletedGeneration = generation;
             state.LivePlayerProfilePublished = false;
             state.CombatProfilePublished = false;
-            state.AccountArmoryPublished = true; // compact referenced subset already arrived in SyncPlayerInfo
+            state.AccountArmoryPublished = true; 
             state.FreeRoamReleased = false;
             state.MovementCapabilityPublished = false;
             state.AllBuildBuffsPublished = false;
@@ -316,17 +313,118 @@ internal sealed partial class GameRouter
             state.WorldEntryIsAirportTravel = false;
         }
 
-        // Normal post-load finalization, deliberately after the terminal scene-ready edge.
+        
         await ctx.NotifyAsync(MethodId.SyncGamePause, WorldCodec.GamePause(false));
         await PublishGarageAsync(ctx);
-        await PublishAetherInitAsync(ctx);
+
+        
+        
+        
+        
+        
+        {
+            var aetherSession = ctx.Session;
+            var gateHub = _gateSessions;
+            uint aetherRaidId;
+            lock (state.SyncRoot)
+                aetherRaidId = state.ActiveRaidId;
+
+            _ = Task.Run(async () =>
+            {
+                try
+                {
+                    var delayMs = PrivateServerConfigStore.Current.Gameplay.Aether.WorldEntryDelayMs;
+                    aetherSession.Log.Info($"[AETHER-BG] 将在 {delayMs}ms 后异步推送车流和 NPC");
+                    await Task.Delay(delayMs);
+
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    if (gateHub?.Current is { } gate)
+                    {
+                        var sw = PrivateServerConfigStore.Current.Gameplay.GameSwitch;
+                        if (sw.Enabled)
+                        {
+                            var framing = GameSwitchCodec.ParseFraming(sw.Framing);
+                            var body = GameSwitchCodec.BuildPush(sw.Overrides, framing);
+                            await gate.NotifyAsync(MethodId.SyncGameSwitchToClient_3, body, CancellationToken.None);
+                            aetherSession.Log.Info(
+                                $"[SWITCH] Aether 预初始化重下发 GameSwitch：{GameSwitchCatalog.Count} 项，"
+                                + $"{body.Length} 字节，帧 {framing}（Gate socket）");
+                        }
+                    }
+                    else
+                    {
+                        aetherSession.Log.Warn("[SWITCH] Aether 预初始化时找不到 Gate 会话，无法重下发 GameSwitch");
+                    }
+
+                    await PublishAetherInitBackgroundAsync(aetherSession, aetherRaidId, CancellationToken.None);
+                }
+                catch (OperationCanceledException) { }
+                catch (Exception ex)
+                {
+                    aetherSession.Log.Info($"[AETHER-BG] 异步推送失败: {ex.GetType().Name}: {ex.Message}");
+                }
+            });
+        }
+
         await EnsureVehicleStoryRoot(ctx);
         await PushSessionTimeAsync(ctx.Session);
         await PushSessionWeatherAsync(ctx.Session);
 
+        
+        await PushContentBaselineAsync(ctx.Session);
+
+        
+        
+        LogSpiritContent();
+
+        
+        
+        
+        
+        
+        
+        await PublishInitialCombatProfileAsync(ctx.Session);
+
+        
+        
+        if (PrivateServerConfigStore.Current.Gameplay.Quests.SendLoginBootstrap)
+        {
+            SeedConfiguredQuests(state);
+            
+            if (PrivateServerConfigStore.Current.Gameplay.Quests.AutoStartStoryChain)
+                await StartStoryChainAsync(ctx.Session, token: ctx.CancellationToken);
+            await PushTaskContainerAsync(ctx.Session, ctx.CancellationToken);
+            await PushConfiguredQuestProgressAsync(ctx.Session, ctx.CancellationToken);
+        }
+
+        
+        await PublishAllStreetNpcsAsync(ctx.Session, ctx.CancellationToken);
+
+        
+        
+        
+        try
+        {
+            var wp = Protocol.Client4229938.Profile.WorldSpawn;
+            await PublishBasketballCourtsAsync(ctx.Session, wp.X, wp.Z, ctx.CancellationToken);
+        }
+        catch (Exception ex)
+        {
+            ctx.Session.Log.Info($"[BASKETBALL] 球场信息下发失败: {ex.GetType().Name}: {ex.Message}");
+        }
+
         ctx.Session.Log.Info($"[WORLD-V7] ready generation={generation} scene={sceneId} session={sessionId} exactGuide=true sceneComplete=first actorPresentation=client-owned buffs=deferred-first-movement noStory=true noAOI=true");
     }
-
 
     async Task OnLoadedInSameScene(RpcContext ctx)
     {
@@ -340,9 +438,9 @@ internal sealed partial class GameRouter
                 state.WorldEntryOpeningEndedGeneration = state.WorldEntryControlGeneration;
         }
 
-        // 4229938 emits AskLoadedInSameScene after every authored same-scene character switch, not
-        // only once after login. SyncPlayerLoadRate is therefore an acknowledgement for EACH edge.
-        // Keep the opening-generation bookkeeping one-shot, but never suppress the per-switch ack.
+        
+        
+        
         await ctx.NotifyAsync(MethodId.SyncPlayerLoadRate, WorldCodec.PlayerLoadRate());
         ctx.Session.Log.Info($"[SAME-SCENE] load-rate ack=true first={firstPresentationEdge} generation={state.WorldEntryControlGeneration} pendingSwitch={state.PendingSwitchTemplateId}/{state.PendingSwitchUnitId} controlMutation=false");
     }

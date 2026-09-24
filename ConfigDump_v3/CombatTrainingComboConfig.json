@@ -1,0 +1,238 @@
+{
+  "_class": "CombatTrainingComboConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 5,
+  "records": [
+    {
+      "Id": 1,
+      "ComboName": "缠之手轻击2重击",
+      "InputidList": [
+        8,
+        8,
+        26
+      ],
+      "PadInputidList": [
+        4,
+        4,
+        1
+      ],
+      "MobileIconList": [
+        28004195,
+        28004195,
+        28000889
+      ],
+      "ComboSkillList": [
+        {
+          "skillId1": 51942166,
+          "skillId2": 51942123,
+          "skillId3": 0
+        },
+        {
+          "skillId1": 51942169,
+          "skillId2": 0,
+          "skillId3": 0
+        },
+        {
+          "skillId1": 51942174,
+          "skillId2": 0,
+          "skillId3": 0
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "ComboName": "缠之手轻击3重击",
+      "InputidList": [
+        8,
+        8,
+        8,
+        26
+      ],
+      "PadInputidList": [
+        4,
+        4,
+        4,
+        1
+      ],
+      "MobileIconList": [
+        28004195,
+        28004195,
+        28004195,
+        28000889
+      ],
+      "ComboSkillList": [
+        {
+          "skillId1": 51942166,
+          "skillId2": 51942123,
+          "skillId3": 0
+        },
+        {
+          "skillId1": 51942169,
+          "skillId2": 0,
+          "skillId3": 0
+        },
+        {
+          "skillId1": 51942181,
+          "skillId2": 0,
+          "skillId3": 0
+        },
+        {
+          "skillId1": 51942180,
+          "skillId2": 0,
+          "skillId3": 0
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "ComboName": "缠之手轻击4重击",
+      "InputidList": [
+        8,
+        8,
+        8,
+        8,
+        26
+      ],
+      "PadInputidList": [
+        4,
+        4,
+        4,
+        4,
+        1
+      ],
+      "MobileIconList": [
+        28004195,
+        28004195,
+        28004195,
+        28004195,
+        28000889
+      ],
+      "ComboSkillList": [
+        {
+          "skillId1": 51942166,
+          "skillId2": 51942123,
+          "skillId3": 0
+        },
+        {
+          "skillId1": 51942169,
+          "skillId2": 0,
+          "skillId3": 0
+        },
+        {
+          "skillId1": 51942181,
+          "skillId2": 0,
+          "skillId3": 0
+        },
+        {
+          "skillId1": 51942170,
+          "skillId2": 0,
+          "skillId3": 0
+        },
+        {
+          "skillId1": 51942182,
+          "skillId2": 0,
+          "skillId3": 0
+        }
+      ]
+    },
+    {
+      "Id": 4,
+      "ComboName": "缠之手轻击5重击",
+      "InputidList": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        26
+      ],
+      "PadInputidList": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        1
+      ],
+      "MobileIconList": [
+        28004195,
+        28004195,
+        28004195,
+        28004195,
+        28004195,
+        28000889
+      ],
+      "ComboSkillList": [
+        {
+          "skillId1": 51942166,
+          "skillId2": 51942123,
+          "skillId3": 0
+        },
+        {
+          "skillId1": 51942169,
+          "skillId2": 0,
+          "skillId3": 0
+        },
+        {
+          "skillId1": 51942181,
+          "skillId2": 0,
+          "skillId3": 0
+        },
+        {
+          "skillId1": 51942170,
+          "skillId2": 0,
+          "skillId3": 0
+        },
+        {
+          "skillId1": 51942176,
+          "skillId2": 0,
+          "skillId3": 0
+        },
+        {
+          "skillId1": 51942172,
+          "skillId2": 0,
+          "skillId3": 0
+        }
+      ]
+    },
+    {
+      "Id": 5,
+      "ComboName": "缠之手重击3连",
+      "InputidList": [
+        26,
+        26,
+        26
+      ],
+      "PadInputidList": [
+        1,
+        1,
+        1
+      ],
+      "MobileIconList": [
+        28000889,
+        28000889,
+        28000889
+      ],
+      "ComboSkillList": [
+        {
+          "skillId1": 51942173,
+          "skillId2": 0,
+          "skillId3": 0
+        },
+        {
+          "skillId1": 51942167,
+          "skillId2": 0,
+          "skillId3": 0
+        },
+        {
+          "skillId1": 51942175,
+          "skillId2": 0,
+          "skillId3": 0
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 5,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

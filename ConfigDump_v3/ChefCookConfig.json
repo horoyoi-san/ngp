@@ -1,0 +1,62 @@
+{
+  "_class": "ChefCookConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 4,
+  "records": [
+    {
+      "Id": 37010500,
+      "CookType": 1,
+      "CookTypeName": "炒菜",
+      "CookPrepareName": "炒制",
+      "CookFailSceneitem": 80002162,
+      "CookFailConsumable": 36200001,
+      "CookTimeline": "play_cooking_wok",
+      "__IDX__CookTypeName": 4294967295,
+      "__RAW__CookTypeName": "炒菜",
+      "__IDX__CookPrepareName": 4294967295,
+      "__RAW__CookPrepareName": "炒制"
+    },
+    {
+      "Id": 37010501,
+      "CookType": 2,
+      "CookTypeName": "炖煮",
+      "CookPrepareName": "焯水",
+      "CookFailSceneitem": 80002162,
+      "CookFailConsumable": 36200001,
+      "CookTimeline": "play_cooking_stockpot",
+      "__IDX__CookTypeName": 4294967295,
+      "__RAW__CookTypeName": "炖煮",
+      "__IDX__CookPrepareName": 4294967295,
+      "__RAW__CookPrepareName": "焯水"
+    },
+    {
+      "Id": 37010502,
+      "CookType": 3,
+      "CookTypeName": "蒸制",
+      "CookPrepareName": "蒸制",
+      "CookFailSceneitem": 80002162,
+      "CookFailConsumable": 36200001,
+      "CookTimeline": "play_cooking_wok",
+      "__IDX__CookTypeName": 4294967295,
+      "__RAW__CookTypeName": "蒸制",
+      "__IDX__CookPrepareName": 4294967295,
+      "__RAW__CookPrepareName": "蒸制"
+    },
+    {
+      "Id": 37010503,
+      "CookType": 4,
+      "CookTypeName": "油炸",
+      "CookPrepareName": "油炸",
+      "CookFailSceneitem": 80002162,
+      "CookFailConsumable": 36200001,
+      "CookTimeline": "play_cooking_wok",
+      "__IDX__CookTypeName": 4294967295,
+      "__RAW__CookTypeName": "油炸",
+      "__IDX__CookPrepareName": 4294967295,
+      "__RAW__CookPrepareName": "油炸"
+    }
+  ],
+  "_dumpedCount": 4,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

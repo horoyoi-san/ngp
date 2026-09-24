@@ -1,0 +1,170 @@
+{
+  "OneOnOneDefenseCfg": {
+    "Id": 1,
+    "Name": "人盯人防守",
+    "BehaviorType": 1,
+    "IsParallelBehavior": false,
+    "BehaviorSource": 1,
+    "BehaviorPriority": 1
+  },
+  "DriveCfg": {
+    "Id": 2,
+    "Name": "突破",
+    "BehaviorType": 1,
+    "IsParallelBehavior": false,
+    "BehaviorSource": 2,
+    "BehaviorPriority": 1
+  },
+  "NormalPositioningCfg": {
+    "Id": 3,
+    "Name": "普通落位",
+    "BehaviorType": 1,
+    "IsParallelBehavior": false,
+    "BehaviorSource": 1,
+    "BehaviorPriority": 1
+  },
+  "ServePositioningCfg": {
+    "Id": 4,
+    "Name": "发球落位",
+    "BehaviorType": 1,
+    "IsParallelBehavior": false,
+    "BehaviorSource": 4,
+    "BehaviorPriority": 1
+  },
+  "StealCfg": {
+    "Id": 7,
+    "Name": "抢断",
+    "BehaviorType": 4,
+    "IsParallelBehavior": false,
+    "BehaviorSource": 2,
+    "BehaviorPriority": 2
+  },
+  "ShootCfg": {
+    "Id": 9,
+    "Name": "投篮",
+    "BehaviorType": 5,
+    "IsParallelBehavior": false,
+    "BehaviorSource": 2,
+    "BehaviorPriority": 2
+  },
+  "SidewaysMoveCfg": {
+    "Id": 12,
+    "Name": "侧向移动",
+    "BehaviorType": 1,
+    "IsParallelBehavior": false,
+    "BehaviorSource": 2,
+    "BehaviorPriority": 1
+  },
+  "ChaseBallPickUpCfg": {
+    "Id": 13,
+    "Name": "追逐捡拾球",
+    "BehaviorType": 1,
+    "IsParallelBehavior": false,
+    "BehaviorSource": 2,
+    "BehaviorPriority": 1
+  },
+  "MoveToByRuleCfg": {
+    "Id": 14,
+    "Name": "规则限制目标点移动",
+    "BehaviorType": 1,
+    "IsParallelBehavior": false,
+    "BehaviorSource": 2,
+    "BehaviorPriority": 1
+  },
+  "Move3PFromRimCfg": {
+    "Id": 15,
+    "Name": "直接移动至三分线外",
+    "BehaviorType": 1,
+    "IsParallelBehavior": false,
+    "BehaviorSource": 2,
+    "BehaviorPriority": 1
+  },
+  "ZigStepCfg": {
+    "Id": 16,
+    "Name": "花运",
+    "BehaviorType": 8,
+    "IsParallelBehavior": true,
+    "BehaviorSource": 2,
+    "BehaviorPriority": 1
+  },
+  "FakeShootCfg": {
+    "Id": 17,
+    "Name": "假投",
+    "BehaviorType": 5,
+    "IsParallelBehavior": false,
+    "BehaviorSource": 2,
+    "BehaviorPriority": 1
+  },
+  "LayupCfg": {
+    "Id": 18,
+    "Name": "上篮",
+    "BehaviorType": 5,
+    "IsParallelBehavior": false,
+    "BehaviorSource": 2,
+    "BehaviorPriority": 2
+  },
+  "DunkCfg": {
+    "Id": 19,
+    "Name": "扣篮",
+    "BehaviorType": 5,
+    "IsParallelBehavior": false,
+    "BehaviorSource": 2,
+    "BehaviorPriority": 2
+  },
+  "BlockContestCfg": {
+    "Id": 20,
+    "Name": "盖帽或干扰",
+    "BehaviorType": 7,
+    "IsParallelBehavior": false,
+    "BehaviorSource": 2,
+    "BehaviorPriority": 2
+  },
+  "ShootRebPositioningCfg": {
+    "Id": 21,
+    "Name": "投篮阶段篮板球落位",
+    "BehaviorType": 1,
+    "IsParallelBehavior": false,
+    "BehaviorSource": 1,
+    "BehaviorPriority": 1
+  },
+  "ReboundRebPositioningCfg": {
+    "Id": 22,
+    "Name": "篮板球阶段篮板球落位",
+    "BehaviorType": 1,
+    "IsParallelBehavior": false,
+    "BehaviorSource": 1,
+    "BehaviorPriority": 1
+  },
+  "LeapForReboundCfg": {
+    "Id": 23,
+    "Name": "跳起来抢篮板球",
+    "BehaviorType": 3,
+    "IsParallelBehavior": true,
+    "BehaviorSource": 2,
+    "BehaviorPriority": 2
+  },
+  "PassBallCfg": {
+    "Id": 24,
+    "Name": "常规传球",
+    "BehaviorType": 2,
+    "IsParallelBehavior": false,
+    "BehaviorSource": 2,
+    "BehaviorPriority": 2
+  },
+  "CutToRimCfg": {
+    "Id": 25,
+    "Name": "无球向篮下切入",
+    "BehaviorType": 1,
+    "IsParallelBehavior": false,
+    "BehaviorSource": 2,
+    "BehaviorPriority": 1
+  },
+  "TeamChaseBallPickUpCfg": {
+    "Id": 26,
+    "Name": "团队型追逐捡拾球",
+    "BehaviorType": 1,
+    "IsParallelBehavior": false,
+    "BehaviorSource": 1,
+    "BehaviorPriority": 2
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_class": "CarShopWheelConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 2,
+  "records": [
+    {
+      "Id": 10114001,
+      "Name": "默认",
+      "WheelId": true,
+      "CommodityId": 94201027,
+      "WheelIcon": "28002032"
+    },
+    {
+      "Id": 10114002,
+      "Name": "竞技",
+      "WheelId": false,
+      "CommodityId": 94201028,
+      "WheelIcon": "28002033"
+    }
+  ],
+  "_dumpedCount": 2,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

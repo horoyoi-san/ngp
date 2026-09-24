@@ -1,0 +1,514 @@
+{
+  "_class": "MartialArtistQuestConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 48,
+  "records": [
+    {
+      "Id": 101,
+      "PreQuestIDs": [],
+      "MartialArtistId": 95300001,
+      "QuestPath": 0,
+      "QuestName": "选择入门",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "选择入门"
+    },
+    {
+      "Id": 102,
+      "PreQuestIDs": [
+        101
+      ],
+      "MartialArtistId": 95300001,
+      "QuestPath": 0,
+      "QuestName": "特训·飞针",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "特训·飞针"
+    },
+    {
+      "Id": 103,
+      "PreQuestIDs": [
+        102
+      ],
+      "MartialArtistId": 95300001,
+      "QuestPath": 0,
+      "QuestName": "参悟·岁月",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "参悟·岁月"
+    },
+    {
+      "Id": 104,
+      "PreQuestIDs": [
+        103
+      ],
+      "MartialArtistId": 95300001,
+      "QuestPath": 0,
+      "QuestName": "演武·极意门",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "演武·极意门"
+    },
+    {
+      "Id": 105,
+      "PreQuestIDs": [
+        104
+      ],
+      "MartialArtistId": 95300001,
+      "QuestPath": 0,
+      "QuestName": "习武·葵花点穴手",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "习武·葵花点穴手"
+    },
+    {
+      "Id": 111,
+      "PreQuestIDs": [],
+      "MartialArtistId": 95300001,
+      "QuestPath": 1,
+      "QuestName": "提出叩场",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "提出叩场"
+    },
+    {
+      "Id": 112,
+      "PreQuestIDs": [
+        111
+      ],
+      "MartialArtistId": 95300001,
+      "QuestPath": 1,
+      "QuestName": "战胜青姨",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "战胜青姨"
+    },
+    {
+      "Id": 113,
+      "PreQuestIDs": [
+        112
+      ],
+      "MartialArtistId": 95300001,
+      "QuestPath": 1,
+      "QuestName": "习武·葵花点穴手",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "习武·葵花点穴手"
+    },
+    {
+      "Id": 201,
+      "PreQuestIDs": [],
+      "MartialArtistId": 95300002,
+      "QuestPath": 0,
+      "QuestName": "选择入门",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "选择入门"
+    },
+    {
+      "Id": 202,
+      "PreQuestIDs": [
+        201
+      ],
+      "MartialArtistId": 95300002,
+      "QuestPath": 0,
+      "QuestName": "特训·扫叶",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "特训·扫叶"
+    },
+    {
+      "Id": 203,
+      "PreQuestIDs": [
+        202
+      ],
+      "MartialArtistId": 95300002,
+      "QuestPath": 0,
+      "QuestName": "参悟·平静",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "参悟·平静"
+    },
+    {
+      "Id": 204,
+      "PreQuestIDs": [
+        203
+      ],
+      "MartialArtistId": 95300002,
+      "QuestPath": 0,
+      "QuestName": "演武·静心居",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "演武·静心居"
+    },
+    {
+      "Id": 205,
+      "PreQuestIDs": [
+        204
+      ],
+      "MartialArtistId": 95300002,
+      "QuestPath": 0,
+      "QuestName": "习武·太极剑法",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "习武·太极剑法"
+    },
+    {
+      "Id": 211,
+      "PreQuestIDs": [],
+      "MartialArtistId": 95300002,
+      "QuestPath": 1,
+      "QuestName": "提出叩场",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "提出叩场"
+    },
+    {
+      "Id": 212,
+      "PreQuestIDs": [
+        211
+      ],
+      "MartialArtistId": 95300002,
+      "QuestPath": 1,
+      "QuestName": "战胜张谷丰",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "战胜张谷丰"
+    },
+    {
+      "Id": 213,
+      "PreQuestIDs": [
+        212
+      ],
+      "MartialArtistId": 95300002,
+      "QuestPath": 1,
+      "QuestName": "习武·太极剑法",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "习武·太极剑法"
+    },
+    {
+      "Id": 401,
+      "PreQuestIDs": [],
+      "MartialArtistId": 95300004,
+      "QuestPath": 0,
+      "QuestName": "选择入门",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "选择入门"
+    },
+    {
+      "Id": 402,
+      "PreQuestIDs": [
+        401
+      ],
+      "MartialArtistId": 95300004,
+      "QuestPath": 0,
+      "QuestName": "特训·跳房子",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "特训·跳房子"
+    },
+    {
+      "Id": 403,
+      "PreQuestIDs": [
+        402
+      ],
+      "MartialArtistId": 95300004,
+      "QuestPath": 0,
+      "QuestName": "参悟·流变",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "参悟·流变"
+    },
+    {
+      "Id": 404,
+      "PreQuestIDs": [
+        403
+      ],
+      "MartialArtistId": 95300004,
+      "QuestPath": 0,
+      "QuestName": "演武·浪摄团",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "演武·浪摄团"
+    },
+    {
+      "Id": 405,
+      "PreQuestIDs": [
+        404
+      ],
+      "MartialArtistId": 95300004,
+      "QuestPath": 0,
+      "QuestName": "习武·八卦掌",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "习武·八卦掌"
+    },
+    {
+      "Id": 411,
+      "PreQuestIDs": [],
+      "MartialArtistId": 95300004,
+      "QuestPath": 1,
+      "QuestName": "提出叩场",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "提出叩场"
+    },
+    {
+      "Id": 412,
+      "PreQuestIDs": [
+        411
+      ],
+      "MartialArtistId": 95300004,
+      "QuestPath": 1,
+      "QuestName": "战胜周晓",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "战胜周晓"
+    },
+    {
+      "Id": 413,
+      "PreQuestIDs": [
+        412
+      ],
+      "MartialArtistId": 95300004,
+      "QuestPath": 1,
+      "QuestName": "习武·八卦掌",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "习武·八卦掌"
+    },
+    {
+      "Id": 501,
+      "PreQuestIDs": [],
+      "MartialArtistId": 95300005,
+      "QuestPath": 0,
+      "QuestName": "选择入门",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "选择入门"
+    },
+    {
+      "Id": 502,
+      "PreQuestIDs": [
+        501
+      ],
+      "MartialArtistId": 95300005,
+      "QuestPath": 0,
+      "QuestName": "特训·模仿",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "特训·模仿"
+    },
+    {
+      "Id": 503,
+      "PreQuestIDs": [
+        502
+      ],
+      "MartialArtistId": 95300005,
+      "QuestPath": 0,
+      "QuestName": "参悟·身形",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "参悟·身形"
+    },
+    {
+      "Id": 504,
+      "PreQuestIDs": [
+        503
+      ],
+      "MartialArtistId": 95300005,
+      "QuestPath": 0,
+      "QuestName": "演武·锅联会",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "演武·锅联会"
+    },
+    {
+      "Id": 505,
+      "PreQuestIDs": [
+        504
+      ],
+      "MartialArtistId": 95300005,
+      "QuestPath": 0,
+      "QuestName": "习武·形意拳",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "习武·形意拳"
+    },
+    {
+      "Id": 511,
+      "PreQuestIDs": [],
+      "MartialArtistId": 95300005,
+      "QuestPath": 1,
+      "QuestName": "提出叩场",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "提出叩场"
+    },
+    {
+      "Id": 512,
+      "PreQuestIDs": [
+        511
+      ],
+      "MartialArtistId": 95300005,
+      "QuestPath": 1,
+      "QuestName": "战胜鹿听雨",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "战胜鹿听雨"
+    },
+    {
+      "Id": 513,
+      "PreQuestIDs": [
+        512
+      ],
+      "MartialArtistId": 95300005,
+      "QuestPath": 1,
+      "QuestName": "习武·形意拳",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "习武·形意拳"
+    },
+    {
+      "Id": 601,
+      "PreQuestIDs": [],
+      "MartialArtistId": 95300006,
+      "QuestPath": 0,
+      "QuestName": "选择入门",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "选择入门"
+    },
+    {
+      "Id": 602,
+      "PreQuestIDs": [
+        601
+      ],
+      "MartialArtistId": 95300006,
+      "QuestPath": 0,
+      "QuestName": "特训·梅花桩",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "特训·梅花桩"
+    },
+    {
+      "Id": 603,
+      "PreQuestIDs": [
+        602
+      ],
+      "MartialArtistId": 95300006,
+      "QuestPath": 0,
+      "QuestName": "参悟·旷达",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "参悟·旷达"
+    },
+    {
+      "Id": 604,
+      "PreQuestIDs": [
+        603
+      ],
+      "MartialArtistId": 95300006,
+      "QuestPath": 0,
+      "QuestName": "演武·故障机器人",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "演武·故障机器人"
+    },
+    {
+      "Id": 605,
+      "PreQuestIDs": [
+        604
+      ],
+      "MartialArtistId": 95300006,
+      "QuestPath": 0,
+      "QuestName": "习武·醉拳",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "习武·醉拳"
+    },
+    {
+      "Id": 611,
+      "PreQuestIDs": [],
+      "MartialArtistId": 95300006,
+      "QuestPath": 1,
+      "QuestName": "提出叩场",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "提出叩场"
+    },
+    {
+      "Id": 612,
+      "PreQuestIDs": [
+        611
+      ],
+      "MartialArtistId": 95300006,
+      "QuestPath": 1,
+      "QuestName": "战胜罗伯特",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "战胜罗伯特"
+    },
+    {
+      "Id": 613,
+      "PreQuestIDs": [
+        612
+      ],
+      "MartialArtistId": 95300006,
+      "QuestPath": 1,
+      "QuestName": "习武·醉拳",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "习武·醉拳"
+    },
+    {
+      "Id": 701,
+      "PreQuestIDs": [],
+      "MartialArtistId": 95300007,
+      "QuestPath": 0,
+      "QuestName": "选择入门",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "选择入门"
+    },
+    {
+      "Id": 702,
+      "PreQuestIDs": [
+        701
+      ],
+      "MartialArtistId": 95300007,
+      "QuestPath": 0,
+      "QuestName": "特训·接棍子",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "特训·接棍子"
+    },
+    {
+      "Id": 703,
+      "PreQuestIDs": [
+        702
+      ],
+      "MartialArtistId": 95300007,
+      "QuestPath": 0,
+      "QuestName": "参悟·刚柔",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "参悟·刚柔"
+    },
+    {
+      "Id": 704,
+      "PreQuestIDs": [
+        703
+      ],
+      "MartialArtistId": 95300007,
+      "QuestPath": 0,
+      "QuestName": "演武·藕野健身",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "演武·藕野健身"
+    },
+    {
+      "Id": 705,
+      "PreQuestIDs": [
+        704
+      ],
+      "MartialArtistId": 95300007,
+      "QuestPath": 0,
+      "QuestName": "习武·太极拳",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "习武·太极拳"
+    },
+    {
+      "Id": 711,
+      "PreQuestIDs": [],
+      "MartialArtistId": 95300007,
+      "QuestPath": 1,
+      "QuestName": "提出叩场",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "提出叩场"
+    },
+    {
+      "Id": 712,
+      "PreQuestIDs": [
+        711
+      ],
+      "MartialArtistId": 95300007,
+      "QuestPath": 1,
+      "QuestName": "战胜陆辛夷",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "战胜陆辛夷"
+    },
+    {
+      "Id": 713,
+      "PreQuestIDs": [
+        712
+      ],
+      "MartialArtistId": 95300007,
+      "QuestPath": 1,
+      "QuestName": "习武太极拳",
+      "__IDX__QuestName": 4294967295,
+      "__RAW__QuestName": "习武太极拳"
+    }
+  ],
+  "_dumpedCount": 48,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

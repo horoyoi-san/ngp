@@ -1,0 +1,40 @@
+{
+  "TestCfg": {
+    "Id": 12500400,
+    "QuoteId": 12500200,
+    "Name": "abc",
+    "Hp": 0,
+    "TranTestArray": [
+      "虹彩2",
+      "装备2"
+    ],
+    "__IDX__TranTestArray": [
+      4294967293,
+      4294967293
+    ],
+    "__RAW__TranTestArray": [
+      "虹彩2",
+      "装备2"
+    ],
+    "TestStruct": {
+      "Name": "Increases the amount of damage dealt by a fixed amount.",
+      "Id": 0,
+      "__IDX__Name": 0,
+      "__RAW__Name": ""
+    },
+    "TestStructArray": [
+      {
+        "Name": "Increases the amount of damage dealt by a fixed amount.",
+        "Id": 3,
+        "__IDX__Name": 4294967293,
+        "__RAW__Name": "虹彩2"
+      },
+      {
+        "Name": "Increases the amount of damage dealt by a fixed amount.",
+        "Id": 4,
+        "__IDX__Name": 4294967293,
+        "__RAW__Name": "装备2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1210 @@
+{
+  "OpenPuppetCfg": {
+    "Id": 63,
+    "CodeName": "DoOpenPuppet",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "PuppetForceCfg": {
+    "Id": 64,
+    "CodeName": "PuppetForce",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "PuppetDirectionXCfg": {
+    "Id": 65,
+    "CodeName": "PuppetDirectionX",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "PuppetDirectionYCfg": {
+    "Id": 66,
+    "CodeName": "PuppetDirectionY",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "PuppetDirectionZCfg": {
+    "Id": 67,
+    "CodeName": "PuppetDirectionZ",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "PuppetCanGetUpCfg": {
+    "Id": 68,
+    "CodeName": "PuppetCanGetUp",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "PuppetForceBoneCfg": {
+    "Id": 69,
+    "CodeName": "PuppetForceBone",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "DebugBoolCfg": {
+    "Id": 1,
+    "CodeName": "DebugBool",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "DebugIntCfg": {
+    "Id": 2,
+    "CodeName": "DebugInt",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "DebugFloatCfg": {
+    "Id": 3,
+    "CodeName": "DebugFloat",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "PhoneSelfieCfg": {
+    "Id": 4,
+    "CodeName": "PhoneSelfie",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "ScaleAnimSpeedCfg": {
+    "Id": 5,
+    "CodeName": "ScaleAnimSpeed",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "IsFloatFlightVelocityChangeCompletedCfg": {
+    "Id": 6,
+    "CodeName": "IsFloatFlightVelocityChangeCompleted",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "IsInTransitionCfgNodeCfg": {
+    "Id": 7,
+    "CodeName": "IsInTransitionCfgNode",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "CanFloatFlightCfg": {
+    "Id": 8,
+    "CodeName": "CanFloatFlight",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "DogCtrlPressCfg": {
+    "Id": 9,
+    "CodeName": "DogCtrlPress",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "DogShiftPressCfg": {
+    "Id": 10,
+    "CodeName": "DogShiftPress",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "DogJumpPressCfg": {
+    "Id": 11,
+    "CodeName": "DogJumpPress",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "SpiderBotCtrlPressCfg": {
+    "Id": 12,
+    "CodeName": "SpiderBotCtrlPress",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "SpiderBotShiftPressCfg": {
+    "Id": 13,
+    "CodeName": "SpiderBotShiftPress",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "SpiderBotJumpPressCfg": {
+    "Id": 14,
+    "CodeName": "SpiderBotJumpPress",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "FootBallCtrlPressCfg": {
+    "Id": 15,
+    "CodeName": "FootBallCtrlPress",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "FootBallShiftPressCfg": {
+    "Id": 16,
+    "CodeName": "FootBallShiftPress",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "FootBallShootPressCfg": {
+    "Id": 17,
+    "CodeName": "FootBallShootPress",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "GameplayEventParam1Cfg": {
+    "Id": 18,
+    "CodeName": "GameplayEventParam1",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "TimelineIndexCfg": {
+    "Id": 19,
+    "CodeName": "TimelineIndex",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "TimelineIndex2Cfg": {
+    "Id": 20,
+    "CodeName": "TimelineIndex2",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "GeneralInterTypeCfg": {
+    "Id": 21,
+    "CodeName": "GeneralInterType",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "CurrentBehaviorTargetLocationAbsCfg": {
+    "Id": 22,
+    "CodeName": "CurrentBehaviorTargetLocationAbs",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "TurnAngle_MainCfg": {
+    "Id": 23,
+    "CodeName": "TurnAngle_Main",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "SplitScreenParamsCfg": {
+    "Id": 24,
+    "CodeName": "SplitScreenParams",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "POICfg": {
+    "Id": 25,
+    "CodeName": "POI",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "MotionFlagCfg": {
+    "Id": 26,
+    "CodeName": "MotionFlag",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 2
+  },
+  "JoystickRawDirectionCfg": {
+    "Id": 27,
+    "CodeName": "JoystickRawDirection",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "TurnAngleByMovementCfg": {
+    "Id": 28,
+    "CodeName": "TurnAngleByMovement",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "TurnAngle_NPCCfg": {
+    "Id": 29,
+    "CodeName": "TurnAngle_NPC",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "FinalAngle_NPCCfg": {
+    "Id": 30,
+    "CodeName": "FinalAngle_NPC",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "CurrentBehaviorTargetLocationCfg": {
+    "Id": 31,
+    "CodeName": "CurrentBehaviorTargetLocation",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "IsInSkillStateCfg": {
+    "Id": 32,
+    "CodeName": "IsInSkillState",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "IsInHurtStiffStateCfg": {
+    "Id": 33,
+    "CodeName": "IsInHurtStiffState",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "PostureTypeCfg": {
+    "Id": 34,
+    "CodeName": "PostureType",
+    "VariableType": 2,
+    "SendEventOnChange": true,
+    "HasDefault": true,
+    "DefaultValue": 10
+  },
+  "DanceGroupCfg": {
+    "Id": 35,
+    "CodeName": "DanceGroup",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "DanceStateCfg": {
+    "Id": 36,
+    "CodeName": "DanceState",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "DanceStyleCfg": {
+    "Id": 37,
+    "CodeName": "DanceStyle",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "HoldHandAppearanceTypeCfg": {
+    "Id": 38,
+    "CodeName": "HoldHandAppearanceType",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "BartenderPersonalityCfg": {
+    "Id": 39,
+    "CodeName": "BartenderPersonality",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "BartenderSPLevelCfg": {
+    "Id": 40,
+    "CodeName": "BartenderSPLevel",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "BartenderCustomerStateCfg": {
+    "Id": 41,
+    "CodeName": "BartenderCustomerState",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "MovementModeCfg": {
+    "Id": 42,
+    "CodeName": "MovementMode",
+    "VariableType": 2,
+    "SendEventOnChange": true,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "SunbathTalkTypeCfg": {
+    "Id": 43,
+    "CodeName": "SunbathTalkType",
+    "VariableType": 2,
+    "SendEventOnChange": true,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "LastStartAngleCfg": {
+    "Id": 44,
+    "CodeName": "LastStartAngle",
+    "VariableType": 2,
+    "SendEventOnChange": true,
+    "HasDefault": true,
+    "DefaultValue": 1
+  },
+  "DanceUpperLayerCfg": {
+    "Id": 45,
+    "CodeName": "DanceUpperLayer",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "InteractWithMemoryTargetAngleCfg": {
+    "Id": 46,
+    "CodeName": "InteractWithMemoryTargetAngle",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "DressTypeCfg": {
+    "Id": 47,
+    "CodeName": "DressType",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "GuitarLeftTypeCfg": {
+    "Id": 48,
+    "CodeName": "GuitarLeftType",
+    "VariableType": 2,
+    "SendEventOnChange": true,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "GuitarRightTypeCfg": {
+    "Id": 49,
+    "CodeName": "GuitarRightType",
+    "VariableType": 2,
+    "SendEventOnChange": true,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "AnimSpecialSystemCfg": {
+    "Id": 50,
+    "CodeName": "AnimSpecialSystem",
+    "VariableType": 2,
+    "SendEventOnChange": true,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "InvokingAbpSessionCfg": {
+    "Id": 51,
+    "CodeName": "InvokingAbpSession",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "StickyTurnAngleCfg": {
+    "Id": 52,
+    "CodeName": "StickyTurnAngle",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "HoldHandMovementTypeCfg": {
+    "Id": 53,
+    "CodeName": "HoldHandMovementType",
+    "VariableType": 2,
+    "SendEventOnChange": true,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "VirtualTurnAngleCfg": {
+    "Id": 54,
+    "CodeName": "VirtualTurnAngle",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "TODO3Cfg": {
+    "Id": 55,
+    "CodeName": "TODO3",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "FootballPassPressCfg": {
+    "Id": 56,
+    "CodeName": "FootballPassPress",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "IsStrafeCfg": {
+    "Id": 57,
+    "CodeName": "IsStrafe",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "IsCombatCfg": {
+    "Id": 58,
+    "CodeName": "IsCombat",
+    "VariableType": 2,
+    "SendEventOnChange": true,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "YinglongShiftCfg": {
+    "Id": 59,
+    "CodeName": "YinglongShift",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "InSunbathTalkCfg": {
+    "Id": 60,
+    "CodeName": "InSunbathTalk",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "TestDiscoStateCfg": {
+    "Id": 61,
+    "CodeName": "TestDiscoState",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "TestDiscoGroupCfg": {
+    "Id": 62,
+    "CodeName": "TestDiscoGroup",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "DoOpenPuppetCfg": {
+    "Id": 63,
+    "CodeName": "DoOpenPuppet",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "VehicleInteractAbpPhaseCfg": {
+    "Id": 70,
+    "CodeName": "VehicleInteractAbpPhase",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "StreetDanceCfg": {
+    "Id": 71,
+    "CodeName": "StreetDance",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "StreetThrowCfg": {
+    "Id": 72,
+    "CodeName": "StreetThrow",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "StreetGuitarCfg": {
+    "Id": 73,
+    "CodeName": "StreetGuitar",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "IsMahjongHuCfg": {
+    "Id": 74,
+    "CodeName": "IsMahjongHu",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "CleanerBotWPressCfg": {
+    "Id": 75,
+    "CodeName": "CleanerBotWPress",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "CleanerBotSPressCfg": {
+    "Id": 76,
+    "CodeName": "CleanerBotSPress",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "CleanerBotAPressCfg": {
+    "Id": 77,
+    "CodeName": "CleanerBotAPress",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "CleanerBotDPressCfg": {
+    "Id": 78,
+    "CodeName": "CleanerBotDPress",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "WeaponAimOffsetYawCfg": {
+    "Id": 79,
+    "CodeName": "WeaponAimOffsetYaw",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "WeaponAimOffsetPitchCfg": {
+    "Id": 80,
+    "CodeName": "WeaponAimOffsetPitch",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "BasShootPressCfg": {
+    "Id": 81,
+    "CodeName": "BasShootPress",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "BasDribbleShiftPressCfg": {
+    "Id": 82,
+    "CodeName": "BasDribbleShiftPress",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "BasDefShiftPressCfg": {
+    "Id": 83,
+    "CodeName": "BasDefShiftPress",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "HiDanceGroupCfg": {
+    "Id": 84,
+    "CodeName": "HiDanceGroup",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "DanceNPCGroupCfg": {
+    "Id": 85,
+    "CodeName": "DanceNPCGroup",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "SwingRollCfg": {
+    "Id": 86,
+    "CodeName": "SwingRoll",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "SwingPitchCfg": {
+    "Id": 87,
+    "CodeName": "SwingPitch",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "TurnTableCurrentSpeedCfg": {
+    "Id": 88,
+    "CodeName": "TurnTableCurrentSpeed",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "TurnTableDeltaSpeedCfg": {
+    "Id": 89,
+    "CodeName": "TurnTableDeltaSpeed",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "HorizontalBarCurrentAngleCfg": {
+    "Id": 90,
+    "CodeName": "HorizontalBarCurrentAngle",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "HorizontalBarCurrentSpeedCfg": {
+    "Id": 91,
+    "CodeName": "HorizontalBarCurrentSpeed",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "StrafeFwdCfg": {
+    "Id": 92,
+    "CodeName": "StrafeFwd",
+    "VariableType": 1,
+    "SendEventOnChange": true,
+    "HasDefault": true,
+    "DefaultValue": 1
+  },
+  "HorizontalBarButtonStateCfg": {
+    "Id": 93,
+    "CodeName": "HorizontalBarButtonState",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "HorizontalBarSpeedDirectionCfg": {
+    "Id": 94,
+    "CodeName": "HorizontalBarSpeedDirection",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 1
+  },
+  "DiscoXCfg": {
+    "Id": 95,
+    "CodeName": "DiscoX",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "DiscoYCfg": {
+    "Id": 96,
+    "CodeName": "DiscoY",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "BasDribbleFancyPressCfg": {
+    "Id": 97,
+    "CodeName": "BasDribbleFancyPress",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "GamePlayChefWashOrTakeWaterCfg": {
+    "Id": 98,
+    "CodeName": "GamePlayChefWashOrTakeWater",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "GamePlayChef01Cfg": {
+    "Id": 99,
+    "CodeName": "GamePlayChef01",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "GamePlayChef02Cfg": {
+    "Id": 100,
+    "CodeName": "GamePlayChef02",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "WuShuAkeyCfg": {
+    "Id": 101,
+    "CodeName": "WuShuAkey",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "WuShuSkeyCfg": {
+    "Id": 102,
+    "CodeName": "WuShuSkey",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "WuShuDkeyCfg": {
+    "Id": 103,
+    "CodeName": "WuShuDkey",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "WuShuMLkeyCfg": {
+    "Id": 104,
+    "CodeName": "WuShuMLkey",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "WuShuMRkeyCfg": {
+    "Id": 105,
+    "CodeName": "WuShuMRkey",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "IsInDialogCfg": {
+    "Id": 106,
+    "CodeName": "IsInDialog",
+    "VariableType": 1,
+    "SendEventOnChange": true,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "IsDialogSpeakingCfg": {
+    "Id": 107,
+    "CodeName": "IsDialogSpeaking",
+    "VariableType": 1,
+    "SendEventOnChange": true,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "DialogSpeakerAngleCfg": {
+    "Id": 108,
+    "CodeName": "DialogSpeakerAngle",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "RestaurantNpcInCameraCfg": {
+    "Id": 109,
+    "CodeName": "RestaurantNpcInCamera",
+    "VariableType": 1,
+    "SendEventOnChange": true,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "IsShoulderPoleOverLoadCfg": {
+    "Id": 110,
+    "CodeName": "IsShoulderPoleOverLoad",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "ShoulderPoleLoadPointLeftCfg": {
+    "Id": 111,
+    "CodeName": "ShoulderPoleLoadPointLeft",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "RopeSwingHasValidTargetCfg": {
+    "Id": 112,
+    "CodeName": "RopeSwingHasValidTarget",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "FInteractionAttachIndexCfg": {
+    "Id": 113,
+    "CodeName": "FInteractionAttachIndex",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "LockTargetJoystickAngleCfg": {
+    "Id": 114,
+    "CodeName": "LockTargetJoystickAngle",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "BasLocomoveShiftPressCfg": {
+    "Id": 115,
+    "CodeName": "BasLocomoveShiftPress",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "GameplayRestaurantNpcPhaseCfg": {
+    "Id": 116,
+    "CodeName": "GameplayRestaurantNpcPhase",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "CXCageShakeButtonStateCfg": {
+    "Id": 117,
+    "CodeName": "CXCageShakeButtonState",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "TurnAngle_AllCfg": {
+    "Id": 118,
+    "CodeName": "TurnAngle_All",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "SurfIdleLeanTypeCfg": {
+    "Id": 119,
+    "CodeName": "SurfIdleLeanType",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "SurfIdleLeanJoyStickBlendVauleCfg": {
+    "Id": 120,
+    "CodeName": "SurfIdleLeanJoyStickBlendVaule",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "SurfIdleLeanRopeForceBlendVauleCfg": {
+    "Id": 121,
+    "CodeName": "SurfIdleLeanRopeForceBlendVaule",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "IsInHurtMicroCfg": {
+    "Id": 122,
+    "CodeName": "IsInHurtMicro",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "MeihuazhuangLandTypeCfg": {
+    "Id": 123,
+    "CodeName": "MeihuazhuangLandType",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "IsHitFaceUpCfg": {
+    "Id": 124,
+    "CodeName": "IsHitFaceUp",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "eatFoodStageCfg": {
+    "Id": 125,
+    "CodeName": "eatFoodStage",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "WuXueIDCfg": {
+    "Id": 126,
+    "CodeName": "WuXueID",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "YinglongPressCfg": {
+    "Id": 127,
+    "CodeName": "YinglongPress",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "YinglongReleaseCfg": {
+    "Id": 128,
+    "CodeName": "YinglongRelease",
+    "VariableType": 1,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  },
+  "XiWuIdCfg": {
+    "Id": 129,
+    "CodeName": "XiWuId",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "SitLeftRightCfg": {
+    "Id": 130,
+    "CodeName": "SitLeftRight",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "CatchSticksL_XCfg": {
+    "Id": 131,
+    "CodeName": "CatchSticksL_X",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "CatchSticksL_YCfg": {
+    "Id": 132,
+    "CodeName": "CatchSticksL_Y",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "CatchSticksR_XCfg": {
+    "Id": 133,
+    "CodeName": "CatchSticksR_X",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "CatchSticksR_YCfg": {
+    "Id": 134,
+    "CodeName": "CatchSticksR_Y",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "StrideRemappingStartTimeCfg": {
+    "Id": 135,
+    "CodeName": "StrideRemappingStartTime",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "BattleBehaviorStateCfg": {
+    "Id": 136,
+    "CodeName": "BattleBehaviorState",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "SimpleAO_PitchCfg": {
+    "Id": 137,
+    "CodeName": "SimpleAO_Pitch",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "SimpleAO_YawCfg": {
+    "Id": 138,
+    "CodeName": "SimpleAO_Yaw",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "SpaceWalkerCurrentSpeedCfg": {
+    "Id": 139,
+    "CodeName": "SpaceWalkerCurrentSpeed",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "TrampolineFootCfg": {
+    "Id": 140,
+    "CodeName": "TrampolineFoot",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "CameraSpeedYawCfg": {
+    "Id": 141,
+    "CodeName": "CameraSpeedYaw",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "CatchSticksNew_XCfg": {
+    "Id": 142,
+    "CodeName": "CatchSticksNew_X",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "CatchSticksNew_YCfg": {
+    "Id": 143,
+    "CodeName": "CatchSticksNew_Y",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "GooseBlendValueCfg": {
+    "Id": 144,
+    "CodeName": "GooseBlendValue",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "SitPhotoBlend_XCfg": {
+    "Id": 145,
+    "CodeName": "SitPhotoBlend_X",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "SitPhotoBlend_YCfg": {
+    "Id": 146,
+    "CodeName": "SitPhotoBlend_Y",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "RopeSwingTargetDisCfg": {
+    "Id": 147,
+    "CodeName": "RopeSwingTargetDis",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "SitPhotoTypeCfg": {
+    "Id": 148,
+    "CodeName": "SitPhotoType",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "NightJogCurrentSpeedCfg": {
+    "Id": 149,
+    "CodeName": "NightJogCurrentSpeed",
+    "VariableType": 3,
+    "SendEventOnChange": false,
+    "HasDefault": true,
+    "DefaultValue": 0
+  },
+  "ExecuteHurtStiffIDCfg": {
+    "Id": 150,
+    "CodeName": "ExecuteHurtStiffID",
+    "VariableType": 2,
+    "SendEventOnChange": false,
+    "HasDefault": false,
+    "DefaultValue": 0
+  }
+}

@@ -1,0 +1,466 @@
+{
+  "Dialog_EnterGarage_CarCannotBuy": 53021000,
+  "HouseBedLoopAction": [
+    4668,
+    4669,
+    4670,
+    0
+  ],
+  "HouseBedLeftUpAction": 4660,
+  "HouseBedRightUpAction": 4661,
+  "HouseBedActionGroup": 26,
+  "HouseBedInteractionList": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "CapacityYellow": 0.550000012,
+  "CapacityRed": 0.800000012,
+  "BuildWallIcon": [
+    28005526,
+    28005525,
+    28005524
+  ],
+  "BuildFloorIcon": [
+    28005518,
+    28005477
+  ],
+  "BuyHouseShop": [
+    {
+      "Raid": 23300888,
+      "Shopid": 94100080
+    },
+    {
+      "Raid": 23300999,
+      "Shopid": 94100081
+    }
+  ],
+  "EstateAgency": [
+    {
+      "Raid": 23300888,
+      "Indoorid": 41
+    }
+  ],
+  "HouseCollection": [
+    {
+      "HousCollection": "ParkingSpace",
+      "name": 73972300,
+      "icon": 28021867
+    },
+    {
+      "HousCollection": "WeaponCabinet",
+      "name": 73972301,
+      "icon": 28021871
+    },
+    {
+      "HousCollection": "Collection",
+      "name": 73972302,
+      "icon": 28021868
+    },
+    {
+      "HousCollection": "FashionShowcase",
+      "name": 73972303,
+      "icon": 28021870
+    },
+    {
+      "HousCollection": "Pet",
+      "name": 73972304,
+      "icon": 28021869
+    }
+  ],
+  "HouseMapCollection": [
+    {
+      "HousCollection": "ParkingSpace",
+      "name": 73972300,
+      "icon": 28003125
+    },
+    {
+      "HousCollection": "WeaponCabinet",
+      "name": 73972301,
+      "icon": 28003124
+    },
+    {
+      "HousCollection": "Collection",
+      "name": 73972302,
+      "icon": 28003128
+    },
+    {
+      "HousCollection": "FashionShowcase",
+      "name": 73972303,
+      "icon": 28003126
+    },
+    {
+      "HousCollection": "Pet",
+      "name": 73972304,
+      "icon": 28003127
+    },
+    {
+      "HousCollection": "Fish",
+      "name": 73972305,
+      "icon": 28003127
+    },
+    {
+      "HousCollection": "Painting",
+      "name": 73972306,
+      "icon": 28003127
+    },
+    {
+      "HousCollection": "Sculpture",
+      "name": 73972307,
+      "icon": 28003127
+    }
+  ],
+  "FurnitureMainType": [
+    {
+      "Name": "Increases the amount of damage dealt by a fixed amount.",
+      "MainType": 1,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "基建"
+    },
+    {
+      "Name": "Increases the amount of damage dealt by a fixed amount.",
+      "MainType": 2,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "实用家具"
+    },
+    {
+      "Name": "Increases the amount of damage dealt by a fixed amount.",
+      "MainType": 3,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "装饰摆件"
+    },
+    {
+      "Name": "Increases the amount of damage dealt by a fixed amount.",
+      "MainType": 4,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "功能设施"
+    },
+    {
+      "Name": "Increases the amount of damage dealt by a fixed amount.",
+      "MainType": 5,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "藏品"
+    }
+  ],
+  "FurnitureSubType": [
+    {
+      "Name": "Increases the amount of damage dealt by a fixed amount.",
+      "SubType": 1,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "墙"
+    },
+    {
+      "Name": "Increases the amount of damage dealt by a fixed amount.",
+      "SubType": 2,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "门"
+    },
+    {
+      "Name": "Increases the amount of damage dealt by a fixed amount.",
+      "SubType": 3,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "窗"
+    },
+    {
+      "Name": "Increases the amount of damage dealt by a fixed amount.",
+      "SubType": 4,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "墙纸"
+    },
+    {
+      "Name": "Increases the amount of damage dealt by a fixed amount.",
+      "SubType": 5,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "地砖图案"
+    },
+    {
+      "Name": "Increases the amount of damage dealt by a fixed amount.",
+      "SubType": 6,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "天花板图案"
+    },
+    {
+      "Name": "Increases the amount of damage dealt by a fixed amount.",
+      "SubType": 20,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "桌几"
+    },
+    {
+      "Name": "Increases the amount of damage dealt by a fixed amount.",
+      "SubType": 21,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "座椅"
+    },
+    {
+      "Name": "Increases the amount of damage dealt by a fixed amount.",
+      "SubType": 22,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "柜子"
+    },
+    {
+      "Name": "Increases the amount of damage dealt by a fixed amount.",
+      "SubType": 23,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "卧具"
+    },
+    {
+      "Name": "Increases the amount of damage dealt by a fixed amount.",
+      "SubType": 30,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "灯具"
+    },
+    {
+      "Name": "Increases the amount of damage dealt by a fixed amount.",
+      "SubType": 33,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "织物"
+    },
+    {
+      "Name": "Increases the amount of damage dealt by a fixed amount.",
+      "SubType": 34,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "绿植景观"
+    },
+    {
+      "Name": "Increases the amount of damage dealt by a fixed amount.",
+      "SubType": 35,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "桌面摆件"
+    },
+    {
+      "Name": "Increases the amount of damage dealt by a fixed amount.",
+      "SubType": 36,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "落地摆件"
+    },
+    {
+      "Name": "Increases the amount of damage dealt by a fixed amount.",
+      "SubType": 37,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "墙面装饰"
+    },
+    {
+      "Name": "Increases the amount of damage dealt by a fixed amount.",
+      "SubType": 38,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "顶部挂饰"
+    },
+    {
+      "Name": "Increases the amount of damage dealt by a fixed amount.",
+      "SubType": 40,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "休闲娱乐"
+    },
+    {
+      "Name": "Increases the amount of damage dealt by a fixed amount.",
+      "SubType": 41,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "运动健身"
+    },
+    {
+      "Name": "Increases the amount of damage dealt by a fixed amount.",
+      "SubType": 42,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "餐厨用具"
+    },
+    {
+      "Name": "Increases the amount of damage dealt by a fixed amount.",
+      "SubType": 43,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "卫浴用品"
+    },
+    {
+      "Name": "Increases the amount of damage dealt by a fixed amount.",
+      "SubType": 50,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "时装展柜"
+    },
+    {
+      "Name": "Increases the amount of damage dealt by a fixed amount.",
+      "SubType": 51,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "宠物"
+    },
+    {
+      "Name": "Increases the amount of damage dealt by a fixed amount.",
+      "SubType": 52,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "鱼缸"
+    },
+    {
+      "Name": "Increases the amount of damage dealt by a fixed amount.",
+      "SubType": 53,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "画作"
+    },
+    {
+      "Name": "Increases the amount of damage dealt by a fixed amount.",
+      "SubType": 54,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "雕塑"
+    }
+  ],
+  "HouseLoadRange": 200,
+  "HouseUnLoadRange": 300,
+  "BaseMeshPath": "Assets/Res/house/common/house_common_plane001a/p_house_common_plane001a.prefab",
+  "BaseMeshRightColor": [
+    0.100000001,
+    0.5,
+    0.100000001,
+    1
+  ],
+  "BaseMeshErrorColor": [
+    0.5,
+    0.100000001,
+    0.100000001,
+    1
+  ],
+  "GridMeshPath": "Assets/Res/house/common/house_common_plane002a/p_house_common_plane002a.prefab",
+  "GridMeshColor": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "GadgetMeshPath": "Assets/Res/house/common/house_common_plane003a/p_house_common_plane003a.prefab",
+  "GadgetMeshSizeParams": [
+    0.300000012,
+    12,
+    0
+  ],
+  "RotationMeshPath": "Assets/Res/house/common/house_common_rotation001a/p_house_common_rotation001a.prefab",
+  "RotationScale": 1,
+  "WallStretchMeshPath": "Assets/Res/house/common/house_common_arrow001a/p_house_common_arrow001a.prefab",
+  "WallClickMeshPath": "Assets/Res/house/common/house_common_outlinebox001a/p_house_common_outlinebox001a.prefab",
+  "PCToolbarOffset": 0.100000001,
+  "PhoneToolbarOffset": 0,
+  "CameraMoveSpeedMaxRage": 100,
+  "CameraMoveSpeedMinRage": 10,
+  "CameraSpinSpeedMaxRage": 10,
+  "CameraSpinSpeedMinRage": 1,
+  "CameraZoomSpeedMaxRage": 10,
+  "CameraZoomSpeedMinRage": 1,
+  "CameraHideAngle": 90,
+  "CameraMoveSensitivity": 1,
+  "CameraZoomSensitivity": 0.0500000007,
+  "CameraRotateSensitivity": 0.300000012,
+  "OverLook90CameraRotateX": 89,
+  "OverLook45CameraRotateX": 45,
+  "HouseTimePointList": [
+    6,
+    12,
+    17,
+    23
+  ],
+  "FurnitureCombinePath": [
+    "Assets/Res/house/base/wall",
+    "Assets/Res/house/prop",
+    "Assets/Res/house/base/door",
+    "Assets/Res/house/base/window",
+    ""
+  ],
+  "FurnitureType": [
+    "door",
+    "window",
+    "low",
+    "tall",
+    "carpet",
+    "ceilingdeco",
+    "curtain",
+    "desktop",
+    "floordeco",
+    "foliage",
+    "lamp",
+    "plants",
+    "walldeco",
+    "bath",
+    "kitchenware",
+    "leisure",
+    "bed",
+    "bedding",
+    "bookshelf",
+    "closet",
+    "couch",
+    "seat",
+    "shelf",
+    "table"
+  ],
+  "FurnitureIgnoreCollider": [
+    "carpet",
+    "curtain"
+  ],
+  "WallTag": [
+    "HouseInternalWall",
+    "HouseExternalWall",
+    "HouseElevatorWall"
+  ],
+  "SexTransitionCD": 24,
+  "SexTransitionNotMainCharacter": 65404856,
+  "SexTransitionCDMessageNotDay": 65404857,
+  "SexTransitionConfirm": 65920008,
+  "SexTransitionRule": "#b账号角色数据#z：形象转换后，角色模型、配音及动作资源将同步适配。已解锁的剧情进度、粉丝数及好感度等级将完整继承。#r#b 战斗数据#z：角色等级与各类徽章数据均予以保留。#r#b系统数据#z：叭叭、叭卜、角色系统界面中涉及的的称谓与视觉效果将根据新形象自动更迭。",
+  "SexTransitionConfirmText": "是否确认转换形象？",
+  "SexTransitionTransTitle": "Items to Update",
+  "SexTransitionTransText": "The following items will be automatically updated after switching your appearance",
+  "SexTransitionInvalidTitle": "Unavailable Items",
+  "SexTransitionInvalidText": "The following items will be temporarily unavailable after switching your appearance",
+  "SexTransitionConfirmTitle": "Confirm",
+  "SexTransitionConfirmWarning": "（转换后，24小时内不可再次转换）",
+  "SexTransitionCDMessageDay": 65404860,
+  "SexTransitionMaleSuit": 11190014,
+  "SexTransitionFemaleSuit": 11190017,
+  "SexTransitionMaleIcon": 28000043,
+  "SexTransitionFemaleIcon": 28000042,
+  "SexTransitionMaleAction": [
+    {
+      "ActionType": 33204,
+      "ActionGroup": 1
+    }
+  ],
+  "SexTransitionFemaleAction": [
+    {
+      "ActionType": 33204,
+      "ActionGroup": 1
+    }
+  ],
+  "SexTransScenePath": "Assets/Res/env/scene/commonshop_niu/prefab_assemble/niu_commonshop_background01.prefab",
+  "SceneWeatherIndex": 20,
+  "MaleSceneSlot1": [
+    0.349999994,
+    0,
+    -0.239999995,
+    0,
+    165,
+    0
+  ],
+  "MaleSceneSlot2": [
+    0.239999995,
+    0,
+    0.100000001,
+    0,
+    175,
+    0
+  ],
+  "FemaleSceneSlot1": [
+    0.300000012,
+    0,
+    0,
+    0,
+    165,
+    0
+  ],
+  "FemaleSceneSlot2": [
+    0.239999995,
+    0,
+    -0.100000001,
+    0,
+    180,
+    0
+  ],
+  "HouseCapacityThresholds": [
+    0.550000012,
+    0.790000021,
+    0.800000012
+  ]
+}

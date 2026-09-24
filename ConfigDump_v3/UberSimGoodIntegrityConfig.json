@@ -1,0 +1,50 @@
+{
+  "_class": "UberSimGoodIntegrityConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 5,
+  "records": [
+    {
+      "Id": 1,
+      "Integrity": "完好",
+      "ScoreRange": {
+        "min": 100,
+        "max": 100
+      }
+    },
+    {
+      "Id": 2,
+      "Integrity": "轻度损坏",
+      "ScoreRange": {
+        "min": 70,
+        "max": 99
+      }
+    },
+    {
+      "Id": 3,
+      "Integrity": "中度损坏",
+      "ScoreRange": {
+        "min": 40,
+        "max": 69
+      }
+    },
+    {
+      "Id": 4,
+      "Integrity": "重度损坏",
+      "ScoreRange": {
+        "min": 1,
+        "max": 39
+      }
+    },
+    {
+      "Id": 5,
+      "Integrity": "没有货物",
+      "ScoreRange": {
+        "min": 0,
+        "max": 0
+      }
+    }
+  ],
+  "_dumpedCount": 5,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

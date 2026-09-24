@@ -1,0 +1,2782 @@
+{
+  "GroundCfg": {
+    "Id": 1,
+    "codeName": "Ground",
+    "canUIHide": true,
+    "followCameraRotation": true,
+    "canDefault": true,
+    "defaultAction": 0,
+    "switchMode": 0,
+    "enterPhotoModeCameraMovementTime": 1,
+    "enterPhotoModeSec": 0,
+    "canFocus": true,
+    "canSwitchMember": true,
+    "hideBodyInFirstPerson": true,
+    "firstPersonSubMode": 0,
+    "canSelfie": true,
+    "defaultSelfieAction": 78901100,
+    "selfieActionSet": 1,
+    "enterSelfieModeSec": 0.699999988,
+    "backPhotoModeSec": 0.699999988,
+    "directlyEnterSelfieModeSec": 0.300000012,
+    "selfieExpressionSet": 1,
+    "canSelfieUIHide": true,
+    "selfieCameraStatusId": 55,
+    "selfieSidewaysCameraStatusId": 78,
+    "selfieSubMode": 0,
+    "canThird": true,
+    "thirdPersonModule": "",
+    "defaultThirdPersonAction": 78901299,
+    "enterThirdModeSec": 0.699999988,
+    "directlyEnterThirdModeSec": 0.300000012,
+    "photoEffectName": "",
+    "disablePostProcessPanel": false,
+    "showEffectWithoutTarget": false,
+    "pitchAngleRange": {
+      "minValue": 0.100000001,
+      "maxValue": 0.670000017,
+      "defaultValue": 0.5
+    },
+    "rotationAngleRange": {
+      "minValue": -180,
+      "maxValue": 180,
+      "defaultValue": 0
+    },
+    "FOV": {
+      "minValue": 25,
+      "maxValue": 70,
+      "defaultValue": 55
+    },
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": -0.419999987
+    },
+    "selfiePitchAngleRange": {
+      "minValue": 0.449999988,
+      "maxValue": 0.800000012,
+      "defaultValue": 0.600000024
+    },
+    "selfieRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 0
+    },
+    "selfieSidewaysPitchAngleRange": {
+      "minValue": 0.449999988,
+      "maxValue": 0.800000012,
+      "defaultValue": 0.600000024
+    },
+    "selfieSidewaysRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 12
+    },
+    "selfieFOV": {
+      "minValue": 55,
+      "maxValue": 55,
+      "defaultValue": 55
+    },
+    "selfieOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "selfieCameraRotationLimit": [
+      {
+        "bodyType": 1,
+        "minValue": 0.400000006,
+        "maxValue": 1,
+        "defaultValue": 0.689999998
+      },
+      {
+        "bodyType": 2,
+        "minValue": 0.400000006,
+        "maxValue": 1,
+        "defaultValue": 0.689999998
+      },
+      {
+        "bodyType": 3,
+        "minValue": 0.400000006,
+        "maxValue": 1,
+        "defaultValue": 0.670000017
+      },
+      {
+        "bodyType": 4,
+        "minValue": 0.449999988,
+        "maxValue": 1,
+        "defaultValue": 0.649999976
+      },
+      {
+        "bodyType": 5,
+        "minValue": 0.449999988,
+        "maxValue": 1,
+        "defaultValue": 0.689999998
+      },
+      {
+        "bodyType": 6,
+        "minValue": 0.449999988,
+        "maxValue": 1,
+        "defaultValue": 0.689999998
+      }
+    ],
+    "selfieCameraDefaultBlend": [
+      {
+        "bodyType": 1,
+        "defaultValue": 0.449999988
+      },
+      {
+        "bodyType": 2,
+        "defaultValue": 0.449999988
+      },
+      {
+        "bodyType": 3,
+        "defaultValue": 0.579999983
+      },
+      {
+        "bodyType": 4,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 5,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 6,
+        "defaultValue": 0.600000024
+      }
+    ],
+    "selfieCameraRotationLimitX": [
+      {
+        "bodyType": 1,
+        "minValue": 0.100000001,
+        "maxValue": 0.629999995,
+        "defaultValue": 0.419999987
+      },
+      {
+        "bodyType": 2,
+        "minValue": 0.100000001,
+        "maxValue": 0.629999995,
+        "defaultValue": 0.419999987
+      },
+      {
+        "bodyType": 3,
+        "minValue": 0.100000001,
+        "maxValue": 0.629999995,
+        "defaultValue": 0.419999987
+      },
+      {
+        "bodyType": 4,
+        "minValue": 0.100000001,
+        "maxValue": 0.600000024,
+        "defaultValue": 0.439999998
+      },
+      {
+        "bodyType": 5,
+        "minValue": 0.100000001,
+        "maxValue": 0.600000024,
+        "defaultValue": 0.439999998
+      },
+      {
+        "bodyType": 6,
+        "minValue": 0.100000001,
+        "maxValue": 0.600000024,
+        "defaultValue": 0.439999998
+      }
+    ]
+  },
+  "WallCfg": {
+    "Id": 2,
+    "codeName": "Wall",
+    "canUIHide": true,
+    "followCameraRotation": false,
+    "canDefault": true,
+    "defaultAction": 0,
+    "switchMode": 0,
+    "enterPhotoModeCameraMovementTime": 0,
+    "enterPhotoModeSec": 0,
+    "canFocus": false,
+    "canSwitchMember": false,
+    "hideBodyInFirstPerson": true,
+    "firstPersonSubMode": 0,
+    "canSelfie": false,
+    "defaultSelfieAction": 78901100,
+    "selfieActionSet": 0,
+    "enterSelfieModeSec": 0,
+    "backPhotoModeSec": 0,
+    "directlyEnterSelfieModeSec": 0,
+    "selfieExpressionSet": 0,
+    "canSelfieUIHide": false,
+    "selfieCameraStatusId": 0,
+    "selfieSidewaysCameraStatusId": 0,
+    "selfieSubMode": 0,
+    "canThird": false,
+    "thirdPersonModule": "",
+    "defaultThirdPersonAction": 0,
+    "enterThirdModeSec": 0,
+    "directlyEnterThirdModeSec": 0,
+    "photoEffectName": "",
+    "disablePostProcessPanel": false,
+    "showEffectWithoutTarget": false,
+    "pitchAngleRange": {
+      "minValue": 0.150000006,
+      "maxValue": 0.670000017,
+      "defaultValue": 0.5
+    },
+    "rotationAngleRange": {
+      "minValue": -40,
+      "maxValue": 100,
+      "defaultValue": 25
+    },
+    "FOV": {
+      "minValue": 40,
+      "maxValue": 40,
+      "defaultValue": 40
+    },
+    "offset": {
+      "x": -0.109999999,
+      "y": 0.230000004,
+      "z": -0.419999987
+    },
+    "selfiePitchAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0
+    },
+    "selfieRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 0
+    },
+    "selfieSidewaysPitchAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0
+    },
+    "selfieSidewaysRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 0
+    },
+    "selfieFOV": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0
+    },
+    "selfieOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "selfieCameraRotationLimit": [],
+    "selfieCameraDefaultBlend": [],
+    "selfieCameraRotationLimitX": []
+  },
+  "SlotEntityCfg": {
+    "Id": 3,
+    "codeName": "SlotEntity",
+    "canUIHide": true,
+    "followCameraRotation": false,
+    "canDefault": true,
+    "defaultAction": 0,
+    "switchMode": 0,
+    "enterPhotoModeCameraMovementTime": 0,
+    "enterPhotoModeSec": 0,
+    "canFocus": false,
+    "canSwitchMember": false,
+    "hideBodyInFirstPerson": true,
+    "firstPersonSubMode": 0,
+    "canSelfie": false,
+    "defaultSelfieAction": 78901100,
+    "selfieActionSet": 0,
+    "enterSelfieModeSec": 0,
+    "backPhotoModeSec": 0,
+    "directlyEnterSelfieModeSec": 0,
+    "selfieExpressionSet": 0,
+    "canSelfieUIHide": false,
+    "selfieCameraStatusId": 0,
+    "selfieSidewaysCameraStatusId": 0,
+    "selfieSubMode": 0,
+    "canThird": false,
+    "thirdPersonModule": "",
+    "defaultThirdPersonAction": 0,
+    "enterThirdModeSec": 0,
+    "directlyEnterThirdModeSec": 0,
+    "photoEffectName": "",
+    "disablePostProcessPanel": false,
+    "showEffectWithoutTarget": false,
+    "pitchAngleRange": {
+      "minValue": 0.150000006,
+      "maxValue": 0.670000017,
+      "defaultValue": 0.5
+    },
+    "rotationAngleRange": {
+      "minValue": -30,
+      "maxValue": 50,
+      "defaultValue": 25
+    },
+    "FOV": {
+      "minValue": 20,
+      "maxValue": 50,
+      "defaultValue": 40
+    },
+    "offset": {
+      "x": -0.109999999,
+      "y": 0.419999987,
+      "z": 0
+    },
+    "selfiePitchAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0
+    },
+    "selfieRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 0
+    },
+    "selfieSidewaysPitchAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0
+    },
+    "selfieSidewaysRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 0
+    },
+    "selfieFOV": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0
+    },
+    "selfieOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "selfieCameraRotationLimit": [],
+    "selfieCameraDefaultBlend": [],
+    "selfieCameraRotationLimitX": []
+  },
+  "RobDogCfg": {
+    "Id": 4,
+    "codeName": "RobDog",
+    "canUIHide": true,
+    "followCameraRotation": true,
+    "canDefault": true,
+    "defaultAction": 0,
+    "switchMode": 0,
+    "enterPhotoModeCameraMovementTime": 0,
+    "enterPhotoModeSec": 0,
+    "canFocus": false,
+    "canSwitchMember": false,
+    "hideBodyInFirstPerson": true,
+    "firstPersonSubMode": 0,
+    "canSelfie": false,
+    "defaultSelfieAction": 0,
+    "selfieActionSet": 0,
+    "enterSelfieModeSec": 0,
+    "backPhotoModeSec": 0,
+    "directlyEnterSelfieModeSec": 0,
+    "selfieExpressionSet": 0,
+    "canSelfieUIHide": false,
+    "selfieCameraStatusId": 0,
+    "selfieSidewaysCameraStatusId": 0,
+    "selfieSubMode": 0,
+    "canThird": false,
+    "thirdPersonModule": "",
+    "defaultThirdPersonAction": 0,
+    "enterThirdModeSec": 0,
+    "directlyEnterThirdModeSec": 0,
+    "photoEffectName": "",
+    "disablePostProcessPanel": false,
+    "showEffectWithoutTarget": false,
+    "pitchAngleRange": {
+      "minValue": 0.100000001,
+      "maxValue": 0.670000017,
+      "defaultValue": 0.5
+    },
+    "rotationAngleRange": {
+      "minValue": -180,
+      "maxValue": 180,
+      "defaultValue": 0
+    },
+    "FOV": {
+      "minValue": 25,
+      "maxValue": 70,
+      "defaultValue": 55
+    },
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": -0.100000001
+    },
+    "selfiePitchAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0
+    },
+    "selfieRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 0
+    },
+    "selfieSidewaysPitchAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0
+    },
+    "selfieSidewaysRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 0
+    },
+    "selfieFOV": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0
+    },
+    "selfieOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "selfieCameraRotationLimit": [],
+    "selfieCameraDefaultBlend": [],
+    "selfieCameraRotationLimitX": []
+  },
+  "DroneCfg": {
+    "Id": 5,
+    "codeName": "Drone",
+    "canUIHide": true,
+    "followCameraRotation": true,
+    "canDefault": true,
+    "defaultAction": 0,
+    "switchMode": 0,
+    "enterPhotoModeCameraMovementTime": 0,
+    "enterPhotoModeSec": 0,
+    "canFocus": false,
+    "canSwitchMember": false,
+    "hideBodyInFirstPerson": true,
+    "firstPersonSubMode": 0,
+    "canSelfie": false,
+    "defaultSelfieAction": 0,
+    "selfieActionSet": 0,
+    "enterSelfieModeSec": 0,
+    "backPhotoModeSec": 0,
+    "directlyEnterSelfieModeSec": 0,
+    "selfieExpressionSet": 0,
+    "canSelfieUIHide": false,
+    "selfieCameraStatusId": 0,
+    "selfieSidewaysCameraStatusId": 0,
+    "selfieSubMode": 0,
+    "canThird": false,
+    "thirdPersonModule": "",
+    "defaultThirdPersonAction": 0,
+    "enterThirdModeSec": 0,
+    "directlyEnterThirdModeSec": 0,
+    "photoEffectName": "",
+    "disablePostProcessPanel": false,
+    "showEffectWithoutTarget": false,
+    "pitchAngleRange": {
+      "minValue": 0.100000001,
+      "maxValue": 0.670000017,
+      "defaultValue": 0.200000003
+    },
+    "rotationAngleRange": {
+      "minValue": -180,
+      "maxValue": 180,
+      "defaultValue": 0
+    },
+    "FOV": {
+      "minValue": 25,
+      "maxValue": 70,
+      "defaultValue": 55
+    },
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": -0.100000001
+    },
+    "selfiePitchAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0
+    },
+    "selfieRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 0
+    },
+    "selfieSidewaysPitchAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0
+    },
+    "selfieSidewaysRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 0
+    },
+    "selfieFOV": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0
+    },
+    "selfieOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "selfieCameraRotationLimit": [],
+    "selfieCameraDefaultBlend": [],
+    "selfieCameraRotationLimitX": []
+  },
+  "SpiderCfg": {
+    "Id": 6,
+    "codeName": "Spider",
+    "canUIHide": true,
+    "followCameraRotation": false,
+    "canDefault": true,
+    "defaultAction": 0,
+    "switchMode": 0,
+    "enterPhotoModeCameraMovementTime": 0,
+    "enterPhotoModeSec": 0,
+    "canFocus": false,
+    "canSwitchMember": false,
+    "hideBodyInFirstPerson": true,
+    "firstPersonSubMode": 0,
+    "canSelfie": false,
+    "defaultSelfieAction": 0,
+    "selfieActionSet": 0,
+    "enterSelfieModeSec": 0,
+    "backPhotoModeSec": 0,
+    "directlyEnterSelfieModeSec": 0,
+    "selfieExpressionSet": 0,
+    "canSelfieUIHide": false,
+    "selfieCameraStatusId": 0,
+    "selfieSidewaysCameraStatusId": 0,
+    "selfieSubMode": 0,
+    "canThird": false,
+    "thirdPersonModule": "",
+    "defaultThirdPersonAction": 0,
+    "enterThirdModeSec": 0,
+    "directlyEnterThirdModeSec": 0,
+    "photoEffectName": "",
+    "disablePostProcessPanel": false,
+    "showEffectWithoutTarget": false,
+    "pitchAngleRange": {
+      "minValue": 0.100000001,
+      "maxValue": 0.670000017,
+      "defaultValue": 0.5
+    },
+    "rotationAngleRange": {
+      "minValue": -180,
+      "maxValue": 180,
+      "defaultValue": 0
+    },
+    "FOV": {
+      "minValue": 25,
+      "maxValue": 70,
+      "defaultValue": 55
+    },
+    "offset": {
+      "x": 0,
+      "y": 0.219999999,
+      "z": -0.100000001
+    },
+    "selfiePitchAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0
+    },
+    "selfieRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 0
+    },
+    "selfieSidewaysPitchAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0
+    },
+    "selfieSidewaysRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 0
+    },
+    "selfieFOV": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0
+    },
+    "selfieOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "selfieCameraRotationLimit": [],
+    "selfieCameraDefaultBlend": [],
+    "selfieCameraRotationLimitX": []
+  },
+  "HYL01Cfg": {
+    "Id": 7,
+    "codeName": "HYL01",
+    "canUIHide": true,
+    "followCameraRotation": true,
+    "canDefault": true,
+    "defaultAction": 0,
+    "switchMode": 0,
+    "enterPhotoModeCameraMovementTime": 1,
+    "enterPhotoModeSec": 0,
+    "canFocus": true,
+    "canSwitchMember": true,
+    "hideBodyInFirstPerson": true,
+    "firstPersonSubMode": 0,
+    "canSelfie": true,
+    "defaultSelfieAction": 78901100,
+    "selfieActionSet": 1,
+    "enterSelfieModeSec": 0.699999988,
+    "backPhotoModeSec": 0.699999988,
+    "directlyEnterSelfieModeSec": 0.300000012,
+    "selfieExpressionSet": 1,
+    "canSelfieUIHide": true,
+    "selfieCameraStatusId": 55,
+    "selfieSidewaysCameraStatusId": 78,
+    "selfieSubMode": 0,
+    "canThird": false,
+    "thirdPersonModule": "",
+    "defaultThirdPersonAction": 0,
+    "enterThirdModeSec": 0.699999988,
+    "directlyEnterThirdModeSec": 0.300000012,
+    "photoEffectName": "",
+    "disablePostProcessPanel": false,
+    "showEffectWithoutTarget": false,
+    "pitchAngleRange": {
+      "minValue": 0.100000001,
+      "maxValue": 0.670000017,
+      "defaultValue": 0.5
+    },
+    "rotationAngleRange": {
+      "minValue": -180,
+      "maxValue": 180,
+      "defaultValue": 0
+    },
+    "FOV": {
+      "minValue": 6.25,
+      "maxValue": 17.5,
+      "defaultValue": 13.75
+    },
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": -0.419999987
+    },
+    "selfiePitchAngleRange": {
+      "minValue": 0.449999988,
+      "maxValue": 0.800000012,
+      "defaultValue": 0.600000024
+    },
+    "selfieRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 0
+    },
+    "selfieSidewaysPitchAngleRange": {
+      "minValue": 0.449999988,
+      "maxValue": 0.800000012,
+      "defaultValue": 0.600000024
+    },
+    "selfieSidewaysRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 12
+    },
+    "selfieFOV": {
+      "minValue": 55,
+      "maxValue": 55,
+      "defaultValue": 55
+    },
+    "selfieOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "selfieCameraRotationLimit": [
+      {
+        "bodyType": 1,
+        "minValue": 0.400000006,
+        "maxValue": 1,
+        "defaultValue": 0
+      },
+      {
+        "bodyType": 2,
+        "minValue": 0.400000006,
+        "maxValue": 1,
+        "defaultValue": 0
+      },
+      {
+        "bodyType": 3,
+        "minValue": 0.400000006,
+        "maxValue": 1,
+        "defaultValue": 0
+      },
+      {
+        "bodyType": 4,
+        "minValue": 0.449999988,
+        "maxValue": 1,
+        "defaultValue": 0
+      },
+      {
+        "bodyType": 5,
+        "minValue": 0.449999988,
+        "maxValue": 1,
+        "defaultValue": 0
+      },
+      {
+        "bodyType": 6,
+        "minValue": 0.449999988,
+        "maxValue": 1,
+        "defaultValue": 0
+      }
+    ],
+    "selfieCameraDefaultBlend": [
+      {
+        "bodyType": 1,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 2,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 3,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 4,
+        "defaultValue": 0.600000024
+      },
+      {
+        "bodyType": 5,
+        "defaultValue": 0.600000024
+      },
+      {
+        "bodyType": 6,
+        "defaultValue": 0.600000024
+      }
+    ],
+    "selfieCameraRotationLimitX": [
+      {
+        "bodyType": 1,
+        "minValue": 0.100000001,
+        "maxValue": 0.629999995,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 2,
+        "minValue": 0.100000001,
+        "maxValue": 0.629999995,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 3,
+        "minValue": 0.100000001,
+        "maxValue": 0.629999995,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 4,
+        "minValue": 0.100000001,
+        "maxValue": 0.600000024,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 5,
+        "minValue": 0.100000001,
+        "maxValue": 0.600000024,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 6,
+        "minValue": 0.100000001,
+        "maxValue": 0.600000024,
+        "defaultValue": 0.5
+      }
+    ]
+  },
+  "HYL02Cfg": {
+    "Id": 8,
+    "codeName": "HYL02",
+    "canUIHide": true,
+    "followCameraRotation": true,
+    "canDefault": true,
+    "defaultAction": 0,
+    "switchMode": 0,
+    "enterPhotoModeCameraMovementTime": 1,
+    "enterPhotoModeSec": 0,
+    "canFocus": true,
+    "canSwitchMember": true,
+    "hideBodyInFirstPerson": true,
+    "firstPersonSubMode": 0,
+    "canSelfie": true,
+    "defaultSelfieAction": 78901100,
+    "selfieActionSet": 1,
+    "enterSelfieModeSec": 0.699999988,
+    "backPhotoModeSec": 0.699999988,
+    "directlyEnterSelfieModeSec": 0.300000012,
+    "selfieExpressionSet": 1,
+    "canSelfieUIHide": true,
+    "selfieCameraStatusId": 55,
+    "selfieSidewaysCameraStatusId": 78,
+    "selfieSubMode": 0,
+    "canThird": false,
+    "thirdPersonModule": "",
+    "defaultThirdPersonAction": 0,
+    "enterThirdModeSec": 0.699999988,
+    "directlyEnterThirdModeSec": 0.300000012,
+    "photoEffectName": "",
+    "disablePostProcessPanel": false,
+    "showEffectWithoutTarget": false,
+    "pitchAngleRange": {
+      "minValue": 0.100000001,
+      "maxValue": 0.670000017,
+      "defaultValue": 0.5
+    },
+    "rotationAngleRange": {
+      "minValue": -180,
+      "maxValue": 180,
+      "defaultValue": 0
+    },
+    "FOV": {
+      "minValue": 12.5,
+      "maxValue": 35,
+      "defaultValue": 27.5
+    },
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": -0.419999987
+    },
+    "selfiePitchAngleRange": {
+      "minValue": 0.449999988,
+      "maxValue": 0.800000012,
+      "defaultValue": 0.600000024
+    },
+    "selfieRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 0
+    },
+    "selfieSidewaysPitchAngleRange": {
+      "minValue": 0.449999988,
+      "maxValue": 0.800000012,
+      "defaultValue": 0.600000024
+    },
+    "selfieSidewaysRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 12
+    },
+    "selfieFOV": {
+      "minValue": 55,
+      "maxValue": 55,
+      "defaultValue": 55
+    },
+    "selfieOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "selfieCameraRotationLimit": [
+      {
+        "bodyType": 1,
+        "minValue": 0.400000006,
+        "maxValue": 1,
+        "defaultValue": 0
+      },
+      {
+        "bodyType": 2,
+        "minValue": 0.400000006,
+        "maxValue": 1,
+        "defaultValue": 0
+      },
+      {
+        "bodyType": 3,
+        "minValue": 0.400000006,
+        "maxValue": 1,
+        "defaultValue": 0
+      },
+      {
+        "bodyType": 4,
+        "minValue": 0.449999988,
+        "maxValue": 1,
+        "defaultValue": 0
+      },
+      {
+        "bodyType": 5,
+        "minValue": 0.449999988,
+        "maxValue": 1,
+        "defaultValue": 0
+      },
+      {
+        "bodyType": 6,
+        "minValue": 0.449999988,
+        "maxValue": 1,
+        "defaultValue": 0
+      }
+    ],
+    "selfieCameraDefaultBlend": [
+      {
+        "bodyType": 1,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 2,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 3,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 4,
+        "defaultValue": 0.600000024
+      },
+      {
+        "bodyType": 5,
+        "defaultValue": 0.600000024
+      },
+      {
+        "bodyType": 6,
+        "defaultValue": 0.600000024
+      }
+    ],
+    "selfieCameraRotationLimitX": [
+      {
+        "bodyType": 1,
+        "minValue": 0.100000001,
+        "maxValue": 0.629999995,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 2,
+        "minValue": 0.100000001,
+        "maxValue": 0.629999995,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 3,
+        "minValue": 0.100000001,
+        "maxValue": 0.629999995,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 4,
+        "minValue": 0.100000001,
+        "maxValue": 0.600000024,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 5,
+        "minValue": 0.100000001,
+        "maxValue": 0.600000024,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 6,
+        "minValue": 0.100000001,
+        "maxValue": 0.600000024,
+        "defaultValue": 0.5
+      }
+    ]
+  },
+  "Taffy01Cfg": {
+    "Id": 9,
+    "codeName": "Taffy01",
+    "canUIHide": true,
+    "followCameraRotation": false,
+    "canDefault": true,
+    "defaultAction": 0,
+    "switchMode": 0,
+    "enterPhotoModeCameraMovementTime": 1,
+    "enterPhotoModeSec": 0,
+    "canFocus": true,
+    "canSwitchMember": true,
+    "hideBodyInFirstPerson": true,
+    "firstPersonSubMode": 0,
+    "canSelfie": false,
+    "defaultSelfieAction": 78901100,
+    "selfieActionSet": 1,
+    "enterSelfieModeSec": 0.699999988,
+    "backPhotoModeSec": 0.699999988,
+    "directlyEnterSelfieModeSec": 0.300000012,
+    "selfieExpressionSet": 1,
+    "canSelfieUIHide": true,
+    "selfieCameraStatusId": 55,
+    "selfieSidewaysCameraStatusId": 78,
+    "selfieSubMode": 0,
+    "canThird": false,
+    "thirdPersonModule": "",
+    "defaultThirdPersonAction": 0,
+    "enterThirdModeSec": 0.699999988,
+    "directlyEnterThirdModeSec": 0.300000012,
+    "photoEffectName": "",
+    "disablePostProcessPanel": false,
+    "showEffectWithoutTarget": false,
+    "pitchAngleRange": {
+      "minValue": 0.100000001,
+      "maxValue": 0.670000017,
+      "defaultValue": 0.5
+    },
+    "rotationAngleRange": {
+      "minValue": -180,
+      "maxValue": 180,
+      "defaultValue": 0
+    },
+    "FOV": {
+      "minValue": 25,
+      "maxValue": 70,
+      "defaultValue": 55
+    },
+    "offset": {
+      "x": 0,
+      "y": 0.5,
+      "z": 0
+    },
+    "selfiePitchAngleRange": {
+      "minValue": 0.449999988,
+      "maxValue": 0.800000012,
+      "defaultValue": 0.600000024
+    },
+    "selfieRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 0
+    },
+    "selfieSidewaysPitchAngleRange": {
+      "minValue": 0.449999988,
+      "maxValue": 0.800000012,
+      "defaultValue": 0.600000024
+    },
+    "selfieSidewaysRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 12
+    },
+    "selfieFOV": {
+      "minValue": 55,
+      "maxValue": 55,
+      "defaultValue": 55
+    },
+    "selfieOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "selfieCameraRotationLimit": [
+      {
+        "bodyType": 1,
+        "minValue": 0.400000006,
+        "maxValue": 1,
+        "defaultValue": 0
+      },
+      {
+        "bodyType": 2,
+        "minValue": 0.400000006,
+        "maxValue": 1,
+        "defaultValue": 0
+      },
+      {
+        "bodyType": 3,
+        "minValue": 0.400000006,
+        "maxValue": 1,
+        "defaultValue": 0
+      },
+      {
+        "bodyType": 4,
+        "minValue": 0.449999988,
+        "maxValue": 1,
+        "defaultValue": 0
+      },
+      {
+        "bodyType": 5,
+        "minValue": 0.449999988,
+        "maxValue": 1,
+        "defaultValue": 0
+      },
+      {
+        "bodyType": 6,
+        "minValue": 0.449999988,
+        "maxValue": 1,
+        "defaultValue": 0
+      }
+    ],
+    "selfieCameraDefaultBlend": [
+      {
+        "bodyType": 1,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 2,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 3,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 4,
+        "defaultValue": 0.600000024
+      },
+      {
+        "bodyType": 5,
+        "defaultValue": 0.600000024
+      },
+      {
+        "bodyType": 6,
+        "defaultValue": 0.600000024
+      }
+    ],
+    "selfieCameraRotationLimitX": [
+      {
+        "bodyType": 1,
+        "minValue": 0.100000001,
+        "maxValue": 0.629999995,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 2,
+        "minValue": 0.100000001,
+        "maxValue": 0.629999995,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 3,
+        "minValue": 0.100000001,
+        "maxValue": 0.629999995,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 4,
+        "minValue": 0.100000001,
+        "maxValue": 0.600000024,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 5,
+        "minValue": 0.100000001,
+        "maxValue": 0.600000024,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 6,
+        "minValue": 0.100000001,
+        "maxValue": 0.600000024,
+        "defaultValue": 0.5
+      }
+    ]
+  },
+  "CXMQ010Q01Cfg": {
+    "Id": 10,
+    "codeName": "CXMQ010Q01",
+    "canUIHide": true,
+    "followCameraRotation": false,
+    "canDefault": true,
+    "defaultAction": 0,
+    "switchMode": 0,
+    "enterPhotoModeCameraMovementTime": 1,
+    "enterPhotoModeSec": 0,
+    "canFocus": true,
+    "canSwitchMember": true,
+    "hideBodyInFirstPerson": true,
+    "firstPersonSubMode": 0,
+    "canSelfie": false,
+    "defaultSelfieAction": 78901100,
+    "selfieActionSet": 1,
+    "enterSelfieModeSec": 0.699999988,
+    "backPhotoModeSec": 0.699999988,
+    "directlyEnterSelfieModeSec": 0.300000012,
+    "selfieExpressionSet": 1,
+    "canSelfieUIHide": true,
+    "selfieCameraStatusId": 55,
+    "selfieSidewaysCameraStatusId": 78,
+    "selfieSubMode": 0,
+    "canThird": false,
+    "thirdPersonModule": "",
+    "defaultThirdPersonAction": 0,
+    "enterThirdModeSec": 0.699999988,
+    "directlyEnterThirdModeSec": 0.300000012,
+    "photoEffectName": "",
+    "disablePostProcessPanel": false,
+    "showEffectWithoutTarget": false,
+    "pitchAngleRange": {
+      "minValue": 0.100000001,
+      "maxValue": 0.670000017,
+      "defaultValue": 0.5
+    },
+    "rotationAngleRange": {
+      "minValue": -180,
+      "maxValue": 180,
+      "defaultValue": 0
+    },
+    "FOV": {
+      "minValue": 25,
+      "maxValue": 70,
+      "defaultValue": 55
+    },
+    "offset": {
+      "x": 0,
+      "y": 0.5,
+      "z": 0
+    },
+    "selfiePitchAngleRange": {
+      "minValue": 0.449999988,
+      "maxValue": 0.800000012,
+      "defaultValue": 0.600000024
+    },
+    "selfieRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 0
+    },
+    "selfieSidewaysPitchAngleRange": {
+      "minValue": 0.449999988,
+      "maxValue": 0.800000012,
+      "defaultValue": 0.600000024
+    },
+    "selfieSidewaysRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 12
+    },
+    "selfieFOV": {
+      "minValue": 55,
+      "maxValue": 55,
+      "defaultValue": 55
+    },
+    "selfieOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "selfieCameraRotationLimit": [
+      {
+        "bodyType": 1,
+        "minValue": 0.400000006,
+        "maxValue": 1,
+        "defaultValue": 0
+      },
+      {
+        "bodyType": 2,
+        "minValue": 0.400000006,
+        "maxValue": 1,
+        "defaultValue": 0
+      },
+      {
+        "bodyType": 3,
+        "minValue": 0.400000006,
+        "maxValue": 1,
+        "defaultValue": 0
+      },
+      {
+        "bodyType": 4,
+        "minValue": 0.449999988,
+        "maxValue": 1,
+        "defaultValue": 0
+      },
+      {
+        "bodyType": 5,
+        "minValue": 0.449999988,
+        "maxValue": 1,
+        "defaultValue": 0
+      },
+      {
+        "bodyType": 6,
+        "minValue": 0.449999988,
+        "maxValue": 1,
+        "defaultValue": 0
+      }
+    ],
+    "selfieCameraDefaultBlend": [
+      {
+        "bodyType": 1,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 2,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 3,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 4,
+        "defaultValue": 0.600000024
+      },
+      {
+        "bodyType": 5,
+        "defaultValue": 0.600000024
+      },
+      {
+        "bodyType": 6,
+        "defaultValue": 0.600000024
+      }
+    ],
+    "selfieCameraRotationLimitX": [
+      {
+        "bodyType": 1,
+        "minValue": 0.100000001,
+        "maxValue": 0.629999995,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 2,
+        "minValue": 0.100000001,
+        "maxValue": 0.629999995,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 3,
+        "minValue": 0.100000001,
+        "maxValue": 0.629999995,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 4,
+        "minValue": 0.100000001,
+        "maxValue": 0.600000024,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 5,
+        "minValue": 0.100000001,
+        "maxValue": 0.600000024,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 6,
+        "minValue": 0.100000001,
+        "maxValue": 0.600000024,
+        "defaultValue": 0.5
+      }
+    ]
+  },
+  "TaffTouPaiCfg": {
+    "Id": 11,
+    "codeName": "TaffTouPai",
+    "canUIHide": true,
+    "followCameraRotation": true,
+    "canDefault": true,
+    "defaultAction": 0,
+    "switchMode": 0,
+    "enterPhotoModeCameraMovementTime": 1,
+    "enterPhotoModeSec": 0,
+    "canFocus": true,
+    "canSwitchMember": true,
+    "hideBodyInFirstPerson": true,
+    "firstPersonSubMode": 0,
+    "canSelfie": true,
+    "defaultSelfieAction": 78901100,
+    "selfieActionSet": 1,
+    "enterSelfieModeSec": 0.699999988,
+    "backPhotoModeSec": 0.699999988,
+    "directlyEnterSelfieModeSec": 0.300000012,
+    "selfieExpressionSet": 1,
+    "canSelfieUIHide": true,
+    "selfieCameraStatusId": 55,
+    "selfieSidewaysCameraStatusId": 78,
+    "selfieSubMode": 0,
+    "canThird": false,
+    "thirdPersonModule": "",
+    "defaultThirdPersonAction": 0,
+    "enterThirdModeSec": 0.699999988,
+    "directlyEnterThirdModeSec": 0.300000012,
+    "photoEffectName": "",
+    "disablePostProcessPanel": false,
+    "showEffectWithoutTarget": false,
+    "pitchAngleRange": {
+      "minValue": 0.100000001,
+      "maxValue": 0.670000017,
+      "defaultValue": 0.5
+    },
+    "rotationAngleRange": {
+      "minValue": -180,
+      "maxValue": 180,
+      "defaultValue": 0
+    },
+    "FOV": {
+      "minValue": 25,
+      "maxValue": 40,
+      "defaultValue": 40
+    },
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": -0.419999987
+    },
+    "selfiePitchAngleRange": {
+      "minValue": 0.449999988,
+      "maxValue": 0.800000012,
+      "defaultValue": 0.600000024
+    },
+    "selfieRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 0
+    },
+    "selfieSidewaysPitchAngleRange": {
+      "minValue": 0.449999988,
+      "maxValue": 0.800000012,
+      "defaultValue": 0.600000024
+    },
+    "selfieSidewaysRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 12
+    },
+    "selfieFOV": {
+      "minValue": 55,
+      "maxValue": 55,
+      "defaultValue": 55
+    },
+    "selfieOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "selfieCameraRotationLimit": [
+      {
+        "bodyType": 1,
+        "minValue": 0.400000006,
+        "maxValue": 1,
+        "defaultValue": 0.689999998
+      },
+      {
+        "bodyType": 2,
+        "minValue": 0.400000006,
+        "maxValue": 1,
+        "defaultValue": 0.689999998
+      },
+      {
+        "bodyType": 3,
+        "minValue": 0.400000006,
+        "maxValue": 1,
+        "defaultValue": 0.670000017
+      },
+      {
+        "bodyType": 4,
+        "minValue": 0.449999988,
+        "maxValue": 1,
+        "defaultValue": 0.649999976
+      },
+      {
+        "bodyType": 5,
+        "minValue": 0.449999988,
+        "maxValue": 1,
+        "defaultValue": 0.689999998
+      },
+      {
+        "bodyType": 6,
+        "minValue": 0.449999988,
+        "maxValue": 1,
+        "defaultValue": 0.689999998
+      }
+    ],
+    "selfieCameraDefaultBlend": [
+      {
+        "bodyType": 1,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 2,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 3,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 4,
+        "defaultValue": 0.600000024
+      },
+      {
+        "bodyType": 5,
+        "defaultValue": 0.600000024
+      },
+      {
+        "bodyType": 6,
+        "defaultValue": 0.600000024
+      }
+    ],
+    "selfieCameraRotationLimitX": [
+      {
+        "bodyType": 1,
+        "minValue": 0.100000001,
+        "maxValue": 0.629999995,
+        "defaultValue": 0.230000004
+      },
+      {
+        "bodyType": 2,
+        "minValue": 0.100000001,
+        "maxValue": 0.629999995,
+        "defaultValue": 0.230000004
+      },
+      {
+        "bodyType": 3,
+        "minValue": 0.100000001,
+        "maxValue": 0.629999995,
+        "defaultValue": 0.25
+      },
+      {
+        "bodyType": 4,
+        "minValue": 0.100000001,
+        "maxValue": 0.600000024,
+        "defaultValue": 0.25
+      },
+      {
+        "bodyType": 5,
+        "minValue": 0.100000001,
+        "maxValue": 0.600000024,
+        "defaultValue": 0.25
+      },
+      {
+        "bodyType": 6,
+        "minValue": 0.100000001,
+        "maxValue": 0.600000024,
+        "defaultValue": 0.25
+      }
+    ]
+  },
+  "ThirdLimitModeCfg": {
+    "Id": 12,
+    "codeName": "ThirdLimitMode",
+    "canUIHide": true,
+    "followCameraRotation": true,
+    "canDefault": false,
+    "defaultAction": 0,
+    "switchMode": 0,
+    "enterPhotoModeCameraMovementTime": 1,
+    "enterPhotoModeSec": 0,
+    "canFocus": true,
+    "canSwitchMember": true,
+    "hideBodyInFirstPerson": true,
+    "firstPersonSubMode": 0,
+    "canSelfie": false,
+    "defaultSelfieAction": 0,
+    "selfieActionSet": 1,
+    "enterSelfieModeSec": 0.699999988,
+    "backPhotoModeSec": 0.699999988,
+    "directlyEnterSelfieModeSec": 0.300000012,
+    "selfieExpressionSet": 1,
+    "canSelfieUIHide": true,
+    "selfieCameraStatusId": 0,
+    "selfieSidewaysCameraStatusId": 0,
+    "selfieSubMode": 0,
+    "canThird": true,
+    "thirdPersonModule": "",
+    "defaultThirdPersonAction": 0,
+    "enterThirdModeSec": 0.699999988,
+    "directlyEnterThirdModeSec": 0.300000012,
+    "photoEffectName": "",
+    "disablePostProcessPanel": false,
+    "showEffectWithoutTarget": false,
+    "pitchAngleRange": {
+      "minValue": 0.100000001,
+      "maxValue": 0.670000017,
+      "defaultValue": 0.5
+    },
+    "rotationAngleRange": {
+      "minValue": -180,
+      "maxValue": 180,
+      "defaultValue": 0
+    },
+    "FOV": {
+      "minValue": 25,
+      "maxValue": 70,
+      "defaultValue": 55
+    },
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": -0.419999987
+    },
+    "selfiePitchAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0
+    },
+    "selfieRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 0
+    },
+    "selfieSidewaysPitchAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0
+    },
+    "selfieSidewaysRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 0
+    },
+    "selfieFOV": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0
+    },
+    "selfieOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "selfieCameraRotationLimit": [],
+    "selfieCameraDefaultBlend": [],
+    "selfieCameraRotationLimitX": []
+  },
+  "SitCfg": {
+    "Id": 13,
+    "codeName": "Sit",
+    "canUIHide": true,
+    "followCameraRotation": true,
+    "canDefault": true,
+    "defaultAction": 0,
+    "switchMode": 0,
+    "enterPhotoModeCameraMovementTime": 1,
+    "enterPhotoModeSec": 0,
+    "canFocus": true,
+    "canSwitchMember": true,
+    "hideBodyInFirstPerson": true,
+    "firstPersonSubMode": 1,
+    "canSelfie": true,
+    "defaultSelfieAction": 78901100,
+    "selfieActionSet": 1,
+    "enterSelfieModeSec": 0.699999988,
+    "backPhotoModeSec": 0.699999988,
+    "directlyEnterSelfieModeSec": 0.300000012,
+    "selfieExpressionSet": 1,
+    "canSelfieUIHide": true,
+    "selfieCameraStatusId": 55,
+    "selfieSidewaysCameraStatusId": 78,
+    "selfieSubMode": 1,
+    "canThird": true,
+    "thirdPersonModule": "",
+    "defaultThirdPersonAction": 78901299,
+    "enterThirdModeSec": 0.699999988,
+    "directlyEnterThirdModeSec": 0.300000012,
+    "photoEffectName": "",
+    "disablePostProcessPanel": false,
+    "showEffectWithoutTarget": false,
+    "pitchAngleRange": {
+      "minValue": 0.100000001,
+      "maxValue": 0.670000017,
+      "defaultValue": 0.5
+    },
+    "rotationAngleRange": {
+      "minValue": -50,
+      "maxValue": 50,
+      "defaultValue": 0
+    },
+    "FOV": {
+      "minValue": 25,
+      "maxValue": 70,
+      "defaultValue": 55
+    },
+    "offset": {
+      "x": -0.119999997,
+      "y": 0,
+      "z": 0.389999986
+    },
+    "selfiePitchAngleRange": {
+      "minValue": 0.449999988,
+      "maxValue": 0.800000012,
+      "defaultValue": 0.600000024
+    },
+    "selfieRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 0
+    },
+    "selfieSidewaysPitchAngleRange": {
+      "minValue": 0.449999988,
+      "maxValue": 0.800000012,
+      "defaultValue": 0.600000024
+    },
+    "selfieSidewaysRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 12
+    },
+    "selfieFOV": {
+      "minValue": 55,
+      "maxValue": 55,
+      "defaultValue": 55
+    },
+    "selfieOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "selfieCameraRotationLimit": [
+      {
+        "bodyType": 1,
+        "minValue": 0.400000006,
+        "maxValue": 1,
+        "defaultValue": 0.689999998
+      },
+      {
+        "bodyType": 2,
+        "minValue": 0.400000006,
+        "maxValue": 1,
+        "defaultValue": 0.689999998
+      },
+      {
+        "bodyType": 3,
+        "minValue": 0.400000006,
+        "maxValue": 1,
+        "defaultValue": 0.670000017
+      },
+      {
+        "bodyType": 4,
+        "minValue": 0.449999988,
+        "maxValue": 1,
+        "defaultValue": 0.649999976
+      },
+      {
+        "bodyType": 5,
+        "minValue": 0.449999988,
+        "maxValue": 1,
+        "defaultValue": 0.689999998
+      },
+      {
+        "bodyType": 6,
+        "minValue": 0.449999988,
+        "maxValue": 1,
+        "defaultValue": 0.689999998
+      }
+    ],
+    "selfieCameraDefaultBlend": [
+      {
+        "bodyType": 1,
+        "defaultValue": 0.449999988
+      },
+      {
+        "bodyType": 2,
+        "defaultValue": 0.449999988
+      },
+      {
+        "bodyType": 3,
+        "defaultValue": 0.579999983
+      },
+      {
+        "bodyType": 4,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 5,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 6,
+        "defaultValue": 0.600000024
+      }
+    ],
+    "selfieCameraRotationLimitX": [
+      {
+        "bodyType": 1,
+        "minValue": 0.100000001,
+        "maxValue": 0.629999995,
+        "defaultValue": 0.419999987
+      },
+      {
+        "bodyType": 2,
+        "minValue": 0.100000001,
+        "maxValue": 0.629999995,
+        "defaultValue": 0.419999987
+      },
+      {
+        "bodyType": 3,
+        "minValue": 0.100000001,
+        "maxValue": 0.629999995,
+        "defaultValue": 0.419999987
+      },
+      {
+        "bodyType": 4,
+        "minValue": 0.100000001,
+        "maxValue": 0.600000024,
+        "defaultValue": 0.439999998
+      },
+      {
+        "bodyType": 5,
+        "minValue": 0.100000001,
+        "maxValue": 0.600000024,
+        "defaultValue": 0.439999998
+      },
+      {
+        "bodyType": 6,
+        "minValue": 0.100000001,
+        "maxValue": 0.600000024,
+        "defaultValue": 0.439999998
+      }
+    ]
+  },
+  "BookSceneryCfg": {
+    "Id": 14,
+    "codeName": "BookScenery",
+    "canUIHide": true,
+    "followCameraRotation": true,
+    "canDefault": true,
+    "defaultAction": 0,
+    "switchMode": 0,
+    "enterPhotoModeCameraMovementTime": 1,
+    "enterPhotoModeSec": 0,
+    "canFocus": true,
+    "canSwitchMember": true,
+    "hideBodyInFirstPerson": false,
+    "firstPersonSubMode": 0,
+    "canSelfie": false,
+    "defaultSelfieAction": 0,
+    "selfieActionSet": 1,
+    "enterSelfieModeSec": 0.699999988,
+    "backPhotoModeSec": 0.699999988,
+    "directlyEnterSelfieModeSec": 0.300000012,
+    "selfieExpressionSet": 1,
+    "canSelfieUIHide": true,
+    "selfieCameraStatusId": 0,
+    "selfieSidewaysCameraStatusId": 0,
+    "selfieSubMode": 0,
+    "canThird": false,
+    "thirdPersonModule": "",
+    "defaultThirdPersonAction": 78901299,
+    "enterThirdModeSec": 0.699999988,
+    "directlyEnterThirdModeSec": 0.300000012,
+    "photoEffectName": "",
+    "disablePostProcessPanel": false,
+    "showEffectWithoutTarget": false,
+    "pitchAngleRange": {
+      "minValue": 0.100000001,
+      "maxValue": 0.670000017,
+      "defaultValue": 0.5
+    },
+    "rotationAngleRange": {
+      "minValue": -180,
+      "maxValue": 180,
+      "defaultValue": 0
+    },
+    "FOV": {
+      "minValue": 25,
+      "maxValue": 70,
+      "defaultValue": 55
+    },
+    "offset": {
+      "x": -0.200000003,
+      "y": 0.200000003,
+      "z": 0.100000001
+    },
+    "selfiePitchAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0
+    },
+    "selfieRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 0
+    },
+    "selfieSidewaysPitchAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0
+    },
+    "selfieSidewaysRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 0
+    },
+    "selfieFOV": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0
+    },
+    "selfieOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "selfieCameraRotationLimit": [],
+    "selfieCameraDefaultBlend": [],
+    "selfieCameraRotationLimitX": []
+  },
+  "Taffy02Cfg": {
+    "Id": 15,
+    "codeName": "Taffy02",
+    "canUIHide": true,
+    "followCameraRotation": true,
+    "canDefault": true,
+    "defaultAction": 9201,
+    "switchMode": 0,
+    "enterPhotoModeCameraMovementTime": 1,
+    "enterPhotoModeSec": 0,
+    "canFocus": true,
+    "canSwitchMember": true,
+    "hideBodyInFirstPerson": true,
+    "firstPersonSubMode": 0,
+    "canSelfie": false,
+    "defaultSelfieAction": 78901100,
+    "selfieActionSet": 1,
+    "enterSelfieModeSec": 0.699999988,
+    "backPhotoModeSec": 0.699999988,
+    "directlyEnterSelfieModeSec": 0.300000012,
+    "selfieExpressionSet": 1,
+    "canSelfieUIHide": true,
+    "selfieCameraStatusId": 55,
+    "selfieSidewaysCameraStatusId": 0,
+    "selfieSubMode": 0,
+    "canThird": false,
+    "thirdPersonModule": "",
+    "defaultThirdPersonAction": 0,
+    "enterThirdModeSec": 0.699999988,
+    "directlyEnterThirdModeSec": 0.300000012,
+    "photoEffectName": "",
+    "disablePostProcessPanel": false,
+    "showEffectWithoutTarget": false,
+    "pitchAngleRange": {
+      "minValue": 0.100000001,
+      "maxValue": 0.670000017,
+      "defaultValue": 0.5
+    },
+    "rotationAngleRange": {
+      "minValue": -180,
+      "maxValue": 180,
+      "defaultValue": 0
+    },
+    "FOV": {
+      "minValue": 12.5,
+      "maxValue": 35,
+      "defaultValue": 27.5
+    },
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "selfiePitchAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0
+    },
+    "selfieRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 0
+    },
+    "selfieSidewaysPitchAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0
+    },
+    "selfieSidewaysRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 0
+    },
+    "selfieFOV": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0
+    },
+    "selfieOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "selfieCameraRotationLimit": [],
+    "selfieCameraDefaultBlend": [],
+    "selfieCameraRotationLimitX": []
+  },
+  "DateCfg": {
+    "Id": 16,
+    "codeName": "Date",
+    "canUIHide": true,
+    "followCameraRotation": true,
+    "canDefault": true,
+    "defaultAction": 0,
+    "switchMode": 0,
+    "enterPhotoModeCameraMovementTime": 1,
+    "enterPhotoModeSec": 0,
+    "canFocus": true,
+    "canSwitchMember": true,
+    "hideBodyInFirstPerson": true,
+    "firstPersonSubMode": 1,
+    "canSelfie": true,
+    "defaultSelfieAction": 78901100,
+    "selfieActionSet": 1,
+    "enterSelfieModeSec": 0.699999988,
+    "backPhotoModeSec": 0.699999988,
+    "directlyEnterSelfieModeSec": 0.300000012,
+    "selfieExpressionSet": 1,
+    "canSelfieUIHide": true,
+    "selfieCameraStatusId": 55,
+    "selfieSidewaysCameraStatusId": 78,
+    "selfieSubMode": 1,
+    "canThird": true,
+    "thirdPersonModule": "",
+    "defaultThirdPersonAction": 78901299,
+    "enterThirdModeSec": 0.699999988,
+    "directlyEnterThirdModeSec": 0.300000012,
+    "photoEffectName": "",
+    "disablePostProcessPanel": false,
+    "showEffectWithoutTarget": false,
+    "pitchAngleRange": {
+      "minValue": 0.100000001,
+      "maxValue": 0.670000017,
+      "defaultValue": 0.5
+    },
+    "rotationAngleRange": {
+      "minValue": -180,
+      "maxValue": 180,
+      "defaultValue": 0
+    },
+    "FOV": {
+      "minValue": 25,
+      "maxValue": 70,
+      "defaultValue": 55
+    },
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": -0.419999987
+    },
+    "selfiePitchAngleRange": {
+      "minValue": 0.449999988,
+      "maxValue": 0.800000012,
+      "defaultValue": 0.600000024
+    },
+    "selfieRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 0
+    },
+    "selfieSidewaysPitchAngleRange": {
+      "minValue": 0.449999988,
+      "maxValue": 0.800000012,
+      "defaultValue": 0.600000024
+    },
+    "selfieSidewaysRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 12
+    },
+    "selfieFOV": {
+      "minValue": 55,
+      "maxValue": 55,
+      "defaultValue": 55
+    },
+    "selfieOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "selfieCameraRotationLimit": [
+      {
+        "bodyType": 1,
+        "minValue": 0.400000006,
+        "maxValue": 1,
+        "defaultValue": 0.689999998
+      },
+      {
+        "bodyType": 2,
+        "minValue": 0.400000006,
+        "maxValue": 1,
+        "defaultValue": 0.689999998
+      },
+      {
+        "bodyType": 3,
+        "minValue": 0.400000006,
+        "maxValue": 1,
+        "defaultValue": 0.670000017
+      },
+      {
+        "bodyType": 4,
+        "minValue": 0.449999988,
+        "maxValue": 1,
+        "defaultValue": 0.649999976
+      },
+      {
+        "bodyType": 5,
+        "minValue": 0.449999988,
+        "maxValue": 1,
+        "defaultValue": 0.689999998
+      },
+      {
+        "bodyType": 6,
+        "minValue": 0.449999988,
+        "maxValue": 1,
+        "defaultValue": 0.689999998
+      }
+    ],
+    "selfieCameraDefaultBlend": [
+      {
+        "bodyType": 1,
+        "defaultValue": 0.449999988
+      },
+      {
+        "bodyType": 2,
+        "defaultValue": 0.449999988
+      },
+      {
+        "bodyType": 3,
+        "defaultValue": 0.579999983
+      },
+      {
+        "bodyType": 4,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 5,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 6,
+        "defaultValue": 0.600000024
+      }
+    ],
+    "selfieCameraRotationLimitX": [
+      {
+        "bodyType": 1,
+        "minValue": 0.100000001,
+        "maxValue": 0.629999995,
+        "defaultValue": 0.419999987
+      },
+      {
+        "bodyType": 2,
+        "minValue": 0.100000001,
+        "maxValue": 0.629999995,
+        "defaultValue": 0.419999987
+      },
+      {
+        "bodyType": 3,
+        "minValue": 0.100000001,
+        "maxValue": 0.629999995,
+        "defaultValue": 0.419999987
+      },
+      {
+        "bodyType": 4,
+        "minValue": 0.100000001,
+        "maxValue": 0.600000024,
+        "defaultValue": 0.439999998
+      },
+      {
+        "bodyType": 5,
+        "minValue": 0.100000001,
+        "maxValue": 0.600000024,
+        "defaultValue": 0.439999998
+      },
+      {
+        "bodyType": 6,
+        "minValue": 0.100000001,
+        "maxValue": 0.600000024,
+        "defaultValue": 0.439999998
+      }
+    ]
+  },
+  "YQM01Cfg": {
+    "Id": 17,
+    "codeName": "YQM01",
+    "canUIHide": true,
+    "followCameraRotation": true,
+    "canDefault": true,
+    "defaultAction": 0,
+    "switchMode": 0,
+    "enterPhotoModeCameraMovementTime": 1,
+    "enterPhotoModeSec": 0,
+    "canFocus": true,
+    "canSwitchMember": true,
+    "hideBodyInFirstPerson": true,
+    "firstPersonSubMode": 0,
+    "canSelfie": false,
+    "defaultSelfieAction": 78901100,
+    "selfieActionSet": 1,
+    "enterSelfieModeSec": 0.699999988,
+    "backPhotoModeSec": 0.699999988,
+    "directlyEnterSelfieModeSec": 0.300000012,
+    "selfieExpressionSet": 1,
+    "canSelfieUIHide": true,
+    "selfieCameraStatusId": 55,
+    "selfieSidewaysCameraStatusId": 78,
+    "selfieSubMode": 0,
+    "canThird": false,
+    "thirdPersonModule": "",
+    "defaultThirdPersonAction": 0,
+    "enterThirdModeSec": 0.699999988,
+    "directlyEnterThirdModeSec": 0.300000012,
+    "photoEffectName": "",
+    "disablePostProcessPanel": false,
+    "showEffectWithoutTarget": false,
+    "pitchAngleRange": {
+      "minValue": 0.100000001,
+      "maxValue": 0.670000017,
+      "defaultValue": 0.5
+    },
+    "rotationAngleRange": {
+      "minValue": -180,
+      "maxValue": 180,
+      "defaultValue": 0
+    },
+    "FOV": {
+      "minValue": 20,
+      "maxValue": 40,
+      "defaultValue": 25
+    },
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": -0.419999987
+    },
+    "selfiePitchAngleRange": {
+      "minValue": 0.449999988,
+      "maxValue": 0.800000012,
+      "defaultValue": 0.600000024
+    },
+    "selfieRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 0
+    },
+    "selfieSidewaysPitchAngleRange": {
+      "minValue": 0.449999988,
+      "maxValue": 0.800000012,
+      "defaultValue": 0.600000024
+    },
+    "selfieSidewaysRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 12
+    },
+    "selfieFOV": {
+      "minValue": 55,
+      "maxValue": 55,
+      "defaultValue": 55
+    },
+    "selfieOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "selfieCameraRotationLimit": [
+      {
+        "bodyType": 1,
+        "minValue": 0.400000006,
+        "maxValue": 1,
+        "defaultValue": 0
+      },
+      {
+        "bodyType": 2,
+        "minValue": 0.400000006,
+        "maxValue": 1,
+        "defaultValue": 0
+      },
+      {
+        "bodyType": 3,
+        "minValue": 0.400000006,
+        "maxValue": 1,
+        "defaultValue": 0
+      },
+      {
+        "bodyType": 4,
+        "minValue": 0.449999988,
+        "maxValue": 1,
+        "defaultValue": 0
+      },
+      {
+        "bodyType": 5,
+        "minValue": 0.449999988,
+        "maxValue": 1,
+        "defaultValue": 0
+      },
+      {
+        "bodyType": 6,
+        "minValue": 0.449999988,
+        "maxValue": 1,
+        "defaultValue": 0
+      }
+    ],
+    "selfieCameraDefaultBlend": [
+      {
+        "bodyType": 1,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 2,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 3,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 4,
+        "defaultValue": 0.600000024
+      },
+      {
+        "bodyType": 5,
+        "defaultValue": 0.600000024
+      },
+      {
+        "bodyType": 6,
+        "defaultValue": 0.600000024
+      }
+    ],
+    "selfieCameraRotationLimitX": [
+      {
+        "bodyType": 1,
+        "minValue": 0.100000001,
+        "maxValue": 0.629999995,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 2,
+        "minValue": 0.100000001,
+        "maxValue": 0.629999995,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 3,
+        "minValue": 0.100000001,
+        "maxValue": 0.629999995,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 4,
+        "minValue": 0.100000001,
+        "maxValue": 0.600000024,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 5,
+        "minValue": 0.100000001,
+        "maxValue": 0.600000024,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 6,
+        "minValue": 0.100000001,
+        "maxValue": 0.600000024,
+        "defaultValue": 0.5
+      }
+    ]
+  },
+  "CXQ5SurfCfg": {
+    "Id": 18,
+    "codeName": "CXQ5Surf",
+    "canUIHide": true,
+    "followCameraRotation": true,
+    "canDefault": true,
+    "defaultAction": 0,
+    "switchMode": 0,
+    "enterPhotoModeCameraMovementTime": 1,
+    "enterPhotoModeSec": 0,
+    "canFocus": true,
+    "canSwitchMember": true,
+    "hideBodyInFirstPerson": true,
+    "firstPersonSubMode": 1,
+    "canSelfie": true,
+    "defaultSelfieAction": 0,
+    "selfieActionSet": 1,
+    "enterSelfieModeSec": 0.699999988,
+    "backPhotoModeSec": 0.699999988,
+    "directlyEnterSelfieModeSec": 0.300000012,
+    "selfieExpressionSet": 1,
+    "canSelfieUIHide": true,
+    "selfieCameraStatusId": 55,
+    "selfieSidewaysCameraStatusId": 78,
+    "selfieSubMode": 1,
+    "canThird": false,
+    "thirdPersonModule": "",
+    "defaultThirdPersonAction": 0,
+    "enterThirdModeSec": 0.699999988,
+    "directlyEnterThirdModeSec": 0.300000012,
+    "photoEffectName": "",
+    "disablePostProcessPanel": true,
+    "showEffectWithoutTarget": true,
+    "pitchAngleRange": {
+      "minValue": 0.100000001,
+      "maxValue": 0.670000017,
+      "defaultValue": 0.5
+    },
+    "rotationAngleRange": {
+      "minValue": -180,
+      "maxValue": 180,
+      "defaultValue": 0
+    },
+    "FOV": {
+      "minValue": 25,
+      "maxValue": 70,
+      "defaultValue": 55
+    },
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": -0.419999987
+    },
+    "selfiePitchAngleRange": {
+      "minValue": 0.449999988,
+      "maxValue": 0.800000012,
+      "defaultValue": 0.600000024
+    },
+    "selfieRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 0
+    },
+    "selfieSidewaysPitchAngleRange": {
+      "minValue": 0.449999988,
+      "maxValue": 0.800000012,
+      "defaultValue": 0.600000024
+    },
+    "selfieSidewaysRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 12
+    },
+    "selfieFOV": {
+      "minValue": 55,
+      "maxValue": 55,
+      "defaultValue": 55
+    },
+    "selfieOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "selfieCameraRotationLimit": [
+      {
+        "bodyType": 1,
+        "minValue": 0.400000006,
+        "maxValue": 1,
+        "defaultValue": 0
+      },
+      {
+        "bodyType": 2,
+        "minValue": 0.400000006,
+        "maxValue": 1,
+        "defaultValue": 0
+      },
+      {
+        "bodyType": 3,
+        "minValue": 0.400000006,
+        "maxValue": 1,
+        "defaultValue": 0
+      },
+      {
+        "bodyType": 4,
+        "minValue": 0.449999988,
+        "maxValue": 1,
+        "defaultValue": 0
+      },
+      {
+        "bodyType": 5,
+        "minValue": 0.449999988,
+        "maxValue": 1,
+        "defaultValue": 0
+      },
+      {
+        "bodyType": 6,
+        "minValue": 0.449999988,
+        "maxValue": 1,
+        "defaultValue": 0
+      }
+    ],
+    "selfieCameraDefaultBlend": [
+      {
+        "bodyType": 1,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 2,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 3,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 4,
+        "defaultValue": 0.600000024
+      },
+      {
+        "bodyType": 5,
+        "defaultValue": 0.600000024
+      },
+      {
+        "bodyType": 6,
+        "defaultValue": 0.600000024
+      }
+    ],
+    "selfieCameraRotationLimitX": [
+      {
+        "bodyType": 1,
+        "minValue": 0.100000001,
+        "maxValue": 0.629999995,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 2,
+        "minValue": 0.100000001,
+        "maxValue": 0.629999995,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 3,
+        "minValue": 0.100000001,
+        "maxValue": 0.629999995,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 4,
+        "minValue": 0.100000001,
+        "maxValue": 0.600000024,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 5,
+        "minValue": 0.100000001,
+        "maxValue": 0.600000024,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 6,
+        "minValue": 0.100000001,
+        "maxValue": 0.600000024,
+        "defaultValue": 0.5
+      }
+    ]
+  },
+  "RowingBoatCfg": {
+    "Id": 19,
+    "codeName": "RowingBoat",
+    "canUIHide": true,
+    "followCameraRotation": true,
+    "canDefault": true,
+    "defaultAction": 0,
+    "switchMode": 0,
+    "enterPhotoModeCameraMovementTime": 1,
+    "enterPhotoModeSec": 0,
+    "canFocus": true,
+    "canSwitchMember": true,
+    "hideBodyInFirstPerson": true,
+    "firstPersonSubMode": 1,
+    "canSelfie": true,
+    "defaultSelfieAction": 78901100,
+    "selfieActionSet": 1,
+    "enterSelfieModeSec": 0.699999988,
+    "backPhotoModeSec": 0.699999988,
+    "directlyEnterSelfieModeSec": 0.300000012,
+    "selfieExpressionSet": 1,
+    "canSelfieUIHide": true,
+    "selfieCameraStatusId": 55,
+    "selfieSidewaysCameraStatusId": 78,
+    "selfieSubMode": 1,
+    "canThird": false,
+    "thirdPersonModule": "",
+    "defaultThirdPersonAction": 0,
+    "enterThirdModeSec": 0,
+    "directlyEnterThirdModeSec": 0,
+    "photoEffectName": "",
+    "disablePostProcessPanel": false,
+    "showEffectWithoutTarget": false,
+    "pitchAngleRange": {
+      "minValue": 0.100000001,
+      "maxValue": 0.670000017,
+      "defaultValue": 0.5
+    },
+    "rotationAngleRange": {
+      "minValue": -50,
+      "maxValue": 50,
+      "defaultValue": 0
+    },
+    "FOV": {
+      "minValue": 25,
+      "maxValue": 70,
+      "defaultValue": 55
+    },
+    "offset": {
+      "x": -0.119999997,
+      "y": 0,
+      "z": 0.389999986
+    },
+    "selfiePitchAngleRange": {
+      "minValue": 0.449999988,
+      "maxValue": 0.800000012,
+      "defaultValue": 0.600000024
+    },
+    "selfieRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 0
+    },
+    "selfieSidewaysPitchAngleRange": {
+      "minValue": 0.449999988,
+      "maxValue": 0.800000012,
+      "defaultValue": 0.600000024
+    },
+    "selfieSidewaysRotationAngleRange": {
+      "minValue": 0,
+      "maxValue": 0,
+      "defaultValue": 0,
+      "offsetValue": 12
+    },
+    "selfieFOV": {
+      "minValue": 55,
+      "maxValue": 55,
+      "defaultValue": 55
+    },
+    "selfieOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "selfieCameraRotationLimit": [
+      {
+        "bodyType": 1,
+        "minValue": 0.400000006,
+        "maxValue": 1,
+        "defaultValue": 0.689999998
+      },
+      {
+        "bodyType": 2,
+        "minValue": 0.400000006,
+        "maxValue": 1,
+        "defaultValue": 0.689999998
+      },
+      {
+        "bodyType": 3,
+        "minValue": 0.400000006,
+        "maxValue": 1,
+        "defaultValue": 0.670000017
+      },
+      {
+        "bodyType": 4,
+        "minValue": 0.449999988,
+        "maxValue": 1,
+        "defaultValue": 0.649999976
+      },
+      {
+        "bodyType": 5,
+        "minValue": 0.449999988,
+        "maxValue": 1,
+        "defaultValue": 0.689999998
+      },
+      {
+        "bodyType": 6,
+        "minValue": 0.449999988,
+        "maxValue": 1,
+        "defaultValue": 0.689999998
+      }
+    ],
+    "selfieCameraDefaultBlend": [
+      {
+        "bodyType": 1,
+        "defaultValue": 0.449999988
+      },
+      {
+        "bodyType": 2,
+        "defaultValue": 0.449999988
+      },
+      {
+        "bodyType": 3,
+        "defaultValue": 0.579999983
+      },
+      {
+        "bodyType": 4,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 5,
+        "defaultValue": 0.5
+      },
+      {
+        "bodyType": 6,
+        "defaultValue": 0.600000024
+      }
+    ],
+    "selfieCameraRotationLimitX": [
+      {
+        "bodyType": 1,
+        "minValue": 0.100000001,
+        "maxValue": 0.629999995,
+        "defaultValue": 0.419999987
+      },
+      {
+        "bodyType": 2,
+        "minValue": 0.100000001,
+        "maxValue": 0.629999995,
+        "defaultValue": 0.419999987
+      },
+      {
+        "bodyType": 3,
+        "minValue": 0.100000001,
+        "maxValue": 0.629999995,
+        "defaultValue": 0.419999987
+      },
+      {
+        "bodyType": 4,
+        "minValue": 0.100000001,
+        "maxValue": 0.600000024,
+        "defaultValue": 0.439999998
+      },
+      {
+        "bodyType": 5,
+        "minValue": 0.100000001,
+        "maxValue": 0.600000024,
+        "defaultValue": 0.439999998
+      },
+      {
+        "bodyType": 6,
+        "minValue": 0.100000001,
+        "maxValue": 0.600000024,
+        "defaultValue": 0.439999998
+      }
+    ]
+  }
+}

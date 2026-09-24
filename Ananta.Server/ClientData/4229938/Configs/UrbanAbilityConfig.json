@@ -1,0 +1,514 @@
+{
+  "_class": "UrbanAbilityConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 22,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "Car Driving",
+      "Description": "The skill in driving all kinds of cars.",
+      "IncreaseIconList": [
+        28009312
+      ],
+      "ConsumableId": 36941100,
+      "IncreaseDescription": [],
+      "Type": 0,
+      "AbilityType": 1,
+      "MaxLevel": 5,
+      "InitBuffId": 1001,
+      "GuideId": "",
+      "Icon": 28009419,
+      "Texture": 28009420,
+      "__IDX__Name": 103566,
+      "__RAW__Name": "",
+      "__IDX__Description": 103565,
+      "__RAW__Description": ""
+    },
+    {
+      "Id": 2,
+      "Name": "Motorcycle Driving",
+      "Description": "The skill in driving all kinds of motorcycles.",
+      "IncreaseIconList": [
+        28009312
+      ],
+      "ConsumableId": 36941101,
+      "IncreaseDescription": [],
+      "Type": 0,
+      "AbilityType": 1,
+      "MaxLevel": 2,
+      "InitBuffId": 2001,
+      "GuideId": "",
+      "Icon": 28009426,
+      "Texture": 28009427,
+      "__IDX__Name": 103573,
+      "__RAW__Name": "",
+      "__IDX__Description": 103572,
+      "__RAW__Description": ""
+    },
+    {
+      "Id": 100,
+      "Name": "Physical Fitness",
+      "Description": "The basic physiological attributes.",
+      "IncreaseIconList": [
+        28009263,
+        28009264,
+        28009265,
+        28009267
+      ],
+      "ConsumableId": 36941104,
+      "IncreaseDescription": [
+        "与敌人战斗",
+        "深蹲",
+        "卧推",
+        "仰卧起坐"
+      ],
+      "Type": 0,
+      "AbilityType": 2,
+      "MaxLevel": 5,
+      "InitBuffId": 100001,
+      "GuideId": "",
+      "Icon": 28009414,
+      "Texture": 28009415,
+      "__IDX__Name": 103568,
+      "__RAW__Name": "",
+      "__IDX__Description": 103567,
+      "__RAW__Description": ""
+    },
+    {
+      "Id": 101,
+      "Name": "Parkour",
+      "Description": "The ability to move using special techniques.",
+      "IncreaseIconList": [
+        28009268
+      ],
+      "ConsumableId": 36941105,
+      "IncreaseDescription": [
+        "移动"
+      ],
+      "Type": 0,
+      "AbilityType": 2,
+      "MaxLevel": 1,
+      "InitBuffId": 101001,
+      "GuideId": "",
+      "Icon": 28009424,
+      "Texture": 28009425,
+      "__IDX__Name": 99283,
+      "__RAW__Name": "",
+      "__IDX__Description": 103569,
+      "__RAW__Description": ""
+    },
+    {
+      "Id": 102,
+      "Name": "Basketball",
+      "Description": "The skill in basketball techniques.",
+      "IncreaseIconList": [
+        28009344
+      ],
+      "ConsumableId": 36941106,
+      "IncreaseDescription": [],
+      "Type": 0,
+      "AbilityType": 2,
+      "MaxLevel": 1,
+      "InitBuffId": 102001,
+      "GuideId": "",
+      "Icon": 28009430,
+      "Texture": 28009431,
+      "__IDX__Name": 100028,
+      "__RAW__Name": "",
+      "__IDX__Description": 103570,
+      "__RAW__Description": ""
+    },
+    {
+      "Id": 103,
+      "Name": "Darts",
+      "Description": "The skill in darts techniques.",
+      "IncreaseIconList": [
+        28009343
+      ],
+      "ConsumableId": 36941107,
+      "IncreaseDescription": [],
+      "Type": 0,
+      "AbilityType": 2,
+      "MaxLevel": 2,
+      "InitBuffId": 103001,
+      "GuideId": "",
+      "Icon": 28009435,
+      "Texture": 28009431,
+      "__IDX__Name": 99284,
+      "__RAW__Name": "",
+      "__IDX__Description": 103571,
+      "__RAW__Description": ""
+    },
+    {
+      "Id": 104,
+      "Name": "钓鱼",
+      "Description": "掌握钓鱼的技术",
+      "IncreaseIconList": [
+        28009268
+      ],
+      "ConsumableId": 36941115,
+      "IncreaseDescription": [
+        "钓鱼"
+      ],
+      "Type": 0,
+      "AbilityType": 2,
+      "MaxLevel": 1,
+      "InitBuffId": 104001,
+      "GuideId": "",
+      "Icon": 28009436,
+      "Texture": 28009425,
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "钓鱼",
+      "__IDX__Description": 4294967295,
+      "__RAW__Description": "掌握钓鱼的技术"
+    },
+    {
+      "Id": 200,
+      "Name": "Eloquence",
+      "Description": "The skill in interacting effectively with others.",
+      "IncreaseIconList": [
+        28009266
+      ],
+      "ConsumableId": 36941108,
+      "IncreaseDescription": [
+        "消费"
+      ],
+      "Type": 0,
+      "AbilityType": 3,
+      "MaxLevel": 2,
+      "InitBuffId": 200001,
+      "GuideId": "",
+      "Icon": 28009432,
+      "Texture": 28009437,
+      "__IDX__Name": 103575,
+      "__RAW__Name": "",
+      "__IDX__Description": 103574,
+      "__RAW__Description": ""
+    },
+    {
+      "Id": 201,
+      "Name": "Music",
+      "Description": "The skill in understanding music and playing instruments.",
+      "IncreaseIconList": [
+        28009269
+      ],
+      "ConsumableId": 36941109,
+      "IncreaseDescription": [
+        "使用乐器"
+      ],
+      "Type": 0,
+      "AbilityType": 3,
+      "MaxLevel": 2,
+      "InitBuffId": 201001,
+      "GuideId": "",
+      "Icon": 28009412,
+      "Texture": 28009411,
+      "__IDX__Name": 99285,
+      "__RAW__Name": "",
+      "__IDX__Description": 103576,
+      "__RAW__Description": ""
+    },
+    {
+      "Id": 202,
+      "Name": "Appreciation",
+      "Description": "The skill to discover hidden value in things and perceive the beauty of life.",
+      "IncreaseIconList": [
+        28009342,
+        28009345,
+        28009346
+      ],
+      "ConsumableId": 36941110,
+      "IncreaseDescription": [],
+      "Type": 0,
+      "AbilityType": 3,
+      "MaxLevel": 3,
+      "InitBuffId": 202001,
+      "GuideId": "",
+      "Icon": 28009433,
+      "Texture": 28009429,
+      "__IDX__Name": 103578,
+      "__RAW__Name": "",
+      "__IDX__Description": 103577,
+      "__RAW__Description": ""
+    },
+    {
+      "Id": 203,
+      "Name": "Mahjong",
+      "Description": "The skill in mahjong strategies and techniques.",
+      "IncreaseIconList": [
+        28009347
+      ],
+      "ConsumableId": 36941111,
+      "IncreaseDescription": [],
+      "Type": 0,
+      "AbilityType": 3,
+      "MaxLevel": 1,
+      "InitBuffId": 203001,
+      "GuideId": "",
+      "Icon": 28009428,
+      "Texture": 28009429,
+      "__IDX__Name": 100029,
+      "__RAW__Name": "",
+      "__IDX__Description": 103579,
+      "__RAW__Description": ""
+    },
+    {
+      "Id": 300,
+      "Name": "Combat",
+      "Description": "The combat experience gained across diverse encounters.",
+      "IncreaseIconList": [
+        28009262,
+        28009263
+      ],
+      "ConsumableId": 36941112,
+      "IncreaseDescription": [
+        "击败敌人",
+        "受到攻击"
+      ],
+      "Type": 0,
+      "AbilityType": 4,
+      "MaxLevel": 5,
+      "InitBuffId": 300001,
+      "GuideId": "",
+      "Icon": 28009416,
+      "Texture": 28009417,
+      "__IDX__Name": 103583,
+      "__RAW__Name": "",
+      "__IDX__Description": 103582,
+      "__RAW__Description": ""
+    },
+    {
+      "Id": 301,
+      "Name": "拳套熟练",
+      "Description": "使用拳套的作战能力",
+      "IncreaseIconList": [
+        28009262
+      ],
+      "ConsumableId": 36941113,
+      "IncreaseDescription": [
+        "使用近战武器击败敌人"
+      ],
+      "Type": 0,
+      "AbilityType": 4,
+      "MaxLevel": 5,
+      "InitBuffId": 301001,
+      "GuideId": "",
+      "Icon": 28009418,
+      "Texture": 28009423,
+      "__IDX__Name": 103585,
+      "__RAW__Name": "",
+      "__IDX__Description": 103584,
+      "__RAW__Description": ""
+    },
+    {
+      "Id": 302,
+      "Name": "单手钝器熟练",
+      "Description": "使用单手钝器的作战能力",
+      "IncreaseIconList": [
+        28009262
+      ],
+      "ConsumableId": 36941113,
+      "IncreaseDescription": [
+        "使用近战武器击败敌人"
+      ],
+      "Type": 0,
+      "AbilityType": 4,
+      "MaxLevel": 5,
+      "InitBuffId": 302001,
+      "GuideId": "",
+      "Icon": 28009418,
+      "Texture": 28009423,
+      "__IDX__Name": 103587,
+      "__RAW__Name": "",
+      "__IDX__Description": 103586,
+      "__RAW__Description": ""
+    },
+    {
+      "Id": 303,
+      "Name": "双手长柄熟练",
+      "Description": "使用双手长柄的作战能力",
+      "IncreaseIconList": [
+        28009262
+      ],
+      "ConsumableId": 36941113,
+      "IncreaseDescription": [
+        "使用近战武器击败敌人"
+      ],
+      "Type": 0,
+      "AbilityType": 4,
+      "MaxLevel": 5,
+      "InitBuffId": 303001,
+      "GuideId": "",
+      "Icon": 28009418,
+      "Texture": 28009423,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "双手长柄熟练",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "使用双手长柄的作战能力"
+    },
+    {
+      "Id": 304,
+      "Name": "双手锤熟练",
+      "Description": "使用双手锤的作战能力",
+      "IncreaseIconList": [
+        28009262
+      ],
+      "ConsumableId": 36941113,
+      "IncreaseDescription": [
+        "使用近战武器击败敌人"
+      ],
+      "Type": 0,
+      "AbilityType": 4,
+      "MaxLevel": 5,
+      "InitBuffId": 304001,
+      "GuideId": "WeaponFight",
+      "Icon": 28009418,
+      "Texture": 28009423,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "双手锤熟练",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "使用双手锤的作战能力"
+    },
+    {
+      "Id": 305,
+      "Name": "短刃熟练",
+      "Description": "使用短刃的作战能力",
+      "IncreaseIconList": [
+        28009262
+      ],
+      "ConsumableId": 36941113,
+      "IncreaseDescription": [
+        "使用近战武器击败敌人"
+      ],
+      "Type": 0,
+      "AbilityType": 4,
+      "MaxLevel": 5,
+      "InitBuffId": 305001,
+      "GuideId": "",
+      "Icon": 28009418,
+      "Texture": 28009423,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "短刃熟练",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "使用短刃的作战能力"
+    },
+    {
+      "Id": 306,
+      "Name": "手枪熟练",
+      "Description": "使用手枪的作战能力",
+      "IncreaseIconList": [
+        28009262
+      ],
+      "ConsumableId": 36941114,
+      "IncreaseDescription": [
+        "使用远程武器击败敌人"
+      ],
+      "Type": 0,
+      "AbilityType": 4,
+      "MaxLevel": 5,
+      "InitBuffId": 306001,
+      "GuideId": "",
+      "Icon": 28009421,
+      "Texture": 28009422,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "手枪熟练",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "使用手枪的作战能力"
+    },
+    {
+      "Id": 307,
+      "Name": "冲锋枪熟练",
+      "Description": "使用冲锋枪的作战能力",
+      "IncreaseIconList": [
+        28009262
+      ],
+      "ConsumableId": 36941114,
+      "IncreaseDescription": [
+        "使用远程武器击败敌人"
+      ],
+      "Type": 0,
+      "AbilityType": 4,
+      "MaxLevel": 5,
+      "InitBuffId": 307001,
+      "GuideId": "",
+      "Icon": 28009421,
+      "Texture": 28009422,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "冲锋枪熟练",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "使用冲锋枪的作战能力"
+    },
+    {
+      "Id": 308,
+      "Name": "步枪熟练",
+      "Description": "使用步枪的作战能力",
+      "IncreaseIconList": [
+        28009262
+      ],
+      "ConsumableId": 36941114,
+      "IncreaseDescription": [
+        "使用远程武器击败敌人"
+      ],
+      "Type": 0,
+      "AbilityType": 4,
+      "MaxLevel": 5,
+      "InitBuffId": 308001,
+      "GuideId": "",
+      "Icon": 28009421,
+      "Texture": 28009422,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "步枪熟练",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "使用步枪的作战能力"
+    },
+    {
+      "Id": 309,
+      "Name": "狙击枪熟练",
+      "Description": "使用狙击枪的作战能力",
+      "IncreaseIconList": [
+        28009262
+      ],
+      "ConsumableId": 36941114,
+      "IncreaseDescription": [
+        "使用远程武器击败敌人"
+      ],
+      "Type": 0,
+      "AbilityType": 4,
+      "MaxLevel": 5,
+      "InitBuffId": 309001,
+      "GuideId": "",
+      "Icon": 28009421,
+      "Texture": 28009422,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "狙击枪熟练",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "使用狙击枪的作战能力"
+    },
+    {
+      "Id": 310,
+      "Name": "霰弹枪熟练",
+      "Description": "使用霰弹枪的作战能力",
+      "IncreaseIconList": [
+        28009262
+      ],
+      "ConsumableId": 36941114,
+      "IncreaseDescription": [
+        "使用远程武器击败敌人"
+      ],
+      "Type": 0,
+      "AbilityType": 4,
+      "MaxLevel": 5,
+      "InitBuffId": 310001,
+      "GuideId": "",
+      "Icon": 28009421,
+      "Texture": 28009422,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "霰弹枪熟练",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "使用霰弹枪的作战能力"
+    }
+  ],
+  "_dumpedCount": 22,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

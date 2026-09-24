@@ -60,7 +60,7 @@ $Domains = @(
 )
 
 New-Item -ItemType Directory -Force -Path $BackupDir | Out-Null
-$backup = Join-Path $BackupDir ("hosts-before-remove-Ananta-{0}.txt" -f (Get-Date -Format 'yyyyMMdd-HHmmss'))
+$backup = Join-Path $BackupDir ("hosts-before-remove-drmk-{0}.txt" -f (Get-Date -Format 'yyyyMMdd-HHmmss'))
 Copy-Item -LiteralPath $HostsPath -Destination $backup -Force
 
 $lines = @(Get-Content -LiteralPath $HostsPath -ErrorAction SilentlyContinue)
@@ -78,4 +78,4 @@ $kept = foreach ($line in $lines) {
 Set-Content -LiteralPath $HostsPath -Value $kept -Encoding ASCII
 ipconfig /flushdns | Out-Null
 
-Write-Host "Ananta-ps hosts entries removed. Backup: $backup"
+Write-Host "drmk-ps hosts entries removed. Backup: $backup"

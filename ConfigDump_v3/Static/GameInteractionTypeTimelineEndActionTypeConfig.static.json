@@ -1,0 +1,613 @@
+{
+  "CustomCfg": null,
+  "DrivingCfg": {
+    "Id": 1,
+    "Name": "开车",
+    "SpecialType": true,
+    "Index": 0,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": false,
+    "ShowWeaponImmediate": false
+  },
+  "BattleIdleCfg": {
+    "Id": 2,
+    "Name": "废弃的战斗待机",
+    "SpecialType": true,
+    "Index": 0,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": false,
+    "ShowWeaponImmediate": false
+  },
+  "TaffyMotoRushCfg": {
+    "Id": 3,
+    "Name": "塔菲骑摩托冲",
+    "SpecialType": false,
+    "Index": 13,
+    "Index2": 0,
+    "DefaultContinueTime": 0.5,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": true
+  },
+  "TaffyMotoRunCfg": {
+    "Id": 4,
+    "Name": "塔菲骑摩托跑",
+    "SpecialType": false,
+    "Index": 3,
+    "Index2": 0,
+    "DefaultContinueTime": 0.5,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": true
+  },
+  "RunCfg": {
+    "Id": 5,
+    "Name": "跑|跑停",
+    "SpecialType": false,
+    "Index": 1,
+    "Index2": 0,
+    "DefaultContinueTime": 0.5,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "SwingOutCfg": {
+    "Id": 6,
+    "Name": "摆荡静止出",
+    "SpecialType": true,
+    "Index": 0,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "CrouchCfg": {
+    "Id": 7,
+    "Name": "蹲",
+    "SpecialType": false,
+    "Index": 4,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "IdleOnWallLeftCfg": {
+    "Id": 8,
+    "Name": "挂墙上(面向左)",
+    "SpecialType": true,
+    "Index": 2,
+    "Index2": 1,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "IdleOnWallRightCfg": {
+    "Id": 9,
+    "Name": "挂墙上(面向右)",
+    "SpecialType": true,
+    "Index": 2,
+    "Index2": 2,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "ShootInCarCfg": {
+    "Id": 10,
+    "Name": "车上射击（已废弃）",
+    "SpecialType": false,
+    "Index": 6,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "WithPizzaCfg": {
+    "Id": 11,
+    "Name": "端披萨（已废弃）",
+    "SpecialType": false,
+    "Index": 7,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "SittingCfg": {
+    "Id": 12,
+    "Name": "坐",
+    "SpecialType": false,
+    "Index": 9,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "SittingInCarCfg": {
+    "Id": 13,
+    "Name": "坐车上(非驾驶位)废弃",
+    "SpecialType": false,
+    "Index": 10,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "XSB22GuideIdleCfg": {
+    "Id": 14,
+    "Name": "新手本2-2引导待机",
+    "SpecialType": false,
+    "Index": 11,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": false,
+    "ShowWeaponImmediate": false
+  },
+  "HideAndShotCfg": {
+    "Id": 15,
+    "Name": "掩体射击",
+    "SpecialType": false,
+    "Index": 12,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "SwingMoveOutCfg": {
+    "Id": 16,
+    "Name": "摆荡移动出",
+    "SpecialType": true,
+    "Index": 14,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": false,
+    "ShowWeaponImmediate": false
+  },
+  "WalkCfg": {
+    "Id": 17,
+    "Name": "走|走停",
+    "SpecialType": false,
+    "Index": 17,
+    "Index2": 0,
+    "DefaultContinueTime": 0.5,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "DiscoCfg": {
+    "Id": 18,
+    "Name": "Disco",
+    "SpecialType": false,
+    "Index": 18,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "PeepCfg": {
+    "Id": 19,
+    "Name": "墙面偷拍",
+    "SpecialType": false,
+    "Index": 19,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "xiaoyangCfg": {
+    "Id": 20,
+    "Name": "拷问小羊",
+    "SpecialType": false,
+    "Index": 20,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "yanhuaCfg": {
+    "Id": 21,
+    "Name": "烟花桶",
+    "SpecialType": false,
+    "Index": 21,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "SitNomalCfg": {
+    "Id": 22,
+    "Name": "座椅",
+    "SpecialType": false,
+    "Index": 22,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "BasketballCfg": {
+    "Id": 23,
+    "Name": "篮球",
+    "SpecialType": false,
+    "Index": 23,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "SunbathCfg": {
+    "Id": 24,
+    "Name": "单人沙滩躺椅",
+    "SpecialType": false,
+    "Index": 24,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "SpringCfg": {
+    "Id": 25,
+    "Name": "温泉",
+    "SpecialType": false,
+    "Index": 25,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "PipeCfg": {
+    "Id": 26,
+    "Name": "通风管",
+    "SpecialType": false,
+    "Index": 26,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "CarShootFrontCfg": {
+    "Id": 27,
+    "Name": "前向射击(载具)",
+    "SpecialType": true,
+    "Index": 27,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "CarShootBackCfg": {
+    "Id": 28,
+    "Name": "后向射击(载具)",
+    "SpecialType": true,
+    "Index": 28,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "FallDownCfg": {
+    "Id": 29,
+    "Name": "高空下落",
+    "SpecialType": false,
+    "Index": 29,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "WallRushUPCfg": {
+    "Id": 30,
+    "Name": "向上跑墙",
+    "SpecialType": false,
+    "Index": 30,
+    "Index2": 0,
+    "DefaultContinueTime": 1,
+    "IsStateTree": false,
+    "ShowWeaponImmediate": false
+  },
+  "WatchPhoneCfg": {
+    "Id": 31,
+    "Name": "看手机",
+    "SpecialType": false,
+    "Index": 31,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "prowl_idle01Cfg": {
+    "Id": 32,
+    "Name": "潜行待机",
+    "SpecialType": false,
+    "Index": 32,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "weapon_stp_s_idleCfg": {
+    "Id": 33,
+    "Name": "喷火器持有",
+    "SpecialType": false,
+    "Index": 33,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "InBattleIdleCfg": {
+    "Id": 34,
+    "Name": "进入战斗待机",
+    "SpecialType": false,
+    "Index": 34,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "InHandBattleCfg": {
+    "Id": 35,
+    "Name": "进入空手战斗待机",
+    "SpecialType": false,
+    "Index": 35,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "SunbathTwoCfg": {
+    "Id": 36,
+    "Name": "双人沙滩躺椅",
+    "SpecialType": false,
+    "Index": 36,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "NoneCfg": {
+    "Id": 37,
+    "Name": "不处理动作",
+    "SpecialType": true,
+    "Index": 0,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": false,
+    "ShowWeaponImmediate": false
+  },
+  "EnterDiveIdleCfg": {
+    "Id": 38,
+    "Name": "进入潜水待机",
+    "SpecialType": false,
+    "Index": 38,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "WangQiuCfg": {
+    "Id": 39,
+    "Name": "主线打开网球机关",
+    "SpecialType": false,
+    "Index": 39,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": true
+  },
+  "CaiZhuZiCfg": {
+    "Id": 40,
+    "Name": "踩竹子",
+    "SpecialType": false,
+    "Index": 40,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "prowl_run01Cfg": {
+    "Id": 41,
+    "Name": "潜行移动",
+    "SpecialType": false,
+    "Index": 41,
+    "Index2": 0,
+    "DefaultContinueTime": 0.5,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "GaoQiaoCfg": {
+    "Id": 42,
+    "Name": "高跷",
+    "SpecialType": false,
+    "Index": 42,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "TimeLineToWeaponCfg": {
+    "Id": 43,
+    "Name": "进入持枪/持大锤 等道具武器idle状态",
+    "SpecialType": false,
+    "Index": 43,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "TimeLineToFastJumpLoopCfg": {
+    "Id": 44,
+    "Name": "向下俯冲",
+    "SpecialType": false,
+    "Index": 44,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "TuanLiuCfg": {
+    "Id": 45,
+    "Name": "湍流",
+    "SpecialType": false,
+    "Index": 45,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "WeakMoveCfg": {
+    "Id": 46,
+    "Name": "进入虚弱移动",
+    "SpecialType": false,
+    "Index": 46,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "ACDSwitchCfg": {
+    "Id": 47,
+    "Name": "ACD电闸无缝",
+    "SpecialType": false,
+    "Index": 47,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "CXQ5_EnterSurfCfg": {
+    "Id": 48,
+    "Name": "重霄Q5冲浪无缝进入",
+    "SpecialType": false,
+    "Index": 48,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "WeakProwlCfg": {
+    "Id": 49,
+    "Name": "进入虚弱潜行",
+    "SpecialType": false,
+    "Index": 49,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "WallStrideBezierNarrowCfg": {
+    "Id": 50,
+    "Name": "进缝隙单向右",
+    "SpecialType": false,
+    "Index": 50,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "RushCfg": {
+    "Id": 51,
+    "Name": "冲刺|冲刺停",
+    "SpecialType": false,
+    "Index": 51,
+    "Index2": 0,
+    "DefaultContinueTime": 1.5,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "DreamcoreCfg": {
+    "Id": 52,
+    "Name": "梦核待机",
+    "SpecialType": false,
+    "Index": 52,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "WallProwlCfg": {
+    "Id": 53,
+    "Name": "进入贴墙潜行单向",
+    "SpecialType": false,
+    "Index": 53,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "EnterDiveNormalMoveCfg": {
+    "Id": 54,
+    "Name": "进入潜水普通游动",
+    "SpecialType": false,
+    "Index": 54,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "CXQ1_YinglongrushCfg": {
+    "Id": 55,
+    "Name": "重霄Q1八步赶蝉蓄力无缝进入",
+    "SpecialType": false,
+    "Index": 55,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "CXQ5_ZhiQiangskateCfg": {
+    "Id": 56,
+    "Name": "重霄Q5滑板无缝进入",
+    "SpecialType": false,
+    "Index": 56,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "ChengGanTiaoCrouchEnterCfg": {
+    "Id": 57,
+    "Name": "重霄Q1撑杆跳无缝进入蹲姿",
+    "SpecialType": false,
+    "Index": 57,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "CXQ5_EnterSurfPhase2Cfg": {
+    "Id": 58,
+    "Name": "重霄Q5冲浪进入二阶段水下",
+    "SpecialType": false,
+    "Index": 58,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "CXQ5_EnterSurfPhase4Cfg": {
+    "Id": 59,
+    "Name": "重霄Q5冲浪进入四阶段船舱内",
+    "SpecialType": false,
+    "Index": 59,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "CXQ4_EnterShipWireCfg": {
+    "Id": 60,
+    "Name": "重霄Q4进入挂船飞威亚",
+    "SpecialType": false,
+    "Index": 60,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  },
+  "XSB_TanghuluCfg": {
+    "Id": 61,
+    "Name": "新手本拿糖葫芦",
+    "SpecialType": false,
+    "Index": 61,
+    "Index2": 0,
+    "DefaultContinueTime": 0,
+    "IsStateTree": true,
+    "ShowWeaponImmediate": false
+  }
+}

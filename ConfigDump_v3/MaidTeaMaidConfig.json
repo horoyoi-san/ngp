@@ -1,0 +1,405 @@
+{
+  "_class": "MaidTeaMaidConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 7,
+  "records": [
+    {
+      "Id": 29120000,
+      "Name": "依依",
+      "ModelId": 86952236,
+      "ChooseTime": 60,
+      "UINodeIndex": 1,
+      "ImgID": 30300700,
+      "IdleActionId": 9902,
+      "MixTeaActionId": 9903,
+      "Npcid": 0,
+      "SelectSoundId": 0,
+      "UnlockLevel": 0,
+      "MaidDesc": "我是女仆喵",
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "依依",
+      "__IDX__MaidDesc": 4294967293,
+      "__RAW__MaidDesc": "我是女仆喵",
+      "NoChooseDialog": {
+        "dialogText": "",
+        "__IDX__dialogText": 4294967293,
+        "__RAW__dialogText": "怎么了？主人？",
+        "actionId": 9908
+      },
+      "MaidQuestionID": [
+        {
+          "Q1id": 29123003,
+          "Q2id": 29123004,
+          "Q3id": 29123005
+        },
+        {
+          "Q1id": 29123006,
+          "Q2id": 29123007,
+          "Q3id": 29123008
+        }
+      ],
+      "MaidGetTeaDialog": [
+        {
+          "CompleteScore": 80,
+          "DialogId": 50032014
+        },
+        {
+          "CompleteScore": 1,
+          "DialogId": 50032016
+        },
+        {
+          "CompleteScore": 0,
+          "DialogId": 50032016
+        }
+      ],
+      "TeaComment": [
+        {
+          "FoodId": 87001018,
+          "DialogId": 50032018
+        },
+        {
+          "FoodId": 87001019,
+          "DialogId": 50032019
+        },
+        {
+          "FoodId": 87001020,
+          "DialogId": 50032020
+        },
+        {
+          "FoodId": 87001021,
+          "DialogId": 50032021
+        }
+      ],
+      "IntroDialog": [
+        {
+          "FoodId": 87001018,
+          "DialogId": 50032001
+        },
+        {
+          "FoodId": 87001019,
+          "DialogId": 50032001
+        },
+        {
+          "FoodId": 87001020,
+          "DialogId": 50032001
+        },
+        {
+          "FoodId": 87001021,
+          "DialogId": 50032001
+        }
+      ]
+    },
+    {
+      "Id": 29120001,
+      "Name": "双儿",
+      "ModelId": 86952123,
+      "ChooseTime": 10,
+      "UINodeIndex": 2,
+      "ImgID": 30300701,
+      "IdleActionId": 9902,
+      "MixTeaActionId": 9903,
+      "Npcid": 0,
+      "SelectSoundId": 0,
+      "UnlockLevel": 3,
+      "MaidDesc": "我是普通的女仆",
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "双儿",
+      "__IDX__MaidDesc": 4294967293,
+      "__RAW__MaidDesc": "我是普通的女仆",
+      "NoChooseDialog": {
+        "dialogText": "",
+        "__IDX__dialogText": 4294967293,
+        "__RAW__dialogText": "主人不用紧张，我们接着下一句吧！",
+        "actionId": 9908
+      },
+      "MaidQuestionID": [
+        {
+          "Q1id": 29123009,
+          "Q2id": 29123010,
+          "Q3id": 29123011
+        },
+        {
+          "Q1id": 29123012,
+          "Q2id": 29123013,
+          "Q3id": 29123014
+        }
+      ],
+      "MaidGetTeaDialog": [
+        {
+          "CompleteScore": 80,
+          "DialogId": 50032014
+        },
+        {
+          "CompleteScore": 1,
+          "DialogId": 50032016
+        },
+        {
+          "CompleteScore": 0,
+          "DialogId": 50032016
+        }
+      ],
+      "TeaComment": [
+        {
+          "FoodId": 87001018,
+          "DialogId": 50032018
+        },
+        {
+          "FoodId": 87001019,
+          "DialogId": 50032019
+        },
+        {
+          "FoodId": 87001020,
+          "DialogId": 50032020
+        },
+        {
+          "FoodId": 87001021,
+          "DialogId": 50032021
+        }
+      ],
+      "IntroDialog": [
+        {
+          "FoodId": 87001018,
+          "DialogId": 50008062
+        },
+        {
+          "FoodId": 87001019,
+          "DialogId": 50008062
+        },
+        {
+          "FoodId": 87001020,
+          "DialogId": 50008062
+        },
+        {
+          "FoodId": 87001021,
+          "DialogId": 50008062
+        }
+      ]
+    },
+    {
+      "Id": 29120002,
+      "Name": "茉莉",
+      "ModelId": 86952124,
+      "ChooseTime": 30,
+      "UINodeIndex": 3,
+      "ImgID": 30300702,
+      "IdleActionId": 9902,
+      "MixTeaActionId": 9901,
+      "Npcid": 0,
+      "SelectSoundId": 0,
+      "UnlockLevel": 5,
+      "MaidDesc": "我喜欢奇怪的东西",
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "茉莉",
+      "__IDX__MaidDesc": 4294967293,
+      "__RAW__MaidDesc": "我喜欢奇怪的东西",
+      "NoChooseDialog": {
+        "dialogText": "",
+        "__IDX__dialogText": 4294967293,
+        "__RAW__dialogText": "嗯？怎么了呢~",
+        "actionId": 0
+      },
+      "MaidQuestionID": [],
+      "MaidGetTeaDialog": [],
+      "TeaComment": [],
+      "IntroDialog": []
+    },
+    {
+      "Id": 29120003,
+      "Name": "店长",
+      "ModelId": 86951857,
+      "ChooseTime": 10,
+      "UINodeIndex": 0,
+      "ImgID": 0,
+      "IdleActionId": 9902,
+      "MixTeaActionId": 9901,
+      "Npcid": 0,
+      "SelectSoundId": 0,
+      "UnlockLevel": 0,
+      "MaidDesc": "",
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "店长",
+      "__IDX__MaidDesc": 0,
+      "__RAW__MaidDesc": "",
+      "NoChooseDialog": {
+        "dialogText": "",
+        "__IDX__dialogText": 4294967293,
+        "__RAW__dialogText": "why not?",
+        "actionId": 0
+      },
+      "MaidQuestionID": [],
+      "MaidGetTeaDialog": [],
+      "TeaComment": [],
+      "IntroDialog": []
+    },
+    {
+      "Id": 29120004,
+      "Name": "梅卡妮卡",
+      "ModelId": 86952124,
+      "ChooseTime": 0,
+      "UINodeIndex": 0,
+      "ImgID": 0,
+      "IdleActionId": 9903,
+      "MixTeaActionId": 9903,
+      "Npcid": 91050019,
+      "SelectSoundId": 0,
+      "UnlockLevel": 0,
+      "MaidDesc": "",
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "梅卡妮卡",
+      "__IDX__MaidDesc": 0,
+      "__RAW__MaidDesc": "",
+      "NoChooseDialog": {
+        "dialogText": "",
+        "__IDX__dialogText": 4294967293,
+        "__RAW__dialogText": "<player>……是困了吗？要打起精神哦！",
+        "actionId": 9905
+      },
+      "MaidQuestionID": [
+        {
+          "Q1id": 29123000,
+          "Q2id": 29123001,
+          "Q3id": 29123002
+        }
+      ],
+      "MaidGetTeaDialog": [
+        {
+          "CompleteScore": 80,
+          "DialogId": 50033095
+        },
+        {
+          "CompleteScore": 1,
+          "DialogId": 50033598
+        },
+        {
+          "CompleteScore": 0,
+          "DialogId": 50033598
+        }
+      ],
+      "TeaComment": [
+        {
+          "FoodId": 87001018,
+          "DialogId": 50033103
+        },
+        {
+          "FoodId": 87001019,
+          "DialogId": 50033104
+        },
+        {
+          "FoodId": 87001020,
+          "DialogId": 50033105
+        },
+        {
+          "FoodId": 87001021,
+          "DialogId": 50033106
+        }
+      ],
+      "IntroDialog": [
+        {
+          "FoodId": 87001018,
+          "DialogId": 50033043
+        },
+        {
+          "FoodId": 87001019,
+          "DialogId": 50033043
+        },
+        {
+          "FoodId": 87001020,
+          "DialogId": 50033043
+        },
+        {
+          "FoodId": 87001021,
+          "DialogId": 50033043
+        }
+      ]
+    },
+    {
+      "Id": 29120005,
+      "Name": "班茜",
+      "ModelId": 0,
+      "ChooseTime": 0,
+      "UINodeIndex": 0,
+      "ImgID": 0,
+      "IdleActionId": 0,
+      "MixTeaActionId": 0,
+      "Npcid": 91050016,
+      "SelectSoundId": 0,
+      "UnlockLevel": 0,
+      "MaidDesc": "",
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "班茜",
+      "__IDX__MaidDesc": 0,
+      "__RAW__MaidDesc": "",
+      "NoChooseDialog": {
+        "dialogText": "",
+        "__IDX__dialogText": 0,
+        "__RAW__dialogText": "",
+        "actionId": 0
+      },
+      "MaidQuestionID": [],
+      "MaidGetTeaDialog": [],
+      "TeaComment": [],
+      "IntroDialog": []
+    },
+    {
+      "Id": 29120006,
+      "Name": "依依",
+      "ModelId": 86952236,
+      "ChooseTime": 20,
+      "UINodeIndex": 0,
+      "ImgID": 0,
+      "IdleActionId": 9902,
+      "MixTeaActionId": 9903,
+      "Npcid": 0,
+      "SelectSoundId": 0,
+      "UnlockLevel": 0,
+      "MaidDesc": "",
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "依依",
+      "__IDX__MaidDesc": 0,
+      "__RAW__MaidDesc": "",
+      "NoChooseDialog": {
+        "dialogText": "",
+        "__IDX__dialogText": 0,
+        "__RAW__dialogText": "",
+        "actionId": 0
+      },
+      "MaidQuestionID": [],
+      "MaidGetTeaDialog": [
+        {
+          "CompleteScore": 80,
+          "DialogId": 50033095
+        },
+        {
+          "CompleteScore": 1,
+          "DialogId": 50033598
+        },
+        {
+          "CompleteScore": 0,
+          "DialogId": 50033598
+        }
+      ],
+      "TeaComment": [],
+      "IntroDialog": [
+        {
+          "FoodId": 87001018,
+          "DialogId": 50033043
+        },
+        {
+          "FoodId": 87001019,
+          "DialogId": 50033043
+        },
+        {
+          "FoodId": 87001020,
+          "DialogId": 50033043
+        },
+        {
+          "FoodId": 87001021,
+          "DialogId": 50033043
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 7,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

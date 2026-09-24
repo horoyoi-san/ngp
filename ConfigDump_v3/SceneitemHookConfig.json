@@ -1,0 +1,4352 @@
+{
+  "_class": "SceneitemHookConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 58,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "挂接-桶-人形 //正式化",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0.5,
+        "Z": -0.5
+      },
+      "HookRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -90
+      },
+      "HookOffset": {
+        "X": -0.550000012,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookDelay": 0.200000003,
+      "HookActionDelay": 0.180000007,
+      "HookStartAction": [
+        5301,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 8,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        53000015
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340,
+        61
+      ],
+      "HookEndHurtTime": 5,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 2,
+      "Name": "挂接-轮胎-人形 //正式化",
+      "HookEventStr": "bodyCover",
+      "HookBone": "upbody",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": 90
+      },
+      "HookOffset": {
+        "X": 0.150000006,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookDelay": 0.150000006,
+      "HookActionDelay": 0,
+      "HookStartAction": [
+        5301,
+        31
+      ],
+      "HookLoopAction": [
+        1001,
+        31
+      ],
+      "Priority": 1,
+      "DelayUnhook": 8,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        53000015
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        53000019
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340,
+        61
+      ],
+      "HookEndHurtTime": 5,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 3,
+      "Name": "挂接-遮猛男眼睛",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0.5,
+        "Z": -0.5
+      },
+      "HookRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -132
+      },
+      "HookOffset": {
+        "X": -0.600000024,
+        "Y": 0.5,
+        "Z": 0
+      },
+      "HookDelay": 0.200000003,
+      "HookActionDelay": 0.180000007,
+      "HookStartAction": [],
+      "HookLoopAction": [],
+      "Priority": 0,
+      "DelayUnhook": 20,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        52853671
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        52853671,
+        53000007
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 5,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 4,
+      "Name": "挂接-桶-电视机人形//正式",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0.5,
+        "Z": -0.5
+      },
+      "HookRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -132
+      },
+      "HookOffset": {
+        "X": -0.600000024,
+        "Y": 0.5,
+        "Z": 0
+      },
+      "HookDelay": 0.200000003,
+      "HookActionDelay": 0.180000007,
+      "HookStartAction": [
+        5301,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 8,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        53000015
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340,
+        61
+      ],
+      "HookEndHurtTime": 5,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 5,
+      "Name": "挂接-桶",
+      "HookEventStr": "handrCover",
+      "HookBone": "handr",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookRotation": {
+        "X": 0,
+        "Y": 110,
+        "Z": -60
+      },
+      "HookOffset": {
+        "X": 0.0599999987,
+        "Y": -0.140000001,
+        "Z": 0.239999995
+      },
+      "HookDelay": 0.150000006,
+      "HookActionDelay": 0,
+      "HookStartAction": [],
+      "HookLoopAction": [],
+      "Priority": 1,
+      "DelayUnhook": 2.5,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        53000009,
+        53000015
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        53000009
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [
+        326
+      ],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 5,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 1000,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 6,
+      "Name": "挂接-轮胎-胖子",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": 73.5
+      },
+      "HookOffset": {
+        "X": 0.129999995,
+        "Y": -0.00999999978,
+        "Z": -0.0549999997
+      },
+      "HookDelay": 0.300000012,
+      "HookActionDelay": 0.300000012,
+      "HookStartAction": [
+        5301,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 1,
+      "DelayUnhook": 8,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        53000015
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 5,
+      "HookItemScale": {
+        "X": 1.10000002,
+        "Y": 1.10000002,
+        "Z": 1.10000002
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 7,
+      "Name": "挂接-垃圾桶蟹壳-正常人",
+      "HookEventStr": "bodyCover",
+      "HookBone": "upbody",
+      "HookBoneRotation": {
+        "X": 62,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0.600000024,
+        "Z": 0.649999976
+      },
+      "HookRotation": {
+        "X": -89,
+        "Y": 1,
+        "Z": 89
+      },
+      "HookOffset": {
+        "X": 0.755999982,
+        "Y": 0.191,
+        "Z": -0.00350000011
+      },
+      "HookDelay": 0.300000012,
+      "HookActionDelay": 0.300000012,
+      "HookStartAction": [
+        5301,
+        31
+      ],
+      "HookLoopAction": [
+        1001,
+        31
+      ],
+      "Priority": 0,
+      "DelayUnhook": 5,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        53000015
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 5,
+      "HookItemScale": {
+        "X": 1.10000002,
+        "Y": 1.10000002,
+        "Z": 1.10000002
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 8,
+      "Name": "挂接-垃圾桶蟹尸体-正常人",
+      "HookEventStr": "bodyCover",
+      "HookBone": "upbody",
+      "HookBoneRotation": {
+        "X": 62,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0.600000024,
+        "Z": 0.649999976
+      },
+      "HookRotation": {
+        "X": 80,
+        "Y": -96,
+        "Z": 173
+      },
+      "HookOffset": {
+        "X": -1.63,
+        "Y": 0.273000002,
+        "Z": -0.0540000014
+      },
+      "HookDelay": 0.300000012,
+      "HookActionDelay": 0.300000012,
+      "HookStartAction": [
+        5301,
+        31
+      ],
+      "HookLoopAction": [
+        1001,
+        31
+      ],
+      "Priority": 0,
+      "DelayUnhook": 5,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        53000015
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 5,
+      "HookItemScale": {
+        "X": 1.10000002,
+        "Y": 1.10000002,
+        "Z": 1.10000002
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 9,
+      "Name": "挂接-大桶",
+      "HookEventStr": "headCover",
+      "HookBone": "upbody",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -90
+      },
+      "HookOffset": {
+        "X": -1,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookDelay": 0.150000006,
+      "HookActionDelay": 0,
+      "HookStartAction": [
+        6800,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 5,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        53000015
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 5,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 51936421,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 10,
+      "Name": "挂接-桶",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0.5,
+        "Z": -0.5
+      },
+      "HookRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -117
+      },
+      "HookOffset": {
+        "X": -0.552999973,
+        "Y": 0.416000009,
+        "Z": -0.0120000001
+      },
+      "HookDelay": 0.200000003,
+      "HookActionDelay": 0.180000007,
+      "HookStartAction": [
+        5301,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 5,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        53000015
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 5,
+      "HookItemScale": {
+        "X": 2.20000005,
+        "Y": 1.79999995,
+        "Z": 2.20000005
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 11,
+      "Name": "挂接-大桶",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -90
+      },
+      "HookOffset": {
+        "X": -0.933000028,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookDelay": 0.150000006,
+      "HookActionDelay": 0,
+      "HookStartAction": [
+        6800,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 0,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        52960002,
+        52770129,
+        52980000,
+        52980001,
+        52628501
+      ],
+      "HookStartRemoveBuff": [
+        52901120
+      ],
+      "HookEndAddBuff": [
+        52901120
+      ],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        52960002,
+        52770129,
+        52980000,
+        52980001,
+        52628501
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 5,
+      "HookItemScale": {
+        "X": 1.79999995,
+        "Y": 1.5,
+        "Z": 1.79999995
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": false,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 12,
+      "Name": "挂接-路障桶",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookDelay": 0.150000006,
+      "HookActionDelay": 0,
+      "HookStartAction": [
+        6800,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 0,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        52960002,
+        52770129,
+        52980000,
+        52980001,
+        52628501
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        52960002,
+        52770129,
+        52980000,
+        52980001,
+        52628501
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 0.00999999978,
+        "Y": 0.00999999978,
+        "Z": 0.00999999978
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": false,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 13,
+      "Name": "挂接-羊",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookRotation": {
+        "X": 0,
+        "Y": 180,
+        "Z": 0
+      },
+      "HookOffset": {
+        "X": 0,
+        "Y": -0.0599999987,
+        "Z": 0
+      },
+      "HookDelay": 0.150000006,
+      "HookActionDelay": 0,
+      "HookStartAction": [
+        6800,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 5,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        52960002,
+        52770129,
+        52980000
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        52960002,
+        52770129,
+        52980000
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 51936421,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 14,
+      "Name": "挂接-雕塑",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookRotation": {
+        "X": 0,
+        "Y": 180,
+        "Z": 180
+      },
+      "HookOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookDelay": 0.150000006,
+      "HookActionDelay": 0,
+      "HookStartAction": [],
+      "HookLoopAction": [],
+      "Priority": 0,
+      "DelayUnhook": 0,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        52960002,
+        52770129,
+        52980000,
+        52980001,
+        52628501
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        52960002,
+        52770129,
+        52980000,
+        52980001,
+        52628501
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 9999,
+      "HookItemScale": {
+        "X": 1.40999997,
+        "Y": 1.40999997,
+        "Z": 1.40999997
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": false,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 15,
+      "Name": "挂接-垃圾桶怪",
+      "HookEventStr": "headCover",
+      "HookBone": "upbody",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookDelay": 0.150000006,
+      "HookActionDelay": 0,
+      "HookStartAction": [
+        6800,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        1
+      ],
+      "Priority": 0,
+      "DelayUnhook": 2,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        52960002,
+        52770129,
+        52980000,
+        52980001,
+        52628501
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        52960002,
+        52770129,
+        52980000,
+        52980001,
+        52628501
+      ],
+      "IsMindPowerAtkEnabled": false,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 1,
+      "HookItemScale": {
+        "X": 0.00999999978,
+        "Y": 0.00999999978,
+        "Z": 0.00999999978
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": false,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 16,
+      "Name": "挂接-桶 //套NPC-正常人-不会自动脱落",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0.5,
+        "Z": -0.5
+      },
+      "HookRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -90
+      },
+      "HookOffset": {
+        "X": -0.349999994,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookDelay": 0.200000003,
+      "HookActionDelay": 0.180000007,
+      "HookStartAction": [
+        5301,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 0,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        53000026
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        53000026
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": false,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 17,
+      "Name": "挂接-桶 //套NPC-正常人",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0.5,
+        "Z": -0.5
+      },
+      "HookRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -90
+      },
+      "HookOffset": {
+        "X": -0.349999994,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookDelay": 0.200000003,
+      "HookActionDelay": 0.180000007,
+      "HookStartAction": [
+        5301,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 5.0999999,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        53000026
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        53000026
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 18,
+      "Name": "挂接-桶 //套NPC-正常人",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0.5,
+        "Z": -0.5
+      },
+      "HookRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -90
+      },
+      "HookOffset": {
+        "X": -0.349999994,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookDelay": 0.200000003,
+      "HookActionDelay": 0.180000007,
+      "HookStartAction": [
+        5301,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 5.0999999,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        53000026
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        53000026
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 19,
+      "Name": "挂接-桶 //套NPC-正常人",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0.5,
+        "Z": -0.5
+      },
+      "HookRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -90
+      },
+      "HookOffset": {
+        "X": -0.349999994,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookDelay": 0.200000003,
+      "HookActionDelay": 0.180000007,
+      "HookStartAction": [
+        5301,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 5.0999999,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        53000026
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        53000026
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 20,
+      "Name": "挂接-垃圾桶-特大（玩法用）",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookRotation": {
+        "X": -0.280000001,
+        "Y": 4.26000023,
+        "Z": -84.4499969
+      },
+      "HookOffset": {
+        "X": -0.959999979,
+        "Y": -0.351000011,
+        "Z": 0.00499999989
+      },
+      "HookDelay": 0.150000006,
+      "HookActionDelay": 0,
+      "HookStartAction": [],
+      "HookLoopAction": [],
+      "Priority": 0,
+      "DelayUnhook": 5,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        52960002,
+        52770129,
+        52980000,
+        52980001,
+        52628501
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        52960002,
+        52770129,
+        52980000,
+        52980001,
+        52628501
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 1.29999995,
+        "Y": 1.29999995,
+        "Z": 1.29999995
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 21,
+      "Name": "挂接-纸箱（玩法用）",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookRotation": {
+        "X": 90,
+        "Y": 90,
+        "Z": 0
+      },
+      "HookOffset": {
+        "X": -0.239999995,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookDelay": 0.150000006,
+      "HookActionDelay": 0,
+      "HookStartAction": [],
+      "HookLoopAction": [],
+      "Priority": 0,
+      "DelayUnhook": 0,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        52960002,
+        52770129,
+        52980000,
+        52980001,
+        52628501
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        52960002,
+        52770129,
+        52980000,
+        52980001,
+        52628501
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 1.20000005,
+        "Y": 1.20000005,
+        "Z": 1.20000005
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 22,
+      "Name": "挂接-桶 //小孩和猫",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0.5,
+        "Z": -0.5
+      },
+      "HookRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -90
+      },
+      "HookOffset": {
+        "X": -0.550000012,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookDelay": 0.200000003,
+      "HookActionDelay": 0.180000007,
+      "HookStartAction": [
+        5301,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 0,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        53000026
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        53000026
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 1,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": false,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 23,
+      "Name": "挂接-塑料筐j-氛围npc",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0.5,
+        "Z": -0.5
+      },
+      "HookRotation": {
+        "X": 90,
+        "Y": 89.9998398,
+        "Z": 0
+      },
+      "HookOffset": {
+        "X": -0.237000003,
+        "Y": 0.00999999978,
+        "Z": -0.00300000003
+      },
+      "HookDelay": 0.200000003,
+      "HookActionDelay": 0.180000007,
+      "HookStartAction": [
+        5301,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 5.0999999,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        53000026
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        53000026
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": [
+        {
+          "boneName": "handl",
+          "localPositionX": -0.25999999,
+          "localPositionY": 0.239999995,
+          "localPositionZ": 0.00999999978,
+          "localEulerX": -1,
+          "localEulerY": 0,
+          "localEulerZ": 0
+        },
+        {
+          "boneName": "handr",
+          "localPositionX": 0.25999999,
+          "localPositionY": 0.239999995,
+          "localPositionZ": 0.00999999978,
+          "localEulerX": 1,
+          "localEulerY": 0,
+          "localEulerZ": 0
+        }
+      ]
+    },
+    {
+      "Id": 24,
+      "Name": "挂接-塑料框1-氛围npc",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0.5,
+        "Z": -0.5
+      },
+      "HookRotation": {
+        "X": 0,
+        "Y": 179.899994,
+        "Z": 90
+      },
+      "HookOffset": {
+        "X": -0.252000004,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookDelay": 0.200000003,
+      "HookActionDelay": 0.180000007,
+      "HookStartAction": [
+        5301,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 5.0999999,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        53000026
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        53000026
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": [
+        {
+          "boneName": "handl",
+          "localPositionX": -0.379999995,
+          "localPositionY": 0.25,
+          "localPositionZ": 0,
+          "localEulerX": -1,
+          "localEulerY": 0,
+          "localEulerZ": 0
+        },
+        {
+          "boneName": "handr",
+          "localPositionX": 0.379999995,
+          "localPositionY": 0.25,
+          "localPositionZ": 0,
+          "localEulerX": 1,
+          "localEulerY": 0,
+          "localEulerZ": 0
+        }
+      ]
+    },
+    {
+      "Id": 25,
+      "Name": "挂接-塑料筐1a-氛围npc",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0.5,
+        "Z": -0.5
+      },
+      "HookRotation": {
+        "X": 90,
+        "Y": 89.9998398,
+        "Z": 0
+      },
+      "HookOffset": {
+        "X": -0.361000001,
+        "Y": 0.0160000008,
+        "Z": 0.00400000019
+      },
+      "HookDelay": 0.200000003,
+      "HookActionDelay": 0.180000007,
+      "HookStartAction": [
+        5301,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 5.0999999,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        53000026
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        53000026
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": [
+        {
+          "boneName": "handl",
+          "localPositionX": -0.25999999,
+          "localPositionY": 0.360000014,
+          "localPositionZ": 0.0199999996,
+          "localEulerX": -1,
+          "localEulerY": 0.0500000007,
+          "localEulerZ": 0
+        },
+        {
+          "boneName": "handr",
+          "localPositionX": 0.25999999,
+          "localPositionY": 0.360000014,
+          "localPositionZ": 0.0199999996,
+          "localEulerX": 1,
+          "localEulerY": 0.0500000007,
+          "localEulerZ": 0
+        }
+      ]
+    },
+    {
+      "Id": 26,
+      "Name": "挂接-塑料筐1b-氛围npc",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0.5,
+        "Z": -0.5
+      },
+      "HookRotation": {
+        "X": 90,
+        "Y": 89.9998398,
+        "Z": 0
+      },
+      "HookOffset": {
+        "X": -0.282999992,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookDelay": 0.200000003,
+      "HookActionDelay": 0.180000007,
+      "HookStartAction": [
+        5301,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 5.0999999,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        53000026
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        53000026
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": [
+        {
+          "boneName": "handl",
+          "localPositionX": -0.25,
+          "localPositionY": 0.280000001,
+          "localPositionZ": 0,
+          "localEulerX": -0.99000001,
+          "localEulerY": 0.119999997,
+          "localEulerZ": 0
+        },
+        {
+          "boneName": "handr",
+          "localPositionX": 0.25,
+          "localPositionY": 0.280000001,
+          "localPositionZ": 0,
+          "localEulerX": 0.99000001,
+          "localEulerY": 0.119999997,
+          "localEulerZ": 0
+        }
+      ]
+    },
+    {
+      "Id": 27,
+      "Name": "挂接-塑料筐1c-氛围npc",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0.5,
+        "Z": -0.5
+      },
+      "HookRotation": {
+        "X": 90,
+        "Y": 89.9998398,
+        "Z": 0
+      },
+      "HookOffset": {
+        "X": -0.263000011,
+        "Y": -0.00400000019,
+        "Z": 0.0140000004
+      },
+      "HookDelay": 0.200000003,
+      "HookActionDelay": 0.180000007,
+      "HookStartAction": [
+        5301,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 5.0999999,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        53000026
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        53000026
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": [
+        {
+          "boneName": "handl",
+          "localPositionX": -0.310000002,
+          "localPositionY": 0.25999999,
+          "localPositionZ": 0,
+          "localEulerX": -1,
+          "localEulerY": -0.0500000007,
+          "localEulerZ": 0
+        },
+        {
+          "boneName": "handr",
+          "localPositionX": 0.310000002,
+          "localPositionY": 0.25999999,
+          "localPositionZ": 0,
+          "localEulerX": 1,
+          "localEulerY": -0.0500000007,
+          "localEulerZ": 0
+        }
+      ]
+    },
+    {
+      "Id": 28,
+      "Name": "挂接-塑料筐1d-氛围npc",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0.5,
+        "Z": -0.5
+      },
+      "HookRotation": {
+        "X": 90,
+        "Y": 89.9998398,
+        "Z": 0
+      },
+      "HookOffset": {
+        "X": -0.280999988,
+        "Y": 0.0410000011,
+        "Z": 0.0120000001
+      },
+      "HookDelay": 0.200000003,
+      "HookActionDelay": 0.180000007,
+      "HookStartAction": [
+        5301,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 5.0999999,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        53000026
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        53000026
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": [
+        {
+          "boneName": "handl",
+          "localPositionX": -0.25999999,
+          "localPositionY": 0.280000001,
+          "localPositionZ": 0.0399999991,
+          "localEulerX": -1,
+          "localEulerY": 0,
+          "localEulerZ": 0
+        },
+        {
+          "boneName": "handr",
+          "localPositionX": 0.25999999,
+          "localPositionY": 0.280000001,
+          "localPositionZ": 0.0399999991,
+          "localEulerX": 1,
+          "localEulerY": 0,
+          "localEulerZ": 0
+        }
+      ]
+    },
+    {
+      "Id": 29,
+      "Name": "挂接-塑料筐1e-氛围npc",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0.5,
+        "Z": -0.5
+      },
+      "HookRotation": {
+        "X": 90,
+        "Y": 89.9998398,
+        "Z": 0
+      },
+      "HookOffset": {
+        "X": -0.268999994,
+        "Y": 0.0379999988,
+        "Z": 0.00999999978
+      },
+      "HookDelay": 0.200000003,
+      "HookActionDelay": 0.180000007,
+      "HookStartAction": [
+        5301,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 5.0999999,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        53000026
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        53000026
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": [
+        {
+          "boneName": "handl",
+          "localPositionX": -0.25999999,
+          "localPositionY": 0.270000011,
+          "localPositionZ": 0.0399999991,
+          "localEulerX": -1,
+          "localEulerY": 0,
+          "localEulerZ": 0
+        },
+        {
+          "boneName": "handr",
+          "localPositionX": 0.25999999,
+          "localPositionY": 0.270000011,
+          "localPositionZ": 0.0399999991,
+          "localEulerX": 1,
+          "localEulerY": 0,
+          "localEulerZ": 0
+        }
+      ]
+    },
+    {
+      "Id": 30,
+      "Name": "挂接-塑料筐1h-氛围npc",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0.5,
+        "Z": -0.5
+      },
+      "HookRotation": {
+        "X": 90,
+        "Y": 89.9998398,
+        "Z": 0
+      },
+      "HookOffset": {
+        "X": -0.280999988,
+        "Y": 0.0179999992,
+        "Z": 0.0189999994
+      },
+      "HookDelay": 0.200000003,
+      "HookActionDelay": 0.180000007,
+      "HookStartAction": [
+        5301,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 5.0999999,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        53000026
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        53000026
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": [
+        {
+          "boneName": "handl",
+          "localPositionX": -0.25999999,
+          "localPositionY": 0.280000001,
+          "localPositionZ": 0.0199999996,
+          "localEulerX": -1,
+          "localEulerY": 0,
+          "localEulerZ": 0
+        },
+        {
+          "boneName": "handr",
+          "localPositionX": 0.25999999,
+          "localPositionY": 0.280000001,
+          "localPositionZ": 0.0199999996,
+          "localEulerX": 1,
+          "localEulerY": 0,
+          "localEulerZ": 0
+        }
+      ]
+    },
+    {
+      "Id": 31,
+      "Name": "挂接-塑料筐1i-氛围npc",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0.5,
+        "Z": -0.5
+      },
+      "HookRotation": {
+        "X": 90,
+        "Y": 89.9998398,
+        "Z": 0
+      },
+      "HookOffset": {
+        "X": -0.266000003,
+        "Y": -0.00200000009,
+        "Z": 0.0109999999
+      },
+      "HookDelay": 0.200000003,
+      "HookActionDelay": 0.180000007,
+      "HookStartAction": [
+        5301,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 5.0999999,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        53000026
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        53000026
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": [
+        {
+          "boneName": "handl",
+          "localPositionX": -0.25999999,
+          "localPositionY": 0.270000011,
+          "localPositionZ": 0,
+          "localEulerX": -1,
+          "localEulerY": 0,
+          "localEulerZ": 0
+        },
+        {
+          "boneName": "handr",
+          "localPositionX": 0.25999999,
+          "localPositionY": 0.270000011,
+          "localPositionZ": 0,
+          "localEulerX": 1,
+          "localEulerY": 0,
+          "localEulerZ": 0
+        }
+      ]
+    },
+    {
+      "Id": 32,
+      "Name": "挂接-塑料筐1k-氛围npc",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0.5,
+        "Z": -0.5
+      },
+      "HookRotation": {
+        "X": 90,
+        "Y": 89.9998398,
+        "Z": 0
+      },
+      "HookOffset": {
+        "X": -0.25999999,
+        "Y": -0.00999999978,
+        "Z": -0.00600000005
+      },
+      "HookDelay": 0.200000003,
+      "HookActionDelay": 0.180000007,
+      "HookStartAction": [
+        5301,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 5.0999999,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        53000026
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        53000026
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": [
+        {
+          "boneName": "handl",
+          "localPositionX": -0.25999999,
+          "localPositionY": 0.25999999,
+          "localPositionZ": -0.00999999978,
+          "localEulerX": -1,
+          "localEulerY": 0,
+          "localEulerZ": 0
+        },
+        {
+          "boneName": "handr",
+          "localPositionX": 0.25999999,
+          "localPositionY": 0.25999999,
+          "localPositionZ": -0.00999999978,
+          "localEulerX": 1,
+          "localEulerY": 0,
+          "localEulerZ": 0
+        }
+      ]
+    },
+    {
+      "Id": 33,
+      "Name": "挂接-椅子05-氛围npc",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0.5,
+        "Z": -0.5
+      },
+      "HookRotation": {
+        "X": 270,
+        "Y": 90.0002594,
+        "Z": 0
+      },
+      "HookOffset": {
+        "X": 0.238000005,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookDelay": 0.200000003,
+      "HookActionDelay": 0.180000007,
+      "HookStartAction": [
+        5301,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 5.0999999,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        53000026
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        53000026
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": [
+        {
+          "boneName": "handl",
+          "localPositionX": -0.209999993,
+          "localPositionY": 0.239999995,
+          "localPositionZ": 0,
+          "localEulerX": -0.980000019,
+          "localEulerY": 0.180000007,
+          "localEulerZ": 0
+        },
+        {
+          "boneName": "handr",
+          "localPositionX": 0.209999993,
+          "localPositionY": 0.239999995,
+          "localPositionZ": 0,
+          "localEulerX": 0.980000019,
+          "localEulerY": 0.180000007,
+          "localEulerZ": 0
+        }
+      ]
+    },
+    {
+      "Id": 34,
+      "Name": "挂接-箱子01b-氛围npc",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0.5,
+        "Z": -0.5
+      },
+      "HookRotation": {
+        "X": 90,
+        "Y": 89.9998398,
+        "Z": 0
+      },
+      "HookOffset": {
+        "X": -0.241999999,
+        "Y": 0.0500000007,
+        "Z": 0.0149999997
+      },
+      "HookDelay": 0.200000003,
+      "HookActionDelay": 0.180000007,
+      "HookStartAction": [
+        5301,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 5.0999999,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        53000026
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        53000026
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": [
+        {
+          "boneName": "handl",
+          "localPositionX": -0.310000002,
+          "localPositionY": 0.239999995,
+          "localPositionZ": 0.0500000007,
+          "localEulerX": -1,
+          "localEulerY": 0,
+          "localEulerZ": 0
+        },
+        {
+          "boneName": "handr",
+          "localPositionX": 0.310000002,
+          "localPositionY": 0.239999995,
+          "localPositionZ": 0.0500000007,
+          "localEulerX": 1,
+          "localEulerY": 0,
+          "localEulerZ": 0
+        }
+      ]
+    },
+    {
+      "Id": 35,
+      "Name": "挂接-箱子03c-氛围npc",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0.5,
+        "Z": -0.5
+      },
+      "HookRotation": {
+        "X": 0,
+        "Y": 179.899994,
+        "Z": 90
+      },
+      "HookOffset": {
+        "X": -0.284999996,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookDelay": 0.200000003,
+      "HookActionDelay": 0.180000007,
+      "HookStartAction": [
+        5301,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 5.0999999,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        53000026
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        53000026
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": [
+        {
+          "boneName": "handl",
+          "localPositionX": -0.189999998,
+          "localPositionY": 0.280000001,
+          "localPositionZ": 0,
+          "localEulerX": -0.959999979,
+          "localEulerY": -0.270000011,
+          "localEulerZ": 0
+        },
+        {
+          "boneName": "handr",
+          "localPositionX": 0.200000003,
+          "localPositionY": 0.289999992,
+          "localPositionZ": 0,
+          "localEulerX": 0.959999979,
+          "localEulerY": -0.300000012,
+          "localEulerZ": 0
+        }
+      ]
+    },
+    {
+      "Id": 36,
+      "Name": "挂接-饮料箱03a-氛围npc",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0.5,
+        "Z": -0.5
+      },
+      "HookRotation": {
+        "X": 357.934998,
+        "Y": 180,
+        "Z": 90.0000229
+      },
+      "HookOffset": {
+        "X": -0.224000007,
+        "Y": -0.0199999996,
+        "Z": 0
+      },
+      "HookDelay": 0.200000003,
+      "HookActionDelay": 0.180000007,
+      "HookStartAction": [
+        5301,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 5.0999999,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        53000026
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        53000026
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": [
+        {
+          "boneName": "handl",
+          "localPositionX": 0.0299999993,
+          "localPositionY": 0.219999999,
+          "localPositionZ": -0.25,
+          "localEulerX": 0.0399999991,
+          "localEulerY": -0.360000014,
+          "localEulerZ": -0.930000007
+        },
+        {
+          "boneName": "handr",
+          "localPositionX": 0.00999999978,
+          "localPositionY": 0.219999999,
+          "localPositionZ": 0.280000001,
+          "localEulerX": -0.0500000007,
+          "localEulerY": -0.439999998,
+          "localEulerZ": 0.899999976
+        }
+      ]
+    },
+    {
+      "Id": 37,
+      "Name": "挂接-饮料箱03e-氛围npc",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0.5,
+        "Z": -0.5
+      },
+      "HookRotation": {
+        "X": 90,
+        "Y": 89.9998398,
+        "Z": 0
+      },
+      "HookOffset": {
+        "X": -0.312999994,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookDelay": 0.200000003,
+      "HookActionDelay": 0.180000007,
+      "HookStartAction": [
+        5301,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 5.0999999,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        53000026
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        53000026
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": [
+        {
+          "boneName": "handl",
+          "localPositionX": -0.660000026,
+          "localPositionY": 0.310000002,
+          "localPositionZ": 0,
+          "localEulerX": -0.519999981,
+          "localEulerY": 0.850000024,
+          "localEulerZ": 0.0199999996
+        },
+        {
+          "boneName": "handr",
+          "localPositionX": 0.620000005,
+          "localPositionY": 0.310000002,
+          "localPositionZ": 0,
+          "localEulerX": 0.550000012,
+          "localEulerY": 0.829999983,
+          "localEulerZ": 0
+        }
+      ]
+    },
+    {
+      "Id": 38,
+      "Name": "挂接-饮料箱03g-氛围npc",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0.5,
+        "Z": -0.5
+      },
+      "HookRotation": {
+        "X": 90,
+        "Y": 89.9998398,
+        "Z": 0
+      },
+      "HookOffset": {
+        "X": -0.270999998,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookDelay": 0.200000003,
+      "HookActionDelay": 0.180000007,
+      "HookStartAction": [
+        5301,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 5.0999999,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        53000026
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        53000026
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": [
+        {
+          "boneName": "handl",
+          "localPositionX": -0.209999993,
+          "localPositionY": 0.270000011,
+          "localPositionZ": 0,
+          "localEulerX": -1,
+          "localEulerY": 0,
+          "localEulerZ": 0
+        },
+        {
+          "boneName": "handr",
+          "localPositionX": 0.209999993,
+          "localPositionY": 0.270000011,
+          "localPositionZ": 0,
+          "localEulerX": 1,
+          "localEulerY": 0,
+          "localEulerZ": 0
+        }
+      ]
+    },
+    {
+      "Id": 39,
+      "Name": "挂接-油漆桶02b-氛围npc",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0.5,
+        "Z": -0.5
+      },
+      "HookRotation": {
+        "X": 90,
+        "Y": 89.9998398,
+        "Z": 0
+      },
+      "HookOffset": {
+        "X": -0.331999987,
+        "Y": 0.148000002,
+        "Z": 0
+      },
+      "HookDelay": 0.200000003,
+      "HookActionDelay": 0.180000007,
+      "HookStartAction": [
+        5301,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 5.0999999,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        53000026
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        53000026
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": [
+        {
+          "boneName": "handl",
+          "localPositionX": -0.239999995,
+          "localPositionY": 0.330000013,
+          "localPositionZ": 0.150000006,
+          "localEulerX": -0.920000017,
+          "localEulerY": -0.0599999987,
+          "localEulerZ": -0.379999995
+        },
+        {
+          "boneName": "handr",
+          "localPositionX": 0.239999995,
+          "localPositionY": 0.330000013,
+          "localPositionZ": 0.150000006,
+          "localEulerX": 0.920000017,
+          "localEulerY": -0.0599999987,
+          "localEulerZ": -0.379999995
+        }
+      ]
+    },
+    {
+      "Id": 41,
+      "Name": "挂接-新手本垃圾桶 //正式化",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0.5,
+        "Z": -0.5
+      },
+      "HookRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -96.7200012
+      },
+      "HookOffset": {
+        "X": -0.388000011,
+        "Y": 0.074000001,
+        "Z": 0
+      },
+      "HookDelay": 0.200000003,
+      "HookActionDelay": 0.180000007,
+      "HookStartAction": [
+        5301,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 8,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        53000026,
+        53000015
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        53000026
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 42,
+      "Name": "挂接-氢气球",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0.5,
+        "Z": -0.5
+      },
+      "HookRotation": {
+        "X": 55.8300018,
+        "Y": 111.278801,
+        "Z": -143.697693
+      },
+      "HookOffset": {
+        "X": 0.734000027,
+        "Y": 0.0109999999,
+        "Z": -0.0820000023
+      },
+      "HookDelay": 0.200000003,
+      "HookActionDelay": 0.180000007,
+      "HookStartAction": [
+        8007,
+        0
+      ],
+      "HookLoopAction": [
+        8007,
+        0
+      ],
+      "Priority": 0,
+      "DelayUnhook": 7,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        52901131
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        52901131,
+        52606220
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 1,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 43,
+      "Name": "挂接-椅子",
+      "HookEventStr": "headCover",
+      "HookBone": "RootSlot",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0.5,
+        "Z": -0.5
+      },
+      "HookRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookOffset": {
+        "X": 0.00899999961,
+        "Y": -0.0130000003,
+        "Z": -0.503000021
+      },
+      "HookDelay": 0.200000003,
+      "HookActionDelay": 0.180000007,
+      "HookStartAction": [
+        8009,
+        0
+      ],
+      "HookLoopAction": [
+        8009,
+        0
+      ],
+      "Priority": 0,
+      "DelayUnhook": 8.32999992,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        52901132
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        52901132
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 44,
+      "Name": "挂接-流体史莱姆（玩法用）",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0.5,
+        "Z": -0.5
+      },
+      "HookRotation": {
+        "X": -90,
+        "Y": 0,
+        "Z": 90
+      },
+      "HookOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookDelay": 0.150000006,
+      "HookActionDelay": 0.180000007,
+      "HookStartAction": [
+        5301,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 5.0999999,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        52960002,
+        52770129,
+        52980000,
+        52980001,
+        52628501
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        52960002,
+        52770129,
+        52980000,
+        52980001,
+        52628501
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": [
+        {
+          "boneName": "handl",
+          "localPositionX": -0.379999995,
+          "localPositionY": 0.25,
+          "localPositionZ": 0,
+          "localEulerX": -1,
+          "localEulerY": 0,
+          "localEulerZ": 0
+        },
+        {
+          "boneName": "handr",
+          "localPositionX": 0.379999995,
+          "localPositionY": 0.25,
+          "localPositionZ": 0,
+          "localEulerX": 1,
+          "localEulerY": 0,
+          "localEulerZ": 0
+        }
+      ]
+    },
+    {
+      "Id": 45,
+      "Name": "挂接-行人标志-（玩法用）",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0.5,
+        "Z": -0.5
+      },
+      "HookRotation": {
+        "X": 90,
+        "Y": 89.9998398,
+        "Z": 0
+      },
+      "HookOffset": {
+        "X": -0.237000003,
+        "Y": 0.00999999978,
+        "Z": -0.00300000003
+      },
+      "HookDelay": 0.200000003,
+      "HookActionDelay": 0.180000007,
+      "HookStartAction": [
+        5301,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 5.0999999,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        53000026
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        53000026
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": [
+        {
+          "boneName": "handl",
+          "localPositionX": -0.25999999,
+          "localPositionY": 0.239999995,
+          "localPositionZ": 0.00999999978,
+          "localEulerX": -1,
+          "localEulerY": 0,
+          "localEulerZ": 0
+        },
+        {
+          "boneName": "handr",
+          "localPositionX": 0.25999999,
+          "localPositionY": 0.239999995,
+          "localPositionZ": 0.00999999978,
+          "localEulerX": 1,
+          "localEulerY": 0,
+          "localEulerZ": 0
+        }
+      ]
+    },
+    {
+      "Id": 46,
+      "Name": "挂接-混厄气球NPC-（玩法用）",
+      "HookEventStr": "headCover",
+      "HookBone": "upbody",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookOffset": {
+        "X": -1,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookDelay": 0.200000003,
+      "HookActionDelay": 0.180000007,
+      "HookStartAction": [
+        8007,
+        0
+      ],
+      "HookLoopAction": [
+        8007,
+        0
+      ],
+      "Priority": 0,
+      "DelayUnhook": 20,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        52901131,
+        52980001
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        52901131,
+        52606220,
+        52980001
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 999,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 6,
+      "StartHookSignal": "CHAOS_BALLOON_START",
+      "GameplaySignal": 1500,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 47,
+      "Name": "挂接-混厄气球怪物-（玩法用）",
+      "HookEventStr": "headCover",
+      "HookBone": "upbody",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0.5,
+        "Z": -0.5
+      },
+      "HookRotation": {
+        "X": -3.22000003,
+        "Y": 175.210007,
+        "Z": -123.939796
+      },
+      "HookOffset": {
+        "X": -0.675999999,
+        "Y": -1.17900002,
+        "Z": -0.100000001
+      },
+      "HookDelay": 0.200000003,
+      "HookActionDelay": 0.180000007,
+      "HookStartAction": [
+        8007,
+        0
+      ],
+      "HookLoopAction": [
+        8007,
+        0
+      ],
+      "Priority": 0,
+      "DelayUnhook": 10,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        52901131,
+        52980001
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        52901131,
+        52606220,
+        52980001
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 1,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 3,
+      "StartHookSignal": "CHAOS_BALLOON_START",
+      "GameplaySignal": 1500,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 48,
+      "Name": "挂接—轮胎",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookDelay": 0.150000006,
+      "HookActionDelay": 0,
+      "HookStartAction": [
+        6800,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 0,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        52960002,
+        52770129,
+        52980000,
+        52980001,
+        52628501
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        52960002,
+        52770129,
+        52980000,
+        52980001,
+        52628501
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 0.00999999978,
+        "Y": 0.00999999978,
+        "Z": 0.00999999978
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": false,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 49,
+      "Name": "挂接—井盖",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookDelay": 0.150000006,
+      "HookActionDelay": 0,
+      "HookStartAction": [
+        6800,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 0,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        52960002,
+        52770129,
+        52980000,
+        52980001,
+        52628501
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        52960002,
+        52770129,
+        52980000,
+        52980001,
+        52628501
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 0.00999999978,
+        "Y": 0.00999999978,
+        "Z": 0.00999999978
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": false,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 50,
+      "Name": "挂接—警示架",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookDelay": 0.150000006,
+      "HookActionDelay": 0,
+      "HookStartAction": [
+        6800,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 0,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        52960002,
+        52770129,
+        52980000,
+        52980001,
+        52628501
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        52960002,
+        52770129,
+        52980000,
+        52980001,
+        52628501
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 0.00999999978,
+        "Y": 0.00999999978,
+        "Z": 0.00999999978
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": false,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 51,
+      "Name": "挂接—警戒牌",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookDelay": 0.150000006,
+      "HookActionDelay": 0,
+      "HookStartAction": [
+        6800,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 0,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        52960002,
+        52770129,
+        52980000,
+        52980001,
+        52628501
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        52960002,
+        52770129,
+        52980000,
+        52980001,
+        52628501
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 0.00999999978,
+        "Y": 0.00999999978,
+        "Z": 0.00999999978
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": false,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 52,
+      "Name": "挂接—颜料桶",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookDelay": 0.150000006,
+      "HookActionDelay": 0,
+      "HookStartAction": [
+        6800,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 0,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        52960002,
+        52770129,
+        52980000,
+        52980001,
+        52628501
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        52960002,
+        52770129,
+        52980000,
+        52980001,
+        52628501
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 0.00999999978,
+        "Y": 0.00999999978,
+        "Z": 0.00999999978
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": false,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 53,
+      "Name": "挂接—垃圾包",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookDelay": 0.150000006,
+      "HookActionDelay": 0,
+      "HookStartAction": [
+        6800,
+        30
+      ],
+      "HookLoopAction": [
+        1001,
+        30
+      ],
+      "Priority": 0,
+      "DelayUnhook": 0,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        52960002,
+        52770129,
+        52980000,
+        52980001,
+        52628501
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        52960002,
+        52770129,
+        52980000,
+        52980001,
+        52628501
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 0.00999999978,
+        "Y": 0.00999999978,
+        "Z": 0.00999999978
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": false,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 54,
+      "Name": "挂接—桶—玩家",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -90
+      },
+      "HookOffset": {
+        "X": -0.529999971,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookDelay": 0,
+      "HookActionDelay": 0,
+      "HookStartAction": [],
+      "HookLoopAction": [],
+      "Priority": 0,
+      "DelayUnhook": 10,
+      "RidDelay": 0,
+      "HookStartBuff": [],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 0,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 55,
+      "Name": "挂接—塔菲头套—玩家",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookRotation": {
+        "X": -90,
+        "Y": 90,
+        "Z": 0
+      },
+      "HookOffset": {
+        "X": 0.00999999978,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookDelay": 0,
+      "HookActionDelay": 0,
+      "HookStartAction": [],
+      "HookLoopAction": [],
+      "Priority": 0,
+      "DelayUnhook": 20,
+      "RidDelay": 0,
+      "HookStartBuff": [],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 0,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 56,
+      "Name": "挂接—飞碟—玩家",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookRotation": {
+        "X": 90,
+        "Y": -90,
+        "Z": 0
+      },
+      "HookOffset": {
+        "X": 0.109999999,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookDelay": 0,
+      "HookActionDelay": 0,
+      "HookStartAction": [],
+      "HookLoopAction": [],
+      "Priority": 0,
+      "DelayUnhook": 20,
+      "RidDelay": 0,
+      "HookStartBuff": [],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 0,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 57,
+      "Name": "挂接-桶-鸭子",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -90
+      },
+      "HookOffset": {
+        "X": -0.200000003,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookDelay": 0.150000006,
+      "HookActionDelay": 0,
+      "HookStartAction": [],
+      "HookLoopAction": [],
+      "Priority": 0,
+      "DelayUnhook": 15,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        52980001
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        52980001
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 1,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 0,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 58,
+      "Name": "挂接-气球-任务用无限时长",
+      "HookEventStr": "headCover",
+      "HookBone": "upbody",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookOffset": {
+        "X": -1,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookDelay": 0.200000003,
+      "HookActionDelay": 0.180000007,
+      "HookStartAction": [
+        8007,
+        0
+      ],
+      "HookLoopAction": [
+        8007,
+        0
+      ],
+      "Priority": 0,
+      "DelayUnhook": 0,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        52901131,
+        52980001
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        52901131,
+        52606220,
+        52980001
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 999,
+      "HookItemScale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": true,
+      "HookNum": 6,
+      "StartHookSignal": "CHAOS_BALLOON_START",
+      "GameplaySignal": 1500,
+      "NPCHookRemoveBone": []
+    },
+    {
+      "Id": 100,
+      "Name": "挂接-大桶_三花猫",
+      "HookEventStr": "headCover",
+      "HookBone": "head",
+      "HookBoneRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -120
+      },
+      "HookBoneOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookRotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": -90
+      },
+      "HookOffset": {
+        "X": -0.200000003,
+        "Y": 0,
+        "Z": 0
+      },
+      "HookDelay": 0.150000006,
+      "HookActionDelay": 0,
+      "HookStartAction": [
+        1011,
+        23
+      ],
+      "HookLoopAction": [
+        1001,
+        1
+      ],
+      "Priority": 0,
+      "DelayUnhook": 0,
+      "RidDelay": 0,
+      "HookStartBuff": [
+        53000006,
+        52960002,
+        52770129,
+        52980000,
+        52980001,
+        52628501
+      ],
+      "HookStartRemoveBuff": [],
+      "HookEndAddBuff": [],
+      "HookEndBuff": [
+        53000006,
+        53000007,
+        52960002,
+        52770129,
+        52980000,
+        52980001,
+        52628501
+      ],
+      "IsMindPowerAtkEnabled": true,
+      "CanHookStates": [],
+      "BanHookStates": [
+        340
+      ],
+      "HookEndHurtTime": 10,
+      "HookItemScale": {
+        "X": 0.5,
+        "Y": 0.5,
+        "Z": 0.5
+      },
+      "SelectEnemyScore": 50,
+      "HookSpecialSkill": 0,
+      "NPCHookCanRemove": false,
+      "HookNum": 1,
+      "StartHookSignal": "",
+      "GameplaySignal": 0,
+      "NPCHookRemoveBone": []
+    }
+  ],
+  "_dumpedCount": 58,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

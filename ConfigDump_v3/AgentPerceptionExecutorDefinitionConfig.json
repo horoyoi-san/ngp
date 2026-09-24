@@ -1,0 +1,40 @@
+{
+  "_class": "AgentPerceptionExecutorDefinitionConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 5,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "SendEvent",
+      "Description": "默认执行器，发送刺激响应事件",
+      "Parameters": "uint|uint[]|string[]"
+    },
+    {
+      "Id": 2,
+      "Name": "LifeScheduleNpcAction",
+      "Description": "日程表NPC执行器，经过自定义逻辑后发送GameplaySignal",
+      "Parameters": "uint|uint[]|string[]"
+    },
+    {
+      "Id": 3,
+      "Name": "FactionHandler",
+      "Description": "阵营感知执行器，经过自定义逻辑后发送GameplaySignal",
+      "Parameters": "uint|uint[]|string[]"
+    },
+    {
+      "Id": 4,
+      "Name": "MultiInteractSendEvent",
+      "Description": "双人交互刺激执行器，发送刺激响应事件",
+      "Parameters": "uint|uint[]|string[]"
+    },
+    {
+      "Id": 999,
+      "Name": "TestEmotion",
+      "Description": "测试情绪执行器",
+      "Parameters": "uint|uint[]|string[]"
+    }
+  ],
+  "_dumpedCount": 5,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -1,0 +1,3593 @@
+{
+  "_class": "VehicleVehicleAIConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 300,
+  "records": [
+    {
+      "Id": 1,
+      "VehicleMissionPathId": 0,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "ECSStyleRule",
+      "DriveStyle": [],
+      "NormalSpeed": 0,
+      "TargetPosition": []
+    },
+    {
+      "Id": 3,
+      "VehicleMissionPathId": 0,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 81010010,
+      "RuleClass": "VehicleMissionPathRule",
+      "DriveStyle": [
+        "UseHandBrake",
+        "ConvertSurroundingCarsToGO"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 7,
+      "VehicleMissionPathId": 0,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 81010011,
+      "RuleClass": "VehicleMissionPathRule",
+      "DriveStyle": [
+        "ConvertSurroundingCarsToGO"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 8,
+      "VehicleMissionPathId": 0,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 81010160,
+      "RuleClass": "ECSStyleRule",
+      "DriveStyle": [],
+      "NormalSpeed": 20,
+      "TargetPosition": [
+        2765.28003,
+        0,
+        1341.05005
+      ]
+    },
+    {
+      "Id": 9,
+      "VehicleMissionPathId": 0,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 81010160,
+      "RuleClass": "ECSStyleRule",
+      "DriveStyle": [],
+      "NormalSpeed": 20,
+      "TargetPosition": [
+        2417.77002,
+        0,
+        1137.73999
+      ]
+    },
+    {
+      "Id": 16,
+      "VehicleMissionPathId": 81010126,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 10,
+      "TargetPosition": []
+    },
+    {
+      "Id": 18,
+      "VehicleMissionPathId": 0,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "ECSStyleRule",
+      "DriveStyle": [],
+      "NormalSpeed": 30,
+      "TargetPosition": [
+        1419.40002,
+        0,
+        2442
+      ]
+    },
+    {
+      "Id": 20,
+      "VehicleMissionPathId": 81010044,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 21,
+      "VehicleMissionPathId": 81010075,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 22,
+      "VehicleMissionPathId": 81010076,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 23,
+      "VehicleMissionPathId": 81010077,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 24,
+      "VehicleMissionPathId": 81010078,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 26,
+      "VehicleMissionPathId": 81010043,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 10,
+      "TargetPosition": []
+    },
+    {
+      "Id": 27,
+      "VehicleMissionPathId": 81010049,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [],
+      "NormalSpeed": 15,
+      "TargetPosition": []
+    },
+    {
+      "Id": 28,
+      "VehicleMissionPathId": 81010050,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 29,
+      "VehicleMissionPathId": 81010051,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 30,
+      "VehicleMissionPathId": 81010052,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake",
+        "UseSmoothAccleration"
+      ],
+      "NormalSpeed": 0,
+      "TargetPosition": []
+    },
+    {
+      "Id": 31,
+      "VehicleMissionPathId": 81010053,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake",
+        "UseSmoothAccleration"
+      ],
+      "NormalSpeed": 0,
+      "TargetPosition": []
+    },
+    {
+      "Id": 32,
+      "VehicleMissionPathId": 81010054,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake",
+        "UseSmoothAccleration"
+      ],
+      "NormalSpeed": 0,
+      "TargetPosition": []
+    },
+    {
+      "Id": 33,
+      "VehicleMissionPathId": 81010055,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 35,
+      "VehicleMissionPathId": 81010057,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [],
+      "NormalSpeed": 30,
+      "TargetPosition": []
+    },
+    {
+      "Id": 36,
+      "VehicleMissionPathId": 81010058,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [],
+      "NormalSpeed": 30,
+      "TargetPosition": []
+    },
+    {
+      "Id": 37,
+      "VehicleMissionPathId": 81010059,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [],
+      "NormalSpeed": 30,
+      "TargetPosition": []
+    },
+    {
+      "Id": 38,
+      "VehicleMissionPathId": 81010060,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [],
+      "NormalSpeed": 30,
+      "TargetPosition": []
+    },
+    {
+      "Id": 39,
+      "VehicleMissionPathId": 81010061,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [],
+      "NormalSpeed": 30,
+      "TargetPosition": []
+    },
+    {
+      "Id": 40,
+      "VehicleMissionPathId": 81010062,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [],
+      "NormalSpeed": 30,
+      "TargetPosition": []
+    },
+    {
+      "Id": 41,
+      "VehicleMissionPathId": 81010063,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [],
+      "NormalSpeed": 15,
+      "TargetPosition": []
+    },
+    {
+      "Id": 43,
+      "VehicleMissionPathId": 81010065,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 0,
+      "TargetPosition": []
+    },
+    {
+      "Id": 45,
+      "VehicleMissionPathId": 81010067,
+      "PathOffset": 4,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 46,
+      "VehicleMissionPathId": 81010067,
+      "PathOffset": -4,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 48,
+      "VehicleMissionPathId": 81010069,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [],
+      "NormalSpeed": 0,
+      "TargetPosition": []
+    },
+    {
+      "Id": 49,
+      "VehicleMissionPathId": 81010070,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [],
+      "NormalSpeed": 0,
+      "TargetPosition": []
+    },
+    {
+      "Id": 50,
+      "VehicleMissionPathId": 81010071,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 0,
+      "TargetPosition": []
+    },
+    {
+      "Id": 51,
+      "VehicleMissionPathId": 81010072,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 0,
+      "TargetPosition": []
+    },
+    {
+      "Id": 52,
+      "VehicleMissionPathId": 81010073,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 0,
+      "TargetPosition": []
+    },
+    {
+      "Id": 53,
+      "VehicleMissionPathId": 0,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "PoliceVehicleRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 0,
+      "TargetPosition": []
+    },
+    {
+      "Id": 56,
+      "VehicleMissionPathId": 81010074,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 0,
+      "TargetPosition": []
+    },
+    {
+      "Id": 57,
+      "VehicleMissionPathId": 0,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "FindStaticTargetRule",
+      "DriveStyle": [],
+      "NormalSpeed": 7,
+      "TargetPosition": []
+    },
+    {
+      "Id": 58,
+      "VehicleMissionPathId": 81010075,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 59,
+      "VehicleMissionPathId": 81010076,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 60,
+      "VehicleMissionPathId": 81010077,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 61,
+      "VehicleMissionPathId": 81010078,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 62,
+      "VehicleMissionPathId": 81010079,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 63,
+      "VehicleMissionPathId": 81010080,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 64,
+      "VehicleMissionPathId": 81010081,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 65,
+      "VehicleMissionPathId": 81010082,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 66,
+      "VehicleMissionPathId": 81010083,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 67,
+      "VehicleMissionPathId": 81010084,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 68,
+      "VehicleMissionPathId": 81010085,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 69,
+      "VehicleMissionPathId": 81010086,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 70,
+      "VehicleMissionPathId": 81010087,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 71,
+      "VehicleMissionPathId": 81010088,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 72,
+      "VehicleMissionPathId": 81010089,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 73,
+      "VehicleMissionPathId": 81010090,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 74,
+      "VehicleMissionPathId": 81010091,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 75,
+      "VehicleMissionPathId": 0,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 81010092,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 76,
+      "VehicleMissionPathId": 81010093,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 77,
+      "VehicleMissionPathId": 81010094,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 78,
+      "VehicleMissionPathId": 81010095,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 79,
+      "VehicleMissionPathId": 81010096,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 80,
+      "VehicleMissionPathId": 81010097,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 81,
+      "VehicleMissionPathId": 81010098,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 82,
+      "VehicleMissionPathId": 81010099,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 83,
+      "VehicleMissionPathId": 81010100,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 84,
+      "VehicleMissionPathId": 81010101,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 85,
+      "VehicleMissionPathId": 81010102,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 86,
+      "VehicleMissionPathId": 81010103,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 0,
+      "TargetPosition": []
+    },
+    {
+      "Id": 87,
+      "VehicleMissionPathId": 81010104,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 0,
+      "TargetPosition": []
+    },
+    {
+      "Id": 88,
+      "VehicleMissionPathId": 81010105,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 0,
+      "TargetPosition": []
+    },
+    {
+      "Id": 89,
+      "VehicleMissionPathId": 81010106,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 0,
+      "TargetPosition": []
+    },
+    {
+      "Id": 90,
+      "VehicleMissionPathId": 81010107,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 0,
+      "TargetPosition": []
+    },
+    {
+      "Id": 91,
+      "VehicleMissionPathId": 81010108,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 0,
+      "TargetPosition": []
+    },
+    {
+      "Id": 92,
+      "VehicleMissionPathId": 81010109,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 0,
+      "TargetPosition": []
+    },
+    {
+      "Id": 93,
+      "VehicleMissionPathId": 81010110,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 0,
+      "TargetPosition": []
+    },
+    {
+      "Id": 95,
+      "VehicleMissionPathId": 81010112,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 96,
+      "VehicleMissionPathId": 81010113,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 97,
+      "VehicleMissionPathId": 81010114,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 98,
+      "VehicleMissionPathId": 81010116,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 22,
+      "TargetPosition": []
+    },
+    {
+      "Id": 99,
+      "VehicleMissionPathId": 81010117,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 12,
+      "TargetPosition": []
+    },
+    {
+      "Id": 100,
+      "VehicleMissionPathId": 81010119,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 102,
+      "VehicleMissionPathId": 81010118,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 10,
+      "TargetPosition": []
+    },
+    {
+      "Id": 103,
+      "VehicleMissionPathId": 81010120,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 10,
+      "TargetPosition": []
+    },
+    {
+      "Id": 104,
+      "VehicleMissionPathId": 81010121,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 10,
+      "TargetPosition": []
+    },
+    {
+      "Id": 105,
+      "VehicleMissionPathId": 81010122,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 0,
+      "TargetPosition": []
+    },
+    {
+      "Id": 106,
+      "VehicleMissionPathId": 81010123,
+      "PathOffset": 3,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 15,
+      "TargetPosition": []
+    },
+    {
+      "Id": 107,
+      "VehicleMissionPathId": 81010123,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 18,
+      "TargetPosition": []
+    },
+    {
+      "Id": 108,
+      "VehicleMissionPathId": 81010123,
+      "PathOffset": -4,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 109,
+      "VehicleMissionPathId": 81010124,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 10,
+      "TargetPosition": []
+    },
+    {
+      "Id": 110,
+      "VehicleMissionPathId": 81010125,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 10,
+      "TargetPosition": []
+    },
+    {
+      "Id": 111,
+      "VehicleMissionPathId": 0,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "ECSStyleRule",
+      "DriveStyle": [],
+      "NormalSpeed": 18,
+      "TargetPosition": []
+    },
+    {
+      "Id": 112,
+      "VehicleMissionPathId": 81010127,
+      "PathOffset": 2,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 113,
+      "VehicleMissionPathId": 81010127,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 25,
+      "TargetPosition": []
+    },
+    {
+      "Id": 114,
+      "VehicleMissionPathId": 81010127,
+      "PathOffset": -2,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 30,
+      "TargetPosition": []
+    },
+    {
+      "Id": 115,
+      "VehicleMissionPathId": 0,
+      "PathOffset": 1,
+      "VehicleMissionPathGroupId": 81010128,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 22,
+      "TargetPosition": []
+    },
+    {
+      "Id": 116,
+      "VehicleMissionPathId": 0,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 81010128,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 117,
+      "VehicleMissionPathId": 0,
+      "PathOffset": -1,
+      "VehicleMissionPathGroupId": 81010128,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 18,
+      "TargetPosition": []
+    },
+    {
+      "Id": 118,
+      "VehicleMissionPathId": 81010129,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 25,
+      "TargetPosition": []
+    },
+    {
+      "Id": 119,
+      "VehicleMissionPathId": 81010130,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 10,
+      "TargetPosition": []
+    },
+    {
+      "Id": 120,
+      "VehicleMissionPathId": 81010131,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 10,
+      "TargetPosition": []
+    },
+    {
+      "Id": 121,
+      "VehicleMissionPathId": 81010132,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 10,
+      "TargetPosition": []
+    },
+    {
+      "Id": 122,
+      "VehicleMissionPathId": 81010133,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 10,
+      "TargetPosition": []
+    },
+    {
+      "Id": 125,
+      "VehicleMissionPathId": 81010140,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 130,
+      "VehicleMissionPathId": 0,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 81010145,
+      "RuleClass": "VehicleMissionPathRule",
+      "DriveStyle": [
+        "UseHandBrake",
+        "ConvertSurroundingCarsToGO"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 131,
+      "VehicleMissionPathId": 0,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 81010146,
+      "RuleClass": "VehicleMissionPathRule",
+      "DriveStyle": [
+        "ConvertSurroundingCarsToGO"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 132,
+      "VehicleMissionPathId": 0,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 81010147,
+      "RuleClass": "VehicleMissionPathRule",
+      "DriveStyle": [
+        "ConvertSurroundingCarsToGO"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 133,
+      "VehicleMissionPathId": 0,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 81010148,
+      "RuleClass": "VehicleMissionPathRule",
+      "DriveStyle": [
+        "ConvertSurroundingCarsToGO"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 134,
+      "VehicleMissionPathId": 81010149,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "AlwaysUsePathPoint",
+        "UseHandBrake",
+        "UsePathSpeed"
+      ],
+      "NormalSpeed": 10,
+      "TargetPosition": []
+    },
+    {
+      "Id": 135,
+      "VehicleMissionPathId": 81010150,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "AlwaysUsePathPoint",
+        "UseHandBrake",
+        "UsePathSpeed"
+      ],
+      "NormalSpeed": 10,
+      "TargetPosition": []
+    },
+    {
+      "Id": 136,
+      "VehicleMissionPathId": 0,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 81010151,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake",
+        "FasterWhenPlayerClose",
+        "SlowDownWhenPlayerFar",
+        "UsePID"
+      ],
+      "NormalSpeed": 15,
+      "TargetPosition": []
+    },
+    {
+      "Id": 137,
+      "VehicleMissionPathId": 0,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 81010152,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake",
+        "FasterWhenPlayerClose",
+        "SlowDownWhenPlayerFar",
+        "UsePID"
+      ],
+      "NormalSpeed": 13,
+      "TargetPosition": []
+    },
+    {
+      "Id": 138,
+      "VehicleMissionPathId": 81010153,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 139,
+      "VehicleMissionPathId": 81010154,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 0,
+      "TargetPosition": []
+    },
+    {
+      "Id": 140,
+      "VehicleMissionPathId": 81010155,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 10,
+      "TargetPosition": []
+    },
+    {
+      "Id": 141,
+      "VehicleMissionPathId": 81010187,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake",
+        "FasterWhenPlayerClose",
+        "SlowDownWhenPlayerFar",
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 24,
+      "TargetPosition": []
+    },
+    {
+      "Id": 142,
+      "VehicleMissionPathId": 81010157,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 25,
+      "TargetPosition": []
+    },
+    {
+      "Id": 143,
+      "VehicleMissionPathId": 81010158,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 25,
+      "TargetPosition": []
+    },
+    {
+      "Id": 144,
+      "VehicleMissionPathId": 81010159,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 18,
+      "TargetPosition": []
+    },
+    {
+      "Id": 145,
+      "VehicleMissionPathId": 81010182,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 25,
+      "TargetPosition": []
+    },
+    {
+      "Id": 146,
+      "VehicleMissionPathId": 81010161,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 147,
+      "VehicleMissionPathId": 81010161,
+      "PathOffset": -4,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 148,
+      "VehicleMissionPathId": 81010162,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 149,
+      "VehicleMissionPathId": 81010162,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 150,
+      "VehicleMissionPathId": 81010163,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 151,
+      "VehicleMissionPathId": 81010163,
+      "PathOffset": -4,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 152,
+      "VehicleMissionPathId": 81010164,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 30,
+      "TargetPosition": []
+    },
+    {
+      "Id": 153,
+      "VehicleMissionPathId": 81010165,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 30,
+      "TargetPosition": []
+    },
+    {
+      "Id": 154,
+      "VehicleMissionPathId": 81010166,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 30,
+      "TargetPosition": []
+    },
+    {
+      "Id": 155,
+      "VehicleMissionPathId": 81010167,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 30,
+      "TargetPosition": []
+    },
+    {
+      "Id": 156,
+      "VehicleMissionPathId": 81010168,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 30,
+      "TargetPosition": []
+    },
+    {
+      "Id": 157,
+      "VehicleMissionPathId": 81010169,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 30,
+      "TargetPosition": []
+    },
+    {
+      "Id": 158,
+      "VehicleMissionPathId": 81010170,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 30,
+      "TargetPosition": []
+    },
+    {
+      "Id": 159,
+      "VehicleMissionPathId": 81010171,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 30,
+      "TargetPosition": []
+    },
+    {
+      "Id": 160,
+      "VehicleMissionPathId": 81010172,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 30,
+      "TargetPosition": []
+    },
+    {
+      "Id": 161,
+      "VehicleMissionPathId": 81010173,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 30,
+      "TargetPosition": []
+    },
+    {
+      "Id": 162,
+      "VehicleMissionPathId": 81010174,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 30,
+      "TargetPosition": []
+    },
+    {
+      "Id": 163,
+      "VehicleMissionPathId": 81010175,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 30,
+      "TargetPosition": []
+    },
+    {
+      "Id": 164,
+      "VehicleMissionPathId": 81010176,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 165,
+      "VehicleMissionPathId": 81010177,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 166,
+      "VehicleMissionPathId": 81010178,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 167,
+      "VehicleMissionPathId": 81010179,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 168,
+      "VehicleMissionPathId": 81010180,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 169,
+      "VehicleMissionPathId": 81010181,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 170,
+      "VehicleMissionPathId": 81010185,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 6,
+      "TargetPosition": []
+    },
+    {
+      "Id": 171,
+      "VehicleMissionPathId": 0,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 81010183,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy",
+        "ClearMassVehicleOnPath"
+      ],
+      "NormalSpeed": 18,
+      "TargetPosition": []
+    },
+    {
+      "Id": 172,
+      "VehicleMissionPathId": 0,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 81010184,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy",
+        "ClearMassVehicleOnPath"
+      ],
+      "NormalSpeed": 16,
+      "TargetPosition": []
+    },
+    {
+      "Id": 173,
+      "VehicleMissionPathId": 81010186,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 12,
+      "TargetPosition": []
+    },
+    {
+      "Id": 174,
+      "VehicleMissionPathId": 81010188,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 18,
+      "TargetPosition": []
+    },
+    {
+      "Id": 175,
+      "VehicleMissionPathId": 81010190,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 12,
+      "TargetPosition": []
+    },
+    {
+      "Id": 176,
+      "VehicleMissionPathId": 81010189,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 12,
+      "TargetPosition": []
+    },
+    {
+      "Id": 177,
+      "VehicleMissionPathId": 81010191,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 12,
+      "TargetPosition": []
+    },
+    {
+      "Id": 178,
+      "VehicleMissionPathId": 81010192,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 12,
+      "TargetPosition": []
+    },
+    {
+      "Id": 179,
+      "VehicleMissionPathId": 81010193,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 10,
+      "TargetPosition": []
+    },
+    {
+      "Id": 180,
+      "VehicleMissionPathId": 81010194,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 17,
+      "TargetPosition": []
+    },
+    {
+      "Id": 181,
+      "VehicleMissionPathId": 81010195,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 15,
+      "TargetPosition": []
+    },
+    {
+      "Id": 182,
+      "VehicleMissionPathId": 81010196,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 15,
+      "TargetPosition": []
+    },
+    {
+      "Id": 183,
+      "VehicleMissionPathId": 81010197,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 15,
+      "TargetPosition": []
+    },
+    {
+      "Id": 184,
+      "VehicleMissionPathId": 81010198,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 15,
+      "TargetPosition": []
+    },
+    {
+      "Id": 185,
+      "VehicleMissionPathId": 81010199,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 15,
+      "TargetPosition": []
+    },
+    {
+      "Id": 186,
+      "VehicleMissionPathId": 81010200,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 15,
+      "TargetPosition": []
+    },
+    {
+      "Id": 187,
+      "VehicleMissionPathId": 81010201,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 15,
+      "TargetPosition": []
+    },
+    {
+      "Id": 188,
+      "VehicleMissionPathId": 81010202,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 15,
+      "TargetPosition": []
+    },
+    {
+      "Id": 189,
+      "VehicleMissionPathId": 81010203,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [],
+      "NormalSpeed": 25,
+      "TargetPosition": []
+    },
+    {
+      "Id": 190,
+      "VehicleMissionPathId": 81010204,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 22,
+      "TargetPosition": []
+    },
+    {
+      "Id": 191,
+      "VehicleMissionPathId": 81010205,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 22,
+      "TargetPosition": []
+    },
+    {
+      "Id": 192,
+      "VehicleMissionPathId": 81010206,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 22,
+      "TargetPosition": []
+    },
+    {
+      "Id": 193,
+      "VehicleMissionPathId": 81010207,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 22,
+      "TargetPosition": []
+    },
+    {
+      "Id": 194,
+      "VehicleMissionPathId": 81010208,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 22,
+      "TargetPosition": []
+    },
+    {
+      "Id": 195,
+      "VehicleMissionPathId": 81010209,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 22,
+      "TargetPosition": []
+    },
+    {
+      "Id": 196,
+      "VehicleMissionPathId": 0,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "PoliceVehicleRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 15,
+      "TargetPosition": []
+    },
+    {
+      "Id": 197,
+      "VehicleMissionPathId": 81010210,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 35,
+      "TargetPosition": []
+    },
+    {
+      "Id": 198,
+      "VehicleMissionPathId": 81010211,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 35,
+      "TargetPosition": []
+    },
+    {
+      "Id": 199,
+      "VehicleMissionPathId": 81010212,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 35,
+      "TargetPosition": []
+    },
+    {
+      "Id": 200,
+      "VehicleMissionPathId": 81010213,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 35,
+      "TargetPosition": []
+    },
+    {
+      "Id": 201,
+      "VehicleMissionPathId": 81010214,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 22,
+      "TargetPosition": []
+    },
+    {
+      "Id": 202,
+      "VehicleMissionPathId": 81010215,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 22,
+      "TargetPosition": []
+    },
+    {
+      "Id": 203,
+      "VehicleMissionPathId": 81010216,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 22,
+      "TargetPosition": []
+    },
+    {
+      "Id": 204,
+      "VehicleMissionPathId": 81010217,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 22,
+      "TargetPosition": []
+    },
+    {
+      "Id": 205,
+      "VehicleMissionPathId": 0,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 81010183,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 30,
+      "TargetPosition": []
+    },
+    {
+      "Id": 206,
+      "VehicleMissionPathId": 81010218,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 30,
+      "TargetPosition": []
+    },
+    {
+      "Id": 207,
+      "VehicleMissionPathId": 81010219,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy",
+        "UseSmoothAccleration"
+      ],
+      "NormalSpeed": 13,
+      "TargetPosition": []
+    },
+    {
+      "Id": 208,
+      "VehicleMissionPathId": 81010220,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 13,
+      "TargetPosition": []
+    },
+    {
+      "Id": 209,
+      "VehicleMissionPathId": 81010221,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 24,
+      "TargetPosition": []
+    },
+    {
+      "Id": 210,
+      "VehicleMissionPathId": 81010222,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 24,
+      "TargetPosition": []
+    },
+    {
+      "Id": 211,
+      "VehicleMissionPathId": 81010223,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 24,
+      "TargetPosition": []
+    },
+    {
+      "Id": 212,
+      "VehicleMissionPathId": 81010224,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 25,
+      "TargetPosition": []
+    },
+    {
+      "Id": 213,
+      "VehicleMissionPathId": 81010225,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 25,
+      "TargetPosition": []
+    },
+    {
+      "Id": 214,
+      "VehicleMissionPathId": 81010226,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 36,
+      "TargetPosition": []
+    },
+    {
+      "Id": 215,
+      "VehicleMissionPathId": 81010227,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 10,
+      "TargetPosition": []
+    },
+    {
+      "Id": 216,
+      "VehicleMissionPathId": 81010228,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 12,
+      "TargetPosition": []
+    },
+    {
+      "Id": 217,
+      "VehicleMissionPathId": 81010229,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 12,
+      "TargetPosition": []
+    },
+    {
+      "Id": 218,
+      "VehicleMissionPathId": 81010230,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 12,
+      "TargetPosition": []
+    },
+    {
+      "Id": 219,
+      "VehicleMissionPathId": 81010231,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 12,
+      "TargetPosition": []
+    },
+    {
+      "Id": 220,
+      "VehicleMissionPathId": 81010232,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 12,
+      "TargetPosition": []
+    },
+    {
+      "Id": 221,
+      "VehicleMissionPathId": 81010233,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 12,
+      "TargetPosition": []
+    },
+    {
+      "Id": 222,
+      "VehicleMissionPathId": 81010234,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 12,
+      "TargetPosition": []
+    },
+    {
+      "Id": 223,
+      "VehicleMissionPathId": 81010235,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 12,
+      "TargetPosition": []
+    },
+    {
+      "Id": 224,
+      "VehicleMissionPathId": 81010236,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 12,
+      "TargetPosition": []
+    },
+    {
+      "Id": 225,
+      "VehicleMissionPathId": 81010237,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 12,
+      "TargetPosition": []
+    },
+    {
+      "Id": 226,
+      "VehicleMissionPathId": 81010238,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 12,
+      "TargetPosition": []
+    },
+    {
+      "Id": 227,
+      "VehicleMissionPathId": 81010239,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [],
+      "NormalSpeed": 24,
+      "TargetPosition": []
+    },
+    {
+      "Id": 228,
+      "VehicleMissionPathId": 81010240,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 12,
+      "TargetPosition": []
+    },
+    {
+      "Id": 229,
+      "VehicleMissionPathId": 81010241,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 10,
+      "TargetPosition": []
+    },
+    {
+      "Id": 230,
+      "VehicleMissionPathId": 81010242,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 40,
+      "TargetPosition": []
+    },
+    {
+      "Id": 231,
+      "VehicleMissionPathId": 81010243,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 40,
+      "TargetPosition": []
+    },
+    {
+      "Id": 232,
+      "VehicleMissionPathId": 81010244,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 233,
+      "VehicleMissionPathId": 81010245,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 15,
+      "TargetPosition": []
+    },
+    {
+      "Id": 234,
+      "VehicleMissionPathId": 81010246,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 8,
+      "TargetPosition": []
+    },
+    {
+      "Id": 235,
+      "VehicleMissionPathId": 81010247,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 0,
+      "TargetPosition": []
+    },
+    {
+      "Id": 236,
+      "VehicleMissionPathId": 81010248,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 12,
+      "TargetPosition": []
+    },
+    {
+      "Id": 237,
+      "VehicleMissionPathId": 81010249,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 10,
+      "TargetPosition": []
+    },
+    {
+      "Id": 238,
+      "VehicleMissionPathId": 81010250,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 9,
+      "TargetPosition": []
+    },
+    {
+      "Id": 239,
+      "VehicleMissionPathId": 81010251,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 9,
+      "TargetPosition": []
+    },
+    {
+      "Id": 240,
+      "VehicleMissionPathId": 81010252,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "AlwaysDummy"
+      ],
+      "NormalSpeed": 15,
+      "TargetPosition": []
+    },
+    {
+      "Id": 241,
+      "VehicleMissionPathId": 81010253,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "AlwaysDummy"
+      ],
+      "NormalSpeed": 15,
+      "TargetPosition": []
+    },
+    {
+      "Id": 242,
+      "VehicleMissionPathId": 81010052,
+      "PathOffset": 2,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake",
+        "UseSmoothAccleration"
+      ],
+      "NormalSpeed": 23,
+      "TargetPosition": []
+    },
+    {
+      "Id": 243,
+      "VehicleMissionPathId": 81010052,
+      "PathOffset": -4,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake",
+        "UseSmoothAccleration"
+      ],
+      "NormalSpeed": 19,
+      "TargetPosition": []
+    },
+    {
+      "Id": 244,
+      "VehicleMissionPathId": 81010052,
+      "PathOffset": -7,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake",
+        "UseSmoothAccleration"
+      ],
+      "NormalSpeed": 24,
+      "TargetPosition": []
+    },
+    {
+      "Id": 245,
+      "VehicleMissionPathId": 81010052,
+      "PathOffset": -6,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake",
+        "UseSmoothAccleration"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 246,
+      "VehicleMissionPathId": 81010254,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 0,
+      "TargetPosition": []
+    },
+    {
+      "Id": 247,
+      "VehicleMissionPathId": 81010255,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "AlwaysDummy"
+      ],
+      "NormalSpeed": 15,
+      "TargetPosition": []
+    },
+    {
+      "Id": 248,
+      "VehicleMissionPathId": 81010256,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "AlwaysDummy"
+      ],
+      "NormalSpeed": 15,
+      "TargetPosition": []
+    },
+    {
+      "Id": 249,
+      "VehicleMissionPathId": 81010257,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "AlwaysDummy"
+      ],
+      "NormalSpeed": 15,
+      "TargetPosition": []
+    },
+    {
+      "Id": 250,
+      "VehicleMissionPathId": 81010258,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "AlwaysDummy"
+      ],
+      "NormalSpeed": 15,
+      "TargetPosition": []
+    },
+    {
+      "Id": 251,
+      "VehicleMissionPathId": 81010259,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "AlwaysDummy"
+      ],
+      "NormalSpeed": 15,
+      "TargetPosition": []
+    },
+    {
+      "Id": 252,
+      "VehicleMissionPathId": 81010260,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "AlwaysDummy"
+      ],
+      "NormalSpeed": 15,
+      "TargetPosition": []
+    },
+    {
+      "Id": 253,
+      "VehicleMissionPathId": 81010261,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 12,
+      "TargetPosition": []
+    },
+    {
+      "Id": 254,
+      "VehicleMissionPathId": 81010262,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 12,
+      "TargetPosition": []
+    },
+    {
+      "Id": 255,
+      "VehicleMissionPathId": 81010263,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 12,
+      "TargetPosition": []
+    },
+    {
+      "Id": 256,
+      "VehicleMissionPathId": 81010264,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 12,
+      "TargetPosition": []
+    },
+    {
+      "Id": 257,
+      "VehicleMissionPathId": 81010265,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 12,
+      "TargetPosition": []
+    },
+    {
+      "Id": 258,
+      "VehicleMissionPathId": 81010266,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 12,
+      "TargetPosition": []
+    },
+    {
+      "Id": 259,
+      "VehicleMissionPathId": 81010267,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 12,
+      "TargetPosition": []
+    },
+    {
+      "Id": 260,
+      "VehicleMissionPathId": 81010268,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 12,
+      "TargetPosition": []
+    },
+    {
+      "Id": 261,
+      "VehicleMissionPathId": 81010269,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 12,
+      "TargetPosition": []
+    },
+    {
+      "Id": 262,
+      "VehicleMissionPathId": 81010270,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 12,
+      "TargetPosition": []
+    },
+    {
+      "Id": 263,
+      "VehicleMissionPathId": 81010271,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 0,
+      "TargetPosition": []
+    },
+    {
+      "Id": 264,
+      "VehicleMissionPathId": 81010272,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 13,
+      "TargetPosition": []
+    },
+    {
+      "Id": 265,
+      "VehicleMissionPathId": 81010273,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 13,
+      "TargetPosition": []
+    },
+    {
+      "Id": 266,
+      "VehicleMissionPathId": 81010274,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 13,
+      "TargetPosition": []
+    },
+    {
+      "Id": 267,
+      "VehicleMissionPathId": 81010275,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 13,
+      "TargetPosition": []
+    },
+    {
+      "Id": 268,
+      "VehicleMissionPathId": 81010276,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 13,
+      "TargetPosition": []
+    },
+    {
+      "Id": 269,
+      "VehicleMissionPathId": 81010277,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 13,
+      "TargetPosition": []
+    },
+    {
+      "Id": 270,
+      "VehicleMissionPathId": 81010278,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 13,
+      "TargetPosition": []
+    },
+    {
+      "Id": 271,
+      "VehicleMissionPathId": 81010279,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 13,
+      "TargetPosition": []
+    },
+    {
+      "Id": 272,
+      "VehicleMissionPathId": 81010280,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 13,
+      "TargetPosition": []
+    },
+    {
+      "Id": 273,
+      "VehicleMissionPathId": 81010288,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 13,
+      "TargetPosition": []
+    },
+    {
+      "Id": 274,
+      "VehicleMissionPathId": 81010289,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 13,
+      "TargetPosition": []
+    },
+    {
+      "Id": 275,
+      "VehicleMissionPathId": 81010260,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 13,
+      "TargetPosition": []
+    },
+    {
+      "Id": 276,
+      "VehicleMissionPathId": 81010282,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 13,
+      "TargetPosition": []
+    },
+    {
+      "Id": 277,
+      "VehicleMissionPathId": 81010283,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 10,
+      "TargetPosition": []
+    },
+    {
+      "Id": 278,
+      "VehicleMissionPathId": 81010284,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 13,
+      "TargetPosition": []
+    },
+    {
+      "Id": 279,
+      "VehicleMissionPathId": 81010285,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 13,
+      "TargetPosition": []
+    },
+    {
+      "Id": 280,
+      "VehicleMissionPathId": 81010286,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 13,
+      "TargetPosition": []
+    },
+    {
+      "Id": 281,
+      "VehicleMissionPathId": 81010287,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 3,
+      "TargetPosition": []
+    },
+    {
+      "Id": 282,
+      "VehicleMissionPathId": 81010288,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 13,
+      "TargetPosition": []
+    },
+    {
+      "Id": 283,
+      "VehicleMissionPathId": 81010289,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 13,
+      "TargetPosition": []
+    },
+    {
+      "Id": 284,
+      "VehicleMissionPathId": 81010290,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 13,
+      "TargetPosition": []
+    },
+    {
+      "Id": 285,
+      "VehicleMissionPathId": 81010291,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 13,
+      "TargetPosition": []
+    },
+    {
+      "Id": 286,
+      "VehicleMissionPathId": 81010292,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 13,
+      "TargetPosition": []
+    },
+    {
+      "Id": 287,
+      "VehicleMissionPathId": 81010293,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 13,
+      "TargetPosition": []
+    },
+    {
+      "Id": 288,
+      "VehicleMissionPathId": 81010294,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 13,
+      "TargetPosition": []
+    },
+    {
+      "Id": 289,
+      "VehicleMissionPathId": 81010295,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 13,
+      "TargetPosition": []
+    },
+    {
+      "Id": 290,
+      "VehicleMissionPathId": 81010296,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 10,
+      "TargetPosition": []
+    },
+    {
+      "Id": 291,
+      "VehicleMissionPathId": 81010297,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 15,
+      "TargetPosition": []
+    },
+    {
+      "Id": 292,
+      "VehicleMissionPathId": 81010298,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 293,
+      "VehicleMissionPathId": 81010299,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 15,
+      "TargetPosition": []
+    },
+    {
+      "Id": 294,
+      "VehicleMissionPathId": 81010300,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 15,
+      "TargetPosition": []
+    },
+    {
+      "Id": 295,
+      "VehicleMissionPathId": 81010301,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 10,
+      "TargetPosition": []
+    },
+    {
+      "Id": 296,
+      "VehicleMissionPathId": 81010302,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 10,
+      "TargetPosition": []
+    },
+    {
+      "Id": 297,
+      "VehicleMissionPathId": 81010303,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 10,
+      "TargetPosition": []
+    },
+    {
+      "Id": 298,
+      "VehicleMissionPathId": 81010304,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 25,
+      "TargetPosition": []
+    },
+    {
+      "Id": 299,
+      "VehicleMissionPathId": 81010305,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 25,
+      "TargetPosition": []
+    },
+    {
+      "Id": 300,
+      "VehicleMissionPathId": 81010306,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 25,
+      "TargetPosition": []
+    },
+    {
+      "Id": 301,
+      "VehicleMissionPathId": 81010307,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 25,
+      "TargetPosition": []
+    },
+    {
+      "Id": 302,
+      "VehicleMissionPathId": 81010308,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 25,
+      "TargetPosition": []
+    },
+    {
+      "Id": 303,
+      "VehicleMissionPathId": 81010309,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 25,
+      "TargetPosition": []
+    },
+    {
+      "Id": 304,
+      "VehicleMissionPathId": 81010310,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 25,
+      "TargetPosition": []
+    },
+    {
+      "Id": 305,
+      "VehicleMissionPathId": 81010311,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 25,
+      "TargetPosition": []
+    },
+    {
+      "Id": 306,
+      "VehicleMissionPathId": 81010312,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 25,
+      "TargetPosition": []
+    },
+    {
+      "Id": 307,
+      "VehicleMissionPathId": 81010313,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 25,
+      "TargetPosition": []
+    },
+    {
+      "Id": 308,
+      "VehicleMissionPathId": 81010314,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 25,
+      "TargetPosition": []
+    },
+    {
+      "Id": 309,
+      "VehicleMissionPathId": 81010315,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 25,
+      "TargetPosition": []
+    },
+    {
+      "Id": 310,
+      "VehicleMissionPathId": 81010316,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 25,
+      "TargetPosition": []
+    },
+    {
+      "Id": 311,
+      "VehicleMissionPathId": 81010317,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 25,
+      "TargetPosition": []
+    },
+    {
+      "Id": 312,
+      "VehicleMissionPathId": 81010318,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 25,
+      "TargetPosition": []
+    },
+    {
+      "Id": 313,
+      "VehicleMissionPathId": 81010319,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 314,
+      "VehicleMissionPathId": 81010320,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 315,
+      "VehicleMissionPathId": 81010321,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 316,
+      "VehicleMissionPathId": 81010322,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 317,
+      "VehicleMissionPathId": 81010323,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 20,
+      "TargetPosition": []
+    },
+    {
+      "Id": 318,
+      "VehicleMissionPathId": 81010324,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "PoliceVehicleRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 0,
+      "TargetPosition": []
+    },
+    {
+      "Id": 319,
+      "VehicleMissionPathId": 81010325,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 10,
+      "TargetPosition": []
+    },
+    {
+      "Id": 320,
+      "VehicleMissionPathId": 81010326,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 8,
+      "TargetPosition": []
+    },
+    {
+      "Id": 321,
+      "VehicleMissionPathId": 81010327,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 25,
+      "TargetPosition": []
+    },
+    {
+      "Id": 322,
+      "VehicleMissionPathId": 81010328,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 25,
+      "TargetPosition": []
+    },
+    {
+      "Id": 323,
+      "VehicleMissionPathId": 81010329,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 25,
+      "TargetPosition": []
+    },
+    {
+      "Id": 324,
+      "VehicleMissionPathId": 81010330,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBrake"
+      ],
+      "NormalSpeed": 25,
+      "TargetPosition": []
+    },
+    {
+      "Id": 325,
+      "VehicleMissionPathId": 81010331,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseSuperDummy"
+      ],
+      "NormalSpeed": 25,
+      "TargetPosition": []
+    },
+    {
+      "Id": 326,
+      "VehicleMissionPathId": 81010332,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBreak"
+      ],
+      "NormalSpeed": 50,
+      "TargetPosition": []
+    },
+    {
+      "Id": 327,
+      "VehicleMissionPathId": 81010333,
+      "PathOffset": 0,
+      "VehicleMissionPathGroupId": 0,
+      "RuleClass": "CommonFollowPathRule",
+      "DriveStyle": [
+        "UseHandBreak"
+      ],
+      "NormalSpeed": 50,
+      "TargetPosition": []
+    }
+  ],
+  "_dumpedCount": 300,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

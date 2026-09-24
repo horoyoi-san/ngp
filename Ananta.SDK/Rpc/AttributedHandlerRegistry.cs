@@ -2,7 +2,6 @@ using System.Reflection;
 
 namespace Ananta.SDK.Rpc;
 
-/// <summary>Scans [Handler] methods and registers them in RpcRouter.</summary>
 public static class AttributedHandlerRegistry
 {
     public static RpcRouter Build(string scope, params object[] targets)
@@ -15,10 +14,10 @@ public static class AttributedHandlerRegistry
     public static void Register(RpcRouter router, object target)
         => RegisterCore(router, target, allowedMethodIds: null);
 
-    /// <summary>
-    /// Registers only explicitly allowed method ids. This is used by build-4229938 minimal mode so
-    /// legacy feature handlers stay compiled for reference but cannot emit old-build world/story data.
-    /// </summary>
+    
+    
+    
+    
     public static int RegisterSelected(RpcRouter router, object target, IReadOnlySet<uint> allowedMethodIds)
         => RegisterCore(router, target, allowedMethodIds);
 

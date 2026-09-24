@@ -1,0 +1,2282 @@
+{
+  "_class": "RailStopConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 90,
+  "records": [
+    {
+      "Id": 1,
+      "NextStop": "2",
+      "LineId": 1,
+      "LineName": "白帆湾车库",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 3,
+      "ArrivalTime": 0,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 2,
+      "NextStop": "3",
+      "LineId": 1,
+      "LineName": "白帆湾",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [
+        70601009,
+        70601012,
+        70601033,
+        70601034,
+        70601080
+      ],
+      "DepartureSubtitle": [
+        48010186,
+        48010189,
+        48010210,
+        48010211,
+        48010257
+      ],
+      "InsertVoice": [
+        70601085
+      ],
+      "InsertSubtitle": [
+        48010262
+      ],
+      "InsertTime": 30,
+      "DepartureMusic": 70330001,
+      "GateOpenSide": 1,
+      "ArrivalTime": 43.1530113,
+      "AutoExitWayPoint": "BaiFanWan_Line1_Exit0",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 3,
+      "NextStop": "4",
+      "LineId": 1,
+      "LineName": "狂悖街区",
+      "ArrivingVoice": [
+        70601035
+      ],
+      "ArrivingSubtitle": [
+        48010212
+      ],
+      "ArrivalVoice": [
+        70601036
+      ],
+      "ArrivalSubtitle": [
+        48010213
+      ],
+      "DepartureVoice": [
+        70601029,
+        70601030,
+        70601081
+      ],
+      "DepartureSubtitle": [
+        48010206,
+        48010207,
+        48010258
+      ],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 70330003,
+      "GateOpenSide": 1,
+      "ArrivalTime": 206.901199,
+      "AutoExitWayPoint": "KuangBeiJieQv_Line1_Exit",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 4,
+      "NextStop": "5",
+      "LineId": 1,
+      "LineName": "晴海",
+      "ArrivingVoice": [
+        70601031
+      ],
+      "ArrivingSubtitle": [
+        48010208
+      ],
+      "ArrivalVoice": [
+        70601032
+      ],
+      "ArrivalSubtitle": [
+        48010209
+      ],
+      "DepartureVoice": [
+        70601025,
+        70601026,
+        70601081
+      ],
+      "DepartureSubtitle": [
+        48010202,
+        48010203,
+        48010258
+      ],
+      "InsertVoice": [
+        70601085
+      ],
+      "InsertSubtitle": [
+        48010262
+      ],
+      "InsertTime": 40,
+      "DepartureMusic": 70330005,
+      "GateOpenSide": 0,
+      "ArrivalTime": 355.810089,
+      "AutoExitWayPoint": "QingHai_Line1_Exit",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 5,
+      "NextStop": "6",
+      "LineId": 1,
+      "LineName": "城关",
+      "ArrivingVoice": [
+        70601027
+      ],
+      "ArrivingSubtitle": [
+        48010204
+      ],
+      "ArrivalVoice": [
+        70601028
+      ],
+      "ArrivalSubtitle": [
+        48010205
+      ],
+      "DepartureVoice": [
+        70601021,
+        70601022,
+        70601081
+      ],
+      "DepartureSubtitle": [
+        48010198,
+        48010199,
+        48010258
+      ],
+      "InsertVoice": [
+        70601082
+      ],
+      "InsertSubtitle": [
+        48010259
+      ],
+      "InsertTime": 30,
+      "DepartureMusic": 70330007,
+      "GateOpenSide": 1,
+      "ArrivalTime": 511.307709,
+      "AutoExitWayPoint": "ChengGuan_Line1_Exit",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 6,
+      "NextStop": "7",
+      "LineId": 1,
+      "LineName": "纪事区",
+      "ArrivingVoice": [
+        70601023
+      ],
+      "ArrivingSubtitle": [
+        48010200
+      ],
+      "ArrivalVoice": [
+        70601024
+      ],
+      "ArrivalSubtitle": [
+        48010201
+      ],
+      "DepartureVoice": [
+        70601017,
+        70601018,
+        70601080
+      ],
+      "DepartureSubtitle": [
+        48010194,
+        48010195,
+        48010257
+      ],
+      "InsertVoice": [
+        70601083
+      ],
+      "InsertSubtitle": [
+        48010260
+      ],
+      "InsertTime": 62,
+      "DepartureMusic": 70330009,
+      "GateOpenSide": 1,
+      "ArrivalTime": 629.768616,
+      "AutoExitWayPoint": "JiShiQv_Line1_Exit",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 7,
+      "NextStop": "8",
+      "LineId": 1,
+      "LineName": "花月公园",
+      "ArrivingVoice": [
+        70601010
+      ],
+      "ArrivingSubtitle": [
+        48010187
+      ],
+      "ArrivalVoice": [
+        70601020
+      ],
+      "ArrivalSubtitle": [
+        48010197
+      ],
+      "DepartureVoice": [
+        70601013,
+        70601014,
+        70601081
+      ],
+      "DepartureSubtitle": [
+        48010190,
+        48010191,
+        48010258
+      ],
+      "InsertVoice": [
+        70601085
+      ],
+      "InsertSubtitle": [
+        48010262
+      ],
+      "InsertTime": 20,
+      "DepartureMusic": 70330011,
+      "GateOpenSide": 0,
+      "ArrivalTime": 762.605286,
+      "AutoExitWayPoint": "HuaYueGongYuan_Line1_Exit",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 8,
+      "NextStop": "9",
+      "LineId": 1,
+      "LineName": "东新筑",
+      "ArrivingVoice": [
+        70601015
+      ],
+      "ArrivingSubtitle": [
+        48010192
+      ],
+      "ArrivalVoice": [
+        70601016
+      ],
+      "ArrivalSubtitle": [
+        48010193
+      ],
+      "DepartureVoice": [
+        70601037,
+        70601038,
+        70601080
+      ],
+      "DepartureSubtitle": [
+        48010214,
+        48010215,
+        48010257
+      ],
+      "InsertVoice": [
+        70601085
+      ],
+      "InsertSubtitle": [
+        48010262
+      ],
+      "InsertTime": 30,
+      "DepartureMusic": 70330013,
+      "GateOpenSide": 1,
+      "ArrivalTime": 928.461426,
+      "AutoExitWayPoint": "DongXinZhu_Line1_Exit",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 9,
+      "NextStop": "10",
+      "LineId": 1,
+      "LineName": "白帆湾",
+      "ArrivingVoice": [
+        70601039
+      ],
+      "ArrivingSubtitle": [
+        48010216
+      ],
+      "ArrivalVoice": [
+        70601040,
+        70601041,
+        70601042
+      ],
+      "ArrivalSubtitle": [
+        48010217,
+        48010218,
+        48010219
+      ],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 70330001,
+      "GateOpenSide": 1,
+      "ArrivalTime": 1070.28198,
+      "AutoExitWayPoint": "BaiFanWan_Line1_Exit",
+      "DefaultExitStop": true
+    },
+    {
+      "Id": 10,
+      "NextStop": "",
+      "LineId": 1,
+      "LineName": "白帆湾车库",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 3,
+      "ArrivalTime": 1123.08801,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 21,
+      "NextStop": "22",
+      "LineId": 2,
+      "LineName": "白帆湾车库",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 3,
+      "ArrivalTime": 0,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 22,
+      "NextStop": "23",
+      "LineId": 2,
+      "LineName": "白帆湾",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [
+        70601011,
+        70601012,
+        70601013,
+        70601014,
+        70601080
+      ],
+      "DepartureSubtitle": [
+        48010188,
+        48010189,
+        48010190,
+        48010191,
+        48010257
+      ],
+      "InsertVoice": [
+        70601085
+      ],
+      "InsertSubtitle": [
+        48010262
+      ],
+      "InsertTime": 20,
+      "DepartureMusic": 70330002,
+      "GateOpenSide": 1,
+      "ArrivalTime": 43.1720314,
+      "AutoExitWayPoint": "BaiFanWan_Line2_Exit0",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 23,
+      "NextStop": "24",
+      "LineId": 2,
+      "LineName": "东新筑",
+      "ArrivingVoice": [
+        70601015
+      ],
+      "ArrivingSubtitle": [
+        48010192
+      ],
+      "ArrivalVoice": [
+        70601016
+      ],
+      "ArrivalSubtitle": [
+        48010193
+      ],
+      "DepartureVoice": [
+        70601017,
+        70601018,
+        70601081
+      ],
+      "DepartureSubtitle": [
+        48010194,
+        48010195,
+        48010258
+      ],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 70330014,
+      "GateOpenSide": 1,
+      "ArrivalTime": 183.663895,
+      "AutoExitWayPoint": "DongXinZhu_Line2_Exit",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 24,
+      "NextStop": "25",
+      "LineId": 2,
+      "LineName": "花月公园",
+      "ArrivingVoice": [
+        70601019
+      ],
+      "ArrivingSubtitle": [
+        48010196
+      ],
+      "ArrivalVoice": [
+        70601020
+      ],
+      "ArrivalSubtitle": [
+        48010197
+      ],
+      "DepartureVoice": [
+        70601021,
+        70601022,
+        70601080
+      ],
+      "DepartureSubtitle": [
+        48010198,
+        48010199,
+        48010257
+      ],
+      "InsertVoice": [
+        70601082
+      ],
+      "InsertSubtitle": [
+        48010259
+      ],
+      "InsertTime": 10,
+      "DepartureMusic": 70330012,
+      "GateOpenSide": 1,
+      "ArrivalTime": 349.794891,
+      "AutoExitWayPoint": "HuaYueGongYuan_Line2_Exit",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 25,
+      "NextStop": "26",
+      "LineId": 2,
+      "LineName": "纪事区",
+      "ArrivingVoice": [
+        70601023
+      ],
+      "ArrivingSubtitle": [
+        48010200
+      ],
+      "ArrivalVoice": [
+        70601024
+      ],
+      "ArrivalSubtitle": [
+        48010201
+      ],
+      "DepartureVoice": [
+        70601025,
+        70601026,
+        70601081
+      ],
+      "DepartureSubtitle": [
+        48010202,
+        48010203,
+        48010258
+      ],
+      "InsertVoice": [
+        70601083
+      ],
+      "InsertSubtitle": [
+        48010260
+      ],
+      "InsertTime": 40,
+      "DepartureMusic": 70330010,
+      "GateOpenSide": 1,
+      "ArrivalTime": 483.446289,
+      "AutoExitWayPoint": "JiShiQv_Line2_Exit",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 26,
+      "NextStop": "27",
+      "LineId": 2,
+      "LineName": "城关",
+      "ArrivingVoice": [
+        70601027
+      ],
+      "ArrivingSubtitle": [
+        48010204
+      ],
+      "ArrivalVoice": [
+        70601028
+      ],
+      "ArrivalSubtitle": [
+        48010205
+      ],
+      "DepartureVoice": [
+        70601029,
+        70601030,
+        70601080
+      ],
+      "DepartureSubtitle": [
+        48010206,
+        48010207,
+        48010257
+      ],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 70330008,
+      "GateOpenSide": 1,
+      "ArrivalTime": 601.837524,
+      "AutoExitWayPoint": "ChengGuan_Line2_Exit",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 27,
+      "NextStop": "28",
+      "LineId": 2,
+      "LineName": "晴海",
+      "ArrivingVoice": [
+        70601108
+      ],
+      "ArrivingSubtitle": [
+        48010272
+      ],
+      "ArrivalVoice": [
+        70601032
+      ],
+      "ArrivalSubtitle": [
+        48010209
+      ],
+      "DepartureVoice": [
+        70601033,
+        70601034,
+        70601081
+      ],
+      "DepartureSubtitle": [
+        48010210,
+        48010211,
+        48010258
+      ],
+      "InsertVoice": [
+        70601085
+      ],
+      "InsertSubtitle": [
+        48010262
+      ],
+      "InsertTime": 20,
+      "DepartureMusic": 70330006,
+      "GateOpenSide": 0,
+      "ArrivalTime": 758.26947,
+      "AutoExitWayPoint": "QingHai_Line2_Exit",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 28,
+      "NextStop": "29",
+      "LineId": 2,
+      "LineName": "狂悖街区",
+      "ArrivingVoice": [
+        70601035
+      ],
+      "ArrivingSubtitle": [
+        48010212
+      ],
+      "ArrivalVoice": [
+        70601036
+      ],
+      "ArrivalSubtitle": [
+        48010213
+      ],
+      "DepartureVoice": [
+        70601037,
+        70601038,
+        70601080
+      ],
+      "DepartureSubtitle": [
+        48010214,
+        48010215,
+        48010257
+      ],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 70330004,
+      "GateOpenSide": 1,
+      "ArrivalTime": 907.33783,
+      "AutoExitWayPoint": "KuangBeiJieQv_Line2_Exit",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 29,
+      "NextStop": "30",
+      "LineId": 2,
+      "LineName": "白帆湾",
+      "ArrivingVoice": [
+        70601039
+      ],
+      "ArrivingSubtitle": [
+        48010216
+      ],
+      "ArrivalVoice": [
+        70601040,
+        70601041,
+        70601042
+      ],
+      "ArrivalSubtitle": [
+        48010217,
+        48010218,
+        48010219
+      ],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 70330002,
+      "GateOpenSide": 1,
+      "ArrivalTime": 1071.98499,
+      "AutoExitWayPoint": "BaiFanWan_Line2_Exit",
+      "DefaultExitStop": true
+    },
+    {
+      "Id": 30,
+      "NextStop": "",
+      "LineId": 2,
+      "LineName": "白帆湾车库",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 3,
+      "ArrivalTime": 1124.802,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 41,
+      "NextStop": "42",
+      "LineId": 3,
+      "LineName": "花月公园",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [
+        70601020
+      ],
+      "ArrivalSubtitle": [
+        48010197
+      ],
+      "DepartureVoice": [
+        70601043,
+        70601044,
+        70601045,
+        70601080
+      ],
+      "DepartureSubtitle": [
+        48010220,
+        48010221,
+        48010222,
+        48010257
+      ],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 70330015,
+      "GateOpenSide": 1,
+      "ArrivalTime": 0,
+      "AutoExitWayPoint": "HuaYueGongYuan_Line3_Exit",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 42,
+      "NextStop": "43",
+      "LineId": 3,
+      "LineName": "岸泊工业",
+      "ArrivingVoice": [
+        70601046
+      ],
+      "ArrivingSubtitle": [
+        48010223
+      ],
+      "ArrivalVoice": [
+        70601047
+      ],
+      "ArrivalSubtitle": [
+        48010224
+      ],
+      "DepartureVoice": [
+        70601048,
+        70601049,
+        70601081
+      ],
+      "DepartureSubtitle": [
+        48010225,
+        48010226,
+        48010258
+      ],
+      "InsertVoice": [
+        70601082
+      ],
+      "InsertSubtitle": [
+        48010259
+      ],
+      "InsertTime": 17,
+      "DepartureMusic": 70330016,
+      "GateOpenSide": 2,
+      "ArrivalTime": 116.448402,
+      "AutoExitWayPoint": "AnBoGongYe_Line3_Exit",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 43,
+      "NextStop": "44",
+      "LineId": 3,
+      "LineName": "统理院",
+      "ArrivingVoice": [
+        70601050
+      ],
+      "ArrivingSubtitle": [
+        100021998
+      ],
+      "ArrivalVoice": [
+        70601051
+      ],
+      "ArrivalSubtitle": [
+        100022005
+      ],
+      "DepartureVoice": [
+        70601055,
+        70601054,
+        70601080
+      ],
+      "DepartureSubtitle": [
+        48010232,
+        48010231,
+        48010257
+      ],
+      "InsertVoice": [
+        70601083
+      ],
+      "InsertSubtitle": [
+        48010260
+      ],
+      "InsertTime": 15,
+      "DepartureMusic": 70330017,
+      "GateOpenSide": 1,
+      "ArrivalTime": 233.362,
+      "AutoExitWayPoint": "TongLiYuan_Line3_Exit",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 44,
+      "NextStop": "45",
+      "LineId": 3,
+      "LineName": "晴海",
+      "ArrivingVoice": [
+        70601052
+      ],
+      "ArrivingSubtitle": [
+        48010229
+      ],
+      "ArrivalVoice": [
+        70601053
+      ],
+      "ArrivalSubtitle": [
+        48010230
+      ],
+      "DepartureVoice": [
+        70601056,
+        70601026,
+        70601081
+      ],
+      "DepartureSubtitle": [
+        48010233,
+        48010203,
+        48010258
+      ],
+      "InsertVoice": [
+        70601083
+      ],
+      "InsertSubtitle": [
+        48010260
+      ],
+      "InsertTime": 15,
+      "DepartureMusic": 70330018,
+      "GateOpenSide": 1,
+      "ArrivalTime": 349.889496,
+      "AutoExitWayPoint": "QingHai_Line3_Exit",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 45,
+      "NextStop": "46",
+      "LineId": 3,
+      "LineName": "城关",
+      "ArrivingVoice": [
+        70601057
+      ],
+      "ArrivingSubtitle": [
+        48010234
+      ],
+      "ArrivalVoice": [
+        70601028
+      ],
+      "ArrivalSubtitle": [
+        48010205
+      ],
+      "DepartureVoice": [
+        70601059,
+        70601018,
+        70601080
+      ],
+      "DepartureSubtitle": [
+        48010236,
+        48010195,
+        48010257
+      ],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 70330019,
+      "GateOpenSide": 0,
+      "ArrivalTime": 516.254272,
+      "AutoExitWayPoint": "ChengGuan_Line3_Exit",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 46,
+      "NextStop": "",
+      "LineId": 3,
+      "LineName": "花月公园",
+      "ArrivingVoice": [
+        70601058
+      ],
+      "ArrivingSubtitle": [
+        48010235
+      ],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 70330015,
+      "GateOpenSide": 1,
+      "ArrivalTime": 655.294617,
+      "AutoExitWayPoint": "HuaYueGongYuan_Line3_Exit",
+      "DefaultExitStop": true
+    },
+    {
+      "Id": 61,
+      "NextStop": "62",
+      "LineId": 4,
+      "LineName": "城关",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [
+        70601028
+      ],
+      "ArrivalSubtitle": [
+        48010205
+      ],
+      "DepartureVoice": [
+        70601061,
+        70601062,
+        70601063,
+        70601080
+      ],
+      "DepartureSubtitle": [
+        48010238,
+        48010239,
+        48010240,
+        48010257
+      ],
+      "InsertVoice": [
+        70601084
+      ],
+      "InsertSubtitle": [
+        48010261
+      ],
+      "InsertTime": 30,
+      "DepartureMusic": 70330020,
+      "GateOpenSide": 1,
+      "ArrivalTime": 0,
+      "AutoExitWayPoint": "ChengGuan_Line4_Exit",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 62,
+      "NextStop": "63",
+      "LineId": 4,
+      "LineName": "鹰庭银行",
+      "ArrivingVoice": [
+        70601064
+      ],
+      "ArrivingSubtitle": [
+        48010241
+      ],
+      "ArrivalVoice": [
+        70601065
+      ],
+      "ArrivalSubtitle": [
+        48010242
+      ],
+      "DepartureVoice": [
+        70601066,
+        70601067,
+        70601081
+      ],
+      "DepartureSubtitle": [
+        48010243,
+        48010244,
+        48010258
+      ],
+      "InsertVoice": [
+        70601085
+      ],
+      "InsertSubtitle": [
+        48010262
+      ],
+      "InsertTime": 30,
+      "DepartureMusic": 70330021,
+      "GateOpenSide": 2,
+      "ArrivalTime": 119.115601,
+      "AutoExitWayPoint": "YingTingYinHang_Line4_Exit",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 63,
+      "NextStop": "64",
+      "LineId": 4,
+      "LineName": "土星塔",
+      "ArrivingVoice": [
+        70601068
+      ],
+      "ArrivingSubtitle": [
+        48010245
+      ],
+      "ArrivalVoice": [
+        70601069
+      ],
+      "ArrivalSubtitle": [
+        48010246
+      ],
+      "DepartureVoice": [
+        70601070,
+        70601071,
+        70601080
+      ],
+      "DepartureSubtitle": [
+        48010247,
+        48010248,
+        48010257
+      ],
+      "InsertVoice": [
+        70601084
+      ],
+      "InsertSubtitle": [
+        48010261
+      ],
+      "InsertTime": 30,
+      "DepartureMusic": 70330022,
+      "GateOpenSide": 2,
+      "ArrivalTime": 249.404999,
+      "AutoExitWayPoint": "TuXingTa_Line4_Exit",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 64,
+      "NextStop": "65",
+      "LineId": 4,
+      "LineName": "砰酷中心",
+      "ArrivingVoice": [
+        70601072
+      ],
+      "ArrivingSubtitle": [
+        48010249
+      ],
+      "ArrivalVoice": [
+        70601073
+      ],
+      "ArrivalSubtitle": [
+        48010250
+      ],
+      "DepartureVoice": [
+        70601074,
+        70601075,
+        70601081
+      ],
+      "DepartureSubtitle": [
+        48010251,
+        48010252,
+        48010258
+      ],
+      "InsertVoice": [
+        70601085
+      ],
+      "InsertSubtitle": [
+        48010262
+      ],
+      "InsertTime": 30,
+      "DepartureMusic": 70330023,
+      "GateOpenSide": 2,
+      "ArrivalTime": 344.838287,
+      "AutoExitWayPoint": "PengKuZhongXin_Line4_Exit",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 65,
+      "NextStop": "66",
+      "LineId": 4,
+      "LineName": "璃色",
+      "ArrivingVoice": [
+        70601076
+      ],
+      "ArrivingSubtitle": [
+        48010253
+      ],
+      "ArrivalVoice": [
+        70601077
+      ],
+      "ArrivalSubtitle": [
+        48010254
+      ],
+      "DepartureVoice": [
+        70601078,
+        70601026,
+        70601080
+      ],
+      "DepartureSubtitle": [
+        48010255,
+        48010203,
+        48010257
+      ],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 70330024,
+      "GateOpenSide": 2,
+      "ArrivalTime": 467.036987,
+      "AutoExitWayPoint": "LiSe_Line4_Exit",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 66,
+      "NextStop": "",
+      "LineId": 4,
+      "LineName": "城关",
+      "ArrivingVoice": [
+        70601027
+      ],
+      "ArrivingSubtitle": [
+        48010204
+      ],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 70330020,
+      "GateOpenSide": 1,
+      "ArrivalTime": 608.478271,
+      "AutoExitWayPoint": "ChengGuan_Line4_Exit",
+      "DefaultExitStop": true
+    },
+    {
+      "Id": 80,
+      "NextStop": "81",
+      "LineId": 5,
+      "LineName": "测试线（快速）起点",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 3,
+      "ArrivalTime": 0,
+      "AutoExitWayPoint": "fakeExit",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 81,
+      "NextStop": "",
+      "LineId": 5,
+      "LineName": "测试线（快速）终点",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 3,
+      "ArrivalTime": 40.3666687,
+      "AutoExitWayPoint": "fakeExit",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 90,
+      "NextStop": "91",
+      "LineId": 6,
+      "LineName": "测试线（中速）起点",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 3,
+      "ArrivalTime": 0,
+      "AutoExitWayPoint": "fakeExit",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 91,
+      "NextStop": "",
+      "LineId": 6,
+      "LineName": "测试线（中速）终点",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 3,
+      "ArrivalTime": 250.100006,
+      "AutoExitWayPoint": "fakeExit",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 100,
+      "NextStop": "101",
+      "LineId": 7,
+      "LineName": "测试线（慢速）起点",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 3,
+      "ArrivalTime": 0,
+      "AutoExitWayPoint": "fakeExit",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 101,
+      "NextStop": "",
+      "LineId": 7,
+      "LineName": "测试线（慢速）终点",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 3,
+      "ArrivalTime": 250.100006,
+      "AutoExitWayPoint": "fakeExit",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 110,
+      "NextStop": "111",
+      "LineId": 8,
+      "LineName": "测试线（环线）起点",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 3,
+      "ArrivalTime": 0,
+      "AutoExitWayPoint": "fakeExit",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 111,
+      "NextStop": "",
+      "LineId": 8,
+      "LineName": "测试线（环线）终点",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 3,
+      "ArrivalTime": 142.666107,
+      "AutoExitWayPoint": "fakeExit",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 120,
+      "NextStop": "121",
+      "LineId": 9,
+      "LineName": "1号线南车库",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 3,
+      "ArrivalTime": 0,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 121,
+      "NextStop": "122",
+      "LineId": 9,
+      "LineName": "云河西路",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 1,
+      "ArrivalTime": 148.392593,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 122,
+      "NextStop": "123",
+      "LineId": 9,
+      "LineName": "临湖步行街",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 1,
+      "ArrivalTime": 262.494598,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 123,
+      "NextStop": "124",
+      "LineId": 9,
+      "LineName": "定澜路",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 1,
+      "ArrivalTime": 377.816589,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 124,
+      "NextStop": "125",
+      "LineId": 9,
+      "LineName": "武林路（1号线）",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 1,
+      "ArrivalTime": 444.421387,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 125,
+      "NextStop": "126",
+      "LineId": 9,
+      "LineName": "定澜北路（1号线）",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 1,
+      "ArrivalTime": 532.149109,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": true
+    },
+    {
+      "Id": 126,
+      "NextStop": "",
+      "LineId": 9,
+      "LineName": "1号线北车库",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 3,
+      "ArrivalTime": 612.072876,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 130,
+      "NextStop": "131",
+      "LineId": 10,
+      "LineName": "1号线北车库",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 3,
+      "ArrivalTime": 0,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 131,
+      "NextStop": "132",
+      "LineId": 10,
+      "LineName": "定澜北路（1号线）",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 1,
+      "ArrivalTime": 69.0006638,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 132,
+      "NextStop": "133",
+      "LineId": 10,
+      "LineName": "武林路（1号线）",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 1,
+      "ArrivalTime": 156.635406,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 133,
+      "NextStop": "134",
+      "LineId": 10,
+      "LineName": "定澜路",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 1,
+      "ArrivalTime": 223.2323,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 134,
+      "NextStop": "135",
+      "LineId": 10,
+      "LineName": "临湖步行街",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 1,
+      "ArrivalTime": 338.586487,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 135,
+      "NextStop": "136",
+      "LineId": 10,
+      "LineName": "云河西路",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 1,
+      "ArrivalTime": 453.748108,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": true
+    },
+    {
+      "Id": 136,
+      "NextStop": "",
+      "LineId": 10,
+      "LineName": "1号线南车库",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 3,
+      "ArrivalTime": 611.909912,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 140,
+      "NextStop": "141",
+      "LineId": 11,
+      "LineName": "2号线南车库",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 3,
+      "ArrivalTime": 0,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 141,
+      "NextStop": "142",
+      "LineId": 11,
+      "LineName": "建业步行街",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 1,
+      "ArrivalTime": 95.6991119,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 142,
+      "NextStop": "143",
+      "LineId": 11,
+      "LineName": "建业路",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 1,
+      "ArrivalTime": 168.962296,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 143,
+      "NextStop": "144",
+      "LineId": 11,
+      "LineName": "大渡港（2号线）",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 1,
+      "ArrivalTime": 303.475098,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 144,
+      "NextStop": "145",
+      "LineId": 11,
+      "LineName": "武林路（2号线）",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 1,
+      "ArrivalTime": 410.557892,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": true
+    },
+    {
+      "Id": 145,
+      "NextStop": "",
+      "LineId": 11,
+      "LineName": "2号线北车库",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 3,
+      "ArrivalTime": 553.24231,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 150,
+      "NextStop": "151",
+      "LineId": 12,
+      "LineName": "2号线北车库",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 3,
+      "ArrivalTime": 0,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 151,
+      "NextStop": "152",
+      "LineId": 12,
+      "LineName": "武林路（2号线）",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 1,
+      "ArrivalTime": 132.457901,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 152,
+      "NextStop": "153",
+      "LineId": 12,
+      "LineName": "大渡港（2号线）",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 1,
+      "ArrivalTime": 239.509705,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 153,
+      "NextStop": "154",
+      "LineId": 12,
+      "LineName": "建业路",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 1,
+      "ArrivalTime": 373.613586,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 154,
+      "NextStop": "155",
+      "LineId": 12,
+      "LineName": "建业步行街",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 1,
+      "ArrivalTime": 446.350311,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": true
+    },
+    {
+      "Id": 155,
+      "NextStop": "",
+      "LineId": 12,
+      "LineName": "2号线南车库",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 3,
+      "ArrivalTime": 552.338684,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 160,
+      "NextStop": "161",
+      "LineId": 13,
+      "LineName": "3号线南车库",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 3,
+      "ArrivalTime": 0,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 161,
+      "NextStop": "162",
+      "LineId": 13,
+      "LineName": "临湖南路",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 1,
+      "ArrivalTime": 86.6225586,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 162,
+      "NextStop": "163",
+      "LineId": 13,
+      "LineName": "云宙中心",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 1,
+      "ArrivalTime": 237.875595,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 163,
+      "NextStop": "164",
+      "LineId": 13,
+      "LineName": "待删除",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 1,
+      "ArrivalTime": 312.46109,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 164,
+      "NextStop": "165",
+      "LineId": 13,
+      "LineName": "新风路",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 1,
+      "ArrivalTime": 390.240814,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 165,
+      "NextStop": "166",
+      "LineId": 13,
+      "LineName": "大渡港（3号线）",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 1,
+      "ArrivalTime": 457.234314,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 166,
+      "NextStop": "167",
+      "LineId": 13,
+      "LineName": "定澜北路（3号线）",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 1,
+      "ArrivalTime": 603.998413,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": true
+    },
+    {
+      "Id": 167,
+      "NextStop": "",
+      "LineId": 13,
+      "LineName": "3号线北车库",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 3,
+      "ArrivalTime": 686.357483,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 170,
+      "NextStop": "171",
+      "LineId": 14,
+      "LineName": "3号线北车库",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 3,
+      "ArrivalTime": 0,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 171,
+      "NextStop": "172",
+      "LineId": 14,
+      "LineName": "定澜北路（3号线）",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 1,
+      "ArrivalTime": 72.18853,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 172,
+      "NextStop": "173",
+      "LineId": 14,
+      "LineName": "大渡港（3号线）",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 1,
+      "ArrivalTime": 217.535004,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 173,
+      "NextStop": "174",
+      "LineId": 14,
+      "LineName": "新风路",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 1,
+      "ArrivalTime": 285.266815,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 174,
+      "NextStop": "175",
+      "LineId": 14,
+      "LineName": "待删除",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 1,
+      "ArrivalTime": 362.439697,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 175,
+      "NextStop": "176",
+      "LineId": 14,
+      "LineName": "云宙中心",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 1,
+      "ArrivalTime": 436.577698,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 176,
+      "NextStop": "177",
+      "LineId": 14,
+      "LineName": "临湖南路",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 1,
+      "ArrivalTime": 588.62262,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": true
+    },
+    {
+      "Id": 177,
+      "NextStop": "",
+      "LineId": 14,
+      "LineName": "3号线南车库",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 3,
+      "ArrivalTime": 685.568787,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 180,
+      "NextStop": "181",
+      "LineId": 15,
+      "LineName": "画舫停靠1",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 3,
+      "ArrivalTime": 0,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 181,
+      "NextStop": "182",
+      "LineId": 15,
+      "LineName": "画舫停靠2",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 3,
+      "ArrivalTime": 136.078506,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 182,
+      "NextStop": "183",
+      "LineId": 15,
+      "LineName": "画舫停靠3",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 3,
+      "ArrivalTime": 249.6875,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 183,
+      "NextStop": "184",
+      "LineId": 15,
+      "LineName": "画舫停靠4",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 3,
+      "ArrivalTime": 385.61319,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 184,
+      "NextStop": "185",
+      "LineId": 15,
+      "LineName": "画舫停靠5",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 3,
+      "ArrivalTime": 528.221313,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 185,
+      "NextStop": "186",
+      "LineId": 15,
+      "LineName": "画舫停靠6",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 3,
+      "ArrivalTime": 651.321716,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 186,
+      "NextStop": "187",
+      "LineId": 15,
+      "LineName": "画舫停靠7",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 3,
+      "ArrivalTime": 775.826477,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": false
+    },
+    {
+      "Id": 187,
+      "NextStop": "",
+      "LineId": 15,
+      "LineName": "画舫停靠1",
+      "ArrivingVoice": [],
+      "ArrivingSubtitle": [],
+      "ArrivalVoice": [],
+      "ArrivalSubtitle": [],
+      "DepartureVoice": [],
+      "DepartureSubtitle": [],
+      "InsertVoice": [],
+      "InsertSubtitle": [],
+      "InsertTime": 0,
+      "DepartureMusic": 0,
+      "GateOpenSide": 3,
+      "ArrivalTime": 915.704285,
+      "AutoExitWayPoint": "",
+      "DefaultExitStop": true
+    }
+  ],
+  "_dumpedCount": 90,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

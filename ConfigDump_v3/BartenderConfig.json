@@ -1,0 +1,124 @@
+{
+  "_class": "BartenderConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 1,
+  "records": [
+    {
+      "Id": 87005100,
+      "NeedActive": true,
+      "MaxProgress": 1,
+      "DrinkMenuList": [
+        87005301,
+        87005302,
+        87005303,
+        87005305,
+        87005306,
+        87005307
+      ],
+      "BartenderSceneNodeName": "Res/MiniGame/Prefab/Bartend/BartenderSceneNode.prefab",
+      "Camera": 10128,
+      "CustomerSpawn": 1196906,
+      "BaseCustomerSpawnInterval": 45,
+      "PerCustomerQuant": 1,
+      "CustomerNormalList": [
+        40130852,
+        40130860,
+        40130940,
+        40130084,
+        40130072,
+        40130071,
+        40130021,
+        40130018,
+        40130274,
+        40130411,
+        40130503,
+        40130810,
+        40130842,
+        40131003,
+        40130982,
+        40130943,
+        40130888,
+        40130879
+      ],
+      "JobId": 901,
+      "SceneElements": [
+        {
+          "ElementsID": 87005200,
+          "prefabID": 1
+        },
+        {
+          "ElementsID": 87005201,
+          "prefabID": 2
+        },
+        {
+          "ElementsID": 87005202,
+          "prefabID": 3
+        },
+        {
+          "ElementsID": 87005203,
+          "prefabID": 4
+        },
+        {
+          "ElementsID": 87005204,
+          "prefabID": 5
+        },
+        {
+          "ElementsID": 87005260,
+          "prefabID": 6
+        },
+        {
+          "ElementsID": 87005230,
+          "prefabID": 14
+        },
+        {
+          "ElementsID": 87005231,
+          "prefabID": 15
+        },
+        {
+          "ElementsID": 87005232,
+          "prefabID": 16
+        },
+        {
+          "ElementsID": 87005240,
+          "prefabID": 21
+        },
+        {
+          "ElementsID": 87005242,
+          "prefabID": 22
+        },
+        {
+          "ElementsID": 87005205,
+          "prefabID": 7
+        },
+        {
+          "ElementsID": 87005206,
+          "prefabID": 8
+        },
+        {
+          "ElementsID": 87005207,
+          "prefabID": 9
+        },
+        {
+          "ElementsID": 87005221,
+          "prefabID": 10
+        },
+        {
+          "ElementsID": 87005222,
+          "prefabID": 11
+        }
+      ],
+      "ElementStockInfos": [],
+      "WaitTime_Angry": {
+        "minT_Angry": 90,
+        "maxT_Angry": 120
+      },
+      "WaitTime_Leave": {
+        "minT_Leave": 30,
+        "maxT_Leave": 90
+      }
+    }
+  ],
+  "_dumpedCount": 1,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

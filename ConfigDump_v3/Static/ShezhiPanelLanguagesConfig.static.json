@@ -1,0 +1,240 @@
+{
+  "CNCfg": {
+    "Id": 1,
+    "Name": "中文",
+    "Abbreviation": "CN",
+    "ImagePath": "zhCN",
+    "TextScale": 1,
+    "AnnouncementFileName": "Announcement_zhCN",
+    "FormatMoneyThreshold": 1000000,
+    "LangCode": "zh-Hans",
+    "NumberFormat": [
+      {
+        "scale": 10000,
+        "abbr": "万"
+      },
+      {
+        "scale": 100000000,
+        "abbr": "亿"
+      },
+      {
+        "scale": 9.99999996e+11,
+        "abbr": "万亿"
+      }
+    ]
+  },
+  "ENCfg": {
+    "Id": 2,
+    "Name": "English",
+    "Abbreviation": "EN",
+    "ImagePath": "enUS",
+    "TextScale": 0.800000012,
+    "AnnouncementFileName": "Announcement_enUS",
+    "FormatMoneyThreshold": 1000000,
+    "LangCode": "en-US",
+    "NumberFormat": [
+      {
+        "scale": 1000,
+        "abbr": "K"
+      },
+      {
+        "scale": 1000000,
+        "abbr": "M"
+      },
+      {
+        "scale": 1e+09,
+        "abbr": "B"
+      }
+    ]
+  },
+  "JPCfg": {
+    "Id": 3,
+    "Name": "日本語",
+    "Abbreviation": "JP",
+    "ImagePath": "jaJP",
+    "TextScale": 1,
+    "AnnouncementFileName": "Announcement_jaJP",
+    "FormatMoneyThreshold": 1000000,
+    "LangCode": "ja-JP",
+    "NumberFormat": [
+      {
+        "scale": 10000,
+        "abbr": "万"
+      },
+      {
+        "scale": 1000000,
+        "abbr": "百万"
+      },
+      {
+        "scale": 10000000,
+        "abbr": "千万"
+      },
+      {
+        "scale": 100000000,
+        "abbr": "億"
+      },
+      {
+        "scale": 1e+10,
+        "abbr": "百億"
+      },
+      {
+        "scale": 9.9999998e+10,
+        "abbr": "千億"
+      },
+      {
+        "scale": 9.99999996e+11,
+        "abbr": "兆"
+      },
+      {
+        "scale": 9.99999987e+14,
+        "abbr": "京"
+      }
+    ]
+  },
+  "KRCfg": {
+    "Id": 4,
+    "Name": "한국어",
+    "Abbreviation": "KR",
+    "ImagePath": "koKR",
+    "TextScale": 1,
+    "AnnouncementFileName": "Announcement_koKR",
+    "FormatMoneyThreshold": 1000000,
+    "LangCode": "ko-KR",
+    "NumberFormat": [
+      {
+        "scale": 1000,
+        "abbr": "천"
+      },
+      {
+        "scale": 10000,
+        "abbr": "만"
+      },
+      {
+        "scale": 1000000,
+        "abbr": "백만"
+      },
+      {
+        "scale": 10000000,
+        "abbr": "천만"
+      },
+      {
+        "scale": 100000000,
+        "abbr": "억"
+      },
+      {
+        "scale": 9.99999996e+11,
+        "abbr": "조"
+      }
+    ]
+  },
+  "DECfg": {
+    "Id": 5,
+    "Name": "Deutsch",
+    "Abbreviation": "DE",
+    "ImagePath": "deDE",
+    "TextScale": 0.800000012,
+    "AnnouncementFileName": "Announcement_enUS",
+    "FormatMoneyThreshold": -1,
+    "LangCode": "de-DE",
+    "NumberFormat": []
+  },
+  "FRCfg": {
+    "Id": 6,
+    "Name": "Français",
+    "Abbreviation": "FR",
+    "ImagePath": "frFR",
+    "TextScale": 0.800000012,
+    "AnnouncementFileName": "Announcement_enUS",
+    "FormatMoneyThreshold": -1,
+    "LangCode": "fr-FR",
+    "NumberFormat": []
+  },
+  "ESCfg": {
+    "Id": 7,
+    "Name": "Español",
+    "Abbreviation": "ES",
+    "ImagePath": "esES",
+    "TextScale": 0.800000012,
+    "AnnouncementFileName": "Announcement_enUS",
+    "FormatMoneyThreshold": -1,
+    "LangCode": "es-ES",
+    "NumberFormat": []
+  },
+  "PTCfg": {
+    "Id": 8,
+    "Name": "Português",
+    "Abbreviation": "PT",
+    "ImagePath": "ptPT",
+    "TextScale": 0.800000012,
+    "AnnouncementFileName": "Announcement_enUS",
+    "FormatMoneyThreshold": -1,
+    "LangCode": "pt-PT",
+    "NumberFormat": []
+  },
+  "RUCfg": {
+    "Id": 9,
+    "Name": "Русский",
+    "Abbreviation": "RU",
+    "ImagePath": "ruRU",
+    "TextScale": 0,
+    "AnnouncementFileName": "Announcement_enUS",
+    "FormatMoneyThreshold": -1,
+    "LangCode": "ru-RU",
+    "NumberFormat": []
+  },
+  "ITCfg": {
+    "Id": 10,
+    "Name": "Italiano",
+    "Abbreviation": "IT",
+    "ImagePath": "itIT",
+    "TextScale": 0,
+    "AnnouncementFileName": "Announcement_enUS",
+    "FormatMoneyThreshold": -1,
+    "LangCode": "it-IT",
+    "NumberFormat": []
+  },
+  "PLCfg": {
+    "Id": 11,
+    "Name": "Polski",
+    "Abbreviation": "PL",
+    "ImagePath": "plPL",
+    "TextScale": 0,
+    "AnnouncementFileName": "Announcement_enUS",
+    "FormatMoneyThreshold": -1,
+    "LangCode": "pl-PL",
+    "NumberFormat": []
+  },
+  "ARCfg": {
+    "Id": 12,
+    "Name": "العربية",
+    "Abbreviation": "AR",
+    "ImagePath": "arSA",
+    "TextScale": 0,
+    "AnnouncementFileName": "Announcement_enUS",
+    "FormatMoneyThreshold": -1,
+    "LangCode": "ar-SA",
+    "NumberFormat": []
+  },
+  "CNTWCfg": {
+    "Id": 13,
+    "Name": "繁體中文",
+    "Abbreviation": "CNTW",
+    "ImagePath": "zhTW",
+    "TextScale": 1,
+    "AnnouncementFileName": "Announcement_enUS",
+    "FormatMoneyThreshold": -1,
+    "LangCode": "zh-Hant",
+    "NumberFormat": []
+  },
+  "VNCfg": {
+    "Id": 14,
+    "Name": "Tiếng Việt",
+    "Abbreviation": "VN",
+    "ImagePath": "viVN",
+    "TextScale": 0,
+    "AnnouncementFileName": "Announcement_enUS",
+    "FormatMoneyThreshold": -1,
+    "LangCode": "vi-VN",
+    "NumberFormat": []
+  }
+}

@@ -1,13 +1,10 @@
 using Ananta.SDK.Rpc;
+using Ananta.Server.Configuration;
 using Ananta.Server.Protocol.Client4229938;
 using Ananta.Server.Handlers.LoginGate;
 
 namespace Ananta.Server.Handlers.Game;
 
-/// <summary>
-/// Build 4229938 private-server surface: world entry, direct character switching,
-/// combat, traversal/buffs, vehicles and movement. Everything else falls back to typed-neutral RPC replies.
-/// </summary>
 internal sealed partial class GameRouter
 {
     internal const string WorldStateKey = "client4229938-world";
@@ -17,7 +14,7 @@ internal sealed partial class GameRouter
 
     private static readonly HashSet<uint> Enabled4229938MethodIds = new()
     {
-        // Login / world-entry barriers.
+        
         MethodId.LoginGame,
         MethodId.RequestGameSceneData,
         MethodId.GetServerTimeGame,
@@ -29,11 +26,11 @@ internal sealed partial class GameRouter
         MethodId.AskLoadingFinished,
         MethodId.AskLoadedInSameScene,
 
-        // Roster + direct character switching.
+        
         MethodId.AskAllSpiritPanelData,
         MethodId.AskSwitchSpirit,
 
-        // Combat / weapon sandbox.
+        
         MethodId.AskSwitchWeapon,
         MethodId.AskSwitchFightStyle,
         MethodId.AskSetWeaponFightStyle,
@@ -52,21 +49,21 @@ internal sealed partial class GameRouter
         MethodId.AskSkillExecute,
         MethodId.AskSkillDestructibleCreate,
 
-        // Client-decided traversal/web buffs.
+        
         MethodId.AskAddClientBuff,
         MethodId.AskRemoveClientBuff,
         MethodId.AskEnterFeiSuoCrouch,
         MethodId.AskFeiSuoSuccess,
         MethodId.AskLeaveFeiSuoCrouch,
 
-        // Live transform tracking.
+        
         MethodId.AskReportLogicAgentSyncData,
         MethodId.AskUnitMoveActionSimple,
         MethodId.AskUnitMoveActionSimpleWithGround,
         MethodId.AskUnitMoveActionWithGround,
         MethodId.AskUnitMoveAction,
 
-        // Vehicles: summon + owned fleet + client-driven drive loop + S011 boarding story.
+        
         MethodId.AskSummonVehicle,
         MethodId.AskGetUnlockedVehicles,
         MethodId.SyncStoryCoreClientInfo,
@@ -89,14 +86,34 @@ internal sealed partial class GameRouter
         MethodId.AskVehicleHit,
         MethodId.AskVehicleHitEnd,
 
-        // GM console (ALT+F1): C2S invokes, server records real ids.
+        
+        
+        
+        
+        MethodId.AskVehicleNavigationPathPoints,
+        MethodId.AskVehicleNavigationPathPointsFromPos,
+        MethodId.AskVehicleNavigationPathLength,
+        MethodId.AskVehicleNavigationPathLengthList,
+        MethodId.AskVehicleStartAutonomousDriving,
+        MethodId.AskVehicleChangeAutonomousDrivingTarget,
+        MethodId.AskVehicleCancelAutonomousDrivingTarget,
+        MethodId.AskVehicleStopAutonomousDriving,
+
+        
         MethodId.GmSpawnVehicle,
         MethodId.GmAddEnemyWithPosition,
         MethodId.GmAddEnemy,
         MethodId.GmAddEnemyByPlayer,
         MethodId.GmTeleportXYZ,
 
-        // Time of day: client-driven UI (accept + remember) + debug-panel slider push.
+        
+        
+        
+        MethodId.ReportPreSwitchSpiritFinish,
+        
+        MethodId.AskSwitchSpiritComplete,
+
+        
         MethodId.AskPassingTime,
         MethodId.GmPassingTime,
         MethodId.GmSetTime,
@@ -105,13 +122,196 @@ internal sealed partial class GameRouter
         MethodId.AddPersonalTimeSetting,
         MethodId.GmSetWeather,
         MethodId.GmSetWeatherParam,
+
+        
+        
+        MethodId.AskSetSpiritFashionsWithSource,
+        MethodId.AskMallBuyCommodity,
+        MethodId.AskBuyCommodity,
+        MethodId.AskNpcShop,
+        MethodId.AskNpcShopCommodityInfo,
+        MethodId.AskGetVehicleRadioContent,
+        MethodId.AskSwitchVehicleRadio,
+        MethodId.AskGetAllMetroInfos,
+        MethodId.AskQueryAllFavorNpcAgentPos,
+        MethodId.AskSetMobileSkinPart,
+        MethodId.AskInstallMobileApp,
+        MethodId.AskUninstallMobileApp,
+        
+        
+        
+        MethodId.AskPhoneAppDownload,
+        MethodId.AskDiscardWeaponByInstanceId,
+        MethodId.AskActiveDynamicGo,
+        MethodId.AskTeleport,
+
+        
+        
+        
+        MethodId.AskTakeJob,
+        MethodId.AskStartJob,
+        MethodId.AskFinishJob,
+        MethodId.AskQuitJob,
+        MethodId.AskActiveSpiritJobTalentLayer,
+        MethodId.AskResetSpiritJobTalent,
+        MethodId.AskConvertCommonSpiritTalentExp,
+
+        
+        
+        
+        
+        MethodId.AskChangeHackerName,
+        MethodId.AskReadHackerNewPost,
+        MethodId.AskAcceptHackerPostTask,
+
+        
+        
+        
+        MethodId.AskHack,
+        MethodId.AskHackVehicle,
+        MethodId.AskVehicleStartHackerAutonomousDriving,
+        MethodId.AskVehicleStopHackerAutonomousDriving,
+        MethodId.AskHackerBetray,
+        MethodId.ReportBeHacked,
+        MethodId.ReportHackerTetrisCreation,
+        MethodId.AskStartHackerTetris,
+        MethodId.AskFinishHackerTetris,
+        
+        
+        MethodId.AskHackingNpcPress,
+        MethodId.AskHackingNpc,
+        MethodId.AskFinishHackingKeyFrame,
+        MethodId.AskInteractCmd,
+        MethodId.AskInteractCmds,
+
+        MethodId.AskPoliceDispatch,
+        MethodId.AskPoliceStopHelicopterDispatch,
+        MethodId.AskPoliceVehicleHorn,
+        MethodId.AskPoliceDistanceMonitorTrigger,
+        MethodId.AskTeleportToPoliceStation,
+        MethodId.AskAcceptPoliceTask,
+        MethodId.AskSkipPoliceTask,
+        MethodId.AskGiveUpPoliceTask,
+        MethodId.AskAbandonPoliceTask,
+        MethodId.AddPoliceChargingProgress,
+        MethodId.UsePoliceChargingProgress,
+        MethodId.AskPoliceTrailTeleport,
+        MethodId.AskRPSInterrogationSelectOption,
+        MethodId.AskPoliceEffectiveExam,
+        MethodId.AskPoliceTakeCaseReward,
+        MethodId.AskReadPoliceFakeClueAgentInfoList,
+        MethodId.AskPoliceFakeFileAcceptTaskEvent,
+        MethodId.AskPoliceFakeFileTakeReward,
+
+        MethodId.AskGetJobBoardInfo,
+
+        MethodId.AskGetTruckJobOrders,
+        MethodId.AskRefreshTruckOrder,
+        MethodId.AskAcceptTruckJobOrder,
+        MethodId.AskPreSettleTruckOrder,
+        MethodId.AskSettleTruckOrder,
+        MethodId.AskObsoleteTruckJobOrder,
+        MethodId.AskAutoAcceptTruckJobOrder,
+        MethodId.AskSetTruckJobDefaultVehicleId,
+        MethodId.AskResetTruckOrderGoods,
+        MethodId.AskStartTruckOrderGuide,
+        MethodId.AskGetTruckSatisfactionAverage,
+        MethodId.AskGetAcceptedOrderWraps,
+        MethodId.AskGetFinishedOrderWraps,
+        MethodId.AskQueryTruckPosInfo,
+        MethodId.AskDoTruckNpcAction,
+        MethodId.AskAddTruckOrderSpecialPointReward,
+        MethodId.AskAddTruckOrderSpecialPointRewards,
+
+        
+        MethodId.AskActivateNpcProfile,
+        MethodId.AskTakeNpcProfileTrustReward,
+        MethodId.AskTakeNpcProfileMaxTrustReward,
+        MethodId.AskTakeNpcProfileProgressReward,
+        MethodId.AskTakeNpcProfileProgressRewardWithWeb,
+
+        
+        MethodId.SyncActiveWildEnemyGroup,
+
+        
+        
+        MethodId.AskAcceptTask,
+        MethodId.AskAcceptAndSetCurrentTask,
+        MethodId.AskSubmitTask,
+        MethodId.AskFinishTaskCounter,
+        MethodId.AskChangeTaskCounterValue,
+        MethodId.AskSetTaskCounterValue,
+        MethodId.AskUpdatePlayerScenarioInfo,
+        MethodId.AskFinishGuide,
+        MethodId.AskDoGuide,
+        MethodId.AskStartGuideByCondition,
+        MethodId.FinishTaskTitleGuideUnlock,
+        MethodId.ForceAcceptTask,
+        MethodId.ForceSubmitTask,
+        MethodId.RemoveCurrentTask,
+        MethodId.GmAcceptTask,
+        MethodId.SyncTaskTitleGuideUnlock,
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        MethodId.AskMomentsPostSimpleInfos,
+        MethodId.AskMomentsPostInfos,
+        MethodId.AskMomentsUnreadMessage,
+        MethodId.AskMomentsHaveUnreadMessage,
+        MethodId.AskMomentsMarkRead,
+        MethodId.AskMomentsLikePost,
+        MethodId.AskMomentsSendCommentWithId,
+        MethodId.AskMomentsTapPostWithCount,
+
+        
+        MethodId.AskServerGraffitoUrl,
     };
 
     internal RpcRouter Build()
     {
         var router = new RpcRouter("game");
         MethodId.RegisterKnownNames(router);
-        _ = AttributedHandlerRegistry.RegisterSelected(router, this, Enabled4229938MethodIds);
+        var registered = AttributedHandlerRegistry.RegisterSelected(router, this, Enabled4229938MethodIds);
+
+        
+        
+        Console.WriteLine(
+            $"[ROUTER] game 注册 {registered} 个处理器 | 骇入自检: "
+            + $"AskHackingNpcPress={router.HasInvokeHandler(MethodId.AskHackingNpcPress)} "
+            + $"AskHackingNpc={router.HasInvokeHandler(MethodId.AskHackingNpc)} "
+            + $"AskFinishHackingKeyFrame={router.HasInvokeHandler(MethodId.AskFinishHackingKeyFrame)} "
+            + $"AskHack={router.HasInvokeHandler(MethodId.AskHack)} "
+            + $"| EnableHack={PrivateServerConfigStore.Current.Gameplay.SpiritContent.HackTargetsEnabled} "
+            + $"电池={PrivateServerConfigStore.Current.Gameplay.SpiritContent.HackerBatteryCurrent}"
+            + $"/{PrivateServerConfigStore.Current.Gameplay.SpiritContent.HackerBatteryTotal}");
+
+        
+        
+        
+        Console.WriteLine(
+            "[ROUTER] 社交自检: "
+            + $"AskMomentsPostSimpleInfos={router.HasInvokeHandler(MethodId.AskMomentsPostSimpleInfos)} "
+            + $"AskMomentsPostInfos={router.HasInvokeHandler(MethodId.AskMomentsPostInfos)} "
+            + $"AskMomentsMarkRead={router.HasInvokeHandler(MethodId.AskMomentsMarkRead)} "
+            + $"AskMomentsLikePost={router.HasInvokeHandler(MethodId.AskMomentsLikePost)} "
+            + $"AskMomentsSendCommentWithId={router.HasInvokeHandler(MethodId.AskMomentsSendCommentWithId)} "
+            + $"AskMomentsUnreadMessage={router.HasInvokeHandler(MethodId.AskMomentsUnreadMessage)} "
+            + $"AskServerGraffitoUrl={router.HasInvokeHandler(MethodId.AskServerGraffitoUrl)} "
+            + $"| enabled={PrivateServerConfigStore.Current.Gameplay.SocialApp.Enabled} "
+            + $"graffito='{PrivateServerConfigStore.Current.Gameplay.SocialApp.GraffitoUrl}'");
+
         router.OnUnknownInvoke(DefaultUnknownInvoke4229938);
         router.OnUnknownNotify(DefaultUnknownNotify4229938);
         return router;

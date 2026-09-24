@@ -1,0 +1,44 @@
+{
+  "SummonVehicleRuleIdCfg": {
+    "Id": 1,
+    "VehicleMissionPathId": 0,
+    "PathOffset": 0,
+    "VehicleMissionPathGroupId": 0,
+    "RuleClass": "ECSStyleRule",
+    "DriveStyle": [],
+    "NormalSpeed": 0,
+    "TargetPosition": []
+  },
+  "CommonPoliceRuleCfg": {
+    "Id": 53,
+    "VehicleMissionPathId": 0,
+    "PathOffset": 0,
+    "VehicleMissionPathGroupId": 0,
+    "RuleClass": "PoliceVehicleRule",
+    "DriveStyle": [
+      "UseHandBrake"
+    ],
+    "NormalSpeed": 0,
+    "TargetPosition": []
+  },
+  "FindStaticTargetRuleConfigCfg": {
+    "Id": 57,
+    "VehicleMissionPathId": 0,
+    "PathOffset": 0,
+    "VehicleMissionPathGroupId": 0,
+    "RuleClass": "FindStaticTargetRule",
+    "DriveStyle": [],
+    "NormalSpeed": 7,
+    "TargetPosition": []
+  },
+  "AutoDriveCfg": {
+    "Id": 111,
+    "VehicleMissionPathId": 0,
+    "PathOffset": 0,
+    "VehicleMissionPathGroupId": 0,
+    "RuleClass": "ECSStyleRule",
+    "DriveStyle": [],
+    "NormalSpeed": 18,
+    "TargetPosition": []
+  }
+}

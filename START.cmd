@@ -1,7 +1,7 @@
 @echo off
 setlocal EnableExtensions
 cd /d "%~dp0"
-title Ananta 4229938 Private Server
+title DRMK 4229938 Private Server
 
 where powershell.exe >nul 2>&1
 if errorlevel 1 (

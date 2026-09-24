@@ -1,0 +1,256 @@
+{
+  "_class": "FarmSeasonConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 4,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "蓝星缀",
+      "Icon": 0,
+      "BoostSeedType": "茶类",
+      "MutationPool": [
+        {
+          "consumableId": 36400017,
+          "weight": 40
+        },
+        {
+          "consumableId": 36400014,
+          "weight": 50
+        },
+        {
+          "consumableId": 36400015,
+          "weight": 50
+        },
+        {
+          "consumableId": 36400013,
+          "weight": 50
+        }
+      ],
+      "HotCropPool": [
+        {
+          "consumableId": 36400011,
+          "weight": 50,
+          "price": 80,
+          "sellSpeed": 130
+        },
+        {
+          "consumableId": 36400021,
+          "weight": 100,
+          "price": 80,
+          "sellSpeed": 130
+        },
+        {
+          "consumableId": 36400015,
+          "weight": 100,
+          "price": 140,
+          "sellSpeed": 130
+        },
+        {
+          "consumableId": 36400014,
+          "weight": 50,
+          "price": 180,
+          "sellSpeed": 130
+        },
+        {
+          "consumableId": 36400018,
+          "weight": 90,
+          "price": 60,
+          "sellSpeed": 130
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "Name": "红珠染",
+      "Icon": 0,
+      "BoostSeedType": "蔬菜类",
+      "MutationPool": [
+        {
+          "consumableId": 36400011,
+          "weight": 40
+        },
+        {
+          "consumableId": 36400014,
+          "weight": 50
+        },
+        {
+          "consumableId": 36400015,
+          "weight": 50
+        },
+        {
+          "consumableId": 36400012,
+          "weight": 50
+        },
+        {
+          "consumableId": 36400000,
+          "weight": 100
+        }
+      ],
+      "HotCropPool": [
+        {
+          "consumableId": 36400016,
+          "weight": 50,
+          "price": 110,
+          "sellSpeed": 130
+        },
+        {
+          "consumableId": 36400011,
+          "weight": 20,
+          "price": 90,
+          "sellSpeed": 130
+        },
+        {
+          "consumableId": 36400017,
+          "weight": 60,
+          "price": 120,
+          "sellSpeed": 130
+        },
+        {
+          "consumableId": 36400015,
+          "weight": 70,
+          "price": 80,
+          "sellSpeed": 130
+        },
+        {
+          "consumableId": 36400017,
+          "weight": 40,
+          "price": 70,
+          "sellSpeed": 130
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "Name": "伞破晓",
+      "Icon": 0,
+      "BoostSeedType": "水果类",
+      "MutationPool": [
+        {
+          "consumableId": 36400011,
+          "weight": 40
+        },
+        {
+          "consumableId": 36400002,
+          "weight": 50
+        },
+        {
+          "consumableId": 36400015,
+          "weight": 50
+        },
+        {
+          "consumableId": 36400013,
+          "weight": 50
+        },
+        {
+          "consumableId": 36400000,
+          "weight": 100
+        }
+      ],
+      "HotCropPool": [
+        {
+          "consumableId": 36400011,
+          "weight": 50,
+          "price": 80,
+          "sellSpeed": 100
+        },
+        {
+          "consumableId": 36400021,
+          "weight": 100,
+          "price": 80,
+          "sellSpeed": 100
+        },
+        {
+          "consumableId": 36400015,
+          "weight": 100,
+          "price": 140,
+          "sellSpeed": 100
+        },
+        {
+          "consumableId": 36400014,
+          "weight": 50,
+          "price": 180,
+          "sellSpeed": 100
+        },
+        {
+          "consumableId": 36400018,
+          "weight": 90,
+          "price": 60,
+          "sellSpeed": 100
+        }
+      ]
+    },
+    {
+      "Id": 4,
+      "Name": "玉刃寒",
+      "Icon": 0,
+      "BoostSeedType": "药材类",
+      "MutationPool": [
+        {
+          "consumableId": 36400019,
+          "weight": 40
+        },
+        {
+          "consumableId": 36400013,
+          "weight": 50
+        },
+        {
+          "consumableId": 36400015,
+          "weight": 50
+        },
+        {
+          "consumableId": 36400013,
+          "weight": 50
+        },
+        {
+          "consumableId": 36400016,
+          "weight": 100
+        },
+        {
+          "consumableId": 36400019,
+          "weight": 50
+        }
+      ],
+      "HotCropPool": [
+        {
+          "consumableId": 36400016,
+          "weight": 50,
+          "price": 110,
+          "sellSpeed": 100
+        },
+        {
+          "consumableId": 36400011,
+          "weight": 20,
+          "price": 90,
+          "sellSpeed": 100
+        },
+        {
+          "consumableId": 36400017,
+          "weight": 60,
+          "price": 120,
+          "sellSpeed": 100
+        },
+        {
+          "consumableId": 36400015,
+          "weight": 70,
+          "price": 80,
+          "sellSpeed": 100
+        },
+        {
+          "consumableId": 36400014,
+          "weight": 40,
+          "price": 70,
+          "sellSpeed": 100
+        },
+        {
+          "consumableId": 36400020,
+          "weight": 90,
+          "price": 130,
+          "sellSpeed": 100
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 4,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

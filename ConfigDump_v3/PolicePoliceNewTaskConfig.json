@@ -1,0 +1,191 @@
+{
+  "_class": "PolicePoliceNewTaskConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 5,
+  "records": [
+    {
+      "Id": 1,
+      "MissionDifficulty": 1,
+      "MissionWeight": 10,
+      "ErrandWeight": [
+        30,
+        20,
+        10,
+        40
+      ],
+      "RiotPool": [
+        632,
+        985,
+        986,
+        1007,
+        1019,
+        1020,
+        1021,
+        1022,
+        1055,
+        1056
+      ],
+      "CampPool": [
+        15,
+        16
+      ],
+      "CarChasePool": [
+        1045,
+        1141
+      ],
+      "CheckPool": [
+        826,
+        1043
+      ],
+      "JobLevelRange": {
+        "min": 1,
+        "max": 8
+      }
+    },
+    {
+      "Id": 2,
+      "MissionDifficulty": 2,
+      "MissionWeight": 50,
+      "ErrandWeight": [
+        30,
+        20,
+        10,
+        40
+      ],
+      "RiotPool": [
+        274,
+        275,
+        276,
+        277,
+        278,
+        279
+      ],
+      "CampPool": [
+        3,
+        4
+      ],
+      "CarChasePool": [
+        1143,
+        1258
+      ],
+      "CheckPool": [
+        1044,
+        1008
+      ],
+      "JobLevelRange": {
+        "min": 3,
+        "max": 10
+      }
+    },
+    {
+      "Id": 3,
+      "MissionDifficulty": 3,
+      "MissionWeight": 100,
+      "ErrandWeight": [
+        30,
+        20,
+        10,
+        40
+      ],
+      "RiotPool": [
+        716,
+        717,
+        718,
+        719,
+        720,
+        721
+      ],
+      "CampPool": [
+        6,
+        17,
+        19
+      ],
+      "CarChasePool": [
+        1290
+      ],
+      "CheckPool": [
+        1251,
+        1238
+      ],
+      "JobLevelRange": {
+        "min": 5,
+        "max": 12
+      }
+    },
+    {
+      "Id": 4,
+      "MissionDifficulty": 4,
+      "MissionWeight": 150,
+      "ErrandWeight": [
+        30,
+        20,
+        10,
+        40
+      ],
+      "RiotPool": [
+        108,
+        112,
+        122,
+        166,
+        167,
+        168,
+        193
+      ],
+      "CampPool": [
+        5,
+        8
+      ],
+      "CarChasePool": [
+        2816,
+        2883
+      ],
+      "CheckPool": [
+        1315
+      ],
+      "JobLevelRange": {
+        "min": 8,
+        "max": 14
+      }
+    },
+    {
+      "Id": 5,
+      "MissionDifficulty": 5,
+      "MissionWeight": 200,
+      "ErrandWeight": [
+        30,
+        20,
+        10,
+        40
+      ],
+      "RiotPool": [
+        182,
+        184,
+        187,
+        188,
+        100,
+        101,
+        102
+      ],
+      "CampPool": [
+        11,
+        12
+      ],
+      "CarChasePool": [
+        3109,
+        3258
+      ],
+      "CheckPool": [
+        1251,
+        1238,
+        1315
+      ],
+      "JobLevelRange": {
+        "min": 10,
+        "max": 16
+      }
+    }
+  ],
+  "_dumpedCount": 5,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

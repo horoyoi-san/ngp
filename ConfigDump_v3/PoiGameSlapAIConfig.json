@@ -1,0 +1,150 @@
+{
+  "_class": "PoiGameSlapAIConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 4,
+  "records": [
+    {
+      "Id": 100,
+      "ModelID": [
+        40130583
+      ],
+      "Hp": 350,
+      "Atk": 100,
+      "AtkRate": 1,
+      "ThinkTime": [
+        2,
+        3
+      ],
+      "ChangeRate": 0.25,
+      "DefenceRate": 0.800000012,
+      "DefenceTime": [
+        3,
+        5
+      ],
+      "CheatRate": 0.100000001,
+      "QTEThinkTime": [
+        0.649999976,
+        0.75
+      ],
+      "QTEInterval": [
+        0.649999976,
+        0.75
+      ],
+      "QteCheatRate": 0.850000024,
+      "ChallengeID": 20,
+      "NPCAtkTime": [
+        5,
+        8
+      ],
+      "PerfectRate": 0.400000006
+    },
+    {
+      "Id": 101,
+      "ModelID": [
+        40120778
+      ],
+      "Hp": 350,
+      "Atk": 100,
+      "AtkRate": 1,
+      "ThinkTime": [
+        1.5,
+        2
+      ],
+      "ChangeRate": 0.400000006,
+      "DefenceRate": 0.899999976,
+      "DefenceTime": [
+        2.5,
+        4
+      ],
+      "CheatRate": 0.25,
+      "QTEThinkTime": [
+        0.5,
+        0.699999988
+      ],
+      "QTEInterval": [
+        0.5,
+        0.699999988
+      ],
+      "QteCheatRate": 0.899999976,
+      "ChallengeID": 21,
+      "NPCAtkTime": [
+        5,
+        8
+      ],
+      "PerfectRate": 0.600000024
+    },
+    {
+      "Id": 102,
+      "ModelID": [
+        40121085
+      ],
+      "Hp": 350,
+      "Atk": 100,
+      "AtkRate": 1,
+      "ThinkTime": [
+        1,
+        1.5
+      ],
+      "ChangeRate": 0.600000024,
+      "DefenceRate": 0.949999988,
+      "DefenceTime": [
+        2,
+        3.5
+      ],
+      "CheatRate": 0.400000006,
+      "QTEThinkTime": [
+        0.449999988,
+        0.600000024
+      ],
+      "QTEInterval": [
+        0.449999988,
+        0.600000024
+      ],
+      "QteCheatRate": 0.899999976,
+      "ChallengeID": 23,
+      "NPCAtkTime": [
+        4,
+        8
+      ],
+      "PerfectRate": 0.800000012
+    },
+    {
+      "Id": 103,
+      "ModelID": [
+        40120779
+      ],
+      "Hp": 400,
+      "Atk": 100,
+      "AtkRate": 1,
+      "ThinkTime": [
+        0.800000012,
+        1
+      ],
+      "ChangeRate": 0.800000012,
+      "DefenceRate": 0.99000001,
+      "DefenceTime": [
+        1.5,
+        2
+      ],
+      "CheatRate": 0.699999988,
+      "QTEThinkTime": [
+        0.400000006,
+        0.5
+      ],
+      "QTEInterval": [
+        0.400000006,
+        0.5
+      ],
+      "QteCheatRate": 0.949999988,
+      "ChallengeID": 24,
+      "NPCAtkTime": [
+        3,
+        8
+      ],
+      "PerfectRate": 0.949999988
+    }
+  ],
+  "_dumpedCount": 4,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

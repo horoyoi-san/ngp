@@ -1,0 +1,32 @@
+{
+  "_class": "CompoundTargetTypeConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 2,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "道具",
+      "Order": 1,
+      "NameField": "Name",
+      "IconField": "SItemIconId",
+      "QualityField": "Quality",
+      "DesField": "Description",
+      "SubOrderField": "SubType",
+      "Icon": 28000362
+    },
+    {
+      "Id": 2,
+      "Name": "武器",
+      "Order": 100,
+      "NameField": "Name",
+      "IconField": "WeaponConsumableIcon",
+      "QualityField": "Quality",
+      "DesField": "Description",
+      "SubOrderField": "Type",
+      "Icon": 28000359
+    }
+  ],
+  "_dumpedCount": 2,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

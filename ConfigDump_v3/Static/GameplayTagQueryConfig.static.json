@@ -1,0 +1,1267 @@
+{
+  "CanMultiInteractCfg": {
+    "Id": 1,
+    "Name": "CanMultiInteract",
+    "QueryExpression": "NoMatch(ForbidMultiInteract)"
+  },
+  "CanEdgeAndWallCfg": {
+    "Id": 2,
+    "Name": "CanEdgeAndWall",
+    "QueryExpression": "NoMatch(ForbidEdgeAndWall)"
+  },
+  "ShowWeaponCfg": {
+    "Id": 3,
+    "Name": "ShowWeapon",
+    "QueryExpression": "AllMatch(AnyMatch(AllowShowWeapon) NoMatch(ForbidShowWeapon))"
+  },
+  "HideWeaponCfg": {
+    "Id": 4,
+    "Name": "HideWeapon",
+    "QueryExpression": "AnyMatch(AllowHideWeapon)"
+  },
+  "ShowDemonHandLCfg": {
+    "Id": 5,
+    "Name": "ShowDemonHandL",
+    "QueryExpression": "AnyMatch(AllowShowDemonHandL)"
+  },
+  "ShowDemonHandRCfg": {
+    "Id": 6,
+    "Name": "ShowDemonHandR",
+    "QueryExpression": "AnyMatch(AllowShowDemonHandR)"
+  },
+  "IsOnGroundCfg": {
+    "Id": 7,
+    "Name": "IsOnGround",
+    "QueryExpression": "AllMatch(AnyMatch(OnGround)NoMatch(NoGround))"
+  },
+  "CanPickUpBallCfg": {
+    "Id": 8,
+    "Name": "CanPickUpBall",
+    "QueryExpression": "AllMatch(AnyMatch(AllowPickUpBall) NoMatch(ForbidPickUpBall))"
+  },
+  "CanUseCameraRotationCfg": {
+    "Id": 9,
+    "Name": "CanUseCameraRotation",
+    "QueryExpression": "AllMatch(AnyMatch(AllowUseCameraRotation) NoMatch(ForbidUseCameraRotation))"
+  },
+  "IdleRelaxCfg": {
+    "Id": 10,
+    "Name": "IdleRelax",
+    "QueryExpression": "AllMatch(AnyMatch(AllowIdleRelax) NoMatch(ForbidIdleRelax))"
+  },
+  "IsValidEntrySystemActionCfg": {
+    "Id": 11,
+    "Name": "IsValidEntrySystemAction",
+    "QueryExpression": "NoMatch(InvalidEntrySystemAction)"
+  },
+  "CanMoveTurnCfg": {
+    "Id": 12,
+    "Name": "CanMoveTurn",
+    "QueryExpression": "NoMatch(ForbidMoveTurn)"
+  },
+  "StopWhenEnterFallCfg": {
+    "Id": 13,
+    "Name": "StopWhenEnterFall",
+    "QueryExpression": "AnyMatch(AllowStopWhenEnterFall)"
+  },
+  "CanOpenDoorCfg": {
+    "Id": 14,
+    "Name": "CanOpenDoor",
+    "QueryExpression": "AllMatch(AnyMatch(AllowOpenDoor) NoMatch(ForbidOpenDoor))"
+  },
+  "CanPickUpFootBallCfg": {
+    "Id": 15,
+    "Name": "CanPickUpFootBall",
+    "QueryExpression": "AllMatch(AnyMatch(AllowPickUpFootBall) NoMatch(ForbidPickUpFootBall))"
+  },
+  "HackAdjustPoseCfg": {
+    "Id": 16,
+    "Name": "HackAdjustPose",
+    "QueryExpression": "AllMatch(AnyMatch(AllowHackAdjustPose) NoMatch(ForbidHackAdjustPose))"
+  },
+  "CanDrinkCfg": {
+    "Id": 17,
+    "Name": "CanDrink",
+    "QueryExpression": "AnyMatch(AllowDrink)"
+  },
+  "CanPlaySummonActionCfg": {
+    "Id": 18,
+    "Name": "CanPlaySummonAction",
+    "QueryExpression": "NoMatch(ForbidPlaySummonAction)"
+  },
+  "CanFaceLockTargetCfg": {
+    "Id": 19,
+    "Name": "CanFaceLockTarget",
+    "QueryExpression": "AnyMatch(AllowFaceLockTarget)"
+  },
+  "CanEdgeAndWallV2Cfg": {
+    "Id": 20,
+    "Name": "CanEdgeAndWallV2",
+    "QueryExpression": "NoMatch(ForbidEdgeAndWallV2)"
+  },
+  "PoliceCarBegCfg": {
+    "Id": 21,
+    "Name": "PoliceCarBeg",
+    "QueryExpression": ""
+  },
+  "PoliceCarHandUpCfg": {
+    "Id": 22,
+    "Name": "PoliceCarHandUp",
+    "QueryExpression": ""
+  },
+  "LookAtIKCfg": {
+    "Id": 23,
+    "Name": "LookAtIK",
+    "QueryExpression": "NoMatch(ForbidLookatIK)"
+  },
+  "BasketBallCanDefendCfg": {
+    "Id": 24,
+    "Name": "BasketBallCanDefend",
+    "QueryExpression": "AllMatch(AnyMatch(AllowBasketBallCanDefend) NoMatch(ForbidBasketBallCanDefend))"
+  },
+  "TestCfg": {
+    "Id": 25,
+    "Name": "Test",
+    "QueryExpression": "AllMatch(AllMatch(Test1) AnyMatch(Test2) NoMatch(Test3))"
+  },
+  "BasketBallCanRotateToDefendCfg": {
+    "Id": 26,
+    "Name": "BasketBallCanRotateToDefend",
+    "QueryExpression": "NoMatch(ForbidBasketBallCanRotateToDefend)"
+  },
+  "IsForbidCityPedCfg": {
+    "Id": 27,
+    "Name": "IsForbidCityPed",
+    "QueryExpression": "AnyMatch(ForbidCityPed_Any)"
+  },
+  "MovePoseCheckCfg": {
+    "Id": 28,
+    "Name": "MovePoseCheck",
+    "QueryExpression": "AnyMatch(AllowMovePoseCheck)"
+  },
+  "HoldRightArmCfg": {
+    "Id": 29,
+    "Name": "HoldRightArm",
+    "QueryExpression": "AnyMatch(AllMatch(AnyMatch(HoldRightArmMove) NoMatch(ForbidHoldRightArm)) AnyMatch(HoldWeaponAction))"
+  },
+  "HoldBothArmCfg": {
+    "Id": 30,
+    "Name": "HoldBothArm",
+    "QueryExpression": "AnyMatch(AllMatch(AnyMatch(HoldBothArmMove) NoMatch(ForbidHoldBothArm)) AnyMatch(HoldWeaponAction))"
+  },
+  "HoldFullBodyCfg": {
+    "Id": 31,
+    "Name": "HoldFullBody",
+    "QueryExpression": "AnyMatch(AllMatch(AnyMatch(HoldFullBodyMove) NoMatch(ForbidHoldFullBody)) AnyMatch(HoldWeaponAction))"
+  },
+  "CanGunShootCfg": {
+    "Id": 32,
+    "Name": "CanGunShoot",
+    "QueryExpression": "AllMatch(NoMatch(ForbidGunShoot) NoMatch(AllMatch( NoMatch(NoMatch(State_GunBanEnabled)) NoMatch(NoGunConstraint) NoMatch(HasViewEnemy))))"
+  },
+  "CanGunAimCfg": {
+    "Id": 33,
+    "Name": "CanGunAim",
+    "QueryExpression": "All(No(ForbidGunAim) Any(No(State_GunBanEnabled) NoGunConstraint HasViewEnemy))"
+  },
+  "CanGunHipAimCfg": {
+    "Id": 45,
+    "Name": "CanGunHipAim",
+    "QueryExpression": "AllMatch(NoMatch(ForbidGunAim) NoMatch(ForbidHipAim))"
+  },
+  "CanGunShoulderAimCfg": {
+    "Id": 59,
+    "Name": "CanGunShoulderAim",
+    "QueryExpression": "AllMatch(NoMatch(ForbidGunAim) NoMatch(ForbidShoulderAim))"
+  },
+  "CanLookPhoneCfg": {
+    "Id": 34,
+    "Name": "CanLookPhone",
+    "QueryExpression": "AllMatch(AnyMatch(AllowLookPhone) NoMatch(ForbidLookPhone))"
+  },
+  "CanSlowMoveFadeCfg": {
+    "Id": 35,
+    "Name": "CanSlowMoveFade",
+    "QueryExpression": "AnyMatch(AllowSlowMoveFade)"
+  },
+  "CanGunReloadCfg": {
+    "Id": 36,
+    "Name": "CanGunReload",
+    "QueryExpression": "NoMatch(ForbidGunReload)"
+  },
+  "CanInteractVehicleCfg": {
+    "Id": 37,
+    "Name": "CanInteractVehicle",
+    "QueryExpression": "NoMatch(ForbidInteractVehicle)"
+  },
+  "CanHackSummonCfg": {
+    "Id": 38,
+    "Name": "CanHackSummon",
+    "QueryExpression": "NoMatch(ForbidHackSummon)"
+  },
+  "IsGroundTypeCfg": {
+    "Id": 39,
+    "Name": "IsGroundType",
+    "QueryExpression": "AnyMatch(GroundType)"
+  },
+  "FeisuoClickCfg": {
+    "Id": 40,
+    "Name": "FeisuoClick",
+    "QueryExpression": "AllMatch(NoMatch(ForbidFeisuoClick) AllMatch(HasFeisuoAbility))"
+  },
+  "CanAgainstWallCfg": {
+    "Id": 41,
+    "Name": "CanAgainstWall",
+    "QueryExpression": "NoMatch(ForbidAgainstWall)"
+  },
+  "CanWingsuitFlyCfg": {
+    "Id": 42,
+    "Name": "CanWingsuitFly",
+    "QueryExpression": "NoMatch(ForbidWingsuitFly)"
+  },
+  "CanPlaygroundSlideCfg": {
+    "Id": 43,
+    "Name": "CanPlaygroundSlide",
+    "QueryExpression": "NoMatch(ForbidPlaygroundSlide)"
+  },
+  "CanMoToCfg": {
+    "Id": 44,
+    "Name": "CanMoTo",
+    "QueryExpression": "NoMatch(NoInteractTaFeiMoto)"
+  },
+  "CanInteractHatPutonCfg": {
+    "Id": 46,
+    "Name": "CanInteractHatPuton",
+    "QueryExpression": "AllMatch(AnyMatch(AllowInteractHatPuton) NoMatch(ForbidInteractHatPut))"
+  },
+  "CanInteractHatPutoffCfg": {
+    "Id": 47,
+    "Name": "CanInteractHatPutoff",
+    "QueryExpression": "AllMatch(AnyMatch(AllowInteractHatPutoff) NoMatch(ForbidInteractHatPut))"
+  },
+  "IsArmLeftBusyCfg": {
+    "Id": 48,
+    "Name": "IsArmLeftBusy",
+    "QueryExpression": "AnyMatch(ArmLeftBusy)"
+  },
+  "CanLadderCfg": {
+    "Id": 49,
+    "Name": "CanLadder",
+    "QueryExpression": "AllMatch(AnyMatch(CanLadderZone)NoMatch(BanLadderUp))"
+  },
+  "OnlyRushCfg": {
+    "Id": 50,
+    "Name": "OnlyRush",
+    "QueryExpression": "AnyMatch(OnlyRush)"
+  },
+  "GrounderIKCfg": {
+    "Id": 51,
+    "Name": "GrounderIK",
+    "QueryExpression": "AllMatch(AnyMatch(AllowGroundIK) NoMatch(ForbidGroundIK))"
+  },
+  "CanSetStableSlopeAngleCfg": {
+    "Id": 52,
+    "Name": "CanSetStableSlopeAngle",
+    "QueryExpression": "NoMatch(ForbidSetStableSlopeAngle)"
+  },
+  "IsFeisuoAirNormalStartCfg": {
+    "Id": 53,
+    "Name": "IsFeisuoAirNormalStart",
+    "QueryExpression": "AllMatch(AnyMatch(FeisuoAirStart) NoMatch(FeisuoAirFaithLeapStart)NoMatch(FeisuoAirAirRushStart))"
+  },
+  "IsFeisuoAirFaithLeapStartCfg": {
+    "Id": 54,
+    "Name": "IsFeisuoAirFaithLeapStart",
+    "QueryExpression": "AnyMatch(FeisuoAirFaithLeapStart)"
+  },
+  "IsFeisuoAirAirRushStartCfg": {
+    "Id": 55,
+    "Name": "IsFeisuoAirAirRushStart",
+    "QueryExpression": "AnyMatch(FeisuoAirAirRushStart)"
+  },
+  "IsFeisuoCrouchStartCfg": {
+    "Id": 56,
+    "Name": "IsFeisuoCrouchStart",
+    "QueryExpression": "AnyMatch(FeisuoCrouchStart)"
+  },
+  "IsFeisuoRunStartCfg": {
+    "Id": 57,
+    "Name": "IsFeisuoRunStart",
+    "QueryExpression": "AnyMatch(FeisuoRunStart)"
+  },
+  "IsFeisuoGroundNormalStartCfg": {
+    "Id": 58,
+    "Name": "IsFeisuoGroundNormalStart",
+    "QueryExpression": "AnyMatch(FeisuoGroundNormalStart)"
+  },
+  "CanDynamicItemCollisonCfg": {
+    "Id": 60,
+    "Name": "CanDynamicItemCollison",
+    "QueryExpression": "NoMatch(ForbidDynamicItemCollison)"
+  },
+  "CanMoveByDynamicItemCfg": {
+    "Id": 61,
+    "Name": "CanMoveByDynamicItem",
+    "QueryExpression": "AnyMatch(ForbidMoveByDynamicItem)"
+  },
+  "IsForceBreakItemCfg": {
+    "Id": 62,
+    "Name": "IsForceBreakItem",
+    "QueryExpression": "AnyMatch(ForceBreakItem)"
+  },
+  "IgnoreHurtDynamicItemCfg": {
+    "Id": 63,
+    "Name": "IgnoreHurtDynamicItem",
+    "QueryExpression": "AnyMatch(IgnoreHurtDynamicItem)"
+  },
+  "CanSwingCfg": {
+    "Id": 64,
+    "Name": "CanSwing",
+    "QueryExpression": "AllMatch(AnyMatch(CanSwing) NoMatch(ForbidSwing))"
+  },
+  "CanClimbTipShowCfg": {
+    "Id": 65,
+    "Name": "CanClimbTipShow",
+    "QueryExpression": "NoMatch(ForbidShowClimb)"
+  },
+  "CanInteractFloatFlightCfg": {
+    "Id": 66,
+    "Name": "CanInteractFloatFlight",
+    "QueryExpression": "AllMatch(AnyMatch(AllowFloatFlight)NoMatch(ForbidFloatFlight))"
+  },
+  "CheckRunStateCfg": {
+    "Id": 67,
+    "Name": "CheckRunState",
+    "QueryExpression": "AnyMatch(RunState)"
+  },
+  "CheckRushStateCfg": {
+    "Id": 68,
+    "Name": "CheckRushState",
+    "QueryExpression": "AnyMatch(RushState)"
+  },
+  "IsAnimProwlCfg": {
+    "Id": 69,
+    "Name": "IsAnimProwl",
+    "QueryExpression": "AnyMatch(ProwlAnimState)"
+  },
+  "CanInteractNormalAttackCfg": {
+    "Id": 70,
+    "Name": "CanInteractNormalAttack",
+    "QueryExpression": "AnyMatch( NoMatch(NoInteractNormalAttack) AllMatch(isShipShoot))"
+  },
+  "IsVisibleNormalAttack_MobileCfg": {
+    "Id": 71,
+    "Name": "IsVisibleNormalAttack_Mobile",
+    "QueryExpression": "NoMatch(NonVisibleNormalAttack_Mobile)"
+  },
+  "CanInteractHeavyAttackCfg": {
+    "Id": 72,
+    "Name": "CanInteractHeavyAttack",
+    "QueryExpression": "NoMatch(NoInteractHeavyAttack)"
+  },
+  "CanInteractHeavyAttack_MobileCfg": {
+    "Id": 73,
+    "Name": "CanInteractHeavyAttack_Mobile",
+    "QueryExpression": "NoMatch(NoInteractHeavyAttack_Mobile)"
+  },
+  "IsVisibleHeavyAttack_MobileCfg": {
+    "Id": 74,
+    "Name": "IsVisibleHeavyAttack_Mobile",
+    "QueryExpression": "NoMatch(NonVisibleHeavyAttack_Mobile)"
+  },
+  "CanInteractSkillCfg": {
+    "Id": 75,
+    "Name": "CanInteractSkill",
+    "QueryExpression": "NoMatch(NoInteractSkill)"
+  },
+  "IsVisibleSkillCfg": {
+    "Id": 76,
+    "Name": "IsVisibleSkill",
+    "QueryExpression": "NoMatch(NonVisibleSkill)"
+  },
+  "IsVisibleSkill_MobileCfg": {
+    "Id": 77,
+    "Name": "IsVisibleSkill_Mobile",
+    "QueryExpression": "NoMatch(NonVisibleSkill_Mobile)"
+  },
+  "CanInteractUltSkillCfg": {
+    "Id": 78,
+    "Name": "CanInteractUltSkill",
+    "QueryExpression": "NoMatch(NoInteractUltSkill)"
+  },
+  "IsVisibleUltSkillCfg": {
+    "Id": 79,
+    "Name": "IsVisibleUltSkill",
+    "QueryExpression": "NoMatch(NonVisibleUltSkill)"
+  },
+  "IsVisibleUltSkill_MobileCfg": {
+    "Id": 80,
+    "Name": "IsVisibleUltSkill_Mobile",
+    "QueryExpression": "NoMatch(NonVisibleUltSkill_Mobile)"
+  },
+  "CanInteractDodgeCfg": {
+    "Id": 81,
+    "Name": "CanInteractDodge",
+    "QueryExpression": "NoMatch(NoInteractDodge)"
+  },
+  "IsVisibleDodge_MobileCfg": {
+    "Id": 82,
+    "Name": "IsVisibleDodge_Mobile",
+    "QueryExpression": "NoMatch(NonVisibleDodge_Mobile)"
+  },
+  "CanInteractJumpJumpCfg": {
+    "Id": 83,
+    "Name": "CanInteractJumpJump",
+    "QueryExpression": "NoMatch(NoInteractJumpJump)"
+  },
+  "IsVisibleJumpJump_MobileCfg": {
+    "Id": 84,
+    "Name": "IsVisibleJumpJump_Mobile",
+    "QueryExpression": "NoMatch(NonVisibleJumpJump_Mobile)"
+  },
+  "CanInteractMindPowerCfg": {
+    "Id": 85,
+    "Name": "CanInteractMindPower",
+    "QueryExpression": "NoMatch(NoInteractMindPower)"
+  },
+  "IsVisibleMindPowerCfg": {
+    "Id": 86,
+    "Name": "IsVisibleMindPower",
+    "QueryExpression": "NoMatch(NonVisibleMindPower)"
+  },
+  "CanInteractMindPower_MobileCfg": {
+    "Id": 87,
+    "Name": "CanInteractMindPower_Mobile",
+    "QueryExpression": "NoMatch(NoInteractMindPower_Mobile)"
+  },
+  "IsVisibleMindPower_MobileCfg": {
+    "Id": 88,
+    "Name": "IsVisibleMindPower_Mobile",
+    "QueryExpression": "NoMatch(NonVisibleMindPower_Mobile)"
+  },
+  "CanInteractMindPower_Destructible_OneCfg": {
+    "Id": 89,
+    "Name": "CanInteractMindPower_Destructible_One",
+    "QueryExpression": "NoMatch(NoInteractMindPower_Destructible_One)"
+  },
+  "IsVisibleMindPower_Destructible_OneCfg": {
+    "Id": 90,
+    "Name": "IsVisibleMindPower_Destructible_One",
+    "QueryExpression": "NoMatch(NonVisibleMindPower_Destructible_One)"
+  },
+  "IsVisibleMindPower_Destructible_One_MobileCfg": {
+    "Id": 91,
+    "Name": "IsVisibleMindPower_Destructible_One_Mobile",
+    "QueryExpression": "NoMatch(NonVisibleMindPower_Destructible_One_Mobile)"
+  },
+  "CanInteractMindPower_Destructible_TwoCfg": {
+    "Id": 92,
+    "Name": "CanInteractMindPower_Destructible_Two",
+    "QueryExpression": "NoMatch(NoInteractMindPower_Destructible_Two)"
+  },
+  "IsVisibleMindPower_Destructible_TwoCfg": {
+    "Id": 93,
+    "Name": "IsVisibleMindPower_Destructible_Two",
+    "QueryExpression": "NoMatch(NonVisibleMindPower_Destructible_Two)"
+  },
+  "CanInteractMindPower_Destructible_ThreeCfg": {
+    "Id": 94,
+    "Name": "CanInteractMindPower_Destructible_Three",
+    "QueryExpression": "NoMatch(NoInteractMindPower_Destructible_Three)"
+  },
+  "IsVisibleMindPower_Destructible_ThreeCfg": {
+    "Id": 95,
+    "Name": "IsVisibleMindPower_Destructible_Three",
+    "QueryExpression": "NoMatch(NonVisibleMindPower_Destructible_Three)"
+  },
+  "IsVisibleMindPower_Destructible_Three_MobileCfg": {
+    "Id": 96,
+    "Name": "IsVisibleMindPower_Destructible_Three_Mobile",
+    "QueryExpression": "NoMatch(NonVisibleMindPower_Destructible_Three_Mobile)"
+  },
+  "CanInteractMindPower_LongHoldCfg": {
+    "Id": 97,
+    "Name": "CanInteractMindPower_LongHold",
+    "QueryExpression": "NoMatch(NoInteractMindPower_LongHold)"
+  },
+  "IsVisibleMindPower_LongHoldCfg": {
+    "Id": 98,
+    "Name": "IsVisibleMindPower_LongHold",
+    "QueryExpression": "NoMatch(NonVisibleMindPower_LongHold)"
+  },
+  "CanInteractMindPower_LongHold_MobileCfg": {
+    "Id": 99,
+    "Name": "CanInteractMindPower_LongHold_Mobile",
+    "QueryExpression": "NoMatch(NoInteractMindPower_LongHold_Mobile)"
+  },
+  "IsVisibleMindPower_LongHold_MobileCfg": {
+    "Id": 100,
+    "Name": "IsVisibleMindPower_LongHold_Mobile",
+    "QueryExpression": "NoMatch(NonVisibleMindPower_LongHold_Mobile)"
+  },
+  "CanInteractMindPower_DragHoldCfg": {
+    "Id": 101,
+    "Name": "CanInteractMindPower_DragHold",
+    "QueryExpression": "NoMatch(NoInteractMindPower_DragHold)"
+  },
+  "IsVisibleMindPower_DragHoldCfg": {
+    "Id": 102,
+    "Name": "IsVisibleMindPower_DragHold",
+    "QueryExpression": "NoMatch(NonVisibleMindPower_DragHold)"
+  },
+  "CanInteractMindPower_DragHold_MobileCfg": {
+    "Id": 103,
+    "Name": "CanInteractMindPower_DragHold_Mobile",
+    "QueryExpression": "NoMatch(NoInteractMindPower_DragHold_Mobile)"
+  },
+  "IsVisibleMindPower_DragHold_MobileCfg": {
+    "Id": 104,
+    "Name": "IsVisibleMindPower_DragHold_Mobile",
+    "QueryExpression": "NoMatch(NonVisibleMindPower_DragHold_Mobile)"
+  },
+  "CanInteractGrappleCfg": {
+    "Id": 105,
+    "Name": "CanInteractGrapple",
+    "QueryExpression": "NoMatch(NoInteractGrapple)"
+  },
+  "CanInteractAssassinCfg": {
+    "Id": 106,
+    "Name": "CanInteractAssassin",
+    "QueryExpression": "NoMatch(NoInteractAssassin)"
+  },
+  "CanInteractOffWallCfg": {
+    "Id": 107,
+    "Name": "CanInteractOffWall",
+    "QueryExpression": "AllMatch(NoMatch(NoInteractOffWall)AnyMatch(AllowOffWall))"
+  },
+  "CanInteractMagnetCfg": {
+    "Id": 108,
+    "Name": "CanInteractMagnet",
+    "QueryExpression": "AllMatch(NoMatch(NoInteractMagnet)AnyMatch(AllowMagnet))"
+  },
+  "CanInteractMagnetPutDownCfg": {
+    "Id": 109,
+    "Name": "CanInteractMagnetPutDown",
+    "QueryExpression": "AllMatch(NoMatch(NoInteractMagnetPutDown)AnyMatch(AllowMagnetPutDown))"
+  },
+  "CanInteractHpCfg": {
+    "Id": 110,
+    "Name": "CanInteractHp",
+    "QueryExpression": "NoMatch(NoInteractHp)"
+  },
+  "IsVisibleHpCfg": {
+    "Id": 111,
+    "Name": "IsVisibleHp",
+    "QueryExpression": "NoMatch(NonVisibleHp)"
+  },
+  "CanInteractSwitchWeaponWheelsCfg": {
+    "Id": 112,
+    "Name": "CanInteractSwitchWeaponWheels",
+    "QueryExpression": "NoMatch(NoInteractSwitchWeaponWheels)"
+  },
+  "IsVisibleSwitchWeaponWheelsCfg": {
+    "Id": 113,
+    "Name": "IsVisibleSwitchWeaponWheels",
+    "QueryExpression": "NoMatch(NonVisibleSwitchWeaponWheels)"
+  },
+  "CanInteractSwitchWeaponWheels_MobileCfg": {
+    "Id": 114,
+    "Name": "CanInteractSwitchWeaponWheels_Mobile",
+    "QueryExpression": "NoMatch(NoInteractSwitchWeaponWheels_Mobile)"
+  },
+  "CanInteractDiveBtnInfoCfg": {
+    "Id": 115,
+    "Name": "CanInteractDiveBtnInfo",
+    "QueryExpression": "AllMatch(NoMatch(NoInteractDiveBtnInfo)AnyMatch(AllowDive))"
+  },
+  "CanInteractAirDash_mobileCfg": {
+    "Id": 116,
+    "Name": "CanInteractAirDash_mobile",
+    "QueryExpression": "NoMatch(NoInteractAirDash_mobile)"
+  },
+  "CanInteractMotionActionCfg": {
+    "Id": 117,
+    "Name": "CanInteractMotionAction",
+    "QueryExpression": "NoMatch(NoInteractMotionActionBtn)"
+  },
+  "CanInteractTaFeiMotoCfg": {
+    "Id": 118,
+    "Name": "CanInteractTaFeiMoto",
+    "QueryExpression": "NoMatch(NoInteractTaFeiMoto)"
+  },
+  "IsVisibleTaFeiMoto_MobileCfg": {
+    "Id": 119,
+    "Name": "IsVisibleTaFeiMoto_Mobile",
+    "QueryExpression": "NoMatch(NonVisibleTaFeiMoto_Mobile)"
+  },
+  "CanInteractHackCfg": {
+    "Id": 120,
+    "Name": "CanInteractHack",
+    "QueryExpression": "NoMatch(NoInteractHack)"
+  },
+  "CanInteractHold_LeftCfg": {
+    "Id": 121,
+    "Name": "CanInteractHold_Left",
+    "QueryExpression": "NoMatch(NoInteractHold_Left)"
+  },
+  "CanInteractHold_QCfg": {
+    "Id": 122,
+    "Name": "CanInteractHold_Q",
+    "QueryExpression": "NoMatch(NoInteractHold_E)"
+  },
+  "CanInteractHold_RCfg": {
+    "Id": 123,
+    "Name": "CanInteractHold_R",
+    "QueryExpression": "NoMatch(NoInteractHold_R)"
+  },
+  "CanInteractObserveCfg": {
+    "Id": 124,
+    "Name": "CanInteractObserve",
+    "QueryExpression": "NoMatch(NoInteractObserve)"
+  },
+  "MapBoundaryUseVJoystickCfg": {
+    "Id": 125,
+    "Name": "MapBoundaryUseVJoystick",
+    "QueryExpression": "AllMatch(AnyMatch(AllowMapBoundaryUseVJoystick) NoMatch(ForbidMapBoundaryUseVJoystick))"
+  },
+  "OnlyWalkCfg": {
+    "Id": 126,
+    "Name": "OnlyWalk",
+    "QueryExpression": "AnyMatch(OnlyWalk)"
+  },
+  "ForbidRushCfg": {
+    "Id": 127,
+    "Name": "ForbidRush",
+    "QueryExpression": "AnyMatch(ForbidRush)"
+  },
+  "CanInteractJiaMuSummonCfg": {
+    "Id": 128,
+    "Name": "CanInteractJiaMuSummon",
+    "QueryExpression": "NoMatch(NoInteractJiaMuSummon)"
+  },
+  "CanInteractLiXiSupportCfg": {
+    "Id": 129,
+    "Name": "CanInteractLiXiSupport",
+    "QueryExpression": "NoMatch(NoInteractLiXiSupport)"
+  },
+  "CanInteractSummonVehicleCfg": {
+    "Id": 130,
+    "Name": "CanInteractSummonVehicle",
+    "QueryExpression": "NoMatch(NoInteractSummonVehicle)"
+  },
+  "IsVisibleSummonVehicleCfg": {
+    "Id": 131,
+    "Name": "IsVisibleSummonVehicle",
+    "QueryExpression": "NoMatch(NonVisibleSummonVehicle)"
+  },
+  "ExchangeDodgeOnGroundWallCfg": {
+    "Id": 132,
+    "Name": "ExchangeDodgeOnGroundWall",
+    "QueryExpression": "AnyMatch(ExchangeDodgeOnGroundWall)"
+  },
+  "IsCrouchInSwitchLineCfg": {
+    "Id": 133,
+    "Name": "IsCrouchInSwitchLine",
+    "QueryExpression": "AnyMatch(InCrouchSwitchLine)"
+  },
+  "AllowPuppetHurtCfg": {
+    "Id": 134,
+    "Name": "AllowPuppetHurt",
+    "QueryExpression": "NoMatch(NoHurtPuppet)"
+  },
+  "IsBattleCfg": {
+    "Id": 135,
+    "Name": "IsBattle",
+    "QueryExpression": "AnyMatch(BattleState)"
+  },
+  "ForbidProwlSignalCfg": {
+    "Id": 136,
+    "Name": "ForbidProwlSignal",
+    "QueryExpression": "AnyMatch(AnyMatch(ProwlAnimState) AnyMatch(ForbidProwl))"
+  },
+  "IsArmRightBusyCfg": {
+    "Id": 137,
+    "Name": "IsArmRightBusy",
+    "QueryExpression": "AnyMatch(ArmRightBusy)"
+  },
+  "IsProwlAreaCfg": {
+    "Id": 138,
+    "Name": "IsProwlArea",
+    "QueryExpression": "AllMatch(AnyMatch(ProwlAreaState) NoMatch(ForbidProwl))"
+  },
+  "CanStealthKillCfg": {
+    "Id": 139,
+    "Name": "CanStealthKill",
+    "QueryExpression": "AnyMatch(AnyMatch(UnlockAssassin) AllMatch(AnyMatch(ProwlAreaState) NoMatch(BattleState) AnyMatch(AnyMatch(ProwlAnimState)AnyMatch(RushState))))"
+  },
+  "CanEnterKillingCfg": {
+    "Id": 140,
+    "Name": "CanEnterKilling",
+    "QueryExpression": "AllMatch(AnyMatch(AllowEnterKilling) NoMatch(ForbidEnterKilling))"
+  },
+  "CanJumpCfg": {
+    "Id": 141,
+    "Name": "CanJump",
+    "QueryExpression": "AllMatch(NoMatch(ForbidJump) AnyMatch(NoMatch(ProwlAreaState) AnyMatch(FeisuoCrouchStart)))"
+  },
+  "CanCoiledJumpCfg": {
+    "Id": 142,
+    "Name": "CanCoiledJump",
+    "QueryExpression": "NoMatch(ForbidCoiledJump)"
+  },
+  "CanClimbCfg": {
+    "Id": 143,
+    "Name": "CanClimb",
+    "QueryExpression": "AllMatch(NoMatch(ForbidClimb) NoMatch(ProwlAreaState))"
+  },
+  "IsSlowProwlModeCfg": {
+    "Id": 144,
+    "Name": "IsSlowProwlMode",
+    "QueryExpression": "AllMatch(AnyMatch(ProwlAreaState)AnyMatch(AllowSlowProwlMode))"
+  },
+  "CanParachuteCfg": {
+    "Id": 145,
+    "Name": "CanParachute",
+    "QueryExpression": "AllMatch(AnyMatch(AllowEnterParachute) NoMatch(ForbidEnterParachute))"
+  },
+  "ForbidReportDetectedCfg": {
+    "Id": 146,
+    "Name": "ForbidReportDetected",
+    "QueryExpression": "AllMatch(AnyMatch(ProwlAnimState))"
+  },
+  "CanBreakMultiInteractCfg": {
+    "Id": 147,
+    "Name": "CanBreakMultiInteract",
+    "QueryExpression": "AnyMatch(BreakMultiInteract)"
+  },
+  "ShowTipsNormalAttack_CrounchCfg": {
+    "Id": 148,
+    "Name": "ShowTipsNormalAttack_Crounch",
+    "QueryExpression": "AnyMatch(AllowNormalAttackTips_Crounch)"
+  },
+  "ReadyToSwitchAbpFromPlayerCfg": {
+    "Id": 149,
+    "Name": "ReadyToSwitchAbpFromPlayer",
+    "QueryExpression": "AnyMatch(ReadyToSwitchAbpFromPlayer)"
+  },
+  "CanFeisuoJumpCfg": {
+    "Id": 150,
+    "Name": "CanFeisuoJump",
+    "QueryExpression": "NoMatch(ForbidFeisuoJump)"
+  },
+  "CanUseCombatSkillCfg": {
+    "Id": 151,
+    "Name": "CanUseCombatSkill",
+    "QueryExpression": "NoMatch(ForbidUseCombatSkill)"
+  },
+  "ShowTipsNormalAttack_HoldBlendCfg": {
+    "Id": 152,
+    "Name": "ShowTipsNormalAttack_HoldBlend",
+    "QueryExpression": "AnyMatch(AllowNormalAttackTips_HoldBlend)"
+  },
+  "ShowTipsNormalAttack_BartendingCfg": {
+    "Id": 153,
+    "Name": "ShowTipsNormalAttack_Bartending",
+    "QueryExpression": "AnyMatch(AllowNormalAttackTips_Bartending)"
+  },
+  "ShowTipsNormalAttack_MindPowerFire01Cfg": {
+    "Id": 154,
+    "Name": "ShowTipsNormalAttack_MindPowerFire01",
+    "QueryExpression": "AnyMatch(AllowNormalAttackTips_MindPowerFire01)"
+  },
+  "ShowTipsHeavyAttack_BartendingCfg": {
+    "Id": 155,
+    "Name": "ShowTipsHeavyAttack_Bartending",
+    "QueryExpression": "AnyMatch(AllowHeavyAttackTips_Bartending)"
+  },
+  "ShowTipsHeavyAttack_TakeGoodsCfg": {
+    "Id": 156,
+    "Name": "ShowTipsHeavyAttack_TakeGoods",
+    "QueryExpression": "AnyMatch(AllowHeavyAttackTips_TakeGoods)"
+  },
+  "ShowTipsHeavyAttack_LongRangeWeaponAimingCfg": {
+    "Id": 157,
+    "Name": "ShowTipsHeavyAttack_LongRangeWeaponAiming",
+    "QueryExpression": "AnyMatch(AllowHeavyAttackTips_LongRangeWeaponAiming)"
+  },
+  "ShowTipsCombatE_TaFeiMotoCfg": {
+    "Id": 158,
+    "Name": "ShowTipsCombatE_TaFeiMoto",
+    "QueryExpression": "AnyMatch(AllowCombatETips_TaFeiMoto)"
+  },
+  "ShowTipsEBtn_HoldBlendCfg": {
+    "Id": 159,
+    "Name": "ShowTipsEBtn_HoldBlend",
+    "QueryExpression": "AnyMatch(AllowEBtnTips_HoldBlend)"
+  },
+  "ShowTipsDodge_SpeedUp_IntegratedCfg": {
+    "Id": 160,
+    "Name": "ShowTipsDodge_SpeedUp_Integrated",
+    "QueryExpression": "AnyMatch(AllowDodgeTips_SpeedUp_Integrated)"
+  },
+  "ShowTipsDodge_TafeiMotoSpeedUpCfg": {
+    "Id": 161,
+    "Name": "ShowTipsDodge_TafeiMotoSpeedUp",
+    "QueryExpression": "AnyMatch(AllowDodgeTips_TafeiMotoSpeedUp)"
+  },
+  "ShowTipsDodge_BasCatchBallCfg": {
+    "Id": 162,
+    "Name": "ShowTipsDodge_BasCatchBall",
+    "QueryExpression": "AnyMatch(AllowDodgeTips_BasCatchBall)"
+  },
+  "ShowTipsJump_DiveCfg": {
+    "Id": 163,
+    "Name": "ShowTipsJump_Dive",
+    "QueryExpression": "AnyMatch(AllowJumpTips_Dive)"
+  },
+  "ShowTipsMindPower_HoldBlendCfg": {
+    "Id": 164,
+    "Name": "ShowTipsMindPower_HoldBlend",
+    "QueryExpression": "AnyMatch(AllowMindPowerTips_HoldBlend)"
+  },
+  "ShowTipsDive_SwimCfg": {
+    "Id": 165,
+    "Name": "ShowTipsDive_Swim",
+    "QueryExpression": "AnyMatch(AllowDiveTips_Swim)"
+  },
+  "GadgetFeiSuoCfg": {
+    "Id": 166,
+    "Name": "GadgetFeiSuo",
+    "QueryExpression": "AllMatch(NoMatch(ForbidGadgetFeiSuo) AllMatch(HasFeisuoAbility))"
+  },
+  "ForbidTurnCrouchCfg": {
+    "Id": 167,
+    "Name": "ForbidTurnCrouch",
+    "QueryExpression": "AnyMatch(ForbidTurnCrouch)"
+  },
+  "ShowTipsSummonVehicleCfg": {
+    "Id": 168,
+    "Name": "ShowTipsSummonVehicle",
+    "QueryExpression": "AllMatch(AnyMatch(AllowSummonVehicleTips)NoMatch(HideSummonVehicleTips))"
+  },
+  "ShowTipsParachuteCutCfg": {
+    "Id": 169,
+    "Name": "ShowTipsParachuteCut",
+    "QueryExpression": "AnyMatch(AllowEnterParachuteCut)"
+  },
+  "CanMoveIKonCfg": {
+    "Id": 170,
+    "Name": "CanMoveIKon",
+    "QueryExpression": "AnyMatch(AllowMoveIK)"
+  },
+  "CanNomralJumpCfg": {
+    "Id": 171,
+    "Name": "CanNomralJump",
+    "QueryExpression": "AllMatch(NoMatch(ForbidNormalJump))"
+  },
+  "KeepGunScopeCfg": {
+    "Id": 172,
+    "Name": "KeepGunScope",
+    "QueryExpression": "AnyMatch(KeepGunScope)"
+  },
+  "ActivateAssassBtnRefreshCfg": {
+    "Id": 173,
+    "Name": "ActivateAssassBtnRefresh",
+    "QueryExpression": "AnyMatch(AllowAssassBtnRefresh)"
+  },
+  "CanInteractSwitchCharacterCfg": {
+    "Id": 174,
+    "Name": "CanInteractSwitchCharacter",
+    "QueryExpression": "NoMatch(NoInteractSwitchCharacter)"
+  },
+  "CanWeakMoveCfg": {
+    "Id": 175,
+    "Name": "CanWeakMove",
+    "QueryExpression": "AnyMatch(AllowWeakMove)"
+  },
+  "ForbidCrouchCfg": {
+    "Id": 176,
+    "Name": "ForbidCrouch",
+    "QueryExpression": "AnyMatch(ForbidCrouch)"
+  },
+  "ActivePeaceModeCfg": {
+    "Id": 177,
+    "Name": "ActivePeaceMode",
+    "QueryExpression": "NoMatch(ForbidPeaceMode)"
+  },
+  "OnGroundInteractionCfg": {
+    "Id": 178,
+    "Name": "OnGroundInteraction",
+    "QueryExpression": "All(Any(AllowOnGroundInteraction) No(ForbidOnGroundInteraction))"
+  },
+  "OnWallInteractionCfg": {
+    "Id": 179,
+    "Name": "OnWallInteraction",
+    "QueryExpression": "All(Any(AllowOnWallInteraction) No(ForbidOnWallInteraction))"
+  },
+  "SitInteractionCfg": {
+    "Id": 180,
+    "Name": "SitInteraction",
+    "QueryExpression": "All(Any(AllowSitInteraction) No(ForbidSitInteraction))"
+  },
+  "ForbidPathMoveCfg": {
+    "Id": 181,
+    "Name": "ForbidPathMove",
+    "QueryExpression": "AnyMatch(ForbidCrouch)"
+  },
+  "CanBounceJumpCfg": {
+    "Id": 182,
+    "Name": "CanBounceJump",
+    "QueryExpression": "All(Any(AllowBounceJump) Any(RushState) No(ForbidBounceJump))"
+  },
+  "CanUseCombatDodgeSkillCfg": {
+    "Id": 183,
+    "Name": "CanUseCombatDodgeSkill",
+    "QueryExpression": "NoMatch(ForbidUseCombatDodgeSkill)"
+  },
+  "ShowTipsSummonMilkCarCfg": {
+    "Id": 184,
+    "Name": "ShowTipsSummonMilkCar",
+    "QueryExpression": "AllMatch(AnyMatch(AllowSummonMilkCarTips)NoMatch(HideSummonMilkCarTips))"
+  },
+  "CanDiveDetectCfg": {
+    "Id": 185,
+    "Name": "CanDiveDetect",
+    "QueryExpression": "AllMatch(AllMatch(AllowDiveDetect) NoMatch(ForbidDiveDetect))"
+  },
+  "CanInteractDiveDashBtnInfoCfg": {
+    "Id": 186,
+    "Name": "CanInteractDiveDashBtnInfo",
+    "QueryExpression": "AnyMatch(AllowDiveDashBtn)"
+  },
+  "CanInteractMotoLightBtnInfoCfg": {
+    "Id": 187,
+    "Name": "CanInteractMotoLightBtnInfo",
+    "QueryExpression": "AnyMatch(AllowMotoLightBtn)"
+  },
+  "CanInteractMotoDashBtnInfoCfg": {
+    "Id": 188,
+    "Name": "CanInteractMotoDashBtnInfo",
+    "QueryExpression": "AnyMatch(AllowMotoDashBtn)"
+  },
+  "CanInteractWingSuitDashBtnInfoCfg": {
+    "Id": 189,
+    "Name": "CanInteractWingSuitDashBtnInfo",
+    "QueryExpression": "AnyMatch(AllowWingSuitDashBtn)"
+  },
+  "NeedLeaveTaFeiMotoCfg": {
+    "Id": 190,
+    "Name": "NeedLeaveTaFeiMoto",
+    "QueryExpression": "AllMatch(AnyMatch(TaFeiMotoState) AnyMatch(NoInteractTaFeiMoto))"
+  },
+  "CanEnableFollowBallCfg": {
+    "Id": 191,
+    "Name": "CanEnableFollowBall",
+    "QueryExpression": "NoMatch(ForbidFollowBallEnable)"
+  },
+  "IsKillingRushCfg": {
+    "Id": 192,
+    "Name": "IsKillingRush",
+    "QueryExpression": "AnyMatch(KillingRushState)"
+  },
+  "CanEnterWeakStandCfg": {
+    "Id": 193,
+    "Name": "CanEnterWeakStand",
+    "QueryExpression": "AllMatch(AnyMatch(WeakStandAreaState) NoMatch(WeakStandAnimState))"
+  },
+  "CanEnterWeakProwlCfg": {
+    "Id": 194,
+    "Name": "CanEnterWeakProwl",
+    "QueryExpression": "AllMatch(AnyMatch(WeakProwlAreaState) NoMatch(WeakProwlAnimState))"
+  },
+  "CanAirRushCfg": {
+    "Id": 195,
+    "Name": "CanAirRush",
+    "QueryExpression": "NoMatch(ForbidAirrush)"
+  },
+  "CanNTRStimCfg": {
+    "Id": 196,
+    "Name": "CanNTRStim",
+    "QueryExpression": "AnyMatch(AllowNTRStim)"
+  },
+  "ShowTipsKickOffCfg": {
+    "Id": 197,
+    "Name": "ShowTipsKickOff",
+    "QueryExpression": "AnyMatch(AllowKickOffTips)"
+  },
+  "ShowSaveButtonCfg": {
+    "Id": 198,
+    "Name": "ShowSaveButton",
+    "QueryExpression": "AllMatch(AnyMatch(DieSave_CanSave) NoMatch(DieSave_NotSave))"
+  },
+  "ShowTipsTafeiMotoOffBtnCfg": {
+    "Id": 199,
+    "Name": "ShowTipsTafeiMotoOffBtn",
+    "QueryExpression": "AnyMatch(AllowTafeiMotoOffBtn)"
+  },
+  "WeaponNeedUpperBodyCfg": {
+    "Id": 200,
+    "Name": "WeaponNeedUpperBody",
+    "QueryExpression": "AnyMatch(WeaponNeedUpperBody)"
+  },
+  "IsProwlDashCfg": {
+    "Id": 201,
+    "Name": "IsProwlDash",
+    "QueryExpression": "AllMatch(AnyMatch(ProwlAreaState) AnyMatch(RushState))"
+  },
+  "CanClimbJumpUpOutCfg": {
+    "Id": 202,
+    "Name": "CanClimbJumpUpOut",
+    "QueryExpression": "NoMatch(ForbidClimbJumpUpOut)"
+  },
+  "CanClimbJumpOutCfg": {
+    "Id": 203,
+    "Name": "CanClimbJumpOut",
+    "QueryExpression": "NoMatch(ForbidClimbJumpOut)"
+  },
+  "CanEnterSwimCfg": {
+    "Id": 204,
+    "Name": "CanEnterSwim",
+    "QueryExpression": "AnyMatch(NoMatch(ForbidEnterSwim) AnyMatch(CanForceEnterSwim))"
+  },
+  "AllowBounceJumpCfg": {
+    "Id": 205,
+    "Name": "AllowBounceJump",
+    "QueryExpression": "Any(AllowBounceJump)"
+  },
+  "CanSwitchDogBotCfg": {
+    "Id": 207,
+    "Name": "CanSwitchDogBot",
+    "QueryExpression": "NoMatch(ForbidSwitchControlToItem)"
+  },
+  "IsTurnOverCfg": {
+    "Id": 206,
+    "Name": "IsTurnOver",
+    "QueryExpression": "AnyMatch(TurnOver)"
+  },
+  "ExitProwlCfg": {
+    "Id": 210,
+    "Name": "ExitProwl",
+    "QueryExpression": "AnyMatch(ForbidProwl)"
+  },
+  "DieSave_DyingCfg": {
+    "Id": 208,
+    "Name": "DieSave_Dying",
+    "QueryExpression": ""
+  },
+  "CanInteractBulletChangeCfg": {
+    "Id": 211,
+    "Name": "CanInteractBulletChange",
+    "QueryExpression": "NoMatch(ForbidBulletChange)"
+  },
+  "ShowTipsBaBuGanChanCfg": {
+    "Id": 209,
+    "Name": "ShowTipsBaBuGanChan",
+    "QueryExpression": "AnyMatch(AllowBaBuGanChanTips)"
+  },
+  "CanSkateTaskJumpCfg": {
+    "Id": 214,
+    "Name": "CanSkateTaskJump",
+    "QueryExpression": "AllMatch(AnyMatch(AllowTaskjokerskate) NoMatch(InTaskjokerskateAnim))"
+  },
+  "ForbidItemEquipCfg": {
+    "Id": 212,
+    "Name": "ForbidItemEquip",
+    "QueryExpression": "AnyMatch(ForbidItemEquip)"
+  },
+  "CanSwintBtnCfg": {
+    "Id": 213,
+    "Name": "CanSwintBtn",
+    "QueryExpression": "NoMatch(ForbidSwingBtn)"
+  },
+  "DisDefenseCfg": {
+    "Id": 215,
+    "Name": "DisDefense",
+    "QueryExpression": "AnyMatch(IsOnShoot)"
+  },
+  "CanUseBasicSkillDownCfg": {
+    "Id": 216,
+    "Name": "CanUseBasicSkillDown",
+    "QueryExpression": "NoMatch(ForbidUseBasicSkillDown)"
+  },
+  "CanUseBasicSkillPressDownCfg": {
+    "Id": 217,
+    "Name": "CanUseBasicSkillPressDown",
+    "QueryExpression": "NoMatch(ForbidUseBasicSkillPressDown)"
+  },
+  "IsOnTaFeiMotoCfg": {
+    "Id": 218,
+    "Name": "IsOnTaFeiMoto",
+    "QueryExpression": "AllMatch(AnyMatch(TaFeiMotoState))"
+  },
+  "CanUseDrunkenFistCfg": {
+    "Id": 219,
+    "Name": "CanUseDrunkenFist",
+    "QueryExpression": "AllMatch(CanUseDrunkenFist)"
+  },
+  "CanEnterPublicEventCfg": {
+    "Id": 220,
+    "Name": "CanEnterPublicEvent",
+    "QueryExpression": "AnyMatch(CanEnterPublicEvent)"
+  },
+  "CanInteractUmbrellaBtnCfg": {
+    "Id": 221,
+    "Name": "CanInteractUmbrellaBtn",
+    "QueryExpression": "AllMatch(AnyMatch(AllowUmbrellaBtn) AnyMatch(HoldRightArmMove)  NoMatch(ForbidHoldRightArm))"
+  },
+  "ShowTipsUmbrellaBtnCloseCfg": {
+    "Id": 222,
+    "Name": "ShowTipsUmbrellaBtnClose",
+    "QueryExpression": "AnyMatch(AllowCloseUmbrellaTips)"
+  },
+  "CanTouchWallCfg": {
+    "Id": 223,
+    "Name": "CanTouchWall",
+    "QueryExpression": "AnyMatch(AllowTouchWall)"
+  },
+  "ArmLeftFreeCfg": {
+    "Id": 224,
+    "Name": "ArmLeftFree",
+    "QueryExpression": "NoMatch(ArmLeftOccupied)"
+  },
+  "ArmRightFreeCfg": {
+    "Id": 225,
+    "Name": "ArmRightFree",
+    "QueryExpression": "NoMatch(ArmRightOccupied)"
+  },
+  "CanFootPrintCfg": {
+    "Id": 226,
+    "Name": "CanFootPrint",
+    "QueryExpression": "NoMatch(ForbidFootPrint)"
+  },
+  "CanPhotoActionCfg": {
+    "Id": 227,
+    "Name": "CanPhotoAction",
+    "QueryExpression": "AnyMatch(AllPhotoAction)"
+  },
+  "CanEnterDreamcoreCfg": {
+    "Id": 228,
+    "Name": "CanEnterDreamcore",
+    "QueryExpression": "AllMatch(AnyMatch(DreamcoreAreaState) NoMatch(DreamcoreAnimState))"
+  },
+  "CanGunRestrictionCfg": {
+    "Id": 229,
+    "Name": "CanGunRestriction",
+    "QueryExpression": "AllMatch(NoMatch(NoGunConstraint))"
+  },
+  "RightArmWeaponShowCfg": {
+    "Id": 230,
+    "Name": "RightArmWeaponShow",
+    "QueryExpression": "AnyMatch(AnyMatch(HoldRightArmMove) AnyMatch(HoldWeaponAction))"
+  },
+  "RightArmWeaponHideCfg": {
+    "Id": 231,
+    "Name": "RightArmWeaponHide",
+    "QueryExpression": "AllMatch(AnyMatch(ForbidRightArmWeapon) NoMatch(HoldWeaponAction))"
+  },
+  "CanStorageBoxBtnCfg": {
+    "Id": 232,
+    "Name": "CanStorageBoxBtn",
+    "QueryExpression": "NoMatch(ForbidStorageBoxBtn)"
+  },
+  "IsOnVehicleCfg": {
+    "Id": 233,
+    "Name": "IsOnVehicle",
+    "QueryExpression": "AnyMatch(IsOnVehicle)"
+  },
+  "ForbidGeneralInteractionCfg": {
+    "Id": 234,
+    "Name": "ForbidGeneralInteraction",
+    "QueryExpression": "AnyMatch(ForbidGeneralInteraction)"
+  },
+  "ForceAimingCfg": {
+    "Id": 235,
+    "Name": "ForceAiming",
+    "QueryExpression": "AllMatch(AnyMatch(ForceAimingGroundMove) NoMatch(ForceAimingRaiseWeapon) NoMatch(ForceAimingMindPower))"
+  },
+  "LeadingWay_WaitingCfg": {
+    "Id": 238,
+    "Name": "LeadingWay_Waiting",
+    "QueryExpression": "AnyMatch(LeadingwayMove_Waiting)"
+  },
+  "LeadingWay_MovingCfg": {
+    "Id": 239,
+    "Name": "LeadingWay_Moving",
+    "QueryExpression": "AnyMatch(LeadingwayMove_Moving)"
+  },
+  "IsClimbSpecialMoveCfg": {
+    "Id": 236,
+    "Name": "IsClimbSpecialMove",
+    "QueryExpression": "AnyMatch(IsClimbSpeicalMove)"
+  },
+  "UseRushStartStopCfg": {
+    "Id": 237,
+    "Name": "UseRushStartStop",
+    "QueryExpression": "AnyMatch(UseRushStartStop)"
+  },
+  "CanUseDialogActionCfg": {
+    "Id": 241,
+    "Name": "CanUseDialogAction",
+    "QueryExpression": "AllMatch(NoMatch(DisableDialogActionState) AnyMatch(AnyMatch(AbleDialogActionNormalMoveState) AnyMatch(AbleDialogActionNormalVehicleState)))"
+  },
+  "CanMetalCfg": {
+    "Id": 240,
+    "Name": "CanMetal",
+    "QueryExpression": "AllMatch(AnyMatch(MetalAreaState) NoMatch(MetalAnimState))"
+  },
+  "CanInteractDiveUpBtnInfoCfg": {
+    "Id": 244,
+    "Name": "CanInteractDiveUpBtnInfo",
+    "QueryExpression": "AnyMatch(AllowDiveUpBtn)"
+  },
+  "LeadingwayMoveMovingCfg": {
+    "Id": 242,
+    "Name": "LeadingwayMoveMoving",
+    "QueryExpression": "AnyMatch(LeadingwayMove_Moving)"
+  },
+  "LeadingwayMoveWatingCfg": {
+    "Id": 243,
+    "Name": "LeadingwayMoveWating",
+    "QueryExpression": "AnyMatch(LeadingwayMoveWaiting)"
+  },
+  "CanCompanionLeissureIdleCfg": {
+    "Id": 245,
+    "Name": "CanCompanionLeissureIdle",
+    "QueryExpression": "AnyMatch(CompanionLeissureIdle)"
+  },
+  "CannotCompanionLeissureIdleCfg": {
+    "Id": 246,
+    "Name": "CannotCompanionLeissureIdle",
+    "QueryExpression": "NoMatch(CompanionLeissureIdle)"
+  },
+  "CannotHitNpcCfg": {
+    "Id": 250,
+    "Name": "CannotHitNpc",
+    "QueryExpression": "AnyMatch(CannotHitNpc)"
+  },
+  "NeedLeavePogoStickCfg": {
+    "Id": 248,
+    "Name": "NeedLeavePogoStick",
+    "QueryExpression": "AllMatch(AnyMatch(ForbidPogoStickArea) AnyMatch(PogoStickAnim))"
+  },
+  "ThrowableAimingLineBlockCfg": {
+    "Id": 247,
+    "Name": "ThrowableAimingLineBlock",
+    "QueryExpression": "All(Any(ThrowableAimingLineBlock) No(ThrowableAimingLineExclude))"
+  },
+  "CanCarRelexBehaviorCfg": {
+    "Id": 249,
+    "Name": "CanCarRelexBehavior",
+    "QueryExpression": "NoMatch(ForbidCarRelax)"
+  },
+  "CannotFullbodyOverCfg": {
+    "Id": 251,
+    "Name": "CannotFullbodyOver",
+    "QueryExpression": "NoMatch(CanFullbodyOver)"
+  },
+  "CanUseMindPowerSkillDownCfg": {
+    "Id": 252,
+    "Name": "CanUseMindPowerSkillDown",
+    "QueryExpression": "NoMatch(ForbidUseMindPowerSkillDown)"
+  },
+  "CanUseMindPowerSkillPressDownCfg": {
+    "Id": 253,
+    "Name": "CanUseMindPowerSkillPressDown",
+    "QueryExpression": "NoMatch(ForbidUseMindPowerSkillPressDown)"
+  }
+}

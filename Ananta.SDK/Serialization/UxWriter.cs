@@ -34,9 +34,9 @@ public sealed class UxWriter
 
     public UxWriter Raw(ReadOnlySpan<byte> bytes) { _ms.Write(bytes); return this; }
 
-    // Matches client UXBinaryWriter.Write7BitEncodedInt exactly: the client
-    // increments the logical value before emitting the unsigned 7-bit varint.
-    // Its reader decodes the varint and subtracts one.
+    
+    
+    
     public UxWriter Int7(int value)
     {
         if (value < 0) throw new ArgumentOutOfRangeException(nameof(value));

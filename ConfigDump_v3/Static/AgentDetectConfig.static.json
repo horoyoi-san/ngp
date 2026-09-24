@@ -1,0 +1,74 @@
+{
+  "ForceLockTargetCfg": {
+    "Id": 91330071,
+    "ExitVisionRangeRatio": 1,
+    "VCBindBone": "",
+    "VCBindBoneOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "VCBindBoneRotateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "BlockDetectInBattle": true,
+    "UseRaycast": false,
+    "UseHeadXYZDirection": false,
+    "IsActionTypeRelax": false,
+    "UseMultiplayerBossDetect": false,
+    "EnterVisionRange": {
+      "DetectRadius": 100,
+      "DetectAngle": 180,
+      "DetectHeightUp": 100,
+      "BackDetectRadius": 100,
+      "DetectHeightDown": -100
+    },
+    "ExitVisionRange": {
+      "DetectRadius": 0,
+      "DetectAngle": 0,
+      "DetectHeightUp": 0,
+      "BackDetectRadius": 0,
+      "DetectHeightDown": 0
+    },
+    "BlackEnterVisionRange": {
+      "DetectRadius": 100,
+      "DetectAngle": 180,
+      "DetectHeightUp": 100,
+      "BackDetectRadius": 100,
+      "DetectHeightDown": -100
+    },
+    "BlackExitVisionRange": {
+      "DetectRadius": 0,
+      "DetectAngle": 0,
+      "DetectHeightUp": 0,
+      "BackDetectRadius": 0,
+      "DetectHeightDown": 0
+    },
+    "VisionConeRange": {
+      "VisionConeRadius": 0,
+      "VisionConeDistance": 0
+    },
+    "AuditoryRange": {
+      "Radius": 20,
+      "HeightUp": 20,
+      "HeightDown": -20
+    },
+    "DetectionStateToActionGroup": []
+  },
+  "CrouchAssassRadiusSqr": 100,
+  "TopDetectionPointOffsetRatio": 0,
+  "PlayerRunEvent": 91338104,
+  "PlayerRushEvent": 91338104,
+  "UnitDeadDetectEvent": [
+    {
+      "AgentId": 40121816,
+      "EventId": 1
+    },
+    {
+      "AgentId": 40966901,
+      "EventId": 91338005
+    }
+  ]
+}

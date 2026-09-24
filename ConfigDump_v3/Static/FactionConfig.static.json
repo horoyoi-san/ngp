@@ -1,0 +1,689 @@
+{
+  "ACDCfg": {
+    "Id": 18000111,
+    "name": "A.C.D",
+    "imageId": 28002630,
+    "TooltipImageId": 28017113,
+    "PlayerLockTargetType": 0,
+    "Unlock": 0,
+    "CountryId": 1,
+    "DispositionItem": 0,
+    "ShowInACDMap": false,
+    "MaxDispositionLevel": 0,
+    "FactionDescription": "",
+    "LevelEffect": [],
+    "LevelEffectTooltip": 0,
+    "ChangeDescription": "",
+    "LevelEffectTitle": "",
+    "Des_invade": "",
+    "Des_Invaded": "",
+    "Des_chaos": "",
+    "BaseCampEvent": 0,
+    "GangMapInformationPic": 0,
+    "InfluenceAreaId": [],
+    "BaseCampUnlock": [],
+    "FactionTaskEvent": [],
+    "FactionOccupationDescription": "",
+    "ShowInQMSMap": false,
+    "CampId": [],
+    "EliteEventId": [],
+    "FactionLootPreview": [],
+    "InnerLineColor": "",
+    "PolygonColor": "",
+    "Base_Strikeback": 0,
+    "Mods_Strikeback": 0,
+    "FailureNum": 0,
+    "InvasionFaction": [],
+    "Base_Invasion": 0,
+    "Mods_Invasion": 0,
+    "MaxInvasionNum": 0,
+    "EffectName": "",
+    "EffectIcon": 0,
+    "worshipDescription": "",
+    "friendlyDescription": "",
+    "indifferentDescription": "",
+    "hostilityDescription": "",
+    "hatredDescription": "",
+    "__IDX__name": 63431,
+    "__RAW__name": "",
+    "__IDX__FactionDescription": 0,
+    "__RAW__FactionDescription": "",
+    "__IDX__ChangeDescription": 0,
+    "__RAW__ChangeDescription": "",
+    "__IDX__LevelEffectTitle": 0,
+    "__RAW__LevelEffectTitle": "",
+    "__IDX__Des_invade": 0,
+    "__RAW__Des_invade": "",
+    "__IDX__Des_Invaded": 0,
+    "__RAW__Des_Invaded": "",
+    "__IDX__Des_chaos": 0,
+    "__RAW__Des_chaos": "",
+    "__IDX__EffectName": 0,
+    "__RAW__EffectName": "",
+    "__IDX__worshipDescription": 0,
+    "__RAW__worshipDescription": "",
+    "__IDX__friendlyDescription": 0,
+    "__RAW__friendlyDescription": "",
+    "__IDX__indifferentDescription": 0,
+    "__RAW__indifferentDescription": "",
+    "__IDX__hostilityDescription": 0,
+    "__RAW__hostilityDescription": "",
+    "__IDX__hatredDescription": 0,
+    "__RAW__hatredDescription": "",
+    "Center": [
+      {
+        "x": 500,
+        "y": 2000
+      }
+    ],
+    "DetailDisposition": [],
+    "LevelEffectImage": [],
+    "DonateUnlockFan": [],
+    "DispositionChangeWorldState": [],
+    "PersonImage": [],
+    "PersonDistribution": [],
+    "BaseCampLocation": [],
+    "OuterLineColors": {
+      "normalColor1": "",
+      "normalColor2": ""
+    },
+    "HighlightLineColors": {
+      "color1": "",
+      "color2": ""
+    },
+    "StrikebackWeight": [],
+    "CampNumMax": {
+      "min": 0,
+      "max": 0
+    },
+    "ChaosNumMin": {
+      "min": 0,
+      "max": 0
+    }
+  },
+  "PoliceCfg": {
+    "Id": 18000110,
+    "name": "NCCA (Nova City Crime Agency)",
+    "imageId": 28002671,
+    "TooltipImageId": 28017117,
+    "PlayerLockTargetType": 0,
+    "Unlock": 60011085,
+    "CountryId": 1,
+    "DispositionItem": 36941008,
+    "ShowInACDMap": true,
+    "MaxDispositionLevel": 5,
+    "FactionDescription": "Our duty is to maintain order in Nova City.",
+    "LevelEffect": [
+      1103,
+      1104,
+      1101
+    ],
+    "LevelEffectTooltip": 1105,
+    "ChangeDescription": "As an NCCA officer, making unauthorized arrests or issuing unfair fines will turn the public against you. Support can be gained through actions such as arresting criminals or penalizing legitimate violations.",
+    "LevelEffectTitle": "Reputation Benefit · NCCA",
+    "Des_invade": "",
+    "Des_Invaded": "",
+    "Des_chaos": "",
+    "BaseCampEvent": 0,
+    "GangMapInformationPic": 0,
+    "InfluenceAreaId": [],
+    "BaseCampUnlock": [],
+    "FactionTaskEvent": [],
+    "FactionOccupationDescription": "",
+    "ShowInQMSMap": false,
+    "CampId": [],
+    "EliteEventId": [],
+    "FactionLootPreview": [],
+    "InnerLineColor": "",
+    "PolygonColor": "",
+    "Base_Strikeback": 0,
+    "Mods_Strikeback": 0,
+    "FailureNum": 0,
+    "InvasionFaction": [],
+    "Base_Invasion": 0,
+    "Mods_Invasion": 0,
+    "MaxInvasionNum": 0,
+    "EffectName": "",
+    "EffectIcon": 0,
+    "worshipDescription": "",
+    "friendlyDescription": "",
+    "indifferentDescription": "",
+    "hostilityDescription": "",
+    "hatredDescription": "",
+    "__IDX__name": 63448,
+    "__RAW__name": "",
+    "__IDX__FactionDescription": 63447,
+    "__RAW__FactionDescription": "",
+    "__IDX__ChangeDescription": 128764,
+    "__RAW__ChangeDescription": "",
+    "__IDX__LevelEffectTitle": 128765,
+    "__RAW__LevelEffectTitle": "",
+    "__IDX__Des_invade": 0,
+    "__RAW__Des_invade": "",
+    "__IDX__Des_Invaded": 0,
+    "__RAW__Des_Invaded": "",
+    "__IDX__Des_chaos": 0,
+    "__RAW__Des_chaos": "",
+    "__IDX__EffectName": 0,
+    "__RAW__EffectName": "",
+    "__IDX__worshipDescription": 0,
+    "__RAW__worshipDescription": "",
+    "__IDX__friendlyDescription": 0,
+    "__RAW__friendlyDescription": "",
+    "__IDX__indifferentDescription": 0,
+    "__RAW__indifferentDescription": "",
+    "__IDX__hostilityDescription": 0,
+    "__RAW__hostilityDescription": "",
+    "__IDX__hatredDescription": 0,
+    "__RAW__hatredDescription": "",
+    "Center": [
+      {
+        "x": 2383,
+        "y": 1820
+      }
+    ],
+    "DetailDisposition": [
+      {
+        "DispositionID": 1,
+        "Chat": 2241
+      },
+      {
+        "DispositionID": 1,
+        "Chat": 2242
+      },
+      {
+        "DispositionID": 1,
+        "Chat": 2243
+      },
+      {
+        "DispositionID": 1,
+        "Chat": 2244
+      },
+      {
+        "DispositionID": 1,
+        "Chat": 2245
+      },
+      {
+        "DispositionID": 1,
+        "Chat": 2246
+      },
+      {
+        "DispositionID": 2,
+        "Chat": 2247
+      },
+      {
+        "DispositionID": 2,
+        "Chat": 2248
+      },
+      {
+        "DispositionID": 2,
+        "Chat": 2249
+      },
+      {
+        "DispositionID": 2,
+        "Chat": 2250
+      },
+      {
+        "DispositionID": 2,
+        "Chat": 2251
+      },
+      {
+        "DispositionID": 2,
+        "Chat": 2252
+      },
+      {
+        "DispositionID": 3,
+        "Chat": 2253
+      },
+      {
+        "DispositionID": 3,
+        "Chat": 2254
+      },
+      {
+        "DispositionID": 3,
+        "Chat": 2255
+      },
+      {
+        "DispositionID": 3,
+        "Chat": 2256
+      },
+      {
+        "DispositionID": 3,
+        "Chat": 2257
+      },
+      {
+        "DispositionID": 3,
+        "Chat": 2258
+      },
+      {
+        "DispositionID": 4,
+        "Chat": 2259
+      },
+      {
+        "DispositionID": 4,
+        "Chat": 2260
+      },
+      {
+        "DispositionID": 4,
+        "Chat": 2261
+      },
+      {
+        "DispositionID": 4,
+        "Chat": 2262
+      },
+      {
+        "DispositionID": 4,
+        "Chat": 2263
+      },
+      {
+        "DispositionID": 4,
+        "Chat": 2264
+      },
+      {
+        "DispositionID": 5,
+        "Chat": 2265
+      },
+      {
+        "DispositionID": 5,
+        "Chat": 2266
+      },
+      {
+        "DispositionID": 5,
+        "Chat": 2267
+      },
+      {
+        "DispositionID": 5,
+        "Chat": 2268
+      },
+      {
+        "DispositionID": 5,
+        "Chat": 2269
+      },
+      {
+        "DispositionID": 5,
+        "Chat": 2270
+      },
+      {
+        "DispositionID": 1,
+        "Chat": 2383
+      },
+      {
+        "DispositionID": 1,
+        "Chat": 2384
+      },
+      {
+        "DispositionID": 1,
+        "Chat": 2385
+      },
+      {
+        "DispositionID": 1,
+        "Chat": 2386
+      },
+      {
+        "DispositionID": 2,
+        "Chat": 2387
+      },
+      {
+        "DispositionID": 2,
+        "Chat": 2388
+      },
+      {
+        "DispositionID": 4,
+        "Chat": 2389
+      },
+      {
+        "DispositionID": 4,
+        "Chat": 2390
+      },
+      {
+        "DispositionID": 4,
+        "Chat": 2391
+      },
+      {
+        "DispositionID": 5,
+        "Chat": 2392
+      },
+      {
+        "DispositionID": 5,
+        "Chat": 2393
+      },
+      {
+        "DispositionID": 5,
+        "Chat": 2394
+      },
+      {
+        "DispositionID": 5,
+        "Chat": 2395
+      },
+      {
+        "DispositionID": 5,
+        "Chat": 2396
+      },
+      {
+        "DispositionID": 5,
+        "Chat": 2397
+      }
+    ],
+    "LevelEffectImage": [
+      {
+        "DispositionID": 5,
+        "ImageID": 28017183
+      },
+      {
+        "DispositionID": 5,
+        "ImageID": 28017182
+      },
+      {
+        "DispositionID": 5,
+        "ImageID": 28017191
+      },
+      {
+        "DispositionID": 4,
+        "ImageID": 28017183
+      },
+      {
+        "DispositionID": 4,
+        "ImageID": 28017182
+      },
+      {
+        "DispositionID": 4,
+        "ImageID": 28017191
+      },
+      {
+        "DispositionID": 2,
+        "ImageID": 28017184
+      },
+      {
+        "DispositionID": 1,
+        "ImageID": 28017184
+      },
+      {
+        "DispositionID": 1,
+        "ImageID": 28017189
+      }
+    ],
+    "DonateUnlockFan": [
+      {
+        "DispositonLevel": 4,
+        "Fan": 50000
+      },
+      {
+        "DispositonLevel": 5,
+        "Fan": 200000
+      }
+    ],
+    "DispositionChangeWorldState": [],
+    "PersonImage": [
+      {
+        "PerfabType": 0,
+        "EnableDisposition": 1,
+        "weight": 1
+      },
+      {
+        "PerfabType": 1,
+        "EnableDisposition": 3,
+        "weight": 2
+      }
+    ],
+    "PersonDistribution": [
+      {
+        "AreaID": 18000110,
+        "num": 4
+      },
+      {
+        "AreaID": 180000011,
+        "num": 1
+      },
+      {
+        "AreaID": 180000012,
+        "num": 1
+      },
+      {
+        "AreaID": 180000021,
+        "num": 1
+      },
+      {
+        "AreaID": 180000022,
+        "num": 1
+      },
+      {
+        "AreaID": 180000024,
+        "num": 1
+      },
+      {
+        "AreaID": 180000031,
+        "num": 1
+      },
+      {
+        "AreaID": 180000033,
+        "num": 1
+      },
+      {
+        "AreaID": 180000041,
+        "num": 1
+      },
+      {
+        "AreaID": 180000042,
+        "num": 1
+      },
+      {
+        "AreaID": 180000043,
+        "num": 1
+      },
+      {
+        "AreaID": 180000051,
+        "num": 1
+      },
+      {
+        "AreaID": 180000052,
+        "num": 1
+      },
+      {
+        "AreaID": 180000053,
+        "num": 1
+      },
+      {
+        "AreaID": 180000061,
+        "num": 1
+      },
+      {
+        "AreaID": 180000062,
+        "num": 1
+      }
+    ],
+    "BaseCampLocation": [],
+    "OuterLineColors": {
+      "normalColor1": "",
+      "normalColor2": ""
+    },
+    "HighlightLineColors": {
+      "color1": "",
+      "color2": ""
+    },
+    "StrikebackWeight": [],
+    "CampNumMax": {
+      "min": 0,
+      "max": 0
+    },
+    "ChaosNumMin": {
+      "min": 0,
+      "max": 0
+    }
+  },
+  "DispositionDontInteraction": 1,
+  "DispositionDontIn": 1,
+  "DispositionDontSwitch": 1,
+  "DispositionAttack": 1,
+  "DispositionAgentDislikeAction": 2,
+  "DispositionAgentlikeAction": 4,
+  "DispositionAgentVerylikeAction": 5,
+  "DispositionAssistAttack": 5,
+  "InfluenceMaxValue": 100,
+  "BaseCampUnlockMaxInfluence": 60,
+  "CommentDispositionVisibleCount": 7,
+  "FactionInfluenceMapUnlockLimitedPlayRole": [
+    15020989
+  ],
+  "FactionPopupProgressDuration": 4,
+  "FactionPopupProgressDurationLeft": 5,
+  "SensorHeightDiff": 1.5,
+  "SensorRadius": 8,
+  "SensorRadiusExpand": 10,
+  "SensorViewAngle": 120,
+  "BaseCampUnlockText2": 89901232,
+  "BaseCampUnlockText4": 89901233,
+  "BaseCampUnlockText5": 89901234,
+  "CampCanNotBeAttack": 89901235,
+  "CampCanBeAttack": 89901236,
+  "EventPic": [
+    {
+      "EventType": 1,
+      "SguiId": 28002466
+    },
+    {
+      "EventType": 2,
+      "SguiId": 28002612
+    },
+    {
+      "EventType": 3,
+      "SguiId": 28000195
+    },
+    {
+      "EventType": 4,
+      "SguiId": 28002440
+    },
+    {
+      "EventType": 5,
+      "SguiId": 28002492
+    }
+  ],
+  "EventIntensityTitle": 89901237,
+  "EventBossTitle": 89901238,
+  "EventIntensityDes": [
+    {
+      "EventType": 1,
+      "Des": 89901239
+    },
+    {
+      "EventType": 2,
+      "Des": 89901240
+    },
+    {
+      "EventType": 3,
+      "Des": 89901241
+    }
+  ],
+  "CampBattleTitle": 89901242,
+  "CampIntensityTitle": 89901243,
+  "EventGivenTitle": 89901244,
+  "QMSDes": [
+    {
+      "DefeatNum": 1,
+      "Des": "嘉姆帮派的兴起，引起了巡卫署的注意。莱卡娅私下与嘉姆见面，给嘉姆展示了关于老爹的调查卷宗，以及历年的黑帮案件，得知老爹一直在帮巡卫署做内应，希望能改变帮派，但惨遭杀害。里希尾随进入莱卡娅宅邸的嘉姆，想要逮捕嘉姆，两人在豪宅大打一场，莱卡娅出现制止了两人拆家。莱卡娅最后表示嘉姆想要改变这一切，需要控制愤怒，改变自己。"
+    },
+    {
+      "DefeatNum": 2,
+      "Des": "嘉姆嘉姆嘉姆嘉姆++++++++++++++++++++++++++++++++++"
+    },
+    {
+      "DefeatNum": 3,
+      "Des": "嘉姆嘉姆价目-------------------------------------------------------"
+    }
+  ],
+  "HighLightRandomDrop": 14140210,
+  "DefaultDispositionItem": 36941016,
+  "LeftPopUpHighIcon": 28001673,
+  "LeftPopUpDownIcon": 28001674,
+  "DefaultDropTextId": 0,
+  "MergeDropIcon": 28017127,
+  "JiaMuFaction": 18000100,
+  "JiaMuGuideId": [
+    "GuideCamp",
+    "GuideGang",
+    "GuideInfluence"
+  ],
+  "CommentRefreshCD": [
+    {
+      "disposition": -9999,
+      "cd": 3
+    },
+    {
+      "disposition": -4000,
+      "cd": 5
+    },
+    {
+      "disposition": -2000,
+      "cd": 6
+    },
+    {
+      "disposition": -1000,
+      "cd": 8
+    },
+    {
+      "disposition": -500,
+      "cd": 10
+    },
+    {
+      "disposition": 300,
+      "cd": 8
+    },
+    {
+      "disposition": 1000,
+      "cd": 6
+    },
+    {
+      "disposition": 1800,
+      "cd": 5
+    },
+    {
+      "disposition": 2100,
+      "cd": 4
+    },
+    {
+      "disposition": 3000,
+      "cd": 3
+    },
+    {
+      "disposition": 5000,
+      "cd": 2
+    }
+  ],
+  "InnerLineWidth": 4,
+  "OuterLineWidth": 8,
+  "HighlighterWidth": 10,
+  "NeturalInnerLineColor": "666666",
+  "NeturalHighlightColor": "00E0F0",
+  "NeturalOuterLineColor": "666666",
+  "NeturalPolygonColor": "66666629",
+  "SummonUnlockTalentId": 99904000,
+  "SummonNumDefault": 1,
+  "HPHealthLimit": 70,
+  "HPHurtLimit": 40,
+  "MaxSlotNum": 8,
+  "SummonInitScale": 20,
+  "FactionLockText": "当前势力区域未解锁",
+  "AgentTypeNames": [
+    {
+      "name": "Increases the amount of damage dealt by a fixed amount.",
+      "type": 0,
+      "__IDX__name": 4294967293,
+      "__RAW__name": "暂未定义"
+    },
+    {
+      "name": "Increases the amount of damage dealt by a fixed amount.",
+      "type": 1,
+      "__IDX__name": 4294967293,
+      "__RAW__name": "格斗家"
+    },
+    {
+      "name": "Increases the amount of damage dealt by a fixed amount.",
+      "type": 2,
+      "__IDX__name": 4294967293,
+      "__RAW__name": "拥护者"
+    }
+  ],
+  "DeathHpRecoverRate": 0.300000012,
+  "DonationPopupText": 65411059,
+  "DungeonFailTimes": 2,
+  "InvasionAlert": 80
+}

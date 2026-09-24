@@ -1,0 +1,35 @@
+{
+  "ThisIsAliasCfg": {
+    "Id": 12600201,
+    "UintVal": 888,
+    "Str": "888",
+    "BoolVa": [
+      false,
+      true,
+      false,
+      true
+    ],
+    "StrArray": [
+      "Str4",
+      "Str3",
+      "Str2",
+      "Str2"
+    ],
+    "StructVal": {
+      "UnitValue": 888,
+      "Str": "Str889"
+    },
+    "Structs": [
+      {
+        "UnitValue": 111,
+        "Str": "Str1",
+        "b": false
+      },
+      {
+        "UnitValue": 222,
+        "Str": "Str8",
+        "b": false
+      }
+    ]
+  }
+}

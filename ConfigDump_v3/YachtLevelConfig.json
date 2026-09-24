@@ -1,0 +1,96 @@
+{
+  "_class": "YachtLevelConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 5,
+  "records": [
+    {
+      "Id": 1,
+      "YachtId": 1,
+      "Level": 1,
+      "RequiredHeat": 0,
+      "UnlockDesc": "基础权限:邀请登船、修改船名",
+      "StartVersion": "",
+      "EndVersion": "",
+      "CostItems": []
+    },
+    {
+      "Id": 2,
+      "YachtId": 1,
+      "Level": 2,
+      "RequiredHeat": 100,
+      "UnlockDesc": "解锁船名字体选装、访客上限+2",
+      "StartVersion": "",
+      "EndVersion": "",
+      "CostItems": [
+        {
+          "item": 36100000,
+          "count": 5
+        },
+        {
+          "item": 36100001,
+          "count": 1000
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "YachtId": 1,
+      "Level": 3,
+      "RequiredHeat": 300,
+      "UnlockDesc": "解锁船灯选装、解锁派对功能、访客上限+3",
+      "StartVersion": "",
+      "EndVersion": "",
+      "CostItems": [
+        {
+          "item": 36100000,
+          "count": 10
+        },
+        {
+          "item": 36100001,
+          "count": 3000
+        }
+      ]
+    },
+    {
+      "Id": 4,
+      "YachtId": 1,
+      "Level": 4,
+      "RequiredHeat": 800,
+      "UnlockDesc": "解锁涂装选装、解锁Logo选装、访客上限+4",
+      "StartVersion": "",
+      "EndVersion": "",
+      "CostItems": [
+        {
+          "item": 36100000,
+          "count": 20
+        },
+        {
+          "item": 36100001,
+          "count": 8000
+        }
+      ]
+    },
+    {
+      "Id": 5,
+      "YachtId": 1,
+      "Level": 5,
+      "RequiredHeat": 2000,
+      "UnlockDesc": "解锁雕塑选装、全功能解锁、访客上限+5",
+      "StartVersion": "",
+      "EndVersion": "",
+      "CostItems": [
+        {
+          "item": 36100000,
+          "count": 50
+        },
+        {
+          "item": 36100001,
+          "count": 20000
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 5,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

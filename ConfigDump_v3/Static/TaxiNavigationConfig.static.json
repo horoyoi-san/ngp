@@ -1,0 +1,39 @@
+{
+  "OffTaxiWaitTime": 6,
+  "TaxiNormalCost": 300,
+  "TaxiExtraCost": 80,
+  "TaxiCostRandom": {
+    "min": 10,
+    "max": 30
+  },
+  "TaxiTakingDialogue": 49502011,
+  "TaxiStartDialogue": 49502014,
+  "NoEnoughTaxiPayTip": "You don’t have enough Golvent left to reach your selected destination.",
+  "NormalTaxiSpeed": 15,
+  "FasterTaxiSpeed": 25,
+  "TaxiNavSkipMessage": 65134366,
+  "TaxiNearRange": 50,
+  "TaxiFasterDialogue": [
+    {
+      "count": 1,
+      "dialogID": 49502018
+    },
+    {
+      "count": 3,
+      "dialogID": 49502020
+    },
+    {
+      "count": 5,
+      "dialogID": 49502021
+    },
+    {
+      "count": 10,
+      "dialogID": 49502022
+    }
+  ],
+  "TaxiFasterFxPlaySpeed": 0.200000003,
+  "TaxiNavChangeDialog": 49502016,
+  "TaxiNavEndDialog": 49502017,
+  "TaxiNoDestinationDialog": 49502019,
+  "TaxiFasterCD": 0.5
+}

@@ -1,0 +1,180 @@
+{
+  "_class": "FireRecoilSpreadConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 10,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "测试散布",
+      "BaseSpread": 0,
+      "ShootMaxAngle": 1,
+      "DirectionalSpread": true,
+      "SpreadRecoveryDelay": 0.100000001,
+      "ShootReduceCurve": 67100147,
+      "MoveSpeedCurve": 0,
+      "CrossHairMainExpandCurve": 67100389,
+      "BulletSpread": [
+        {
+          "bulletIndex": 1,
+          "spread": 0
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "Name": "冲锋枪通用肩射散布",
+      "BaseSpread": 0.00999999978,
+      "ShootMaxAngle": 0.600000024,
+      "DirectionalSpread": true,
+      "SpreadRecoveryDelay": 0.0333300009,
+      "ShootReduceCurve": 67100147,
+      "MoveSpeedCurve": 0,
+      "CrossHairMainExpandCurve": 67100389,
+      "BulletSpread": [
+        {
+          "bulletIndex": 1,
+          "spread": 0.400000006
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "Name": "霰弹枪腰射散布",
+      "BaseSpread": 1,
+      "ShootMaxAngle": 5,
+      "DirectionalSpread": true,
+      "SpreadRecoveryDelay": 0.129999995,
+      "ShootReduceCurve": 67100147,
+      "MoveSpeedCurve": 0,
+      "CrossHairMainExpandCurve": 67100389,
+      "BulletSpread": [
+        {
+          "bulletIndex": 1,
+          "spread": 1
+        }
+      ]
+    },
+    {
+      "Id": 4,
+      "Name": "冲锋枪通用腰射散布",
+      "BaseSpread": 0.300000012,
+      "ShootMaxAngle": 1.20000005,
+      "DirectionalSpread": true,
+      "SpreadRecoveryDelay": 0.0333300009,
+      "ShootReduceCurve": 67100147,
+      "MoveSpeedCurve": 0,
+      "CrossHairMainExpandCurve": 67100389,
+      "BulletSpread": [
+        {
+          "bulletIndex": 1,
+          "spread": 0.5
+        }
+      ]
+    },
+    {
+      "Id": 5,
+      "Name": "轻机枪通用肩射散布",
+      "BaseSpread": 0.0500000007,
+      "ShootMaxAngle": 0.800000012,
+      "DirectionalSpread": true,
+      "SpreadRecoveryDelay": 0.0250000004,
+      "ShootReduceCurve": 67100147,
+      "MoveSpeedCurve": 0,
+      "CrossHairMainExpandCurve": 67100389,
+      "BulletSpread": [
+        {
+          "bulletIndex": 1,
+          "spread": 0.300000012
+        }
+      ]
+    },
+    {
+      "Id": 6,
+      "Name": "轻机枪通用腰射散布",
+      "BaseSpread": 0.600000024,
+      "ShootMaxAngle": 1.60000002,
+      "DirectionalSpread": true,
+      "SpreadRecoveryDelay": 0.0250000004,
+      "ShootReduceCurve": 67100147,
+      "MoveSpeedCurve": 0,
+      "CrossHairMainExpandCurve": 67100389,
+      "BulletSpread": [
+        {
+          "bulletIndex": 1,
+          "spread": 0.400000006
+        }
+      ]
+    },
+    {
+      "Id": 7,
+      "Name": "霰弹枪通用肩射散布",
+      "BaseSpread": 0.5,
+      "ShootMaxAngle": 5,
+      "DirectionalSpread": true,
+      "SpreadRecoveryDelay": 0.100000001,
+      "ShootReduceCurve": 67100147,
+      "MoveSpeedCurve": 0,
+      "CrossHairMainExpandCurve": 67100389,
+      "BulletSpread": [
+        {
+          "bulletIndex": 1,
+          "spread": 0.800000012
+        }
+      ]
+    },
+    {
+      "Id": 8,
+      "Name": "手枪通用肩射散布",
+      "BaseSpread": 0.00999999978,
+      "ShootMaxAngle": 5,
+      "DirectionalSpread": true,
+      "SpreadRecoveryDelay": 0.0500000007,
+      "ShootReduceCurve": 67100147,
+      "MoveSpeedCurve": 0,
+      "CrossHairMainExpandCurve": 67100389,
+      "BulletSpread": [
+        {
+          "bulletIndex": 1,
+          "spread": 0.5
+        }
+      ]
+    },
+    {
+      "Id": 9,
+      "Name": "手枪通用腰射散布",
+      "BaseSpread": 0.300000012,
+      "ShootMaxAngle": 5,
+      "DirectionalSpread": true,
+      "SpreadRecoveryDelay": 0.0500000007,
+      "ShootReduceCurve": 67100147,
+      "MoveSpeedCurve": 0,
+      "CrossHairMainExpandCurve": 67100389,
+      "BulletSpread": [
+        {
+          "bulletIndex": 1,
+          "spread": 0.699999988
+        }
+      ]
+    },
+    {
+      "Id": 10,
+      "Name": "狙击枪腰射散布",
+      "BaseSpread": 0.200000003,
+      "ShootMaxAngle": 5,
+      "DirectionalSpread": true,
+      "SpreadRecoveryDelay": 0.100000001,
+      "ShootReduceCurve": 67100147,
+      "MoveSpeedCurve": 0,
+      "CrossHairMainExpandCurve": 67100389,
+      "BulletSpread": [
+        {
+          "bulletIndex": 1,
+          "spread": 1
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 10,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -1,0 +1,88 @@
+{
+  "_class": "CompanionAIDialogReactionDialogEventConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 13,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "玩家死亡",
+      "TriggerDistanceCondition": 20,
+      "DialogLibrary": 5
+    },
+    {
+      "Id": 2,
+      "Name": "玩家剪了时髦发型",
+      "TriggerDistanceCondition": 12,
+      "DialogLibrary": 6
+    },
+    {
+      "Id": 6,
+      "Name": "玩家翻车",
+      "TriggerDistanceCondition": 10,
+      "DialogLibrary": 10
+    },
+    {
+      "Id": 7,
+      "Name": "玩家严重撞车",
+      "TriggerDistanceCondition": 10,
+      "DialogLibrary": 11
+    },
+    {
+      "Id": 9,
+      "Name": "玩家游泳",
+      "TriggerDistanceCondition": 25,
+      "DialogLibrary": 14
+    },
+    {
+      "Id": 10,
+      "Name": "玩家被车撞飞",
+      "TriggerDistanceCondition": 20,
+      "DialogLibrary": 15
+    },
+    {
+      "Id": 11,
+      "Name": "玩家开车高速",
+      "TriggerDistanceCondition": 0,
+      "DialogLibrary": 16
+    },
+    {
+      "Id": 12,
+      "Name": "玩家进厕所",
+      "TriggerDistanceCondition": 15,
+      "DialogLibrary": 17
+    },
+    {
+      "Id": 14,
+      "Name": "看到狗",
+      "TriggerDistanceCondition": 15,
+      "DialogLibrary": 19
+    },
+    {
+      "Id": 16,
+      "Name": "玩家高速跳车",
+      "TriggerDistanceCondition": 25,
+      "DialogLibrary": 21
+    },
+    {
+      "Id": 17,
+      "Name": "玩家频繁快撞路人",
+      "TriggerDistanceCondition": 0,
+      "DialogLibrary": 22
+    },
+    {
+      "Id": 19,
+      "Name": "玩家使用娃娃机，成功抓到娃娃",
+      "TriggerDistanceCondition": 10,
+      "DialogLibrary": 29
+    },
+    {
+      "Id": 20,
+      "Name": "玩家使用娃娃机，抓娃娃失败",
+      "TriggerDistanceCondition": 10,
+      "DialogLibrary": 30
+    }
+  ],
+  "_dumpedCount": 13,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

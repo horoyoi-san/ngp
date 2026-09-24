@@ -1,0 +1,1282 @@
+{
+  "_class": "DanceDanceNPCConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 22,
+  "records": [
+    {
+      "Id": 1,
+      "DateTask": 0,
+      "Npcid": 91050014,
+      "DanceNpcGroup": 1,
+      "DanceGroupStateTree": [
+        1,
+        2,
+        3
+      ],
+      "GainUp": 0.100000001,
+      "AttenuationUP": 0.300000012,
+      "CheckDanceStateCount": 1,
+      "StateGuaranteedTime_2": 31,
+      "StateGuaranteedTime_3": 93,
+      "SlowDownTime": 93,
+      "TiredTime": 108.5,
+      "Dialog_tl": [
+        100017156
+      ],
+      "Dialog_DanceChange": [
+        100045222
+      ],
+      "Dialog_DanceTypeChange": [
+        100045225
+      ],
+      "Dialog_HiDacne": [
+        100045228
+      ],
+      "Dialog_DanceOverBye": [
+        100017164
+      ],
+      "Dialog_TiredOverBye": [
+        100045232
+      ],
+      "NpcName": 74000001,
+      "TimelineModelName": "飞镖邀约角色",
+      "TLPersonality": 0,
+      "Personality": 1,
+      "DanceChangeSet": [
+        {
+          "count": 1,
+          "prop": 0.300000012,
+          "sameprop": 0.200000003
+        },
+        {
+          "count": 1,
+          "prop": 0.400000006,
+          "sameprop": 0.300000012
+        },
+        {
+          "count": 1,
+          "prop": 0.5,
+          "sameprop": 0.600000024
+        }
+      ],
+      "DanceChangeCD": [
+        {
+          "cishu": 1,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "DateTask": 0,
+      "Npcid": 91050027,
+      "DanceNpcGroup": 2,
+      "DanceGroupStateTree": [
+        1,
+        2,
+        3
+      ],
+      "GainUp": 0.200000003,
+      "AttenuationUP": 0.200000003,
+      "CheckDanceStateCount": 1,
+      "StateGuaranteedTime_2": 31,
+      "StateGuaranteedTime_3": 93,
+      "SlowDownTime": 124,
+      "TiredTime": 155,
+      "Dialog_tl": [
+        100012698
+      ],
+      "Dialog_DanceChange": [
+        100045270
+      ],
+      "Dialog_DanceTypeChange": [
+        100045273
+      ],
+      "Dialog_HiDacne": [
+        100045276
+      ],
+      "Dialog_DanceOverBye": [
+        100072581
+      ],
+      "Dialog_TiredOverBye": [
+        100045280
+      ],
+      "NpcName": 74000127,
+      "TimelineModelName": "飞镖邀约角色",
+      "TLPersonality": 0,
+      "Personality": 1,
+      "DanceChangeSet": [
+        {
+          "count": 1,
+          "prop": 0.300000012,
+          "sameprop": 0.200000003
+        },
+        {
+          "count": 1,
+          "prop": 0.400000006,
+          "sameprop": 0.300000012
+        },
+        {
+          "count": 1,
+          "prop": 0.5,
+          "sameprop": 0.600000024
+        }
+      ],
+      "DanceChangeCD": [
+        {
+          "cishu": 2,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "DateTask": 0,
+      "Npcid": 91050016,
+      "DanceNpcGroup": 3,
+      "DanceGroupStateTree": [
+        1,
+        2,
+        3
+      ],
+      "GainUp": 0.100000001,
+      "AttenuationUP": 0.200000003,
+      "CheckDanceStateCount": 1,
+      "StateGuaranteedTime_2": 31,
+      "StateGuaranteedTime_3": 93,
+      "SlowDownTime": 124,
+      "TiredTime": 155,
+      "Dialog_tl": [
+        100014406
+      ],
+      "Dialog_DanceChange": [
+        100045282
+      ],
+      "Dialog_DanceTypeChange": [
+        100045285
+      ],
+      "Dialog_HiDacne": [
+        100045288
+      ],
+      "Dialog_DanceOverBye": [
+        100014414
+      ],
+      "Dialog_TiredOverBye": [
+        100045292
+      ],
+      "NpcName": 74000469,
+      "TimelineModelName": "飞镖邀约角色",
+      "TLPersonality": 0,
+      "Personality": 2,
+      "DanceChangeSet": [
+        {
+          "count": 1,
+          "prop": 0.300000012,
+          "sameprop": 0.200000003
+        },
+        {
+          "count": 1,
+          "prop": 0.400000006,
+          "sameprop": 0.300000012
+        },
+        {
+          "count": 1,
+          "prop": 0.5,
+          "sameprop": 0.600000024
+        }
+      ],
+      "DanceChangeCD": [
+        {
+          "cishu": 2,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "Id": 4,
+      "DateTask": 0,
+      "Npcid": 91050015,
+      "DanceNpcGroup": 4,
+      "DanceGroupStateTree": [
+        1,
+        2,
+        3
+      ],
+      "GainUp": 0.200000003,
+      "AttenuationUP": 0.100000001,
+      "CheckDanceStateCount": 1,
+      "StateGuaranteedTime_2": 31,
+      "StateGuaranteedTime_3": 77.5,
+      "SlowDownTime": 124,
+      "TiredTime": 155,
+      "Dialog_tl": [
+        100018237
+      ],
+      "Dialog_DanceChange": [
+        100044601
+      ],
+      "Dialog_DanceTypeChange": [
+        100044604
+      ],
+      "Dialog_HiDacne": [
+        100044607
+      ],
+      "Dialog_DanceOverBye": [
+        100072575
+      ],
+      "Dialog_TiredOverBye": [
+        100044611
+      ],
+      "NpcName": 74000052,
+      "TimelineModelName": "飞镖邀约角色",
+      "TLPersonality": 2,
+      "Personality": 2,
+      "DanceChangeSet": [
+        {
+          "count": 1,
+          "prop": 0.300000012,
+          "sameprop": 0.200000003
+        },
+        {
+          "count": 1,
+          "prop": 0.400000006,
+          "sameprop": 0.300000012
+        },
+        {
+          "count": 1,
+          "prop": 0.5,
+          "sameprop": 0.600000024
+        }
+      ],
+      "DanceChangeCD": [
+        {
+          "cishu": 2,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "Id": 5,
+      "DateTask": 0,
+      "Npcid": 91050030,
+      "DanceNpcGroup": 5,
+      "DanceGroupStateTree": [
+        1,
+        2,
+        3
+      ],
+      "GainUp": 0.100000001,
+      "AttenuationUP": 0.300000012,
+      "CheckDanceStateCount": 1,
+      "StateGuaranteedTime_2": 31,
+      "StateGuaranteedTime_3": 93,
+      "SlowDownTime": 108.5,
+      "TiredTime": 139.5,
+      "Dialog_tl": [
+        100014890
+      ],
+      "Dialog_DanceChange": [
+        100045295
+      ],
+      "Dialog_DanceTypeChange": [
+        100045298
+      ],
+      "Dialog_HiDacne": [
+        100045301
+      ],
+      "Dialog_DanceOverBye": [
+        100072579
+      ],
+      "Dialog_TiredOverBye": [
+        100045305
+      ],
+      "NpcName": 74000623,
+      "TimelineModelName": "飞镖邀约角色",
+      "TLPersonality": 0,
+      "Personality": 2,
+      "DanceChangeSet": [
+        {
+          "count": 1,
+          "prop": 0.300000012,
+          "sameprop": 0.200000003
+        },
+        {
+          "count": 1,
+          "prop": 0.400000006,
+          "sameprop": 0.300000012
+        },
+        {
+          "count": 1,
+          "prop": 0.5,
+          "sameprop": 0.600000024
+        }
+      ],
+      "DanceChangeCD": [
+        {
+          "cishu": 2,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "Id": 6,
+      "DateTask": 0,
+      "Npcid": 91050020,
+      "DanceNpcGroup": 6,
+      "DanceGroupStateTree": [
+        1,
+        2,
+        3
+      ],
+      "GainUp": 0.200000003,
+      "AttenuationUP": 0.200000003,
+      "CheckDanceStateCount": 1,
+      "StateGuaranteedTime_2": 31,
+      "StateGuaranteedTime_3": 93,
+      "SlowDownTime": 124,
+      "TiredTime": 155,
+      "Dialog_tl": [
+        100072605
+      ],
+      "Dialog_DanceChange": [
+        100045234
+      ],
+      "Dialog_DanceTypeChange": [
+        100045237
+      ],
+      "Dialog_HiDacne": [
+        100045240
+      ],
+      "Dialog_DanceOverBye": [
+        100072567
+      ],
+      "Dialog_TiredOverBye": [
+        100045244
+      ],
+      "NpcName": 74000130,
+      "TimelineModelName": "飞镖邀约角色",
+      "TLPersonality": 0,
+      "Personality": 1,
+      "DanceChangeSet": [
+        {
+          "count": 1,
+          "prop": 0.300000012,
+          "sameprop": 0.200000003
+        },
+        {
+          "count": 1,
+          "prop": 0.400000006,
+          "sameprop": 0.300000012
+        },
+        {
+          "count": 1,
+          "prop": 0.5,
+          "sameprop": 0.600000024
+        }
+      ],
+      "DanceChangeCD": [
+        {
+          "cishu": 2,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "Id": 7,
+      "DateTask": 0,
+      "Npcid": 91050024,
+      "DanceNpcGroup": 7,
+      "DanceGroupStateTree": [
+        1,
+        2,
+        3
+      ],
+      "GainUp": 0.300000012,
+      "AttenuationUP": 0.100000001,
+      "CheckDanceStateCount": 1,
+      "StateGuaranteedTime_2": 31,
+      "StateGuaranteedTime_3": 77.5,
+      "SlowDownTime": 108.5,
+      "TiredTime": 139.5,
+      "Dialog_tl": [],
+      "Dialog_DanceChange": [],
+      "Dialog_DanceTypeChange": [],
+      "Dialog_HiDacne": [],
+      "Dialog_DanceOverBye": [],
+      "Dialog_TiredOverBye": [],
+      "NpcName": 74000723,
+      "TimelineModelName": "飞镖邀约角色",
+      "TLPersonality": 0,
+      "Personality": 3,
+      "DanceChangeSet": [
+        {
+          "count": 2,
+          "prop": 1,
+          "sameprop": 1
+        },
+        {
+          "count": 2,
+          "prop": 1,
+          "sameprop": 1
+        },
+        {
+          "count": 2,
+          "prop": 1,
+          "sameprop": 1
+        }
+      ],
+      "DanceChangeCD": [
+        {
+          "cishu": 2,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "Id": 8,
+      "DateTask": 0,
+      "Npcid": 91050019,
+      "DanceNpcGroup": 8,
+      "DanceGroupStateTree": [
+        1,
+        2,
+        3
+      ],
+      "GainUp": 0.100000001,
+      "AttenuationUP": 0.300000012,
+      "CheckDanceStateCount": 1,
+      "StateGuaranteedTime_2": 31,
+      "StateGuaranteedTime_3": 93,
+      "SlowDownTime": 108.5,
+      "TiredTime": 139.5,
+      "Dialog_tl": [
+        100072607
+      ],
+      "Dialog_DanceChange": [
+        100045246
+      ],
+      "Dialog_DanceTypeChange": [
+        100045249
+      ],
+      "Dialog_HiDacne": [
+        100045252
+      ],
+      "Dialog_DanceOverBye": [
+        100072571
+      ],
+      "Dialog_TiredOverBye": [
+        100045256
+      ],
+      "NpcName": 74000470,
+      "TimelineModelName": "飞镖邀约角色",
+      "TLPersonality": 0,
+      "Personality": 3,
+      "DanceChangeSet": [
+        {
+          "count": 1,
+          "prop": 0.300000012,
+          "sameprop": 0.200000003
+        },
+        {
+          "count": 1,
+          "prop": 0.400000006,
+          "sameprop": 0.300000012
+        },
+        {
+          "count": 1,
+          "prop": 0.5,
+          "sameprop": 0.600000024
+        }
+      ],
+      "DanceChangeCD": [
+        {
+          "cishu": 1,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "Id": 9,
+      "DateTask": 0,
+      "Npcid": 91050032,
+      "DanceNpcGroup": 9,
+      "DanceGroupStateTree": [
+        1,
+        2,
+        3
+      ],
+      "GainUp": 0.100000001,
+      "AttenuationUP": 0.200000003,
+      "CheckDanceStateCount": 1,
+      "StateGuaranteedTime_2": 31,
+      "StateGuaranteedTime_3": 93,
+      "SlowDownTime": 124,
+      "TiredTime": 139.5,
+      "Dialog_tl": [
+        100072609
+      ],
+      "Dialog_DanceChange": [
+        100044590
+      ],
+      "Dialog_DanceTypeChange": [
+        100044593
+      ],
+      "Dialog_HiDacne": [
+        100044596
+      ],
+      "Dialog_DanceOverBye": [
+        100072573
+      ],
+      "Dialog_TiredOverBye": [
+        100044600
+      ],
+      "NpcName": 74000743,
+      "TimelineModelName": "飞镖邀约角色",
+      "TLPersonality": 1,
+      "Personality": 3,
+      "DanceChangeSet": [
+        {
+          "count": 1,
+          "prop": 0.300000012,
+          "sameprop": 0.200000003
+        },
+        {
+          "count": 1,
+          "prop": 0.400000006,
+          "sameprop": 0.300000012
+        },
+        {
+          "count": 1,
+          "prop": 0.5,
+          "sameprop": 0.600000024
+        }
+      ],
+      "DanceChangeCD": [
+        {
+          "cishu": 1,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "Id": 10,
+      "DateTask": 0,
+      "Npcid": 91050028,
+      "DanceNpcGroup": 10,
+      "DanceGroupStateTree": [
+        1,
+        2,
+        3
+      ],
+      "GainUp": 0.200000003,
+      "AttenuationUP": 0.200000003,
+      "CheckDanceStateCount": 1,
+      "StateGuaranteedTime_2": 31,
+      "StateGuaranteedTime_3": 93,
+      "SlowDownTime": 124,
+      "TiredTime": 155,
+      "Dialog_tl": [
+        100016185
+      ],
+      "Dialog_DanceChange": [
+        100045258
+      ],
+      "Dialog_DanceTypeChange": [
+        100045261
+      ],
+      "Dialog_HiDacne": [
+        100045264
+      ],
+      "Dialog_DanceOverBye": [
+        100072577
+      ],
+      "Dialog_TiredOverBye": [
+        100045268
+      ],
+      "NpcName": 74000744,
+      "TimelineModelName": "飞镖邀约角色",
+      "TLPersonality": 0,
+      "Personality": 1,
+      "DanceChangeSet": [
+        {
+          "count": 1,
+          "prop": 0.300000012,
+          "sameprop": 0.200000003
+        },
+        {
+          "count": 1,
+          "prop": 0.400000006,
+          "sameprop": 0.300000012
+        },
+        {
+          "count": 1,
+          "prop": 0.5,
+          "sameprop": 0.600000024
+        }
+      ],
+      "DanceChangeCD": [
+        {
+          "cishu": 2,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "Id": 11,
+      "DateTask": 0,
+      "Npcid": 91050021,
+      "DanceNpcGroup": 11,
+      "DanceGroupStateTree": [
+        1,
+        2,
+        3
+      ],
+      "GainUp": 0.300000012,
+      "AttenuationUP": 0.100000001,
+      "CheckDanceStateCount": 1,
+      "StateGuaranteedTime_2": 31,
+      "StateGuaranteedTime_3": 62,
+      "SlowDownTime": 93,
+      "TiredTime": 124,
+      "Dialog_tl": [
+        100030555
+      ],
+      "Dialog_DanceChange": [
+        100045324
+      ],
+      "Dialog_DanceTypeChange": [
+        100045327
+      ],
+      "Dialog_HiDacne": [
+        100045330
+      ],
+      "Dialog_DanceOverBye": [
+        100030563
+      ],
+      "Dialog_TiredOverBye": [
+        100045334
+      ],
+      "NpcName": 74000015,
+      "TimelineModelName": "飞镖邀约角色",
+      "TLPersonality": 0,
+      "Personality": 3,
+      "DanceChangeSet": [
+        {
+          "count": 1,
+          "prop": 0.300000012,
+          "sameprop": 0.200000003
+        },
+        {
+          "count": 1,
+          "prop": 0.400000006,
+          "sameprop": 0.300000012
+        },
+        {
+          "count": 1,
+          "prop": 0.5,
+          "sameprop": 0.600000024
+        }
+      ],
+      "DanceChangeCD": [
+        {
+          "cishu": 2,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "Id": 12,
+      "DateTask": 0,
+      "Npcid": 91050013,
+      "DanceNpcGroup": 12,
+      "DanceGroupStateTree": [
+        1,
+        2,
+        3
+      ],
+      "GainUp": 0.200000003,
+      "AttenuationUP": 0.200000003,
+      "CheckDanceStateCount": 1,
+      "StateGuaranteedTime_2": 31,
+      "StateGuaranteedTime_3": 93,
+      "SlowDownTime": 124,
+      "TiredTime": 155,
+      "Dialog_tl": [],
+      "Dialog_DanceChange": [],
+      "Dialog_DanceTypeChange": [],
+      "Dialog_HiDacne": [],
+      "Dialog_DanceOverBye": [],
+      "Dialog_TiredOverBye": [],
+      "NpcName": 74000472,
+      "TimelineModelName": "飞镖邀约角色",
+      "TLPersonality": 0,
+      "Personality": 1,
+      "DanceChangeSet": [
+        {
+          "count": 1,
+          "prop": 0.300000012,
+          "sameprop": 0.200000003
+        },
+        {
+          "count": 1,
+          "prop": 0.400000006,
+          "sameprop": 0.300000012
+        },
+        {
+          "count": 1,
+          "prop": 0.5,
+          "sameprop": 0.600000024
+        }
+      ],
+      "DanceChangeCD": [
+        {
+          "cishu": 2,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "Id": 13,
+      "DateTask": 0,
+      "Npcid": 91050029,
+      "DanceNpcGroup": 13,
+      "DanceGroupStateTree": [
+        1,
+        2,
+        3
+      ],
+      "GainUp": 0.100000001,
+      "AttenuationUP": 0.200000003,
+      "CheckDanceStateCount": 1,
+      "StateGuaranteedTime_2": 31,
+      "StateGuaranteedTime_3": 93,
+      "SlowDownTime": 124,
+      "TiredTime": 155,
+      "Dialog_tl": [],
+      "Dialog_DanceChange": [],
+      "Dialog_DanceTypeChange": [],
+      "Dialog_HiDacne": [],
+      "Dialog_DanceOverBye": [],
+      "Dialog_TiredOverBye": [],
+      "NpcName": 74000624,
+      "TimelineModelName": "飞镖邀约角色",
+      "TLPersonality": 0,
+      "Personality": 2,
+      "DanceChangeSet": [
+        {
+          "count": 1,
+          "prop": 0.300000012,
+          "sameprop": 0.200000003
+        },
+        {
+          "count": 1,
+          "prop": 0.400000006,
+          "sameprop": 0.300000012
+        },
+        {
+          "count": 1,
+          "prop": 0.5,
+          "sameprop": 0.600000024
+        }
+      ],
+      "DanceChangeCD": [
+        {
+          "cishu": 2,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "Id": 14,
+      "DateTask": 0,
+      "Npcid": 91050022,
+      "DanceNpcGroup": 14,
+      "DanceGroupStateTree": [
+        1,
+        2,
+        3
+      ],
+      "GainUp": 0.200000003,
+      "AttenuationUP": 0.200000003,
+      "CheckDanceStateCount": 1,
+      "StateGuaranteedTime_2": 31,
+      "StateGuaranteedTime_3": 93,
+      "SlowDownTime": 124,
+      "TiredTime": 155,
+      "Dialog_tl": [
+        100018627
+      ],
+      "Dialog_DanceChange": [
+        100044612
+      ],
+      "Dialog_DanceTypeChange": [
+        100044615
+      ],
+      "Dialog_HiDacne": [
+        100044618
+      ],
+      "Dialog_DanceOverBye": [
+        100072569
+      ],
+      "Dialog_TiredOverBye": [
+        100044622
+      ],
+      "NpcName": 74000278,
+      "TimelineModelName": "飞镖邀约角色",
+      "TLPersonality": 1,
+      "Personality": 1,
+      "DanceChangeSet": [
+        {
+          "count": 2,
+          "prop": 1,
+          "sameprop": 1
+        },
+        {
+          "count": 2,
+          "prop": 1,
+          "sameprop": 1
+        },
+        {
+          "count": 2,
+          "prop": 1,
+          "sameprop": 1
+        }
+      ],
+      "DanceChangeCD": [
+        {
+          "cishu": 2,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "Id": 15,
+      "DateTask": 0,
+      "Npcid": 91050033,
+      "DanceNpcGroup": 15,
+      "DanceGroupStateTree": [
+        1,
+        2,
+        3
+      ],
+      "GainUp": 0.200000003,
+      "AttenuationUP": 0.200000003,
+      "CheckDanceStateCount": 1,
+      "StateGuaranteedTime_2": 31,
+      "StateGuaranteedTime_3": 93,
+      "SlowDownTime": 124,
+      "TiredTime": 155,
+      "Dialog_tl": [
+        100030779
+      ],
+      "Dialog_DanceChange": [
+        100072932
+      ],
+      "Dialog_DanceTypeChange": [
+        100072931
+      ],
+      "Dialog_HiDacne": [
+        100072930
+      ],
+      "Dialog_DanceOverBye": [
+        100030915
+      ],
+      "Dialog_TiredOverBye": [
+        100072929
+      ],
+      "NpcName": 0,
+      "TimelineModelName": "飞镖邀约角色",
+      "TLPersonality": 0,
+      "Personality": 2,
+      "DanceChangeSet": [
+        {
+          "count": 2,
+          "prop": 0.800000012,
+          "sameprop": 1
+        },
+        {
+          "count": 2,
+          "prop": 0.800000012,
+          "sameprop": 1
+        },
+        {
+          "count": 2,
+          "prop": 0.800000012,
+          "sameprop": 1
+        }
+      ],
+      "DanceChangeCD": [
+        {
+          "cishu": 2,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "Id": 16,
+      "DateTask": 0,
+      "Npcid": 91050034,
+      "DanceNpcGroup": 16,
+      "DanceGroupStateTree": [
+        1,
+        2,
+        3
+      ],
+      "GainUp": 0.200000003,
+      "AttenuationUP": 0.200000003,
+      "CheckDanceStateCount": 1,
+      "StateGuaranteedTime_2": 31,
+      "StateGuaranteedTime_3": 93,
+      "SlowDownTime": 124,
+      "TiredTime": 155,
+      "Dialog_tl": [],
+      "Dialog_DanceChange": [],
+      "Dialog_DanceTypeChange": [],
+      "Dialog_HiDacne": [],
+      "Dialog_DanceOverBye": [],
+      "Dialog_TiredOverBye": [],
+      "NpcName": 0,
+      "TimelineModelName": "飞镖邀约角色",
+      "TLPersonality": 0,
+      "Personality": 1,
+      "DanceChangeSet": [
+        {
+          "count": 1,
+          "prop": 0.300000012,
+          "sameprop": 0.200000003
+        },
+        {
+          "count": 1,
+          "prop": 0.400000006,
+          "sameprop": 0.300000012
+        },
+        {
+          "count": 1,
+          "prop": 0.5,
+          "sameprop": 0.600000024
+        }
+      ],
+      "DanceChangeCD": [
+        {
+          "cishu": 2,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "Id": 17,
+      "DateTask": 0,
+      "Npcid": 91050035,
+      "DanceNpcGroup": 17,
+      "DanceGroupStateTree": [],
+      "GainUp": 0,
+      "AttenuationUP": 0,
+      "CheckDanceStateCount": 0,
+      "StateGuaranteedTime_2": 0,
+      "StateGuaranteedTime_3": 0,
+      "SlowDownTime": 0,
+      "TiredTime": 0,
+      "Dialog_tl": [
+        100066755
+      ],
+      "Dialog_DanceChange": [
+        100072940
+      ],
+      "Dialog_DanceTypeChange": [
+        100072939
+      ],
+      "Dialog_HiDacne": [
+        100072938
+      ],
+      "Dialog_DanceOverBye": [
+        100066760
+      ],
+      "Dialog_TiredOverBye": [
+        100072937
+      ],
+      "NpcName": 0,
+      "TimelineModelName": "",
+      "TLPersonality": 0,
+      "Personality": 0,
+      "DanceChangeSet": [],
+      "DanceChangeCD": []
+    },
+    {
+      "Id": 18,
+      "DateTask": 0,
+      "Npcid": 91050031,
+      "DanceNpcGroup": 18,
+      "DanceGroupStateTree": [],
+      "GainUp": 0.200000003,
+      "AttenuationUP": 0.200000003,
+      "CheckDanceStateCount": 0,
+      "StateGuaranteedTime_2": 0,
+      "StateGuaranteedTime_3": 0,
+      "SlowDownTime": 0,
+      "TiredTime": 0,
+      "Dialog_tl": [
+        100066726
+      ],
+      "Dialog_DanceChange": [
+        100072928
+      ],
+      "Dialog_DanceTypeChange": [
+        100072927
+      ],
+      "Dialog_HiDacne": [
+        100072926
+      ],
+      "Dialog_DanceOverBye": [
+        100066731
+      ],
+      "Dialog_TiredOverBye": [
+        100072925
+      ],
+      "NpcName": 0,
+      "TimelineModelName": "",
+      "TLPersonality": 0,
+      "Personality": 0,
+      "DanceChangeSet": [],
+      "DanceChangeCD": []
+    },
+    {
+      "Id": 19,
+      "DateTask": 0,
+      "Npcid": 91050036,
+      "DanceNpcGroup": 19,
+      "DanceGroupStateTree": [
+        1,
+        2,
+        3
+      ],
+      "GainUp": 0.200000003,
+      "AttenuationUP": 0.200000003,
+      "CheckDanceStateCount": 1,
+      "StateGuaranteedTime_2": 31,
+      "StateGuaranteedTime_3": 93,
+      "SlowDownTime": 124,
+      "TiredTime": 155,
+      "Dialog_tl": [
+        100066714
+      ],
+      "Dialog_DanceChange": [
+        100072944
+      ],
+      "Dialog_DanceTypeChange": [
+        100072943
+      ],
+      "Dialog_HiDacne": [
+        100072942
+      ],
+      "Dialog_DanceOverBye": [
+        100066766
+      ],
+      "Dialog_TiredOverBye": [
+        100072941
+      ],
+      "NpcName": 0,
+      "TimelineModelName": "飞镖邀约角色",
+      "TLPersonality": 1,
+      "Personality": 2,
+      "DanceChangeSet": [
+        {
+          "count": 1,
+          "prop": 0.300000012,
+          "sameprop": 0.200000003
+        },
+        {
+          "count": 1,
+          "prop": 0.400000006,
+          "sameprop": 0.300000012
+        },
+        {
+          "count": 1,
+          "prop": 0.5,
+          "sameprop": 0.600000024
+        }
+      ],
+      "DanceChangeCD": [
+        {
+          "cishu": 2,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "Id": 20,
+      "DateTask": 0,
+      "Npcid": 91050037,
+      "DanceNpcGroup": 20,
+      "DanceGroupStateTree": [],
+      "GainUp": 0.200000003,
+      "AttenuationUP": 0.200000003,
+      "CheckDanceStateCount": 1,
+      "StateGuaranteedTime_2": 31,
+      "StateGuaranteedTime_3": 93,
+      "SlowDownTime": 124,
+      "TiredTime": 155,
+      "Dialog_tl": [
+        100066754
+      ],
+      "Dialog_DanceChange": [
+        100072936
+      ],
+      "Dialog_DanceTypeChange": [
+        100072935
+      ],
+      "Dialog_HiDacne": [
+        100072934
+      ],
+      "Dialog_DanceOverBye": [
+        100072522
+      ],
+      "Dialog_TiredOverBye": [
+        100072933
+      ],
+      "NpcName": 0,
+      "TimelineModelName": "",
+      "TLPersonality": 0,
+      "Personality": 0,
+      "DanceChangeSet": [
+        {
+          "count": 1,
+          "prop": 0.300000012,
+          "sameprop": 0.200000003
+        },
+        {
+          "count": 1,
+          "prop": 0.400000006,
+          "sameprop": 0.300000012
+        },
+        {
+          "count": 1,
+          "prop": 0.5,
+          "sameprop": 0.600000024
+        }
+      ],
+      "DanceChangeCD": [
+        {
+          "cishu": 2,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "Id": 21,
+      "DateTask": 0,
+      "Npcid": 91050023,
+      "DanceNpcGroup": 21,
+      "DanceGroupStateTree": [
+        1,
+        2,
+        3
+      ],
+      "GainUp": 0.150000006,
+      "AttenuationUP": 0.150000006,
+      "CheckDanceStateCount": 1,
+      "StateGuaranteedTime_2": 50,
+      "StateGuaranteedTime_3": 90,
+      "SlowDownTime": 125,
+      "TiredTime": 155,
+      "Dialog_tl": [
+        100018589
+      ],
+      "Dialog_DanceChange": [
+        100045308
+      ],
+      "Dialog_DanceTypeChange": [
+        100045311
+      ],
+      "Dialog_HiDacne": [
+        100045314
+      ],
+      "Dialog_DanceOverBye": [
+        100018597
+      ],
+      "Dialog_TiredOverBye": [
+        100045318
+      ],
+      "NpcName": 0,
+      "TimelineModelName": "飞镖邀约角色",
+      "TLPersonality": 0,
+      "Personality": 1,
+      "DanceChangeSet": [
+        {
+          "count": 2,
+          "prop": 0.5,
+          "sameprop": 0.400000006
+        },
+        {
+          "count": 2,
+          "prop": 0.600000024,
+          "sameprop": 0.5
+        },
+        {
+          "count": 2,
+          "prop": 0.699999988,
+          "sameprop": 0.5
+        }
+      ],
+      "DanceChangeCD": [
+        {
+          "cishu": 2,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "Id": 22,
+      "DateTask": 0,
+      "Npcid": 91050018,
+      "DanceNpcGroup": 22,
+      "DanceGroupStateTree": [
+        1,
+        2,
+        3
+      ],
+      "GainUp": 0.150000006,
+      "AttenuationUP": 0.150000006,
+      "CheckDanceStateCount": 1,
+      "StateGuaranteedTime_2": 50,
+      "StateGuaranteedTime_3": 90,
+      "SlowDownTime": 125,
+      "TiredTime": 155,
+      "Dialog_tl": [],
+      "Dialog_DanceChange": [],
+      "Dialog_DanceTypeChange": [],
+      "Dialog_HiDacne": [],
+      "Dialog_DanceOverBye": [],
+      "Dialog_TiredOverBye": [],
+      "NpcName": 0,
+      "TimelineModelName": "飞镖邀约角色",
+      "TLPersonality": 0,
+      "Personality": 2,
+      "DanceChangeSet": [
+        {
+          "count": 1,
+          "prop": 0.300000012,
+          "sameprop": 0.200000003
+        },
+        {
+          "count": 1,
+          "prop": 0.400000006,
+          "sameprop": 0.300000012
+        },
+        {
+          "count": 1,
+          "prop": 0.5,
+          "sameprop": 0.600000024
+        }
+      ],
+      "DanceChangeCD": [
+        {
+          "cishu": 2,
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 22,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -1,0 +1,271 @@
+{
+  "_class": "AgentSenseSenseZoneConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 29,
+  "records": [
+    {
+      "Id": 1,
+      "SlotDefId": 1,
+      "Radius": 10,
+      "AngleMin": -60,
+      "AngleMax": 60,
+      "RequiresLOS": true,
+      "SensorHeightDiff": 1.5
+    },
+    {
+      "Id": 2,
+      "SlotDefId": 3,
+      "Radius": 10,
+      "AngleMin": -60,
+      "AngleMax": 60,
+      "RequiresLOS": true,
+      "SensorHeightDiff": 1.5
+    },
+    {
+      "Id": 3,
+      "SlotDefId": 5,
+      "Radius": 4,
+      "AngleMin": -180,
+      "AngleMax": 180,
+      "RequiresLOS": false,
+      "SensorHeightDiff": 1.5
+    },
+    {
+      "Id": 4,
+      "SlotDefId": 7,
+      "Radius": 8,
+      "AngleMin": -60,
+      "AngleMax": 60,
+      "RequiresLOS": true,
+      "SensorHeightDiff": 1.5
+    },
+    {
+      "Id": 5,
+      "SlotDefId": 9,
+      "Radius": 8,
+      "AngleMin": -60,
+      "AngleMax": 60,
+      "RequiresLOS": true,
+      "SensorHeightDiff": 1.5
+    },
+    {
+      "Id": 6,
+      "SlotDefId": 11,
+      "Radius": 10,
+      "AngleMin": -60,
+      "AngleMax": 60,
+      "RequiresLOS": true,
+      "SensorHeightDiff": 1.5
+    },
+    {
+      "Id": 7,
+      "SlotDefId": 13,
+      "Radius": 15,
+      "AngleMin": -180,
+      "AngleMax": 180,
+      "RequiresLOS": false,
+      "SensorHeightDiff": 5
+    },
+    {
+      "Id": 8,
+      "SlotDefId": 15,
+      "Radius": 8,
+      "AngleMin": -60,
+      "AngleMax": 60,
+      "RequiresLOS": true,
+      "SensorHeightDiff": 1.5
+    },
+    {
+      "Id": 9,
+      "SlotDefId": 17,
+      "Radius": 8,
+      "AngleMin": -60,
+      "AngleMax": 60,
+      "RequiresLOS": true,
+      "SensorHeightDiff": 1.5
+    },
+    {
+      "Id": 10,
+      "SlotDefId": 21,
+      "Radius": 15,
+      "AngleMin": -45,
+      "AngleMax": 45,
+      "RequiresLOS": false,
+      "SensorHeightDiff": 2
+    },
+    {
+      "Id": 11,
+      "SlotDefId": 22,
+      "Radius": 10,
+      "AngleMin": -60,
+      "AngleMax": 60,
+      "RequiresLOS": true,
+      "SensorHeightDiff": 1.5
+    },
+    {
+      "Id": 12,
+      "SlotDefId": 24,
+      "Radius": 8,
+      "AngleMin": -180,
+      "AngleMax": 180,
+      "RequiresLOS": false,
+      "SensorHeightDiff": 5
+    },
+    {
+      "Id": 13,
+      "SlotDefId": 26,
+      "Radius": 15,
+      "AngleMin": -90,
+      "AngleMax": 90,
+      "RequiresLOS": true,
+      "SensorHeightDiff": 2
+    },
+    {
+      "Id": 14,
+      "SlotDefId": 28,
+      "Radius": 15,
+      "AngleMin": -90,
+      "AngleMax": 90,
+      "RequiresLOS": true,
+      "SensorHeightDiff": 2
+    },
+    {
+      "Id": 15,
+      "SlotDefId": 30,
+      "Radius": 25,
+      "AngleMin": -180,
+      "AngleMax": 180,
+      "RequiresLOS": false,
+      "SensorHeightDiff": 3
+    },
+    {
+      "Id": 16,
+      "SlotDefId": 32,
+      "Radius": 25,
+      "AngleMin": -180,
+      "AngleMax": 180,
+      "RequiresLOS": false,
+      "SensorHeightDiff": 3
+    },
+    {
+      "Id": 17,
+      "SlotDefId": 34,
+      "Radius": 25,
+      "AngleMin": -180,
+      "AngleMax": 180,
+      "RequiresLOS": true,
+      "SensorHeightDiff": 3
+    },
+    {
+      "Id": 18,
+      "SlotDefId": 36,
+      "Radius": 13,
+      "AngleMin": -180,
+      "AngleMax": 180,
+      "RequiresLOS": true,
+      "SensorHeightDiff": 2
+    },
+    {
+      "Id": 19,
+      "SlotDefId": 38,
+      "Radius": 10,
+      "AngleMin": -75,
+      "AngleMax": 75,
+      "RequiresLOS": true,
+      "SensorHeightDiff": 1.5
+    },
+    {
+      "Id": 20,
+      "SlotDefId": 40,
+      "Radius": 25,
+      "AngleMin": -180,
+      "AngleMax": 180,
+      "RequiresLOS": false,
+      "SensorHeightDiff": 30
+    },
+    {
+      "Id": 21,
+      "SlotDefId": 42,
+      "Radius": 25,
+      "AngleMin": -180,
+      "AngleMax": 180,
+      "RequiresLOS": false,
+      "SensorHeightDiff": 5
+    },
+    {
+      "Id": 22,
+      "SlotDefId": 44,
+      "Radius": 20,
+      "AngleMin": -180,
+      "AngleMax": 180,
+      "RequiresLOS": false,
+      "SensorHeightDiff": 5
+    },
+    {
+      "Id": 23,
+      "SlotDefId": 46,
+      "Radius": 30,
+      "AngleMin": -180,
+      "AngleMax": 180,
+      "RequiresLOS": false,
+      "SensorHeightDiff": 3
+    },
+    {
+      "Id": 24,
+      "SlotDefId": 48,
+      "Radius": 15,
+      "AngleMin": -180,
+      "AngleMax": 180,
+      "RequiresLOS": false,
+      "SensorHeightDiff": 3
+    },
+    {
+      "Id": 25,
+      "SlotDefId": 50,
+      "Radius": 12,
+      "AngleMin": -90,
+      "AngleMax": 90,
+      "RequiresLOS": true,
+      "SensorHeightDiff": 2
+    },
+    {
+      "Id": 26,
+      "SlotDefId": 52,
+      "Radius": 12,
+      "AngleMin": -90,
+      "AngleMax": 90,
+      "RequiresLOS": true,
+      "SensorHeightDiff": 2
+    },
+    {
+      "Id": 27,
+      "SlotDefId": 54,
+      "Radius": 20,
+      "AngleMin": -90,
+      "AngleMax": 90,
+      "RequiresLOS": true,
+      "SensorHeightDiff": 3
+    },
+    {
+      "Id": 28,
+      "SlotDefId": 56,
+      "Radius": 10,
+      "AngleMin": -180,
+      "AngleMax": 180,
+      "RequiresLOS": false,
+      "SensorHeightDiff": 3
+    },
+    {
+      "Id": 29,
+      "SlotDefId": 59,
+      "Radius": 15,
+      "AngleMin": -45,
+      "AngleMax": 45,
+      "RequiresLOS": false,
+      "SensorHeightDiff": 3
+    }
+  ],
+  "_dumpedCount": 29,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

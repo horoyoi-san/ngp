@@ -1,0 +1,145 @@
+{
+  "CustomerCreationDelay": {
+    "MaxTime": 10,
+    "MinTime": 5
+  },
+  "Hawkingreducingtime": 1,
+  "HawkingCD": 3,
+  "HawkingDialogID": [
+    100032145,
+    100032146,
+    100032147,
+    1100032148,
+    100032152
+  ],
+  "InitialCardsNum": 4,
+  "CardDrawingDialogID": 100007905,
+  "CardAssetPath": "Assets/Res/Characters/dj/dj_A709027_gm/Model/dj_A709027_gm.fbx",
+  "NegativeText": "逆位",
+  "PositiveText": "正位",
+  "DisplayPopupTime": 2,
+  "ShieldBuffIcon": 28003901,
+  "ShieldBuffName": "心理防御",
+  "ShieldBuffDes": "顾客对你充满警惕，信赖值无法增加。",
+  "DailyCommissionRefreshNum": 0,
+  "DailyCommissionRefreshTime": "0 0 * * * *",
+  "PersuasionProgressDivision": [
+    0,
+    0.25,
+    0.5,
+    0.75,
+    1
+  ],
+  "FlippingTarotCardsText": "点击塔罗牌，翻开卡牌。",
+  "SortingTarotCardsText": "点击调整塔罗牌正逆位，选择不同结果，决定顾客命运。",
+  "BranchSelectTip": "调整塔罗牌正逆位，解开命运迷雾。",
+  "NoMatchBranchBriefDes": "当前命运迷雾还未揭开，请重新调整",
+  "NoMatchBranchDetailDes": "当前命运迷雾还未揭开，请重新调整",
+  "CardBackIcon": 28003887,
+  "FreeLockActionStatusId": 108,
+  "FreeLockActionSwitchTime": 2,
+  "HawkingPresetText": [
+    {
+      "PresetText": "塔罗牌阵解心事三问知祸福喽",
+      "DialogId": 100032145
+    },
+    {
+      "PresetText": "来抽张牌一分钟给你指个方向",
+      "DialogId": 100032146
+    },
+    {
+      "PresetText": "抽张牌就有谱儿来试试呗",
+      "DialogId": 100032148
+    }
+  ],
+  "PersuasionStageRounds": 10,
+  "ExplorationStageRounds": 10,
+  "ExplorationStageCompletionTips": "(所有线索已揭露，需求了解完成)",
+  "ExplorationStageTurnEndTips": "(顾客耐心已耗尽，需求了解阶段结束)",
+  "PersuasionSuccessTips": "(说服顾客成功)",
+  "PersuasionFailTips": "(说服顾客失败)",
+  "ExplorationStageTime": 300,
+  "PersuasionStageTime": 300,
+  "PopupMainTitle": "结束摆摊",
+  "PopupOrder": "完成订单：",
+  "PopupSuccess": "好评数：",
+  "PopupTotalMoney": "总收入：",
+  "ShowCustomerRewardTime": 4,
+  "DivinationEventId": 8,
+  "StageSwitchInterval1": 1,
+  "StageSwitchInterval2": 1,
+  "StageSwitchInterval3": 1,
+  "StageSwitchInterval4": 1,
+  "TarotFreeLockActionStatusId": 109,
+  "TarotFreeLockActionSwitchTime": 3.5,
+  "FailedEngagementProbability": 0,
+  "PlayerMessageInterval": 4,
+  "AIMessageInterval": 4,
+  "DialogMessageInterval": 4,
+  "NextStageInterval": 0.5,
+  "CustomerAcquisitionStageGoal": 74005013,
+  "SeatingStageGoal": 74005014,
+  "RequirementAnalysisStageGoal": 74005015,
+  "DivinateStageGoal": 74005016,
+  "AttitudeStageThresholds": [
+    25,
+    50,
+    75,
+    100
+  ],
+  "LiveChatAddMessageTimeRange": {
+    "RangeMin": 1,
+    "RangeMax": 2
+  },
+  "LiveChatMessageAddGiftPercent": 0.300000012,
+  "LiveChatMaxMessageShowCount": 20,
+  "LiveChatGiftShowTimeRange": {
+    "RangeMin": 1.5,
+    "RangeMax": 3
+  },
+  "LiveChatGiftCountRange": {
+    "RangeMin": 1,
+    "RangeMax": 6
+  },
+  "CurUnlockClueTitle": "Looking into it…",
+  "CurUnlockClueDes": "Looking into it…",
+  "AutoNextDialogTime": 4,
+  "LikeCountText": "%1fK Likes",
+  "MessageLikeRange": {
+    "RangeMin": 3000,
+    "RangeMax": 6000
+  },
+  "GiftLikeRange": {
+    "RangeMin": 800,
+    "RangeMax": 2000
+  },
+  "AudienceLikeRange": {
+    "RangeMin": 3000,
+    "RangeMax": 6000
+  },
+  "AttitudeUp": "Affinity Up",
+  "AttitudeDown": "Affinity Down",
+  "PatienceUp": "Patience Up",
+  "PatienceDown": "Patience Down",
+  "PersuadeUp": "Persuasion Progress Up",
+  "PersuadeDown": "Persuasion Progress Down",
+  "DivinerGuideBasicPatience": 2,
+  "ChatBoxInputMaxCharacters": 100,
+  "LiveChatMaxSCMessageShowCount": 4,
+  "LiveChatMaxSCQualityWeight": [
+    50,
+    30,
+    20,
+    10
+  ],
+  "LiveChatMaxSCShowTime": [
+    2,
+    2.5,
+    3,
+    5
+  ],
+  "LiveChatAddSCMessageTimeRange": {
+    "RangeMin": 0.200000003,
+    "RangeMax": 0.5
+  }
+}

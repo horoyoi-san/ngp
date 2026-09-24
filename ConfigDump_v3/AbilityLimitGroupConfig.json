@@ -1,0 +1,1231 @@
+{
+  "_class": "AbilityLimitGroupConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 97,
+  "records": [
+    {
+      "Id": 100000,
+      "Desc": "禁跑跳冲刺攀爬，禁战斗",
+      "LimitIds": [
+        1010,
+        1030,
+        1060,
+        2000
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 3
+    },
+    {
+      "Id": 100001,
+      "Desc": "禁跑跳冲刺攀爬，禁战斗，禁个人能力（钩锁摩托跑酷）",
+      "LimitIds": [
+        1010,
+        1030,
+        1060,
+        2000,
+        3010,
+        3011,
+        3030
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 3
+    },
+    {
+      "Id": 100002,
+      "Desc": "禁跑跳冲刺，禁战斗，禁个人能力（钩锁摩托跑酷）",
+      "LimitIds": [
+        1010,
+        1030,
+        1050,
+        2000,
+        3010,
+        3011,
+        3030
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 3
+    },
+    {
+      "Id": 100003,
+      "Desc": "禁跑跳冲刺攀爬翻越，禁战斗，禁个人能力（钩锁摩托跑酷）",
+      "LimitIds": [
+        1010,
+        1030,
+        1060,
+        1050,
+        2000,
+        3010,
+        3011,
+        3030
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 3
+    },
+    {
+      "Id": 100101,
+      "Desc": "只允许慢速爬墙",
+      "LimitIds": [
+        1062,
+        1063,
+        1040,
+        1031,
+        1030,
+        3011
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 3
+    },
+    {
+      "Id": 100201,
+      "Desc": "躲猫猫玩法（禁用个人能力&攀爬）",
+      "LimitIds": [
+        3010,
+        3011,
+        3030,
+        3032,
+        3012,
+        3033
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 6
+    },
+    {
+      "Id": 100301,
+      "Desc": "死亡派对玩法",
+      "LimitIds": [
+        3010,
+        3011,
+        3030,
+        3012,
+        1060,
+        1050,
+        2020,
+        2070,
+        2030,
+        2040
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 6
+    },
+    {
+      "Id": 100401,
+      "Desc": "双手搬运轻物（禁攀爬翻越，禁战斗，禁个人能力，禁念动）",
+      "LimitIds": [
+        1060,
+        1050,
+        2000,
+        3010,
+        3011,
+        3030,
+        2050,
+        3012
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 3
+    },
+    {
+      "Id": 100402,
+      "Desc": "搜打撤玩法（禁用特殊能力）",
+      "LimitIds": [
+        3010,
+        3011,
+        3012,
+        3020,
+        3030,
+        4201,
+        3033,
+        3032,
+        3050
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 5
+    },
+    {
+      "Id": 101010,
+      "Desc": "只能走路，不能跑步&冲刺",
+      "LimitIds": [
+        1010
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 1
+    },
+    {
+      "Id": 101020,
+      "Desc": "只能冲刺，不能走路&跑步",
+      "LimitIds": [
+        1020
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 1
+    },
+    {
+      "Id": 101030,
+      "Desc": "禁止跳跃",
+      "LimitIds": [
+        1030
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 1
+    },
+    {
+      "Id": 101031,
+      "Desc": "禁止蓄力跳",
+      "LimitIds": [
+        1031
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 1
+    },
+    {
+      "Id": 101032,
+      "Desc": "悬崖大小跳以及没有找到点的下翻跳",
+      "LimitIds": [
+        1032
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 1
+    },
+    {
+      "Id": 101033,
+      "Desc": "胶水区域",
+      "LimitIds": [
+        4009
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 6
+    },
+    {
+      "Id": 101040,
+      "Desc": "禁止冲刺",
+      "LimitIds": [
+        1040
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 1
+    },
+    {
+      "Id": 101050,
+      "Desc": "禁止翻越障碍",
+      "LimitIds": [
+        1050
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 1
+    },
+    {
+      "Id": 101060,
+      "Desc": "禁止爬墙",
+      "LimitIds": [
+        1060
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 1
+    },
+    {
+      "Id": 101061,
+      "Desc": "禁止慢速爬墙",
+      "LimitIds": [
+        1061
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 1
+    },
+    {
+      "Id": 101062,
+      "Desc": "禁止墙面上蹬出墙",
+      "LimitIds": [
+        1062
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 1
+    },
+    {
+      "Id": 101063,
+      "Desc": "禁止墙上跳出",
+      "LimitIds": [
+        1063
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 1
+    },
+    {
+      "Id": 102000,
+      "Desc": "禁用所有Fight（DontbeSelect的状态）",
+      "LimitIds": [
+        2000
+      ],
+      "GroupTags": [
+        2
+      ],
+      "InductionType": 2
+    },
+    {
+      "Id": 102001,
+      "Desc": "禁用除念动外的Fight",
+      "LimitIds": [
+        2010,
+        2020,
+        2030,
+        2040,
+        2070,
+        2080
+      ],
+      "GroupTags": [
+        2
+      ],
+      "InductionType": 2
+    },
+    {
+      "Id": 102010,
+      "Desc": "禁止Shift按键（闪避）",
+      "LimitIds": [
+        2010
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 2
+    },
+    {
+      "Id": 102020,
+      "Desc": "禁止鼠标左键（普攻）",
+      "LimitIds": [
+        2020
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 2
+    },
+    {
+      "Id": 102030,
+      "Desc": "禁止E技能（重击）",
+      "LimitIds": [
+        2030
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 2
+    },
+    {
+      "Id": 102040,
+      "Desc": "禁止R技能（大招/换弹）",
+      "LimitIds": [
+        2040
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 2
+    },
+    {
+      "Id": 102050,
+      "Desc": "禁止Q技能（念力）",
+      "LimitIds": [
+        2050
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 2
+    },
+    {
+      "Id": 102070,
+      "Desc": "禁止鼠标右键（格挡）",
+      "LimitIds": [
+        2070
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 2
+    },
+    {
+      "Id": 102080,
+      "Desc": "禁止武器轮盘&切换（禁Tab&鼠标滚轮）",
+      "LimitIds": [
+        2080
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 2
+    },
+    {
+      "Id": 102090,
+      "Desc": "禁止进入布娃娃受击",
+      "LimitIds": [
+        2090
+      ],
+      "GroupTags": [
+        2
+      ],
+      "InductionType": 2
+    },
+    {
+      "Id": 102091,
+      "Desc": "保持右键开镜",
+      "LimitIds": [
+        2091
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 2
+    },
+    {
+      "Id": 102092,
+      "Desc": "禁止玩家攻击但不禁止怪物",
+      "LimitIds": [
+        2010,
+        2020,
+        2030,
+        2040,
+        2050,
+        2070,
+        2080
+      ],
+      "GroupTags": [
+        2
+      ],
+      "InductionType": 2
+    },
+    {
+      "Id": 102093,
+      "Desc": "禁止玩家攻击但不禁止怪物（不禁止闪避版）",
+      "LimitIds": [
+        2020,
+        2030,
+        2040,
+        2050,
+        2070,
+        2080
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 2
+    },
+    {
+      "Id": 102094,
+      "Desc": "大世界枪械限制解除开关",
+      "LimitIds": [
+        2092
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 2
+    },
+    {
+      "Id": 102095,
+      "Desc": "JiaMuSummon",
+      "LimitIds": [
+        2093
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 2
+    },
+    {
+      "Id": 103010,
+      "Desc": "禁止主角飞索",
+      "LimitIds": [
+        3010
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 5
+    },
+    {
+      "Id": 103011,
+      "Desc": "禁止主角摆荡",
+      "LimitIds": [
+        3011
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 5
+    },
+    {
+      "Id": 103012,
+      "Desc": "禁止主角空中冲刺",
+      "LimitIds": [
+        3012
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 5
+    },
+    {
+      "Id": 103013,
+      "Desc": "赋予角色飞索能力",
+      "LimitIds": [
+        3013
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 5
+    },
+    {
+      "Id": 103020,
+      "Desc": "禁止主角飞索结尾跳出",
+      "LimitIds": [
+        3020
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 5
+    },
+    {
+      "Id": 103030,
+      "Desc": "禁止塔菲摩托",
+      "LimitIds": [
+        3030
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 5
+    },
+    {
+      "Id": 103031,
+      "Desc": "机车加速",
+      "LimitIds": [
+        4201
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 5
+    },
+    {
+      "Id": 103040,
+      "Desc": "禁止樱珑八步赶蝉",
+      "LimitIds": [
+        3032
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 5
+    },
+    {
+      "Id": 103050,
+      "Desc": "嘉姆进入被逮捕状态",
+      "LimitIds": [
+        3050
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 6
+    },
+    {
+      "Id": 103051,
+      "Desc": "禁止进入荻菈念力飞行",
+      "LimitIds": [
+        3033
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 5
+    },
+    {
+      "Id": 103100,
+      "Desc": "禁止主角外所有角色特殊能力（塔菲摩托、嘉姆召唤、樱珑跑酷、狄菈漂浮）",
+      "LimitIds": [
+        3030,
+        2093,
+        3032,
+        3033
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 5
+    },
+    {
+      "Id": 103101,
+      "Desc": "禁止所有角色特殊能力（主角钩锁、塔菲摩托、嘉姆召唤、樱珑跑酷、狄菈漂浮）",
+      "LimitIds": [
+        3030,
+        2093,
+        3032,
+        3033,
+        3010,
+        3011,
+        3012,
+        3020
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 5
+    },
+    {
+      "Id": 104001,
+      "Desc": "蹲伏跳出",
+      "LimitIds": [
+        4001
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 1
+    },
+    {
+      "Id": 104002,
+      "Desc": "路线尽头限制移动动作",
+      "LimitIds": [
+        4002
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 6
+    },
+    {
+      "Id": 104003,
+      "Desc": "通风管口区域",
+      "LimitIds": [
+        4003
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 6
+    },
+    {
+      "Id": 104004,
+      "Desc": "偷听区域",
+      "LimitIds": [
+        4004
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 6
+    },
+    {
+      "Id": 104005,
+      "Desc": "只找室内飞索线",
+      "LimitIds": [
+        4005
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 6
+    },
+    {
+      "Id": 104006,
+      "Desc": "标记是狭小区域（飞索位移高度会变）（沈睿）",
+      "LimitIds": [
+        4006
+      ],
+      "GroupTags": [
+        2
+      ],
+      "InductionType": 6
+    },
+    {
+      "Id": 104007,
+      "Desc": "只容许慢速蹲伏（刘飞翔）",
+      "LimitIds": [
+        4007
+      ],
+      "GroupTags": [
+        2
+      ],
+      "InductionType": 7
+    },
+    {
+      "Id": 104100,
+      "Desc": "关闭和谐模式",
+      "LimitIds": [
+        4100
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 7
+    },
+    {
+      "Id": 104102,
+      "Desc": "禁止切人",
+      "LimitIds": [
+        4102
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 7
+    },
+    {
+      "Id": 104103,
+      "Desc": "禁止闲时待机动作",
+      "LimitIds": [
+        4301
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 6
+    },
+    {
+      "Id": 104104,
+      "Desc": "禁止地面IK",
+      "LimitIds": [
+        4104
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 7
+    },
+    {
+      "Id": 104105,
+      "Desc": "禁止跳跳杆",
+      "LimitIds": [
+        4010
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 6
+    },
+    {
+      "Id": 104302,
+      "Desc": "禁止滑梯",
+      "LimitIds": [
+        4302
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 6
+    },
+    {
+      "Id": 105010,
+      "Desc": "开启潜行",
+      "LimitIds": [
+        5010
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 7
+    },
+    {
+      "Id": 105020,
+      "Desc": "可以穿过PlayerCrossTag的碰撞",
+      "LimitIds": [
+        5020
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 7
+    },
+    {
+      "Id": 105030,
+      "Desc": "可以切换角色（联机模式判断）",
+      "LimitIds": [
+        5030
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 7
+    },
+    {
+      "Id": 105040,
+      "Desc": "开启连跳",
+      "LimitIds": [
+        5040
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 7
+    },
+    {
+      "Id": 105050,
+      "Desc": "开启慢速潜行（剧情）",
+      "LimitIds": [
+        5010,
+        5050
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 6
+    },
+    {
+      "Id": 105051,
+      "Desc": "解锁暗杀",
+      "LimitIds": [
+        5051
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 7
+    },
+    {
+      "Id": 105052,
+      "Desc": "开启大跳",
+      "LimitIds": [
+        5052
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 7
+    },
+    {
+      "Id": 105053,
+      "Desc": "开启虚弱站立",
+      "LimitIds": [
+        5053
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 6
+    },
+    {
+      "Id": 105054,
+      "Desc": "开启虚弱蹲行",
+      "LimitIds": [
+        5054
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 6
+    },
+    {
+      "Id": 105055,
+      "Desc": "开启深水行走模式（只支持潜行）",
+      "LimitIds": [
+        5055
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 6
+    },
+    {
+      "Id": 105056,
+      "Desc": "开启停步时同步打太极",
+      "LimitIds": [
+        5058
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 6
+    },
+    {
+      "Id": 105060,
+      "Desc": "开启樱珑八步赶蝉（史晨阳）",
+      "LimitIds": [
+        3040
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 5
+    },
+    {
+      "Id": 105061,
+      "Desc": "开启任务樱珑踉跄大跳（史晨阳）",
+      "LimitIds": [
+        3051
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 5
+    },
+    {
+      "Id": 105062,
+      "Desc": "允许潜水",
+      "LimitIds": [
+        5056
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 1
+    },
+    {
+      "Id": 105063,
+      "Desc": "禁止潜水",
+      "LimitIds": [
+        5057
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 1
+    },
+    {
+      "Id": 105064,
+      "Desc": "开启塔菲摩托上车（沈睿）",
+      "LimitIds": [
+        4202
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 5
+    },
+    {
+      "Id": 105065,
+      "Desc": "允许璎珑踏空坠落【任务专属】",
+      "LimitIds": [
+        3052
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 6
+    },
+    {
+      "Id": 105066,
+      "Desc": "允许任务滑板手舞足蹈【任务专属】",
+      "LimitIds": [
+        3053
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 6
+    },
+    {
+      "Id": 105067,
+      "Desc": "允许角色自主扶墙",
+      "LimitIds": [
+        5059
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 7
+    },
+    {
+      "Id": 105068,
+      "Desc": "开启梦核状态",
+      "LimitIds": [
+        5060
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 6
+    },
+    {
+      "Id": 105069,
+      "Desc": "允许塔菲逗比台步",
+      "LimitIds": [
+        3054
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 5
+    },
+    {
+      "Id": 105070,
+      "Desc": "穿着潜行迷彩",
+      "LimitIds": [
+        5061
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 5
+    },
+    {
+      "Id": 105071,
+      "Desc": "开启停步时同步铜人练武",
+      "LimitIds": [
+        5063
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 6
+    },
+    {
+      "Id": 105072,
+      "Desc": "开启任务应援状态",
+      "LimitIds": [
+        5064
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 6
+    },
+    {
+      "Id": 105073,
+      "Desc": "开启跳伞",
+      "LimitIds": [
+        3041
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 6
+    },
+    {
+      "Id": 105074,
+      "Desc": "允许角色触发正面撞墙",
+      "LimitIds": [
+        5065
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 0
+    },
+    {
+      "Id": 106001,
+      "Desc": "室内模板1（慢走）",
+      "LimitIds": [
+        1010,
+        1030,
+        1040,
+        1050,
+        1060,
+        3010,
+        3011,
+        3012,
+        3030,
+        1032,
+        2093,
+        3032,
+        3033
+      ],
+      "GroupTags": [
+        2
+      ],
+      "InductionType": 4
+    },
+    {
+      "Id": 106002,
+      "Desc": "室内模板2（慢走+小跑）",
+      "LimitIds": [
+        1030,
+        1040,
+        1050,
+        1060,
+        3010,
+        3011,
+        3012,
+        3030,
+        1032,
+        2093,
+        3032,
+        3033
+      ],
+      "GroupTags": [
+        2
+      ],
+      "InductionType": 4
+    },
+    {
+      "Id": 106003,
+      "Desc": "室内模板3（慢走+小跑+冲刺+跳跃+翻越障碍）",
+      "LimitIds": [
+        1060,
+        3010,
+        3011,
+        3012,
+        3030,
+        1032,
+        2093,
+        3032,
+        3033
+      ],
+      "GroupTags": [
+        2
+      ],
+      "InductionType": 4
+    },
+    {
+      "Id": 106004,
+      "Desc": "室内模板4（慢走+飞索）",
+      "LimitIds": [
+        1010,
+        1030,
+        1040,
+        1050,
+        1060,
+        3011,
+        3012,
+        3020,
+        3030,
+        1032,
+        2093,
+        3032,
+        3033
+      ],
+      "GroupTags": [
+        2
+      ],
+      "InductionType": 4
+    },
+    {
+      "Id": 106005,
+      "Desc": "室内模板5（慢走+小跑+冲刺+跳跃+飞索+翻越障碍+禁止飞索跳出）",
+      "LimitIds": [
+        1060,
+        3011,
+        3012,
+        3030,
+        1032,
+        3020,
+        2093,
+        3032,
+        3033
+      ],
+      "GroupTags": [
+        2
+      ],
+      "InductionType": 4
+    },
+    {
+      "Id": 106006,
+      "Desc": "室内模板6（慢走+小跑+冲刺+跳跃+飞索+翻越障碍）",
+      "LimitIds": [
+        1060,
+        3011,
+        3012,
+        3030,
+        1032,
+        2093,
+        3032,
+        3033
+      ],
+      "GroupTags": [
+        2
+      ],
+      "InductionType": 4
+    },
+    {
+      "Id": 107001,
+      "Desc": "tl期间无敌",
+      "LimitIds": [
+        4101
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 7
+    },
+    {
+      "Id": 107002,
+      "Desc": "tl期间无敌（同步版）",
+      "LimitIds": [
+        4103
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 7
+    },
+    {
+      "Id": 107003,
+      "Desc": "切磋通用禁止能力",
+      "LimitIds": [
+        2050,
+        2093,
+        3010,
+        3011,
+        3012,
+        3030,
+        4105
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 7
+    },
+    {
+      "Id": 200001,
+      "Desc": "保持右键开镜封装（保持右键开镜+禁轮盘+跳跃+冲刺+E+Q+R键）",
+      "LimitIds": [
+        1030,
+        1040,
+        2080,
+        2091,
+        2030,
+        2040,
+        2050,
+        2093
+      ],
+      "GroupTags": [
+        1
+      ],
+      "InductionType": 6
+    }
+  ],
+  "_dumpedCount": 97,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

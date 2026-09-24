@@ -1,0 +1,910 @@
+{
+  "_class": "SoundEventPriorityConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 150,
+  "records": [
+    {
+      "Id": 1,
+      "EventPath": "\\Events\\Default Work Unit",
+      "Priority": 0,
+      "IsValid": true
+    },
+    {
+      "Id": 2,
+      "EventPath": "\\Events\\3C_Basic\\Char_Foley_Common",
+      "Priority": 30,
+      "IsValid": true
+    },
+    {
+      "Id": 3,
+      "EventPath": "\\Events\\3C_Basic\\Char_Foley_OneShot",
+      "Priority": 30,
+      "IsValid": true
+    },
+    {
+      "Id": 4,
+      "EventPath": "\\Events\\3C_Basic\\Footstep",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 5,
+      "EventPath": "\\Events\\3C\\Char_Swing_3C_OneShot",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 6,
+      "EventPath": "\\Events\\3C\\Char_YingLong_Parkour_OneShot",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 7,
+      "EventPath": "\\Events\\3C\\Common_3C",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 8,
+      "EventPath": "\\Events\\3C\\Common_3C\\Char_3C",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 9,
+      "EventPath": "\\Events\\3C\\Common_3C\\Foley",
+      "Priority": 30,
+      "IsValid": true
+    },
+    {
+      "Id": 10,
+      "EventPath": "\\Events\\3C\\Common_3C\\WaterInteract",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 11,
+      "EventPath": "\\Events\\3C\\Common_BodyContact",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 12,
+      "EventPath": "\\Events\\3C\\Common_NPC",
+      "Priority": 10,
+      "IsValid": true
+    },
+    {
+      "Id": 13,
+      "EventPath": "\\Events\\3C\\Custom_3C",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 14,
+      "EventPath": "\\Events\\3C\\Custom_Interact",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 15,
+      "EventPath": "\\Events\\3C_Basic\\Dynamic_Foley",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 16,
+      "EventPath": "\\Events\\3C\\Inter_3C",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 17,
+      "EventPath": "\\Events\\3C\\Items_3C",
+      "Priority": 70,
+      "IsValid": false
+    },
+    {
+      "Id": 18,
+      "EventPath": "\\Events\\3C\\Perform_3C",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 19,
+      "EventPath": "\\Events\\3C\\Quest_3C",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 20,
+      "EventPath": "\\Events\\3C\\Task_3C",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 21,
+      "EventPath": "\\Events\\__MANUAL__\\__EX__",
+      "Priority": 90,
+      "IsValid": true
+    },
+    {
+      "Id": 22,
+      "EventPath": "\\Events\\__MANUAL__\\Music_Diegetic_Manual",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 23,
+      "EventPath": "\\Events\\__MANUAL__\\Music_Instruments",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 24,
+      "EventPath": "\\Events\\__MANUAL__\\UI_Manual",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 25,
+      "EventPath": "\\Events\\Ambience\\Chaos",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 26,
+      "EventPath": "\\Events\\Ambience\\Bed",
+      "Priority": 30,
+      "IsValid": true
+    },
+    {
+      "Id": 27,
+      "EventPath": "\\Events\\Ambience\\Object",
+      "Priority": 30,
+      "IsValid": true
+    },
+    {
+      "Id": 28,
+      "EventPath": "\\Events\\Ambience\\Walla",
+      "Priority": 30,
+      "IsValid": true
+    },
+    {
+      "Id": 29,
+      "EventPath": "\\Events\\Ambience\\人造",
+      "Priority": 30,
+      "IsValid": true
+    },
+    {
+      "Id": 30,
+      "EventPath": "\\Events\\Ambience\\任务",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 31,
+      "EventPath": "\\Events\\Ambience\\场景特效",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 32,
+      "EventPath": "\\Events\\Ambience\\定制关卡",
+      "Priority": 30,
+      "IsValid": true
+    },
+    {
+      "Id": 33,
+      "EventPath": "\\Events\\Ambience\\手编",
+      "Priority": 30,
+      "IsValid": true
+    },
+    {
+      "Id": 34,
+      "EventPath": "\\Events\\Ambience\\自然",
+      "Priority": 30,
+      "IsValid": true
+    },
+    {
+      "Id": 35,
+      "EventPath": "\\Events\\Ambience\\定制场景",
+      "Priority": 30,
+      "IsValid": true
+    },
+    {
+      "Id": 36,
+      "EventPath": "\\Events\\Ambience\\通用场景",
+      "Priority": 30,
+      "IsValid": true
+    },
+    {
+      "Id": 37,
+      "EventPath": "\\Events\\Ambience_EnableGameAux",
+      "Priority": 10,
+      "IsValid": true
+    },
+    {
+      "Id": 38,
+      "EventPath": "\\Events\\Cinematic",
+      "Priority": 90,
+      "IsValid": true
+    },
+    {
+      "Id": 39,
+      "EventPath": "\\Events\\Cinematic_L",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 40,
+      "EventPath": "\\Events\\Cinematic_sunkaixin",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 41,
+      "EventPath": "\\Events\\Cinematic_TXT",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 42,
+      "EventPath": "\\Events\\CinematicOnline",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 43,
+      "EventPath": "\\Events\\Combat\\Combat_BVB",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 44,
+      "EventPath": "\\Events\\Combat\\Combat_Char\\Char_Common\\Common_Cloth",
+      "Priority": 30,
+      "IsValid": true
+    },
+    {
+      "Id": 45,
+      "EventPath": "\\Events\\Combat\\Combat_Char\\Char_Common\\Common_DiXingSha",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 46,
+      "EventPath": "\\Events\\Combat\\Combat_Char\\Char_Common\\Common_Effect",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 47,
+      "EventPath": "\\Events\\Combat\\Combat_Char\\Char_Common\\Common_FanJi",
+      "Priority": 0,
+      "IsValid": true
+    },
+    {
+      "Id": 48,
+      "EventPath": "\\Events\\Combat\\Combat_Char\\Char_Common\\Common_Pa",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 49,
+      "EventPath": "\\Events\\Combat\\Combat_Char\\Char_Common\\Common_QinBao",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 50,
+      "EventPath": "\\Events\\Combat\\Combat_Char\\Char_Common\\Common_Skill",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 51,
+      "EventPath": "\\Events\\Combat\\Combat_Char\\Char_Idle",
+      "Priority": 30,
+      "IsValid": true
+    },
+    {
+      "Id": 52,
+      "EventPath": "\\Events\\Combat\\Combat_Char\\Char_Skill",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 53,
+      "EventPath": "\\Events\\Combat\\Combat_Char\\Char_Skill_Enemy",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 54,
+      "EventPath": "\\Events\\Combat\\Combat_Char\\Char_Skill_KungFu",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 55,
+      "EventPath": "\\Events\\Combat\\Combat_Char\\Char_Weapon",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 56,
+      "EventPath": "\\Events\\Combat\\Combat_Char\\LinShi",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 57,
+      "EventPath": "\\Events\\Combat\\Combat_Char\\Temp_UI",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 58,
+      "EventPath": "\\Events\\Combat\\Combat_Common_Hit",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 59,
+      "EventPath": "\\Events\\Combat\\Combat_Enemy\\Enemy_Common\\Enemy_Common_Action",
+      "Priority": 30,
+      "IsValid": true
+    },
+    {
+      "Id": 60,
+      "EventPath": "\\Events\\Combat\\Combat_Enemy\\Enemy_Common\\Enemy_Common_Action_Foot",
+      "Priority": 30,
+      "IsValid": true
+    },
+    {
+      "Id": 61,
+      "EventPath": "\\Events\\Combat\\Combat_Enemy\\Enemy_Common\\Enemy_Common_SFX",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 62,
+      "EventPath": "\\Events\\Combat\\Combat_Enemy\\Enemy_Common\\Enemy_Common_SFX\\Play_Enemy_SFX_Warn_Earlywarning",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 63,
+      "EventPath": "\\Events\\Combat\\Combat_Enemy\\Enemy_Common\\Enemy_Common_SFX\\Play_Enemy_SFX_Warn_Loop_Round",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 64,
+      "EventPath": "\\Events\\Combat\\Combat_Enemy\\Enemy_Common\\Enemy_Common_SFX\\Play_Enemy_SFX_Warn_Loop_Shoot",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 65,
+      "EventPath": "\\Events\\Combat\\Combat_Enemy\\Enemy_Skill\\Enemy_Human_FatHunk",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 66,
+      "EventPath": "\\Events\\Combat\\Combat_Enemy\\Enemy_Skill\\Enemy_Human_Small\\Atk",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 67,
+      "EventPath": "\\Events\\Combat\\Combat_Enemy\\Enemy_Skill\\Enemy_Human_Small\\Buff",
+      "Priority": 0,
+      "IsValid": true
+    },
+    {
+      "Id": 68,
+      "EventPath": "\\Events\\Combat\\Combat_Enemy\\Enemy_Skill\\Enemy_Human_Small\\Charged",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 69,
+      "EventPath": "\\Events\\Combat\\Combat_Enemy\\Enemy_Skill\\Enemy_Human_Small\\Cloth",
+      "Priority": 30,
+      "IsValid": true
+    },
+    {
+      "Id": 70,
+      "EventPath": "\\Events\\Combat\\Combat_Enemy\\Enemy_Skill\\Enemy_Human_Small\\Gun\\Bullet_Drop",
+      "Priority": 30,
+      "IsValid": true
+    },
+    {
+      "Id": 71,
+      "EventPath": "\\Events\\Combat\\Combat_Enemy\\Enemy_Skill\\Enemy_Human_Small\\Gun\\Mech_Foley",
+      "Priority": 30,
+      "IsValid": true
+    },
+    {
+      "Id": 72,
+      "EventPath": "\\Events\\Combat\\Combat_Enemy\\Enemy_Skill\\Enemy_Human_Small\\Gun\\Reload",
+      "Priority": 30,
+      "IsValid": true
+    },
+    {
+      "Id": 73,
+      "EventPath": "\\Events\\Combat\\Combat_Enemy\\Enemy_Skill\\Enemy_Human_Small\\Gun\\ShotFire",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 74,
+      "EventPath": "\\Events\\Combat\\Combat_Enemy\\Enemy_Skill\\Enemy_Human_Small\\Imp",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 75,
+      "EventPath": "\\Events\\Combat\\Combat_Enemy\\Enemy_Skill\\SP",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 76,
+      "EventPath": "\\Events\\Combat\\Combat_PK",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 77,
+      "EventPath": "\\Events\\GD_Elements",
+      "Priority": 30,
+      "IsValid": true
+    },
+    {
+      "Id": 78,
+      "EventPath": "\\Events\\Interact\\Chara_Interact",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 79,
+      "EventPath": "\\Events\\Interact\\MultiPlayer_Interact",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 80,
+      "EventPath": "\\Events\\Interact\\TASK_Interact",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 81,
+      "EventPath": "\\Events\\Interact\\WolrdMap_Interact\\##【WolrdMap_Interact】P1",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 82,
+      "EventPath": "\\Events\\3C",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 83,
+      "EventPath": "\\Events\\3C_Basic",
+      "Priority": 0,
+      "IsValid": true
+    },
+    {
+      "Id": 84,
+      "EventPath": "\\Events\\Ambience\\Ambience_Task",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 85,
+      "EventPath": "\\Events\\Interact\\WolrdMap_Interact\\##【WolrdMap_Interact】P2",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 86,
+      "EventPath": "\\Events\\Motion_New",
+      "Priority": 90,
+      "IsValid": true
+    },
+    {
+      "Id": 87,
+      "EventPath": "\\Events\\Motion_Used",
+      "Priority": 90,
+      "IsValid": true
+    },
+    {
+      "Id": 88,
+      "EventPath": "\\Events\\Music",
+      "Priority": 100,
+      "IsValid": true
+    },
+    {
+      "Id": 89,
+      "EventPath": "\\Events\\Music_Diegetic",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 90,
+      "EventPath": "\\Events\\NPCs\\DX_Foley",
+      "Priority": 10,
+      "IsValid": true
+    },
+    {
+      "Id": 91,
+      "EventPath": "\\Events\\NPCs\\FWNPC",
+      "Priority": 10,
+      "IsValid": true
+    },
+    {
+      "Id": 92,
+      "EventPath": "\\Events\\NPCs\\NPC_FW",
+      "Priority": 10,
+      "IsValid": true
+    },
+    {
+      "Id": 93,
+      "EventPath": "\\Events\\NPCs\\NPC_HE",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 94,
+      "EventPath": "\\Events\\NPCs\\Task_NPC",
+      "Priority": 30,
+      "IsValid": true
+    },
+    {
+      "Id": 95,
+      "EventPath": "\\Events\\Objects\\Objects_Destructible",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 96,
+      "EventPath": "\\Events\\Objects\\Objects_Eff",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 97,
+      "EventPath": "\\Events\\Objects\\Objects_GraspableDestructible",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 98,
+      "EventPath": "\\Events\\Objects\\Objects_Other",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 99,
+      "EventPath": "\\Events\\Objects\\Objects_Temp",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 100,
+      "EventPath": "\\Events\\Objects\\Weapon",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 101,
+      "EventPath": "\\Events\\Quest\\Scene_Play\\Game_Basketball",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 102,
+      "EventPath": "\\Events\\Quest\\Scene_Play\\Game_Cable_Car",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 103,
+      "EventPath": "\\Events\\Quest\\Scene_Play\\Game_Catcafe",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 104,
+      "EventPath": "\\Events\\Quest\\Scene_Play\\Game_Cinema",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 105,
+      "EventPath": "\\Events\\Quest\\Scene_Play\\Game_Club",
+      "Priority": 0,
+      "IsValid": true
+    },
+    {
+      "Id": 106,
+      "EventPath": "\\Events\\Quest\\Scene_Play\\Game_Livehouse",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 107,
+      "EventPath": "\\Events\\Quest\\Scene_Play\\Game_Racing_Siren",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 108,
+      "EventPath": "\\Events\\Quest\\Scene_Play\\Game_Restaurant",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 109,
+      "EventPath": "\\Events\\Quest\\Quest_Arcade",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 110,
+      "EventPath": "\\Events\\Quest\\Quest_Branch",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 111,
+      "EventPath": "\\Events\\Quest\\Quest_Challenge",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 112,
+      "EventPath": "\\Events\\Quest\\Quest_Collection",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 113,
+      "EventPath": "\\Events\\Quest\\Quest_Encounter",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 114,
+      "EventPath": "\\Events\\Quest\\Quest_Level",
+      "Priority": 0,
+      "IsValid": true
+    },
+    {
+      "Id": 115,
+      "EventPath": "\\Events\\Quest\\Quest_MultiEncounter",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 116,
+      "EventPath": "\\Events\\Quest\\Quest_SeriesQuest",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 117,
+      "EventPath": "\\Events\\Quest\\Quest_Worldlife",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 118,
+      "EventPath": "\\Events\\Quest\\Scene_Timeline",
+      "Priority": 0,
+      "IsValid": true
+    },
+    {
+      "Id": 119,
+      "EventPath": "\\Events\\Quest\\TL_Paoku_Task",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 120,
+      "EventPath": "\\Events\\System",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 121,
+      "EventPath": "\\Events\\UI\\Common",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 122,
+      "EventPath": "\\Events\\UI\\Panel",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 123,
+      "EventPath": "\\Events\\UI\\Vfx",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 124,
+      "EventPath": "\\Events\\Vehicle\\Metro\\Metro_SFX",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 125,
+      "EventPath": "\\Events\\Vehicle\\Metro\\Metro_VO",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 126,
+      "EventPath": "\\Events\\Vehicle\\Metro\\MetroStation_SFX",
+      "Priority": 10,
+      "IsValid": true
+    },
+    {
+      "Id": 127,
+      "EventPath": "\\Events\\Vehicle\\Metro\\MetroStation_VO",
+      "Priority": 30,
+      "IsValid": true
+    },
+    {
+      "Id": 128,
+      "EventPath": "\\Events\\Vehicle\\Vehicle_NPC",
+      "Priority": 30,
+      "IsValid": true
+    },
+    {
+      "Id": 129,
+      "EventPath": "\\Events\\Vehicle\\Vehicle_Player",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 130,
+      "EventPath": "\\Events\\Vehicle\\Vehicle_Task",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 131,
+      "EventPath": "\\Events\\Videos",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 132,
+      "EventPath": "\\Events\\VO\\TESTVO",
+      "Priority": 90,
+      "IsValid": true
+    },
+    {
+      "Id": 133,
+      "EventPath": "\\Events\\VO\\VO_Battle",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 134,
+      "EventPath": "\\Events\\VO\\VO_Breath",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 135,
+      "EventPath": "\\Events\\VO\\VO_Char",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 136,
+      "EventPath": "\\Events\\VO\\VO_Char_World",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 137,
+      "EventPath": "\\Events\\VO\\VO_Explore",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 138,
+      "EventPath": "\\Events\\VO\\VO_FWNPC",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 139,
+      "EventPath": "\\Events\\VO\\VO_Radio",
+      "Priority": 90,
+      "IsValid": true
+    },
+    {
+      "Id": 140,
+      "EventPath": "\\Events\\VO\\VO_ShortChatWheel",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 141,
+      "EventPath": "\\Events\\VO\\VO_Story",
+      "Priority": 90,
+      "IsValid": true
+    },
+    {
+      "Id": 142,
+      "EventPath": "\\Events\\Combat\\Combat_Gun",
+      "Priority": 30,
+      "IsValid": true
+    },
+    {
+      "Id": 143,
+      "EventPath": "\\Events\\Combat\\Combat_Gun\\Gun_Fire",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 144,
+      "EventPath": "\\Events\\Combat\\Combat_Gun\\Gun_Hit",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 145,
+      "EventPath": "\\Events\\Combat\\Combat_Gun\\Gun_Foley",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 146,
+      "EventPath": "\\Events\\Quest\\Game_P2",
+      "Priority": 50,
+      "IsValid": true
+    },
+    {
+      "Id": 147,
+      "EventPath": "\\Events\\Quest\\Game_P1",
+      "Priority": 70,
+      "IsValid": true
+    },
+    {
+      "Id": 148,
+      "EventPath": "\\Events\\Transport",
+      "Priority": 90,
+      "IsValid": true
+    },
+    {
+      "Id": 149,
+      "EventPath": "\\Events\\Commercial",
+      "Priority": 90,
+      "IsValid": true
+    },
+    {
+      "Id": 150,
+      "EventPath": "\\Events\\Ambience",
+      "Priority": 30,
+      "IsValid": true
+    }
+  ],
+  "_dumpedCount": 150,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

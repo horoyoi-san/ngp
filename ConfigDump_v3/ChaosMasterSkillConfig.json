@@ -1,0 +1,262 @@
+{
+  "_class": "ChaosMasterSkillConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 28,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "测试普攻",
+      "SkillType": 0,
+      "Description": "普攻测试",
+      "Icon": 28002036,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "测试普攻"
+    },
+    {
+      "Id": 2,
+      "Name": "测试大招",
+      "SkillType": 0,
+      "Description": "大招测试",
+      "Icon": 28002038,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "测试大招"
+    },
+    {
+      "Id": 101,
+      "Name": "普通射击",
+      "SkillType": 1,
+      "Description": "远程射击3格内的一名敌人",
+      "Icon": 28002036,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "普通射击"
+    },
+    {
+      "Id": 102,
+      "Name": "重力弹",
+      "SkillType": 2,
+      "Description": "发射一枚重力弹，舒服范围内所有敌方",
+      "Icon": 28002038,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "重力弹"
+    },
+    {
+      "Id": 103,
+      "Name": "治疗弹",
+      "SkillType": 1,
+      "Description": "向一名友方发射治疗弹，回复生命",
+      "Icon": 28002036,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "治疗弹"
+    },
+    {
+      "Id": 111,
+      "Name": "飞踢",
+      "SkillType": 1,
+      "Description": "攻击1格内的敌人",
+      "Icon": 28002036,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "飞踢"
+    },
+    {
+      "Id": 112,
+      "Name": "骑士踢",
+      "SkillType": 2,
+      "Description": "对1格内的敌人造成致命飞踢",
+      "Icon": 28002036,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "骑士踢"
+    },
+    {
+      "Id": 113,
+      "Name": "突进",
+      "SkillType": 1,
+      "Description": "移动至距离自己最远的目标附近，并锁定攻击",
+      "Icon": 28002036,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "突进"
+    },
+    {
+      "Id": 121,
+      "Name": "挥砍",
+      "SkillType": 1,
+      "Description": "攻击1格内的敌人",
+      "Icon": 28002036,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "挥砍"
+    },
+    {
+      "Id": 122,
+      "Name": "连砍",
+      "SkillType": 2,
+      "Description": "对周围所有敌人造成伤害",
+      "Icon": 28002036,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "连砍"
+    },
+    {
+      "Id": 131,
+      "Name": "棒槌",
+      "SkillType": 1,
+      "Description": "攻击1格内的敌人",
+      "Icon": 28002036,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "棒槌"
+    },
+    {
+      "Id": 132,
+      "Name": "安魂曲",
+      "SkillType": 2,
+      "Description": "2格范围内所有友方回复生命",
+      "Icon": 28002036,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "安魂曲"
+    },
+    {
+      "Id": 133,
+      "Name": "摇滚",
+      "SkillType": 1,
+      "Description": "给随机队友增加攻速",
+      "Icon": 28002036,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "摇滚"
+    },
+    {
+      "Id": 141,
+      "Name": "轻拳",
+      "SkillType": 1,
+      "Description": "攻击1格内的敌人",
+      "Icon": 28002036,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "轻拳"
+    },
+    {
+      "Id": 142,
+      "Name": "空中支援",
+      "SkillType": 2,
+      "Description": "空投炸弹，攻击血量最少的目标",
+      "Icon": 28002036,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "空中支援"
+    },
+    {
+      "Id": 143,
+      "Name": "投掷手雷",
+      "SkillType": 1,
+      "Description": "攻击2格内的敌人",
+      "Icon": 28002036,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "投掷手雷"
+    },
+    {
+      "Id": 151,
+      "Name": "怒锤",
+      "SkillType": 1,
+      "Description": "攻击1格内的敌人",
+      "Icon": 28002036,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "怒锤"
+    },
+    {
+      "Id": 152,
+      "Name": "燃烧弹",
+      "SkillType": 2,
+      "Description": "造成范围伤害并灼烧命中的敌人",
+      "Icon": 28002036,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "燃烧弹"
+    },
+    {
+      "Id": 153,
+      "Name": "发射火炮",
+      "SkillType": 1,
+      "Description": "攻击2格内的敌人",
+      "Icon": 28002036,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "发射火炮"
+    },
+    {
+      "Id": 161,
+      "Name": "劈砍",
+      "SkillType": 1,
+      "Description": "攻击1格内的敌人",
+      "Icon": 28002036,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "劈砍"
+    },
+    {
+      "Id": 162,
+      "Name": "千锤百炼",
+      "SkillType": 2,
+      "Description": "永久提升自身属性，可叠加",
+      "Icon": 28002036,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "千锤百炼"
+    },
+    {
+      "Id": 171,
+      "Name": "刺击",
+      "SkillType": 1,
+      "Description": "攻击1格内的敌人",
+      "Icon": 28002036,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "刺击"
+    },
+    {
+      "Id": 172,
+      "Name": "旋转飞刀",
+      "SkillType": 2,
+      "Description": "对周围所有敌人造成高额伤害",
+      "Icon": 28002036,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "旋转飞刀"
+    },
+    {
+      "Id": 173,
+      "Name": "突进",
+      "SkillType": 1,
+      "Description": "移动至距离自己最远的目标附近，并锁定攻击",
+      "Icon": 28002036,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "突进"
+    },
+    {
+      "Id": 181,
+      "Name": "拳击",
+      "SkillType": 1,
+      "Description": "攻击1格内的敌人",
+      "Icon": 28002036,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "拳击"
+    },
+    {
+      "Id": 182,
+      "Name": "变硬",
+      "SkillType": 2,
+      "Description": "自身获得减伤并回血",
+      "Icon": 28002036,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "变硬"
+    },
+    {
+      "Id": 191,
+      "Name": "电击棍",
+      "SkillType": 1,
+      "Description": "攻击1格内的敌人",
+      "Icon": 28002036,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "电击棍"
+    },
+    {
+      "Id": 192,
+      "Name": "谈判专家",
+      "SkillType": 2,
+      "Description": "嘲讽2格内所有的敌人",
+      "Icon": 28002036,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "谈判专家"
+    }
+  ],
+  "_dumpedCount": 28,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

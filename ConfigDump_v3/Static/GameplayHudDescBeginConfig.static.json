@@ -1,0 +1,108 @@
+{
+  "GobangCfg": {
+    "Id": 1,
+    "Name": "Gobang",
+    "Title": "Five in a Row",
+    "SubTitle": "Solo Play",
+    "Desc": "Black moves first. Players then alternate placing stones. The first to line up five stone in a row—either horizontally, vertically, or diagonally—wins.",
+    "EnterStr": "Start Game",
+    "BackGround": 28006439,
+    "Options": [
+      1,
+      2,
+      3
+    ],
+    "StartAction": "BeginGobang",
+    "__IDX__Title": 146174,
+    "__RAW__Title": "",
+    "__IDX__SubTitle": 149749,
+    "__RAW__SubTitle": "",
+    "__IDX__Desc": 146173,
+    "__RAW__Desc": "",
+    "__IDX__EnterStr": 149748,
+    "__RAW__EnterStr": ""
+  },
+  "DiceCfg": {
+    "Id": 2,
+    "Name": "Dice",
+    "Title": "骰子对决",
+    "SubTitle": "单人对决",
+    "Desc": "各摇5枚骰子，一把定胜负。骰型不同比大小，骰型相同比点数。骰型大小：五条＞四条＞三带二＞三条＞两对＞一对。",
+    "EnterStr": "开始对决",
+    "BackGround": 28005011,
+    "Options": [
+      1,
+      4
+    ],
+    "StartAction": "BeginDiceGame",
+    "__IDX__Title": 4294967295,
+    "__RAW__Title": "骰子对决",
+    "__IDX__SubTitle": 4294967295,
+    "__RAW__SubTitle": "单人对决",
+    "__IDX__Desc": 4294967295,
+    "__RAW__Desc": "各摇5枚骰子，一把定胜负。骰型不同比大小，骰型相同比点数。骰型大小：五条＞四条＞三带二＞三条＞两对＞一对。",
+    "__IDX__EnterStr": 4294967295,
+    "__RAW__EnterStr": "开始对决"
+  },
+  "DrawCfg": {
+    "Id": 3,
+    "Name": "Draw",
+    "Title": "神奇画板",
+    "SubTitle": "自由绘画",
+    "Desc": "在画板上自由绘画吧！绘画成品可以收藏到背包保存，也可以赠送给他人",
+    "EnterStr": "开始自由作画",
+    "BackGround": 28004215,
+    "Options": [
+      7
+    ],
+    "StartAction": "BeginDraw",
+    "__IDX__Title": 4294967293,
+    "__RAW__Title": "神奇画板",
+    "__IDX__SubTitle": 4294967293,
+    "__RAW__SubTitle": "自由绘画",
+    "__IDX__Desc": 4294967293,
+    "__RAW__Desc": "在画板上自由绘画吧！绘画成品可以收藏到背包保存，也可以赠送给他人",
+    "__IDX__EnterStr": 4294967293,
+    "__RAW__EnterStr": "开始自由作画"
+  },
+  "NightRunCfg": {
+    "Id": 4,
+    "Name": "NightRun",
+    "Title": "夜跑标题",
+    "SubTitle": "夜跑副标题",
+    "Desc": "夜跑测试描述",
+    "EnterStr": "开始夜跑",
+    "BackGround": 28004215,
+    "Options": [],
+    "StartAction": "BeginNightRun",
+    "__IDX__Title": 4294967293,
+    "__RAW__Title": "夜跑标题",
+    "__IDX__SubTitle": 4294967293,
+    "__RAW__SubTitle": "夜跑副标题",
+    "__IDX__Desc": 4294967293,
+    "__RAW__Desc": "夜跑测试描述",
+    "__IDX__EnterStr": 4294967293,
+    "__RAW__EnterStr": "开始夜跑"
+  },
+  "PalmKingCfg": {
+    "Id": 5,
+    "Name": "PalmKing",
+    "Title": "掌王争霸",
+    "SubTitle": "单人对决",
+    "Desc": "",
+    "EnterStr": "开始挑战",
+    "BackGround": 0,
+    "Options": [
+      5
+    ],
+    "StartAction": "BeginPalmKing",
+    "__IDX__Title": 4294967293,
+    "__RAW__Title": "掌王争霸",
+    "__IDX__SubTitle": 4294967293,
+    "__RAW__SubTitle": "单人对决",
+    "__IDX__Desc": 0,
+    "__RAW__Desc": "",
+    "__IDX__EnterStr": 4294967293,
+    "__RAW__EnterStr": "开始挑战"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_class": "LinkStageConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 5,
+  "records": [
+    {
+      "Id": 11,
+      "StateName": "FullScreenConfirm",
+      "TimeoutType": 1
+    },
+    {
+      "Id": 12,
+      "StateName": "BubbleConfirm",
+      "TimeoutType": 1
+    },
+    {
+      "Id": 21,
+      "StateName": "Prepare",
+      "TimeoutType": 2
+    },
+    {
+      "Id": 22,
+      "StateName": "Room",
+      "TimeoutType": 0
+    },
+    {
+      "Id": 31,
+      "StateName": "Invest",
+      "TimeoutType": 1
+    }
+  ],
+  "_dumpedCount": 5,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

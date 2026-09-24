@@ -1,0 +1,109 @@
+{
+  "ElementsOzTolerance": {
+    "ElementsOzLow": -1,
+    "ElementsOzHigh": 1
+  },
+  "MouseSpeedScale": 2,
+  "AmountWeight": {
+    "AmountName": "Increases the amount of damage dealt by a fixed amount.",
+    "AmountWeight": 0.5,
+    "__IDX__AmountName": 4294967293,
+    "__RAW__AmountName": "精准度"
+  },
+  "OzScoreTiers": [
+    {
+      "MaxDiff": 0.200000003,
+      "score": 100
+    },
+    {
+      "MaxDiff": 0.5,
+      "score": 80
+    },
+    {
+      "MaxDiff": 0.800000012,
+      "score": 50
+    },
+    {
+      "MaxDiff": 0.899999976,
+      "score": 10
+    }
+  ],
+  "TempWeight": {
+    "TempName": "Increases the amount of damage dealt by a fixed amount.",
+    "TempWeight": 0.200000003,
+    "__IDX__TempName": 4294967293,
+    "__RAW__TempName": "温度"
+  },
+  "TimeWeight": {
+    "TimeName": "Increases the amount of damage dealt by a fixed amount.",
+    "TimeWeight": 0.300000012,
+    "__IDX__TimeName": 4294967293,
+    "__RAW__TimeName": "速度"
+  },
+  "MaxScore": 100,
+  "CustomerType": [
+    "Customer_story",
+    "Customer_super",
+    "Customer_normal"
+  ],
+  "OrderType": [
+    "Clear",
+    "Tag",
+    "Cp"
+  ],
+  "SP_Threshold": [
+    {
+      "SPLevel": 1,
+      "MinSP": -100,
+      "MaxSP": -49,
+      "SPProbability": 0.200000003
+    },
+    {
+      "SPLevel": 2,
+      "MinSP": -50,
+      "MaxSP": 0,
+      "SPProbability": 0.300000012
+    },
+    {
+      "SPLevel": 3,
+      "MinSP": 1,
+      "MaxSP": 50,
+      "SPProbability": 0.300000012
+    },
+    {
+      "SPLevel": 4,
+      "MinSP": 51,
+      "MaxSP": 100,
+      "SPProbability": 0.200000003
+    }
+  ],
+  "CustomerTypeWeight": [
+    {
+      "CustomerType": "Customer_super",
+      "weight": 1000,
+      "CoolingTime": 60
+    },
+    {
+      "CustomerType": "Customer_normal",
+      "weight": 100,
+      "CoolingTime": 30
+    }
+  ],
+  "OrderTypeWeight": [
+    {
+      "OrderType": "Clear",
+      "weight": 50
+    },
+    {
+      "OrderType": "Tag",
+      "weight": 40
+    },
+    {
+      "OrderType": "Cp",
+      "weight": 10
+    }
+  ],
+  "FullTipText": "杯子已经满了",
+  "PlayerMoveSpeed": 0.899999976,
+  "CameraSensitivity": 0.800000012
+}

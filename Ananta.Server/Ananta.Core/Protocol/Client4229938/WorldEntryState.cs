@@ -20,31 +20,48 @@ internal sealed class WorldEntryState
     internal bool FirstMovementSeen { get; set; }
     internal bool GaragePublished { get; set; }
     internal bool AetherVehicleInitSent { get; set; }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    internal bool SwitchAetherInitSent { get; set; }
+
+    
+    
+    
+    
+    
+    internal bool AetherRepushedAtLivePos { get; set; }
     internal bool InitialCapabilityBuffsPublished { get; set; }
     internal bool AllBuildBuffsPublished { get; set; }
     internal bool InitialActorPresentationPublished { get; set; }
     internal bool CombatProfilePublished { get; set; }
     internal bool AccountArmoryPublished { get; set; }
 
-    // Current public-world destination. Initial values come from private-server.json; airport
-    // travel updates these per scene generation without mutating global configuration.
+    
+    
     internal uint ActiveRaidId { get; set; } = Profile.RaidId;
     internal ulong ActiveInstanceId { get; set; } = Profile.SceneInstanceId;
     internal uint ActiveUniverseId { get; set; } = Profile.UniverseId;
     internal string ActiveContentScene { get; set; } = "WorldMap_Release";
     internal bool WorldEntryIsAirportTravel { get; set; }
 
-    // Native LoadingManager common-teleport transaction. Airport travel reuses the retail
-    // AskTeleport -> SyncPreTeleportOption -> ReportPreTeleportFinish -> domain RPC ->
-    // SyncTeleport -> ReportPostTeleportFinish sequence so SwitchTeleportManager cannot retain
-    // a stale AcrossRaid flow after landing.
+    
+    
+    
+    
     internal ulong PendingTeleportId { get; set; }
     internal string PendingAirportRouteKey { get; set; } = string.Empty;
     internal bool PendingTeleportPreFinished { get; set; }
     internal bool PendingTeleportSyncSent { get; set; }
 
-    // Build 4229938: one generation-bound initial-player handoff.
-    // 0 = edge not claimed; -generation = claimed/in-flight; +generation = published.
+    
+    
     internal bool WorldEntryControlPending { get; set; }
     internal bool WorldEntryControlFinalized { get; set; }
     internal ulong WorldEntryControlUnit { get; set; }
@@ -72,14 +89,24 @@ internal sealed class WorldEntryState
     internal Dictionary<uint, ulong> LastWeaponBySpirit { get; } = [];
     internal Dictionary<uint, List<ulong>> WeaponSlotsBySpirit { get; } = [];
     internal Dictionary<ulong, uint> WeaponStyleOverrides { get; } = [];
-    // Persistent weapon-instance ammunition. These dictionaries intentionally survive public-scene
-    // generations and character switches; a weapon switch must never refill its magazine.
+    
+    
     internal Dictionary<ulong, int> WeaponMagazineAmmo { get; } = [];
-    // For firearms without separate backpack bullets, Durability is the remaining total ammo
-    // (loaded magazine + reserve). Keep it instance-persistent for the same reason as the magazine.
+    
+    
     internal Dictionary<ulong, int> WeaponDurabilityAmmo { get; } = [];
     internal Dictionary<ulong, uint> WeaponBulletByInstance { get; } = [];
     internal Dictionary<uint, uint> BackpackItemCounts { get; } = [];
+
+    
+    
+    
+    
+    
+    
+    
+    internal ulong PendingReloadWeaponInstanceId { get; set; }
+
     internal Dictionary<(uint SpiritId, uint FightStyleTypeId), uint> SpiritStyleOverrides { get; } = [];
     internal int CombatUseCount { get; set; }
     internal int CombatEndCount { get; set; }
@@ -87,19 +114,52 @@ internal sealed class WorldEntryState
     internal uint NextBuffInstanceId { get; set; } = 1200000u;
     internal uint ActiveFeiSuoBuffInstanceId { get; set; }
     internal ulong ActiveFeiSuoBuffUnitId { get; set; }
-    // Exact instance ids for client-owned 4229938 traversal states (SwingBuff/WallRushBuff).
-    // They are created/removed on demand and are intentionally not resident login buffs.
+
+    
+    
+    
+    
+    
+    
+    
+    
+    internal uint ActiveHackingAbilityInstanceId { get; set; }
+
+    
+    internal ulong HackingAbilityBuffUnitId { get; set; }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    internal Dictionary<uint, uint> ActiveHackingBuffInstances { get; } = [];
+
+    
+    internal ulong HackingBuffsUnitId { get; set; }
+
+    
+    
     internal Dictionary<(ulong UnitId, uint BuffId), uint> ActiveClientWebBuffInstances { get; } = [];
     internal ulong SceneId { get; set; }
+    
+    internal Dictionary<uint, uint> GachaDrawsSinceGrand { get; } = new();
+
     internal ulong ActiveSpiritUnitId { get; set; } = Profile.InitialUnitId;
     internal uint ActiveSpiritTemplateId { get; set; } = Profile.InitialSpiritTemplateId;
     internal uint WorldEntrySwitchShowId { get; set; }
     internal uint LastSwitchShowId { get; set; }
     internal int SwitchCount { get; set; }
 
-    // Native 4229938 SwitchTeleport is a three-phase transaction. Only the current character
-    // exists as the controlled actor. Every target is materialized by the same generic AOI path
-    // after the client reports that the source close-up has finished.
+    
+    
+    
     internal uint PendingSwitchTemplateId { get; set; }
     internal ulong PendingSwitchUnitId { get; set; }
     internal ulong PendingSwitchOldUnitId { get; set; }
@@ -109,7 +169,35 @@ internal sealed class WorldEntryState
     internal bool PendingSwitchControlTransferred { get; set; }
     internal bool PendingSwitchLandingStarted { get; set; }
 
-    // Time-of-day state (persists across scene switches; pushed on load when set).
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    internal PendingSwitchTimeline4229938? PendingSwitchTimeline { get; set; }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    internal PendingSwitchTimeline4229938? ActiveSwitchTimeline { get; set; }
+
+    
     internal uint TimeHour { get; set; }
     internal uint TimeMinute { get; set; }
     internal bool TimeFixed { get; set; }
@@ -118,4 +206,71 @@ internal sealed class WorldEntryState
     internal uint WeatherId { get; set; }
     internal uint WeatherTransitionSeconds { get; set; }
     internal bool HasExplicitWeather { get; set; }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    internal Dictionary<uint, int[]> QuestCounterValues { get; } = [];
+
+    
+    internal List<uint> StoryChain { get; } = [];
+
+    
+    internal Dictionary<uint, byte> QuestStates { get; } = [];
+    internal uint CurrentQuestTaskId { get; set; }
+    internal bool QuestContainerSent { get; set; }
+
+    
+    internal HashSet<uint> UnlockedQuestIds { get; } = [];
+    internal HashSet<uint> CompletedSubQuestIds { get; } = [];
+}
+
+internal sealed class PendingSwitchTimeline4229938
+{
+    internal uint ConfigId { get; init; }
+    internal uint TemplateId { get; init; }
+    internal ulong UnitId { get; init; }
+    internal ulong OldUnitId { get; init; }
+    internal Vec3 Anchor { get; init; }
+    internal float Facing { get; init; }
+    internal string Timeline { get; init; } = string.Empty;
+    internal string Place { get; init; } = string.Empty;
+    internal string Show { get; init; } = string.Empty;
+    internal List<ulong> SpawnedAgents { get; init; } = [];
+
+    
+
+    
+    
+    
+    
+    internal string TeleportTiming { get; init; } = "immediate";
+
+    
+    internal int ApexDelayMs { get; init; }
+
+    
+    internal Vec3 OriginPosition { get; init; }
+
+    
+    private int _apexTeleportDone;
+
+    
+    internal bool TryBeginApexTeleport()
+        => Interlocked.CompareExchange(ref _apexTeleportDone, 1, 0) == 0;
+
+    
+    internal bool ApexTeleportDone => Volatile.Read(ref _apexTeleportDone) != 0;
+
+    
+    private int _continuationStarted;
+
+    
+    internal bool TryBeginContinuation()
+        => Interlocked.CompareExchange(ref _continuationStarted, 1, 0) == 0;
 }

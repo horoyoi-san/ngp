@@ -1,0 +1,37 @@
+{
+  "_class": "DivinerConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 3,
+  "records": [
+    {
+      "Id": 701,
+      "Name": "初级占卜师",
+      "CustomerPool": [
+        1
+      ],
+      "BasicPatience": 2,
+      "BasicPersuadePoint": 6
+    },
+    {
+      "Id": 702,
+      "Name": "中级占卜师",
+      "CustomerPool": [
+        1
+      ],
+      "BasicPatience": 3,
+      "BasicPersuadePoint": 9
+    },
+    {
+      "Id": 703,
+      "Name": "高级占卜师",
+      "CustomerPool": [
+        1
+      ],
+      "BasicPatience": 4,
+      "BasicPersuadePoint": 12
+    }
+  ],
+  "_dumpedCount": 3,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

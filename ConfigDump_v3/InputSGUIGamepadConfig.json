@@ -1,0 +1,2404 @@
+{
+  "_class": "InputSGUIGamepadConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 91,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "NorthButton/△/Y",
+      "PSButtonName": "△；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按/HUD按住",
+      "PSButtonIcon": [
+        28000203,
+        28001419,
+        28001331,
+        28001332,
+        28000235,
+        28000300,
+        28000243,
+        28001455,
+        28001398
+      ],
+      "XBoxButtonName": "Y",
+      "XBoxButtonIcon": [
+        28000219,
+        28001432,
+        28001357,
+        28001358,
+        28000239,
+        28000295,
+        28000247,
+        28001450,
+        28001403
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "NorthButton",
+      "Order": 3
+    },
+    {
+      "Id": 2,
+      "Name": "EastButton/〇/B",
+      "PSButtonName": "〇；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000201,
+        28001409,
+        28001311,
+        28001312,
+        28000233,
+        28000302,
+        28000241,
+        28001457
+      ],
+      "XBoxButtonName": "B",
+      "XBoxButtonIcon": [
+        28000217,
+        28001452,
+        28001337,
+        28001338,
+        28000237,
+        28000297,
+        28000245,
+        28001452
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "Cancel",
+      "Order": 100
+    },
+    {
+      "Id": 3,
+      "Name": "SouthButton/×/A",
+      "PSButtonName": "×；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000200,
+        28001421,
+        28001333,
+        28001334,
+        28000232,
+        28000301,
+        28000240,
+        28001454
+      ],
+      "XBoxButtonName": "A",
+      "XBoxButtonIcon": [
+        28000216,
+        28001420,
+        28001335,
+        28001336,
+        28000236,
+        28000298,
+        28000244,
+        28001453
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "Submit",
+      "Order": 2
+    },
+    {
+      "Id": 4,
+      "Name": "WestButton/□/X",
+      "PSButtonName": "□；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按/HUD按住",
+      "PSButtonIcon": [
+        28000202,
+        28001418,
+        28001329,
+        28001330,
+        28000234,
+        28000299,
+        28000242,
+        28001456,
+        28001397
+      ],
+      "XBoxButtonName": "X",
+      "XBoxButtonIcon": [
+        28000218,
+        28001431,
+        28001355,
+        28001356,
+        28000238,
+        28000296,
+        28000246,
+        28001451,
+        28001393
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "WestButton",
+      "Order": 4
+    },
+    {
+      "Id": 5,
+      "Name": "LeftBumper/L1/LB",
+      "PSButtonName": "L1；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按/HUD按住",
+      "PSButtonIcon": [
+        28000204,
+        28001410,
+        28001313,
+        28001314,
+        28000253,
+        28022256,
+        28005294,
+        28022262,
+        28001889
+      ],
+      "XBoxButtonName": "LB",
+      "XBoxButtonIcon": [
+        28000220,
+        28001423,
+        28001339,
+        28001340,
+        28000261,
+        28022250,
+        28022275,
+        28022276,
+        28001888
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "LeftBumper",
+      "Order": 6
+    },
+    {
+      "Id": 6,
+      "Name": "RightBumper/R1/RB",
+      "PSButtonName": "R1；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按/HUD按住",
+      "PSButtonIcon": [
+        28000205,
+        28001412,
+        28001323,
+        28001324,
+        28000258,
+        28022253,
+        28004204,
+        28022270,
+        28001401
+      ],
+      "XBoxButtonName": "RB",
+      "XBoxButtonIcon": [
+        28000221,
+        28001427,
+        28001349,
+        28001350,
+        28000266,
+        28022247,
+        28022284,
+        28022285,
+        28001402
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "RightBumper",
+      "Order": 5
+    },
+    {
+      "Id": 7,
+      "Name": "LeftTrigger/L2/LT",
+      "PSButtonName": "L2；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000214,
+        28001411,
+        28001315,
+        28001316,
+        28000254,
+        28022255,
+        28008012,
+        28022263
+      ],
+      "XBoxButtonName": "LT",
+      "XBoxButtonIcon": [
+        28000226,
+        28001425,
+        28001343,
+        28001344,
+        28000262,
+        28022248,
+        28008013,
+        28022279
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "LeftTrigger",
+      "Order": 8
+    },
+    {
+      "Id": 8,
+      "Name": "RightTrigger/R2/RT",
+      "PSButtonName": "R2；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000215,
+        28001416,
+        28001325,
+        28001326,
+        28000259,
+        28022252,
+        28022271,
+        28022272
+      ],
+      "XBoxButtonName": "RT",
+      "XBoxButtonIcon": [
+        28000227,
+        28001430,
+        28001353,
+        28001354,
+        28000267,
+        28022246,
+        28022288,
+        28022289
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "RightTrigger",
+      "Order": 7
+    },
+    {
+      "Id": 9,
+      "Name": "LeftStickButton/L3/LS",
+      "PSButtonName": "L3；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000206,
+        28001415,
+        28001317,
+        28001318,
+        28000255,
+        28022254,
+        28022264,
+        28022265
+      ],
+      "XBoxButtonName": "LS",
+      "XBoxButtonIcon": [
+        28000222,
+        28001424,
+        28001341,
+        28001342,
+        28000263,
+        28022249,
+        28022277,
+        28022278
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "LeftStickPress",
+      "Order": 10
+    },
+    {
+      "Id": 10,
+      "Name": "RightStickButton/R3/RS",
+      "PSButtonName": "R3；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000207,
+        28001417,
+        28001327,
+        28001328,
+        28000260,
+        28022251,
+        28022273,
+        28022274
+      ],
+      "XBoxButtonName": "RS",
+      "XBoxButtonIcon": [
+        28000223,
+        28001426,
+        28001351,
+        28001352,
+        28000268,
+        28022245,
+        28022273,
+        28022274
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "RightStickPress",
+      "Order": 9
+    },
+    {
+      "Id": 11,
+      "Name": "Share/Ps Only",
+      "PSButtonName": "S",
+      "PSButtonIcon": [],
+      "XBoxButtonName": "",
+      "XBoxButtonIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "Share",
+      "Order": 22
+    },
+    {
+      "Id": 12,
+      "Name": "Options/Ps Only",
+      "PSButtonName": "opt；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000208,
+        28001414,
+        28001319,
+        28001320,
+        28000256,
+        28022244,
+        28022266,
+        28022267
+      ],
+      "XBoxButtonName": "",
+      "XBoxButtonIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "Options",
+      "Order": 19
+    },
+    {
+      "Id": 13,
+      "Name": "System/Ps Only",
+      "PSButtonName": "PS",
+      "PSButtonIcon": [],
+      "XBoxButtonName": "",
+      "XBoxButtonIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "System",
+      "Order": 20
+    },
+    {
+      "Id": 14,
+      "Name": "TouchPadTap/Ps Only",
+      "PSButtonName": "Tap",
+      "PSButtonIcon": [],
+      "XBoxButtonName": "",
+      "XBoxButtonIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "TouchPadTap",
+      "Order": 21
+    },
+    {
+      "Id": 15,
+      "Name": "Back/Xbox Only",
+      "PSButtonName": "",
+      "PSButtonIcon": [],
+      "XBoxButtonName": "BK",
+      "XBoxButtonIcon": [
+        28000224,
+        28001429,
+        28001345,
+        28001346,
+        28000264
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "Back",
+      "Order": 17
+    },
+    {
+      "Id": 16,
+      "Name": "Start/Xbox Only",
+      "PSButtonName": "",
+      "PSButtonIcon": [],
+      "XBoxButtonName": "ST",
+      "XBoxButtonIcon": [
+        28000225,
+        28001428,
+        28001347,
+        28001348,
+        28000265
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "Start",
+      "Order": 18
+    },
+    {
+      "Id": 17,
+      "Name": "DPadLeftButton",
+      "PSButtonName": "←；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按/白色左右/白色全键/蓝色全键",
+      "PSButtonIcon": [
+        28000210,
+        28001406,
+        28001299,
+        28001300,
+        28005513,
+        28022238,
+        28022293,
+        28022294,
+        28005205,
+        28000688,
+        28002458
+      ],
+      "XBoxButtonName": "←",
+      "XBoxButtonIcon": [
+        28000210,
+        28001406,
+        28001299,
+        28001300,
+        28005513,
+        28022238,
+        28022293,
+        28022294,
+        28005205,
+        28000688
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "DpadLeft",
+      "Order": 50
+    },
+    {
+      "Id": 18,
+      "Name": "DPadRightButton",
+      "PSButtonName": "→；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000211,
+        28001407,
+        28001301,
+        28001302,
+        28005514,
+        28022240,
+        28022259,
+        28022260
+      ],
+      "XBoxButtonName": "→",
+      "XBoxButtonIcon": [
+        28000211,
+        28001407,
+        28001301,
+        28001302,
+        28005514,
+        28022240,
+        28022259,
+        28022260
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "DpadRight",
+      "Order": 24
+    },
+    {
+      "Id": 19,
+      "Name": "DPadUpButton",
+      "PSButtonName": "↑；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按/白色上下",
+      "PSButtonIcon": [
+        28000212,
+        28001408,
+        28001303,
+        28001304,
+        28005515,
+        28022239,
+        28022291,
+        28022292,
+        28004202
+      ],
+      "XBoxButtonName": "↑",
+      "XBoxButtonIcon": [
+        28000212,
+        28001408,
+        28001303,
+        28001304,
+        28005515,
+        28004202,
+        28022291,
+        28022292,
+        28022239
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "DpadUp",
+      "Order": 23
+    },
+    {
+      "Id": 20,
+      "Name": "DPadDownButton",
+      "PSButtonName": "↓；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000213,
+        28001405,
+        28001297,
+        28001298,
+        28005512,
+        28022237,
+        28022296,
+        28022295
+      ],
+      "XBoxButtonName": "↓",
+      "XBoxButtonIcon": [
+        28000213,
+        28001405,
+        28001297,
+        28001298,
+        28005512,
+        28022237,
+        28022296,
+        28022295
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "DpadDown",
+      "Order": 25
+    },
+    {
+      "Id": 21,
+      "Name": "Options/Menu",
+      "PSButtonName": "opt；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000208,
+        28001414,
+        28001319,
+        28001320,
+        28000256,
+        28022244,
+        28022266,
+        28022267
+      ],
+      "XBoxButtonName": "Menu",
+      "XBoxButtonIcon": [
+        28000224,
+        28001429,
+        28001345,
+        28001346,
+        28000264,
+        28022241,
+        28022280,
+        28022281
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "Options_Menu",
+      "Order": 95
+    },
+    {
+      "Id": 23,
+      "Name": "TouchPad/View",
+      "PSButtonName": "Tap；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000209,
+        28001413,
+        28001321,
+        28001322,
+        28000257,
+        28022243,
+        28022268,
+        28022269
+      ],
+      "XBoxButtonName": "View",
+      "XBoxButtonIcon": [
+        28000225,
+        28001428,
+        28001347,
+        28001348,
+        28000265,
+        28022242,
+        28022282,
+        28022283
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "TouchPad_View",
+      "Order": 32
+    },
+    {
+      "Id": 24,
+      "Name": "L3+R3/LS+RS",
+      "PSButtonName": "L3+R3；同L3的颜色",
+      "PSButtonIcon": [
+        28000206,
+        28001415,
+        28001317,
+        28001318,
+        28000255,
+        28022254,
+        28022264,
+        28022265
+      ],
+      "XBoxButtonName": "LS+RS；白色",
+      "XBoxButtonIcon": [
+        28000222,
+        28001424,
+        28001341,
+        28001342,
+        28000263,
+        28022249,
+        28022277,
+        28022278
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "StickCombine",
+      "Order": 34
+    },
+    {
+      "Id": 25,
+      "Name": "L2+DpadUp",
+      "PSButtonName": "L2+DpadUp",
+      "PSButtonIcon": [],
+      "XBoxButtonName": "LT+DpadUp",
+      "XBoxButtonIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "L2_DPadUp",
+      "Order": 35
+    },
+    {
+      "Id": 26,
+      "Name": "L2+DpadDown",
+      "PSButtonName": "L2+DpadDown",
+      "PSButtonIcon": [],
+      "XBoxButtonName": "LT+DpadDown",
+      "XBoxButtonIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "L2_DPadDown",
+      "Order": 36
+    },
+    {
+      "Id": 27,
+      "Name": "L2+DpadLeft",
+      "PSButtonName": "L2+DpadLeft",
+      "PSButtonIcon": [],
+      "XBoxButtonName": "LT+DpadLeft",
+      "XBoxButtonIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "L2_DPadLeft",
+      "Order": 37
+    },
+    {
+      "Id": 28,
+      "Name": "L2+DpadRight",
+      "PSButtonName": "L2+DpadRight",
+      "PSButtonIcon": [],
+      "XBoxButtonName": "LT+DpadRight",
+      "XBoxButtonIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "L2_DPadRight",
+      "Order": 38
+    },
+    {
+      "Id": 30,
+      "Name": "L2+RightStick",
+      "PSButtonName": "L2；同L2的颜色",
+      "PSButtonIcon": [
+        28000214,
+        28001411,
+        28001315,
+        28001316,
+        28000254,
+        28022255,
+        28008012,
+        28022263
+      ],
+      "XBoxButtonName": "LT+R四向移动",
+      "XBoxButtonIcon": [
+        28000226,
+        28001425,
+        28001343,
+        28001344,
+        28000262,
+        28022248,
+        28008013,
+        28022279
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Combination",
+      "ActionName": "L2_RightStick",
+      "Order": 44
+    },
+    {
+      "Id": 31,
+      "Name": "R2+RightStick",
+      "PSButtonName": "R2；同R2的颜色",
+      "PSButtonIcon": [
+        28000215,
+        28001416,
+        28001325,
+        28001326,
+        28000259,
+        28022252,
+        28022271,
+        28022272
+      ],
+      "XBoxButtonName": "RT+R四向移动",
+      "XBoxButtonIcon": [
+        28000227,
+        28001430,
+        28001353,
+        28001354,
+        28000267,
+        28022246,
+        28022288,
+        28022289
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Combination",
+      "ActionName": "R2_RightStick",
+      "Order": 45
+    },
+    {
+      "Id": 33,
+      "Name": "DPadLeft+North",
+      "PSButtonName": "DPadLeft+North",
+      "PSButtonIcon": [],
+      "XBoxButtonName": "",
+      "XBoxButtonIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "DPadLeft_North",
+      "Order": 1
+    },
+    {
+      "Id": 34,
+      "Name": "DPadLeft+West",
+      "PSButtonName": "DPadLeft+West",
+      "PSButtonIcon": [],
+      "XBoxButtonName": "",
+      "XBoxButtonIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "DPadLeft_West",
+      "Order": 1
+    },
+    {
+      "Id": 35,
+      "Name": "Controller_Special_L1R1",
+      "PSButtonName": "L1+R1；同L1",
+      "PSButtonIcon": [
+        28000204,
+        28001410,
+        28001313,
+        28001314,
+        28000253,
+        28022256,
+        28005294,
+        28022262,
+        28001889
+      ],
+      "XBoxButtonName": "LB",
+      "XBoxButtonIcon": [
+        28000220,
+        28001423,
+        28001339,
+        28001340,
+        28000261,
+        28022250,
+        28022275,
+        28022276,
+        28001888
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_Special",
+      "ActionName": "SpecialL1R1",
+      "Order": 0
+    },
+    {
+      "Id": 36,
+      "Name": "DPadLeft+LB",
+      "PSButtonName": "DPadLeft+L1",
+      "PSButtonIcon": [],
+      "XBoxButtonName": "DPadLeft+LB",
+      "XBoxButtonIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "DPadLeft_LB",
+      "Order": 1
+    },
+    {
+      "Id": 37,
+      "Name": "DPadLeft+RB",
+      "PSButtonName": "DPadLeft+R1",
+      "PSButtonIcon": [],
+      "XBoxButtonName": "DPadLeft+RB",
+      "XBoxButtonIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "DPadLeft_RB",
+      "Order": 1
+    },
+    {
+      "Id": 100,
+      "Name": "LeftStickX",
+      "PSButtonName": "L水平移动；黄色/白色/蓝色/L左白/L左蓝/L左黄/L右白/L右蓝/L右黄",
+      "PSButtonIcon": [
+        28000248,
+        28001308,
+        28003443,
+        28022228,
+        28022229,
+        28022230,
+        28022231,
+        28022232,
+        28022233
+      ],
+      "XBoxButtonName": "L水平移动",
+      "XBoxButtonIcon": [
+        28000248,
+        28001308,
+        28003443,
+        28022228,
+        28022229,
+        28022230,
+        28022231,
+        28022232,
+        28022233
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "LeftStickX",
+      "Order": 16
+    },
+    {
+      "Id": 101,
+      "Name": "LeftStickY",
+      "PSButtonName": "L垂直移动；黄色/白色/蓝色L上白/L上蓝/L上黄/L下白/L下蓝/L下黄",
+      "PSButtonIcon": [
+        28000231,
+        28001307,
+        28003437,
+        28022234,
+        28022235,
+        28022236,
+        28022225,
+        28022226,
+        28022227
+      ],
+      "XBoxButtonName": "L垂直移动",
+      "XBoxButtonIcon": [
+        28000231,
+        28001307,
+        28003437,
+        28022234,
+        28022235,
+        28022236,
+        28022225,
+        28022226,
+        28022227
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "LeftStickY",
+      "Order": 14
+    },
+    {
+      "Id": 102,
+      "Name": "LeftStick",
+      "PSButtonName": "L；黄色/黄色预留/白色/蓝色/黑色/示波器/白色四箭头",
+      "PSButtonIcon": [
+        28000251,
+        28000251,
+        28001305,
+        28000269,
+        28022258,
+        28000293,
+        28000250
+      ],
+      "XBoxButtonName": "L四向移动",
+      "XBoxButtonIcon": [
+        28000251,
+        28001305,
+        28000269,
+        28022258,
+        28000293,
+        28000250
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "LeftStick",
+      "Order": 12
+    },
+    {
+      "Id": 103,
+      "Name": "RightStickX",
+      "PSButtonName": "R水平移动；黄色/白色/蓝色",
+      "PSButtonIcon": [
+        28000276,
+        28001309,
+        28003442
+      ],
+      "XBoxButtonName": "R水平移动",
+      "XBoxButtonIcon": [
+        28000276,
+        28001309,
+        28003442
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "RightStickX",
+      "Order": 15
+    },
+    {
+      "Id": 104,
+      "Name": "RightStickY",
+      "PSButtonName": "R垂直移动；黄色/白色/蓝色",
+      "PSButtonIcon": [
+        28000230,
+        28001310,
+        28003436
+      ],
+      "XBoxButtonName": "R垂直移动",
+      "XBoxButtonIcon": [
+        28000230,
+        28001310,
+        28003436
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "RightStickY",
+      "Order": 13
+    },
+    {
+      "Id": 105,
+      "Name": "RightStick",
+      "PSButtonName": "R；黄色/黄色预留/白色/蓝色/黑色/示波器/白色四箭头",
+      "PSButtonIcon": [
+        28000252,
+        28000252,
+        28001306,
+        28000270,
+        28022257,
+        28000294,
+        28000249
+      ],
+      "XBoxButtonName": "R四向移动",
+      "XBoxButtonIcon": [
+        28000252,
+        28001306,
+        28000270,
+        28022257,
+        28000294,
+        28000249
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "RightStick",
+      "Order": 11
+    },
+    {
+      "Id": 106,
+      "Name": "DPadX",
+      "PSButtonName": "←→",
+      "PSButtonIcon": [
+        28005205
+      ],
+      "XBoxButtonName": "←→",
+      "XBoxButtonIcon": [
+        28005206,
+        28005205
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "DpadX",
+      "Order": 27
+    },
+    {
+      "Id": 107,
+      "Name": "DPadY",
+      "PSButtonName": "↑↓",
+      "PSButtonIcon": [
+        28005204,
+        28004202
+      ],
+      "XBoxButtonName": "↑↓",
+      "XBoxButtonIcon": [
+        28005024,
+        28004202
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "DpadY",
+      "Order": 28
+    },
+    {
+      "Id": 108,
+      "Name": "LeftRightTriggerAnalog",
+      "PSButtonName": "L2R2",
+      "PSButtonIcon": [],
+      "XBoxButtonName": "L2R2",
+      "XBoxButtonIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "LeftRightTriggerAnalog",
+      "Order": 33
+    },
+    {
+      "Id": 109,
+      "Name": "TouchPadTouch/Ps Only",
+      "PSButtonName": "TouchPadTouch",
+      "PSButtonIcon": [
+        28000687,
+        28000686,
+        28001886
+      ],
+      "XBoxButtonName": "TouchPadTouch",
+      "XBoxButtonIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "TouchPadTouch",
+      "Order": 40
+    },
+    {
+      "Id": 110,
+      "Name": "LeftTriggerAnalog",
+      "PSButtonName": "L2；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000214,
+        28001411,
+        28001315,
+        28001316,
+        28000254,
+        28022255,
+        28008012,
+        28022263
+      ],
+      "XBoxButtonName": "LT",
+      "XBoxButtonIcon": [
+        28000226,
+        28001425,
+        28001343,
+        28001344,
+        28000262,
+        28022248,
+        28008013,
+        28022279
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "LeftTriggerAnalog",
+      "Order": 41
+    },
+    {
+      "Id": 111,
+      "Name": "RightTriggerAnalog",
+      "PSButtonName": "R2；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000215,
+        28001416,
+        28001325,
+        28001326,
+        28000259,
+        28022252,
+        28022271,
+        28022272
+      ],
+      "XBoxButtonName": "RT",
+      "XBoxButtonIcon": [
+        28000227,
+        28001430,
+        28001353,
+        28001354,
+        28000267,
+        28022246,
+        28022288,
+        28022289
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "RightTriggerAnalog",
+      "Order": 42
+    },
+    {
+      "Id": 112,
+      "Name": "LeftStick_Instrument",
+      "PSButtonName": "L；黄色/白色/蓝色/黑色/示波器",
+      "PSButtonIcon": [
+        28000251,
+        28001305,
+        28000269,
+        28022258,
+        28000293
+      ],
+      "XBoxButtonName": "L",
+      "XBoxButtonIcon": [
+        28000251,
+        28001305,
+        28000269,
+        28022258,
+        28000293
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Instrument",
+      "ActionName": "LeftStick_Instrument",
+      "Order": 12
+    },
+    {
+      "Id": 113,
+      "Name": "RightStick_Instrument",
+      "PSButtonName": "R；黄色/白色/蓝色/黑色/示波器",
+      "PSButtonIcon": [
+        28000252,
+        28001306,
+        28000270,
+        28022257,
+        28000294
+      ],
+      "XBoxButtonName": "R",
+      "XBoxButtonIcon": [
+        28000252,
+        28001306,
+        28000270,
+        28022257,
+        28000294
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Instrument",
+      "ActionName": "RightStick_Instrument",
+      "Order": 11
+    },
+    {
+      "Id": 114,
+      "Name": "DualSenseMotion/Ps Only",
+      "PSButtonName": "DualSenseMotion",
+      "PSButtonIcon": [
+        28000689
+      ],
+      "XBoxButtonName": "DualSenseMotion",
+      "XBoxButtonIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "DualSenseMotion",
+      "Order": 46
+    },
+    {
+      "Id": 115,
+      "Name": "TouchPadTouch/Ps Only/Display",
+      "PSButtonName": "TouchPadTouch（仅用于切歌tips显示）",
+      "PSButtonIcon": [
+        28000687,
+        28000686,
+        28001886
+      ],
+      "XBoxButtonName": "TouchPadTouch",
+      "XBoxButtonIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "TouchPadTouch",
+      "Order": 40
+    },
+    {
+      "Id": 200,
+      "Name": "Controller_Jump_A",
+      "PSButtonName": "×；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000200,
+        28001421,
+        28001333,
+        28001334,
+        28000232,
+        28000301,
+        28000240,
+        28001454
+      ],
+      "XBoxButtonName": "A",
+      "XBoxButtonIcon": [
+        28000216,
+        28001420,
+        28001335,
+        28001336,
+        28000236,
+        28000298,
+        28000244,
+        28001453
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_Base",
+      "ActionName": "Controller_Jump",
+      "Order": 2
+    },
+    {
+      "Id": 201,
+      "Name": "Controller_Rush_B",
+      "PSButtonName": "〇；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000201,
+        28001409,
+        28001311,
+        28001312,
+        28000233,
+        28000302,
+        28000241,
+        28001457
+      ],
+      "XBoxButtonName": "B",
+      "XBoxButtonIcon": [
+        28000201,
+        28001409,
+        28001337,
+        28001338,
+        28000237,
+        28000297,
+        28000245,
+        28001452
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_Base",
+      "ActionName": "Controller_Rush",
+      "Order": 100
+    },
+    {
+      "Id": 202,
+      "Name": "Controller_Interact_R1",
+      "PSButtonName": "R1；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按/HUD按住",
+      "PSButtonIcon": [
+        28000205,
+        28001412,
+        28001323,
+        28001324,
+        28000258,
+        28022253,
+        28004204,
+        28022270,
+        28001401
+      ],
+      "XBoxButtonName": "RB",
+      "XBoxButtonIcon": [
+        28000221,
+        28001427,
+        28001349,
+        28001350,
+        28000266,
+        28022247,
+        28022284,
+        28022285,
+        28001402
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_Base",
+      "ActionName": "Controller_Interact",
+      "Order": 5
+    },
+    {
+      "Id": 204,
+      "Name": "Controller_View_R",
+      "PSButtonName": "R；黄色/白色/蓝色/黑色/示波器",
+      "PSButtonIcon": [
+        28000252,
+        28001306,
+        28000270,
+        28022257,
+        28000294
+      ],
+      "XBoxButtonName": "R",
+      "XBoxButtonIcon": [
+        28000252,
+        28001306,
+        28000270,
+        28022257,
+        28000294
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_Base",
+      "ActionName": "Controller_View",
+      "Order": 11
+    },
+    {
+      "Id": 205,
+      "Name": "Controller_Run_L3",
+      "PSButtonName": "L3；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000206,
+        28001415,
+        28001317,
+        28001318,
+        28000255,
+        28022254,
+        28022264,
+        28022265
+      ],
+      "XBoxButtonName": "LS",
+      "XBoxButtonIcon": [
+        28000222,
+        28001424,
+        28001341,
+        28001342,
+        28000263,
+        28022249,
+        28022277,
+        28022278
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_Base",
+      "ActionName": "Controller_Run",
+      "Order": 10
+    },
+    {
+      "Id": 206,
+      "Name": "Controller_VeiwReset_R3",
+      "PSButtonName": "R3；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000207,
+        28001417,
+        28001327,
+        28001328,
+        28000260,
+        28022251,
+        28022273,
+        28022274
+      ],
+      "XBoxButtonName": "RS",
+      "XBoxButtonIcon": [
+        28000223,
+        28001426,
+        28001351,
+        28001352,
+        28000268,
+        28022245,
+        28022273,
+        28022274
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_Base",
+      "ActionName": "Controller_VeiwReset",
+      "Order": 9
+    },
+    {
+      "Id": 207,
+      "Name": "Controller_Attack_X",
+      "PSButtonName": "□；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按/HUD按住",
+      "PSButtonIcon": [
+        28000202,
+        28001418,
+        28001329,
+        28001330,
+        28000234,
+        28000299,
+        28000242,
+        28001456,
+        28001397
+      ],
+      "XBoxButtonName": "X",
+      "XBoxButtonIcon": [
+        28000218,
+        28001431,
+        28001355,
+        28001356,
+        28000238,
+        28000296,
+        28000246,
+        28001451,
+        28001393
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_Base",
+      "ActionName": "Controller_Attack",
+      "Order": 3
+    },
+    {
+      "Id": 208,
+      "Name": "Controller_Special_Y",
+      "PSButtonName": "△；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按/HUD按住",
+      "PSButtonIcon": [
+        28000203,
+        28001419,
+        28001331,
+        28001332,
+        28000235,
+        28000300,
+        28000243,
+        28001455,
+        28001398
+      ],
+      "XBoxButtonName": "Y",
+      "XBoxButtonIcon": [
+        28000219,
+        28001432,
+        28001357,
+        28001358,
+        28000239,
+        28000295,
+        28000247,
+        28001450,
+        28001403
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_Base",
+      "ActionName": "Controller_Special",
+      "Order": 4
+    },
+    {
+      "Id": 209,
+      "Name": "Controller_Defense_L1",
+      "PSButtonName": "L2；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000214,
+        28001411,
+        28001315,
+        28001316,
+        28000254,
+        28022255,
+        28008012,
+        28022263
+      ],
+      "XBoxButtonName": "LT",
+      "XBoxButtonIcon": [
+        28000226,
+        28001425,
+        28001343,
+        28001344,
+        28000262,
+        28022248,
+        28008013,
+        28022279
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_Base",
+      "ActionName": "Controller_Defense",
+      "Order": 8
+    },
+    {
+      "Id": 210,
+      "Name": "Controller_GunAttack_X",
+      "PSButtonName": "□；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按/HUD按住",
+      "PSButtonIcon": [
+        28000202,
+        28001418,
+        28001329,
+        28001330,
+        28000234,
+        28000299,
+        28000242,
+        28001456,
+        28001397
+      ],
+      "XBoxButtonName": "X",
+      "XBoxButtonIcon": [
+        28000218,
+        28001431,
+        28001355,
+        28001356,
+        28000238,
+        28000296,
+        28000246,
+        28001451,
+        28001393
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_Gun",
+      "ActionName": "Controller_GunAttack",
+      "Order": 3
+    },
+    {
+      "Id": 211,
+      "Name": "Controller_Reload_Y",
+      "PSButtonName": "△；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按/HUD按住",
+      "PSButtonIcon": [
+        28000203,
+        28001419,
+        28001331,
+        28001332,
+        28000235,
+        28000300,
+        28000243,
+        28001455,
+        28001398
+      ],
+      "XBoxButtonName": "Y",
+      "XBoxButtonIcon": [
+        28000219,
+        28001432,
+        28001357,
+        28001358,
+        28000239,
+        28000295,
+        28000247,
+        28001450,
+        28001403
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_Gun",
+      "ActionName": "Controller_Reload",
+      "Order": 4
+    },
+    {
+      "Id": 212,
+      "Name": "Controller_Aim_L2",
+      "PSButtonName": "L2；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000214,
+        28001411,
+        28001315,
+        28001316,
+        28000254,
+        28022255,
+        28008012,
+        28022263
+      ],
+      "XBoxButtonName": "LT",
+      "XBoxButtonIcon": [
+        28000226,
+        28001425,
+        28001343,
+        28001344,
+        28000262,
+        28022248,
+        28008013,
+        28022279
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_Gun",
+      "ActionName": "Controller_Aim",
+      "Order": 8
+    },
+    {
+      "Id": 213,
+      "Name": "Controller_Shoot_R2",
+      "PSButtonName": "R2；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000215,
+        28001416,
+        28001325,
+        28001326,
+        28000259,
+        28022252,
+        28022271,
+        28022272
+      ],
+      "XBoxButtonName": "RT",
+      "XBoxButtonIcon": [
+        28000227,
+        28001430,
+        28001353,
+        28001354,
+        28000267,
+        28022246,
+        28022288,
+        28022289
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_Gun",
+      "ActionName": "Controller_Shoot",
+      "Order": 7
+    },
+    {
+      "Id": 214,
+      "Name": "Controller_WeaponAttack_X",
+      "PSButtonName": "□；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按/HUD按住",
+      "PSButtonIcon": [
+        28000202,
+        28001418,
+        28001329,
+        28001330,
+        28000234,
+        28000299,
+        28000242,
+        28001456,
+        28001397
+      ],
+      "XBoxButtonName": "X",
+      "XBoxButtonIcon": [
+        28000218,
+        28001431,
+        28001355,
+        28001356,
+        28000238,
+        28000296,
+        28000246,
+        28001451,
+        28001393
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_Weapon",
+      "ActionName": "Controller_WeaponAttack",
+      "Order": 3
+    },
+    {
+      "Id": 215,
+      "Name": "Controller_WeaponSpecial_Y",
+      "PSButtonName": "△；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按/HUD按住",
+      "PSButtonIcon": [
+        28000203,
+        28001419,
+        28001331,
+        28001332,
+        28000235,
+        28000300,
+        28000243,
+        28001455,
+        28001398
+      ],
+      "XBoxButtonName": "Y",
+      "XBoxButtonIcon": [
+        28000219,
+        28001432,
+        28001357,
+        28001358,
+        28000239,
+        28000295,
+        28000247,
+        28001450,
+        28001403
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_Weapon",
+      "ActionName": "Controller_WeaponSpecial",
+      "Order": 4
+    },
+    {
+      "Id": 216,
+      "Name": "Controller_WeaponDefense_L2",
+      "PSButtonName": "L2；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000214,
+        28001411,
+        28001315,
+        28001316,
+        28000254,
+        28022255,
+        28008012,
+        28022263
+      ],
+      "XBoxButtonName": "LT",
+      "XBoxButtonIcon": [
+        28000226,
+        28001425,
+        28001343,
+        28001344,
+        28000262,
+        28022248,
+        28008013,
+        28022279
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_Weapon",
+      "ActionName": "Controller_WeaponDefense",
+      "Order": 8
+    },
+    {
+      "Id": 217,
+      "Name": "Controller_Leap_L1",
+      "PSButtonName": "L1；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按/HUD按住",
+      "PSButtonIcon": [
+        28000204,
+        28001410,
+        28001313,
+        28001314,
+        28000253,
+        28022256,
+        28005294,
+        28022262,
+        28001889
+      ],
+      "XBoxButtonName": "LB",
+      "XBoxButtonIcon": [
+        28000220,
+        28001423,
+        28001339,
+        28001340,
+        28000261,
+        28022250,
+        28022275,
+        28022276,
+        28001888
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_MC",
+      "ActionName": "Controller_Leap",
+      "Order": 6
+    },
+    {
+      "Id": 218,
+      "Name": "Controller_Moto_L1",
+      "PSButtonName": "L1；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按/HUD按住",
+      "PSButtonIcon": [
+        28000204,
+        28001410,
+        28001313,
+        28001314,
+        28000253,
+        28022256,
+        28005294,
+        28022262,
+        28001889
+      ],
+      "XBoxButtonName": "LB",
+      "XBoxButtonIcon": [
+        28000220,
+        28001423,
+        28001339,
+        28001340,
+        28000261,
+        28022250,
+        28022275,
+        28022276,
+        28001888
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_Taffy",
+      "ActionName": "Controller_Moto",
+      "Order": 6
+    },
+    {
+      "Id": 219,
+      "Name": "Controller_Hack_L1",
+      "PSButtonName": "L1；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按/HUD按住",
+      "PSButtonIcon": [
+        28000204,
+        28001410,
+        28001313,
+        28001314,
+        28000253,
+        28022256,
+        28005294,
+        28022262,
+        28001889
+      ],
+      "XBoxButtonName": "LB",
+      "XBoxButtonIcon": [
+        28000220,
+        28001423,
+        28001339,
+        28001340,
+        28000261,
+        28022250,
+        28022275,
+        28022276,
+        28001888
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_Seymour",
+      "ActionName": "Controller_Hack",
+      "Order": 6
+    },
+    {
+      "Id": 220,
+      "Name": "Controller_Float_L1",
+      "PSButtonName": "L1；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按/HUD按住",
+      "PSButtonIcon": [
+        28000204,
+        28001410,
+        28001313,
+        28001314,
+        28000253,
+        28022256,
+        28005294,
+        28022262,
+        28001889
+      ],
+      "XBoxButtonName": "LB",
+      "XBoxButtonIcon": [
+        28000220,
+        28001423,
+        28001339,
+        28001340,
+        28000261,
+        28022250,
+        28022275,
+        28022276,
+        28001888
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_Dila",
+      "ActionName": "Controller_Float",
+      "Order": 6
+    },
+    {
+      "Id": 221,
+      "Name": "Controller_SystemRoulette_Left",
+      "PSButtonName": "←；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按/白色左右/白色全键",
+      "PSButtonIcon": [
+        28000210,
+        28001406,
+        28001299,
+        28001300,
+        28005513,
+        28022238,
+        28022293,
+        28022294,
+        28005205,
+        28000688
+      ],
+      "XBoxButtonName": "←",
+      "XBoxButtonIcon": [
+        28000210,
+        28001406,
+        28001299,
+        28001300,
+        28005513,
+        28022238,
+        28022293,
+        28022294,
+        28005205,
+        28000688
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_System",
+      "ActionName": "Controller_SystemRoulette",
+      "Order": 24
+    },
+    {
+      "Id": 222,
+      "Name": "Controller_WeaponRoulette_Right",
+      "PSButtonName": "→；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000211,
+        28001407,
+        28001301,
+        28001302,
+        28005514,
+        28022240,
+        28022259,
+        28022260
+      ],
+      "XBoxButtonName": "→",
+      "XBoxButtonIcon": [
+        28000211,
+        28001407,
+        28001301,
+        28001302,
+        28005514,
+        28022240,
+        28022259,
+        28022260
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_System",
+      "ActionName": "Controller_WeaponRoulette",
+      "Order": 90
+    },
+    {
+      "Id": 223,
+      "Name": "Controller_Role_Down",
+      "PSButtonName": "↓；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000213,
+        28001405,
+        28001297,
+        28001298,
+        28005512,
+        28022237,
+        28022296,
+        28022295
+      ],
+      "XBoxButtonName": "↓",
+      "XBoxButtonIcon": [
+        28000213,
+        28001405,
+        28001297,
+        28001298,
+        28005512,
+        28022237,
+        28022296,
+        28022295
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_System",
+      "ActionName": "Controller_Role",
+      "Order": 25
+    },
+    {
+      "Id": 224,
+      "Name": "Controller_Accelerator_R2",
+      "PSButtonName": "R2；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000215,
+        28001416,
+        28001325,
+        28001326,
+        28000259,
+        28022252,
+        28022271,
+        28022272
+      ],
+      "XBoxButtonName": "RT",
+      "XBoxButtonIcon": [
+        28000227,
+        28001430,
+        28001353,
+        28001354,
+        28000267,
+        28022246,
+        28022288,
+        28022289
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_VehicleBase",
+      "ActionName": "Controller_Accelerator",
+      "Order": 7
+    },
+    {
+      "Id": 225,
+      "Name": "Controller_Brake_L2",
+      "PSButtonName": "L2；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000214,
+        28001411,
+        28001315,
+        28001316,
+        28000254,
+        28022255,
+        28008012,
+        28022263
+      ],
+      "XBoxButtonName": "LT",
+      "XBoxButtonIcon": [
+        28000226,
+        28001425,
+        28001343,
+        28001344,
+        28000262,
+        28022248,
+        28008013,
+        28022279
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_VehicleBase",
+      "ActionName": "Controller_Brake",
+      "Order": 8
+    },
+    {
+      "Id": 226,
+      "Name": "Controller_Drift_A",
+      "PSButtonName": "×；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000200,
+        28001421,
+        28001333,
+        28001334,
+        28000232,
+        28000301,
+        28000240,
+        28001454
+      ],
+      "XBoxButtonName": "A",
+      "XBoxButtonIcon": [
+        28000216,
+        28001420,
+        28001335,
+        28001336,
+        28000236,
+        28000298,
+        28000244,
+        28001453
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_VehicleBase",
+      "ActionName": "Controller_Drift",
+      "Order": 2
+    },
+    {
+      "Id": 227,
+      "Name": "Controller_GetOff_B",
+      "PSButtonName": "〇；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000201,
+        28001409,
+        28001311,
+        28001312,
+        28000233,
+        28000302,
+        28000241,
+        28001457
+      ],
+      "XBoxButtonName": "B",
+      "XBoxButtonIcon": [
+        28000201,
+        28001409,
+        28001337,
+        28001338,
+        28000237,
+        28000297,
+        28000245,
+        28001452
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_VehicleBase",
+      "ActionName": "Controller_GetOff",
+      "Order": 100
+    },
+    {
+      "Id": 228,
+      "Name": "Controller_Reset_Y",
+      "PSButtonName": "△；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按/HUD按住",
+      "PSButtonIcon": [
+        28000203,
+        28001419,
+        28001331,
+        28001332,
+        28000235,
+        28000300,
+        28000243,
+        28001455,
+        28001398
+      ],
+      "XBoxButtonName": "Y",
+      "XBoxButtonIcon": [
+        28000219,
+        28001432,
+        28001357,
+        28001358,
+        28000239,
+        28000295,
+        28000247,
+        28001450,
+        28001403
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_VehicleBase",
+      "ActionName": "Controller_Reset",
+      "Order": 4
+    },
+    {
+      "Id": 229,
+      "Name": "Controller_ChangeView_X",
+      "PSButtonName": "□；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按/HUD按住",
+      "PSButtonIcon": [
+        28000202,
+        28001418,
+        28001329,
+        28001330,
+        28000234,
+        28000299,
+        28000242,
+        28001456,
+        28001397
+      ],
+      "XBoxButtonName": "X",
+      "XBoxButtonIcon": [
+        28000218,
+        28001431,
+        28001355,
+        28001356,
+        28000238,
+        28000296,
+        28000246,
+        28001451,
+        28001393
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_VehicleBase",
+      "ActionName": "Controller_ChangeView",
+      "Order": 3
+    },
+    {
+      "Id": 230,
+      "Name": "Controller_Trumpet_L3",
+      "PSButtonName": "L3；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000206,
+        28001415,
+        28001317,
+        28001318,
+        28000255,
+        28022254,
+        28022264,
+        28022265
+      ],
+      "XBoxButtonName": "LS",
+      "XBoxButtonIcon": [
+        28000222,
+        28001424,
+        28001341,
+        28001342,
+        28000263,
+        28022249,
+        28022277,
+        28022278
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_VehicleBase",
+      "ActionName": "Controller_Trumpet",
+      "Order": 10
+    },
+    {
+      "Id": 232,
+      "Name": "Controller_DriveView_R",
+      "PSButtonName": "R；黄色/白色/蓝色/黑色/示波器",
+      "PSButtonIcon": [
+        28000252,
+        28001306,
+        28000270,
+        28022257,
+        28000294
+      ],
+      "XBoxButtonName": "R",
+      "XBoxButtonIcon": [
+        28000252,
+        28001306,
+        28000270,
+        28022257,
+        28000294
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_VehicleBase",
+      "ActionName": "Controller_DriveView",
+      "Order": 11
+    },
+    {
+      "Id": 233,
+      "Name": "Controller_Radio_Right",
+      "PSButtonName": "→；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000211,
+        28001407,
+        28001301,
+        28001302,
+        28005514,
+        28022240,
+        28022259,
+        28022260
+      ],
+      "XBoxButtonName": "→",
+      "XBoxButtonIcon": [
+        28000211,
+        28001407,
+        28001301,
+        28001302,
+        28005514,
+        28022240,
+        28022259,
+        28022260
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_VehicleSystem",
+      "ActionName": "Controller_Radio",
+      "Order": 90
+    },
+    {
+      "Id": 234,
+      "Name": "Controller_Support_L1",
+      "PSButtonName": "L1；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按/HUD按住",
+      "PSButtonIcon": [
+        28000204,
+        28001410,
+        28001313,
+        28001314,
+        28000253,
+        28022256,
+        28005294,
+        28022262,
+        28001889
+      ],
+      "XBoxButtonName": "LB",
+      "XBoxButtonIcon": [
+        28000220,
+        28001423,
+        28001339,
+        28001340,
+        28000261,
+        28022250,
+        28022275,
+        28022276,
+        28001888
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_VehiclePolice",
+      "ActionName": "Controller_Support",
+      "Order": 6
+    },
+    {
+      "Id": 235,
+      "Name": "Controller_Lamp_R1",
+      "PSButtonName": "R1；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按/HUD按住",
+      "PSButtonIcon": [
+        28000205,
+        28001412,
+        28001323,
+        28001324,
+        28000258,
+        28022253,
+        28004204,
+        28022270,
+        28001401
+      ],
+      "XBoxButtonName": "RB",
+      "XBoxButtonIcon": [
+        28000221,
+        28001427,
+        28001349,
+        28001350,
+        28000266,
+        28022247,
+        28022284,
+        28022285,
+        28001402
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_VehiclePolice",
+      "ActionName": "Controller_Lamp",
+      "Order": 5
+    },
+    {
+      "Id": 236,
+      "Name": "Controller_Navigation_R3",
+      "PSButtonName": "R3；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按",
+      "PSButtonIcon": [
+        28000207,
+        28001417,
+        28001327,
+        28001328,
+        28000260,
+        28022251,
+        28022273,
+        28022274
+      ],
+      "XBoxButtonName": "RS",
+      "XBoxButtonIcon": [
+        28000223,
+        28001426,
+        28001351,
+        28001352,
+        28000268,
+        28022245,
+        28022273,
+        28022274
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_VehiclePolice",
+      "ActionName": "Controller_Navigation",
+      "Order": 9
+    },
+    {
+      "Id": 237,
+      "Name": "Controller_Convertible_L1",
+      "PSButtonName": "L1；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按/HUD按住",
+      "PSButtonIcon": [
+        28000204,
+        28001410,
+        28001313,
+        28001314,
+        28000253,
+        28022256,
+        28005294,
+        28022262,
+        28001889
+      ],
+      "XBoxButtonName": "LB",
+      "XBoxButtonIcon": [
+        28000220,
+        28001423,
+        28001339,
+        28001340,
+        28000261,
+        28022250,
+        28022275,
+        28022276,
+        28001888
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_VehicleConvertible",
+      "ActionName": "Controller_Convertible",
+      "Order": 6
+    },
+    {
+      "Id": 238,
+      "Name": "Controller_Jet_L1",
+      "PSButtonName": "L1；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按/HUD按住",
+      "PSButtonIcon": [
+        28000204,
+        28001410,
+        28001313,
+        28001314,
+        28000253,
+        28022256,
+        28005294,
+        28022262,
+        28001889
+      ],
+      "XBoxButtonName": "LB",
+      "XBoxButtonIcon": [
+        28000220,
+        28001423,
+        28001339,
+        28001340,
+        28000261,
+        28022250,
+        28022275,
+        28022276,
+        28001888
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_VehicleFire",
+      "ActionName": "Controller_Jet",
+      "Order": 6
+    },
+    {
+      "Id": 239,
+      "Name": "Controller_Hook_L1",
+      "PSButtonName": "L1；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按/HUD按住",
+      "PSButtonIcon": [
+        28000204,
+        28001410,
+        28001313,
+        28001314,
+        28000253,
+        28022256,
+        28005294,
+        28022262,
+        28001889
+      ],
+      "XBoxButtonName": "LB",
+      "XBoxButtonIcon": [
+        28000220,
+        28001423,
+        28001339,
+        28001340,
+        28000261,
+        28022250,
+        28022275,
+        28022276,
+        28001888
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_VehicleTrailer",
+      "ActionName": "Controller_Hook",
+      "Order": 6
+    },
+    {
+      "Id": 240,
+      "Name": "Controller_TimeStop_R1",
+      "PSButtonName": "R1；黄色/黄色预留/白色/白色长按/蓝色/蓝色长按/黑色/黑色长按/HUD按住",
+      "PSButtonIcon": [
+        28000205,
+        28001412,
+        28001323,
+        28001324,
+        28000258,
+        28022253,
+        28004204,
+        28022270,
+        28001401
+      ],
+      "XBoxButtonName": "RB",
+      "XBoxButtonIcon": [
+        28000221,
+        28001427,
+        28001349,
+        28001350,
+        28000266,
+        28022247,
+        28022284,
+        28022285,
+        28001402
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_VehicleTaffy",
+      "ActionName": "Controller_TimeStop",
+      "Order": 5
+    },
+    {
+      "Id": 241,
+      "Name": "Controller_Ult_NE",
+      "PSButtonName": "North_EastButton",
+      "PSButtonIcon": [],
+      "XBoxButtonName": "North_EastButton",
+      "XBoxButtonIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Controller_Base",
+      "ActionName": "Controller_Ult",
+      "Order": 5
+    },
+    {
+      "Id": 500,
+      "Name": "Keyboard",
+      "PSButtonName": "Keyboard",
+      "PSButtonIcon": [
+        28005462
+      ],
+      "XBoxButtonName": "Keyboard",
+      "XBoxButtonIcon": [
+        28005462,
+        28005463
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "GamePad",
+      "ActionName": "Keyboard",
+      "Order": 43
+    }
+  ],
+  "_dumpedCount": 91,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

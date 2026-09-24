@@ -1,0 +1,44 @@
+{
+  "_class": "ShezhiPanelSpecialFileConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 4,
+  "records": [
+    {
+      "Id": 1,
+      "FilePath": "zhCN/MaJiang",
+      "DefaultLanguage": 1,
+      "UseLanguage": [
+        1,
+        3
+      ]
+    },
+    {
+      "Id": 2,
+      "FilePath": "enUS/MaJiang",
+      "DefaultLanguage": 2,
+      "UseLanguage": [
+        2
+      ]
+    },
+    {
+      "Id": 3,
+      "FilePath": "enUS/Arcade",
+      "DefaultLanguage": 2,
+      "UseLanguage": [
+        2,
+        3
+      ]
+    },
+    {
+      "Id": 4,
+      "FilePath": "zhCN/Arcade",
+      "DefaultLanguage": 1,
+      "UseLanguage": [
+        1
+      ]
+    }
+  ],
+  "_dumpedCount": 4,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

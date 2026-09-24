@@ -1,0 +1,63 @@
+{
+  "_class": "ScheduleScheduleOtherConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 1,
+  "records": [
+    {
+      "Id": 6,
+      "ActivityId": 0,
+      "Name": "麻将",
+      "RewardTextId": [
+        38980060,
+        36210000
+      ],
+      "DropType": 4,
+      "MapEntrance": 0,
+      "OpenPanel": 782,
+      "PanelParam": "",
+      "ItemIcon": 25600398,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "麻将",
+      "OpenTime": [
+        {
+          "dayOfWeek": 1,
+          "start": 0,
+          "last": 2400
+        },
+        {
+          "dayOfWeek": 2,
+          "start": 0,
+          "last": 2400
+        },
+        {
+          "dayOfWeek": 3,
+          "start": 0,
+          "last": 2400
+        },
+        {
+          "dayOfWeek": 4,
+          "start": 0,
+          "last": 2400
+        },
+        {
+          "dayOfWeek": 5,
+          "start": 0,
+          "last": 2400
+        },
+        {
+          "dayOfWeek": 6,
+          "start": 0,
+          "last": 2400
+        },
+        {
+          "dayOfWeek": 7,
+          "start": 0,
+          "last": 2400
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 1,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -1,0 +1,45 @@
+{
+  "HomePageCfg": {
+    "Id": 1,
+    "Name": "Home",
+    "Url": "surfer://homepage",
+    "Logo": 0,
+    "SearchKeyWord": [],
+    "PrefabUrl": "Assets/Res/SGUIWorld/Panel/Webpage/S_WebHomePage.prefab",
+    "HoverUrl": "",
+    "Visible": true,
+    "Searchable": false,
+    "LoadCookie": [],
+    "MaxProgress": 0,
+    "__IDX__Name": 104594,
+    "__RAW__Name": "",
+    "__IDX__SearchKeyWord": [],
+    "__RAW__SearchKeyWord": []
+  },
+  "ErrorPageCfg": {
+    "Id": 3,
+    "Name": "404",
+    "Url": "NotFound",
+    "Logo": 0,
+    "SearchKeyWord": [],
+    "PrefabUrl": "Assets/Res/SGUIWorld/Panel/Webpage/S_NotFoundPage.prefab",
+    "HoverUrl": "",
+    "Visible": true,
+    "Searchable": false,
+    "LoadCookie": [],
+    "MaxProgress": 0,
+    "__IDX__Name": 133365,
+    "__RAW__Name": "",
+    "__IDX__SearchKeyWord": [],
+    "__RAW__SearchKeyWord": []
+  },
+  "WebStackSize": 30,
+  "YowoVideoTabNames": [
+    "My Page",
+    "Favorites"
+  ],
+  "WebSiteDefaultProtocol": "cctp",
+  "WebSiteCarouselSpeed": 5,
+  "DefaultMaleAgentId": 40140030,
+  "DefaultFemaleAgentId": 40140031
+}

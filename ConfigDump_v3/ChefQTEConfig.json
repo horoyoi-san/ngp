@@ -1,0 +1,50 @@
+{
+  "_class": "ChefQTEConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 4,
+  "records": [
+    {
+      "Id": 1,
+      "CookType": 1,
+      "QTEType": 1,
+      "QTEWarnTime": 3,
+      "QTETime": 3,
+      "SkillSignal": 11818,
+      "SkillCancelSignal": 0,
+      "QTEMinRecoveryTime": 2
+    },
+    {
+      "Id": 2,
+      "CookType": 1,
+      "QTEType": 2,
+      "QTEWarnTime": 3,
+      "QTETime": 4,
+      "SkillSignal": 11819,
+      "SkillCancelSignal": 11822,
+      "QTEMinRecoveryTime": 2
+    },
+    {
+      "Id": 3,
+      "CookType": 2,
+      "QTEType": 1,
+      "QTEWarnTime": 3,
+      "QTETime": 3,
+      "SkillSignal": 0,
+      "SkillCancelSignal": 0,
+      "QTEMinRecoveryTime": 0
+    },
+    {
+      "Id": 4,
+      "CookType": 2,
+      "QTEType": 2,
+      "QTEWarnTime": 3,
+      "QTETime": 4,
+      "SkillSignal": 0,
+      "SkillCancelSignal": 0,
+      "QTEMinRecoveryTime": 0
+    }
+  ],
+  "_dumpedCount": 4,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

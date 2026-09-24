@@ -1,0 +1,46 @@
+{
+  "_class": "HudDescStateConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 6,
+  "records": [
+    {
+      "Id": 1,
+      "ChangeVis": true,
+      "ChangeActive": false,
+      "ChangeEnterBar": true
+    },
+    {
+      "Id": 2,
+      "ChangeVis": false,
+      "ChangeActive": true,
+      "ChangeEnterBar": true
+    },
+    {
+      "Id": 3,
+      "ChangeVis": true,
+      "ChangeActive": true,
+      "ChangeEnterBar": true
+    },
+    {
+      "Id": 4,
+      "ChangeVis": false,
+      "ChangeActive": false,
+      "ChangeEnterBar": true
+    },
+    {
+      "Id": 5,
+      "ChangeVis": false,
+      "ChangeActive": false,
+      "ChangeEnterBar": false
+    },
+    {
+      "Id": 6,
+      "ChangeVis": true,
+      "ChangeActive": false,
+      "ChangeEnterBar": false
+    }
+  ],
+  "_dumpedCount": 6,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

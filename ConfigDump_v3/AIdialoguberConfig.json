@@ -1,0 +1,6546 @@
+{
+  "_class": "AIdialoguberConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 106,
+  "records": [
+    {
+      "Id": 100,
+      "Condition": "货物不对_正常",
+      "NextDialog": 101,
+      "Type": 14,
+      "Message": "Uh, I ordered {0}’s {1}.",
+      "DialogBranchs": [
+        102,
+        101
+      ],
+      "DialogBranchsText": [
+        "Please give me another chance.",
+        "Delivery’s here, please sign for it."
+      ],
+      "LeftName": "Angry Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58926,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        58923,
+        58924
+      ],
+      "__RAW__DialogBranchsText": [
+        "",
+        ""
+      ],
+      "__IDX__LeftName": 58925,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 101,
+      "Condition": "货物不对_正常",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "Sorry, but this isn’t what I ordered.",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Angry Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58932,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 58931,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 102,
+      "Condition": "货物不对_正常",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "You must have delivered the wrong order.",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Angry Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58934,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 58933,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 200,
+      "Condition": "没有货物_正常",
+      "NextDialog": 201,
+      "Type": 14,
+      "Message": "Why don’t you have anything? Where’s my stuff?",
+      "DialogBranchs": [
+        202,
+        201
+      ],
+      "DialogBranchsText": [
+        "Please give me another chance.",
+        "Delivery’s here, please sign for it."
+      ],
+      "LeftName": "Angry Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58974,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        58971,
+        58972
+      ],
+      "__RAW__DialogBranchsText": [
+        "",
+        ""
+      ],
+      "__IDX__LeftName": 58973,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 201,
+      "Condition": "没有货物_正常",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "Is this supposed to be some kind of joke?",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Angry Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58980,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 58979,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 202,
+      "Condition": "没有货物_正常",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "If you lost my stuff, I expected to be reimbursed!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Angry Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58982,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 58981,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 300,
+      "Condition": "货物不对_暴躁",
+      "NextDialog": 301,
+      "Type": 14,
+      "Message": "What is this? I ordered {0}’s {1}.",
+      "DialogBranchs": [
+        302,
+        301
+      ],
+      "DialogBranchsText": [
+        "Please give me another chance.",
+        "Delivery’s here, please sign for it."
+      ],
+      "LeftName": "Irritable Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59022,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        59019,
+        59020
+      ],
+      "__RAW__DialogBranchsText": [
+        "",
+        ""
+      ],
+      "__IDX__LeftName": 59021,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 301,
+      "Condition": "货物不对_暴躁",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "Take a look at what you gave me.",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Irritable Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59028,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59027,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 302,
+      "Condition": "货物不对_暴躁",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "I think you should consider switching jobs, because this one clearly isn’t for you.",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Irritable Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59030,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59029,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 400,
+      "Condition": "没有货物_暴躁",
+      "NextDialog": 401,
+      "Type": 14,
+      "Message": "How am I supposed to sign for it when you didn’t even bring anything!?",
+      "DialogBranchs": [
+        402,
+        401
+      ],
+      "DialogBranchsText": [
+        "Please give me another chance.",
+        "Delivery’s here, please sign for it."
+      ],
+      "LeftName": "Irritable Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59070,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        59067,
+        59068
+      ],
+      "__RAW__DialogBranchsText": [
+        "",
+        ""
+      ],
+      "__IDX__LeftName": 59069,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 401,
+      "Condition": "没有货物_暴躁",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "Did you lose my order, or did you steal it? You know what? Doesn’t matter. Either way, I’m filing a complaint.",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Irritable Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59076,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59075,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 402,
+      "Condition": "没有货物_暴躁",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "If you don’t give me a refund today, there’s gonna be hell to pay!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Irritable Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59078,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59077,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 500,
+      "Condition": "严重损坏_正常",
+      "NextDialog": 501,
+      "Type": 14,
+      "Message": "How’s it this badly damaged? What were you doing on the way?",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59096,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59095,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 501,
+      "Condition": "严重损坏_正常",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "I’ll let it slide this time… but if it happens again, I’ll file a complaint!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59098,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59097,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 600,
+      "Condition": "严重损坏_暴躁",
+      "NextDialog": 601,
+      "Type": 14,
+      "Message": "It’s all ruined! You’re not going anywhere until you give me a refund.",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Angry Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 82428,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 82427,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 601,
+      "Condition": "严重损坏_暴躁",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "I think you should consider switching jobs, because this one clearly isn’t for you.",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Angry Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59100,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59099,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 700,
+      "Condition": "完好_正常",
+      "NextDialog": 701,
+      "Type": 14,
+      "Message": "Perfect delivery!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Satisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59104,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59103,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 701,
+      "Condition": "完好_正常",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "Thank you so much!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Satisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59106,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59105,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 800,
+      "Condition": "完好_暴躁",
+      "NextDialog": 801,
+      "Type": 14,
+      "Message": "Wow, the order actually arrived in one piece for once. I guess pigs do fly.",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Arrogant Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59108,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59107,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 801,
+      "Condition": "完好_暴躁",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "Looks like luck’s on your side today.",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Arrogant Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59110,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59109,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 900,
+      "Condition": "轻度损坏_正常_吃的",
+      "NextDialog": 901,
+      "Type": 14,
+      "Message": "The bag’s a bit torn!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58568,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59111,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 901,
+      "Condition": "轻度损坏_正常_吃的",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "But at least it got delivered, so I won’t give you a hard time this round.",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59113,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59112,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 1000,
+      "Condition": "轻度损坏_正常_喝的",
+      "NextDialog": 1001,
+      "Type": 14,
+      "Message": "Oh, that was quick, but the packaging’s a little torn.",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58928,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 58927,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 1001,
+      "Condition": "轻度损坏_正常_喝的",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "Try to be a bit more careful next time, okay?",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58930,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 58929,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 1100,
+      "Condition": "轻度损坏_正常_日用百货",
+      "NextDialog": 1101,
+      "Type": 14,
+      "Message": "Whoa, the bag’s a little torn… but hey, you got here fast.",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58936,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 58935,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 1101,
+      "Condition": "轻度损坏_正常_日用百货",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "Try to be a bit more careful next time, okay?",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58938,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 58937,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 1200,
+      "Condition": "轻度损坏_暴躁_吃的",
+      "NextDialog": 1201,
+      "Type": 14,
+      "Message": "I think the packaging is a bit damaged.",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58940,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 58939,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 1201,
+      "Condition": "轻度损坏_暴躁_吃的",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "Fine, I’ll take it, but if this happens again, you better believe I’m gonna file a complaint.",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58942,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 58941,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 1300,
+      "Condition": "轻度损坏_暴躁_喝的",
+      "NextDialog": 1301,
+      "Type": 14,
+      "Message": "I think the packaging is a bit damaged.",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58944,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 58943,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 1301,
+      "Condition": "轻度损坏_暴躁_喝的",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "Fine, I’ll take it, but if this happens again, you better believe I’m gonna file a complaint.",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58946,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 58945,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 1400,
+      "Condition": "轻度损坏_暴躁_日用百货",
+      "NextDialog": 1401,
+      "Type": 14,
+      "Message": "Why’s the packaging torn up…well, as long as the stuff inside is fine, I guess it’s fine.",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58948,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 58947,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 1401,
+      "Condition": "轻度损坏_暴躁_日用百货",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "Fine, I’ll take it, but if this happens again, you better believe I’m gonna file a complaint.",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58950,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 58949,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 1500,
+      "Condition": "中度损坏_正常_吃的",
+      "NextDialog": 1501,
+      "Type": 14,
+      "Message": "Huh, the packaging’s kinda rough.",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58952,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 58951,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 1501,
+      "Condition": "中度损坏_正常_吃的",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "Guess I won’t complain today. Lucky for you, I’m easygoing.",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58954,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 58953,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 1600,
+      "Condition": "中度损坏_正常_喝的",
+      "NextDialog": 1601,
+      "Type": 14,
+      "Message": "Looks like a bit spilled out, huh?",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58956,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 58955,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 1601,
+      "Condition": "中度损坏_正常_喝的",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "I’ll let it slide this time… but if it happens again, I’ll file a complaint!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58958,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 58957,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 1700,
+      "Condition": "中度损坏_正常_日用百货",
+      "NextDialog": 1701,
+      "Type": 14,
+      "Message": "Hey, look! The package is all dented!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58960,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 58959,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 1701,
+      "Condition": "中度损坏_正常_日用百货",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "Good thing nothing inside broke. I’ll let it go this time.",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58962,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 58961,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 1800,
+      "Condition": "中度损坏_暴躁_吃的",
+      "NextDialog": 1801,
+      "Type": 14,
+      "Message": "I think the packaging is a bit damaged.",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58964,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 58963,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 1801,
+      "Condition": "中度损坏_暴躁_吃的",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "Fine, I’ll take it, but if this happens again, you better believe I’m gonna file a complaint",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58966,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 58965,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 1900,
+      "Condition": "中度损坏_暴躁_喝的",
+      "NextDialog": 1901,
+      "Type": 14,
+      "Message": "I think the packaging is a bit damaged.",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58968,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 58967,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 1901,
+      "Condition": "中度损坏_暴躁_喝的",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "Fine, I’ll take it, but if this happens again, you better believe I’m gonna file a complaint",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58970,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 58969,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 2000,
+      "Condition": "中度损坏_暴躁_日用百货",
+      "NextDialog": 2001,
+      "Type": 14,
+      "Message": "Why’s the packaging torn up…well, as long as the stuff inside is fine, I guess it’s fine",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58976,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 58975,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 2001,
+      "Condition": "中度损坏_暴躁_日用百货",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "Fine, I’ll take it, but if this happens again, you better believe I’m gonna file a complaint",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58978,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 58977,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 2100,
+      "Condition": "轻度损坏_正常_吃的",
+      "NextDialog": 2101,
+      "Type": 14,
+      "Message": "What’s taking so long?",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58984,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 58983,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 2101,
+      "Condition": "轻度损坏_正常_吃的",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "I’ll let it go this time… but if you’re late again, I’ll complain!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58986,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 58985,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 2200,
+      "Condition": "轻度损坏_正常_喝的",
+      "NextDialog": 2201,
+      "Type": 14,
+      "Message": "What’s taking so long?",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58988,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 58987,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 2201,
+      "Condition": "轻度损坏_正常_喝的",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "Good thing the drink didn’t spill, or I’d complain!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58990,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 58989,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 2300,
+      "Condition": "轻度损坏_正常_日用百货",
+      "NextDialog": 2301,
+      "Type": 14,
+      "Message": "What’s taking so long?",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58992,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 58991,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 2301,
+      "Condition": "轻度损坏_正常_日用百货",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "The stuff’s fine, so no complaint from me this time.",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58994,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 58993,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 2400,
+      "Condition": "轻度损坏_暴躁_吃的",
+      "NextDialog": 2401,
+      "Type": 14,
+      "Message": "What took you so long? I’ve been waiting forever!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58996,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 58995,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 2401,
+      "Condition": "轻度损坏_暴躁_吃的",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "I’m filing a complaint!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 58998,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 58997,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 2500,
+      "Condition": "轻度损坏_暴躁_喝的",
+      "NextDialog": 2501,
+      "Type": 14,
+      "Message": "What took you so long? I’ve been waiting forever!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59000,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 58999,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 2501,
+      "Condition": "轻度损坏_暴躁_喝的",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "I’m filing a complaint!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59002,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59001,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 2600,
+      "Condition": "轻度损坏_暴躁_日用百货",
+      "NextDialog": 2601,
+      "Type": 14,
+      "Message": "What took you so long? I’ve been waiting forever!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59004,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59003,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 2601,
+      "Condition": "轻度损坏_暴躁_日用百货",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "I’m filing a complaint!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59006,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59005,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 2700,
+      "Condition": "中度损坏_正常_吃的",
+      "NextDialog": 2701,
+      "Type": 14,
+      "Message": "What’s taking so long? The package’s torn, too!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59008,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59007,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 2701,
+      "Condition": "中度损坏_正常_吃的",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "Guess I won’t complain today. Lucky for you, I’m easygoing.",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59010,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59009,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 2800,
+      "Condition": "中度损坏_正常_喝的",
+      "NextDialog": 2801,
+      "Type": 14,
+      "Message": "You’re a little slow, and look! Some spilled out!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59012,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59011,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 2801,
+      "Condition": "中度损坏_正常_喝的",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "Not complaining this time… but don’t let it happen again!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59014,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59013,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 2900,
+      "Condition": "中度损坏_正常_日用百货",
+      "NextDialog": 2901,
+      "Type": 14,
+      "Message": "What’s taking so long? The package’s squashed, too!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59016,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59015,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 2901,
+      "Condition": "中度损坏_正常_日用百货",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "Nothing’s broken, so count yourself lucky!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59018,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59017,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 3000,
+      "Condition": "中度损坏_暴躁_吃的",
+      "NextDialog": 3001,
+      "Type": 14,
+      "Message": "Not only are you super late, but the food’s a mess!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Impatient Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59024,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59023,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 3001,
+      "Condition": "中度损坏_暴躁_吃的",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "Just wait ’til I get a hold of your boss. You might want to start looking for a new job!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Impatient Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59026,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59025,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 3100,
+      "Condition": "中度损坏_暴躁_喝的",
+      "NextDialog": 3101,
+      "Type": 14,
+      "Message": "Not only are you super late, but the food’s a mess!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Impatient Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59032,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59031,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 3101,
+      "Condition": "中度损坏_暴躁_喝的",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "Just wait ’til I get a hold of your boss. You might want to start looking for a new job!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Impatient Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59034,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59033,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 3200,
+      "Condition": "中度损坏_暴躁_日用百货",
+      "NextDialog": 3201,
+      "Type": 14,
+      "Message": "Not only are you late, but my stuff is a completely wreck!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Impatient Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59036,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59035,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 3201,
+      "Condition": "中度损坏_暴躁_日用百货",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "Just wait ’til I get a hold of your boss. You might want to start looking for a new job!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Impatient Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59038,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59037,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 3300,
+      "Condition": "轻度损坏_正常_吃的",
+      "NextDialog": 3301,
+      "Type": 14,
+      "Message": "Why’d it take so long?",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59040,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59039,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 3301,
+      "Condition": "轻度损坏_正常_吃的",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "No complaint this time… but not next time!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59042,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59041,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 3400,
+      "Condition": "轻度损坏_正常_喝的",
+      "NextDialog": 3401,
+      "Type": 14,
+      "Message": "You took forever! What were you doing?",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59044,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59043,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 3401,
+      "Condition": "轻度损坏_正常_喝的",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "Do that again and I’ll complain!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59046,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59045,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 3500,
+      "Condition": "轻度损坏_正常_日用百货",
+      "NextDialog": 3501,
+      "Type": 14,
+      "Message": "That was way too slow! Your company needs better training!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59048,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59047,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 3501,
+      "Condition": "轻度损坏_正常_日用百货",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "Mess up again and you’ll hear from me!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59050,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59049,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 3600,
+      "Condition": "轻度损坏_暴躁_吃的",
+      "NextDialog": 3601,
+      "Type": 14,
+      "Message": "What the heck? How am I supposed to eat this? Look at the state of it!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Impatient Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59052,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59051,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 3601,
+      "Condition": "轻度损坏_暴躁_吃的",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "Send me a new one, or else I’m filing a complaint!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Impatient Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59054,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59053,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 3700,
+      "Condition": "轻度损坏_暴躁_喝的",
+      "NextDialog": 3701,
+      "Type": 14,
+      "Message": "Practically half of my drink spilled! How did you think this was okay to deliver!?",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Impatient Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59056,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59055,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 3701,
+      "Condition": "轻度损坏_暴躁_喝的",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "Send me a new one, or else I’m filing a complaint!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Impatient Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59058,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59057,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 3800,
+      "Condition": "轻度损坏_暴躁_日用百货",
+      "NextDialog": 3801,
+      "Type": 14,
+      "Message": "The delivery is completely smushed! And don’t get me started on how late you are!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Impatient Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59060,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59059,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 3801,
+      "Condition": "轻度损坏_暴躁_日用百货",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "I want a refund! Right now!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Impatient Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59062,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59061,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 3900,
+      "Condition": "中度损坏_正常_吃的",
+      "NextDialog": 3901,
+      "Type": 14,
+      "Message": "That took ages! And the bag’s wrecked!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59064,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59063,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 3901,
+      "Condition": "中度损坏_正常_吃的",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "Keep this up and I’ll complain until they fire you!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59066,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59065,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 4000,
+      "Condition": "中度损坏_正常_喝的",
+      "NextDialog": 4001,
+      "Type": 14,
+      "Message": "You took way too long! And the drink’s spilled!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59072,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59071,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 4001,
+      "Condition": "中度损坏_正常_喝的",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "I’ll let it slide this time. Lucky for you, I’m forgiving.",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59074,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59073,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 4100,
+      "Condition": "中度损坏_正常_日用百货",
+      "NextDialog": 4101,
+      "Type": 14,
+      "Message": "You are slow! The package’s squashed, too!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59080,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59079,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 4101,
+      "Condition": "中度损坏_正常_日用百货",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "Honestly, you’re not cut out for this job!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59082,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59081,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 4200,
+      "Condition": "中度损坏_暴躁_吃的",
+      "NextDialog": 4201,
+      "Type": 14,
+      "Message": "How am I supposed to eat this? Just look at it! You need to quit this job before you do any more damage!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Irritable Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59084,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59083,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 4201,
+      "Condition": "中度损坏_暴躁_吃的",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "I’m done wasting my time with you. I’ll be speaking to your superiors.",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Irritable Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59086,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59085,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 4300,
+      "Condition": "中度损坏_暴躁_喝的",
+      "NextDialog": 4301,
+      "Type": 14,
+      "Message": "Nearly all of it spilled! What do you expect me to do, drink the air?",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Irritable Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59088,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59087,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 4301,
+      "Condition": "中度损坏_暴躁_喝的",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "Stop wasting time and just resend my order. And make it fast!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Irritable Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59090,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59089,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 4400,
+      "Condition": "中度损坏_暴躁_日用百货",
+      "NextDialog": 4401,
+      "Type": 14,
+      "Message": "You’ve ruined my entire day! Get ready for a complaint!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Irritable Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59092,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59091,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 4401,
+      "Condition": "中度损坏_暴躁_日用百货",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "I’m done with your excuses. Just give me a refund, right now!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [
+        ""
+      ],
+      "LeftName": "Irritable Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 59094,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        4294967294
+      ],
+      "__RAW__DialogBranchsText": [
+        ""
+      ],
+      "__IDX__LeftName": 59093,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 4500,
+      "Condition": "一个货物_正常",
+      "NextDialog": 4501,
+      "Type": 14,
+      "Message": "Thanks, but I thought I bought two things…",
+      "DialogBranchs": [
+        4501,
+        4502
+      ],
+      "DialogBranchsText": [
+        "It’ll be there soon.",
+        "Delivery’s here, please sign for it."
+      ],
+      "LeftName": "Resigned Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 126983,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        126980,
+        126981
+      ],
+      "__RAW__DialogBranchsText": [
+        "",
+        ""
+      ],
+      "__IDX__LeftName": 126982,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 4501,
+      "Condition": "一个货物_正常",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "Alright then.",
+      "DialogBranchs": [],
+      "DialogBranchsText": [],
+      "LeftName": "Resigned Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 126985,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [],
+      "__RAW__DialogBranchsText": [],
+      "__IDX__LeftName": 126984,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 4502,
+      "Condition": "一个货物_正常",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "Uh… fine, I guess.",
+      "DialogBranchs": [],
+      "DialogBranchsText": [],
+      "LeftName": "Resigned Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 126987,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [],
+      "__RAW__DialogBranchsText": [],
+      "__IDX__LeftName": 126986,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 4600,
+      "Condition": "一个货物_暴躁",
+      "NextDialog": 4601,
+      "Type": 14,
+      "Message": "This order should have two items. Don’t try to fool me!",
+      "DialogBranchs": [
+        4601,
+        4602
+      ],
+      "DialogBranchsText": [
+        "It’ll be there soon.",
+        "Delivery’s here, please sign for it."
+      ],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 126991,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [
+        126988,
+        126989
+      ],
+      "__RAW__DialogBranchsText": [
+        "",
+        ""
+      ],
+      "__IDX__LeftName": 126990,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 4601,
+      "Condition": "一个货物_暴躁",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "You’d better be right.",
+      "DialogBranchs": [],
+      "DialogBranchsText": [],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 126993,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [],
+      "__RAW__DialogBranchsText": [],
+      "__IDX__LeftName": 126992,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 4602,
+      "Condition": "一个货物_暴躁",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "Missing stuff and you still want me to sign? I’ll complain!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 126995,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [],
+      "__RAW__DialogBranchsText": [],
+      "__IDX__LeftName": 126994,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 4700,
+      "Condition": "轻度损坏_正常",
+      "NextDialog": 4701,
+      "Type": 14,
+      "Message": "Thanks for the effort, though the bag’s a bit damaged…",
+      "DialogBranchs": [],
+      "DialogBranchsText": [],
+      "LeftName": "Impatient Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 126997,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [],
+      "__RAW__DialogBranchsText": [],
+      "__IDX__LeftName": 126996,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 4701,
+      "Condition": "轻度损坏_正常",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "Well, I can see why.",
+      "DialogBranchs": [],
+      "DialogBranchsText": [],
+      "LeftName": "Impatient Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 126999,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [],
+      "__RAW__DialogBranchsText": [],
+      "__IDX__LeftName": 126998,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 4800,
+      "Condition": "轻度损坏_暴躁",
+      "NextDialog": 4801,
+      "Type": 14,
+      "Message": "Why’d it take so long?",
+      "DialogBranchs": [],
+      "DialogBranchsText": [],
+      "LeftName": "Resigned Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 127001,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [],
+      "__RAW__DialogBranchsText": [],
+      "__IDX__LeftName": 127000,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 4801,
+      "Condition": "轻度损坏_暴躁",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "There are dents too! You’re really unprofessional!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [],
+      "LeftName": "Resigned Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 127003,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [],
+      "__RAW__DialogBranchsText": [],
+      "__IDX__LeftName": 127002,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 4900,
+      "Condition": "中度损坏_正常",
+      "NextDialog": 4901,
+      "Type": 14,
+      "Message": "How did my stuff end up like this?",
+      "DialogBranchs": [],
+      "DialogBranchsText": [],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 127005,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [],
+      "__RAW__DialogBranchsText": [],
+      "__IDX__LeftName": 127004,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 4901,
+      "Condition": "中度损坏_正常",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "Forget it… just be more careful next time.",
+      "DialogBranchs": [],
+      "DialogBranchsText": [],
+      "LeftName": "Dissatisfied Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 127007,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [],
+      "__RAW__DialogBranchsText": [],
+      "__IDX__LeftName": 127006,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 5000,
+      "Condition": "中度损坏_暴躁",
+      "NextDialog": 5001,
+      "Type": 14,
+      "Message": "Aaaahhh! My stuff!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [],
+      "LeftName": "Irritable Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 127009,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [],
+      "__RAW__DialogBranchsText": [],
+      "__IDX__LeftName": 127008,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "Id": 5001,
+      "Condition": "中度损坏_暴躁",
+      "NextDialog": 0,
+      "Type": 14,
+      "Message": "You trashed it this badly! Enjoy your one‑star!",
+      "DialogBranchs": [],
+      "DialogBranchsText": [],
+      "LeftName": "Irritable Recipient",
+      "UseDialogCamera": false,
+      "ActiveCamera": "camera_005",
+      "DialogNpcIk": [],
+      "Tag": [],
+      "__IDX__Message": 127011,
+      "__RAW__Message": "",
+      "__IDX__DialogBranchsText": [],
+      "__RAW__DialogBranchsText": [],
+      "__IDX__LeftName": 127010,
+      "__RAW__LeftName": "",
+      "DialogNpcActID": [
+        {
+          "actid": 2001,
+          "actgroup": 90,
+          "endActionId": 0
+        },
+        {
+          "actid": 0,
+          "actgroup": 0,
+          "endActionId": 0
+        }
+      ],
+      "DialogNpcExpID": [
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 56990093
+        },
+        {
+          "expid": 0,
+          "endIdle": false,
+          "blink": true,
+          "mouthid": 0
+        }
+      ],
+      "DialogNpcIKInfo": [
+        {
+          "target": 1,
+          "delay": 0
+        },
+        {
+          "target": 0,
+          "delay": 0
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 106,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

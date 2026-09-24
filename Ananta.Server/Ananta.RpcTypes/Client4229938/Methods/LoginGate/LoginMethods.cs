@@ -12,10 +12,10 @@ internal sealed class PatchCheckResult
 [UxContract]
 internal sealed class CheckAccountResult
 {
-    // Field set and order must match the 4229938 client CheckAccountResult
-    // (UX.Game, dump TypeDefIndex 32261): the reflection serializer emits
-    // fields by declaration order and the client rejects the response unless
-    // its `code` field lands on the wire position it expects (it must read 200).
+    
+    
+    
+    
     public string unisdk_login_json = string.Empty;
     public string Token = string.Empty;
     public string UserName = string.Empty;

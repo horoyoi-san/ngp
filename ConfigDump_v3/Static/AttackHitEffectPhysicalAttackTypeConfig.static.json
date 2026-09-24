@@ -1,0 +1,79 @@
+{
+  "CutCfg": {
+    "Id": 1,
+    "Name": "Cut",
+    "AudioSwitchGroupName": "SW_HitPart",
+    "AudioSwitchValue": "Cut",
+    "PhysicalAttackTypeLink": 0
+  },
+  "StabCfg": {
+    "Id": 2,
+    "Name": "Stab",
+    "AudioSwitchGroupName": "SW_HitPart",
+    "AudioSwitchValue": "Stab",
+    "PhysicalAttackTypeLink": 0
+  },
+  "BluntCfg": {
+    "Id": 3,
+    "Name": "Blunt",
+    "AudioSwitchGroupName": "SW_HitPart",
+    "AudioSwitchValue": "Blunt",
+    "PhysicalAttackTypeLink": 0
+  },
+  "SmallBulletShotCfg": {
+    "Id": 4,
+    "Name": "SmallBulletShot",
+    "AudioSwitchGroupName": "SW_HitPart",
+    "AudioSwitchValue": "Bullet",
+    "PhysicalAttackTypeLink": 0
+  },
+  "LargeBulletShotCfg": {
+    "Id": 5,
+    "Name": "LargeBulletShot",
+    "AudioSwitchGroupName": "SW_HitPart",
+    "AudioSwitchValue": "Bullet",
+    "PhysicalAttackTypeLink": 4
+  },
+  "ExplosionCfg": {
+    "Id": 6,
+    "Name": "Explosion",
+    "AudioSwitchGroupName": "SW_HitPart",
+    "AudioSwitchValue": "Explosion",
+    "PhysicalAttackTypeLink": 0
+  },
+  "SendFlyerCfg": {
+    "Id": 7,
+    "Name": "SendFlyer",
+    "AudioSwitchGroupName": "SW_HitPart",
+    "AudioSwitchValue": "",
+    "PhysicalAttackTypeLink": 0
+  },
+  "ElbowCfg": {
+    "Id": 8,
+    "Name": "Elbow",
+    "AudioSwitchGroupName": "SW_HitPart",
+    "AudioSwitchValue": "Elbow",
+    "PhysicalAttackTypeLink": 3
+  },
+  "FistCfg": {
+    "Id": 9,
+    "Name": "Fist",
+    "AudioSwitchGroupName": "SW_HitPart",
+    "AudioSwitchValue": "Fist",
+    "PhysicalAttackTypeLink": 3
+  },
+  "KickCfg": {
+    "Id": 10,
+    "Name": "Kick",
+    "AudioSwitchGroupName": "SW_HitPart",
+    "AudioSwitchValue": "Kick",
+    "PhysicalAttackTypeLink": 3
+  },
+  "LiWangAttackCfg": {
+    "Id": 11,
+    "Name": "LiWangAttack",
+    "AudioSwitchGroupName": "SW_HitPart",
+    "AudioSwitchValue": "Blunt",
+    "PhysicalAttackTypeLink": 0
+  }
+}

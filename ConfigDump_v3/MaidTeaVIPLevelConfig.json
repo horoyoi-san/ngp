@@ -1,0 +1,191 @@
+{
+  "_class": "MaidTeaVIPLevelConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 6,
+  "records": [
+    {
+      "Id": 29121000,
+      "Level": 1,
+      "Name": "会员LV1",
+      "VIPTeaCupModel": 86952109,
+      "VIPTeaPetModel": 86952205,
+      "VIPTeaPetImage": 25020566,
+      "GameplayTimes": 0,
+      "VIPPlayerName": "欢迎光临，尊敬的客人。",
+      "UpgradeText": "",
+      "__IDX__VIPPlayerName": 4294967293,
+      "__RAW__VIPPlayerName": "欢迎光临，尊敬的客人。",
+      "__IDX__UpgradeText": 0,
+      "__RAW__UpgradeText": "",
+      "UpgradeCongrats": []
+    },
+    {
+      "Id": 29121001,
+      "Level": 2,
+      "Name": "会员LV2",
+      "VIPTeaCupModel": 86952109,
+      "VIPTeaPetModel": 86952205,
+      "VIPTeaPetImage": 25020567,
+      "GameplayTimes": 1,
+      "VIPPlayerName": "欢迎光临，尊敬的主人。",
+      "UpgradeText": "1.新的茶宠;2.银色茶具;3.店长特调解锁;4.新的称呼",
+      "__IDX__VIPPlayerName": 4294967293,
+      "__RAW__VIPPlayerName": "欢迎光临，尊敬的主人。",
+      "__IDX__UpgradeText": 4294967293,
+      "__RAW__UpgradeText": "1.新的茶宠;2.银色茶具;3.店长特调解锁;4.新的称呼",
+      "UpgradeCongrats": [
+        {
+          "MaidId": 29120000,
+          "DialogId": 50008089
+        },
+        {
+          "MaidId": 29120001,
+          "DialogId": 50008089
+        },
+        {
+          "MaidId": 29120003,
+          "DialogId": 50008089
+        },
+        {
+          "MaidId": 29120002,
+          "DialogId": 50008089
+        }
+      ]
+    },
+    {
+      "Id": 29121002,
+      "Level": 3,
+      "Name": "会员LV3",
+      "VIPTeaCupModel": 86952109,
+      "VIPTeaPetModel": 86952206,
+      "VIPTeaPetImage": 25020568,
+      "GameplayTimes": 2,
+      "VIPPlayerName": "欢迎回家，尊敬的主人。",
+      "UpgradeText": "1.新的茶宠;2.金色茶具;3.新的女仆双儿",
+      "__IDX__VIPPlayerName": 4294967293,
+      "__RAW__VIPPlayerName": "欢迎回家，尊敬的主人。",
+      "__IDX__UpgradeText": 4294967293,
+      "__RAW__UpgradeText": "1.新的茶宠;2.金色茶具;3.新的女仆双儿",
+      "UpgradeCongrats": [
+        {
+          "MaidId": 29120000,
+          "DialogId": 50032022
+        },
+        {
+          "MaidId": 29120001,
+          "DialogId": 50032022
+        },
+        {
+          "MaidId": 29120003,
+          "DialogId": 50032022
+        },
+        {
+          "MaidId": 29120002,
+          "DialogId": 50032022
+        }
+      ]
+    },
+    {
+      "Id": 29121003,
+      "Level": 4,
+      "Name": "会员LV4",
+      "VIPTeaCupModel": 86952109,
+      "VIPTeaPetModel": 86952207,
+      "VIPTeaPetImage": 25020569,
+      "GameplayTimes": 3,
+      "VIPPlayerName": "亲爱的主人，欢迎您回家！",
+      "UpgradeText": "1.新的茶宠;2.特殊茶具;3.新的称呼",
+      "__IDX__VIPPlayerName": 4294967293,
+      "__RAW__VIPPlayerName": "亲爱的主人，欢迎您回家！",
+      "__IDX__UpgradeText": 4294967293,
+      "__RAW__UpgradeText": "1.新的茶宠;2.特殊茶具;3.新的称呼",
+      "UpgradeCongrats": [
+        {
+          "MaidId": 29120000,
+          "DialogId": 50008095
+        },
+        {
+          "MaidId": 29120001,
+          "DialogId": 50008095
+        },
+        {
+          "MaidId": 29120003,
+          "DialogId": 50008095
+        },
+        {
+          "MaidId": 29120002,
+          "DialogId": 50008095
+        }
+      ]
+    },
+    {
+      "Id": 29121004,
+      "Level": 5,
+      "Name": "会员LV5",
+      "VIPTeaCupModel": 86952109,
+      "VIPTeaPetModel": 86952208,
+      "VIPTeaPetImage": 25020569,
+      "GameplayTimes": 4,
+      "VIPPlayerName": "主人大人，这次您想喝点什么？",
+      "UpgradeText": "1.新的茶宠;2.特殊茶具;3.新的第三个女仆",
+      "__IDX__VIPPlayerName": 4294967293,
+      "__RAW__VIPPlayerName": "主人大人，这次您想喝点什么？",
+      "__IDX__UpgradeText": 4294967293,
+      "__RAW__UpgradeText": "1.新的茶宠;2.特殊茶具;3.新的第三个女仆",
+      "UpgradeCongrats": [
+        {
+          "MaidId": 29120000,
+          "DialogId": 50032022
+        },
+        {
+          "MaidId": 29120001,
+          "DialogId": 50032022
+        },
+        {
+          "MaidId": 29120003,
+          "DialogId": 50032022
+        },
+        {
+          "MaidId": 29120002,
+          "DialogId": 50032022
+        }
+      ]
+    },
+    {
+      "Id": 29121005,
+      "Level": 6,
+      "Name": "会员LV6",
+      "VIPTeaCupModel": 86952208,
+      "VIPTeaPetModel": 86952208,
+      "VIPTeaPetImage": 25020569,
+      "GameplayTimes": 8,
+      "VIPPlayerName": "我们一直在等着您呢，亲爱的主人大人。",
+      "UpgradeText": "1.新的茶宠;2.特殊茶具;3.新的称呼",
+      "__IDX__VIPPlayerName": 4294967293,
+      "__RAW__VIPPlayerName": "我们一直在等着您呢，亲爱的主人大人。",
+      "__IDX__UpgradeText": 4294967293,
+      "__RAW__UpgradeText": "1.新的茶宠;2.特殊茶具;3.新的称呼",
+      "UpgradeCongrats": [
+        {
+          "MaidId": 29120000,
+          "DialogId": 50008095
+        },
+        {
+          "MaidId": 29120001,
+          "DialogId": 50008095
+        },
+        {
+          "MaidId": 29120003,
+          "DialogId": 50008095
+        },
+        {
+          "MaidId": 29120002,
+          "DialogId": 50008095
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 6,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

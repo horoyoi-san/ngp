@@ -7,10 +7,8 @@ using GameMethods = Ananta.Server.RpcTypes.Client4229938.Methods.Game;
 
 namespace Ananta.Server.Handlers.Game;
 
-/// <summary>Runtime player/combat hydration shared by world entry and character switching.</summary>
 internal sealed partial class GameRouter
 {
-
 
     async Task PublishSkillBindings(
         RpcContext ctx,
@@ -46,10 +44,10 @@ internal sealed partial class GameRouter
 
     private static uint PublishedWeaponFightStyleId(WorldEntryState state, CombatWeaponDefinition weapon)
     {
-        // The armory can store category-wide and per-instance choices separately, but the live
-        // combat runtime also caches FightStyleId by weapon instance. Publishing the EFFECTIVE
-        // style keeps FightStyleManager.GetUnitFightStyleByTemplateAndWeapon, ActionType and the
-        // native SkillJumpGraph on the same martial art. Category changes refresh this cache.
+        
+        
+        
+        
         return ResolveWeaponStyle(state, weapon).Id;
     }
 
@@ -67,9 +65,9 @@ internal sealed partial class GameRouter
         state.ActiveFightStyleId = style.Id;
         state.LastWeaponBySpirit[templateId] = weapon.InstanceId;
 
-        // Actor presentation is part of the ownership contract, not the legacy combat server.
-        // The client already received the small referenced armory in SyncPlayerInfo; these packets
-        // only bind the current model to its authored fashion/wheel/current weapon.
+        
+        
+        
         await ctx.NotifyAsync(MethodId.SyncSetSpiritFashions,
             RuntimePayloadFactory.CharacterFashions(templateId));
         await PublishWeaponSnapshot(ctx, unitId, templateId, weapon.InstanceId);
@@ -87,16 +85,16 @@ internal sealed partial class GameRouter
         uint templateId,
         ulong currentWeaponInstanceId)
     {
-        // Armory and character wheels are separate client stores. Publish the shared account armory
-        // once, refresh this character's mutable 16-slot view, then select the current instance.
-        // Sending only SyncSpiritSwitchWeaponAction leaves CurrWeaponSlots nil and produces
-        // "Not Find Current Weapon" in WeaponManager.lua.
+        
+        
+        
+        
         var state = GetWorldState(ctx);
         if (!state.AccountArmoryPublished)
         {
-            // Minimal V4.1 puts only the weapon instances referenced by owned spirit wheels into
-            // SyncPlayerInfo.InfoSpirit.InfoArmory.Weapons. PlayerInfoSpiritData feeds that compact subset
-            // directly to gWeaponManager, so no incremental account-armory replay is needed here.
+            
+            
+            
             state.AccountArmoryPublished = true;
             var actorArmoryCount = ClientConfigRepository.Characters()
                 .SelectMany(character => CombatCodec.Loadout(character.TemplateId).Slots)
@@ -127,9 +125,9 @@ internal sealed partial class GameRouter
             }
         }
         await ctx.NotifyAsync(MethodId.SyncSpiritWeaponDetail, snapshot);
-        // FightStyleId is also cached in the account armory object. Reconcile each equipped weapon
-        // when a character becomes current so a style that was valid for the previous model cannot
-        // leak into this model's attack ActionSet.
+        
+        
+        
         foreach (var detail in snapshot.WeaponSlots.Where(x => x is not null).Select(x => x!))
         {
             await ctx.NotifyAsync(MethodId.SyncWeaponFightStyleChange,
@@ -139,7 +137,27 @@ internal sealed partial class GameRouter
                     fightStyleId = detail.FightStyleId
                 });
         }
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        foreach (var stateId in TransientHudStateIds)
+            await ctx.NotifyAsync(MethodId.SyncRemoveUnitState,
+                WorldCodec.RemoveUnitState(unitId, stateId));
     }
+
+    
+    
+    
+    
+    
+    private static readonly uint[] TransientHudStateIds = [3, 4, 5, 6, 9, 18, 22, 23, 27];
 
     async Task PublishSafeRuntimeBuffSnapshot4229938(RpcContext ctx, ulong unitId, uint templateId, string phase)
     {
@@ -150,10 +168,10 @@ internal sealed partial class GameRouter
             WorldCodec.UnitBuffList(unitId, buffs, firstInstanceId));
         state.NextBuffInstanceId += (uint)buffs.Count;
 
-        // Do NOT bulk-activate the extracted buff catalogue. It contains 4k+ records for
-        // bosses, NPCs, timelines, skin replacement, ControlList and ActionGroup switches. The client
-        // applies those as executable behavior, not as an "unlocked buff catalogue". In the failing
-        // capture this forced actionGroup=33 on main_A104001 and later crashed ReplaceSkinAction.End.
+        
+        
+        
+        
         ctx.Session.Log.Info($"[BUFFS-MIN] {phase} unit={unitId} template={templateId} count={buffs.Count} firstInstance={firstInstanceId} bulk=false safeWebOnly=true legacyCatalogLoaded=false");
     }
 
@@ -165,13 +183,19 @@ internal sealed partial class GameRouter
 
         state.InitialCapabilityBuffsPublished = true;
 
-        // Keep the opening/loading barrier on the proven small traversal capability set.
-        // Never activate the entire BuffConfig as one player snapshot: it contains NPC/timeline actions.
+        
+        
+        
+        
+        
+        
+        
+        var buffs = WebTraversal.CapabilityBuffIds(Profile.InitialSpiritTemplateId);
         var firstInstanceId = state.NextBuffInstanceId;
         await ctx.NotifyAsync(MethodId.SyncUnitBuffList,
-            WorldCodec.UnitBuffList(Profile.InitialUnitId, WebTraversal.InitialCapabilityBuffIds, firstInstanceId));
-        state.NextBuffInstanceId += (uint)WebTraversal.InitialCapabilityBuffIds.Count;
-        ctx.Session.Log.Info($"[CAPABILITY] initial unit={Profile.InitialUnitId} count={WebTraversal.InitialCapabilityBuffIds.Count} loadingSafe=true allBuffsDeferred=true");
+            WorldCodec.UnitBuffList(Profile.InitialUnitId, buffs, firstInstanceId));
+        state.NextBuffInstanceId += (uint)buffs.Count;
+        ctx.Session.Log.Info($"[CAPABILITY] initial unit={Profile.InitialUnitId} template={Profile.InitialSpiritTemplateId} count={buffs.Count} loadingSafe=true allBuffsDeferred=true");
     }
 
 }

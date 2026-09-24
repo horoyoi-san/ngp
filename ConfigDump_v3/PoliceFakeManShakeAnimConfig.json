@@ -1,0 +1,62 @@
+{
+  "_class": "PoliceFakeManShakeAnimConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 4,
+  "records": [
+    {
+      "Id": 1,
+      "ShakeCurveSetting": 1,
+      "Weight": 10,
+      "ShakeInterval": {
+        "min": 0.100000001,
+        "max": 0.200000003
+      },
+      "NextShakeInterval": {
+        "min": 10,
+        "max": 15
+      }
+    },
+    {
+      "Id": 2,
+      "ShakeCurveSetting": 2,
+      "Weight": 10,
+      "ShakeInterval": {
+        "min": 0.100000001,
+        "max": 0.200000003
+      },
+      "NextShakeInterval": {
+        "min": 10,
+        "max": 15
+      }
+    },
+    {
+      "Id": 3,
+      "ShakeCurveSetting": 3,
+      "Weight": 10,
+      "ShakeInterval": {
+        "min": 0.100000001,
+        "max": 0.200000003
+      },
+      "NextShakeInterval": {
+        "min": 10,
+        "max": 15
+      }
+    },
+    {
+      "Id": 4,
+      "ShakeCurveSetting": 4,
+      "Weight": 10,
+      "ShakeInterval": {
+        "min": 0.100000001,
+        "max": 0.200000003
+      },
+      "NextShakeInterval": {
+        "min": 10,
+        "max": 15
+      }
+    }
+  ],
+  "_dumpedCount": 4,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

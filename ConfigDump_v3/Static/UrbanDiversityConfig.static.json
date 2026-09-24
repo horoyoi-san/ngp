@@ -1,0 +1,847 @@
+{
+  "DefaultCfg": {
+    "Id": 88888000,
+    "Name": "新启闲杂琐碎默认专用",
+    "Recommended": "",
+    "BlockId": 0,
+    "DiversityType": 0,
+    "PopulationDensity": 0,
+    "DegreeOfBusyness": 0,
+    "LandPlotType": "住宅区",
+    "LandPlotSubtype": "",
+    "LandPlotClass": "",
+    "BillboardFilter": [],
+    "BuildingType": [
+      "一户建",
+      "低级矮层小楼",
+      "低级居民楼",
+      "低级商业楼",
+      "中级居民楼",
+      "中级商业楼",
+      "中级写字楼",
+      "高级居民楼",
+      "高级商业楼",
+      "高级写字楼",
+      "别墅",
+      "顶级公寓"
+    ],
+    "BywayTemp": "template1",
+    "NpcLookAroundNum": [
+      2,
+      4
+    ],
+    "NpcLookAroundDuration": [
+      3,
+      6
+    ],
+    "FactionTag": [],
+    "InfluenceType": [],
+    "Block": 0,
+    "AreaId": 0,
+    "PedestrianFlowCurve": [
+      {
+        "time": 0.0204160009,
+        "value": -0.0731879994,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 4.53006506,
+        "value": 0.069058001,
+        "inTangent": 0.269667,
+        "outTangent": 0.269667,
+        "inWeight": 0.333332986,
+        "outWeight": 1
+      },
+      {
+        "time": 6.00181818,
+        "value": 0.342420995,
+        "inTangent": 0.608348012,
+        "outTangent": 0.608348012,
+        "inWeight": 0.333332986,
+        "outWeight": 0.401576012
+      },
+      {
+        "time": 7.31522894,
+        "value": 1.26641405,
+        "inTangent": 0.242061004,
+        "outTangent": 0.242061004,
+        "inWeight": 0.333332986,
+        "outWeight": 0.306917995
+      },
+      {
+        "time": 9.76105309,
+        "value": 1.30181706,
+        "inTangent": -0.235100001,
+        "outTangent": -0.235100001,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 11.16644,
+        "value": 0.461008012,
+        "inTangent": -1.27241802,
+        "outTangent": -1.27241802,
+        "inWeight": 0.0782120004,
+        "outWeight": 0.474267989
+      },
+      {
+        "time": 12.0767403,
+        "value": 0.946525991,
+        "inTangent": 0.0151690003,
+        "outTangent": 0.0151690003,
+        "inWeight": 0.333332986,
+        "outWeight": 1
+      },
+      {
+        "time": 12.9329004,
+        "value": 0.360641986,
+        "inTangent": 0.0127039999,
+        "outTangent": 0.0127039999,
+        "inWeight": 1,
+        "outWeight": 1
+      },
+      {
+        "time": 13.9008799,
+        "value": 0.568307996,
+        "inTangent": 0.137608007,
+        "outTangent": 0.137608007,
+        "inWeight": 0.333332986,
+        "outWeight": 0.361687988
+      },
+      {
+        "time": 15.6377401,
+        "value": 0.439231008,
+        "inTangent": -0.00809899997,
+        "outTangent": -0.00809899997,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 16.6234798,
+        "value": 1.04093099,
+        "inTangent": 1.26862395,
+        "outTangent": 1.26862395,
+        "inWeight": 0,
+        "outWeight": 0.0585430004
+      },
+      {
+        "time": 17.5519409,
+        "value": 1.806512,
+        "inTangent": 0.0210810006,
+        "outTangent": 0.0210810006,
+        "inWeight": 0.333332986,
+        "outWeight": 1
+      },
+      {
+        "time": 18.6877003,
+        "value": 1.07214999,
+        "inTangent": -1.99549103,
+        "outTangent": -1.99549103,
+        "inWeight": 0.052875001,
+        "outWeight": 0.0655419976
+      },
+      {
+        "time": 20.5236206,
+        "value": 0.861829996,
+        "inTangent": 0.358139008,
+        "outTangent": 0.358139008,
+        "inWeight": 0.333332986,
+        "outWeight": 0.318991005
+      },
+      {
+        "time": 22.5879307,
+        "value": 0.339625001,
+        "inTangent": -0.0397309996,
+        "outTangent": -0.0397309996,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 24.1108894,
+        "value": -0.0488190018,
+        "inTangent": -0.227750003,
+        "outTangent": -0.227750003,
+        "inWeight": 0.122413002,
+        "outWeight": 0.333332986
+      }
+    ],
+    "AgentNpcFilter": [
+      {
+        "agentPersonaId": 45200003,
+        "weight": 30
+      },
+      {
+        "agentPersonaId": 45200004,
+        "weight": 30
+      },
+      {
+        "agentPersonaId": 45200007,
+        "weight": 50
+      },
+      {
+        "agentPersonaId": 45200008,
+        "weight": 50
+      },
+      {
+        "agentPersonaId": 45200011,
+        "weight": 30
+      },
+      {
+        "agentPersonaId": 45200012,
+        "weight": 30
+      },
+      {
+        "agentPersonaId": 45200017,
+        "weight": 80
+      },
+      {
+        "agentPersonaId": 45200018,
+        "weight": 80
+      },
+      {
+        "agentPersonaId": 45200019,
+        "weight": 20
+      },
+      {
+        "agentPersonaId": 45200020,
+        "weight": 20
+      },
+      {
+        "agentPersonaId": 45200031,
+        "weight": 50
+      },
+      {
+        "agentPersonaId": 45200032,
+        "weight": 50
+      },
+      {
+        "agentPersonaId": 45200039,
+        "weight": 50
+      },
+      {
+        "agentPersonaId": 45200040,
+        "weight": 50
+      },
+      {
+        "agentPersonaId": 45200043,
+        "weight": 10
+      },
+      {
+        "agentPersonaId": 45200044,
+        "weight": 10
+      },
+      {
+        "agentPersonaId": 45210112,
+        "weight": 5
+      }
+    ],
+    "VehicleFilter": [
+      {
+        "VehicleFilterId": 81020001,
+        "weight": 54
+      },
+      {
+        "VehicleFilterId": 81020002,
+        "weight": 1
+      },
+      {
+        "VehicleFilterId": 81020005,
+        "weight": 3
+      },
+      {
+        "VehicleFilterId": 81020009,
+        "weight": 10
+      },
+      {
+        "VehicleFilterId": 81020010,
+        "weight": 12
+      },
+      {
+        "VehicleFilterId": 81020015,
+        "weight": 3
+      }
+    ],
+    "FactionWeight": [
+      {
+        "factionId": 18000001,
+        "weight": 1
+      },
+      {
+        "factionId": 18000002,
+        "weight": 1
+      },
+      {
+        "factionId": 18000003,
+        "weight": 1
+      },
+      {
+        "factionId": 18000004,
+        "weight": 1
+      },
+      {
+        "factionId": 18000005,
+        "weight": 1
+      },
+      {
+        "factionId": 18000006,
+        "weight": 1
+      }
+    ],
+    "RelatedNpc": [],
+    "PedestrianFlowCurve_Rainy": [
+      {
+        "time": 0.0204160009,
+        "value": -0.0731879994,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 4.53006506,
+        "value": 0.069058001,
+        "inTangent": 0.269667,
+        "outTangent": 0.269667,
+        "inWeight": 0.333332986,
+        "outWeight": 1
+      },
+      {
+        "time": 6.00181818,
+        "value": 0.342420995,
+        "inTangent": 0.608348012,
+        "outTangent": 0.608348012,
+        "inWeight": 0.333332986,
+        "outWeight": 0.401576012
+      },
+      {
+        "time": 7.31522894,
+        "value": 1.26641405,
+        "inTangent": 0.242061004,
+        "outTangent": 0.242061004,
+        "inWeight": 0.333332986,
+        "outWeight": 0.306917995
+      },
+      {
+        "time": 9.76105309,
+        "value": 1.30181706,
+        "inTangent": -0.235100001,
+        "outTangent": -0.235100001,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 11.16644,
+        "value": 0.461008012,
+        "inTangent": -1.27241802,
+        "outTangent": -1.27241802,
+        "inWeight": 0.0782120004,
+        "outWeight": 0.474267989
+      },
+      {
+        "time": 12.0767403,
+        "value": 0.946525991,
+        "inTangent": 0.0151690003,
+        "outTangent": 0.0151690003,
+        "inWeight": 0.333332986,
+        "outWeight": 1
+      },
+      {
+        "time": 12.9329004,
+        "value": 0.360641986,
+        "inTangent": 0.0127039999,
+        "outTangent": 0.0127039999,
+        "inWeight": 1,
+        "outWeight": 1
+      },
+      {
+        "time": 13.9008799,
+        "value": 0.568307996,
+        "inTangent": 0.137608007,
+        "outTangent": 0.137608007,
+        "inWeight": 0.333332986,
+        "outWeight": 0.361687988
+      },
+      {
+        "time": 15.6377401,
+        "value": 0.439231008,
+        "inTangent": -0.00809899997,
+        "outTangent": -0.00809899997,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 16.6234798,
+        "value": 1.04093099,
+        "inTangent": 1.26862395,
+        "outTangent": 1.26862395,
+        "inWeight": 0,
+        "outWeight": 0.0585430004
+      },
+      {
+        "time": 17.5519409,
+        "value": 1.806512,
+        "inTangent": 0.0210810006,
+        "outTangent": 0.0210810006,
+        "inWeight": 0.333332986,
+        "outWeight": 1
+      },
+      {
+        "time": 18.6877003,
+        "value": 1.07214999,
+        "inTangent": -1.99549103,
+        "outTangent": -1.99549103,
+        "inWeight": 0.052875001,
+        "outWeight": 0.0655419976
+      },
+      {
+        "time": 20.5236206,
+        "value": 0.861829996,
+        "inTangent": 0.358139008,
+        "outTangent": 0.358139008,
+        "inWeight": 0.333332986,
+        "outWeight": 0.318991005
+      },
+      {
+        "time": 22.5879307,
+        "value": 0.339625001,
+        "inTangent": -0.0397309996,
+        "outTangent": -0.0397309996,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 24.1108894,
+        "value": -0.0488190018,
+        "inTangent": -0.227750003,
+        "outTangent": -0.227750003,
+        "inWeight": 0.122413002,
+        "outWeight": 0.333332986
+      }
+    ],
+    "AgentNpcFilter_Rainy": [
+      {
+        "agentPersonaId": 45200003,
+        "weight": 30
+      },
+      {
+        "agentPersonaId": 45200004,
+        "weight": 30
+      },
+      {
+        "agentPersonaId": 45200007,
+        "weight": 50
+      },
+      {
+        "agentPersonaId": 45200008,
+        "weight": 50
+      },
+      {
+        "agentPersonaId": 45200011,
+        "weight": 30
+      },
+      {
+        "agentPersonaId": 45200012,
+        "weight": 30
+      },
+      {
+        "agentPersonaId": 45200017,
+        "weight": 80
+      },
+      {
+        "agentPersonaId": 45200018,
+        "weight": 80
+      },
+      {
+        "agentPersonaId": 45200019,
+        "weight": 20
+      },
+      {
+        "agentPersonaId": 45200020,
+        "weight": 20
+      },
+      {
+        "agentPersonaId": 45200031,
+        "weight": 50
+      },
+      {
+        "agentPersonaId": 45200032,
+        "weight": 50
+      },
+      {
+        "agentPersonaId": 45200039,
+        "weight": 50
+      },
+      {
+        "agentPersonaId": 45200040,
+        "weight": 50
+      },
+      {
+        "agentPersonaId": 45200043,
+        "weight": 10
+      },
+      {
+        "agentPersonaId": 45200044,
+        "weight": 10
+      },
+      {
+        "agentPersonaId": 45210112,
+        "weight": 5
+      }
+    ]
+  },
+  "PartDefaultCfg": {
+    "Id": 88881000,
+    "Name": "默认局部生态",
+    "Recommended": "",
+    "BlockId": 0,
+    "DiversityType": 1,
+    "PopulationDensity": 0,
+    "DegreeOfBusyness": 0,
+    "LandPlotType": "住宅区",
+    "LandPlotSubtype": "",
+    "LandPlotClass": "",
+    "BillboardFilter": [],
+    "BuildingType": [],
+    "BywayTemp": "",
+    "NpcLookAroundNum": [],
+    "NpcLookAroundDuration": [],
+    "FactionTag": [],
+    "InfluenceType": [],
+    "Block": 0,
+    "AreaId": 0,
+    "PedestrianFlowCurve": [
+      {
+        "time": 0,
+        "value": 0.0199999996,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "AgentNpcFilter": [],
+    "VehicleFilter": [],
+    "FactionWeight": [
+      {
+        "factionId": 18000001,
+        "weight": 1
+      },
+      {
+        "factionId": 18000002,
+        "weight": 1
+      },
+      {
+        "factionId": 18000003,
+        "weight": 1
+      },
+      {
+        "factionId": 18000004,
+        "weight": 1
+      },
+      {
+        "factionId": 18000005,
+        "weight": 1
+      },
+      {
+        "factionId": 18000006,
+        "weight": 1
+      }
+    ],
+    "RelatedNpc": [],
+    "PedestrianFlowCurve_Rainy": [
+      {
+        "time": 0,
+        "value": 0.0199999996,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "AgentNpcFilter_Rainy": []
+  },
+  "POIDefaultDistance": 10,
+  "NpcDensityBaseValue_888": 0.00999999978,
+  "NpcDensityAlleyFix": 0.5,
+  "NpcDensity_AreaSize": 64,
+  "NpcDensity_TickTime": 15,
+  "CrowdAssortedTrait": {
+    "radius": 0.50999999
+  },
+  "CrowdMovementTrait": {
+    "maxSpeed": 2,
+    "maxFleeSpeed": 5,
+    "maxAcceleration": 4,
+    "defaultDesiredSpeed": 1.39999998,
+    "defaultDesiredSpeedVariance": 0.100000001,
+    "heightSmootingTime": 0.200000003,
+    "walkMaxSpeed": 1.29999995,
+    "walkMinSpeed": 0.699999988,
+    "runMaxSpeed": 3.5,
+    "runMinSpeed": 3,
+    "escapeMaxSpeed": 4.5,
+    "escapeMinSpeed": 4
+  },
+  "CrowdZoneGraphNavigatioonTrait": {
+    "queryRadius": 5,
+    "anyTags": 8,
+    "allTags": 0,
+    "notTags": 512
+  },
+  "CrowdSteeringTrait": {
+    "movingReactionTime": 0.300000012,
+    "movingLookAheadTime": 1,
+    "standingReactionTime": 0.300000012,
+    "standingTargetMoveThreshold": 0.150000006,
+    "standingTargetMoveThresholdVariance": 0.100000001,
+    "standingLowSpeedThreshold": 0.0299999993,
+    "standingTargetSpeedHysteresisScale": 0.850000024,
+    "standingTargetSelectionCooldown": 1.5,
+    "standingSelectionCooldownVariance": 0.5,
+    "standingDeadZoneRadius": 0.150000006
+  },
+  "CrowdSmoothOrientationTrait": {
+    "endOfPathDuration": 0.300000012,
+    "orientationSmoothingTime": 0.300000012,
+    "movingMoveTargetWeight": 0,
+    "movingVelocityWeight": 1,
+    "standingMoveTargetWeight": 0.949999988,
+    "standingVelocityWeight": 0.0500000007
+  },
+  "CrowdAvoidanceTrait": {
+    "movingObstacleDetectionDistance": 4,
+    "movingStartOfPathDuration": 1,
+    "movingEndOfPathDuration": 0.5,
+    "movingStartOfPathAvoidanceScale": 0,
+    "movingEndOfPathAvoidanceScale": 0.100000001,
+    "movingStandingObstacleAvoidanceScale": 0.649999976,
+    "movingStaticObstacleClearanceScale": 0.699999988,
+    "movingSeparationRadiusScale": 0.899999976,
+    "movingObstacleSeparationStiffness": 2,
+    "movingObstacleSeparationDistance": 1,
+    "movingEnvironmentSeparationStiffness": 1,
+    "movingEnvironmentSeparationDistance": 0.300000012,
+    "movingPredictiveAvoidanceTime": 2,
+    "movingPredictiveAvoidanceRadiusScale": 0.100000001,
+    "movingPredictiveAvoidanceDistance": 0.150000006,
+    "movingObstaclePredictiveAvoidanceStiffness": 2,
+    "movingEnvironmentPredictiveAvoidanceStiffness": 2,
+    "standingGhostObstacleDetectionDistance": 3,
+    "standingGhostToTargetMaxDeviation": 0.800000012,
+    "standingGhostSteeringReactionTime": 2,
+    "standingGhostStandSlowdownRadius": 0.150000006,
+    "standingGhostMaxSpeed": 2.5,
+    "standingGhostMaxAcceleration": 3,
+    "standingGhostVelocityDampingTime": 0.400000006,
+    "standingGhostSeparationRadiusScale": 0.800000012,
+    "standingGhostSeparationDistance": 0.200000003,
+    "standingGhostSeparationStiffness": 2,
+    "standingMovingObstacleAvoidanceScale": 3,
+    "standingMovingObstacleDirectionalScale": 0.100000001,
+    "standingMovingObstaclePersonalSpaceScale": 3
+  },
+  "CrowdSimulationLodTrait": {
+    "highLodDistance": 0,
+    "mediumLodDistance": 50,
+    "lowLodDistance": 100,
+    "offLodDistance": 300,
+    "bufferHysteresisOnDistancePercentage": 10,
+    "highLodMaxCount": 300,
+    "mediumLodMaxCount": 600,
+    "lowLodMaxCount": 10000,
+    "offLodMaxCount": 2147483647,
+    "setLodTags": true,
+    "enableVariableTicking": true,
+    "highTickRate": 0,
+    "mediumTickRate": 0,
+    "lowTickRate": 0.25,
+    "offTickRate": 2,
+    "bSpreadFirstSimulationUpdate": false
+  },
+  "CrowdVisualizationTrait": {
+    "highBaseLODDistance": 0,
+    "mediumBaseLODDistance": 10,
+    "lowBaseLODDistance": 30,
+    "offBaseLODDistance": 50,
+    "highVisibleLODDistance": 0,
+    "mediumVisibleLODDistance": 20,
+    "lowVisibleLODDistance": 300,
+    "offVisibleLODDistance": 500,
+    "bufferHysteresisOnDistancePercentage": 10,
+    "highLODMaxCount": 10,
+    "mediumLODMaxCount": 1000,
+    "lowLODMaxCount": 2000,
+    "offLODMaxCount": 2147483647,
+    "distanceToFrustum": 0.699999988,
+    "distanceToFrustumHysteresis": 0
+  },
+  "CrowdStateTreeTrait": {
+    "configName": "TestStateTreeConfig"
+  },
+  "CrowdSpawnPointsGenerator": {
+    "tagFilterAnyTags": 8,
+    "tagFilterAllTags": 0,
+    "tagFilterNotTags": 512,
+    "minGap": 50,
+    "maxGap": 60
+  },
+  "StaticNpcSpawnPointsGenerator": {
+    "tagFilterAnyTags": 0,
+    "tagFilterAllTags": 0,
+    "tagFilterNotTags": 0,
+    "minGap": 100,
+    "maxGap": 200
+  },
+  "StaticNpcSimulationLodTrait": {
+    "highLodDistance": 0,
+    "mediumLodDistance": 50,
+    "lowLodDistance": 100,
+    "offLodDistance": 300,
+    "bufferHysteresisOnDistancePercentage": 10,
+    "highLodMaxCount": 300,
+    "mediumLodMaxCount": 600,
+    "lowLodMaxCount": 10000,
+    "offLodMaxCount": 2147483647,
+    "setLodTags": true,
+    "enableVariableTicking": true,
+    "highTickRate": 0,
+    "mediumTickRate": 0,
+    "lowTickRate": 0.25,
+    "offTickRate": 2,
+    "bSpreadFirstSimulationUpdate": false
+  },
+  "StaticNpcVisualizationTrait": {
+    "highBaseLODDistance": 0,
+    "mediumBaseLODDistance": 10,
+    "lowBaseLODDistance": 30,
+    "offBaseLODDistance": 50,
+    "highVisibleLODDistance": 0,
+    "mediumVisibleLODDistance": 20,
+    "lowVisibleLODDistance": 300,
+    "offVisibleLODDistance": 500,
+    "bufferHysteresisOnDistancePercentage": 10,
+    "highLODMaxCount": 10,
+    "mediumLODMaxCount": 1000,
+    "lowLODMaxCount": 2000,
+    "offLODMaxCount": 2147483647,
+    "distanceToFrustum": 0.699999988,
+    "distanceToFrustumHysteresis": 0
+  },
+  "InterSectionSpawnDataGenerator": {
+    "intersectionEntityConfigIndex": 0,
+    "pcgTrafficLightInstanceData": "Res/MassAI/TrafficLight/TrafficLightData",
+    "manualTrafficLightInstanceData": "Res/MassAI/TrafficLight/ManualTrafficLightData",
+    "pcgTrafficLightIntegratedInstanceData": "Res/MassAI/TrafficLight/TrafficLightIntegratedData",
+    "manualTrafficLightIntegratedInstanceData": "Res/MassAI/TrafficLight/ManualTrafficLightIntegratedData",
+    "trafficLightSearchDistance": 4,
+    "intersectionSideToCrosswalkSearchDistance": 9,
+    "standardTrafficGoSeconds": 20,
+    "standardMinimumTrafficGoSeconds": 5,
+    "standardCrosswalkGoSeconds": 10,
+    "unidirectionalTrafficStraightRightLeftGoSeconds": 10,
+    "unidirectionalTrafficStraightRightGoSeconds": 10,
+    "bidirectionalTrafficStraightRightGoSeconds": 10,
+    "freewayIncomingTrafficGoDurationScale": 1.5
+  },
+  "InterSectionSpawnDataGenerator_trafficLightTypesData": [
+    "Res/Scenes/CommonStyleRes/common_pcg/pcg_roadsystem/traffic/prefab/pcg_road_cz_lightright01a_green03_pc.prefab",
+    "Res/Scenes/CommonStyleRes/common_pcg/pcg_roadsystem/traffic/prefab/pcg_road_cz_lightright01a_yellow03_pc.prefab",
+    "Res/Scenes/CommonStyleRes/common_pcg/pcg_roadsystem/traffic/prefab/pcg_road_cz_lightright01a_red03_pc.prefab",
+    "Res/Scenes/CommonStyleRes/common_pcg/pcg_roadsystem/traffic/prefab/pcg_road_cz_lightleft01a_green01_pc.prefab",
+    "Res/Scenes/CommonStyleRes/common_pcg/pcg_roadsystem/traffic/prefab/pcg_road_cz_lightleft01a_yellow01_pc.prefab",
+    "Res/Scenes/CommonStyleRes/common_pcg/pcg_roadsystem/traffic/prefab/pcg_road_cz_lightleft01a_red01_pc.prefab",
+    "Res/Scenes/CommonStyleRes/common_pcg/pcg_roadsystem/traffic/prefab/pcg_road_cz_straight01a_green02_pc.prefab",
+    "Res/Scenes/CommonStyleRes/common_pcg/pcg_roadsystem/traffic/prefab/pcg_road_cz_straight01a_yellow02_pc.prefab",
+    "Res/Scenes/CommonStyleRes/common_pcg/pcg_roadsystem/traffic/prefab/pcg_road_cz_straight01a_red02_pc.prefab",
+    "Res/Scenes/CommonStyleRes/common_pcg/pcg_roadsystem/traffic/prefab/pcg_road_cz_straight_green_pc.prefab",
+    "Res/Scenes/CommonStyleRes/common_pcg/pcg_roadsystem/traffic/prefab/pcg_road_cz_straight_red_pc.prefab"
+  ],
+  "XCrossWalkPeriodTime": 40,
+  "InterSectionSimulationTrait": {
+    "variableTickHighTickRate": 0,
+    "variableTickMediumTickRate": 0.5,
+    "variableTickLowTickRate": 1,
+    "variableTickOffTickRate": 1.5,
+    "variableTickbSpreadFirstSimulationUpdate": false,
+    "lodParamsHighBaseLODDistance": 0,
+    "lodParamsMediumBaseLODDistance": 10,
+    "lodParamsLowBaseLODDistance": 25,
+    "lodParamsOffBaseLODDistance": 100,
+    "lodParamsHighVisibleLODDistance": 0,
+    "lodParamsMediumVisibleLODDistance": 20,
+    "lodParamsLowVisibleLODDistance": 40,
+    "lodParamsOffVisibleLODDistance": 150,
+    "BufferHysteresisOnDistancePercentage": 10,
+    "lodParamsHighLODMaxCount": 50,
+    "lodParamsMediumLODMaxCount": 100,
+    "lodParamsLowLODMaxCount": 500,
+    "lodParamsOffLODMaxCount": 2147483647,
+    "DistanceToFrustum": 0.699999988,
+    "DistanceToFrustumHysteresis": 0
+  },
+  "InterSectionVisualizationTrait": {
+    "lodParamsHighBaseLODDistance": 0,
+    "lodParamsMediumBaseLODDistance": 30,
+    "lodParamsLowBaseLODDistance": 30,
+    "lodParamsOffBaseLODDistance": 30,
+    "lodParamsHighVisibleLODDistance": 0,
+    "lodParamsMediumVisibleLODDistance": 30,
+    "lodParamsLowVisibleLODDistance": 30,
+    "lodParamsOffVisibleLODDistance": 30,
+    "BufferHysteresisOnDistancePercentage": 10,
+    "lodParamsHighLODMaxCount": 50,
+    "lodParamsMediumLODMaxCount": 100,
+    "lodParamsLowLODMaxCount": 500,
+    "lodParamsOffLODMaxCount": 2147483647,
+    "DistanceToFrustum": 0.699999988,
+    "DistanceToFrustumHysteresis": 0
+  },
+  "DisguiseExplosionTimes": 3,
+  "DisguiseGalleryid": 92341031,
+  "MaxNpcIndoor": 5,
+  "TestFixedAutoDoorGadgeId": 2901,
+  "WalkSpeedVariance": {
+    "min": 0.899999976,
+    "max": 1.20000005
+  },
+  "SmartObjectInteractionCoolDownTime": 10,
+  "LowCrowdCount": 30,
+  "LowCrowdActionGroup": 504,
+  "NpcExportTooTiltedAngle": 30,
+  "ValidChairPath": [
+    "DefaultDestructible/DefaultDestructible_cz_wjz_yizi01a_pc",
+    "DefaultDestructible/DefaultDestructible_cz_wjz_yizi01b_pc",
+    "DefaultDestructible/DefaultDestructible_kbjq_wjz_yizi01a_pc",
+    "DefaultDestructible/DefaultDestructible_yizi01b_pc",
+    "DefaultDestructible/DefaultDestructible_wjx_yizi02_pc",
+    "DefaultDestructible/DefaultDestructible_wjx_yizi02a_pc",
+    "DefaultDestructible/DefaultDestructible_yizi05_pc",
+    "DefaultDestructible/DefaultDestructible_yizi03_pc",
+    "DefaultDestructible/DefaultDestructible_yizi01_pc",
+    "DefaultDestructible/DefaultDestructible_wjx_yizi01a_pc",
+    "DefaultDestructible/DefaultDestructible_wjx_yizi01b_pc",
+    "DefaultDestructible/DefaultDestructible_wjz_yizi01a_pc",
+    "DefaultDestructible/DefaultDestructible_yizi02a_pc",
+    "DefaultDestructible/DefaultDestructible_kbjq_wjz_yizi01_pc",
+    "DefaultDestructible/DefaultDestructible_wjz_yizi03_pc",
+    "DefaultDestructible/DefaultDestructible_chezhankaoyi01_pc",
+    "DefaultDestructible/DefaultDestructible_changyi01_pc",
+    "DefaultDestructible/DefaultDestructible_ty_wjz_yizi01_pc",
+    "DefaultDestructible/DefaultDestructible_yizi04_pc",
+    "DefaultDestructible/DefaultDestructible_zuoyi01a_pc",
+    "DefaultDestructible/DefaultDestructible_hqq_wjz_yizi01a_pc",
+    "DefaultDestructible/DefaultDestructible_changy01_pc"
+  ],
+  "WaitSlotSize": 1.01999998,
+  "StaticVehicleMobileDisplayProbability": 0.5,
+  "WeatherTransitionSeconds": 15,
+  "ChaosTrafficLightAnimPath": [
+    "Res/CharactersAnimFBX/sc/interaction/chaos/sc_honglvdeng01a_red01_gm/Animator/sc_honglvdeng01a_gm#redlight_start01.fbx",
+    "Res/CharactersAnimFBX/sc/interaction/chaos/sc_honglvdeng01a_red01_gm/Animator/sc_honglvdeng01a_gm#redlight_lookaround01.fbx",
+    "Res/CharactersAnimFBX/sc/interaction/chaos/sc_honglvdeng01a_red01_gm/Animator/sc_honglvdeng01a_gm#redlight_end01.fbx"
+  ],
+  "ChaosTrafficLightGenerateProbability": 0.300000012
+}

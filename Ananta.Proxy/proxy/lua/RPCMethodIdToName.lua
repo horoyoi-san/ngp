@@ -1,5 +1,4 @@
--- Original chunk: @Lua\LuaGen\AutoGen\RPCMethodIdToName.lua
--- Decompiled from: 00064_RPCMethodIdToName.lua_267e09aee7e4.luajit
+
 
 local midToName = uv0
 midToName[12139441] = "ServerForceGCCollect"

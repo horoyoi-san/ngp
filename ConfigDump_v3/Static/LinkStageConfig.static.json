@@ -1,0 +1,27 @@
+{
+  "FullScreenConfirmCfg": {
+    "Id": 11,
+    "StateName": "FullScreenConfirm",
+    "TimeoutType": 1
+  },
+  "BubbleConfirmCfg": {
+    "Id": 12,
+    "StateName": "BubbleConfirm",
+    "TimeoutType": 1
+  },
+  "PrepareCfg": {
+    "Id": 21,
+    "StateName": "Prepare",
+    "TimeoutType": 2
+  },
+  "RoomCfg": {
+    "Id": 22,
+    "StateName": "Room",
+    "TimeoutType": 0
+  },
+  "InvestCfg": {
+    "Id": 31,
+    "StateName": "Invest",
+    "TimeoutType": 1
+  }
+}

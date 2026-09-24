@@ -1,0 +1,72 @@
+{
+  "CrowdCfg": {
+    "Id": 1,
+    "TickRates": [
+      0,
+      0,
+      0.25,
+      2
+    ],
+    "bSpreadFirstSimulationUpdate": false
+  },
+  "StaticNpcCfg": {
+    "Id": 2,
+    "TickRates": [
+      0,
+      0,
+      0.25,
+      2
+    ],
+    "bSpreadFirstSimulationUpdate": false
+  },
+  "VehicleCfg": {
+    "Id": 3,
+    "TickRates": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "bSpreadFirstSimulationUpdate": false
+  },
+  "StaticVehicleCfg": {
+    "Id": 4,
+    "TickRates": [
+      0,
+      0.5,
+      1,
+      1.5
+    ],
+    "bSpreadFirstSimulationUpdate": false
+  },
+  "VehicleNpcCfg": {
+    "Id": 6,
+    "TickRates": [
+      0,
+      0,
+      0.25,
+      2
+    ],
+    "bSpreadFirstSimulationUpdate": false
+  },
+  "MetroStaticNpcCfg": {
+    "Id": 10,
+    "TickRates": [
+      0,
+      0,
+      0.25,
+      2
+    ],
+    "bSpreadFirstSimulationUpdate": false
+  },
+  "CrowdAnimalCfg": {
+    "Id": 11,
+    "TickRates": [
+      0,
+      0,
+      0.25,
+      2
+    ],
+    "bSpreadFirstSimulationUpdate": false
+  }
+}

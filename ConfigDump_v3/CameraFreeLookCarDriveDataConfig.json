@@ -1,0 +1,1658 @@
+{
+  "_class": "CameraFreeLookCarDriveDataConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 53,
+  "records": [
+    {
+      "Id": 1,
+      "VehicleID": 0,
+      "VehicleSize": [
+        1.89999998,
+        1.20000005,
+        4.19999981
+      ],
+      "VehicleCenterOffset": [
+        0,
+        0.600000024,
+        0.134100005
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        0.850000024,
+        0.118000001
+      ],
+      "CameraDisntance": 5.5,
+      "CameraBasePitch": 2.20000005,
+      "CameraLimitPitch": [
+        0.389999986,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        1.20000005
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 2,
+      "VehicleID": 81000002,
+      "VehicleSize": [
+        2.83999991,
+        2.69000006,
+        6.76999998
+      ],
+      "VehicleCenterOffset": [
+        0,
+        1.34500003,
+        0.49000001
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        2.25,
+        0.200000003
+      ],
+      "CameraDisntance": 12.8500004,
+      "CameraBasePitch": 3.70000005,
+      "CameraLimitPitch": [
+        0.349999994,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        1.20000005
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 3,
+      "VehicleID": 81000002,
+      "VehicleSize": [
+        2.83999991,
+        2.69000006,
+        6.76999998
+      ],
+      "VehicleCenterOffset": [
+        0,
+        1.34500003,
+        0.49000001
+      ],
+      "IsValidData": true,
+      "VehicleState": 1,
+      "LookAtPos": [
+        0,
+        1.85000002,
+        0.200000003
+      ],
+      "CameraDisntance": 20,
+      "CameraBasePitch": 6.5,
+      "CameraLimitPitch": [
+        0.400000006,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        0.75
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 4,
+      "VehicleID": 81000004,
+      "VehicleSize": [
+        2.20000005,
+        2.43000007,
+        8.47999954
+      ],
+      "VehicleCenterOffset": [
+        0,
+        1.21500003,
+        0
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        3,
+        -0.338
+      ],
+      "CameraDisntance": 12,
+      "CameraBasePitch": 3.70000005,
+      "CameraLimitPitch": [
+        0.367500007,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        1
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 5,
+      "VehicleID": 81000005,
+      "VehicleSize": [
+        12.7399998,
+        3.04999995,
+        3.83999991
+      ],
+      "VehicleCenterOffset": [
+        0,
+        2.21499991,
+        0
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        5.92999983,
+        -3.02999997
+      ],
+      "CameraDisntance": 20,
+      "CameraBasePitch": 6.5,
+      "CameraLimitPitch": [
+        0.400000006,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        0.75
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 6,
+      "VehicleID": 81001001,
+      "VehicleSize": [
+        1.75,
+        1.3872,
+        4.57000017
+      ],
+      "VehicleCenterOffset": [
+        0,
+        0.693599999,
+        0
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        0.959999979,
+        0
+      ],
+      "CameraDisntance": 6.25,
+      "CameraBasePitch": 2.3499999,
+      "CameraLimitPitch": [
+        0.395000011,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        1.20000005
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 7,
+      "VehicleID": 81001002,
+      "VehicleSize": [
+        1.79999995,
+        1.51199996,
+        4.75
+      ],
+      "VehicleCenterOffset": [
+        0,
+        0.755999982,
+        -0.353700012
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        1.02999997,
+        -0.200000003
+      ],
+      "CameraDisntance": 6.69999981,
+      "CameraBasePitch": 2.20000005,
+      "CameraLimitPitch": [
+        0.40200001,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        1.25
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 8,
+      "VehicleID": 81001003,
+      "VehicleSize": [
+        1.79999995,
+        1.95000005,
+        4.94999981
+      ],
+      "VehicleCenterOffset": [
+        0,
+        0.975000024,
+        -0.0223999992
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        1.39999998,
+        0
+      ],
+      "CameraDisntance": 8.35000038,
+      "CameraBasePitch": 3.20000005,
+      "CameraLimitPitch": [
+        0.360000014,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        1.29999995
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 9,
+      "VehicleID": 81001005,
+      "VehicleSize": [
+        1.84000003,
+        1.98500001,
+        4.15999985
+      ],
+      "VehicleCenterOffset": [
+        0,
+        0.992500007,
+        0.053199999
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        1.47000003,
+        0
+      ],
+      "CameraDisntance": 7.75,
+      "CameraBasePitch": 3.20000005,
+      "CameraLimitPitch": [
+        0.349999994,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        1.29999995
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 10,
+      "VehicleID": 81001006,
+      "VehicleSize": [
+        1.74000001,
+        1.48699999,
+        4.65399981
+      ],
+      "VehicleCenterOffset": [
+        0,
+        0.743499994,
+        -0.126000002
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        1.04999995,
+        -0.0599999987
+      ],
+      "CameraDisntance": 6.55000019,
+      "CameraBasePitch": 2.20000005,
+      "CameraLimitPitch": [
+        0.389999986,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        1.25
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 11,
+      "VehicleID": 81001007,
+      "VehicleSize": [
+        1.79999995,
+        1.48000002,
+        4.67000008
+      ],
+      "VehicleCenterOffset": [
+        0,
+        0.74000001,
+        -0.0214000009
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        1.08000004,
+        0
+      ],
+      "CameraDisntance": 6.55000019,
+      "CameraBasePitch": 2.20000005,
+      "CameraLimitPitch": [
+        0.400000006,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        1.25
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 12,
+      "VehicleID": 81001008,
+      "VehicleSize": [
+        1.62,
+        1.40999997,
+        3.77999997
+      ],
+      "VehicleCenterOffset": [
+        0,
+        0.704999983,
+        0
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        0.99000001,
+        0
+      ],
+      "CameraDisntance": 6.0999999,
+      "CameraBasePitch": 2.20000005,
+      "CameraLimitPitch": [
+        0.379999995,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        1.20000005
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 13,
+      "VehicleID": 81001009,
+      "VehicleSize": [
+        1.83000004,
+        1.5,
+        4.9000001
+      ],
+      "VehicleCenterOffset": [
+        0,
+        0.75,
+        -0.0122999996
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        1.04999995,
+        0
+      ],
+      "CameraDisntance": 6.8499999,
+      "CameraBasePitch": 2.20000005,
+      "CameraLimitPitch": [
+        0.389999986,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        1.25
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 14,
+      "VehicleID": 81001010,
+      "VehicleSize": [
+        1.76499999,
+        1.47000003,
+        4.51000023
+      ],
+      "VehicleCenterOffset": [
+        0,
+        0.735000014,
+        0
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        1.05999994,
+        0
+      ],
+      "CameraDisntance": 6.55000019,
+      "CameraBasePitch": 2.20000005,
+      "CameraLimitPitch": [
+        0.389999986,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        1.25
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 15,
+      "VehicleID": 81002001,
+      "VehicleSize": [
+        1.71500003,
+        1.29999995,
+        4.28000021
+      ],
+      "VehicleCenterOffset": [
+        0,
+        0.649999976,
+        0.0299999993
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        0.920000017,
+        0
+      ],
+      "CameraDisntance": 5.80000019,
+      "CameraBasePitch": 2.20000005,
+      "CameraLimitPitch": [
+        0.389999986,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        1.20000005
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 16,
+      "VehicleID": 81002006,
+      "VehicleSize": [
+        1.89999998,
+        1.20000005,
+        4.19999981
+      ],
+      "VehicleCenterOffset": [
+        0,
+        0.600000024,
+        0.134100005
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        0.850000024,
+        0.118000001
+      ],
+      "CameraDisntance": 5.5,
+      "CameraBasePitch": 2.20000005,
+      "CameraLimitPitch": [
+        0.389999986,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        1.20000005
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 17,
+      "VehicleID": 81003001,
+      "VehicleSize": [
+        1.55999994,
+        1.64999998,
+        3.45000005
+      ],
+      "VehicleCenterOffset": [
+        0,
+        0.824999988,
+        0
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        1.20000005,
+        0
+      ],
+      "CameraDisntance": 7,
+      "CameraBasePitch": 2.20000005,
+      "CameraLimitPitch": [
+        0.379999995,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        1.25
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 18,
+      "VehicleID": 81003002,
+      "VehicleSize": [
+        1.90999997,
+        2.31500006,
+        5.48999977
+      ],
+      "VehicleCenterOffset": [
+        0,
+        1.15750003,
+        0.0199999996
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        1.79999995,
+        0
+      ],
+      "CameraDisntance": 9.25,
+      "CameraBasePitch": 3.70000005,
+      "CameraLimitPitch": [
+        0.349999994,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        0.75
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 19,
+      "VehicleID": 81003003,
+      "VehicleSize": [
+        1.66999996,
+        1.93299997,
+        3.77099991
+      ],
+      "VehicleCenterOffset": [
+        0,
+        0.966499984,
+        -0.383300006
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        1.45000005,
+        -0.200000003
+      ],
+      "CameraDisntance": 8.19999981,
+      "CameraBasePitch": 2.20000005,
+      "CameraLimitPitch": [
+        0.349999994,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        1.29999995
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 20,
+      "VehicleID": 81003004,
+      "VehicleSize": [
+        1.88,
+        1.99000001,
+        4.01999998
+      ],
+      "VehicleCenterOffset": [
+        0,
+        0.995000005,
+        0.137799993
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        1.48000002,
+        0.0599999987
+      ],
+      "CameraDisntance": 7.5999999,
+      "CameraBasePitch": 2.20000005,
+      "CameraLimitPitch": [
+        0.349999994,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        1.25
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 21,
+      "VehicleID": 81003005,
+      "VehicleSize": [
+        1.88,
+        1.99000001,
+        4.01999998
+      ],
+      "VehicleCenterOffset": [
+        0,
+        0.995000005,
+        0.137799993
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        1.48000002,
+        0.0599999987
+      ],
+      "CameraDisntance": 7.5999999,
+      "CameraBasePitch": 2.20000005,
+      "CameraLimitPitch": [
+        0.349999994,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        1.25
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 22,
+      "VehicleID": 81003006,
+      "VehicleSize": [
+        1.55999994,
+        1.79999995,
+        3.5
+      ],
+      "VehicleCenterOffset": [
+        0,
+        0.899999976,
+        -0.0179999992
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        1.35000002,
+        0
+      ],
+      "CameraDisntance": 7.5999999,
+      "CameraBasePitch": 2.20000005,
+      "CameraLimitPitch": [
+        0.349999994,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        1.25
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 23,
+      "VehicleID": 81003007,
+      "VehicleSize": [
+        1.91700006,
+        1.79999995,
+        5.32999992
+      ],
+      "VehicleCenterOffset": [
+        0,
+        0.899999976,
+        0.0226000007
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        1.35000002,
+        0
+      ],
+      "CameraDisntance": 7.75,
+      "CameraBasePitch": 2.20000005,
+      "CameraLimitPitch": [
+        0.379999995,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        1.25
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 24,
+      "VehicleID": 81004001,
+      "VehicleSize": [
+        1.75199997,
+        1.48500001,
+        4.6500001
+      ],
+      "VehicleCenterOffset": [
+        0,
+        0.742500007,
+        -0.134200007
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        1.04999995,
+        -0.0599999987
+      ],
+      "CameraDisntance": 6.69999981,
+      "CameraBasePitch": 2.20000005,
+      "CameraLimitPitch": [
+        0.389999986,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        1.25
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 25,
+      "VehicleID": 81004003,
+      "VehicleSize": [
+        2.56699991,
+        2.9000001,
+        7.69999981
+      ],
+      "VehicleCenterOffset": [
+        0,
+        1.45000005,
+        -0.0143999998
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        2.5,
+        0
+      ],
+      "CameraDisntance": 12.1000004,
+      "CameraBasePitch": 3.70000005,
+      "CameraLimitPitch": [
+        0.349999994,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        0.75
+      ],
+      "DestructibleNoFraming": true
+    },
+    {
+      "Id": 26,
+      "VehicleID": 81004004,
+      "VehicleSize": [
+        1.75,
+        1.74000001,
+        4.34700012
+      ],
+      "VehicleCenterOffset": [
+        0,
+        0.870000005,
+        0
+      ],
+      "IsValidData": false,
+      "VehicleState": 0,
+      "LookAtPos": [],
+      "CameraDisntance": 0,
+      "CameraBasePitch": 0,
+      "CameraLimitPitch": [],
+      "MotionalDelay": [
+        2
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 27,
+      "VehicleID": 81004005,
+      "VehicleSize": [
+        2.66000009,
+        3.25,
+        8.94999981
+      ],
+      "VehicleCenterOffset": [
+        0,
+        1.625,
+        -1.29999995
+      ],
+      "IsValidData": false,
+      "VehicleState": 0,
+      "LookAtPos": [],
+      "CameraDisntance": 0,
+      "CameraBasePitch": 0,
+      "CameraLimitPitch": [],
+      "MotionalDelay": [
+        2
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 28,
+      "VehicleID": 81004006,
+      "VehicleSize": [
+        2.57999992,
+        3.75999999,
+        9.69999981
+      ],
+      "VehicleCenterOffset": [
+        0,
+        1.88,
+        -1.6868
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        3.20000005,
+        -1
+      ],
+      "CameraDisntance": 17.2000008,
+      "CameraBasePitch": 3.70000005,
+      "CameraLimitPitch": [
+        0.349999994,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        0.75
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 29,
+      "VehicleID": 81004007,
+      "VehicleSize": [
+        2.6400001,
+        3.23699999,
+        6.63399982
+      ],
+      "VehicleCenterOffset": [
+        0,
+        1.61849999,
+        -0.131600007
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        2.79999995,
+        -0.0599999987
+      ],
+      "CameraDisntance": 13.6000004,
+      "CameraBasePitch": 3.70000005,
+      "CameraLimitPitch": [
+        0.349999994,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        0.75
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 30,
+      "VehicleID": 81004008,
+      "VehicleSize": [
+        2.5999999,
+        3.69000006,
+        12.2559996
+      ],
+      "VehicleCenterOffset": [
+        0,
+        1.84500003,
+        -2.94000006
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        2.8499999,
+        -1.20000005
+      ],
+      "CameraDisntance": 19.7000008,
+      "CameraBasePitch": 6.5,
+      "CameraLimitPitch": [
+        0.400000006,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        0.75
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 31,
+      "VehicleID": 81004009,
+      "VehicleSize": [
+        2.5999999,
+        3.69000006,
+        12.2559996
+      ],
+      "VehicleCenterOffset": [
+        0,
+        1.84500003,
+        -2.94000006
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        2.8499999,
+        -1.20000005
+      ],
+      "CameraDisntance": 19.7000008,
+      "CameraBasePitch": 6.5,
+      "CameraLimitPitch": [
+        0.400000006,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        0.75
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 32,
+      "VehicleID": 81004010,
+      "VehicleSize": [
+        2.52999997,
+        3.25,
+        12.04
+      ],
+      "VehicleCenterOffset": [
+        0,
+        1.625,
+        -2.8210001
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        2.75,
+        -1.10000002
+      ],
+      "CameraDisntance": 19.7000008,
+      "CameraBasePitch": 6.5,
+      "CameraLimitPitch": [
+        0.400000006,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        0.75
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 33,
+      "VehicleID": 81004011,
+      "VehicleSize": [
+        1.90999997,
+        2.31500006,
+        5.48999977
+      ],
+      "VehicleCenterOffset": [
+        0,
+        1.15750003,
+        0.0199999996
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        1.79999995,
+        0
+      ],
+      "CameraDisntance": 9.25,
+      "CameraBasePitch": 3.70000005,
+      "CameraLimitPitch": [
+        0.349999994,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        0.75
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 34,
+      "VehicleID": 81004012,
+      "VehicleSize": [
+        1.5,
+        2.5,
+        2.8599999
+      ],
+      "VehicleCenterOffset": [
+        0,
+        1.25,
+        -0.850000024
+      ],
+      "IsValidData": false,
+      "VehicleState": 0,
+      "LookAtPos": [],
+      "CameraDisntance": 0,
+      "CameraBasePitch": 0,
+      "CameraLimitPitch": [],
+      "MotionalDelay": [
+        2
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 35,
+      "VehicleID": 81004013,
+      "VehicleSize": [
+        2.82999992,
+        3.29999995,
+        12.3500004
+      ],
+      "VehicleCenterOffset": [
+        0,
+        1.64999998,
+        -0.176499993
+      ],
+      "IsValidData": false,
+      "VehicleState": 0,
+      "LookAtPos": [],
+      "CameraDisntance": 0,
+      "CameraBasePitch": 0,
+      "CameraLimitPitch": [],
+      "MotionalDelay": [
+        2
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 36,
+      "VehicleID": 81004014,
+      "VehicleSize": [
+        2.38000011,
+        2.88000011,
+        9.10000038
+      ],
+      "VehicleCenterOffset": [
+        0,
+        1.44000006,
+        -1.66799998
+      ],
+      "IsValidData": false,
+      "VehicleState": 0,
+      "LookAtPos": [],
+      "CameraDisntance": 0,
+      "CameraBasePitch": 0,
+      "CameraLimitPitch": [],
+      "MotionalDelay": [
+        2
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 37,
+      "VehicleID": 81004015,
+      "VehicleSize": [
+        1.75199997,
+        1.48500001,
+        4.6500001
+      ],
+      "VehicleCenterOffset": [
+        0,
+        0.742500007,
+        -0.134200007
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        1.04999995,
+        -0.0599999987
+      ],
+      "CameraDisntance": 6.69999981,
+      "CameraBasePitch": 2.20000005,
+      "CameraLimitPitch": [
+        0.389999986,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        1.25
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 38,
+      "VehicleID": 81004016,
+      "VehicleSize": [
+        1.69000006,
+        1.49000001,
+        4.65999985
+      ],
+      "VehicleCenterOffset": [
+        0,
+        0.745000005,
+        -0.129999995
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        1.20000005,
+        -0.0599999987
+      ],
+      "CameraDisntance": 7.1500001,
+      "CameraBasePitch": 2.20000005,
+      "CameraLimitPitch": [
+        0.389999986,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        1.25
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 39,
+      "VehicleID": 81005001,
+      "VehicleSize": [
+        1.66999996,
+        1.42999995,
+        4.38000011
+      ],
+      "VehicleCenterOffset": [
+        0,
+        0.714999974,
+        0
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        1.04999995,
+        0
+      ],
+      "CameraDisntance": 5.94999981,
+      "CameraBasePitch": 2.20000005,
+      "CameraLimitPitch": [
+        0.389999986,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        1.20000005
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 40,
+      "VehicleID": 81005002,
+      "VehicleSize": [
+        2.11999989,
+        1.34000003,
+        4.6500001
+      ],
+      "VehicleCenterOffset": [
+        0,
+        0.670000017,
+        0.0234999992
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        0.949999988,
+        0
+      ],
+      "CameraDisntance": 6.4000001,
+      "CameraBasePitch": 2.20000005,
+      "CameraLimitPitch": [
+        0.400000006,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        1.25
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 41,
+      "VehicleID": 81005003,
+      "VehicleSize": [
+        2.11999989,
+        1.34000003,
+        4.6500001
+      ],
+      "VehicleCenterOffset": [
+        0,
+        0.670000017,
+        0.0234999992
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        0.949999988,
+        0
+      ],
+      "CameraDisntance": 6.4000001,
+      "CameraBasePitch": 2.20000005,
+      "CameraLimitPitch": [
+        0.400000006,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        1.25
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 42,
+      "VehicleID": 81005004,
+      "VehicleSize": [
+        1.97000003,
+        2.2249999,
+        4.76499987
+      ],
+      "VehicleCenterOffset": [
+        0,
+        1.11249995,
+        -0.340000004
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        1.67999995,
+        -0.150000006
+      ],
+      "CameraDisntance": 8.94999981,
+      "CameraBasePitch": 2.20000005,
+      "CameraLimitPitch": [
+        0.349999994,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        1.29999995
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 43,
+      "VehicleID": 81007009,
+      "VehicleSize": [
+        2.25,
+        3.23000002,
+        6.1500001
+      ],
+      "VehicleCenterOffset": [
+        0,
+        1.61500001,
+        0
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        2.77999997,
+        0
+      ],
+      "CameraDisntance": 10.6000004,
+      "CameraBasePitch": 3.70000005,
+      "CameraLimitPitch": [
+        0.349999994,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        0.850000024
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 44,
+      "VehicleID": 81007011,
+      "VehicleSize": [
+        1.89999998,
+        1.20000005,
+        4.19999981
+      ],
+      "VehicleCenterOffset": [
+        0,
+        0.600000024,
+        0.134100005
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        0.850000024,
+        0.118000001
+      ],
+      "CameraDisntance": 5.5,
+      "CameraBasePitch": 2.20000005,
+      "CameraLimitPitch": [
+        0.389999986,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        1.20000005
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 45,
+      "VehicleID": 81007025,
+      "VehicleSize": [
+        1.75199997,
+        1.48500001,
+        4.6500001
+      ],
+      "VehicleCenterOffset": [
+        0,
+        0.742500007,
+        -0.134200007
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        1.04999995,
+        -0.0599999987
+      ],
+      "CameraDisntance": 6.69999981,
+      "CameraBasePitch": 2.20000005,
+      "CameraLimitPitch": [
+        0.389999986,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        1.25
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 46,
+      "VehicleID": 81007045,
+      "VehicleSize": [
+        2.25,
+        3.23000002,
+        6.1500001
+      ],
+      "VehicleCenterOffset": [
+        0,
+        1.61500001,
+        0
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        2.77999997,
+        0
+      ],
+      "CameraDisntance": 10.6000004,
+      "CameraBasePitch": 3.70000005,
+      "CameraLimitPitch": [
+        0.349999994,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        0.850000024
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 47,
+      "VehicleID": 81007044,
+      "VehicleSize": [
+        1.69000006,
+        1.49000001,
+        4.65999985
+      ],
+      "VehicleCenterOffset": [
+        0,
+        0.745000005,
+        -0.129999995
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        1.20000005,
+        -0.0599999987
+      ],
+      "CameraDisntance": 7.1500001,
+      "CameraBasePitch": 2.20000005,
+      "CameraLimitPitch": [
+        0.389999986,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        1.25
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 48,
+      "VehicleID": 81007056,
+      "VehicleSize": [
+        2.25,
+        3.23000002,
+        6.1500001
+      ],
+      "VehicleCenterOffset": [
+        0,
+        1.61500001,
+        0
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        2.77999997,
+        0
+      ],
+      "CameraDisntance": 10.6000004,
+      "CameraBasePitch": 3.70000005,
+      "CameraLimitPitch": [
+        0.349999994,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        0.850000024
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 49,
+      "VehicleID": 81007059,
+      "VehicleSize": [
+        2.5999999,
+        3.69000006,
+        12.2559996
+      ],
+      "VehicleCenterOffset": [
+        0,
+        1.84500003,
+        -2.94000006
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        2.8499999,
+        -1.20000005
+      ],
+      "CameraDisntance": 19.7000008,
+      "CameraBasePitch": 6.5,
+      "CameraLimitPitch": [
+        0.400000006,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        0.75
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 50,
+      "VehicleID": 81004020,
+      "VehicleSize": [
+        2.83999991,
+        2.69000006,
+        6.76999998
+      ],
+      "VehicleCenterOffset": [
+        0,
+        1.34500003,
+        0.49000001
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        2.25,
+        0.200000003
+      ],
+      "CameraDisntance": 12.8500004,
+      "CameraBasePitch": 3.70000005,
+      "CameraLimitPitch": [
+        0.349999994,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        1.20000005
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 51,
+      "VehicleID": 81004020,
+      "VehicleSize": [
+        2.83999991,
+        2.69000006,
+        6.76999998
+      ],
+      "VehicleCenterOffset": [
+        0,
+        1.34500003,
+        0.49000001
+      ],
+      "IsValidData": true,
+      "VehicleState": 1,
+      "LookAtPos": [
+        0,
+        1.85000002,
+        0.200000003
+      ],
+      "CameraDisntance": 20,
+      "CameraBasePitch": 6.5,
+      "CameraLimitPitch": [
+        0.400000006,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        0.75
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 52,
+      "VehicleID": 81006001,
+      "VehicleSize": [
+        9.05613899,
+        3.99706697,
+        10.2265701
+      ],
+      "VehicleCenterOffset": [
+        0,
+        1.34500003,
+        0.49000001
+      ],
+      "IsValidData": false,
+      "VehicleState": 0,
+      "LookAtPos": [],
+      "CameraDisntance": 0,
+      "CameraBasePitch": 0,
+      "CameraLimitPitch": [],
+      "MotionalDelay": [
+        2
+      ],
+      "DestructibleNoFraming": false
+    },
+    {
+      "Id": 53,
+      "VehicleID": 81004018,
+      "VehicleSize": [
+        2.83999991,
+        2.69000006,
+        6.76999998
+      ],
+      "VehicleCenterOffset": [
+        0,
+        1.34500003,
+        0.49000001
+      ],
+      "IsValidData": true,
+      "VehicleState": 0,
+      "LookAtPos": [
+        0,
+        2.25,
+        0.200000003
+      ],
+      "CameraDisntance": 12.8500004,
+      "CameraBasePitch": 3.70000005,
+      "CameraLimitPitch": [
+        0.349999994,
+        1
+      ],
+      "MotionalDelay": [
+        40,
+        1.20000005
+      ],
+      "DestructibleNoFraming": false
+    }
+  ],
+  "_dumpedCount": 53,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -1,0 +1,27 @@
+{
+  "AfterStimCD": 10,
+  "EmotionThreshold": 50,
+  "FocusOnPlayerTime": 5,
+  "DriverWatingRatio": 2,
+  "QueryInterestLimitDistanceWithPlayer": 30,
+  "QueryInterestLimitNum": [
+    1,
+    8
+  ],
+  "QueryInterestLimitCD": 1,
+  "QueryLookAtInterestRange": 30,
+  "LookAtZoneTriggerProbability": 0,
+  "LookAtZoneCDTime": 10,
+  "LookAtZoneIKType": "NPC_ground_idle",
+  "LookAtZoneIKFinishLogic": [
+    "default",
+    "10"
+  ],
+  "DisableLookAtIKWhenNotCrowd": true,
+  "LookAtMinDuration": 2,
+  "LookAtMinDurationCoef": 0.800000012,
+  "LookAtMaxDuration": 9.99999996e+11,
+  "LookAtMaxDurationCoef": 1.20000005,
+  "DialogLookatIKType": "NPC_ground_idle",
+  "AgentDialogLookatIKType": "NPC_Anim_Add_Large_Angle"
+}

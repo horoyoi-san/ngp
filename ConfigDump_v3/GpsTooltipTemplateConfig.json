@@ -1,0 +1,40 @@
+{
+  "_class": "GpsTooltipTemplateConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 3,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "帮派营地",
+      "TooltipType": 12,
+      "TooltipInfoName": "gangsterSmallCampInfo",
+      "LuaFieldMeta": [
+        "gangsterId",
+        "influenceId"
+      ]
+    },
+    {
+      "Id": 2,
+      "Name": "帮派骚乱",
+      "TooltipType": 13,
+      "TooltipInfoName": "gangsterRandomEventInfo",
+      "LuaFieldMeta": [
+        "gangsterId",
+        "influenceId"
+      ]
+    },
+    {
+      "Id": 3,
+      "Name": "帮派大本营",
+      "TooltipType": 14,
+      "TooltipInfoName": "gangsterCoreCampInfo",
+      "LuaFieldMeta": [
+        "gangsterId",
+        "influenceId"
+      ]
+    }
+  ],
+  "_dumpedCount": 3,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

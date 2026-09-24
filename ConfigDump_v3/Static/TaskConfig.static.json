@@ -1,0 +1,826 @@
+{
+  "XinshouStartCfg": {
+    "Id": 60004938,
+    "NextTasks": [
+      60004939
+    ],
+    "Title": 1,
+    "Name": "隧道，大桥",
+    "TaskFailGroup": "",
+    "RelatedRaid": 23301180,
+    "WorkDescription": "",
+    "Tags": [
+      21
+    ],
+    "Counter": [
+      1
+    ],
+    "EventObjective": [
+      "Arrive at Nova City"
+    ],
+    "IconPath": "",
+    "MiniMapPath": "",
+    "BigMapPath": "",
+    "ImageId": 0,
+    "SImageId": 0,
+    "TaskMiniMapScale": 0,
+    "BlockId": 0,
+    "PlaySoundId": 0,
+    "IsLimitSoundState": false,
+    "SoundStateDistance": 9999,
+    "AgentOccupyList": [],
+    "Drop": 0,
+    "RandomDrop": 0,
+    "RandomDropTimes": 0,
+    "RoleId": 0,
+    "MapEntranceBanTypes": [],
+    "RaidMultiMainTaskId": 0,
+    "ForbiddenEventIds": [],
+    "CanForbiddenEvent": [],
+    "ForbiddenEventGroups": [],
+    "SpoonDropList": [],
+    "__IDX__WorkDescription": 0,
+    "__RAW__WorkDescription": "",
+    "__IDX__EventObjective": [
+      89759
+    ],
+    "__RAW__EventObjective": [
+      ""
+    ],
+    "RelatedTimeAndWeather": {
+      "timeId": 15,
+      "minutes": 0,
+      "fixCurrent": false,
+      "passing": false,
+      "weatherId": 0,
+      "transitionSecond": 0,
+      "atmosphereName": "",
+      "atmosphereMobile": ""
+    },
+    "CounterExtraInfo": [],
+    "PanelImage": {
+      "Name": "",
+      "ImageId": 0
+    },
+    "RelatedItems": [],
+    "TimeInterval": {
+      "startTime": 0,
+      "endTime": 0,
+      "groupName": ""
+    },
+    "SoundStateList": [
+      {
+        "groupName": "StateGroup_Task",
+        "value": "State_1441"
+      },
+      {
+        "groupName": "StateGroup_Task_60004938",
+        "value": "ON_60004938"
+      }
+    ]
+  },
+  "M01P03Cfg": {
+    "Id": 60006674,
+    "NextTasks": [
+      60000432
+    ],
+    "Title": 1,
+    "Name": "混入船厂",
+    "TaskFailGroup": "group_60001594_60001599",
+    "RelatedRaid": 23300888,
+    "WorkDescription": "",
+    "Tags": [
+      13,
+      21,
+      33
+    ],
+    "Counter": [
+      1
+    ],
+    "EventObjective": [
+      "Get in the car and drive to Marine MechWorks"
+    ],
+    "IconPath": "",
+    "MiniMapPath": "",
+    "BigMapPath": "",
+    "ImageId": 0,
+    "SImageId": 0,
+    "TaskMiniMapScale": 0,
+    "BlockId": 0,
+    "PlaySoundId": 0,
+    "IsLimitSoundState": false,
+    "SoundStateDistance": 120,
+    "AgentOccupyList": [],
+    "Drop": 0,
+    "RandomDrop": 0,
+    "RandomDropTimes": 0,
+    "RoleId": 0,
+    "MapEntranceBanTypes": [],
+    "RaidMultiMainTaskId": 0,
+    "ForbiddenEventIds": [
+      1563
+    ],
+    "CanForbiddenEvent": [
+      true
+    ],
+    "ForbiddenEventGroups": [],
+    "SpoonDropList": [],
+    "__IDX__WorkDescription": 0,
+    "__RAW__WorkDescription": "",
+    "__IDX__EventObjective": [
+      94841
+    ],
+    "__RAW__EventObjective": [
+      ""
+    ],
+    "RelatedTimeAndWeather": {
+      "timeId": 0,
+      "minutes": 0,
+      "fixCurrent": false,
+      "passing": false,
+      "weatherId": 0,
+      "transitionSecond": 0,
+      "atmosphereName": "",
+      "atmosphereMobile": ""
+    },
+    "CounterExtraInfo": [],
+    "PanelImage": {
+      "Name": "",
+      "ImageId": 0
+    },
+    "RelatedItems": [],
+    "TimeInterval": {
+      "startTime": 0,
+      "endTime": 0,
+      "groupName": ""
+    },
+    "SoundStateList": [
+      {
+        "groupName": "StateGroup_Task",
+        "value": "State_226"
+      },
+      {
+        "groupName": "StateGroup_Task_60006674",
+        "value": "ON_60006674"
+      }
+    ]
+  },
+  "mahjongCfg": {
+    "Id": 60007379,
+    "NextTasks": [],
+    "Title": 10,
+    "Name": "NPC测试用",
+    "TaskFailGroup": "",
+    "RelatedRaid": 23300888,
+    "WorkDescription": "",
+    "Tags": [],
+    "Counter": [],
+    "EventObjective": [],
+    "IconPath": "",
+    "MiniMapPath": "",
+    "BigMapPath": "",
+    "ImageId": 0,
+    "SImageId": 0,
+    "TaskMiniMapScale": 0,
+    "BlockId": 0,
+    "PlaySoundId": 0,
+    "IsLimitSoundState": false,
+    "SoundStateDistance": 120,
+    "AgentOccupyList": [],
+    "Drop": 0,
+    "RandomDrop": 0,
+    "RandomDropTimes": 0,
+    "RoleId": 0,
+    "MapEntranceBanTypes": [],
+    "RaidMultiMainTaskId": 0,
+    "ForbiddenEventIds": [],
+    "CanForbiddenEvent": [],
+    "ForbiddenEventGroups": [],
+    "SpoonDropList": [],
+    "__IDX__WorkDescription": 0,
+    "__RAW__WorkDescription": "",
+    "__IDX__EventObjective": [],
+    "__RAW__EventObjective": [],
+    "RelatedTimeAndWeather": {
+      "timeId": 0,
+      "minutes": 0,
+      "fixCurrent": false,
+      "passing": false,
+      "weatherId": 0,
+      "transitionSecond": 0,
+      "atmosphereName": "",
+      "atmosphereMobile": ""
+    },
+    "CounterExtraInfo": [],
+    "PanelImage": {
+      "Name": "",
+      "ImageId": 0
+    },
+    "RelatedItems": [],
+    "TimeInterval": {
+      "startTime": 0,
+      "endTime": 0,
+      "groupName": ""
+    },
+    "SoundStateList": [
+      {
+        "groupName": "StateGroup_Task",
+        "value": "State_836"
+      },
+      {
+        "groupName": "StateGroup_Task_60007379",
+        "value": "ON_60007379"
+      }
+    ]
+  },
+  "PoliceHideTaskCfg": {
+    "Id": 60011603,
+    "NextTasks": [],
+    "Title": 10,
+    "Name": "串联版本",
+    "TaskFailGroup": "",
+    "RelatedRaid": 23300888,
+    "WorkDescription": "",
+    "Tags": [
+      15
+    ],
+    "Counter": [
+      10
+    ],
+    "EventObjective": [],
+    "IconPath": "",
+    "MiniMapPath": "",
+    "BigMapPath": "",
+    "ImageId": 0,
+    "SImageId": 0,
+    "TaskMiniMapScale": 0,
+    "BlockId": 0,
+    "PlaySoundId": 0,
+    "IsLimitSoundState": false,
+    "SoundStateDistance": 120,
+    "AgentOccupyList": [],
+    "Drop": 0,
+    "RandomDrop": 0,
+    "RandomDropTimes": 0,
+    "RoleId": 0,
+    "MapEntranceBanTypes": [],
+    "RaidMultiMainTaskId": 0,
+    "ForbiddenEventIds": [],
+    "CanForbiddenEvent": [],
+    "ForbiddenEventGroups": [],
+    "SpoonDropList": [],
+    "__IDX__WorkDescription": 0,
+    "__RAW__WorkDescription": "",
+    "__IDX__EventObjective": [],
+    "__RAW__EventObjective": [],
+    "RelatedTimeAndWeather": {
+      "timeId": 0,
+      "minutes": 0,
+      "fixCurrent": false,
+      "passing": false,
+      "weatherId": 0,
+      "transitionSecond": 0,
+      "atmosphereName": "",
+      "atmosphereMobile": ""
+    },
+    "CounterExtraInfo": [],
+    "PanelImage": {
+      "Name": "",
+      "ImageId": 0
+    },
+    "RelatedItems": [],
+    "TimeInterval": {
+      "startTime": 0,
+      "endTime": 0,
+      "groupName": ""
+    },
+    "SoundStateList": [
+      {
+        "groupName": "StateGroup_Task",
+        "value": "State_453"
+      },
+      {
+        "groupName": "StateGroup_Task_60011603",
+        "value": "ON_60011603"
+      }
+    ]
+  },
+  "DivinerJobGuideCfg": {
+    "Id": 60020635,
+    "NextTasks": [
+      60020636
+    ],
+    "Title": 4,
+    "Name": "完成一次占卜任务",
+    "TaskFailGroup": "",
+    "RelatedRaid": 23300888,
+    "WorkDescription": "",
+    "Tags": [
+      32
+    ],
+    "Counter": [
+      1,
+      1,
+      1
+    ],
+    "EventObjective": [
+      "为店长进行占卜",
+      "为店长进行占卜",
+      "为店长进行占卜"
+    ],
+    "IconPath": "",
+    "MiniMapPath": "",
+    "BigMapPath": "",
+    "ImageId": 0,
+    "SImageId": 0,
+    "TaskMiniMapScale": 0,
+    "BlockId": 0,
+    "PlaySoundId": 0,
+    "IsLimitSoundState": false,
+    "SoundStateDistance": 120,
+    "AgentOccupyList": [],
+    "Drop": 0,
+    "RandomDrop": 0,
+    "RandomDropTimes": 0,
+    "RoleId": 0,
+    "MapEntranceBanTypes": [],
+    "RaidMultiMainTaskId": 0,
+    "ForbiddenEventIds": [],
+    "CanForbiddenEvent": [],
+    "ForbiddenEventGroups": [],
+    "SpoonDropList": [],
+    "__IDX__WorkDescription": 0,
+    "__RAW__WorkDescription": "",
+    "__IDX__EventObjective": [
+      4294967293,
+      4294967293,
+      4294967293
+    ],
+    "__RAW__EventObjective": [
+      "为店长进行占卜",
+      "为店长进行占卜",
+      "为店长进行占卜"
+    ],
+    "RelatedTimeAndWeather": {
+      "timeId": 0,
+      "minutes": 0,
+      "fixCurrent": false,
+      "passing": false,
+      "weatherId": 0,
+      "transitionSecond": 0,
+      "atmosphereName": "",
+      "atmosphereMobile": ""
+    },
+    "CounterExtraInfo": [],
+    "PanelImage": {
+      "Name": "",
+      "ImageId": 0
+    },
+    "RelatedItems": [],
+    "TimeInterval": {
+      "startTime": 0,
+      "endTime": 0,
+      "groupName": ""
+    },
+    "SoundStateList": []
+  },
+  "FoodDeliverCfg": {
+    "Id": 60006652,
+    "NextTasks": [],
+    "Title": 19,
+    "Name": "外卖测试选点-1",
+    "TaskFailGroup": "",
+    "RelatedRaid": 23300888,
+    "WorkDescription": "",
+    "Tags": [
+      0
+    ],
+    "Counter": [],
+    "EventObjective": [],
+    "IconPath": "",
+    "MiniMapPath": "",
+    "BigMapPath": "",
+    "ImageId": 0,
+    "SImageId": 0,
+    "TaskMiniMapScale": 0,
+    "BlockId": 0,
+    "PlaySoundId": 0,
+    "IsLimitSoundState": false,
+    "SoundStateDistance": 120,
+    "AgentOccupyList": [],
+    "Drop": 0,
+    "RandomDrop": 0,
+    "RandomDropTimes": 0,
+    "RoleId": 0,
+    "MapEntranceBanTypes": [],
+    "RaidMultiMainTaskId": 0,
+    "ForbiddenEventIds": [],
+    "CanForbiddenEvent": [],
+    "ForbiddenEventGroups": [],
+    "SpoonDropList": [],
+    "__IDX__WorkDescription": 0,
+    "__RAW__WorkDescription": "",
+    "__IDX__EventObjective": [],
+    "__RAW__EventObjective": [],
+    "RelatedTimeAndWeather": {
+      "timeId": 0,
+      "minutes": 0,
+      "fixCurrent": false,
+      "passing": false,
+      "weatherId": 0,
+      "transitionSecond": 0,
+      "atmosphereName": "",
+      "atmosphereMobile": ""
+    },
+    "CounterExtraInfo": [],
+    "PanelImage": {
+      "Name": "",
+      "ImageId": 0
+    },
+    "RelatedItems": [],
+    "TimeInterval": {
+      "startTime": 0,
+      "endTime": 0,
+      "groupName": ""
+    },
+    "SoundStateList": []
+  },
+  "ScheduleInviteRideTaskCfg": {
+    "Id": 60007308,
+    "NextTasks": [
+      60004876
+    ],
+    "Title": 12,
+    "Name": "游荡",
+    "TaskFailGroup": "",
+    "RelatedRaid": 23300888,
+    "WorkDescription": "",
+    "Tags": [
+      20,
+      41
+    ],
+    "Counter": [
+      1
+    ],
+    "EventObjective": [
+      "与%s前往任意娱乐地点"
+    ],
+    "IconPath": "",
+    "MiniMapPath": "",
+    "BigMapPath": "",
+    "ImageId": 0,
+    "SImageId": 0,
+    "TaskMiniMapScale": 0,
+    "BlockId": 0,
+    "PlaySoundId": 0,
+    "IsLimitSoundState": false,
+    "SoundStateDistance": 120,
+    "AgentOccupyList": [],
+    "Drop": 0,
+    "RandomDrop": 0,
+    "RandomDropTimes": 0,
+    "RoleId": 0,
+    "MapEntranceBanTypes": [
+      4294967295
+    ],
+    "RaidMultiMainTaskId": 0,
+    "ForbiddenEventIds": [],
+    "CanForbiddenEvent": [],
+    "ForbiddenEventGroups": [],
+    "SpoonDropList": [],
+    "__IDX__WorkDescription": 0,
+    "__RAW__WorkDescription": "",
+    "__IDX__EventObjective": [
+      4294967293
+    ],
+    "__RAW__EventObjective": [
+      "与%s前往任意娱乐地点"
+    ],
+    "RelatedTimeAndWeather": {
+      "timeId": 0,
+      "minutes": 0,
+      "fixCurrent": false,
+      "passing": false,
+      "weatherId": 0,
+      "transitionSecond": 0,
+      "atmosphereName": "",
+      "atmosphereMobile": ""
+    },
+    "CounterExtraInfo": [],
+    "PanelImage": {
+      "Name": "",
+      "ImageId": 0
+    },
+    "RelatedItems": [],
+    "TimeInterval": {
+      "startTime": 0,
+      "endTime": 0,
+      "groupName": ""
+    },
+    "SoundStateList": []
+  },
+  "DangerSpoonNode": [
+    "DropReward",
+    "DropGadgetReward",
+    "CheckAndDropGadgetReward",
+    "ItemAdd",
+    "ItemRemove",
+    "ItemRemoveAll",
+    "TryRemoveExtractionShooterItem",
+    "TryTakeAgentProfileAllReward",
+    ""
+  ],
+  "BigMapScanRadius": 550,
+  "MapAutoPreview2_Delay": 1.5,
+  "MapAutoPreview2_Scale": 0.5,
+  "MapScanParam": [
+    0.330000013,
+    4000
+  ],
+  "PlayerAttackAndMindBuffs": [
+    52959807,
+    52959808,
+    52959811,
+    52800049
+  ],
+  "TaskTab1": [
+    1
+  ],
+  "TaskTab1Name": {
+    "TabName": "",
+    "__IDX__TabName": 4294967293,
+    "__RAW__TabName": "主线任务",
+    "ImageId": 30300400,
+    "SImageId": 28005457
+  },
+  "TaskTab2": [
+    5,
+    6
+  ],
+  "TaskTab2Name": {
+    "TabName": "",
+    "__IDX__TabName": 4294967293,
+    "__RAW__TabName": "角色任务",
+    "ImageId": 30300406,
+    "SImageId": 28005456
+  },
+  "TaskTab3": [
+    17,
+    9
+  ],
+  "TaskTab3Name": {
+    "TabName": "",
+    "__IDX__TabName": 4294967293,
+    "__RAW__TabName": "委托任务",
+    "ImageId": 30300407,
+    "SImageId": 28005455
+  },
+  "TaskTab4": [
+    4,
+    8,
+    19,
+    7
+  ],
+  "TaskTab4Name": {
+    "TabName": "",
+    "__IDX__TabName": 4294967293,
+    "__RAW__TabName": "支线任务",
+    "ImageId": 30300408,
+    "SImageId": 28005454
+  },
+  "TaskTab5": [
+    4,
+    8,
+    19,
+    2
+  ],
+  "TaskTab5Name": {
+    "TabName": "",
+    "__IDX__TabName": 4294967293,
+    "__RAW__TabName": "重玩任务",
+    "ImageId": 30300408,
+    "SImageId": 28005458
+  },
+  "DisplayTask": [
+    1,
+    4,
+    5,
+    6,
+    8,
+    9,
+    17,
+    19
+  ],
+  "CollectionTaskUnlockByAcceptEvent": [
+    4
+  ],
+  "TaskStartInfo": "Mission Start",
+  "StartInfoTime": 3,
+  "TaskGuideEventIcon": [
+    {
+      "TitleId": 1,
+      "ImageId": 30300012
+    },
+    {
+      "TitleId": 4,
+      "ImageId": 30300007
+    },
+    {
+      "TitleId": 5,
+      "ImageId": 30300009
+    },
+    {
+      "TitleId": 6,
+      "ImageId": 30300008
+    },
+    {
+      "TitleId": 9,
+      "ImageId": 25600478
+    },
+    {
+      "TitleId": 17,
+      "ImageId": 30300014
+    },
+    {
+      "TitleId": 19,
+      "ImageId": 30300010
+    },
+    {
+      "TitleId": 8,
+      "ImageId": 30300010
+    },
+    {
+      "TitleId": 7,
+      "ImageId": 30300010
+    },
+    {
+      "TitleId": 3,
+      "ImageId": 30300010
+    }
+  ],
+  "EndTaskTip": [
+    4,
+    7,
+    5,
+    6
+  ],
+  "OnFootActionTypeSet": [
+    4,
+    5,
+    6
+  ],
+  "TeachingRandomEvent": {
+    "TaskId": 0,
+    "RandomEventId": 0
+  },
+  "TaskGuideGivenUpImageId": 28005516,
+  "TaskGuideGivenUpKeyboardId": 42,
+  "WaitUnloadMaxTime": 2,
+  "WaitLoadMaxTime": 5,
+  "TaskFullscreenPanelClose": 2,
+  "TaskMapTime": 5,
+  "TaskFailedPanelClose": 10,
+  "TaskListTabName": [
+    {
+      "TabName": "Increases the amount of damage dealt by a fixed amount.",
+      "TabType": 0,
+      "__IDX__TabName": 73041,
+      "__RAW__TabName": ""
+    },
+    {
+      "TabName": "Increases the amount of damage dealt by a fixed amount.",
+      "TabType": 1,
+      "__IDX__TabName": 73042,
+      "__RAW__TabName": ""
+    },
+    {
+      "TabName": "Increases the amount of damage dealt by a fixed amount.",
+      "TabType": 2,
+      "__IDX__TabName": 79054,
+      "__RAW__TabName": ""
+    },
+    {
+      "TabName": "Increases the amount of damage dealt by a fixed amount.",
+      "TabType": 3,
+      "__IDX__TabName": 73043,
+      "__RAW__TabName": ""
+    }
+  ],
+  "TaskListCurrenttaskName": 73970609,
+  "AcceptTaskPcKey": [
+    15,
+    16
+  ],
+  "AcceptTaskType": [
+    1,
+    6,
+    2
+  ],
+  "TaskListTabNameCurrent": "Current",
+  "MapRedDotType": [
+    1,
+    6,
+    2
+  ],
+  "MiniMapIconType": [
+    8,
+    21
+  ],
+  "WorkActionFinishAnimDur": 1.20000005,
+  "HackableTaskTitles": [
+    1,
+    4,
+    5,
+    6,
+    7,
+    19
+  ],
+  "ChaosSafeAndDangerIcon": {
+    "safe": 28001728,
+    "danger": 28001080
+  },
+  "FansGiverIcon": 28002471,
+  "FansGiverIneract": [
+    {
+      "interact": 9,
+      "name": "签名"
+    },
+    {
+      "interact": 10,
+      "name": "合影"
+    },
+    {
+      "interact": 11,
+      "name": "击掌"
+    }
+  ],
+  "FansGiverMaxRange": 10,
+  "FansGiverRemoteIneract": [
+    {
+      "interact": 15,
+      "name": "打招呼"
+    }
+  ],
+  "FansGiverSingleIneract": [
+    {
+      "interact": 2030001,
+      "name": "鼓掌"
+    }
+  ],
+  "FansGiverPersonalIneract": [
+    {
+      "interact": 7401,
+      "name": "自拍"
+    },
+    {
+      "interact": 7402,
+      "name": "拍摄其他目标"
+    }
+  ],
+  "LiveStreamCameraNames": [
+    "NeutraMan POV",
+    "Monster POV",
+    "Front panorama",
+    "Side panorama",
+    "Bird’s-eye view"
+  ],
+  "LiveStreamCameraImages": [
+    28021503,
+    28021504,
+    28021502,
+    28021505,
+    28021501
+  ],
+  "LiveStreamEnterTipText": "{0} has joined the livestream",
+  "SkyCountDownEndDate": [
+    2026,
+    6,
+    15,
+    12,
+    0,
+    0
+  ],
+  "SkyCountDownDelay": [
+    15,
+    12,
+    0,
+    0
+  ],
+  "SkyCountDownPos": [
+    -1389,
+    2500,
+    344
+  ],
+  "SkyCountDownDir": [
+    -75,
+    0,
+    50
+  ],
+  "SkyCountDownWidthHeight": [
+    10000,
+    10000
+  ],
+  "SkyCountDownPitch": 45,
+  "MobileQuitText": "是否放弃本次任务？",
+  "TaskOwnVehicleIcon": 28006908
+}

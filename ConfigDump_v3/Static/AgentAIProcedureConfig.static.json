@@ -1,0 +1,302 @@
+{
+  "ReactionCfg": {
+    "Id": 1,
+    "BTName": ""
+  },
+  "PhysicalCfg": {
+    "Id": 2,
+    "BTName": ""
+  },
+  "FreezeCfg": {
+    "Id": 4,
+    "BTName": ""
+  },
+  "PlayerControlCfg": {
+    "Id": 5,
+    "BTName": ""
+  },
+  "GmLogicCfg": {
+    "Id": 501,
+    "BTName": ""
+  },
+  "GmTempCfg": {
+    "Id": 502,
+    "BTName": ""
+  },
+  "PedMoveCfg": {
+    "Id": 1001,
+    "BTName": ""
+  },
+  "MoveToBornPosCfg": {
+    "Id": 1002,
+    "BTName": ""
+  },
+  "SmartObjectUseCfg": {
+    "Id": 1003,
+    "BTName": ""
+  },
+  "SmartObjectS004CrowdWatchCfg": {
+    "Id": 1004,
+    "BTName": ""
+  },
+  "SState004TestCfg": {
+    "Id": 1005,
+    "BTName": ""
+  },
+  "BehaveRoutineCfg": {
+    "Id": 1006,
+    "BTName": ""
+  },
+  "BornBattleCfg": {
+    "Id": 2000,
+    "BTName": ""
+  },
+  "VirusBeAttackedBattleCfg": {
+    "Id": 2001,
+    "BTName": ""
+  },
+  "PoliceExamBattleCfg": {
+    "Id": 2002,
+    "BTName": ""
+  },
+  "EnemiesAllotTargetBattleCfg": {
+    "Id": 2003,
+    "BTName": ""
+  },
+  "EnemyForceLockTargetBattleCfg": {
+    "Id": 2004,
+    "BTName": ""
+  },
+  "ChangeNpcToEnemyBattleCfg": {
+    "Id": 2005,
+    "BTName": ""
+  },
+  "SwitchToBattleModeBattleCfg": {
+    "Id": 2006,
+    "BTName": ""
+  },
+  "CommonEnterBattleCfg": {
+    "Id": 2007,
+    "BTName": "BaseEnterBattle"
+  },
+  "Fans_PerformanceCfg": {
+    "Id": 5001,
+    "BTName": ""
+  },
+  "StartTaskBTNpcTraceUnitCfg": {
+    "Id": 5002,
+    "BTName": "Basic_BattleCompanionFollow"
+  },
+  "TaskBTNpcOutVehicleCfg": {
+    "Id": 5003,
+    "BTName": "Basic_NPCGetOutVehicle"
+  },
+  "TaskBTNpcToVehicleCfg": {
+    "Id": 5004,
+    "BTName": "Basic_NPCGetInVehicle"
+  },
+  "StartTaskBTNpcMoveCfg": {
+    "Id": 5006,
+    "BTName": "Basic_AetherNPCMove"
+  },
+  "ChangeAgentBehaviorCfg": {
+    "Id": 5007,
+    "BTName": ""
+  },
+  "DoAetherAgentBehaviorTaskDefineCfg": {
+    "Id": 5008,
+    "BTName": ""
+  },
+  "StartBTCheckPointMoveCfg": {
+    "Id": 5009,
+    "BTName": "Basic_BattleCompanionLeadingWay"
+  },
+  "CinemaAgentCfg": {
+    "Id": 5010,
+    "BTName": ""
+  },
+  "GiveMilkCfg": {
+    "Id": 5011,
+    "BTName": ""
+  },
+  "GiveGoodAndWatchCfg": {
+    "Id": 5018,
+    "BTName": ""
+  },
+  "SpecialAgentDialogCfg": {
+    "Id": 5023,
+    "BTName": ""
+  },
+  "StartTaskBTNPCTurnCfg": {
+    "Id": 5024,
+    "BTName": "Basic_NPCTurn"
+  },
+  "StartFreedomCompanionCfg": {
+    "Id": 5025,
+    "BTName": "Basic_BattleCompanionFollow"
+  },
+  "TaskBTNpcToVehicleNoInterruptBattleCfg": {
+    "Id": 5027,
+    "BTName": "Basic_NPCGetInVehicle"
+  },
+  "TaskBTNpcOutVehicleNoInterruptBattleCfg": {
+    "Id": 5028,
+    "BTName": "Basic_NPCGetOutVehicle"
+  },
+  "PrisonerToPoliceCarCfg": {
+    "Id": 6002,
+    "BTName": "Police_SuspectGetInVehicle"
+  },
+  "AfterJailCfg": {
+    "Id": 6003,
+    "BTName": "PoliceBird"
+  },
+  "PatientiseaseCfg": {
+    "Id": 6004,
+    "BTName": ""
+  },
+  "CrimeActionCfg": {
+    "Id": 6005,
+    "BTName": ""
+  },
+  "UAVDefaultCfg": {
+    "Id": 6007,
+    "BTName": "UAV_Test"
+  },
+  "DivinerDefaultCfg": {
+    "Id": 6009,
+    "BTName": ""
+  },
+  "FavorNpcScheduleCfg": {
+    "Id": 6010,
+    "BTName": ""
+  },
+  "FavorNpcInteractCfg": {
+    "Id": 6011,
+    "BTName": ""
+  },
+  "SeatInteractPointCfg": {
+    "Id": 6012,
+    "BTName": ""
+  },
+  "PlayPoiActionCfg": {
+    "Id": 6013,
+    "BTName": ""
+  },
+  "ToiletFleeCfg": {
+    "Id": 6014,
+    "BTName": "Animal_Toilet_Flee"
+  },
+  "StaticNpcDefaultCfg": {
+    "Id": 6015,
+    "BTName": ""
+  },
+  "ToiletDefaultMoveCfg": {
+    "Id": 6016,
+    "BTName": "Animal_Toilet_World_Move"
+  },
+  "ToiletDefaultSquatCfg": {
+    "Id": 6017,
+    "BTName": "Animal_Toilet_World_Squat"
+  },
+  "VehicleNpcDefaultCfg": {
+    "Id": 6018,
+    "BTName": ""
+  },
+  "QuestHandoutFlyersRefuseCfg": {
+    "Id": 6019,
+    "BTName": "Quest_HandOutflyers_Refuse"
+  },
+  "DogFollowCfg": {
+    "Id": 6020,
+    "BTName": "Animal_CommonFollow"
+  },
+  "HandOutFlyersRefuseCfg": {
+    "Id": 6021,
+    "BTName": "Quest_HandOutFlyers_Refuse"
+  },
+  "AgentGadgetInteractCfg": {
+    "Id": 6022,
+    "BTName": "Basic_AgentGadgetInteract"
+  },
+  "StartSystemAgentClientBTCfg": {
+    "Id": 7001,
+    "BTName": "System_AgentClientBT"
+  },
+  "StartBehaviorMoveForwardCfg": {
+    "Id": 7002,
+    "BTName": "Behavior_MoveForward"
+  },
+  "StartTestGetInVehicleCfg": {
+    "Id": 7003,
+    "BTName": "Test_GetInVehicle"
+  },
+  "StartPoliceChaseTargetCfg": {
+    "Id": 7004,
+    "BTName": "Police_ChaseTarget"
+  },
+  "StartPoliceAlertWaitingCfg": {
+    "Id": 7005,
+    "BTName": "Police_AlertWaiting"
+  },
+  "StartPoliceMoveToPositionCfg": {
+    "Id": 7006,
+    "BTName": "Police_MoveToPosition"
+  },
+  "StartPoliceUAVFollowCfg": {
+    "Id": 7007,
+    "BTName": "Police_UAVFollow"
+  },
+  "StartPoliceScaredCallPoliceCfg": {
+    "Id": 7008,
+    "BTName": "Police_ScaredCallPolice"
+  },
+  "StartTestGetOutVehicleCfg": {
+    "Id": 7009,
+    "BTName": "Test_GetOutVehicle"
+  },
+  "StartBaseFleeCfg": {
+    "Id": 7010,
+    "BTName": "BaseFlee"
+  },
+  "StartBasicBattleCompanionFollowCfg": {
+    "Id": 7011,
+    "BTName": "Basic_BattleCompanionFollow"
+  },
+  "StartPoliceGreetToRichieCfg": {
+    "Id": 7012,
+    "BTName": "Police_GreetToRichie"
+  },
+  "AnimalChaosDuckDefaultCfg": {
+    "Id": 7013,
+    "BTName": "Animal_ChaosDuck_Default"
+  },
+  "ChaosEcologyGameplayMusicCfg": {
+    "Id": 8000,
+    "BTName": ""
+  },
+  "GameplaySnackStallCfg": {
+    "Id": 8500,
+    "BTName": ""
+  },
+  "CompanionInteractCatCfg": {
+    "Id": 9000,
+    "BTName": "Companion_Interact_Cat"
+  },
+  "CompanionInteractVendingMachineOneCfg": {
+    "Id": 9001,
+    "BTName": "Companion_Interact_VendingMachineOne"
+  },
+  "CompanionInteractVendingMachineTwoCfg": {
+    "Id": 9002,
+    "BTName": "Companion_Interact_VendingMachineTwo"
+  },
+  "CompanionInteractClawMachineCfg": {
+    "Id": 9003,
+    "BTName": "Companion_Interact_ClawMachine"
+  },
+  "BoatingInvitationCfg": {
+    "Id": 9101,
+    "BTName": "FavourNPC_Boating"
+  }
+}

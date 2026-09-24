@@ -1,0 +1,34 @@
+{
+  "_class": "UnitStateUnitStateFuncConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 4,
+  "records": [
+    {
+      "Id": 332,
+      "EnterFuncCode": "self:TaFeiColaBegin()",
+      "StayFuncCode": "self:TaFeiColaTick(1.8,0.12)",
+      "ExitFuncCode": "self:TaFeiColaEnd()"
+    },
+    {
+      "Id": 335,
+      "EnterFuncCode": "self:WearingSpaceSuits()",
+      "StayFuncCode": "",
+      "ExitFuncCode": ""
+    },
+    {
+      "Id": 336,
+      "EnterFuncCode": "self:NoSpaceSuits()",
+      "StayFuncCode": "",
+      "ExitFuncCode": ""
+    },
+    {
+      "Id": 340,
+      "EnterFuncCode": "self:MonsterEnterWeak()",
+      "StayFuncCode": "",
+      "ExitFuncCode": "self:MonsterExitWeak()"
+    }
+  ],
+  "_dumpedCount": 4,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -1,0 +1,126 @@
+{
+  "_class": "UnitBezierMoveActionConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 6,
+  "records": [
+    {
+      "Id": 1,
+      "Desc": "M字跳跃型跑酷Npc的抛物线跳跃轨迹动作序列1",
+      "Content": [
+        {
+          "timeRate": 0,
+          "action": 8002,
+          "group": 1
+        },
+        {
+          "timeRate": 0.5,
+          "action": 1361,
+          "group": 5
+        },
+        {
+          "timeRate": 0.800000012,
+          "action": 1466,
+          "group": 5
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "Desc": "M字跳跃型跑酷Npc的抛物线跳跃轨迹动作序列2",
+      "Content": [
+        {
+          "timeRate": 0,
+          "action": 8005,
+          "group": 1
+        },
+        {
+          "timeRate": 0.660000026,
+          "action": 1361,
+          "group": 5
+        },
+        {
+          "timeRate": 0.819999993,
+          "action": 1351,
+          "group": 1
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "Desc": "M字跳跃型跑酷Npc的抛物线跳跃轨迹动作序列3",
+      "Content": [
+        {
+          "timeRate": 0,
+          "action": 3004,
+          "group": 6
+        },
+        {
+          "timeRate": 0.458000004,
+          "action": 3005,
+          "group": 6
+        },
+        {
+          "timeRate": 0.75,
+          "action": 3010,
+          "group": 6
+        }
+      ]
+    },
+    {
+      "Id": 4,
+      "Desc": "M字跳跃型跑酷Npc的抛物线跳跃轨迹动作序列4",
+      "Content": [
+        {
+          "timeRate": 0,
+          "action": 1102,
+          "group": 23
+        }
+      ]
+    },
+    {
+      "Id": 5,
+      "Desc": "M字跳跃型跑酷Npc的抛物线跳跃轨迹动作序列5",
+      "Content": [
+        {
+          "timeRate": 0,
+          "action": 2001,
+          "group": 40
+        },
+        {
+          "timeRate": 0.5,
+          "action": 2002,
+          "group": 40
+        },
+        {
+          "timeRate": 0.800000012,
+          "action": 2003,
+          "group": 40
+        }
+      ]
+    },
+    {
+      "Id": 6,
+      "Desc": "M字跳跃型跑酷Npc的抛物线跳跃轨迹动作序列6",
+      "Content": [
+        {
+          "timeRate": 0,
+          "action": 5027,
+          "group": 401
+        },
+        {
+          "timeRate": 0.5,
+          "action": 5028,
+          "group": 401
+        },
+        {
+          "timeRate": 0.800000012,
+          "action": 5029,
+          "group": 401
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 6,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

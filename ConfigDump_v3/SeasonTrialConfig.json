@@ -1,0 +1,38 @@
+{
+  "_class": "SeasonTrialConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 2,
+  "records": [
+    {
+      "Id": 44100001,
+      "PrevStage": 0,
+      "NextStage": 44100002,
+      "Season": 44010000,
+      "SeasonGamePlay": 44015000,
+      "ChallengeID": 25,
+      "HyperLinkId": 4000,
+      "UnlockConditionsDes": "",
+      "UnlockType": 0,
+      "MaxProgress": 0,
+      "__IDX__UnlockConditionsDes": 0,
+      "__RAW__UnlockConditionsDes": ""
+    },
+    {
+      "Id": 44100002,
+      "PrevStage": 44100001,
+      "NextStage": 0,
+      "Season": 44010000,
+      "SeasonGamePlay": 44015000,
+      "ChallengeID": 26,
+      "HyperLinkId": 4000,
+      "UnlockConditionsDes": "",
+      "UnlockType": 2,
+      "MaxProgress": 1,
+      "__IDX__UnlockConditionsDes": 0,
+      "__RAW__UnlockConditionsDes": ""
+    }
+  ],
+  "_dumpedCount": 2,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

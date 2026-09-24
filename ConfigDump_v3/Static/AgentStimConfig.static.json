@@ -1,0 +1,89 @@
+{
+  "RemoteAttackSettlementDistanceToPlayer": 5,
+  "VehicleScareCheckAreaWidthOffset": 0,
+  "VehicleScareCheckAreaLengthMap": [
+    5,
+    2,
+    100,
+    25
+  ],
+  "VehicleScareSideCheckAreaWidth": 1.5,
+  "VehicleScareHighCheckSpeed": 15,
+  "VehicleScareMinCheckSpeed": 5,
+  "NpcRunSafeDistance": 2.9000001,
+  "NpcRunReservedAvoidanceTime": 0.100000001,
+  "NpcSprintSafeDistance": 4.5,
+  "NpcSprintReservedAvoidanceTime": 0.100000001,
+  "NpcVisibleViewHalfAngle": 60,
+  "PlayerDirectionHalfAngleToTriggerNpc": 15,
+  "CheckNpcAvoidInAdvanceCDTime": 0.400000006,
+  "PlayerVelocityAboutAdvanceAvoidance": 2.5,
+  "NpcRunAvoidanceAnimSelectedPredictTime": 0.300000012,
+  "NpcSprintAvoidanceAnimSelectedPredictTime": 0.400000006,
+  "NpcAvoidanceAnimSelectedAngle": 45,
+  "NpcInteractionLookAtIkFinishDistance": 10,
+  "NpcInteractionLookAtIkFinishDuration": 10,
+  "ElectricSkillId": [
+    51939642
+  ],
+  "NpcBeFollowedStimDelayTime": 6,
+  "NpcBeFollowedStimRange": 7,
+  "NpcBeFollowedStimDuration": 10,
+  "NpcBeFollowedStimTriggerRate": 1,
+  "AttackIntensityThreshold": 10,
+  "ImpactAndScareLevel1Mapping": [
+    1,
+    2,
+    3
+  ],
+  "ImpactAndScareLevel2Mapping": [
+    4,
+    5,
+    10
+  ],
+  "VehicleCollisionLevelThreshold": [
+    8000,
+    30000
+  ],
+  "PrestigeStimReactCD": 9,
+  "NpcContinueGazeToStimTime": 5.5,
+  "NpcContinueGazeToStimDistance": 6,
+  "NpcContinueGazeToStimAngle": 40,
+  "CompanionGazeToStimTimeRatio": 2,
+  "NPCStunPassingRoundRadius": 3,
+  "CrazyDriveSpeedThreshold": 80,
+  "CrazyDriveBrakingThreshold": -50,
+  "AgentVehicleTypeScareHighCheckSpeed": 1,
+  "AgentVehicleTypeScareMinCheckSpeed": 0,
+  "AgentVehicleTypeForwardBounds": [
+    1,
+    2,
+    9
+  ],
+  "AgentVehicleTypeSideBounds": [
+    3,
+    2,
+    9
+  ],
+  "IntenseChaseThresholdDistance": 15,
+  "IntenseChaseThresholdAngle": 60,
+  "IntenseChaseThresholdSpeed": 4.69999981,
+  "VehicleMultiCollisionScareTime": 10,
+  "VehicleMultiCollisionScareThreshold": 7,
+  "VehicleMultiCollisionScareScore": [
+    1,
+    2,
+    4
+  ],
+  "MultiVehScareTimeWindow": 10,
+  "MultiVehScareCountThreshold": 3,
+  "LongAimedThreshold": 8,
+  "BlockStimReceiveUnitStates": [
+    10255,
+    10256,
+    10257,
+    10258,
+    10380
+  ],
+  "SkateBoardScareStimSpeedThrehold": 40
+}

@@ -1,0 +1,604 @@
+{
+  "_class": "RailLineConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 15,
+  "records": [
+    {
+      "Id": 1,
+      "LineName": "Bayshore Line (Inner Ring)",
+      "TrainTemplateId": 1,
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailPath/LightRailPath_1_cw.prefab",
+      "RingLine": false,
+      "Stations": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        1,
+        0
+      ],
+      "InboundAnnouncements": [
+        70601086,
+        70601090,
+        70601092
+      ],
+      "LastTrainAnnouncements": [
+        70601086,
+        70601090,
+        70601093,
+        70601094
+      ],
+      "FirstStopDumb": true,
+      "LastStopDumb": true,
+      "DepartureInterval": 90,
+      "MaxTrainAmount": 12,
+      "DestinationArrivalTime": 1070.28198,
+      "TotalTravelDuration": 1123.08801,
+      "AvgVelocity": 12,
+      "BlobName": "LightRailPath_1_cw",
+      "MaxSpeedLimit": 12,
+      "Acceleration": 0.603799999,
+      "IsTestPath": false,
+      "__IDX__LineName": 20740,
+      "__RAW__LineName": "",
+      "FirstTrainTime": {
+        "hour": 6,
+        "minute": 0
+      },
+      "LastTrainTime": {
+        "hour": 23,
+        "minute": 30
+      }
+    },
+    {
+      "Id": 2,
+      "LineName": "Bayshore Line (Outer Ring)",
+      "TrainTemplateId": 1,
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailPath/LightRailPath_1_ccw.prefab",
+      "RingLine": false,
+      "Stations": [
+        0,
+        1,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "InboundAnnouncements": [
+        70601087,
+        70601090,
+        70601092
+      ],
+      "LastTrainAnnouncements": [
+        70601087,
+        70601090,
+        70601093,
+        70601094
+      ],
+      "FirstStopDumb": true,
+      "LastStopDumb": true,
+      "DepartureInterval": 90,
+      "MaxTrainAmount": 12,
+      "DestinationArrivalTime": 1071.98499,
+      "TotalTravelDuration": 1124.802,
+      "AvgVelocity": 12,
+      "BlobName": "LightRailPath_1_ccw",
+      "MaxSpeedLimit": 12,
+      "Acceleration": 0.603799999,
+      "IsTestPath": false,
+      "__IDX__LineName": 20741,
+      "__RAW__LineName": "",
+      "FirstTrainTime": {
+        "hour": 6,
+        "minute": 0
+      },
+      "LastTrainTime": {
+        "hour": 23,
+        "minute": 30
+      }
+    },
+    {
+      "Id": 3,
+      "LineName": "Central Line",
+      "TrainTemplateId": 2,
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailPath/LightRailPath_2_cw.prefab",
+      "RingLine": true,
+      "Stations": [
+        6,
+        11,
+        12,
+        13,
+        4,
+        6
+      ],
+      "InboundAnnouncements": [
+        70601088,
+        70601091,
+        70601092
+      ],
+      "LastTrainAnnouncements": [
+        70601088,
+        70601091,
+        70601093,
+        70601094
+      ],
+      "FirstStopDumb": false,
+      "LastStopDumb": false,
+      "DepartureInterval": 90,
+      "MaxTrainAmount": 7,
+      "DestinationArrivalTime": 655.294617,
+      "TotalTravelDuration": 655.294617,
+      "AvgVelocity": 12,
+      "BlobName": "LightRailPath_2_cw",
+      "MaxSpeedLimit": 12,
+      "Acceleration": 0.685000002,
+      "IsTestPath": false,
+      "__IDX__LineName": 20742,
+      "__RAW__LineName": "",
+      "FirstTrainTime": {
+        "hour": 6,
+        "minute": 0
+      },
+      "LastTrainTime": {
+        "hour": 23,
+        "minute": 30
+      }
+    },
+    {
+      "Id": 4,
+      "LineName": "East Line",
+      "TrainTemplateId": 3,
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailPath/LightRailPath_3_cw.prefab",
+      "RingLine": true,
+      "Stations": [
+        4,
+        21,
+        22,
+        23,
+        24,
+        4
+      ],
+      "InboundAnnouncements": [
+        70601089,
+        70601091,
+        70601092
+      ],
+      "LastTrainAnnouncements": [
+        70601089,
+        70601091,
+        70601093,
+        70601094
+      ],
+      "FirstStopDumb": false,
+      "LastStopDumb": false,
+      "DepartureInterval": 90,
+      "MaxTrainAmount": 7,
+      "DestinationArrivalTime": 608.478271,
+      "TotalTravelDuration": 608.478271,
+      "AvgVelocity": 10,
+      "BlobName": "LightRailPath_3_cw",
+      "MaxSpeedLimit": 10,
+      "Acceleration": 0.5,
+      "IsTestPath": false,
+      "__IDX__LineName": 20743,
+      "__RAW__LineName": "",
+      "FirstTrainTime": {
+        "hour": 6,
+        "minute": 0
+      },
+      "LastTrainTime": {
+        "hour": 23,
+        "minute": 30
+      }
+    },
+    {
+      "Id": 5,
+      "LineName": "测试线路1（快速）",
+      "TrainTemplateId": 4,
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailPath/LightRailPath_LineTest_Fast.prefab",
+      "RingLine": false,
+      "Stations": [],
+      "InboundAnnouncements": [],
+      "LastTrainAnnouncements": [],
+      "FirstStopDumb": false,
+      "LastStopDumb": false,
+      "DepartureInterval": 10,
+      "MaxTrainAmount": 4,
+      "DestinationArrivalTime": 40.3666687,
+      "TotalTravelDuration": 40.3666687,
+      "AvgVelocity": 0,
+      "BlobName": "LightRailPath_LineTest_Fast",
+      "MaxSpeedLimit": 12,
+      "Acceleration": 10,
+      "IsTestPath": true,
+      "__IDX__LineName": 4294967293,
+      "__RAW__LineName": "测试线路1（快速）",
+      "FirstTrainTime": {
+        "hour": 0,
+        "minute": 0
+      },
+      "LastTrainTime": {
+        "hour": 23,
+        "minute": 59
+      }
+    },
+    {
+      "Id": 6,
+      "LineName": "测试线路2（中速）",
+      "TrainTemplateId": 4,
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailPath/LightRailPath_LineTest_Mid.prefab",
+      "RingLine": false,
+      "Stations": [],
+      "InboundAnnouncements": [],
+      "LastTrainAnnouncements": [],
+      "FirstStopDumb": false,
+      "LastStopDumb": false,
+      "DepartureInterval": 10,
+      "MaxTrainAmount": 6,
+      "DestinationArrivalTime": 58.9333305,
+      "TotalTravelDuration": 58.9333305,
+      "AvgVelocity": 0,
+      "BlobName": "LightRailPath_LineTest_Mid",
+      "MaxSpeedLimit": 6,
+      "Acceleration": 10,
+      "IsTestPath": true,
+      "__IDX__LineName": 4294967293,
+      "__RAW__LineName": "测试线路2（中速）",
+      "FirstTrainTime": {
+        "hour": 0,
+        "minute": 0
+      },
+      "LastTrainTime": {
+        "hour": 23,
+        "minute": 59
+      }
+    },
+    {
+      "Id": 7,
+      "LineName": "测试线路3（慢速）",
+      "TrainTemplateId": 4,
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailPath/LightRailPath_LineTest_Slow.prefab",
+      "RingLine": false,
+      "Stations": [],
+      "InboundAnnouncements": [],
+      "LastTrainAnnouncements": [],
+      "FirstStopDumb": false,
+      "LastStopDumb": false,
+      "DepartureInterval": 25,
+      "MaxTrainAmount": 6,
+      "DestinationArrivalTime": 250.100006,
+      "TotalTravelDuration": 250.100006,
+      "AvgVelocity": 0,
+      "BlobName": "LightRailPath_LineTest_Slow",
+      "MaxSpeedLimit": 1,
+      "Acceleration": 10,
+      "IsTestPath": true,
+      "__IDX__LineName": 4294967293,
+      "__RAW__LineName": "测试线路3（慢速）",
+      "FirstTrainTime": {
+        "hour": 0,
+        "minute": 0
+      },
+      "LastTrainTime": {
+        "hour": 23,
+        "minute": 59
+      }
+    },
+    {
+      "Id": 8,
+      "LineName": "测试线路4-环线",
+      "TrainTemplateId": 4,
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailPath/LightRailPath_TurnTest.prefab",
+      "RingLine": true,
+      "Stations": [],
+      "InboundAnnouncements": [],
+      "LastTrainAnnouncements": [],
+      "FirstStopDumb": false,
+      "LastStopDumb": false,
+      "DepartureInterval": 60,
+      "MaxTrainAmount": 2,
+      "DestinationArrivalTime": 142.666107,
+      "TotalTravelDuration": 142.666107,
+      "AvgVelocity": 0,
+      "BlobName": "LightRailPath_TurnTest",
+      "MaxSpeedLimit": 12,
+      "Acceleration": 0.699999988,
+      "IsTestPath": true,
+      "__IDX__LineName": 4294967293,
+      "__RAW__LineName": "测试线路4-环线",
+      "FirstTrainTime": {
+        "hour": 0,
+        "minute": 0
+      },
+      "LastTrainTime": {
+        "hour": 23,
+        "minute": 59
+      }
+    },
+    {
+      "Id": 9,
+      "LineName": "1号线-上行",
+      "TrainTemplateId": 5,
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailPath/LightRailPath_cx1_upline.prefab",
+      "RingLine": false,
+      "Stations": [
+        0,
+        42,
+        43,
+        44,
+        45,
+        36,
+        0
+      ],
+      "InboundAnnouncements": [],
+      "LastTrainAnnouncements": [],
+      "FirstStopDumb": true,
+      "LastStopDumb": true,
+      "DepartureInterval": 90,
+      "MaxTrainAmount": 7,
+      "DestinationArrivalTime": 532.149109,
+      "TotalTravelDuration": 612.072876,
+      "AvgVelocity": 12,
+      "BlobName": "LightRailPath_cx1_upline",
+      "MaxSpeedLimit": 12,
+      "Acceleration": 0.603799999,
+      "IsTestPath": false,
+      "__IDX__LineName": 4294967293,
+      "__RAW__LineName": "1号线-上行",
+      "FirstTrainTime": {
+        "hour": 6,
+        "minute": 0
+      },
+      "LastTrainTime": {
+        "hour": 23,
+        "minute": 30
+      }
+    },
+    {
+      "Id": 10,
+      "LineName": "1号线-下行",
+      "TrainTemplateId": 5,
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailPath/LightRailPath_cx1_downline.prefab",
+      "RingLine": false,
+      "Stations": [
+        0,
+        36,
+        45,
+        44,
+        43,
+        42,
+        0
+      ],
+      "InboundAnnouncements": [],
+      "LastTrainAnnouncements": [],
+      "FirstStopDumb": true,
+      "LastStopDumb": true,
+      "DepartureInterval": 90,
+      "MaxTrainAmount": 7,
+      "DestinationArrivalTime": 453.748108,
+      "TotalTravelDuration": 611.909912,
+      "AvgVelocity": 12,
+      "BlobName": "LightRailPath_cx1_downline",
+      "MaxSpeedLimit": 12,
+      "Acceleration": 0.603799999,
+      "IsTestPath": false,
+      "__IDX__LineName": 4294967293,
+      "__RAW__LineName": "1号线-下行",
+      "FirstTrainTime": {
+        "hour": 6,
+        "minute": 0
+      },
+      "LastTrainTime": {
+        "hour": 23,
+        "minute": 30
+      }
+    },
+    {
+      "Id": 11,
+      "LineName": "2号线-上行",
+      "TrainTemplateId": 5,
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailPath/LightRailPath_cx2_upline.prefab",
+      "RingLine": false,
+      "Stations": [
+        0,
+        51,
+        52,
+        35,
+        45,
+        0
+      ],
+      "InboundAnnouncements": [],
+      "LastTrainAnnouncements": [],
+      "FirstStopDumb": true,
+      "LastStopDumb": true,
+      "DepartureInterval": 90,
+      "MaxTrainAmount": 6,
+      "DestinationArrivalTime": 410.557892,
+      "TotalTravelDuration": 553.24231,
+      "AvgVelocity": 12,
+      "BlobName": "LightRailPath_cx2_upline",
+      "MaxSpeedLimit": 12,
+      "Acceleration": 0.603799999,
+      "IsTestPath": false,
+      "__IDX__LineName": 4294967293,
+      "__RAW__LineName": "2号线-上行",
+      "FirstTrainTime": {
+        "hour": 6,
+        "minute": 0
+      },
+      "LastTrainTime": {
+        "hour": 23,
+        "minute": 30
+      }
+    },
+    {
+      "Id": 12,
+      "LineName": "2号线-下行",
+      "TrainTemplateId": 5,
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailPath/LightRailPath_cx2_downline.prefab",
+      "RingLine": false,
+      "Stations": [
+        0,
+        45,
+        35,
+        52,
+        51,
+        0
+      ],
+      "InboundAnnouncements": [],
+      "LastTrainAnnouncements": [],
+      "FirstStopDumb": true,
+      "LastStopDumb": true,
+      "DepartureInterval": 90,
+      "MaxTrainAmount": 6,
+      "DestinationArrivalTime": 446.350311,
+      "TotalTravelDuration": 552.338684,
+      "AvgVelocity": 12,
+      "BlobName": "LightRailPath_cx2_downline",
+      "MaxSpeedLimit": 12,
+      "Acceleration": 0.603799999,
+      "IsTestPath": false,
+      "__IDX__LineName": 4294967293,
+      "__RAW__LineName": "2号线-下行",
+      "FirstTrainTime": {
+        "hour": 6,
+        "minute": 0
+      },
+      "LastTrainTime": {
+        "hour": 23,
+        "minute": 30
+      }
+    },
+    {
+      "Id": 13,
+      "LineName": "3号线-上行",
+      "TrainTemplateId": 5,
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailPath/LightRailPath_cx3_upline.prefab",
+      "RingLine": false,
+      "Stations": [
+        0,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        0
+      ],
+      "InboundAnnouncements": [],
+      "LastTrainAnnouncements": [],
+      "FirstStopDumb": true,
+      "LastStopDumb": true,
+      "DepartureInterval": 90,
+      "MaxTrainAmount": 8,
+      "DestinationArrivalTime": 603.998413,
+      "TotalTravelDuration": 686.357483,
+      "AvgVelocity": 12,
+      "BlobName": "LightRailPath_cx3_upline",
+      "MaxSpeedLimit": 12,
+      "Acceleration": 0.603799999,
+      "IsTestPath": false,
+      "__IDX__LineName": 4294967293,
+      "__RAW__LineName": "3号线-上行",
+      "FirstTrainTime": {
+        "hour": 6,
+        "minute": 0
+      },
+      "LastTrainTime": {
+        "hour": 23,
+        "minute": 30
+      }
+    },
+    {
+      "Id": 14,
+      "LineName": "3号线-下行",
+      "TrainTemplateId": 5,
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailPath/LightRailPath_cx3_downline.prefab",
+      "RingLine": false,
+      "Stations": [
+        0,
+        36,
+        35,
+        34,
+        33,
+        32,
+        31,
+        0
+      ],
+      "InboundAnnouncements": [],
+      "LastTrainAnnouncements": [],
+      "FirstStopDumb": true,
+      "LastStopDumb": true,
+      "DepartureInterval": 90,
+      "MaxTrainAmount": 8,
+      "DestinationArrivalTime": 588.62262,
+      "TotalTravelDuration": 685.568787,
+      "AvgVelocity": 12,
+      "BlobName": "LightRailPath_cx3_downline",
+      "MaxSpeedLimit": 12,
+      "Acceleration": 0.603799999,
+      "IsTestPath": false,
+      "__IDX__LineName": 4294967293,
+      "__RAW__LineName": "3号线-下行",
+      "FirstTrainTime": {
+        "hour": 6,
+        "minute": 0
+      },
+      "LastTrainTime": {
+        "hour": 23,
+        "minute": 30
+      }
+    },
+    {
+      "Id": 15,
+      "LineName": "画舫",
+      "TrainTemplateId": 6,
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailPath/LakeCruisePath_cx4_ccw.prefab",
+      "RingLine": true,
+      "Stations": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        61
+      ],
+      "InboundAnnouncements": [],
+      "LastTrainAnnouncements": [],
+      "FirstStopDumb": false,
+      "LastStopDumb": false,
+      "DepartureInterval": 90,
+      "MaxTrainAmount": 10,
+      "DestinationArrivalTime": 915.704285,
+      "TotalTravelDuration": 915.704285,
+      "AvgVelocity": 12,
+      "BlobName": "LakeCruisePath_cx4_ccw",
+      "MaxSpeedLimit": 12,
+      "Acceleration": 0.300000012,
+      "IsTestPath": false,
+      "__IDX__LineName": 4294967293,
+      "__RAW__LineName": "画舫",
+      "FirstTrainTime": {
+        "hour": 6,
+        "minute": 0
+      },
+      "LastTrainTime": {
+        "hour": 23,
+        "minute": 30
+      }
+    }
+  ],
+  "_dumpedCount": 15,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

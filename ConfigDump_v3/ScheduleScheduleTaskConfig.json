@@ -1,0 +1,361 @@
+{
+  "_class": "ScheduleScheduleTaskConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 27,
+  "records": [
+    {
+      "Id": 1,
+      "Describe": "Clear %s Chaos Camps",
+      "Progress": 1,
+      "Pool": "Enemy",
+      "__IDX__Describe": 39044,
+      "__RAW__Describe": "",
+      "Track": {
+        "locateType": 0,
+        "producePoint": 0,
+        "subQuest": 0
+      }
+    },
+    {
+      "Id": 2,
+      "Describe": "Nullify %s Chaos",
+      "Progress": 5,
+      "Pool": "Enemy",
+      "__IDX__Describe": 39055,
+      "__RAW__Describe": "",
+      "Track": {
+        "locateType": 0,
+        "producePoint": 0,
+        "subQuest": 0
+      }
+    },
+    {
+      "Id": 3,
+      "Describe": "Clear Maniac Chaos %s times",
+      "Progress": 1,
+      "Pool": "Challenge",
+      "__IDX__Describe": 39063,
+      "__RAW__Describe": "",
+      "Track": {
+        "locateType": 0,
+        "producePoint": 0,
+        "subQuest": 0
+      }
+    },
+    {
+      "Id": 6,
+      "Describe": "Interact with cats %s times",
+      "Progress": 1,
+      "Pool": "Life",
+      "__IDX__Describe": 39064,
+      "__RAW__Describe": "",
+      "Track": {
+        "locateType": 1,
+        "producePoint": 9,
+        "subQuest": 0
+      }
+    },
+    {
+      "Id": 8,
+      "Describe": "Win %s prizes from the Claw Machine",
+      "Progress": 1,
+      "Pool": "LifeHard",
+      "__IDX__Describe": 39065,
+      "__RAW__Describe": "",
+      "Track": {
+        "locateType": 1,
+        "producePoint": 11,
+        "subQuest": 0
+      }
+    },
+    {
+      "Id": 9,
+      "Describe": "Play Forest of Seals %s times at 1UP",
+      "Progress": 1,
+      "Pool": "Life",
+      "__IDX__Describe": 39066,
+      "__RAW__Describe": "",
+      "Track": {
+        "locateType": 1,
+        "producePoint": 11,
+        "subQuest": 0
+      }
+    },
+    {
+      "Id": 11,
+      "Describe": "Destroy %s objects",
+      "Progress": 5,
+      "Pool": "Scene",
+      "__IDX__Describe": 39040,
+      "__RAW__Describe": "",
+      "Track": {
+        "locateType": 0,
+        "producePoint": 0,
+        "subQuest": 0
+      }
+    },
+    {
+      "Id": 13,
+      "Describe": "Invite others to dine %s times",
+      "Progress": 1,
+      "Pool": "Invitation",
+      "__IDX__Describe": 39041,
+      "__RAW__Describe": "",
+      "Track": {
+        "locateType": 1,
+        "producePoint": 9,
+        "subQuest": 0
+      }
+    },
+    {
+      "Id": 14,
+      "Describe": "Invite others to watch a movie %s times",
+      "Progress": 1,
+      "Pool": "Invitation",
+      "__IDX__Describe": 39042,
+      "__RAW__Describe": "",
+      "Track": {
+        "locateType": 1,
+        "producePoint": 6,
+        "subQuest": 0
+      }
+    },
+    {
+      "Id": 15,
+      "Describe": "Support %s times at Sonic Boom",
+      "Progress": 1,
+      "Pool": "LifeHard",
+      "__IDX__Describe": 39043,
+      "__RAW__Describe": "",
+      "Track": {
+        "locateType": 1,
+        "producePoint": 8,
+        "subQuest": 0
+      }
+    },
+    {
+      "Id": 16,
+      "Describe": "Take %s selfies",
+      "Progress": 1,
+      "Pool": "Scene",
+      "__IDX__Describe": 21214,
+      "__RAW__Describe": "",
+      "Track": {
+        "locateType": 0,
+        "producePoint": 0,
+        "subQuest": 0
+      }
+    },
+    {
+      "Id": 19,
+      "Describe": "Complete %s Incidents",
+      "Progress": 2,
+      "Pool": "Enemy",
+      "__IDX__Describe": 21217,
+      "__RAW__Describe": "",
+      "Track": {
+        "locateType": 0,
+        "producePoint": 0,
+        "subQuest": 0
+      }
+    },
+    {
+      "Id": 20,
+      "Describe": "Swim for %s meters",
+      "Progress": 1000,
+      "Pool": "Life",
+      "__IDX__Describe": 39045,
+      "__RAW__Describe": "",
+      "Track": {
+        "locateType": 0,
+        "producePoint": 0,
+        "subQuest": 0
+      }
+    },
+    {
+      "Id": 21,
+      "Describe": "Drive for %s meters",
+      "Progress": 1000,
+      "Pool": "Life",
+      "__IDX__Describe": 39046,
+      "__RAW__Describe": "",
+      "Track": {
+        "locateType": 0,
+        "producePoint": 0,
+        "subQuest": 0
+      }
+    },
+    {
+      "Id": 22,
+      "Describe": "Craft %s items",
+      "Progress": 1,
+      "Pool": "Life",
+      "__IDX__Describe": 39047,
+      "__RAW__Describe": "",
+      "Track": {
+        "locateType": 0,
+        "producePoint": 0,
+        "subQuest": 0
+      }
+    },
+    {
+      "Id": 23,
+      "Describe": "Daily Login",
+      "Progress": 1,
+      "Pool": "Daily",
+      "__IDX__Describe": 39048,
+      "__RAW__Describe": "",
+      "Track": {
+        "locateType": 0,
+        "producePoint": 0,
+        "subQuest": 0
+      }
+    },
+    {
+      "Id": 25,
+      "Describe": "Take the subway %s times",
+      "Progress": 1,
+      "Pool": "Life",
+      "__IDX__Describe": 39050,
+      "__RAW__Describe": "",
+      "Track": {
+        "locateType": 0,
+        "producePoint": 0,
+        "subQuest": 0
+      }
+    },
+    {
+      "Id": 26,
+      "Describe": "Complete %s workouts",
+      "Progress": 1,
+      "Pool": "Life",
+      "__IDX__Describe": 39051,
+      "__RAW__Describe": "",
+      "Track": {
+        "locateType": 0,
+        "producePoint": 0,
+        "subQuest": 0
+      }
+    },
+    {
+      "Id": 27,
+      "Describe": "Dance for %s minutes",
+      "Progress": 1,
+      "Pool": "Life",
+      "__IDX__Describe": 39052,
+      "__RAW__Describe": "",
+      "Track": {
+        "locateType": 0,
+        "producePoint": 0,
+        "subQuest": 0
+      }
+    },
+    {
+      "Id": 28,
+      "Describe": "Ride the Ferris wheel %s times",
+      "Progress": 1,
+      "Pool": "Life",
+      "__IDX__Describe": 39053,
+      "__RAW__Describe": "",
+      "Track": {
+        "locateType": 0,
+        "producePoint": 0,
+        "subQuest": 0
+      }
+    },
+    {
+      "Id": 29,
+      "Describe": "Complete %s mahjong games",
+      "Progress": 1,
+      "Pool": "Life",
+      "__IDX__Describe": 39054,
+      "__RAW__Describe": "",
+      "Track": {
+        "locateType": 0,
+        "producePoint": 0,
+        "subQuest": 0
+      }
+    },
+    {
+      "Id": 30,
+      "Describe": "Complete %s basketball matches",
+      "Progress": 1,
+      "Pool": "Life",
+      "__IDX__Describe": 39056,
+      "__RAW__Describe": "",
+      "Track": {
+        "locateType": 0,
+        "producePoint": 0,
+        "subQuest": 0
+      }
+    },
+    {
+      "Id": 31,
+      "Describe": "Complete %s darts matches",
+      "Progress": 1,
+      "Pool": "Life",
+      "__IDX__Describe": 39057,
+      "__RAW__Describe": "",
+      "Track": {
+        "locateType": 0,
+        "producePoint": 0,
+        "subQuest": 0
+      }
+    },
+    {
+      "Id": 34,
+      "Describe": "Spend %s Golvent",
+      "Progress": 10000,
+      "Pool": "Life",
+      "__IDX__Describe": 39059,
+      "__RAW__Describe": "",
+      "Track": {
+        "locateType": 0,
+        "producePoint": 0,
+        "subQuest": 0
+      }
+    },
+    {
+      "Id": 35,
+      "Describe": "Commandeer Vehicles %s times",
+      "Progress": 1,
+      "Pool": "Life",
+      "__IDX__Describe": 39060,
+      "__RAW__Describe": "",
+      "Track": {
+        "locateType": 0,
+        "producePoint": 0,
+        "subQuest": 0
+      }
+    },
+    {
+      "Id": 36,
+      "Describe": "Make %s phone calls",
+      "Progress": 1,
+      "Pool": "Life",
+      "__IDX__Describe": 39061,
+      "__RAW__Describe": "",
+      "Track": {
+        "locateType": 0,
+        "producePoint": 0,
+        "subQuest": 0
+      }
+    },
+    {
+      "Id": 37,
+      "Describe": "Complete %s Character upgrades",
+      "Progress": 1,
+      "Pool": "Enemy",
+      "__IDX__Describe": 39062,
+      "__RAW__Describe": "",
+      "Track": {
+        "locateType": 0,
+        "producePoint": 0,
+        "subQuest": 0
+      }
+    }
+  ],
+  "_dumpedCount": 27,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

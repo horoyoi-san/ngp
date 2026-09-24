@@ -1,0 +1,50 @@
+{
+  "_class": "AgentStimEventDropItemTypeConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 10,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "NoDrop"
+    },
+    {
+      "Id": 2,
+      "Name": "AllDrop"
+    },
+    {
+      "Id": 3,
+      "Name": "NonGraspable"
+    },
+    {
+      "Id": 4,
+      "Name": "Graspable"
+    },
+    {
+      "Id": 5,
+      "Name": "Small_NonGraspable"
+    },
+    {
+      "Id": 6,
+      "Name": "Small_Graspable"
+    },
+    {
+      "Id": 7,
+      "Name": "Medium_NonGraspable"
+    },
+    {
+      "Id": 8,
+      "Name": "Medium_Graspable"
+    },
+    {
+      "Id": 9,
+      "Name": "Large_NonGraspable"
+    },
+    {
+      "Id": 10,
+      "Name": "Large_Graspable"
+    }
+  ],
+  "_dumpedCount": 10,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

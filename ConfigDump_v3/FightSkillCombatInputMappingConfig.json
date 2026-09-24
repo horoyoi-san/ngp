@@ -1,0 +1,130 @@
+{
+  "_class": "FightSkillCombatInputMappingConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 20,
+  "records": [
+    {
+      "Id": 1,
+      "PCInput": "{guide,pckey,129,1}",
+      "ControllerInput": "{controllerCellId,4,0}",
+      "MobileInput": "#Icon_S_BattleSkill_Icon_NormalAttack_Small"
+    },
+    {
+      "Id": 2,
+      "PCInput": "{guide,pckey,130,1}",
+      "ControllerInput": "{controllerCellId,1,0}",
+      "MobileInput": "#Icon_S_BattleSkill_Icon_MeleeHeavy_Small"
+    },
+    {
+      "Id": 3,
+      "PCInput": "{guide,pckey,131,1}",
+      "ControllerInput": "{controllerCellId,1,0}+{controllerCellId,2,0}",
+      "MobileInput": "#Icon_S_BattleSkill_Icon_Ultimate_Small"
+    },
+    {
+      "Id": 4,
+      "PCInput": "{guide,pckey,129,1}",
+      "ControllerInput": "{controllerCellId,8,0}",
+      "MobileInput": "#Icon_S_BattleSkill_Icon_Shoot_Small"
+    },
+    {
+      "Id": 5,
+      "PCInput": "{guide,pckey,133,1}",
+      "ControllerInput": "{controllerCellId,7,0}",
+      "MobileInput": "#Icon_S_BattleSkill_Icon_RangedAim_Small"
+    },
+    {
+      "Id": 6,
+      "PCInput": "{guide,pckey,130,1}",
+      "ControllerInput": "{controllerCellId,4,0}",
+      "MobileInput": "#Icon_S_BattleSkill_Icon_RangedMelee_Small"
+    },
+    {
+      "Id": 7,
+      "PCInput": "{guide,pckey,131,1}",
+      "ControllerInput": "{controllerCellId,1,0}",
+      "MobileInput": "#Icon_S_BattleSkill_Icon_RangedReload_Small"
+    },
+    {
+      "Id": 8,
+      "PCInput": "{guide,pckey,105,1}",
+      "ControllerInput": "{controllerCellId,3,0}",
+      "MobileInput": "#Icon_S_BattleSkill_Icon_Jump_Small"
+    },
+    {
+      "Id": 9,
+      "PCInput": "{guide,pckey,133,1}",
+      "ControllerInput": "{controllerCellId,5,0}",
+      "MobileInput": "#Icon_S_BattleSkill_Icon_Block_Small"
+    },
+    {
+      "Id": 10,
+      "PCInput": "{guide,pckey,107,1}",
+      "ControllerInput": "{controllerCellId,2,0}",
+      "MobileInput": "#Icon_S_BattleSkill_Icon_Dodge_Small"
+    },
+    {
+      "Id": 11,
+      "PCInput": "[图标暂缺]",
+      "ControllerInput": "[图标暂缺]",
+      "MobileInput": "[图标暂缺]"
+    },
+    {
+      "Id": 12,
+      "PCInput": "{guide,pckey,11,1}",
+      "ControllerInput": "{controllerCellId,31,5}",
+      "MobileInput": "#Icon_S_Icon_MoveUp_Small"
+    },
+    {
+      "Id": 13,
+      "PCInput": "{guide,pckey,12,1}",
+      "ControllerInput": "{controllerCellId,30,5}",
+      "MobileInput": "#Icon_S_Icon_MoveLeft_Small"
+    },
+    {
+      "Id": 14,
+      "PCInput": "{guide,pckey,13,1}",
+      "ControllerInput": "{controllerCellId,31,8}",
+      "MobileInput": "#Icon_S_Icon_MoveDown_Small"
+    },
+    {
+      "Id": 15,
+      "PCInput": "{guide,pckey,14,1}",
+      "ControllerInput": "{controllerCellId,30,8}",
+      "MobileInput": "#Icon_S_Icon_MoveRight_Small"
+    },
+    {
+      "Id": 16,
+      "PCInput": "{guide,pckey,10,1}",
+      "ControllerInput": "{controllerCellId,5,0}",
+      "MobileInput": "#Icon_S_BattleSkill_Icon_KnockDown_Small"
+    },
+    {
+      "Id": 17,
+      "PCInput": "#Icon_S_BattleSkill_Icon_Special_Xun",
+      "ControllerInput": "#Icon_S_BattleSkill_Icon_Special_Xun",
+      "MobileInput": "#Icon_S_BattleSkill_Icon_Special_Xun"
+    },
+    {
+      "Id": 18,
+      "PCInput": "#Icon_S_BattleSkill_Icon_Special_Gang",
+      "ControllerInput": "#Icon_S_BattleSkill_Icon_Special_Gang",
+      "MobileInput": "#Icon_S_BattleSkill_Icon_Special_Gang"
+    },
+    {
+      "Id": 19,
+      "PCInput": "#Icon_S_BattleSkill_Icon_Special_Qiao",
+      "ControllerInput": "#Icon_S_BattleSkill_Icon_Special_Qiao",
+      "MobileInput": "#Icon_S_BattleSkill_Icon_Special_Qiao"
+    },
+    {
+      "Id": 20,
+      "PCInput": "{guide,pckey,128,1}",
+      "ControllerInput": "{controllerCellId,6,0}",
+      "MobileInput": "#Icon_S_BattleSkill_Icon_MindPower_Small"
+    }
+  ],
+  "_dumpedCount": 20,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

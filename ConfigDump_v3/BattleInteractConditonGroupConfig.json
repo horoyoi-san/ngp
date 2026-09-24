@@ -1,0 +1,46 @@
+{
+  "_class": "BattleInteractConditonGroupConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 3,
+  "records": [
+    {
+      "Id": 1001,
+      "Condition": 1,
+      "Params": [],
+      "UnitStateCondition": 8,
+      "BuffCondition": 0,
+      "GameplayTagQuery": 0,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 1002,
+      "Condition": 4,
+      "Params": [],
+      "UnitStateCondition": 0,
+      "BuffCondition": 0,
+      "GameplayTagQuery": 0,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    },
+    {
+      "Id": 1003,
+      "Condition": 11,
+      "Params": [],
+      "UnitStateCondition": 0,
+      "BuffCondition": 0,
+      "GameplayTagQuery": 139,
+      "ResourceCondition": {
+        "resourceType": 0,
+        "count": 0
+      }
+    }
+  ],
+  "_dumpedCount": 3,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

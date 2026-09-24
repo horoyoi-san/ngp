@@ -1,0 +1,94 @@
+{
+  "_class": "CollectionCountryConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 2,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "Nova",
+      "SystemUnlockId": 166,
+      "CurrencyItem": 36920002,
+      "ExchangeRate": 1,
+      "MoneyRichText": "#C(jinyuebi_Text)",
+      "FilePicture": 28005441,
+      "RaidId": 23300888,
+      "RaidIds": [
+        23300888
+      ],
+      "AirportPos": [
+        -809,
+        1.39999998,
+        -1368
+      ],
+      "CenterPos": [
+        2355,
+        0,
+        1907
+      ],
+      "InspireHubDes": "新启的玩法，由你定义。",
+      "InspireHubUnlockConditionsDes": "",
+      "InspireHubUnlockConditions": 0,
+      "MapCountryImage": 28000158,
+      "InspireHubUnlockProgress": 0,
+      "StartVersion": "V0.10.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "JobUnlockProgress": 0,
+      "__IDX__Name": 762,
+      "__RAW__Name": "",
+      "__IDX__InspireHubDes": 4294967293,
+      "__RAW__InspireHubDes": "新启的玩法，由你定义。",
+      "__IDX__InspireHubUnlockConditionsDes": 0,
+      "__RAW__InspireHubUnlockConditionsDes": ""
+    },
+    {
+      "Id": 2,
+      "Name": "Lingyun",
+      "SystemUnlockId": 162,
+      "CurrencyItem": 36920008,
+      "ExchangeRate": 1,
+      "MoneyRichText": "#C(yuntongbi_Text)",
+      "FilePicture": 28005441,
+      "RaidId": 23300999,
+      "RaidIds": [
+        23300999
+      ],
+      "AirportPos": [
+        4861,
+        0,
+        -1860
+      ],
+      "CenterPos": [
+        327,
+        0,
+        116
+      ],
+      "InspireHubDes": "凌云，探索多样玩法",
+      "InspireHubUnlockConditionsDes": "完成主线剧情「家乡来电 」后解锁",
+      "InspireHubUnlockConditions": 1,
+      "MapCountryImage": 28000155,
+      "InspireHubUnlockProgress": 1,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "JobUnlockProgress": 1,
+      "__IDX__Name": 33377,
+      "__RAW__Name": "",
+      "__IDX__InspireHubDes": 4294967293,
+      "__RAW__InspireHubDes": "凌云，探索多样玩法",
+      "__IDX__InspireHubUnlockConditionsDes": 4294967295,
+      "__RAW__InspireHubUnlockConditionsDes": "完成主线剧情「家乡来电 」后解锁"
+    }
+  ],
+  "_dumpedCount": 2,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

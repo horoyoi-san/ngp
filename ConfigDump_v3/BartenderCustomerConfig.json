@@ -1,0 +1,46 @@
+{
+  "_class": "BartenderCustomerConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 3,
+  "records": [
+    {
+      "Id": 87005400,
+      "NormalNpcID": 40130852,
+      "OrderComment": 0,
+      "FirstOrder": [
+        {
+          "VisitCount": 1,
+          "DialogID": 53021062,
+          "DrinkMenuID": 87005301
+        }
+      ]
+    },
+    {
+      "Id": 87005401,
+      "NormalNpcID": 40130860,
+      "OrderComment": 0,
+      "FirstOrder": [
+        {
+          "VisitCount": 1,
+          "DialogID": 53021062,
+          "DrinkMenuID": 87005302
+        }
+      ]
+    },
+    {
+      "Id": 87005402,
+      "NormalNpcID": 40130940,
+      "OrderComment": 0,
+      "FirstOrder": [
+        {
+          "VisitCount": 1,
+          "DialogID": 53021062,
+          "DrinkMenuID": 87005303
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 3,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

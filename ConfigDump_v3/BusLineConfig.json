@@ -1,0 +1,24 @@
+{
+  "_class": "BusLineConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 1,
+  "records": [
+    {
+      "Id": 2,
+      "LineName": "新启公交外圈",
+      "BusTemplateId": 1,
+      "PrefabPath": "",
+      "RingLine": true,
+      "FirstBusTime": "6;00",
+      "LastBusTime": "12;00",
+      "DepartureInterval": 120,
+      "FirstStopDumb": false,
+      "LastStopDumb": false,
+      "__IDX__LineName": 4294967293,
+      "__RAW__LineName": "新启公交外圈"
+    }
+  ],
+  "_dumpedCount": 1,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

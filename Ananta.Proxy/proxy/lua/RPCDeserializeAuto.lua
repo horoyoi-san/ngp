@@ -1,5 +1,4 @@
--- Original chunk: @Lua\LuaGen\AutoGen\RPCDeserializeAuto.lua
--- Decompiled from: 02187_RPCDeserializeAuto.lua_e9558571984b.luajit
+
 
 local Base = require("LX6/Service/RPCDeserializeBase")
 local LoginToClientImpl = require("LX6/Service/LoginToClientImpl")

@@ -1,0 +1,22 @@
+{
+  "_class": "CompensationWebPageConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 2,
+  "records": [
+    {
+      "Id": 1,
+      "BaseUrl": "https://ananta.163.com/game/webview/login/",
+      "TestUrl": "https://test.nie.163.com/test_html/ananta/game/webview/login/",
+      "ActivityName": "wy_wj_20251219"
+    },
+    {
+      "Id": 2,
+      "BaseUrl": "https://www.anantagame.com/game/webview/login/",
+      "TestUrl": "https://test.anantagame.com/game/webview/login/",
+      "ActivityName": "wy_wj_20251219"
+    }
+  ],
+  "_dumpedCount": 2,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

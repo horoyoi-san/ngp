@@ -1,0 +1,46 @@
+{
+  "_class": "AgentPerceptionPerceptionCheckConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 4,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "Agent通用感知能力",
+      "SensorHeightDiff": 1.5,
+      "SensorRadius": 10,
+      "SensorRadiusExpand": 12,
+      "SensorViewAngle": 120,
+      "RequiresLineOfSight": true
+    },
+    {
+      "Id": 2,
+      "Name": "Agent全向穿墙感知4m",
+      "SensorHeightDiff": 1.5,
+      "SensorRadius": 4,
+      "SensorRadiusExpand": 6,
+      "SensorViewAngle": 360,
+      "RequiresLineOfSight": false
+    },
+    {
+      "Id": 1001,
+      "Name": "日程表Agent全向范围感知",
+      "SensorHeightDiff": 5,
+      "SensorRadius": 15,
+      "SensorRadiusExpand": 17,
+      "SensorViewAngle": 360,
+      "RequiresLineOfSight": false
+    },
+    {
+      "Id": 1002,
+      "Name": "阵营通用感知",
+      "SensorHeightDiff": 1.5,
+      "SensorRadius": 8,
+      "SensorRadiusExpand": 10,
+      "SensorViewAngle": 120,
+      "RequiresLineOfSight": true
+    }
+  ],
+  "_dumpedCount": 4,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

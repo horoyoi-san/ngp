@@ -1,0 +1,145 @@
+{
+  "ActionScareDis": 8,
+  "ActionScareVelocity": 1,
+  "FeiSuoScareDis": 10,
+  "AttackScareNearlyDis": 5,
+  "AttackScareDis": 8,
+  "AttackScareAngle": 60,
+  "AttackScareCheckCD": 5,
+  "FallingScareYVelocity": 15,
+  "NPCRunMinSpeed": 3,
+  "NPCRunMaxSpeed": 3.5,
+  "CrashNpcSpeedCheck": 6,
+  "NPCEscapeMinSpeed": 4,
+  "NPCEscapeMaxSpeed": 4.5,
+  "NormalLookAtIKBodyWeight": 0.200000003,
+  "NormalLookAtIKHeadWeight": 1,
+  "ScareLookAtIKAnimNormalizedTime": 0.5,
+  "ScareLookAtIKBodyWeight": 1,
+  "ScareLookAtIKHeadWeight": 1,
+  "ScareLookAtIKAngleY": 10,
+  "KnockedLookAtIKBodyWeight": 1,
+  "KnockedLookAtIKHeadWeight": 1,
+  "KnockedLookAtIKAngleY": 15,
+  "NPCDodgeCarSpeed": 6,
+  "NPCDodgeCarAccSpeed": 6,
+  "BattleDangerRadius": 15,
+  "BattleWatchRadius": 52.5,
+  "BattleLeaveWatchRadius": 67.5,
+  "EnemyDangerRadius": 15,
+  "EnemyWatchRadius": 52.5,
+  "EnemyLeaveWatchRadius": 67.5,
+  "BattleTerrifyRate": 0,
+  "BattleRunAwayStopDis": [
+    0,
+    3
+  ],
+  "WatchActionDelayTime": [
+    0,
+    2
+  ],
+  "WatchEnemyIKMaxAngle": 30,
+  "CelebrateRate": 0.300000012,
+  "CelebrateTime": 10,
+  "ExitInteractBonusRadius": 2,
+  "LeaveCarPositionTransition": [
+    {
+      "typeid": 8531,
+      "delaytime": 2.79999995,
+      "duringtime": 1,
+      "leaveRigidTime": 1.5
+    },
+    {
+      "typeid": 8541,
+      "delaytime": 2.79999995,
+      "duringtime": 1,
+      "leaveRigidTime": 1.83299994
+    },
+    {
+      "typeid": 8551,
+      "delaytime": 2.79999995,
+      "duringtime": 1,
+      "leaveRigidTime": 1
+    },
+    {
+      "typeid": 8561,
+      "delaytime": 2.79999995,
+      "duringtime": 1,
+      "leaveRigidTime": 3
+    }
+  ],
+  "QiYouTongBaoZhaCreation": 56770150,
+  "QiYouTongBaoZhaScareDis": 3,
+  "QiYouTongBaoZhaXiaoCreation": 56770151,
+  "QiYouTongBaoZhaXiaoScareDis": 2,
+  "TransparentHuneNPCIds": [
+    45090002,
+    45100007,
+    45110054,
+    45110055,
+    45110056,
+    45120017
+  ],
+  "TransparentFullBodyHuneNPCIds": [],
+  "OnlyTransparentBodyHuneNPCIds": [
+    86952607
+  ],
+  "TransparentHuneNPCSpecialMaterial": [
+    "Res/Effects/Material/{0}.mat",
+    "toumingren_zpf03"
+  ],
+  "BoidFlockShowDis": 110,
+  "BoidFlockHideDis": 130,
+  "ParkourFlockShowDis": 40,
+  "ParkourFlockHideDis": 50,
+  "BoidFlockFleeDis": 10,
+  "BoidFlockReturnDis": 40,
+  "BoidFlockGunshotDisturbanceRadius": 20,
+  "BoidFlockVehicleDisturbanceRadius": 15,
+  "BoidFlockDestructibleDisturbanceRadius": 20,
+  "BoidFlockGameplayDisturbanceRadius": 20,
+  "DisableLookAtIKActionIds": [
+    1010,
+    4760
+  ],
+  "NPCBodyIKVerticalUpAngle": 45,
+  "NPCBodyIKVerticalDownAngle": 180,
+  "NPCBodyIKHorizontalAngleLimit": 45,
+  "NPCBodyIKVerticalAngleUpLimit": 5,
+  "NPCBodyIKVerticalAngleDownLimit": 0,
+  "NPCBodyIKSpeed": 0.150000006,
+  "ClientNavPathFinderRequestInterval": 0.200000003,
+  "ClientNavPathFinderViewRadiusRatio": 0.600000024,
+  "ServerNavPathFinderRequestInterval": 2,
+  "EnemyDangerUpdatePeriod": 0.5,
+  "ExcludeColliderDestructibleLayerActionIds": [
+    6122,
+    6123,
+    6158,
+    6162,
+    5210,
+    5205,
+    6144,
+    5104,
+    5008,
+    5208
+  ],
+  "DefaultRigidBodyDrag": 4,
+  "NpcCollisionSpeedCheck": 0.5,
+  "NpcDriveStateDelayChangeTime": 1.20000005,
+  "NpcDropItemDestroyDistance": 30,
+  "NpcDropItemDestroyTime": 10,
+  "NpcSeriousCollisionAnimIdList": [
+    2020,
+    2022
+  ],
+  "NpcWalkCollisionAnimIdList": [
+    80,
+    81
+  ],
+  "NpcRunCollisionAnimIdList": [
+    39
+  ],
+  "DefaultRigidBodyDragWithVehicle": 0.0299999993,
+  "NpcIdentityCardIdNumbers": 8
+}

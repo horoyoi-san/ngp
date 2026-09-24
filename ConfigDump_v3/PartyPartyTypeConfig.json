@@ -1,0 +1,38 @@
+{
+  "_class": "PartyPartyTypeConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 2,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "露营",
+      "GuideId": "LuYingParty",
+      "IconId": 28003449,
+      "PartyIcon": "28005657",
+      "DialogText": "要去哪里露营呢？",
+      "Instructions": "篝火升起，肉香四溢，享受轻松自在的户外时光。",
+      "FunctionSuitApplyId": 6,
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "露营",
+      "__IDX__Instructions": 4294967295,
+      "__RAW__Instructions": "篝火升起，肉香四溢，享受轻松自在的户外时光。"
+    },
+    {
+      "Id": 2,
+      "Name": "舞会",
+      "GuideId": "",
+      "IconId": 28003450,
+      "PartyIcon": "28005658",
+      "DialogText": "要一起来跳舞吗？",
+      "Instructions": "乐声响起，华灯璀璨，步入精彩纷呈的舞会盛宴。",
+      "FunctionSuitApplyId": 7,
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "舞会",
+      "__IDX__Instructions": 4294967295,
+      "__RAW__Instructions": "乐声响起，华灯璀璨，步入精彩纷呈的舞会盛宴。"
+    }
+  ],
+  "_dumpedCount": 2,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

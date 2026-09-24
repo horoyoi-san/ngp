@@ -27,12 +27,42 @@ function requirePort(value, name) {
   if (!Number.isInteger(value) || value < 1 || value > 65535) fail(`${name} must be 1..65535, got '${value}'`);
 }
 
+function stripJsonComments(text) {
+  let out = "";
+  let inString = false;
+  let escaped = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (inString) {
+      out += c;
+      if (escaped) escaped = false;
+      else if (c === "\\") escaped = true;
+      else if (c === '"') inString = false;
+      continue;
+    }
+    if (c === '"') { inString = true; out += c; continue; }
+    if (c === "/" && text[i + 1] === "/") {
+      while (i < text.length && text[i] !== "\n" && text[i] !== "\r") i++;
+      continue;
+    }
+    if (c === "/" && text[i + 1] === "*") {
+      i += 2;
+      while (i + 1 < text.length && !(text[i] === "*" && text[i + 1] === "/")) i++;
+      i++;
+      continue;
+    }
+    out += c;
+  }
+  return out;
+}
+
 function readConfig() {
   if (!fs.existsSync(configPath)) fail("private-server.json not found");
 
   let value;
   try {
-    value = JSON.parse(fs.readFileSync(configPath, "utf8").replace(/^\uFEFF/, ""));
+    const raw = fs.readFileSync(configPath, "utf8").replace(/^\uFEFF/, "");
+    value = JSON.parse(stripJsonComments(raw));
   } catch (error) {
     fail(`invalid JSON: ${error.message}`);
   }

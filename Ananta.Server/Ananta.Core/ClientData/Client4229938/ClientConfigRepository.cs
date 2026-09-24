@@ -5,18 +5,11 @@ using Ananta.Server.RpcTypes.Client4229938;
 
 namespace Ananta.Server.ClientData.Client4229938;
 
-/// <summary>
-/// Reads authored client data directly from the extracted JSON configuration files.
-///
-/// There is no generated character/switch catalog in the source tree. If you need to understand
-/// why a character or animation is available, inspect FightSpiritConfig.json /
-/// SwitchSpiritConfig.json in the configured client-data directory.
-/// </summary>
 internal static class ClientConfigRepository
 {
-    // This exact 4229938 client/VFS capture fails to resolve the streaming animation hashes for
-    // these generic switch timelines. Prefer another authored row when available; do not globally
-    // disable streaming animation for every cutscene.
+    
+    
+    
     private static readonly HashSet<string> KnownBrokenLocalStreamingSwitchTimelines4229938 = new(StringComparer.Ordinal)
     {
         "SwitchChar_common_09",
@@ -53,9 +46,9 @@ internal static class ClientConfigRepository
         if (ids.Count == 0)
             throw new InvalidOperationException($"No world-entry animations for spirit {templateId} in SwitchSpiritConfig.json.");
 
-        // Entry presentation must agree with the configured world spawn. Prefer the nearest authored
-        // row that does not require external agents and whose streaming animation is present in this
-        // 4229938 client capture. This replaces the old random cross-map entry selection.
+        
+        
+        
         var candidates = ids
             .Where(id => Data.SwitchRows.ContainsKey(id))
             .Select(id => Data.SwitchRows[id])
@@ -81,8 +74,8 @@ internal static class ClientConfigRepository
         if (ids.Count == 0)
             throw new InvalidOperationException($"No SwitchSpiritConfig animations for spirit {templateId}.");
 
-        // Generic server switching cannot satisfy authored companion-agent rows. Those rows carry
-        // AgentId entries that stock SwitchTeleport expects the server to spawn before landing.
+        
+        
         var candidateRows = ids
             .Where(id => Data.SwitchRows.ContainsKey(id))
             .Select(id => Data.SwitchRows[id])
@@ -117,10 +110,10 @@ internal static class ClientConfigRepository
         if (previousSwitchShowId != 0 && Data.SwitchRows.TryGetValue(previousSwitchShowId, out var previousRow))
             previousTimeline = previousRow.Timeline;
 
-        // SwitchSpiritConfig rows are spatially authored. Randomly choosing a timeline first can bind a
-        // current position to an animation whose authored anchor is kilometers away. Pick the nearest
-        // compatible row; only avoid an immediate timeline repeat when an almost-equally-near alternative
-        // exists, so anti-repeat never wins over spatial validity.
+        
+        
+        
+        
         var selected = usableRows[0];
         if (PrivateServerConfigStore.Current.Gameplay.SwitchAnimations.AvoidImmediateRepeat &&
             previousTimeline is not null)
@@ -179,17 +172,47 @@ internal static class ClientConfigRepository
             throw new InvalidDataException(
                 $"Playable roster begins with {characters[0].TemplateId}, expected initial spirit {cfg.Player.InitialSpiritTemplateId}.");
 
-        var switchRows = switches
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        var wantedType = cfg.Gameplay.SwitchAnimations.SwitchType;
+
+        var allUsable = switches
             .Select(ParseSwitchRow)
             .Where(x => x is not null)
             .Select(x => x!)
-            .Where(x => x.SwitchType == cfg.Gameplay.SwitchAnimations.SwitchType)
-            .Where(x => x.RaidId == cfg.World.RaidId)
+            .Where(x => x.SwitchType == wantedType)
             .Where(x => !x.Invalid && x.Weight > 0f && !string.IsNullOrWhiteSpace(x.Timeline))
+            .ToList();
+
+        var switchRows = allUsable
+            .Where(x => x.RaidId == cfg.World.RaidId)
             .ToDictionary(x => x.Id);
 
-        if (switchRows.Count == 0)
-            throw new InvalidDataException("SwitchSpiritConfig.json has no usable rows for the configured raid/switch type.");
+        if (switchRows.Count == 0 && allUsable.Count > 0)
+        {
+            var fallbackRaid = allUsable.GroupBy(x => x.RaidId).OrderByDescending(g => g.Count()).First();
+            switchRows = fallbackRaid.ToDictionary(x => x.Id);
+            Console.WriteLine(
+                $"[SWITCH-ANIM] raid {cfg.World.RaidId} 没有可用的换人动画行（switchType={wantedType}），"
+                + $"已回退到 raid {fallbackRaid.Key} 的 {switchRows.Count} 行。"
+                + "服务端继续启动；换人动画可能与该场景不完全匹配。");
+        }
+        else if (switchRows.Count == 0)
+        {
+            Console.WriteLine(
+                $"[SWITCH-ANIM] 全表都没有可用的换人动画行（switchType={wantedType}），"
+                + "本次禁用换人动画（不再阻断启动）。");
+        }
 
         uint[] IdsFor(uint templateId, bool entryOnly)
         {
@@ -208,10 +231,13 @@ internal static class ClientConfigRepository
 
         var switchIdsBySpirit = characters.ToDictionary(x => x.TemplateId, x => IdsFor(x.TemplateId, false));
         var entryIdsBySpirit = characters.ToDictionary(x => x.TemplateId, x => IdsFor(x.TemplateId, true));
+        
         foreach (var character in characters)
         {
             if (switchIdsBySpirit[character.TemplateId].Length == 0)
-                throw new InvalidDataException($"No switch animations for character {character.TemplateId} ({character.Name}).");
+                Console.WriteLine(
+                    $"[SWITCH-ANIM] 角色 {character.TemplateId} ({character.Name}) 没有可用的换人动画，"
+                    + "该角色换人时不会有转场动画（不阻断启动）。");
         }
 
         var commonSwitchIds = switchRows.Values

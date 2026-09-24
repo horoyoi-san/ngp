@@ -1,0 +1,64 @@
+{
+  "_class": "ProfileWebConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 2,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "新启",
+      "Path": "Assets/Res/AgentProfileGraph/CharacterCompendium.asset",
+      "RelationDefaultWidth": 1920,
+      "RelationDefaultHeight": 1080,
+      "RelationMinScale": 0.400000006,
+      "RelationMaxScale": 2.5,
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "新启",
+      "CompletionReward": [
+        {
+          "percent": 0.200000003,
+          "dropId": 14380024
+        },
+        {
+          "percent": 0.400000006,
+          "dropId": 14380024
+        },
+        {
+          "percent": 0.600000024,
+          "dropId": 14380024
+        },
+        {
+          "percent": 0.800000012,
+          "dropId": 14380024
+        },
+        {
+          "percent": 1,
+          "dropId": 14380024
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "Name": "凌云",
+      "Path": "Assets/Res/AgentProfileGraph/CharacterCompendium_Chongxiao.asset",
+      "RelationDefaultWidth": 1920,
+      "RelationDefaultHeight": 1080,
+      "RelationMinScale": 0.400000006,
+      "RelationMaxScale": 2.5,
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "凌云",
+      "CompletionReward": [
+        {
+          "percent": 0.5,
+          "dropId": 14380024
+        },
+        {
+          "percent": 1,
+          "dropId": 14380024
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 2,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -1,0 +1,1450 @@
+{
+  "_class": "PoiGamePetGameItemConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 82,
+  "records": [
+    {
+      "Id": 101,
+      "maxHave": 99999,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 1
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 110,
+      "maxHave": 99999,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 50
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 111,
+      "maxHave": 99999,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 50
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 112,
+      "maxHave": 99999,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 50
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 120,
+      "maxHave": 99999,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 150
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 121,
+      "maxHave": 99999,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 150
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 122,
+      "maxHave": 99999,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 150
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 201,
+      "maxHave": 0,
+      "interactionId": 20001,
+      "effect": [
+        {
+          "attribute": 1,
+          "value": 20
+        },
+        {
+          "attribute": 2,
+          "value": -10
+        },
+        {
+          "attribute": 5,
+          "value": 1
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 1
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 202,
+      "maxHave": 0,
+      "interactionId": 20001,
+      "effect": [
+        {
+          "attribute": 1,
+          "value": 20
+        },
+        {
+          "attribute": 2,
+          "value": -10
+        },
+        {
+          "attribute": 5,
+          "value": 1
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 1
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 203,
+      "maxHave": 10,
+      "interactionId": 20001,
+      "effect": [
+        {
+          "attribute": 1,
+          "value": 20
+        },
+        {
+          "attribute": 5,
+          "value": 1
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 100
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 204,
+      "maxHave": 10,
+      "interactionId": 20001,
+      "effect": [
+        {
+          "attribute": 1,
+          "value": 40
+        },
+        {
+          "attribute": 5,
+          "value": 1
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 220
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 205,
+      "maxHave": 10,
+      "interactionId": 20001,
+      "effect": [
+        {
+          "attribute": 1,
+          "value": 40
+        },
+        {
+          "attribute": 5,
+          "value": 1
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 240
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 210,
+      "maxHave": 10,
+      "interactionId": 20001,
+      "effect": [
+        {
+          "attribute": 1,
+          "value": 20
+        },
+        {
+          "attribute": 101,
+          "value": 5
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 110
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 211,
+      "maxHave": 10,
+      "interactionId": 20001,
+      "effect": [
+        {
+          "attribute": 1,
+          "value": 60
+        },
+        {
+          "attribute": 101,
+          "value": 5
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 320
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 212,
+      "maxHave": 10,
+      "interactionId": 20001,
+      "effect": [
+        {
+          "attribute": 1,
+          "value": 20
+        },
+        {
+          "attribute": 101,
+          "value": 5
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 100
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 213,
+      "maxHave": 10,
+      "interactionId": 20001,
+      "effect": [
+        {
+          "attribute": 1,
+          "value": 40
+        },
+        {
+          "attribute": 101,
+          "value": 5
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 210
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 214,
+      "maxHave": 10,
+      "interactionId": 20001,
+      "effect": [
+        {
+          "attribute": 1,
+          "value": 40
+        },
+        {
+          "attribute": 101,
+          "value": 5
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 230
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 215,
+      "maxHave": 10,
+      "interactionId": 20001,
+      "effect": [
+        {
+          "attribute": 1,
+          "value": 120
+        },
+        {
+          "attribute": 101,
+          "value": 5
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 640
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 220,
+      "maxHave": 10,
+      "interactionId": 20001,
+      "effect": [
+        {
+          "attribute": 1,
+          "value": 20
+        },
+        {
+          "attribute": 102,
+          "value": 5
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 100
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 221,
+      "maxHave": 10,
+      "interactionId": 20001,
+      "effect": [
+        {
+          "attribute": 1,
+          "value": 60
+        },
+        {
+          "attribute": 102,
+          "value": 5
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 320
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 222,
+      "maxHave": 10,
+      "interactionId": 20001,
+      "effect": [
+        {
+          "attribute": 1,
+          "value": 40
+        },
+        {
+          "attribute": 102,
+          "value": 5
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 210
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 223,
+      "maxHave": 10,
+      "interactionId": 20001,
+      "effect": [
+        {
+          "attribute": 1,
+          "value": 120
+        },
+        {
+          "attribute": 102,
+          "value": 5
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 620
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 224,
+      "maxHave": 10,
+      "interactionId": 20001,
+      "effect": [
+        {
+          "attribute": 1,
+          "value": 40
+        },
+        {
+          "attribute": 102,
+          "value": 5
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 210
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 225,
+      "maxHave": 10,
+      "interactionId": 20001,
+      "effect": [
+        {
+          "attribute": 1,
+          "value": 20
+        },
+        {
+          "attribute": 102,
+          "value": 5
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 105
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 230,
+      "maxHave": 10,
+      "interactionId": 20001,
+      "effect": [
+        {
+          "attribute": 1,
+          "value": 20
+        },
+        {
+          "attribute": 103,
+          "value": 5
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 120
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 231,
+      "maxHave": 10,
+      "interactionId": 20001,
+      "effect": [
+        {
+          "attribute": 1,
+          "value": 20
+        },
+        {
+          "attribute": 103,
+          "value": 5
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 110
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 232,
+      "maxHave": 10,
+      "interactionId": 20001,
+      "effect": [
+        {
+          "attribute": 1,
+          "value": 40
+        },
+        {
+          "attribute": 103,
+          "value": 5
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 230
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 233,
+      "maxHave": 10,
+      "interactionId": 20001,
+      "effect": [
+        {
+          "attribute": 1,
+          "value": 60
+        },
+        {
+          "attribute": 103,
+          "value": 5
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 320
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 234,
+      "maxHave": 10,
+      "interactionId": 20001,
+      "effect": [
+        {
+          "attribute": 1,
+          "value": 40
+        },
+        {
+          "attribute": 103,
+          "value": 5
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 200
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 235,
+      "maxHave": 10,
+      "interactionId": 20001,
+      "effect": [
+        {
+          "attribute": 1,
+          "value": 120
+        },
+        {
+          "attribute": 103,
+          "value": 5
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 640
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 240,
+      "maxHave": 10,
+      "interactionId": 20001,
+      "effect": [
+        {
+          "attribute": 1,
+          "value": 120
+        },
+        {
+          "attribute": 104,
+          "value": 5
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 840
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 241,
+      "maxHave": 10,
+      "interactionId": 20001,
+      "effect": [
+        {
+          "attribute": 1,
+          "value": 120
+        },
+        {
+          "attribute": 105,
+          "value": 5
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 1000
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 280,
+      "maxHave": 10,
+      "interactionId": 20001,
+      "effect": [
+        {
+          "attribute": 2,
+          "value": 20
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 1
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 281,
+      "maxHave": 10,
+      "interactionId": 20001,
+      "effect": [
+        {
+          "attribute": 2,
+          "value": 40
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 100
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 282,
+      "maxHave": 10,
+      "interactionId": 20001,
+      "effect": [
+        {
+          "attribute": 2,
+          "value": 60
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 210
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 283,
+      "maxHave": 10,
+      "interactionId": 20001,
+      "effect": [
+        {
+          "attribute": 2,
+          "value": 60
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 225
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 284,
+      "maxHave": 10,
+      "interactionId": 20001,
+      "effect": [
+        {
+          "attribute": 2,
+          "value": 60
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 200
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 301,
+      "maxHave": 10,
+      "interactionId": 20002,
+      "effect": [
+        {
+          "attribute": 2,
+          "value": 20
+        },
+        {
+          "attribute": 5,
+          "value": 1
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 1
+      },
+      "itemPos": {
+        "x": 0,
+        "y": -60
+      }
+    },
+    {
+      "Id": 302,
+      "maxHave": 10,
+      "interactionId": 20003,
+      "effect": [
+        {
+          "attribute": 2,
+          "value": 40
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 105
+      },
+      "itemPos": {
+        "x": 0,
+        "y": -20
+      }
+    },
+    {
+      "Id": 303,
+      "maxHave": 10,
+      "interactionId": 20004,
+      "effect": [
+        {
+          "attribute": 2,
+          "value": 40
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 120
+      },
+      "itemPos": {
+        "x": 0,
+        "y": -80
+      }
+    },
+    {
+      "Id": 304,
+      "maxHave": 10,
+      "interactionId": 20005,
+      "effect": [
+        {
+          "attribute": 2,
+          "value": 60
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 210
+      },
+      "itemPos": {
+        "x": 0,
+        "y": -70
+      }
+    },
+    {
+      "Id": 305,
+      "maxHave": 10,
+      "interactionId": 20006,
+      "effect": [
+        {
+          "attribute": 2,
+          "value": 60
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 200
+      },
+      "itemPos": {
+        "x": 0,
+        "y": -95
+      }
+    },
+    {
+      "Id": 306,
+      "maxHave": 10,
+      "interactionId": 20007,
+      "effect": [
+        {
+          "attribute": 2,
+          "value": 60
+        }
+      ],
+      "Sell": {
+        "id": 101,
+        "num": 200
+      },
+      "itemPos": {
+        "x": 30,
+        "y": 20
+      }
+    },
+    {
+      "Id": 501,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 1050
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 502,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 1100
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 503,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 950
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 504,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 1200
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 505,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 1100
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 506,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 1000
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 507,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 900
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 1
+      }
+    },
+    {
+      "Id": 511,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 650
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 512,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 600
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 513,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 700
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 514,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 750
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 521,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 1400
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 522,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 1450
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 523,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 1600
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 524,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 1500
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 525,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 1400
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 526,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 1450
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 1001,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 700
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 1002,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 750
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 1003,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 800
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 1011,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 500
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 1012,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 400
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 1013,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 600
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 1021,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 400
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 1022,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 300
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 1023,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 350
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 1031,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 900
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 1041,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 600
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 1061,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 300
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 1062,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 1200
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 1071,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 800
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 1072,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 600
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 1073,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 800
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 1074,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 800
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 1075,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 800
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 1081,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 1000
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 1082,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 600
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 1091,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 1500
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "Id": 1092,
+      "maxHave": 10,
+      "interactionId": 0,
+      "effect": [],
+      "Sell": {
+        "id": 101,
+        "num": 500
+      },
+      "itemPos": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  ],
+  "_dumpedCount": 82,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

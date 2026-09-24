@@ -1,0 +1,90 @@
+{
+  "MyselfCfg": {
+    "Id": 1,
+    "Chat": false,
+    "Link": false,
+    "AddFriend": false,
+    "DeleteFriend": false,
+    "Block": false,
+    "Unblock": false,
+    "Report": false,
+    "SelfAvatar": true
+  },
+  "StrangerCfg": {
+    "Id": 2,
+    "Chat": true,
+    "Link": false,
+    "AddFriend": true,
+    "DeleteFriend": false,
+    "Block": true,
+    "Unblock": false,
+    "Report": true,
+    "SelfAvatar": true
+  },
+  "FriendCfg": {
+    "Id": 3,
+    "Chat": true,
+    "Link": false,
+    "AddFriend": false,
+    "DeleteFriend": true,
+    "Block": true,
+    "Unblock": false,
+    "Report": true,
+    "SelfAvatar": true
+  },
+  "FriendLinkedCfg": {
+    "Id": 4,
+    "Chat": true,
+    "Link": false,
+    "AddFriend": false,
+    "DeleteFriend": true,
+    "Block": true,
+    "Unblock": false,
+    "Report": true,
+    "SelfAvatar": true
+  },
+  "FriendPublicLinkCfg": {
+    "Id": 5,
+    "Chat": true,
+    "Link": true,
+    "AddFriend": false,
+    "DeleteFriend": true,
+    "Block": true,
+    "Unblock": false,
+    "Report": true,
+    "SelfAvatar": true
+  },
+  "FriendSingleCfg": {
+    "Id": 6,
+    "Chat": true,
+    "Link": true,
+    "AddFriend": false,
+    "DeleteFriend": true,
+    "Block": true,
+    "Unblock": false,
+    "Report": true,
+    "SelfAvatar": true
+  },
+  "BlacklistCfg": {
+    "Id": 7,
+    "Chat": false,
+    "Link": false,
+    "AddFriend": true,
+    "DeleteFriend": false,
+    "Block": false,
+    "Unblock": true,
+    "Report": true,
+    "SelfAvatar": true
+  },
+  "FriendSameLinkCfg": {
+    "Id": 8,
+    "Chat": true,
+    "Link": false,
+    "AddFriend": false,
+    "DeleteFriend": true,
+    "Block": true,
+    "Unblock": false,
+    "Report": true,
+    "SelfAvatar": true
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "_class": "CollectionBookCollectionLevelDetailConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 3,
+  "records": [
+    {
+      "Id": 11001,
+      "Level": 1,
+      "UpgradeCostNum": 0,
+      "CanDyeEffect": false,
+      "CanDyeColor": false,
+      "CanConvertToSkin": false,
+      "ScorePoints": 100,
+      "EffectDesc": "可将该收藏品放置于收藏室展示。",
+      "CannotUpgradeLink": 11701,
+      "__IDX__EffectDesc": 4294967293,
+      "__RAW__EffectDesc": "可将该收藏品放置于收藏室展示。",
+      "DyeColorCost": {
+        "id": 0,
+        "number": 0
+      },
+      "DyEffectCost": {
+        "id": 0,
+        "number": 0
+      }
+    },
+    {
+      "Id": 11002,
+      "Level": 2,
+      "UpgradeCostNum": 1,
+      "CanDyeEffect": false,
+      "CanDyeColor": true,
+      "CanConvertToSkin": false,
+      "ScorePoints": 300,
+      "EffectDesc": "可对该收藏品进行染色操作。",
+      "CannotUpgradeLink": 11701,
+      "__IDX__EffectDesc": 4294967293,
+      "__RAW__EffectDesc": "可对该收藏品进行染色操作。",
+      "DyeColorCost": {
+        "id": 36920002,
+        "number": 1000
+      },
+      "DyEffectCost": {
+        "id": 36920002,
+        "number": 1000
+      }
+    },
+    {
+      "Id": 11003,
+      "Level": 3,
+      "UpgradeCostNum": 1,
+      "CanDyeEffect": false,
+      "CanDyeColor": true,
+      "CanConvertToSkin": true,
+      "ScorePoints": 500,
+      "EffectDesc": "可将该收藏品转换成外观。",
+      "CannotUpgradeLink": 11701,
+      "__IDX__EffectDesc": 4294967293,
+      "__RAW__EffectDesc": "可将该收藏品转换成外观。",
+      "DyeColorCost": {
+        "id": 36920002,
+        "number": 1000
+      },
+      "DyEffectCost": {
+        "id": 36920002,
+        "number": 1000
+      }
+    }
+  ],
+  "_dumpedCount": 3,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

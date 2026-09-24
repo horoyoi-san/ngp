@@ -1,0 +1,274 @@
+{
+  "PortalItemCfg": {
+    "Id": 300,
+    "Name": "不科学法阵",
+    "RaidId": 0,
+    "Type": 13,
+    "TLType": 0,
+    "IconId": 0,
+    "SIconId": 28009029,
+    "DisableIconId": 0,
+    "SDisableIconId": 0,
+    "WeakGuideIconId": 0,
+    "SWeakGuideIconId": 0,
+    "SMiniMapIconId": 0,
+    "SDisableMiniMapIconId": 0,
+    "BlockId": 0,
+    "IndoorID": 0,
+    "RouteID": [],
+    "ImageId": 0,
+    "SImageId": 28017589,
+    "Information": "科学家传送锚点",
+    "Coordinate": [],
+    "EntranceFacing": 0,
+    "EntranceArea": [],
+    "MapTeleportPos": [],
+    "Facing": 0,
+    "XYAxisValues": [
+      180,
+      0.5
+    ],
+    "TeleportStartTimeLine": "",
+    "TeleportLoadingTimeLine": "",
+    "TeleportEndTimeLine": "",
+    "JiguanRaidID": 0,
+    "JiguanTeleportPos": 0,
+    "JiguanTeleportPosName": "",
+    "JiguanXYAxisValues": [],
+    "JiguanStartTimeline": "",
+    "JiguanLoadingTimeline": "",
+    "JiguanEndTimeline": "",
+    "ShowLimitSpirit": [],
+    "IsAboveFog": false,
+    "Multiverse": [
+      76000888
+    ],
+    "StartVersion": "V0.10.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1
+    ],
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "不科学法阵",
+    "__IDX__Information": 4294967293,
+    "__RAW__Information": "科学家传送锚点"
+  },
+  "PayTipsIcon": 28001070,
+  "PayTipsIconList": [
+    {
+      "TLType": 1,
+      "iconid": 28001070
+    },
+    {
+      "TLType": 2,
+      "iconid": 28017494
+    }
+  ],
+  "PayTipsName": 74000730,
+  "PayTipsNum": [
+    190,
+    980
+  ],
+  "TimePasses": [
+    30,
+    90
+  ],
+  "PayTipsNumNew": [
+    {
+      "minDistance": 0,
+      "maxDistance": 30,
+      "cost": 0
+    },
+    {
+      "minDistance": 30,
+      "maxDistance": 300,
+      "cost": 130
+    },
+    {
+      "minDistance": 300,
+      "maxDistance": 800,
+      "cost": 170
+    },
+    {
+      "minDistance": 800,
+      "maxDistance": 1300,
+      "cost": 190
+    },
+    {
+      "minDistance": 1300,
+      "maxDistance": 1800,
+      "cost": 210
+    },
+    {
+      "minDistance": 1800,
+      "maxDistance": 2300,
+      "cost": 230
+    },
+    {
+      "minDistance": 2300,
+      "maxDistance": 99999999,
+      "cost": 260
+    }
+  ],
+  "OverseaCost": 890,
+  "TeleportFanLevel": [
+    0,
+    120000,
+    250000,
+    400000
+  ],
+  "TeleportCutsceneL1M": [
+    "Loading_metro_normal01_M",
+    "Loading_metro_normal02",
+    "Loading_metro_normal03"
+  ],
+  "TeleportCutsceneL2M": [
+    "Loading_metro_normal01_M",
+    "Loading_metro_normal02",
+    "Loading_metro_normal03",
+    "Loading_metro_low01",
+    "Loading_metro_low02",
+    "Loading_metro_low03"
+  ],
+  "TeleportCutsceneL3M": [
+    "Loading_metro_normal01_M",
+    "Loading_metro_normal02",
+    "Loading_metro_normal03",
+    "Loading_metro_low01",
+    "Loading_metro_low02",
+    "Loading_metro_low03",
+    "Loading_metro_middle01",
+    "loading_metro_middle02",
+    "loading_metro_middle03"
+  ],
+  "TeleportCutsceneL4M": [
+    "Loading_metro_normal01_M",
+    "Loading_metro_normal02",
+    "Loading_metro_normal03",
+    "Loading_metro_low01",
+    "Loading_metro_low02",
+    "Loading_metro_low03",
+    "Loading_metro_middle01",
+    "loading_metro_middle02",
+    "loading_metro_middle03",
+    "Loading_metro_high01",
+    "Loading_metro_high02",
+    "loading_metro_high03"
+  ],
+  "TeleportCutsceneL1F": [
+    "Loading_metro_normal01_F",
+    "Loading_metro_normal02",
+    "Loading_metro_normal03"
+  ],
+  "TeleportCutsceneL2F": [
+    "Loading_metro_normal01_F",
+    "Loading_metro_normal02",
+    "Loading_metro_normal03",
+    "Loading_metro_low01",
+    "Loading_metro_low02",
+    "Loading_metro_low03"
+  ],
+  "TeleportCutsceneL3F": [
+    "Loading_metro_normal01_F",
+    "Loading_metro_normal02",
+    "Loading_metro_normal03",
+    "Loading_metro_low01",
+    "Loading_metro_low02",
+    "Loading_metro_low03",
+    "Loading_metro_middle01",
+    "loading_metro_middle02",
+    "loading_metro_middle03"
+  ],
+  "TeleportCutsceneL4F": [
+    "Loading_metro_normal01_F",
+    "Loading_metro_normal02",
+    "Loading_metro_normal03",
+    "Loading_metro_low01",
+    "Loading_metro_low02",
+    "Loading_metro_low03",
+    "Loading_metro_middle01",
+    "loading_metro_middle02",
+    "loading_metro_middle03",
+    "Loading_metro_high01",
+    "Loading_metro_high02",
+    "loading_metro_high03"
+  ],
+  "TeleportCutsceneL1MBus": [
+    "Loading_bus_normal01",
+    "Loading_bus_normal02",
+    "Loading_bus_normal03"
+  ],
+  "TeleportCutsceneL2MBus": [
+    "Loading_bus_normal01",
+    "Loading_bus_normal02",
+    "Loading_bus_normal03",
+    "Loading_bus_low01",
+    "Loading_bus_low02"
+  ],
+  "TeleportCutsceneL3MBus": [
+    "Loading_bus_normal01",
+    "Loading_bus_normal02",
+    "Loading_bus_normal03",
+    "Loading_bus_low01",
+    "Loading_bus_low02",
+    "Loading_bus_middle01",
+    "Loading_bus_middle02"
+  ],
+  "TeleportCutsceneL4MBus": [
+    "Loading_bus_normal01",
+    "Loading_bus_normal02",
+    "Loading_bus_normal03",
+    "Loading_bus_low01",
+    "Loading_bus_low02",
+    "Loading_bus_middle01",
+    "Loading_bus_middle02",
+    "Loading_bus_high01",
+    "loading_bus_high02"
+  ],
+  "TeleportCutsceneL1FBus": [
+    "Loading_bus_normal01",
+    "Loading_bus_normal02",
+    "Loading_bus_normal03"
+  ],
+  "TeleportCutsceneL2FBus": [
+    "Loading_bus_normal01",
+    "Loading_bus_normal02",
+    "Loading_bus_normal03",
+    "Loading_bus_low01",
+    "Loading_bus_low02"
+  ],
+  "TeleportCutsceneL3FBus": [
+    "Loading_bus_normal01",
+    "Loading_bus_normal02",
+    "Loading_bus_normal03",
+    "Loading_bus_low01",
+    "Loading_bus_low02",
+    "Loading_bus_middle01",
+    "Loading_bus_middle02"
+  ],
+  "TeleportCutsceneL4FBus": [
+    "Loading_bus_normal01",
+    "Loading_bus_normal02",
+    "Loading_bus_normal03",
+    "Loading_bus_low01",
+    "Loading_bus_low02",
+    "Loading_bus_middle01",
+    "Loading_bus_middle02",
+    "Loading_bus_high01",
+    "loading_bus_high02"
+  ],
+  "ScientistTeleport": [
+    36890108,
+    300
+  ],
+  "LowKeyRoleTeleport": [
+    15021023
+  ],
+  "FakeMetroOutOfStuckDelay": 15,
+  "CrossSceneTeleportTLName": [
+    "loading_plane02",
+    "loading_plane03"
+  ],
+  "MetroDefaultNum": 5
+}

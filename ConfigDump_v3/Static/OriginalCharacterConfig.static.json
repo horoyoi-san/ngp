@@ -1,0 +1,151 @@
+{
+  "TemplatePosList": [
+    {
+      "x": -692,
+      "y": 283
+    },
+    {
+      "x": -1014,
+      "y": 63
+    },
+    {
+      "x": -736,
+      "y": -272
+    },
+    {
+      "x": 511,
+      "y": 413
+    },
+    {
+      "x": 1013,
+      "y": 0
+    },
+    {
+      "x": 519,
+      "y": -315.5
+    }
+  ],
+  "TuneVoiceList": [
+    "语速",
+    "音高",
+    "冷暖",
+    "磁性"
+  ],
+  "TuneVoiceSetValue": {
+    "stepValue": 1,
+    "maxValue": 100,
+    "minValue": 1,
+    "sliderSetValues": 1
+  },
+  "VoiceLibraryList": [
+    "官方音色库",
+    "我的音色库"
+  ],
+  "TestVoiceText": "所以，你想聊些什么呢？",
+  "GenerateNameText": "智能生成_%s_%s",
+  "CopyNameText": "我的复刻_%s_%s",
+  "MixNameText": "我的调整_%s_%s",
+  "MoreInfoText": [
+    "重命名",
+    "分享",
+    "删除"
+  ],
+  "AccentList": [
+    {
+      "name": "无",
+      "template": "null"
+    },
+    {
+      "name": "机器人",
+      "template": "robot"
+    }
+  ],
+  "MaxOCNum": 5,
+  "PersonalityTabText": [
+    "性格设定",
+    "身世背景"
+  ],
+  "FinishTimeLine": "play_oc_character",
+  "RecommandVoiceText": "推荐音色",
+  "RenameIndex": 1,
+  "MainPageTabText": [
+    "形象编辑",
+    "声音编辑",
+    "人设编辑"
+  ],
+  "AIAssistantTips": [
+    "参考人物",
+    "参考作品",
+    "人物特征"
+  ],
+  "AIGenTemplateNum": 3,
+  "AIGenTemplateFormat": "%s\\n%s",
+  "VoiceCloneText": "你说的没错呀，我周末也去看了，这部电影可以称得上是五年内最好的动作片了。",
+  "FilterSetting": [
+    "全部性别",
+    "全部年龄"
+  ],
+  "NoneSpeechName": "未命名",
+  "SceneWeatherIndex": 20,
+  "ScenePath": "Assets/Res/env/scene/commonshop_niu/prefab_assemble/niu_commonshop_background01.prefab",
+  "FirstChatUtterance": "#以{0}的身份开始说话#",
+  "TuneTempoSetting": {
+    "minValue": 0.699999988,
+    "maxValue": 1.5,
+    "stepValue": 0.100000001,
+    "defaultValue": 1
+  },
+  "TuneOtherSetting": {
+    "minValue": -2,
+    "maxValue": 2,
+    "stepValue": 0.100000001,
+    "defaultValue": 0
+  },
+  "MyVoiceStoreLimit": 10,
+  "MaxOCLabelNum": 10,
+  "MaxSpeechNum": 50,
+  "BackgroundAssistTips": [
+    "出身",
+    "目标",
+    "重要经历"
+  ],
+  "PersonalityMainOptions": [
+    {
+      "tIndex": 0,
+      "x": -611,
+      "y": -45
+    },
+    {
+      "tIndex": 1,
+      "x": 232,
+      "y": -138
+    },
+    {
+      "tIndex": 2,
+      "x": -500,
+      "y": -299
+    },
+    {
+      "tIndex": 2,
+      "x": -171,
+      "y": -364
+    },
+    {
+      "tIndex": 2,
+      "x": 157,
+      "y": -318
+    }
+  ],
+  "SendIntervalSec": 1,
+  "BurstWindowSec": 5,
+  "BurstMaxCount": 3,
+  "BurstCooldownSec": 5,
+  "BurstLimitMessage": "消息发送过于频繁，请稍后再试",
+  "InputIngMessage": "正在输入中...",
+  "VoiceTestCooldownSec": 5,
+  "UndoMaxSteps": 10,
+  "GreetingCD": 2,
+  "OCChatSessionStoreLimit": 5000,
+  "OCChatMessageStoreLimit": 1000000,
+  "MixVoiceMaxCount": 4
+}

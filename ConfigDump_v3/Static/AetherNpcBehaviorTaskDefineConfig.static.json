@@ -1,0 +1,102 @@
+{
+  "BeVehicleRequisitionCfg": {
+    "Id": 1001034,
+    "ActionSelector": 4,
+    "MainActionIds": [],
+    "BehaviorLayer": 0,
+    "AnimState": 3,
+    "BehaviorPostureGameplayTag": 0,
+    "AnimTag": 0
+  },
+  "ScareSitCfg": {
+    "Id": 48,
+    "ActionSelector": 4,
+    "MainActionIds": [
+      4760
+    ],
+    "BehaviorLayer": 0,
+    "AnimState": 2,
+    "BehaviorPostureGameplayTag": 35,
+    "AnimTag": 0
+  },
+  "SitFallDownAndGetUpCfg": {
+    "Id": 49,
+    "ActionSelector": 4,
+    "MainActionIds": [
+      4693
+    ],
+    "BehaviorLayer": 0,
+    "AnimState": 2,
+    "BehaviorPostureGameplayTag": 35,
+    "AnimTag": 0
+  },
+  "SitGetUpFLCfg": {
+    "Id": 50,
+    "ActionSelector": 4,
+    "MainActionIds": [
+      4694
+    ],
+    "BehaviorLayer": 0,
+    "AnimState": 2,
+    "BehaviorPostureGameplayTag": 35,
+    "AnimTag": 0
+  },
+  "SitGetUpFCfg": {
+    "Id": 51,
+    "ActionSelector": 4,
+    "MainActionIds": [
+      4695
+    ],
+    "BehaviorLayer": 0,
+    "AnimState": 2,
+    "BehaviorPostureGameplayTag": 35,
+    "AnimTag": 0
+  },
+  "SitGetUpFRCfg": {
+    "Id": 52,
+    "ActionSelector": 4,
+    "MainActionIds": [
+      4696
+    ],
+    "BehaviorLayer": 0,
+    "AnimState": 2,
+    "BehaviorPostureGameplayTag": 35,
+    "AnimTag": 0
+  },
+  "WalkKockedLittleCfg": {
+    "Id": 80,
+    "ActionSelector": 4,
+    "MainActionIds": [
+      4318,
+      4319,
+      4320,
+      4321,
+      4322,
+      4323,
+      4324,
+      4325
+    ],
+    "BehaviorLayer": 0,
+    "AnimState": 5,
+    "BehaviorPostureGameplayTag": 34,
+    "AnimTag": 0
+  },
+  "WalkKockedMoreLittleCfg": {
+    "Id": 81,
+    "ActionSelector": 4,
+    "MainActionIds": [
+      4310,
+      4311,
+      4312,
+      4313,
+      4314,
+      4315,
+      4316,
+      4317
+    ],
+    "BehaviorLayer": 0,
+    "AnimState": 5,
+    "BehaviorPostureGameplayTag": 34,
+    "AnimTag": 0
+  }
+}

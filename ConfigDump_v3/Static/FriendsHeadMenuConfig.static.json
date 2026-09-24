@@ -1,0 +1,188 @@
+{
+  "AnyCaseCfg": {
+    "Id": 1,
+    "Type": 0,
+    "ExtraCondition": [],
+    "MenuList": [
+      14
+    ]
+  },
+  "IsFriendCfg": {
+    "Id": 2,
+    "Type": 1,
+    "ExtraCondition": [],
+    "MenuList": [
+      2,
+      3
+    ]
+  },
+  "IsFriendAndMoreCfg": {
+    "Id": 3,
+    "Type": 0,
+    "ExtraCondition": [
+      7,
+      26,
+      33
+    ],
+    "MenuList": [
+      4
+    ]
+  },
+  "NotFriendCfg": {
+    "Id": 4,
+    "Type": 2,
+    "ExtraCondition": [],
+    "MenuList": [
+      1
+    ]
+  },
+  "InBlackCfg": {
+    "Id": 5,
+    "Type": 3,
+    "ExtraCondition": [],
+    "MenuList": [
+      13
+    ]
+  },
+  "NotInBlackCfg": {
+    "Id": 6,
+    "Type": 4,
+    "ExtraCondition": [],
+    "MenuList": [
+      12
+    ]
+  },
+  "SelfInPublicOrPrivateCfg": {
+    "Id": 7,
+    "Type": 5,
+    "ExtraCondition": [],
+    "MenuList": []
+  },
+  "TeamNotFullCfg": {
+    "Id": 8,
+    "Type": 6,
+    "ExtraCondition": [],
+    "MenuList": []
+  },
+  "BothNotInTeamCfg": {
+    "Id": 10,
+    "Type": 7,
+    "ExtraCondition": [
+      25,
+      27,
+      31
+    ],
+    "MenuList": [
+      5
+    ]
+  },
+  "OnlySelfInTeamCfg": {
+    "Id": 11,
+    "Type": 8,
+    "ExtraCondition": [
+      25,
+      27,
+      31
+    ],
+    "MenuList": [
+      5
+    ]
+  },
+  "OnlyObjectInTeamCfg": {
+    "Id": 12,
+    "Type": 9,
+    "ExtraCondition": [
+      25,
+      31
+    ],
+    "MenuList": [
+      8
+    ]
+  },
+  "LeaderToMemberCfg": {
+    "Id": 20,
+    "Type": 10,
+    "ExtraCondition": [
+      33
+    ],
+    "MenuList": [
+      7
+    ]
+  },
+  "MemberToLeaderCfg": {
+    "Id": 21,
+    "Type": 11,
+    "ExtraCondition": [],
+    "MenuList": [
+      9
+    ]
+  },
+  "ObjectIsLeaderCfg": {
+    "Id": 22,
+    "Type": 12,
+    "ExtraCondition": [],
+    "MenuList": []
+  },
+  "TeamMateMicOnCfg": {
+    "Id": 23,
+    "Type": 13,
+    "ExtraCondition": [],
+    "MenuList": [
+      10
+    ]
+  },
+  "TeamMateMicOffCfg": {
+    "Id": 24,
+    "Type": 14,
+    "ExtraCondition": [],
+    "MenuList": [
+      11
+    ]
+  },
+  "InLinkModeCfg": {
+    "Id": 25,
+    "Type": 15,
+    "ExtraCondition": [],
+    "MenuList": [
+      15
+    ]
+  },
+  "ObjectNotInLinkCfg": {
+    "Id": 26,
+    "Type": 16,
+    "ExtraCondition": [],
+    "MenuList": []
+  },
+  "NotInSameTeamCfg": {
+    "Id": 27,
+    "Type": 17,
+    "ExtraCondition": [],
+    "MenuList": []
+  },
+  "RoomOwnerCfg": {
+    "Id": 30,
+    "Type": 18,
+    "ExtraCondition": [],
+    "MenuList": [
+      16
+    ]
+  },
+  "NotInMatchCfg": {
+    "Id": 31,
+    "Type": 19,
+    "ExtraCondition": [],
+    "MenuList": []
+  },
+  "LinkBlackPanelCfg": {
+    "Id": 32,
+    "Type": 20,
+    "ExtraCondition": [],
+    "MenuList": []
+  },
+  "NotInLinkBlackPanelCfg": {
+    "Id": 33,
+    "Type": 21,
+    "ExtraCondition": [],
+    "MenuList": []
+  }
+}

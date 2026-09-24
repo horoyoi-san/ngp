@@ -1,0 +1,46 @@
+{
+  "_class": "PoliceFakeManAnimSpeedConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 2,
+  "records": [
+    {
+      "Id": 1,
+      "NormalLayerAnimSpeed": 5,
+      "HighLayerAnimSpeed": 5,
+      "Weight": 10,
+      "NormalLayerAnimSpeedInterval": {
+        "min": 1,
+        "max": 2
+      },
+      "HighLayerAnimSpeedInterval": {
+        "min": 1,
+        "max": 2
+      },
+      "NextInsertInterval": {
+        "min": 10,
+        "max": 15
+      }
+    },
+    {
+      "Id": 2,
+      "NormalLayerAnimSpeed": -3,
+      "HighLayerAnimSpeed": -3,
+      "Weight": 10,
+      "NormalLayerAnimSpeedInterval": {
+        "min": 1,
+        "max": 2
+      },
+      "HighLayerAnimSpeedInterval": {
+        "min": 1,
+        "max": 2
+      },
+      "NextInsertInterval": {
+        "min": 10,
+        "max": 15
+      }
+    }
+  ],
+  "_dumpedCount": 2,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

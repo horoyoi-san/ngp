@@ -1,0 +1,1172 @@
+{
+  "CarMoveCfg": {
+    "Id": 1,
+    "CodeName": "CarMove",
+    "ReturnTrigger": 0
+  },
+  "VehicleMoveCfg": {
+    "Id": 2,
+    "CodeName": "VehicleMove",
+    "ReturnTrigger": 0
+  },
+  "SceneInteractionCfg": {
+    "Id": 3,
+    "CodeName": "SceneInteraction",
+    "ReturnTrigger": 0
+  },
+  "ResetCfg": {
+    "Id": 4,
+    "CodeName": "Reset",
+    "ReturnTrigger": 0
+  },
+  "WeaponMoveCfg": {
+    "Id": 5,
+    "CodeName": "WeaponMove",
+    "ReturnTrigger": 0
+  },
+  "StartSlideCfg": {
+    "Id": 6,
+    "CodeName": "StartSlide",
+    "ReturnTrigger": 0
+  },
+  "RightCarryCfg": {
+    "Id": 7,
+    "CodeName": "RightCarry",
+    "ReturnTrigger": 0
+  },
+  "PutDownCfg": {
+    "Id": 8,
+    "CodeName": "PutDown",
+    "ReturnTrigger": 0
+  },
+  "PutToCfg": {
+    "Id": 9,
+    "CodeName": "PutTo",
+    "ReturnTrigger": 0
+  },
+  "FreezeIdleCfg": {
+    "Id": 10,
+    "CodeName": "FreezeIdle",
+    "ReturnTrigger": 0
+  },
+  "PickCfg": {
+    "Id": 11,
+    "CodeName": "Pick",
+    "ReturnTrigger": 0
+  },
+  "ThrowCfg": {
+    "Id": 12,
+    "CodeName": "Throw",
+    "ReturnTrigger": 0
+  },
+  "StartRideCfg": {
+    "Id": 13,
+    "CodeName": "StartRide",
+    "ReturnTrigger": 0
+  },
+  "MultiInteractCfg": {
+    "Id": 14,
+    "CodeName": "MultiInteract",
+    "ReturnTrigger": 0
+  },
+  "GeneralInteractCfg": {
+    "Id": 15,
+    "CodeName": "GeneralInteract",
+    "ReturnTrigger": 0
+  },
+  "StartLeanCfg": {
+    "Id": 16,
+    "CodeName": "StartLean",
+    "ReturnTrigger": 0
+  },
+  "StopLeanCfg": {
+    "Id": 17,
+    "CodeName": "StopLean",
+    "ReturnTrigger": 0
+  },
+  "StartVehicleLeanCfg": {
+    "Id": 18,
+    "CodeName": "StartVehicleLean",
+    "ReturnTrigger": 0
+  },
+  "StopVehicleLeanCfg": {
+    "Id": 19,
+    "CodeName": "StopVehicleLean",
+    "ReturnTrigger": 0
+  },
+  "UAVBrakeCfg": {
+    "Id": 20,
+    "CodeName": "UAVBrake",
+    "ReturnTrigger": 0
+  },
+  "BasketballPickCfg": {
+    "Id": 21,
+    "CodeName": "BasketballPick",
+    "ReturnTrigger": 0
+  },
+  "PoliceAssistOpenVehicleDoorCfg": {
+    "Id": 22,
+    "CodeName": "PoliceAssistOpenVehicleDoor",
+    "ReturnTrigger": 0
+  },
+  "BasketballThrowCfg": {
+    "Id": 23,
+    "CodeName": "BasketballThrow",
+    "ReturnTrigger": 0
+  },
+  "WeaponAnimEndCfg": {
+    "Id": 24,
+    "CodeName": "WeaponAnimEnd",
+    "ReturnTrigger": 0
+  },
+  "SwingStartCfg": {
+    "Id": 25,
+    "CodeName": "SwingStart",
+    "ReturnTrigger": 0
+  },
+  "UpperHolderAnimStartCfg": {
+    "Id": 26,
+    "CodeName": "UpperHolderAnimStart",
+    "ReturnTrigger": 0
+  },
+  "UpperHolderAnimEndCfg": {
+    "Id": 27,
+    "CodeName": "UpperHolderAnimEnd",
+    "ReturnTrigger": 0
+  },
+  "DaiBuStartCfg": {
+    "Id": 28,
+    "CodeName": "DaiBuStart",
+    "ReturnTrigger": 0
+  },
+  "DaiBuEndCfg": {
+    "Id": 29,
+    "CodeName": "DaiBuEnd",
+    "ReturnTrigger": 0
+  },
+  "TakeGoodsEndCfg": {
+    "Id": 30,
+    "CodeName": "TakeGoodsEnd",
+    "ReturnTrigger": 0
+  },
+  "PoliceAssistCloseVehicleDoorCfg": {
+    "Id": 31,
+    "CodeName": "PoliceAssistCloseVehicleDoor",
+    "ReturnTrigger": 0
+  },
+  "EnterAgainstWallCfg": {
+    "Id": 32,
+    "CodeName": "EnterAgainstWall",
+    "ReturnTrigger": 0
+  },
+  "LeaverAgainstWallCfg": {
+    "Id": 33,
+    "CodeName": "LeaverAgainstWall",
+    "ReturnTrigger": 0
+  },
+  "TakeGoodsUseEndCfg": {
+    "Id": 34,
+    "CodeName": "TakeGoodsUseEnd",
+    "ReturnTrigger": 0
+  },
+  "A2BStartCfg": {
+    "Id": 35,
+    "CodeName": "A2BStart",
+    "ReturnTrigger": 0
+  },
+  "B2AStartCfg": {
+    "Id": 36,
+    "CodeName": "B2AStart",
+    "ReturnTrigger": 0
+  },
+  "TakeGoodsMoveThrowCfg": {
+    "Id": 37,
+    "CodeName": "TakeGoodsMoveThrow",
+    "ReturnTrigger": 0
+  },
+  "CCTrans_JoystickMoveCfg": {
+    "Id": 38,
+    "CodeName": "CCTrans_JoystickMove",
+    "ReturnTrigger": 0
+  },
+  "TakeGoodsStandThrowCfg": {
+    "Id": 39,
+    "CodeName": "TakeGoodsStandThrow",
+    "ReturnTrigger": 0
+  },
+  "ReloadStratCfg": {
+    "Id": 40,
+    "CodeName": "ReloadStrat",
+    "ReturnTrigger": 0
+  },
+  "ReloadEndCfg": {
+    "Id": 41,
+    "CodeName": "ReloadEnd",
+    "ReturnTrigger": 0
+  },
+  "EnterUnitStateCfg": {
+    "Id": 42,
+    "CodeName": "EnterUnitState",
+    "ReturnTrigger": 0
+  },
+  "EnterExamineCfg": {
+    "Id": 43,
+    "CodeName": "EnterExamine",
+    "ReturnTrigger": 0
+  },
+  "EnterEscortCfg": {
+    "Id": 44,
+    "CodeName": "EnterEscort",
+    "ReturnTrigger": 0
+  },
+  "RushStartCfg": {
+    "Id": 45,
+    "CodeName": "RushStart",
+    "ReturnTrigger": 0
+  },
+  "RushEndCfg": {
+    "Id": 46,
+    "CodeName": "RushEnd",
+    "ReturnTrigger": 0
+  },
+  "DrinkCanCfg": {
+    "Id": 47,
+    "CodeName": "DrinkCan",
+    "ReturnTrigger": 0
+  },
+  "OccupyVehicleSeatCfg": {
+    "Id": 48,
+    "CodeName": "OccupyVehicleSeat",
+    "ReturnTrigger": 0
+  },
+  "UnoccupyVehicleSeatCfg": {
+    "Id": 49,
+    "CodeName": "UnoccupyVehicleSeat",
+    "ReturnTrigger": 0
+  },
+  "RushRCfg": {
+    "Id": 50,
+    "CodeName": "RushR",
+    "ReturnTrigger": 0
+  },
+  "GetInVehicleCfg": {
+    "Id": 51,
+    "CodeName": "GetInVehicle",
+    "ReturnTrigger": 0
+  },
+  "GetOutVehicleCfg": {
+    "Id": 52,
+    "CodeName": "GetOutVehicle",
+    "ReturnTrigger": 0
+  },
+  "FootballPickCfg": {
+    "Id": 53,
+    "CodeName": "FootballPick",
+    "ReturnTrigger": 0
+  },
+  "FootballThrowCfg": {
+    "Id": 54,
+    "CodeName": "FootballThrow",
+    "ReturnTrigger": 0
+  },
+  "FootballShootCfg": {
+    "Id": 55,
+    "CodeName": "FootballShoot",
+    "ReturnTrigger": 0
+  },
+  "FootballChaseCfg": {
+    "Id": 56,
+    "CodeName": "FootballChase",
+    "ReturnTrigger": 0
+  },
+  "TakeoutPhoneCfg": {
+    "Id": 57,
+    "CodeName": "TakeoutPhone",
+    "ReturnTrigger": 0
+  },
+  "PutdownPhoneCfg": {
+    "Id": 58,
+    "CodeName": "PutdownPhone",
+    "ReturnTrigger": 0
+  },
+  "TimeTableActivityStartCfg": {
+    "Id": 59,
+    "CodeName": "TimeTableActivityStart",
+    "ReturnTrigger": 0
+  },
+  "KesiLockCfg": {
+    "Id": 60,
+    "CodeName": "KesiLock",
+    "ReturnTrigger": 0
+  },
+  "KesiUnLockCfg": {
+    "Id": 61,
+    "CodeName": "KesiUnLock",
+    "ReturnTrigger": 0
+  },
+  "EnterKesiCfg": {
+    "Id": 62,
+    "CodeName": "EnterKesi",
+    "ReturnTrigger": 0
+  },
+  "InteractOneShotCfg": {
+    "Id": 63,
+    "CodeName": "InteractOneShot",
+    "ReturnTrigger": 0
+  },
+  "InteractOneShot2Cfg": {
+    "Id": 64,
+    "CodeName": "InteractOneShot2",
+    "ReturnTrigger": 0
+  },
+  "InteractOneShot3Cfg": {
+    "Id": 65,
+    "CodeName": "InteractOneShot3",
+    "ReturnTrigger": 0
+  },
+  "InteractStartLoopCfg": {
+    "Id": 66,
+    "CodeName": "InteractStartLoop",
+    "ReturnTrigger": 0
+  },
+  "InteractStartLoopEndCfg": {
+    "Id": 67,
+    "CodeName": "InteractStartLoopEnd",
+    "ReturnTrigger": 0
+  },
+  "ReturnLocomotionCfg": {
+    "Id": 68,
+    "CodeName": "ReturnLocomotion",
+    "ReturnTrigger": 0
+  },
+  "ResetDiveHoldCfg": {
+    "Id": 69,
+    "CodeName": "ResetDiveHold",
+    "ReturnTrigger": 0
+  },
+  "GeneralInteractOneShotCfg": {
+    "Id": 70,
+    "CodeName": "GeneralInteractOneShot",
+    "ReturnTrigger": 0
+  },
+  "GeneralInteractStartLoopEndCfg": {
+    "Id": 71,
+    "CodeName": "GeneralInteractStartLoopEnd",
+    "ReturnTrigger": 0
+  },
+  "TestSyncLayerCfg": {
+    "Id": 72,
+    "CodeName": "TestSyncLayer",
+    "ReturnTrigger": 0
+  },
+  "ChairSitCfg": {
+    "Id": 73,
+    "CodeName": "ChairSit",
+    "ReturnTrigger": 0
+  },
+  "ChairSitLeftCfg": {
+    "Id": 74,
+    "CodeName": "ChairSitLeft",
+    "ReturnTrigger": 0
+  },
+  "MindPowerHoldEnterMoveCfg": {
+    "Id": 75,
+    "CodeName": "MindPowerHoldEnterMove",
+    "ReturnTrigger": 0
+  },
+  "MindPowerMagnetEnterMoveCfg": {
+    "Id": 76,
+    "CodeName": "MindPowerMagnetEnterMove",
+    "ReturnTrigger": 0
+  },
+  "MindPowerNormalEnterMoveCfg": {
+    "Id": 77,
+    "CodeName": "MindPowerNormalEnterMove",
+    "ReturnTrigger": 0
+  },
+  "TwoPersonInteractOneShotCfg": {
+    "Id": 78,
+    "CodeName": "TwoPersonInteractOneShot",
+    "ReturnTrigger": 0
+  },
+  "TwoPersonInteractStartLoopEndCfg": {
+    "Id": 79,
+    "CodeName": "TwoPersonInteractStartLoopEnd",
+    "ReturnTrigger": 0
+  },
+  "Removed2Cfg": {
+    "Id": 80,
+    "CodeName": "Removed2",
+    "ReturnTrigger": 0
+  },
+  "PoliceCar01Cfg": {
+    "Id": 81,
+    "CodeName": "PoliceCar01",
+    "ReturnTrigger": 0
+  },
+  "PoliceCar02Cfg": {
+    "Id": 82,
+    "CodeName": "PoliceCar02",
+    "ReturnTrigger": 0
+  },
+  "PoliceCar03Cfg": {
+    "Id": 83,
+    "CodeName": "PoliceCar03",
+    "ReturnTrigger": 0
+  },
+  "StopDrinkCfg": {
+    "Id": 84,
+    "CodeName": "StopDrink",
+    "ReturnTrigger": 0
+  },
+  "BartenderNpcStartCfg": {
+    "Id": 85,
+    "CodeName": "BartenderNpcStart",
+    "ReturnTrigger": 0
+  },
+  "TwoPersonMoveOneShotCfg": {
+    "Id": 86,
+    "CodeName": "TwoPersonMoveOneShot",
+    "ReturnTrigger": 0
+  },
+  "TwoPersonMoveStartLoopEndCfg": {
+    "Id": 87,
+    "CodeName": "TwoPersonMoveStartLoopEnd",
+    "ReturnTrigger": 0
+  },
+  "Removed3Cfg": {
+    "Id": 88,
+    "CodeName": "Removed3",
+    "ReturnTrigger": 0
+  },
+  "LegacyBpAnimCfg": {
+    "Id": 89,
+    "CodeName": "LegacyBpAnim",
+    "ReturnTrigger": 0
+  },
+  "Removed4Cfg": {
+    "Id": 90,
+    "CodeName": "Removed4",
+    "ReturnTrigger": 0
+  },
+  "StartStrideRemappingCfg": {
+    "Id": 91,
+    "CodeName": "StartStrideRemapping",
+    "ReturnTrigger": 0
+  },
+  "FansBaseTypeCfg": {
+    "Id": 92,
+    "CodeName": "FansBaseType",
+    "ReturnTrigger": 0
+  },
+  "GreetNPCEndCfg": {
+    "Id": 93,
+    "CodeName": "GreetNPCEnd",
+    "ReturnTrigger": 0
+  },
+  "GreetNPCStartCfg": {
+    "Id": 94,
+    "CodeName": "GreetNPCStart",
+    "ReturnTrigger": 0
+  },
+  "ChangeWeaponEndCfg": {
+    "Id": 95,
+    "CodeName": "ChangeWeaponEnd",
+    "ReturnTrigger": 0
+  },
+  "TakePhotoInCfg": {
+    "Id": 96,
+    "CodeName": "TakePhotoIn",
+    "ReturnTrigger": 0
+  },
+  "TakePhotoOutCfg": {
+    "Id": 97,
+    "CodeName": "TakePhotoOut",
+    "ReturnTrigger": 0
+  },
+  "JiaoHuMianBanCfg": {
+    "Id": 98,
+    "CodeName": "JiaoHuMianBan",
+    "ReturnTrigger": 0
+  },
+  "PoliceArrestStartMainCfg": {
+    "Id": 99,
+    "CodeName": "PoliceArrestStartMain",
+    "ReturnTrigger": 0
+  },
+  "PoliceArrestEndMainCfg": {
+    "Id": 100,
+    "CodeName": "PoliceArrestEndMain",
+    "ReturnTrigger": 0
+  },
+  "PoliceArrestStartCoCfg": {
+    "Id": 101,
+    "CodeName": "PoliceArrestStartCo",
+    "ReturnTrigger": 0
+  },
+  "PoliceArrestEndCoCfg": {
+    "Id": 102,
+    "CodeName": "PoliceArrestEndCo",
+    "ReturnTrigger": 0
+  },
+  "MultiInteractTwoPersonPassiveMoveCfg": {
+    "Id": 103,
+    "CodeName": "MultiInteractTwoPersonPassiveMove",
+    "ReturnTrigger": 0
+  },
+  "BasketballDefendCfg": {
+    "Id": 104,
+    "CodeName": "BasketballDefend",
+    "ReturnTrigger": 0
+  },
+  "StartVehicleRequisitionCfg": {
+    "Id": 105,
+    "CodeName": "StartVehicleRequisition",
+    "ReturnTrigger": 0
+  },
+  "LeaveBasketballDefendCfg": {
+    "Id": 106,
+    "CodeName": "LeaveBasketballDefend",
+    "ReturnTrigger": 0
+  },
+  "StartPOIActionCfg": {
+    "Id": 107,
+    "CodeName": "StartPOIAction",
+    "ReturnTrigger": 0
+  },
+  "TarotBackChairCfg": {
+    "Id": 108,
+    "CodeName": "TarotBackChair",
+    "ReturnTrigger": 0
+  },
+  "BasketballStealSuccessCfg": {
+    "Id": 109,
+    "CodeName": "BasketballStealSuccess",
+    "ReturnTrigger": 0
+  },
+  "BasketballBlockSuccessCfg": {
+    "Id": 110,
+    "CodeName": "BasketballBlockSuccess",
+    "ReturnTrigger": 0
+  },
+  "WallTakePhotoOutCfg": {
+    "Id": 111,
+    "CodeName": "WallTakePhotoOut",
+    "ReturnTrigger": 0
+  },
+  "VehicleLeaveCfg": {
+    "Id": 112,
+    "CodeName": "VehicleLeave",
+    "ReturnTrigger": 0
+  },
+  "ClimbOnBoatCfg": {
+    "Id": 113,
+    "CodeName": "ClimbOnBoat",
+    "ReturnTrigger": 0
+  },
+  "OldWallIdleToNewLCfg": {
+    "Id": 114,
+    "CodeName": "OldWallIdleToNewL",
+    "ReturnTrigger": 0
+  },
+  "OldWallIdleToNewRCfg": {
+    "Id": 115,
+    "CodeName": "OldWallIdleToNewR",
+    "ReturnTrigger": 0
+  },
+  "RequestVehicleSuccessfulCfg": {
+    "Id": 116,
+    "CodeName": "RequestVehicleSuccessful",
+    "ReturnTrigger": 0
+  },
+  "RequestVehicleFailedCfg": {
+    "Id": 117,
+    "CodeName": "RequestVehicleFailed",
+    "ReturnTrigger": 0
+  },
+  "EnterVehicleCfg": {
+    "Id": 118,
+    "CodeName": "EnterVehicle",
+    "ReturnTrigger": 0
+  },
+  "EnterVehicleInteriorCfg": {
+    "Id": 119,
+    "CodeName": "EnterVehicleInterior",
+    "ReturnTrigger": 0
+  },
+  "LeaveVehicleInteriorCfg": {
+    "Id": 120,
+    "CodeName": "LeaveVehicleInterior",
+    "ReturnTrigger": 0
+  },
+  "VehiclePartInteractCfg": {
+    "Id": 121,
+    "CodeName": "VehiclePartInteract",
+    "ReturnTrigger": 0
+  },
+  "InDriveCfg": {
+    "Id": 122,
+    "CodeName": "InDrive",
+    "ReturnTrigger": 0
+  },
+  "ShuffleOnVehicleCfg": {
+    "Id": 123,
+    "CodeName": "ShuffleOnVehicle",
+    "ReturnTrigger": 0
+  },
+  "ScratchOCfg": {
+    "Id": 124,
+    "CodeName": "ScratchO",
+    "ReturnTrigger": 0
+  },
+  "VehicleDecSharplyCfg": {
+    "Id": 125,
+    "CodeName": "VehicleDecSharply",
+    "ReturnTrigger": 0
+  },
+  "BasketballBlockCfg": {
+    "Id": 126,
+    "CodeName": "BasketballBlock",
+    "ReturnTrigger": 0
+  },
+  "BasketballStealCfg": {
+    "Id": 127,
+    "CodeName": "BasketballSteal",
+    "ReturnTrigger": 0
+  },
+  "DiscoCanShakeCfg": {
+    "Id": 128,
+    "CodeName": "DiscoCanShake",
+    "ReturnTrigger": 0
+  },
+  "PoliceAddCfg": {
+    "Id": 129,
+    "CodeName": "PoliceAdd",
+    "ReturnTrigger": 0
+  },
+  "PoliceLeaveCfg": {
+    "Id": 130,
+    "CodeName": "PoliceLeave",
+    "ReturnTrigger": 0
+  },
+  "BounceJumpCfg": {
+    "Id": 131,
+    "CodeName": "BounceJump",
+    "ReturnTrigger": 0
+  },
+  "PoliceFreeCfg": {
+    "Id": 132,
+    "CodeName": "PoliceFree",
+    "ReturnTrigger": 0
+  },
+  "EnterTimelineControlledCfg": {
+    "Id": 133,
+    "CodeName": "EnterTimelineControlled",
+    "ReturnTrigger": 0
+  },
+  "EnterRapidSwimCfg": {
+    "Id": 134,
+    "CodeName": "EnterRapidSwim",
+    "ReturnTrigger": 0
+  },
+  "MultiInteractStopNoEndAnimCfg": {
+    "Id": 135,
+    "CodeName": "MultiInteractStopNoEndAnim",
+    "ReturnTrigger": 0
+  },
+  "GreetNPCUpbodyEndCfg": {
+    "Id": 136,
+    "CodeName": "GreetNPCUpbodyEnd",
+    "ReturnTrigger": 0
+  },
+  "FootballPassCfg": {
+    "Id": 137,
+    "CodeName": "FootballPass",
+    "ReturnTrigger": 0
+  },
+  "FootballFlickCfg": {
+    "Id": 138,
+    "CodeName": "FootballFlick",
+    "ReturnTrigger": 0
+  },
+  "PutGoodsStartCfg": {
+    "Id": 139,
+    "CodeName": "PutGoodsStart",
+    "ReturnTrigger": 0
+  },
+  "GetGoodsEndCfg": {
+    "Id": 140,
+    "CodeName": "GetGoodsEnd",
+    "ReturnTrigger": 0
+  },
+  "CityWalkCfg": {
+    "Id": 141,
+    "CodeName": "CityWalk",
+    "ReturnTrigger": 0
+  },
+  "BasketballReboundSuccessCfg": {
+    "Id": 142,
+    "CodeName": "BasketballReboundSuccess",
+    "ReturnTrigger": 0
+  },
+  "BasketballReboundFailCfg": {
+    "Id": 216,
+    "CodeName": "BasketballReboundFail",
+    "ReturnTrigger": 0
+  },
+  "UpBodyActionCfg": {
+    "Id": 143,
+    "CodeName": "UpBodyAction",
+    "ReturnTrigger": 0
+  },
+  "BasketballBeStealCfg": {
+    "Id": 144,
+    "CodeName": "BasketballBeSteal",
+    "ReturnTrigger": 0
+  },
+  "BasketballBlockMissCfg": {
+    "Id": 145,
+    "CodeName": "BasketballBlockMiss",
+    "ReturnTrigger": 0
+  },
+  "FootballDefCfg": {
+    "Id": 146,
+    "CodeName": "FootballDef",
+    "ReturnTrigger": 0
+  },
+  "LeaveFootballDefCfg": {
+    "Id": 147,
+    "CodeName": "LeaveFootballDef",
+    "ReturnTrigger": 0
+  },
+  "ExitAbpSessionCfg": {
+    "Id": 148,
+    "CodeName": "ExitAbpSession",
+    "ReturnTrigger": 0
+  },
+  "InteractionFullBodyAddCfg": {
+    "Id": 149,
+    "CodeName": "InteractionFullBodyAdd",
+    "ReturnTrigger": 0
+  },
+  "InteractionSwitchLayerCfg": {
+    "Id": 150,
+    "CodeName": "InteractionSwitchLayer",
+    "ReturnTrigger": 0
+  },
+  "InteractionUpperOverCfg": {
+    "Id": 151,
+    "CodeName": "InteractionUpperOver",
+    "ReturnTrigger": 0
+  },
+  "BasketballAutoDefStartCfg": {
+    "Id": 152,
+    "CodeName": "BasketballAutoDefStart",
+    "ReturnTrigger": 0
+  },
+  "BasketballAutoDefEndCfg": {
+    "Id": 153,
+    "CodeName": "BasketballAutoDefEnd",
+    "ReturnTrigger": 0
+  },
+  "ActiveAimOffsetCfg": {
+    "Id": 154,
+    "CodeName": "ActiveAimOffset",
+    "ReturnTrigger": 0
+  },
+  "BasketballAttackShootCfg": {
+    "Id": 155,
+    "CodeName": "BasketballAttackShoot",
+    "ReturnTrigger": 0
+  },
+  "BasketballAttackTheRimCfg": {
+    "Id": 156,
+    "CodeName": "BasketballAttackTheRim",
+    "ReturnTrigger": 0
+  },
+  "MultiInteractPrincessStartCfg": {
+    "Id": 157,
+    "CodeName": "MultiInteractPrincessStart",
+    "ReturnTrigger": 0
+  },
+  "MultiInteractPrincessLoopCfg": {
+    "Id": 158,
+    "CodeName": "MultiInteractPrincessLoop",
+    "ReturnTrigger": 0
+  },
+  "MultiInteractPrincessEndCfg": {
+    "Id": 159,
+    "CodeName": "MultiInteractPrincessEnd",
+    "ReturnTrigger": 0
+  },
+  "MultiInteractOnBackStartCfg": {
+    "Id": 160,
+    "CodeName": "MultiInteractOnBackStart",
+    "ReturnTrigger": 0
+  },
+  "MultiInteractOnBackLoopCfg": {
+    "Id": 161,
+    "CodeName": "MultiInteractOnBackLoop",
+    "ReturnTrigger": 0
+  },
+  "MultiInteractOnBackEndCfg": {
+    "Id": 162,
+    "CodeName": "MultiInteractOnBackEnd",
+    "ReturnTrigger": 0
+  },
+  "CCTransitionRightArmOverCfg": {
+    "Id": 163,
+    "CodeName": "CCTransitionRightArmOver",
+    "ReturnTrigger": 0
+  },
+  "BasketballForceIdleCfg": {
+    "Id": 164,
+    "CodeName": "BasketballForceIdle",
+    "ReturnTrigger": 0
+  },
+  "BasketballSkillCfg": {
+    "Id": 165,
+    "CodeName": "BasketballSkill",
+    "ReturnTrigger": 0
+  },
+  "MultiInteractQ2BirdStartCfg": {
+    "Id": 166,
+    "CodeName": "MultiInteractQ2BirdStart",
+    "ReturnTrigger": 0
+  },
+  "MultiInteractQ2BirdLoopCfg": {
+    "Id": 167,
+    "CodeName": "MultiInteractQ2BirdLoop",
+    "ReturnTrigger": 0
+  },
+  "MultiInteractQ2BirdEndCfg": {
+    "Id": 168,
+    "CodeName": "MultiInteractQ2BirdEnd",
+    "ReturnTrigger": 0
+  },
+  "MultiInteractDanceHoldhandStartCfg": {
+    "Id": 169,
+    "CodeName": "MultiInteractDanceHoldhandStart",
+    "ReturnTrigger": 0
+  },
+  "MultiInteractDanceHoldhandLoopCfg": {
+    "Id": 170,
+    "CodeName": "MultiInteractDanceHoldhandLoop",
+    "ReturnTrigger": 0
+  },
+  "MultiInteractDanceHoldhandEndCfg": {
+    "Id": 171,
+    "CodeName": "MultiInteractDanceHoldhandEnd",
+    "ReturnTrigger": 0
+  },
+  "BasketballThreeThreatCfg": {
+    "Id": 172,
+    "CodeName": "BasketballThreeThreat",
+    "ReturnTrigger": 0
+  },
+  "BasketballCheckballDefCfg": {
+    "Id": 173,
+    "CodeName": "BasketballCheckballDef",
+    "ReturnTrigger": 0
+  },
+  "BasketballCheckballOffCfg": {
+    "Id": 174,
+    "CodeName": "BasketballCheckballOff",
+    "ReturnTrigger": 0
+  },
+  "BasketballOnBallDefRunCfg": {
+    "Id": 175,
+    "CodeName": "BasketballOnBallDefRun",
+    "ReturnTrigger": 0
+  },
+  "BasketballOnBallDefRushCfg": {
+    "Id": 176,
+    "CodeName": "BasketballOnBallDefRush",
+    "ReturnTrigger": 0
+  },
+  "ShoulderPoleEnterIdleCfg": {
+    "Id": 177,
+    "CodeName": "ShoulderPoleEnterIdle",
+    "ReturnTrigger": 0
+  },
+  "FinishFreezeIdleCfg": {
+    "Id": 178,
+    "CodeName": "FinishFreezeIdle",
+    "ReturnTrigger": 0
+  },
+  "PendulumJumpCheckTargetStartCfg": {
+    "Id": 179,
+    "CodeName": "PendulumJumpCheckTargetStart",
+    "ReturnTrigger": 0
+  },
+  "GameplayChefPickUpDishCfg": {
+    "Id": 180,
+    "CodeName": "GameplayChefPickUpDish",
+    "ReturnTrigger": 0
+  },
+  "GameplayChefStopUpperLayerAnimCfg": {
+    "Id": 181,
+    "CodeName": "GameplayChefStopUpperLayerAnim",
+    "ReturnTrigger": 0
+  },
+  "GameplayChefSwitchHandPose02Cfg": {
+    "Id": 182,
+    "CodeName": "GameplayChefSwitchHandPose02",
+    "ReturnTrigger": 0
+  },
+  "GameplayChefQuitHandPose02Cfg": {
+    "Id": 183,
+    "CodeName": "GameplayChefQuitHandPose02",
+    "ReturnTrigger": 0
+  },
+  "BasketballFreeRunCfg": {
+    "Id": 184,
+    "CodeName": "BasketballFreeRun",
+    "ReturnTrigger": 0
+  },
+  "BasketballFreeRushCfg": {
+    "Id": 185,
+    "CodeName": "BasketballFreeRush",
+    "ReturnTrigger": 0
+  },
+  "GameplayChefPickUpPotCfg": {
+    "Id": 186,
+    "CodeName": "GameplayChefPickUpPot",
+    "ReturnTrigger": 0
+  },
+  "PendulumJumpCheckTargetEndCfg": {
+    "Id": 187,
+    "CodeName": "PendulumJumpCheckTargetEnd",
+    "ReturnTrigger": 0
+  },
+  "BasketballThreeThreatShootCancelCfg": {
+    "Id": 188,
+    "CodeName": "BasketballThreeThreatShootCancel",
+    "ReturnTrigger": 0
+  },
+  "UpperAddEnterCfg": {
+    "Id": 189,
+    "CodeName": "UpperAddEnter",
+    "ReturnTrigger": 0
+  },
+  "ShoulderPoleAttachCfg": {
+    "Id": 190,
+    "CodeName": "ShoulderPoleAttach",
+    "ReturnTrigger": 0
+  },
+  "BasketballBeBlockedCfg": {
+    "Id": 191,
+    "CodeName": "BasketballBeBlocked",
+    "ReturnTrigger": 0
+  },
+  "WashingMachineUpperBodyAnimStartCfg": {
+    "Id": 192,
+    "CodeName": "WashingMachineUpperBodyAnimStart",
+    "ReturnTrigger": 0
+  },
+  "BasketballFreeLocomoveCfg": {
+    "Id": 193,
+    "CodeName": "BasketballFreeLocomove",
+    "ReturnTrigger": 0
+  },
+  "BasketballSkillJMCfg": {
+    "Id": 194,
+    "CodeName": "BasketballSkillJM",
+    "ReturnTrigger": 0
+  },
+  "MultiInteractSnackStallCfg": {
+    "Id": 195,
+    "CodeName": "MultiInteractSnackStall",
+    "ReturnTrigger": 0
+  },
+  "BasketballAnkleBrokenCfg": {
+    "Id": 196,
+    "CodeName": "BasketballAnkleBroken",
+    "ReturnTrigger": 0
+  },
+  "MeihuazhuangUpperBodyAnimStartCfg": {
+    "Id": 197,
+    "CodeName": "MeihuazhuangUpperBodyAnimStart",
+    "ReturnTrigger": 0
+  },
+  "MeihuazhuangUpperBodyAnimEndCfg": {
+    "Id": 198,
+    "CodeName": "MeihuazhuangUpperBodyAnimEnd",
+    "ReturnTrigger": 0
+  },
+  "ExitHurtAnimGraphEventCfg": {
+    "Id": 199,
+    "CodeName": "ExitHurtAnimGraphEvent",
+    "ReturnTrigger": 0
+  },
+  "EnableDiveLeanAddCfg": {
+    "Id": 200,
+    "CodeName": "EnableDiveLeanAdd",
+    "ReturnTrigger": 0
+  },
+  "DisableDiveLeanAddCfg": {
+    "Id": 201,
+    "CodeName": "DisableDiveLeanAdd",
+    "ReturnTrigger": 0
+  },
+  "StartPOITransitionCfg": {
+    "Id": 202,
+    "CodeName": "StartPOITransition",
+    "ReturnTrigger": 0
+  },
+  "BasketballPickUpFailCfg": {
+    "Id": 203,
+    "CodeName": "BasketballPickUpFail",
+    "ReturnTrigger": 0
+  },
+  "IdlePOIChangedCfg": {
+    "Id": 204,
+    "CodeName": "IdlePOIChanged",
+    "ReturnTrigger": 0
+  },
+  "MultiInteractQ5TraversalCfg": {
+    "Id": 205,
+    "CodeName": "MultiInteractQ5Traversal",
+    "ReturnTrigger": 0
+  },
+  "BasketballPassBallCfg": {
+    "Id": 206,
+    "CodeName": "BasketballPassBall",
+    "ReturnTrigger": 0
+  },
+  "BasketballCatchBallCfg": {
+    "Id": 207,
+    "CodeName": "BasketballCatchBall",
+    "ReturnTrigger": 0
+  },
+  "BasketballInterceptReachCfg": {
+    "Id": 208,
+    "CodeName": "BasketballInterceptReach",
+    "ReturnTrigger": 0
+  },
+  "BasketballInterceptCfg": {
+    "Id": 211,
+    "CodeName": "BasketballIntercept",
+    "ReturnTrigger": 0
+  },
+  "BasketballCatchBallStaggerCfg": {
+    "Id": 209,
+    "CodeName": "BasketballCatchBallStagger",
+    "ReturnTrigger": 0
+  },
+  "BasketballCatchBallFailCfg": {
+    "Id": 210,
+    "CodeName": "BasketballCatchBallFail",
+    "ReturnTrigger": 0
+  },
+  "TakeOutTapeCfg": {
+    "Id": 212,
+    "CodeName": "TakeOutTape",
+    "ReturnTrigger": 0
+  },
+  "PutInTapeCfg": {
+    "Id": 213,
+    "CodeName": "PutInTape",
+    "ReturnTrigger": 0
+  },
+  "BasketballAskForBallCfg": {
+    "Id": 214,
+    "CodeName": "BasketballAskForBall",
+    "ReturnTrigger": 0
+  },
+  "VehicleOnCollisionCfg": {
+    "Id": 217,
+    "CodeName": "VehicleOnCollision",
+    "ReturnTrigger": 0
+  },
+  "MeihuazhuangMidCfg": {
+    "Id": 220,
+    "CodeName": "MeihuazhuangMid",
+    "ReturnTrigger": 0
+  },
+  "MeihuazhuangLeftCfg": {
+    "Id": 221,
+    "CodeName": "MeihuazhuangLeft",
+    "ReturnTrigger": 0
+  },
+  "MeihuazhuangRightCfg": {
+    "Id": 222,
+    "CodeName": "MeihuazhuangRight",
+    "ReturnTrigger": 0
+  },
+  "EnableDiveRollAddCfg": {
+    "Id": 218,
+    "CodeName": "EnableDiveRollAdd",
+    "ReturnTrigger": 0
+  },
+  "DisableDiveRollAddCfg": {
+    "Id": 219,
+    "CodeName": "DisableDiveRollAdd",
+    "ReturnTrigger": 0
+  },
+  "SYC01Cfg": {
+    "Id": 223,
+    "CodeName": "SYC01",
+    "ReturnTrigger": 0
+  },
+  "SYC02Cfg": {
+    "Id": 224,
+    "CodeName": "SYC02",
+    "ReturnTrigger": 0
+  },
+  "SYC03Cfg": {
+    "Id": 225,
+    "CodeName": "SYC03",
+    "ReturnTrigger": 0
+  },
+  "SYC04Cfg": {
+    "Id": 226,
+    "CodeName": "SYC04",
+    "ReturnTrigger": 0
+  },
+  "SYC05Cfg": {
+    "Id": 227,
+    "CodeName": "SYC05",
+    "ReturnTrigger": 0
+  },
+  "SYC06Cfg": {
+    "Id": 228,
+    "CodeName": "SYC06",
+    "ReturnTrigger": 0
+  },
+  "SYC07Cfg": {
+    "Id": 229,
+    "CodeName": "SYC07",
+    "ReturnTrigger": 0
+  },
+  "CXQ5CageShakeGameStartCfg": {
+    "Id": 230,
+    "CodeName": "CXQ5CageShakeGameStart",
+    "ReturnTrigger": 0
+  },
+  "CXQ5CageShakeHandUpStartCfg": {
+    "Id": 231,
+    "CodeName": "CXQ5CageShakeHandUpStart",
+    "ReturnTrigger": 0
+  },
+  "CXQ5CageShakeHandUpEndCfg": {
+    "Id": 232,
+    "CodeName": "CXQ5CageShakeHandUpEnd",
+    "ReturnTrigger": 0
+  },
+  "BasketballPassBallUpperLayerCfg": {
+    "Id": 233,
+    "CodeName": "BasketballPassBallUpperLayer",
+    "ReturnTrigger": 0
+  },
+  "EndPOIActionCfg": {
+    "Id": 234,
+    "CodeName": "EndPOIAction",
+    "ReturnTrigger": 0
+  },
+  "BindBoneCorrectCfg": {
+    "Id": 235,
+    "CodeName": "BindBoneCorrect",
+    "ReturnTrigger": 0
+  }
+}

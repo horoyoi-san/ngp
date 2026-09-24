@@ -1,0 +1,42 @@
+{
+  "_class": "VehicleMaterialConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 4,
+  "records": [
+    {
+      "Id": 4,
+      "Material": "Water",
+      "MinSlip": 0,
+      "MaxSlip": 99,
+      "TireMark": "",
+      "VehicleFx": "Res/Effects/EditorPrefabs/Carrier/fx_ca_common_luoshui_01.prefab"
+    },
+    {
+      "Id": 6,
+      "Material": "Default",
+      "MinSlip": 3,
+      "MaxSlip": 10,
+      "TireMark": "Res/Effects/Material/Scene/SC_Car/car_taiyin_02_01.mat",
+      "VehicleFx": "Res/Effects/EditorPrefabs/Carrier/fx_ca_common_redtrail_01.prefab"
+    },
+    {
+      "Id": 7,
+      "Material": "Grass",
+      "MinSlip": 3,
+      "MaxSlip": 10,
+      "TireMark": "Res/Effects/Material/Scene/SC_Car/car_taiyin_01_01.mat",
+      "VehicleFx": "Res/Effects/EditorPrefabs/Carrier/fx_ca_common_redtrail_01.prefab"
+    },
+    {
+      "Id": 8,
+      "Material": "Sand",
+      "MinSlip": 3,
+      "MaxSlip": 10,
+      "TireMark": "Res/Effects/Material/Scene/SC_Car/car_taiyin_01_01.mat",
+      "VehicleFx": "Res/Effects/EditorPrefabs/Carrier/fx_ca_common_redtrail_01.prefab"
+    }
+  ],
+  "_dumpedCount": 4,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

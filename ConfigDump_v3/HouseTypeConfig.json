@@ -1,0 +1,76 @@
+{
+  "_class": "HouseTypeConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 5,
+  "records": [
+    {
+      "Id": 1,
+      "MainType": 1,
+      "FurnitureShop": 28006757,
+      "SubType": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "BuildMode": 1
+    },
+    {
+      "Id": 2,
+      "MainType": 2,
+      "FurnitureShop": 28006761,
+      "SubType": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "BuildMode": 0
+    },
+    {
+      "Id": 3,
+      "MainType": 3,
+      "FurnitureShop": 28006759,
+      "SubType": [
+        30,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "BuildMode": 0
+    },
+    {
+      "Id": 4,
+      "MainType": 4,
+      "FurnitureShop": 28006760,
+      "SubType": [
+        40,
+        41,
+        42,
+        43
+      ],
+      "BuildMode": 0
+    },
+    {
+      "Id": 5,
+      "MainType": 5,
+      "FurnitureShop": 28006758,
+      "SubType": [
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "BuildMode": 0
+    }
+  ],
+  "_dumpedCount": 5,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

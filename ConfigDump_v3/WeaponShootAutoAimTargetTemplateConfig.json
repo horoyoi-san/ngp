@@ -1,0 +1,40 @@
+{
+  "_class": "WeaponShootAutoAimTargetTemplateConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 2,
+  "records": [
+    {
+      "Id": 1,
+      "BoundsInfo": [
+        {
+          "outerBoundsIndex": 0,
+          "expendMode": 0,
+          "expendValue": 0
+        },
+        {
+          "outerBoundsIndex": 1,
+          "expendMode": 1,
+          "expendValue": 2.5
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "BoundsInfo": [
+        {
+          "outerBoundsIndex": 0,
+          "expendMode": 0,
+          "expendValue": 0
+        },
+        {
+          "outerBoundsIndex": 1,
+          "expendMode": 1,
+          "expendValue": 2.5
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 2,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

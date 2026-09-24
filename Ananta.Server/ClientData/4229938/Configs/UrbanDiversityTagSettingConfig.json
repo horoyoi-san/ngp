@@ -1,0 +1,693 @@
+{
+  "_class": "UrbanDiversityTagSettingConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 17,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "休闲",
+      "ApperanceTag": "Casuals",
+      "ActionGroupDistribution": [
+        {
+          "weight": 30,
+          "actionGroupId": 400
+        },
+        {
+          "weight": 15,
+          "actionGroupId": 500
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 501
+        },
+        {
+          "weight": 20,
+          "actionGroupId": 502
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 503
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 504
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 505
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 506
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "Name": "男年无",
+      "ApperanceTag": "MYwu",
+      "ActionGroupDistribution": [
+        {
+          "weight": 5,
+          "actionGroupId": 400
+        },
+        {
+          "weight": 50,
+          "actionGroupId": 512
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 513
+        },
+        {
+          "weight": 20,
+          "actionGroupId": 521
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 530
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 536
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 538
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "Name": "女年畜",
+      "ApperanceTag": "FYshechu",
+      "ActionGroupDistribution": [
+        {
+          "weight": 5,
+          "actionGroupId": 400
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 500
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 501
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 505
+        },
+        {
+          "weight": 20,
+          "actionGroupId": 502
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 511
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 518
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 521
+        },
+        {
+          "weight": 20,
+          "actionGroupId": 529
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 530
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 531
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 532
+        }
+      ]
+    },
+    {
+      "Id": 4,
+      "Name": "男年闲",
+      "ApperanceTag": "MYxiuxian",
+      "ActionGroupDistribution": [
+        {
+          "weight": 5,
+          "actionGroupId": 400
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 504
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 501
+        },
+        {
+          "weight": 20,
+          "actionGroupId": 512
+        },
+        {
+          "weight": 20,
+          "actionGroupId": 521
+        }
+      ]
+    },
+    {
+      "Id": 5,
+      "Name": "女年闲",
+      "ApperanceTag": "FYxiuxian",
+      "ActionGroupDistribution": [
+        {
+          "weight": 5,
+          "actionGroupId": 400
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 504
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 501
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 512
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 524
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 529
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 532
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 536
+        }
+      ]
+    },
+    {
+      "Id": 6,
+      "Name": "女老民",
+      "ApperanceTag": "FOjumin",
+      "ActionGroupDistribution": [
+        {
+          "weight": 5,
+          "actionGroupId": 400
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 518
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 521
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 522
+        },
+        {
+          "weight": 20,
+          "actionGroupId": 523
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 524
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 529
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 530
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 532
+        },
+        {
+          "weight": 3,
+          "actionGroupId": 533
+        },
+        {
+          "weight": 3,
+          "actionGroupId": 534
+        }
+      ]
+    },
+    {
+      "Id": 7,
+      "Name": "男年民",
+      "ApperanceTag": "MYjumin",
+      "ActionGroupDistribution": [
+        {
+          "weight": 5,
+          "actionGroupId": 400
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 501
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 518
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 522
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 528
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 530
+        },
+        {
+          "weight": 3,
+          "actionGroupId": 534
+        }
+      ]
+    },
+    {
+      "Id": 8,
+      "Name": "男老民",
+      "ApperanceTag": "MOjumin",
+      "ActionGroupDistribution": [
+        {
+          "weight": 5,
+          "actionGroupId": 400
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 505
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 520
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 522
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 523
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 525
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 526
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 527
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 528
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 530
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 534
+        }
+      ]
+    },
+    {
+      "Id": 9,
+      "Name": "男老畜",
+      "ApperanceTag": "MOshechu",
+      "ActionGroupDistribution": [
+        {
+          "weight": 5,
+          "actionGroupId": 400
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 506
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 505
+        },
+        {
+          "weight": 30,
+          "actionGroupId": 518
+        },
+        {
+          "weight": 20,
+          "actionGroupId": 520
+        },
+        {
+          "weight": 30,
+          "actionGroupId": 523
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 525
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 526
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 528
+        }
+      ]
+    },
+    {
+      "Id": 10,
+      "Name": "男年畜",
+      "ApperanceTag": "MYshechu",
+      "ActionGroupDistribution": [
+        {
+          "weight": 5,
+          "actionGroupId": 400
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 501
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 502
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 511
+        },
+        {
+          "weight": 30,
+          "actionGroupId": 518
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 521
+        }
+      ]
+    },
+    {
+      "Id": 11,
+      "Name": "女年民",
+      "ApperanceTag": "FYjumin",
+      "ActionGroupDistribution": [
+        {
+          "weight": 5,
+          "actionGroupId": 400
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 501
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 505
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 513
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 522
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 524
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 529
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 532
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 536
+        }
+      ]
+    },
+    {
+      "Id": 12,
+      "Name": "女老畜",
+      "ApperanceTag": "FOshechu",
+      "ActionGroupDistribution": [
+        {
+          "weight": 5,
+          "actionGroupId": 400
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 506
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 505
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 511
+        },
+        {
+          "weight": 30,
+          "actionGroupId": 518
+        },
+        {
+          "weight": 20,
+          "actionGroupId": 523
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 531
+        },
+        {
+          "weight": 3,
+          "actionGroupId": 533
+        }
+      ]
+    },
+    {
+      "Id": 13,
+      "Name": "女犬魔社",
+      "ApperanceTag": "FYquanmo",
+      "ActionGroupDistribution": [
+        {
+          "weight": 5,
+          "actionGroupId": 400
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 504
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 501
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 512
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 524
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 529
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 532
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 536
+        }
+      ]
+    },
+    {
+      "Id": 14,
+      "Name": "男焱风联合会",
+      "ApperanceTag": "MYyanfeng",
+      "ActionGroupDistribution": [
+        {
+          "weight": 30,
+          "actionGroupId": 400
+        },
+        {
+          "weight": 15,
+          "actionGroupId": 500
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 501
+        },
+        {
+          "weight": 20,
+          "actionGroupId": 502
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 503
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 504
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 505
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 506
+        }
+      ]
+    },
+    {
+      "Id": 15,
+      "Name": "男龙治团",
+      "ApperanceTag": "MYlongzhi",
+      "ActionGroupDistribution": [
+        {
+          "weight": 30,
+          "actionGroupId": 400
+        },
+        {
+          "weight": 15,
+          "actionGroupId": 500
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 501
+        },
+        {
+          "weight": 20,
+          "actionGroupId": 502
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 503
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 504
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 505
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 506
+        }
+      ]
+    },
+    {
+      "Id": 16,
+      "Name": "男超频帮",
+      "ApperanceTag": "MYchaopin",
+      "ActionGroupDistribution": [
+        {
+          "weight": 30,
+          "actionGroupId": 400
+        },
+        {
+          "weight": 15,
+          "actionGroupId": 500
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 501
+        },
+        {
+          "weight": 20,
+          "actionGroupId": 502
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 503
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 504
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 505
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 506
+        }
+      ]
+    },
+    {
+      "Id": 17,
+      "Name": "男犬魔社",
+      "ApperanceTag": "MYquanmo",
+      "ActionGroupDistribution": [
+        {
+          "weight": 30,
+          "actionGroupId": 400
+        },
+        {
+          "weight": 15,
+          "actionGroupId": 500
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 501
+        },
+        {
+          "weight": 20,
+          "actionGroupId": 502
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 503
+        },
+        {
+          "weight": 5,
+          "actionGroupId": 504
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 505
+        },
+        {
+          "weight": 10,
+          "actionGroupId": 506
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 17,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

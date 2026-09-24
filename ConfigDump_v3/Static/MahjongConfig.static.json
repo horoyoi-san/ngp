@@ -1,0 +1,433 @@
+{
+  "MahjongVoiceCd": 5,
+  "MahjongCuicuTime": 3,
+  "MahjongXinshouTishi": 3,
+  "MaxMatchTime": 900,
+  "QueShengRound": 4,
+  "MahjongCompetitionSurprise": {
+    "NpcId": 45000061,
+    "NpcTalk": 7,
+    "NeedMoney": 100,
+    "RewardMoney": 14500000,
+    "Probability": 0.800000012
+  },
+  "MahjongThinking": "牌桌上的一切尽在监视之下",
+  "PveMahjongRaidId": [
+    23300888,
+    23300999,
+    23301051
+  ],
+  "MahjongActionType": [
+    "Win",
+    "Rain",
+    "Kong from Exposed Pong",
+    "Wind",
+    "Score Transfer",
+    "Refund",
+    "Check Unready Hands",
+    "Check Three Suits",
+    "Ready Hand",
+    "Leave"
+  ],
+  "MahjongHuPattern": [
+    "Seven Pairs",
+    "All Pongs",
+    "Win"
+  ],
+  "MahjongHuAction": [
+    "Kong-Drawn Win",
+    "Kong-Drawn Win",
+    "Robbing the Kong",
+    "Kong Snatcher",
+    "Win by Last Catch",
+    "Heavenly Hand",
+    "Earthly Hand",
+    "Self-Drawn",
+    "All One Suit",
+    "Golden Hook"
+  ],
+  "MahjongGen": 1,
+  "MahjongZimo": 1,
+  "MahjongGangshangkaihua": 1,
+  "MahjongGangshangpao": 1,
+  "MahjongQiangganghu": 1,
+  "MahjongHaidilaoyue": 1,
+  "MahjongPengpenghu": 1,
+  "MahjongQingyise": 2,
+  "MahjongQiduizi": 2,
+  "MahjongJingoudiao": 1,
+  "MahjongTianhu": 5,
+  "MahjongDihu": 5,
+  "MahjongDisplayTime": 2,
+  "MahjongKaishiTime": 0,
+  "MahjongHuansanzhangTime": 20,
+  "MahjongDingqueTime": 10,
+  "MahjongChupaiTime": 30,
+  "MahjongSPai": [
+    28005243,
+    28005244,
+    28005245,
+    28005246,
+    28005247,
+    28005248,
+    28005249,
+    28005250,
+    28005251,
+    28005252,
+    28005253,
+    28005254,
+    28005255,
+    28005256,
+    28005257,
+    28005258,
+    28005259,
+    28005260,
+    28005261,
+    28005262,
+    28005263,
+    28005264,
+    28005265,
+    28005266,
+    28005267,
+    28005268,
+    28005269,
+    0
+  ],
+  "MahjongPai": [
+    25600112,
+    25600113,
+    25600114,
+    25600115,
+    25600116,
+    25600117,
+    25600118,
+    25600119,
+    25600120,
+    25600121,
+    25600122,
+    25600123,
+    25600124,
+    25600125,
+    25600126,
+    25600127,
+    25600128,
+    25600129,
+    25600130,
+    25600131,
+    25600132,
+    25600133,
+    25600134,
+    25600135,
+    25600136,
+    25600137,
+    25600138
+  ],
+  "MahjongMatchConfig": [
+    {
+      "ScoreBase": 100,
+      "ScoreMin": -99999999,
+      "ScoreMax": 50000
+    },
+    {
+      "ScoreBase": 300,
+      "ScoreMin": 10000,
+      "ScoreMax": 1000000
+    },
+    {
+      "ScoreBase": 800,
+      "ScoreMin": 300000,
+      "ScoreMax": 99999999
+    }
+  ],
+  "MahjongHuanpai": [
+    "Change hands counterclockwise this round.",
+    "Change hands with the opposite player this round.",
+    "Change hands clockwise this round."
+  ],
+  "MahjongPassTimesEnterTuoGuan": 3,
+  "MahjongCountDown": 10,
+  "MahjongTemporaryScore": 10000,
+  "MahjongAiPlayTime": [
+    1,
+    2.5
+  ],
+  "MahjongCountTime": 3,
+  "MahjongEndTime": 5,
+  "MahjongDingqueDelay": 3,
+  "MahjongActionTypeColor": [
+    63200127,
+    63200127,
+    63200127,
+    63200127,
+    63200127,
+    63200127,
+    63200127,
+    63200127,
+    63200127,
+    63200127
+  ],
+  "MahjongHuPatternColor": [
+    63200125,
+    63200126,
+    63200127
+  ],
+  "MahjongHuActionColor": [
+    63200126,
+    63200126,
+    63200126,
+    63200126,
+    63200126,
+    63200125,
+    63200125,
+    63200127,
+    63200125,
+    63200125
+  ],
+  "MahjongTalk": [
+    73970099,
+    73970100,
+    73970101,
+    73970102,
+    73970103,
+    73970104,
+    73970105,
+    73970106
+  ],
+  "MaJiangChatBubbleDisppear": 5,
+  "SeatNames": [
+    "E",
+    "S",
+    "W",
+    "N"
+  ],
+  "TypeNames": [
+    "Dots",
+    "Bamboo",
+    "Character"
+  ],
+  "OpEffectTexts": [
+    "[scale=1]碰[/scale][scale=0.5]",
+    "[scale=1]杠[/scale][scale=0.5]",
+    "[scale=1]胡[/scale][scale=0.5]",
+    "[scale=1]自[/scale][scale=0.5]摸",
+    "[scale=1]杠[/scale][scale=0.5]上开花",
+    "[scale=1]海[/scale][scale=0.5]底捞月",
+    "[scale=1]呼[/scale][scale=0.5]叫转移",
+    "[scale=1]查[/scale][scale=0.5]花猪",
+    "[scale=1]退[/scale][scale=0.5]税",
+    "[scale=1]查[/scale][scale=0.5]大叫"
+  ],
+  "MahjongRankName": [
+    "Beginner I",
+    "Beginner II",
+    "Beginner III",
+    "Expert I",
+    "Expert II",
+    "Expert III",
+    "Master I",
+    "Master II",
+    "Master III",
+    "Mahjong God"
+  ],
+  "MahjongRankIcon": [
+    28007021,
+    28007021,
+    28007021,
+    28007022,
+    28007022,
+    28007022,
+    28007023,
+    28007023,
+    28007023,
+    28007024
+  ],
+  "MahjongDivisionLowerLimit": [
+    1000,
+    3000,
+    5000,
+    8000,
+    10000,
+    20000,
+    50000,
+    100000,
+    150000
+  ],
+  "MahjongRankScore": [
+    80,
+    40,
+    -30,
+    -50
+  ],
+  "MahjongCoefficient": 0.00999999978,
+  "MahjongDivisionOneAILimit": [
+    {
+      "LowLimit": 0,
+      "UpLimit": 0.5
+    },
+    {
+      "LowLimit": 0.50999999,
+      "UpLimit": 0.550000012
+    },
+    {
+      "LowLimit": 0.50999999,
+      "UpLimit": 0.600000024
+    },
+    {
+      "LowLimit": 0.610000014,
+      "UpLimit": 0.699999988
+    },
+    {
+      "LowLimit": 0.709999979,
+      "UpLimit": 0.800000012
+    },
+    {
+      "LowLimit": 0.810000002,
+      "UpLimit": 0.839999974
+    },
+    {
+      "LowLimit": 0.850000024,
+      "UpLimit": 0.889999986
+    },
+    {
+      "LowLimit": 0.899999976,
+      "UpLimit": 0.939999998
+    },
+    {
+      "LowLimit": 0.949999988,
+      "UpLimit": 1
+    }
+  ],
+  "MahjongDivisionReward": [
+    14500001,
+    14500002,
+    14500003,
+    14500004,
+    14500005,
+    14500006,
+    14500007,
+    14500008,
+    14500009
+  ],
+  "MahjongSeatOrder": [
+    "Lower Hand",
+    "Opposite Hand",
+    "Upper Hand"
+  ],
+  "MahjongExitTime": 15,
+  "MahjongDivisionModeDescription": "Stack up points by taking those wins. Gradually rank up and unlock rewards! Just remember, losses mean deductions. Keep grinding to boost your rank!",
+  "MahjongInterpretScore": -100,
+  "DigitIconIdStart": 28029220,
+  "InviteTimelineName": "play_Mahjonginviting_npc_4p",
+  "LeaveTimelineName": "play_Mahjong_end_npc_4p",
+  "MahjongMachinePrefab": "Assets/Res/MiniGame/Prefab/MaJiang/MajiangMachine.prefab",
+  "outCardRowInterval": 0,
+  "outCardColInterval": 0,
+  "outCardCount": 5,
+  "normalCardInterval": -0.00200000009,
+  "pengGangSound": 15001493,
+  "outCardSound": 15001492,
+  "handCardSound": 15001496,
+  "MahjongLatestCardEffect": 53610778,
+  "MahjongHuCardEffect": 53610777,
+  "MahjongLatestCardEffectOffset": [
+    0,
+    0.200000003,
+    0.300000012
+  ],
+  "MahjongHuCardEffectOffset": [
+    0.100000001,
+    0.200000003,
+    0.100000001
+  ],
+  "MahjongHelpPage": [
+    "Tutorial",
+    "Types of Winning Hands",
+    "Basic Terms"
+  ],
+  "MahjongRankMaxLen": 20,
+  "FinalPanelTabsName": [
+    "Ranking",
+    "Point Details"
+  ],
+  "CameraRotateSpeed": 0.000500000024,
+  "GamepadCameraRotateSpeed": 0.0500000007,
+  "CameraFreelookRotateSpeed": 4.99999987e-05,
+  "CameraRotateMinX": -10,
+  "CameraRotateMaxX": 20,
+  "CameraRotateMinY": -10,
+  "CameraRotateMaxY": 10,
+  "CameraResetDuration": 0.300000012,
+  "CameraResetEase": 0,
+  "DapaiActionTime": 2,
+  "MopaiActionTime": 2,
+  "ChiPengGangActionTime": 4,
+  "RoundDrawText": [
+    "荒牌流局",
+    "九种九牌",
+    "三家和了",
+    "四杠散了",
+    "四家立直",
+    "四风连打"
+  ],
+  "YakuNameText": [
+    "立直",
+    "双立直",
+    "一发",
+    "门前清自摸",
+    "平和",
+    "役牌自风",
+    "役牌场风",
+    "役牌北",
+    "役牌白",
+    "役牌发",
+    "役牌中",
+    "断幺九",
+    "岭上开花",
+    "海底捞月",
+    "海底摸鱼",
+    "抢杠",
+    "七对",
+    "一气贯通",
+    "三色同顺",
+    "三色同刻",
+    "字一色",
+    "混老头",
+    "清老头",
+    "混全带幺九",
+    "纯全带幺九",
+    "二杯口",
+    "一杯口",
+    "对对和",
+    "三暗刻",
+    "四暗刻",
+    "四暗刻单骑",
+    "混一色",
+    "清一色",
+    "三杠子",
+    "四杠子",
+    "大三元",
+    "小三元",
+    "天和",
+    "地和",
+    "国士无双",
+    "国士无双十三面",
+    "九莲宝灯",
+    "纯正九莲宝灯",
+    "大四喜",
+    "小四喜",
+    "绿一色",
+    "纯绿一色"
+  ],
+  "YakuValueText": "{0} {1}番",
+  "ReachRoundName": [
+    "东一局",
+    "东二局",
+    "东三局",
+    "东四局"
+  ],
+  "AgariText": [
+    "自摸",
+    "荣和"
+  ],
+  "reachOutCardCount": 6
+}

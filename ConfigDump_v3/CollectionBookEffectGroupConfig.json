@@ -1,0 +1,32 @@
+{
+  "_class": "CollectionBookEffectGroupConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 1,
+  "records": [
+    {
+      "Id": 1,
+      "EffectUi": [
+        53800235,
+        53800235,
+        53800235
+      ],
+      "EffectInclude": [
+        {
+          "id": 53802012,
+          "weight": 1
+        },
+        {
+          "id": 53802013,
+          "weight": 2
+        },
+        {
+          "id": 53802014,
+          "weight": 3
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 1,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -1,19 +1,4 @@
-// rpc_serializer.js
-// Schema-driven serializer that mirrors the client's RPCSerializeBase.lua
-// exactly. The offline server fills plain JS objects; this turns them into
-// the wire bytes the client expects. No hand-built byte buffers.
-//
-// Marker convention (from RPCSerializeBase.lua):
-//   SerializeObjectMarkNull   = 0x00
-//   SerializeObjectMarkCommon = 0xFF
-//   WriteComplex(null,nullable) -> writes 0x00 ; present -> 0xFF + fields
-//   WriteList(null,nullable)    -> 0x00 ; present -> 0xFF + int32 count + items
-//   WriteStruct                 -> NO marker, fields written directly
-//   WriteBuffer(null,nullable)  -> 0x00 ; present -> 0xFF + buffer
-//
-// A "schema" is the field list extracted from the client's Reader[N].
-// Each field: {name, kind, op?, ref?, item?}
-//   kind: prim | struct | complex | buffer | list | dict
+
 
 const fs = require("fs");
 
@@ -31,7 +16,7 @@ class Writer {
   WriteSingle(v) { const b = Buffer.alloc(4); b.writeFloatLE(v || 0, 0); this._push(b); }
   WriteDouble(v) { const b = Buffer.alloc(8); b.writeDoubleLE(v || 0, 0); this._push(b); }
   WriteString(v) {
-    // client string format: byte present-marker + int32 length + utf8 bytes
+    
     if (v === null || v === undefined) { this.WriteByte(0x00); return; }
     const s = Buffer.from(String(v), "utf8");
     this.WriteByte(0xFF);
@@ -65,7 +50,7 @@ class RpcSerializer {
     this.midToName = j.midToName;
   }
 
-  // write one primitive
+  
   _writePrim(w, op, val) {
     const fn = PRIM[op];
     if (!fn) throw new Error("unknown prim op " + op);
@@ -73,14 +58,14 @@ class RpcSerializer {
     w[fn](val);
   }
 
-  // write a struct (NO marker) by schema ref
+  
   _writeStruct(w, ref, val) {
     const fields = this.schemas[ref] || [];
     const obj = val || {};
     for (const f of fields) this._writeField(w, f, obj[f.name]);
   }
 
-  // write a complex (nullable, has marker) by schema ref
+  
   _writeComplex(w, ref, val) {
     if (val === null || val === undefined) { w.WriteByte(0x00); return; }
     w.WriteByte(0xFF);
@@ -114,33 +99,33 @@ class RpcSerializer {
         break;
       case "list":    this._writeList(w, f.item, val); break;
       case "dict":
-        // dict serialized like list: null=0x00 ; present=0xFF + int32 count + pairs
+        
         if (val === null || val === undefined) { w.WriteByte(0x00); }
-        else { w.WriteByte(0xFF); w.WriteInt32(0); } // empty dict baseline
+        else { w.WriteByte(0xFF); w.WriteInt32(0); } 
         break;
       default: throw new Error("unknown field kind " + f.kind);
     }
   }
 
-  // Serialize a top-level struct (by reader ref) into a complex payload
-  // (with the leading present marker), e.g. EnterSceneInfo = ref "53".
+  
+  
   serializeComplex(ref, obj) {
     const w = new Writer();
     this._writeComplex(w, ref, obj);
     return w.toBuffer();
   }
 
-  // Build a fully-PRESENT default object for a complex schema ref. Every field
-  // is materialised so the client never dereferences a nil:
-  //   prim   -> 0 / false / "" default
-  //   struct -> recurse
-  //   complex-> recurse (present, never null)
-  //   list   -> [] (present empty list, NOT null)
-  //   dict   -> {} (present empty dict, NOT null)
-  //   buffer -> null (ReadBuffer tolerates absent)
-  // A real server sends a fresh player exactly like this - no null sub-objects.
-  // `overrides` lets callers set real values on specific top-level fields.
-  // `_depth` guards against cyclic schemas.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   autoDefault(ref, overrides, _depth) {
     _depth = _depth || 0;
     const fields = this.schemas[ref];
@@ -168,7 +153,7 @@ class RpcSerializer {
     return out;
   }
 
-  // Serialize a struct without the outer marker.
+  
   serializeStruct(ref, obj) {
     const w = new Writer();
     this._writeStruct(w, ref, obj);

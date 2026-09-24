@@ -1,0 +1,98 @@
+{
+  "_class": "FriendsInteractionMenuConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 8,
+  "records": [
+    {
+      "Id": 1,
+      "Chat": false,
+      "Link": false,
+      "AddFriend": false,
+      "DeleteFriend": false,
+      "Block": false,
+      "Unblock": false,
+      "Report": false,
+      "SelfAvatar": true
+    },
+    {
+      "Id": 2,
+      "Chat": true,
+      "Link": false,
+      "AddFriend": true,
+      "DeleteFriend": false,
+      "Block": true,
+      "Unblock": false,
+      "Report": true,
+      "SelfAvatar": true
+    },
+    {
+      "Id": 3,
+      "Chat": true,
+      "Link": false,
+      "AddFriend": false,
+      "DeleteFriend": true,
+      "Block": true,
+      "Unblock": false,
+      "Report": true,
+      "SelfAvatar": true
+    },
+    {
+      "Id": 4,
+      "Chat": true,
+      "Link": false,
+      "AddFriend": false,
+      "DeleteFriend": true,
+      "Block": true,
+      "Unblock": false,
+      "Report": true,
+      "SelfAvatar": true
+    },
+    {
+      "Id": 5,
+      "Chat": true,
+      "Link": true,
+      "AddFriend": false,
+      "DeleteFriend": true,
+      "Block": true,
+      "Unblock": false,
+      "Report": true,
+      "SelfAvatar": true
+    },
+    {
+      "Id": 6,
+      "Chat": true,
+      "Link": true,
+      "AddFriend": false,
+      "DeleteFriend": true,
+      "Block": true,
+      "Unblock": false,
+      "Report": true,
+      "SelfAvatar": true
+    },
+    {
+      "Id": 7,
+      "Chat": false,
+      "Link": false,
+      "AddFriend": true,
+      "DeleteFriend": false,
+      "Block": false,
+      "Unblock": true,
+      "Report": true,
+      "SelfAvatar": true
+    },
+    {
+      "Id": 8,
+      "Chat": true,
+      "Link": false,
+      "AddFriend": false,
+      "DeleteFriend": true,
+      "Block": true,
+      "Unblock": false,
+      "Report": true,
+      "SelfAvatar": true
+    }
+  ],
+  "_dumpedCount": 8,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

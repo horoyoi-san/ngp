@@ -7,7 +7,6 @@ using Ananta.Server.RpcTypes.Client4229938;
 
 namespace Ananta.Server.Handlers.Game;
 
-/// <summary>Generic character switching. No protagonist-specific switch path lives here.</summary>
 internal sealed partial class GameRouter
 {
     async Task OnSwitchSpirit(RpcContext ctx, uint requestedSpiritId)
@@ -42,18 +41,17 @@ internal sealed partial class GameRouter
             ? state.LastReportedPlayerRotation.Y
             : state.WorldEntryCreateHeroFacing;
 
-        // Freeze the old actor's last authoritative transform before CurrentSpirit changes ownership.
-        // Delayed movement packets from the old unit are ignored after the handoff, so every target
-        // starts exactly where the player stood when the switch was requested.
+        
+        
+        
         state.LastReportedPlayerPosition = position;
         state.LastReportedPlayerRotation = new Vec3(0f, facing, 0f);
         state.HasLastReportedPlayerTransform = true;
 
-        // Minimal mode never starts SyncPreSwitchSpirit/SyncSwitchSpiritConfigId Timeline flows.
-        // It performs only the identity/unit handoff needed to keep the requested character controllable.
+        
+        
         await SwitchSpiritDirectSameScene4229938(ctx, state, target.TemplateId, target.UnitId, position, facing);
     }
-
 
     async Task SwitchSpiritDirectSameScene4229938(
         RpcContext ctx, WorldEntryState state, uint templateId, ulong unitId, Vec3 switchPosition, float switchFacing)
@@ -68,8 +66,8 @@ internal sealed partial class GameRouter
         state.PendingSwitchControlTransferred = false;
         state.PendingSwitchLandingStarted = false;
 
-        // Materialize exactly one target character. No authored switch Timeline, weapons, combat graph,
-        // fashion inventory replay, vehicle cleanup or old-build gameplay hydration is published.
+        
+        
         await ctx.NotifyAsync(MethodId.SyncLogicAgentEnter, WorldCodec.LogicAgentEnter(unitId));
         await ctx.NotifyAsync(MethodId.SyncManagedLogicAgent, WorldCodec.ManagedLogicAgent(unitId, Profile.PlayerPid, 0));
         await ctx.NotifyAsync(MethodId.SyncRaidBattleUnitSpirit,
@@ -78,8 +76,8 @@ internal sealed partial class GameRouter
             WorldCodec.PositionAndFacing(unitId, switchPosition, switchFacing));
         await ctx.NotifyAsync(MethodId.SyncPlayerCurrentSpirit,
             WorldCodec.CurrentSpirit(Profile.PlayerPid, templateId, unitId, isAgentSwitch: false));
-        // CurrentSpirit can rebuild the controlled actor on the client. Re-assert the frozen transform
-        // after ownership transfer so the new character cannot fall back to its template/default spawn.
+        
+        
         await ctx.NotifyAsync(MethodId.SyncUnitPositionAndFacing,
             WorldCodec.PositionAndFacing(unitId, switchPosition, switchFacing));
 
@@ -94,9 +92,9 @@ internal sealed partial class GameRouter
         state.ActiveClientSkillInstanceId = 0;
         state.ActiveSkillStartedTicks = 0;
 
-        // Direct switch still needs a complete actor presentation even though combat gameplay is
-        // disabled. Bind the stock fashion/wheel/current weapon so the target does not become a
-        // half-initialized BaseUnit after CurrentSpirit changes ownership.
+        
+        
+        
         await PublishMinimalActorPresentation4229938(ctx, unitId, templateId, "direct-switch");
 
         if (state.ActiveFeiSuoBuffInstanceId != 0)

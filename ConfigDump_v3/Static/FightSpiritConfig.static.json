@@ -1,0 +1,509 @@
+{
+  "DefaultMaleCfg": {
+    "Id": 15020967,
+    "Name": "<player>",
+    "IsPublish": true,
+    "IsShowWeb": true,
+    "HeadIconVideoId": 24107002,
+    "SHeadIconID": 28000043,
+    "SBattleHeadIcon": 28006775,
+    "SBattleHeadIconPos": [],
+    "HavePrivateWeapon": true,
+    "UnlockUniqueSkill": true,
+    "InitFightSkillSetting": [
+      39000013
+    ],
+    "CanJoin": true,
+    "Invisible": false,
+    "Important": false,
+    "DispositionDontSwitch": false,
+    "LockPost": 0,
+    "UnlockPost": 0,
+    "AbilityLevelJump": 2,
+    "IsSuperPower": 1,
+    "ElementType": 6,
+    "FistSceneItem": 80003412,
+    "PrivateSceneItem": 0,
+    "SceneItemGeneralSlotInitialization": [
+      80003419
+    ],
+    "WeaponSlot": [
+      "Weapon_R"
+    ],
+    "AgentId": 40140030,
+    "SguiVerticalDrawing": 28005241,
+    "NpcCultivationRelatedId": 91050025,
+    "BackMoveDistance": 0,
+    "BackMoveTriggerDistance": 0,
+    "StartVersion": "V0.10.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1,
+      2
+    ],
+    "GuideId": "MainCharater",
+    "CharListTemplateBgColor": "F67043",
+    "PhoneSceneItemId": 80005971,
+    "AttrModifiedByUrbanAttribute": true,
+    "TalentId": 1,
+    "DomainAttribute": 3,
+    "BasicAttr": [
+      1,
+      2,
+      7,
+      47
+    ],
+    "BasicAttrGrowthCurve": [
+      163,
+      161,
+      162,
+      10001
+    ],
+    "DomainAttr": [
+      1,
+      2,
+      7
+    ],
+    "DomainAttrGrowthCurve": [
+      166,
+      164,
+      165
+    ],
+    "Domain": [],
+    "ItemId": [],
+    "Number": [],
+    "SkillUpConsume": [],
+    "CommonAttackEnhanced": 52601451,
+    "ActiveSkillEnhanced": 52601452,
+    "ChangeAttackEnhanced": 52601453,
+    "UniqueSkillEnhanced": 52601454,
+    "CharacterLockDistance": 8,
+    "Weight": 50,
+    "IsCanFire": false,
+    "ImpactRate": 1,
+    "UrbanAttribute": [
+      85,
+      82,
+      92,
+      72,
+      80,
+      68
+    ],
+    "UrbanBuff": [
+      52900001,
+      52900002
+    ],
+    "UrbanBuffTag": [
+      "灵巧",
+      "健身"
+    ],
+    "DefaultUrbanJob": 100,
+    "JobCostLimit": 3,
+    "JobLimit": 3,
+    "CommonTalentLevel": 1,
+    "CommonTalentPoint": 0,
+    "PassiveSkill": 0,
+    "JumpAttackHeight": 5,
+    "TempSkill": [
+      52000001
+    ],
+    "HeadIconID": 0,
+    "BattleHeadIcon": 0,
+    "Quality": 3,
+    "BodyType": 0,
+    "AnimGraph": 0,
+    "FirmValue": 100,
+    "FirmRecover": 5,
+    "FirmReset": 2,
+    "BatiBase": 1,
+    "TypeForStiff": 0,
+    "__IDX__Name": 78231,
+    "__RAW__Name": "",
+    "ImageScaleOffset": {
+      "scale": 1,
+      "xshift": -2,
+      "yshift": -322
+    },
+    "DefaultUrbanAbility": []
+  },
+  "DefaultFemaleCfg": {
+    "Id": 15020968,
+    "Name": "<player>",
+    "IsPublish": true,
+    "IsShowWeb": true,
+    "HeadIconVideoId": 24107004,
+    "SHeadIconID": 28000042,
+    "SBattleHeadIcon": 28006776,
+    "SBattleHeadIconPos": [],
+    "HavePrivateWeapon": true,
+    "UnlockUniqueSkill": true,
+    "InitFightSkillSetting": [
+      39000013
+    ],
+    "CanJoin": true,
+    "Invisible": false,
+    "Important": false,
+    "DispositionDontSwitch": false,
+    "LockPost": 0,
+    "UnlockPost": 0,
+    "AbilityLevelJump": 2,
+    "IsSuperPower": 1,
+    "ElementType": 6,
+    "FistSceneItem": 80003412,
+    "PrivateSceneItem": 0,
+    "SceneItemGeneralSlotInitialization": [
+      80003419
+    ],
+    "WeaponSlot": [
+      "Handr"
+    ],
+    "AgentId": 40140031,
+    "SguiVerticalDrawing": 28005242,
+    "NpcCultivationRelatedId": 91050026,
+    "BackMoveDistance": 0,
+    "BackMoveTriggerDistance": 0,
+    "StartVersion": "V0.10.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1,
+      2
+    ],
+    "GuideId": "MainCharater",
+    "CharListTemplateBgColor": "F67043",
+    "PhoneSceneItemId": 80005971,
+    "AttrModifiedByUrbanAttribute": true,
+    "TalentId": 2,
+    "DomainAttribute": 3,
+    "BasicAttr": [
+      1,
+      2,
+      7,
+      47
+    ],
+    "BasicAttrGrowthCurve": [
+      63,
+      61,
+      62,
+      10001
+    ],
+    "DomainAttr": [
+      1,
+      2,
+      7
+    ],
+    "DomainAttrGrowthCurve": [
+      66,
+      64,
+      65
+    ],
+    "Domain": [],
+    "ItemId": [],
+    "Number": [],
+    "SkillUpConsume": [],
+    "CommonAttackEnhanced": 52601001,
+    "ActiveSkillEnhanced": 52601002,
+    "ChangeAttackEnhanced": 52601003,
+    "UniqueSkillEnhanced": 52601004,
+    "CharacterLockDistance": 10,
+    "Weight": 50,
+    "IsCanFire": false,
+    "ImpactRate": 1.20000005,
+    "UrbanAttribute": [
+      92,
+      55,
+      70,
+      62,
+      81,
+      72
+    ],
+    "UrbanBuff": [
+      52900001,
+      52900002
+    ],
+    "UrbanBuffTag": [
+      "灵巧",
+      "健身"
+    ],
+    "DefaultUrbanJob": 100,
+    "JobCostLimit": 3,
+    "JobLimit": 3,
+    "CommonTalentLevel": 1,
+    "CommonTalentPoint": 0,
+    "PassiveSkill": 0,
+    "JumpAttackHeight": 5,
+    "TempSkill": [],
+    "HeadIconID": 0,
+    "BattleHeadIcon": 0,
+    "Quality": 3,
+    "BodyType": 0,
+    "AnimGraph": 0,
+    "FirmValue": 100,
+    "FirmRecover": 5,
+    "FirmReset": 2,
+    "BatiBase": 1,
+    "TypeForStiff": 0,
+    "__IDX__Name": 78232,
+    "__RAW__Name": "",
+    "ImageScaleOffset": {
+      "scale": 0.899999976,
+      "xshift": -10,
+      "yshift": -296
+    },
+    "DefaultUrbanAbility": []
+  },
+  "TaffyCfg": {
+    "Id": 15020992,
+    "Name": "Taffy",
+    "IsPublish": true,
+    "IsShowWeb": true,
+    "HeadIconVideoId": 24107003,
+    "SHeadIconID": 28000037,
+    "SBattleHeadIcon": 28006777,
+    "SBattleHeadIconPos": [],
+    "HavePrivateWeapon": true,
+    "UnlockUniqueSkill": true,
+    "InitFightSkillSetting": [],
+    "CanJoin": true,
+    "Invisible": false,
+    "Important": true,
+    "DispositionDontSwitch": false,
+    "LockPost": 0,
+    "UnlockPost": 0,
+    "AbilityLevelJump": 0,
+    "IsSuperPower": 0,
+    "ElementType": 3,
+    "FistSceneItem": 80003412,
+    "PrivateSceneItem": 0,
+    "SceneItemGeneralSlotInitialization": [],
+    "WeaponSlot": [
+      "Weapon_R_world"
+    ],
+    "AgentId": 40140035,
+    "SguiVerticalDrawing": 28005233,
+    "NpcCultivationRelatedId": 91050014,
+    "BackMoveDistance": 0,
+    "BackMoveTriggerDistance": 0,
+    "StartVersion": "V0.10.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1,
+      2
+    ],
+    "GuideId": "Tafei",
+    "CharListTemplateBgColor": "009886",
+    "PhoneSceneItemId": 80006002,
+    "AttrModifiedByUrbanAttribute": true,
+    "TalentId": 6,
+    "DomainAttribute": 3,
+    "BasicAttr": [
+      1,
+      2,
+      7,
+      47
+    ],
+    "BasicAttrGrowthCurve": [
+      3,
+      1,
+      2,
+      10001
+    ],
+    "DomainAttr": [
+      1,
+      2,
+      7
+    ],
+    "DomainAttrGrowthCurve": [
+      6,
+      4,
+      5
+    ],
+    "Domain": [],
+    "ItemId": [],
+    "Number": [],
+    "SkillUpConsume": [],
+    "CommonAttackEnhanced": 52601101,
+    "ActiveSkillEnhanced": 52601102,
+    "ChangeAttackEnhanced": 52601103,
+    "UniqueSkillEnhanced": 52601104,
+    "CharacterLockDistance": 6,
+    "Weight": 50,
+    "IsCanFire": false,
+    "ImpactRate": 1.5,
+    "UrbanAttribute": [
+      68,
+      75,
+      80,
+      92,
+      90,
+      72
+    ],
+    "UrbanBuff": [
+      52900001,
+      52900002
+    ],
+    "UrbanBuffTag": [
+      "灵巧",
+      "健身"
+    ],
+    "DefaultUrbanJob": 100,
+    "JobCostLimit": 3,
+    "JobLimit": 3,
+    "CommonTalentLevel": 1,
+    "CommonTalentPoint": 1,
+    "PassiveSkill": 0,
+    "JumpAttackHeight": 5,
+    "TempSkill": [
+      51935716,
+      51935214,
+      51935230,
+      51938185,
+      51938183,
+      51935241,
+      51935280
+    ],
+    "HeadIconID": 0,
+    "BattleHeadIcon": 0,
+    "Quality": 3,
+    "BodyType": 0,
+    "AnimGraph": 0,
+    "FirmValue": 100,
+    "FirmRecover": 5,
+    "FirmReset": 2,
+    "BatiBase": 1,
+    "TypeForStiff": 0,
+    "__IDX__Name": 13942,
+    "__RAW__Name": "",
+    "ImageScaleOffset": {
+      "scale": 0.829999983,
+      "xshift": 57,
+      "yshift": -142
+    },
+    "DefaultUrbanAbility": []
+  },
+  "YingLongCfg": {
+    "Id": 15021040,
+    "Name": "Yinglong",
+    "IsPublish": true,
+    "IsShowWeb": true,
+    "HeadIconVideoId": 24107004,
+    "SHeadIconID": 28002101,
+    "SBattleHeadIcon": 28002101,
+    "SBattleHeadIconPos": [],
+    "HavePrivateWeapon": true,
+    "UnlockUniqueSkill": true,
+    "InitFightSkillSetting": [],
+    "CanJoin": true,
+    "Invisible": false,
+    "Important": false,
+    "DispositionDontSwitch": false,
+    "LockPost": 0,
+    "UnlockPost": 0,
+    "AbilityLevelJump": 2,
+    "IsSuperPower": 1,
+    "ElementType": 5,
+    "FistSceneItem": 80003412,
+    "PrivateSceneItem": 0,
+    "SceneItemGeneralSlotInitialization": [],
+    "WeaponSlot": [
+      "Weapon_R"
+    ],
+    "AgentId": 40140055,
+    "SguiVerticalDrawing": 28005437,
+    "NpcCultivationRelatedId": 91050022,
+    "BackMoveDistance": 0.200000003,
+    "BackMoveTriggerDistance": 0.5,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1,
+      2
+    ],
+    "GuideId": "",
+    "CharListTemplateBgColor": "E8A48B",
+    "PhoneSceneItemId": 80006020,
+    "AttrModifiedByUrbanAttribute": true,
+    "TalentId": 15,
+    "DomainAttribute": 3,
+    "BasicAttr": [
+      1,
+      2,
+      7,
+      47
+    ],
+    "BasicAttrGrowthCurve": [
+      183,
+      181,
+      182,
+      10001
+    ],
+    "DomainAttr": [
+      1,
+      2,
+      7
+    ],
+    "DomainAttrGrowthCurve": [
+      186,
+      184,
+      185
+    ],
+    "Domain": [],
+    "ItemId": [],
+    "Number": [],
+    "SkillUpConsume": [],
+    "CommonAttackEnhanced": 52601651,
+    "ActiveSkillEnhanced": 52601652,
+    "ChangeAttackEnhanced": 52601653,
+    "UniqueSkillEnhanced": 52601654,
+    "CharacterLockDistance": 10,
+    "Weight": 50,
+    "IsCanFire": false,
+    "ImpactRate": 1.20000005,
+    "UrbanAttribute": [
+      58,
+      90,
+      98,
+      80,
+      92,
+      70
+    ],
+    "UrbanBuff": [
+      52900001,
+      52900002
+    ],
+    "UrbanBuffTag": [
+      "灵巧",
+      "健身"
+    ],
+    "DefaultUrbanJob": 100,
+    "JobCostLimit": 3,
+    "JobLimit": 3,
+    "CommonTalentLevel": 1,
+    "CommonTalentPoint": 1,
+    "PassiveSkill": 0,
+    "JumpAttackHeight": 5,
+    "TempSkill": [],
+    "HeadIconID": 0,
+    "BattleHeadIcon": 0,
+    "Quality": 3,
+    "BodyType": 0,
+    "AnimGraph": 0,
+    "FirmValue": 100,
+    "FirmRecover": 5,
+    "FirmReset": 2,
+    "BatiBase": 1,
+    "TypeForStiff": 0,
+    "__IDX__Name": 133909,
+    "__RAW__Name": "",
+    "ImageScaleOffset": {
+      "scale": 0,
+      "xshift": 0,
+      "yshift": 0
+    },
+    "DefaultUrbanAbility": []
+  },
+  "CommonSwitchEffect": 53205480
+}

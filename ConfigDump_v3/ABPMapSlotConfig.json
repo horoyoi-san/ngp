@@ -1,0 +1,50 @@
+{
+  "_class": "ABPMapSlotConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 8,
+  "records": [
+    {
+      "Id": 1,
+      "CodeName": "TransitionInTime",
+      "VariableType": 3
+    },
+    {
+      "Id": 2,
+      "CodeName": "TransitionToLoopTime",
+      "VariableType": 3
+    },
+    {
+      "Id": 3,
+      "CodeName": "TransitionToEndTime",
+      "VariableType": 3
+    },
+    {
+      "Id": 4,
+      "CodeName": "TransitionOutTime",
+      "VariableType": 3
+    },
+    {
+      "Id": 5,
+      "CodeName": "Duration",
+      "VariableType": 3
+    },
+    {
+      "Id": 6,
+      "CodeName": "TargetTime",
+      "VariableType": 3
+    },
+    {
+      "Id": 7,
+      "CodeName": "RepeatCountMin",
+      "VariableType": 3
+    },
+    {
+      "Id": 8,
+      "CodeName": "RepeatCountMax",
+      "VariableType": 3
+    }
+  ],
+  "_dumpedCount": 8,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

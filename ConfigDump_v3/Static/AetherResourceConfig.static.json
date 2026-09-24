@@ -1,0 +1,394 @@
+{
+  "MassConfigCfg": {
+    "Id": 1,
+    "isDependScene": true,
+    "CachePath": "",
+    "ClientResourceType": 0,
+    "ClientPath": "Res/MassAI/Manual/{0}/MassConfig.prefab",
+    "ServerPath": ""
+  },
+  "ZoneGraphDataCfg": {
+    "Id": 2,
+    "isDependScene": true,
+    "CachePath": "PCG_Config/{0}/RoadData/Cache/RoadPCGCache/zonegraph_source.json",
+    "ClientResourceType": 1,
+    "ClientPath": "GameRes/AetherAI/{0}/ZoneGraphStorage.bin",
+    "ServerPath": "RawAssets/ServerRes/AetherAI/{0}/ZoneGraphStorage.bin"
+  },
+  "ZebraConnectorCfg": {
+    "Id": 3,
+    "isDependScene": true,
+    "CachePath": "PCG_Config/{0}/RoadData/ZebraConnectorCurves.json",
+    "ClientResourceType": 1,
+    "ClientPath": "GameRes/AetherAI/{0}/ZebraConnector.json",
+    "ServerPath": "RawAssets/ServerRes/AetherAI/{0}/ZoneShapeZebraConnectorSettings.json"
+  },
+  "TrafficLightDataCfg": {
+    "Id": 4,
+    "isDependScene": true,
+    "CachePath": "PCG_Config/{0}/RoadData/Cache/RoadPCGCache/TlightInfo.json",
+    "ClientResourceType": 0,
+    "ClientPath": "Res/MassAI/Manual/{0}/TrafficLight/TrafficLightIntegratedData.asset",
+    "ServerPath": "RawAssets/ServerRes/AetherAI/{0}/TrafficLightSettings.json"
+  },
+  "VehicleSpawnAreaCfg": {
+    "Id": 5,
+    "isDependScene": true,
+    "CachePath": "",
+    "ClientResourceType": 0,
+    "ClientPath": "Res/MassAI/Manual/{0}/VehicleSpawnAreaConfig.prefab",
+    "ServerPath": ""
+  },
+  "VehicleSettingCfg": {
+    "Id": 6,
+    "isDependScene": false,
+    "CachePath": "",
+    "ClientResourceType": 0,
+    "ClientPath": "Res/MassAI/Manual/MassVehicleAgentGlobalConfig.asset",
+    "ServerPath": "RawAssets/ServerRes/AetherAI/VehicleSetting.json"
+  },
+  "TrafficIntersectionSettingsCfg": {
+    "Id": 7,
+    "isDependScene": false,
+    "CachePath": "",
+    "ClientResourceType": 0,
+    "ClientPath": "Res/MassAI/Manual/IntersectionPeriodConfig.asset",
+    "ServerPath": "RawAssets/ServerRes/AetherAI/TrafficIntersectionSettings.json"
+  },
+  "ZoneGraphUrbanDiversitySettingsCfg": {
+    "Id": 8,
+    "isDependScene": true,
+    "CachePath": "PCG_Config/{0}/RoadData/UrbanDiversity",
+    "ClientResourceType": 1,
+    "ClientPath": "GameRes/AetherAI/{0}/UrbanDiversitySettings.json",
+    "ServerPath": "RawAssets/ServerRes/AetherAI/{0}/ZoneGraphUrbanDiversitySettings.json"
+  },
+  "AetherStaticNpcSettingsCfg": {
+    "Id": 9,
+    "isDependScene": true,
+    "CachePath": "",
+    "ClientResourceType": 0,
+    "ClientPath": "Res/MassAI/Manual/{0}/AetherStaticNpcSettings.asset",
+    "ServerPath": ""
+  },
+  "ZoneGraphVehicleDataCfg": {
+    "Id": 10,
+    "isDependScene": true,
+    "CachePath": "PCG_Config/{0}/RoadData/Cache/RoadPCGCache/zonegraph_source.json",
+    "ClientResourceType": 1,
+    "ClientPath": "GameRes/AetherAI/{0}/ZoneGraphStorage_Vehicle.bin",
+    "ServerPath": "RawAssets/ServerRes/AetherAI/{0}/ZoneGraphStorage_Vehicle.bin"
+  },
+  "ZoneGraphPedestrianDataCfg": {
+    "Id": 11,
+    "isDependScene": true,
+    "CachePath": "PCG_Config/{0}/RoadData/Cache/RoadPCGCache/zonegraph_source.json",
+    "ClientResourceType": 1,
+    "ClientPath": "GameRes/AetherAI/{0}/ZoneGraphStorage_Pedestrian.bin",
+    "ServerPath": "RawAssets/ServerRes/AetherAI/{0}/ZoneGraphStorage_Pedestrian.bin"
+  },
+  "ZoneShapeJsonDataCfg": {
+    "Id": 12,
+    "isDependScene": true,
+    "CachePath": "PCG_Config/{0}/RoadData/ZoneShape",
+    "ClientResourceType": 0,
+    "ClientPath": "",
+    "ServerPath": ""
+  },
+  "LightRailZoneShapesCfg": {
+    "Id": 13,
+    "isDependScene": true,
+    "CachePath": "Assets/Res/Prefab/ZoneShapeView/ZoneShapes_{0}_Subway.prefab",
+    "ClientResourceType": 0,
+    "ClientPath": "",
+    "ServerPath": ""
+  },
+  "LightRailPrefabsCfg": {
+    "Id": 14,
+    "isDependScene": true,
+    "CachePath": "Assets/Res/Prefab/MassAI/LightRailPath",
+    "ClientResourceType": 0,
+    "ClientPath": "",
+    "ServerPath": "RawAssets/ServerRes/AetherAI/{0}/MetroPathSettings.json"
+  },
+  "ViolatingVehicleSettingCfg": {
+    "Id": 15,
+    "isDependScene": true,
+    "CachePath": "PCG_Config/{0}/RoadData/ViolatingVehicle",
+    "ClientResourceType": 0,
+    "ClientPath": "",
+    "ServerPath": "RawAssets/ServerRes/AetherAI/{0}/MassViolatingVehicleSetting.json"
+  },
+  "BusRouteSettingCfg": {
+    "Id": 16,
+    "isDependScene": true,
+    "CachePath": "PCG_Config/{0}/RoadData/BusRoute",
+    "ClientResourceType": 0,
+    "ClientPath": "",
+    "ServerPath": "RawAssets/ServerRes/AetherAI/{0}/MassBusRouteSetting.json"
+  },
+  "PCGTrafficLightDataCfg": {
+    "Id": 17,
+    "isDependScene": true,
+    "CachePath": "PCG_Config/{0}/RoadData/Cache/RoadPCGCache/PCGTrafficLight.json",
+    "ClientResourceType": 0,
+    "ClientPath": "",
+    "ServerPath": ""
+  },
+  "AllSectorTrafficLightPositionCfg": {
+    "Id": 18,
+    "isDependScene": true,
+    "CachePath": "PCG_Config/{0}/RoadData/TrafficLight/AllSectorTrafficLightPosition.json",
+    "ClientResourceType": 0,
+    "ClientPath": "",
+    "ServerPath": ""
+  },
+  "ManualTrafficLightDataCfg": {
+    "Id": 19,
+    "isDependScene": true,
+    "CachePath": "PCG_Config/{0}/RoadData/TrafficLight/ManualTrafficLightData.json",
+    "ClientResourceType": 0,
+    "ClientPath": "",
+    "ServerPath": ""
+  },
+  "ManualTrafficLightJsonDataCfg": {
+    "Id": 20,
+    "isDependScene": true,
+    "CachePath": "PCG_Config/{0}/RoadData/TrafficLight",
+    "ClientResourceType": 0,
+    "ClientPath": "",
+    "ServerPath": ""
+  },
+  "ArtifactCombinationDetailsCfg": {
+    "Id": 21,
+    "isDependScene": true,
+    "CachePath": "",
+    "ClientResourceType": 1,
+    "ClientPath": "",
+    "ServerPath": "RawAssets/ServerRes/ArtifactAutoGen/Common/{0}/Multiverse/CombinationDetails_IgnoreDynamic.json"
+  },
+  "PathDataSettingsCfg": {
+    "Id": 22,
+    "isDependScene": true,
+    "CachePath": "PCG_Config/{0}/RoadData/PathData",
+    "ClientResourceType": 1,
+    "ClientPath": "",
+    "ServerPath": ""
+  },
+  "ArtifactZoneGraphDataCfg": {
+    "Id": 101,
+    "isDependScene": true,
+    "CachePath": "",
+    "ClientResourceType": 2,
+    "ClientPath": "Merge/ZoneGraphStorage.bin",
+    "ServerPath": "Merge/ZoneGraphStorage.bin"
+  },
+  "ArtifactZebraConnector_VectorCfg": {
+    "Id": 102,
+    "isDependScene": true,
+    "CachePath": "",
+    "ClientResourceType": 2,
+    "ClientPath": "ZebraConnector_Vector.json",
+    "ServerPath": "ZebraConnector_Vector.json"
+  },
+  "ArtifactZebraConnector_HandleCfg": {
+    "Id": 103,
+    "isDependScene": true,
+    "CachePath": "",
+    "ClientResourceType": 2,
+    "ClientPath": "Merge/ZebraConnector.json",
+    "ServerPath": "Merge/ZebraConnector.json"
+  },
+  "ArtifactTrafficLightData_VectorCfg": {
+    "Id": 104,
+    "isDependScene": true,
+    "CachePath": "",
+    "ClientResourceType": 2,
+    "ClientPath": "TrafficLightData_Vector.json",
+    "ServerPath": "TrafficLightData_Vector.json"
+  },
+  "ArtifactTrafficLightData_HandleCfg": {
+    "Id": 105,
+    "isDependScene": true,
+    "CachePath": "",
+    "ClientResourceType": 2,
+    "ClientPath": "Merge/TrafficLightData.json",
+    "ServerPath": "Merge/TrafficLightData.json"
+  },
+  "ArtifactUrbanDiversitySettingCfg": {
+    "Id": 106,
+    "isDependScene": true,
+    "CachePath": "",
+    "ClientResourceType": 2,
+    "ClientPath": "UrbanDiversitySettings.json",
+    "ServerPath": "UrbanDiversitySettings.json"
+  },
+  "ArtifactBusRouteSetting_HandleCfg": {
+    "Id": 107,
+    "isDependScene": true,
+    "CachePath": "",
+    "ClientResourceType": 2,
+    "ClientPath": "",
+    "ServerPath": "Merge/BusRouteSetting.json"
+  },
+  "ArtifactViolatingVehicleSettingCfg": {
+    "Id": 108,
+    "isDependScene": true,
+    "CachePath": "",
+    "ClientResourceType": 2,
+    "ClientPath": "",
+    "ServerPath": "ViolatingVehicleSetting.json"
+  },
+  "ArtifactStaticTrafficLaneDataCfg": {
+    "Id": 109,
+    "isDependScene": true,
+    "CachePath": "",
+    "ClientResourceType": 2,
+    "ClientPath": "",
+    "ServerPath": "StaticTrafficZoneGraphData.json"
+  },
+  "ArtifactStaticCrowdLaneDataCfg": {
+    "Id": 110,
+    "isDependScene": true,
+    "CachePath": "",
+    "ClientResourceType": 2,
+    "ClientPath": "",
+    "ServerPath": "StaticRegisteredCrowdLaneData.json"
+  },
+  "ArtifactStaticIntersectionDataCfg": {
+    "Id": 111,
+    "isDependScene": true,
+    "CachePath": "",
+    "ClientResourceType": 2,
+    "ClientPath": "StaticIntersectionData.json",
+    "ServerPath": "StaticIntersectionData.json"
+  },
+  "ArtifactStaticManualVehicleCfg": {
+    "Id": 112,
+    "isDependScene": true,
+    "CachePath": "",
+    "ClientResourceType": 3,
+    "ClientPath": "",
+    "ServerPath": "StaticManualVehicle.json"
+  },
+  "ArtifactStaticPCGVehicleCfg": {
+    "Id": 113,
+    "isDependScene": true,
+    "CachePath": "",
+    "ClientResourceType": 3,
+    "ClientPath": "",
+    "ServerPath": "StaticPCGVehicle.json"
+  },
+  "ArtifactStaticViolatingVehicleCfg": {
+    "Id": 114,
+    "isDependScene": true,
+    "CachePath": "",
+    "ClientResourceType": 3,
+    "ClientPath": "",
+    "ServerPath": "StaticViolatingVehicle.json"
+  },
+  "ArtifactIndoorLaneDistances_HandleCfg": {
+    "Id": 115,
+    "isDependScene": true,
+    "CachePath": "",
+    "ClientResourceType": 2,
+    "ClientPath": "Merge/IndoorLaneDistances.json",
+    "ServerPath": "Merge/IndoorLaneDistances.json"
+  },
+  "ArtifactRacingTracksCfg": {
+    "Id": 116,
+    "isDependScene": false,
+    "CachePath": "",
+    "ClientResourceType": 4,
+    "ClientPath": "{1}.bin",
+    "ServerPath": "{1}.bin"
+  },
+  "ArtifactPathDataSettingsCfg": {
+    "Id": 117,
+    "isDependScene": true,
+    "CachePath": "",
+    "ClientResourceType": 5,
+    "ClientPath": "PathDataSettings.json",
+    "ServerPath": "PathDataSettings.json"
+  },
+  "ArtifactZoneGraphVehicleDataCfg": {
+    "Id": 201,
+    "isDependScene": true,
+    "CachePath": "",
+    "ClientResourceType": 2,
+    "ClientPath": "Separate/ZoneGraphStorage_Vehicle.bin",
+    "ServerPath": "Separate/ZoneGraphStorage_Vehicle.bin"
+  },
+  "ArtifactZoneGraphPedestrianDataCfg": {
+    "Id": 202,
+    "isDependScene": true,
+    "CachePath": "",
+    "ClientResourceType": 2,
+    "ClientPath": "Separate/ZoneGraphStorage_Pedestrian.bin",
+    "ServerPath": "Separate/ZoneGraphStorage_Pedestrian.bin"
+  },
+  "ArtifactZebraConnector_SeparateHandleCfg": {
+    "Id": 203,
+    "isDependScene": true,
+    "CachePath": "",
+    "ClientResourceType": 2,
+    "ClientPath": "Separate/ZebraConnector.json",
+    "ServerPath": "Separate/ZebraConnector.json"
+  },
+  "ArtifactTrafficLightData_SeparateHandleCfg": {
+    "Id": 204,
+    "isDependScene": true,
+    "CachePath": "",
+    "ClientResourceType": 2,
+    "ClientPath": "Separate/TrafficLightData.json",
+    "ServerPath": "Separate/TrafficLightData.json"
+  },
+  "ArtifactBusRouteSetting_SeparateHandleCfg": {
+    "Id": 205,
+    "isDependScene": true,
+    "CachePath": "",
+    "ClientResourceType": 2,
+    "ClientPath": "",
+    "ServerPath": "Separate/BusRouteSetting.json"
+  },
+  "ArtifactStaticTrafficLaneData_SeparateHandleCfg": {
+    "Id": 206,
+    "isDependScene": true,
+    "CachePath": "",
+    "ClientResourceType": 2,
+    "ClientPath": "",
+    "ServerPath": "Separate/StaticTrafficZoneGraphData.json"
+  },
+  "ArtifactStaticCrowdLaneData_SeparateHandleCfg": {
+    "Id": 207,
+    "isDependScene": true,
+    "CachePath": "",
+    "ClientResourceType": 2,
+    "ClientPath": "",
+    "ServerPath": "Separate/StaticRegisteredCrowdLaneData.json"
+  },
+  "ArtifactStaticIntersectionData_SeparateHandleCfg": {
+    "Id": 208,
+    "isDependScene": true,
+    "CachePath": "",
+    "ClientResourceType": 2,
+    "ClientPath": "Separate/StaticIntersectionData.json",
+    "ServerPath": "Separate/StaticIntersectionData.json"
+  },
+  "ArtifactIndoorLaneDistances_SeparateHandleCfg": {
+    "Id": 209,
+    "isDependScene": true,
+    "CachePath": "",
+    "ClientResourceType": 2,
+    "ClientPath": "Separate/IndoorLaneDistances.json",
+    "ServerPath": "Separate/IndoorLaneDistances.json"
+  },
+  "ArtifactZoneHandleMapping_SeparateHandleCfg": {
+    "Id": 210,
+    "isDependScene": true,
+    "CachePath": "",
+    "ClientResourceType": 2,
+    "ClientPath": "Separate/ZoneHandleMapping.json",
+    "ServerPath": "Separate/ZoneHandleMapping.json"
+  }
+}

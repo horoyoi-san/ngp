@@ -1,0 +1,51 @@
+{
+  "_class": "AwardActivityTemplateConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 6,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "SignIn",
+      "ActivityType": 1,
+      "RedDotKey": [
+        15
+      ]
+    },
+    {
+      "Id": 2,
+      "Name": "MultiverseMain",
+      "ActivityType": 0,
+      "RedDotKey": []
+    },
+    {
+      "Id": 3,
+      "Name": "SevenDays",
+      "ActivityType": 2,
+      "RedDotKey": [
+        47,
+        55
+      ]
+    },
+    {
+      "Id": 4,
+      "Name": "ArchivePage",
+      "ActivityType": 3,
+      "RedDotKey": []
+    },
+    {
+      "Id": 5,
+      "Name": "LevelLandmark",
+      "ActivityType": 4,
+      "RedDotKey": []
+    },
+    {
+      "Id": 6,
+      "Name": "Notice",
+      "ActivityType": 5,
+      "RedDotKey": []
+    }
+  ],
+  "_dumpedCount": 6,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

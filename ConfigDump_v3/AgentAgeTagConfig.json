@@ -1,0 +1,34 @@
+{
+  "_class": "AgentAgeTagConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 3,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "Youth",
+      "AgeRange": [
+        18,
+        26
+      ]
+    },
+    {
+      "Id": 2,
+      "Name": "YoungAdult",
+      "AgeRange": [
+        27,
+        39
+      ]
+    },
+    {
+      "Id": 3,
+      "Name": "MiddleAged",
+      "AgeRange": [
+        40,
+        55
+      ]
+    }
+  ],
+  "_dumpedCount": 3,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

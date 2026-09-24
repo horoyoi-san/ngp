@@ -1,0 +1,31 @@
+{
+  "_class": "HurtStiffBaseStiffConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 3,
+  "records": [
+    {
+      "Id": 224,
+      "HorizontalForceMin": 0.100000001,
+      "VerticalForceMin": 0,
+      "HorizontalForceMax": 0.600000024,
+      "VerticalForceMax": 0
+    },
+    {
+      "Id": 232,
+      "HorizontalForceMin": 0.800000012,
+      "VerticalForceMin": 0,
+      "HorizontalForceMax": 6,
+      "VerticalForceMax": 0
+    },
+    {
+      "Id": 236,
+      "HorizontalForceMin": 1,
+      "VerticalForceMin": 0.800000012,
+      "HorizontalForceMax": 4,
+      "VerticalForceMax": 2
+    }
+  ],
+  "_dumpedCount": 3,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

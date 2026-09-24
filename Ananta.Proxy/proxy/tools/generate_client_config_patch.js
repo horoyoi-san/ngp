@@ -8,10 +8,10 @@ const { config, resolveProjectPath } = require("../private_server_config");
 
 const clientVersion = String(config.client.version);
 const fastPatchRoot = path.join(resolveProjectPath(config.paths.runtimeFastpatch), clientVersion);
-const luaSrcRoot = resolveProjectPath("lua"); // decompiled client Lua source
+const luaSrcRoot = resolveProjectPath("lua"); 
 const fileName = "LuaFiles#LX6#SGUI#StoreDefine#UidLayerPanelStore.lua";
 const labelEnabled = config.ui?.uidLabel?.enabled !== false;
-const label = labelEnabled ? String(config.ui?.uidLabel?.text || "นี่คือเวอร์ชั่น DEV ที่ไม่ได้รับคุณภาพจากเกม Ananta GAY") : "";
+const label = labelEnabled ? String(config.ui?.uidLabel?.text || "Ananta Private Server") : "";
 const removeStock = config.ui?.removeStockConfidentialLabel !== false;
 
 fs.rmSync(fastPatchRoot, { recursive: true, force: true });
@@ -85,14 +85,9 @@ if (status !== lua.LUA_OK) throw new Error("generated UidLayerPanelStore.lua fai
 
 fs.writeFileSync(path.join(fastPatchRoot, fileName), luaSource, "utf8");
 
-// GameSwitch defaults: the private server has no GameSwitch RPC, so the client's
-// gGameSwitch table would stay empty and every switch-gated phone app/panel would
-// report "This feature is temporarily unavailable". Pre-seed all retail switches
-// to open (real-money charge stays closed). Server-side SyncGameSwitchToClient
-// still wins whenever it arrives, because M.Sync overwrites these defaults.
 const forceSwitches = config.ui?.forceEnableGameSwitches !== false;
 const switchFileName = "LuaFiles#LX6#Manager#ClientGameSwitch.lua";
-// NOTE: EnableCharge is intentionally absent (real-money flow).
+
 const gameSwitchDefaults = [
   "EnableBuzzCenter", "EnableMall", "EnableMallBundle", "EnableMallRecommend",
   "EnableMallDirectSale", "EnableCheckIn", "EnableTime", "EnableDossier",
@@ -104,6 +99,68 @@ const gameSwitchDefaults = [
   "EnableEonBug", "EnableJanitor", "EnableRadioStation", "EnableBubble",
   "EnableFashionStore", "Enable4SStore", "EnableProfile", "EnableClub",
   "EnableRanking", "EnableAkashicSystem",
+  
+  
+  
+  "EnablePhotoTemplate", "EnableFirstPhotoTemplate", "EnableThirdPersonPhotoTemplate",
+  "EnableThirdPersonPhoto", "EnablePhotoMoveMode", "EnableNewPhotoTask",
+  "EnableOldPhotoMoreOperationConfig", "EnablePhotoStateTreeSignal", "EnableTimeFreezePhoto",
+  "EnableFocusNpcCamera", "EnableFocusCamera", "EnableActionCamera",
+  "EnableCamera", "EnableMainCamera", "EnableFirstPersonCamera",
+  "EnableGlobalFirstPersonCamera", "IsCameraAllowed", "IsHavePermissionCamera",
+
+  
+  
+  
+  
+  
+  
+  "ProfilerAetherVehicle",      
+  "ProfilerAetherVehicleGO",    
+  "ProfilerStaticVehicle",      
+  "ProfilerEnableNpcGo",        
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  "ProfilerIntersection",        
+  "ProfilerIntersectionRender",  
+  "ProfilerGadget",              
+  "ProfilerDestructible",        
+  "ProfilerDynamicGo",           
+  "ProfilerRandomEvent",         
+  "ProfilerSpoonAgent",          
+  "ProfilerEnableMetro",         
+  "EnableZoneGraphUndirectLane", 
+  "EnableDGTemporaryResource",   
+  "EnableGPUScene",              
+
+  "EnableNPCNormalMoveBeta",     
+  "EnableIndoor",                
+  "EnableECSResponse",           
+  "EnableNpcGateway",            
+  "EnableNpcDensityMigration1",  
+  "EnableLifeScheduleNpcAlwaysGo", 
+  "EnableAetherNpcFixedSpawnPointRule", 
+  "EnableNpcUseBelonging",       
+  "EnablePedConvertWorthyCheck", 
+];
+
+const gameSwitchForceFalse = [
+  "EnableClientZoneClosure",
+  "EnableVoxelSectorControl3",
 ];
 let switchNote = "GameSwitch defaults: skipped (ui.forceEnableGameSwitches=false).\n";
 if (forceSwitches) {
@@ -116,12 +173,59 @@ if (forceSwitches) {
 `end\n\n` +
 gameSwitchDefaults.map((name) => `M.${name} = true\n`).join("") +
 `\n` +
-`gGameSwitch = M\n`;
+gameSwitchForceFalse.map((name) => `M.${name} = false\n`).join("") +
+`\n` +
+`-- 兜底：任何**没有显式定义**的开关一律返回 true（开）。\n` +
+`-- 这份文件是整文件替换客户端 ClientGameSwitch.lua，漏写一个键客户端读到就是 nil（假）\n` +
+`-- 对应功能会被静默关掉，排查极其隐蔽。用 __index 兜底后漏写不再是问题；\n` +
+`-- 要显式关掉某个开关，写在上面（__index 只在键不存在时触发）。\n` +
+`setmetatable(M, {\n` +
+`    __index = function(_, key)\n` +
+`        if type(key) ~= "string" then return nil end\n` +
+`        -- 覆盖前缀说明：\n` +
+`        --   Enable* / Is* / Use*  —— 原就有\n` +
+`        --   Profiler*            —— 2026-09-18 补。GO（GameObject）提升开关全是这个前缀\n` +
+`        --     （ProfilerAetherVehicleGO / ProfilerEnableNpcGo / ProfilerStaticVehicle），\n` +
+`        --     漏掉就是 nil(假) → MassAI·Boid·Aether 实体一个都不提升 →\n` +
+`        --     交通灯、路牌、路灯、NPC、车流**一起**消失。\n` +
+`        -- ⚠️ 不要图省事改成"所有未定义键一律 true"：原作者踩过坑 ——\n` +
+`        --    EnableClientZoneClosure 被兜底成 true 后坐地铁会卡死子区流送。\n` +
+`        if key:sub(1, 7) == "Disable" then return false end\n` +
+`        if key:sub(1, 6) == "Enable" or key:sub(1, 2) == "Is"\n` +
+`            or key:sub(1, 3) == "Use" or key:sub(1, 8) == "Profiler" then\n` +
+`            return true\n` +
+`        end\n` +
+`        return nil\n` +
+`    end,\n` +
+`})\n` +
+`\n` +
+`gGameSwitch = M\n\n` +
+`-- ★ 同时把 C# 侧 UX.GameSwitch 的静态开关置位。\n` +
+`--   gGameSwitch 只是给 Lua 用的镜像；C# 代码（AetherCity / MassAI / MassBoid 的 GO 提升）\n` +
+`--   读的是 UX.GameSwitch 的静态字段，而那些字段**只由 SyncGameSwitchToClient 赋值**，\n` +
+`--   私服从来没发过这个包，所以它们全是 false → 一个实体都不提升成 GameObject。\n` +
+`--   这里显式置位；用 pcall 包住，绑定不存在也只是静默跳过，不影响其它逻辑。\n` +
+`do\n` +
+`    local csSwitchOn = {\n` +
+gameSwitchDefaults.map((name) => `        "${name}",\n`).join("") +
+`    }\n` +
+`    local csSwitchOff = {\n` +
+gameSwitchForceFalse.map((name) => `        "${name}",\n`).join("") +
+`    }\n` +
+`    for i = 1, #csSwitchOn do\n` +
+`        pcall(function() CS.UX.GameSwitch[csSwitchOn[i]] = true end)\n` +
+`    end\n` +
+`    for i = 1, #csSwitchOff do\n` +
+`        pcall(function() CS.UX.GameSwitch[csSwitchOff[i]] = false end)\n` +
+`    end\n` +
+`end\n`;
   const switchBytes = to_luastring(switchSource);
   const switchStatus = lauxlib.luaL_loadbuffer(L, switchBytes, switchBytes.length, to_luastring(switchFileName));
   if (switchStatus !== lua.LUA_OK) throw new Error("generated ClientGameSwitch.lua failed Lua syntax validation");
   fs.writeFileSync(path.join(fastPatchRoot, switchFileName), switchSource, "utf8");
-  switchNote = `GameSwitch defaults: ${gameSwitchDefaults.length} switches pre-seeded open (EnableCharge stays closed).\n`;
+  switchNote = `GameSwitch defaults: ${gameSwitchDefaults.length} switches pre-seeded open, ` +
+      `${gameSwitchForceFalse.length} forced closed (${gameSwitchForceFalse.join(", ")}), ` +
+      `plus __index fallback for any undefined switch (EnableCharge stays closed).\n`;
 }
 
   fs.writeFileSync(

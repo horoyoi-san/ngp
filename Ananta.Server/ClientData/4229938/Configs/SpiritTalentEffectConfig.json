@@ -1,0 +1,7833 @@
+{
+  "_class": "SpiritTalentEffectConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 144,
+  "records": [
+    {
+      "Id": 101,
+      "TalentType": 0,
+      "Coordinate": [
+        -6,
+        0
+      ],
+      "Title": "特殊被动1",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [
+        52959515
+      ],
+      "BuffDescribe": "敌人陷入属性异常时，提高自身7.5%攻击力，持续10秒，最多叠加3层.这个效果在主角不在场时也能触发。",
+      "SpecialBuffValue": 0.075000003,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "特殊被动1",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "敌人陷入属性异常时，提高自身7.5%攻击力，持续10秒，最多叠加3层.这个效果在主角不在场时也能触发。",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 102,
+      "TalentType": 1,
+      "Coordinate": [
+        -4,
+        0
+      ],
+      "Title": "洗练1",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        31,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.0599999987,
+        25.6000004,
+        0,
+        0.0439999998,
+        0.0879999995,
+        0.0799999982,
+        0.0799999982,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.0599999987,
+        0,
+        0,
+        0,
+        0,
+        0.0599999987,
+        0.119999997
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练1",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 103,
+      "TalentType": 0,
+      "Coordinate": [
+        -4,
+        2
+      ],
+      "Title": "属性1",
+      "TalentAttribute": [
+        3,
+        7
+      ],
+      "AttrAdd": [
+        0.0549999997,
+        0
+      ],
+      "AttrMul": [
+        0,
+        0.300000012
+      ],
+      "BuffId": [],
+      "BuffDescribe": "暴击率[2fc5d7]+5.5%[-]\n防御[2fc5d7]+30%",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "属性1",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "暴击率[2fc5d7]+5.5%[-]\n防御[2fc5d7]+30%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 104,
+      "TalentType": 1,
+      "Coordinate": [
+        -2,
+        2
+      ],
+      "Title": "洗练2",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        31,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.0900000036,
+        38.4000015,
+        0,
+        0.0659999996,
+        0.131999999,
+        0.119999997,
+        0.119999997,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.0900000036,
+        0,
+        0,
+        0,
+        0,
+        0.0900000036,
+        0.180000007
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练2",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 105,
+      "TalentType": 0,
+      "Coordinate": [
+        0,
+        3
+      ],
+      "Title": "特殊被动2",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "特殊被动1效果更新：敌人陷入属性异常时，提高自身15%攻击力，持续10秒，最多叠加3层。这个效果在主角不在场时也能触发。",
+      "SpecialBuffValue": 0.150000006,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "特殊被动2",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "特殊被动1效果更新：敌人陷入属性异常时，提高自身15%攻击力，持续10秒，最多叠加3层。这个效果在主角不在场时也能触发。",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 106,
+      "TalentType": 1,
+      "Coordinate": [
+        0,
+        1
+      ],
+      "Title": "洗练3",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        31,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.119999997,
+        51.2000008,
+        0,
+        0.0879999995,
+        0.175999999,
+        0.159999996,
+        0.159999996,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.119999997,
+        0,
+        0,
+        0,
+        0,
+        0.119999997,
+        0.239999995
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练3",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 107,
+      "TalentType": 0,
+      "Coordinate": [
+        2,
+        0
+      ],
+      "Title": "属性2",
+      "TalentAttribute": [
+        3,
+        4,
+        1,
+        7
+      ],
+      "AttrAdd": [
+        0.0825000033,
+        0.165000007,
+        0,
+        0
+      ],
+      "AttrMul": [
+        0,
+        0,
+        0.075000003,
+        0.300000012
+      ],
+      "BuffId": [],
+      "BuffDescribe": "暴击率[2fc5d7]+8.25%[-]\n暴击伤害[2fc5d7]+16.5%[-]\n生命上限[2fc5d7]+7.5%[-]\n防御[2fc5d7]+30%",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "属性2",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "暴击率[2fc5d7]+8.25%[-]\n暴击伤害[2fc5d7]+16.5%[-]\n生命上限[2fc5d7]+7.5%[-]\n防御[2fc5d7]+30%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 108,
+      "TalentType": 1,
+      "Coordinate": [
+        2,
+        -2
+      ],
+      "Title": "洗练4",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        31,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.150000006,
+        64,
+        0,
+        0.109999999,
+        0.219999999,
+        0.200000003,
+        0.200000003,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.150000006,
+        0,
+        0,
+        0,
+        0,
+        0.150000006,
+        0.300000012
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练4",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 201,
+      "TalentType": 0,
+      "Coordinate": [
+        -6,
+        0
+      ],
+      "Title": "特殊被动1",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [
+        52959515
+      ],
+      "BuffDescribe": "敌人陷入属性异常时，提高自身7.5%攻击力，持续10秒，最多叠加3层.这个效果在主角不在场时也能触发。",
+      "SpecialBuffValue": 0.075000003,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "特殊被动1",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "敌人陷入属性异常时，提高自身7.5%攻击力，持续10秒，最多叠加3层.这个效果在主角不在场时也能触发。",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 202,
+      "TalentType": 1,
+      "Coordinate": [
+        -4,
+        0
+      ],
+      "Title": "洗练1",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        31,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.0599999987,
+        25.6000004,
+        0,
+        0.0439999998,
+        0.0879999995,
+        0.0799999982,
+        0.0799999982,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.0599999987,
+        0,
+        0,
+        0,
+        0,
+        0.0599999987,
+        0.119999997
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练1",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 203,
+      "TalentType": 0,
+      "Coordinate": [
+        -4,
+        2
+      ],
+      "Title": "属性1",
+      "TalentAttribute": [
+        3,
+        7
+      ],
+      "AttrAdd": [
+        0.0549999997,
+        0
+      ],
+      "AttrMul": [
+        0,
+        0.300000012
+      ],
+      "BuffId": [],
+      "BuffDescribe": "暴击率[2fc5d7]+5.5%[-]\n防御[2fc5d7]+30%",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "属性1",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "暴击率[2fc5d7]+5.5%[-]\n防御[2fc5d7]+30%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 204,
+      "TalentType": 1,
+      "Coordinate": [
+        -2,
+        2
+      ],
+      "Title": "洗练2",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        31,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.0900000036,
+        38.4000015,
+        0,
+        0.0659999996,
+        0.131999999,
+        0.119999997,
+        0.119999997,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.0900000036,
+        0,
+        0,
+        0,
+        0,
+        0.0900000036,
+        0.180000007
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练2",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 205,
+      "TalentType": 0,
+      "Coordinate": [
+        0,
+        3
+      ],
+      "Title": "特殊被动2",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "特殊被动1效果更新：敌人陷入属性异常时，提高自身15%攻击力，持续10秒，最多叠加3层。这个效果在主角不在场时也能触发。",
+      "SpecialBuffValue": 0.150000006,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "特殊被动2",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "特殊被动1效果更新：敌人陷入属性异常时，提高自身15%攻击力，持续10秒，最多叠加3层。这个效果在主角不在场时也能触发。",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 206,
+      "TalentType": 1,
+      "Coordinate": [
+        0,
+        1
+      ],
+      "Title": "洗练3",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        31,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.119999997,
+        51.2000008,
+        0,
+        0.0879999995,
+        0.175999999,
+        0.159999996,
+        0.159999996,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.119999997,
+        0,
+        0,
+        0,
+        0,
+        0.119999997,
+        0.239999995
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练3",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 207,
+      "TalentType": 0,
+      "Coordinate": [
+        2,
+        0
+      ],
+      "Title": "属性2",
+      "TalentAttribute": [
+        3,
+        4,
+        1,
+        7
+      ],
+      "AttrAdd": [
+        0.0825000033,
+        0.165000007,
+        0,
+        0
+      ],
+      "AttrMul": [
+        0,
+        0,
+        0.075000003,
+        0.300000012
+      ],
+      "BuffId": [],
+      "BuffDescribe": "暴击率[2fc5d7]+8.25%[-]\n暴击伤害[2fc5d7]+16.5%[-]\n生命上限[2fc5d7]+7.5%[-]\n防御[2fc5d7]+30%",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "属性2",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "暴击率[2fc5d7]+8.25%[-]\n暴击伤害[2fc5d7]+16.5%[-]\n生命上限[2fc5d7]+7.5%[-]\n防御[2fc5d7]+30%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 208,
+      "TalentType": 1,
+      "Coordinate": [
+        2,
+        -2
+      ],
+      "Title": "洗练4",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        31,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.150000006,
+        64,
+        0,
+        0.109999999,
+        0.219999999,
+        0.200000003,
+        0.200000003,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.150000006,
+        0,
+        0,
+        0,
+        0,
+        0.150000006,
+        0.300000012
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练4",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 301,
+      "TalentType": 0,
+      "Coordinate": [
+        -6,
+        0
+      ],
+      "Title": "特殊被动1",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [
+        52959508
+      ],
+      "BuffDescribe": "燃烧意志最大层数增加3。",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "特殊被动1",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "燃烧意志最大层数增加3。",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 302,
+      "TalentType": 1,
+      "Coordinate": [
+        -4,
+        0
+      ],
+      "Title": "洗练1",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        21,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.0599999987,
+        25.6000004,
+        0,
+        0.0439999998,
+        0.0879999995,
+        0.0799999982,
+        0.0799999982,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.0599999987,
+        0,
+        0,
+        0,
+        0,
+        0.0599999987,
+        0.119999997
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练1",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 303,
+      "TalentType": 0,
+      "Coordinate": [
+        -4,
+        2
+      ],
+      "Title": "属性1",
+      "TalentAttribute": [
+        3,
+        7
+      ],
+      "AttrAdd": [
+        0.0549999997,
+        0
+      ],
+      "AttrMul": [
+        0,
+        0.300000012
+      ],
+      "BuffId": [],
+      "BuffDescribe": "暴击率[2fc5d7]+5.5%[-]\n防御[2fc5d7]+30%",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "属性1",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "暴击率[2fc5d7]+5.5%[-]\n防御[2fc5d7]+30%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 304,
+      "TalentType": 1,
+      "Coordinate": [
+        -2,
+        2
+      ],
+      "Title": "洗练2",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        21,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.0900000036,
+        38.4000015,
+        0,
+        0.0659999996,
+        0.131999999,
+        0.119999997,
+        0.119999997,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.0900000036,
+        0,
+        0,
+        0,
+        0,
+        0.0900000036,
+        0.180000007
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练2",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 305,
+      "TalentType": 0,
+      "Coordinate": [
+        0,
+        3
+      ],
+      "Title": "特殊被动2",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "特殊被动1效果更新：燃烧意志最大层数增加3，每层增加普攻伤害提高2%。",
+      "SpecialBuffValue": 0.0199999996,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "特殊被动2",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "特殊被动1效果更新：燃烧意志最大层数增加3，每层增加普攻伤害提高2%。",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 306,
+      "TalentType": 1,
+      "Coordinate": [
+        0,
+        1
+      ],
+      "Title": "洗练3",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        21,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.119999997,
+        51.2000008,
+        0,
+        0.0879999995,
+        0.175999999,
+        0.159999996,
+        0.159999996,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.119999997,
+        0,
+        0,
+        0,
+        0,
+        0.119999997,
+        0.239999995
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练3",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 307,
+      "TalentType": 0,
+      "Coordinate": [
+        2,
+        0
+      ],
+      "Title": "属性2",
+      "TalentAttribute": [
+        3,
+        4,
+        1,
+        7
+      ],
+      "AttrAdd": [
+        0.0825000033,
+        0.165000007,
+        0,
+        0
+      ],
+      "AttrMul": [
+        0,
+        0,
+        0.075000003,
+        0.300000012
+      ],
+      "BuffId": [],
+      "BuffDescribe": "暴击率[2fc5d7]+8.25%[-]\n暴击伤害[2fc5d7]+16.5%[-]\n生命上限[2fc5d7]+7.5%[-]\n防御[2fc5d7]+30%",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "属性2",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "暴击率[2fc5d7]+8.25%[-]\n暴击伤害[2fc5d7]+16.5%[-]\n生命上限[2fc5d7]+7.5%[-]\n防御[2fc5d7]+30%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 308,
+      "TalentType": 1,
+      "Coordinate": [
+        2,
+        -2
+      ],
+      "Title": "洗练4",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        21,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.150000006,
+        64,
+        0,
+        0.109999999,
+        0.219999999,
+        0.200000003,
+        0.200000003,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.150000006,
+        0,
+        0,
+        0,
+        0,
+        0.150000006,
+        0.300000012
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练4",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 401,
+      "TalentType": 0,
+      "Coordinate": [
+        -6,
+        0
+      ],
+      "Title": "特殊被动1",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [
+        52959501
+      ],
+      "BuffDescribe": "强化普攻命中带有非风属性元素异常的敌人时，额外造成32.5%攻击力的对应元素伤害，这个效果在1秒后才能再次触发。",
+      "SpecialBuffValue": 0.324999988,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "特殊被动1",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "强化普攻命中带有非风属性元素异常的敌人时，额外造成32.5%攻击力的对应元素伤害，这个效果在1秒后才能再次触发。",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 402,
+      "TalentType": 1,
+      "Coordinate": [
+        -4,
+        0
+      ],
+      "Title": "洗练1",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        19,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.0599999987,
+        25.6000004,
+        0,
+        0.0439999998,
+        0.0879999995,
+        0.0799999982,
+        0.0799999982,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.0599999987,
+        0,
+        0,
+        0,
+        0,
+        0.0599999987,
+        0.119999997
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练1",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 403,
+      "TalentType": 0,
+      "Coordinate": [
+        -4,
+        2
+      ],
+      "Title": "属性1",
+      "TalentAttribute": [
+        3,
+        7
+      ],
+      "AttrAdd": [
+        0.0549999997,
+        0
+      ],
+      "AttrMul": [
+        0,
+        0.300000012
+      ],
+      "BuffId": [],
+      "BuffDescribe": "暴击率[2fc5d7]+5.5%[-]\n防御[2fc5d7]+30%",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "属性1",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "暴击率[2fc5d7]+5.5%[-]\n防御[2fc5d7]+30%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 404,
+      "TalentType": 1,
+      "Coordinate": [
+        -2,
+        2
+      ],
+      "Title": "洗练2",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        19,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.0900000036,
+        38.4000015,
+        0,
+        0.0659999996,
+        0.131999999,
+        0.119999997,
+        0.119999997,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.0900000036,
+        0,
+        0,
+        0,
+        0,
+        0.0900000036,
+        0.180000007
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练2",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 405,
+      "TalentType": 0,
+      "Coordinate": [
+        0,
+        3
+      ],
+      "Title": "特殊被动2",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "特殊被动1效果更新：强化普攻命中带有非风属性元素异常的敌人时，额外造成65%攻击力的对应元素伤害，这个效果在1秒后才能再次触发。",
+      "SpecialBuffValue": 0.649999976,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "特殊被动2",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "特殊被动1效果更新：强化普攻命中带有非风属性元素异常的敌人时，额外造成65%攻击力的对应元素伤害，这个效果在1秒后才能再次触发。",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 406,
+      "TalentType": 1,
+      "Coordinate": [
+        0,
+        1
+      ],
+      "Title": "洗练3",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        19,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.119999997,
+        51.2000008,
+        0,
+        0.0879999995,
+        0.175999999,
+        0.159999996,
+        0.159999996,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.119999997,
+        0,
+        0,
+        0,
+        0,
+        0.119999997,
+        0.239999995
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练3",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 407,
+      "TalentType": 0,
+      "Coordinate": [
+        2,
+        0
+      ],
+      "Title": "属性2",
+      "TalentAttribute": [
+        3,
+        4,
+        1,
+        7
+      ],
+      "AttrAdd": [
+        0.0825000033,
+        0.165000007,
+        0,
+        0
+      ],
+      "AttrMul": [
+        0,
+        0,
+        0.075000003,
+        0.300000012
+      ],
+      "BuffId": [],
+      "BuffDescribe": "暴击率[2fc5d7]+8.25%[-]\n暴击伤害[2fc5d7]+16.5%[-]\n生命上限[2fc5d7]+7.5%[-]\n防御[2fc5d7]+30%",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "属性2",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "暴击率[2fc5d7]+8.25%[-]\n暴击伤害[2fc5d7]+16.5%[-]\n生命上限[2fc5d7]+7.5%[-]\n防御[2fc5d7]+30%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 408,
+      "TalentType": 1,
+      "Coordinate": [
+        2,
+        -2
+      ],
+      "Title": "洗练4",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        19,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.150000006,
+        64,
+        0,
+        0.109999999,
+        0.219999999,
+        0.200000003,
+        0.200000003,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.150000006,
+        0,
+        0,
+        0,
+        0,
+        0.150000006,
+        0.300000012
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练4",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 501,
+      "TalentType": 0,
+      "Coordinate": [
+        -6,
+        0
+      ],
+      "Title": "特殊被动1",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [
+        52959503
+      ],
+      "BuffDescribe": "E强化普攻和重击每次命中敌人会给全队角色回复1%生命上限的生命。",
+      "SpecialBuffValue": 0.00999999978,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "特殊被动1",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "E强化普攻和重击每次命中敌人会给全队角色回复1%生命上限的生命。",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 502,
+      "TalentType": 1,
+      "Coordinate": [
+        -4,
+        0
+      ],
+      "Title": "洗练1",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        31,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.0599999987,
+        25.6000004,
+        0,
+        0.0439999998,
+        0.0879999995,
+        0.0799999982,
+        0.0799999982,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.0599999987,
+        0,
+        0,
+        0,
+        0,
+        0.0599999987,
+        0.119999997
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练1",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 503,
+      "TalentType": 0,
+      "Coordinate": [
+        -4,
+        2
+      ],
+      "Title": "属性1",
+      "TalentAttribute": [
+        3,
+        7
+      ],
+      "AttrAdd": [
+        0.0549999997,
+        0
+      ],
+      "AttrMul": [
+        0,
+        0.300000012
+      ],
+      "BuffId": [],
+      "BuffDescribe": "暴击率[2fc5d7]+5.5%[-]\n防御[2fc5d7]+30%",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "属性1",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "暴击率[2fc5d7]+5.5%[-]\n防御[2fc5d7]+30%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 504,
+      "TalentType": 1,
+      "Coordinate": [
+        -2,
+        2
+      ],
+      "Title": "洗练2",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        31,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.0900000036,
+        38.4000015,
+        0,
+        0.0659999996,
+        0.131999999,
+        0.119999997,
+        0.119999997,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.0900000036,
+        0,
+        0,
+        0,
+        0,
+        0.0900000036,
+        0.180000007
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练2",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 505,
+      "TalentType": 0,
+      "Coordinate": [
+        0,
+        3
+      ],
+      "Title": "特殊被动2",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "特殊被动1效果更新：E强化普攻和重击每次命中敌人会给全队角色回复2%生命上限的生命。",
+      "SpecialBuffValue": 0.0199999996,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "特殊被动2",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "特殊被动1效果更新：E强化普攻和重击每次命中敌人会给全队角色回复2%生命上限的生命。",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 506,
+      "TalentType": 1,
+      "Coordinate": [
+        0,
+        1
+      ],
+      "Title": "洗练3",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        31,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.119999997,
+        51.2000008,
+        0,
+        0.0879999995,
+        0.175999999,
+        0.159999996,
+        0.159999996,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.119999997,
+        0,
+        0,
+        0,
+        0,
+        0.119999997,
+        0.239999995
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练3",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 507,
+      "TalentType": 0,
+      "Coordinate": [
+        2,
+        0
+      ],
+      "Title": "属性2",
+      "TalentAttribute": [
+        3,
+        4,
+        1,
+        7
+      ],
+      "AttrAdd": [
+        0.0825000033,
+        0.165000007,
+        0,
+        0
+      ],
+      "AttrMul": [
+        0,
+        0,
+        0.075000003,
+        0.300000012
+      ],
+      "BuffId": [],
+      "BuffDescribe": "暴击率[2fc5d7]+8.25%[-]\n暴击伤害[2fc5d7]+16.5%[-]\n生命上限[2fc5d7]+7.5%[-]\n防御[2fc5d7]+30%",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "属性2",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "暴击率[2fc5d7]+8.25%[-]\n暴击伤害[2fc5d7]+16.5%[-]\n生命上限[2fc5d7]+7.5%[-]\n防御[2fc5d7]+30%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 508,
+      "TalentType": 1,
+      "Coordinate": [
+        2,
+        -2
+      ],
+      "Title": "洗练4",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        31,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.150000006,
+        64,
+        0,
+        0.109999999,
+        0.219999999,
+        0.200000003,
+        0.200000003,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.150000006,
+        0,
+        0,
+        0,
+        0,
+        0.150000006,
+        0.300000012
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练4",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 601,
+      "TalentType": 0,
+      "Coordinate": [
+        -6,
+        0
+      ],
+      "Title": "特殊被动1",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [
+        52959502
+      ],
+      "BuffDescribe": "大招附带的兔兔可乐时间增加20%",
+      "SpecialBuffValue": 0.200000003,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "特殊被动1",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "大招附带的兔兔可乐时间增加20%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 602,
+      "TalentType": 1,
+      "Coordinate": [
+        -4,
+        0
+      ],
+      "Title": "洗练1",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        23,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.0599999987,
+        25.6000004,
+        0,
+        0.0439999998,
+        0.0879999995,
+        0.0799999982,
+        0.0799999982,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.0599999987,
+        0,
+        0,
+        0,
+        0,
+        0.0599999987,
+        0.119999997
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练1",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 603,
+      "TalentType": 0,
+      "Coordinate": [
+        -4,
+        2
+      ],
+      "Title": "属性1",
+      "TalentAttribute": [
+        3,
+        7
+      ],
+      "AttrAdd": [
+        0.0549999997,
+        0
+      ],
+      "AttrMul": [
+        0,
+        0.300000012
+      ],
+      "BuffId": [],
+      "BuffDescribe": "暴击率[2fc5d7]+5.5%[-]\n防御[2fc5d7]+30%",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "属性1",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "暴击率[2fc5d7]+5.5%[-]\n防御[2fc5d7]+30%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 604,
+      "TalentType": 1,
+      "Coordinate": [
+        -2,
+        2
+      ],
+      "Title": "洗练2",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        23,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.0900000036,
+        38.4000015,
+        0,
+        0.0659999996,
+        0.131999999,
+        0.119999997,
+        0.119999997,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.0900000036,
+        0,
+        0,
+        0,
+        0,
+        0.0900000036,
+        0.180000007
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练2",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 605,
+      "TalentType": 0,
+      "Coordinate": [
+        0,
+        3
+      ],
+      "Title": "特殊被动2",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "特殊被动1效果更新：大招附带的兔兔可乐时间增加40%",
+      "SpecialBuffValue": 0.400000006,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "特殊被动2",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "特殊被动1效果更新：大招附带的兔兔可乐时间增加40%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 606,
+      "TalentType": 1,
+      "Coordinate": [
+        0,
+        1
+      ],
+      "Title": "洗练3",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        23,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.119999997,
+        51.2000008,
+        0,
+        0.0879999995,
+        0.175999999,
+        0.159999996,
+        0.159999996,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.119999997,
+        0,
+        0,
+        0,
+        0,
+        0.119999997,
+        0.239999995
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练3",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 607,
+      "TalentType": 0,
+      "Coordinate": [
+        2,
+        0
+      ],
+      "Title": "属性2",
+      "TalentAttribute": [
+        3,
+        4,
+        1,
+        7
+      ],
+      "AttrAdd": [
+        0.0825000033,
+        0.165000007,
+        0,
+        0
+      ],
+      "AttrMul": [
+        0,
+        0,
+        0.075000003,
+        0.300000012
+      ],
+      "BuffId": [],
+      "BuffDescribe": "暴击率[2fc5d7]+8.25%[-]\n暴击伤害[2fc5d7]+16.5%[-]\n生命上限[2fc5d7]+7.5%[-]\n防御[2fc5d7]+30%",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "属性2",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "暴击率[2fc5d7]+8.25%[-]\n暴击伤害[2fc5d7]+16.5%[-]\n生命上限[2fc5d7]+7.5%[-]\n防御[2fc5d7]+30%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 608,
+      "TalentType": 1,
+      "Coordinate": [
+        2,
+        -2
+      ],
+      "Title": "洗练4",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        23,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.150000006,
+        64,
+        0,
+        0.109999999,
+        0.219999999,
+        0.200000003,
+        0.200000003,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.150000006,
+        0,
+        0,
+        0,
+        0,
+        0.150000006,
+        0.300000012
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练4",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 701,
+      "TalentType": 0,
+      "Coordinate": [
+        -6,
+        0
+      ],
+      "Title": "特殊被动1",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [
+        52959507
+      ],
+      "BuffDescribe": "切换技陨石每次击中为狄菈恢复1点异能槽能量。",
+      "SpecialBuffValue": 1,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "特殊被动1",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "切换技陨石每次击中为狄菈恢复1点异能槽能量。",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 702,
+      "TalentType": 1,
+      "Coordinate": [
+        -4,
+        0
+      ],
+      "Title": "洗练1",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        31,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.0599999987,
+        25.6000004,
+        0,
+        0.0439999998,
+        0.0879999995,
+        0.0799999982,
+        0.0799999982,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.0599999987,
+        0,
+        0,
+        0,
+        0,
+        0.0599999987,
+        0.119999997
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练1",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 703,
+      "TalentType": 0,
+      "Coordinate": [
+        -4,
+        2
+      ],
+      "Title": "属性1",
+      "TalentAttribute": [
+        55,
+        7
+      ],
+      "AttrAdd": [
+        32,
+        0
+      ],
+      "AttrMul": [
+        0,
+        0.300000012
+      ],
+      "BuffId": [],
+      "BuffDescribe": "通感[2fc5d7]+32[-]\n防御[2fc5d7]+30%",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "属性1",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "通感[2fc5d7]+32[-]\n防御[2fc5d7]+30%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 704,
+      "TalentType": 1,
+      "Coordinate": [
+        -2,
+        2
+      ],
+      "Title": "洗练2",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        31,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.0900000036,
+        38.4000015,
+        0,
+        0.0659999996,
+        0.131999999,
+        0.119999997,
+        0.119999997,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.0900000036,
+        0,
+        0,
+        0,
+        0,
+        0.0900000036,
+        0.180000007
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练2",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 705,
+      "TalentType": 0,
+      "Coordinate": [
+        0,
+        3
+      ],
+      "Title": "特殊被动2",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "特殊被动1效果更新：切换技陨石每次击中为狄菈恢复2点异能槽能量.",
+      "SpecialBuffValue": 2,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "特殊被动2",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "特殊被动1效果更新：切换技陨石每次击中为狄菈恢复2点异能槽能量.",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 706,
+      "TalentType": 1,
+      "Coordinate": [
+        0,
+        1
+      ],
+      "Title": "洗练3",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        31,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.119999997,
+        51.2000008,
+        0,
+        0.0879999995,
+        0.175999999,
+        0.159999996,
+        0.159999996,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.119999997,
+        0,
+        0,
+        0,
+        0,
+        0.119999997,
+        0.239999995
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练3",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 707,
+      "TalentType": 0,
+      "Coordinate": [
+        2,
+        0
+      ],
+      "Title": "属性2",
+      "TalentAttribute": [
+        55,
+        1,
+        7
+      ],
+      "AttrAdd": [
+        96,
+        0,
+        0
+      ],
+      "AttrMul": [
+        0,
+        0.075000003,
+        0.300000012
+      ],
+      "BuffId": [],
+      "BuffDescribe": "通感[2fc5d7]+96[-]\n生命上限[2fc5d7]+7.5%[-]\n防御[2fc5d7]+30%",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "属性2",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "通感[2fc5d7]+96[-]\n生命上限[2fc5d7]+7.5%[-]\n防御[2fc5d7]+30%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 708,
+      "TalentType": 1,
+      "Coordinate": [
+        2,
+        -2
+      ],
+      "Title": "洗练4",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        31,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.150000006,
+        64,
+        0,
+        0.109999999,
+        0.219999999,
+        0.200000003,
+        0.200000003,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.150000006,
+        0,
+        0,
+        0,
+        0,
+        0.150000006,
+        0.300000012
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练4",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 801,
+      "TalentType": 0,
+      "Coordinate": [
+        -6,
+        0
+      ],
+      "Title": "特殊被动1",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [
+        52959504
+      ],
+      "BuffDescribe": "对处于冰异常下的敌人，伤害提高12.5%",
+      "SpecialBuffValue": 0.125,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "特殊被动1",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "对处于冰异常下的敌人，伤害提高12.5%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 802,
+      "TalentType": 1,
+      "Coordinate": [
+        -4,
+        0
+      ],
+      "Title": "洗练1",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        27,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.0599999987,
+        25.6000004,
+        0,
+        0.0439999998,
+        0.0879999995,
+        0.0799999982,
+        0.0799999982,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.0599999987,
+        0,
+        0,
+        0,
+        0,
+        0.0599999987,
+        0.119999997
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练1",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 803,
+      "TalentType": 0,
+      "Coordinate": [
+        -4,
+        2
+      ],
+      "Title": "属性1",
+      "TalentAttribute": [
+        3,
+        7
+      ],
+      "AttrAdd": [
+        0.0549999997,
+        0
+      ],
+      "AttrMul": [
+        0,
+        0.300000012
+      ],
+      "BuffId": [],
+      "BuffDescribe": "暴击率[2fc5d7]+5.5%[-]\n防御[2fc5d7]+30%",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "属性1",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "暴击率[2fc5d7]+5.5%[-]\n防御[2fc5d7]+30%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 804,
+      "TalentType": 1,
+      "Coordinate": [
+        -2,
+        2
+      ],
+      "Title": "洗练2",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        27,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.0900000036,
+        38.4000015,
+        0,
+        0.0659999996,
+        0.131999999,
+        0.119999997,
+        0.119999997,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.0900000036,
+        0,
+        0,
+        0,
+        0,
+        0.0900000036,
+        0.180000007
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练2",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 805,
+      "TalentType": 0,
+      "Coordinate": [
+        0,
+        3
+      ],
+      "Title": "特殊被动2",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "特殊被动1效果更新：对处于冰异常下的敌人，伤害提高25%",
+      "SpecialBuffValue": 0.25,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "特殊被动2",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "特殊被动1效果更新：对处于冰异常下的敌人，伤害提高25%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 806,
+      "TalentType": 1,
+      "Coordinate": [
+        0,
+        1
+      ],
+      "Title": "洗练3",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        27,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.119999997,
+        51.2000008,
+        0,
+        0.0879999995,
+        0.175999999,
+        0.159999996,
+        0.159999996,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.119999997,
+        0,
+        0,
+        0,
+        0,
+        0.119999997,
+        0.239999995
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练3",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 807,
+      "TalentType": 0,
+      "Coordinate": [
+        2,
+        0
+      ],
+      "Title": "属性2",
+      "TalentAttribute": [
+        3,
+        4,
+        1,
+        7
+      ],
+      "AttrAdd": [
+        0.0825000033,
+        0.165000007,
+        0,
+        0
+      ],
+      "AttrMul": [
+        0,
+        0,
+        0.075000003,
+        0.300000012
+      ],
+      "BuffId": [],
+      "BuffDescribe": "暴击率[2fc5d7]+8.25%[-]\n暴击伤害[2fc5d7]+16.5%[-]\n生命上限[2fc5d7]+7.5%[-]\n防御[2fc5d7]+30%",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "属性2",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "暴击率[2fc5d7]+8.25%[-]\n暴击伤害[2fc5d7]+16.5%[-]\n生命上限[2fc5d7]+7.5%[-]\n防御[2fc5d7]+30%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 808,
+      "TalentType": 1,
+      "Coordinate": [
+        2,
+        -2
+      ],
+      "Title": "洗练4",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        27,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.150000006,
+        64,
+        0,
+        0.109999999,
+        0.219999999,
+        0.200000003,
+        0.200000003,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.150000006,
+        0,
+        0,
+        0,
+        0,
+        0.150000006,
+        0.300000012
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练4",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 901,
+      "TalentType": 0,
+      "Coordinate": [
+        -6,
+        0
+      ],
+      "Title": "特殊被动1",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [
+        52959517
+      ],
+      "BuffDescribe": "电系异常结束时，造成一次异常期间所受电伤5%的3米半径电伤，这个伤害视为异常伤害。",
+      "SpecialBuffValue": 0.0500000007,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "特殊被动1",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "电系异常结束时，造成一次异常期间所受电伤5%的3米半径电伤，这个伤害视为异常伤害。",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 902,
+      "TalentType": 1,
+      "Coordinate": [
+        -4,
+        0
+      ],
+      "Title": "洗练1",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        23,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.0900000036,
+        38.4000015,
+        0,
+        0.0659999996,
+        0.131999999,
+        0.119999997,
+        0.119999997,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.0900000036,
+        0,
+        0,
+        0,
+        0,
+        0.0900000036,
+        0.180000007
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练1",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 903,
+      "TalentType": 0,
+      "Coordinate": [
+        -4,
+        2
+      ],
+      "Title": "属性1",
+      "TalentAttribute": [
+        3,
+        7
+      ],
+      "AttrAdd": [
+        0.0549999997,
+        0
+      ],
+      "AttrMul": [
+        0,
+        0.300000012
+      ],
+      "BuffId": [],
+      "BuffDescribe": "暴击率[2fc5d7]+5.5%[-]\n防御[2fc5d7]+30%",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "属性1",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "暴击率[2fc5d7]+5.5%[-]\n防御[2fc5d7]+30%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 904,
+      "TalentType": 1,
+      "Coordinate": [
+        -2,
+        2
+      ],
+      "Title": "洗练2",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        23,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.119999997,
+        51.2000008,
+        0,
+        0.0879999995,
+        0.175999999,
+        0.159999996,
+        0.159999996,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.119999997,
+        0,
+        0,
+        0,
+        0,
+        0.119999997,
+        0.239999995
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练2",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 905,
+      "TalentType": 0,
+      "Coordinate": [
+        0,
+        3
+      ],
+      "Title": "特殊被动2",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "特殊被动1效果更新：电系异常结束时，造成一次异常期间所受电伤10%的3米半径电伤，这个伤害视为异常伤害。",
+      "SpecialBuffValue": 0.100000001,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "特殊被动2",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "特殊被动1效果更新：电系异常结束时，造成一次异常期间所受电伤10%的3米半径电伤，这个伤害视为异常伤害。",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 906,
+      "TalentType": 1,
+      "Coordinate": [
+        0,
+        1
+      ],
+      "Title": "洗练3",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        23,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.150000006,
+        64,
+        0,
+        0.109999999,
+        0.219999999,
+        0.200000003,
+        0.200000003,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.150000006,
+        0,
+        0,
+        0,
+        0,
+        0.150000006,
+        0.300000012
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练3",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 907,
+      "TalentType": 0,
+      "Coordinate": [
+        2,
+        0
+      ],
+      "Title": "属性2",
+      "TalentAttribute": [
+        3,
+        4,
+        1,
+        7
+      ],
+      "AttrAdd": [
+        0.0825000033,
+        0.165000007,
+        0,
+        0
+      ],
+      "AttrMul": [
+        0,
+        0,
+        0.075000003,
+        0.300000012
+      ],
+      "BuffId": [],
+      "BuffDescribe": "暴击率[2fc5d7]+8.25%[-]\n暴击伤害[2fc5d7]+16.5%[-]\n生命上限[2fc5d7]+7.5%[-]\n防御[2fc5d7]+30%",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "属性2",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "暴击率[2fc5d7]+8.25%[-]\n暴击伤害[2fc5d7]+16.5%[-]\n生命上限[2fc5d7]+7.5%[-]\n防御[2fc5d7]+30%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 908,
+      "TalentType": 1,
+      "Coordinate": [
+        2,
+        -2
+      ],
+      "Title": "洗练4",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        23,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.180000007,
+        76.8000031,
+        0,
+        0.131999999,
+        0.263999999,
+        0.239999995,
+        0.239999995,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.189999998,
+        0,
+        0,
+        0,
+        0,
+        0.180000007,
+        0.360000014
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练4",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1001,
+      "TalentType": 0,
+      "Coordinate": [
+        -6,
+        0
+      ],
+      "Title": "特殊被动1",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [
+        52959506
+      ],
+      "BuffDescribe": "异能解放触发减防后还会使目标的物理抗降低10%",
+      "SpecialBuffValue": 0.100000001,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "特殊被动1",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "异能解放触发减防后还会使目标的物理抗降低10%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1002,
+      "TalentType": 1,
+      "Coordinate": [
+        -4,
+        0
+      ],
+      "Title": "洗练1",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        25,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.0599999987,
+        25.6000004,
+        0,
+        0.0439999998,
+        0.0879999995,
+        0.0799999982,
+        0.0799999982,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.0599999987,
+        0,
+        0,
+        0,
+        0,
+        0.0599999987,
+        0.119999997
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练1",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1003,
+      "TalentType": 0,
+      "Coordinate": [
+        -4,
+        2
+      ],
+      "Title": "属性1",
+      "TalentAttribute": [
+        3,
+        7
+      ],
+      "AttrAdd": [
+        0.0549999997,
+        0
+      ],
+      "AttrMul": [
+        0,
+        0.300000012
+      ],
+      "BuffId": [],
+      "BuffDescribe": "暴击率[2fc5d7]+5.5%[-]\n防御[2fc5d7]+30%",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "属性1",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "暴击率[2fc5d7]+5.5%[-]\n防御[2fc5d7]+30%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1004,
+      "TalentType": 1,
+      "Coordinate": [
+        -2,
+        2
+      ],
+      "Title": "洗练2",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        25,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.0900000036,
+        38.4000015,
+        0,
+        0.0659999996,
+        0.131999999,
+        0.119999997,
+        0.119999997,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.0900000036,
+        0,
+        0,
+        0,
+        0,
+        0.0900000036,
+        0.180000007
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练2",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1005,
+      "TalentType": 0,
+      "Coordinate": [
+        0,
+        3
+      ],
+      "Title": "特殊被动2",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "特殊被动1效果更新：异能解放触发减防后还会使目标的物理抗降低20%",
+      "SpecialBuffValue": 0.200000003,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "特殊被动2",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "特殊被动1效果更新：异能解放触发减防后还会使目标的物理抗降低20%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1006,
+      "TalentType": 1,
+      "Coordinate": [
+        0,
+        1
+      ],
+      "Title": "洗练3",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        25,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.119999997,
+        51.2000008,
+        0,
+        0.0879999995,
+        0.175999999,
+        0.159999996,
+        0.159999996,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.119999997,
+        0,
+        0,
+        0,
+        0,
+        0.119999997,
+        0.239999995
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练3",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1007,
+      "TalentType": 0,
+      "Coordinate": [
+        2,
+        0
+      ],
+      "Title": "属性2",
+      "TalentAttribute": [
+        3,
+        4,
+        1,
+        7
+      ],
+      "AttrAdd": [
+        0.0825000033,
+        0.165000007,
+        0,
+        0
+      ],
+      "AttrMul": [
+        0,
+        0,
+        0.075000003,
+        0.300000012
+      ],
+      "BuffId": [],
+      "BuffDescribe": "暴击率[2fc5d7]+8.25%[-]\n暴击伤害[2fc5d7]+16.5%[-]\n生命上限[2fc5d7]+7.5%[-]\n防御[2fc5d7]+30%",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "属性2",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "暴击率[2fc5d7]+8.25%[-]\n暴击伤害[2fc5d7]+16.5%[-]\n生命上限[2fc5d7]+7.5%[-]\n防御[2fc5d7]+30%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1008,
+      "TalentType": 1,
+      "Coordinate": [
+        2,
+        -2
+      ],
+      "Title": "洗练4",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        25,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.150000006,
+        64,
+        0,
+        0.109999999,
+        0.219999999,
+        0.200000003,
+        0.200000003,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.150000006,
+        0,
+        0,
+        0,
+        0,
+        0.150000006,
+        0.300000012
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练4",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1101,
+      "TalentType": 0,
+      "Coordinate": [
+        -6,
+        0
+      ],
+      "Title": "特殊被动1",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [
+        52959521
+      ],
+      "BuffDescribe": "轻击的第一段和第三段也会获得一层【炉心】。分支攻击伤害+10%",
+      "SpecialBuffValue": 0.100000001,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "特殊被动1",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "轻击的第一段和第三段也会获得一层【炉心】。分支攻击伤害+10%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1102,
+      "TalentType": 1,
+      "Coordinate": [
+        -4,
+        0
+      ],
+      "Title": "洗练1",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        21,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.0599999987,
+        25.6000004,
+        0,
+        0.0439999998,
+        0.0879999995,
+        0.0799999982,
+        0.0799999982,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.0599999987,
+        0,
+        0,
+        0,
+        0,
+        0.0599999987,
+        0.119999997
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练1",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1103,
+      "TalentType": 0,
+      "Coordinate": [
+        -4,
+        2
+      ],
+      "Title": "属性1",
+      "TalentAttribute": [
+        3,
+        7
+      ],
+      "AttrAdd": [
+        0.0549999997,
+        0
+      ],
+      "AttrMul": [
+        0,
+        0.300000012
+      ],
+      "BuffId": [],
+      "BuffDescribe": "暴击率[2fc5d7]+5.5%[-]\n防御[2fc5d7]+30%",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "属性1",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "暴击率[2fc5d7]+5.5%[-]\n防御[2fc5d7]+30%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1104,
+      "TalentType": 1,
+      "Coordinate": [
+        -2,
+        2
+      ],
+      "Title": "洗练2",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        21,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.0900000036,
+        38.4000015,
+        0,
+        0.0659999996,
+        0.131999999,
+        0.119999997,
+        0.119999997,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.0900000036,
+        0,
+        0,
+        0,
+        0,
+        0.0900000036,
+        0.180000007
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练2",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1105,
+      "TalentType": 0,
+      "Coordinate": [
+        0,
+        3
+      ],
+      "Title": "特殊被动2",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "特殊被动1效果更新：轻击的第一段和第三段也会获得一层【炉心】。分支攻击伤害+40%",
+      "SpecialBuffValue": 0.400000006,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "特殊被动2",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "特殊被动1效果更新：轻击的第一段和第三段也会获得一层【炉心】。分支攻击伤害+40%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1106,
+      "TalentType": 1,
+      "Coordinate": [
+        0,
+        1
+      ],
+      "Title": "洗练3",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        21,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.119999997,
+        51.2000008,
+        0,
+        0.0879999995,
+        0.175999999,
+        0.159999996,
+        0.159999996,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.119999997,
+        0,
+        0,
+        0,
+        0,
+        0.119999997,
+        0.239999995
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练3",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1107,
+      "TalentType": 0,
+      "Coordinate": [
+        2,
+        0
+      ],
+      "Title": "属性2",
+      "TalentAttribute": [
+        3,
+        4,
+        1,
+        7
+      ],
+      "AttrAdd": [
+        0.0825000033,
+        0.165000007,
+        0,
+        0
+      ],
+      "AttrMul": [
+        0,
+        0,
+        0.075000003,
+        0.300000012
+      ],
+      "BuffId": [],
+      "BuffDescribe": "暴击率[2fc5d7]+8.25%[-]\n暴击伤害[2fc5d7]+16.5%[-]\n生命上限[2fc5d7]+7.5%[-]\n防御[2fc5d7]+30%",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "属性2",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "暴击率[2fc5d7]+8.25%[-]\n暴击伤害[2fc5d7]+16.5%[-]\n生命上限[2fc5d7]+7.5%[-]\n防御[2fc5d7]+30%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1108,
+      "TalentType": 1,
+      "Coordinate": [
+        2,
+        -2
+      ],
+      "Title": "洗练4",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        21,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.150000006,
+        64,
+        0,
+        0.109999999,
+        0.219999999,
+        0.200000003,
+        0.200000003,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.150000006,
+        0,
+        0,
+        0,
+        0,
+        0.150000006,
+        0.300000012
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练4",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1201,
+      "TalentType": 0,
+      "Coordinate": [
+        -6,
+        0
+      ],
+      "Title": "特殊被动1",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [
+        52959513
+      ],
+      "BuffDescribe": "林檎位于队伍中时，敌人身上的火异常伤害提高7.5%",
+      "SpecialBuffValue": 0.075000003,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "特殊被动1",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "林檎位于队伍中时，敌人身上的火异常伤害提高7.5%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1202,
+      "TalentType": 1,
+      "Coordinate": [
+        -4,
+        0
+      ],
+      "Title": "洗练1",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        21,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.0599999987,
+        25.6000004,
+        0,
+        0.0439999998,
+        0.0879999995,
+        0.0799999982,
+        0.0799999982,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.0599999987,
+        0,
+        0,
+        0,
+        0,
+        0.0599999987,
+        0.119999997
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练1",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1203,
+      "TalentType": 0,
+      "Coordinate": [
+        -4,
+        2
+      ],
+      "Title": "属性1",
+      "TalentAttribute": [
+        55,
+        7
+      ],
+      "AttrAdd": [
+        32,
+        0
+      ],
+      "AttrMul": [
+        0,
+        0.300000012
+      ],
+      "BuffId": [],
+      "BuffDescribe": "通感[2fc5d7]+32[-]\n防御[2fc5d7]+30%",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "属性1",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "通感[2fc5d7]+32[-]\n防御[2fc5d7]+30%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1204,
+      "TalentType": 1,
+      "Coordinate": [
+        -2,
+        2
+      ],
+      "Title": "洗练2",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        21,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.0900000036,
+        38.4000015,
+        0,
+        0.0659999996,
+        0.131999999,
+        0.119999997,
+        0.119999997,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.0900000036,
+        0,
+        0,
+        0,
+        0,
+        0.0900000036,
+        0.180000007
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练2",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1205,
+      "TalentType": 0,
+      "Coordinate": [
+        0,
+        3
+      ],
+      "Title": "特殊被动2",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "特殊被动1效果更新：林檎位于队伍中时，敌人身上的火异常伤害提高15%",
+      "SpecialBuffValue": 0.150000006,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "特殊被动2",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "特殊被动1效果更新：林檎位于队伍中时，敌人身上的火异常伤害提高15%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1206,
+      "TalentType": 1,
+      "Coordinate": [
+        0,
+        1
+      ],
+      "Title": "洗练3",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        21,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.119999997,
+        51.2000008,
+        0,
+        0.0879999995,
+        0.175999999,
+        0.159999996,
+        0.159999996,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.119999997,
+        0,
+        0,
+        0,
+        0,
+        0.119999997,
+        0.239999995
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练3",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1207,
+      "TalentType": 0,
+      "Coordinate": [
+        2,
+        0
+      ],
+      "Title": "属性2",
+      "TalentAttribute": [
+        55,
+        1,
+        7
+      ],
+      "AttrAdd": [
+        96,
+        0,
+        0
+      ],
+      "AttrMul": [
+        0,
+        0.075000003,
+        0.300000012
+      ],
+      "BuffId": [],
+      "BuffDescribe": "通感[2fc5d7]+96[-]\n生命上限[2fc5d7]+7.5%[-]\n防御[2fc5d7]+30%",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "属性2",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "通感[2fc5d7]+96[-]\n生命上限[2fc5d7]+7.5%[-]\n防御[2fc5d7]+30%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1208,
+      "TalentType": 1,
+      "Coordinate": [
+        2,
+        -2
+      ],
+      "Title": "洗练4",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        21,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.150000006,
+        64,
+        0,
+        0.109999999,
+        0.219999999,
+        0.200000003,
+        0.200000003,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.150000006,
+        0,
+        0,
+        0,
+        0,
+        0.150000006,
+        0.300000012
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练4",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1301,
+      "TalentType": 0,
+      "Coordinate": [
+        -6,
+        0
+      ],
+      "Title": "特殊被动1",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "暂无心相被动",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "特殊被动1",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "暂无心相被动",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1302,
+      "TalentType": 1,
+      "Coordinate": [
+        -4,
+        0
+      ],
+      "Title": "洗练1",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        21,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.0599999987,
+        25.6000004,
+        0,
+        0.0439999998,
+        0.0879999995,
+        0.0799999982,
+        0.0799999982,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.0599999987,
+        0,
+        0,
+        0,
+        0,
+        0.0599999987,
+        0.119999997
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练1",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1303,
+      "TalentType": 0,
+      "Coordinate": [
+        -4,
+        2
+      ],
+      "Title": "属性1",
+      "TalentAttribute": [
+        3,
+        7
+      ],
+      "AttrAdd": [
+        0.0549999997,
+        0
+      ],
+      "AttrMul": [
+        0,
+        0.300000012
+      ],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "属性1",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1304,
+      "TalentType": 1,
+      "Coordinate": [
+        -2,
+        2
+      ],
+      "Title": "洗练2",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        21,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.0900000036,
+        38.4000015,
+        0,
+        0.0659999996,
+        0.131999999,
+        0.119999997,
+        0.119999997,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.0900000036,
+        0,
+        0,
+        0,
+        0,
+        0.0900000036,
+        0.180000007
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练2",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1305,
+      "TalentType": 0,
+      "Coordinate": [
+        0,
+        3
+      ],
+      "Title": "特殊被动2",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "特殊被动2",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1306,
+      "TalentType": 1,
+      "Coordinate": [
+        0,
+        1
+      ],
+      "Title": "洗练3",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        21,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.119999997,
+        51.2000008,
+        0,
+        0.0879999995,
+        0.175999999,
+        0.159999996,
+        0.159999996,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.119999997,
+        0,
+        0,
+        0,
+        0,
+        0.119999997,
+        0.239999995
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练3",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1307,
+      "TalentType": 0,
+      "Coordinate": [
+        2,
+        0
+      ],
+      "Title": "属性2",
+      "TalentAttribute": [
+        3,
+        4,
+        1,
+        7
+      ],
+      "AttrAdd": [
+        0.0825000033,
+        0.165000007,
+        0,
+        0
+      ],
+      "AttrMul": [
+        0,
+        0,
+        0.075000003,
+        0.300000012
+      ],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "属性2",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1308,
+      "TalentType": 1,
+      "Coordinate": [
+        2,
+        -2
+      ],
+      "Title": "洗练4",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        21,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.150000006,
+        64,
+        0,
+        0.109999999,
+        0.219999999,
+        0.200000003,
+        0.200000003,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.150000006,
+        0,
+        0,
+        0,
+        0,
+        0.150000006,
+        0.300000012
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练4",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1401,
+      "TalentType": 0,
+      "Coordinate": [
+        -6,
+        0
+      ],
+      "Title": "特殊被动1",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [
+        52959519
+      ],
+      "BuffDescribe": "E技能强化buff还会提高爱琳15%攻击力",
+      "SpecialBuffValue": 0.150000006,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "特殊被动1",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "E技能强化buff还会提高爱琳15%攻击力",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1402,
+      "TalentType": 1,
+      "Coordinate": [
+        -4,
+        0
+      ],
+      "Title": "洗练1",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        25,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.0599999987,
+        25.6000004,
+        0,
+        0.0439999998,
+        0.0879999995,
+        0.0799999982,
+        0.0799999982,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.0599999987,
+        0,
+        0,
+        0,
+        0,
+        0.0599999987,
+        0.119999997
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练1",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1403,
+      "TalentType": 0,
+      "Coordinate": [
+        -4,
+        2
+      ],
+      "Title": "属性1",
+      "TalentAttribute": [
+        3,
+        7
+      ],
+      "AttrAdd": [
+        0.0549999997,
+        0
+      ],
+      "AttrMul": [
+        0,
+        0.300000012
+      ],
+      "BuffId": [],
+      "BuffDescribe": "Critical Hit Chance [2fc5d7]+5.5%[-]\nDEF [2fc5d7]+30%",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "属性1",
+      "__IDX__BuffDescribe": 51941,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1404,
+      "TalentType": 1,
+      "Coordinate": [
+        -2,
+        2
+      ],
+      "Title": "洗练2",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        25,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.0900000036,
+        38.4000015,
+        0,
+        0.0659999996,
+        0.131999999,
+        0.119999997,
+        0.119999997,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.0900000036,
+        0,
+        0,
+        0,
+        0,
+        0.0900000036,
+        0.180000007
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练2",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1405,
+      "TalentType": 0,
+      "Coordinate": [
+        0,
+        3
+      ],
+      "Title": "特殊被动2",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "特殊被动1效果更新：E技能强化buff还会提高爱琳30%攻击力",
+      "SpecialBuffValue": 0.300000012,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "特殊被动2",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "特殊被动1效果更新：E技能强化buff还会提高爱琳30%攻击力",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1406,
+      "TalentType": 1,
+      "Coordinate": [
+        0,
+        1
+      ],
+      "Title": "洗练3",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        25,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.119999997,
+        51.2000008,
+        0,
+        0.0879999995,
+        0.175999999,
+        0.159999996,
+        0.159999996,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.119999997,
+        0,
+        0,
+        0,
+        0,
+        0.119999997,
+        0.239999995
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练3",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1407,
+      "TalentType": 0,
+      "Coordinate": [
+        2,
+        0
+      ],
+      "Title": "属性2",
+      "TalentAttribute": [
+        3,
+        4,
+        1,
+        7
+      ],
+      "AttrAdd": [
+        0.0825000033,
+        0.165000007,
+        0,
+        0
+      ],
+      "AttrMul": [
+        0,
+        0,
+        0.075000003,
+        0.300000012
+      ],
+      "BuffId": [],
+      "BuffDescribe": "暴击率[2fc5d7]+8.25%[-]\n暴击伤害[2fc5d7]+16.5%[-]\n生命上限[2fc5d7]+7.5%[-]\n防御[2fc5d7]+30%",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "属性2",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "暴击率[2fc5d7]+8.25%[-]\n暴击伤害[2fc5d7]+16.5%[-]\n生命上限[2fc5d7]+7.5%[-]\n防御[2fc5d7]+30%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1408,
+      "TalentType": 1,
+      "Coordinate": [
+        2,
+        -2
+      ],
+      "Title": "洗练4",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        25,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.150000006,
+        64,
+        0,
+        0.109999999,
+        0.219999999,
+        0.200000003,
+        0.200000003,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.150000006,
+        0,
+        0,
+        0,
+        0,
+        0.150000006,
+        0.300000012
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练4",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1501,
+      "TalentType": 0,
+      "Coordinate": [
+        -6,
+        0
+      ],
+      "Title": "特殊被动1",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [
+        52959520
+      ],
+      "BuffDescribe": "冰狼击中敌人还会为全队恢复5%血量",
+      "SpecialBuffValue": 0.0500000007,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "特殊被动1",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "冰狼击中敌人还会为全队恢复5%血量",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1502,
+      "TalentType": 1,
+      "Coordinate": [
+        -4,
+        0
+      ],
+      "Title": "洗练1",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        21,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.0599999987,
+        25.6000004,
+        0,
+        0.0439999998,
+        0.0879999995,
+        0.0799999982,
+        0.0799999982,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.0599999987,
+        0,
+        0,
+        0,
+        0,
+        0.0599999987,
+        0.119999997
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练1",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1503,
+      "TalentType": 0,
+      "Coordinate": [
+        -4,
+        2
+      ],
+      "Title": "属性1",
+      "TalentAttribute": [
+        3,
+        7
+      ],
+      "AttrAdd": [
+        0.0549999997,
+        0
+      ],
+      "AttrMul": [
+        0,
+        0.300000012
+      ],
+      "BuffId": [],
+      "BuffDescribe": "Critical Hit Chance [2fc5d7]+5.5%[-]\nDEF [2fc5d7]+30%",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "属性1",
+      "__IDX__BuffDescribe": 51942,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1504,
+      "TalentType": 1,
+      "Coordinate": [
+        -2,
+        2
+      ],
+      "Title": "洗练2",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        21,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.0900000036,
+        38.4000015,
+        0,
+        0.0659999996,
+        0.131999999,
+        0.119999997,
+        0.119999997,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.0900000036,
+        0,
+        0,
+        0,
+        0,
+        0.0900000036,
+        0.180000007
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练2",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1505,
+      "TalentType": 0,
+      "Coordinate": [
+        0,
+        3
+      ],
+      "Title": "特殊被动2",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "特殊被动1效果更新：冰狼击中敌人还会为全队恢复10%血量",
+      "SpecialBuffValue": 0.100000001,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "特殊被动2",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "特殊被动1效果更新：冰狼击中敌人还会为全队恢复10%血量",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1506,
+      "TalentType": 1,
+      "Coordinate": [
+        0,
+        1
+      ],
+      "Title": "洗练3",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        21,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.119999997,
+        51.2000008,
+        0,
+        0.0879999995,
+        0.175999999,
+        0.159999996,
+        0.159999996,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.119999997,
+        0,
+        0,
+        0,
+        0,
+        0.119999997,
+        0.239999995
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练3",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1507,
+      "TalentType": 0,
+      "Coordinate": [
+        2,
+        0
+      ],
+      "Title": "属性2",
+      "TalentAttribute": [
+        3,
+        4,
+        1,
+        7
+      ],
+      "AttrAdd": [
+        0.0825000033,
+        0.165000007,
+        0,
+        0
+      ],
+      "AttrMul": [
+        0,
+        0,
+        0.075000003,
+        0.300000012
+      ],
+      "BuffId": [],
+      "BuffDescribe": "暴击率[2fc5d7]+8.25%[-]\n暴击伤害[2fc5d7]+16.5%[-]\n生命上限[2fc5d7]+7.5%[-]\n防御[2fc5d7]+30%",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "属性2",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "暴击率[2fc5d7]+8.25%[-]\n暴击伤害[2fc5d7]+16.5%[-]\n生命上限[2fc5d7]+7.5%[-]\n防御[2fc5d7]+30%",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1508,
+      "TalentType": 1,
+      "Coordinate": [
+        2,
+        -2
+      ],
+      "Title": "洗练4",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        21,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.150000006,
+        64,
+        0,
+        0.109999999,
+        0.219999999,
+        0.200000003,
+        0.200000003,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.150000006,
+        0,
+        0,
+        0,
+        0,
+        0.150000006,
+        0.300000012
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练4",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1601,
+      "TalentType": 0,
+      "Coordinate": [
+        -6,
+        0
+      ],
+      "Title": "特殊被动1",
+      "TalentAttribute": [
+        7
+      ],
+      "AttrAdd": [
+        0
+      ],
+      "AttrMul": [
+        0.300000012
+      ],
+      "BuffId": [],
+      "BuffDescribe": "暂无心相被动",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "特殊被动1",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "暂无心相被动",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1602,
+      "TalentType": 1,
+      "Coordinate": [
+        -4,
+        0
+      ],
+      "Title": "洗练1",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        21,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.0599999987,
+        25.6000004,
+        0,
+        0.0439999998,
+        0.0879999995,
+        0.0799999982,
+        0.0799999982,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.0599999987,
+        0,
+        0,
+        0,
+        0,
+        0.0599999987,
+        0.119999997
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练1",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1603,
+      "TalentType": 0,
+      "Coordinate": [
+        -4,
+        2
+      ],
+      "Title": "属性1",
+      "TalentAttribute": [
+        4,
+        1
+      ],
+      "AttrAdd": [
+        0.109999999,
+        0
+      ],
+      "AttrMul": [
+        0,
+        0.075000003
+      ],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "属性1",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1604,
+      "TalentType": 1,
+      "Coordinate": [
+        -2,
+        2
+      ],
+      "Title": "洗练2",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        21,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.0900000036,
+        38.4000015,
+        0,
+        0.0659999996,
+        0.131999999,
+        0.119999997,
+        0.119999997,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.0900000036,
+        0,
+        0,
+        0,
+        0,
+        0.0900000036,
+        0.180000007
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练2",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1605,
+      "TalentType": 0,
+      "Coordinate": [
+        0,
+        3
+      ],
+      "Title": "特殊被动2",
+      "TalentAttribute": [
+        3,
+        7
+      ],
+      "AttrAdd": [
+        0.0549999997,
+        0
+      ],
+      "AttrMul": [
+        0,
+        0.150000006
+      ],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "特殊被动2",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1606,
+      "TalentType": 1,
+      "Coordinate": [
+        0,
+        1
+      ],
+      "Title": "洗练3",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        21,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.119999997,
+        51.2000008,
+        0,
+        0.0879999995,
+        0.175999999,
+        0.159999996,
+        0.159999996,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.119999997,
+        0,
+        0,
+        0,
+        0,
+        0.119999997,
+        0.239999995
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练3",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1607,
+      "TalentType": 0,
+      "Coordinate": [
+        2,
+        0
+      ],
+      "Title": "属性2",
+      "TalentAttribute": [
+        4,
+        1
+      ],
+      "AttrAdd": [
+        0.109999999,
+        0
+      ],
+      "AttrMul": [
+        0,
+        0.075000003
+      ],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "属性2",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1608,
+      "TalentType": 1,
+      "Coordinate": [
+        2,
+        -2
+      ],
+      "Title": "洗练4",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        21,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.150000006,
+        64,
+        0,
+        0.109999999,
+        0.219999999,
+        0.200000003,
+        0.200000003,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.150000006,
+        0,
+        0,
+        0,
+        0,
+        0.150000006,
+        0.300000012
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "洗练4",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1701,
+      "TalentType": 0,
+      "Coordinate": [
+        -6,
+        0
+      ],
+      "Title": "",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "暂无心相被动",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 0,
+      "__RAW__Title": "",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "暂无心相被动",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1702,
+      "TalentType": 0,
+      "Coordinate": [
+        -4,
+        1
+      ],
+      "Title": "",
+      "TalentAttribute": [
+        23
+      ],
+      "AttrAdd": [
+        0.0450000018
+      ],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 0,
+      "__RAW__Title": "",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1703,
+      "TalentType": 1,
+      "Coordinate": [
+        -4,
+        4
+      ],
+      "Title": "",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        23,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.0599999987,
+        25.6000004,
+        0,
+        0.0439999998,
+        0.0879999995,
+        0.0799999982,
+        0.0799999982,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.0599999987,
+        0,
+        0,
+        0,
+        0,
+        0.0599999987,
+        0.119999997
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 0,
+      "__RAW__Title": "",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1704,
+      "TalentType": 0,
+      "Coordinate": [
+        -1,
+        3
+      ],
+      "Title": "",
+      "TalentAttribute": [
+        7
+      ],
+      "AttrAdd": [],
+      "AttrMul": [
+        0.180000007
+      ],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 0,
+      "__RAW__Title": "",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1705,
+      "TalentType": 0,
+      "Coordinate": [
+        2,
+        2
+      ],
+      "Title": "",
+      "TalentAttribute": [
+        23
+      ],
+      "AttrAdd": [
+        0.0900000036
+      ],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [
+        0.0900000036,
+        38.4000015,
+        0,
+        0.0659999996,
+        0.131999999,
+        0.119999997,
+        0.119999997,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.0900000036,
+        0,
+        0,
+        0,
+        0,
+        0.0900000036,
+        0.180000007
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 0,
+      "__RAW__Title": "",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1706,
+      "TalentType": 0,
+      "Coordinate": [
+        5,
+        1
+      ],
+      "Title": "",
+      "TalentAttribute": [
+        3
+      ],
+      "AttrAdd": [
+        0.0659999996
+      ],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 0,
+      "__RAW__Title": "",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1707,
+      "TalentType": 1,
+      "Coordinate": [
+        2,
+        0
+      ],
+      "Title": "",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        23,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.119999997,
+        51.2000008,
+        0,
+        0.0879999995,
+        0.175999999,
+        0.159999996,
+        0.159999996,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.119999997,
+        0,
+        0,
+        0,
+        0,
+        0.119999997,
+        0.239999995
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 0,
+      "__RAW__Title": "",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1708,
+      "TalentType": 0,
+      "Coordinate": [
+        2,
+        -2
+      ],
+      "Title": "",
+      "TalentAttribute": [
+        4
+      ],
+      "AttrAdd": [
+        0.197999999
+      ],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 0,
+      "__RAW__Title": "",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1801,
+      "TalentType": 0,
+      "Coordinate": [
+        -6,
+        0
+      ],
+      "Title": "",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "暂无心相被动",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 0,
+      "__RAW__Title": "",
+      "__IDX__BuffDescribe": 4294967293,
+      "__RAW__BuffDescribe": "暂无心相被动",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1802,
+      "TalentType": 0,
+      "Coordinate": [
+        -4,
+        1
+      ],
+      "Title": "",
+      "TalentAttribute": [
+        23
+      ],
+      "AttrAdd": [
+        0.0450000018
+      ],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 0,
+      "__RAW__Title": "",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1803,
+      "TalentType": 1,
+      "Coordinate": [
+        -4,
+        4
+      ],
+      "Title": "",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        23,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.0599999987,
+        25.6000004,
+        0,
+        0.0439999998,
+        0.0879999995,
+        0.0799999982,
+        0.0799999982,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.0599999987,
+        0,
+        0,
+        0,
+        0,
+        0.0599999987,
+        0.119999997
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 0,
+      "__RAW__Title": "",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1804,
+      "TalentType": 0,
+      "Coordinate": [
+        -1,
+        3
+      ],
+      "Title": "",
+      "TalentAttribute": [
+        7
+      ],
+      "AttrAdd": [],
+      "AttrMul": [
+        0.180000007
+      ],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 0,
+      "__RAW__Title": "",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1805,
+      "TalentType": 0,
+      "Coordinate": [
+        2,
+        2
+      ],
+      "Title": "",
+      "TalentAttribute": [
+        23
+      ],
+      "AttrAdd": [
+        0.0900000036
+      ],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [
+        0.0900000036,
+        38.4000015,
+        0,
+        0.0659999996,
+        0.131999999,
+        0.119999997,
+        0.119999997,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.0900000036,
+        0,
+        0,
+        0,
+        0,
+        0.0900000036,
+        0.180000007
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 0,
+      "__RAW__Title": "",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1806,
+      "TalentType": 0,
+      "Coordinate": [
+        5,
+        1
+      ],
+      "Title": "",
+      "TalentAttribute": [
+        3
+      ],
+      "AttrAdd": [
+        0.0659999996
+      ],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 0,
+      "__RAW__Title": "",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1807,
+      "TalentType": 1,
+      "Coordinate": [
+        2,
+        0
+      ],
+      "Title": "",
+      "TalentAttribute": [],
+      "AttrAdd": [],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 2,
+      "AttributeRollPool": [
+        23,
+        55,
+        2,
+        3,
+        4,
+        15,
+        9,
+        1,
+        7
+      ],
+      "ShowAttributeRollType": [
+        "p1",
+        "f0",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1",
+        "p1"
+      ],
+      "AttrRollAdd": [
+        0.119999997,
+        51.2000008,
+        0,
+        0.0879999995,
+        0.175999999,
+        0.159999996,
+        0.159999996,
+        0,
+        0
+      ],
+      "AttrRollMul": [
+        0,
+        0,
+        0.119999997,
+        0,
+        0,
+        0,
+        0,
+        0.119999997,
+        0.239999995
+      ],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 0,
+      "__RAW__Title": "",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    },
+    {
+      "Id": 1808,
+      "TalentType": 0,
+      "Coordinate": [
+        2,
+        -2
+      ],
+      "Title": "",
+      "TalentAttribute": [
+        4
+      ],
+      "AttrAdd": [
+        0.197999999
+      ],
+      "AttrMul": [],
+      "BuffId": [],
+      "BuffDescribe": "",
+      "SpecialBuffValue": 0,
+      "AttributeRollInt": 0,
+      "AttributeRollPool": [],
+      "ShowAttributeRollType": [],
+      "AttrRollAdd": [],
+      "AttrRollMul": [],
+      "BranchBuffId": [],
+      "BranchBuffDescription": [],
+      "Verify": 0,
+      "__IDX__Title": 0,
+      "__RAW__Title": "",
+      "__IDX__BuffDescribe": 0,
+      "__RAW__BuffDescribe": "",
+      "RollAttrRatioRange": {
+        "Min": 1,
+        "Max": 1.25
+      },
+      "RollCost": []
+    }
+  ],
+  "_dumpedCount": 144,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

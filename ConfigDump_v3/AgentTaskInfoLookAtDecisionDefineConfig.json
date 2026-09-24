@@ -1,0 +1,290 @@
+{
+  "_class": "AgentTaskInfoLookAtDecisionDefineConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 28,
+  "records": [
+    {
+      "Id": 1,
+      "LookAtTriggerType": 0,
+      "NpcPedType": 0,
+      "AdditionalState": 0,
+      "FocusLevel": 0,
+      "BaseWeight": 100,
+      "BaseProbability": 1,
+      "BaseDuration": 6
+    },
+    {
+      "Id": 2,
+      "LookAtTriggerType": 0,
+      "NpcPedType": 1,
+      "AdditionalState": 0,
+      "FocusLevel": 0,
+      "BaseWeight": 100,
+      "BaseProbability": 1,
+      "BaseDuration": 6
+    },
+    {
+      "Id": 3,
+      "LookAtTriggerType": 0,
+      "NpcPedType": 2,
+      "AdditionalState": 0,
+      "FocusLevel": 0,
+      "BaseWeight": 100,
+      "BaseProbability": 1,
+      "BaseDuration": 6
+    },
+    {
+      "Id": 4,
+      "LookAtTriggerType": 1,
+      "NpcPedType": 0,
+      "AdditionalState": 0,
+      "FocusLevel": 0,
+      "BaseWeight": 100,
+      "BaseProbability": 0.75,
+      "BaseDuration": 6
+    },
+    {
+      "Id": 5,
+      "LookAtTriggerType": 1,
+      "NpcPedType": 1,
+      "AdditionalState": 0,
+      "FocusLevel": 0,
+      "BaseWeight": 100,
+      "BaseProbability": 0.75,
+      "BaseDuration": 6
+    },
+    {
+      "Id": 6,
+      "LookAtTriggerType": 1,
+      "NpcPedType": 2,
+      "AdditionalState": 0,
+      "FocusLevel": 0,
+      "BaseWeight": 100,
+      "BaseProbability": 0.75,
+      "BaseDuration": 6
+    },
+    {
+      "Id": 7,
+      "LookAtTriggerType": 2,
+      "NpcPedType": 0,
+      "AdditionalState": 0,
+      "FocusLevel": 0,
+      "BaseWeight": 100,
+      "BaseProbability": 1,
+      "BaseDuration": 6
+    },
+    {
+      "Id": 8,
+      "LookAtTriggerType": 0,
+      "NpcPedType": 3,
+      "AdditionalState": 0,
+      "FocusLevel": 1,
+      "BaseWeight": 0,
+      "BaseProbability": 1,
+      "BaseDuration": 6
+    },
+    {
+      "Id": 9,
+      "LookAtTriggerType": 1,
+      "NpcPedType": 3,
+      "AdditionalState": 0,
+      "FocusLevel": 1,
+      "BaseWeight": 0,
+      "BaseProbability": 1,
+      "BaseDuration": 6
+    },
+    {
+      "Id": 10,
+      "LookAtTriggerType": 0,
+      "NpcPedType": 3,
+      "AdditionalState": 0,
+      "FocusLevel": 2,
+      "BaseWeight": 100,
+      "BaseProbability": 1,
+      "BaseDuration": 6
+    },
+    {
+      "Id": 11,
+      "LookAtTriggerType": 1,
+      "NpcPedType": 3,
+      "AdditionalState": 0,
+      "FocusLevel": 2,
+      "BaseWeight": 40,
+      "BaseProbability": 0.5,
+      "BaseDuration": 6
+    },
+    {
+      "Id": 12,
+      "LookAtTriggerType": 0,
+      "NpcPedType": 3,
+      "AdditionalState": 0,
+      "FocusLevel": 3,
+      "BaseWeight": 100,
+      "BaseProbability": 1,
+      "BaseDuration": 10
+    },
+    {
+      "Id": 13,
+      "LookAtTriggerType": 1,
+      "NpcPedType": 3,
+      "AdditionalState": 0,
+      "FocusLevel": 3,
+      "BaseWeight": 60,
+      "BaseProbability": 0.75,
+      "BaseDuration": 10
+    },
+    {
+      "Id": 14,
+      "LookAtTriggerType": 0,
+      "NpcPedType": 3,
+      "AdditionalState": 0,
+      "FocusLevel": 4,
+      "BaseWeight": 100,
+      "BaseProbability": 1,
+      "BaseDuration": 9.99999996e+11
+    },
+    {
+      "Id": 15,
+      "LookAtTriggerType": 1,
+      "NpcPedType": 3,
+      "AdditionalState": 0,
+      "FocusLevel": 4,
+      "BaseWeight": 100,
+      "BaseProbability": 1,
+      "BaseDuration": 9.99999996e+11
+    },
+    {
+      "Id": 16,
+      "LookAtTriggerType": 1,
+      "NpcPedType": 3,
+      "AdditionalState": 0,
+      "FocusLevel": 5,
+      "BaseWeight": 100,
+      "BaseProbability": 1,
+      "BaseDuration": 10
+    },
+    {
+      "Id": 17,
+      "LookAtTriggerType": 0,
+      "NpcPedType": 0,
+      "AdditionalState": 1,
+      "FocusLevel": 0,
+      "BaseWeight": 100,
+      "BaseProbability": 1,
+      "BaseDuration": 6
+    },
+    {
+      "Id": 18,
+      "LookAtTriggerType": 1,
+      "NpcPedType": 0,
+      "AdditionalState": 1,
+      "FocusLevel": 0,
+      "BaseWeight": 100,
+      "BaseProbability": 1,
+      "BaseDuration": 6
+    },
+    {
+      "Id": 19,
+      "LookAtTriggerType": 0,
+      "NpcPedType": 3,
+      "AdditionalState": 1,
+      "FocusLevel": 1,
+      "BaseWeight": 0,
+      "BaseProbability": 1,
+      "BaseDuration": 6
+    },
+    {
+      "Id": 20,
+      "LookAtTriggerType": 1,
+      "NpcPedType": 3,
+      "AdditionalState": 1,
+      "FocusLevel": 1,
+      "BaseWeight": 0,
+      "BaseProbability": 1,
+      "BaseDuration": 6
+    },
+    {
+      "Id": 21,
+      "LookAtTriggerType": 0,
+      "NpcPedType": 3,
+      "AdditionalState": 1,
+      "FocusLevel": 2,
+      "BaseWeight": 100,
+      "BaseProbability": 1,
+      "BaseDuration": 6
+    },
+    {
+      "Id": 22,
+      "LookAtTriggerType": 1,
+      "NpcPedType": 3,
+      "AdditionalState": 1,
+      "FocusLevel": 2,
+      "BaseWeight": 40,
+      "BaseProbability": 0.5,
+      "BaseDuration": 6
+    },
+    {
+      "Id": 23,
+      "LookAtTriggerType": 0,
+      "NpcPedType": 3,
+      "AdditionalState": 1,
+      "FocusLevel": 3,
+      "BaseWeight": 100,
+      "BaseProbability": 1,
+      "BaseDuration": 10
+    },
+    {
+      "Id": 24,
+      "LookAtTriggerType": 1,
+      "NpcPedType": 3,
+      "AdditionalState": 1,
+      "FocusLevel": 3,
+      "BaseWeight": 60,
+      "BaseProbability": 0.75,
+      "BaseDuration": 10
+    },
+    {
+      "Id": 25,
+      "LookAtTriggerType": 0,
+      "NpcPedType": 3,
+      "AdditionalState": 1,
+      "FocusLevel": 4,
+      "BaseWeight": 100,
+      "BaseProbability": 1,
+      "BaseDuration": 9.99999996e+11
+    },
+    {
+      "Id": 26,
+      "LookAtTriggerType": 1,
+      "NpcPedType": 3,
+      "AdditionalState": 1,
+      "FocusLevel": 4,
+      "BaseWeight": 100,
+      "BaseProbability": 1,
+      "BaseDuration": 9.99999996e+11
+    },
+    {
+      "Id": 27,
+      "LookAtTriggerType": 1,
+      "NpcPedType": 3,
+      "AdditionalState": 1,
+      "FocusLevel": 5,
+      "BaseWeight": 100,
+      "BaseProbability": 1,
+      "BaseDuration": 10
+    },
+    {
+      "Id": 28,
+      "LookAtTriggerType": 1,
+      "NpcPedType": 3,
+      "AdditionalState": 0,
+      "FocusLevel": -1,
+      "BaseWeight": 100,
+      "BaseProbability": 1,
+      "BaseDuration": 9.99999996e+11
+    }
+  ],
+  "_dumpedCount": 28,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

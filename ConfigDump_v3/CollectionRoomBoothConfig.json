@@ -1,0 +1,136 @@
+{
+  "_class": "CollectionRoomBoothConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 7,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "载具展台",
+      "Type": 2,
+      "Order": 2,
+      "SubBooth": [],
+      "Capacity": 4,
+      "CollectionIDs": [
+        5
+      ],
+      "PreviewScenePointId": 19,
+      "PreviewPathName": "collectionroom_vehiclebooth_previewcamera",
+      "PathScenePointId": 20,
+      "PathName": "collectionroom_vehiclebooth_boothcamera",
+      "UnlockCond": [],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "载具展台"
+    },
+    {
+      "Id": 2,
+      "Name": "武器柜",
+      "Type": 2,
+      "Order": 3,
+      "SubBooth": [],
+      "Capacity": 6,
+      "CollectionIDs": [
+        6
+      ],
+      "PreviewScenePointId": 29,
+      "PreviewPathName": "collectionroom_weaponbooth_previewcamera",
+      "PathScenePointId": 30,
+      "PathName": "collectionroom_weaponbooth_boothcamera",
+      "UnlockCond": [],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "武器柜"
+    },
+    {
+      "Id": 3,
+      "Name": "时装柜",
+      "Type": 2,
+      "Order": 1,
+      "SubBooth": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "Capacity": 16,
+      "CollectionIDs": [],
+      "PreviewScenePointId": 13,
+      "PreviewPathName": "collectionroom_fashionbooth_previewcamera",
+      "PathScenePointId": 14,
+      "PathName": "collectionroom_fashionbooth_boothcamera",
+      "UnlockCond": [],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "时装柜"
+    },
+    {
+      "Id": 4,
+      "Name": "S1时装柜",
+      "Type": 3,
+      "Order": 4,
+      "SubBooth": [],
+      "Capacity": 4,
+      "CollectionIDs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "PreviewScenePointId": 0,
+      "PreviewPathName": "",
+      "PathScenePointId": 0,
+      "PathName": "",
+      "UnlockCond": [],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "S1时装柜"
+    },
+    {
+      "Id": 5,
+      "Name": "S2时装柜",
+      "Type": 3,
+      "Order": 5,
+      "SubBooth": [],
+      "Capacity": 4,
+      "CollectionIDs": [],
+      "PreviewScenePointId": 0,
+      "PreviewPathName": "",
+      "PathScenePointId": 0,
+      "PathName": "",
+      "UnlockCond": [],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "S2时装柜"
+    },
+    {
+      "Id": 6,
+      "Name": "S3时装柜",
+      "Type": 3,
+      "Order": 6,
+      "SubBooth": [],
+      "Capacity": 4,
+      "CollectionIDs": [],
+      "PreviewScenePointId": 0,
+      "PreviewPathName": "",
+      "PathScenePointId": 0,
+      "PathName": "",
+      "UnlockCond": [],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "S3时装柜"
+    },
+    {
+      "Id": 7,
+      "Name": "S4时装柜",
+      "Type": 3,
+      "Order": 7,
+      "SubBooth": [],
+      "Capacity": 4,
+      "CollectionIDs": [],
+      "PreviewScenePointId": 0,
+      "PreviewPathName": "",
+      "PathScenePointId": 0,
+      "PathName": "",
+      "UnlockCond": [],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "S4时装柜"
+    }
+  ],
+  "_dumpedCount": 7,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

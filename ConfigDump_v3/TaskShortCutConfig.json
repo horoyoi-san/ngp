@@ -1,0 +1,143 @@
+{
+  "_class": "TaskShortCutConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 7,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "Take Photo",
+      "KeyName": 112,
+      "Key": [
+        28
+      ],
+      "GamepadKey": 19,
+      "CircleId": 16,
+      "GamePadOrder": 500,
+      "Action": "TaskShortCutShowTakePhotoUI()",
+      "ImageID": 28005465,
+      "SImageID": 28005465,
+      "GamepadStyle": 2,
+      "GamepadType": 0,
+      "GuideId": "",
+      "__IDX__Name": 42554,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 2,
+      "Name": "Scan",
+      "KeyName": 230,
+      "Key": [
+        28
+      ],
+      "GamepadKey": 10,
+      "CircleId": 0,
+      "GamePadOrder": 500,
+      "Action": "TaskShortCutHackingScan()",
+      "ImageID": 28005465,
+      "SImageID": 28005466,
+      "GamepadStyle": 2,
+      "GamepadType": 1,
+      "GuideId": "",
+      "__IDX__Name": 42555,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 3,
+      "Name": "Take Photo",
+      "KeyName": 112,
+      "Key": [
+        28
+      ],
+      "GamepadKey": 19,
+      "CircleId": 16,
+      "GamePadOrder": 500,
+      "Action": "ShowSelfIeModePhoto()",
+      "ImageID": 28005465,
+      "SImageID": 28005465,
+      "GamepadStyle": 2,
+      "GamepadType": 0,
+      "GuideId": "",
+      "__IDX__Name": 42556,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 4,
+      "Name": "View Photos",
+      "KeyName": 231,
+      "Key": [
+        28
+      ],
+      "GamepadKey": 19,
+      "CircleId": 50,
+      "GamePadOrder": 500,
+      "Action": "TaskShortCutShowPhoto(30200205)",
+      "ImageID": 28005466,
+      "SImageID": 28005466,
+      "GamepadStyle": 2,
+      "GamepadType": 0,
+      "GuideId": "",
+      "__IDX__Name": 42557,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 5,
+      "Name": "Make a Call",
+      "KeyName": 442,
+      "Key": [
+        28
+      ],
+      "GamepadKey": 19,
+      "CircleId": 19,
+      "GamePadOrder": 500,
+      "Action": "TaskShortCutOpenCallPhone()",
+      "ImageID": 28005466,
+      "SImageID": 28005466,
+      "GamepadStyle": 2,
+      "GamepadType": 0,
+      "GuideId": "TaskCallPhone",
+      "__IDX__Name": 58842,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 6,
+      "Name": "打开帮派地图",
+      "KeyName": 515,
+      "Key": [
+        28
+      ],
+      "GamepadKey": 23,
+      "CircleId": 0,
+      "GamePadOrder": 500,
+      "Action": "OpenGangsterMap()",
+      "ImageID": 28005466,
+      "SImageID": 28005466,
+      "GamepadStyle": 2,
+      "GamepadType": 0,
+      "GuideId": "",
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "打开帮派地图"
+    },
+    {
+      "Id": 7,
+      "Name": "Open Phone",
+      "KeyName": 631,
+      "Key": [
+        28
+      ],
+      "GamepadKey": 19,
+      "CircleId": 20,
+      "GamePadOrder": 500,
+      "Action": "OpenPhonePanel()",
+      "ImageID": 28005466,
+      "SImageID": 28005466,
+      "GamepadStyle": 2,
+      "GamepadType": 0,
+      "GuideId": "",
+      "__IDX__Name": 131691,
+      "__RAW__Name": ""
+    }
+  ],
+  "_dumpedCount": 7,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

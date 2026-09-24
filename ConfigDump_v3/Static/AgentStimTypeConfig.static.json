@@ -1,0 +1,191 @@
+{
+  "BaseCfg": {
+    "Id": 1,
+    "Name": "Base",
+    "ClientDecisionMakerType": "Base",
+    "ClientECSDecisionMakerType": "Base",
+    "EventMakerType": "Event_Base"
+  },
+  "PoliceCfg": {
+    "Id": 2,
+    "Name": "Police",
+    "ClientDecisionMakerType": "Police",
+    "ClientECSDecisionMakerType": "Base",
+    "EventMakerType": "Event_Base"
+  },
+  "GangCfg": {
+    "Id": 3,
+    "Name": "Gang",
+    "ClientDecisionMakerType": "Gang",
+    "ClientECSDecisionMakerType": "Base",
+    "EventMakerType": "Event_Gang_PED"
+  },
+  "CompanionCfg": {
+    "Id": 4,
+    "Name": "Companion",
+    "ClientDecisionMakerType": "Companion",
+    "ClientECSDecisionMakerType": "Base",
+    "EventMakerType": "Event_Base"
+  },
+  "QuestNPC_VedioStoreCfg": {
+    "Id": 5,
+    "Name": "QuestNPC_VedioStore",
+    "ClientDecisionMakerType": "Base",
+    "ClientECSDecisionMakerType": "Base",
+    "EventMakerType": "Event_Base"
+  },
+  "QuestNPCCfg": {
+    "Id": 6,
+    "Name": "QuestNPC",
+    "ClientDecisionMakerType": "QuestNPC",
+    "ClientECSDecisionMakerType": "Base",
+    "EventMakerType": "Event_QuestNPC"
+  },
+  "CompanionTaffyCfg": {
+    "Id": 7,
+    "Name": "CompanionTaffy",
+    "ClientDecisionMakerType": "CompanionTaffy",
+    "ClientECSDecisionMakerType": "Base",
+    "EventMakerType": "Event_Companion"
+  },
+  "CompanionRichieCfg": {
+    "Id": 8,
+    "Name": "CompanionRichie",
+    "ClientDecisionMakerType": "CompanionRichie",
+    "ClientECSDecisionMakerType": "Base",
+    "EventMakerType": "Event_Companion"
+  },
+  "TaxiNpc_InInteractionCfg": {
+    "Id": 9,
+    "Name": "TaxiNpc_InInteraction",
+    "ClientDecisionMakerType": "QuestNPC",
+    "ClientECSDecisionMakerType": "Base",
+    "EventMakerType": "Event_Base"
+  },
+  "QuestNPC_FavourCfg": {
+    "Id": 10,
+    "Name": "QuestNPC_Favour",
+    "ClientDecisionMakerType": "QuestNPC_CanInteract",
+    "ClientECSDecisionMakerType": "Base",
+    "EventMakerType": "Event_Base"
+  },
+  "QuestNPC_AGroupOfThree_SecurityGuardCaptainCfg": {
+    "Id": 11,
+    "Name": "QuestNPC_AGroupOfThree_SecurityGuardCaptain",
+    "ClientDecisionMakerType": "QuestNPC_AGroupOfThree_SecurityGuardCaptain",
+    "ClientECSDecisionMakerType": "Base",
+    "EventMakerType": "Event_Base"
+  },
+  "QuestNPC_AGroupOfThree_SecurityGuardCfg": {
+    "Id": 12,
+    "Name": "QuestNPC_AGroupOfThree_SecurityGuard",
+    "ClientDecisionMakerType": "QuestNPC_AGroupOfThree_SecurityGuard",
+    "ClientECSDecisionMakerType": "Base",
+    "EventMakerType": "Event_Base"
+  },
+  "NoStimCfg": {
+    "Id": 13,
+    "Name": "NoStim",
+    "ClientDecisionMakerType": "NoStim",
+    "ClientECSDecisionMakerType": "Base",
+    "EventMakerType": "Event_Empty"
+  },
+  "GangStaticCfg": {
+    "Id": 14,
+    "Name": "GangStatic",
+    "ClientDecisionMakerType": "Gang",
+    "ClientECSDecisionMakerType": "Base",
+    "EventMakerType": "Event_Gang_Staticpoint"
+  },
+  "QuestNPC_CanInteractCfg": {
+    "Id": 15,
+    "Name": "QuestNPC_CanInteract",
+    "ClientDecisionMakerType": "QuestNPC_CanInteract",
+    "ClientECSDecisionMakerType": "Base",
+    "EventMakerType": "Event_Base"
+  },
+  "QuestNPC_FireEngineCfg": {
+    "Id": 16,
+    "Name": "QuestNPC_FireEngine",
+    "ClientDecisionMakerType": "QuestNPC_FireEngine",
+    "ClientECSDecisionMakerType": "Base",
+    "EventMakerType": "Event_Base"
+  },
+  "Ostrich_ToiletCfg": {
+    "Id": 17,
+    "Name": "Ostrich_Toilet",
+    "ClientDecisionMakerType": "Ostrich_Toilet",
+    "ClientECSDecisionMakerType": "Base",
+    "EventMakerType": "Event_Base"
+  },
+  "LifeSchedule_AmbientCfg": {
+    "Id": 18,
+    "Name": "LifeSchedule_Ambient",
+    "ClientDecisionMakerType": "LifeSchedule_Ambient",
+    "ClientECSDecisionMakerType": "Base",
+    "EventMakerType": "Event_Base"
+  },
+  "Quest_ArtMuseumCfg": {
+    "Id": 19,
+    "Name": "Quest_ArtMuseum",
+    "ClientDecisionMakerType": "Quest_ArtMuseum",
+    "ClientECSDecisionMakerType": "Base",
+    "EventMakerType": "Event_Base"
+  },
+  "WorldLife_FavourCfg": {
+    "Id": 20,
+    "Name": "WorldLife_Favour",
+    "ClientDecisionMakerType": "QuestNPC_CanInteract",
+    "ClientECSDecisionMakerType": "Base",
+    "EventMakerType": "Event_Companion"
+  },
+  "WorldLife_DateCfg": {
+    "Id": 21,
+    "Name": "WorldLife_Date",
+    "ClientDecisionMakerType": "QuestNPC_CanInteract",
+    "ClientECSDecisionMakerType": "Base",
+    "EventMakerType": "Event_Companion"
+  },
+  "AnimalCfg": {
+    "Id": 22,
+    "Name": "Animal",
+    "ClientDecisionMakerType": "Animal",
+    "ClientECSDecisionMakerType": "Base",
+    "EventMakerType": "Event_Animal"
+  },
+  "AnimalDogCfg": {
+    "Id": 23,
+    "Name": "AnimalDog",
+    "ClientDecisionMakerType": "AnimalDog",
+    "ClientECSDecisionMakerType": "Base",
+    "EventMakerType": "Event_Animal"
+  },
+  "AnimalDuckCfg": {
+    "Id": 24,
+    "Name": "AnimalDuck",
+    "ClientDecisionMakerType": "AnimalDuck",
+    "ClientECSDecisionMakerType": "Base",
+    "EventMakerType": "Event_Animal"
+  },
+  "ChaosDuckCfg": {
+    "Id": 25,
+    "Name": "ChaosDuck",
+    "ClientDecisionMakerType": "ChaosDuck",
+    "ClientECSDecisionMakerType": "Base",
+    "EventMakerType": "Event_Animal"
+  },
+  "MascotCfg": {
+    "Id": 26,
+    "Name": "Mascot",
+    "ClientDecisionMakerType": "Mascot",
+    "ClientECSDecisionMakerType": "Base",
+    "EventMakerType": "Event_Animal"
+  },
+  "QuestNPC_RobLaboratoryNPCCfg": {
+    "Id": 27,
+    "Name": "QuestNPC_RobLaboratoryNPC",
+    "ClientDecisionMakerType": "QuestNPC_RobLaboratoryNPC",
+    "ClientECSDecisionMakerType": "Base",
+    "EventMakerType": "Event_RobLaboratoryNPC"
+  }
+}

@@ -1,0 +1,754 @@
+{
+  "_class": "PoiGameBowlingAIConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 12,
+  "records": [
+    {
+      "Id": 100,
+      "FightSpiritID": 15020992,
+      "NPCType": 0,
+      "AvgOffest": 0,
+      "OffestSigma": 0.449999988,
+      "AvgDir": 0,
+      "DirSigma": 4.5,
+      "AvgForce": 80,
+      "ForceSigma": 10,
+      "BallWeight": [
+        {
+          "ballId": 52007073,
+          "p": 1
+        }
+      ],
+      "RelativeTor": [
+        {
+          "power": -5,
+          "p": 0.5
+        },
+        {
+          "power": 5,
+          "p": 0.5
+        }
+      ],
+      "TechStartArgs": [
+        {
+          "posX": 0,
+          "rot": 0,
+          "power": 80,
+          "tor": 0
+        }
+      ]
+    },
+    {
+      "Id": 101,
+      "FightSpiritID": 15021024,
+      "NPCType": 1,
+      "AvgOffest": 0,
+      "OffestSigma": 0.0500000007,
+      "AvgDir": 0,
+      "DirSigma": 0.5,
+      "AvgForce": 50,
+      "ForceSigma": 2,
+      "BallWeight": [
+        {
+          "ballId": 52007070,
+          "p": 0.100000001
+        },
+        {
+          "ballId": 52007071,
+          "p": 0.800000012
+        },
+        {
+          "ballId": 52007072,
+          "p": 0.100000001
+        }
+      ],
+      "RelativeTor": [
+        {
+          "power": -1,
+          "p": 0.100000001
+        },
+        {
+          "power": 0,
+          "p": 0.800000012
+        },
+        {
+          "power": 1,
+          "p": 0.100000001
+        }
+      ],
+      "TechStartArgs": [
+        {
+          "posX": 0,
+          "rot": 0,
+          "power": 50,
+          "tor": 0
+        },
+        {
+          "posX": -0.181999996,
+          "rot": -0.910000026,
+          "power": 50,
+          "tor": 0
+        },
+        {
+          "posX": 0.181999996,
+          "rot": 0.910000026,
+          "power": 50,
+          "tor": 0
+        },
+        {
+          "posX": -0.135499999,
+          "rot": 0.150000006,
+          "power": 50,
+          "tor": -1
+        },
+        {
+          "posX": 0.135499999,
+          "rot": -0.150000006,
+          "power": 50,
+          "tor": 1
+        }
+      ]
+    },
+    {
+      "Id": 102,
+      "FightSpiritID": 15020991,
+      "NPCType": 0,
+      "AvgOffest": 0,
+      "OffestSigma": 0.300000012,
+      "AvgDir": 0,
+      "DirSigma": 3,
+      "AvgForce": 45,
+      "ForceSigma": 10,
+      "BallWeight": [
+        {
+          "ballId": 52007070,
+          "p": 0.200000003
+        },
+        {
+          "ballId": 52007071,
+          "p": 0.800000012
+        }
+      ],
+      "RelativeTor": [
+        {
+          "power": -2,
+          "p": 0.100000001
+        },
+        {
+          "power": -1,
+          "p": 0.200000003
+        },
+        {
+          "power": 0,
+          "p": 0.400000006
+        },
+        {
+          "power": 1,
+          "p": 0.200000003
+        },
+        {
+          "power": 2,
+          "p": 0.100000001
+        }
+      ],
+      "TechStartArgs": [
+        {
+          "posX": 0,
+          "rot": 0,
+          "power": 45,
+          "tor": 0
+        }
+      ]
+    },
+    {
+      "Id": 103,
+      "FightSpiritID": 15020989,
+      "NPCType": 1,
+      "AvgOffest": 0,
+      "OffestSigma": 0.0500000007,
+      "AvgDir": 0,
+      "DirSigma": 0.5,
+      "AvgForce": 70,
+      "ForceSigma": 3,
+      "BallWeight": [
+        {
+          "ballId": 52007071,
+          "p": 0.150000006
+        },
+        {
+          "ballId": 52007072,
+          "p": 0.699999988
+        },
+        {
+          "ballId": 52007073,
+          "p": 0.150000006
+        }
+      ],
+      "RelativeTor": [
+        {
+          "power": -1,
+          "p": 0.5
+        },
+        {
+          "power": 1,
+          "p": 0.5
+        }
+      ],
+      "TechStartArgs": [
+        {
+          "posX": 0,
+          "rot": 0,
+          "power": 70,
+          "tor": 0
+        },
+        {
+          "posX": -0.181999996,
+          "rot": -0.910000026,
+          "power": 70,
+          "tor": 0
+        },
+        {
+          "posX": 0.181999996,
+          "rot": 0.910000026,
+          "power": 70,
+          "tor": 0
+        },
+        {
+          "posX": -0.135499999,
+          "rot": 0.150000006,
+          "power": 70,
+          "tor": -1
+        },
+        {
+          "posX": 0.135499999,
+          "rot": -0.150000006,
+          "power": 70,
+          "tor": 1
+        }
+      ]
+    },
+    {
+      "Id": 104,
+      "FightSpiritID": 15021029,
+      "NPCType": 1,
+      "AvgOffest": 0,
+      "OffestSigma": 0.0500000007,
+      "AvgDir": 0,
+      "DirSigma": 0.5,
+      "AvgForce": 20,
+      "ForceSigma": 2,
+      "BallWeight": [
+        {
+          "ballId": 52007070,
+          "p": 1
+        }
+      ],
+      "RelativeTor": [
+        {
+          "power": -1,
+          "p": 0.100000001
+        },
+        {
+          "power": 0,
+          "p": 0.800000012
+        },
+        {
+          "power": 1,
+          "p": 0.100000001
+        }
+      ],
+      "TechStartArgs": [
+        {
+          "posX": 0,
+          "rot": 0,
+          "power": 20,
+          "tor": 0
+        },
+        {
+          "posX": -0.181999996,
+          "rot": -0.910000026,
+          "power": 20,
+          "tor": 0
+        },
+        {
+          "posX": 0.181999996,
+          "rot": 0.910000026,
+          "power": 20,
+          "tor": 0
+        },
+        {
+          "posX": -0.135499999,
+          "rot": 0.150000006,
+          "power": 20,
+          "tor": -1
+        },
+        {
+          "posX": 0.135499999,
+          "rot": -0.150000006,
+          "power": 20,
+          "tor": 1
+        }
+      ]
+    },
+    {
+      "Id": 105,
+      "FightSpiritID": 15021021,
+      "NPCType": 0,
+      "AvgOffest": 0,
+      "OffestSigma": 0.449999988,
+      "AvgDir": 0,
+      "DirSigma": 4.5,
+      "AvgForce": 100,
+      "ForceSigma": 0,
+      "BallWeight": [
+        {
+          "ballId": 52007070,
+          "p": 0.100000001
+        },
+        {
+          "ballId": 52007071,
+          "p": 0.800000012
+        },
+        {
+          "ballId": 52007072,
+          "p": 0.100000001
+        }
+      ],
+      "RelativeTor": [
+        {
+          "power": 0,
+          "p": 1
+        }
+      ],
+      "TechStartArgs": [
+        {
+          "posX": 0,
+          "rot": 0,
+          "power": 100,
+          "tor": 0
+        }
+      ]
+    },
+    {
+      "Id": 106,
+      "FightSpiritID": 15021017,
+      "NPCType": 0,
+      "AvgOffest": 0,
+      "OffestSigma": 0.300000012,
+      "AvgDir": 0,
+      "DirSigma": 3,
+      "AvgForce": 25,
+      "ForceSigma": 10,
+      "BallWeight": [
+        {
+          "ballId": 52007070,
+          "p": 1
+        }
+      ],
+      "RelativeTor": [
+        {
+          "power": -2,
+          "p": 0.100000001
+        },
+        {
+          "power": -1,
+          "p": 0.200000003
+        },
+        {
+          "power": 0,
+          "p": 0.400000006
+        },
+        {
+          "power": 1,
+          "p": 0.200000003
+        },
+        {
+          "power": 2,
+          "p": 0.100000001
+        }
+      ],
+      "TechStartArgs": [
+        {
+          "posX": 0,
+          "rot": 0,
+          "power": 25,
+          "tor": 0
+        }
+      ]
+    },
+    {
+      "Id": 107,
+      "FightSpiritID": 15021023,
+      "NPCType": 1,
+      "AvgOffest": 0,
+      "OffestSigma": 0.0299999993,
+      "AvgDir": 0,
+      "DirSigma": 0.300000012,
+      "AvgForce": 30,
+      "ForceSigma": 1,
+      "BallWeight": [
+        {
+          "ballId": 52007070,
+          "p": 1
+        }
+      ],
+      "RelativeTor": [
+        {
+          "power": -1,
+          "p": 0.0500000007
+        },
+        {
+          "power": 0,
+          "p": 0.899999976
+        },
+        {
+          "power": 1,
+          "p": 0.0500000007
+        }
+      ],
+      "TechStartArgs": [
+        {
+          "posX": 0,
+          "rot": 0,
+          "power": 30,
+          "tor": 0
+        },
+        {
+          "posX": -0.181999996,
+          "rot": -0.910000026,
+          "power": 30,
+          "tor": 0
+        },
+        {
+          "posX": 0.181999996,
+          "rot": 0.910000026,
+          "power": 30,
+          "tor": 0
+        },
+        {
+          "posX": -0.135499999,
+          "rot": 0.150000006,
+          "power": 30,
+          "tor": -1
+        },
+        {
+          "posX": 0.135499999,
+          "rot": -0.150000006,
+          "power": 30,
+          "tor": 1
+        }
+      ]
+    },
+    {
+      "Id": 108,
+      "FightSpiritID": 15021038,
+      "NPCType": 1,
+      "AvgOffest": 0,
+      "OffestSigma": 0.100000001,
+      "AvgDir": 0,
+      "DirSigma": 1,
+      "AvgForce": 45,
+      "ForceSigma": 5,
+      "BallWeight": [
+        {
+          "ballId": 52007070,
+          "p": 0.100000001
+        },
+        {
+          "ballId": 52007071,
+          "p": 0.800000012
+        },
+        {
+          "ballId": 52007072,
+          "p": 0.100000001
+        }
+      ],
+      "RelativeTor": [
+        {
+          "power": -2,
+          "p": 0.0500000007
+        },
+        {
+          "power": -1,
+          "p": 0.300000012
+        },
+        {
+          "power": 0,
+          "p": 0.300000012
+        },
+        {
+          "power": 1,
+          "p": 0.300000012
+        },
+        {
+          "power": 2,
+          "p": 0.0500000007
+        }
+      ],
+      "TechStartArgs": [
+        {
+          "posX": 0,
+          "rot": 0,
+          "power": 45,
+          "tor": 0
+        },
+        {
+          "posX": -0.181999996,
+          "rot": -0.910000026,
+          "power": 45,
+          "tor": 0
+        },
+        {
+          "posX": 0.181999996,
+          "rot": 0.910000026,
+          "power": 45,
+          "tor": 0
+        },
+        {
+          "posX": -0.135499999,
+          "rot": 0.150000006,
+          "power": 45,
+          "tor": -1
+        },
+        {
+          "posX": 0.135499999,
+          "rot": -0.150000006,
+          "power": 45,
+          "tor": 1
+        }
+      ]
+    },
+    {
+      "Id": 109,
+      "FightSpiritID": 15021016,
+      "NPCType": 1,
+      "AvgOffest": 0,
+      "OffestSigma": 0.0500000007,
+      "AvgDir": 0,
+      "DirSigma": 0.5,
+      "AvgForce": 80,
+      "ForceSigma": 2,
+      "BallWeight": [
+        {
+          "ballId": 52007071,
+          "p": 0.100000001
+        },
+        {
+          "ballId": 52007072,
+          "p": 0.800000012
+        },
+        {
+          "ballId": 52007073,
+          "p": 0.100000001
+        }
+      ],
+      "RelativeTor": [
+        {
+          "power": -1,
+          "p": 0.200000003
+        },
+        {
+          "power": 0,
+          "p": 0.600000024
+        },
+        {
+          "power": 1,
+          "p": 0.200000003
+        }
+      ],
+      "TechStartArgs": [
+        {
+          "posX": 0,
+          "rot": 0,
+          "power": 80,
+          "tor": 0
+        },
+        {
+          "posX": -0.181999996,
+          "rot": -0.910000026,
+          "power": 80,
+          "tor": 0
+        },
+        {
+          "posX": 0.181999996,
+          "rot": 0.910000026,
+          "power": 80,
+          "tor": 0
+        },
+        {
+          "posX": -0.135499999,
+          "rot": 0.150000006,
+          "power": 80,
+          "tor": -1
+        },
+        {
+          "posX": 0.135499999,
+          "rot": -0.150000006,
+          "power": 80,
+          "tor": 1
+        }
+      ]
+    },
+    {
+      "Id": 110,
+      "FightSpiritID": 15021025,
+      "NPCType": 1,
+      "AvgOffest": 0,
+      "OffestSigma": 0.0500000007,
+      "AvgDir": 0,
+      "DirSigma": 0.5,
+      "AvgForce": 60,
+      "ForceSigma": 3,
+      "BallWeight": [
+        {
+          "ballId": 52007070,
+          "p": 0.200000003
+        },
+        {
+          "ballId": 52007071,
+          "p": 0.600000024
+        },
+        {
+          "ballId": 52007072,
+          "p": 0.200000003
+        }
+      ],
+      "RelativeTor": [
+        {
+          "power": -2,
+          "p": 0.0500000007
+        },
+        {
+          "power": -1,
+          "p": 0.300000012
+        },
+        {
+          "power": 0,
+          "p": 0.300000012
+        },
+        {
+          "power": 1,
+          "p": 0.300000012
+        },
+        {
+          "power": 2,
+          "p": 0.0500000007
+        }
+      ],
+      "TechStartArgs": [
+        {
+          "posX": 0,
+          "rot": 0,
+          "power": 60,
+          "tor": 0
+        },
+        {
+          "posX": -0.181999996,
+          "rot": -0.910000026,
+          "power": 60,
+          "tor": 0
+        },
+        {
+          "posX": 0.181999996,
+          "rot": 0.910000026,
+          "power": 60,
+          "tor": 0
+        },
+        {
+          "posX": -0.135499999,
+          "rot": 0.150000006,
+          "power": 60,
+          "tor": -1
+        },
+        {
+          "posX": 0.135499999,
+          "rot": -0.150000006,
+          "power": 60,
+          "tor": 1
+        }
+      ]
+    },
+    {
+      "Id": 111,
+      "FightSpiritID": 15021022,
+      "NPCType": 1,
+      "AvgOffest": 0,
+      "OffestSigma": 0.200000003,
+      "AvgDir": 0,
+      "DirSigma": 2,
+      "AvgForce": 30,
+      "ForceSigma": 10,
+      "BallWeight": [
+        {
+          "ballId": 52007070,
+          "p": 0.100000001
+        },
+        {
+          "ballId": 52007071,
+          "p": 0.800000012
+        },
+        {
+          "ballId": 52007072,
+          "p": 0.100000001
+        }
+      ],
+      "RelativeTor": [
+        {
+          "power": -2,
+          "p": 0.0500000007
+        },
+        {
+          "power": -1,
+          "p": 0.300000012
+        },
+        {
+          "power": 0,
+          "p": 0.300000012
+        },
+        {
+          "power": 1,
+          "p": 0.300000012
+        },
+        {
+          "power": 2,
+          "p": 0.0500000007
+        }
+      ],
+      "TechStartArgs": [
+        {
+          "posX": 0,
+          "rot": 0,
+          "power": 30,
+          "tor": 0
+        },
+        {
+          "posX": -0.181999996,
+          "rot": -0.910000026,
+          "power": 30,
+          "tor": 0
+        },
+        {
+          "posX": 0.181999996,
+          "rot": 0.910000026,
+          "power": 30,
+          "tor": 0
+        },
+        {
+          "posX": -0.135499999,
+          "rot": 0.150000006,
+          "power": 30,
+          "tor": -1
+        },
+        {
+          "posX": 0.135499999,
+          "rot": -0.150000006,
+          "power": 30,
+          "tor": 1
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 12,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

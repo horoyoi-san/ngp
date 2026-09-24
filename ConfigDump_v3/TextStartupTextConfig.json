@@ -1,0 +1,850 @@
+{
+  "_class": "TextStartupTextConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 120,
+  "records": [
+    {
+      "Id": 1,
+      "Text": "Error",
+      "FieldName": "TITLE_ERROR",
+      "__IDX__Text": 122172,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 2,
+      "Text": "Confirm",
+      "FieldName": "BTN_OK",
+      "__IDX__Text": 122202,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 3,
+      "Text": "Cancel",
+      "FieldName": "BTN_CANCEL",
+      "__IDX__Text": 122213,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 4,
+      "Text": "Repair",
+      "FieldName": "BTN_REPAIR",
+      "__IDX__Text": 122224,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 5,
+      "Text": "Exit",
+      "FieldName": "BTN_QUIT",
+      "__IDX__Text": 122235,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 6,
+      "Text": "Retry",
+      "FieldName": "BTN_RETRY",
+      "__IDX__Text": 122246,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 7,
+      "Text": "Confirm",
+      "FieldName": "BTN_REDIRECT",
+      "__IDX__Text": 122257,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 8,
+      "Text": "Continue Download",
+      "FieldName": "BTN_CONTINUE",
+      "__IDX__Text": 122268,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 9,
+      "Text": "Initializing…",
+      "FieldName": "STAGE_INITIALIZING",
+      "__IDX__Text": 122279,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 10,
+      "Text": "Updating resources. Verification progress: {0}%…",
+      "FieldName": "STAGE_RES_UPDATING",
+      "__IDX__Text": 122173,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 11,
+      "Text": "Applying updates: {0}%…",
+      "FieldName": "STAGE_RES_APPLYING",
+      "__IDX__Text": 122184,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 12,
+      "Text": "Checking for resource updates…",
+      "FieldName": "STAGE_RES_CHECK_UPDATE",
+      "__IDX__Text": 122194,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 13,
+      "Text": "Updating videos…",
+      "FieldName": "STAGE_VIDEO_UPDATING",
+      "__IDX__Text": 122195,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 14,
+      "Text": "Updating device configuration files…",
+      "FieldName": "STAGE_DEVICECONFIGURE_UPDATING",
+      "__IDX__Text": 122196,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 15,
+      "Text": "Updating engine files…",
+      "FieldName": "STAGE_SO_RES_UPDATING",
+      "__IDX__Text": 122197,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 16,
+      "Text": "Loading game, please wait…",
+      "FieldName": "STAGE_CHECK_VERSION",
+      "__IDX__Text": 122198,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 17,
+      "Text": "Verification completed. Launching game.",
+      "FieldName": "STAGE_FINISHED",
+      "__IDX__Text": 122199,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 18,
+      "Text": "Repairing the client…",
+      "FieldName": "STAGE_REPAIR_CLIENT",
+      "__IDX__Text": 122200,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 19,
+      "Text": "Syncing resources…",
+      "FieldName": "STAGE_SYNC_STREAMINGASSETS",
+      "__IDX__Text": 122201,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 20,
+      "Text": "New Version",
+      "FieldName": "NEW_PKG_VER_TITLE",
+      "__IDX__Text": 122203,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 21,
+      "Text": "This test has ended. We look forward to seeing you next time! For more updates, follow us on our official social media channels.",
+      "FieldName": "NEW_PKG_VER_CONTENT",
+      "__IDX__Text": 122204,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 22,
+      "Text": "A new version is available. The following files need to be downloaded: <color=#00000000>0</color><color=#C27746>{0}</color><color=#00000000>0</color>. Download update now on the current network?",
+      "FieldName": "NEW_RES_VER_CONTENT",
+      "__IDX__Text": 122205,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 23,
+      "Text": "A new version is available. The following files need to be downloaded: <color=#00000000>0</color><color=#C27746>{0}</color><color=#00000000>0</color>. You are not on Wi‑Fi. Download update using mobile data?",
+      "FieldName": "NEW_RES_VER_CONTENT_CARRIER",
+      "__IDX__Text": 122206,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 24,
+      "Text": "Insufficient storage space on the device to run game normally. Requires {0} to download, {1} available. Please clear storage and try again.",
+      "FieldName": "INSUFFICIENT_DISK_SPACE_SIZE",
+      "__IDX__Text": 122207,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 25,
+      "Text": "Insufficient storage space on the device to install pre-downloaded resources. Please clear storage and restart the game.",
+      "FieldName": "INSUFFICIENT_DISK_SPACE_FOR_PRE_DOWNLOAD",
+      "__IDX__Text": 122208,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 26,
+      "Text": "File read/write failed. Try restarting the game. Should the problem persist, check the available storage space on the device.",
+      "FieldName": "INSUFFICIENT_DISK_SPACE",
+      "__IDX__Text": 122209,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 27,
+      "Text": "New package version: {0} Current version: {1}\n",
+      "FieldName": "MSG_NEW_PKG_VER",
+      "__IDX__Text": 122210,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 28,
+      "Text": "New resource version: {0} Current resource version: {1}\n",
+      "FieldName": "MSG_NEW_RES_VER",
+      "__IDX__Text": 122211,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 29,
+      "Text": "New Resource Update",
+      "FieldName": "NEW_RES_VER_TITLE",
+      "__IDX__Text": 122212,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 30,
+      "Text": "Repair Client",
+      "FieldName": "REPAIR_CLIENT_TITLE",
+      "__IDX__Text": 122214,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 31,
+      "Text": "When exceptions such as missing server list or patches cause login failure, try repairing the client. \n This operation will clear local patches and additionally downloaded resources, then re-download them. Be sure to perform this operation with a stable network, then restart the game manually.",
+      "FieldName": "REPAIR_CLIENT_CONTENT",
+      "__IDX__Text": 122215,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 32,
+      "Text": "Resource files are being downloaded. Do not close game.",
+      "FieldName": "DOWNLOAD_NOTICE",
+      "__IDX__Text": 122216,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 33,
+      "Text": "(Connecting to Wi-Fi is recommended. Click Cancel to exit.)",
+      "FieldName": "DOWNLOAD_WIFI_NOTICE",
+      "__IDX__Text": 122217,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 34,
+      "Text": "(It is recommended to update using Wi-Fi)",
+      "FieldName": "DOWNLOAD_WIFI_NOTICE_PKG",
+      "__IDX__Text": 122218,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 35,
+      "Text": "{0:F}M",
+      "FieldName": "DOWNLOAD_SIZE_M",
+      "__IDX__Text": 122219,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 36,
+      "Text": "{0}K",
+      "FieldName": "DOWNLOAD_SIZE_K",
+      "__IDX__Text": 122220,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 37,
+      "Text": "{0:F1}G",
+      "FieldName": "DOWNLOAD_SIZE_G",
+      "__IDX__Text": 122221,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 38,
+      "Text": "{0:F}M/s",
+      "FieldName": "DOWNLOAD_SPEED_M",
+      "__IDX__Text": 122222,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 39,
+      "Text": "{0}K/s",
+      "FieldName": "DOWNLOAD_SPEED_K",
+      "__IDX__Text": 122223,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 40,
+      "Text": "Checking for updates…",
+      "FieldName": "CHECK_UPDATE",
+      "__IDX__Text": 122225,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 41,
+      "Text": "Clearing unused resource files, please wait {0}%",
+      "FieldName": "REMOVE_UNUSED_FILES",
+      "__IDX__Text": 122226,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 42,
+      "Text": "Switching resource configuration, please wait {0}%",
+      "FieldName": "SWITCH_DLCTYPE_FILES",
+      "__IDX__Text": 122227,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 43,
+      "Text": "Deleting obsolete configuration resources, please wait {0}%",
+      "FieldName": "DELETE_DLCTYPE_FILES",
+      "__IDX__Text": 122228,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 44,
+      "Text": "Verifying client files, please wait. This process does not consume data {0}%.",
+      "FieldName": "REPAIR_CLIENT_CHECK",
+      "__IDX__Text": 122229,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 45,
+      "Text": "Verifying pre-downloaded patch files, please wait. This process does not consume data {0}%.",
+      "FieldName": "PROCESS_NEXT_PATCH",
+      "__IDX__Text": 122230,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 46,
+      "Text": "Configuration file initialization failed, Error Code: {0:000}{1:000}. Try restarting the game or checking device storage. Should the problem persist, try repairing the client. Click [Repair] to exit the game, then re-enter to auto-run repair. If repair fails, [Uninstall and Reinstall].",
+      "FieldName": "INIT_ERROR",
+      "__IDX__Text": 122231,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 47,
+      "Text": "Configuration content is corrupted, Error Code: {0:000}{1:000}. Try restarting the game or checking device storage. Should the problem persist, try repairing the client. Click [Repair] to exit the game, then re-enter to auto-run repair. If repair fails, [Uninstall and Reinstall].",
+      "FieldName": "UPDATE_CONTENT_CONTENT_ERROR",
+      "__IDX__Text": 122232,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 48,
+      "Text": "Failed to obtain configuration information. Check network and try again.",
+      "FieldName": "UPDATE_LOST_CONNECTION",
+      "__IDX__Text": 122233,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 49,
+      "Text": "Failed to obtain patch information. Check network and try again.",
+      "FieldName": "PATCH_LIST_DOWNLOAD_ERROR",
+      "__IDX__Text": 122234,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 50,
+      "Text": "Patch file download failed. Check network and try again.",
+      "FieldName": "PATCH_DOWNLOAD_ERROR",
+      "__IDX__Text": 122236,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 51,
+      "Text": "Network Exception",
+      "FieldName": "NETWORK_EXCEPTION_TITLE",
+      "__IDX__Text": 122237,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 52,
+      "Text": "Unable to connect to the server. Check network and try again.",
+      "FieldName": "NETWORK_UNREACHABLE",
+      "__IDX__Text": 122238,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 53,
+      "Text": "Attempting to reconnect…",
+      "FieldName": "NETWORK_RETRY_WAIT",
+      "__IDX__Text": 122239,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 54,
+      "Text": "Attempting to re-download…",
+      "FieldName": "DOWNLOAD_RETRY_WAIT",
+      "__IDX__Text": 122240,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 55,
+      "Text": "Failed to obtain the installation package download link. Please manually download from the official website or app store.",
+      "FieldName": "PACKAGE_DOWNLOAD_CONFIG_ERROR",
+      "__IDX__Text": 122241,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 56,
+      "Text": "Verifying pre-downloaded patch files, please wait. This process does not consume data {0}%.",
+      "FieldName": "PROCESS_PRE_PATCH",
+      "__IDX__Text": 122242,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 57,
+      "Text": "Clearing local patch files, please wait. This process does not consume data {0}%.",
+      "FieldName": "BACKUP_PATCH_RES",
+      "__IDX__Text": 122243,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 58,
+      "Text": "Copying in-package files, please wait. This process does not consume data {0}%.",
+      "FieldName": "SYNCSTREAMINASSETS",
+      "__IDX__Text": 122244,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 59,
+      "Text": "Verifying local patch files, please wait. This process does not consume data {0}%.",
+      "FieldName": "PROCESS_OLD_PATCH",
+      "__IDX__Text": 122245,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 60,
+      "Text": "Obtaining resources from cloud gaming, please wait. This process does not consume data {0}%.",
+      "FieldName": "PROCESS_COPY_FROM_CLOUD",
+      "__IDX__Text": 122247,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 61,
+      "Text": "Parsing cloud gaming resources, please wait. This process does not consume data {0}%.",
+      "FieldName": "PROCESS_DOWNLOAD_FROM_CLOUD",
+      "__IDX__Text": 122248,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 62,
+      "Text": "Initializing game",
+      "FieldName": "GAME_INIT",
+      "__IDX__Text": 122249,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 63,
+      "Text": "Initializing pre-download resource list",
+      "FieldName": "PROCESS_PREPATCH",
+      "__IDX__Text": 122250,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 64,
+      "Text": "Backup resource error. File is occupied. Please exit and try again.",
+      "FieldName": "BACKUP_RES_ERROR",
+      "__IDX__Text": 122251,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 65,
+      "Text": "Delete resource error. File is occupied. Please exit and try again.",
+      "FieldName": "DELETE_RES_ERROR",
+      "__IDX__Text": 122252,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 66,
+      "Text": "Unknown error occurred during file sync, Error Code: {0:000}{1:000}. Try restarting the game or checking device storage. Should the problem persist, try repairing the client. Click [Repair] to exit the game, then re-enter to auto-run repair. If repair fails, [Uninstall and Reinstall].",
+      "FieldName": "SYNC_RES_ERROR",
+      "__IDX__Text": 122253,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 67,
+      "Text": "Unknown error occurred during engine verification, Error Code: {0:000}{1:000}. Try restarting the game or checking device storage. Should the problem persist, try repairing the client. Click [Repair] to exit the game, then re-enter to auto-run repair. If repair fails, [Uninstall and Reinstall].",
+      "FieldName": "BINARY_RES_ERROR",
+      "__IDX__Text": 122254,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 68,
+      "Text": "Unknown error occurred with application engine files. Exit the game and try again or run the repair process. Click [Repair] to exit the game, then re-enter to auto-run repair. If repair fails, [Uninstall and Reinstall].",
+      "FieldName": "BINARY_DELETE_RES_ERROR",
+      "__IDX__Text": 122255,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 69,
+      "Text": "Unknown error occurred during update, Error Code: {0:000}{1:000}. Check network or device storage space. Should the problem persist, try repairing the client. Click [Repair] to exit the game, then re-enter to auto-run repair. Repair may take a long time. If repair fails, [Uninstall and Reinstall].",
+      "FieldName": "NOT_UNKOWN_ERROR",
+      "__IDX__Text": 122256,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 70,
+      "Text": "{0}/{1}",
+      "FieldName": "DOWNLOADSIZE",
+      "__IDX__Text": 122258,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 71,
+      "Text": "Resource Version: {0}",
+      "FieldName": "APPRESVERSION",
+      "__IDX__Text": 122259,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 72,
+      "Text": "Engine Version: {0}@{1}",
+      "FieldName": "GAMEVERSION",
+      "__IDX__Text": 122260,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 73,
+      "Text": "Restart Now",
+      "FieldName": "BINARY_UPDATE_COMPLETE_CONFIRM_TEXT",
+      "__IDX__Text": 122261,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 74,
+      "Text": "Engine version has been updated. Please restart the game.",
+      "FieldName": "BINARY_UPDATE_COMPLETE_CONTENT_TEXT",
+      "__IDX__Text": 122262,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 75,
+      "Text": "Retry Now",
+      "FieldName": "PKG_UPDATE_COMPLETE_CONFIRM_TEXT",
+      "__IDX__Text": 122263,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 76,
+      "Text": "Failed to obtain version information. Check network and try again.",
+      "FieldName": "PKG_UPDATE_COMPLETE_CONTENT_TEXT",
+      "__IDX__Text": 122264,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 77,
+      "Text": "Verifying engine patch files, please wait. This process does not consume data {0}%.",
+      "FieldName": "BINARY_PATCH_CHECK",
+      "__IDX__Text": 122265,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 78,
+      "Text": "Applying engine patch files, please wait…",
+      "FieldName": "BINARY_PATCH_DELETE",
+      "__IDX__Text": 122266,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 79,
+      "Text": "Resource preloading {0}% (Resource download will proceed simultaneously in Wi-Fi environment, download speed: {1}, {2})",
+      "FieldName": "SHADER_WARMUP",
+      "__IDX__Text": 122267,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 80,
+      "Text": "Compiling shader {0}%",
+      "FieldName": "SHADER_WARMUP_UnDownLoad",
+      "__IDX__Text": 122269,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 81,
+      "Text": "Switch resource configuration error, Error Code: {0:000}{1:000}. Try restarting the game or checking device storage. Should the problem persist, try repairing the client. Click [Repair] to exit the game, then re-enter to auto-run repair. If repair fails, [Uninstall and Reinstall].",
+      "FieldName": "SWITCH_DLCTYPE_ERROR",
+      "__IDX__Text": 122270,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 82,
+      "Text": "Delete resource configuration error, Error Code: {0:000}{1:000}. Try restarting the game or checking device storage. Should the problem persist, try repairing the client. Click [Repair] to exit the game, then re-enter to auto-run repair. If repair fails, [Uninstall and Reinstall].",
+      "FieldName": "DELETE_DLCTYPE_ERROR",
+      "__IDX__Text": 122271,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 83,
+      "Text": "Resources need to be updated. Please close other outdated clients.",
+      "FieldName": "UPDATE_CLOSE_OLD_CLIENT",
+      "__IDX__Text": 122272,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 84,
+      "Text": "Recommended Package",
+      "FieldName": "RES_RECOMMEND",
+      "__IDX__Text": 122273,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 85,
+      "Text": "HD Package",
+      "FieldName": "RES_HIGH_TYPE",
+      "__IDX__Text": 122274,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 86,
+      "Text": "Lightweight Package",
+      "FieldName": "RES_LOW_TYPE",
+      "__IDX__Text": 122275,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 87,
+      "Text": "Full download for HD graphics",
+      "FieldName": "RES_HIGH_DESCRIPTION",
+      "__IDX__Text": 122276,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 88,
+      "Text": "Saves space and runs smoother, but with reduced graphics quality",
+      "FieldName": "RES_LOW_DESCRIPTION",
+      "__IDX__Text": 122277,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 89,
+      "Text": "HD or Lightweight resources affect the game graphics. To adjust, change the resource package in [Settings] after download is complete.",
+      "FieldName": "RES_DESCRIPTIONS",
+      "__IDX__Text": 122278,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 90,
+      "Text": "Version is outdated. Please install the new version. If already installed, check if installation failed.",
+      "FieldName": "NOT_FIND_VERSION",
+      "__IDX__Text": 122280,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 91,
+      "Text": "You will receive update rewards after the update is complete",
+      "FieldName": "REWARD_TEXT",
+      "__IDX__Text": 122281,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 92,
+      "Text": "Failed to obtain device list. Check network and try again.",
+      "FieldName": "GETCONFIGURE_LOST_CONNECTION",
+      "__IDX__Text": 122282,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 93,
+      "Text": "Based on your phone’s performance, we recommend downloading the lightweight package for the optimal gaming experience. It will help [reduce phone overheating] and greatly [save phone storage space].",
+      "FieldName": "LOWDEVICE_DOWNLOAD_HIGH",
+      "__IDX__Text": 122283,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 94,
+      "Text": "Loading announcements…",
+      "FieldName": "ANNOUCEMENTLOADING",
+      "__IDX__Text": 122284,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 95,
+      "Text": "Failed to load announcements",
+      "FieldName": "ANNOUCEMENTLOADFAILED",
+      "__IDX__Text": 122285,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 96,
+      "Text": "Scanning QR code requires camera permission. Request camera permission?",
+      "FieldName": "SCAN_REQUEST_PERMISSION",
+      "__IDX__Text": 122286,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 97,
+      "Text": "Scanning QR code requires camera permission. Go to settings to configure camera permission?",
+      "FieldName": "SCAN_APPSETTING",
+      "__IDX__Text": 122287,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 98,
+      "Text": "No storage permission on the current device. Go to settings to enable storage permission and restart the game.",
+      "FieldName": "NO_PERMISSION",
+      "__IDX__Text": 122288,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 99,
+      "Text": "Xunlei P2P Download",
+      "FieldName": "P2P_DOWNLOAD",
+      "__IDX__Text": 122289,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 100,
+      "Text": "Normal Download",
+      "FieldName": "COMMON_DNOWLOAD",
+      "__IDX__Text": 122174,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 101,
+      "Text": "Your current download route is <color=#F0C777>Xunlei P2P Download</color>. Switch to <color=#F0C777>Normal Download</color>?",
+      "FieldName": "P2P_CHANGE",
+      "__IDX__Text": 122175,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 102,
+      "Text": "Your current download route is <color=#F0C777>Normal Download</color>. Switch to <color=#F0C777>Xunlei P2P Download</color>?",
+      "FieldName": "COMMON_CHANGE",
+      "__IDX__Text": 122176,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 103,
+      "Text": "Version changed. Please uninstall and reinstall.",
+      "FieldName": "FORMAT_CHNAGE",
+      "__IDX__Text": 122177,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 104,
+      "Text": "{0} Month",
+      "FieldName": "MONTH",
+      "__IDX__Text": 122178,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 105,
+      "Text": "Cleaning up files… {0}%",
+      "FieldName": "PATCHVFSCREATEPROCESS",
+      "__IDX__Text": 122179,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 106,
+      "Text": "Downloading VFS resources…",
+      "FieldName": "PATCH_VFS_DOWNLOAD_PROCESS",
+      "__IDX__Text": 122180,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 107,
+      "Text": "Ignore",
+      "FieldName": "BTN_IGNORGE",
+      "__IDX__Text": 122181,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 108,
+      "Text": "Your system version is out of date. Please update and try again.",
+      "FieldName": "MSG_OS_VERSION_LOW",
+      "__IDX__Text": 122182,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 109,
+      "Text": "This device does not meet the requirements for this test. Please check the email for requirement details.",
+      "FieldName": "MSG_LOW_RAM",
+      "__IDX__Text": 122183,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 110,
+      "Text": "This device does not meet the requirements for this test. Please check the email for requirement details.",
+      "FieldName": "MSG_LOW_GRAPHICS_MEMORY",
+      "__IDX__Text": 122185,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 111,
+      "Text": "This device does not meet the requirements for this test. Please check the email for requirement details.",
+      "FieldName": "MSG_LOW_GRAPHICS_API_VERSION",
+      "__IDX__Text": 122186,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 112,
+      "Text": "Your graphics driver isn’t supported. Please update to the latest driver and try again.",
+      "FieldName": "MSG_UNSUPPORTED_GRAPHICS_DRIVER",
+      "__IDX__Text": 122187,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 113,
+      "Text": "This device does not meet the requirements for this test. Please check the email for requirement details.",
+      "FieldName": "MSG_BANNED_GPU",
+      "__IDX__Text": 122188,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 114,
+      "Text": "This device does not meet the requirements for this test. Please check the email for requirement details.",
+      "FieldName": "MSG_BANNED_CPU",
+      "__IDX__Text": 122189,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 115,
+      "Text": "This device does not meet the requirements for this test. Please check the email for requirement details.",
+      "FieldName": "MSG_UNSUPPORTED_DEVICE",
+      "__IDX__Text": 122190,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 116,
+      "Text": "This test has ended. We look forward to seeing you next time! For more updates, follow us on our official social media channels.",
+      "FieldName": "NEW_PKG_VER_CONTEN_PC",
+      "__IDX__Text": 122191,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 117,
+      "Text": "This test has ended. We look forward to seeing you next time! For more updates, follow us on our official social media channels.",
+      "FieldName": "NEW_PKG_VER_CONTEN_AD",
+      "__IDX__Text": 122192,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 118,
+      "Text": "Loading…",
+      "FieldName": "STAGE_GAME_LOAD",
+      "__IDX__Text": 122193,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 119,
+      "Text": "Connecting to resources: {0}%",
+      "FieldName": "STAGE_PARALLEL_LINK",
+      "__IDX__Text": 160510,
+      "__RAW__Text": ""
+    },
+    {
+      "Id": 120,
+      "Text": "Loading shader cache: {0}%",
+      "FieldName": "STAGE_PARALLEL_WARMUP",
+      "__IDX__Text": 160511,
+      "__RAW__Text": ""
+    }
+  ],
+  "_dumpedCount": 120,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

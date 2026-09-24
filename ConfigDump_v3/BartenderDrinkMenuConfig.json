@@ -1,0 +1,534 @@
+{
+  "_class": "BartenderDrinkMenuConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 7,
+  "records": [
+    {
+      "Id": 87005301,
+      "DrinkMenuName": "Old Fashioned",
+      "MenuStep": [
+        90001,
+        90002,
+        90003,
+        90004
+      ],
+      "MenuImage": 28000013,
+      "DrinkMenuDescription": "老式鸡尾酒是19世纪80年代由肯塔基州一家绅士俱乐部的酒保创造的官方鸡尾酒，是一种经典的鸡尾酒。",
+      "NeedActive": true,
+      "MaxProgress": 1,
+      "IsShow": true,
+      "Checklist": [
+        0,
+        3
+      ],
+      "CoinRewardDropid": 14580403,
+      "ExpRewardDropid": 14580405,
+      "BasePrice": 10,
+      "JobId": 901,
+      "__IDX__DrinkMenuName": 4294967293,
+      "__RAW__DrinkMenuName": "Old Fashioned",
+      "__IDX__DrinkMenuDescription": 4294967293,
+      "__RAW__DrinkMenuDescription": "老式鸡尾酒是19世纪80年代由肯塔基州一家绅士俱乐部的酒保创造的官方鸡尾酒，是一种经典的鸡尾酒。",
+      "DrinkOzList": [
+        {
+          "ElementsID": 87005200,
+          "ElementsOz": 2
+        },
+        {
+          "ElementsID": 87005203,
+          "ElementsOz": 0.5
+        },
+        {
+          "ElementsID": 87005224,
+          "ElementsOz": 0.200000003
+        }
+      ],
+      "TimeScoreTiers": [
+        {
+          "maxtime": 60,
+          "score": 100
+        },
+        {
+          "maxtime": 180,
+          "score": 80
+        },
+        {
+          "maxtime": 240,
+          "score": 50
+        },
+        {
+          "maxtime": 360,
+          "score": 10
+        }
+      ],
+      "Order_Clear": [
+        {
+          "personality": 1,
+          "dialogID": 100038942
+        },
+        {
+          "personality": 5,
+          "dialogID": 100038942
+        },
+        {
+          "personality": 6,
+          "dialogID": 100038942
+        },
+        {
+          "personality": 2,
+          "dialogID": 100038946
+        },
+        {
+          "personality": 3,
+          "dialogID": 100038946
+        },
+        {
+          "personality": 4,
+          "dialogID": 100041791
+        }
+      ]
+    },
+    {
+      "Id": 87005302,
+      "DrinkMenuName": "Manhattan",
+      "MenuStep": [
+        90006,
+        90007,
+        90008,
+        90009,
+        90010
+      ],
+      "MenuImage": 28000012,
+      "DrinkMenuDescription": "曼哈顿鸡尾酒是伊恩·马歇尔于19实际70年代初在纽约一家俱乐部为了纪念塞缪尔·J·蒂尔登的宴会上调制的正式鸡尾酒，",
+      "NeedActive": true,
+      "MaxProgress": 1,
+      "IsShow": true,
+      "Checklist": [
+        0,
+        1,
+        3
+      ],
+      "CoinRewardDropid": 14580404,
+      "ExpRewardDropid": 14580406,
+      "BasePrice": 38,
+      "JobId": 901,
+      "__IDX__DrinkMenuName": 4294967293,
+      "__RAW__DrinkMenuName": "Manhattan",
+      "__IDX__DrinkMenuDescription": 4294967293,
+      "__RAW__DrinkMenuDescription": "曼哈顿鸡尾酒是伊恩·马歇尔于19实际70年代初在纽约一家俱乐部为了纪念塞缪尔·J·蒂尔登的宴会上调制的正式鸡尾酒，",
+      "DrinkOzList": [],
+      "TimeScoreTiers": [
+        {
+          "maxtime": 60,
+          "score": 100
+        },
+        {
+          "maxtime": 180,
+          "score": 80
+        },
+        {
+          "maxtime": 240,
+          "score": 50
+        },
+        {
+          "maxtime": 360,
+          "score": 10
+        }
+      ],
+      "Order_Clear": [
+        {
+          "personality": 1,
+          "dialogID": 100042319
+        },
+        {
+          "personality": 5,
+          "dialogID": 100042319
+        },
+        {
+          "personality": 6,
+          "dialogID": 100042319
+        },
+        {
+          "personality": 2,
+          "dialogID": 100042318
+        },
+        {
+          "personality": 3,
+          "dialogID": 100042318
+        },
+        {
+          "personality": 4,
+          "dialogID": 100042320
+        }
+      ]
+    },
+    {
+      "Id": 87005303,
+      "DrinkMenuName": "Gin Fizz",
+      "MenuStep": [
+        90012,
+        90013,
+        90014,
+        90015
+      ],
+      "MenuImage": 28000011,
+      "DrinkMenuDescription": "作为一种流行的官方鸡尾酒，Gin Fizz有很多种变化。",
+      "NeedActive": true,
+      "MaxProgress": 1,
+      "IsShow": true,
+      "Checklist": [
+        0,
+        1,
+        3
+      ],
+      "CoinRewardDropid": 0,
+      "ExpRewardDropid": 0,
+      "BasePrice": 19,
+      "JobId": 901,
+      "__IDX__DrinkMenuName": 4294967293,
+      "__RAW__DrinkMenuName": "Gin Fizz",
+      "__IDX__DrinkMenuDescription": 4294967293,
+      "__RAW__DrinkMenuDescription": "作为一种流行的官方鸡尾酒，Gin Fizz有很多种变化。",
+      "DrinkOzList": [],
+      "TimeScoreTiers": [
+        {
+          "maxtime": 60,
+          "score": 100
+        },
+        {
+          "maxtime": 180,
+          "score": 80
+        },
+        {
+          "maxtime": 240,
+          "score": 50
+        },
+        {
+          "maxtime": 360,
+          "score": 10
+        }
+      ],
+      "Order_Clear": [
+        {
+          "personality": 1,
+          "dialogID": 100042321
+        },
+        {
+          "personality": 5,
+          "dialogID": 100042321
+        },
+        {
+          "personality": 6,
+          "dialogID": 100042321
+        },
+        {
+          "personality": 2,
+          "dialogID": 100042322
+        },
+        {
+          "personality": 3,
+          "dialogID": 100042322
+        },
+        {
+          "personality": 4,
+          "dialogID": 100042323
+        }
+      ]
+    },
+    {
+      "Id": 87005304,
+      "DrinkMenuName": "Old Fashioned不加冰版",
+      "MenuStep": [
+        90002,
+        90003,
+        90004
+      ],
+      "MenuImage": 28000013,
+      "DrinkMenuDescription": "老式鸡尾酒是19世纪80年代由肯塔基州一家绅士俱乐部的酒保创造的官方鸡尾酒，是一种经典的鸡尾酒。",
+      "NeedActive": true,
+      "MaxProgress": 1,
+      "IsShow": false,
+      "Checklist": [
+        0,
+        2,
+        3
+      ],
+      "CoinRewardDropid": 0,
+      "ExpRewardDropid": 0,
+      "BasePrice": 10,
+      "JobId": 901,
+      "__IDX__DrinkMenuName": 4294967293,
+      "__RAW__DrinkMenuName": "Old Fashioned不加冰版",
+      "__IDX__DrinkMenuDescription": 4294967293,
+      "__RAW__DrinkMenuDescription": "老式鸡尾酒是19世纪80年代由肯塔基州一家绅士俱乐部的酒保创造的官方鸡尾酒，是一种经典的鸡尾酒。",
+      "DrinkOzList": [],
+      "TimeScoreTiers": [
+        {
+          "maxtime": 60,
+          "score": 100
+        },
+        {
+          "maxtime": 180,
+          "score": 80
+        },
+        {
+          "maxtime": 240,
+          "score": 50
+        },
+        {
+          "maxtime": 360,
+          "score": 10
+        }
+      ],
+      "Order_Clear": [
+        {
+          "personality": 1,
+          "dialogID": 100038942
+        },
+        {
+          "personality": 5,
+          "dialogID": 100038942
+        },
+        {
+          "personality": 6,
+          "dialogID": 100038942
+        },
+        {
+          "personality": 2,
+          "dialogID": 100038946
+        },
+        {
+          "personality": 3,
+          "dialogID": 100038946
+        },
+        {
+          "personality": 4,
+          "dialogID": 100041791
+        }
+      ]
+    },
+    {
+      "Id": 87005305,
+      "DrinkMenuName": "Daiquiri",
+      "MenuStep": [
+        90018,
+        90019,
+        90020,
+        90021,
+        90022
+      ],
+      "MenuImage": 28000013,
+      "DrinkMenuDescription": "代基里（Daiquiri）是一款广受欢迎的官方鸡尾酒，据传于1900年左右由美国矿业工程师在圣地亚哥的一家就把发明。",
+      "NeedActive": true,
+      "MaxProgress": 1,
+      "IsShow": true,
+      "Checklist": [
+        0,
+        1,
+        3
+      ],
+      "CoinRewardDropid": 0,
+      "ExpRewardDropid": 0,
+      "BasePrice": 38,
+      "JobId": 901,
+      "__IDX__DrinkMenuName": 4294967293,
+      "__RAW__DrinkMenuName": "Daiquiri",
+      "__IDX__DrinkMenuDescription": 4294967293,
+      "__RAW__DrinkMenuDescription": "代基里（Daiquiri）是一款广受欢迎的官方鸡尾酒，据传于1900年左右由美国矿业工程师在圣地亚哥的一家就把发明。",
+      "DrinkOzList": [],
+      "TimeScoreTiers": [
+        {
+          "maxtime": 60,
+          "score": 100
+        },
+        {
+          "maxtime": 180,
+          "score": 80
+        },
+        {
+          "maxtime": 240,
+          "score": 50
+        },
+        {
+          "maxtime": 360,
+          "score": 10
+        }
+      ],
+      "Order_Clear": [
+        {
+          "personality": 1,
+          "dialogID": 100042986
+        },
+        {
+          "personality": 5,
+          "dialogID": 100042986
+        },
+        {
+          "personality": 6,
+          "dialogID": 100042986
+        },
+        {
+          "personality": 2,
+          "dialogID": 100042987
+        },
+        {
+          "personality": 3,
+          "dialogID": 100042987
+        },
+        {
+          "personality": 4,
+          "dialogID": 100042988
+        }
+      ]
+    },
+    {
+      "Id": 87005306,
+      "DrinkMenuName": "Margarita",
+      "MenuStep": [
+        90026,
+        90027,
+        90028,
+        90029
+      ],
+      "MenuImage": 28000013,
+      "DrinkMenuDescription": "作为美国最受欢迎的龙舌兰鸡尾酒，它是一种经典的鸡尾酒，在禁酒令期间，人们越过墨西哥-美国边境购买酒精，这种鸡尾酒开始流行。",
+      "NeedActive": true,
+      "MaxProgress": 1,
+      "IsShow": true,
+      "Checklist": [
+        0,
+        3
+      ],
+      "CoinRewardDropid": 0,
+      "ExpRewardDropid": 0,
+      "BasePrice": 10,
+      "JobId": 901,
+      "__IDX__DrinkMenuName": 4294967293,
+      "__RAW__DrinkMenuName": "Margarita",
+      "__IDX__DrinkMenuDescription": 4294967293,
+      "__RAW__DrinkMenuDescription": "作为美国最受欢迎的龙舌兰鸡尾酒，它是一种经典的鸡尾酒，在禁酒令期间，人们越过墨西哥-美国边境购买酒精，这种鸡尾酒开始流行。",
+      "DrinkOzList": [],
+      "TimeScoreTiers": [
+        {
+          "maxtime": 60,
+          "score": 100
+        },
+        {
+          "maxtime": 180,
+          "score": 80
+        },
+        {
+          "maxtime": 240,
+          "score": 50
+        },
+        {
+          "maxtime": 360,
+          "score": 10
+        }
+      ],
+      "Order_Clear": [
+        {
+          "personality": 1,
+          "dialogID": 100042989
+        },
+        {
+          "personality": 5,
+          "dialogID": 100042989
+        },
+        {
+          "personality": 6,
+          "dialogID": 100042989
+        },
+        {
+          "personality": 2,
+          "dialogID": 100042990
+        },
+        {
+          "personality": 3,
+          "dialogID": 100042990
+        },
+        {
+          "personality": 4,
+          "dialogID": 100042991
+        }
+      ]
+    },
+    {
+      "Id": 87005307,
+      "DrinkMenuName": "Gimlet",
+      "MenuStep": [
+        90031,
+        90032,
+        90033,
+        90034,
+        90035
+      ],
+      "MenuImage": 28000013,
+      "DrinkMenuDescription": "一种经典的杜松子酒鸡尾酒，历史悠久，变化多样，是一种受欢迎的清爽鸡尾酒，通常归类为酸类金酒。",
+      "NeedActive": true,
+      "MaxProgress": 1,
+      "IsShow": true,
+      "Checklist": [
+        0,
+        1,
+        3
+      ],
+      "CoinRewardDropid": 0,
+      "ExpRewardDropid": 0,
+      "BasePrice": 38,
+      "JobId": 901,
+      "__IDX__DrinkMenuName": 4294967293,
+      "__RAW__DrinkMenuName": "Gimlet",
+      "__IDX__DrinkMenuDescription": 4294967293,
+      "__RAW__DrinkMenuDescription": "一种经典的杜松子酒鸡尾酒，历史悠久，变化多样，是一种受欢迎的清爽鸡尾酒，通常归类为酸类金酒。",
+      "DrinkOzList": [],
+      "TimeScoreTiers": [
+        {
+          "maxtime": 60,
+          "score": 100
+        },
+        {
+          "maxtime": 180,
+          "score": 80
+        },
+        {
+          "maxtime": 240,
+          "score": 50
+        },
+        {
+          "maxtime": 360,
+          "score": 10
+        }
+      ],
+      "Order_Clear": [
+        {
+          "personality": 1,
+          "dialogID": 100042995
+        },
+        {
+          "personality": 5,
+          "dialogID": 100042995
+        },
+        {
+          "personality": 6,
+          "dialogID": 100042995
+        },
+        {
+          "personality": 2,
+          "dialogID": 100042996
+        },
+        {
+          "personality": 3,
+          "dialogID": 100042996
+        },
+        {
+          "personality": 4,
+          "dialogID": 100042997
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 7,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -1,0 +1,717 @@
+{
+  "_class": "TalentTreeConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 18,
+  "records": [
+    {
+      "Id": 99900000,
+      "Name": "Kingpin",
+      "TabIndex": 3,
+      "SystemIdList": [],
+      "Multiverse": [
+        76000888,
+        76001290
+      ],
+      "SpiritId": [
+        15020967,
+        15020968
+      ],
+      "JobClassId": 0,
+      "GameplayId": 0,
+      "IconId": 28009353,
+      "Path": [
+        "Assets/Res/TalentTree/Common.asset"
+      ],
+      "TalentCountNeed": [
+        0
+      ],
+      "Tag": "通用",
+      "TreeType": 0,
+      "GuideId": "",
+      "RedDotId": 13,
+      "ConsumableId": 36001015,
+      "showInGroup": true,
+      "EnableReset": true,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 131327,
+      "__RAW__Name": "",
+      "__IDX__Tag": 149796,
+      "__RAW__Tag": ""
+    },
+    {
+      "Id": 99900004,
+      "Name": "Chaos Summoner",
+      "TabIndex": 0,
+      "SystemIdList": [],
+      "Multiverse": [
+        76000888,
+        76001290
+      ],
+      "SpiritId": [],
+      "JobClassId": 11300009,
+      "GameplayId": 0,
+      "IconId": 28000364,
+      "Path": [
+        "Assets/Res/TalentTree/ChaosMaster.asset"
+      ],
+      "TalentCountNeed": [
+        0
+      ],
+      "Tag": "Chaos Summoner",
+      "TreeType": 0,
+      "GuideId": "",
+      "RedDotId": 8,
+      "ConsumableId": 0,
+      "showInGroup": true,
+      "EnableReset": false,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 131328,
+      "__RAW__Name": "",
+      "__IDX__Tag": 131329,
+      "__RAW__Tag": ""
+    },
+    {
+      "Id": 99900005,
+      "Name": "Street Leader",
+      "TabIndex": 4,
+      "SystemIdList": [],
+      "Multiverse": [
+        76000888,
+        76001290
+      ],
+      "SpiritId": [],
+      "JobClassId": 11300015,
+      "GameplayId": 0,
+      "IconId": 28009349,
+      "Path": [
+        "Assets/Res/TalentTree/CampBattle3.asset",
+        "Assets/Res/TalentTree/CampBattle2.asset",
+        "Assets/Res/TalentTree/CampBattle.asset"
+      ],
+      "TalentCountNeed": [
+        0,
+        6,
+        15
+      ],
+      "Tag": "Street Leader",
+      "TreeType": 0,
+      "GuideId": "GangTab",
+      "RedDotId": 9,
+      "ConsumableId": 36001003,
+      "showInGroup": true,
+      "EnableReset": true,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 102438,
+      "__RAW__Name": "",
+      "__IDX__Tag": 102439,
+      "__RAW__Tag": ""
+    },
+    {
+      "Id": 99900006,
+      "Name": "NCCA Officer",
+      "TabIndex": 2,
+      "SystemIdList": [
+        30304
+      ],
+      "Multiverse": [
+        76000888,
+        76001290
+      ],
+      "SpiritId": [],
+      "JobClassId": 11300003,
+      "GameplayId": 0,
+      "IconId": 28009348,
+      "Path": [
+        "Assets/Res/TalentTree/police_battle.asset"
+      ],
+      "TalentCountNeed": [
+        0
+      ],
+      "Tag": "NCCA Officer",
+      "TreeType": 0,
+      "GuideId": "PoliceTab",
+      "RedDotId": 10,
+      "ConsumableId": 36001000,
+      "showInGroup": true,
+      "EnableReset": false,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 98886,
+      "__RAW__Name": "",
+      "__IDX__Tag": 98887,
+      "__RAW__Tag": ""
+    },
+    {
+      "Id": 99900009,
+      "Name": "Truck Driver",
+      "TabIndex": 1,
+      "SystemIdList": [],
+      "Multiverse": [
+        76000888,
+        76001290
+      ],
+      "SpiritId": [],
+      "JobClassId": 11300005,
+      "GameplayId": 0,
+      "IconId": 28009351,
+      "Path": [
+        "Assets/Res/TalentTree/HuoChe.asset"
+      ],
+      "TalentCountNeed": [
+        0
+      ],
+      "Tag": "Truck Driver",
+      "TreeType": 0,
+      "GuideId": "UberTab",
+      "RedDotId": 11,
+      "ConsumableId": 36001001,
+      "showInGroup": true,
+      "EnableReset": false,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 102440,
+      "__RAW__Name": "",
+      "__IDX__Tag": 102441,
+      "__RAW__Tag": ""
+    },
+    {
+      "Id": 99900010,
+      "Name": "Hacker",
+      "TabIndex": 6,
+      "SystemIdList": [],
+      "Multiverse": [
+        76000888,
+        76001290
+      ],
+      "SpiritId": [],
+      "JobClassId": 11300004,
+      "GameplayId": 0,
+      "IconId": 28009350,
+      "Path": [
+        "Assets/Res/TalentTree/Talent_Hacker.asset"
+      ],
+      "TalentCountNeed": [
+        0
+      ],
+      "Tag": "Hacker",
+      "TreeType": 0,
+      "GuideId": "HackerTab",
+      "RedDotId": 12,
+      "ConsumableId": 36001002,
+      "showInGroup": true,
+      "EnableReset": false,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 102442,
+      "__RAW__Name": "",
+      "__IDX__Tag": 102443,
+      "__RAW__Tag": ""
+    },
+    {
+      "Id": 99900012,
+      "Name": "Inventor",
+      "TabIndex": 5,
+      "SystemIdList": [],
+      "Multiverse": [
+        76000888,
+        76001290
+      ],
+      "SpiritId": [],
+      "JobClassId": 11300011,
+      "GameplayId": 0,
+      "IconId": 28009351,
+      "Path": [
+        "Assets/Res/TalentTree/sciencenew.asset"
+      ],
+      "TalentCountNeed": [
+        0
+      ],
+      "Tag": "Inventor",
+      "TreeType": 0,
+      "GuideId": "",
+      "RedDotId": 14,
+      "ConsumableId": 36001008,
+      "showInGroup": true,
+      "EnableReset": false,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 102444,
+      "__RAW__Name": "",
+      "__IDX__Tag": 102445,
+      "__RAW__Tag": ""
+    },
+    {
+      "Id": 99900013,
+      "Name": "Loot Hunter",
+      "TabIndex": 7,
+      "SystemIdList": [
+        352
+      ],
+      "Multiverse": [
+        76000000
+      ],
+      "SpiritId": [],
+      "JobClassId": 0,
+      "GameplayId": 1,
+      "IconId": 28009351,
+      "Path": [
+        "Assets/Res/TalentTree/Robber.asset"
+      ],
+      "TalentCountNeed": [
+        0
+      ],
+      "Tag": "Loot Hunter",
+      "TreeType": 0,
+      "GuideId": "",
+      "RedDotId": 73,
+      "ConsumableId": 36001008,
+      "showInGroup": true,
+      "EnableReset": false,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 143962,
+      "__RAW__Name": "",
+      "__IDX__Tag": 148852,
+      "__RAW__Tag": ""
+    },
+    {
+      "Id": 99900014,
+      "Name": "不要抬头！",
+      "TabIndex": 8,
+      "SystemIdList": [
+        351
+      ],
+      "Multiverse": [
+        76000000
+      ],
+      "SpiritId": [],
+      "JobClassId": 11300018,
+      "GameplayId": 2,
+      "IconId": 28009351,
+      "Path": [
+        "Assets/Res/TalentTree/Extraction.asset"
+      ],
+      "TalentCountNeed": [
+        0
+      ],
+      "Tag": "不要抬头！",
+      "TreeType": 0,
+      "GuideId": "",
+      "RedDotId": 74,
+      "ConsumableId": 36001008,
+      "showInGroup": true,
+      "EnableReset": false,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 145771,
+      "__RAW__Name": "",
+      "__IDX__Tag": 148853,
+      "__RAW__Tag": ""
+    },
+    {
+      "Id": 99900015,
+      "Name": "Racing",
+      "TabIndex": 9,
+      "SystemIdList": [
+        350
+      ],
+      "Multiverse": [
+        76000000
+      ],
+      "SpiritId": [],
+      "JobClassId": 0,
+      "GameplayId": 3,
+      "IconId": 28009351,
+      "Path": [
+        "Assets/Res/TalentTree/placeholder1.asset"
+      ],
+      "TalentCountNeed": [
+        0
+      ],
+      "Tag": "Racing",
+      "TreeType": 0,
+      "GuideId": "",
+      "RedDotId": 75,
+      "ConsumableId": 36890036,
+      "showInGroup": true,
+      "EnableReset": false,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 140116,
+      "__RAW__Name": "",
+      "__IDX__Tag": 140117,
+      "__RAW__Tag": ""
+    },
+    {
+      "Id": 99900016,
+      "Name": "Basketball",
+      "TabIndex": 7,
+      "SystemIdList": [
+        349
+      ],
+      "Multiverse": [
+        76000000
+      ],
+      "SpiritId": [],
+      "JobClassId": 0,
+      "GameplayId": 4,
+      "IconId": 28009351,
+      "Path": [
+        "Assets/Res/TalentTree/placeholder2.asset"
+      ],
+      "TalentCountNeed": [
+        0
+      ],
+      "Tag": "篮球",
+      "TreeType": 0,
+      "GuideId": "",
+      "RedDotId": 76,
+      "ConsumableId": 36890035,
+      "showInGroup": true,
+      "EnableReset": false,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 142547,
+      "__RAW__Name": "",
+      "__IDX__Tag": 171306,
+      "__RAW__Tag": ""
+    },
+    {
+      "Id": 99900020,
+      "Name": "倒观天",
+      "TabIndex": 10,
+      "SystemIdList": [],
+      "Multiverse": [
+        76000888,
+        76001290
+      ],
+      "SpiritId": [],
+      "JobClassId": 0,
+      "GameplayId": 5,
+      "IconId": 28009351,
+      "Path": [
+        "Assets/Res/TalentTree/Rogue.asset"
+      ],
+      "TalentCountNeed": [
+        0
+      ],
+      "Tag": "倒观天",
+      "TreeType": 0,
+      "GuideId": "",
+      "RedDotId": 78,
+      "ConsumableId": 36001016,
+      "showInGroup": false,
+      "EnableReset": false,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "倒观天",
+      "__IDX__Tag": 4294967293,
+      "__RAW__Tag": "倒观天"
+    },
+    {
+      "Id": 99900021,
+      "Name": ";",
+      "TabIndex": 3,
+      "SystemIdList": [],
+      "Multiverse": [
+        76000888,
+        76001290
+      ],
+      "SpiritId": [
+        15020989
+      ],
+      "JobClassId": 0,
+      "GameplayId": 0,
+      "IconId": 28009353,
+      "Path": [
+        "Assets/Res/TalentTree/Common_jiamu.asset"
+      ],
+      "TalentCountNeed": [
+        0
+      ],
+      "Tag": "通用",
+      "TreeType": 0,
+      "GuideId": "",
+      "RedDotId": 13,
+      "ConsumableId": 36001015,
+      "showInGroup": true,
+      "EnableReset": true,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "{refer,TalentTreeTalent,Name,99900000,1};",
+      "__IDX__Tag": 4294967293,
+      "__RAW__Tag": "通用"
+    },
+    {
+      "Id": 99900022,
+      "Name": ";",
+      "TabIndex": 3,
+      "SystemIdList": [],
+      "Multiverse": [
+        76000888,
+        76001290
+      ],
+      "SpiritId": [
+        15020992
+      ],
+      "JobClassId": 0,
+      "GameplayId": 0,
+      "IconId": 28009353,
+      "Path": [
+        "Assets/Res/TalentTree/Common_tafei.asset"
+      ],
+      "TalentCountNeed": [
+        0
+      ],
+      "Tag": "通用",
+      "TreeType": 0,
+      "GuideId": "",
+      "RedDotId": 13,
+      "ConsumableId": 36001015,
+      "showInGroup": true,
+      "EnableReset": true,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "{refer,TalentTreeTalent,Name,99900000,1};",
+      "__IDX__Tag": 4294967293,
+      "__RAW__Tag": "通用"
+    },
+    {
+      "Id": 99900023,
+      "Name": ";",
+      "TabIndex": 3,
+      "SystemIdList": [],
+      "Multiverse": [
+        76000888,
+        76001290
+      ],
+      "SpiritId": [
+        15021017
+      ],
+      "JobClassId": 0,
+      "GameplayId": 0,
+      "IconId": 28009353,
+      "Path": [
+        "Assets/Res/TalentTree/Common.asset"
+      ],
+      "TalentCountNeed": [
+        0
+      ],
+      "Tag": "通用",
+      "TreeType": 0,
+      "GuideId": "",
+      "RedDotId": 13,
+      "ConsumableId": 36001015,
+      "showInGroup": true,
+      "EnableReset": true,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "{refer,TalentTreeTalent,Name,99900000,1};",
+      "__IDX__Tag": 4294967293,
+      "__RAW__Tag": "通用"
+    },
+    {
+      "Id": 99900024,
+      "Name": ";",
+      "TabIndex": 3,
+      "SystemIdList": [],
+      "Multiverse": [
+        76000888,
+        76001290
+      ],
+      "SpiritId": [
+        15021021
+      ],
+      "JobClassId": 0,
+      "GameplayId": 0,
+      "IconId": 28009353,
+      "Path": [
+        "Assets/Res/TalentTree/Common_lixi.asset"
+      ],
+      "TalentCountNeed": [
+        0
+      ],
+      "Tag": "通用",
+      "TreeType": 0,
+      "GuideId": "",
+      "RedDotId": 13,
+      "ConsumableId": 36001015,
+      "showInGroup": true,
+      "EnableReset": true,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "{refer,TalentTreeTalent,Name,99900000,1};",
+      "__IDX__Tag": 4294967293,
+      "__RAW__Tag": "通用"
+    },
+    {
+      "Id": 99900025,
+      "Name": ";",
+      "TabIndex": 3,
+      "SystemIdList": [],
+      "Multiverse": [
+        76000888,
+        76001290
+      ],
+      "SpiritId": [
+        15021023
+      ],
+      "JobClassId": 0,
+      "GameplayId": 0,
+      "IconId": 28009353,
+      "Path": [
+        "Assets/Res/TalentTree/Common.asset"
+      ],
+      "TalentCountNeed": [
+        0
+      ],
+      "Tag": "通用",
+      "TreeType": 0,
+      "GuideId": "",
+      "RedDotId": 13,
+      "ConsumableId": 36001015,
+      "showInGroup": true,
+      "EnableReset": true,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "{refer,TalentTreeTalent,Name,99900000,1};",
+      "__IDX__Tag": 4294967293,
+      "__RAW__Tag": "通用"
+    },
+    {
+      "Id": 99900026,
+      "Name": ";",
+      "TabIndex": 3,
+      "SystemIdList": [],
+      "Multiverse": [
+        76000888,
+        76001290
+      ],
+      "SpiritId": [
+        15021045
+      ],
+      "JobClassId": 0,
+      "GameplayId": 0,
+      "IconId": 28009353,
+      "Path": [
+        "Assets/Res/TalentTree/Common.asset"
+      ],
+      "TalentCountNeed": [
+        0
+      ],
+      "Tag": "通用",
+      "TreeType": 0,
+      "GuideId": "",
+      "RedDotId": 13,
+      "ConsumableId": 36001015,
+      "showInGroup": true,
+      "EnableReset": true,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "{refer,TalentTreeTalent,Name,99900000,1};",
+      "__IDX__Tag": 4294967293,
+      "__RAW__Tag": "通用"
+    }
+  ],
+  "_dumpedCount": 18,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

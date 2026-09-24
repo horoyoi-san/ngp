@@ -1,0 +1,607 @@
+{
+  "InPlayerCameraCfg": {
+    "Id": 300001,
+    "TriggerStims": [
+      200101
+    ]
+  },
+  "ReactionToGreetingsCfg": {
+    "Id": 300002,
+    "TriggerStims": [
+      200040
+    ]
+  },
+  "InPlayerBackCameraCfg": {
+    "Id": 300003,
+    "TriggerStims": [
+      200132
+    ]
+  },
+  "AimedByMindPowerCfg": {
+    "Id": 300100,
+    "TriggerStims": [
+      200102,
+      200504
+    ]
+  },
+  "MagnetMindPowerCfg": {
+    "Id": 300101,
+    "TriggerStims": [
+      200109
+    ]
+  },
+  "AimedByShootLongTimeCfg": {
+    "Id": 300102,
+    "TriggerStims": [
+      200135
+    ]
+  },
+  "AimedByMindPowerLongTimeCfg": {
+    "Id": 300103,
+    "TriggerStims": [
+      200134
+    ]
+  },
+  "PlayerLandingCfg": {
+    "Id": 300200,
+    "TriggerStims": [
+      200103,
+      200104
+    ]
+  },
+  "PlayerSwingCfg": {
+    "Id": 300201,
+    "TriggerStims": [
+      200105
+    ]
+  },
+  "PlayerFeisuoCfg": {
+    "Id": 300202,
+    "TriggerStims": [
+      200106
+    ]
+  },
+  "PlayerSwingFallCfg": {
+    "Id": 300203,
+    "TriggerStims": [
+      200114
+    ]
+  },
+  "PlayerRushCollisionCfg": {
+    "Id": 300204,
+    "TriggerStims": [
+      200031,
+      200035,
+      200037
+    ]
+  },
+  "PlayerRunCollisionCfg": {
+    "Id": 300205,
+    "TriggerStims": [
+      200033,
+      200036,
+      200038
+    ]
+  },
+  "PlayerWalkCollisionCfg": {
+    "Id": 300206,
+    "TriggerStims": [
+      200034
+    ]
+  },
+  "AvoidPlayerRunCollisionCfg": {
+    "Id": 300207,
+    "TriggerStims": [
+      200117
+    ]
+  },
+  "NoViewAvoidPlayerRunCollisionCfg": {
+    "Id": 300208,
+    "TriggerStims": [
+      200118
+    ]
+  },
+  "AvoidPlayerRushCollisionCfg": {
+    "Id": 300209,
+    "TriggerStims": [
+      200119
+    ]
+  },
+  "NoViewAvoidPlayerRushCollisionCfg": {
+    "Id": 300210,
+    "TriggerStims": [
+      200120
+    ]
+  },
+  "MotorRunCollisionCfg": {
+    "Id": 300211,
+    "TriggerStims": [
+      200031
+    ]
+  },
+  "BotDogRunCollisionCfg": {
+    "Id": 300212,
+    "TriggerStims": [
+      200032
+    ]
+  },
+  "BotDogRushCollisionCfg": {
+    "Id": 300213,
+    "TriggerStims": [
+      200039
+    ]
+  },
+  "RemoteSkillAttackCfg": {
+    "Id": 300302,
+    "TriggerStims": [
+      200302,
+      200503,
+      200304
+    ]
+  },
+  "LightAttackFrightenCfg": {
+    "Id": 300304,
+    "TriggerStims": [
+      200124,
+      200122,
+      200123,
+      200502
+    ]
+  },
+  "LightAttackHitCfg": {
+    "Id": 300305,
+    "TriggerStims": [
+      200303,
+      201100
+    ]
+  },
+  "HeavyAttackFrightenCfg": {
+    "Id": 300306,
+    "TriggerStims": [
+      200113,
+      200107,
+      200108,
+      200502
+    ]
+  },
+  "HeavyAttackHitCfg": {
+    "Id": 300307,
+    "TriggerStims": [
+      200301,
+      201100
+    ]
+  },
+  "LightAttackFritenScaredLevel2Cfg": {
+    "Id": 300309,
+    "TriggerStims": [
+      200126,
+      200127,
+      200502
+    ]
+  },
+  "HeavyAttackFritenScaredLevel2Cfg": {
+    "Id": 300310,
+    "TriggerStims": [
+      200128,
+      200129,
+      200502
+    ]
+  },
+  "GunShootFrightenCfg": {
+    "Id": 300311,
+    "TriggerStims": [
+      200401
+    ]
+  },
+  "ExplosionFrightenCfg": {
+    "Id": 300312,
+    "TriggerStims": [
+      200402
+    ]
+  },
+  "WaterGunFrightenCfg": {
+    "Id": 300313,
+    "TriggerStims": [
+      200403
+    ]
+  },
+  "MultiAttackCfg": {
+    "Id": 300314,
+    "TriggerStims": [
+      200404
+    ]
+  },
+  "PlayerDrivingForward1Cfg": {
+    "Id": 300400,
+    "TriggerStims": [
+      200115
+    ]
+  },
+  "PlayerDrivingForward2Cfg": {
+    "Id": 300401,
+    "TriggerStims": [
+      200116
+    ]
+  },
+  "VehicleHitCfg": {
+    "Id": 300402,
+    "TriggerStims": [
+      200701
+    ]
+  },
+  "PlayerDrivingSideCfg": {
+    "Id": 300403,
+    "TriggerStims": [
+      200130
+    ]
+  },
+  "PlayerDrivingSlowCfg": {
+    "Id": 300404,
+    "TriggerStims": [
+      200131
+    ]
+  },
+  "cleanerAvoidCfg": {
+    "Id": 300405,
+    "TriggerStims": [
+      200133
+    ]
+  },
+  "AimedByPlayerShootCfg": {
+    "Id": 300500,
+    "TriggerStims": [
+      200505,
+      200125
+    ]
+  },
+  "VehicleAttackedCfg": {
+    "Id": 300501,
+    "TriggerStims": [
+      200501,
+      200202,
+      201100
+    ]
+  },
+  "AgentOnVehicleCfg": {
+    "Id": 300506,
+    "TriggerStims": [
+      200506
+    ]
+  },
+  "AgentInFrontOfVehicleCfg": {
+    "Id": 300507,
+    "TriggerStims": [
+      200507
+    ]
+  },
+  "VehicleCollisionCfg": {
+    "Id": 300508,
+    "TriggerStims": [
+      200508,
+      200202,
+      201100
+    ]
+  },
+  "VehicleCollisionLightCfg": {
+    "Id": 300509,
+    "TriggerStims": [
+      200509
+    ]
+  },
+  "VehicleCollisionNormalCfg": {
+    "Id": 300510,
+    "TriggerStims": [
+      200510,
+      201100
+    ]
+  },
+  "VehicleCollisionHeavyCfg": {
+    "Id": 300511,
+    "TriggerStims": [
+      200511,
+      201100
+    ]
+  },
+  "VehicleShakeLightCfg": {
+    "Id": 300512,
+    "TriggerStims": [
+      200702
+    ]
+  },
+  "VehicleShakeNormalCfg": {
+    "Id": 300513,
+    "TriggerStims": [
+      200703
+    ]
+  },
+  "VehicleShakeHeavyCfg": {
+    "Id": 300514,
+    "TriggerStims": [
+      200704
+    ]
+  },
+  "VehicleCrazyDrivingCfg": {
+    "Id": 300515,
+    "TriggerStims": [
+      201000
+    ]
+  },
+  "VehiclePoliceLightOnCfg": {
+    "Id": 300516,
+    "TriggerStims": [
+      201126
+    ]
+  },
+  "VehicleMultiCollisionScareCfg": {
+    "Id": 300517,
+    "TriggerStims": [
+      200705
+    ]
+  },
+  "FallDownFormHighSpeedCarCfg": {
+    "Id": 300518,
+    "TriggerStims": [
+      201126
+    ]
+  },
+  "VehicleMultiScareCfg": {
+    "Id": 300519,
+    "TriggerStims": [
+      200512
+    ]
+  },
+  "PlayerJumpDownVehicleCfg": {
+    "Id": 300520,
+    "TriggerStims": [
+      200513
+    ]
+  },
+  "AudienceCheerCfg": {
+    "Id": 300601,
+    "TriggerStims": [
+      200601
+    ]
+  },
+  "AvoidLightRailCfg": {
+    "Id": 300602,
+    "TriggerStims": [
+      200602
+    ]
+  },
+  "CollideWithDestructibleCfg": {
+    "Id": 300801,
+    "TriggerStims": [
+      200033
+    ]
+  },
+  "ObjectExplosionCfg": {
+    "Id": 300810,
+    "TriggerStims": [
+      200901
+    ]
+  },
+  "ObjectAttractionCfg": {
+    "Id": 300811,
+    "TriggerStims": [
+      200902
+    ]
+  },
+  "PhoneRingingCfg": {
+    "Id": 300812,
+    "TriggerStims": [
+      200903,
+      200904
+    ]
+  },
+  "PhoneMusicCfg": {
+    "Id": 300813,
+    "TriggerStims": [
+      200905,
+      200906
+    ]
+  },
+  "SceneItemDropCfg": {
+    "Id": 300814,
+    "TriggerStims": [
+      200901
+    ]
+  },
+  "DestructibleBrokenSmallCfg": {
+    "Id": 200907,
+    "TriggerStims": [
+      200907
+    ]
+  },
+  "DestructibleBrokenMediumCfg": {
+    "Id": 200908,
+    "TriggerStims": [
+      200908
+    ]
+  },
+  "DestructibleBrokenLargeCfg": {
+    "Id": 200909,
+    "TriggerStims": [
+      200909
+    ]
+  },
+  "FollowedByPlayerCfg": {
+    "Id": 300901,
+    "TriggerStims": [
+      200801
+    ]
+  },
+  "TracingTargetUnreachCfg": {
+    "Id": 301001,
+    "TriggerStims": []
+  },
+  "HatredPlayerIntoViewCfg": {
+    "Id": 301101,
+    "TriggerStims": [
+      201001
+    ]
+  },
+  "HostilityPlayerIntoViewCfg": {
+    "Id": 301102,
+    "TriggerStims": [
+      201002
+    ]
+  },
+  "IndifferentPlayerIntoViewCfg": {
+    "Id": 301103,
+    "TriggerStims": [
+      201003
+    ]
+  },
+  "FriendlyPlayerIntoViewCfg": {
+    "Id": 301104,
+    "TriggerStims": [
+      201004
+    ]
+  },
+  "WorshipPlayerIntoViewCfg": {
+    "Id": 301105,
+    "TriggerStims": [
+      201005
+    ]
+  },
+  "HatredPolicePlayerIntoViewCfg": {
+    "Id": 301106,
+    "TriggerStims": [
+      201011
+    ]
+  },
+  "HostilityPolicePlayerIntoViewCfg": {
+    "Id": 301107,
+    "TriggerStims": [
+      201012
+    ]
+  },
+  "IndifferentPolicePlayerIntoViewCfg": {
+    "Id": 301108,
+    "TriggerStims": [
+      201013
+    ]
+  },
+  "FriendlyPolicePlayerIntoViewCfg": {
+    "Id": 301109,
+    "TriggerStims": [
+      201014
+    ]
+  },
+  "WorshipPolicePlayerIntoViewCfg": {
+    "Id": 301110,
+    "TriggerStims": [
+      201015
+    ]
+  },
+  "HatredGangPlayerIntoViewCfg": {
+    "Id": 301111,
+    "TriggerStims": [
+      201001
+    ]
+  },
+  "HostilityGangPlayerIntoViewCfg": {
+    "Id": 301112,
+    "TriggerStims": [
+      201002
+    ]
+  },
+  "IndifferentGangPlayerIntoViewCfg": {
+    "Id": 301113,
+    "TriggerStims": [
+      201018,
+      201003
+    ]
+  },
+  "FriendlyGangPlayerIntoViewCfg": {
+    "Id": 301114,
+    "TriggerStims": [
+      201019,
+      201004
+    ]
+  },
+  "WorshipGangPlayerIntoViewCfg": {
+    "Id": 301115,
+    "TriggerStims": [
+      201005
+    ]
+  },
+  "HatredIntoViewCfg": {
+    "Id": 301116,
+    "TriggerStims": [
+      201001
+    ]
+  },
+  "HostilityIntoViewCfg": {
+    "Id": 301117,
+    "TriggerStims": [
+      201002
+    ]
+  },
+  "IndifferentIntoViewCfg": {
+    "Id": 301118,
+    "TriggerStims": [
+      201003
+    ]
+  },
+  "FriendlyIntoViewCfg": {
+    "Id": 301119,
+    "TriggerStims": [
+      201004
+    ]
+  },
+  "WorshipIntoViewCfg": {
+    "Id": 301120,
+    "TriggerStims": [
+      201005
+    ]
+  },
+  "PoliceIntoViewCfg": {
+    "Id": 301121,
+    "TriggerStims": [
+      201021
+    ]
+  },
+  "GangIntoViewCfg": {
+    "Id": 301122,
+    "TriggerStims": [
+      201022
+    ]
+  },
+  "CommonPeopleIntoViewCfg": {
+    "Id": 301123,
+    "TriggerStims": [
+      201023
+    ]
+  },
+  "GazePlayerToAngryCfg": {
+    "Id": 301124,
+    "TriggerStims": [
+      201124
+    ]
+  },
+  "FastRunningIntoViewCfg": {
+    "Id": 301126,
+    "TriggerStims": [
+      201401
+    ]
+  },
+  "StealAgentMoneyEtcCfg": {
+    "Id": 301401,
+    "TriggerStims": [
+      200910
+    ]
+  },
+  "PlayHackerTetrisCfg": {
+    "Id": 301402,
+    "TriggerStims": [
+      201000
+    ]
+  },
+  "PlayerListenInNPCsCfg": {
+    "Id": 301403,
+    "TriggerStims": [
+      201000
+    ]
+  }
+}

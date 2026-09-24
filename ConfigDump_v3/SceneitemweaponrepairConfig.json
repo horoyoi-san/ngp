@@ -1,0 +1,93 @@
+{
+  "_class": "SceneitemweaponrepairConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 4,
+  "records": [
+    {
+      "Id": 1,
+      "ConsumableID": 36211000,
+      "name": "砂纸",
+      "Durability": [
+        0.300000012,
+        0.200000003
+      ],
+      "weapontype": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        18,
+        0
+      ],
+      "limit": 2
+    },
+    {
+      "Id": 2,
+      "ConsumableID": 36211001,
+      "name": "磨刀石",
+      "Durability": [
+        0.5,
+        0.400000006,
+        0.300000012
+      ],
+      "weapontype": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        18,
+        0
+      ],
+      "limit": 3
+    },
+    {
+      "Id": 3,
+      "ConsumableID": 36211002,
+      "name": "防锈油",
+      "Durability": [
+        0.699999988,
+        0.600000024,
+        0.5,
+        0.400000006
+      ],
+      "weapontype": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        18,
+        0
+      ],
+      "limit": 4
+    },
+    {
+      "Id": 4,
+      "ConsumableID": 36211003,
+      "name": "万能修补剂",
+      "Durability": [
+        1,
+        0.899999976,
+        0.800000012,
+        0.699999988,
+        0.600000024,
+        0.5
+      ],
+      "weapontype": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        18,
+        0
+      ],
+      "limit": 6
+    }
+  ],
+  "_dumpedCount": 4,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

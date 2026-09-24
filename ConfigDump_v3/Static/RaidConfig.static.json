@@ -1,0 +1,1233 @@
+{
+  "WorldMapCfg": {
+    "Id": 23300888,
+    "Name": "Nova City",
+    "ShowEnterSceneHint": true,
+    "RaidType": 1,
+    "SceneId": 20001222,
+    "CountryId": 1,
+    "EnvironmentSound": 70801000,
+    "BgmSound": 70390197,
+    "SoundStatePriority": 0,
+    "Explain": 0,
+    "RaidLevelNew": 3,
+    "CloseRaidDelayTime": 10,
+    "EndUIDelayShowTime": 1,
+    "CameraParameter": 99000390,
+    "CameraFarClip": 3000,
+    "AutoHideRange": 100,
+    "Description": "",
+    "hideUITime": 0,
+    "MapEntranceId": 0,
+    "FeisuoAngleXZ": 0,
+    "AetherAI": true,
+    "VehicleAoiRange": 5,
+    "ZoneGraphDataSceneId": 0,
+    "AetherDefaultId": 88888000,
+    "StaticVehicleDefaultId": 88888000,
+    "LightRailLineIds": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "RemoveDelay": 1,
+    "ZebraConnectorSceneId": 0,
+    "TrafficLightDataSceneId": 0,
+    "IsFallProtection": false,
+    "StartVersion": "V0.9.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1,
+      2
+    ],
+    "IsOrcaEnabled": true,
+    "RelatedBundles": [
+      2
+    ],
+    "EnableOnline": true,
+    "Multiverse": 76000888,
+    "ParentRaidId": 0,
+    "BigMapType": 1,
+    "BoundaryName": "XinQiAirWall",
+    "AnchorCoord": [
+      1923.93994,
+      0,
+      2278.88989
+    ],
+    "RaidReviveChances": -1,
+    "TargetsSaveOrNot": false,
+    "__IDX__Name": 38994,
+    "__RAW__Name": "",
+    "AetherSpecialSceneFile": {
+      "AsBase": false,
+      "FileName": "",
+      "IsTest": false
+    },
+    "SoundStateList": [
+      {
+        "groupName": "StateGroup_Music_RaidTag",
+        "value": "State_Raid_Xinqi"
+      }
+    ],
+    "FeiSuoMaxChooseAndLeaveDis": {
+      "FeiSuoMaxChooseDis": 40,
+      "FeiSuoMaxLeaveDis": 50,
+      "PointFeiSuoMaxChooseDis": 45,
+      "PointFeiSuoMaxLeaveDis": 55
+    },
+    "EnterTimeline": {
+      "TimelineName": "",
+      "TimelinePlace": ""
+    },
+    "ExitTimeline": {
+      "TimelineName": "",
+      "TimelinePlace": ""
+    },
+    "AetherRaidBounds": {
+      "minX": 100,
+      "minZ": 100,
+      "maxX": 5200,
+      "maxZ": 2950
+    },
+    "RaidGroundMap": [],
+    "DropsFromTarget": []
+  },
+  "ChongxiaoCfg": {
+    "Id": 23300999,
+    "Name": "凌云",
+    "ShowEnterSceneHint": true,
+    "RaidType": 1,
+    "SceneId": 20001223,
+    "CountryId": 2,
+    "EnvironmentSound": 70810000,
+    "BgmSound": 70390197,
+    "SoundStatePriority": 0,
+    "Explain": 0,
+    "RaidLevelNew": 3,
+    "CloseRaidDelayTime": 10,
+    "EndUIDelayShowTime": 1,
+    "CameraParameter": 99000390,
+    "CameraFarClip": 3000,
+    "AutoHideRange": 100,
+    "Description": "",
+    "hideUITime": 0,
+    "MapEntranceId": 0,
+    "FeisuoAngleXZ": 0,
+    "AetherAI": true,
+    "VehicleAoiRange": 5,
+    "ZoneGraphDataSceneId": 0,
+    "AetherDefaultId": 88898000,
+    "StaticVehicleDefaultId": 88898000,
+    "LightRailLineIds": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "RemoveDelay": 1,
+    "ZebraConnectorSceneId": 0,
+    "TrafficLightDataSceneId": 0,
+    "IsFallProtection": false,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1
+    ],
+    "IsOrcaEnabled": true,
+    "RelatedBundles": [
+      3
+    ],
+    "EnableOnline": true,
+    "Multiverse": 76000888,
+    "ParentRaidId": 0,
+    "BigMapType": 1,
+    "BoundaryName": "",
+    "AnchorCoord": [],
+    "RaidReviveChances": -1,
+    "TargetsSaveOrNot": false,
+    "__IDX__Name": 4294967295,
+    "__RAW__Name": "凌云",
+    "AetherSpecialSceneFile": {
+      "AsBase": false,
+      "FileName": "",
+      "IsTest": false
+    },
+    "SoundStateList": [
+      {
+        "groupName": "StateGroup_Music_RaidTag",
+        "value": "State_Raid_Chongxiao"
+      }
+    ],
+    "FeiSuoMaxChooseAndLeaveDis": {
+      "FeiSuoMaxChooseDis": 40,
+      "FeiSuoMaxLeaveDis": 50,
+      "PointFeiSuoMaxChooseDis": 45,
+      "PointFeiSuoMaxLeaveDis": 56
+    },
+    "EnterTimeline": {
+      "TimelineName": "",
+      "TimelinePlace": ""
+    },
+    "ExitTimeline": {
+      "TimelineName": "",
+      "TimelinePlace": ""
+    },
+    "AetherRaidBounds": {
+      "minX": -4232,
+      "minZ": -2106,
+      "maxX": 5200,
+      "maxZ": 2950
+    },
+    "RaidGroundMap": [],
+    "DropsFromTarget": []
+  },
+  "TrainCfg": {
+    "Id": 23301083,
+    "Name": "1214战斗验证演示场景",
+    "ShowEnterSceneHint": true,
+    "RaidType": 10,
+    "SceneId": 20001192,
+    "CountryId": 0,
+    "EnvironmentSound": 70801000,
+    "BgmSound": 70390197,
+    "SoundStatePriority": 0,
+    "Explain": 0,
+    "RaidLevelNew": 3,
+    "CloseRaidDelayTime": 90,
+    "EndUIDelayShowTime": 1,
+    "CameraParameter": 99000408,
+    "CameraFarClip": 1500,
+    "AutoHideRange": 100,
+    "Description": "",
+    "hideUITime": 0,
+    "MapEntranceId": 0,
+    "FeisuoAngleXZ": 0,
+    "AetherAI": false,
+    "VehicleAoiRange": 5,
+    "ZoneGraphDataSceneId": 0,
+    "AetherDefaultId": 0,
+    "StaticVehicleDefaultId": 0,
+    "LightRailLineIds": [],
+    "RemoveDelay": 1,
+    "ZebraConnectorSceneId": 0,
+    "TrafficLightDataSceneId": 0,
+    "IsFallProtection": true,
+    "StartVersion": "V0.10.0",
+    "EndVersion": "",
+    "TagList": [
+      0
+    ],
+    "IsOrcaEnabled": false,
+    "RelatedBundles": [
+      2
+    ],
+    "EnableOnline": true,
+    "Multiverse": 76000888,
+    "ParentRaidId": 0,
+    "BigMapType": 0,
+    "BoundaryName": "",
+    "AnchorCoord": [],
+    "RaidReviveChances": -1,
+    "TargetsSaveOrNot": false,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "1214战斗验证演示场景",
+    "AetherSpecialSceneFile": {
+      "AsBase": false,
+      "FileName": "",
+      "IsTest": false
+    },
+    "SoundStateList": [],
+    "FeiSuoMaxChooseAndLeaveDis": {
+      "FeiSuoMaxChooseDis": 30,
+      "FeiSuoMaxLeaveDis": 40,
+      "PointFeiSuoMaxChooseDis": 30,
+      "PointFeiSuoMaxLeaveDis": 40
+    },
+    "EnterTimeline": {
+      "TimelineName": "",
+      "TimelinePlace": ""
+    },
+    "ExitTimeline": {
+      "TimelineName": "",
+      "TimelinePlace": ""
+    },
+    "AetherRaidBounds": {
+      "minX": 0,
+      "minZ": 0,
+      "maxX": 0,
+      "maxZ": 0
+    },
+    "RaidGroundMap": [],
+    "DropsFromTarget": []
+  },
+  "XinShouIndoorCfg": {
+    "Id": 23301180,
+    "Name": "序章",
+    "ShowEnterSceneHint": false,
+    "RaidType": 14,
+    "SceneId": 20001222,
+    "CountryId": 1,
+    "EnvironmentSound": 70801000,
+    "BgmSound": 15001401,
+    "SoundStatePriority": 0,
+    "Explain": 0,
+    "RaidLevelNew": 3,
+    "CloseRaidDelayTime": 10,
+    "EndUIDelayShowTime": 1,
+    "CameraParameter": 99000390,
+    "CameraFarClip": 3000,
+    "AutoHideRange": 100,
+    "Description": "",
+    "hideUITime": 0,
+    "MapEntranceId": 0,
+    "FeisuoAngleXZ": 60,
+    "AetherAI": true,
+    "VehicleAoiRange": 10,
+    "ZoneGraphDataSceneId": 0,
+    "AetherDefaultId": 88888000,
+    "StaticVehicleDefaultId": 88888000,
+    "LightRailLineIds": [],
+    "RemoveDelay": 1,
+    "ZebraConnectorSceneId": 0,
+    "TrafficLightDataSceneId": 0,
+    "IsFallProtection": false,
+    "StartVersion": "V0.9.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1,
+      2
+    ],
+    "IsOrcaEnabled": false,
+    "RelatedBundles": [
+      2
+    ],
+    "EnableOnline": false,
+    "Multiverse": 76000888,
+    "ParentRaidId": 0,
+    "BigMapType": 0,
+    "BoundaryName": "",
+    "AnchorCoord": [],
+    "RaidReviveChances": -1,
+    "TargetsSaveOrNot": false,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "序章",
+    "AetherSpecialSceneFile": {
+      "AsBase": false,
+      "FileName": "WorldMap_Release_Xinshou",
+      "IsTest": false
+    },
+    "SoundStateList": [],
+    "FeiSuoMaxChooseAndLeaveDis": {
+      "FeiSuoMaxChooseDis": 30,
+      "FeiSuoMaxLeaveDis": 40,
+      "PointFeiSuoMaxChooseDis": 30,
+      "PointFeiSuoMaxLeaveDis": 40
+    },
+    "EnterTimeline": {
+      "TimelineName": "",
+      "TimelinePlace": ""
+    },
+    "ExitTimeline": {
+      "TimelineName": "",
+      "TimelinePlace": ""
+    },
+    "AetherRaidBounds": {
+      "minX": 100,
+      "minZ": 100,
+      "maxX": 5200,
+      "maxZ": 2950
+    },
+    "RaidGroundMap": [],
+    "DropsFromTarget": []
+  },
+  "XinShouDriveSwingCfg": {
+    "Id": 23301192,
+    "Name": "Driving and Swing",
+    "ShowEnterSceneHint": false,
+    "RaidType": 12,
+    "SceneId": 20001222,
+    "CountryId": 1,
+    "EnvironmentSound": 70801000,
+    "BgmSound": 70390197,
+    "SoundStatePriority": 0,
+    "Explain": 0,
+    "RaidLevelNew": 3,
+    "CloseRaidDelayTime": 10,
+    "EndUIDelayShowTime": 1,
+    "CameraParameter": 99000426,
+    "CameraFarClip": 3000,
+    "AutoHideRange": 100,
+    "Description": "",
+    "hideUITime": 0,
+    "MapEntranceId": 0,
+    "FeisuoAngleXZ": 0,
+    "AetherAI": false,
+    "VehicleAoiRange": 5,
+    "ZoneGraphDataSceneId": 0,
+    "AetherDefaultId": 0,
+    "StaticVehicleDefaultId": 0,
+    "LightRailLineIds": [],
+    "RemoveDelay": 1,
+    "ZebraConnectorSceneId": 0,
+    "TrafficLightDataSceneId": 0,
+    "IsFallProtection": false,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0
+    ],
+    "IsOrcaEnabled": false,
+    "RelatedBundles": [
+      2
+    ],
+    "EnableOnline": false,
+    "Multiverse": 76000888,
+    "ParentRaidId": 0,
+    "BigMapType": 0,
+    "BoundaryName": "",
+    "AnchorCoord": [],
+    "RaidReviveChances": -1,
+    "TargetsSaveOrNot": false,
+    "__IDX__Name": 20647,
+    "__RAW__Name": "",
+    "AetherSpecialSceneFile": {
+      "AsBase": false,
+      "FileName": "",
+      "IsTest": false
+    },
+    "SoundStateList": [],
+    "FeiSuoMaxChooseAndLeaveDis": {
+      "FeiSuoMaxChooseDis": 30,
+      "FeiSuoMaxLeaveDis": 40,
+      "PointFeiSuoMaxChooseDis": 30,
+      "PointFeiSuoMaxLeaveDis": 40
+    },
+    "EnterTimeline": {
+      "TimelineName": "",
+      "TimelinePlace": ""
+    },
+    "ExitTimeline": {
+      "TimelineName": "",
+      "TimelinePlace": ""
+    },
+    "AetherRaidBounds": {
+      "minX": 0,
+      "minZ": 0,
+      "maxX": 0,
+      "maxZ": 0
+    },
+    "RaidGroundMap": [],
+    "DropsFromTarget": []
+  },
+  "XinShouFinalTrainCfg": {
+    "Id": 23301193,
+    "Name": "Circling Train",
+    "ShowEnterSceneHint": false,
+    "RaidType": 12,
+    "SceneId": 20001222,
+    "CountryId": 1,
+    "EnvironmentSound": 70801000,
+    "BgmSound": 70390197,
+    "SoundStatePriority": 0,
+    "Explain": 0,
+    "RaidLevelNew": 3,
+    "CloseRaidDelayTime": 10,
+    "EndUIDelayShowTime": 1,
+    "CameraParameter": 99000429,
+    "CameraFarClip": 3000,
+    "AutoHideRange": 100,
+    "Description": "",
+    "hideUITime": 0,
+    "MapEntranceId": 0,
+    "FeisuoAngleXZ": 0,
+    "AetherAI": false,
+    "VehicleAoiRange": 5,
+    "ZoneGraphDataSceneId": 0,
+    "AetherDefaultId": 0,
+    "StaticVehicleDefaultId": 0,
+    "LightRailLineIds": [],
+    "RemoveDelay": 1,
+    "ZebraConnectorSceneId": 0,
+    "TrafficLightDataSceneId": 0,
+    "IsFallProtection": false,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0
+    ],
+    "IsOrcaEnabled": false,
+    "RelatedBundles": [
+      2
+    ],
+    "EnableOnline": false,
+    "Multiverse": 76000888,
+    "ParentRaidId": 0,
+    "BigMapType": 0,
+    "BoundaryName": "",
+    "AnchorCoord": [],
+    "RaidReviveChances": -1,
+    "TargetsSaveOrNot": false,
+    "__IDX__Name": 20648,
+    "__RAW__Name": "",
+    "AetherSpecialSceneFile": {
+      "AsBase": false,
+      "FileName": "",
+      "IsTest": false
+    },
+    "SoundStateList": [],
+    "FeiSuoMaxChooseAndLeaveDis": {
+      "FeiSuoMaxChooseDis": 30,
+      "FeiSuoMaxLeaveDis": 40,
+      "PointFeiSuoMaxChooseDis": 30,
+      "PointFeiSuoMaxLeaveDis": 40
+    },
+    "EnterTimeline": {
+      "TimelineName": "",
+      "TimelinePlace": ""
+    },
+    "ExitTimeline": {
+      "TimelineName": "",
+      "TimelinePlace": ""
+    },
+    "AetherRaidBounds": {
+      "minX": 0,
+      "minZ": 0,
+      "maxX": 0,
+      "maxZ": 0
+    },
+    "RaidGroundMap": [],
+    "DropsFromTarget": []
+  },
+  "SaiJiCfg": {
+    "Id": 23301196,
+    "Name": "赛季玩法初版",
+    "ShowEnterSceneHint": true,
+    "RaidType": 7,
+    "SceneId": 20001256,
+    "CountryId": 0,
+    "EnvironmentSound": 70801000,
+    "BgmSound": 70390197,
+    "SoundStatePriority": 0,
+    "Explain": 0,
+    "RaidLevelNew": 3,
+    "CloseRaidDelayTime": 10,
+    "EndUIDelayShowTime": 1,
+    "CameraParameter": 99000433,
+    "CameraFarClip": 3000,
+    "AutoHideRange": 100,
+    "Description": "",
+    "hideUITime": 0,
+    "MapEntranceId": 0,
+    "FeisuoAngleXZ": 0,
+    "AetherAI": false,
+    "VehicleAoiRange": 5,
+    "ZoneGraphDataSceneId": 0,
+    "AetherDefaultId": 0,
+    "StaticVehicleDefaultId": 0,
+    "LightRailLineIds": [],
+    "RemoveDelay": 1,
+    "ZebraConnectorSceneId": 0,
+    "TrafficLightDataSceneId": 0,
+    "IsFallProtection": true,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0
+    ],
+    "IsOrcaEnabled": false,
+    "RelatedBundles": [
+      2
+    ],
+    "EnableOnline": false,
+    "Multiverse": 76000888,
+    "ParentRaidId": 0,
+    "BigMapType": 0,
+    "BoundaryName": "",
+    "AnchorCoord": [],
+    "RaidReviveChances": -1,
+    "TargetsSaveOrNot": false,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "赛季玩法初版",
+    "AetherSpecialSceneFile": {
+      "AsBase": false,
+      "FileName": "",
+      "IsTest": false
+    },
+    "SoundStateList": [],
+    "FeiSuoMaxChooseAndLeaveDis": {
+      "FeiSuoMaxChooseDis": 30,
+      "FeiSuoMaxLeaveDis": 40,
+      "PointFeiSuoMaxChooseDis": 30,
+      "PointFeiSuoMaxLeaveDis": 40
+    },
+    "EnterTimeline": {
+      "TimelineName": "play_chaosentry_general",
+      "TimelinePlace": "Coordinate_98"
+    },
+    "ExitTimeline": {
+      "TimelineName": "play_chaosexit_general",
+      "TimelinePlace": "Coordinate_98"
+    },
+    "AetherRaidBounds": {
+      "minX": 0,
+      "minZ": 0,
+      "maxX": 0,
+      "maxZ": 0
+    },
+    "RaidGroundMap": [],
+    "DropsFromTarget": []
+  },
+  "RacingShootingCfg": {
+    "Id": 23301205,
+    "Name": "第二场追逐战",
+    "ShowEnterSceneHint": false,
+    "RaidType": 12,
+    "SceneId": 20001222,
+    "CountryId": 1,
+    "EnvironmentSound": 70801000,
+    "BgmSound": 70390197,
+    "SoundStatePriority": 0,
+    "Explain": 0,
+    "RaidLevelNew": 3,
+    "CloseRaidDelayTime": 10,
+    "EndUIDelayShowTime": 1,
+    "CameraParameter": 99000429,
+    "CameraFarClip": 3000,
+    "AutoHideRange": 100,
+    "Description": "",
+    "hideUITime": 0,
+    "MapEntranceId": 0,
+    "FeisuoAngleXZ": 0,
+    "AetherAI": false,
+    "VehicleAoiRange": 5,
+    "ZoneGraphDataSceneId": 0,
+    "AetherDefaultId": 0,
+    "StaticVehicleDefaultId": 0,
+    "LightRailLineIds": [],
+    "RemoveDelay": 1,
+    "ZebraConnectorSceneId": 0,
+    "TrafficLightDataSceneId": 0,
+    "IsFallProtection": false,
+    "StartVersion": "V0.9.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1,
+      2
+    ],
+    "IsOrcaEnabled": false,
+    "RelatedBundles": [
+      2
+    ],
+    "EnableOnline": false,
+    "Multiverse": 76000888,
+    "ParentRaidId": 0,
+    "BigMapType": 0,
+    "BoundaryName": "",
+    "AnchorCoord": [],
+    "RaidReviveChances": -1,
+    "TargetsSaveOrNot": false,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "第二场追逐战",
+    "AetherSpecialSceneFile": {
+      "AsBase": false,
+      "FileName": "",
+      "IsTest": false
+    },
+    "SoundStateList": [],
+    "FeiSuoMaxChooseAndLeaveDis": {
+      "FeiSuoMaxChooseDis": 30,
+      "FeiSuoMaxLeaveDis": 40,
+      "PointFeiSuoMaxChooseDis": 30,
+      "PointFeiSuoMaxLeaveDis": 40
+    },
+    "EnterTimeline": {
+      "TimelineName": "",
+      "TimelinePlace": ""
+    },
+    "ExitTimeline": {
+      "TimelineName": "",
+      "TimelinePlace": ""
+    },
+    "AetherRaidBounds": {
+      "minX": 0,
+      "minZ": 0,
+      "maxX": 0,
+      "maxZ": 0
+    },
+    "RaidGroundMap": [],
+    "DropsFromTarget": []
+  },
+  "ExtractionShooterCfg": {
+    "Id": 23301277,
+    "Name": "末日新启",
+    "ShowEnterSceneHint": true,
+    "RaidType": 19,
+    "SceneId": 20001319,
+    "CountryId": 1,
+    "EnvironmentSound": 70801000,
+    "BgmSound": 15000896,
+    "SoundStatePriority": 0,
+    "Explain": 0,
+    "RaidLevelNew": 3,
+    "CloseRaidDelayTime": 10,
+    "EndUIDelayShowTime": 1,
+    "CameraParameter": 99000421,
+    "CameraFarClip": 1500,
+    "AutoHideRange": 1000,
+    "Description": "",
+    "hideUITime": 0,
+    "MapEntranceId": 0,
+    "FeisuoAngleXZ": 0,
+    "AetherAI": false,
+    "VehicleAoiRange": 5,
+    "ZoneGraphDataSceneId": 0,
+    "AetherDefaultId": 0,
+    "StaticVehicleDefaultId": 0,
+    "LightRailLineIds": [],
+    "RemoveDelay": 1,
+    "ZebraConnectorSceneId": 0,
+    "TrafficLightDataSceneId": 0,
+    "IsFallProtection": false,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1
+    ],
+    "IsOrcaEnabled": false,
+    "RelatedBundles": [
+      2
+    ],
+    "EnableOnline": true,
+    "Multiverse": 76000888,
+    "ParentRaidId": 0,
+    "BigMapType": 2,
+    "BoundaryName": "",
+    "AnchorCoord": [],
+    "RaidReviveChances": -1,
+    "TargetsSaveOrNot": false,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "末日新启",
+    "AetherSpecialSceneFile": {
+      "AsBase": false,
+      "FileName": "",
+      "IsTest": false
+    },
+    "SoundStateList": [],
+    "FeiSuoMaxChooseAndLeaveDis": {
+      "FeiSuoMaxChooseDis": 30,
+      "FeiSuoMaxLeaveDis": 40,
+      "PointFeiSuoMaxChooseDis": 30,
+      "PointFeiSuoMaxLeaveDis": 40
+    },
+    "EnterTimeline": {
+      "TimelineName": "",
+      "TimelinePlace": ""
+    },
+    "ExitTimeline": {
+      "TimelineName": "",
+      "TimelinePlace": ""
+    },
+    "AetherRaidBounds": {
+      "minX": 0,
+      "minZ": 0,
+      "maxX": 0,
+      "maxZ": 0
+    },
+    "RaidGroundMap": [],
+    "DropsFromTarget": []
+  },
+  "MultiverseMainCfg": {
+    "Id": 23301280,
+    "Name": "多元宇宙主界面",
+    "ShowEnterSceneHint": false,
+    "RaidType": 18,
+    "SceneId": 20001322,
+    "CountryId": 0,
+    "EnvironmentSound": 70801000,
+    "BgmSound": 70390197,
+    "SoundStatePriority": 0,
+    "Explain": 0,
+    "RaidLevelNew": 0,
+    "CloseRaidDelayTime": 10,
+    "EndUIDelayShowTime": 1,
+    "CameraParameter": 0,
+    "CameraFarClip": 0,
+    "AutoHideRange": 0,
+    "Description": "",
+    "hideUITime": 0,
+    "MapEntranceId": 0,
+    "FeisuoAngleXZ": 0,
+    "AetherAI": false,
+    "VehicleAoiRange": 5,
+    "ZoneGraphDataSceneId": 0,
+    "AetherDefaultId": 0,
+    "StaticVehicleDefaultId": 0,
+    "LightRailLineIds": [],
+    "RemoveDelay": 1,
+    "ZebraConnectorSceneId": 0,
+    "TrafficLightDataSceneId": 0,
+    "IsFallProtection": false,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1,
+      2
+    ],
+    "IsOrcaEnabled": false,
+    "RelatedBundles": [
+      2
+    ],
+    "EnableOnline": false,
+    "Multiverse": 999999,
+    "ParentRaidId": 0,
+    "BigMapType": 0,
+    "BoundaryName": "",
+    "AnchorCoord": [],
+    "RaidReviveChances": -1,
+    "TargetsSaveOrNot": false,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "多元宇宙主界面",
+    "AetherSpecialSceneFile": {
+      "AsBase": false,
+      "FileName": "",
+      "IsTest": false
+    },
+    "SoundStateList": [],
+    "FeiSuoMaxChooseAndLeaveDis": {
+      "FeiSuoMaxChooseDis": 30,
+      "FeiSuoMaxLeaveDis": 40,
+      "PointFeiSuoMaxChooseDis": 30,
+      "PointFeiSuoMaxLeaveDis": 40
+    },
+    "EnterTimeline": {
+      "TimelineName": "",
+      "TimelinePlace": ""
+    },
+    "ExitTimeline": {
+      "TimelineName": "",
+      "TimelinePlace": ""
+    },
+    "AetherRaidBounds": {
+      "minX": 0,
+      "minZ": 0,
+      "maxX": 0,
+      "maxZ": 0
+    },
+    "RaidGroundMap": [],
+    "DropsFromTarget": []
+  },
+  "Chongxiao_bygoneCfg": {
+    "Id": 23301290,
+    "Name": "Tales of Longqi",
+    "ShowEnterSceneHint": true,
+    "RaidType": 1,
+    "SceneId": 20001223,
+    "CountryId": 2,
+    "EnvironmentSound": 70810000,
+    "BgmSound": 70390197,
+    "SoundStatePriority": 0,
+    "Explain": 0,
+    "RaidLevelNew": 3,
+    "CloseRaidDelayTime": 10,
+    "EndUIDelayShowTime": 1,
+    "CameraParameter": 99000390,
+    "CameraFarClip": 3000,
+    "AutoHideRange": 100,
+    "Description": "",
+    "hideUITime": 0,
+    "MapEntranceId": 0,
+    "FeisuoAngleXZ": 0,
+    "AetherAI": true,
+    "VehicleAoiRange": 5,
+    "ZoneGraphDataSceneId": 0,
+    "AetherDefaultId": 88898000,
+    "StaticVehicleDefaultId": 88898000,
+    "LightRailLineIds": [],
+    "RemoveDelay": 1,
+    "ZebraConnectorSceneId": 0,
+    "TrafficLightDataSceneId": 0,
+    "IsFallProtection": false,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1,
+      2
+    ],
+    "IsOrcaEnabled": true,
+    "RelatedBundles": [
+      3
+    ],
+    "EnableOnline": true,
+    "Multiverse": 76001290,
+    "ParentRaidId": 23300999,
+    "BigMapType": 1,
+    "BoundaryName": "",
+    "AnchorCoord": [],
+    "RaidReviveChances": -1,
+    "TargetsSaveOrNot": false,
+    "__IDX__Name": 148849,
+    "__RAW__Name": "",
+    "AetherSpecialSceneFile": {
+      "AsBase": false,
+      "FileName": "",
+      "IsTest": false
+    },
+    "SoundStateList": [],
+    "FeiSuoMaxChooseAndLeaveDis": {
+      "FeiSuoMaxChooseDis": 40,
+      "FeiSuoMaxLeaveDis": 50,
+      "PointFeiSuoMaxChooseDis": 45,
+      "PointFeiSuoMaxLeaveDis": 56
+    },
+    "EnterTimeline": {
+      "TimelineName": "",
+      "TimelinePlace": ""
+    },
+    "ExitTimeline": {
+      "TimelineName": "",
+      "TimelinePlace": ""
+    },
+    "AetherRaidBounds": {
+      "minX": -4232,
+      "minZ": -2106,
+      "maxX": 5200,
+      "maxZ": 2950
+    },
+    "RaidGroundMap": [],
+    "DropsFromTarget": []
+  },
+  "WorldMap_MorrowBayCfg": {
+    "Id": 23301291,
+    "Name": "莫罗湾正式场景",
+    "ShowEnterSceneHint": true,
+    "RaidType": 1,
+    "SceneId": 20001332,
+    "CountryId": 0,
+    "EnvironmentSound": 70801000,
+    "BgmSound": 70390197,
+    "SoundStatePriority": 0,
+    "Explain": 0,
+    "RaidLevelNew": 0,
+    "CloseRaidDelayTime": 10,
+    "EndUIDelayShowTime": 1,
+    "CameraParameter": 0,
+    "CameraFarClip": 0,
+    "AutoHideRange": 0,
+    "Description": "",
+    "hideUITime": 0,
+    "MapEntranceId": 0,
+    "FeisuoAngleXZ": 0,
+    "AetherAI": false,
+    "VehicleAoiRange": 5,
+    "ZoneGraphDataSceneId": 0,
+    "AetherDefaultId": 0,
+    "StaticVehicleDefaultId": 0,
+    "LightRailLineIds": [],
+    "RemoveDelay": 1,
+    "ZebraConnectorSceneId": 0,
+    "TrafficLightDataSceneId": 0,
+    "IsFallProtection": false,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0
+    ],
+    "IsOrcaEnabled": false,
+    "RelatedBundles": [
+      2
+    ],
+    "EnableOnline": true,
+    "Multiverse": 76000888,
+    "ParentRaidId": 0,
+    "BigMapType": 0,
+    "BoundaryName": "",
+    "AnchorCoord": [],
+    "RaidReviveChances": -1,
+    "TargetsSaveOrNot": false,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "莫罗湾正式场景",
+    "AetherSpecialSceneFile": {
+      "AsBase": false,
+      "FileName": "",
+      "IsTest": false
+    },
+    "SoundStateList": [],
+    "FeiSuoMaxChooseAndLeaveDis": {
+      "FeiSuoMaxChooseDis": 30,
+      "FeiSuoMaxLeaveDis": 40,
+      "PointFeiSuoMaxChooseDis": 30,
+      "PointFeiSuoMaxLeaveDis": 40
+    },
+    "EnterTimeline": {
+      "TimelineName": "",
+      "TimelinePlace": ""
+    },
+    "ExitTimeline": {
+      "TimelineName": "",
+      "TimelinePlace": ""
+    },
+    "AetherRaidBounds": {
+      "minX": 0,
+      "minZ": 0,
+      "maxX": 0,
+      "maxZ": 0
+    },
+    "RaidGroundMap": [],
+    "DropsFromTarget": []
+  },
+  "DeathPartyCfg": {
+    "Id": 23301292,
+    "Name": "本轮玩法",
+    "ShowEnterSceneHint": false,
+    "RaidType": 15,
+    "SceneId": 20001333,
+    "CountryId": 0,
+    "EnvironmentSound": 70801000,
+    "BgmSound": 70301183,
+    "SoundStatePriority": 0,
+    "Explain": 0,
+    "RaidLevelNew": 0,
+    "CloseRaidDelayTime": 10,
+    "EndUIDelayShowTime": 1,
+    "CameraParameter": 0,
+    "CameraFarClip": 0,
+    "AutoHideRange": 0,
+    "Description": "",
+    "hideUITime": 0,
+    "MapEntranceId": 0,
+    "FeisuoAngleXZ": 0,
+    "AetherAI": false,
+    "VehicleAoiRange": 5,
+    "ZoneGraphDataSceneId": 0,
+    "AetherDefaultId": 0,
+    "StaticVehicleDefaultId": 0,
+    "LightRailLineIds": [],
+    "RemoveDelay": 1,
+    "ZebraConnectorSceneId": 0,
+    "TrafficLightDataSceneId": 0,
+    "IsFallProtection": false,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1,
+      2
+    ],
+    "IsOrcaEnabled": false,
+    "RelatedBundles": [
+      2
+    ],
+    "EnableOnline": true,
+    "Multiverse": 76000888,
+    "ParentRaidId": 0,
+    "BigMapType": 0,
+    "BoundaryName": "",
+    "AnchorCoord": [],
+    "RaidReviveChances": -1,
+    "TargetsSaveOrNot": false,
+    "__IDX__Name": 4294967295,
+    "__RAW__Name": "本轮玩法",
+    "AetherSpecialSceneFile": {
+      "AsBase": false,
+      "FileName": "",
+      "IsTest": false
+    },
+    "SoundStateList": [],
+    "FeiSuoMaxChooseAndLeaveDis": {
+      "FeiSuoMaxChooseDis": 30,
+      "FeiSuoMaxLeaveDis": 40,
+      "PointFeiSuoMaxChooseDis": 30,
+      "PointFeiSuoMaxLeaveDis": 40
+    },
+    "EnterTimeline": {
+      "TimelineName": "",
+      "TimelinePlace": ""
+    },
+    "ExitTimeline": {
+      "TimelineName": "",
+      "TimelinePlace": ""
+    },
+    "AetherRaidBounds": {
+      "minX": 0,
+      "minZ": 0,
+      "maxX": 0,
+      "maxZ": 0
+    },
+    "RaidGroundMap": [],
+    "DropsFromTarget": []
+  },
+  "WorldMap_DuskfallTownCfg": {
+    "Id": 23301298,
+    "Name": "黄昏镇正式场景",
+    "ShowEnterSceneHint": true,
+    "RaidType": 1,
+    "SceneId": 20001339,
+    "CountryId": 0,
+    "EnvironmentSound": 70801000,
+    "BgmSound": 70390197,
+    "SoundStatePriority": 0,
+    "Explain": 0,
+    "RaidLevelNew": 0,
+    "CloseRaidDelayTime": 10,
+    "EndUIDelayShowTime": 1,
+    "CameraParameter": 0,
+    "CameraFarClip": 0,
+    "AutoHideRange": 0,
+    "Description": "",
+    "hideUITime": 0,
+    "MapEntranceId": 0,
+    "FeisuoAngleXZ": 0,
+    "AetherAI": false,
+    "VehicleAoiRange": 5,
+    "ZoneGraphDataSceneId": 0,
+    "AetherDefaultId": 0,
+    "StaticVehicleDefaultId": 0,
+    "LightRailLineIds": [],
+    "RemoveDelay": 1,
+    "ZebraConnectorSceneId": 0,
+    "TrafficLightDataSceneId": 0,
+    "IsFallProtection": false,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0
+    ],
+    "IsOrcaEnabled": false,
+    "RelatedBundles": [
+      2
+    ],
+    "EnableOnline": true,
+    "Multiverse": 76000888,
+    "ParentRaidId": 0,
+    "BigMapType": 0,
+    "BoundaryName": "",
+    "AnchorCoord": [],
+    "RaidReviveChances": -1,
+    "TargetsSaveOrNot": false,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "黄昏镇正式场景",
+    "AetherSpecialSceneFile": {
+      "AsBase": false,
+      "FileName": "",
+      "IsTest": false
+    },
+    "SoundStateList": [],
+    "FeiSuoMaxChooseAndLeaveDis": {
+      "FeiSuoMaxChooseDis": 30,
+      "FeiSuoMaxLeaveDis": 40,
+      "PointFeiSuoMaxChooseDis": 30,
+      "PointFeiSuoMaxLeaveDis": 40
+    },
+    "EnterTimeline": {
+      "TimelineName": "",
+      "TimelinePlace": ""
+    },
+    "ExitTimeline": {
+      "TimelineName": "",
+      "TimelinePlace": ""
+    },
+    "AetherRaidBounds": {
+      "minX": 0,
+      "minZ": 0,
+      "maxX": 0,
+      "maxZ": 0
+    },
+    "RaidGroundMap": [],
+    "DropsFromTarget": []
+  },
+  "WorldMapCanEnterRaid": [
+    23300469,
+    23300429,
+    23300530,
+    23300439,
+    23300710,
+    23300704,
+    23300888
+  ],
+  "EndPanelFightSpiritCount": 10,
+  "BiaoshijieRaid": [
+    23300436,
+    23300463,
+    23300439,
+    23300531
+  ],
+  "FallDieName": "Watch your step",
+  "FallDieDescription": [
+    65127100,
+    0
+  ],
+  "FallDieIcon": 28003338,
+  "EnemyKillName": "Exhausted",
+  "EnemyKillDescription": [
+    65127110,
+    65127111,
+    0
+  ],
+  "EnemyKillIcon": 28003337,
+  "EnvironmentKillName": "Accidents happen",
+  "EnvironmentKillDescription": [
+    65127400,
+    65127401,
+    0
+  ],
+  "EnvironmentKillIcon": 28003337,
+  "OtherDieName": "Fainted",
+  "OtherDieDescription": [
+    65127500,
+    0
+  ],
+  "OtherDieIcon": 28003337,
+  "SeasonRaidTypeId": 7,
+  "XinShouRaidList": [
+    {
+      "RaidID": 23301180,
+      "Name": "XinShouIndoor"
+    }
+  ],
+  "DeadPanelButtonName": [
+    "Respawn Nearby",
+    "Respawn at Transit Station",
+    "Leave",
+    "Retry",
+    "Respawn at Checkpoint"
+  ],
+  "XinShouRaidHideUI": [
+    23301180
+  ],
+  "ForbidShowToolCircleRaidTypeId": [
+    5,
+    6,
+    13
+  ],
+  "ShowEnemyLevel": [
+    23301196,
+    23301195,
+    23301194
+  ],
+  "WorldMapMainRaid": [
+    {
+      "RaidID": 23300888,
+      "Name": "WorldMap_Release"
+    },
+    {
+      "RaidID": 23300999,
+      "Name": "WorldMap_Chongxiao"
+    }
+  ],
+  "DeathGameDieName": "被淘汰",
+  "DeathGameDieDescription": [
+    65127110
+  ],
+  "DeathGameDieIcon": 28003337
+}

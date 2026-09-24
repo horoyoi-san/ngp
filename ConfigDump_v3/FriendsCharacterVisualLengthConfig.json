@@ -1,0 +1,50 @@
+{
+  "_class": "FriendsCharacterVisualLengthConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 8,
+  "records": [
+    {
+      "Id": 1,
+      "Regex": "[\\u0020-\\u007E]",
+      "VisualLength": 1
+    },
+    {
+      "Id": 2,
+      "Regex": "[\\u4e00-\\u9FFF]",
+      "VisualLength": 2
+    },
+    {
+      "Id": 3,
+      "Regex": "[u3000-\\u303f|\\uFF00-\\uFFEF]",
+      "VisualLength": 2
+    },
+    {
+      "Id": 4,
+      "Regex": "[\\u3040-\\u309F]",
+      "VisualLength": 2
+    },
+    {
+      "Id": 5,
+      "Regex": "[\\u30A0-\\u30FF]",
+      "VisualLength": 2
+    },
+    {
+      "Id": 6,
+      "Regex": "[\\u30FC]",
+      "VisualLength": 2
+    },
+    {
+      "Id": 7,
+      "Regex": "[\\uAC00-\\uD7AF|\\u1100-\\u11FF|\\u3130-\\u318F]",
+      "VisualLength": 2
+    },
+    {
+      "Id": 8,
+      "Regex": "[\\u00C0-\\u00FF]",
+      "VisualLength": 1
+    }
+  ],
+  "_dumpedCount": 8,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -1,0 +1,46 @@
+{
+  "LightCfg": {
+    "Id": 1,
+    "Name": "Light",
+    "AudioSwitchSuffix": "_Light",
+    "AudioSwitchGroupName": "SW_HitSize",
+    "AudioSwitchValue": "Min",
+    "HittingPowerList": [
+      1,
+      2
+    ]
+  },
+  "MediumCfg": {
+    "Id": 2,
+    "Name": "Medium",
+    "AudioSwitchSuffix": "_Medium",
+    "AudioSwitchGroupName": "SW_HitSize",
+    "AudioSwitchValue": "Mid",
+    "HittingPowerList": [
+      3,
+      4,
+      10
+    ]
+  },
+  "HeavyCfg": {
+    "Id": 3,
+    "Name": "Heavy",
+    "AudioSwitchSuffix": "_Heavy",
+    "AudioSwitchGroupName": "SW_HitSize",
+    "AudioSwitchValue": "Max",
+    "HittingPowerList": [
+      5,
+      6
+    ]
+  },
+  "SuperHeavyCfg": {
+    "Id": 4,
+    "Name": "SuperHeavy",
+    "AudioSwitchSuffix": "_Heavy",
+    "AudioSwitchGroupName": "SW_HitSize",
+    "AudioSwitchValue": "Max",
+    "HittingPowerList": [
+      7
+    ]
+  }
+}

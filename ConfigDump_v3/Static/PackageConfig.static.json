@@ -1,0 +1,38 @@
+{
+  "OtherPackageCfg": {
+    "Id": 24000007,
+    "Name": "其他资源",
+    "Description": "其他补充内容",
+    "ImageId": 25400020,
+    "PriorityType": 2,
+    "DefaultOrder": 9999,
+    "BundleName": "Other",
+    "MovieAndAudio": false
+  },
+  "LowFrameStandard": {
+    "frametate": 10,
+    "time": 15
+  },
+  "LowFrameRecover": {
+    "frametate": 18,
+    "time": 15
+  },
+  "LowFrameForceRecover": 180,
+  "SpaceCheckinterval": 60,
+  "BundlesDownloadTabLabel": [
+    "核心资源",
+    "扩展资源"
+  ],
+  "BundlesDownloadRewardTips": "下载完核心资源后即可领取",
+  "BundlesDownloadReward": 14300000,
+  "DefaultVoicePackage": [
+    4,
+    6,
+    5,
+    6,
+    6,
+    6,
+    6,
+    6
+  ]
+}

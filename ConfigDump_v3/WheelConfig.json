@@ -1,0 +1,586 @@
+{
+  "_class": "WheelConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 38,
+  "records": [
+    {
+      "Id": 1001,
+      "WheelName": "测试轮盘1",
+      "WheelType": 0,
+      "InitBlock": 2,
+      "WheelMaxSlotCount": 0,
+      "ContentState": [
+        {
+          "BlockId": 2,
+          "WeaponId": 80000493,
+          "DurabilityState": 0,
+          "EventWeaponLabel": "AcidGun"
+        },
+        {
+          "BlockId": 3,
+          "WeaponId": 80003219,
+          "DurabilityState": 0,
+          "EventWeaponLabel": "Candy"
+        }
+      ]
+    },
+    {
+      "Id": 1002,
+      "WheelName": "测试轮盘2",
+      "WheelType": 0,
+      "InitBlock": 5,
+      "WheelMaxSlotCount": 0,
+      "ContentState": [
+        {
+          "BlockId": 4,
+          "WeaponId": 80000493,
+          "DurabilityState": 0,
+          "EventWeaponLabel": "AcidGun"
+        },
+        {
+          "BlockId": 5,
+          "WeaponId": 80003219,
+          "DurabilityState": 0,
+          "EventWeaponLabel": "Candy"
+        }
+      ]
+    },
+    {
+      "Id": 1003,
+      "WheelName": "测试轮盘3",
+      "WheelType": 1,
+      "InitBlock": 3,
+      "WheelMaxSlotCount": 0,
+      "ContentState": []
+    },
+    {
+      "Id": 1004,
+      "WheelName": "重霄水枪临时轮盘",
+      "WheelType": 0,
+      "InitBlock": 2,
+      "WheelMaxSlotCount": 0,
+      "ContentState": [
+        {
+          "BlockId": 2,
+          "WeaponId": 80000506,
+          "DurabilityState": -1,
+          "EventWeaponLabel": "WaterGun"
+        }
+      ]
+    },
+    {
+      "Id": 1005,
+      "WheelName": "死亡派对轮盘",
+      "WheelType": 0,
+      "InitBlock": 0,
+      "WheelMaxSlotCount": 4,
+      "ContentState": []
+    },
+    {
+      "Id": 1006,
+      "WheelName": "躲猫猫猫方轮盘",
+      "WheelType": 0,
+      "InitBlock": 2,
+      "WheelMaxSlotCount": 0,
+      "ContentState": [
+        {
+          "BlockId": 3,
+          "WeaponId": 80300295,
+          "DurabilityState": -1,
+          "EventWeaponLabel": "Gun"
+        },
+        {
+          "BlockId": 2,
+          "WeaponId": 80300192,
+          "DurabilityState": -1,
+          "EventWeaponLabel": "Stick"
+        }
+      ]
+    },
+    {
+      "Id": 1007,
+      "WheelName": "躲猫猫鼠方轮盘",
+      "WheelType": 0,
+      "InitBlock": 0,
+      "WheelMaxSlotCount": 0,
+      "ContentState": []
+    },
+    {
+      "Id": 1008,
+      "WheelName": "躲猫猫鼠方幽灵轮盘",
+      "WheelType": 0,
+      "InitBlock": 0,
+      "WheelMaxSlotCount": 0,
+      "ContentState": []
+    },
+    {
+      "Id": 1009,
+      "WheelName": "打气球玩法轮盘",
+      "WheelType": 0,
+      "InitBlock": 1,
+      "WheelMaxSlotCount": 0,
+      "ContentState": [
+        {
+          "BlockId": 1,
+          "WeaponId": 80003506,
+          "DurabilityState": -1,
+          "EventWeaponLabel": "BalloonGun"
+        }
+      ]
+    },
+    {
+      "Id": 1010,
+      "WheelName": "跳伞玩法临时轮盘",
+      "WheelType": 0,
+      "InitBlock": 1,
+      "WheelMaxSlotCount": 0,
+      "ContentState": [
+        {
+          "BlockId": 1,
+          "WeaponId": 80003508,
+          "DurabilityState": -1,
+          "EventWeaponLabel": "Parachute"
+        }
+      ]
+    },
+    {
+      "Id": 1011,
+      "WheelName": "打中有赏-空手",
+      "WheelType": 0,
+      "InitBlock": 1,
+      "WheelMaxSlotCount": 0,
+      "ContentState": []
+    },
+    {
+      "Id": 1012,
+      "WheelName": "打中有赏-长杆",
+      "WheelType": 0,
+      "InitBlock": 1,
+      "WheelMaxSlotCount": 0,
+      "ContentState": [
+        {
+          "BlockId": 1,
+          "WeaponId": 80300155,
+          "DurabilityState": -1,
+          "EventWeaponLabel": "Parachute"
+        }
+      ]
+    },
+    {
+      "Id": 1013,
+      "WheelName": "打中有赏-远程",
+      "WheelType": 0,
+      "InitBlock": 1,
+      "WheelMaxSlotCount": 0,
+      "ContentState": [
+        {
+          "BlockId": 1,
+          "WeaponId": 80300134,
+          "DurabilityState": -1,
+          "EventWeaponLabel": "Parachute"
+        }
+      ]
+    },
+    {
+      "Id": 1014,
+      "WheelName": "发传单-点按",
+      "WheelType": 0,
+      "InitBlock": 1,
+      "WheelMaxSlotCount": 0,
+      "ContentState": [
+        {
+          "BlockId": 1,
+          "WeaponId": 80003541,
+          "DurabilityState": -1,
+          "EventWeaponLabel": "Parachute"
+        }
+      ]
+    },
+    {
+      "Id": 1015,
+      "WheelName": "发传单-长按",
+      "WheelType": 0,
+      "InitBlock": 1,
+      "WheelMaxSlotCount": 0,
+      "ContentState": [
+        {
+          "BlockId": 1,
+          "WeaponId": 80003542,
+          "DurabilityState": -1,
+          "EventWeaponLabel": "Parachute"
+        }
+      ]
+    },
+    {
+      "Id": 1016,
+      "WheelName": "单机终局轮盘",
+      "WheelType": 0,
+      "InitBlock": 8,
+      "WheelMaxSlotCount": 8,
+      "ContentState": []
+    },
+    {
+      "Id": 1017,
+      "WheelName": "搜打撤",
+      "WheelType": 0,
+      "InitBlock": 0,
+      "WheelMaxSlotCount": 7,
+      "ContentState": []
+    },
+    {
+      "Id": 1018,
+      "WheelName": "打外星人玩法轮盘",
+      "WheelType": 0,
+      "InitBlock": 1,
+      "WheelMaxSlotCount": 0,
+      "ContentState": [
+        {
+          "BlockId": 1,
+          "WeaponId": 80004284,
+          "DurabilityState": -1,
+          "EventWeaponLabel": "BalloonGun"
+        }
+      ]
+    },
+    {
+      "Id": 1019,
+      "WheelName": "切磋-空手",
+      "WheelType": 0,
+      "InitBlock": 1,
+      "WheelMaxSlotCount": 0,
+      "ContentState": []
+    },
+    {
+      "Id": 1020,
+      "WheelName": "射击训练-空手",
+      "WheelType": 0,
+      "InitBlock": 1,
+      "WheelMaxSlotCount": 0,
+      "ContentState": []
+    },
+    {
+      "Id": 1021,
+      "WheelName": "射击训练-冲锋枪",
+      "WheelType": 0,
+      "InitBlock": 1,
+      "WheelMaxSlotCount": 0,
+      "ContentState": [
+        {
+          "BlockId": 1,
+          "WeaponId": 80003426,
+          "DurabilityState": -1,
+          "EventWeaponLabel": "Gun"
+        }
+      ]
+    },
+    {
+      "Id": 1022,
+      "WheelName": "射击训练-霰弹枪",
+      "WheelType": 0,
+      "InitBlock": 1,
+      "WheelMaxSlotCount": 0,
+      "ContentState": [
+        {
+          "BlockId": 1,
+          "WeaponId": 80003427,
+          "DurabilityState": -1,
+          "EventWeaponLabel": "Gun"
+        }
+      ]
+    },
+    {
+      "Id": 1023,
+      "WheelName": "射击训练-狙击枪",
+      "WheelType": 0,
+      "InitBlock": 1,
+      "WheelMaxSlotCount": 0,
+      "ContentState": [
+        {
+          "BlockId": 1,
+          "WeaponId": 80004012,
+          "DurabilityState": -1,
+          "EventWeaponLabel": "Gun"
+        }
+      ]
+    },
+    {
+      "Id": 1024,
+      "WheelName": "射击训练-轻机枪",
+      "WheelType": 0,
+      "InitBlock": 1,
+      "WheelMaxSlotCount": 0,
+      "ContentState": [
+        {
+          "BlockId": 1,
+          "WeaponId": 80004014,
+          "DurabilityState": -1,
+          "EventWeaponLabel": "Gun"
+        }
+      ]
+    },
+    {
+      "Id": 1025,
+      "WheelName": "投掷训练-破片手雷",
+      "WheelType": 0,
+      "InitBlock": 1,
+      "WheelMaxSlotCount": 0,
+      "ContentState": [
+        {
+          "BlockId": 5,
+          "WeaponId": 80003735,
+          "DurabilityState": -1,
+          "EventWeaponLabel": "Gun"
+        }
+      ]
+    },
+    {
+      "Id": 1100,
+      "WheelName": "头陀训练-纯空手",
+      "WheelType": 0,
+      "InitBlock": 8,
+      "WheelMaxSlotCount": 0,
+      "ContentState": []
+    },
+    {
+      "Id": 1101,
+      "WheelName": "头陀训练-拳套",
+      "WheelType": 0,
+      "InitBlock": 7,
+      "WheelMaxSlotCount": 0,
+      "ContentState": [
+        {
+          "BlockId": 7,
+          "WeaponId": 80003419,
+          "DurabilityState": -1,
+          "EventWeaponLabel": ""
+        }
+      ]
+    },
+    {
+      "Id": 1102,
+      "WheelName": "头陀训练-自由训练",
+      "WheelType": 1,
+      "InitBlock": 0,
+      "WheelMaxSlotCount": 0,
+      "ContentState": []
+    },
+    {
+      "Id": 1103,
+      "WheelName": "头陀训练-大锤",
+      "WheelType": 0,
+      "InitBlock": 7,
+      "WheelMaxSlotCount": 0,
+      "ContentState": [
+        {
+          "BlockId": 7,
+          "WeaponId": 80000796,
+          "DurabilityState": 2400,
+          "EventWeaponLabel": ""
+        }
+      ]
+    },
+    {
+      "Id": 1104,
+      "WheelName": "头陀训练-匕首",
+      "WheelType": 0,
+      "InitBlock": 7,
+      "WheelMaxSlotCount": 0,
+      "ContentState": [
+        {
+          "BlockId": 7,
+          "WeaponId": 80000808,
+          "DurabilityState": 1600,
+          "EventWeaponLabel": ""
+        }
+      ]
+    },
+    {
+      "Id": 1105,
+      "WheelName": "头陀训练-长棍",
+      "WheelType": 0,
+      "InitBlock": 7,
+      "WheelMaxSlotCount": 0,
+      "ContentState": [
+        {
+          "BlockId": 7,
+          "WeaponId": 80000496,
+          "DurabilityState": 1360,
+          "EventWeaponLabel": ""
+        }
+      ]
+    },
+    {
+      "Id": 1106,
+      "WheelName": "头陀训练-撬棍",
+      "WheelType": 0,
+      "InitBlock": 7,
+      "WheelMaxSlotCount": 0,
+      "ContentState": [
+        {
+          "BlockId": 7,
+          "WeaponId": 80000798,
+          "DurabilityState": 1200,
+          "EventWeaponLabel": ""
+        }
+      ]
+    },
+    {
+      "Id": 1107,
+      "WheelName": "战斗串联临时轮盘-长柄",
+      "WheelType": 0,
+      "InitBlock": 2,
+      "WheelMaxSlotCount": 0,
+      "ContentState": [
+        {
+          "BlockId": 2,
+          "WeaponId": 80000494,
+          "DurabilityState": -1,
+          "EventWeaponLabel": ""
+        }
+      ]
+    },
+    {
+      "Id": 1108,
+      "WheelName": "战斗串联临时轮盘-撬棍",
+      "WheelType": 0,
+      "InitBlock": 2,
+      "WheelMaxSlotCount": 0,
+      "ContentState": [
+        {
+          "BlockId": 2,
+          "WeaponId": 80000798,
+          "DurabilityState": -1,
+          "EventWeaponLabel": ""
+        }
+      ]
+    },
+    {
+      "Id": 1200,
+      "WheelName": "标准配装",
+      "WheelType": 0,
+      "InitBlock": 2,
+      "WheelMaxSlotCount": 0,
+      "ContentState": [
+        {
+          "BlockId": 2,
+          "WeaponId": 80300001,
+          "DurabilityState": -1,
+          "EventWeaponLabel": ""
+        },
+        {
+          "BlockId": 3,
+          "WeaponId": 80300044,
+          "DurabilityState": -1,
+          "EventWeaponLabel": ""
+        },
+        {
+          "BlockId": 4,
+          "WeaponId": 98006004,
+          "DurabilityState": -1,
+          "EventWeaponLabel": ""
+        },
+        {
+          "BlockId": 5,
+          "WeaponId": 80000806,
+          "DurabilityState": -1,
+          "EventWeaponLabel": ""
+        }
+      ]
+    },
+    {
+      "Id": 1201,
+      "WheelName": "空手配装",
+      "WheelType": 0,
+      "InitBlock": 1,
+      "WheelMaxSlotCount": 0,
+      "ContentState": []
+    },
+    {
+      "Id": 1202,
+      "WheelName": "满额配装",
+      "WheelType": 0,
+      "InitBlock": 2,
+      "WheelMaxSlotCount": 0,
+      "ContentState": [
+        {
+          "BlockId": 2,
+          "WeaponId": 80000800,
+          "DurabilityState": -1,
+          "EventWeaponLabel": ""
+        },
+        {
+          "BlockId": 3,
+          "WeaponId": 80300001,
+          "DurabilityState": -1,
+          "EventWeaponLabel": ""
+        },
+        {
+          "BlockId": 4,
+          "WeaponId": 80300044,
+          "DurabilityState": -1,
+          "EventWeaponLabel": ""
+        },
+        {
+          "BlockId": 5,
+          "WeaponId": 80000574,
+          "DurabilityState": -1,
+          "EventWeaponLabel": ""
+        },
+        {
+          "BlockId": 6,
+          "WeaponId": 80003165,
+          "DurabilityState": -1,
+          "EventWeaponLabel": ""
+        },
+        {
+          "BlockId": 7,
+          "WeaponId": 80003380,
+          "DurabilityState": -1,
+          "EventWeaponLabel": ""
+        },
+        {
+          "BlockId": 9,
+          "WeaponId": 80300004,
+          "DurabilityState": -1,
+          "EventWeaponLabel": ""
+        }
+      ]
+    },
+    {
+      "Id": 1203,
+      "WheelName": "子弹袋测试轮盘",
+      "WheelType": 0,
+      "InitBlock": 2,
+      "WheelMaxSlotCount": 0,
+      "ContentState": [
+        {
+          "BlockId": 2,
+          "WeaponId": 80300001,
+          "DurabilityState": -1,
+          "EventWeaponLabel": ""
+        },
+        {
+          "BlockId": 3,
+          "WeaponId": 80300044,
+          "DurabilityState": -1,
+          "EventWeaponLabel": ""
+        },
+        {
+          "BlockId": 4,
+          "WeaponId": 98006004,
+          "DurabilityState": -1,
+          "EventWeaponLabel": ""
+        },
+        {
+          "BlockId": 5,
+          "WeaponId": 80000806,
+          "DurabilityState": -1,
+          "EventWeaponLabel": ""
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 38,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -1,0 +1,290 @@
+{
+  "_class": "HurtEffectHurtFireArmConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 9,
+  "records": [
+    {
+      "Id": 1,
+      "DeathPerformanceType": [
+        1,
+        6
+      ],
+      "DeathPartImpact": [
+        80,
+        100
+      ],
+      "DeathBodyImpact": [
+        30,
+        40
+      ],
+      "HitImpactLevel": 1,
+      "ImpactDirectionPattern": 0,
+      "IKIDRange": [
+        6,
+        14
+      ],
+      "HitToughnessValue": [
+        30.2999992,
+        45.5
+      ],
+      "HitReactionType": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "Id": 2,
+      "DeathPerformanceType": [
+        1,
+        6
+      ],
+      "DeathPartImpact": [
+        187.5,
+        250
+      ],
+      "DeathBodyImpact": [
+        75,
+        100
+      ],
+      "HitImpactLevel": 2,
+      "ImpactDirectionPattern": 0,
+      "IKIDRange": [
+        10,
+        18
+      ],
+      "HitToughnessValue": [
+        36.4000015,
+        46
+      ],
+      "HitReactionType": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "Id": 3,
+      "DeathPerformanceType": [
+        1,
+        4
+      ],
+      "DeathPartImpact": [
+        150,
+        200
+      ],
+      "DeathBodyImpact": [
+        60,
+        80
+      ],
+      "HitImpactLevel": 3,
+      "ImpactDirectionPattern": 0,
+      "IKIDRange": [
+        18,
+        20
+      ],
+      "HitToughnessValue": [
+        138,
+        155
+      ],
+      "HitReactionType": [
+        3,
+        4,
+        5,
+        7
+      ]
+    },
+    {
+      "Id": 4,
+      "DeathPerformanceType": [
+        1,
+        4
+      ],
+      "DeathPartImpact": [
+        120,
+        160
+      ],
+      "DeathBodyImpact": [
+        45,
+        60
+      ],
+      "HitImpactLevel": 3,
+      "ImpactDirectionPattern": 0,
+      "IKIDRange": [
+        18,
+        20
+      ],
+      "HitToughnessValue": [
+        20.3999996,
+        45.4000015
+      ],
+      "HitReactionType": [
+        3,
+        4,
+        5,
+        7
+      ]
+    },
+    {
+      "Id": 5,
+      "DeathPerformanceType": [
+        1,
+        4
+      ],
+      "DeathPartImpact": [
+        250,
+        350
+      ],
+      "DeathBodyImpact": [
+        100,
+        140
+      ],
+      "HitImpactLevel": 3,
+      "ImpactDirectionPattern": 1,
+      "IKIDRange": [
+        18,
+        20
+      ],
+      "HitToughnessValue": [
+        165,
+        215
+      ],
+      "HitReactionType": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
+    },
+    {
+      "Id": 6,
+      "DeathPerformanceType": [
+        1
+      ],
+      "DeathPartImpact": [
+        80,
+        100
+      ],
+      "DeathBodyImpact": [
+        30,
+        40
+      ],
+      "HitImpactLevel": 1,
+      "ImpactDirectionPattern": 0,
+      "IKIDRange": [
+        2,
+        10
+      ],
+      "HitToughnessValue": [
+        16.8999996,
+        26.7999992
+      ],
+      "HitReactionType": [
+        3,
+        4,
+        5,
+        7
+      ]
+    },
+    {
+      "Id": 7,
+      "DeathPerformanceType": [
+        1
+      ],
+      "DeathPartImpact": [
+        187.5,
+        250
+      ],
+      "DeathBodyImpact": [
+        75,
+        100
+      ],
+      "HitImpactLevel": 2,
+      "ImpactDirectionPattern": 0,
+      "IKIDRange": [
+        6,
+        14
+      ],
+      "HitToughnessValue": [
+        16.8999996,
+        44.4000015
+      ],
+      "HitReactionType": [
+        3,
+        4,
+        5,
+        7
+      ]
+    },
+    {
+      "Id": 8,
+      "DeathPerformanceType": [
+        1,
+        4
+      ],
+      "DeathPartImpact": [
+        120,
+        160
+      ],
+      "DeathBodyImpact": [
+        45,
+        60
+      ],
+      "HitImpactLevel": 2,
+      "ImpactDirectionPattern": 0,
+      "IKIDRange": [
+        6,
+        14
+      ],
+      "HitToughnessValue": [
+        6,
+        10.8000002
+      ],
+      "HitReactionType": [
+        3,
+        4,
+        5,
+        7
+      ]
+    },
+    {
+      "Id": 9,
+      "DeathPerformanceType": [
+        1
+      ],
+      "DeathPartImpact": [
+        120,
+        160
+      ],
+      "DeathBodyImpact": [
+        45,
+        60
+      ],
+      "HitImpactLevel": 1,
+      "ImpactDirectionPattern": 0,
+      "IKIDRange": [
+        2,
+        10
+      ],
+      "HitToughnessValue": [
+        1.20000005,
+        3.5999999
+      ],
+      "HitReactionType": [
+        3,
+        4,
+        5,
+        7
+      ]
+    }
+  ],
+  "_dumpedCount": 9,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

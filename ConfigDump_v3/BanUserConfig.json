@@ -1,0 +1,45 @@
+{
+  "_class": "BanUserConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 5,
+  "records": [
+    {
+      "Id": 1001,
+      "IsEnable": true,
+      "PerBlockTime": 0,
+      "BlockLimit": 1,
+      "BlockReason": "使用违规第三方软件"
+    },
+    {
+      "Id": 1002,
+      "IsEnable": true,
+      "PerBlockTime": 1800,
+      "BlockLimit": 2,
+      "BlockReason": "非授权录制"
+    },
+    {
+      "Id": 1003,
+      "IsEnable": true,
+      "PerBlockTime": 1800,
+      "BlockLimit": 2,
+      "BlockReason": "切换测试设备"
+    },
+    {
+      "Id": 1004,
+      "IsEnable": true,
+      "PerBlockTime": 1800,
+      "BlockLimit": 0,
+      "BlockReason": "涉及违规行为"
+    },
+    {
+      "Id": 1005,
+      "IsEnable": true,
+      "PerBlockTime": 60,
+      "BlockLimit": 0,
+      "BlockReason": "异常请求"
+    }
+  ],
+  "_dumpedCount": 5,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

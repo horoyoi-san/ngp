@@ -1,0 +1,304 @@
+{
+  "_class": "UrbanAbilityAdditionConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 21,
+  "records": [
+    {
+      "Id": 1,
+      "Desc": "消耗金约币",
+      "MaxProgress": 20000,
+      "IsReset": true,
+      "__IDX__Desc": 4294967293,
+      "__RAW__Desc": "消耗金约币",
+      "Additions": [
+        {
+          "UrbanAbilityId": 200,
+          "Exp": 10
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "Desc": "驾车移动X秒",
+      "MaxProgress": 120,
+      "IsReset": true,
+      "__IDX__Desc": 4294967293,
+      "__RAW__Desc": "驾车移动X秒",
+      "Additions": [
+        {
+          "UrbanAbilityId": 1,
+          "Exp": 15
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "Desc": "摩托车移动X秒",
+      "MaxProgress": 120,
+      "IsReset": true,
+      "__IDX__Desc": 4294967293,
+      "__RAW__Desc": "摩托车移动X秒",
+      "Additions": [
+        {
+          "UrbanAbilityId": 2,
+          "Exp": 15
+        }
+      ]
+    },
+    {
+      "Id": 6,
+      "Desc": "持枪受击",
+      "MaxProgress": 30,
+      "IsReset": true,
+      "__IDX__Desc": 4294967293,
+      "__RAW__Desc": "持枪受击",
+      "Additions": [
+        {
+          "UrbanAbilityId": 100,
+          "Exp": 15
+        }
+      ]
+    },
+    {
+      "Id": 8,
+      "Desc": "非枪械受击",
+      "MaxProgress": 30,
+      "IsReset": true,
+      "__IDX__Desc": 4294967293,
+      "__RAW__Desc": "非枪械受击",
+      "Additions": [
+        {
+          "UrbanAbilityId": 100,
+          "Exp": 15
+        }
+      ]
+    },
+    {
+      "Id": 9,
+      "Desc": "枪械杀敌",
+      "MaxProgress": 12,
+      "IsReset": true,
+      "__IDX__Desc": 4294967293,
+      "__RAW__Desc": "枪械杀敌",
+      "Additions": [
+        {
+          "UrbanAbilityId": 300,
+          "Exp": 6
+        }
+      ]
+    },
+    {
+      "Id": 10,
+      "Desc": "非枪械杀敌",
+      "MaxProgress": 12,
+      "IsReset": true,
+      "__IDX__Desc": 4294967293,
+      "__RAW__Desc": "非枪械杀敌",
+      "Additions": [
+        {
+          "UrbanAbilityId": 300,
+          "Exp": 4
+        }
+      ]
+    },
+    {
+      "Id": 11,
+      "Desc": "完成一局篮球",
+      "MaxProgress": 1,
+      "IsReset": true,
+      "__IDX__Desc": 4294967293,
+      "__RAW__Desc": "完成一局篮球",
+      "Additions": [
+        {
+          "UrbanAbilityId": 102,
+          "Exp": 15
+        }
+      ]
+    },
+    {
+      "Id": 13,
+      "Desc": "完成一局赛车",
+      "MaxProgress": 1,
+      "IsReset": true,
+      "__IDX__Desc": 4294967293,
+      "__RAW__Desc": "完成一局赛车",
+      "Additions": [
+        {
+          "UrbanAbilityId": 100,
+          "Exp": 15
+        }
+      ]
+    },
+    {
+      "Id": 14,
+      "Desc": "完成一局保龄球",
+      "MaxProgress": 1,
+      "IsReset": true,
+      "__IDX__Desc": 4294967293,
+      "__RAW__Desc": "完成一局保龄球",
+      "Additions": [
+        {
+          "UrbanAbilityId": 100,
+          "Exp": 10
+        }
+      ]
+    },
+    {
+      "Id": 15,
+      "Desc": "完成一局飞镖",
+      "MaxProgress": 1,
+      "IsReset": true,
+      "__IDX__Desc": 4294967293,
+      "__RAW__Desc": "完成一局飞镖",
+      "Additions": [
+        {
+          "UrbanAbilityId": 103,
+          "Exp": 10
+        }
+      ]
+    },
+    {
+      "Id": 16,
+      "Desc": "使用拳套杀敌",
+      "MaxProgress": 10,
+      "IsReset": true,
+      "__IDX__Desc": 4294967293,
+      "__RAW__Desc": "使用拳套杀敌",
+      "Additions": [
+        {
+          "UrbanAbilityId": 301,
+          "Exp": 15
+        }
+      ]
+    },
+    {
+      "Id": 17,
+      "Desc": "使用单手钝器杀敌",
+      "MaxProgress": 10,
+      "IsReset": true,
+      "__IDX__Desc": 4294967293,
+      "__RAW__Desc": "使用单手钝器杀敌",
+      "Additions": [
+        {
+          "UrbanAbilityId": 302,
+          "Exp": 15
+        }
+      ]
+    },
+    {
+      "Id": 18,
+      "Desc": "使用双手长柄杀敌",
+      "MaxProgress": 10,
+      "IsReset": true,
+      "__IDX__Desc": 4294967293,
+      "__RAW__Desc": "使用双手长柄杀敌",
+      "Additions": [
+        {
+          "UrbanAbilityId": 303,
+          "Exp": 15
+        }
+      ]
+    },
+    {
+      "Id": 19,
+      "Desc": "使用双手锤杀敌",
+      "MaxProgress": 10,
+      "IsReset": true,
+      "__IDX__Desc": 4294967293,
+      "__RAW__Desc": "使用双手锤杀敌",
+      "Additions": [
+        {
+          "UrbanAbilityId": 304,
+          "Exp": 15
+        }
+      ]
+    },
+    {
+      "Id": 20,
+      "Desc": "使用短刃杀敌",
+      "MaxProgress": 10,
+      "IsReset": true,
+      "__IDX__Desc": 4294967293,
+      "__RAW__Desc": "使用短刃杀敌",
+      "Additions": [
+        {
+          "UrbanAbilityId": 305,
+          "Exp": 15
+        }
+      ]
+    },
+    {
+      "Id": 21,
+      "Desc": "使用手枪杀敌",
+      "MaxProgress": 10,
+      "IsReset": true,
+      "__IDX__Desc": 4294967293,
+      "__RAW__Desc": "使用手枪杀敌",
+      "Additions": [
+        {
+          "UrbanAbilityId": 306,
+          "Exp": 15
+        }
+      ]
+    },
+    {
+      "Id": 22,
+      "Desc": "使用冲锋枪杀敌",
+      "MaxProgress": 10,
+      "IsReset": true,
+      "__IDX__Desc": 4294967293,
+      "__RAW__Desc": "使用冲锋枪杀敌",
+      "Additions": [
+        {
+          "UrbanAbilityId": 307,
+          "Exp": 15
+        }
+      ]
+    },
+    {
+      "Id": 23,
+      "Desc": "使用步枪杀敌",
+      "MaxProgress": 10,
+      "IsReset": true,
+      "__IDX__Desc": 4294967293,
+      "__RAW__Desc": "使用步枪杀敌",
+      "Additions": [
+        {
+          "UrbanAbilityId": 308,
+          "Exp": 15
+        }
+      ]
+    },
+    {
+      "Id": 24,
+      "Desc": "使用狙击枪杀敌",
+      "MaxProgress": 10,
+      "IsReset": true,
+      "__IDX__Desc": 4294967293,
+      "__RAW__Desc": "使用狙击枪杀敌",
+      "Additions": [
+        {
+          "UrbanAbilityId": 309,
+          "Exp": 15
+        }
+      ]
+    },
+    {
+      "Id": 25,
+      "Desc": "使用霰弹枪杀敌",
+      "MaxProgress": 10,
+      "IsReset": true,
+      "__IDX__Desc": 4294967293,
+      "__RAW__Desc": "使用霰弹枪杀敌",
+      "Additions": [
+        {
+          "UrbanAbilityId": 310,
+          "Exp": 15
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 21,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

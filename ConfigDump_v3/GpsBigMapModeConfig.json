@@ -1,0 +1,88 @@
+{
+  "_class": "GpsBigMapModeConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 6,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "Standard",
+      "BigMapFSMSignal": 11,
+      "BigMapFSMState": 15,
+      "IconId": 28017126,
+      "ListIconId": 28017212,
+      "SystemUnlockId": 0,
+      "GuideId": "",
+      "Order": 1,
+      "__IDX__Name": 91727,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 2,
+      "Name": "Faction",
+      "BigMapFSMSignal": 14,
+      "BigMapFSMState": 13,
+      "IconId": 28017127,
+      "ListIconId": 28017210,
+      "SystemUnlockId": 143,
+      "GuideId": "FactionMap",
+      "Order": 2,
+      "__IDX__Name": 91728,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 3,
+      "Name": "Chaos Agent",
+      "BigMapFSMSignal": 16,
+      "BigMapFSMState": 16,
+      "IconId": 28000832,
+      "ListIconId": 28017211,
+      "SystemUnlockId": 105,
+      "GuideId": "",
+      "Order": 3,
+      "__IDX__Name": 91729,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 4,
+      "Name": "武学",
+      "BigMapFSMSignal": 17,
+      "BigMapFSMState": 17,
+      "IconId": 28017126,
+      "ListIconId": 28017212,
+      "SystemUnlockId": 0,
+      "GuideId": "",
+      "Order": 4,
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "武学"
+    },
+    {
+      "Id": 5,
+      "Name": "街头派系",
+      "BigMapFSMSignal": 31,
+      "BigMapFSMState": 31,
+      "IconId": 28017126,
+      "ListIconId": 28017212,
+      "SystemUnlockId": 0,
+      "GuideId": "",
+      "Order": 5,
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "街头派系"
+    },
+    {
+      "Id": 6,
+      "Name": "赛车",
+      "BigMapFSMSignal": 19,
+      "BigMapFSMState": 19,
+      "IconId": 28017126,
+      "ListIconId": 28017212,
+      "SystemUnlockId": 0,
+      "GuideId": "",
+      "Order": 6,
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "赛车"
+    }
+  ],
+  "_dumpedCount": 6,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

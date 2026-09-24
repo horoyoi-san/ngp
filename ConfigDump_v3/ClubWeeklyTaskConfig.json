@@ -1,0 +1,37 @@
+{
+  "_class": "ClubWeeklyTaskConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 3,
+  "records": [
+    {
+      "Id": 10106401,
+      "TaskDesc": "单日平均热度值超过%d",
+      "MaxProgress": 400,
+      "ActivityPointPerTime": 400,
+      "MaxTime": 7,
+      "__IDX__TaskDesc": 4294967295,
+      "__RAW__TaskDesc": "单日平均热度值超过%d"
+    },
+    {
+      "Id": 10106402,
+      "TaskDesc": "与俱乐部伙伴共同参与任意玩法",
+      "MaxProgress": 1,
+      "ActivityPointPerTime": 100,
+      "MaxTime": 40,
+      "__IDX__TaskDesc": 4294967295,
+      "__RAW__TaskDesc": "与俱乐部伙伴共同参与任意玩法"
+    },
+    {
+      "Id": 10106403,
+      "TaskDesc": "赚取%d金约币",
+      "MaxProgress": 500000,
+      "ActivityPointPerTime": 100,
+      "MaxTime": 20,
+      "__IDX__TaskDesc": 4294967295,
+      "__RAW__TaskDesc": "赚取%d金约币"
+    }
+  ],
+  "_dumpedCount": 3,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

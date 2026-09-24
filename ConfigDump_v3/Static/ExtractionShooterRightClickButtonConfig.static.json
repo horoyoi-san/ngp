@@ -1,0 +1,145 @@
+{
+  "DiscardCfg": {
+    "Id": 1,
+    "Name": "丢弃",
+    "IsPermanent": true,
+    "IsInside": true,
+    "IsOutside": false,
+    "IsSettle": false,
+    "Weight": 60,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "丢弃"
+  },
+  "SplitCfg": {
+    "Id": 2,
+    "Name": "拆分",
+    "IsPermanent": true,
+    "IsInside": true,
+    "IsOutside": true,
+    "IsSettle": true,
+    "Weight": 50,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "拆分"
+  },
+  "CanSellCfg": {
+    "Id": 3,
+    "Name": "出售",
+    "IsPermanent": false,
+    "IsInside": false,
+    "IsOutside": true,
+    "IsSettle": false,
+    "Weight": 70,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "出售"
+  },
+  "ExtractCfg": {
+    "Id": 4,
+    "Name": "带出",
+    "IsPermanent": true,
+    "IsInside": false,
+    "IsOutside": true,
+    "IsSettle": false,
+    "Weight": 30,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "带出"
+  },
+  "CarryCfg": {
+    "Id": 5,
+    "Name": "携带",
+    "IsPermanent": true,
+    "IsInside": true,
+    "IsOutside": true,
+    "IsSettle": false,
+    "Weight": 10,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "携带"
+  },
+  "PutBackCfg": {
+    "Id": 6,
+    "Name": "放回",
+    "IsPermanent": true,
+    "IsInside": true,
+    "IsOutside": true,
+    "IsSettle": false,
+    "Weight": 20,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "放回"
+  },
+  "PutInSafetyCfg": {
+    "Id": 7,
+    "Name": "放入安全箱",
+    "IsPermanent": true,
+    "IsInside": true,
+    "IsOutside": true,
+    "IsSettle": true,
+    "Weight": 40,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "放入安全箱"
+  },
+  "DetailCfg": {
+    "Id": 8,
+    "Name": "详情页",
+    "IsPermanent": true,
+    "IsInside": true,
+    "IsOutside": true,
+    "IsSettle": true,
+    "Weight": 1,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "详情页"
+  },
+  "CanTakeOnCfg": {
+    "Id": 9,
+    "Name": "装备",
+    "IsPermanent": false,
+    "IsInside": true,
+    "IsOutside": true,
+    "IsSettle": true,
+    "Weight": 80,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "装备"
+  },
+  "CanTakeOffCfg": {
+    "Id": 10,
+    "Name": "卸下",
+    "IsPermanent": false,
+    "IsInside": true,
+    "IsOutside": true,
+    "IsSettle": true,
+    "Weight": 81,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "卸下"
+  },
+  "CanUseCfg": {
+    "Id": 12,
+    "Name": "使用",
+    "IsPermanent": false,
+    "IsInside": false,
+    "IsOutside": false,
+    "IsSettle": false,
+    "Weight": 91,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "使用"
+  },
+  "CanRotateCfg": {
+    "Id": 15,
+    "Name": "旋转",
+    "IsPermanent": true,
+    "IsInside": true,
+    "IsOutside": true,
+    "IsSettle": true,
+    "Weight": 21,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "旋转"
+  },
+  "CanShowCfg": {
+    "Id": 16,
+    "Name": "检视",
+    "IsPermanent": false,
+    "IsInside": false,
+    "IsOutside": false,
+    "IsSettle": false,
+    "Weight": 90,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "检视"
+  }
+}

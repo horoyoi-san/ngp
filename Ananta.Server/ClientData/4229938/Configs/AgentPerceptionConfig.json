@@ -1,0 +1,200 @@
+{
+  "_class": "AgentPerceptionConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 10,
+  "records": [
+    {
+      "Id": 1,
+      "PerceptionID": "NPC_See_RichVehicle",
+      "Description": "NPC看到豪车反应",
+      "Type": 0,
+      "Priority": 1,
+      "Cooldown": 30,
+      "EnvironmentConditionId": "",
+      "Initiator": 201,
+      "Participants": [
+        1001
+      ],
+      "PerceptionCheckId": 1,
+      "ExecutorId": 1,
+      "ExecutorParams": "1=107026:2",
+      "NeedsPersistence": false,
+      "SessionListenerKey": "",
+      "Category": ""
+    },
+    {
+      "Id": 2,
+      "PerceptionID": "NPC_See_StunNPC",
+      "Description": "NPC看到晕倒的人的反应",
+      "Type": 0,
+      "Priority": 1,
+      "Cooldown": 30,
+      "EnvironmentConditionId": "",
+      "Initiator": 10,
+      "Participants": [
+        200
+      ],
+      "PerceptionCheckId": 1,
+      "ExecutorId": 1,
+      "ExecutorParams": "107027",
+      "NeedsPersistence": false,
+      "SessionListenerKey": "",
+      "Category": ""
+    },
+    {
+      "Id": 3,
+      "PerceptionID": "NPC_Near_Player_Bubble",
+      "Description": "NPC在玩家附近显示对话气泡",
+      "Type": 0,
+      "Priority": 1,
+      "Cooldown": 30,
+      "EnvironmentConditionId": "",
+      "Initiator": 203,
+      "Participants": [
+        4
+      ],
+      "PerceptionCheckId": 2,
+      "ExecutorId": 1,
+      "ExecutorParams": "",
+      "NeedsPersistence": false,
+      "SessionListenerKey": "",
+      "Category": ""
+    },
+    {
+      "Id": 4,
+      "PerceptionID": "Faction_SeePlayer",
+      "Description": "阵营感知_看到玩家",
+      "Type": 0,
+      "Priority": 11,
+      "Cooldown": 5,
+      "EnvironmentConditionId": "",
+      "Initiator": 202,
+      "Participants": [
+        4
+      ],
+      "PerceptionCheckId": 1002,
+      "ExecutorId": 3,
+      "ExecutorParams": "Player",
+      "NeedsPersistence": true,
+      "SessionListenerKey": "FactionListener",
+      "Category": "Faction"
+    },
+    {
+      "Id": 5,
+      "PerceptionID": "Faction_SeeAgent",
+      "Description": "阵营感知_看到NPC",
+      "Type": 0,
+      "Priority": 10,
+      "Cooldown": 10,
+      "EnvironmentConditionId": "",
+      "Initiator": 202,
+      "Participants": [
+        1
+      ],
+      "PerceptionCheckId": 1002,
+      "ExecutorId": 3,
+      "ExecutorParams": "Agent",
+      "NeedsPersistence": false,
+      "SessionListenerKey": "",
+      "Category": "Faction"
+    },
+    {
+      "Id": 6,
+      "PerceptionID": "NPC_See_MultiInteract",
+      "Description": "NPC看到多人交互反应",
+      "Type": 0,
+      "Priority": 1,
+      "Cooldown": 10,
+      "EnvironmentConditionId": "",
+      "Initiator": 10,
+      "Participants": [
+        204
+      ],
+      "PerceptionCheckId": 1,
+      "ExecutorId": 4,
+      "ExecutorParams": "",
+      "NeedsPersistence": false,
+      "SessionListenerKey": "",
+      "Category": ""
+    },
+    {
+      "Id": 10001,
+      "PerceptionID": "LifeScheduleNpc_See_Player",
+      "Description": "日程表NPC看到玩家",
+      "Type": 0,
+      "Priority": 1000,
+      "Cooldown": 0.200000003,
+      "EnvironmentConditionId": "",
+      "Initiator": 301,
+      "Participants": [
+        4
+      ],
+      "PerceptionCheckId": 1001,
+      "ExecutorId": 2,
+      "ExecutorParams": "",
+      "NeedsPersistence": false,
+      "SessionListenerKey": "",
+      "Category": "LifeSchedule"
+    },
+    {
+      "Id": 10002,
+      "PerceptionID": "LifeScheduleNpc_See_LifeScheduleNpc",
+      "Description": "日程表NPC看到日程表NPC",
+      "Type": 1,
+      "Priority": 999,
+      "Cooldown": 0.200000003,
+      "EnvironmentConditionId": "",
+      "Initiator": 302,
+      "Participants": [
+        302
+      ],
+      "PerceptionCheckId": 1,
+      "ExecutorId": 1,
+      "ExecutorParams": "102034",
+      "NeedsPersistence": false,
+      "SessionListenerKey": "",
+      "Category": "NpcMeet"
+    },
+    {
+      "Id": 10003,
+      "PerceptionID": "LifeScheduleNpc_See_Player_Female_PrincessHugCarrying_Female",
+      "Description": "女性日程表NPC看到女性玩家公主抱_抱着女性",
+      "Type": 0,
+      "Priority": 1001,
+      "Cooldown": 0.200000003,
+      "EnvironmentConditionId": "",
+      "Initiator": 303,
+      "Participants": [
+        207
+      ],
+      "PerceptionCheckId": 1,
+      "ExecutorId": 1,
+      "ExecutorParams": "102035",
+      "NeedsPersistence": false,
+      "SessionListenerKey": "",
+      "Category": "NpcMeet"
+    },
+    {
+      "Id": 10004,
+      "PerceptionID": "LifeScheduleNpc_See_Player_Male_PrincessHugCarrying_Female",
+      "Description": "女性日程表NPC看到男性玩家公主抱_抱着女性",
+      "Type": 0,
+      "Priority": 1001,
+      "Cooldown": 0.200000003,
+      "EnvironmentConditionId": "",
+      "Initiator": 303,
+      "Participants": [
+        208
+      ],
+      "PerceptionCheckId": 1,
+      "ExecutorId": 1,
+      "ExecutorParams": "102035",
+      "NeedsPersistence": false,
+      "SessionListenerKey": "",
+      "Category": "NpcMeet"
+    }
+  ],
+  "_dumpedCount": 10,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -1,0 +1,100 @@
+{
+  "_class": "DivinerCardSpreadConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 3,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "恋人金字塔",
+      "Description": "涵盖两人相恋原始要素。适合恋人情侣间的占卜,牌面一出，明了易懂。是占卜爱情方面常用的牌阵。",
+      "CardLayoutPosition": [
+        5,
+        4,
+        6,
+        2
+      ],
+      "Img": 0,
+      "CardsNum": 4,
+      "Tag1": 0,
+      "RoundStartDialog": [
+        100009264,
+        100009267,
+        100009269,
+        100009272
+      ],
+      "RoundEndDialog": [
+        100007909,
+        100009266,
+        100009271,
+        100009274
+      ],
+      "Tag2": 0,
+      "SpreadDialog": 100007897
+    },
+    {
+      "Id": 2,
+      "Name": "牌阵2待定",
+      "Description": "解析财富运势生长的牌阵。通过对财富的梳理，健全适合自己的财富模式。是诠释财运的好牌阵",
+      "CardLayoutPosition": [
+        2,
+        5,
+        6,
+        4,
+        8
+      ],
+      "Img": 0,
+      "CardsNum": 5,
+      "Tag1": 2,
+      "RoundStartDialog": [
+        100009264,
+        100009267,
+        100009269,
+        100009272,
+        100009272
+      ],
+      "RoundEndDialog": [
+        100007909,
+        100007909,
+        100007909,
+        100007909,
+        100007909
+      ],
+      "Tag2": 0,
+      "SpreadDialog": 100007897
+    },
+    {
+      "Id": 3,
+      "Name": "牌阵3待定",
+      "Description": "用于解决参与时机的牌阵，以事物处理时机为主轴线，拿捏问题解决的成功概率。增强自身的洞察能力，做出对未来的预判。",
+      "CardLayoutPosition": [
+        5,
+        7,
+        9,
+        1,
+        3
+      ],
+      "Img": 0,
+      "CardsNum": 5,
+      "Tag1": 1,
+      "RoundStartDialog": [
+        100009264,
+        100009267,
+        100009269,
+        100009272,
+        100009272
+      ],
+      "RoundEndDialog": [
+        100007909,
+        100007909,
+        100007909,
+        100007909,
+        100007909
+      ],
+      "Tag2": 1,
+      "SpreadDialog": 100007897
+    }
+  ],
+  "_dumpedCount": 3,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

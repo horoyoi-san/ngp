@@ -1,0 +1,2123 @@
+{
+  "PoliceBirdCfg": {
+    "Id": 1030,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "ExitDetachStatusCfg": {
+    "Id": 1048,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "UAVAutoDriveStartCfg": {
+    "Id": 1300,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "UAVAutoDriveFailCfg": {
+    "Id": 1301,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "UAVAutoDrivePhaseCompleteCfg": {
+    "Id": 1302,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "CommonExitCfg": {
+    "Id": 10000,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BARTENDER_GET_GLASSCfg": {
+    "Id": 1601,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BARTENDER_GET_SHAKERCfg": {
+    "Id": 1602,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BARTENDER_GET_INGREDIENTCfg": {
+    "Id": 1603,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BARTENDER_POUR_INGREDIENTCfg": {
+    "Id": 1604,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BARTENDER_STOP_POURINGCfg": {
+    "Id": 1605,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BARTENDER_POUR_IN_SHAKERCfg": {
+    "Id": 1606,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BARTENDER_CLEAR_GLASSCfg": {
+    "Id": 1607,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BARTENDER_CLEAR_SHAKERCfg": {
+    "Id": 1608,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BARTENDER_START_SHAKECfg": {
+    "Id": 1609,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BARTENDER_PERFECT_SHAKECfg": {
+    "Id": 1610,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BARTENDER_DELIVERCfg": {
+    "Id": 1611,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BARTENDER_ADD_ICECfg": {
+    "Id": 1612,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BARTENDER_CHANGE_INGREDIENTCfg": {
+    "Id": 1613,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BARTENDER_GET_SQUEEZERCfg": {
+    "Id": 1614,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BARTENDER_SQUEEZE_INGREDIENTCfg": {
+    "Id": 1615,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BARTENDER_GET_GLASS_LEFT_HANDCfg": {
+    "Id": 1616,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BARTENDER_NORMAL_SHAKECfg": {
+    "Id": 1617,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BARTENDER_RETURN_COMMONCfg": {
+    "Id": 1618,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BARTENDER_DRINKCfg": {
+    "Id": 1619,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BARTENDER_THROW_AWAYCfg": {
+    "Id": 1620,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BARTENDER_ENDCfg": {
+    "Id": 1621,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BARTENDER_SHAKE_LOOPCfg": {
+    "Id": 1622,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BARTENDER_SHAKE_NPCCfg": {
+    "Id": 1623,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BARTENDER_NPC_STARTCfg": {
+    "Id": 1624,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "OpenDoorCfg": {
+    "Id": 1800,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "ScanStartCfg": {
+    "Id": 1801,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "ResetTimeReactionCfg": {
+    "Id": 1802,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "OpenPuppetCfg": {
+    "Id": 1803,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "OpenDoorLeftHandCfg": {
+    "Id": 1804,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "OpenDoorRightHandCfg": {
+    "Id": 1805,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "LeaveDoorLeftHandCfg": {
+    "Id": 1806,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "LeaveDoorRightHandCfg": {
+    "Id": 1807,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "Photo_NoneCfg": {
+    "Id": 1809,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "Photo_NormalTakePhotoCfg": {
+    "Id": 1810,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "Photo_SelfTakePhotoCfg": {
+    "Id": 1811,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "Photo_LookAtPhoneCfg": {
+    "Id": 1812,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "Photo_ClearCfg": {
+    "Id": 1813,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "ClosePuppetCfg": {
+    "Id": 1814,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "StartPathActionCfg": {
+    "Id": 1822,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "StopPathActionCfg": {
+    "Id": 1823,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "PuppetHitFlyStateCfg": {
+    "Id": 1831,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "PuppetGetupSupineCfg": {
+    "Id": 1832,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "PuppetGetupProneCfg": {
+    "Id": 1833,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "PuppetSitHitFrontCfg": {
+    "Id": 1834,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "PuppetSitHitBackCfg": {
+    "Id": 1835,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "PuppetSitHitLeftCfg": {
+    "Id": 1836,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "PuppetSitHitRightCfg": {
+    "Id": 1837,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "EnterBattleAIControlCfg": {
+    "Id": 1838,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "ExitBattleAIControlCfg": {
+    "Id": 1839,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "ThirdPhotoInterCfg": {
+    "Id": 1840,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "ThirdPhotoExitCfg": {
+    "Id": 1841,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "PhoneActionIDCfg": {
+    "Id": 1842,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "StartEnemyUpperStartMoveCfg": {
+    "Id": 1843,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "EndEnemyUpperStartMoveCfg": {
+    "Id": 1844,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "StartEnemyUpperEndMoveCfg": {
+    "Id": 1845,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "EndEnemyUpperEndMoveCfg": {
+    "Id": 1846,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "StartSpecialBattleBehaviorCfg": {
+    "Id": 1847,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "EndSpecialBattleBehaviorCfg": {
+    "Id": 1848,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "StartAimModeCfg": {
+    "Id": 1849,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "EndAimModeCfg": {
+    "Id": 1850,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "EndSpecialBattleBehaviorWithNoAnimCfg": {
+    "Id": 1851,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "StartTimelineVehicleLeanCfg": {
+    "Id": 20000,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "StopTimelineVehicleLeanCfg": {
+    "Id": 20001,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BulletSkimTheSideCfg": {
+    "Id": 20002,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "TriggerDialogueActionCfg": {
+    "Id": 20004,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "RecoveringFromBulletDodgingActionCfg": {
+    "Id": 20005,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "FinishDialogueActionCfg": {
+    "Id": 20006,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "SceneItemBreakCfg": {
+    "Id": 2000,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "StartBengDiCfg": {
+    "Id": 3001,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "FinishBengDiCfg": {
+    "Id": 3002,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "PartyBegLikeCfg": {
+    "Id": 3501,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "PartyBegGiftCfg": {
+    "Id": 3502,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "TimeTableActivitySeePlayerCfg": {
+    "Id": 5000,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "TimeTableActivityStartCfg": {
+    "Id": 5001,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "TimeTableToIdleCfg": {
+    "Id": 5002,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "TimeTableToAmbientCfg": {
+    "Id": 5003,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "TimeTableOpenInteractCfg": {
+    "Id": 5004,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "TimeTableStartDialogCfg": {
+    "Id": 5005,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "TimeTableToPedCfg": {
+    "Id": 5006,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "TimeTableStartLeaveAnimationCfg": {
+    "Id": 5007,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "TimeTableExternalControlStartCfg": {
+    "Id": 5020,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "TimeTableExternalControlEndCfg": {
+    "Id": 5021,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "TimeTableGroupNpcActivityStartCfg": {
+    "Id": 5022,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "TimeTableGroupNpcAmbientCfg": {
+    "Id": 5023,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "TimeTableToAmbientEnterCfg": {
+    "Id": 5008,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "FerrisWheelEnterCfg": {
+    "Id": 5090,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "FerrisWheelTalk01Cfg": {
+    "Id": 5091,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "FerrisWheelTalk02Cfg": {
+    "Id": 5092,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "FerrisWheelTalk03Cfg": {
+    "Id": 5093,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "QuestSneakyHoldHandTraversalUpCfg": {
+    "Id": 5101,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "QuestSneakyHoldHandTraversalDownCfg": {
+    "Id": 5102,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "QuestSneakyHoldHandTraversalWallCfg": {
+    "Id": 5103,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "QuestSneakyHoldHandShockingCfg": {
+    "Id": 5104,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "QuestSneakyHoldHandShockingAgentCfg": {
+    "Id": 5105,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "QuestSneakyHoldHandAvoidCfg": {
+    "Id": 5106,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "QuestSneakyHoldHandAvoidAgentCfg": {
+    "Id": 5107,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "QuestSneakyHoldHandAvoidEndCfg": {
+    "Id": 5108,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "QuestSneakyHoldHandAvoidEndAgentCfg": {
+    "Id": 5109,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "QuestSneakyHoldHandTraversalUpIdleCfg": {
+    "Id": 5110,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "QuestSneakyHoldHandRecoverCfg": {
+    "Id": 5111,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "MultiLoopEndCfg": {
+    "Id": 5112,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "MultiInteractBreakCfg": {
+    "Id": 5113,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "QuestYachtPutDrunkWomenCfg": {
+    "Id": 5114,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "MultiInteractMainBreakImmediateCfg": {
+    "Id": 5115,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "MultiInteractCoBreakImmediateNotifyCfg": {
+    "Id": 5116,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "MultiQuestCX01Q05001UpCfg": {
+    "Id": 5130,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "MultiQuestCX01Q05002LeftCfg": {
+    "Id": 5131,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "MultiQuestCX01Q05002RightCfg": {
+    "Id": 5132,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "MultiQuestCX01Q05002SuccessCfg": {
+    "Id": 5133,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "MultiQuestCX01Q05002FailureCfg": {
+    "Id": 5134,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "MultiQuestCX01Q05002ExitCfg": {
+    "Id": 5135,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "MindPowerHoldStartCfg": {
+    "Id": 5201,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "MindPowerHoldAttackCfg": {
+    "Id": 5202,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "MindPowerHoldPutCfg": {
+    "Id": 5203,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "MindPowerMagnetStartCfg": {
+    "Id": 5204,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "MindPowerMagnetPutCfg": {
+    "Id": 5205,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "QuestVideo01Cfg": {
+    "Id": 5300,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "QuestVideo02Cfg": {
+    "Id": 5301,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "QuestVideo03Cfg": {
+    "Id": 5302,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "QuestVideo04Cfg": {
+    "Id": 5303,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "QuestVideo05Cfg": {
+    "Id": 5304,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "QuestVideo06Cfg": {
+    "Id": 5305,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "QuestVideo07Cfg": {
+    "Id": 5306,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "QuestVideo08Cfg": {
+    "Id": 5307,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "QuestVideo09Cfg": {
+    "Id": 5308,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "QuestVideo10Cfg": {
+    "Id": 5309,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "QuestVideo11Cfg": {
+    "Id": 5310,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "QuestVideo12Cfg": {
+    "Id": 5311,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "QuestVideo13Cfg": {
+    "Id": 5312,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "QuestVideo14Cfg": {
+    "Id": 5313,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "QuestVideo15Cfg": {
+    "Id": 5314,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "EnterDyingCfg": {
+    "Id": 5400,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "EnterDeadsCfg": {
+    "Id": 5401,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "StartRescueCfg": {
+    "Id": 5402,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "LeavRescueRegionCfg": {
+    "Id": 5403,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "ComplateRescueCfg": {
+    "Id": 5405,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "QuestToiletFullLoadoutStateCfg": {
+    "Id": 5500,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "FormationMoveActionChangedCfg": {
+    "Id": 5600,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "EnterActionMapCfg": {
+    "Id": 5756,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "ParachutePuppetLandCfg": {
+    "Id": 5801,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "SystemMallPlayMontageCfg": {
+    "Id": 6000,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "DiveLackOxygenCfg": {
+    "Id": 7300,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "SpoonInsertAnimCfg": {
+    "Id": 8016,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "SpoonAnimStopCfg": {
+    "Id": 8017,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "SharpCurveTurnLeftCfg": {
+    "Id": 8025,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "SharpCurveTurnRightCfg": {
+    "Id": 8026,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "DressDefaultActionCfg": {
+    "Id": 8500,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "DressActionCfg": {
+    "Id": 8501,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "DressLeaveCfg": {
+    "Id": 8502,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "DressBreakCfg": {
+    "Id": 8508,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "MahjongDrawCardCfg": {
+    "Id": 10201,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "MahjongChiPongKongCfg": {
+    "Id": 10202,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "MahjongDiscardCardCfg": {
+    "Id": 10203,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "MahjongSelfDrawnWinCfg": {
+    "Id": 10204,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "MahjongRiichiCfg": {
+    "Id": 10205,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "MahjongGameStartCfg": {
+    "Id": 10208,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "MahjongGameEndCfg": {
+    "Id": 10209,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "MahjongAnGangCfg": {
+    "Id": 10210,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "MahjongReadyStartCfg": {
+    "Id": 10211,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "MahjongReadyEndCfg": {
+    "Id": 10212,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "MahjongChuanMaWin01Cfg": {
+    "Id": 10213,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "MahjongChuanMaWin02Cfg": {
+    "Id": 10214,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "CorpPullOutCfg": {
+    "Id": 10301,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "CorpFlipOverCfg": {
+    "Id": 10302,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "CorpWashFinishCfg": {
+    "Id": 10303,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "CorpPauseFinishCfg": {
+    "Id": 10304,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "CorpEnterWashCfg": {
+    "Id": 10305,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "RestaurantLeaveDiningCfg": {
+    "Id": 10502,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "RestaurantDrinkWaterCfg": {
+    "Id": 10503,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "RestaurantToastCfg": {
+    "Id": 10504,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "RestaurantEnterOrderingCfg": {
+    "Id": 10505,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "RestaurantLeaveOrderingCfg": {
+    "Id": 10506,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "RestaurantStartDiningSingleCfg": {
+    "Id": 10507,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "RestaurantStartDiningDoubleCfg": {
+    "Id": 10508,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "RestaurantNpcFavoredCfg": {
+    "Id": 10509,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "RestaurantNpcNormalCfg": {
+    "Id": 10510,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "RestaurantNpcDrinkCfg": {
+    "Id": 10511,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "RestaurantNpcSitCfg": {
+    "Id": 10512,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "RestaurantNpcByeCfg": {
+    "Id": 10513,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "RestaurantNpcNotDrinkCfg": {
+    "Id": 10514,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "RestaurantTakePhotoCfg": {
+    "Id": 10515,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "RestaurantPhotoCloseCfg": {
+    "Id": 10516,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "RestaurantNpcInCameraCfg": {
+    "Id": 10517,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "RestaurantNpcStartSitCfg": {
+    "Id": 10518,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "RestaurantEatfriesCfg": {
+    "Id": 10519,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "RingToss_EnterGameCfg": {
+    "Id": 10801,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "RingToss_EnterAimCfg": {
+    "Id": 10802,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "RingToss_EnterChargingUpCfg": {
+    "Id": 10803,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "RingToss_ThrowCfg": {
+    "Id": 10804,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "RingToss_EnterSettleCfg": {
+    "Id": 10805,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "RingToss_SettleLoopCfg": {
+    "Id": 10806,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "RingToss_GameEndCfg": {
+    "Id": 10807,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballCombatDominantCfg": {
+    "Id": 11000,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballCombatAdvantageCfg": {
+    "Id": 11001,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballCombatBalanceCfg": {
+    "Id": 11002,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballCombatDisadvantageCfg": {
+    "Id": 11003,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballCombatRuinedCfg": {
+    "Id": 11004,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballCombatDominantPassiveCfg": {
+    "Id": 11018,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballCombatAdvantagePassiveCfg": {
+    "Id": 11019,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballCombatBalancePassiveCfg": {
+    "Id": 11022,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballCombatDisadvantagePassiveCfg": {
+    "Id": 11023,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballCombatRuinedPassiveCfg": {
+    "Id": 11024,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballStealSuccessCfg": {
+    "Id": 11005,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballStealFailCfg": {
+    "Id": 11006,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballBlockSuccessCfg": {
+    "Id": 11007,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballBlockFailCfg": {
+    "Id": 11008,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballReboundSuccessCfg": {
+    "Id": 11009,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballReboundFailCfg": {
+    "Id": 11010,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballGameStartCfg": {
+    "Id": 11011,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballGameEndCfg": {
+    "Id": 11012,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BeAnkleBreakCfg": {
+    "Id": 11013,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballBeStealSuccessCfg": {
+    "Id": 11014,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballBeStealFailCfg": {
+    "Id": 11015,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballBeBlockSuccessCfg": {
+    "Id": 11016,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballBeBlockFailCfg": {
+    "Id": 11017,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballGameStartDefenderCfg": {
+    "Id": 11025,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballGameStartOffenserCfg": {
+    "Id": 11026,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballGameStartBallHolderCfg": {
+    "Id": 11027,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballFreeBallCfg": {
+    "Id": 11028,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballOwnBallMyselfCfg": {
+    "Id": 11029,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballOwnBallTeammateCfg": {
+    "Id": 11030,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballOwnBallEnemyCfg": {
+    "Id": 11031,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballGameStartDefenderCheckballCfg": {
+    "Id": 11032,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballPassBallActiveCfg": {
+    "Id": 11033,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballPassBallPassiveCfg": {
+    "Id": 11034,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballCheckBallActiveCfg": {
+    "Id": 11035,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballCheckBallPassiveCfg": {
+    "Id": 11036,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballThrowBallCfg": {
+    "Id": 11037,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballCatchBallCfg": {
+    "Id": 11038,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballCatchBallStaggerCfg": {
+    "Id": 11039,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballCatchBallFailCfg": {
+    "Id": 11040,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballCombatPassiveEndCfg": {
+    "Id": 11041,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballInterceptDestroyCfg": {
+    "Id": 11042,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "BasketballInterceptPerfectCfg": {
+    "Id": 11043,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "EnterProwlCfg": {
+    "Id": 11201,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "LeaveProwlCfg": {
+    "Id": 11202,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "CinemaTakePhotoCfg": {
+    "Id": 11425,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "CinemaPhotoCloseCfg": {
+    "Id": 11426,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "CinemaNpcInCameraCfg": {
+    "Id": 11427,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "StirFryEnterCfg": {
+    "Id": 11811,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "StirFryExitCfg": {
+    "Id": 11812,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "StirFryLeftButtonCfg": {
+    "Id": 11813,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "StirFryRightButtonCfg": {
+    "Id": 11814,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "StirFryCombo1Cfg": {
+    "Id": 11815,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "StirFryCombo2Cfg": {
+    "Id": 11816,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "StirFryCombo3Cfg": {
+    "Id": 11817,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "StirFryQTE1Cfg": {
+    "Id": 11818,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "StirFryQTE2Cfg": {
+    "Id": 11819,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "StirFrySeason1Cfg": {
+    "Id": 11820,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "StirFrySeason2Cfg": {
+    "Id": 11821,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "StirFryResetCfg": {
+    "Id": 11822,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "GuitarCommonInteractEnterCfg": {
+    "Id": 12000,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "GuitarCommonInteractExitCfg": {
+    "Id": 12001,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "GuitarSummonInteractEnterCfg": {
+    "Id": 12002,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "GuitarSummonInteractExitCfg": {
+    "Id": 12003,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "GuitarSingleNotePressRightHandCfg": {
+    "Id": 12004,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "GuitarSingleNotePressLeftHandHighFretCfg": {
+    "Id": 12005,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "GuitarSingleNotePressLeftHandMidFretCfg": {
+    "Id": 12006,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "GuitarSingleNotePressLeftHandLowFretCfg": {
+    "Id": 12007,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "GuitarChordPressRightHandStrumCfg": {
+    "Id": 12008,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "GuitarChordReleaseRightHandStrumCfg": {
+    "Id": 12009,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "GuitarChordPressLeftHandChordCfg": {
+    "Id": 12010,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "GuitarSingleNoteEnterModeCfg": {
+    "Id": 12021,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "GuitarChordEnterModeCfg": {
+    "Id": 12022,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "EnterSurfingCfg": {
+    "Id": 12521,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "SurfGreetCfg": {
+    "Id": 12522,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "SurfFlingStartCfg": {
+    "Id": 12523,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "SurfFlingEndCfg": {
+    "Id": 12526,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "ExitSurfingCfg": {
+    "Id": 12529,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "sing_startCfg": {
+    "Id": 12701,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "sing_endCfg": {
+    "Id": 12702,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "sing_lowCfg": {
+    "Id": 12703,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "sing_midCfg": {
+    "Id": 12704,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "sing_highCfg": {
+    "Id": 12705,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "wire_stopCfg": {
+    "Id": 12711,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "wire_restartCfg": {
+    "Id": 12712,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "wire_lookbackCfg": {
+    "Id": 12713,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "wire_EndCfg": {
+    "Id": 12714,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "Yinglong_TLstartCfg": {
+    "Id": 12721,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "EnterPogoStickCfg": {
+    "Id": 50100,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "ExitPogoStickCfg": {
+    "Id": 50101,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "ExitPogoStickIdleCfg": {
+    "Id": 50102,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "EnterPogoStickRunCfg": {
+    "Id": 50103,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "EnterPogoStickIdleCfg": {
+    "Id": 50104,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "PogostickIdleCfg": {
+    "Id": 50105,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "EnterSkateboardCfg": {
+    "Id": 57301,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "ExitSkateboardCfg": {
+    "Id": 57302,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "WaitForPlayerSkateboardCfg": {
+    "Id": 57303,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "StartSkateboardCfg": {
+    "Id": 57304,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "EnterAccelSkateboardCfg": {
+    "Id": 57305,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "EnterSkateboardIdleCfg": {
+    "Id": 57306,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "CloseBookCfg": {
+    "Id": 59000,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "AnimalInteractFlowEnterCfg": {
+    "Id": 7002,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "AnimalInteractFlowExitCfg": {
+    "Id": 7003,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "AnimalSubInteractStartCfg": {
+    "Id": 7004,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "AnimalSubInteractEndCfg": {
+    "Id": 7005,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  },
+  "RestaurantExitInviteCfg": {
+    "Id": 59001,
+    "Outward": 0,
+    "Query": 0,
+    "SendOnQueryTrue": 0,
+    "SendOnQueryFalse": 0
+  }
+}

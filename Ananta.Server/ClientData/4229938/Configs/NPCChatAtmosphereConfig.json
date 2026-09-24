@@ -1,0 +1,632 @@
+{
+  "_class": "NPCChatAtmosphereConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 35,
+  "records": [
+    {
+      "Id": 84027000,
+      "BasicType": "通用",
+      "DetailType": "",
+      "Weight": 3,
+      "BodyTag": [],
+      "StyleTag": [],
+      "JobTag": [],
+      "ChatList": [
+        84018930,
+        84040058,
+        84040062,
+        84040066,
+        84040070
+      ]
+    },
+    {
+      "Id": 84027001,
+      "BasicType": "体型区分",
+      "DetailType": "少男、肥仔泛用对话",
+      "Weight": 1,
+      "BodyTag": [
+        0,
+        5
+      ],
+      "StyleTag": [],
+      "JobTag": [],
+      "ChatList": [
+        84018692,
+        84018700,
+        84018708,
+        84018714,
+        84018722,
+        84018731,
+        84018745,
+        84018752,
+        84018758
+      ]
+    },
+    {
+      "Id": 84027002,
+      "BasicType": "体型区分",
+      "DetailType": "成男、壮汉泛用对话",
+      "Weight": 1,
+      "BodyTag": [
+        2,
+        4
+      ],
+      "StyleTag": [],
+      "JobTag": [],
+      "ChatList": [
+        84018765,
+        84018775,
+        84018784,
+        84018789,
+        84018796,
+        84018802,
+        84018807,
+        84018907
+      ]
+    },
+    {
+      "Id": 84027003,
+      "BasicType": "体型区分",
+      "DetailType": "少女泛用对话",
+      "Weight": 1,
+      "BodyTag": [
+        1
+      ],
+      "StyleTag": [],
+      "JobTag": [],
+      "ChatList": [
+        84018814,
+        84018822,
+        84018828,
+        84018839,
+        84018847,
+        84018853,
+        84018863
+      ]
+    },
+    {
+      "Id": 84027004,
+      "BasicType": "体型区分",
+      "DetailType": "成女泛用对话",
+      "Weight": 1,
+      "BodyTag": [
+        3
+      ],
+      "StyleTag": [],
+      "JobTag": [],
+      "ChatList": [
+        84018870,
+        84018876,
+        84018882,
+        84018890,
+        84018900
+      ]
+    },
+    {
+      "Id": 84027005,
+      "BasicType": "体型区分",
+      "DetailType": "壮汉泛用对话",
+      "Weight": 1,
+      "BodyTag": [
+        4
+      ],
+      "StyleTag": [],
+      "JobTag": [],
+      "ChatList": [
+        84018907
+      ]
+    },
+    {
+      "Id": 84027006,
+      "BasicType": "体型区分",
+      "DetailType": "肥仔泛用对话",
+      "Weight": 1,
+      "BodyTag": [
+        5
+      ],
+      "StyleTag": [],
+      "JobTag": [],
+      "ChatList": [
+        84018922
+      ]
+    },
+    {
+      "Id": 84027007,
+      "BasicType": "体型+风格区分",
+      "DetailType": "少男、成男、壮汉、肥仔(休闲)",
+      "Weight": 1,
+      "BodyTag": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "StyleTag": [
+        0
+      ],
+      "JobTag": [],
+      "ChatList": [
+        84018933,
+        84018941,
+        84018950
+      ]
+    },
+    {
+      "Id": 84027008,
+      "BasicType": "体型+风格区分",
+      "DetailType": "少男、成男、壮汉、肥仔(潮流)",
+      "Weight": 1,
+      "BodyTag": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "StyleTag": [
+        1
+      ],
+      "JobTag": [],
+      "ChatList": [
+        84018953,
+        84018960
+      ]
+    },
+    {
+      "Id": 84027009,
+      "BasicType": "体型+风格区分",
+      "DetailType": "少男、成男、壮汉、肥仔(个性)",
+      "Weight": 1,
+      "BodyTag": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "StyleTag": [
+        2
+      ],
+      "JobTag": [],
+      "ChatList": [
+        84018966,
+        84018970
+      ]
+    },
+    {
+      "Id": 84027010,
+      "BasicType": "体型+风格区分",
+      "DetailType": "少男、成男、壮汉、肥仔(商务)",
+      "Weight": 1,
+      "BodyTag": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "StyleTag": [
+        3
+      ],
+      "JobTag": [],
+      "ChatList": [
+        84018070
+      ]
+    },
+    {
+      "Id": 84027011,
+      "BasicType": "体型+风格区分",
+      "DetailType": "少男、成男、壮汉、肥仔(运动)",
+      "Weight": 1,
+      "BodyTag": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "StyleTag": [
+        5
+      ],
+      "JobTag": [],
+      "ChatList": [
+        84018980
+      ]
+    },
+    {
+      "Id": 84027012,
+      "BasicType": "体型+风格区分",
+      "DetailType": "少女、成女(休闲)",
+      "Weight": 1,
+      "BodyTag": [
+        1,
+        3
+      ],
+      "StyleTag": [
+        0
+      ],
+      "JobTag": [],
+      "ChatList": [
+        84018987,
+        84018999,
+        84019008,
+        84019011,
+        84019014
+      ]
+    },
+    {
+      "Id": 84027013,
+      "BasicType": "体型+风格区分",
+      "DetailType": "少女、成女(潮流)",
+      "Weight": 1,
+      "BodyTag": [
+        1,
+        3
+      ],
+      "StyleTag": [
+        1
+      ],
+      "JobTag": [],
+      "ChatList": [
+        84019021,
+        84019030
+      ]
+    },
+    {
+      "Id": 84027014,
+      "BasicType": "体型+风格区分",
+      "DetailType": "少女、成女(个性)",
+      "Weight": 1,
+      "BodyTag": [
+        1,
+        3
+      ],
+      "StyleTag": [
+        2
+      ],
+      "JobTag": [],
+      "ChatList": [
+        84019037,
+        84019045
+      ]
+    },
+    {
+      "Id": 84027015,
+      "BasicType": "体型+风格区分",
+      "DetailType": "少女、成女(商务)",
+      "Weight": 1,
+      "BodyTag": [
+        1,
+        3
+      ],
+      "StyleTag": [
+        3
+      ],
+      "JobTag": [],
+      "ChatList": [
+        84019052
+      ]
+    },
+    {
+      "Id": 84027016,
+      "BasicType": "体型+风格区分",
+      "DetailType": "少女、成女(运动)",
+      "Weight": 1,
+      "BodyTag": [
+        1,
+        3
+      ],
+      "StyleTag": [
+        5
+      ],
+      "JobTag": [],
+      "ChatList": [
+        84019070,
+        84019078
+      ]
+    },
+    {
+      "Id": 84027017,
+      "BasicType": "体型+职业区分",
+      "DetailType": "少男、肥仔(学生)",
+      "Weight": 1,
+      "BodyTag": [
+        0,
+        5
+      ],
+      "StyleTag": [],
+      "JobTag": [
+        1
+      ],
+      "ChatList": [
+        84019082,
+        84019089,
+        84019106,
+        84019097
+      ]
+    },
+    {
+      "Id": 84027018,
+      "BasicType": "体型+职业区分",
+      "DetailType": "少男(自媒体主播)",
+      "Weight": 1,
+      "BodyTag": [
+        0
+      ],
+      "StyleTag": [],
+      "JobTag": [
+        13,
+        10
+      ],
+      "ChatList": [
+        84019116
+      ]
+    },
+    {
+      "Id": 84027019,
+      "BasicType": "体型+职业区分",
+      "DetailType": "少男(犬魔社成员)",
+      "Weight": 1,
+      "BodyTag": [
+        0
+      ],
+      "StyleTag": [],
+      "JobTag": [
+        4
+      ],
+      "ChatList": [
+        84019130
+      ]
+    },
+    {
+      "Id": 84027020,
+      "BasicType": "体型+职业区分",
+      "DetailType": "少男(街球帮成员)",
+      "Weight": 1,
+      "BodyTag": [
+        0
+      ],
+      "StyleTag": [],
+      "JobTag": [
+        5
+      ],
+      "ChatList": [
+        84019122
+      ]
+    },
+    {
+      "Id": 84027021,
+      "BasicType": "体型+职业区分",
+      "DetailType": "成男、肥仔(银行职员)",
+      "Weight": 1,
+      "BodyTag": [
+        2,
+        5
+      ],
+      "StyleTag": [],
+      "JobTag": [
+        14
+      ],
+      "ChatList": [
+        84019148
+      ]
+    },
+    {
+      "Id": 84027022,
+      "BasicType": "体型+职业区分",
+      "DetailType": "成男、肥仔(普通上班族)",
+      "Weight": 1,
+      "BodyTag": [
+        2,
+        5
+      ],
+      "StyleTag": [],
+      "JobTag": [
+        0
+      ],
+      "ChatList": [
+        84019164
+      ]
+    },
+    {
+      "Id": 84027023,
+      "BasicType": "体型+职业区分",
+      "DetailType": "成男(建筑工人)",
+      "Weight": 1,
+      "BodyTag": [
+        3
+      ],
+      "StyleTag": [],
+      "JobTag": [
+        7
+      ],
+      "ChatList": [
+        84019171
+      ]
+    },
+    {
+      "Id": 84027024,
+      "BasicType": "体型+职业区分",
+      "DetailType": "少女(学生)",
+      "Weight": 1,
+      "BodyTag": [
+        1
+      ],
+      "StyleTag": [],
+      "JobTag": [
+        1
+      ],
+      "ChatList": [
+        84019186,
+        84019190,
+        84019194
+      ]
+    },
+    {
+      "Id": 84027025,
+      "BasicType": "体型+职业区分",
+      "DetailType": "少女(犬魔社成员)",
+      "Weight": 1,
+      "BodyTag": [
+        1
+      ],
+      "StyleTag": [],
+      "JobTag": [
+        4
+      ],
+      "ChatList": [
+        84019202
+      ]
+    },
+    {
+      "Id": 84027026,
+      "BasicType": "体型+职业区分",
+      "DetailType": "少女(犬魔社成员)",
+      "Weight": 1,
+      "BodyTag": [
+        1
+      ],
+      "StyleTag": [],
+      "JobTag": [
+        12
+      ],
+      "ChatList": [
+        84019209
+      ]
+    },
+    {
+      "Id": 84027027,
+      "BasicType": "体型+职业区分",
+      "DetailType": "少女(街头艺术家)",
+      "Weight": 1,
+      "BodyTag": [
+        1
+      ],
+      "StyleTag": [],
+      "JobTag": [
+        10,
+        13
+      ],
+      "ChatList": [
+        84019217
+      ]
+    },
+    {
+      "Id": 84027028,
+      "BasicType": "体型+职业区分",
+      "DetailType": "成女(普通上班族)",
+      "Weight": 1,
+      "BodyTag": [
+        1,
+        3
+      ],
+      "StyleTag": [],
+      "JobTag": [
+        0
+      ],
+      "ChatList": [
+        84019223,
+        84019227,
+        84019233
+      ]
+    },
+    {
+      "Id": 84027029,
+      "BasicType": "体型+职业区分",
+      "DetailType": "成女(公务员)",
+      "Weight": 1,
+      "BodyTag": [
+        3
+      ],
+      "StyleTag": [],
+      "JobTag": [
+        14
+      ],
+      "ChatList": [
+        84019255,
+        84019261
+      ]
+    },
+    {
+      "Id": 84027030,
+      "BasicType": "体型+职业区分",
+      "DetailType": "成女(公务员)",
+      "Weight": 1,
+      "BodyTag": [
+        3
+      ],
+      "StyleTag": [],
+      "JobTag": [
+        2
+      ],
+      "ChatList": [
+        84019245
+      ]
+    },
+    {
+      "Id": 84027031,
+      "BasicType": "体型+职业区分",
+      "DetailType": "成女(街头艺术家)",
+      "Weight": 1,
+      "BodyTag": [
+        3
+      ],
+      "StyleTag": [],
+      "JobTag": [
+        10
+      ],
+      "ChatList": [
+        84019269
+      ]
+    },
+    {
+      "Id": 84027032,
+      "BasicType": "体型+职业区分",
+      "DetailType": "成女(混厄教会成员)",
+      "Weight": 1,
+      "BodyTag": [
+        3
+      ],
+      "StyleTag": [],
+      "JobTag": [
+        12
+      ],
+      "ChatList": [
+        84019278
+      ]
+    },
+    {
+      "Id": 84027033,
+      "BasicType": "体型+职业区分",
+      "DetailType": "壮汉(建筑工人)",
+      "Weight": 1,
+      "BodyTag": [
+        4
+      ],
+      "StyleTag": [],
+      "JobTag": [
+        7
+      ],
+      "ChatList": [
+        84019284
+      ]
+    },
+    {
+      "Id": 84027034,
+      "BasicType": "体型+职业区分",
+      "DetailType": "成男、壮汉、肥仔(企业家)",
+      "Weight": 1,
+      "BodyTag": [
+        2,
+        4,
+        5
+      ],
+      "StyleTag": [],
+      "JobTag": [
+        9
+      ],
+      "ChatList": [
+        84019180
+      ]
+    }
+  ],
+  "_dumpedCount": 35,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

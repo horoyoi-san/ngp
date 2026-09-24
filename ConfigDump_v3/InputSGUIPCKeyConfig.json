@@ -1,0 +1,2403 @@
+{
+  "_class": "InputSGUIPCKeyConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 178,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "ESC",
+      "ButtonName": "ESC",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "ESC",
+      "Order": 1,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 2,
+      "Name": "SPACE",
+      "ButtonName": "SPACE",
+      "ButtonIcon": [
+        28017207
+      ],
+      "GuideIcon": [
+        28006802
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "Space",
+      "Order": 2,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 3,
+      "Name": "TAB",
+      "ButtonName": "TAB",
+      "ButtonIcon": [
+        28001449
+      ],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "Tab",
+      "Order": 4,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 4,
+      "Name": "ENTER",
+      "ButtonName": "ENTER",
+      "ButtonIcon": [
+        28017209
+      ],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "Enter",
+      "Order": 3,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 5,
+      "Name": "ALT",
+      "ButtonName": "ALT",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "Alt",
+      "Order": 5,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 6,
+      "Name": "CTRL",
+      "ButtonName": "CTRL",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "Control",
+      "Order": 6,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 7,
+      "Name": "SHIFT",
+      "ButtonName": "SHIFT",
+      "ButtonIcon": [
+        28017208
+      ],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "Shift",
+      "Order": 7,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 8,
+      "Name": "MouseLeftClick",
+      "ButtonName": "MouseLeftClick",
+      "ButtonIcon": [
+        28001289,
+        28001288,
+        28017203
+      ],
+      "GuideIcon": [
+        28000182
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "MouseLeftClick",
+      "Order": 8,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 9,
+      "Name": "MouseRightClick",
+      "ButtonName": "MouseRightClick",
+      "ButtonIcon": [
+        28001290,
+        28001288,
+        28017204
+      ],
+      "GuideIcon": [
+        28006990
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "MouseRightClick",
+      "Order": 9,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 10,
+      "Name": "F",
+      "ButtonName": "F",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "F",
+      "Order": 60,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 11,
+      "Name": "W",
+      "ButtonName": "W",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28006803
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "W",
+      "Order": 11,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 12,
+      "Name": "A",
+      "ButtonName": "A",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28017523
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "A",
+      "Order": 12,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 13,
+      "Name": "S",
+      "ButtonName": "S",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28000823
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "S",
+      "Order": 13,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 14,
+      "Name": "D",
+      "ButtonName": "D",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28017529
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "D",
+      "Order": 14,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 15,
+      "Name": "1",
+      "ButtonName": "1",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "1",
+      "Order": 15,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 16,
+      "Name": "2",
+      "ButtonName": "2",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "2",
+      "Order": 16,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 17,
+      "Name": "3",
+      "ButtonName": "3",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "3",
+      "Order": 17,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 18,
+      "Name": "4",
+      "ButtonName": "4",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "4",
+      "Order": 18,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 19,
+      "Name": "5",
+      "ButtonName": "5",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "5",
+      "Order": 19,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 20,
+      "Name": "6",
+      "ButtonName": "6",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "6",
+      "Order": 20,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 21,
+      "Name": "7",
+      "ButtonName": "7",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "7",
+      "Order": 21,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 22,
+      "Name": "8",
+      "ButtonName": "8",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "8",
+      "Order": 22,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 23,
+      "Name": "9",
+      "ButtonName": "9",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "9",
+      "Order": 23,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 24,
+      "Name": "0",
+      "ButtonName": "0",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "0",
+      "Order": 24,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 25,
+      "Name": "Q",
+      "ButtonName": "Q",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "Q",
+      "Order": 25,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 26,
+      "Name": "E",
+      "ButtonName": "E",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "E",
+      "Order": 26,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 27,
+      "Name": "R",
+      "ButtonName": "R",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "R",
+      "Order": 28,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 28,
+      "Name": "T",
+      "ButtonName": "T",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28001712
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "T",
+      "Order": 27,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 29,
+      "Name": "Z",
+      "ButtonName": "Z",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "Z",
+      "Order": 34,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 30,
+      "Name": "X",
+      "ButtonName": "X",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28017396
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "X",
+      "Order": 30,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 31,
+      "Name": "C",
+      "ButtonName": "C",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "C",
+      "Order": 31,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 32,
+      "Name": "V",
+      "ButtonName": "V",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "V",
+      "Order": 32,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 33,
+      "Name": "G",
+      "ButtonName": "G",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "G",
+      "Order": 29,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 34,
+      "Name": "H",
+      "ButtonName": "H",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "H",
+      "Order": 35,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 35,
+      "Name": "B",
+      "ButtonName": "B",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "B",
+      "Order": 36,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 36,
+      "Name": "M",
+      "ButtonName": "M",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "M",
+      "Order": 37,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 37,
+      "Name": "J",
+      "ButtonName": "J",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28017563
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "J",
+      "Order": 38,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 38,
+      "Name": "K",
+      "ButtonName": "K",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "K",
+      "Order": 39,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 39,
+      "Name": "O",
+      "ButtonName": "O",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "O",
+      "Order": 40,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 40,
+      "Name": "U",
+      "ButtonName": "U",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "U",
+      "Order": 40,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 41,
+      "Name": "I",
+      "ButtonName": "I",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "I",
+      "Order": 41,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 42,
+      "Name": "P",
+      "ButtonName": "P",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "P",
+      "Order": 42,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 43,
+      "Name": "N",
+      "ButtonName": "N",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "N",
+      "Order": 43,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 44,
+      "Name": ",",
+      "ButtonName": ",",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "Comma",
+      "Order": 44,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 45,
+      "Name": ".",
+      "ButtonName": ".",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "Dot",
+      "Order": 45,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 46,
+      "Name": "Y",
+      "ButtonName": "Y",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "Y",
+      "Order": 46,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 47,
+      "Name": "L",
+      "ButtonName": "L",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "L",
+      "Order": 47,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 48,
+      "Name": "MouseScroll",
+      "ButtonName": "MouseScroll",
+      "ButtonIcon": [
+        28001467
+      ],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "MouseScroll",
+      "Order": 48,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 49,
+      "Name": "MouseScrollClick",
+      "ButtonName": "MouseScrollClick",
+      "ButtonIcon": [
+        28017197
+      ],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "MouseScrollClick",
+      "Order": 49,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 50,
+      "Name": "BACKSPACE",
+      "ButtonName": "BACKSPACE",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "BackSpace",
+      "Order": 50,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 51,
+      "Name": "Asterisk",
+      "ButtonName": "Asterisk",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "Asterisk",
+      "Order": 51,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 52,
+      "Name": "Pound",
+      "ButtonName": "Pound",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "Pound",
+      "Order": 52,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 53,
+      "Name": "F4",
+      "ButtonName": "F4",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "F4",
+      "Order": 53,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 54,
+      "Name": "MouseMove",
+      "ButtonName": "MouseMove",
+      "ButtonIcon": [
+        28017153
+      ],
+      "GuideIcon": [
+        28000738
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "MouseMove",
+      "Order": 54,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 55,
+      "Name": "MousePosition",
+      "ButtonName": "MousePosition",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "UI",
+      "ActionName": "Point",
+      "Order": 55,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 56,
+      "Name": "WASD",
+      "ButtonName": "WASD",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "WASD",
+      "Order": 56,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 57,
+      "Name": "UpArrow",
+      "ButtonName": "UpArrow",
+      "ButtonIcon": [
+        28000800
+      ],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "UpArrow",
+      "Order": 58,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 58,
+      "Name": "DownArrow",
+      "ButtonName": "DownArrow",
+      "ButtonIcon": [
+        28000797
+      ],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "DownArrow",
+      "Order": 57,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 59,
+      "Name": "RightArrow",
+      "ButtonName": "RightArrow",
+      "ButtonIcon": [
+        28000799
+      ],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "RightArrow",
+      "Order": 60,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 60,
+      "Name": "LeftArrow",
+      "ButtonName": "LeftArrow",
+      "ButtonIcon": [
+        28000798
+      ],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "LeftArrow",
+      "Order": 59,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 61,
+      "Name": "CAPS",
+      "ButtonName": "CAPS",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "CapsLock",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 62,
+      "Name": "F1",
+      "ButtonName": "F1",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28001677
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "F1",
+      "Order": 51,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 63,
+      "Name": "F2",
+      "ButtonName": "F2",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28001678
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "F2",
+      "Order": 52,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 64,
+      "Name": "F3",
+      "ButtonName": "F3",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "F3",
+      "Order": 53,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 65,
+      "Name": "F5",
+      "ButtonName": "F5",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "F5",
+      "Order": 54,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 66,
+      "Name": "F6",
+      "ButtonName": "F6",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "F6",
+      "Order": 55,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 67,
+      "Name": "F7",
+      "ButtonName": "F7",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "F7",
+      "Order": 56,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 68,
+      "Name": "F8",
+      "ButtonName": "F8",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "F8",
+      "Order": 57,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 69,
+      "Name": "MouseLeftClickWithUI",
+      "ButtonName": "MouseLeftClickWithUI",
+      "ButtonIcon": [
+        28001289,
+        28001288,
+        28017203
+      ],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "MouseLeftClickWithUI",
+      "Order": 8,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 70,
+      "Name": "MouseRightClickWithUI",
+      "ButtonName": "MouseRightClickWithUI",
+      "ButtonIcon": [
+        28001290,
+        28001288,
+        28017204
+      ],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "MouseRightClickWithUI",
+      "Order": 9,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 71,
+      "Name": "~",
+      "ButtonName": "~",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "Tilde",
+      "Order": 58,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 72,
+      "Name": ";",
+      "ButtonName": ";",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "Semicolons",
+      "Order": 59,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 73,
+      "Name": "'",
+      "ButtonName": "'",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "InvertedComma",
+      "Order": 60,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 74,
+      "Name": "[",
+      "ButtonName": "[",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "LeftSquareBracket",
+      "Order": 61,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 75,
+      "Name": "]",
+      "ButtonName": "]",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "RightSquareBracket",
+      "Order": 62,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 76,
+      "Name": "/",
+      "ButtonName": "/",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "Slash",
+      "Order": 63,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 77,
+      "Name": "Alt+~",
+      "ButtonName": "Alt+~",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "Alt_Tilde",
+      "Order": 64,
+      "KeyFont": "L51DINCN-Medium_SDF"
+    },
+    {
+      "Id": 78,
+      "Name": "Alt+F1",
+      "ButtonName": "Alt+F1",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "Alt_F1",
+      "Order": 65,
+      "KeyFont": "L52DINCN-Medium_SDF"
+    },
+    {
+      "Id": 79,
+      "Name": "Alt+F2",
+      "ButtonName": "Alt+F2",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "Alt_F2",
+      "Order": 66,
+      "KeyFont": "L53DINCN-Medium_SDF"
+    },
+    {
+      "Id": 80,
+      "Name": "Alt+F3",
+      "ButtonName": "Alt+F3",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "Alt_F3",
+      "Order": 67,
+      "KeyFont": "L54DINCN-Medium_SDF"
+    },
+    {
+      "Id": 81,
+      "Name": "Forward",
+      "ButtonName": "Forward",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28006803
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "DriveVehicle",
+      "ActionName": "Forward",
+      "Order": 11,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 82,
+      "Name": "Left",
+      "ButtonName": "Left",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28017523
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "DriveVehicle",
+      "ActionName": "Left",
+      "Order": 12,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 83,
+      "Name": "Backward",
+      "ButtonName": "Backward",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28000823
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "DriveVehicle",
+      "ActionName": "Backward",
+      "Order": 13,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 84,
+      "Name": "Right",
+      "ButtonName": "Right",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28017529
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "DriveVehicle",
+      "ActionName": "Right",
+      "Order": 14,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 85,
+      "Name": "Ctrl+Z",
+      "ButtonName": "Ctrl+Z",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "Ctrl_Z",
+      "Order": 3,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 86,
+      "Name": "Ctrl+Y",
+      "ButtonName": "Ctrl+Y",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "Ctrl_Y",
+      "Order": 4,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 88,
+      "Name": "PC_Mouse_Alt",
+      "ButtonName": "ALT",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCNormal",
+      "ActionName": "PC_Mouse",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 89,
+      "Name": "Ground_Interact_F",
+      "ButtonName": "F",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28008024
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PC_GroundNormal",
+      "ActionName": "Ground_Interact",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 90,
+      "Name": "PC_Character_Z",
+      "ButtonName": "Z",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28000803
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCNormal",
+      "ActionName": "PC_Character",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 91,
+      "Name": "Ground_WeaponRoulette_Tab",
+      "ButtonName": "TAB",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28000805
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PC_GroundNormal",
+      "ActionName": "Ground_WeaponRoulette",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 92,
+      "Name": "Ground_Weapon_MouseScroll",
+      "ButtonName": "MouseScroll",
+      "ButtonIcon": [
+        28001467
+      ],
+      "GuideIcon": [
+        28000820
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PC_GroundNormal",
+      "ActionName": "Ground_Weapon",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 93,
+      "Name": "PC_Vehicle_F1",
+      "ButtonName": "F1",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28001677
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCNormal",
+      "ActionName": "PC_Vehicle",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 96,
+      "Name": "PC_TaskGiveup_P",
+      "ButtonName": "P",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCNormal",
+      "ActionName": "PC_TaskGiveup",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 97,
+      "Name": "PC_TaskQuick_T",
+      "ButtonName": "T",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28001712
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCNormal",
+      "ActionName": "PC_TaskQuick",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 98,
+      "Name": "S_Mobile_Esc",
+      "ButtonName": "ESC",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28008111
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "System",
+      "ActionName": "S_Mobile",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 99,
+      "Name": "S_Roulette_Y",
+      "ButtonName": "Y",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "System",
+      "ActionName": "S_Roulette",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 100,
+      "Name": "S_Map_M",
+      "ButtonName": "M",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28009028
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "MapButtonM",
+      "ActionName": "MapOnly",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 101,
+      "Name": "S_WeaponArmory",
+      "ButtonName": "J",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "System",
+      "ActionName": "S_WeaponArmory",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 102,
+      "Name": "S_Bag_B",
+      "ButtonName": "B",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28009041
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "System",
+      "ActionName": "S_Bag",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 103,
+      "Name": "S_Chat_Enter",
+      "ButtonName": "ENTER",
+      "ButtonIcon": [
+        28017209
+      ],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "System",
+      "ActionName": "S_Chat",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 104,
+      "Name": "S_TalentTree_K",
+      "ButtonName": "K",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28017152
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "System",
+      "ActionName": "S_TalentTree",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 105,
+      "Name": "Chr_Jump_Space",
+      "ButtonName": "SPACE",
+      "ButtonIcon": [
+        28001446,
+        28017207
+      ],
+      "GuideIcon": [
+        28006802
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Character",
+      "ActionName": "Chr_Jump",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 106,
+      "Name": "Chr_SwitchWalk_Ctrl",
+      "ButtonName": "CTRL",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28000752
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Character",
+      "ActionName": "Chr_SwitchWalk",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 107,
+      "Name": "Chr_Rush_Shift",
+      "ButtonName": "SHIFT",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28006917
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Character",
+      "ActionName": "Chr_Rush",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 109,
+      "Name": "Chr_JumpOut_X",
+      "ButtonName": "X",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28017396
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Chr_Wall",
+      "ActionName": "Chr_JumpOut",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 110,
+      "Name": "Chr_WingDive_W",
+      "ButtonName": "E",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28008024
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Chr_Wingsuit",
+      "ActionName": "Chr_WingDive",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 111,
+      "Name": "Chr_WingPull_S",
+      "ButtonName": "S",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28000823
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Chr_Wingsuit",
+      "ActionName": "Chr_WingPull",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 113,
+      "Name": "Chr_SwimFloat_Space",
+      "ButtonName": "SPACE",
+      "ButtonIcon": [
+        28001446,
+        28017207
+      ],
+      "GuideIcon": [
+        28006802
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Chr_Water",
+      "ActionName": "Chr_SwimFloat",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 114,
+      "Name": "Chr_SwimDive_Ctrl",
+      "ButtonName": "CTRL",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28000752
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Chr_Water",
+      "ActionName": "Chr_SwimDive",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 115,
+      "Name": "Chr_SwimSpeedUp_Shift",
+      "ButtonName": "SHIFT",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28006917
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Chr_Water",
+      "ActionName": "Chr_SwimSpeedUp",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 116,
+      "Name": "Chr_Shoot_Space",
+      "ButtonName": "SPACE",
+      "ButtonIcon": [
+        28001446,
+        28017207
+      ],
+      "GuideIcon": [
+        28006802
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Chr_Basketball",
+      "ActionName": "Chr_Shoot",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 117,
+      "Name": "Chr_Dribble_Shift",
+      "ButtonName": "SHIFT",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28006917
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Chr_Basketball",
+      "ActionName": "Chr_Dribble",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 118,
+      "Name": "Chr_DribblePast_R",
+      "ButtonName": "R",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28008023
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Chr_Basketball",
+      "ActionName": "Chr_DribblePast",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 119,
+      "Name": "Chr_Leap_C",
+      "ButtonName": "C",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28000183
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Chr_MC",
+      "ActionName": "Chr_Leap",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 120,
+      "Name": "Chr_Moto_C",
+      "ButtonName": "C",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28000183
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Chr_Taffy",
+      "ActionName": "Chr_Moto",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 121,
+      "Name": "Chr_Hack_MouseScroll",
+      "ButtonName": "MouseScroll",
+      "ButtonIcon": [
+        28017197
+      ],
+      "GuideIcon": [
+        28000820
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Chr_Seymour",
+      "ActionName": "Chr_Hack",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 122,
+      "Name": "Chr_MindUp_Space",
+      "ButtonName": "SPACE",
+      "ButtonIcon": [
+        28001467
+      ],
+      "GuideIcon": [
+        28006802
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Chr_Dila",
+      "ActionName": "Chr_MindUp",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 123,
+      "Name": "Chr_MindDown_Ctrl",
+      "ButtonName": "CTRL",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28000752
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Chr_Dila",
+      "ActionName": "Chr_MindDown",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 124,
+      "Name": "Chr_MindDrop_C",
+      "ButtonName": "C",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28000183
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Chr_Dila",
+      "ActionName": "Chr_MindDrop",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 125,
+      "Name": "Chr_Block",
+      "ButtonName": "MouseRight",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Chr_Basketball",
+      "ActionName": "Chr_Block",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 128,
+      "Name": "Battle_Mind_Q",
+      "ButtonName": "Q",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28006801
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Battle",
+      "ActionName": "Battle_Mind",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 129,
+      "Name": "Battle_Attack_MouseLeft",
+      "ButtonName": "MouseLeft",
+      "ButtonIcon": [
+        28001289,
+        28001288,
+        28017203
+      ],
+      "GuideIcon": [
+        28000182
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Battle",
+      "ActionName": "Battle_Attack",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 130,
+      "Name": "Battle_E_E",
+      "ButtonName": "E",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28008023
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Battle",
+      "ActionName": "Battle_E",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 131,
+      "Name": "Battle_R_R",
+      "ButtonName": "R",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28000755
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Battle",
+      "ActionName": "Battle_R",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 132,
+      "Name": "Battle_Kick_F",
+      "ButtonName": "F",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28008024
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PC_Battle_Condition",
+      "ActionName": "Battle_Kick",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 133,
+      "Name": "Battle_Block_MouseRight",
+      "ButtonName": "MouseRight",
+      "ButtonIcon": [
+        28001290,
+        28001288,
+        28017204
+      ],
+      "GuideIcon": [
+        28006990
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Battle",
+      "ActionName": "Battle_Block",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 136,
+      "Name": "Battle_Reload_R",
+      "ButtonName": "R",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28008023
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Battle_Weapon",
+      "ActionName": "Battle_Reload",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 137,
+      "Name": "Battle_Discard_E",
+      "ButtonName": "E",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28008023
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Battle_Weapon",
+      "ActionName": "Battle_Discard",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 141,
+      "Name": "V_Reload_R",
+      "ButtonName": "R",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28000755
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Vehicle",
+      "ActionName": "V_Reload",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 142,
+      "Name": "V_SwitchView_~",
+      "ButtonName": "~",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Vehicle",
+      "ActionName": "V_SwitchView",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 143,
+      "Name": "V_Radio_I",
+      "ButtonName": "I",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Vehicle_Radio",
+      "ActionName": "V_Radio",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 144,
+      "Name": "V_SwitchRadio_MouseScroll",
+      "ButtonName": "MouseScroll",
+      "ButtonIcon": [
+        28001467
+      ],
+      "GuideIcon": [
+        28000820
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Vehicle",
+      "ActionName": "V_SwitchRadio",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 145,
+      "Name": "V_Drift_Space",
+      "ButtonName": "SPACE",
+      "ButtonIcon": [
+        28001446,
+        28017207
+      ],
+      "GuideIcon": [
+        28006802
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Vehicle",
+      "ActionName": "V_Drift",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 156,
+      "Name": "C_CallBack_F",
+      "ButtonName": "F",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28008024
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Creature",
+      "ActionName": "C_CallBack",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 157,
+      "Name": "C_SwitchView_~",
+      "ButtonName": "~",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Creature",
+      "ActionName": "C_SwitchView",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 158,
+      "Name": "C_SwitchControl_N",
+      "ButtonName": "N",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28017196
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Creature",
+      "ActionName": "C_SwitchControl",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 159,
+      "Name": "C_Roulette_Tab",
+      "ButtonName": "TAB",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28000805
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Creature",
+      "ActionName": "C_Roulette",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 160,
+      "Name": "C_Attack_MouseLeft",
+      "ButtonName": "MouseLeft",
+      "ButtonIcon": [
+        28001289,
+        28001288,
+        28017203
+      ],
+      "GuideIcon": [
+        28000182
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Creature",
+      "ActionName": "C_Attack",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 161,
+      "Name": "C_Skill_E",
+      "ButtonName": "E",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28008023
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Creature",
+      "ActionName": "C_Skill",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 162,
+      "Name": "C_Raise_Space",
+      "ButtonName": "SPACE",
+      "ButtonIcon": [
+        28001446,
+        28017207
+      ],
+      "GuideIcon": [
+        28006802
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Creature_Drone",
+      "ActionName": "C_Raise",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 163,
+      "Name": "C_Drop_Ctrl",
+      "ButtonName": "CTRL",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28000752
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Creature_Drone",
+      "ActionName": "C_Drop",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 164,
+      "Name": "C_SwitchGear_MouseScroll",
+      "ButtonName": "MouseScroll",
+      "ButtonIcon": [
+        28001467
+      ],
+      "GuideIcon": [
+        28000820
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Creature_Drone",
+      "ActionName": "C_SwitchGear",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 165,
+      "Name": "C_DogRush_Shift",
+      "ButtonName": "SHIFT",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28006917
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Creature_Dog",
+      "ActionName": "C_DogRush",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 166,
+      "Name": "C_DogJump_Space",
+      "ButtonName": "SPACE",
+      "ButtonIcon": [
+        28001446,
+        28017207
+      ],
+      "GuideIcon": [
+        28006802
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Creature_Dog",
+      "ActionName": "C_DogJump",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 167,
+      "Name": "C_DogCrawl_Ctrl",
+      "ButtonName": "CTRL",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28000752
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Creature_Dog",
+      "ActionName": "C_DogCrawl",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 168,
+      "Name": "C_SpiderRush_Shift",
+      "ButtonName": "SHIFT",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28006917
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Creature_Spider",
+      "ActionName": "C_SpiderRush",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 169,
+      "Name": "C_SpiderJump_Space",
+      "ButtonName": "SPACE",
+      "ButtonIcon": [
+        28001446,
+        28017207
+      ],
+      "GuideIcon": [
+        28006802
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Creature_Spider",
+      "ActionName": "C_SpiderJump",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 170,
+      "Name": "C_SpiderLeap_C",
+      "ButtonName": "C",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28000183
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Creature_Spider",
+      "ActionName": "C_SpiderLeap",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 171,
+      "Name": "PC_Scan_V",
+      "ButtonName": "V",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28008025
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PC_NonVehicleNormal",
+      "ActionName": "PC_Scan",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 172,
+      "Name": "PC_MilkCar",
+      "ButtonName": "F2",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28001678
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCNormal",
+      "ActionName": "PC_MilkCar",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 176,
+      "Name": "Chr_WingFly_X",
+      "ButtonName": "X",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28017396
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Chr_Wingsuit",
+      "ActionName": "Chr_WingFly",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 177,
+      "Name": "C_TakePhoto_F6",
+      "ButtonName": "F6",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Creature",
+      "ActionName": "C_TakePhoto",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 178,
+      "Name": "Ctrl+C",
+      "ButtonName": "Ctrl+C",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "Ctrl_C",
+      "Order": 3,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 179,
+      "Name": "Ctrl+V",
+      "ButtonName": "Ctrl+V",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "Ctrl_V",
+      "Order": 4,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 180,
+      "Name": "PC_OpenMic_V",
+      "ButtonName": "V",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCNormal",
+      "ActionName": "PC_OpenMic",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 181,
+      "Name": "Vehicle_Horn",
+      "ButtonName": "Q",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Vehicle_Horn",
+      "ActionName": "Vehicle_Horn",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 182,
+      "Name": "S_GuideBubble_ALTG",
+      "ButtonName": "ALT+G",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "Alt_G",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 183,
+      "Name": "Link_Mic_V",
+      "ButtonName": "V",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Link",
+      "ActionName": "Link_Mic",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 184,
+      "Name": "Link_CreateTeam_F3",
+      "ButtonName": "F3",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28017548
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "LinkNotMatch",
+      "ActionName": "Link_CreateTeam",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 185,
+      "Name": "Link_CheckTeam_F6",
+      "ButtonName": "F6",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28017551
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "LinkNotMatch",
+      "ActionName": "Link_CheckTeam",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 186,
+      "Name": "Link_ActionList_F5",
+      "ButtonName": "F5",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28017550
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "LinkNotMatch",
+      "ActionName": "Link_ActionList",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 187,
+      "Name": "Link_ChatWheel_G",
+      "ButtonName": "G",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "LinkMatch",
+      "ActionName": "Link_ChatWheel",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 188,
+      "Name": "Link_QuickMark_MouseScroll",
+      "ButtonName": "MouseScroll",
+      "ButtonIcon": [
+        28001467
+      ],
+      "GuideIcon": [
+        28000820
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "LinkMatch",
+      "ActionName": "Link_QuickMark",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 189,
+      "Name": "Link_WatchOthers_1",
+      "ButtonName": "1",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "LinkMatch",
+      "ActionName": "Link_WatchOthers",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 190,
+      "Name": "V_HelicopterUp_Space",
+      "ButtonName": "SPACE",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28006802
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Vehicle_Helicopter",
+      "ActionName": "Vehicle_HelicopterUp",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 191,
+      "Name": "V_HelicopterDown_Ctrl",
+      "ButtonName": "CTRL",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28000752
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Vehicle_Helicopter",
+      "ActionName": "Vehicle_HelicopterDown",
+      "Order": 10,
+      "KeyFont": "L50Pckey_SDF"
+    },
+    {
+      "Id": 192,
+      "Name": "V_RowBoatLeftForward_Q",
+      "ButtonName": "Q",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28006801
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Vehicle_RowBoat",
+      "ActionName": "Vehicle_RowBoatLeftForward",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 193,
+      "Name": "V_RowBoatLeftBack_A",
+      "ButtonName": "A",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28017523
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Vehicle_RowBoat",
+      "ActionName": "Vehicle_RowBoatLeftBack",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 194,
+      "Name": "V_RowBoatRightForward_E",
+      "ButtonName": "E",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28008023
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Vehicle_RowBoat",
+      "ActionName": "Vehicle_RowBoatRightForward",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 195,
+      "Name": "V_RowBoatRightBack_D",
+      "ButtonName": "D",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28017529
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Vehicle_RowBoat",
+      "ActionName": "Vehicle_RowBoatRightBack",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 196,
+      "Name": "ALT+SCROLL",
+      "ButtonName": "ALT+MouseScroll",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "Alt_Scroll",
+      "Order": 10,
+      "KeyFont": "L51DINCN-Medium_SDF"
+    },
+    {
+      "Id": 197,
+      "Name": "Ctrl+S",
+      "ButtonName": "Ctrl+S",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "Ctrl_S",
+      "Order": 3,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 198,
+      "Name": "Ctrl+MiddleMouse",
+      "ButtonName": "Ctrl+MiddleMouse",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "PCKey",
+      "ActionName": "Ctrl_MiddleMouse",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 199,
+      "Name": "Vehicle_Up",
+      "ButtonName": "Shift",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28006917
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Vehicle",
+      "ActionName": "Vehicle_Up",
+      "Order": 11,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 200,
+      "Name": "Vehicle_Down",
+      "ButtonName": "Ctrl",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28000752
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Vehicle",
+      "ActionName": "Vehicle_Down",
+      "Order": 12,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 201,
+      "Name": "Vehicle_Special",
+      "ButtonName": "C",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Vehicle",
+      "ActionName": "Vehicle_Special",
+      "Order": 13,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 202,
+      "Name": "Vehicle_AutoDrive",
+      "ButtonName": "R",
+      "ButtonIcon": [],
+      "GuideIcon": [],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Vehicle",
+      "ActionName": "Vehicle_AutoDrive",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    },
+    {
+      "Id": 203,
+      "Name": "Chr_BasketballUlt_E",
+      "ButtonName": "E",
+      "ButtonIcon": [],
+      "GuideIcon": [
+        28008023
+      ],
+      "ActionAsset": "SGUIInputActionMap",
+      "ActionMap": "Chr_Basketball",
+      "ActionName": "Chr_BasketballUlt",
+      "Order": 10,
+      "KeyFont": "L50DINCN-Medium_SDF"
+    }
+  ],
+  "_dumpedCount": 178,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

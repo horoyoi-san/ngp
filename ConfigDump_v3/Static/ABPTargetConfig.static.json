@@ -1,0 +1,1521 @@
+{
+  "DestEdgeCfg": {
+    "Id": 1,
+    "CodeName": "DestEdge",
+    "Deprecated": true,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "DestEdge2Cfg": {
+    "Id": 2,
+    "CodeName": "DestEdge2",
+    "Deprecated": true,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "DestEdge3Cfg": {
+    "Id": 3,
+    "CodeName": "DestEdge3",
+    "Deprecated": true,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "PositionCfg": {
+    "Id": 11,
+    "CodeName": "Position",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "RotationTargetForwardCfg": {
+    "Id": 20,
+    "CodeName": "RotationTargetForward",
+    "Deprecated": true,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "OrientationTargetForwardCfg": {
+    "Id": 21,
+    "CodeName": "OrientationTargetForward",
+    "Deprecated": true,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "KeyDownDirectionCfg": {
+    "Id": 22,
+    "CodeName": "KeyDownDirection",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "DirectionStartPointCfg": {
+    "Id": 23,
+    "CodeName": "DirectionStartPoint",
+    "Deprecated": true,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "DirectionEndPointCfg": {
+    "Id": 24,
+    "CodeName": "DirectionEndPoint",
+    "Deprecated": true,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "CurrentForwardCfg": {
+    "Id": 25,
+    "CodeName": "CurrentForward",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "IdentityCfg": {
+    "Id": 26,
+    "CodeName": "Identity",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "CurrentForwardXZCfg": {
+    "Id": 27,
+    "CodeName": "CurrentForwardXZ",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "CameraYawCfg": {
+    "Id": 28,
+    "CodeName": "CameraYaw",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "StrafeDirYawCfg": {
+    "Id": 29,
+    "CodeName": "StrafeDirYaw",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "FBBIkTargetLeftHandCfg": {
+    "Id": 33,
+    "CodeName": "FBBIkTargetLeftHand",
+    "Deprecated": true,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "FBBIkTargetRightHandCfg": {
+    "Id": 34,
+    "CodeName": "FBBIkTargetRightHand",
+    "Deprecated": true,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "GameInteractIKTargetCfg": {
+    "Id": 35,
+    "CodeName": "GameInteractIKTarget",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "GameInteractDestCfg": {
+    "Id": 36,
+    "CodeName": "GameInteractDest",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "SlowWallTopOutPointCfg": {
+    "Id": 37,
+    "CodeName": "SlowWallTopOutPoint",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "InterActionToMovementCfg": {
+    "Id": 38,
+    "CodeName": "InterActionToMovement",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "VehicleEnterDirectionDoorCloseCfg": {
+    "Id": 83,
+    "CodeName": "VehicleEnterDirectionDoorClose",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "VehicleEnterDirectionDoorOpenCfg": {
+    "Id": 84,
+    "CodeName": "VehicleEnterDirectionDoorOpen",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "TurningDirectionCfg": {
+    "Id": 98,
+    "CodeName": "TurningDirection",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "BehaviorTargetCfg": {
+    "Id": 99,
+    "CodeName": "BehaviorTarget",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "WeaponIK_LeftHandCfg": {
+    "Id": 100,
+    "CodeName": "WeaponIK_LeftHand",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "FinalAngleCfg": {
+    "Id": 101,
+    "CodeName": "FinalAngle",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "SelfIK_DrinkHandPointCfg": {
+    "Id": 301,
+    "CodeName": "SelfIK_DrinkHandPoint",
+    "Deprecated": false,
+    "Group": 1,
+    "ReplicateInIK": false
+  },
+  "SelfIK_LeftHandOnWaistCfg": {
+    "Id": 302,
+    "CodeName": "SelfIK_LeftHandOnWaist",
+    "Deprecated": false,
+    "Group": 1,
+    "ReplicateInIK": false
+  },
+  "SelfIK_RightHandOnWaistCfg": {
+    "Id": 303,
+    "CodeName": "SelfIK_RightHandOnWaist",
+    "Deprecated": false,
+    "Group": 1,
+    "ReplicateInIK": false
+  },
+  "Inter2_AlcoholTestCfg": {
+    "Id": 1001,
+    "CodeName": "Inter2_AlcoholTest",
+    "Deprecated": false,
+    "Group": 2,
+    "ReplicateInIK": false
+  },
+  "Inter2_DrugTestCfg": {
+    "Id": 1002,
+    "CodeName": "Inter2_DrugTest",
+    "Deprecated": false,
+    "Group": 2,
+    "ReplicateInIK": false
+  },
+  "Inter2_Frisk0Cfg": {
+    "Id": 1003,
+    "CodeName": "Inter2_Frisk0",
+    "Deprecated": false,
+    "Group": 2,
+    "ReplicateInIK": false
+  },
+  "Inter2_Frisk1Cfg": {
+    "Id": 1004,
+    "CodeName": "Inter2_Frisk1",
+    "Deprecated": false,
+    "Group": 2,
+    "ReplicateInIK": false
+  },
+  "Inter2_Frisk2Cfg": {
+    "Id": 1005,
+    "CodeName": "Inter2_Frisk2",
+    "Deprecated": false,
+    "Group": 2,
+    "ReplicateInIK": false
+  },
+  "Inter2_Frisk3Cfg": {
+    "Id": 1006,
+    "CodeName": "Inter2_Frisk3",
+    "Deprecated": false,
+    "Group": 2,
+    "ReplicateInIK": false
+  },
+  "Inter2_Frisk4Cfg": {
+    "Id": 1007,
+    "CodeName": "Inter2_Frisk4",
+    "Deprecated": false,
+    "Group": 2,
+    "ReplicateInIK": false
+  },
+  "Inter2_Frisk5Cfg": {
+    "Id": 1008,
+    "CodeName": "Inter2_Frisk5",
+    "Deprecated": false,
+    "Group": 2,
+    "ReplicateInIK": false
+  },
+  "Inter2_IDCheckCfg": {
+    "Id": 1009,
+    "CodeName": "Inter2_IDCheck",
+    "Deprecated": false,
+    "Group": 2,
+    "ReplicateInIK": false
+  },
+  "Inter2_TicketCfg": {
+    "Id": 1010,
+    "CodeName": "Inter2_Ticket",
+    "Deprecated": false,
+    "Group": 2,
+    "ReplicateInIK": false
+  },
+  "Inter2_ArrestCfg": {
+    "Id": 1011,
+    "CodeName": "Inter2_Arrest",
+    "Deprecated": false,
+    "Group": 2,
+    "ReplicateInIK": false
+  },
+  "Inter2_HugCfg": {
+    "Id": 1012,
+    "CodeName": "Inter2_Hug",
+    "Deprecated": false,
+    "Group": 2,
+    "ReplicateInIK": false
+  },
+  "Inter2_PrincessHugCfg": {
+    "Id": 1013,
+    "CodeName": "Inter2_PrincessHug",
+    "Deprecated": false,
+    "Group": 2,
+    "ReplicateInIK": false
+  },
+  "Inter2_HoldLeftHandCfg": {
+    "Id": 1014,
+    "CodeName": "Inter2_HoldLeftHand",
+    "Deprecated": false,
+    "Group": 2,
+    "ReplicateInIK": false
+  },
+  "Inter2_HoldRightHandCfg": {
+    "Id": 1015,
+    "CodeName": "Inter2_HoldRightHand",
+    "Deprecated": false,
+    "Group": 2,
+    "ReplicateInIK": false
+  },
+  "Inter2_PrincessBackCfg": {
+    "Id": 1016,
+    "CodeName": "Inter2_PrincessBack",
+    "Deprecated": false,
+    "Group": 2,
+    "ReplicateInIK": false
+  },
+  "Inter2_EscortHandCfg": {
+    "Id": 1017,
+    "CodeName": "Inter2_EscortHand",
+    "Deprecated": false,
+    "Group": 2,
+    "ReplicateInIK": false
+  },
+  "Inter2_FaceCheckCfg": {
+    "Id": 1018,
+    "CodeName": "Inter2_FaceCheck",
+    "Deprecated": false,
+    "Group": 2,
+    "ReplicateInIK": false
+  },
+  "Inter2_PoliceDrugCheckCfg": {
+    "Id": 1019,
+    "CodeName": "Inter2_PoliceDrugCheck",
+    "Deprecated": false,
+    "Group": 2,
+    "ReplicateInIK": false
+  },
+  "Inter2_InteractDynamicPointCfg": {
+    "Id": 1020,
+    "CodeName": "Inter2_InteractDynamicPoint",
+    "Deprecated": false,
+    "Group": 2,
+    "ReplicateInIK": false
+  },
+  "Inter2_InteractLocalTransformCfg": {
+    "Id": 1021,
+    "CodeName": "Inter2_InteractLocalTransform",
+    "Deprecated": false,
+    "Group": 2,
+    "ReplicateInIK": false
+  },
+  "Inter2_ArrestHandCfg": {
+    "Id": 1022,
+    "CodeName": "Inter2_ArrestHand",
+    "Deprecated": false,
+    "Group": 2,
+    "ReplicateInIK": false
+  },
+  "Inter2_GadgetsDestinationCfg": {
+    "Id": 1023,
+    "CodeName": "Inter2_GadgetsDestination",
+    "Deprecated": false,
+    "Group": 2,
+    "ReplicateInIK": false
+  },
+  "Inter2_PassiveMoveTargetCfg": {
+    "Id": 1024,
+    "CodeName": "Inter2_PassiveMoveTarget",
+    "Deprecated": false,
+    "Group": 2,
+    "ReplicateInIK": false
+  },
+  "Inter2_InteractInstantDirCfg": {
+    "Id": 2023,
+    "CodeName": "Inter2_InteractInstantDir",
+    "Deprecated": false,
+    "Group": 2,
+    "ReplicateInIK": false
+  },
+  "Inter2_PrincessCarrySyncHeightCfg": {
+    "Id": 2024,
+    "CodeName": "Inter2_PrincessCarrySyncHeight",
+    "Deprecated": false,
+    "Group": 2,
+    "ReplicateInIK": false
+  },
+  "Inter2_PrincessCarryStartWarpCfg": {
+    "Id": 1025,
+    "CodeName": "Inter2_PrincessCarryStartWarp",
+    "Deprecated": false,
+    "Group": 2,
+    "ReplicateInIK": false
+  },
+  "Inter2_PrincessCarryEndWarpCfg": {
+    "Id": 1027,
+    "CodeName": "Inter2_PrincessCarryEndWarp",
+    "Deprecated": false,
+    "Group": 2,
+    "ReplicateInIK": false
+  },
+  "Inter2_EscortEnterVehicleCfg": {
+    "Id": 1026,
+    "CodeName": "Inter2_EscortEnterVehicle",
+    "Deprecated": false,
+    "Group": 2,
+    "ReplicateInIK": false
+  },
+  "Mount_GeneralLeftHandCfg": {
+    "Id": 2001,
+    "CodeName": "Mount_GeneralLeftHand",
+    "Deprecated": false,
+    "Group": 3,
+    "ReplicateInIK": false
+  },
+  "Mount_GeneralRightHandCfg": {
+    "Id": 2002,
+    "CodeName": "Mount_GeneralRightHand",
+    "Deprecated": false,
+    "Group": 3,
+    "ReplicateInIK": false
+  },
+  "NPCFocusTargetCfg": {
+    "Id": 3000,
+    "CodeName": "NPCFocusTarget",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "NPCCarryEndCfg": {
+    "Id": 3001,
+    "CodeName": "NPCCarryEnd",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "NPCClimbTreeCfg": {
+    "Id": 3002,
+    "CodeName": "NPCClimbTree",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "NPCAvoidVehicleMoveStartCfg": {
+    "Id": 3003,
+    "CodeName": "NPCAvoidVehicleMoveStart",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "NPCAvoidVehicleMoveEndCfg": {
+    "Id": 3004,
+    "CodeName": "NPCAvoidVehicleMoveEnd",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "NPCAvoidVehicleScaredDirectionCfg": {
+    "Id": 3005,
+    "CodeName": "NPCAvoidVehicleScaredDirection",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "NPCHookLeftHandCfg": {
+    "Id": 3006,
+    "CodeName": "NPCHookLeftHand",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "NPCHookRightHandCfg": {
+    "Id": 3007,
+    "CodeName": "NPCHookRightHand",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "ChairInteractingTargetCfg": {
+    "Id": 3008,
+    "CodeName": "ChairInteractingTarget",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "PogoStickLandingPointCfg": {
+    "Id": 3009,
+    "CodeName": "PogoStickLandingPoint",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "NPCOpenPlayerVehicleDoorCfg": {
+    "Id": 3010,
+    "CodeName": "NPCOpenPlayerVehicleDoor",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "CC_DestPositionCfg": {
+    "Id": 3100,
+    "CodeName": "CC_DestPosition",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "CC_DestRotationCfg": {
+    "Id": 3101,
+    "CodeName": "CC_DestRotation",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "CC_DestLeftFootCfg": {
+    "Id": 3102,
+    "CodeName": "CC_DestLeftFoot",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "CC_DestRightFootCfg": {
+    "Id": 3103,
+    "CodeName": "CC_DestRightFoot",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "CC_CurrentActionDestPositionCfg": {
+    "Id": 3104,
+    "CodeName": "CC_CurrentActionDestPosition",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "CC_CurrentMoveDirectionCfg": {
+    "Id": 3105,
+    "CodeName": "CC_CurrentMoveDirection",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "CC_WalkOutDestPositionCfg": {
+    "Id": 3106,
+    "CodeName": "CC_WalkOutDestPosition",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "CC_WalkOutDestRotationCfg": {
+    "Id": 3107,
+    "CodeName": "CC_WalkOutDestRotation",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "CC_PrevDestinationCfg": {
+    "Id": 3108,
+    "CodeName": "CC_PrevDestination",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "CC_InteractionDestinationCfg": {
+    "Id": 3109,
+    "CodeName": "CC_InteractionDestination",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "CrossGridClimbStartCfg": {
+    "Id": 3200,
+    "CodeName": "CrossGridClimbStart",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "CrossGridClimbEndCfg": {
+    "Id": 3201,
+    "CodeName": "CrossGridClimbEnd",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "CrossGridFinalCfg": {
+    "Id": 3202,
+    "CodeName": "CrossGridFinal",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "CrossGridDropStartCfg": {
+    "Id": 3203,
+    "CodeName": "CrossGridDropStart",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "CrossGridDirectionCfg": {
+    "Id": 3204,
+    "CodeName": "CrossGridDirection",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "CrossGridRotateToNextPointCfg": {
+    "Id": 3205,
+    "CodeName": "CrossGridRotateToNextPoint",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "LockTargetCfg": {
+    "Id": 3210,
+    "CodeName": "LockTarget",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "TargetDirCfg": {
+    "Id": 3220,
+    "CodeName": "TargetDir",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "HurtWarpTargetCfg": {
+    "Id": 3221,
+    "CodeName": "HurtWarpTarget",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "DownRidePosCfg": {
+    "Id": 3231,
+    "CodeName": "DownRidePos",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "StepOnRidePosCfg": {
+    "Id": 3232,
+    "CodeName": "StepOnRidePos",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "RideBindSlotCfg": {
+    "Id": 3233,
+    "CodeName": "RideBindSlot",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "RideHandBindSlotCfg": {
+    "Id": 3234,
+    "CodeName": "RideHandBindSlot",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "StepOnRidePos1Cfg": {
+    "Id": 3235,
+    "CodeName": "StepOnRidePos1",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "StepOnRideFootPosCfg": {
+    "Id": 3236,
+    "CodeName": "StepOnRideFootPos",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "StepOnRideFootPos1Cfg": {
+    "Id": 3237,
+    "CodeName": "StepOnRideFootPos1",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "GunAimTargetCfg": {
+    "Id": 3240,
+    "CodeName": "GunAimTarget",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "BehaviorSeqTargetCfg": {
+    "Id": 3300,
+    "CodeName": "BehaviorSeqTarget",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "BehaviorSeqTarget1Cfg": {
+    "Id": 3301,
+    "CodeName": "BehaviorSeqTarget1",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "BehaviorSeqTarget2Cfg": {
+    "Id": 3302,
+    "CodeName": "BehaviorSeqTarget2",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "BehaviorSeqTarget3Cfg": {
+    "Id": 3303,
+    "CodeName": "BehaviorSeqTarget3",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "BehaviorSeqTarget4Cfg": {
+    "Id": 3304,
+    "CodeName": "BehaviorSeqTarget4",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "BehaviorSeqTarget5Cfg": {
+    "Id": 3305,
+    "CodeName": "BehaviorSeqTarget5",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "SlideEnterForwardCfg": {
+    "Id": 3400,
+    "CodeName": "SlideEnterForward",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "SlideLeftFootIKCfg": {
+    "Id": 3401,
+    "CodeName": "SlideLeftFootIK",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "SlideRightFootIKCfg": {
+    "Id": 3402,
+    "CodeName": "SlideRightFootIK",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "LogBridgeForwardCfg": {
+    "Id": 3410,
+    "CodeName": "LogBridgeForward",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "SkillAIParam1Cfg": {
+    "Id": 3500,
+    "CodeName": "SkillAIParam1",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "SkillAIParam2Cfg": {
+    "Id": 3501,
+    "CodeName": "SkillAIParam2",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "SkillAIParam3Cfg": {
+    "Id": 3502,
+    "CodeName": "SkillAIParam3",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "SkillAIParam4Cfg": {
+    "Id": 3503,
+    "CodeName": "SkillAIParam4",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "SkillAIParam5Cfg": {
+    "Id": 3504,
+    "CodeName": "SkillAIParam5",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "SkillRotateTarDirCfg": {
+    "Id": 3505,
+    "CodeName": "SkillRotateTarDir",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "SkillMoveTarPosCfg": {
+    "Id": 3506,
+    "CodeName": "SkillMoveTarPos",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "BunkerPositionCfg": {
+    "Id": 3507,
+    "CodeName": "BunkerPosition",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "BunkerDirectionCfg": {
+    "Id": 3508,
+    "CodeName": "BunkerDirection",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "BasketBallPickUpCfg": {
+    "Id": 3600,
+    "CodeName": "BasketBallPickUp",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "BasketBallPickUpDirCfg": {
+    "Id": 3601,
+    "CodeName": "BasketBallPickUpDir",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "FootBallPosCfg": {
+    "Id": 3602,
+    "CodeName": "FootBallPos",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "FootBallRotateCfg": {
+    "Id": 3603,
+    "CodeName": "FootBallRotate",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "FootBallKickRotateCfg": {
+    "Id": 3604,
+    "CodeName": "FootBallKickRotate",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "BasketBallBlockPosCfg": {
+    "Id": 3605,
+    "CodeName": "BasketBallBlockPos",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "BasketBallBlockUnitPosCfg": {
+    "Id": 3606,
+    "CodeName": "BasketBallBlockUnitPos",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "BasketBallBlockDirCfg": {
+    "Id": 3607,
+    "CodeName": "BasketBallBlockDir",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "BasketBallBlockUnitDirectionCfg": {
+    "Id": 3608,
+    "CodeName": "BasketBallBlockUnitDirection",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "BaksetBallRimDirCfg": {
+    "Id": 3609,
+    "CodeName": "BaksetBallRimDir",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "BaksetBallDefendCameraYawCfg": {
+    "Id": 3610,
+    "CodeName": "BaksetBallDefendCameraYaw",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "BaksetBallDefendYawCfg": {
+    "Id": 3611,
+    "CodeName": "BaksetBallDefendYaw",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "BasketBallForbidAreaPosCfg": {
+    "Id": 3612,
+    "CodeName": "BasketBallForbidAreaPos",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "BaksetBallDefendPosCfg": {
+    "Id": 3613,
+    "CodeName": "BaksetBallDefendPos",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "BasketBallHolderFuturePosCfg": {
+    "Id": 3614,
+    "CodeName": "BasketBallHolderFuturePos",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "BasketBallHolderFutureQuatCfg": {
+    "Id": 3615,
+    "CodeName": "BasketBallHolderFutureQuat",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "BBPassBallTargetPosCfg": {
+    "Id": 3616,
+    "CodeName": "BBPassBallTargetPos",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "BBPassBallTargetQuatCfg": {
+    "Id": 3617,
+    "CodeName": "BBPassBallTargetQuat",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "BasketBallReboundPosCfg": {
+    "Id": 3618,
+    "CodeName": "BasketBallReboundPos",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "BasketBallReboundDirCfg": {
+    "Id": 3619,
+    "CodeName": "BasketBallReboundDir",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "BaksetBallRimPosCfg": {
+    "Id": 3620,
+    "CodeName": "BaksetBallRimPos",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "BBInterceptPosCfg": {
+    "Id": 3621,
+    "CodeName": "BBInterceptPos",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "BBInterceptRotCfg": {
+    "Id": 3622,
+    "CodeName": "BBInterceptRot",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "InteractDestructible_IkPoint_weaponrCfg": {
+    "Id": 3651,
+    "CodeName": "InteractDestructible_IkPoint_weaponr",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "InteractDestructible_IkPoint_weaponlCfg": {
+    "Id": 3652,
+    "CodeName": "InteractDestructible_IkPoint_weaponl",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "InteractDestructible_handlePointCfg": {
+    "Id": 3653,
+    "CodeName": "InteractDestructible_handlePoint",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "InteractDestructible_DropInteractPointCfg": {
+    "Id": 3654,
+    "CodeName": "InteractDestructible_DropInteractPoint",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "InteractDestructible_LeftHandPointCfg": {
+    "Id": 3655,
+    "CodeName": "InteractDestructible_LeftHandPoint",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "InteractDestructible_RightHandPointCfg": {
+    "Id": 3656,
+    "CodeName": "InteractDestructible_RightHandPoint",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "InteractDestructible_PickUpIkPointCfg": {
+    "Id": 3657,
+    "CodeName": "InteractDestructible_PickUpIkPoint",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "AirRush_RotateToYawCfg": {
+    "Id": 4001,
+    "CodeName": "AirRush_RotateToYaw",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "DestroyWindows_Edge1Cfg": {
+    "Id": 4006,
+    "CodeName": "DestroyWindows_Edge1",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "DestroyWindows_Edge2Cfg": {
+    "Id": 4007,
+    "CodeName": "DestroyWindows_Edge2",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "DestroyWindows_Edge3Cfg": {
+    "Id": 4008,
+    "CodeName": "DestroyWindows_Edge3",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "DestroyWindows_DirectionCfg": {
+    "Id": 4009,
+    "CodeName": "DestroyWindows_Direction",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "DestroyWindows_Direction2Cfg": {
+    "Id": 4010,
+    "CodeName": "DestroyWindows_Direction2",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "DestroyWindows_Direction3Cfg": {
+    "Id": 4011,
+    "CodeName": "DestroyWindows_Direction3",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "Edge_Pos1Cfg": {
+    "Id": 4012,
+    "CodeName": "Edge_Pos1",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "Edge_Pos2Cfg": {
+    "Id": 4013,
+    "CodeName": "Edge_Pos2",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "Edge_DirectionCfg": {
+    "Id": 4014,
+    "CodeName": "Edge_Direction",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "Edge_Pos3Cfg": {
+    "Id": 4015,
+    "CodeName": "Edge_Pos3",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "Edge_PointDirectionV2Cfg": {
+    "Id": 4016,
+    "CodeName": "Edge_PointDirectionV2",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "Edge_NormalDirectionV2Cfg": {
+    "Id": 4017,
+    "CodeName": "Edge_NormalDirectionV2",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "Edge_JoystickDirectionV2Cfg": {
+    "Id": 4018,
+    "CodeName": "Edge_JoystickDirectionV2",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "ChairCenterCfg": {
+    "Id": 4050,
+    "CodeName": "ChairCenter",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "DiveObstaceleRotationCfg": {
+    "Id": 5101,
+    "CodeName": "DiveObstaceleRotation",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "DiveObstaclePositionCfg": {
+    "Id": 5102,
+    "CodeName": "DiveObstaclePosition",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "DiveEnterSwimPositionCfg": {
+    "Id": 5103,
+    "CodeName": "DiveEnterSwimPosition",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "DiveEnterSwimRotationCfg": {
+    "Id": 5104,
+    "CodeName": "DiveEnterSwimRotation",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "SlowClimbIk_LeftHandCfg": {
+    "Id": 5151,
+    "CodeName": "SlowClimbIk_LeftHand",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "SlowClimbIk_RightHandCfg": {
+    "Id": 5152,
+    "CodeName": "SlowClimbIk_RightHand",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "SlowClimbIk_LeftFootCfg": {
+    "Id": 5153,
+    "CodeName": "SlowClimbIk_LeftFoot",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "SlowClimbIk_RightFootCfg": {
+    "Id": 5154,
+    "CodeName": "SlowClimbIk_RightFoot",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "SlowClimb_TopWallAvoidPointCfg": {
+    "Id": 5155,
+    "CodeName": "SlowClimb_TopWallAvoidPoint",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "RushWall_PedalOutWallPointCfg": {
+    "Id": 5156,
+    "CodeName": "RushWall_PedalOutWallPoint",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "RushWall_CrossPointCfg": {
+    "Id": 5157,
+    "CodeName": "RushWall_CrossPoint",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "Slow_Top_CrossPointCfg": {
+    "Id": 5158,
+    "CodeName": "Slow_Top_CrossPoint",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "SlowClimb_TopWallAvoidPoint2Cfg": {
+    "Id": 5159,
+    "CodeName": "SlowClimb_TopWallAvoidPoint2",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "Balcony_PointCfg": {
+    "Id": 5160,
+    "CodeName": "Balcony_Point",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "TouchWall_PointCfg": {
+    "Id": 5161,
+    "CodeName": "TouchWall_Point",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "SpecialClimbPointCfg": {
+    "Id": 5162,
+    "CodeName": "SpecialClimbPoint",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "Bartender_PourWine_RightHandCfg": {
+    "Id": 5200,
+    "CodeName": "Bartender_PourWine_RightHand",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "Bartender_PourWine_LeftHandCfg": {
+    "Id": 5201,
+    "CodeName": "Bartender_PourWine_LeftHand",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "PlayerUnitPosCfg": {
+    "Id": 5202,
+    "CodeName": "PlayerUnitPos",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "MajiangCardPosCfg": {
+    "Id": 5210,
+    "CodeName": "MajiangCardPos",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": true
+  },
+  "MajiangHandCardAreaRightPosCfg": {
+    "Id": 5211,
+    "CodeName": "MajiangHandCardAreaRightPos",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": true
+  },
+  "MajiangCardTargetPosCfg": {
+    "Id": 5212,
+    "CodeName": "MajiangCardTargetPos",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": true
+  },
+  "Guitar_LeftHandCfg": {
+    "Id": 5220,
+    "CodeName": "Guitar_LeftHand",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "IntelligentThrowDirCfg": {
+    "Id": 5301,
+    "CodeName": "IntelligentThrowDir",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "FeisuoCrouch_DirectionCfg": {
+    "Id": 5310,
+    "CodeName": "FeisuoCrouch_Direction",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "FeisuoCrouch_TargetDirectionCfg": {
+    "Id": 5311,
+    "CodeName": "FeisuoCrouch_TargetDirection",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "FeisuoCrouch_JumpObstacleTargetPointCfg": {
+    "Id": 5312,
+    "CodeName": "FeisuoCrouch_JumpObstacleTargetPoint",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "FeisuoCrouch_JumpObstacleTargetDirectionCfg": {
+    "Id": 5313,
+    "CodeName": "FeisuoCrouch_JumpObstacleTargetDirection",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "GomokuPlacePosCfg": {
+    "Id": 5321,
+    "CodeName": "GomokuPlacePos",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": true
+  },
+  "DrillShelfPosCfg": {
+    "Id": 5322,
+    "CodeName": "DrillShelfPos",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "BounceJumpObstaclePositionCfg": {
+    "Id": 5331,
+    "CodeName": "BounceJumpObstaclePosition",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "BounceJumpObstacleRotationCfg": {
+    "Id": 5332,
+    "CodeName": "BounceJumpObstacleRotation",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "Killing_Edge_Pos1Cfg": {
+    "Id": 5341,
+    "CodeName": "Killing_Edge_Pos1",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "Killing_Edge_Pos2Cfg": {
+    "Id": 5342,
+    "CodeName": "Killing_Edge_Pos2",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "Killing_Edge_PointDirectionV2Cfg": {
+    "Id": 5343,
+    "CodeName": "Killing_Edge_PointDirectionV2",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "Killing_Edge_NormalDirectionV2Cfg": {
+    "Id": 5344,
+    "CodeName": "Killing_Edge_NormalDirectionV2",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "CameraYaw_PreCfg": {
+    "Id": 5351,
+    "CodeName": "CameraYaw_Pre",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "PoliceArrestCarWithDoorCfg": {
+    "Id": 5361,
+    "CodeName": "PoliceArrestCarWithDoor",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "FaceLockTargetStartJoystickDirectionCfg": {
+    "Id": 5501,
+    "CodeName": "FaceLockTargetStartJoystickDirection",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "LockTargetDirectionCfg": {
+    "Id": 5502,
+    "CodeName": "LockTargetDirection",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "ShoulderPole_LeftHandCfg": {
+    "Id": 5601,
+    "CodeName": "ShoulderPole_LeftHand",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "ShoulderPole_RightHandCfg": {
+    "Id": 5602,
+    "CodeName": "ShoulderPole_RightHand",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "Meihuazhuang_LeftHandCfg": {
+    "Id": 5603,
+    "CodeName": "Meihuazhuang_LeftHand",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "Meihuazhuang_RightHandCfg": {
+    "Id": 5604,
+    "CodeName": "Meihuazhuang_RightHand",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "GetJumpGridPosCfg": {
+    "Id": 5611,
+    "CodeName": "GetJumpGridPos",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "VRFly_GazeDirCfg": {
+    "Id": 5621,
+    "CodeName": "VRFly_GazeDir",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "Swing_ObstaclePointCfg": {
+    "Id": 5631,
+    "CodeName": "Swing_ObstaclePoint",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "ExtractionContainersFacingCfg": {
+    "Id": 5651,
+    "CodeName": "ExtractionContainersFacing",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "TaffyWireStartPointCfg": {
+    "Id": 5661,
+    "CodeName": "TaffyWireStartPoint",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "RopeSwingCageHandPointLCfg": {
+    "Id": 5671,
+    "CodeName": "RopeSwingCageHandPointL",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "RopeSwingCageHandPointRCfg": {
+    "Id": 5672,
+    "CodeName": "RopeSwingCageHandPointR",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "BeefBall_Left1Cfg": {
+    "Id": 5681,
+    "CodeName": "BeefBall_Left1",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "BeefBall_Left2Cfg": {
+    "Id": 5682,
+    "CodeName": "BeefBall_Left2",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "BeefBall_Right1Cfg": {
+    "Id": 5683,
+    "CodeName": "BeefBall_Right1",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  },
+  "BeefBall_Right2Cfg": {
+    "Id": 5684,
+    "CodeName": "BeefBall_Right2",
+    "Deprecated": false,
+    "Group": 0,
+    "ReplicateInIK": false
+  }
+}

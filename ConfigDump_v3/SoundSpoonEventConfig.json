@@ -1,0 +1,4599 @@
+{
+  "_class": "SoundSpoonEventConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 207,
+  "records": [
+    {
+      "Id": 1207354,
+      "Description": "爱琳约会TL结束重置音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Timeline",
+          "stateValue": "None"
+        }
+      ],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1207415,
+      "Description": "林檎约会音乐开始",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Timeline"
+        },
+        {
+          "stateName": "StateGroup_Music_Timeline",
+          "stateValue": "Daily_Warm"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1248442,
+      "Description": "伯纳德约会TL结束重置音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Timeline",
+          "stateValue": "None"
+        }
+      ],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1256896,
+      "Description": "新手本遭遇bossTL结束后播战斗音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [
+        {
+          "stateName": "StateGroup_Music_Plot_Prologue",
+          "stateValue": "Part4_TrainFight"
+        }
+      ],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1278180,
+      "Description": "林檎约会音乐结束",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Timeline",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1303856,
+      "Description": "王牌车神377开始",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_CarRace",
+          "stateValue": "CarRace_Start"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [
+        {
+          "stateName": "StateGroup_Music_SpecialQuest",
+          "stateValue": "On"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_CarRace"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_CarRace",
+          "stateValue": "CarRace_P1"
+        }
+      ],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1305313,
+      "Description": "爱琳约会CS触发音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Timeline"
+        },
+        {
+          "stateName": "StateGroup_Music_Timeline",
+          "stateValue": "Sweet"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1331500,
+      "Description": "银行安保演习门卫说话，触发音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Emotion_Stealth",
+          "stateValue": "Stealth_L1"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1342193,
+      "Description": "银行安保演习打开机房禁区，切换音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Timeline"
+        },
+        {
+          "stateName": "StateGroup_Music_Timeline",
+          "stateValue": "Stealth"
+        },
+        {
+          "stateName": "StateGroup_Music_Emotion_Stealth",
+          "stateValue": "Stealth_L3"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1401492,
+      "Description": "伯纳德约会CS触发音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Timeline"
+        },
+        {
+          "stateName": "StateGroup_Music_Timeline",
+          "stateValue": "Pleasant"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1526278,
+      "Description": "班茜约会任务结束TL时停掉音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Timeline",
+          "stateValue": "None"
+        }
+      ],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1529555,
+      "Description": "幻速骑士L1",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest_SpeedRider",
+          "stateValue": "SpeedRider_Chasing_L1"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1560332,
+      "Description": "沙滩假面特训开始音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [
+        {
+          "soundId": 70301061,
+          "posId": 0
+        }
+      ],
+      "StartStateList": [],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1560334,
+      "Description": "沙滩假面特训中断音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [
+        {
+          "soundId": 70301062,
+          "posId": 0
+        }
+      ],
+      "StartStateList": [],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1630390,
+      "Description": "脱产姐妹切潜行pad",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest_TCJM",
+          "stateValue": "Music_TCJM_Stealth_Pad"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1632518,
+      "Description": "脱产姐妹切潜行L1",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest_TCJM",
+          "stateValue": "Music_TCJM_Stealth_L1"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1635403,
+      "Description": "幻速骑士逃脱追击Outro",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest_SpeedRider",
+          "stateValue": "SpeedRider_Chasing_L2_Outro"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1772841,
+      "Description": "脱产姐妹60010242失败重开时给L2",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest_TCJM",
+          "stateValue": "Music_TCJM_Stealth_L2"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1821666,
+      "Description": "摆荡挑战60002913",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_SwingChallenge"
+        },
+        {
+          "stateName": "StateGroup_Music_SwingChallenge",
+          "stateValue": "SwingChallenge_Main"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1821700,
+      "Description": "城市英雄的日常小头目对话音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_Detective"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1827346,
+      "Description": "梅卡妮卡约会任务结束TL时停掉音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [
+        {
+          "stateName": "StateGroup_Music_SpecialQuest",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Mknk_Fireworks",
+          "stateValue": "None"
+        }
+      ],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1838626,
+      "Description": "斯拜科最终计划正面突入60010942开始抢钱",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L4"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1841477,
+      "Description": "摆荡挑战60002847",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_SwingChallenge"
+        },
+        {
+          "stateName": "StateGroup_Music_SwingChallenge",
+          "stateValue": "SwingChallenge_Main"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1841588,
+      "Description": "摆荡挑战60002848",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_SwingChallenge"
+        },
+        {
+          "stateName": "StateGroup_Music_SwingChallenge",
+          "stateValue": "SwingChallenge_Main"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1855465,
+      "Description": "斯拜科最终计划正面突入60010937放手一搏",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L3"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1869102,
+      "Description": "斯拜科潜入准备夜视仪60010848进入室内开始音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L1"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1869201,
+      "Description": "斯拜科潜入准备夜视仪60010858进入室内开始音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L1"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1872230,
+      "Description": "真的假不了撞车音乐重置",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1875267,
+      "Description": "斯拜科潜入准备夜视仪60010841赶紧跑路",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L4"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1875275,
+      "Description": "斯拜科潜入准备夜视仪60010854赶紧跑路",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L4"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1880833,
+      "Description": "极速转运进入小巷关掉音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_DeliveryGuide",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1890303,
+      "Description": "斯拜科潜入准备夜视仪60010841返回安全屋",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1890309,
+      "Description": "斯拜科潜入准备夜视仪60010854返回安全屋",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1895273,
+      "Description": "可燃物上战斗结束音乐停止",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 6,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "None"
+        }
+      ],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1898540,
+      "Description": "面具之下监视之中开始潜行",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_Saimo_Stealth"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_Saimo_Stealth",
+          "stateValue": "Saimo_Stealth_L1"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1898588,
+      "Description": "面具之下监视之中潜行L2",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest_Saimo_Stealth",
+          "stateValue": "Saimo_Stealth_L2"
+        }
+      ],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 1921871,
+      "Description": "城市英雄的日常重置对话音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 2014320,
+      "Description": "城市英雄的日常潜行L1",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Timeline"
+        },
+        {
+          "stateName": "StateGroup_Music_Timeline",
+          "stateValue": "Stealth"
+        },
+        {
+          "stateName": "StateGroup_Music_Emotion_Stealth",
+          "stateValue": "Stealth_L1"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 2220612,
+      "Description": "斯拜科最终计划秘密潜入60010970准备开门",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L3"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 2271948,
+      "Description": "斯拜科突入准备军火库门禁杀死所有怪物",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L2"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 2271949,
+      "Description": "斯拜科突入准备军火库门禁被怪物发现",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L3"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 2279087,
+      "Description": "极速转运黑帮打完TL结束后停掉音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [
+        {
+          "stateName": "StateGroup_Music_SpecialQuest",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_DeliveryGuide",
+          "stateValue": "None"
+        }
+      ],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 2293507,
+      "Description": "极速转运开盖呕吐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_DeliveryGuide"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_DeliveryGuide",
+          "stateValue": "DeliveryGuide_FunnyDrive"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 2340058,
+      "Description": "猫鼠游戏追人结束",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobbery",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 2610395,
+      "Description": "一锤子买卖开始追车",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BlackGold_Battle"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 2648595,
+      "Description": "真的假不了贴墙走开始",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest_Zdjbl_Chasing",
+          "stateValue": "Zdjbl_Chasing_P2"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 2701274,
+      "Description": "新启市的名人停止望远镜音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 2709606,
+      "Description": "极速转运黑帮战斗第二波怪",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest_DeliveryGuide",
+          "stateValue": "DeliveryGuide_GangBattle_P3"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 2714255,
+      "Description": "斯拜科最终计划秘密潜入60010966开始音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L1"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 2716115,
+      "Description": "猫鼠游戏潜行",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobbery"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobbery",
+          "stateValue": "BankRobbery_L1"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 2819072,
+      "Description": "逃离岸泊60001597逃离成功",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_TCJM",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 2819073,
+      "Description": "逃离岸泊60001597逃离开始",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_TCJM"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_TCJM",
+          "stateValue": "Music_TCJM_Chasing"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 2836985,
+      "Description": "解决但没完全解决异空间",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest_ArtMuseum",
+          "stateValue": "ArtMuseum_OtherWorld"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 2847779,
+      "Description": "真的假不了贴墙走结束",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest_Zdjbl_Chasing",
+          "stateValue": "Zdjbl_Chasing_P3"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 2908502,
+      "Description": "真视界任务成功结束音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_SpecialQuest",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 2908515,
+      "Description": "真视界任务失败结束音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_SpecialQuest",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 2976334,
+      "Description": "真视界开始音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_SpecialQuest",
+          "stateValue": "On"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_TrueVision"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 2987631,
+      "Description": "新启市的名人打完怪结束屏蔽战斗",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 2995626,
+      "Description": "真视界迷幻列车停止音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_WorldRegions",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3018545,
+      "Description": "危机公关追击开始",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobbery"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobbery",
+          "stateValue": "BankRobbery_L3"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3018571,
+      "Description": "危机公关追击结束",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobbery",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3021365,
+      "Description": "一锤子买卖任务重置",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3023819,
+      "Description": "忍术记者双面议员开始追逐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_NinjaRun"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3028709,
+      "Description": "猫鼠游戏战斗结束",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_PoliceChasing",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3041411,
+      "Description": "面具之下监视之中TL播完后还原state",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "None"
+        }
+      ],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3044863,
+      "Description": "一锤子买卖结束追车",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3092123,
+      "Description": "王牌车神1250开始",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_CarRace",
+          "stateValue": "CarRace_Start"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [
+        {
+          "stateName": "StateGroup_Music_SpecialQuest",
+          "stateValue": "On"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_CarRace"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_CarRace",
+          "stateValue": "CarRace_P1"
+        }
+      ],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3094246,
+      "Description": "童年最黑暗的一集开场计划讨论音乐结束",
+      "StartStateDelayTime": 3,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3119257,
+      "Description": "HelloWorld6952开始音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_HelloWorld"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3120986,
+      "Description": "新巡卫官故事60006676战斗",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_Xxwg_Youting_Combat"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3133763,
+      "Description": "HelloWorld6953开始音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_HelloWorld"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3145906,
+      "Description": "留在梦中相见潜行L2开始",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_CX_Xiezi"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_CX_Xiezi",
+          "stateValue": "CX_Xiezi_Stealth_P2"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3152095,
+      "Description": "艺术让人沉迷停掉关门音乐及Quest相关state还原",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_ArtMuseum",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_MuseumEscape",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3209703,
+      "Description": "与巡卫官飙车的日子赛车音乐结束",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest_CarRace",
+          "stateValue": "CarRace_End"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_CarRace",
+          "stateValue": "None"
+        }
+      ],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3209896,
+      "Description": "与巡卫官飙车的日子赛车音乐开始",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_CarRace"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_CarRace",
+          "stateValue": "CarRace_P1"
+        }
+      ],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3218574,
+      "Description": "猎人还是猎物停掉中古店音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_HunterOrPrey",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3254484,
+      "Description": "斯拜科伪装准备分体式钻头60010866回来了",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L1"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3255039,
+      "Description": "斯拜科伪装准备分体式钻头60010867开车离开",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L2"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3324241,
+      "Description": "狂飙引擎追逐音乐开始",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_Chasing"
+        }
+      ],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3460031,
+      "Description": "靡靡猗猗屋顶追逐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_CXHappyChasing_NoOutro"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3460099,
+      "Description": "HelloWorld6954开始音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_HelloWorld"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3460277,
+      "Description": "犬力冲刺非首次接取0979追逐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_HappyChasingFast"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3468943,
+      "Description": "城市英雄的日常潜行L2",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Emotion_Stealth",
+          "stateValue": "Stealth_L2"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3469388,
+      "Description": "艺术让人沉迷美术馆音乐恢复点2",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_ArtMuseum"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_ArtMuseum",
+          "stateValue": "ArtMuseum_Musem_BGM"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3498727,
+      "Description": "城市英雄的日常重置潜行音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Timeline",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Emotion_Stealth",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3534271,
+      "Description": "混厄电子羊大战科斯开场音乐重置",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_CutScene",
+          "stateValue": "None"
+        }
+      ],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3545874,
+      "Description": "忍术记者双面议员15030开始追逐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_NinjaRun"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3574155,
+      "Description": "面具之下监视之中停止潜行",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_Saimo_Stealth",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3590263,
+      "Description": "靡靡猗猗坊间追逐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_CXHappyChasing_NoOutro"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3594607,
+      "Description": "斯拜科最终计划秘密潜入60010971被发现",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L2"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3642141,
+      "Description": "斯拜科最终计划伪装潜入60016970服务员",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L2"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3667678,
+      "Description": "艺术让人沉迷关门音乐恢复点1",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_ArtMuseum"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_ArtMuseum",
+          "stateValue": "ArtMuseum_DoorClose"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_MuseumEscape",
+          "stateValue": "Phase2"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3674518,
+      "Description": "忍术记者双面议员结束追逐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "None"
+        }
+      ],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3678950,
+      "Description": "童年最黑暗的一集开场计划讨论音乐开始",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_MakePlan"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3686655,
+      "Description": "猫鼠游戏战斗",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_PoliceChasing"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_PoliceChasing",
+          "stateValue": "PoliceBattle"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3687268,
+      "Description": "猫鼠游戏追人",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobbery",
+          "stateValue": "BankRobbery_L2"
+        }
+      ],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3688532,
+      "Description": "靡靡猗猗追妹妹",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_CXHappyChasing_NoOutro"
+        }
+      ],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3699476,
+      "Description": "童年最黑暗的一集开场计划讨论音乐结束还原GameState",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3703917,
+      "Description": "艺术让人沉迷播放美术馆音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_ArtMuseum"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_ArtMuseum",
+          "stateValue": "ArtMuseum_Musem_BGM"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3703944,
+      "Description": "艺术让人沉迷美术馆音乐恢复点1",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_ArtMuseum"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_ArtMuseum",
+          "stateValue": "ArtMuseum_Musem_BGM"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3707242,
+      "Description": "猫鼠游戏直升机之后追车",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_PoliceChasing"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_PoliceChasing",
+          "stateValue": "PoliceChasing"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3710334,
+      "Description": "猫鼠游戏2985重新开始时给音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_PoliceChasing"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_PoliceChasing",
+          "stateValue": "PoliceChasing"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3713336,
+      "Description": "新启市的名人开始望远镜音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_Survey"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3717897,
+      "Description": "童年最黑暗的一集里希枪战结束",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 5,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "None"
+        }
+      ],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3736112,
+      "Description": "新启市的名人进入宴会厅屏蔽战斗",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3747214,
+      "Description": "留在梦中相见潜行L1开始防TL跳过",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_CX_Xiezi"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_CX_Xiezi",
+          "stateValue": "CX_Xiezi_Stealth_P1"
+        }
+      ],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3797880,
+      "Description": "真视界迷幻列车开始音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_WorldRegions",
+          "stateValue": "State_Area_HotDogWorld"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3800000,
+      "Description": "解决但没完全解决停掉美术馆音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest_ArtMuseum",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3812713,
+      "Description": "童年最黑暗的一集60017411开始战斗音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_Xxwg_Youting_Combat"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3814479,
+      "Description": "幻速骑士8585接取时触发音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest_SpeedRider",
+          "stateValue": "SpeedRider_Chasing_L2"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3832225,
+      "Description": "艺术让人沉迷播放关门音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_ArtMuseum"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_ArtMuseum",
+          "stateValue": "ArtMuseum_DoorClose"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_MuseumEscape",
+          "stateValue": "Phase1"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3846522,
+      "Description": "解决但没完全解决播放美术馆音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest_ArtMuseum",
+          "stateValue": "ArtMuseum_Musem_BGM"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3858295,
+      "Description": "艺术让人沉迷停掉扫地机器人音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest_ArtMuseum",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3901505,
+      "Description": "留在梦中相见潜行结束",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest_CX_Xiezi",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3922562,
+      "Description": "奇怪发明兔兔可乐关闭音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3923356,
+      "Description": "奇怪发明保健电台关闭音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3923372,
+      "Description": "奇怪发明保健电台打开音乐",
+      "StartStateDelayTime": 3,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_Aida"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3951369,
+      "Description": "硬核入伙追击开始",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobbery"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobbery",
+          "stateValue": "BankRobbery_L3"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 3951375,
+      "Description": "硬核入伙追击结束",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobbery",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4002280,
+      "Description": "奇怪发明兔兔可乐打开音乐",
+      "StartStateDelayTime": 3,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_Aida"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4002658,
+      "Description": "硬核入伙摆荡音乐结束",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 8,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_SwingChallenge",
+          "stateValue": "SwingChallenge_End"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_SwingChallenge",
+          "stateValue": "None"
+        }
+      ],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4017666,
+      "Description": "艺术让人沉迷播放潜行音乐",
+      "StartStateDelayTime": 2,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_ArtMuseum"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_ArtMuseum",
+          "stateValue": "ArtMuseum_Stealth"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4035345,
+      "Description": "斯拜科最终计划伪装潜入60016969开始抢钱",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L4"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4038123,
+      "Description": "解决但没完全解决boss战斗Speaker",
+      "StartStateDelayTime": 4,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Speaker",
+          "stateValue": "Speaker"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4038124,
+      "Description": "解决但没完全解决boss战斗Speaker重置",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Speaker",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_MuseumBossPhase",
+          "stateValue": "Phase3"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4102623,
+      "Description": "幻速骑士8582接取时触发音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest_SpeedRider",
+          "stateValue": "SpeedRider_Chasing_L2"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4119944,
+      "Description": "重霄楔子Q2消防车",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_CX_WaterGun"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_CXWaterGun",
+          "stateValue": "CXWaterGun_P2"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4130811,
+      "Description": "真的假不了60011434开始跟踪",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Timeline"
+        },
+        {
+          "stateName": "StateGroup_Music_Timeline",
+          "stateValue": "Track"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4145675,
+      "Description": "犬力冲刺望远镜音乐开始",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_Detective"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4197438,
+      "Description": "艺术让人沉迷播放扫地机器人音乐",
+      "StartStateDelayTime": 3,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_ArtMuseum"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_ArtMuseum",
+          "stateValue": "ArtMuseum_CleanRobot"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4204406,
+      "Description": "斯拜科伪装准备宴会邀请函60020907逃脱追击",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L4"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4236376,
+      "Description": "猫鼠游戏2978开始时给音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobbery"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobbery",
+          "stateValue": "BankRobbery_L1"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4236377,
+      "Description": "猫鼠游戏2980开始时给音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobbery"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobbery",
+          "stateValue": "BankRobbery_L1"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4239113,
+      "Description": "极速时刻倒计时音乐开始",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_TCJM"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_TCJM",
+          "stateValue": "Music_TCJM_Chasing"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4259281,
+      "Description": "犬力冲刺0980探索音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_Detective"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4259386,
+      "Description": "犬力冲刺0982探索音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_Detective"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4269450,
+      "Description": "艺术让人沉迷60015846失败潜行音乐恢复",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_ArtMuseum"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_ArtMuseum",
+          "stateValue": "ArtMuseum_Stealth"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4269458,
+      "Description": "艺术让人沉迷停掉潜行音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest_ArtMuseum",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4271572,
+      "Description": "斯拜科最终计划正面突入60010945逃脱追击",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4293233,
+      "Description": "斯拜科最终计划正面突入音乐开始",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L1"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4296188,
+      "Description": "斯拜科最终计划伪装潜入到达",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L1"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4301388,
+      "Description": "新手本塔菲冲出玻璃被救TL停掉追逐音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Plot_Prologue",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4302122,
+      "Description": "斯拜科突入准备跑车钥匙进入办公室被发现",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L2"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4321700,
+      "Description": "斯拜科突入准备跑车钥匙60009677进战斗",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L2"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4321703,
+      "Description": "斯拜科突入准备跑车钥匙60009677开始音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L1"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4321705,
+      "Description": "斯拜科突入准备跑车钥匙60009690怪物死完",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4348070,
+      "Description": "斯拜科突入准备军火库门禁60005245音乐开始",
+      "StartStateDelayTime": 3,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L1"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4352671,
+      "Description": "斯拜科突入准备爆炸物60017008音乐开始",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L1"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4353753,
+      "Description": "斯拜科突入准备爆炸物60017009开始战斗",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L2"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4361389,
+      "Description": "斯拜科突入准备跑车钥匙60009685进入办公室",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L1"
+        }
+      ],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4367692,
+      "Description": "斯拜科突入准备军火库门禁被监控发现",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L3"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4388336,
+      "Description": "斯拜科潜入准备EMP密钥60017035",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L1"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4388337,
+      "Description": "斯拜科潜入准备EMP60017035",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L1"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4388338,
+      "Description": "斯拜科潜入准备EMP狙击60017035",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L1"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4388339,
+      "Description": "斯拜科潜入准备EMP60017035被发现了",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L3"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4388340,
+      "Description": "斯拜科潜入准备EMP60017035被发现了",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L3"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4388341,
+      "Description": "斯拜科潜入准备EMP60017035被发现了",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L3"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4388342,
+      "Description": "斯拜科潜入准备EMP60017035被发现了",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L3"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4392096,
+      "Description": "童年最黑暗的一集60018547开始战斗音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_Xxwg_Youting_Combat"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4395309,
+      "Description": "禁止乱涂乱画停掉射击音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Timeline",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4401169,
+      "Description": "斯拜科突入准备爆炸物60017011增援来了",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L3"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4420339,
+      "Description": "斯拜科突入准备跑车钥匙60009673离开办公室",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4444528,
+      "Description": "斯拜科伪装准备宴会邀请函60020904被发现",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L3"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4445114,
+      "Description": "斯拜科潜入准备夜视仪60010850不好有怪",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L3"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4445385,
+      "Description": "野犬头狼追逐结束",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4445406,
+      "Description": "野犬头狼追逐开始",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_MotoChasing"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4458328,
+      "Description": "斯拜科伪装准备宴会邀请函60020901到达楼顶",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L1"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4458329,
+      "Description": "斯拜科伪装准备宴会邀请函60020901登上飞机",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L2"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4471457,
+      "Description": "重霄楔子Q2_5482开始",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_CX_WaterGun"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_CXWaterGun",
+          "stateValue": "CXWaterGun_P1"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4476197,
+      "Description": "斯拜科伪装准备潜艇60017003开始潜水",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L1"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4494898,
+      "Description": "极速时刻TL播完播战斗",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BlackChild"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BlackChild",
+          "stateValue": "BlackChild_Part2_BeatUltramanQTE"
+        }
+      ],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4503877,
+      "Description": "赛车60000147",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest_CarRace",
+          "stateValue": "CarRace_City"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4508505,
+      "Description": "斯拜科最终计划秘密潜入60011080赶快离开",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L4"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4508895,
+      "Description": "猎金游戏看监控播音乐",
+      "StartStateDelayTime": 2,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L1"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4509690,
+      "Description": "斯拜科最终计划秘密潜入60011080你们安全了",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4510882,
+      "Description": "斯拜科伪装准备宴会邀请函60020907安全了",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4525873,
+      "Description": "冒牌行动60017736审讯音乐开始",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_MakePlan"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4527134,
+      "Description": "冒牌行动60017736审讯音乐结束",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4529448,
+      "Description": "赛车60005212",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest_CarRace",
+          "stateValue": "CarRace_HunE"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4539116,
+      "Description": "斯拜科潜入准备酸液枪60011188进入下水道音乐开始",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L1"
+        }
+      ],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4539378,
+      "Description": "斯拜科潜入准备酸液枪60011189快跑",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L3"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4539389,
+      "Description": "斯拜科潜入准备酸液枪60011191量够了",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L2"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4539478,
+      "Description": "斯拜科最终计划伪装潜入60016971专家们敌人来了",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L3"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4554977,
+      "Description": "重霄楔子Q2水枪开始",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_CX_WaterGun"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_CXWaterGun",
+          "stateValue": "CXWaterGun_P1"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4567585,
+      "Description": "斯拜科潜入准备EMP60017038播TL",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4574013,
+      "Description": "斯拜科伪装准备潜艇60017002糟了糟了",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L3"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4590864,
+      "Description": "斯拜科潜入准备EMP60017037追兵来了",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L4"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4590865,
+      "Description": "斯拜科潜入准备EMP60017037追兵来了",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L4"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4590866,
+      "Description": "斯拜科潜入准备EMP60017037追兵来了",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L4"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4590867,
+      "Description": "斯拜科潜入准备EMP60017037追兵来了",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L4"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4592409,
+      "Description": "赛车60007077",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest_CarRace",
+          "stateValue": "CarRace_City"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4611182,
+      "Description": "解决但没完全解决火灾",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest_ArtMuseum",
+          "stateValue": "ArtMuseum_Musem_Fire"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4623849,
+      "Description": "斯拜科突入准备军火库门禁逃回安全屋",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BankRobOnline"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "BankRobOnline_L4"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4624662,
+      "Description": "赛车60005209",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest_CarRace",
+          "stateValue": "CarRace_City"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4626900,
+      "Description": "斯拜科突入准备爆炸物60017015返回安全屋停止音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4701399,
+      "Description": "蓝色闪光Q3追逐Disco",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_BlueFlash_Disco"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4779213,
+      "Description": "留在梦中相见带妹逃跑",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_CX_Xiezi"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_CX_Xiezi",
+          "stateValue": "CX_Xiezi_Escape"
+        }
+      ],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4784276,
+      "Description": "塔菲蓝色闪光Q3开始演唱会歌曲",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_LemonLive"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4798344,
+      "Description": "留在梦中相见坠入湍流开始",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_CX_Xiezi"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_CX_Xiezi",
+          "stateValue": "CX_Xiezi_UnderPalace_P4"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4835581,
+      "Description": "冒牌行动非首次进战斗音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_FakeHaryFight"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4897301,
+      "Description": "留在梦中相见通过暗道开始",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_CX_Xiezi"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_CX_Xiezi",
+          "stateValue": "CX_Xiezi_Stealth_P2"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4925455,
+      "Description": "斯拜科潜入准备酸液枪60011194离开",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4946481,
+      "Description": "猎金游戏看完监控停音乐",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "None"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_BankRobOnline",
+          "stateValue": "None"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 4992594,
+      "Description": "留在梦中相见桥底绕行开始",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_CX_Xiezi"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_CX_Xiezi",
+          "stateValue": "CX_Xiezi_Stealth_P2"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 5016645,
+      "Description": "赛车60003997",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest_CarRace",
+          "stateValue": "CarRace_City"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 5030019,
+      "Description": "留在梦中相见大殿绕行开始",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_GameState",
+          "stateValue": "State_Quest"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest",
+          "stateValue": "State_CX_Xiezi"
+        },
+        {
+          "stateName": "StateGroup_Music_Quest_CX_Xiezi",
+          "stateValue": "CX_Xiezi_Stealth_P2"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    },
+    {
+      "Id": 5048939,
+      "Description": "赛车60004056",
+      "StartStateDelayTime": 0,
+      "EndStateDelayTime": 0,
+      "StartPlaySounds": [],
+      "StartStateList": [
+        {
+          "stateName": "StateGroup_Music_Quest_CarRace",
+          "stateValue": "CarRace_City"
+        }
+      ],
+      "StartRtpcList": [],
+      "EndPlaySounds": [],
+      "EndStateList": [],
+      "EndRtpcList": []
+    }
+  ],
+  "_dumpedCount": 207,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

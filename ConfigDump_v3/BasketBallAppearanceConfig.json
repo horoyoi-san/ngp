@@ -1,0 +1,50 @@
+{
+  "_class": "BasketBallAppearanceConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 4,
+  "records": [
+    {
+      "Id": 1,
+      "Slot": 1,
+      "LimitSpirit": false,
+      "AutoEquip": true,
+      "AutoRemove": true,
+      "AnimationId": 0,
+      "EffectId": 53612190,
+      "IsDefault": false
+    },
+    {
+      "Id": 2,
+      "Slot": 0,
+      "LimitSpirit": false,
+      "AutoEquip": true,
+      "AutoRemove": true,
+      "AnimationId": 0,
+      "EffectId": 53612189,
+      "IsDefault": false
+    },
+    {
+      "Id": 3,
+      "Slot": 2,
+      "LimitSpirit": false,
+      "AutoEquip": false,
+      "AutoRemove": false,
+      "AnimationId": 1,
+      "EffectId": 0,
+      "IsDefault": true
+    },
+    {
+      "Id": 4,
+      "Slot": 2,
+      "LimitSpirit": false,
+      "AutoEquip": true,
+      "AutoRemove": true,
+      "AnimationId": 2,
+      "EffectId": 0,
+      "IsDefault": false
+    }
+  ],
+  "_dumpedCount": 4,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

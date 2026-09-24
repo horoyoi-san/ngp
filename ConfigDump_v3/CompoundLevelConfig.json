@@ -1,0 +1,344 @@
+{
+  "_class": "CompoundLevelConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 10,
+  "records": [
+    {
+      "Id": 1,
+      "CraftingTable": 89100000,
+      "Level": 1,
+      "Progress1": 1,
+      "ConditionStr1": "测试升级条件1",
+      "Progress2": 1,
+      "ConditionStr2": "测试升级条件2",
+      "Progress3": 0,
+      "ConditionStr3": "",
+      "Cost": 100,
+      "Time": 60,
+      "Material": [
+        {
+          "Type": 1,
+          "BindId": 36012001,
+          "Num": 2
+        },
+        {
+          "Type": 1,
+          "BindId": 36102002,
+          "Num": 1
+        }
+      ],
+      "AddCompoundLimitNums": [
+        {
+          "CompoundId": 89102000,
+          "Count": 5
+        },
+        {
+          "CompoundId": 89102001,
+          "Count": 3
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "CraftingTable": 89100000,
+      "Level": 2,
+      "Progress1": 1,
+      "ConditionStr1": "测试升级条件1",
+      "Progress2": 1,
+      "ConditionStr2": "测试升级条件2",
+      "Progress3": 0,
+      "ConditionStr3": "",
+      "Cost": 150,
+      "Time": 90,
+      "Material": [
+        {
+          "Type": 1,
+          "BindId": 36012001,
+          "Num": 3
+        },
+        {
+          "Type": 1,
+          "BindId": 36102003,
+          "Num": 2
+        }
+      ],
+      "AddCompoundLimitNums": [
+        {
+          "CompoundId": 89102002,
+          "Count": 2
+        },
+        {
+          "CompoundId": 89102003,
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "CraftingTable": 89100000,
+      "Level": 3,
+      "Progress1": 1,
+      "ConditionStr1": "测试升级条件1",
+      "Progress2": 1,
+      "ConditionStr2": "测试升级条件2",
+      "Progress3": 0,
+      "ConditionStr3": "",
+      "Cost": 200,
+      "Time": 120,
+      "Material": [
+        {
+          "Type": 1,
+          "BindId": 36012000,
+          "Num": 4
+        },
+        {
+          "Type": 1,
+          "BindId": 36102004,
+          "Num": 2
+        }
+      ],
+      "AddCompoundLimitNums": [
+        {
+          "CompoundId": 89102004,
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "Id": 4,
+      "CraftingTable": 89100000,
+      "Level": 4,
+      "Progress1": 1,
+      "ConditionStr1": "测试升级条件1",
+      "Progress2": 1,
+      "ConditionStr2": "测试升级条件2",
+      "Progress3": 0,
+      "ConditionStr3": "",
+      "Cost": 250,
+      "Time": 150,
+      "Material": [
+        {
+          "Type": 2,
+          "BindId": 80000806,
+          "Num": 2
+        },
+        {
+          "Type": 1,
+          "BindId": 36102002,
+          "Num": 2
+        }
+      ],
+      "AddCompoundLimitNums": [
+        {
+          "CompoundId": 89102005,
+          "Count": 3
+        },
+        {
+          "CompoundId": 89102006,
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "Id": 5,
+      "CraftingTable": 89100000,
+      "Level": 5,
+      "Progress1": 1,
+      "ConditionStr1": "测试升级条件1",
+      "Progress2": 1,
+      "ConditionStr2": "测试升级条件2",
+      "Progress3": 0,
+      "ConditionStr3": "",
+      "Cost": 300,
+      "Time": 180,
+      "Material": [
+        {
+          "Type": 1,
+          "BindId": 36012003,
+          "Num": 5
+        },
+        {
+          "Type": 1,
+          "BindId": 36103001,
+          "Num": 2
+        }
+      ],
+      "AddCompoundLimitNums": [
+        {
+          "CompoundId": 89102007,
+          "Count": 5
+        }
+      ]
+    },
+    {
+      "Id": 6,
+      "CraftingTable": 89100001,
+      "Level": 1,
+      "Progress1": 1,
+      "ConditionStr1": "测试升级条件1",
+      "Progress2": 0,
+      "ConditionStr2": "",
+      "Progress3": 0,
+      "ConditionStr3": "",
+      "Cost": 100,
+      "Time": 60,
+      "Material": [
+        {
+          "Type": 1,
+          "BindId": 36012001,
+          "Num": 2
+        },
+        {
+          "Type": 1,
+          "BindId": 36102005,
+          "Num": 1
+        }
+      ],
+      "AddCompoundLimitNums": [
+        {
+          "CompoundId": 89102008,
+          "Count": 2
+        },
+        {
+          "CompoundId": 89102009,
+          "Count": 3
+        }
+      ]
+    },
+    {
+      "Id": 7,
+      "CraftingTable": 89100002,
+      "Level": 1,
+      "Progress1": 1,
+      "ConditionStr1": "测试升级条件1",
+      "Progress2": 0,
+      "ConditionStr2": "",
+      "Progress3": 0,
+      "ConditionStr3": "",
+      "Cost": 150,
+      "Time": 90,
+      "Material": [
+        {
+          "Type": 1,
+          "BindId": 36012000,
+          "Num": 3
+        },
+        {
+          "Type": 1,
+          "BindId": 36103000,
+          "Num": 2
+        }
+      ],
+      "AddCompoundLimitNums": [
+        {
+          "CompoundId": 89102010,
+          "Count": 4
+        }
+      ]
+    },
+    {
+      "Id": 8,
+      "CraftingTable": 89100003,
+      "Level": 1,
+      "Progress1": 1,
+      "ConditionStr1": "测试升级条件1",
+      "Progress2": 0,
+      "ConditionStr2": "",
+      "Progress3": 0,
+      "ConditionStr3": "",
+      "Cost": 200,
+      "Time": 120,
+      "Material": [
+        {
+          "Type": 2,
+          "BindId": 80000806,
+          "Num": 3
+        },
+        {
+          "Type": 1,
+          "BindId": 36102001,
+          "Num": 2
+        }
+      ],
+      "AddCompoundLimitNums": [
+        {
+          "CompoundId": 89102011,
+          "Count": 2
+        },
+        {
+          "CompoundId": 89102012,
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "Id": 9,
+      "CraftingTable": 89100004,
+      "Level": 1,
+      "Progress1": 1,
+      "ConditionStr1": "测试升级条件1",
+      "Progress2": 0,
+      "ConditionStr2": "",
+      "Progress3": 0,
+      "ConditionStr3": "",
+      "Cost": 250,
+      "Time": 150,
+      "Material": [
+        {
+          "Type": 1,
+          "BindId": 36012002,
+          "Num": 4
+        },
+        {
+          "Type": 1,
+          "BindId": 36102004,
+          "Num": 1
+        }
+      ],
+      "AddCompoundLimitNums": [
+        {
+          "CompoundId": 89102013,
+          "Count": 3
+        }
+      ]
+    },
+    {
+      "Id": 10,
+      "CraftingTable": 89100005,
+      "Level": 1,
+      "Progress1": 1,
+      "ConditionStr1": "测试升级条件1",
+      "Progress2": 0,
+      "ConditionStr2": "",
+      "Progress3": 0,
+      "ConditionStr3": "",
+      "Cost": 300,
+      "Time": 180,
+      "Material": [
+        {
+          "Type": 1,
+          "BindId": 36012003,
+          "Num": 5
+        },
+        {
+          "Type": 1,
+          "BindId": 36103002,
+          "Num": 2
+        }
+      ],
+      "AddCompoundLimitNums": [
+        {
+          "CompoundId": 89102014,
+          "Count": 2
+        },
+        {
+          "CompoundId": 89102015,
+          "Count": 1
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 10,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

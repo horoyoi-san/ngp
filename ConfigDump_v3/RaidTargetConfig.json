@@ -1,0 +1,59 @@
+{
+  "_class": "RaidTargetConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 7,
+  "records": [
+    {
+      "Id": 1,
+      "Description": "180秒内完成挑战",
+      "CounterType": 1,
+      "Counter": 180,
+      "ShowCounter": false
+    },
+    {
+      "Id": 2,
+      "Description": "死亡次数不多于2次",
+      "CounterType": 1,
+      "Counter": 2,
+      "ShowCounter": true
+    },
+    {
+      "Id": 3,
+      "Description": "队伍里携带塔菲",
+      "CounterType": 0,
+      "Counter": 1,
+      "ShowCounter": false
+    },
+    {
+      "Id": 4,
+      "Description": "击杀至少3名锤子胖子",
+      "CounterType": 0,
+      "Counter": 3,
+      "ShowCounter": true
+    },
+    {
+      "Id": 5,
+      "Description": "队伍里至少有两名冰属性角色",
+      "CounterType": 0,
+      "Counter": 2,
+      "ShowCounter": false
+    },
+    {
+      "Id": 6,
+      "Description": "300秒内完成挑战",
+      "CounterType": 1,
+      "Counter": 300,
+      "ShowCounter": false
+    },
+    {
+      "Id": 7,
+      "Description": "击杀1名锤子胖子",
+      "CounterType": 0,
+      "Counter": 1,
+      "ShowCounter": true
+    }
+  ],
+  "_dumpedCount": 7,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -1,0 +1,832 @@
+{
+  "PreRaidCfg": {
+    "Id": 1441,
+    "EventName": "Natural Born Heroes",
+    "EventNameCN": "天生救世主",
+    "NextEventIds": [
+      728
+    ],
+    "EventTag": [
+      20,
+      21,
+      15
+    ],
+    "Chapter": 1,
+    "UrbanJob": 0,
+    "TaskWithCurrentTask": 0,
+    "EventDescription": "Upon arriving in Nova City, you’re welcomed with citywide pandemonium caused by Chaos. Luckily, there’s always a solution, or two, for every problem.",
+    "NewTaskInfo": "",
+    "StartTask": 60004938,
+    "EndTask": [
+      60004955
+    ],
+    "SortOrder": 1,
+    "EstimatedTime": 25,
+    "ConditionType": [
+      0
+    ],
+    "UnlockDescription": "",
+    "Preconditions": [],
+    "FightScore": 0,
+    "PlayRoleTeam": [
+      101000,
+      102002
+    ],
+    "AcceptRoleTeam": [],
+    "TargetNpcPid": 0,
+    "UnacceptGpsPostion": [],
+    "SMapPhoto": 28017378,
+    "ProfileId": 0,
+    "RandomClassify": 0,
+    "CenterPos": [],
+    "CenterRange": 0,
+    "BlockId": 0,
+    "RebirthPanelType": 0,
+    "BackgroundMainEventId": 0,
+    "MapEntranceBanTypes": [],
+    "BattleDifficulty": 0,
+    "ShowRedPointWhenShowInMap": false,
+    "Tag": [
+      54
+    ],
+    "BlockPoiPopup": false,
+    "StartVersion": "V1.1.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1,
+      2
+    ],
+    "__IDX__EventName": 89754,
+    "__RAW__EventName": "",
+    "__IDX__EventDescription": 89753,
+    "__RAW__EventDescription": "",
+    "__IDX__NewTaskInfo": 0,
+    "__RAW__NewTaskInfo": "",
+    "__IDX__UnlockDescription": 0,
+    "__RAW__UnlockDescription": "",
+    "SpecialTaskWithCurrentChange": [],
+    "TimeConditionInfo": {
+      "startTimeId": 0,
+      "endTimeId": 0
+    },
+    "FactionCondition": {
+      "FactionId": 0,
+      "Disposition": 0
+    },
+    "SwitchSpiritAcceptInfo": {
+      "SpiritId": 0,
+      "AfterSwitch": false,
+      "OnlyStart": false
+    },
+    "UnacceptGpsInfo": {
+      "IndoorId": 0,
+      "BoundId": 0,
+      "GadteId": 0
+    }
+  },
+  "MP_010_Q010Cfg": {
+    "Id": 523,
+    "EventName": "Time for Fizzy Dash Taffy to Shine!",
+    "EventNameCN": "轮到我幻速骑士塔菲！",
+    "NextEventIds": [],
+    "EventTag": [],
+    "Chapter": 14,
+    "UrbanJob": 0,
+    "TaskWithCurrentTask": 0,
+    "EventDescription": "Following a series of unexpected events, Taffy invites you to her apartment in Nova City—a place where you can lay your head for the time being.",
+    "NewTaskInfo": "",
+    "StartTask": 60008577,
+    "EndTask": [
+      60001607
+    ],
+    "SortOrder": 6,
+    "EstimatedTime": 20,
+    "ConditionType": [
+      4
+    ],
+    "UnlockDescription": "",
+    "Preconditions": [
+      1711
+    ],
+    "FightScore": 0,
+    "PlayRoleTeam": [
+      101000,
+      102000,
+      102001
+    ],
+    "AcceptRoleTeam": [],
+    "TargetNpcPid": 0,
+    "UnacceptGpsPostion": [
+      1650.59998,
+      -0.109999999,
+      1571.06006
+    ],
+    "SMapPhoto": 28017606,
+    "ProfileId": 0,
+    "RandomClassify": 0,
+    "CenterPos": [],
+    "CenterRange": 0,
+    "BlockId": 4,
+    "RebirthPanelType": 0,
+    "BackgroundMainEventId": 0,
+    "MapEntranceBanTypes": [],
+    "BattleDifficulty": 0,
+    "ShowRedPointWhenShowInMap": false,
+    "Tag": [
+      54
+    ],
+    "BlockPoiPopup": false,
+    "StartVersion": "V1.1.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1,
+      2
+    ],
+    "__IDX__EventName": 82110,
+    "__RAW__EventName": "",
+    "__IDX__EventDescription": 82109,
+    "__RAW__EventDescription": "",
+    "__IDX__NewTaskInfo": 0,
+    "__RAW__NewTaskInfo": "",
+    "__IDX__UnlockDescription": 0,
+    "__RAW__UnlockDescription": "",
+    "SpecialTaskWithCurrentChange": [],
+    "TimeConditionInfo": {
+      "startTimeId": 0,
+      "endTimeId": 0
+    },
+    "FactionCondition": {
+      "FactionId": 0,
+      "Disposition": 0
+    },
+    "SwitchSpiritAcceptInfo": {
+      "SpiritId": 0,
+      "AfterSwitch": false,
+      "OnlyStart": false
+    },
+    "UnacceptGpsInfo": {
+      "IndoorId": 0,
+      "BoundId": 0,
+      "GadteId": 0
+    }
+  },
+  "TGSFirstTaskCfg": {
+    "Id": 743,
+    "EventName": "Driving Against Traffic with the Director",
+    "EventNameCN": "与署长逆行的日子",
+    "NextEventIds": [],
+    "EventTag": [
+      1,
+      12
+    ],
+    "Chapter": 14,
+    "UrbanJob": 0,
+    "TaskWithCurrentTask": 0,
+    "EventDescription": "Thomas, who claims to be a former ACD Agent, has gotten in touch with you. Could he have some new intel? And is he really the only one looking to meet up with you?",
+    "NewTaskInfo": "",
+    "StartTask": 60017969,
+    "EndTask": [
+      60011085
+    ],
+    "SortOrder": 7,
+    "EstimatedTime": 20,
+    "ConditionType": [
+      4
+    ],
+    "UnlockDescription": "",
+    "Preconditions": [
+      1324
+    ],
+    "FightScore": 0,
+    "PlayRoleTeam": [
+      101000
+    ],
+    "AcceptRoleTeam": [
+      101000
+    ],
+    "TargetNpcPid": 0,
+    "UnacceptGpsPostion": [
+      3069.81006,
+      0.810000002,
+      2186.53003
+    ],
+    "SMapPhoto": 28017175,
+    "ProfileId": 0,
+    "RandomClassify": 0,
+    "CenterPos": [],
+    "CenterRange": 0,
+    "BlockId": 2,
+    "RebirthPanelType": 1,
+    "BackgroundMainEventId": 0,
+    "MapEntranceBanTypes": [],
+    "BattleDifficulty": 0,
+    "ShowRedPointWhenShowInMap": false,
+    "Tag": [
+      54
+    ],
+    "BlockPoiPopup": false,
+    "StartVersion": "V1.1.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1,
+      2
+    ],
+    "__IDX__EventName": 73036,
+    "__RAW__EventName": "",
+    "__IDX__EventDescription": 73035,
+    "__RAW__EventDescription": "",
+    "__IDX__NewTaskInfo": 0,
+    "__RAW__NewTaskInfo": "",
+    "__IDX__UnlockDescription": 0,
+    "__RAW__UnlockDescription": "",
+    "SpecialTaskWithCurrentChange": [],
+    "TimeConditionInfo": {
+      "startTimeId": 0,
+      "endTimeId": 0
+    },
+    "FactionCondition": {
+      "FactionId": 0,
+      "Disposition": 0
+    },
+    "SwitchSpiritAcceptInfo": {
+      "SpiritId": 0,
+      "AfterSwitch": false,
+      "OnlyStart": false
+    },
+    "UnacceptGpsInfo": {
+      "IndoorId": 0,
+      "BoundId": 0,
+      "GadteId": 0
+    }
+  },
+  "CologneFirstTaskCfg": {
+    "Id": 1249,
+    "EventName": "See You in Dreamland",
+    "EventNameCN": "留在梦中相见",
+    "NextEventIds": [],
+    "EventTag": [],
+    "Chapter": 78,
+    "UrbanJob": 0,
+    "TaskWithCurrentTask": 0,
+    "EventDescription": "After the unexpected incident, Yinglong and You Zhi each return home for the evening.\nAs she tosses and turns, Yinglong has no idea that a major upheaval is on the horizon.",
+    "NewTaskInfo": "",
+    "StartTask": 60017644,
+    "EndTask": [
+      60017654
+    ],
+    "SortOrder": 0,
+    "EstimatedTime": 0,
+    "ConditionType": [
+      4
+    ],
+    "UnlockDescription": "",
+    "Preconditions": [
+      1245
+    ],
+    "FightScore": 0,
+    "PlayRoleTeam": [
+      116000,
+      101000
+    ],
+    "AcceptRoleTeam": [],
+    "TargetNpcPid": 0,
+    "UnacceptGpsPostion": [
+      -4321.7998,
+      157,
+      -3251
+    ],
+    "SMapPhoto": 28017589,
+    "ProfileId": 0,
+    "RandomClassify": 0,
+    "CenterPos": [],
+    "CenterRange": 0,
+    "BlockId": 0,
+    "RebirthPanelType": 0,
+    "BackgroundMainEventId": 0,
+    "MapEntranceBanTypes": [
+      4294967295
+    ],
+    "BattleDifficulty": 0,
+    "ShowRedPointWhenShowInMap": false,
+    "Tag": [
+      54
+    ],
+    "BlockPoiPopup": false,
+    "StartVersion": "V1.1.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1,
+      2
+    ],
+    "__IDX__EventName": 102454,
+    "__RAW__EventName": "",
+    "__IDX__EventDescription": 102453,
+    "__RAW__EventDescription": "",
+    "__IDX__NewTaskInfo": 0,
+    "__RAW__NewTaskInfo": "",
+    "__IDX__UnlockDescription": 0,
+    "__RAW__UnlockDescription": "",
+    "SpecialTaskWithCurrentChange": [],
+    "TimeConditionInfo": {
+      "startTimeId": 0,
+      "endTimeId": 0
+    },
+    "FactionCondition": {
+      "FactionId": 0,
+      "Disposition": 0
+    },
+    "SwitchSpiritAcceptInfo": {
+      "SpiritId": 0,
+      "AfterSwitch": false,
+      "OnlyStart": false
+    },
+    "UnacceptGpsInfo": {
+      "IndoorId": 220,
+      "BoundId": 0,
+      "GadteId": 2
+    }
+  },
+  "PoliceSearchCfg": {
+    "Id": 521,
+    "EventName": "巡卫官任务-缉拿行动",
+    "EventNameCN": "巡卫官任务-缉拿行动",
+    "NextEventIds": [],
+    "EventTag": [
+      20,
+      21
+    ],
+    "Chapter": 0,
+    "UrbanJob": 11300003,
+    "TaskWithCurrentTask": 1,
+    "EventDescription": "",
+    "NewTaskInfo": "",
+    "StartTask": 60002892,
+    "EndTask": [
+      60002918
+    ],
+    "SortOrder": 0,
+    "EstimatedTime": 0,
+    "ConditionType": [
+      0
+    ],
+    "UnlockDescription": "",
+    "Preconditions": [],
+    "FightScore": 0,
+    "PlayRoleTeam": [],
+    "AcceptRoleTeam": [],
+    "TargetNpcPid": 0,
+    "UnacceptGpsPostion": [],
+    "SMapPhoto": 28017589,
+    "ProfileId": 0,
+    "RandomClassify": 0,
+    "CenterPos": [],
+    "CenterRange": 0,
+    "BlockId": 0,
+    "RebirthPanelType": 0,
+    "BackgroundMainEventId": 0,
+    "MapEntranceBanTypes": [],
+    "BattleDifficulty": 0,
+    "ShowRedPointWhenShowInMap": false,
+    "Tag": [
+      1
+    ],
+    "BlockPoiPopup": false,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0
+    ],
+    "__IDX__EventName": 4294967293,
+    "__RAW__EventName": "巡卫官任务-缉拿行动",
+    "__IDX__EventDescription": 0,
+    "__RAW__EventDescription": "",
+    "__IDX__NewTaskInfo": 0,
+    "__RAW__NewTaskInfo": "",
+    "__IDX__UnlockDescription": 0,
+    "__RAW__UnlockDescription": "",
+    "SpecialTaskWithCurrentChange": [],
+    "TimeConditionInfo": {
+      "startTimeId": 0,
+      "endTimeId": 0
+    },
+    "FactionCondition": {
+      "FactionId": 0,
+      "Disposition": 0
+    },
+    "SwitchSpiritAcceptInfo": {
+      "SpiritId": 0,
+      "AfterSwitch": false,
+      "OnlyStart": false
+    },
+    "UnacceptGpsInfo": {
+      "IndoorId": 0,
+      "BoundId": 0,
+      "GadteId": 0
+    }
+  },
+  "PolicePatrolCfg": {
+    "Id": 537,
+    "EventName": "巡卫官任务-公园巡逻",
+    "EventNameCN": "巡卫官任务-公园巡逻",
+    "NextEventIds": [],
+    "EventTag": [
+      20,
+      21
+    ],
+    "Chapter": 0,
+    "UrbanJob": 11300003,
+    "TaskWithCurrentTask": 0,
+    "EventDescription": "",
+    "NewTaskInfo": "",
+    "StartTask": 60002920,
+    "EndTask": [
+      60002932
+    ],
+    "SortOrder": 0,
+    "EstimatedTime": 0,
+    "ConditionType": [
+      0
+    ],
+    "UnlockDescription": "",
+    "Preconditions": [],
+    "FightScore": 0,
+    "PlayRoleTeam": [],
+    "AcceptRoleTeam": [],
+    "TargetNpcPid": 0,
+    "UnacceptGpsPostion": [],
+    "SMapPhoto": 28017589,
+    "ProfileId": 0,
+    "RandomClassify": 0,
+    "CenterPos": [
+      1613.30005,
+      1.39999998,
+      1903.5
+    ],
+    "CenterRange": 0,
+    "BlockId": 0,
+    "RebirthPanelType": 0,
+    "BackgroundMainEventId": 0,
+    "MapEntranceBanTypes": [],
+    "BattleDifficulty": 0,
+    "ShowRedPointWhenShowInMap": false,
+    "Tag": [
+      1
+    ],
+    "BlockPoiPopup": false,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0
+    ],
+    "__IDX__EventName": 4294967293,
+    "__RAW__EventName": "巡卫官任务-公园巡逻",
+    "__IDX__EventDescription": 0,
+    "__RAW__EventDescription": "",
+    "__IDX__NewTaskInfo": 0,
+    "__RAW__NewTaskInfo": "",
+    "__IDX__UnlockDescription": 0,
+    "__RAW__UnlockDescription": "",
+    "SpecialTaskWithCurrentChange": [],
+    "TimeConditionInfo": {
+      "startTimeId": 0,
+      "endTimeId": 0
+    },
+    "FactionCondition": {
+      "FactionId": 0,
+      "Disposition": 0
+    },
+    "SwitchSpiritAcceptInfo": {
+      "SpiritId": 0,
+      "AfterSwitch": false,
+      "OnlyStart": false
+    },
+    "UnacceptGpsInfo": {
+      "IndoorId": 0,
+      "BoundId": 0,
+      "GadteId": 0
+    }
+  },
+  "FeicheFirstTaskCfg": {
+    "Id": 1458,
+    "EventName": "飞车特技·初露锋芒",
+    "EventNameCN": "飞车特技·初露锋芒",
+    "NextEventIds": [],
+    "EventTag": [],
+    "Chapter": 0,
+    "UrbanJob": 0,
+    "TaskWithCurrentTask": 0,
+    "EventDescription": "听说最近重霄在举行飞车特技大赛？去看看情况吧。",
+    "NewTaskInfo": "",
+    "StartTask": 60015063,
+    "EndTask": [
+      60015063
+    ],
+    "SortOrder": 0,
+    "EstimatedTime": 0,
+    "ConditionType": [
+      4
+    ],
+    "UnlockDescription": "",
+    "Preconditions": [
+      1145
+    ],
+    "FightScore": 0,
+    "PlayRoleTeam": [],
+    "AcceptRoleTeam": [],
+    "TargetNpcPid": 0,
+    "UnacceptGpsPostion": [
+      -606.710022,
+      24.3700008,
+      1387.02002
+    ],
+    "SMapPhoto": 28017589,
+    "ProfileId": 0,
+    "RandomClassify": 0,
+    "CenterPos": [],
+    "CenterRange": 0,
+    "BlockId": 0,
+    "RebirthPanelType": 0,
+    "BackgroundMainEventId": 0,
+    "MapEntranceBanTypes": [],
+    "BattleDifficulty": 0,
+    "ShowRedPointWhenShowInMap": false,
+    "Tag": [
+      54
+    ],
+    "BlockPoiPopup": false,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1
+    ],
+    "__IDX__EventName": 4294967295,
+    "__RAW__EventName": "飞车特技·初露锋芒",
+    "__IDX__EventDescription": 4294967295,
+    "__RAW__EventDescription": "听说最近重霄在举行飞车特技大赛？去看看情况吧。",
+    "__IDX__NewTaskInfo": 0,
+    "__RAW__NewTaskInfo": "",
+    "__IDX__UnlockDescription": 0,
+    "__RAW__UnlockDescription": "",
+    "SpecialTaskWithCurrentChange": [],
+    "TimeConditionInfo": {
+      "startTimeId": 0,
+      "endTimeId": 0
+    },
+    "FactionCondition": {
+      "FactionId": 0,
+      "Disposition": 0
+    },
+    "SwitchSpiritAcceptInfo": {
+      "SpiritId": 0,
+      "AfterSwitch": false,
+      "OnlyStart": false
+    },
+    "UnacceptGpsInfo": {
+      "IndoorId": 0,
+      "BoundId": 0,
+      "GadteId": 0
+    }
+  },
+  "VampireEventCfg": {
+    "Id": 1485,
+    "EventName": "吸血鬼生活·神秘奖品",
+    "EventNameCN": "吸血鬼生活·神秘奖品",
+    "NextEventIds": [],
+    "EventTag": [],
+    "Chapter": 0,
+    "UrbanJob": 0,
+    "TaskWithCurrentTask": 0,
+    "EventDescription": "塔菲收到了神秘又可疑的中奖短信，而等待她的将是预料之外的”奖品“……",
+    "NewTaskInfo": "",
+    "StartTask": 60022496,
+    "EndTask": [
+      60020793
+    ],
+    "SortOrder": 0,
+    "EstimatedTime": 0,
+    "ConditionType": [
+      8
+    ],
+    "UnlockDescription": "",
+    "Preconditions": [
+      611
+    ],
+    "FightScore": 0,
+    "PlayRoleTeam": [
+      102000
+    ],
+    "AcceptRoleTeam": [],
+    "TargetNpcPid": 0,
+    "UnacceptGpsPostion": [
+      2795.12988,
+      1.10000002,
+      1651.87
+    ],
+    "SMapPhoto": 28017589,
+    "ProfileId": 38000034,
+    "RandomClassify": 0,
+    "CenterPos": [],
+    "CenterRange": 0,
+    "BlockId": 5,
+    "RebirthPanelType": 0,
+    "BackgroundMainEventId": 0,
+    "MapEntranceBanTypes": [],
+    "BattleDifficulty": 0,
+    "ShowRedPointWhenShowInMap": false,
+    "Tag": [],
+    "BlockPoiPopup": false,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1
+    ],
+    "__IDX__EventName": 4294967295,
+    "__RAW__EventName": "吸血鬼生活·神秘奖品",
+    "__IDX__EventDescription": 4294967295,
+    "__RAW__EventDescription": "塔菲收到了神秘又可疑的中奖短信，而等待她的将是预料之外的”奖品“……",
+    "__IDX__NewTaskInfo": 0,
+    "__RAW__NewTaskInfo": "",
+    "__IDX__UnlockDescription": 0,
+    "__RAW__UnlockDescription": "",
+    "SpecialTaskWithCurrentChange": [],
+    "TimeConditionInfo": {
+      "startTimeId": 22,
+      "endTimeId": 6
+    },
+    "FactionCondition": {
+      "FactionId": 0,
+      "Disposition": 0
+    },
+    "SwitchSpiritAcceptInfo": {
+      "SpiritId": 0,
+      "AfterSwitch": false,
+      "OnlyStart": false
+    },
+    "UnacceptGpsInfo": {
+      "IndoorId": 0,
+      "BoundId": 0,
+      "GadteId": 0
+    }
+  },
+  "test_loopline_taskCfg": {
+    "Id": 522,
+    "EventName": "【测试】环线轻轨任务",
+    "EventNameCN": "【测试】环线轻轨任务",
+    "NextEventIds": [],
+    "EventTag": [
+      20,
+      21
+    ],
+    "Chapter": 0,
+    "UrbanJob": 0,
+    "TaskWithCurrentTask": 0,
+    "EventDescription": "",
+    "NewTaskInfo": "",
+    "StartTask": 60008565,
+    "EndTask": [
+      60008567
+    ],
+    "SortOrder": 0,
+    "EstimatedTime": 0,
+    "ConditionType": [
+      0
+    ],
+    "UnlockDescription": "",
+    "Preconditions": [],
+    "FightScore": 0,
+    "PlayRoleTeam": [],
+    "AcceptRoleTeam": [],
+    "TargetNpcPid": 0,
+    "UnacceptGpsPostion": [],
+    "SMapPhoto": 28017589,
+    "ProfileId": 0,
+    "RandomClassify": 0,
+    "CenterPos": [],
+    "CenterRange": 0,
+    "BlockId": 0,
+    "RebirthPanelType": 0,
+    "BackgroundMainEventId": 0,
+    "MapEntranceBanTypes": [],
+    "BattleDifficulty": 0,
+    "ShowRedPointWhenShowInMap": false,
+    "Tag": [],
+    "BlockPoiPopup": false,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0
+    ],
+    "__IDX__EventName": 4294967293,
+    "__RAW__EventName": "【测试】环线轻轨任务",
+    "__IDX__EventDescription": 0,
+    "__RAW__EventDescription": "",
+    "__IDX__NewTaskInfo": 0,
+    "__RAW__NewTaskInfo": "",
+    "__IDX__UnlockDescription": 0,
+    "__RAW__UnlockDescription": "",
+    "SpecialTaskWithCurrentChange": [],
+    "TimeConditionInfo": {
+      "startTimeId": 0,
+      "endTimeId": 0
+    },
+    "FactionCondition": {
+      "FactionId": 0,
+      "Disposition": 0
+    },
+    "SwitchSpiritAcceptInfo": {
+      "SpiritId": 0,
+      "AfterSwitch": false,
+      "OnlyStart": false
+    },
+    "UnacceptGpsInfo": {
+      "IndoorId": 0,
+      "BoundId": 0,
+      "GadteId": 0
+    }
+  },
+  "RideAndDateCfg": {
+    "Id": 765,
+    "EventName": "MAIN_好感度兜风",
+    "EventNameCN": "MAIN_好感度兜风",
+    "NextEventIds": [],
+    "EventTag": [
+      20,
+      21,
+      8
+    ],
+    "Chapter": 0,
+    "UrbanJob": 0,
+    "TaskWithCurrentTask": 1,
+    "EventDescription": "",
+    "NewTaskInfo": "",
+    "StartTask": 60007307,
+    "EndTask": [
+      60004883
+    ],
+    "SortOrder": 0,
+    "EstimatedTime": 0,
+    "ConditionType": [
+      0
+    ],
+    "UnlockDescription": "",
+    "Preconditions": [],
+    "FightScore": 0,
+    "PlayRoleTeam": [
+      101000
+    ],
+    "AcceptRoleTeam": [],
+    "TargetNpcPid": 0,
+    "UnacceptGpsPostion": [],
+    "SMapPhoto": 28017589,
+    "ProfileId": 0,
+    "RandomClassify": 0,
+    "CenterPos": [],
+    "CenterRange": 0,
+    "BlockId": 0,
+    "RebirthPanelType": 0,
+    "BackgroundMainEventId": 0,
+    "MapEntranceBanTypes": [],
+    "BattleDifficulty": 0,
+    "ShowRedPointWhenShowInMap": false,
+    "Tag": [],
+    "BlockPoiPopup": false,
+    "StartVersion": "V99.0.0",
+    "EndVersion": "",
+    "TagList": [
+      0
+    ],
+    "__IDX__EventName": 4294967293,
+    "__RAW__EventName": "MAIN_好感度兜风",
+    "__IDX__EventDescription": 0,
+    "__RAW__EventDescription": "",
+    "__IDX__NewTaskInfo": 0,
+    "__RAW__NewTaskInfo": "",
+    "__IDX__UnlockDescription": 0,
+    "__RAW__UnlockDescription": "",
+    "SpecialTaskWithCurrentChange": [],
+    "TimeConditionInfo": {
+      "startTimeId": 0,
+      "endTimeId": 0
+    },
+    "FactionCondition": {
+      "FactionId": 0,
+      "Disposition": 0
+    },
+    "SwitchSpiritAcceptInfo": {
+      "SpiritId": 0,
+      "AfterSwitch": false,
+      "OnlyStart": false
+    },
+    "UnacceptGpsInfo": {
+      "IndoorId": 0,
+      "BoundId": 0,
+      "GadteId": 0
+    }
+  }
+}

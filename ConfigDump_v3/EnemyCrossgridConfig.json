@@ -1,0 +1,778 @@
+{
+  "_class": "EnemyCrossgridConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 8,
+  "records": [
+    {
+      "Id": 1,
+      "EnemyHeight": 0,
+      "EnemyRadius": 0,
+      "DropClimbHeightOne": [
+        5,
+        7
+      ],
+      "DropClimbHeightOneTime": [
+        0.153999999,
+        1.23300004
+      ],
+      "DropClimbHeightTwo": [
+        7,
+        10
+      ],
+      "DropClimbHeightTwoTime": [
+        0.153999999,
+        1.23300004
+      ],
+      "DropDownHeightOne": [
+        5,
+        10
+      ],
+      "DropDownHeightOneTime": [
+        0.699999988,
+        1.10000002
+      ],
+      "DropDownHeightTwo": [
+        10,
+        20
+      ],
+      "DropDownHeightTwoTime": [
+        0.699999988,
+        1.10000002
+      ],
+      "ProcedureDropClimbHeight": [
+        999,
+        1000
+      ],
+      "ProcedureJumpUPHeight": [
+        999,
+        1000
+      ],
+      "ProcedureDropDownHeight": [
+        999,
+        1000
+      ],
+      "ProcedureJumpDownHeight": [
+        999,
+        1000
+      ],
+      "ClimbActionEndTime": [
+        {
+          "timePercent": -1,
+          "fadeTime": 0
+        }
+      ],
+      "DropDownActionEndTime": [
+        {
+          "timePercent": -1,
+          "fadeTime": -1
+        }
+      ],
+      "ProcedureDropClimbConfig": {
+        "headDis": 0,
+        "headTime": 0,
+        "tailDis": 0,
+        "tailTime": 0,
+        "headMotion": 0,
+        "cycleMotion": 0,
+        "tailMotion": 0
+      },
+      "ProcedureJumpUPConfig": {
+        "jumpTime": 0,
+        "jumpMotion": 0
+      },
+      "ProcedureDropDownConfig": {
+        "headDis": 0,
+        "headTime": 0,
+        "tailDis": 0,
+        "tailTime": 0,
+        "headMotion": 0,
+        "cycleMotion": 0,
+        "tailMotion": 0
+      },
+      "ProcedureJumpDownConfig": {
+        "jumpTime": 0,
+        "jumpMotion": 0
+      },
+      "ThreeSegConfig": {
+        "startActionId": 0,
+        "loopActionId": 0,
+        "endActionId": 0,
+        "speed": 0
+      }
+    },
+    {
+      "Id": 2,
+      "EnemyHeight": 2,
+      "EnemyRadius": 0.174999997,
+      "DropClimbHeightOne": [
+        0.400000006,
+        3
+      ],
+      "DropClimbHeightOneTime": [
+        0.0500000007,
+        0.319999993
+      ],
+      "DropClimbHeightTwo": [
+        3,
+        8
+      ],
+      "DropClimbHeightTwoTime": [
+        0.0500000007,
+        0.319999993
+      ],
+      "DropDownHeightOne": [
+        0.400000006,
+        10
+      ],
+      "DropDownHeightOneTime": [
+        0.219999999,
+        0.560000002
+      ],
+      "DropDownHeightTwo": [
+        10,
+        20
+      ],
+      "DropDownHeightTwoTime": [
+        0.219999999,
+        0.560000002
+      ],
+      "ProcedureDropClimbHeight": [
+        999,
+        1000
+      ],
+      "ProcedureJumpUPHeight": [
+        999,
+        1000
+      ],
+      "ProcedureDropDownHeight": [
+        999,
+        1000
+      ],
+      "ProcedureJumpDownHeight": [
+        999,
+        1000
+      ],
+      "ClimbActionEndTime": [
+        {
+          "timePercent": 0.899999976,
+          "fadeTime": 0.300000012
+        },
+        {
+          "timePercent": 0.899999976,
+          "fadeTime": 0.300000012
+        }
+      ],
+      "DropDownActionEndTime": [
+        {
+          "timePercent": 0.600000024,
+          "fadeTime": 0.300000012
+        },
+        {
+          "timePercent": 0.899999976,
+          "fadeTime": 0.300000012
+        }
+      ],
+      "ProcedureDropClimbConfig": {
+        "headDis": 0,
+        "headTime": 0,
+        "tailDis": 0,
+        "tailTime": 0,
+        "headMotion": 0,
+        "cycleMotion": 0,
+        "tailMotion": 0
+      },
+      "ProcedureJumpUPConfig": {
+        "jumpTime": 0,
+        "jumpMotion": 0
+      },
+      "ProcedureDropDownConfig": {
+        "headDis": 0,
+        "headTime": 0,
+        "tailDis": 0,
+        "tailTime": 0,
+        "headMotion": 0,
+        "cycleMotion": 0,
+        "tailMotion": 0
+      },
+      "ProcedureJumpDownConfig": {
+        "jumpTime": 0,
+        "jumpMotion": 0
+      },
+      "ThreeSegConfig": {
+        "startActionId": 0,
+        "loopActionId": 0,
+        "endActionId": 0,
+        "speed": 0
+      }
+    },
+    {
+      "Id": 3,
+      "EnemyHeight": 2.9000001,
+      "EnemyRadius": 0.200000003,
+      "DropClimbHeightOne": [
+        0.400000006,
+        3
+      ],
+      "DropClimbHeightOneTime": [
+        0.0500000007,
+        0.319999993
+      ],
+      "DropClimbHeightTwo": [
+        3,
+        8
+      ],
+      "DropClimbHeightTwoTime": [
+        0.0500000007,
+        0.319999993
+      ],
+      "DropDownHeightOne": [
+        0.400000006,
+        10
+      ],
+      "DropDownHeightOneTime": [
+        0.219999999,
+        0.560000002
+      ],
+      "DropDownHeightTwo": [
+        10,
+        20
+      ],
+      "DropDownHeightTwoTime": [
+        0.219999999,
+        0.560000002
+      ],
+      "ProcedureDropClimbHeight": [
+        999,
+        1000
+      ],
+      "ProcedureJumpUPHeight": [
+        999,
+        1000
+      ],
+      "ProcedureDropDownHeight": [
+        999,
+        1000
+      ],
+      "ProcedureJumpDownHeight": [
+        999,
+        1000
+      ],
+      "ClimbActionEndTime": [
+        {
+          "timePercent": 0.899999976,
+          "fadeTime": 0.300000012
+        },
+        {
+          "timePercent": 0.899999976,
+          "fadeTime": 0.300000012
+        }
+      ],
+      "DropDownActionEndTime": [
+        {
+          "timePercent": 0.600000024,
+          "fadeTime": 0.300000012
+        },
+        {
+          "timePercent": 0.899999976,
+          "fadeTime": 0.300000012
+        }
+      ],
+      "ProcedureDropClimbConfig": {
+        "headDis": 0,
+        "headTime": 0,
+        "tailDis": 0,
+        "tailTime": 0,
+        "headMotion": 0,
+        "cycleMotion": 0,
+        "tailMotion": 0
+      },
+      "ProcedureJumpUPConfig": {
+        "jumpTime": 0,
+        "jumpMotion": 0
+      },
+      "ProcedureDropDownConfig": {
+        "headDis": 0,
+        "headTime": 0,
+        "tailDis": 0,
+        "tailTime": 0,
+        "headMotion": 0,
+        "cycleMotion": 0,
+        "tailMotion": 0
+      },
+      "ProcedureJumpDownConfig": {
+        "jumpTime": 0,
+        "jumpMotion": 0
+      },
+      "ThreeSegConfig": {
+        "startActionId": 0,
+        "loopActionId": 0,
+        "endActionId": 0,
+        "speed": 0
+      }
+    },
+    {
+      "Id": 4,
+      "EnemyHeight": 1.70000005,
+      "EnemyRadius": 2,
+      "DropClimbHeightOne": [
+        11,
+        1000
+      ],
+      "DropClimbHeightOneTime": [
+        0.0500000007,
+        0.319999993
+      ],
+      "DropClimbHeightTwo": [
+        999,
+        1000
+      ],
+      "DropClimbHeightTwoTime": [
+        0.0500000007,
+        0.319999993
+      ],
+      "DropDownHeightOne": [
+        999,
+        1000
+      ],
+      "DropDownHeightOneTime": [
+        0.219999999,
+        0.560000002
+      ],
+      "DropDownHeightTwo": [
+        999,
+        1000
+      ],
+      "DropDownHeightTwoTime": [
+        0.219999999,
+        0.560000002
+      ],
+      "ProcedureDropClimbHeight": [
+        999,
+        1000
+      ],
+      "ProcedureJumpUPHeight": [
+        0,
+        11
+      ],
+      "ProcedureDropDownHeight": [
+        999,
+        1000
+      ],
+      "ProcedureJumpDownHeight": [
+        0,
+        200
+      ],
+      "ClimbActionEndTime": [
+        {
+          "timePercent": 0.899999976,
+          "fadeTime": 0.300000012
+        },
+        {
+          "timePercent": 0.899999976,
+          "fadeTime": 0.300000012
+        }
+      ],
+      "DropDownActionEndTime": [
+        {
+          "timePercent": 0.600000024,
+          "fadeTime": 0.300000012
+        },
+        {
+          "timePercent": 0.899999976,
+          "fadeTime": 0.300000012
+        }
+      ],
+      "ProcedureDropClimbConfig": {
+        "headDis": 0.5,
+        "headTime": 0.5,
+        "tailDis": 0.5,
+        "tailTime": 0.5,
+        "headMotion": 5500,
+        "cycleMotion": 5500,
+        "tailMotion": 5500
+      },
+      "ProcedureJumpUPConfig": {
+        "jumpTime": 2.5,
+        "jumpMotion": 5510
+      },
+      "ProcedureDropDownConfig": {
+        "headDis": 0.5,
+        "headTime": 0.5,
+        "tailDis": 0.5,
+        "tailTime": 0.5,
+        "headMotion": 5000,
+        "cycleMotion": 5000,
+        "tailMotion": 5000
+      },
+      "ProcedureJumpDownConfig": {
+        "jumpTime": 2.5,
+        "jumpMotion": 5510
+      },
+      "ThreeSegConfig": {
+        "startActionId": 0,
+        "loopActionId": 0,
+        "endActionId": 0,
+        "speed": 0
+      }
+    },
+    {
+      "Id": 5,
+      "EnemyHeight": 1.5,
+      "EnemyRadius": 0.200000003,
+      "DropClimbHeightOne": [
+        999,
+        1000
+      ],
+      "DropClimbHeightOneTime": [
+        0.0500000007,
+        0.319999993
+      ],
+      "DropClimbHeightTwo": [
+        999,
+        1000
+      ],
+      "DropClimbHeightTwoTime": [
+        0.0500000007,
+        0.319999993
+      ],
+      "DropDownHeightOne": [
+        999,
+        1000
+      ],
+      "DropDownHeightOneTime": [
+        0.219999999,
+        0.560000002
+      ],
+      "DropDownHeightTwo": [
+        999,
+        1000
+      ],
+      "DropDownHeightTwoTime": [
+        0.219999999,
+        0.560000002
+      ],
+      "ProcedureDropClimbHeight": [
+        0,
+        1000
+      ],
+      "ProcedureJumpUPHeight": [
+        999,
+        1000
+      ],
+      "ProcedureDropDownHeight": [
+        0,
+        1000
+      ],
+      "ProcedureJumpDownHeight": [
+        999,
+        1000
+      ],
+      "ClimbActionEndTime": [
+        {
+          "timePercent": 0.899999976,
+          "fadeTime": 0.300000012
+        },
+        {
+          "timePercent": 0.899999976,
+          "fadeTime": 0.300000012
+        }
+      ],
+      "DropDownActionEndTime": [
+        {
+          "timePercent": 0.600000024,
+          "fadeTime": 0.300000012
+        },
+        {
+          "timePercent": 0.899999976,
+          "fadeTime": 0.300000012
+        }
+      ],
+      "ProcedureDropClimbConfig": {
+        "headDis": 0.5,
+        "headTime": 0.5,
+        "tailDis": 0.5,
+        "tailTime": 0.5,
+        "headMotion": 1101,
+        "cycleMotion": 1101,
+        "tailMotion": 1101
+      },
+      "ProcedureJumpUPConfig": {
+        "jumpTime": 2.5,
+        "jumpMotion": 5510
+      },
+      "ProcedureDropDownConfig": {
+        "headDis": 0.5,
+        "headTime": 0.5,
+        "tailDis": 0.5,
+        "tailTime": 0.5,
+        "headMotion": 1101,
+        "cycleMotion": 1101,
+        "tailMotion": 1101
+      },
+      "ProcedureJumpDownConfig": {
+        "jumpTime": 0.5,
+        "jumpMotion": 5000
+      },
+      "ThreeSegConfig": {
+        "startActionId": 0,
+        "loopActionId": 0,
+        "endActionId": 0,
+        "speed": 0
+      }
+    },
+    {
+      "Id": 6,
+      "EnemyHeight": 1.5,
+      "EnemyRadius": 0.200000003,
+      "DropClimbHeightOne": [
+        999,
+        1000
+      ],
+      "DropClimbHeightOneTime": [
+        0.0500000007,
+        0.319999993
+      ],
+      "DropClimbHeightTwo": [
+        999,
+        1000
+      ],
+      "DropClimbHeightTwoTime": [
+        0.0500000007,
+        0.319999993
+      ],
+      "DropDownHeightOne": [
+        999,
+        1000
+      ],
+      "DropDownHeightOneTime": [
+        0.219999999,
+        0.560000002
+      ],
+      "DropDownHeightTwo": [
+        999,
+        1000
+      ],
+      "DropDownHeightTwoTime": [
+        0.219999999,
+        0.560000002
+      ],
+      "ProcedureDropClimbHeight": [
+        999,
+        1000
+      ],
+      "ProcedureJumpUPHeight": [
+        0,
+        1000
+      ],
+      "ProcedureDropDownHeight": [
+        999,
+        1000
+      ],
+      "ProcedureJumpDownHeight": [
+        0,
+        1000
+      ],
+      "ClimbActionEndTime": [
+        {
+          "timePercent": 0.899999976,
+          "fadeTime": 0.300000012
+        },
+        {
+          "timePercent": 0.899999976,
+          "fadeTime": 0.300000012
+        }
+      ],
+      "DropDownActionEndTime": [
+        {
+          "timePercent": 0.600000024,
+          "fadeTime": 0.300000012
+        },
+        {
+          "timePercent": 0.899999976,
+          "fadeTime": 0.300000012
+        }
+      ],
+      "ProcedureDropClimbConfig": {
+        "headDis": 0.5,
+        "headTime": 0.5,
+        "tailDis": 0.5,
+        "tailTime": 0.5,
+        "headMotion": 1101,
+        "cycleMotion": 1101,
+        "tailMotion": 1101
+      },
+      "ProcedureJumpUPConfig": {
+        "jumpTime": 0.5,
+        "jumpMotion": 1412
+      },
+      "ProcedureDropDownConfig": {
+        "headDis": 0.5,
+        "headTime": 0.5,
+        "tailDis": 0.5,
+        "tailTime": 0.5,
+        "headMotion": 1101,
+        "cycleMotion": 1101,
+        "tailMotion": 1101
+      },
+      "ProcedureJumpDownConfig": {
+        "jumpTime": 0.5,
+        "jumpMotion": 1412
+      },
+      "ThreeSegConfig": {
+        "startActionId": 0,
+        "loopActionId": 0,
+        "endActionId": 0,
+        "speed": 0
+      }
+    },
+    {
+      "Id": 7,
+      "EnemyHeight": 1.5,
+      "EnemyRadius": 0.200000003,
+      "DropClimbHeightOne": [],
+      "DropClimbHeightOneTime": [],
+      "DropClimbHeightTwo": [],
+      "DropClimbHeightTwoTime": [],
+      "DropDownHeightOne": [],
+      "DropDownHeightOneTime": [],
+      "DropDownHeightTwo": [],
+      "DropDownHeightTwoTime": [],
+      "ProcedureDropClimbHeight": [
+        999,
+        1000
+      ],
+      "ProcedureJumpUPHeight": [
+        999,
+        1000
+      ],
+      "ProcedureDropDownHeight": [
+        999,
+        1000
+      ],
+      "ProcedureJumpDownHeight": [
+        999,
+        1000
+      ],
+      "ClimbActionEndTime": [
+        {
+          "timePercent": -1,
+          "fadeTime": 0
+        }
+      ],
+      "DropDownActionEndTime": [
+        {
+          "timePercent": -1,
+          "fadeTime": -1
+        }
+      ],
+      "ProcedureDropClimbConfig": {
+        "headDis": 0,
+        "headTime": 0,
+        "tailDis": 0,
+        "tailTime": 0,
+        "headMotion": 0,
+        "cycleMotion": 0,
+        "tailMotion": 0
+      },
+      "ProcedureJumpUPConfig": {
+        "jumpTime": 0,
+        "jumpMotion": 0
+      },
+      "ProcedureDropDownConfig": {
+        "headDis": 0,
+        "headTime": 0,
+        "tailDis": 0,
+        "tailTime": 0,
+        "headMotion": 0,
+        "cycleMotion": 0,
+        "tailMotion": 0
+      },
+      "ProcedureJumpDownConfig": {
+        "jumpTime": 0,
+        "jumpMotion": 0
+      },
+      "ThreeSegConfig": {
+        "startActionId": 9900,
+        "loopActionId": 1001,
+        "endActionId": 9900,
+        "speed": 5
+      }
+    },
+    {
+      "Id": 8,
+      "EnemyHeight": 1.5,
+      "EnemyRadius": 0.200000003,
+      "DropClimbHeightOne": [],
+      "DropClimbHeightOneTime": [],
+      "DropClimbHeightTwo": [],
+      "DropClimbHeightTwoTime": [],
+      "DropDownHeightOne": [],
+      "DropDownHeightOneTime": [],
+      "DropDownHeightTwo": [],
+      "DropDownHeightTwoTime": [],
+      "ProcedureDropClimbHeight": [
+        999,
+        1000
+      ],
+      "ProcedureJumpUPHeight": [
+        999,
+        1000
+      ],
+      "ProcedureDropDownHeight": [
+        999,
+        1000
+      ],
+      "ProcedureJumpDownHeight": [
+        999,
+        1000
+      ],
+      "ClimbActionEndTime": [
+        {
+          "timePercent": -1,
+          "fadeTime": 0
+        }
+      ],
+      "DropDownActionEndTime": [
+        {
+          "timePercent": -1,
+          "fadeTime": -1
+        }
+      ],
+      "ProcedureDropClimbConfig": {
+        "headDis": 0,
+        "headTime": 0,
+        "tailDis": 0,
+        "tailTime": 0,
+        "headMotion": 0,
+        "cycleMotion": 0,
+        "tailMotion": 0
+      },
+      "ProcedureJumpUPConfig": {
+        "jumpTime": 0,
+        "jumpMotion": 0
+      },
+      "ProcedureDropDownConfig": {
+        "headDis": 0,
+        "headTime": 0,
+        "tailDis": 0,
+        "tailTime": 0,
+        "headMotion": 0,
+        "cycleMotion": 0,
+        "tailMotion": 0
+      },
+      "ProcedureJumpDownConfig": {
+        "jumpTime": 0,
+        "jumpMotion": 0
+      },
+      "ThreeSegConfig": {
+        "startActionId": 0,
+        "loopActionId": 1001,
+        "endActionId": 0,
+        "speed": 5
+      }
+    }
+  ],
+  "_dumpedCount": 8,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

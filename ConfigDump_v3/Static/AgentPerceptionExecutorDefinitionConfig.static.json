@@ -1,0 +1,32 @@
+{
+  "SendEventCfg": {
+    "Id": 1,
+    "Name": "SendEvent",
+    "Description": "默认执行器，发送刺激响应事件",
+    "Parameters": "uint|uint[]|string[]"
+  },
+  "LifeScheduleNpcActionCfg": {
+    "Id": 2,
+    "Name": "LifeScheduleNpcAction",
+    "Description": "日程表NPC执行器，经过自定义逻辑后发送GameplaySignal",
+    "Parameters": "uint|uint[]|string[]"
+  },
+  "FactionHandlerCfg": {
+    "Id": 3,
+    "Name": "FactionHandler",
+    "Description": "阵营感知执行器，经过自定义逻辑后发送GameplaySignal",
+    "Parameters": "uint|uint[]|string[]"
+  },
+  "MultiInteractSendEventCfg": {
+    "Id": 4,
+    "Name": "MultiInteractSendEvent",
+    "Description": "双人交互刺激执行器，发送刺激响应事件",
+    "Parameters": "uint|uint[]|string[]"
+  },
+  "TestEmotionCfg": {
+    "Id": 999,
+    "Name": "TestEmotion",
+    "Description": "测试情绪执行器",
+    "Parameters": "uint|uint[]|string[]"
+  }
+}

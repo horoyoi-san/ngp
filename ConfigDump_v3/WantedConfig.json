@@ -1,0 +1,76 @@
+{
+  "_class": "WantedConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 3,
+  "records": [
+    {
+      "Id": 1,
+      "InductionRadius": [
+        60,
+        100,
+        0
+      ],
+      "EscapeTime": 15,
+      "VehicleDensity": 0.800000012,
+      "RefreshDistance": 40,
+      "RefreshProbability": 0.300000012,
+      "RefreshCD": 5,
+      "WantedLevelHitProbability": 0.800000012,
+      "HitPlayerVehicle": 1,
+      "HitVehicle": 1,
+      "EscapePoliceRefreshCD": 5,
+      "EscapePoliceRefreshNumLimit": 4,
+      "EscapePlayerRefreshCD": 5,
+      "EscapeSearchRadius": 200,
+      "EscapeSearchPlayerTime": 15,
+      "EscapeSearchRadiusEnlarge": 0.200000003
+    },
+    {
+      "Id": 2,
+      "InductionRadius": [
+        80,
+        100,
+        0
+      ],
+      "EscapeTime": 25,
+      "VehicleDensity": 0.600000024,
+      "RefreshDistance": 60,
+      "RefreshProbability": 0.5,
+      "RefreshCD": 4,
+      "WantedLevelHitProbability": 1,
+      "HitPlayerVehicle": 1.20000005,
+      "HitVehicle": 0.899999976,
+      "EscapePoliceRefreshCD": 4,
+      "EscapePoliceRefreshNumLimit": 4,
+      "EscapePlayerRefreshCD": 4,
+      "EscapeSearchRadius": 300,
+      "EscapeSearchPlayerTime": 20,
+      "EscapeSearchRadiusEnlarge": 0.300000012
+    },
+    {
+      "Id": 3,
+      "InductionRadius": [
+        100,
+        100,
+        0
+      ],
+      "EscapeTime": 40,
+      "VehicleDensity": 0.400000006,
+      "RefreshDistance": 80,
+      "RefreshProbability": 0.699999988,
+      "RefreshCD": 3,
+      "WantedLevelHitProbability": 1.20000005,
+      "HitPlayerVehicle": 1.39999998,
+      "HitVehicle": 0.800000012,
+      "EscapePoliceRefreshCD": 3,
+      "EscapePoliceRefreshNumLimit": 4,
+      "EscapePlayerRefreshCD": 3,
+      "EscapeSearchRadius": 400,
+      "EscapeSearchPlayerTime": 30,
+      "EscapeSearchRadiusEnlarge": 0.400000006
+    }
+  ],
+  "_dumpedCount": 3,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

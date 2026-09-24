@@ -1,0 +1,45 @@
+{
+  "_class": "MultiverseJumpEventConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 5,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "新手本",
+      "EventId": 1441,
+      "JumpToNextEvent": false,
+      "SkipGuide": false
+    },
+    {
+      "Id": 2,
+      "Name": "跳过新手本",
+      "EventId": 1441,
+      "JumpToNextEvent": true,
+      "SkipGuide": false
+    },
+    {
+      "Id": 10,
+      "Name": "7月月串联",
+      "EventId": 836,
+      "JumpToNextEvent": false,
+      "SkipGuide": false
+    },
+    {
+      "Id": 99,
+      "Name": "跳过主线",
+      "EventId": 0,
+      "JumpToNextEvent": false,
+      "SkipGuide": false
+    },
+    {
+      "Id": 100,
+      "Name": "跳过主线（且跳过引导）",
+      "EventId": 0,
+      "JumpToNextEvent": false,
+      "SkipGuide": true
+    }
+  ],
+  "_dumpedCount": 5,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

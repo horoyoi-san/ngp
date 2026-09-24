@@ -1,0 +1,42 @@
+{
+  "_class": "SkillLockPointFuncConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 4,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "默认锁敌",
+      "NoCombatConfront": false,
+      "NoStrongLock": false,
+      "UseCurrentLock": 0,
+      "NoRefreshLock": false
+    },
+    {
+      "Id": 2,
+      "Name": "载具武器",
+      "NoCombatConfront": true,
+      "NoStrongLock": true,
+      "UseCurrentLock": 0,
+      "NoRefreshLock": false
+    },
+    {
+      "Id": 3,
+      "Name": "科斯武器",
+      "NoCombatConfront": true,
+      "NoStrongLock": true,
+      "UseCurrentLock": 3,
+      "NoRefreshLock": true
+    },
+    {
+      "Id": 4,
+      "Name": "闪避",
+      "NoCombatConfront": false,
+      "NoStrongLock": false,
+      "UseCurrentLock": 0,
+      "NoRefreshLock": false
+    }
+  ],
+  "_dumpedCount": 4,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

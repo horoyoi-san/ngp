@@ -1,0 +1,30 @@
+{
+  "_class": "CompanionAIDialogDialogSortSoftConditionConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 4,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "对话硬条件满足数量尽可能多",
+      "SoftConditionType": 0
+    },
+    {
+      "Id": 2,
+      "Name": "对话出现频率尽可能低",
+      "SoftConditionType": 1
+    },
+    {
+      "Id": 3,
+      "Name": "",
+      "SoftConditionType": 0
+    },
+    {
+      "Id": 4,
+      "Name": "",
+      "SoftConditionType": 0
+    }
+  ],
+  "_dumpedCount": 4,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -1,0 +1,44 @@
+{
+  "_class": "CollectionRoomUpgradeConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 2,
+  "records": [
+    {
+      "Id": 1,
+      "Level": 2,
+      "UpgradeDesc": "底部灯效改色",
+      "UpgradeCostConsumabel": [
+        36920002,
+        36211000
+      ],
+      "UpgradeCostConsumabelCount": [
+        20000,
+        3
+      ],
+      "UpgradePath": "collectionroom_fashionbooth_01_light_upgrade_01",
+      "DefaultPath": "collectionroom_fashionbooth_01_light_default",
+      "__IDX__UpgradeDesc": 4294967293,
+      "__RAW__UpgradeDesc": "底部灯效改色"
+    },
+    {
+      "Id": 2,
+      "Level": 3,
+      "UpgradeDesc": "显示底部特效",
+      "UpgradeCostConsumabel": [
+        36920002,
+        36211000
+      ],
+      "UpgradeCostConsumabelCount": [
+        30000,
+        3
+      ],
+      "UpgradePath": "collectionroom_fashionbooth_01_light_upgrade_02",
+      "DefaultPath": "collectionroom_fashionbooth_01_light_default",
+      "__IDX__UpgradeDesc": 4294967293,
+      "__RAW__UpgradeDesc": "显示底部特效"
+    }
+  ],
+  "_dumpedCount": 2,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

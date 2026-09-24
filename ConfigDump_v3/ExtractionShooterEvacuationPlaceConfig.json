@@ -1,0 +1,510 @@
+{
+  "_class": "ExtractionShooterEvacuationPlaceConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 20,
+  "records": [
+    {
+      "Id": 2001,
+      "Name": "撤离点·市区北",
+      "Description": "夜尾布设的撤离点，可在此处携带货物回到现实。#r位于市区主干道，车辆构成天然掩体，请小心市中心游荡的混厄。",
+      "HeadImage": 28017426,
+      "Type": 0,
+      "Location": [
+        1679.69995,
+        0.300000012,
+        908.299988
+      ],
+      "TemplateCall": 1200,
+      "Icon": 28101168,
+      "ShowTime": 0,
+      "DisappearTime": 0,
+      "ShowCondition": 1,
+      "ConditionPar": [
+        1
+      ],
+      "ConditionText": "",
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "撤离点·市区北",
+      "__IDX__Description": 4294967295,
+      "__RAW__Description": "夜尾布设的撤离点，可在此处携带货物回到现实。#r位于市区主干道，车辆构成天然掩体，请小心市中心游荡的混厄。"
+    },
+    {
+      "Id": 2002,
+      "Name": "撤离点·电玩城",
+      "Description": "夜尾布设的撤离点，可在此处携带货物回到现实。#r位于封闭的地下隧道口，车辆可作掩体，但背靠死路，谨防被堵。",
+      "HeadImage": 28017426,
+      "Type": 0,
+      "Location": [
+        1675.59998,
+        -1.90511501,
+        641.900024
+      ],
+      "TemplateCall": 1201,
+      "Icon": 28101168,
+      "ShowTime": 0,
+      "DisappearTime": 0,
+      "ShowCondition": 1,
+      "ConditionPar": [
+        1
+      ],
+      "ConditionText": "",
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "撤离点·电玩城",
+      "__IDX__Description": 4294967295,
+      "__RAW__Description": "夜尾布设的撤离点，可在此处携带货物回到现实。#r位于封闭的地下隧道口，车辆可作掩体，但背靠死路，谨防被堵。"
+    },
+    {
+      "Id": 2003,
+      "Name": "撤离点·医院",
+      "Description": "夜尾布设的撤离点，可在此处携带货物回到现实。#r位于医院入口，撤离之余可顺路搜获物资。",
+      "HeadImage": 28017426,
+      "Type": 0,
+      "Location": [
+        1271.94995,
+        0,
+        640.049988
+      ],
+      "TemplateCall": 1202,
+      "Icon": 28101168,
+      "ShowTime": 0,
+      "DisappearTime": 0,
+      "ShowCondition": 1,
+      "ConditionPar": [
+        1
+      ],
+      "ConditionText": "",
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "撤离点·医院",
+      "__IDX__Description": 4294967295,
+      "__RAW__Description": "夜尾布设的撤离点，可在此处携带货物回到现实。#r位于医院入口，撤离之余可顺路搜获物资。"
+    },
+    {
+      "Id": 2004,
+      "Name": "撤离点·学校",
+      "Description": "夜尾布设的撤离点，可在此处携带货物回到现实。#r位于校内广场，地形空旷、缺乏遮蔽，务必留意四周。",
+      "HeadImage": 28017426,
+      "Type": 0,
+      "Location": [
+        1437.44995,
+        -0.0500000007,
+        896.200012
+      ],
+      "TemplateCall": 1203,
+      "Icon": 28101168,
+      "ShowTime": 0,
+      "DisappearTime": 0,
+      "ShowCondition": 1,
+      "ConditionPar": [
+        1
+      ],
+      "ConditionText": "",
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "撤离点·学校",
+      "__IDX__Description": 4294967295,
+      "__RAW__Description": "夜尾布设的撤离点，可在此处携带货物回到现实。#r位于校内广场，地形空旷、缺乏遮蔽，务必留意四周。"
+    },
+    {
+      "Id": 2005,
+      "Name": "撤离点·南大桥",
+      "Description": "夜尾布设的撤离点，可在此处携带货物回到现实。#r位于大桥中央，两端皆可能来敌，小心腹背受困。",
+      "HeadImage": 28017426,
+      "Type": 0,
+      "Location": [
+        1013.86902,
+        7.6500001,
+        821.017883
+      ],
+      "TemplateCall": 1204,
+      "Icon": 28101168,
+      "ShowTime": 0,
+      "DisappearTime": 0,
+      "ShowCondition": 1,
+      "ConditionPar": [
+        1
+      ],
+      "ConditionText": "",
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "撤离点·南大桥",
+      "__IDX__Description": 4294967295,
+      "__RAW__Description": "夜尾布设的撤离点，可在此处携带货物回到现实。#r位于大桥中央，两端皆可能来敌，小心腹背受困。"
+    },
+    {
+      "Id": 2006,
+      "Name": "撤离点·隧道口",
+      "Description": "夜尾布设的撤离点，可在此处携带货物回到现实。#r位于旅馆旁的隧道口，通路早已堵塞，附近可能有小型混厄徘徊。",
+      "HeadImage": 28017426,
+      "Type": 0,
+      "Location": [
+        1848,
+        58.9000015,
+        1252.90002
+      ],
+      "TemplateCall": 1205,
+      "Icon": 28101168,
+      "ShowTime": 0,
+      "DisappearTime": 0,
+      "ShowCondition": 1,
+      "ConditionPar": [
+        1
+      ],
+      "ConditionText": "",
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "撤离点·隧道口",
+      "__IDX__Description": 4294967295,
+      "__RAW__Description": "夜尾布设的撤离点，可在此处携带货物回到现实。#r位于旅馆旁的隧道口，通路早已堵塞，附近可能有小型混厄徘徊。"
+    },
+    {
+      "Id": 2007,
+      "Name": "撤离点·地铁枢纽",
+      "Description": "夜尾布设的撤离点，可在此处携带货物回到现实。#r位于三叉入口交汇处，留意徘徊的混厄，谨防遭到夹击。",
+      "HeadImage": 28017426,
+      "Type": 0,
+      "Location": [
+        1081.40002,
+        3.5,
+        1242.34998
+      ],
+      "TemplateCall": 1206,
+      "Icon": 28101168,
+      "ShowTime": 0,
+      "DisappearTime": 0,
+      "ShowCondition": 1,
+      "ConditionPar": [
+        1
+      ],
+      "ConditionText": "",
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "撤离点·地铁枢纽",
+      "__IDX__Description": 4294967295,
+      "__RAW__Description": "夜尾布设的撤离点，可在此处携带货物回到现实。#r位于三叉入口交汇处，留意徘徊的混厄，谨防遭到夹击。"
+    },
+    {
+      "Id": 2008,
+      "Name": "撤离点·检查站",
+      "Description": "夜尾布设的撤离点，可在此处携带货物回到现实。#r位于废弃哨口附近，可借助遗弃车辆作为临时掩护。",
+      "HeadImage": 28017426,
+      "Type": 0,
+      "Location": [
+        1411.62402,
+        24.8999996,
+        1427.59998
+      ],
+      "TemplateCall": 1207,
+      "Icon": 28101168,
+      "ShowTime": 0,
+      "DisappearTime": 0,
+      "ShowCondition": 1,
+      "ConditionPar": [
+        1
+      ],
+      "ConditionText": "",
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "撤离点·检查站",
+      "__IDX__Description": 4294967295,
+      "__RAW__Description": "夜尾布设的撤离点，可在此处携带货物回到现实。#r位于废弃哨口附近，可借助遗弃车辆作为临时掩护。"
+    },
+    {
+      "Id": 2009,
+      "Name": "撤离点·仓储超市",
+      "Description": "夜尾布设的撤离点，可在此处携带货物回到现实。#r位于四周空旷的野地，缺乏掩护，撤离时请格外谨慎。",
+      "HeadImage": 28017426,
+      "Type": 0,
+      "Location": [
+        732.387817,
+        20,
+        1103.40503
+      ],
+      "TemplateCall": 1208,
+      "Icon": 28101168,
+      "ShowTime": 0,
+      "DisappearTime": 0,
+      "ShowCondition": 1,
+      "ConditionPar": [
+        1
+      ],
+      "ConditionText": "",
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "撤离点·仓储超市",
+      "__IDX__Description": 4294967295,
+      "__RAW__Description": "夜尾布设的撤离点，可在此处携带货物回到现实。#r位于四周空旷的野地，缺乏掩护，撤离时请格外谨慎。"
+    },
+    {
+      "Id": 2010,
+      "Name": "撤离点·瞭望站",
+      "Description": "夜尾布设的撤离点，可在此处携带货物回到现实。#r位于建筑屋顶，可充分利用视野优势观察混厄情况。",
+      "HeadImage": 28017426,
+      "Type": 0,
+      "Location": [
+        1504.07202,
+        18.7940006,
+        1328.50696
+      ],
+      "TemplateCall": 1209,
+      "Icon": 28101168,
+      "ShowTime": 0,
+      "DisappearTime": 0,
+      "ShowCondition": 1,
+      "ConditionPar": [
+        1
+      ],
+      "ConditionText": "",
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "撤离点·瞭望站",
+      "__IDX__Description": 4294967295,
+      "__RAW__Description": "夜尾布设的撤离点，可在此处携带货物回到现实。#r位于建筑屋顶，可充分利用视野优势观察混厄情况。"
+    },
+    {
+      "Id": 2101,
+      "Name": "摸金测试撤离点",
+      "Description": "摸金测试撤离点",
+      "HeadImage": 0,
+      "Type": 0,
+      "Location": [
+        -66.586998,
+        -8.30099964,
+        -800.43103
+      ],
+      "TemplateCall": 1210,
+      "Icon": 28101168,
+      "ShowTime": 0,
+      "DisappearTime": 0,
+      "ShowCondition": 1,
+      "ConditionPar": [
+        1
+      ],
+      "ConditionText": "",
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "摸金测试撤离点",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "摸金测试撤离点"
+    },
+    {
+      "Id": 99950301,
+      "Name": "东南废墟",
+      "Description": "位于城区东南方向的废弃建筑群，残垣断壁中隐藏着通往外界的撤离通道。",
+      "HeadImage": 0,
+      "Type": 0,
+      "Location": [
+        -1199.85999,
+        16.2240009,
+        -20.5100002
+      ],
+      "TemplateCall": 1200,
+      "Icon": 28101168,
+      "ShowTime": 0,
+      "DisappearTime": 0,
+      "ShowCondition": 1,
+      "ConditionPar": [
+        1
+      ],
+      "ConditionText": "",
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "东南废墟",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "位于城区东南方向的废弃建筑群，残垣断壁中隐藏着通往外界的撤离通道。"
+    },
+    {
+      "Id": 99950302,
+      "Name": "市中心",
+      "Description": "城市核心区域的撤离点位，高楼林立间的一线生机，但开阔地带极易暴露行踪。",
+      "HeadImage": 0,
+      "Type": 0,
+      "Location": [
+        -1199.47205,
+        1.67299998,
+        246.070007
+      ],
+      "TemplateCall": 1200,
+      "Icon": 28101168,
+      "ShowTime": 0,
+      "DisappearTime": 0,
+      "ShowCondition": 1,
+      "ConditionPar": [
+        1
+      ],
+      "ConditionText": "",
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "市中心",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "城市核心区域的撤离点位，高楼林立间的一线生机，但开阔地带极易暴露行踪。"
+    },
+    {
+      "Id": 99950303,
+      "Name": "职介所",
+      "Description": "旧时代遗留的职业介绍所，斑驳的招牌下藏有通往安全区的秘密出口。",
+      "HeadImage": 0,
+      "Type": 0,
+      "Location": [
+        -1029.745,
+        71.7669983,
+        714.454285
+      ],
+      "TemplateCall": 1200,
+      "Icon": 28101168,
+      "ShowTime": 0,
+      "DisappearTime": 0,
+      "ShowCondition": 1,
+      "ConditionPar": [
+        1
+      ],
+      "ConditionText": "",
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "职介所",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "旧时代遗留的职业介绍所，斑驳的招牌下藏有通往安全区的秘密出口。"
+    },
+    {
+      "Id": 99950304,
+      "Name": "医院",
+      "Description": "荒废的医疗设施，走廊深处仍有撤离设备在默默运转，等待着最后一批幸存者。",
+      "HeadImage": 0,
+      "Type": 0,
+      "Location": [
+        -1621.422,
+        0.484000713,
+        28.4899902
+      ],
+      "TemplateCall": 1200,
+      "Icon": 28101168,
+      "ShowTime": 0,
+      "DisappearTime": 0,
+      "ShowCondition": 1,
+      "ConditionPar": [
+        1
+      ],
+      "ConditionText": "",
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "医院",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "荒废的医疗设施，走廊深处仍有撤离设备在默默运转，等待着最后一批幸存者。"
+    },
+    {
+      "Id": 99950305,
+      "Name": "学校",
+      "Description": "人去楼空的校园，昔日的操场上如今只剩撤离信号灯在孤独闪烁。",
+      "HeadImage": 0,
+      "Type": 0,
+      "Location": [
+        -1468.66199,
+        0.584000587,
+        281.27771
+      ],
+      "TemplateCall": 1200,
+      "Icon": 28101168,
+      "ShowTime": 0,
+      "DisappearTime": 0,
+      "ShowCondition": 1,
+      "ConditionPar": [
+        1
+      ],
+      "ConditionText": "",
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "学校",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "人去楼空的校园，昔日的操场上如今只剩撤离信号灯在孤独闪烁。"
+    },
+    {
+      "Id": 99950306,
+      "Name": "南侧大桥",
+      "Description": "横跨河面的巨型桥梁，虽已千疮百孔，但桥对岸便是生还的希望。",
+      "HeadImage": 0,
+      "Type": 0,
+      "Location": [
+        -1845.62195,
+        5.98400116,
+        196.490005
+      ],
+      "TemplateCall": 1200,
+      "Icon": 28101168,
+      "ShowTime": 0,
+      "DisappearTime": 0,
+      "ShowCondition": 1,
+      "ConditionPar": [
+        1
+      ],
+      "ConditionText": "",
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "南侧大桥",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "横跨河面的巨型桥梁，虽已千疮百孔，但桥对岸便是生还的希望。"
+    },
+    {
+      "Id": 99950307,
+      "Name": "断桥",
+      "Description": "被截断的桥面悬于急流之上，从断裂处撤离是冒险者的最后选择。",
+      "HeadImage": 0,
+      "Type": 0,
+      "Location": [
+        -1721.16895,
+        8.02283287,
+        587.849976
+      ],
+      "TemplateCall": 1200,
+      "Icon": 28101168,
+      "ShowTime": 0,
+      "DisappearTime": 0,
+      "ShowCondition": 1,
+      "ConditionPar": [
+        1
+      ],
+      "ConditionText": "",
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "断桥",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "被截断的桥面悬于急流之上，从断裂处撤离是冒险者的最后选择。"
+    },
+    {
+      "Id": 99950308,
+      "Name": "地铁站",
+      "Description": "黑暗的地下车站，深邃的隧道尽头仍亮着撤离点的引导之光。",
+      "HeadImage": 0,
+      "Type": 0,
+      "Location": [
+        -2169.52197,
+        0.284000397,
+        493.790009
+      ],
+      "TemplateCall": 1200,
+      "Icon": 28101168,
+      "ShowTime": 0,
+      "DisappearTime": 0,
+      "ShowCondition": 1,
+      "ConditionPar": [
+        1
+      ],
+      "ConditionText": "",
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "地铁站",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "黑暗的地下车站，深邃的隧道尽头仍亮着撤离点的引导之光。"
+    },
+    {
+      "Id": 99950309,
+      "Name": "住宅区",
+      "Description": "寂静的居民区已无人烟，某栋楼顶的撤离直升机坪是逃离此地的最后跳板。",
+      "HeadImage": 0,
+      "Type": 0,
+      "Location": [
+        -1811.52197,
+        3.98399997,
+        754.590027
+      ],
+      "TemplateCall": 1200,
+      "Icon": 28101168,
+      "ShowTime": 0,
+      "DisappearTime": 0,
+      "ShowCondition": 1,
+      "ConditionPar": [
+        1
+      ],
+      "ConditionText": "",
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "住宅区",
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "寂静的居民区已无人烟，某栋楼顶的撤离直升机坪是逃离此地的最后跳板。"
+    }
+  ],
+  "_dumpedCount": 20,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

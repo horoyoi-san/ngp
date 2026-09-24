@@ -1,0 +1,28 @@
+{
+  "_class": "AttackHitEffectAttackResultTypeConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 3,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "Hit",
+      "AudioSwitchGroupName": "SW_ImpType",
+      "AudioSwitchValue": "Hit"
+    },
+    {
+      "Id": 2,
+      "Name": "Blocked",
+      "AudioSwitchGroupName": "SW_ImpType",
+      "AudioSwitchValue": "Block"
+    },
+    {
+      "Id": 3,
+      "Name": "Parry",
+      "AudioSwitchGroupName": "SW_ImpType",
+      "AudioSwitchValue": "Parry"
+    }
+  ],
+  "_dumpedCount": 3,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

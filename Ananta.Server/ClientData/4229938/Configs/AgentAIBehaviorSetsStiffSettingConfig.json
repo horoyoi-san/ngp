@@ -1,0 +1,267 @@
+{
+  "_class": "AgentAIBehaviorSetsStiffSettingConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 15,
+  "records": [
+    {
+      "Id": 40211501,
+      "Name": "通用怪物体型1受击",
+      "TypeForStiff": 1,
+      "AnimationSet": 151,
+      "ImmuneRotationEffect": false,
+      "HurtCd": [],
+      "MicroHitInSkillProportion": 0,
+      "FirmBreakTimeCurve": {
+        "Time": 0,
+        "Speed": 0
+      },
+      "CarHitEnemeyBehavior": {
+        "type": 1,
+        "HurtEffectID": 55003037
+      }
+    },
+    {
+      "Id": 40211517,
+      "Name": "通用怪物体型2受击",
+      "TypeForStiff": 2,
+      "AnimationSet": 0,
+      "ImmuneRotationEffect": false,
+      "HurtCd": [],
+      "MicroHitInSkillProportion": 0,
+      "FirmBreakTimeCurve": {
+        "Time": 0,
+        "Speed": 0
+      },
+      "CarHitEnemeyBehavior": {
+        "type": 1,
+        "HurtEffectID": 55003037
+      }
+    },
+    {
+      "Id": 40211536,
+      "Name": "体型8特殊三档受击",
+      "TypeForStiff": 8,
+      "AnimationSet": 0,
+      "ImmuneRotationEffect": true,
+      "HurtCd": [],
+      "MicroHitInSkillProportion": 0,
+      "FirmBreakTimeCurve": {
+        "Time": 0,
+        "Speed": 0
+      },
+      "CarHitEnemeyBehavior": {
+        "type": 1,
+        "HurtEffectID": 55003037
+      }
+    },
+    {
+      "Id": 40211540,
+      "Name": "8+不转向",
+      "TypeForStiff": 8,
+      "AnimationSet": 0,
+      "ImmuneRotationEffect": false,
+      "HurtCd": [],
+      "MicroHitInSkillProportion": 0,
+      "FirmBreakTimeCurve": {
+        "Time": 0,
+        "Speed": 0
+      },
+      "CarHitEnemeyBehavior": {
+        "type": 1,
+        "HurtEffectID": 55003037
+      }
+    },
+    {
+      "Id": 40211541,
+      "Name": "搜打撤怪物一档受击",
+      "TypeForStiff": 10,
+      "AnimationSet": 0,
+      "ImmuneRotationEffect": false,
+      "HurtCd": [],
+      "MicroHitInSkillProportion": 0,
+      "FirmBreakTimeCurve": {
+        "Time": 0,
+        "Speed": 0
+      },
+      "CarHitEnemeyBehavior": {
+        "type": 1,
+        "HurtEffectID": 55003037
+      }
+    },
+    {
+      "Id": 40211542,
+      "Name": "人形+受击cd",
+      "TypeForStiff": 1,
+      "AnimationSet": 0,
+      "ImmuneRotationEffect": false,
+      "HurtCd": [
+        0.300000012
+      ],
+      "MicroHitInSkillProportion": 0,
+      "FirmBreakTimeCurve": {
+        "Time": 0,
+        "Speed": 0
+      },
+      "CarHitEnemeyBehavior": {
+        "type": 1,
+        "HurtEffectID": 55003037
+      }
+    },
+    {
+      "Id": 40211543,
+      "Name": "人形不转",
+      "TypeForStiff": 1,
+      "AnimationSet": 0,
+      "ImmuneRotationEffect": true,
+      "HurtCd": [],
+      "MicroHitInSkillProportion": 0,
+      "FirmBreakTimeCurve": {
+        "Time": 0,
+        "Speed": 0
+      },
+      "CarHitEnemeyBehavior": {
+        "type": 1,
+        "HurtEffectID": 55003037
+      }
+    },
+    {
+      "Id": 40211544,
+      "Name": "人形 55003035 撞不动",
+      "TypeForStiff": 1,
+      "AnimationSet": 0,
+      "ImmuneRotationEffect": false,
+      "HurtCd": [],
+      "MicroHitInSkillProportion": 0,
+      "FirmBreakTimeCurve": {
+        "Time": 0,
+        "Speed": 0
+      },
+      "CarHitEnemeyBehavior": {
+        "type": 3,
+        "HurtEffectID": 55003038
+      }
+    },
+    {
+      "Id": 40211545,
+      "Name": "通用 空手女",
+      "TypeForStiff": 1,
+      "AnimationSet": 152,
+      "ImmuneRotationEffect": false,
+      "HurtCd": [],
+      "MicroHitInSkillProportion": 0,
+      "FirmBreakTimeCurve": {
+        "Time": 0,
+        "Speed": 0
+      },
+      "CarHitEnemeyBehavior": {
+        "type": 1,
+        "HurtEffectID": 55003037
+      }
+    },
+    {
+      "Id": 40211546,
+      "Name": "通用战斗空手男",
+      "TypeForStiff": 1,
+      "AnimationSet": 153,
+      "ImmuneRotationEffect": false,
+      "HurtCd": [],
+      "MicroHitInSkillProportion": 0,
+      "FirmBreakTimeCurve": {
+        "Time": 0,
+        "Speed": 0
+      },
+      "CarHitEnemeyBehavior": {
+        "type": 1,
+        "HurtEffectID": 55003037
+      }
+    },
+    {
+      "Id": 40211547,
+      "Name": "通用 双持狙",
+      "TypeForStiff": 1,
+      "AnimationSet": 154,
+      "ImmuneRotationEffect": false,
+      "HurtCd": [],
+      "MicroHitInSkillProportion": 0,
+      "FirmBreakTimeCurve": {
+        "Time": 0,
+        "Speed": 0
+      },
+      "CarHitEnemeyBehavior": {
+        "type": 1,
+        "HurtEffectID": 55003037
+      }
+    },
+    {
+      "Id": 40211548,
+      "Name": "通用 盾",
+      "TypeForStiff": 1,
+      "AnimationSet": 155,
+      "ImmuneRotationEffect": false,
+      "HurtCd": [],
+      "MicroHitInSkillProportion": 0,
+      "FirmBreakTimeCurve": {
+        "Time": 0,
+        "Speed": 0
+      },
+      "CarHitEnemeyBehavior": {
+        "type": 1,
+        "HurtEffectID": 55003037
+      }
+    },
+    {
+      "Id": 40211549,
+      "Name": "通用 大空手",
+      "TypeForStiff": 1,
+      "AnimationSet": 156,
+      "ImmuneRotationEffect": false,
+      "HurtCd": [],
+      "MicroHitInSkillProportion": 0,
+      "FirmBreakTimeCurve": {
+        "Time": 0,
+        "Speed": 0
+      },
+      "CarHitEnemeyBehavior": {
+        "type": 1,
+        "HurtEffectID": 55003037
+      }
+    },
+    {
+      "Id": 40211550,
+      "Name": "通用大双持",
+      "TypeForStiff": 1,
+      "AnimationSet": 157,
+      "ImmuneRotationEffect": false,
+      "HurtCd": [],
+      "MicroHitInSkillProportion": 0,
+      "FirmBreakTimeCurve": {
+        "Time": 0,
+        "Speed": 0
+      },
+      "CarHitEnemeyBehavior": {
+        "type": 1,
+        "HurtEffectID": 55003037
+      }
+    },
+    {
+      "Id": 40211551,
+      "Name": "搜打撤怪物一档受击-不被车推动",
+      "TypeForStiff": 10,
+      "AnimationSet": 0,
+      "ImmuneRotationEffect": false,
+      "HurtCd": [],
+      "MicroHitInSkillProportion": 0,
+      "FirmBreakTimeCurve": {
+        "Time": 0,
+        "Speed": 0
+      },
+      "CarHitEnemeyBehavior": {
+        "type": 2,
+        "HurtEffectID": 55003038
+      }
+    }
+  ],
+  "_dumpedCount": 15,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

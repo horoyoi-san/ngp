@@ -1,0 +1,25 @@
+{
+  "_class": "RaidDefaultBoundaryConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 3,
+  "records": [
+    {
+      "Id": 1,
+      "UnitySceneName": "WorldMap_Release",
+      "DefaultBoundaryName": "DefaultAirWall"
+    },
+    {
+      "Id": 2,
+      "UnitySceneName": "WorldMap_ChongXiao",
+      "DefaultBoundaryName": "DefaultAirWall"
+    },
+    {
+      "Id": 3,
+      "UnitySceneName": "WorldMap_Extraction",
+      "DefaultBoundaryName": "DefaultAirWall"
+    }
+  ],
+  "_dumpedCount": 3,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

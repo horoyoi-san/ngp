@@ -1,0 +1,52 @@
+{
+  "_class": "OriginalCharacterTabConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 6,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "Front",
+      "NextPage": 4,
+      "PrevPage": 0,
+      "CameraId": 200
+    },
+    {
+      "Id": 2,
+      "Name": "Voice",
+      "NextPage": 3,
+      "PrevPage": 4,
+      "CameraId": 201
+    },
+    {
+      "Id": 3,
+      "Name": "Personality",
+      "NextPage": 5,
+      "PrevPage": 2,
+      "CameraId": 202
+    },
+    {
+      "Id": 4,
+      "Name": "FaceBuild",
+      "NextPage": 2,
+      "PrevPage": 1,
+      "CameraId": 2
+    },
+    {
+      "Id": 5,
+      "Name": "DialogTest",
+      "NextPage": 6,
+      "PrevPage": 3,
+      "CameraId": 203
+    },
+    {
+      "Id": 6,
+      "Name": "CreateFinish",
+      "NextPage": 0,
+      "PrevPage": 5,
+      "CameraId": 204
+    }
+  ],
+  "_dumpedCount": 6,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -1,0 +1,6514 @@
+{
+  "SprintSkillCfg": {
+    "Id": 51920081,
+    "Name": "翻滚",
+    "SkillCastTypeTag": 0,
+    "SpiritSkillType": 0,
+    "SkillActionType": 0,
+    "CastType": 0,
+    "ClientActionAdvance": false,
+    "ParrallelCast": false,
+    "ClientHurt": [],
+    "ClientHurtSkillPara": [],
+    "Cooldown": 3.5,
+    "ExtraFirmLevel": 0,
+    "CooldownTime": 5,
+    "ConnectedCdSkills": [],
+    "SSkillImageId": 0,
+    "IsLockTarget": true,
+    "KeepLastLock": false,
+    "LockCancelTime": 0,
+    "LockStayTime": 0,
+    "LockStayWholeSkill": false,
+    "LockDistance": 0,
+    "CrouchLockDistance": 0,
+    "LockPointFunc": 1,
+    "FollowCameraBlendTime": 0,
+    "OnlyLockInCameraEnemy": false,
+    "EnterFollowCamera": true,
+    "KeepFollowCamWhenLock": false,
+    "FaceLockTarAngleSpeed": 0,
+    "TransitionTag": 0,
+    "CanCastKeepCrouching": false,
+    "LockTargetType": [
+      1,
+      2
+    ],
+    "AddBVBUltEnergy": 0,
+    "BVBSkillType": 0,
+    "IsLoopSkill": false,
+    "SkillJumpId": [],
+    "ComboAdditionalTimeForMove": 0,
+    "ComboSkillId": [],
+    "EffectTarget": 200,
+    "UseControlPowerValue": 0,
+    "UseInStiff": 0,
+    "UseInControlState": false,
+    "ForceCast": false,
+    "Explain": [],
+    "SkillKeys": [],
+    "SkillParameter": [],
+    "hurtparas": [],
+    "SkillIconText": "",
+    "ExplainTips": [],
+    "ClientGoFirst": false,
+    "ResetIdleIdInUpbodyAction": false,
+    "NoRotation": true,
+    "NoMoveRotation": false,
+    "CameraSuddenFocus": false,
+    "CanFall": false,
+    "NotBreakLastSkill": false,
+    "NeedListenTouchGroundEvent": false,
+    "TouchGroundEventTriggerDistance": 0,
+    "SkillLockTimeDuration": [],
+    "OverToFightState": true,
+    "NoClearAction": [],
+    "SkillReplace": [],
+    "ChangeList": [],
+    "ShowDam": true,
+    "DontBreakCurrentSkill": false,
+    "SkillName": "",
+    "PlayEffectWhenCanUse": [],
+    "TurnToJoyStickDirectionOffset": 0,
+    "IgnoreNoSkillTimeSkillJump": true,
+    "IgnoreNoDodgeTime": false,
+    "IsMoveToPosGround": true,
+    "SkillJumpGroupId": 0,
+    "InheritageIncluionSkills": [],
+    "InheritageExclusionSkills": [],
+    "OverrideSkillJumpGraphId": 0,
+    "BlockMindSkillItemBreak": false,
+    "MindpowerSkill": 0,
+    "Mobile_SSkillImageId": 0,
+    "ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "SpecialLock": 0,
+    "LockHeightLimit": -1,
+    "ParkouStateTag": false,
+    "NoMoveTimeEndStateTreeParam": 0,
+    "SkillEndStateTreeParam": 1,
+    "StateTreeTag": [],
+    "ForceNoStateTreeSignal": false,
+    "SkillZone": true,
+    "BattlePeaceModeCanUse": false,
+    "CheckABPZone": 0,
+    "FollowWeaponLifeCycle": false,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "翻滚",
+    "__IDX__Explain": [],
+    "__RAW__Explain": [],
+    "__IDX__SkillName": 0,
+    "__RAW__SkillName": "",
+    "__IDX__ExplainSkillUp": [
+      4294967293,
+      4294967293
+    ],
+    "__RAW__ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "BatiSkillTime": {
+      "BatiSkill": 0,
+      "Time": 0,
+      "Team": false
+    },
+    "ComboResetWhenSkillBreak": {
+      "reset": true,
+      "switchClear": true,
+      "maxTimes": 1
+    },
+    "notBreakComboSkill": [],
+    "ClickSkillCombo": {
+      "normal": 0,
+      "cirt": 0
+    },
+    "HoldComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "ComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "HoldCastSkill": {
+      "clickCastSkillId": 0,
+      "holdTime": 0,
+      "holdCastSkillId": 0
+    },
+    "HoldLoopSkill": {
+      "loopSkill": 0,
+      "endSkill": 0,
+      "minLoopTime": 0
+    },
+    "UseSkillRes": [],
+    "LoopSkillUseControlPowerValue": {
+      "needValue": 0,
+      "useValuePerSecond": 0
+    },
+    "CanUseInTheAir": {
+      "CanUseInTheAir": true,
+      "MaxHeight": 0
+    },
+    "UseSkillWithoutObstacles": {
+      "isOpen": false,
+      "Radius": 0,
+      "frontDis": 0,
+      "behindDis": 0,
+      "leftDis": 0,
+      "rightDis": 0
+    },
+    "DetailExplain": [],
+    "ClientEffectScale": {
+      "basescale": 0,
+      "minscale": 0,
+      "maxscale": 0
+    },
+    "ClientMove": {
+      "delay": 0,
+      "duration": 0,
+      "mindis": 0,
+      "maxdis": 0,
+      "movetoaround": 0,
+      "diswithouttarget": 0
+    },
+    "ClientPredictMove": {
+      "delay": 0,
+      "duration": 0,
+      "predicttime": 0,
+      "mindis": 0,
+      "maxdis": 0
+    },
+    "ChangeModel": {
+      "modelId": 0,
+      "effectId": 0,
+      "endEffectId": 0
+    },
+    "ChangeDirToTarget": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "ChangeDirToJoyStickDir": {
+      "isTurnTo": true,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "CameraAnchorOffset": {
+      "y": 0,
+      "DiffY": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "CameraDistance": {
+      "distance": 0,
+      "DiffDistance": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "RotateSpeed": {
+      "rotatespeed": 0,
+      "starttime": 0,
+      "stoptime": 0
+    },
+    "SkillCameraMove": [],
+    "SkillTimelineJump": {
+      "jumptime": 0,
+      "TimelineName": ""
+    },
+    "DisableClientEvent": [],
+    "ReactSkill": {
+      "DelayTime": 0,
+      "movetime": 0,
+      "lasttime": 0,
+      "TargetActionId": 0,
+      "distance": 0,
+      "animationcurveid": 0,
+      "movedelay": 0,
+      "TargetMove": false,
+      "TargetY": 0,
+      "TargetX": 0,
+      "TargetZ": 0,
+      "maxheight": 0,
+      "offsetBySelf": false,
+      "delayFallTime": 0
+    },
+    "ChangeDirToDest": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "InheritLastSkillJump": {
+      "Inherit": false,
+      "TargetActionTime": 0
+    },
+    "SkillJumpSave": [],
+    "MindpowerComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    }
+  },
+  "PickUpWeaponCfg": {
+    "Id": 51990532,
+    "Name": "捡武器",
+    "SkillCastTypeTag": 0,
+    "SpiritSkillType": 0,
+    "SkillActionType": 0,
+    "CastType": 0,
+    "ClientActionAdvance": false,
+    "ParrallelCast": false,
+    "ClientHurt": [],
+    "ClientHurtSkillPara": [],
+    "Cooldown": 0,
+    "ExtraFirmLevel": 0,
+    "CooldownTime": 1,
+    "ConnectedCdSkills": [],
+    "SSkillImageId": 0,
+    "IsLockTarget": true,
+    "KeepLastLock": false,
+    "LockCancelTime": 0,
+    "LockStayTime": 0,
+    "LockStayWholeSkill": false,
+    "LockDistance": 0,
+    "CrouchLockDistance": 0,
+    "LockPointFunc": 1,
+    "FollowCameraBlendTime": 0,
+    "OnlyLockInCameraEnemy": false,
+    "EnterFollowCamera": true,
+    "KeepFollowCamWhenLock": false,
+    "FaceLockTarAngleSpeed": 0,
+    "TransitionTag": 0,
+    "CanCastKeepCrouching": false,
+    "LockTargetType": [
+      1,
+      2
+    ],
+    "AddBVBUltEnergy": 0,
+    "BVBSkillType": 0,
+    "IsLoopSkill": false,
+    "SkillJumpId": [],
+    "ComboAdditionalTimeForMove": 0,
+    "ComboSkillId": [],
+    "EffectTarget": 200,
+    "UseControlPowerValue": 0,
+    "UseInStiff": 0,
+    "UseInControlState": false,
+    "ForceCast": false,
+    "Explain": [],
+    "SkillKeys": [],
+    "SkillParameter": [],
+    "hurtparas": [],
+    "SkillIconText": "",
+    "ExplainTips": [],
+    "ClientGoFirst": false,
+    "ResetIdleIdInUpbodyAction": false,
+    "NoRotation": true,
+    "NoMoveRotation": false,
+    "CameraSuddenFocus": false,
+    "CanFall": false,
+    "NotBreakLastSkill": false,
+    "NeedListenTouchGroundEvent": false,
+    "TouchGroundEventTriggerDistance": 0,
+    "SkillLockTimeDuration": [],
+    "OverToFightState": true,
+    "NoClearAction": [],
+    "SkillReplace": [],
+    "ChangeList": [],
+    "ShowDam": true,
+    "DontBreakCurrentSkill": false,
+    "SkillName": "",
+    "PlayEffectWhenCanUse": [],
+    "TurnToJoyStickDirectionOffset": 0,
+    "IgnoreNoSkillTimeSkillJump": true,
+    "IgnoreNoDodgeTime": false,
+    "IsMoveToPosGround": true,
+    "SkillJumpGroupId": 0,
+    "InheritageIncluionSkills": [],
+    "InheritageExclusionSkills": [],
+    "OverrideSkillJumpGraphId": 0,
+    "BlockMindSkillItemBreak": false,
+    "MindpowerSkill": 0,
+    "Mobile_SSkillImageId": 0,
+    "ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "SpecialLock": 0,
+    "LockHeightLimit": -1,
+    "ParkouStateTag": false,
+    "NoMoveTimeEndStateTreeParam": 0,
+    "SkillEndStateTreeParam": 1,
+    "StateTreeTag": [],
+    "ForceNoStateTreeSignal": false,
+    "SkillZone": true,
+    "BattlePeaceModeCanUse": false,
+    "CheckABPZone": 0,
+    "FollowWeaponLifeCycle": false,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "捡武器",
+    "__IDX__Explain": [],
+    "__RAW__Explain": [],
+    "__IDX__SkillName": 0,
+    "__RAW__SkillName": "",
+    "__IDX__ExplainSkillUp": [
+      4294967293,
+      4294967293
+    ],
+    "__RAW__ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "BatiSkillTime": {
+      "BatiSkill": 0,
+      "Time": 0,
+      "Team": false
+    },
+    "ComboResetWhenSkillBreak": {
+      "reset": true,
+      "switchClear": true,
+      "maxTimes": 1
+    },
+    "notBreakComboSkill": [],
+    "ClickSkillCombo": {
+      "normal": 0,
+      "cirt": 0
+    },
+    "HoldComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "ComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "HoldCastSkill": {
+      "clickCastSkillId": 0,
+      "holdTime": 0,
+      "holdCastSkillId": 0
+    },
+    "HoldLoopSkill": {
+      "loopSkill": 0,
+      "endSkill": 0,
+      "minLoopTime": 0
+    },
+    "UseSkillRes": [],
+    "LoopSkillUseControlPowerValue": {
+      "needValue": 0,
+      "useValuePerSecond": 0
+    },
+    "CanUseInTheAir": {
+      "CanUseInTheAir": true,
+      "MaxHeight": 0
+    },
+    "UseSkillWithoutObstacles": {
+      "isOpen": false,
+      "Radius": 0,
+      "frontDis": 0,
+      "behindDis": 0,
+      "leftDis": 0,
+      "rightDis": 0
+    },
+    "DetailExplain": [],
+    "ClientEffectScale": {
+      "basescale": 0,
+      "minscale": 0,
+      "maxscale": 0
+    },
+    "ClientMove": {
+      "delay": 0,
+      "duration": 0,
+      "mindis": 0,
+      "maxdis": 0,
+      "movetoaround": 0,
+      "diswithouttarget": 0
+    },
+    "ClientPredictMove": {
+      "delay": 0,
+      "duration": 0,
+      "predicttime": 0,
+      "mindis": 0,
+      "maxdis": 0
+    },
+    "ChangeModel": {
+      "modelId": 0,
+      "effectId": 0,
+      "endEffectId": 0
+    },
+    "ChangeDirToTarget": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "ChangeDirToJoyStickDir": {
+      "isTurnTo": true,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "CameraAnchorOffset": {
+      "y": 0,
+      "DiffY": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "CameraDistance": {
+      "distance": 0,
+      "DiffDistance": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "RotateSpeed": {
+      "rotatespeed": 0,
+      "starttime": 0,
+      "stoptime": 0
+    },
+    "SkillCameraMove": [],
+    "SkillTimelineJump": {
+      "jumptime": 0,
+      "TimelineName": ""
+    },
+    "DisableClientEvent": [],
+    "ReactSkill": {
+      "DelayTime": 0,
+      "movetime": 0,
+      "lasttime": 0,
+      "TargetActionId": 0,
+      "distance": 0,
+      "animationcurveid": 0,
+      "movedelay": 0,
+      "TargetMove": false,
+      "TargetY": 0,
+      "TargetX": 0,
+      "TargetZ": 0,
+      "maxheight": 0,
+      "offsetBySelf": false,
+      "delayFallTime": 0
+    },
+    "ChangeDirToDest": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "InheritLastSkillJump": {
+      "Inherit": false,
+      "TargetActionTime": 0
+    },
+    "SkillJumpSave": [],
+    "MindpowerComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    }
+  },
+  "SliceUpCfg": {
+    "Id": 51990550,
+    "Name": "切割—向上砍",
+    "SkillCastTypeTag": 0,
+    "SpiritSkillType": 0,
+    "SkillActionType": 0,
+    "CastType": 0,
+    "ClientActionAdvance": false,
+    "ParrallelCast": false,
+    "ClientHurt": [],
+    "ClientHurtSkillPara": [],
+    "Cooldown": 0,
+    "ExtraFirmLevel": 0,
+    "CooldownTime": 1,
+    "ConnectedCdSkills": [],
+    "SSkillImageId": 0,
+    "IsLockTarget": true,
+    "KeepLastLock": false,
+    "LockCancelTime": 0,
+    "LockStayTime": 0,
+    "LockStayWholeSkill": false,
+    "LockDistance": 0,
+    "CrouchLockDistance": 0,
+    "LockPointFunc": 1,
+    "FollowCameraBlendTime": 0,
+    "OnlyLockInCameraEnemy": false,
+    "EnterFollowCamera": true,
+    "KeepFollowCamWhenLock": false,
+    "FaceLockTarAngleSpeed": 0,
+    "TransitionTag": 0,
+    "CanCastKeepCrouching": false,
+    "LockTargetType": [
+      1,
+      2
+    ],
+    "AddBVBUltEnergy": 0,
+    "BVBSkillType": 0,
+    "IsLoopSkill": false,
+    "SkillJumpId": [],
+    "ComboAdditionalTimeForMove": 0,
+    "ComboSkillId": [],
+    "EffectTarget": 200,
+    "UseControlPowerValue": 0,
+    "UseInStiff": 0,
+    "UseInControlState": false,
+    "ForceCast": false,
+    "Explain": [],
+    "SkillKeys": [],
+    "SkillParameter": [],
+    "hurtparas": [],
+    "SkillIconText": "",
+    "ExplainTips": [],
+    "ClientGoFirst": true,
+    "ResetIdleIdInUpbodyAction": false,
+    "NoRotation": true,
+    "NoMoveRotation": false,
+    "CameraSuddenFocus": false,
+    "CanFall": false,
+    "NotBreakLastSkill": false,
+    "NeedListenTouchGroundEvent": false,
+    "TouchGroundEventTriggerDistance": 0,
+    "SkillLockTimeDuration": [],
+    "OverToFightState": false,
+    "NoClearAction": [],
+    "SkillReplace": [],
+    "ChangeList": [],
+    "ShowDam": true,
+    "DontBreakCurrentSkill": false,
+    "SkillName": "",
+    "PlayEffectWhenCanUse": [],
+    "TurnToJoyStickDirectionOffset": 0,
+    "IgnoreNoSkillTimeSkillJump": true,
+    "IgnoreNoDodgeTime": false,
+    "IsMoveToPosGround": true,
+    "SkillJumpGroupId": 0,
+    "InheritageIncluionSkills": [],
+    "InheritageExclusionSkills": [],
+    "OverrideSkillJumpGraphId": 0,
+    "BlockMindSkillItemBreak": false,
+    "MindpowerSkill": 0,
+    "Mobile_SSkillImageId": 0,
+    "ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "SpecialLock": 0,
+    "LockHeightLimit": -1,
+    "ParkouStateTag": false,
+    "NoMoveTimeEndStateTreeParam": 0,
+    "SkillEndStateTreeParam": 1,
+    "StateTreeTag": [],
+    "ForceNoStateTreeSignal": false,
+    "SkillZone": true,
+    "BattlePeaceModeCanUse": false,
+    "CheckABPZone": 0,
+    "FollowWeaponLifeCycle": false,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "切割—向上砍",
+    "__IDX__Explain": [],
+    "__RAW__Explain": [],
+    "__IDX__SkillName": 0,
+    "__RAW__SkillName": "",
+    "__IDX__ExplainSkillUp": [
+      4294967293,
+      4294967293
+    ],
+    "__RAW__ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "BatiSkillTime": {
+      "BatiSkill": 0,
+      "Time": 0,
+      "Team": false
+    },
+    "ComboResetWhenSkillBreak": {
+      "reset": true,
+      "switchClear": true,
+      "maxTimes": 1
+    },
+    "notBreakComboSkill": [],
+    "ClickSkillCombo": {
+      "normal": 0,
+      "cirt": 0
+    },
+    "HoldComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "ComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "HoldCastSkill": {
+      "clickCastSkillId": 0,
+      "holdTime": 0,
+      "holdCastSkillId": 0
+    },
+    "HoldLoopSkill": {
+      "loopSkill": 0,
+      "endSkill": 0,
+      "minLoopTime": 0
+    },
+    "UseSkillRes": [],
+    "LoopSkillUseControlPowerValue": {
+      "needValue": 0,
+      "useValuePerSecond": 0
+    },
+    "CanUseInTheAir": {
+      "CanUseInTheAir": true,
+      "MaxHeight": 0
+    },
+    "UseSkillWithoutObstacles": {
+      "isOpen": false,
+      "Radius": 0,
+      "frontDis": 0,
+      "behindDis": 0,
+      "leftDis": 0,
+      "rightDis": 0
+    },
+    "DetailExplain": [],
+    "ClientEffectScale": {
+      "basescale": 0,
+      "minscale": 0,
+      "maxscale": 0
+    },
+    "ClientMove": {
+      "delay": 0,
+      "duration": 0,
+      "mindis": 0,
+      "maxdis": 0,
+      "movetoaround": 0,
+      "diswithouttarget": 0
+    },
+    "ClientPredictMove": {
+      "delay": 0,
+      "duration": 0,
+      "predicttime": 0,
+      "mindis": 0,
+      "maxdis": 0
+    },
+    "ChangeModel": {
+      "modelId": 0,
+      "effectId": 0,
+      "endEffectId": 0
+    },
+    "ChangeDirToTarget": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "ChangeDirToJoyStickDir": {
+      "isTurnTo": true,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "CameraAnchorOffset": {
+      "y": 0,
+      "DiffY": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "CameraDistance": {
+      "distance": 0,
+      "DiffDistance": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "RotateSpeed": {
+      "rotatespeed": 0,
+      "starttime": 0,
+      "stoptime": 0
+    },
+    "SkillCameraMove": [],
+    "SkillTimelineJump": {
+      "jumptime": 0,
+      "TimelineName": ""
+    },
+    "DisableClientEvent": [],
+    "ReactSkill": {
+      "DelayTime": 0,
+      "movetime": 0,
+      "lasttime": 0,
+      "TargetActionId": 0,
+      "distance": 0,
+      "animationcurveid": 0,
+      "movedelay": 0,
+      "TargetMove": false,
+      "TargetY": 0,
+      "TargetX": 0,
+      "TargetZ": 0,
+      "maxheight": 0,
+      "offsetBySelf": false,
+      "delayFallTime": 0
+    },
+    "ChangeDirToDest": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "InheritLastSkillJump": {
+      "Inherit": false,
+      "TargetActionTime": 0
+    },
+    "SkillJumpSave": [],
+    "MindpowerComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    }
+  },
+  "SliceDownCfg": {
+    "Id": 51990551,
+    "Name": "切割—向下砍",
+    "SkillCastTypeTag": 0,
+    "SpiritSkillType": 0,
+    "SkillActionType": 0,
+    "CastType": 0,
+    "ClientActionAdvance": false,
+    "ParrallelCast": false,
+    "ClientHurt": [],
+    "ClientHurtSkillPara": [],
+    "Cooldown": 0,
+    "ExtraFirmLevel": 0,
+    "CooldownTime": 1,
+    "ConnectedCdSkills": [],
+    "SSkillImageId": 0,
+    "IsLockTarget": true,
+    "KeepLastLock": false,
+    "LockCancelTime": 0,
+    "LockStayTime": 0,
+    "LockStayWholeSkill": false,
+    "LockDistance": 0,
+    "CrouchLockDistance": 0,
+    "LockPointFunc": 1,
+    "FollowCameraBlendTime": 0,
+    "OnlyLockInCameraEnemy": false,
+    "EnterFollowCamera": true,
+    "KeepFollowCamWhenLock": false,
+    "FaceLockTarAngleSpeed": 0,
+    "TransitionTag": 0,
+    "CanCastKeepCrouching": false,
+    "LockTargetType": [
+      1,
+      2
+    ],
+    "AddBVBUltEnergy": 0,
+    "BVBSkillType": 0,
+    "IsLoopSkill": false,
+    "SkillJumpId": [],
+    "ComboAdditionalTimeForMove": 0,
+    "ComboSkillId": [],
+    "EffectTarget": 200,
+    "UseControlPowerValue": 0,
+    "UseInStiff": 0,
+    "UseInControlState": false,
+    "ForceCast": false,
+    "Explain": [],
+    "SkillKeys": [],
+    "SkillParameter": [],
+    "hurtparas": [],
+    "SkillIconText": "",
+    "ExplainTips": [],
+    "ClientGoFirst": true,
+    "ResetIdleIdInUpbodyAction": false,
+    "NoRotation": true,
+    "NoMoveRotation": false,
+    "CameraSuddenFocus": false,
+    "CanFall": false,
+    "NotBreakLastSkill": false,
+    "NeedListenTouchGroundEvent": false,
+    "TouchGroundEventTriggerDistance": 0,
+    "SkillLockTimeDuration": [],
+    "OverToFightState": false,
+    "NoClearAction": [],
+    "SkillReplace": [],
+    "ChangeList": [],
+    "ShowDam": true,
+    "DontBreakCurrentSkill": false,
+    "SkillName": "",
+    "PlayEffectWhenCanUse": [],
+    "TurnToJoyStickDirectionOffset": 0,
+    "IgnoreNoSkillTimeSkillJump": true,
+    "IgnoreNoDodgeTime": false,
+    "IsMoveToPosGround": true,
+    "SkillJumpGroupId": 0,
+    "InheritageIncluionSkills": [],
+    "InheritageExclusionSkills": [],
+    "OverrideSkillJumpGraphId": 0,
+    "BlockMindSkillItemBreak": false,
+    "MindpowerSkill": 0,
+    "Mobile_SSkillImageId": 0,
+    "ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "SpecialLock": 0,
+    "LockHeightLimit": -1,
+    "ParkouStateTag": false,
+    "NoMoveTimeEndStateTreeParam": 0,
+    "SkillEndStateTreeParam": 1,
+    "StateTreeTag": [],
+    "ForceNoStateTreeSignal": false,
+    "SkillZone": true,
+    "BattlePeaceModeCanUse": false,
+    "CheckABPZone": 0,
+    "FollowWeaponLifeCycle": false,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "切割—向下砍",
+    "__IDX__Explain": [],
+    "__RAW__Explain": [],
+    "__IDX__SkillName": 0,
+    "__RAW__SkillName": "",
+    "__IDX__ExplainSkillUp": [
+      4294967293,
+      4294967293
+    ],
+    "__RAW__ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "BatiSkillTime": {
+      "BatiSkill": 0,
+      "Time": 0,
+      "Team": false
+    },
+    "ComboResetWhenSkillBreak": {
+      "reset": true,
+      "switchClear": true,
+      "maxTimes": 1
+    },
+    "notBreakComboSkill": [],
+    "ClickSkillCombo": {
+      "normal": 0,
+      "cirt": 0
+    },
+    "HoldComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "ComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "HoldCastSkill": {
+      "clickCastSkillId": 0,
+      "holdTime": 0,
+      "holdCastSkillId": 0
+    },
+    "HoldLoopSkill": {
+      "loopSkill": 0,
+      "endSkill": 0,
+      "minLoopTime": 0
+    },
+    "UseSkillRes": [],
+    "LoopSkillUseControlPowerValue": {
+      "needValue": 0,
+      "useValuePerSecond": 0
+    },
+    "CanUseInTheAir": {
+      "CanUseInTheAir": true,
+      "MaxHeight": 0
+    },
+    "UseSkillWithoutObstacles": {
+      "isOpen": false,
+      "Radius": 0,
+      "frontDis": 0,
+      "behindDis": 0,
+      "leftDis": 0,
+      "rightDis": 0
+    },
+    "DetailExplain": [],
+    "ClientEffectScale": {
+      "basescale": 0,
+      "minscale": 0,
+      "maxscale": 0
+    },
+    "ClientMove": {
+      "delay": 0,
+      "duration": 0,
+      "mindis": 0,
+      "maxdis": 0,
+      "movetoaround": 0,
+      "diswithouttarget": 0
+    },
+    "ClientPredictMove": {
+      "delay": 0,
+      "duration": 0,
+      "predicttime": 0,
+      "mindis": 0,
+      "maxdis": 0
+    },
+    "ChangeModel": {
+      "modelId": 0,
+      "effectId": 0,
+      "endEffectId": 0
+    },
+    "ChangeDirToTarget": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "ChangeDirToJoyStickDir": {
+      "isTurnTo": true,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "CameraAnchorOffset": {
+      "y": 0,
+      "DiffY": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "CameraDistance": {
+      "distance": 0,
+      "DiffDistance": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "RotateSpeed": {
+      "rotatespeed": 0,
+      "starttime": 0,
+      "stoptime": 0
+    },
+    "SkillCameraMove": [],
+    "SkillTimelineJump": {
+      "jumptime": 0,
+      "TimelineName": ""
+    },
+    "DisableClientEvent": [],
+    "ReactSkill": {
+      "DelayTime": 0,
+      "movetime": 0,
+      "lasttime": 0,
+      "TargetActionId": 0,
+      "distance": 0,
+      "animationcurveid": 0,
+      "movedelay": 0,
+      "TargetMove": false,
+      "TargetY": 0,
+      "TargetX": 0,
+      "TargetZ": 0,
+      "maxheight": 0,
+      "offsetBySelf": false,
+      "delayFallTime": 0
+    },
+    "ChangeDirToDest": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "InheritLastSkillJump": {
+      "Inherit": false,
+      "TargetActionTime": 0
+    },
+    "SkillJumpSave": [],
+    "MindpowerComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    }
+  },
+  "SliceLeftCfg": {
+    "Id": 51990552,
+    "Name": "切割—向左砍",
+    "SkillCastTypeTag": 0,
+    "SpiritSkillType": 0,
+    "SkillActionType": 0,
+    "CastType": 0,
+    "ClientActionAdvance": false,
+    "ParrallelCast": false,
+    "ClientHurt": [],
+    "ClientHurtSkillPara": [],
+    "Cooldown": 0,
+    "ExtraFirmLevel": 0,
+    "CooldownTime": 1,
+    "ConnectedCdSkills": [],
+    "SSkillImageId": 0,
+    "IsLockTarget": true,
+    "KeepLastLock": false,
+    "LockCancelTime": 0,
+    "LockStayTime": 0,
+    "LockStayWholeSkill": false,
+    "LockDistance": 0,
+    "CrouchLockDistance": 0,
+    "LockPointFunc": 1,
+    "FollowCameraBlendTime": 0,
+    "OnlyLockInCameraEnemy": false,
+    "EnterFollowCamera": true,
+    "KeepFollowCamWhenLock": false,
+    "FaceLockTarAngleSpeed": 0,
+    "TransitionTag": 0,
+    "CanCastKeepCrouching": false,
+    "LockTargetType": [
+      1,
+      2
+    ],
+    "AddBVBUltEnergy": 0,
+    "BVBSkillType": 0,
+    "IsLoopSkill": false,
+    "SkillJumpId": [],
+    "ComboAdditionalTimeForMove": 0,
+    "ComboSkillId": [],
+    "EffectTarget": 200,
+    "UseControlPowerValue": 0,
+    "UseInStiff": 0,
+    "UseInControlState": false,
+    "ForceCast": false,
+    "Explain": [],
+    "SkillKeys": [],
+    "SkillParameter": [],
+    "hurtparas": [],
+    "SkillIconText": "",
+    "ExplainTips": [],
+    "ClientGoFirst": true,
+    "ResetIdleIdInUpbodyAction": false,
+    "NoRotation": true,
+    "NoMoveRotation": false,
+    "CameraSuddenFocus": false,
+    "CanFall": false,
+    "NotBreakLastSkill": false,
+    "NeedListenTouchGroundEvent": false,
+    "TouchGroundEventTriggerDistance": 0,
+    "SkillLockTimeDuration": [],
+    "OverToFightState": false,
+    "NoClearAction": [],
+    "SkillReplace": [],
+    "ChangeList": [],
+    "ShowDam": true,
+    "DontBreakCurrentSkill": false,
+    "SkillName": "",
+    "PlayEffectWhenCanUse": [],
+    "TurnToJoyStickDirectionOffset": 0,
+    "IgnoreNoSkillTimeSkillJump": true,
+    "IgnoreNoDodgeTime": false,
+    "IsMoveToPosGround": true,
+    "SkillJumpGroupId": 0,
+    "InheritageIncluionSkills": [],
+    "InheritageExclusionSkills": [],
+    "OverrideSkillJumpGraphId": 0,
+    "BlockMindSkillItemBreak": false,
+    "MindpowerSkill": 0,
+    "Mobile_SSkillImageId": 0,
+    "ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "SpecialLock": 0,
+    "LockHeightLimit": -1,
+    "ParkouStateTag": false,
+    "NoMoveTimeEndStateTreeParam": 0,
+    "SkillEndStateTreeParam": 1,
+    "StateTreeTag": [],
+    "ForceNoStateTreeSignal": false,
+    "SkillZone": true,
+    "BattlePeaceModeCanUse": false,
+    "CheckABPZone": 0,
+    "FollowWeaponLifeCycle": false,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "切割—向左砍",
+    "__IDX__Explain": [],
+    "__RAW__Explain": [],
+    "__IDX__SkillName": 0,
+    "__RAW__SkillName": "",
+    "__IDX__ExplainSkillUp": [
+      4294967293,
+      4294967293
+    ],
+    "__RAW__ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "BatiSkillTime": {
+      "BatiSkill": 0,
+      "Time": 0,
+      "Team": false
+    },
+    "ComboResetWhenSkillBreak": {
+      "reset": true,
+      "switchClear": true,
+      "maxTimes": 1
+    },
+    "notBreakComboSkill": [],
+    "ClickSkillCombo": {
+      "normal": 0,
+      "cirt": 0
+    },
+    "HoldComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "ComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "HoldCastSkill": {
+      "clickCastSkillId": 0,
+      "holdTime": 0,
+      "holdCastSkillId": 0
+    },
+    "HoldLoopSkill": {
+      "loopSkill": 0,
+      "endSkill": 0,
+      "minLoopTime": 0
+    },
+    "UseSkillRes": [],
+    "LoopSkillUseControlPowerValue": {
+      "needValue": 0,
+      "useValuePerSecond": 0
+    },
+    "CanUseInTheAir": {
+      "CanUseInTheAir": true,
+      "MaxHeight": 0
+    },
+    "UseSkillWithoutObstacles": {
+      "isOpen": false,
+      "Radius": 0,
+      "frontDis": 0,
+      "behindDis": 0,
+      "leftDis": 0,
+      "rightDis": 0
+    },
+    "DetailExplain": [],
+    "ClientEffectScale": {
+      "basescale": 0,
+      "minscale": 0,
+      "maxscale": 0
+    },
+    "ClientMove": {
+      "delay": 0,
+      "duration": 0,
+      "mindis": 0,
+      "maxdis": 0,
+      "movetoaround": 0,
+      "diswithouttarget": 0
+    },
+    "ClientPredictMove": {
+      "delay": 0,
+      "duration": 0,
+      "predicttime": 0,
+      "mindis": 0,
+      "maxdis": 0
+    },
+    "ChangeModel": {
+      "modelId": 0,
+      "effectId": 0,
+      "endEffectId": 0
+    },
+    "ChangeDirToTarget": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "ChangeDirToJoyStickDir": {
+      "isTurnTo": true,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "CameraAnchorOffset": {
+      "y": 0,
+      "DiffY": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "CameraDistance": {
+      "distance": 0,
+      "DiffDistance": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "RotateSpeed": {
+      "rotatespeed": 0,
+      "starttime": 0,
+      "stoptime": 0
+    },
+    "SkillCameraMove": [],
+    "SkillTimelineJump": {
+      "jumptime": 0,
+      "TimelineName": ""
+    },
+    "DisableClientEvent": [],
+    "ReactSkill": {
+      "DelayTime": 0,
+      "movetime": 0,
+      "lasttime": 0,
+      "TargetActionId": 0,
+      "distance": 0,
+      "animationcurveid": 0,
+      "movedelay": 0,
+      "TargetMove": false,
+      "TargetY": 0,
+      "TargetX": 0,
+      "TargetZ": 0,
+      "maxheight": 0,
+      "offsetBySelf": false,
+      "delayFallTime": 0
+    },
+    "ChangeDirToDest": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "InheritLastSkillJump": {
+      "Inherit": false,
+      "TargetActionTime": 0
+    },
+    "SkillJumpSave": [],
+    "MindpowerComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    }
+  },
+  "SliceRightCfg": {
+    "Id": 51990553,
+    "Name": "切割—向右砍",
+    "SkillCastTypeTag": 0,
+    "SpiritSkillType": 0,
+    "SkillActionType": 0,
+    "CastType": 0,
+    "ClientActionAdvance": false,
+    "ParrallelCast": false,
+    "ClientHurt": [],
+    "ClientHurtSkillPara": [],
+    "Cooldown": 0,
+    "ExtraFirmLevel": 0,
+    "CooldownTime": 1,
+    "ConnectedCdSkills": [],
+    "SSkillImageId": 0,
+    "IsLockTarget": true,
+    "KeepLastLock": false,
+    "LockCancelTime": 0,
+    "LockStayTime": 0,
+    "LockStayWholeSkill": false,
+    "LockDistance": 0,
+    "CrouchLockDistance": 0,
+    "LockPointFunc": 1,
+    "FollowCameraBlendTime": 0,
+    "OnlyLockInCameraEnemy": false,
+    "EnterFollowCamera": true,
+    "KeepFollowCamWhenLock": false,
+    "FaceLockTarAngleSpeed": 0,
+    "TransitionTag": 0,
+    "CanCastKeepCrouching": false,
+    "LockTargetType": [
+      1,
+      2
+    ],
+    "AddBVBUltEnergy": 0,
+    "BVBSkillType": 0,
+    "IsLoopSkill": false,
+    "SkillJumpId": [],
+    "ComboAdditionalTimeForMove": 0,
+    "ComboSkillId": [],
+    "EffectTarget": 200,
+    "UseControlPowerValue": 0,
+    "UseInStiff": 0,
+    "UseInControlState": false,
+    "ForceCast": false,
+    "Explain": [],
+    "SkillKeys": [],
+    "SkillParameter": [],
+    "hurtparas": [],
+    "SkillIconText": "",
+    "ExplainTips": [],
+    "ClientGoFirst": true,
+    "ResetIdleIdInUpbodyAction": false,
+    "NoRotation": true,
+    "NoMoveRotation": false,
+    "CameraSuddenFocus": false,
+    "CanFall": false,
+    "NotBreakLastSkill": false,
+    "NeedListenTouchGroundEvent": false,
+    "TouchGroundEventTriggerDistance": 0,
+    "SkillLockTimeDuration": [],
+    "OverToFightState": false,
+    "NoClearAction": [],
+    "SkillReplace": [],
+    "ChangeList": [],
+    "ShowDam": true,
+    "DontBreakCurrentSkill": false,
+    "SkillName": "",
+    "PlayEffectWhenCanUse": [],
+    "TurnToJoyStickDirectionOffset": 0,
+    "IgnoreNoSkillTimeSkillJump": true,
+    "IgnoreNoDodgeTime": false,
+    "IsMoveToPosGround": true,
+    "SkillJumpGroupId": 0,
+    "InheritageIncluionSkills": [],
+    "InheritageExclusionSkills": [],
+    "OverrideSkillJumpGraphId": 0,
+    "BlockMindSkillItemBreak": false,
+    "MindpowerSkill": 0,
+    "Mobile_SSkillImageId": 0,
+    "ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "SpecialLock": 0,
+    "LockHeightLimit": -1,
+    "ParkouStateTag": false,
+    "NoMoveTimeEndStateTreeParam": 0,
+    "SkillEndStateTreeParam": 1,
+    "StateTreeTag": [],
+    "ForceNoStateTreeSignal": false,
+    "SkillZone": true,
+    "BattlePeaceModeCanUse": false,
+    "CheckABPZone": 0,
+    "FollowWeaponLifeCycle": false,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "切割—向右砍",
+    "__IDX__Explain": [],
+    "__RAW__Explain": [],
+    "__IDX__SkillName": 0,
+    "__RAW__SkillName": "",
+    "__IDX__ExplainSkillUp": [
+      4294967293,
+      4294967293
+    ],
+    "__RAW__ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "BatiSkillTime": {
+      "BatiSkill": 0,
+      "Time": 0,
+      "Team": false
+    },
+    "ComboResetWhenSkillBreak": {
+      "reset": true,
+      "switchClear": true,
+      "maxTimes": 1
+    },
+    "notBreakComboSkill": [],
+    "ClickSkillCombo": {
+      "normal": 0,
+      "cirt": 0
+    },
+    "HoldComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "ComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "HoldCastSkill": {
+      "clickCastSkillId": 0,
+      "holdTime": 0,
+      "holdCastSkillId": 0
+    },
+    "HoldLoopSkill": {
+      "loopSkill": 0,
+      "endSkill": 0,
+      "minLoopTime": 0
+    },
+    "UseSkillRes": [],
+    "LoopSkillUseControlPowerValue": {
+      "needValue": 0,
+      "useValuePerSecond": 0
+    },
+    "CanUseInTheAir": {
+      "CanUseInTheAir": true,
+      "MaxHeight": 0
+    },
+    "UseSkillWithoutObstacles": {
+      "isOpen": false,
+      "Radius": 0,
+      "frontDis": 0,
+      "behindDis": 0,
+      "leftDis": 0,
+      "rightDis": 0
+    },
+    "DetailExplain": [],
+    "ClientEffectScale": {
+      "basescale": 0,
+      "minscale": 0,
+      "maxscale": 0
+    },
+    "ClientMove": {
+      "delay": 0,
+      "duration": 0,
+      "mindis": 0,
+      "maxdis": 0,
+      "movetoaround": 0,
+      "diswithouttarget": 0
+    },
+    "ClientPredictMove": {
+      "delay": 0,
+      "duration": 0,
+      "predicttime": 0,
+      "mindis": 0,
+      "maxdis": 0
+    },
+    "ChangeModel": {
+      "modelId": 0,
+      "effectId": 0,
+      "endEffectId": 0
+    },
+    "ChangeDirToTarget": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "ChangeDirToJoyStickDir": {
+      "isTurnTo": true,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "CameraAnchorOffset": {
+      "y": 0,
+      "DiffY": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "CameraDistance": {
+      "distance": 0,
+      "DiffDistance": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "RotateSpeed": {
+      "rotatespeed": 0,
+      "starttime": 0,
+      "stoptime": 0
+    },
+    "SkillCameraMove": [],
+    "SkillTimelineJump": {
+      "jumptime": 0,
+      "TimelineName": ""
+    },
+    "DisableClientEvent": [],
+    "ReactSkill": {
+      "DelayTime": 0,
+      "movetime": 0,
+      "lasttime": 0,
+      "TargetActionId": 0,
+      "distance": 0,
+      "animationcurveid": 0,
+      "movedelay": 0,
+      "TargetMove": false,
+      "TargetY": 0,
+      "TargetX": 0,
+      "TargetZ": 0,
+      "maxheight": 0,
+      "offsetBySelf": false,
+      "delayFallTime": 0
+    },
+    "ChangeDirToDest": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "InheritLastSkillJump": {
+      "Inherit": false,
+      "TargetActionTime": 0
+    },
+    "SkillJumpSave": [],
+    "MindpowerComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    }
+  },
+  "AutoMindBrainPowerCfg": {
+    "Id": 51990570,
+    "Name": "自动念力脑内空间",
+    "SkillCastTypeTag": 0,
+    "SpiritSkillType": 0,
+    "SkillActionType": 0,
+    "CastType": 0,
+    "ClientActionAdvance": false,
+    "ParrallelCast": false,
+    "ClientHurt": [],
+    "ClientHurtSkillPara": [],
+    "Cooldown": 0,
+    "ExtraFirmLevel": 0,
+    "CooldownTime": 1,
+    "ConnectedCdSkills": [],
+    "SSkillImageId": 28001152,
+    "IsLockTarget": true,
+    "KeepLastLock": false,
+    "LockCancelTime": 0,
+    "LockStayTime": 0,
+    "LockStayWholeSkill": false,
+    "LockDistance": 0,
+    "CrouchLockDistance": 0,
+    "LockPointFunc": 1,
+    "FollowCameraBlendTime": 0,
+    "OnlyLockInCameraEnemy": false,
+    "EnterFollowCamera": true,
+    "KeepFollowCamWhenLock": false,
+    "FaceLockTarAngleSpeed": 0,
+    "TransitionTag": 0,
+    "CanCastKeepCrouching": false,
+    "LockTargetType": [
+      1,
+      2
+    ],
+    "AddBVBUltEnergy": 0,
+    "BVBSkillType": 0,
+    "IsLoopSkill": false,
+    "SkillJumpId": [],
+    "ComboAdditionalTimeForMove": 0,
+    "ComboSkillId": [],
+    "EffectTarget": 200,
+    "UseControlPowerValue": 0,
+    "UseInStiff": 0,
+    "UseInControlState": false,
+    "ForceCast": false,
+    "Explain": [],
+    "SkillKeys": [],
+    "SkillParameter": [],
+    "hurtparas": [],
+    "SkillIconText": "",
+    "ExplainTips": [],
+    "ClientGoFirst": false,
+    "ResetIdleIdInUpbodyAction": false,
+    "NoRotation": true,
+    "NoMoveRotation": false,
+    "CameraSuddenFocus": false,
+    "CanFall": false,
+    "NotBreakLastSkill": false,
+    "NeedListenTouchGroundEvent": false,
+    "TouchGroundEventTriggerDistance": 0,
+    "SkillLockTimeDuration": [],
+    "OverToFightState": true,
+    "NoClearAction": [],
+    "SkillReplace": [],
+    "ChangeList": [],
+    "ShowDam": true,
+    "DontBreakCurrentSkill": false,
+    "SkillName": "",
+    "PlayEffectWhenCanUse": [],
+    "TurnToJoyStickDirectionOffset": 0,
+    "IgnoreNoSkillTimeSkillJump": true,
+    "IgnoreNoDodgeTime": false,
+    "IsMoveToPosGround": true,
+    "SkillJumpGroupId": 0,
+    "InheritageIncluionSkills": [],
+    "InheritageExclusionSkills": [],
+    "OverrideSkillJumpGraphId": 0,
+    "BlockMindSkillItemBreak": false,
+    "MindpowerSkill": 0,
+    "Mobile_SSkillImageId": 0,
+    "ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "SpecialLock": 0,
+    "LockHeightLimit": -1,
+    "ParkouStateTag": false,
+    "NoMoveTimeEndStateTreeParam": 0,
+    "SkillEndStateTreeParam": 1,
+    "StateTreeTag": [],
+    "ForceNoStateTreeSignal": false,
+    "SkillZone": true,
+    "BattlePeaceModeCanUse": false,
+    "CheckABPZone": 0,
+    "FollowWeaponLifeCycle": false,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "自动念力脑内空间",
+    "__IDX__Explain": [],
+    "__RAW__Explain": [],
+    "__IDX__SkillName": 0,
+    "__RAW__SkillName": "",
+    "__IDX__ExplainSkillUp": [
+      4294967293,
+      4294967293
+    ],
+    "__RAW__ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "BatiSkillTime": {
+      "BatiSkill": 0,
+      "Time": 0,
+      "Team": false
+    },
+    "ComboResetWhenSkillBreak": {
+      "reset": true,
+      "switchClear": true,
+      "maxTimes": 1
+    },
+    "notBreakComboSkill": [],
+    "ClickSkillCombo": {
+      "normal": 0,
+      "cirt": 0
+    },
+    "HoldComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "ComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "HoldCastSkill": {
+      "clickCastSkillId": 0,
+      "holdTime": 0,
+      "holdCastSkillId": 0
+    },
+    "HoldLoopSkill": {
+      "loopSkill": 0,
+      "endSkill": 0,
+      "minLoopTime": 0
+    },
+    "UseSkillRes": [],
+    "LoopSkillUseControlPowerValue": {
+      "needValue": 0,
+      "useValuePerSecond": 0
+    },
+    "CanUseInTheAir": {
+      "CanUseInTheAir": true,
+      "MaxHeight": 0
+    },
+    "UseSkillWithoutObstacles": {
+      "isOpen": false,
+      "Radius": 0,
+      "frontDis": 0,
+      "behindDis": 0,
+      "leftDis": 0,
+      "rightDis": 0
+    },
+    "DetailExplain": [],
+    "ClientEffectScale": {
+      "basescale": 0,
+      "minscale": 0,
+      "maxscale": 0
+    },
+    "ClientMove": {
+      "delay": 0,
+      "duration": 0,
+      "mindis": 0,
+      "maxdis": 0,
+      "movetoaround": 0,
+      "diswithouttarget": 0
+    },
+    "ClientPredictMove": {
+      "delay": 0,
+      "duration": 0,
+      "predicttime": 0,
+      "mindis": 0,
+      "maxdis": 0
+    },
+    "ChangeModel": {
+      "modelId": 0,
+      "effectId": 0,
+      "endEffectId": 0
+    },
+    "ChangeDirToTarget": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "ChangeDirToJoyStickDir": {
+      "isTurnTo": true,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "CameraAnchorOffset": {
+      "y": 0,
+      "DiffY": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "CameraDistance": {
+      "distance": 0,
+      "DiffDistance": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "RotateSpeed": {
+      "rotatespeed": 0,
+      "starttime": 0,
+      "stoptime": 0
+    },
+    "SkillCameraMove": [],
+    "SkillTimelineJump": {
+      "jumptime": 0,
+      "TimelineName": ""
+    },
+    "DisableClientEvent": [],
+    "ReactSkill": {
+      "DelayTime": 0,
+      "movetime": 0,
+      "lasttime": 0,
+      "TargetActionId": 0,
+      "distance": 0,
+      "animationcurveid": 0,
+      "movedelay": 0,
+      "TargetMove": false,
+      "TargetY": 0,
+      "TargetX": 0,
+      "TargetZ": 0,
+      "maxheight": 0,
+      "offsetBySelf": false,
+      "delayFallTime": 0
+    },
+    "ChangeDirToDest": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "InheritLastSkillJump": {
+      "Inherit": false,
+      "TargetActionTime": 0
+    },
+    "SkillJumpSave": [],
+    "MindpowerComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    }
+  },
+  "WaterTrunkSprayMudCfg": {
+    "Id": 51984204,
+    "Name": "喷水车喷泥浆循环",
+    "SkillCastTypeTag": 10,
+    "SpiritSkillType": 1,
+    "SkillActionType": 0,
+    "CastType": 0,
+    "ClientActionAdvance": true,
+    "ParrallelCast": false,
+    "ClientHurt": [],
+    "ClientHurtSkillPara": [],
+    "Cooldown": 0,
+    "ExtraFirmLevel": 0,
+    "CooldownTime": 1,
+    "ConnectedCdSkills": [],
+    "SSkillImageId": 0,
+    "IsLockTarget": true,
+    "KeepLastLock": false,
+    "LockCancelTime": 10,
+    "LockStayTime": 10,
+    "LockStayWholeSkill": false,
+    "LockDistance": 0,
+    "CrouchLockDistance": 0,
+    "LockPointFunc": 1,
+    "FollowCameraBlendTime": 0,
+    "OnlyLockInCameraEnemy": false,
+    "EnterFollowCamera": false,
+    "KeepFollowCamWhenLock": false,
+    "FaceLockTarAngleSpeed": 0,
+    "TransitionTag": 1,
+    "CanCastKeepCrouching": false,
+    "LockTargetType": [
+      1,
+      2
+    ],
+    "AddBVBUltEnergy": 0,
+    "BVBSkillType": 0,
+    "IsLoopSkill": false,
+    "SkillJumpId": [
+      97012056,
+      97012057
+    ],
+    "ComboAdditionalTimeForMove": 0,
+    "ComboSkillId": [],
+    "EffectTarget": 200,
+    "UseControlPowerValue": 0,
+    "UseInStiff": 0,
+    "UseInControlState": false,
+    "ForceCast": false,
+    "Explain": [],
+    "SkillKeys": [],
+    "SkillParameter": [],
+    "hurtparas": [],
+    "SkillIconText": "",
+    "ExplainTips": [],
+    "ClientGoFirst": false,
+    "ResetIdleIdInUpbodyAction": false,
+    "NoRotation": true,
+    "NoMoveRotation": false,
+    "CameraSuddenFocus": false,
+    "CanFall": false,
+    "NotBreakLastSkill": false,
+    "NeedListenTouchGroundEvent": false,
+    "TouchGroundEventTriggerDistance": 0,
+    "SkillLockTimeDuration": [],
+    "OverToFightState": false,
+    "NoClearAction": [],
+    "SkillReplace": [],
+    "ChangeList": [],
+    "ShowDam": true,
+    "DontBreakCurrentSkill": false,
+    "SkillName": "",
+    "PlayEffectWhenCanUse": [],
+    "TurnToJoyStickDirectionOffset": 0,
+    "IgnoreNoSkillTimeSkillJump": true,
+    "IgnoreNoDodgeTime": false,
+    "IsMoveToPosGround": true,
+    "SkillJumpGroupId": 0,
+    "InheritageIncluionSkills": [],
+    "InheritageExclusionSkills": [],
+    "OverrideSkillJumpGraphId": 903,
+    "BlockMindSkillItemBreak": false,
+    "MindpowerSkill": 0,
+    "Mobile_SSkillImageId": 0,
+    "ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "SpecialLock": 0,
+    "LockHeightLimit": -1,
+    "ParkouStateTag": false,
+    "NoMoveTimeEndStateTreeParam": 0,
+    "SkillEndStateTreeParam": 1,
+    "StateTreeTag": [],
+    "ForceNoStateTreeSignal": false,
+    "SkillZone": true,
+    "BattlePeaceModeCanUse": false,
+    "CheckABPZone": 0,
+    "FollowWeaponLifeCycle": false,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "喷水车喷泥浆循环",
+    "__IDX__Explain": [],
+    "__RAW__Explain": [],
+    "__IDX__SkillName": 0,
+    "__RAW__SkillName": "",
+    "__IDX__ExplainSkillUp": [
+      4294967293,
+      4294967293
+    ],
+    "__RAW__ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "BatiSkillTime": {
+      "BatiSkill": 0,
+      "Time": 0,
+      "Team": false
+    },
+    "ComboResetWhenSkillBreak": {
+      "reset": true,
+      "switchClear": true,
+      "maxTimes": 1
+    },
+    "notBreakComboSkill": [],
+    "ClickSkillCombo": {
+      "normal": 0,
+      "cirt": 0
+    },
+    "HoldComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "ComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "HoldCastSkill": {
+      "clickCastSkillId": 0,
+      "holdTime": 0,
+      "holdCastSkillId": 0
+    },
+    "HoldLoopSkill": {
+      "loopSkill": 0,
+      "endSkill": 0,
+      "minLoopTime": 0
+    },
+    "UseSkillRes": [],
+    "LoopSkillUseControlPowerValue": {
+      "needValue": 0,
+      "useValuePerSecond": 0
+    },
+    "CanUseInTheAir": {
+      "CanUseInTheAir": true,
+      "MaxHeight": 0
+    },
+    "UseSkillWithoutObstacles": {
+      "isOpen": false,
+      "Radius": 0,
+      "frontDis": 0,
+      "behindDis": 0,
+      "leftDis": 0,
+      "rightDis": 0
+    },
+    "DetailExplain": [],
+    "ClientEffectScale": {
+      "basescale": 0,
+      "minscale": 0,
+      "maxscale": 0
+    },
+    "ClientMove": {
+      "delay": 0,
+      "duration": 0,
+      "mindis": 0,
+      "maxdis": 0,
+      "movetoaround": 0,
+      "diswithouttarget": 0
+    },
+    "ClientPredictMove": {
+      "delay": 0,
+      "duration": 0,
+      "predicttime": 0,
+      "mindis": 0,
+      "maxdis": 0
+    },
+    "ChangeModel": {
+      "modelId": 0,
+      "effectId": 0,
+      "endEffectId": 0
+    },
+    "ChangeDirToTarget": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "ChangeDirToJoyStickDir": {
+      "isTurnTo": true,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "CameraAnchorOffset": {
+      "y": 0,
+      "DiffY": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "CameraDistance": {
+      "distance": 0,
+      "DiffDistance": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "RotateSpeed": {
+      "rotatespeed": 0,
+      "starttime": 0,
+      "stoptime": 0
+    },
+    "SkillCameraMove": [],
+    "SkillTimelineJump": {
+      "jumptime": 0,
+      "TimelineName": ""
+    },
+    "DisableClientEvent": [],
+    "ReactSkill": {
+      "DelayTime": 0,
+      "movetime": 0,
+      "lasttime": 0,
+      "TargetActionId": 0,
+      "distance": 0,
+      "animationcurveid": 0,
+      "movedelay": 0,
+      "TargetMove": false,
+      "TargetY": 0,
+      "TargetX": 0,
+      "TargetZ": 0,
+      "maxheight": 0,
+      "offsetBySelf": false,
+      "delayFallTime": 0
+    },
+    "ChangeDirToDest": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "InheritLastSkillJump": {
+      "Inherit": false,
+      "TargetActionTime": 0
+    },
+    "SkillJumpSave": [],
+    "MindpowerComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    }
+  },
+  "RootMotionRandomWalkCfg": {
+    "Id": 51845667,
+    "Name": "Boss通用四向移动主技能",
+    "SkillCastTypeTag": 0,
+    "SpiritSkillType": 0,
+    "SkillActionType": 0,
+    "CastType": 1,
+    "ClientActionAdvance": false,
+    "ParrallelCast": false,
+    "ClientHurt": [],
+    "ClientHurtSkillPara": [],
+    "Cooldown": 0,
+    "ExtraFirmLevel": 0,
+    "CooldownTime": 1,
+    "ConnectedCdSkills": [],
+    "SSkillImageId": 0,
+    "IsLockTarget": true,
+    "KeepLastLock": false,
+    "LockCancelTime": 0,
+    "LockStayTime": 0,
+    "LockStayWholeSkill": false,
+    "LockDistance": 0,
+    "CrouchLockDistance": 0,
+    "LockPointFunc": 1,
+    "FollowCameraBlendTime": 0,
+    "OnlyLockInCameraEnemy": false,
+    "EnterFollowCamera": true,
+    "KeepFollowCamWhenLock": false,
+    "FaceLockTarAngleSpeed": 0,
+    "TransitionTag": 0,
+    "CanCastKeepCrouching": false,
+    "LockTargetType": [
+      1,
+      2
+    ],
+    "AddBVBUltEnergy": 0,
+    "BVBSkillType": 0,
+    "IsLoopSkill": false,
+    "SkillJumpId": [],
+    "ComboAdditionalTimeForMove": 0,
+    "ComboSkillId": [],
+    "EffectTarget": 200,
+    "UseControlPowerValue": 0,
+    "UseInStiff": 0,
+    "UseInControlState": false,
+    "ForceCast": false,
+    "Explain": [],
+    "SkillKeys": [],
+    "SkillParameter": [],
+    "hurtparas": [],
+    "SkillIconText": "",
+    "ExplainTips": [],
+    "ClientGoFirst": false,
+    "ResetIdleIdInUpbodyAction": false,
+    "NoRotation": true,
+    "NoMoveRotation": false,
+    "CameraSuddenFocus": false,
+    "CanFall": false,
+    "NotBreakLastSkill": false,
+    "NeedListenTouchGroundEvent": false,
+    "TouchGroundEventTriggerDistance": 0,
+    "SkillLockTimeDuration": [],
+    "OverToFightState": true,
+    "NoClearAction": [],
+    "SkillReplace": [],
+    "ChangeList": [],
+    "ShowDam": true,
+    "DontBreakCurrentSkill": false,
+    "SkillName": "",
+    "PlayEffectWhenCanUse": [],
+    "TurnToJoyStickDirectionOffset": 0,
+    "IgnoreNoSkillTimeSkillJump": true,
+    "IgnoreNoDodgeTime": false,
+    "IsMoveToPosGround": true,
+    "SkillJumpGroupId": 0,
+    "InheritageIncluionSkills": [],
+    "InheritageExclusionSkills": [],
+    "OverrideSkillJumpGraphId": 0,
+    "BlockMindSkillItemBreak": false,
+    "MindpowerSkill": 0,
+    "Mobile_SSkillImageId": 0,
+    "ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "SpecialLock": 0,
+    "LockHeightLimit": -1,
+    "ParkouStateTag": false,
+    "NoMoveTimeEndStateTreeParam": 0,
+    "SkillEndStateTreeParam": 1,
+    "StateTreeTag": [],
+    "ForceNoStateTreeSignal": false,
+    "SkillZone": true,
+    "BattlePeaceModeCanUse": false,
+    "CheckABPZone": 0,
+    "FollowWeaponLifeCycle": false,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "Boss通用四向移动主技能",
+    "__IDX__Explain": [],
+    "__RAW__Explain": [],
+    "__IDX__SkillName": 0,
+    "__RAW__SkillName": "",
+    "__IDX__ExplainSkillUp": [
+      4294967293,
+      4294967293
+    ],
+    "__RAW__ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "BatiSkillTime": {
+      "BatiSkill": 0,
+      "Time": 0,
+      "Team": false
+    },
+    "ComboResetWhenSkillBreak": {
+      "reset": true,
+      "switchClear": true,
+      "maxTimes": 1
+    },
+    "notBreakComboSkill": [],
+    "ClickSkillCombo": {
+      "normal": 0,
+      "cirt": 0
+    },
+    "HoldComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "ComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "HoldCastSkill": {
+      "clickCastSkillId": 0,
+      "holdTime": 0,
+      "holdCastSkillId": 0
+    },
+    "HoldLoopSkill": {
+      "loopSkill": 0,
+      "endSkill": 0,
+      "minLoopTime": 0
+    },
+    "UseSkillRes": [],
+    "LoopSkillUseControlPowerValue": {
+      "needValue": 0,
+      "useValuePerSecond": 0
+    },
+    "CanUseInTheAir": {
+      "CanUseInTheAir": true,
+      "MaxHeight": 0
+    },
+    "UseSkillWithoutObstacles": {
+      "isOpen": false,
+      "Radius": 0,
+      "frontDis": 0,
+      "behindDis": 0,
+      "leftDis": 0,
+      "rightDis": 0
+    },
+    "DetailExplain": [],
+    "ClientEffectScale": {
+      "basescale": 0,
+      "minscale": 0,
+      "maxscale": 0
+    },
+    "ClientMove": {
+      "delay": 0,
+      "duration": 0,
+      "mindis": 0,
+      "maxdis": 0,
+      "movetoaround": 0,
+      "diswithouttarget": 0
+    },
+    "ClientPredictMove": {
+      "delay": 0,
+      "duration": 0,
+      "predicttime": 0,
+      "mindis": 0,
+      "maxdis": 0
+    },
+    "ChangeModel": {
+      "modelId": 0,
+      "effectId": 0,
+      "endEffectId": 0
+    },
+    "ChangeDirToTarget": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "ChangeDirToJoyStickDir": {
+      "isTurnTo": true,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "CameraAnchorOffset": {
+      "y": 0,
+      "DiffY": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "CameraDistance": {
+      "distance": 0,
+      "DiffDistance": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "RotateSpeed": {
+      "rotatespeed": 0,
+      "starttime": 0,
+      "stoptime": 0
+    },
+    "SkillCameraMove": [],
+    "SkillTimelineJump": {
+      "jumptime": 0,
+      "TimelineName": ""
+    },
+    "DisableClientEvent": [],
+    "ReactSkill": {
+      "DelayTime": 0,
+      "movetime": 0,
+      "lasttime": 0,
+      "TargetActionId": 0,
+      "distance": 0,
+      "animationcurveid": 0,
+      "movedelay": 0,
+      "TargetMove": false,
+      "TargetY": 0,
+      "TargetX": 0,
+      "TargetZ": 0,
+      "maxheight": 0,
+      "offsetBySelf": false,
+      "delayFallTime": 0
+    },
+    "ChangeDirToDest": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "InheritLastSkillJump": {
+      "Inherit": false,
+      "TargetActionTime": 0
+    },
+    "SkillJumpSave": [],
+    "MindpowerComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    }
+  },
+  "EnemyIdleCfg": {
+    "Id": 51845870,
+    "Name": "小怪原地待命",
+    "SkillCastTypeTag": 0,
+    "SpiritSkillType": 0,
+    "SkillActionType": 0,
+    "CastType": 1,
+    "ClientActionAdvance": false,
+    "ParrallelCast": false,
+    "ClientHurt": [],
+    "ClientHurtSkillPara": [],
+    "Cooldown": 0,
+    "ExtraFirmLevel": 0,
+    "CooldownTime": 1,
+    "ConnectedCdSkills": [],
+    "SSkillImageId": 0,
+    "IsLockTarget": true,
+    "KeepLastLock": false,
+    "LockCancelTime": 0,
+    "LockStayTime": 0,
+    "LockStayWholeSkill": false,
+    "LockDistance": 0,
+    "CrouchLockDistance": 0,
+    "LockPointFunc": 1,
+    "FollowCameraBlendTime": 0,
+    "OnlyLockInCameraEnemy": false,
+    "EnterFollowCamera": true,
+    "KeepFollowCamWhenLock": false,
+    "FaceLockTarAngleSpeed": 0,
+    "TransitionTag": 0,
+    "CanCastKeepCrouching": false,
+    "LockTargetType": [
+      1,
+      2
+    ],
+    "AddBVBUltEnergy": 0,
+    "BVBSkillType": 0,
+    "IsLoopSkill": false,
+    "SkillJumpId": [],
+    "ComboAdditionalTimeForMove": 0,
+    "ComboSkillId": [],
+    "EffectTarget": 200,
+    "UseControlPowerValue": 0,
+    "UseInStiff": 0,
+    "UseInControlState": false,
+    "ForceCast": false,
+    "Explain": [],
+    "SkillKeys": [],
+    "SkillParameter": [],
+    "hurtparas": [],
+    "SkillIconText": "",
+    "ExplainTips": [],
+    "ClientGoFirst": false,
+    "ResetIdleIdInUpbodyAction": false,
+    "NoRotation": true,
+    "NoMoveRotation": false,
+    "CameraSuddenFocus": false,
+    "CanFall": false,
+    "NotBreakLastSkill": false,
+    "NeedListenTouchGroundEvent": false,
+    "TouchGroundEventTriggerDistance": 0,
+    "SkillLockTimeDuration": [],
+    "OverToFightState": true,
+    "NoClearAction": [],
+    "SkillReplace": [],
+    "ChangeList": [],
+    "ShowDam": true,
+    "DontBreakCurrentSkill": false,
+    "SkillName": "",
+    "PlayEffectWhenCanUse": [],
+    "TurnToJoyStickDirectionOffset": 0,
+    "IgnoreNoSkillTimeSkillJump": true,
+    "IgnoreNoDodgeTime": false,
+    "IsMoveToPosGround": true,
+    "SkillJumpGroupId": 0,
+    "InheritageIncluionSkills": [],
+    "InheritageExclusionSkills": [],
+    "OverrideSkillJumpGraphId": 0,
+    "BlockMindSkillItemBreak": false,
+    "MindpowerSkill": 0,
+    "Mobile_SSkillImageId": 0,
+    "ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "SpecialLock": 0,
+    "LockHeightLimit": -1,
+    "ParkouStateTag": false,
+    "NoMoveTimeEndStateTreeParam": 0,
+    "SkillEndStateTreeParam": 1,
+    "StateTreeTag": [],
+    "ForceNoStateTreeSignal": false,
+    "SkillZone": true,
+    "BattlePeaceModeCanUse": false,
+    "CheckABPZone": 0,
+    "FollowWeaponLifeCycle": false,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "小怪原地待命",
+    "__IDX__Explain": [],
+    "__RAW__Explain": [],
+    "__IDX__SkillName": 0,
+    "__RAW__SkillName": "",
+    "__IDX__ExplainSkillUp": [
+      4294967293,
+      4294967293
+    ],
+    "__RAW__ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "BatiSkillTime": {
+      "BatiSkill": 0,
+      "Time": 0,
+      "Team": false
+    },
+    "ComboResetWhenSkillBreak": {
+      "reset": true,
+      "switchClear": true,
+      "maxTimes": 1
+    },
+    "notBreakComboSkill": [],
+    "ClickSkillCombo": {
+      "normal": 0,
+      "cirt": 0
+    },
+    "HoldComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "ComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "HoldCastSkill": {
+      "clickCastSkillId": 0,
+      "holdTime": 0,
+      "holdCastSkillId": 0
+    },
+    "HoldLoopSkill": {
+      "loopSkill": 0,
+      "endSkill": 0,
+      "minLoopTime": 0
+    },
+    "UseSkillRes": [],
+    "LoopSkillUseControlPowerValue": {
+      "needValue": 0,
+      "useValuePerSecond": 0
+    },
+    "CanUseInTheAir": {
+      "CanUseInTheAir": true,
+      "MaxHeight": 0
+    },
+    "UseSkillWithoutObstacles": {
+      "isOpen": false,
+      "Radius": 0,
+      "frontDis": 0,
+      "behindDis": 0,
+      "leftDis": 0,
+      "rightDis": 0
+    },
+    "DetailExplain": [],
+    "ClientEffectScale": {
+      "basescale": 0,
+      "minscale": 0,
+      "maxscale": 0
+    },
+    "ClientMove": {
+      "delay": 0,
+      "duration": 0,
+      "mindis": 0,
+      "maxdis": 0,
+      "movetoaround": 0,
+      "diswithouttarget": 0
+    },
+    "ClientPredictMove": {
+      "delay": 0,
+      "duration": 0,
+      "predicttime": 0,
+      "mindis": 0,
+      "maxdis": 0
+    },
+    "ChangeModel": {
+      "modelId": 0,
+      "effectId": 0,
+      "endEffectId": 0
+    },
+    "ChangeDirToTarget": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "ChangeDirToJoyStickDir": {
+      "isTurnTo": true,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "CameraAnchorOffset": {
+      "y": 0,
+      "DiffY": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "CameraDistance": {
+      "distance": 0,
+      "DiffDistance": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "RotateSpeed": {
+      "rotatespeed": 0,
+      "starttime": 0,
+      "stoptime": 0
+    },
+    "SkillCameraMove": [],
+    "SkillTimelineJump": {
+      "jumptime": 0,
+      "TimelineName": ""
+    },
+    "DisableClientEvent": [],
+    "ReactSkill": {
+      "DelayTime": 0,
+      "movetime": 0,
+      "lasttime": 0,
+      "TargetActionId": 0,
+      "distance": 0,
+      "animationcurveid": 0,
+      "movedelay": 0,
+      "TargetMove": false,
+      "TargetY": 0,
+      "TargetX": 0,
+      "TargetZ": 0,
+      "maxheight": 0,
+      "offsetBySelf": false,
+      "delayFallTime": 0
+    },
+    "ChangeDirToDest": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "InheritLastSkillJump": {
+      "Inherit": false,
+      "TargetActionTime": 0
+    },
+    "SkillJumpSave": [],
+    "MindpowerComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    }
+  },
+  "MindShootEnemyCfg": {
+    "Id": 51850412,
+    "Name": "念动怪物结算",
+    "SkillCastTypeTag": 2,
+    "SpiritSkillType": 2,
+    "SkillActionType": 0,
+    "CastType": 0,
+    "ClientActionAdvance": true,
+    "ParrallelCast": false,
+    "ClientHurt": [],
+    "ClientHurtSkillPara": [],
+    "Cooldown": 0,
+    "ExtraFirmLevel": 0,
+    "CooldownTime": 1,
+    "ConnectedCdSkills": [],
+    "SSkillImageId": 28001133,
+    "IsLockTarget": false,
+    "KeepLastLock": false,
+    "LockCancelTime": 0,
+    "LockStayTime": 0,
+    "LockStayWholeSkill": false,
+    "LockDistance": 0,
+    "CrouchLockDistance": 0,
+    "LockPointFunc": 1,
+    "FollowCameraBlendTime": 0,
+    "OnlyLockInCameraEnemy": false,
+    "EnterFollowCamera": true,
+    "KeepFollowCamWhenLock": false,
+    "FaceLockTarAngleSpeed": 0,
+    "TransitionTag": 0,
+    "CanCastKeepCrouching": true,
+    "LockTargetType": [
+      1,
+      2
+    ],
+    "AddBVBUltEnergy": 0,
+    "BVBSkillType": 0,
+    "IsLoopSkill": false,
+    "SkillJumpId": [],
+    "ComboAdditionalTimeForMove": 0,
+    "ComboSkillId": [],
+    "EffectTarget": 98,
+    "UseControlPowerValue": 0,
+    "UseInStiff": 0,
+    "UseInControlState": false,
+    "ForceCast": false,
+    "Explain": [],
+    "SkillKeys": [],
+    "SkillParameter": [],
+    "hurtparas": [],
+    "SkillIconText": "",
+    "ExplainTips": [],
+    "ClientGoFirst": true,
+    "ResetIdleIdInUpbodyAction": false,
+    "NoRotation": true,
+    "NoMoveRotation": false,
+    "CameraSuddenFocus": false,
+    "CanFall": false,
+    "NotBreakLastSkill": false,
+    "NeedListenTouchGroundEvent": false,
+    "TouchGroundEventTriggerDistance": 0,
+    "SkillLockTimeDuration": [],
+    "OverToFightState": true,
+    "NoClearAction": [],
+    "SkillReplace": [],
+    "ChangeList": [],
+    "ShowDam": true,
+    "DontBreakCurrentSkill": false,
+    "SkillName": "",
+    "PlayEffectWhenCanUse": [],
+    "TurnToJoyStickDirectionOffset": 0,
+    "IgnoreNoSkillTimeSkillJump": true,
+    "IgnoreNoDodgeTime": false,
+    "IsMoveToPosGround": true,
+    "SkillJumpGroupId": 0,
+    "InheritageIncluionSkills": [],
+    "InheritageExclusionSkills": [],
+    "OverrideSkillJumpGraphId": 0,
+    "BlockMindSkillItemBreak": false,
+    "MindpowerSkill": 0,
+    "Mobile_SSkillImageId": 0,
+    "ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "SpecialLock": 0,
+    "LockHeightLimit": -1,
+    "ParkouStateTag": false,
+    "NoMoveTimeEndStateTreeParam": 0,
+    "SkillEndStateTreeParam": 1,
+    "StateTreeTag": [],
+    "ForceNoStateTreeSignal": false,
+    "SkillZone": true,
+    "BattlePeaceModeCanUse": false,
+    "CheckABPZone": 0,
+    "FollowWeaponLifeCycle": false,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "念动怪物结算",
+    "__IDX__Explain": [],
+    "__RAW__Explain": [],
+    "__IDX__SkillName": 0,
+    "__RAW__SkillName": "",
+    "__IDX__ExplainSkillUp": [
+      4294967293,
+      4294967293
+    ],
+    "__RAW__ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "BatiSkillTime": {
+      "BatiSkill": 0,
+      "Time": 0,
+      "Team": false
+    },
+    "ComboResetWhenSkillBreak": {
+      "reset": true,
+      "switchClear": true,
+      "maxTimes": 1
+    },
+    "notBreakComboSkill": [],
+    "ClickSkillCombo": {
+      "normal": 0,
+      "cirt": 0
+    },
+    "HoldComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "ComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "HoldCastSkill": {
+      "clickCastSkillId": 0,
+      "holdTime": 0,
+      "holdCastSkillId": 0
+    },
+    "HoldLoopSkill": {
+      "loopSkill": 0,
+      "endSkill": 0,
+      "minLoopTime": 0
+    },
+    "UseSkillRes": [],
+    "LoopSkillUseControlPowerValue": {
+      "needValue": 0,
+      "useValuePerSecond": 0
+    },
+    "CanUseInTheAir": {
+      "CanUseInTheAir": true,
+      "MaxHeight": 0
+    },
+    "UseSkillWithoutObstacles": {
+      "isOpen": false,
+      "Radius": 0,
+      "frontDis": 0,
+      "behindDis": 0,
+      "leftDis": 0,
+      "rightDis": 0
+    },
+    "DetailExplain": [],
+    "ClientEffectScale": {
+      "basescale": 0,
+      "minscale": 0,
+      "maxscale": 0
+    },
+    "ClientMove": {
+      "delay": 0,
+      "duration": 0,
+      "mindis": 0,
+      "maxdis": 0,
+      "movetoaround": 0,
+      "diswithouttarget": 0
+    },
+    "ClientPredictMove": {
+      "delay": 0,
+      "duration": 0,
+      "predicttime": 0,
+      "mindis": 0,
+      "maxdis": 0
+    },
+    "ChangeModel": {
+      "modelId": 0,
+      "effectId": 0,
+      "endEffectId": 0
+    },
+    "ChangeDirToTarget": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "ChangeDirToJoyStickDir": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "CameraAnchorOffset": {
+      "y": 0,
+      "DiffY": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "CameraDistance": {
+      "distance": 0,
+      "DiffDistance": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "RotateSpeed": {
+      "rotatespeed": 0,
+      "starttime": 0,
+      "stoptime": 0
+    },
+    "SkillCameraMove": [],
+    "SkillTimelineJump": {
+      "jumptime": 0,
+      "TimelineName": ""
+    },
+    "DisableClientEvent": [],
+    "ReactSkill": {
+      "DelayTime": 0,
+      "movetime": 0,
+      "lasttime": 0,
+      "TargetActionId": 0,
+      "distance": 0,
+      "animationcurveid": 0,
+      "movedelay": 0,
+      "TargetMove": false,
+      "TargetY": 0,
+      "TargetX": 0,
+      "TargetZ": 0,
+      "maxheight": 0,
+      "offsetBySelf": false,
+      "delayFallTime": 0
+    },
+    "ChangeDirToDest": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "InheritLastSkillJump": {
+      "Inherit": false,
+      "TargetActionTime": 0
+    },
+    "SkillJumpSave": [],
+    "MindpowerComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    }
+  },
+  "MindEnemyNormalCfg": {
+    "Id": 51984550,
+    "Name": "念力怪物",
+    "SkillCastTypeTag": 2,
+    "SpiritSkillType": 2,
+    "SkillActionType": 0,
+    "CastType": 1,
+    "ClientActionAdvance": false,
+    "ParrallelCast": false,
+    "ClientHurt": [],
+    "ClientHurtSkillPara": [],
+    "Cooldown": 0,
+    "ExtraFirmLevel": 0,
+    "CooldownTime": 1,
+    "ConnectedCdSkills": [],
+    "SSkillImageId": 28001138,
+    "IsLockTarget": true,
+    "KeepLastLock": false,
+    "LockCancelTime": 0,
+    "LockStayTime": 0,
+    "LockStayWholeSkill": false,
+    "LockDistance": 0,
+    "CrouchLockDistance": 0,
+    "LockPointFunc": 1,
+    "FollowCameraBlendTime": 0,
+    "OnlyLockInCameraEnemy": false,
+    "EnterFollowCamera": true,
+    "KeepFollowCamWhenLock": false,
+    "FaceLockTarAngleSpeed": 0,
+    "TransitionTag": 0,
+    "CanCastKeepCrouching": true,
+    "LockTargetType": [
+      1,
+      2
+    ],
+    "AddBVBUltEnergy": 0,
+    "BVBSkillType": 0,
+    "IsLoopSkill": false,
+    "SkillJumpId": [],
+    "ComboAdditionalTimeForMove": 0,
+    "ComboSkillId": [],
+    "EffectTarget": 200,
+    "UseControlPowerValue": 0,
+    "UseInStiff": 0,
+    "UseInControlState": false,
+    "ForceCast": true,
+    "Explain": [],
+    "SkillKeys": [],
+    "SkillParameter": [],
+    "hurtparas": [],
+    "SkillIconText": "",
+    "ExplainTips": [],
+    "ClientGoFirst": false,
+    "ResetIdleIdInUpbodyAction": false,
+    "NoRotation": true,
+    "NoMoveRotation": false,
+    "CameraSuddenFocus": false,
+    "CanFall": false,
+    "NotBreakLastSkill": false,
+    "NeedListenTouchGroundEvent": false,
+    "TouchGroundEventTriggerDistance": 0,
+    "SkillLockTimeDuration": [],
+    "OverToFightState": false,
+    "NoClearAction": [],
+    "SkillReplace": [],
+    "ChangeList": [],
+    "ShowDam": true,
+    "DontBreakCurrentSkill": false,
+    "SkillName": "",
+    "PlayEffectWhenCanUse": [],
+    "TurnToJoyStickDirectionOffset": 0,
+    "IgnoreNoSkillTimeSkillJump": true,
+    "IgnoreNoDodgeTime": false,
+    "IsMoveToPosGround": true,
+    "SkillJumpGroupId": 0,
+    "InheritageIncluionSkills": [],
+    "InheritageExclusionSkills": [],
+    "OverrideSkillJumpGraphId": 0,
+    "BlockMindSkillItemBreak": false,
+    "MindpowerSkill": 0,
+    "Mobile_SSkillImageId": 0,
+    "ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "SpecialLock": 0,
+    "LockHeightLimit": -1,
+    "ParkouStateTag": false,
+    "NoMoveTimeEndStateTreeParam": 0,
+    "SkillEndStateTreeParam": 1,
+    "StateTreeTag": [],
+    "ForceNoStateTreeSignal": false,
+    "SkillZone": true,
+    "BattlePeaceModeCanUse": false,
+    "CheckABPZone": 0,
+    "FollowWeaponLifeCycle": false,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "念力怪物",
+    "__IDX__Explain": [],
+    "__RAW__Explain": [],
+    "__IDX__SkillName": 0,
+    "__RAW__SkillName": "",
+    "__IDX__ExplainSkillUp": [
+      4294967293,
+      4294967293
+    ],
+    "__RAW__ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "BatiSkillTime": {
+      "BatiSkill": 0,
+      "Time": 0,
+      "Team": false
+    },
+    "ComboResetWhenSkillBreak": {
+      "reset": true,
+      "switchClear": true,
+      "maxTimes": 1
+    },
+    "notBreakComboSkill": [],
+    "ClickSkillCombo": {
+      "normal": 0,
+      "cirt": 0
+    },
+    "HoldComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "ComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "HoldCastSkill": {
+      "clickCastSkillId": 0,
+      "holdTime": 0,
+      "holdCastSkillId": 0
+    },
+    "HoldLoopSkill": {
+      "loopSkill": 0,
+      "endSkill": 0,
+      "minLoopTime": 0
+    },
+    "UseSkillRes": [
+      {
+        "Id": 1,
+        "Value": 1,
+        "IsPercentage": false
+      }
+    ],
+    "LoopSkillUseControlPowerValue": {
+      "needValue": 0,
+      "useValuePerSecond": 0
+    },
+    "CanUseInTheAir": {
+      "CanUseInTheAir": true,
+      "MaxHeight": 0
+    },
+    "UseSkillWithoutObstacles": {
+      "isOpen": false,
+      "Radius": 0,
+      "frontDis": 0,
+      "behindDis": 0,
+      "leftDis": 0,
+      "rightDis": 0
+    },
+    "DetailExplain": [],
+    "ClientEffectScale": {
+      "basescale": 0,
+      "minscale": 0,
+      "maxscale": 0
+    },
+    "ClientMove": {
+      "delay": 0,
+      "duration": 0,
+      "mindis": 0,
+      "maxdis": 0,
+      "movetoaround": 0,
+      "diswithouttarget": 0
+    },
+    "ClientPredictMove": {
+      "delay": 0,
+      "duration": 0,
+      "predicttime": 0,
+      "mindis": 0,
+      "maxdis": 0
+    },
+    "ChangeModel": {
+      "modelId": 0,
+      "effectId": 0,
+      "endEffectId": 0
+    },
+    "ChangeDirToTarget": {
+      "isTurnTo": true,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "ChangeDirToJoyStickDir": {
+      "isTurnTo": true,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "CameraAnchorOffset": {
+      "y": 0,
+      "DiffY": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "CameraDistance": {
+      "distance": 0,
+      "DiffDistance": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "RotateSpeed": {
+      "rotatespeed": 0,
+      "starttime": 0,
+      "stoptime": 0
+    },
+    "SkillCameraMove": [],
+    "SkillTimelineJump": {
+      "jumptime": 0,
+      "TimelineName": ""
+    },
+    "DisableClientEvent": [
+      {
+        "eventid": 97020004,
+        "starttime": 0,
+        "endtime": 3
+      },
+      {
+        "eventid": 97020005,
+        "starttime": 0,
+        "endtime": 3
+      },
+      {
+        "eventid": 97020006,
+        "starttime": 0,
+        "endtime": 3
+      }
+    ],
+    "ReactSkill": {
+      "DelayTime": 0,
+      "movetime": 0,
+      "lasttime": 0,
+      "TargetActionId": 0,
+      "distance": 0,
+      "animationcurveid": 0,
+      "movedelay": 0,
+      "TargetMove": false,
+      "TargetY": 0,
+      "TargetX": 0,
+      "TargetZ": 0,
+      "maxheight": 0,
+      "offsetBySelf": false,
+      "delayFallTime": 0
+    },
+    "ChangeDirToDest": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "InheritLastSkillJump": {
+      "Inherit": false,
+      "TargetActionTime": 0
+    },
+    "SkillJumpSave": [],
+    "MindpowerComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    }
+  },
+  "MindPowerShootSkillCfg": {
+    "Id": 51985050,
+    "Name": "hold念动砸击",
+    "SkillCastTypeTag": 2,
+    "SpiritSkillType": 2,
+    "SkillActionType": 0,
+    "CastType": 0,
+    "ClientActionAdvance": true,
+    "ParrallelCast": false,
+    "ClientHurt": [],
+    "ClientHurtSkillPara": [],
+    "Cooldown": 0,
+    "ExtraFirmLevel": 1,
+    "CooldownTime": 1,
+    "ConnectedCdSkills": [],
+    "SSkillImageId": 28001133,
+    "IsLockTarget": false,
+    "KeepLastLock": false,
+    "LockCancelTime": 10,
+    "LockStayTime": 10,
+    "LockStayWholeSkill": false,
+    "LockDistance": 30,
+    "CrouchLockDistance": 0,
+    "LockPointFunc": 1,
+    "FollowCameraBlendTime": 0,
+    "OnlyLockInCameraEnemy": false,
+    "EnterFollowCamera": true,
+    "KeepFollowCamWhenLock": false,
+    "FaceLockTarAngleSpeed": 0,
+    "TransitionTag": 0,
+    "CanCastKeepCrouching": true,
+    "LockTargetType": [
+      1,
+      2
+    ],
+    "AddBVBUltEnergy": 0,
+    "BVBSkillType": 0,
+    "IsLoopSkill": false,
+    "SkillJumpId": [],
+    "ComboAdditionalTimeForMove": 0,
+    "ComboSkillId": [],
+    "EffectTarget": 200,
+    "UseControlPowerValue": 0,
+    "UseInStiff": 0,
+    "UseInControlState": false,
+    "ForceCast": false,
+    "Explain": [],
+    "SkillKeys": [],
+    "SkillParameter": [],
+    "hurtparas": [],
+    "SkillIconText": "",
+    "ExplainTips": [],
+    "ClientGoFirst": true,
+    "ResetIdleIdInUpbodyAction": false,
+    "NoRotation": true,
+    "NoMoveRotation": false,
+    "CameraSuddenFocus": false,
+    "CanFall": false,
+    "NotBreakLastSkill": false,
+    "NeedListenTouchGroundEvent": false,
+    "TouchGroundEventTriggerDistance": 0,
+    "SkillLockTimeDuration": [],
+    "OverToFightState": false,
+    "NoClearAction": [],
+    "SkillReplace": [],
+    "ChangeList": [],
+    "ShowDam": true,
+    "DontBreakCurrentSkill": false,
+    "SkillName": "",
+    "PlayEffectWhenCanUse": [],
+    "TurnToJoyStickDirectionOffset": 0,
+    "IgnoreNoSkillTimeSkillJump": true,
+    "IgnoreNoDodgeTime": false,
+    "IsMoveToPosGround": true,
+    "SkillJumpGroupId": 0,
+    "InheritageIncluionSkills": [],
+    "InheritageExclusionSkills": [],
+    "OverrideSkillJumpGraphId": 0,
+    "BlockMindSkillItemBreak": false,
+    "MindpowerSkill": 0,
+    "Mobile_SSkillImageId": 0,
+    "ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "SpecialLock": 0,
+    "LockHeightLimit": -1,
+    "ParkouStateTag": false,
+    "NoMoveTimeEndStateTreeParam": 0,
+    "SkillEndStateTreeParam": 0,
+    "StateTreeTag": [],
+    "ForceNoStateTreeSignal": false,
+    "SkillZone": true,
+    "BattlePeaceModeCanUse": false,
+    "CheckABPZone": 0,
+    "FollowWeaponLifeCycle": false,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "hold念动砸击",
+    "__IDX__Explain": [],
+    "__RAW__Explain": [],
+    "__IDX__SkillName": 0,
+    "__RAW__SkillName": "",
+    "__IDX__ExplainSkillUp": [
+      4294967293,
+      4294967293
+    ],
+    "__RAW__ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "BatiSkillTime": {
+      "BatiSkill": 0,
+      "Time": 0,
+      "Team": false
+    },
+    "ComboResetWhenSkillBreak": {
+      "reset": true,
+      "switchClear": true,
+      "maxTimes": 1
+    },
+    "notBreakComboSkill": [],
+    "ClickSkillCombo": {
+      "normal": 0,
+      "cirt": 0
+    },
+    "HoldComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "ComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "HoldCastSkill": {
+      "clickCastSkillId": 0,
+      "holdTime": 0,
+      "holdCastSkillId": 0
+    },
+    "HoldLoopSkill": {
+      "loopSkill": 0,
+      "endSkill": 0,
+      "minLoopTime": 0
+    },
+    "UseSkillRes": [],
+    "LoopSkillUseControlPowerValue": {
+      "needValue": 0,
+      "useValuePerSecond": 0
+    },
+    "CanUseInTheAir": {
+      "CanUseInTheAir": false,
+      "MaxHeight": 0
+    },
+    "UseSkillWithoutObstacles": {
+      "isOpen": false,
+      "Radius": 0,
+      "frontDis": 0,
+      "behindDis": 0,
+      "leftDis": 0,
+      "rightDis": 0
+    },
+    "DetailExplain": [],
+    "ClientEffectScale": {
+      "basescale": 0,
+      "minscale": 0,
+      "maxscale": 0
+    },
+    "ClientMove": {
+      "delay": 0,
+      "duration": 0,
+      "mindis": 0,
+      "maxdis": 0,
+      "movetoaround": 0,
+      "diswithouttarget": 0
+    },
+    "ClientPredictMove": {
+      "delay": 0,
+      "duration": 0,
+      "predicttime": 0,
+      "mindis": 0,
+      "maxdis": 0
+    },
+    "ChangeModel": {
+      "modelId": 0,
+      "effectId": 0,
+      "endEffectId": 0
+    },
+    "ChangeDirToTarget": {
+      "isTurnTo": true,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "ChangeDirToJoyStickDir": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "CameraAnchorOffset": {
+      "y": 0,
+      "DiffY": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "CameraDistance": {
+      "distance": 0,
+      "DiffDistance": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "RotateSpeed": {
+      "rotatespeed": 0,
+      "starttime": 0,
+      "stoptime": 0
+    },
+    "SkillCameraMove": [],
+    "SkillTimelineJump": {
+      "jumptime": 0,
+      "TimelineName": ""
+    },
+    "DisableClientEvent": [],
+    "ReactSkill": {
+      "DelayTime": 0,
+      "movetime": 0,
+      "lasttime": 0,
+      "TargetActionId": 0,
+      "distance": 0,
+      "animationcurveid": 0,
+      "movedelay": 0,
+      "TargetMove": false,
+      "TargetY": 0,
+      "TargetX": 0,
+      "TargetZ": 0,
+      "maxheight": 0,
+      "offsetBySelf": false,
+      "delayFallTime": 0
+    },
+    "ChangeDirToDest": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "InheritLastSkillJump": {
+      "Inherit": false,
+      "TargetActionTime": 0
+    },
+    "SkillJumpSave": [],
+    "MindpowerComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    }
+  },
+  "SneakAttackCfg": {
+    "Id": 51890208,
+    "Name": "短路",
+    "SkillCastTypeTag": 0,
+    "SpiritSkillType": 0,
+    "SkillActionType": 0,
+    "CastType": 0,
+    "ClientActionAdvance": false,
+    "ParrallelCast": false,
+    "ClientHurt": [],
+    "ClientHurtSkillPara": [],
+    "Cooldown": 0,
+    "ExtraFirmLevel": 0,
+    "CooldownTime": 1,
+    "ConnectedCdSkills": [],
+    "SSkillImageId": 0,
+    "IsLockTarget": true,
+    "KeepLastLock": false,
+    "LockCancelTime": 0,
+    "LockStayTime": 0,
+    "LockStayWholeSkill": false,
+    "LockDistance": 0,
+    "CrouchLockDistance": 0,
+    "LockPointFunc": 1,
+    "FollowCameraBlendTime": 0,
+    "OnlyLockInCameraEnemy": false,
+    "EnterFollowCamera": true,
+    "KeepFollowCamWhenLock": false,
+    "FaceLockTarAngleSpeed": 0,
+    "TransitionTag": 0,
+    "CanCastKeepCrouching": false,
+    "LockTargetType": [
+      1,
+      2
+    ],
+    "AddBVBUltEnergy": 0,
+    "BVBSkillType": 0,
+    "IsLoopSkill": false,
+    "SkillJumpId": [],
+    "ComboAdditionalTimeForMove": 0,
+    "ComboSkillId": [],
+    "EffectTarget": 200,
+    "UseControlPowerValue": 0,
+    "UseInStiff": 0,
+    "UseInControlState": false,
+    "ForceCast": false,
+    "Explain": [],
+    "SkillKeys": [],
+    "SkillParameter": [],
+    "hurtparas": [],
+    "SkillIconText": "",
+    "ExplainTips": [],
+    "ClientGoFirst": false,
+    "ResetIdleIdInUpbodyAction": false,
+    "NoRotation": true,
+    "NoMoveRotation": false,
+    "CameraSuddenFocus": false,
+    "CanFall": false,
+    "NotBreakLastSkill": false,
+    "NeedListenTouchGroundEvent": false,
+    "TouchGroundEventTriggerDistance": 0,
+    "SkillLockTimeDuration": [],
+    "OverToFightState": true,
+    "NoClearAction": [],
+    "SkillReplace": [],
+    "ChangeList": [],
+    "ShowDam": true,
+    "DontBreakCurrentSkill": false,
+    "SkillName": "",
+    "PlayEffectWhenCanUse": [],
+    "TurnToJoyStickDirectionOffset": 0,
+    "IgnoreNoSkillTimeSkillJump": true,
+    "IgnoreNoDodgeTime": false,
+    "IsMoveToPosGround": true,
+    "SkillJumpGroupId": 0,
+    "InheritageIncluionSkills": [],
+    "InheritageExclusionSkills": [],
+    "OverrideSkillJumpGraphId": 0,
+    "BlockMindSkillItemBreak": false,
+    "MindpowerSkill": 0,
+    "Mobile_SSkillImageId": 0,
+    "ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "SpecialLock": 0,
+    "LockHeightLimit": -1,
+    "ParkouStateTag": false,
+    "NoMoveTimeEndStateTreeParam": 0,
+    "SkillEndStateTreeParam": 1,
+    "StateTreeTag": [],
+    "ForceNoStateTreeSignal": false,
+    "SkillZone": true,
+    "BattlePeaceModeCanUse": false,
+    "CheckABPZone": 0,
+    "FollowWeaponLifeCycle": false,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "短路",
+    "__IDX__Explain": [],
+    "__RAW__Explain": [],
+    "__IDX__SkillName": 0,
+    "__RAW__SkillName": "",
+    "__IDX__ExplainSkillUp": [
+      4294967293,
+      4294967293
+    ],
+    "__RAW__ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "BatiSkillTime": {
+      "BatiSkill": 0,
+      "Time": 0,
+      "Team": false
+    },
+    "ComboResetWhenSkillBreak": {
+      "reset": true,
+      "switchClear": true,
+      "maxTimes": 1
+    },
+    "notBreakComboSkill": [],
+    "ClickSkillCombo": {
+      "normal": 0,
+      "cirt": 0
+    },
+    "HoldComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "ComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "HoldCastSkill": {
+      "clickCastSkillId": 0,
+      "holdTime": 0,
+      "holdCastSkillId": 0
+    },
+    "HoldLoopSkill": {
+      "loopSkill": 0,
+      "endSkill": 0,
+      "minLoopTime": 0
+    },
+    "UseSkillRes": [],
+    "LoopSkillUseControlPowerValue": {
+      "needValue": 0,
+      "useValuePerSecond": 0
+    },
+    "CanUseInTheAir": {
+      "CanUseInTheAir": true,
+      "MaxHeight": 0
+    },
+    "UseSkillWithoutObstacles": {
+      "isOpen": false,
+      "Radius": 0,
+      "frontDis": 0,
+      "behindDis": 0,
+      "leftDis": 0,
+      "rightDis": 0
+    },
+    "DetailExplain": [],
+    "ClientEffectScale": {
+      "basescale": 0,
+      "minscale": 0,
+      "maxscale": 0
+    },
+    "ClientMove": {
+      "delay": 0,
+      "duration": 0,
+      "mindis": 0,
+      "maxdis": 0,
+      "movetoaround": 0,
+      "diswithouttarget": 0
+    },
+    "ClientPredictMove": {
+      "delay": 0,
+      "duration": 0,
+      "predicttime": 0,
+      "mindis": 0,
+      "maxdis": 0
+    },
+    "ChangeModel": {
+      "modelId": 0,
+      "effectId": 0,
+      "endEffectId": 0
+    },
+    "ChangeDirToTarget": {
+      "isTurnTo": true,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "ChangeDirToJoyStickDir": {
+      "isTurnTo": true,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "CameraAnchorOffset": {
+      "y": 0,
+      "DiffY": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "CameraDistance": {
+      "distance": 0,
+      "DiffDistance": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "RotateSpeed": {
+      "rotatespeed": 0,
+      "starttime": 0,
+      "stoptime": 0
+    },
+    "SkillCameraMove": [],
+    "SkillTimelineJump": {
+      "jumptime": 0,
+      "TimelineName": ""
+    },
+    "DisableClientEvent": [],
+    "ReactSkill": {
+      "DelayTime": 0,
+      "movetime": 0.100000001,
+      "lasttime": 4.19999981,
+      "TargetActionId": 5205,
+      "distance": -0.936999977,
+      "animationcurveid": 0,
+      "movedelay": 0,
+      "TargetMove": false,
+      "TargetY": 0,
+      "TargetX": 0,
+      "TargetZ": 0,
+      "maxheight": 0,
+      "offsetBySelf": false,
+      "delayFallTime": 0
+    },
+    "ChangeDirToDest": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "InheritLastSkillJump": {
+      "Inherit": false,
+      "TargetActionTime": 0
+    },
+    "SkillJumpSave": [],
+    "MindpowerComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    }
+  },
+  "BanXiShootAttackCfg": {
+    "Id": 51935510,
+    "Name": "班茜蓄力突突突",
+    "SkillCastTypeTag": 10,
+    "SpiritSkillType": 1,
+    "SkillActionType": 0,
+    "CastType": 0,
+    "ClientActionAdvance": true,
+    "ParrallelCast": false,
+    "ClientHurt": [],
+    "ClientHurtSkillPara": [],
+    "Cooldown": 0,
+    "ExtraFirmLevel": 0,
+    "CooldownTime": 0,
+    "ConnectedCdSkills": [],
+    "SSkillImageId": 0,
+    "IsLockTarget": false,
+    "KeepLastLock": false,
+    "LockCancelTime": 10,
+    "LockStayTime": 10,
+    "LockStayWholeSkill": false,
+    "LockDistance": 0,
+    "CrouchLockDistance": 0,
+    "LockPointFunc": 1,
+    "FollowCameraBlendTime": 0,
+    "OnlyLockInCameraEnemy": false,
+    "EnterFollowCamera": true,
+    "KeepFollowCamWhenLock": false,
+    "FaceLockTarAngleSpeed": 0,
+    "TransitionTag": 0,
+    "CanCastKeepCrouching": false,
+    "LockTargetType": [
+      1,
+      2
+    ],
+    "AddBVBUltEnergy": 0,
+    "BVBSkillType": 0,
+    "IsLoopSkill": false,
+    "SkillJumpId": [],
+    "ComboAdditionalTimeForMove": 0,
+    "ComboSkillId": [],
+    "EffectTarget": 200,
+    "UseControlPowerValue": 0,
+    "UseInStiff": 0,
+    "UseInControlState": false,
+    "ForceCast": false,
+    "Explain": [
+      "打一枪"
+    ],
+    "SkillKeys": [],
+    "SkillParameter": [],
+    "hurtparas": [],
+    "SkillIconText": "",
+    "ExplainTips": [],
+    "ClientGoFirst": false,
+    "ResetIdleIdInUpbodyAction": false,
+    "NoRotation": true,
+    "NoMoveRotation": false,
+    "CameraSuddenFocus": false,
+    "CanFall": false,
+    "NotBreakLastSkill": false,
+    "NeedListenTouchGroundEvent": false,
+    "TouchGroundEventTriggerDistance": 0,
+    "SkillLockTimeDuration": [],
+    "OverToFightState": true,
+    "NoClearAction": [],
+    "SkillReplace": [],
+    "ChangeList": [],
+    "ShowDam": true,
+    "DontBreakCurrentSkill": false,
+    "SkillName": "",
+    "PlayEffectWhenCanUse": [],
+    "TurnToJoyStickDirectionOffset": 0,
+    "IgnoreNoSkillTimeSkillJump": true,
+    "IgnoreNoDodgeTime": false,
+    "IsMoveToPosGround": true,
+    "SkillJumpGroupId": 0,
+    "InheritageIncluionSkills": [],
+    "InheritageExclusionSkills": [],
+    "OverrideSkillJumpGraphId": 0,
+    "BlockMindSkillItemBreak": false,
+    "MindpowerSkill": 0,
+    "Mobile_SSkillImageId": 0,
+    "ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "SpecialLock": 0,
+    "LockHeightLimit": -1,
+    "ParkouStateTag": false,
+    "NoMoveTimeEndStateTreeParam": 0,
+    "SkillEndStateTreeParam": 1,
+    "StateTreeTag": [],
+    "ForceNoStateTreeSignal": false,
+    "SkillZone": true,
+    "BattlePeaceModeCanUse": false,
+    "CheckABPZone": 0,
+    "FollowWeaponLifeCycle": false,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "班茜蓄力突突突",
+    "__IDX__Explain": [
+      4294967293
+    ],
+    "__RAW__Explain": [
+      "打一枪"
+    ],
+    "__IDX__SkillName": 0,
+    "__RAW__SkillName": "",
+    "__IDX__ExplainSkillUp": [
+      4294967293,
+      4294967293
+    ],
+    "__RAW__ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "BatiSkillTime": {
+      "BatiSkill": 0,
+      "Time": 0,
+      "Team": false
+    },
+    "ComboResetWhenSkillBreak": {
+      "reset": true,
+      "switchClear": true,
+      "maxTimes": 1
+    },
+    "notBreakComboSkill": [],
+    "ClickSkillCombo": {
+      "normal": 0,
+      "cirt": 0
+    },
+    "HoldComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "ComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "HoldCastSkill": {
+      "clickCastSkillId": 0,
+      "holdTime": 0,
+      "holdCastSkillId": 0
+    },
+    "HoldLoopSkill": {
+      "loopSkill": 0,
+      "endSkill": 0,
+      "minLoopTime": 0
+    },
+    "UseSkillRes": [],
+    "LoopSkillUseControlPowerValue": {
+      "needValue": 0,
+      "useValuePerSecond": 0
+    },
+    "CanUseInTheAir": {
+      "CanUseInTheAir": false,
+      "MaxHeight": 0
+    },
+    "UseSkillWithoutObstacles": {
+      "isOpen": false,
+      "Radius": 0,
+      "frontDis": 0,
+      "behindDis": 0,
+      "leftDis": 0,
+      "rightDis": 0
+    },
+    "DetailExplain": [
+      {
+        "explaintitle": "",
+        "explaintxt": "技能描述测试",
+        "__IDX__explaintitle": 4294967293,
+        "__RAW__explaintitle": "技能描述测试",
+        "__IDX__explaintxt": 4294967293,
+        "__RAW__explaintxt": "测试文本"
+      }
+    ],
+    "ClientEffectScale": {
+      "basescale": 0,
+      "minscale": 0,
+      "maxscale": 0
+    },
+    "ClientMove": {
+      "delay": 0,
+      "duration": 0,
+      "mindis": 0,
+      "maxdis": 0,
+      "movetoaround": 0,
+      "diswithouttarget": 0
+    },
+    "ClientPredictMove": {
+      "delay": 0,
+      "duration": 0,
+      "predicttime": 0,
+      "mindis": 0,
+      "maxdis": 0
+    },
+    "ChangeModel": {
+      "modelId": 0,
+      "effectId": 0,
+      "endEffectId": 0
+    },
+    "ChangeDirToTarget": {
+      "isTurnTo": true,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "ChangeDirToJoyStickDir": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "CameraAnchorOffset": {
+      "y": 0,
+      "DiffY": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "CameraDistance": {
+      "distance": 0,
+      "DiffDistance": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "RotateSpeed": {
+      "rotatespeed": 0,
+      "starttime": 0,
+      "stoptime": 0
+    },
+    "SkillCameraMove": [],
+    "SkillTimelineJump": {
+      "jumptime": 0,
+      "TimelineName": ""
+    },
+    "DisableClientEvent": [],
+    "ReactSkill": {
+      "DelayTime": 0,
+      "movetime": 0,
+      "lasttime": 0,
+      "TargetActionId": 0,
+      "distance": 0,
+      "animationcurveid": 0,
+      "movedelay": 0,
+      "TargetMove": false,
+      "TargetY": 0,
+      "TargetX": 0,
+      "TargetZ": 0,
+      "maxheight": 0,
+      "offsetBySelf": false,
+      "delayFallTime": 0
+    },
+    "ChangeDirToDest": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "InheritLastSkillJump": {
+      "Inherit": false,
+      "TargetActionTime": 0
+    },
+    "SkillJumpSave": [],
+    "MindpowerComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    }
+  },
+  "BanXiEnterFireCfg": {
+    "Id": 51935514,
+    "Name": "班茜前摇进入",
+    "SkillCastTypeTag": 15,
+    "SpiritSkillType": 1,
+    "SkillActionType": 0,
+    "CastType": 0,
+    "ClientActionAdvance": true,
+    "ParrallelCast": false,
+    "ClientHurt": [],
+    "ClientHurtSkillPara": [],
+    "Cooldown": 0,
+    "ExtraFirmLevel": 0,
+    "CooldownTime": 0,
+    "ConnectedCdSkills": [],
+    "SSkillImageId": 28000923,
+    "IsLockTarget": false,
+    "KeepLastLock": false,
+    "LockCancelTime": 10,
+    "LockStayTime": 10,
+    "LockStayWholeSkill": false,
+    "LockDistance": 0,
+    "CrouchLockDistance": 0,
+    "LockPointFunc": 1,
+    "FollowCameraBlendTime": 0,
+    "OnlyLockInCameraEnemy": false,
+    "EnterFollowCamera": true,
+    "KeepFollowCamWhenLock": false,
+    "FaceLockTarAngleSpeed": 0,
+    "TransitionTag": 0,
+    "CanCastKeepCrouching": false,
+    "LockTargetType": [
+      1,
+      2
+    ],
+    "AddBVBUltEnergy": 0,
+    "BVBSkillType": 0,
+    "IsLoopSkill": false,
+    "SkillJumpId": [],
+    "ComboAdditionalTimeForMove": 0,
+    "ComboSkillId": [],
+    "EffectTarget": 200,
+    "UseControlPowerValue": 0,
+    "UseInStiff": 0,
+    "UseInControlState": false,
+    "ForceCast": false,
+    "Explain": [
+      "突突突"
+    ],
+    "SkillKeys": [],
+    "SkillParameter": [],
+    "hurtparas": [],
+    "SkillIconText": "",
+    "ExplainTips": [],
+    "ClientGoFirst": false,
+    "ResetIdleIdInUpbodyAction": false,
+    "NoRotation": true,
+    "NoMoveRotation": false,
+    "CameraSuddenFocus": false,
+    "CanFall": false,
+    "NotBreakLastSkill": false,
+    "NeedListenTouchGroundEvent": false,
+    "TouchGroundEventTriggerDistance": 0,
+    "SkillLockTimeDuration": [],
+    "OverToFightState": false,
+    "NoClearAction": [],
+    "SkillReplace": [],
+    "ChangeList": [],
+    "ShowDam": true,
+    "DontBreakCurrentSkill": false,
+    "SkillName": "",
+    "PlayEffectWhenCanUse": [],
+    "TurnToJoyStickDirectionOffset": 0,
+    "IgnoreNoSkillTimeSkillJump": true,
+    "IgnoreNoDodgeTime": false,
+    "IsMoveToPosGround": true,
+    "SkillJumpGroupId": 0,
+    "InheritageIncluionSkills": [],
+    "InheritageExclusionSkills": [],
+    "OverrideSkillJumpGraphId": 0,
+    "BlockMindSkillItemBreak": false,
+    "MindpowerSkill": 0,
+    "Mobile_SSkillImageId": 28000923,
+    "ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "SpecialLock": 0,
+    "LockHeightLimit": -1,
+    "ParkouStateTag": false,
+    "NoMoveTimeEndStateTreeParam": 0,
+    "SkillEndStateTreeParam": 0,
+    "StateTreeTag": [],
+    "ForceNoStateTreeSignal": false,
+    "SkillZone": true,
+    "BattlePeaceModeCanUse": false,
+    "CheckABPZone": 0,
+    "FollowWeaponLifeCycle": false,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "班茜前摇进入",
+    "__IDX__Explain": [
+      4294967293
+    ],
+    "__RAW__Explain": [
+      "突突突"
+    ],
+    "__IDX__SkillName": 0,
+    "__RAW__SkillName": "",
+    "__IDX__ExplainSkillUp": [
+      4294967293,
+      4294967293
+    ],
+    "__RAW__ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "BatiSkillTime": {
+      "BatiSkill": 0,
+      "Time": 0,
+      "Team": false
+    },
+    "ComboResetWhenSkillBreak": {
+      "reset": true,
+      "switchClear": true,
+      "maxTimes": 1
+    },
+    "notBreakComboSkill": [],
+    "ClickSkillCombo": {
+      "normal": 0,
+      "cirt": 0
+    },
+    "HoldComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "ComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "HoldCastSkill": {
+      "clickCastSkillId": 0,
+      "holdTime": 0,
+      "holdCastSkillId": 0
+    },
+    "HoldLoopSkill": {
+      "loopSkill": 0,
+      "endSkill": 0,
+      "minLoopTime": 0
+    },
+    "UseSkillRes": [],
+    "LoopSkillUseControlPowerValue": {
+      "needValue": 0,
+      "useValuePerSecond": 0
+    },
+    "CanUseInTheAir": {
+      "CanUseInTheAir": false,
+      "MaxHeight": 0
+    },
+    "UseSkillWithoutObstacles": {
+      "isOpen": false,
+      "Radius": 0,
+      "frontDis": 0,
+      "behindDis": 0,
+      "leftDis": 0,
+      "rightDis": 0
+    },
+    "DetailExplain": [
+      {
+        "explaintitle": "",
+        "explaintxt": "技能描述测试",
+        "__IDX__explaintitle": 4294967293,
+        "__RAW__explaintitle": "技能描述测试",
+        "__IDX__explaintxt": 4294967293,
+        "__RAW__explaintxt": "测试文本"
+      }
+    ],
+    "ClientEffectScale": {
+      "basescale": 0,
+      "minscale": 0,
+      "maxscale": 0
+    },
+    "ClientMove": {
+      "delay": 0,
+      "duration": 0,
+      "mindis": 0,
+      "maxdis": 0,
+      "movetoaround": 0,
+      "diswithouttarget": 0
+    },
+    "ClientPredictMove": {
+      "delay": 0,
+      "duration": 0,
+      "predicttime": 0,
+      "mindis": 0,
+      "maxdis": 0
+    },
+    "ChangeModel": {
+      "modelId": 0,
+      "effectId": 0,
+      "endEffectId": 0
+    },
+    "ChangeDirToTarget": {
+      "isTurnTo": true,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "ChangeDirToJoyStickDir": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "CameraAnchorOffset": {
+      "y": 0,
+      "DiffY": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "CameraDistance": {
+      "distance": 0,
+      "DiffDistance": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "RotateSpeed": {
+      "rotatespeed": 0,
+      "starttime": 0,
+      "stoptime": 0
+    },
+    "SkillCameraMove": [],
+    "SkillTimelineJump": {
+      "jumptime": 0,
+      "TimelineName": ""
+    },
+    "DisableClientEvent": [],
+    "ReactSkill": {
+      "DelayTime": 0,
+      "movetime": 0,
+      "lasttime": 0,
+      "TargetActionId": 0,
+      "distance": 0,
+      "animationcurveid": 0,
+      "movedelay": 0,
+      "TargetMove": false,
+      "TargetY": 0,
+      "TargetX": 0,
+      "TargetZ": 0,
+      "maxheight": 0,
+      "offsetBySelf": false,
+      "delayFallTime": 0
+    },
+    "ChangeDirToDest": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "InheritLastSkillJump": {
+      "Inherit": false,
+      "TargetActionTime": 0
+    },
+    "SkillJumpSave": [],
+    "MindpowerComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    }
+  },
+  "WashLoopCfg": {
+    "Id": 51935700,
+    "Name": "通用冲洗",
+    "SkillCastTypeTag": 10,
+    "SpiritSkillType": 1,
+    "SkillActionType": 0,
+    "CastType": 0,
+    "ClientActionAdvance": true,
+    "ParrallelCast": false,
+    "ClientHurt": [],
+    "ClientHurtSkillPara": [],
+    "Cooldown": 0,
+    "ExtraFirmLevel": 0,
+    "CooldownTime": 0,
+    "ConnectedCdSkills": [],
+    "SSkillImageId": 0,
+    "IsLockTarget": false,
+    "KeepLastLock": false,
+    "LockCancelTime": 10,
+    "LockStayTime": 10,
+    "LockStayWholeSkill": false,
+    "LockDistance": 0,
+    "CrouchLockDistance": 0,
+    "LockPointFunc": 1,
+    "FollowCameraBlendTime": 0,
+    "OnlyLockInCameraEnemy": false,
+    "EnterFollowCamera": true,
+    "KeepFollowCamWhenLock": false,
+    "FaceLockTarAngleSpeed": 0,
+    "TransitionTag": 0,
+    "CanCastKeepCrouching": false,
+    "LockTargetType": [
+      1,
+      2
+    ],
+    "AddBVBUltEnergy": 0,
+    "BVBSkillType": 0,
+    "IsLoopSkill": false,
+    "SkillJumpId": [
+      97010953
+    ],
+    "ComboAdditionalTimeForMove": 0,
+    "ComboSkillId": [],
+    "EffectTarget": 200,
+    "UseControlPowerValue": 0,
+    "UseInStiff": 0,
+    "UseInControlState": false,
+    "ForceCast": false,
+    "Explain": [
+      "打一枪"
+    ],
+    "SkillKeys": [],
+    "SkillParameter": [],
+    "hurtparas": [],
+    "SkillIconText": "",
+    "ExplainTips": [],
+    "ClientGoFirst": false,
+    "ResetIdleIdInUpbodyAction": false,
+    "NoRotation": true,
+    "NoMoveRotation": false,
+    "CameraSuddenFocus": false,
+    "CanFall": false,
+    "NotBreakLastSkill": false,
+    "NeedListenTouchGroundEvent": false,
+    "TouchGroundEventTriggerDistance": 0,
+    "SkillLockTimeDuration": [],
+    "OverToFightState": true,
+    "NoClearAction": [],
+    "SkillReplace": [],
+    "ChangeList": [],
+    "ShowDam": true,
+    "DontBreakCurrentSkill": false,
+    "SkillName": "",
+    "PlayEffectWhenCanUse": [],
+    "TurnToJoyStickDirectionOffset": 0,
+    "IgnoreNoSkillTimeSkillJump": true,
+    "IgnoreNoDodgeTime": false,
+    "IsMoveToPosGround": true,
+    "SkillJumpGroupId": 0,
+    "InheritageIncluionSkills": [],
+    "InheritageExclusionSkills": [],
+    "OverrideSkillJumpGraphId": 0,
+    "BlockMindSkillItemBreak": false,
+    "MindpowerSkill": 0,
+    "Mobile_SSkillImageId": 0,
+    "ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "SpecialLock": 0,
+    "LockHeightLimit": -1,
+    "ParkouStateTag": false,
+    "NoMoveTimeEndStateTreeParam": 0,
+    "SkillEndStateTreeParam": 1,
+    "StateTreeTag": [],
+    "ForceNoStateTreeSignal": false,
+    "SkillZone": true,
+    "BattlePeaceModeCanUse": false,
+    "CheckABPZone": 0,
+    "FollowWeaponLifeCycle": false,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "通用冲洗",
+    "__IDX__Explain": [
+      4294967293
+    ],
+    "__RAW__Explain": [
+      "打一枪"
+    ],
+    "__IDX__SkillName": 0,
+    "__RAW__SkillName": "",
+    "__IDX__ExplainSkillUp": [
+      4294967293,
+      4294967293
+    ],
+    "__RAW__ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "BatiSkillTime": {
+      "BatiSkill": 0,
+      "Time": 0,
+      "Team": false
+    },
+    "ComboResetWhenSkillBreak": {
+      "reset": true,
+      "switchClear": true,
+      "maxTimes": 1
+    },
+    "notBreakComboSkill": [],
+    "ClickSkillCombo": {
+      "normal": 0,
+      "cirt": 0
+    },
+    "HoldComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "ComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "HoldCastSkill": {
+      "clickCastSkillId": 0,
+      "holdTime": 0,
+      "holdCastSkillId": 0
+    },
+    "HoldLoopSkill": {
+      "loopSkill": 0,
+      "endSkill": 0,
+      "minLoopTime": 0
+    },
+    "UseSkillRes": [],
+    "LoopSkillUseControlPowerValue": {
+      "needValue": 0,
+      "useValuePerSecond": 0
+    },
+    "CanUseInTheAir": {
+      "CanUseInTheAir": false,
+      "MaxHeight": 0
+    },
+    "UseSkillWithoutObstacles": {
+      "isOpen": false,
+      "Radius": 0,
+      "frontDis": 0,
+      "behindDis": 0,
+      "leftDis": 0,
+      "rightDis": 0
+    },
+    "DetailExplain": [
+      {
+        "explaintitle": "",
+        "explaintxt": "技能描述测试",
+        "__IDX__explaintitle": 4294967293,
+        "__RAW__explaintitle": "技能描述测试",
+        "__IDX__explaintxt": 4294967293,
+        "__RAW__explaintxt": "测试文本"
+      }
+    ],
+    "ClientEffectScale": {
+      "basescale": 0,
+      "minscale": 0,
+      "maxscale": 0
+    },
+    "ClientMove": {
+      "delay": 0,
+      "duration": 0,
+      "mindis": 0,
+      "maxdis": 0,
+      "movetoaround": 0,
+      "diswithouttarget": 0
+    },
+    "ClientPredictMove": {
+      "delay": 0,
+      "duration": 0,
+      "predicttime": 0,
+      "mindis": 0,
+      "maxdis": 0
+    },
+    "ChangeModel": {
+      "modelId": 0,
+      "effectId": 0,
+      "endEffectId": 0
+    },
+    "ChangeDirToTarget": {
+      "isTurnTo": true,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "ChangeDirToJoyStickDir": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "CameraAnchorOffset": {
+      "y": 0,
+      "DiffY": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "CameraDistance": {
+      "distance": 0,
+      "DiffDistance": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "RotateSpeed": {
+      "rotatespeed": 0,
+      "starttime": 0,
+      "stoptime": 0
+    },
+    "SkillCameraMove": [],
+    "SkillTimelineJump": {
+      "jumptime": 0,
+      "TimelineName": ""
+    },
+    "DisableClientEvent": [],
+    "ReactSkill": {
+      "DelayTime": 0,
+      "movetime": 0,
+      "lasttime": 0,
+      "TargetActionId": 0,
+      "distance": 0,
+      "animationcurveid": 0,
+      "movedelay": 0,
+      "TargetMove": false,
+      "TargetY": 0,
+      "TargetX": 0,
+      "TargetZ": 0,
+      "maxheight": 0,
+      "offsetBySelf": false,
+      "delayFallTime": 0
+    },
+    "ChangeDirToDest": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "InheritLastSkillJump": {
+      "Inherit": false,
+      "TargetActionTime": 0
+    },
+    "SkillJumpSave": [],
+    "MindpowerComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    }
+  },
+  "WashAttackCfg": {
+    "Id": 51935702,
+    "Name": "通用冲洗点按",
+    "SkillCastTypeTag": 10,
+    "SpiritSkillType": 1,
+    "SkillActionType": 0,
+    "CastType": 0,
+    "ClientActionAdvance": true,
+    "ParrallelCast": false,
+    "ClientHurt": [],
+    "ClientHurtSkillPara": [],
+    "Cooldown": 0,
+    "ExtraFirmLevel": 0,
+    "CooldownTime": 0,
+    "ConnectedCdSkills": [],
+    "SSkillImageId": 0,
+    "IsLockTarget": false,
+    "KeepLastLock": false,
+    "LockCancelTime": 10,
+    "LockStayTime": 10,
+    "LockStayWholeSkill": false,
+    "LockDistance": 0,
+    "CrouchLockDistance": 0,
+    "LockPointFunc": 1,
+    "FollowCameraBlendTime": 0,
+    "OnlyLockInCameraEnemy": false,
+    "EnterFollowCamera": true,
+    "KeepFollowCamWhenLock": false,
+    "FaceLockTarAngleSpeed": 0,
+    "TransitionTag": 0,
+    "CanCastKeepCrouching": false,
+    "LockTargetType": [
+      1,
+      2
+    ],
+    "AddBVBUltEnergy": 0,
+    "BVBSkillType": 0,
+    "IsLoopSkill": false,
+    "SkillJumpId": [],
+    "ComboAdditionalTimeForMove": 0,
+    "ComboSkillId": [],
+    "EffectTarget": 200,
+    "UseControlPowerValue": 0,
+    "UseInStiff": 0,
+    "UseInControlState": false,
+    "ForceCast": false,
+    "Explain": [
+      "打一枪"
+    ],
+    "SkillKeys": [],
+    "SkillParameter": [],
+    "hurtparas": [],
+    "SkillIconText": "",
+    "ExplainTips": [],
+    "ClientGoFirst": false,
+    "ResetIdleIdInUpbodyAction": false,
+    "NoRotation": true,
+    "NoMoveRotation": false,
+    "CameraSuddenFocus": false,
+    "CanFall": false,
+    "NotBreakLastSkill": false,
+    "NeedListenTouchGroundEvent": false,
+    "TouchGroundEventTriggerDistance": 0,
+    "SkillLockTimeDuration": [],
+    "OverToFightState": true,
+    "NoClearAction": [],
+    "SkillReplace": [],
+    "ChangeList": [],
+    "ShowDam": true,
+    "DontBreakCurrentSkill": false,
+    "SkillName": "",
+    "PlayEffectWhenCanUse": [],
+    "TurnToJoyStickDirectionOffset": 0,
+    "IgnoreNoSkillTimeSkillJump": true,
+    "IgnoreNoDodgeTime": false,
+    "IsMoveToPosGround": true,
+    "SkillJumpGroupId": 0,
+    "InheritageIncluionSkills": [],
+    "InheritageExclusionSkills": [],
+    "OverrideSkillJumpGraphId": 0,
+    "BlockMindSkillItemBreak": false,
+    "MindpowerSkill": 0,
+    "Mobile_SSkillImageId": 0,
+    "ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "SpecialLock": 0,
+    "LockHeightLimit": -1,
+    "ParkouStateTag": false,
+    "NoMoveTimeEndStateTreeParam": 0,
+    "SkillEndStateTreeParam": 1,
+    "StateTreeTag": [],
+    "ForceNoStateTreeSignal": false,
+    "SkillZone": true,
+    "BattlePeaceModeCanUse": false,
+    "CheckABPZone": 0,
+    "FollowWeaponLifeCycle": false,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "通用冲洗点按",
+    "__IDX__Explain": [
+      4294967293
+    ],
+    "__RAW__Explain": [
+      "打一枪"
+    ],
+    "__IDX__SkillName": 0,
+    "__RAW__SkillName": "",
+    "__IDX__ExplainSkillUp": [
+      4294967293,
+      4294967293
+    ],
+    "__RAW__ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "BatiSkillTime": {
+      "BatiSkill": 0,
+      "Time": 0,
+      "Team": false
+    },
+    "ComboResetWhenSkillBreak": {
+      "reset": true,
+      "switchClear": true,
+      "maxTimes": 1
+    },
+    "notBreakComboSkill": [],
+    "ClickSkillCombo": {
+      "normal": 0,
+      "cirt": 0
+    },
+    "HoldComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "ComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "HoldCastSkill": {
+      "clickCastSkillId": 0,
+      "holdTime": 0,
+      "holdCastSkillId": 0
+    },
+    "HoldLoopSkill": {
+      "loopSkill": 0,
+      "endSkill": 0,
+      "minLoopTime": 0
+    },
+    "UseSkillRes": [],
+    "LoopSkillUseControlPowerValue": {
+      "needValue": 0,
+      "useValuePerSecond": 0
+    },
+    "CanUseInTheAir": {
+      "CanUseInTheAir": false,
+      "MaxHeight": 0
+    },
+    "UseSkillWithoutObstacles": {
+      "isOpen": false,
+      "Radius": 0,
+      "frontDis": 0,
+      "behindDis": 0,
+      "leftDis": 0,
+      "rightDis": 0
+    },
+    "DetailExplain": [
+      {
+        "explaintitle": "",
+        "explaintxt": "技能描述测试",
+        "__IDX__explaintitle": 4294967293,
+        "__RAW__explaintitle": "技能描述测试",
+        "__IDX__explaintxt": 4294967293,
+        "__RAW__explaintxt": "测试文本"
+      }
+    ],
+    "ClientEffectScale": {
+      "basescale": 0,
+      "minscale": 0,
+      "maxscale": 0
+    },
+    "ClientMove": {
+      "delay": 0,
+      "duration": 0,
+      "mindis": 0,
+      "maxdis": 0,
+      "movetoaround": 0,
+      "diswithouttarget": 0
+    },
+    "ClientPredictMove": {
+      "delay": 0,
+      "duration": 0,
+      "predicttime": 0,
+      "mindis": 0,
+      "maxdis": 0
+    },
+    "ChangeModel": {
+      "modelId": 0,
+      "effectId": 0,
+      "endEffectId": 0
+    },
+    "ChangeDirToTarget": {
+      "isTurnTo": true,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "ChangeDirToJoyStickDir": {
+      "isTurnTo": true,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "CameraAnchorOffset": {
+      "y": 0,
+      "DiffY": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "CameraDistance": {
+      "distance": 0,
+      "DiffDistance": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "RotateSpeed": {
+      "rotatespeed": 0,
+      "starttime": 0,
+      "stoptime": 0
+    },
+    "SkillCameraMove": [],
+    "SkillTimelineJump": {
+      "jumptime": 0,
+      "TimelineName": ""
+    },
+    "DisableClientEvent": [],
+    "ReactSkill": {
+      "DelayTime": 0,
+      "movetime": 0,
+      "lasttime": 0,
+      "TargetActionId": 0,
+      "distance": 0,
+      "animationcurveid": 0,
+      "movedelay": 0,
+      "TargetMove": false,
+      "TargetY": 0,
+      "TargetX": 0,
+      "TargetZ": 0,
+      "maxheight": 0,
+      "offsetBySelf": false,
+      "delayFallTime": 0
+    },
+    "ChangeDirToDest": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "InheritLastSkillJump": {
+      "Inherit": false,
+      "TargetActionTime": 0
+    },
+    "SkillJumpSave": [],
+    "MindpowerComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    }
+  },
+  "TurretGunFireCfg": {
+    "Id": 51947101,
+    "Name": "炮台机关光枪连射",
+    "SkillCastTypeTag": 10,
+    "SpiritSkillType": 1,
+    "SkillActionType": 0,
+    "CastType": 0,
+    "ClientActionAdvance": true,
+    "ParrallelCast": false,
+    "ClientHurt": [],
+    "ClientHurtSkillPara": [],
+    "Cooldown": 0,
+    "ExtraFirmLevel": 0,
+    "CooldownTime": 1,
+    "ConnectedCdSkills": [],
+    "SSkillImageId": 0,
+    "IsLockTarget": false,
+    "KeepLastLock": false,
+    "LockCancelTime": 10,
+    "LockStayTime": 10,
+    "LockStayWholeSkill": false,
+    "LockDistance": 0,
+    "CrouchLockDistance": 0,
+    "LockPointFunc": 1,
+    "FollowCameraBlendTime": 0,
+    "OnlyLockInCameraEnemy": false,
+    "EnterFollowCamera": true,
+    "KeepFollowCamWhenLock": false,
+    "FaceLockTarAngleSpeed": 0,
+    "TransitionTag": 0,
+    "CanCastKeepCrouching": false,
+    "LockTargetType": [
+      1,
+      2
+    ],
+    "AddBVBUltEnergy": 0,
+    "BVBSkillType": 0,
+    "IsLoopSkill": true,
+    "SkillJumpId": [],
+    "ComboAdditionalTimeForMove": 0,
+    "ComboSkillId": [],
+    "EffectTarget": 701,
+    "UseControlPowerValue": 0,
+    "UseInStiff": 0,
+    "UseInControlState": false,
+    "ForceCast": false,
+    "Explain": [],
+    "SkillKeys": [],
+    "SkillParameter": [],
+    "hurtparas": [],
+    "SkillIconText": "",
+    "ExplainTips": [],
+    "ClientGoFirst": false,
+    "ResetIdleIdInUpbodyAction": false,
+    "NoRotation": true,
+    "NoMoveRotation": false,
+    "CameraSuddenFocus": false,
+    "CanFall": false,
+    "NotBreakLastSkill": false,
+    "NeedListenTouchGroundEvent": false,
+    "TouchGroundEventTriggerDistance": 0,
+    "SkillLockTimeDuration": [],
+    "OverToFightState": false,
+    "NoClearAction": [],
+    "SkillReplace": [],
+    "ChangeList": [],
+    "ShowDam": true,
+    "DontBreakCurrentSkill": false,
+    "SkillName": "",
+    "PlayEffectWhenCanUse": [],
+    "TurnToJoyStickDirectionOffset": 0,
+    "IgnoreNoSkillTimeSkillJump": true,
+    "IgnoreNoDodgeTime": false,
+    "IsMoveToPosGround": true,
+    "SkillJumpGroupId": 0,
+    "InheritageIncluionSkills": [],
+    "InheritageExclusionSkills": [],
+    "OverrideSkillJumpGraphId": 0,
+    "BlockMindSkillItemBreak": false,
+    "MindpowerSkill": 0,
+    "Mobile_SSkillImageId": 0,
+    "ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "SpecialLock": 0,
+    "LockHeightLimit": -1,
+    "ParkouStateTag": false,
+    "NoMoveTimeEndStateTreeParam": 0,
+    "SkillEndStateTreeParam": 1,
+    "StateTreeTag": [],
+    "ForceNoStateTreeSignal": false,
+    "SkillZone": true,
+    "BattlePeaceModeCanUse": false,
+    "CheckABPZone": 0,
+    "FollowWeaponLifeCycle": false,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "炮台机关光枪连射",
+    "__IDX__Explain": [],
+    "__RAW__Explain": [],
+    "__IDX__SkillName": 0,
+    "__RAW__SkillName": "",
+    "__IDX__ExplainSkillUp": [
+      4294967293,
+      4294967293
+    ],
+    "__RAW__ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "BatiSkillTime": {
+      "BatiSkill": 0,
+      "Time": 0,
+      "Team": false
+    },
+    "ComboResetWhenSkillBreak": {
+      "reset": true,
+      "switchClear": true,
+      "maxTimes": 1
+    },
+    "notBreakComboSkill": [],
+    "ClickSkillCombo": {
+      "normal": 0,
+      "cirt": 0
+    },
+    "HoldComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "ComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "HoldCastSkill": {
+      "clickCastSkillId": 0,
+      "holdTime": 0,
+      "holdCastSkillId": 0
+    },
+    "HoldLoopSkill": {
+      "loopSkill": 0,
+      "endSkill": 0,
+      "minLoopTime": 0
+    },
+    "UseSkillRes": [],
+    "LoopSkillUseControlPowerValue": {
+      "needValue": 0,
+      "useValuePerSecond": 0
+    },
+    "CanUseInTheAir": {
+      "CanUseInTheAir": true,
+      "MaxHeight": 0
+    },
+    "UseSkillWithoutObstacles": {
+      "isOpen": false,
+      "Radius": 0,
+      "frontDis": 0,
+      "behindDis": 0,
+      "leftDis": 0,
+      "rightDis": 0
+    },
+    "DetailExplain": [],
+    "ClientEffectScale": {
+      "basescale": 0,
+      "minscale": 0,
+      "maxscale": 0
+    },
+    "ClientMove": {
+      "delay": 0,
+      "duration": 0,
+      "mindis": 0,
+      "maxdis": 0,
+      "movetoaround": 0,
+      "diswithouttarget": 0
+    },
+    "ClientPredictMove": {
+      "delay": 0,
+      "duration": 0,
+      "predicttime": 0,
+      "mindis": 0,
+      "maxdis": 0
+    },
+    "ChangeModel": {
+      "modelId": 0,
+      "effectId": 0,
+      "endEffectId": 0
+    },
+    "ChangeDirToTarget": {
+      "isTurnTo": true,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "ChangeDirToJoyStickDir": {
+      "isTurnTo": true,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "CameraAnchorOffset": {
+      "y": 0,
+      "DiffY": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "CameraDistance": {
+      "distance": 0,
+      "DiffDistance": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "RotateSpeed": {
+      "rotatespeed": 0,
+      "starttime": 0,
+      "stoptime": 0
+    },
+    "SkillCameraMove": [],
+    "SkillTimelineJump": {
+      "jumptime": 0,
+      "TimelineName": ""
+    },
+    "DisableClientEvent": [],
+    "ReactSkill": {
+      "DelayTime": 0,
+      "movetime": 0,
+      "lasttime": 0,
+      "TargetActionId": 0,
+      "distance": 0,
+      "animationcurveid": 0,
+      "movedelay": 0,
+      "TargetMove": false,
+      "TargetY": 0,
+      "TargetX": 0,
+      "TargetZ": 0,
+      "maxheight": 0,
+      "offsetBySelf": false,
+      "delayFallTime": 0
+    },
+    "ChangeDirToDest": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "InheritLastSkillJump": {
+      "Inherit": false,
+      "TargetActionTime": 0
+    },
+    "SkillJumpSave": [],
+    "MindpowerComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    }
+  },
+  "TurretGrenadeFireCfg": {
+    "Id": 51947102,
+    "Name": "炮台榴弹发射",
+    "SkillCastTypeTag": 10,
+    "SpiritSkillType": 1,
+    "SkillActionType": 0,
+    "CastType": 0,
+    "ClientActionAdvance": true,
+    "ParrallelCast": false,
+    "ClientHurt": [],
+    "ClientHurtSkillPara": [],
+    "Cooldown": 2,
+    "ExtraFirmLevel": 0,
+    "CooldownTime": 1,
+    "ConnectedCdSkills": [],
+    "SSkillImageId": 0,
+    "IsLockTarget": false,
+    "KeepLastLock": false,
+    "LockCancelTime": 10,
+    "LockStayTime": 10,
+    "LockStayWholeSkill": false,
+    "LockDistance": 0,
+    "CrouchLockDistance": 0,
+    "LockPointFunc": 1,
+    "FollowCameraBlendTime": 0,
+    "OnlyLockInCameraEnemy": false,
+    "EnterFollowCamera": true,
+    "KeepFollowCamWhenLock": false,
+    "FaceLockTarAngleSpeed": 0,
+    "TransitionTag": 0,
+    "CanCastKeepCrouching": false,
+    "LockTargetType": [
+      1,
+      2
+    ],
+    "AddBVBUltEnergy": 0,
+    "BVBSkillType": 0,
+    "IsLoopSkill": false,
+    "SkillJumpId": [],
+    "ComboAdditionalTimeForMove": 0,
+    "ComboSkillId": [],
+    "EffectTarget": 200,
+    "UseControlPowerValue": 0,
+    "UseInStiff": 0,
+    "UseInControlState": false,
+    "ForceCast": false,
+    "Explain": [],
+    "SkillKeys": [],
+    "SkillParameter": [],
+    "hurtparas": [],
+    "SkillIconText": "",
+    "ExplainTips": [],
+    "ClientGoFirst": false,
+    "ResetIdleIdInUpbodyAction": false,
+    "NoRotation": true,
+    "NoMoveRotation": false,
+    "CameraSuddenFocus": false,
+    "CanFall": false,
+    "NotBreakLastSkill": false,
+    "NeedListenTouchGroundEvent": false,
+    "TouchGroundEventTriggerDistance": 0,
+    "SkillLockTimeDuration": [],
+    "OverToFightState": false,
+    "NoClearAction": [],
+    "SkillReplace": [],
+    "ChangeList": [],
+    "ShowDam": true,
+    "DontBreakCurrentSkill": false,
+    "SkillName": "",
+    "PlayEffectWhenCanUse": [],
+    "TurnToJoyStickDirectionOffset": 0,
+    "IgnoreNoSkillTimeSkillJump": true,
+    "IgnoreNoDodgeTime": false,
+    "IsMoveToPosGround": true,
+    "SkillJumpGroupId": 0,
+    "InheritageIncluionSkills": [],
+    "InheritageExclusionSkills": [],
+    "OverrideSkillJumpGraphId": 0,
+    "BlockMindSkillItemBreak": false,
+    "MindpowerSkill": 0,
+    "Mobile_SSkillImageId": 0,
+    "ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "SpecialLock": 0,
+    "LockHeightLimit": -1,
+    "ParkouStateTag": false,
+    "NoMoveTimeEndStateTreeParam": 0,
+    "SkillEndStateTreeParam": 1,
+    "StateTreeTag": [],
+    "ForceNoStateTreeSignal": false,
+    "SkillZone": true,
+    "BattlePeaceModeCanUse": false,
+    "CheckABPZone": 0,
+    "FollowWeaponLifeCycle": false,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "炮台榴弹发射",
+    "__IDX__Explain": [],
+    "__RAW__Explain": [],
+    "__IDX__SkillName": 0,
+    "__RAW__SkillName": "",
+    "__IDX__ExplainSkillUp": [
+      4294967293,
+      4294967293
+    ],
+    "__RAW__ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "BatiSkillTime": {
+      "BatiSkill": 0,
+      "Time": 0,
+      "Team": false
+    },
+    "ComboResetWhenSkillBreak": {
+      "reset": true,
+      "switchClear": true,
+      "maxTimes": 1
+    },
+    "notBreakComboSkill": [],
+    "ClickSkillCombo": {
+      "normal": 0,
+      "cirt": 0
+    },
+    "HoldComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "ComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "HoldCastSkill": {
+      "clickCastSkillId": 0,
+      "holdTime": 0,
+      "holdCastSkillId": 0
+    },
+    "HoldLoopSkill": {
+      "loopSkill": 0,
+      "endSkill": 0,
+      "minLoopTime": 0
+    },
+    "UseSkillRes": [],
+    "LoopSkillUseControlPowerValue": {
+      "needValue": 0,
+      "useValuePerSecond": 0
+    },
+    "CanUseInTheAir": {
+      "CanUseInTheAir": true,
+      "MaxHeight": 0
+    },
+    "UseSkillWithoutObstacles": {
+      "isOpen": false,
+      "Radius": 0,
+      "frontDis": 0,
+      "behindDis": 0,
+      "leftDis": 0,
+      "rightDis": 0
+    },
+    "DetailExplain": [],
+    "ClientEffectScale": {
+      "basescale": 0,
+      "minscale": 0,
+      "maxscale": 0
+    },
+    "ClientMove": {
+      "delay": 0,
+      "duration": 0,
+      "mindis": 0,
+      "maxdis": 0,
+      "movetoaround": 0,
+      "diswithouttarget": 0
+    },
+    "ClientPredictMove": {
+      "delay": 0,
+      "duration": 0,
+      "predicttime": 0,
+      "mindis": 0,
+      "maxdis": 0
+    },
+    "ChangeModel": {
+      "modelId": 0,
+      "effectId": 0,
+      "endEffectId": 0
+    },
+    "ChangeDirToTarget": {
+      "isTurnTo": true,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "ChangeDirToJoyStickDir": {
+      "isTurnTo": true,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "CameraAnchorOffset": {
+      "y": 0,
+      "DiffY": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "CameraDistance": {
+      "distance": 0,
+      "DiffDistance": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "RotateSpeed": {
+      "rotatespeed": 0,
+      "starttime": 0,
+      "stoptime": 0
+    },
+    "SkillCameraMove": [],
+    "SkillTimelineJump": {
+      "jumptime": 0,
+      "TimelineName": ""
+    },
+    "DisableClientEvent": [],
+    "ReactSkill": {
+      "DelayTime": 0,
+      "movetime": 0,
+      "lasttime": 0,
+      "TargetActionId": 0,
+      "distance": 0,
+      "animationcurveid": 0,
+      "movedelay": 0,
+      "TargetMove": false,
+      "TargetY": 0,
+      "TargetX": 0,
+      "TargetZ": 0,
+      "maxheight": 0,
+      "offsetBySelf": false,
+      "delayFallTime": 0
+    },
+    "ChangeDirToDest": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "InheritLastSkillJump": {
+      "Inherit": false,
+      "TargetActionTime": 0
+    },
+    "SkillJumpSave": [],
+    "MindpowerComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    }
+  },
+  "TurretLaserChargingCfg": {
+    "Id": 51947111,
+    "Name": "激光炮蓄力",
+    "SkillCastTypeTag": 23,
+    "SpiritSkillType": 8,
+    "SkillActionType": 0,
+    "CastType": 0,
+    "ClientActionAdvance": true,
+    "ParrallelCast": false,
+    "ClientHurt": [],
+    "ClientHurtSkillPara": [],
+    "Cooldown": 0,
+    "ExtraFirmLevel": 0,
+    "CooldownTime": 1,
+    "ConnectedCdSkills": [],
+    "SSkillImageId": 0,
+    "IsLockTarget": false,
+    "KeepLastLock": false,
+    "LockCancelTime": 10,
+    "LockStayTime": 10,
+    "LockStayWholeSkill": false,
+    "LockDistance": 0,
+    "CrouchLockDistance": 0,
+    "LockPointFunc": 1,
+    "FollowCameraBlendTime": 0,
+    "OnlyLockInCameraEnemy": false,
+    "EnterFollowCamera": true,
+    "KeepFollowCamWhenLock": false,
+    "FaceLockTarAngleSpeed": 0,
+    "TransitionTag": 0,
+    "CanCastKeepCrouching": false,
+    "LockTargetType": [
+      1,
+      2
+    ],
+    "AddBVBUltEnergy": 0,
+    "BVBSkillType": 0,
+    "IsLoopSkill": false,
+    "SkillJumpId": [],
+    "ComboAdditionalTimeForMove": 0,
+    "ComboSkillId": [],
+    "EffectTarget": 200,
+    "UseControlPowerValue": 0,
+    "UseInStiff": 0,
+    "UseInControlState": false,
+    "ForceCast": false,
+    "Explain": [],
+    "SkillKeys": [],
+    "SkillParameter": [],
+    "hurtparas": [],
+    "SkillIconText": "",
+    "ExplainTips": [],
+    "ClientGoFirst": false,
+    "ResetIdleIdInUpbodyAction": false,
+    "NoRotation": true,
+    "NoMoveRotation": false,
+    "CameraSuddenFocus": false,
+    "CanFall": false,
+    "NotBreakLastSkill": false,
+    "NeedListenTouchGroundEvent": false,
+    "TouchGroundEventTriggerDistance": 0,
+    "SkillLockTimeDuration": [],
+    "OverToFightState": false,
+    "NoClearAction": [],
+    "SkillReplace": [],
+    "ChangeList": [],
+    "ShowDam": true,
+    "DontBreakCurrentSkill": false,
+    "SkillName": "",
+    "PlayEffectWhenCanUse": [],
+    "TurnToJoyStickDirectionOffset": 0,
+    "IgnoreNoSkillTimeSkillJump": true,
+    "IgnoreNoDodgeTime": false,
+    "IsMoveToPosGround": true,
+    "SkillJumpGroupId": 0,
+    "InheritageIncluionSkills": [],
+    "InheritageExclusionSkills": [],
+    "OverrideSkillJumpGraphId": 0,
+    "BlockMindSkillItemBreak": false,
+    "MindpowerSkill": 0,
+    "Mobile_SSkillImageId": 0,
+    "ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "SpecialLock": 0,
+    "LockHeightLimit": -1,
+    "ParkouStateTag": false,
+    "NoMoveTimeEndStateTreeParam": 0,
+    "SkillEndStateTreeParam": 1,
+    "StateTreeTag": [],
+    "ForceNoStateTreeSignal": false,
+    "SkillZone": true,
+    "BattlePeaceModeCanUse": false,
+    "CheckABPZone": 0,
+    "FollowWeaponLifeCycle": false,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "激光炮蓄力",
+    "__IDX__Explain": [],
+    "__RAW__Explain": [],
+    "__IDX__SkillName": 0,
+    "__RAW__SkillName": "",
+    "__IDX__ExplainSkillUp": [
+      4294967293,
+      4294967293
+    ],
+    "__RAW__ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "BatiSkillTime": {
+      "BatiSkill": 0,
+      "Time": 0,
+      "Team": false
+    },
+    "ComboResetWhenSkillBreak": {
+      "reset": true,
+      "switchClear": true,
+      "maxTimes": 1
+    },
+    "notBreakComboSkill": [],
+    "ClickSkillCombo": {
+      "normal": 0,
+      "cirt": 0
+    },
+    "HoldComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "ComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "HoldCastSkill": {
+      "clickCastSkillId": 0,
+      "holdTime": 0,
+      "holdCastSkillId": 0
+    },
+    "HoldLoopSkill": {
+      "loopSkill": 0,
+      "endSkill": 0,
+      "minLoopTime": 0
+    },
+    "UseSkillRes": [],
+    "LoopSkillUseControlPowerValue": {
+      "needValue": 0,
+      "useValuePerSecond": 0
+    },
+    "CanUseInTheAir": {
+      "CanUseInTheAir": true,
+      "MaxHeight": 0
+    },
+    "UseSkillWithoutObstacles": {
+      "isOpen": false,
+      "Radius": 0,
+      "frontDis": 0,
+      "behindDis": 0,
+      "leftDis": 0,
+      "rightDis": 0
+    },
+    "DetailExplain": [],
+    "ClientEffectScale": {
+      "basescale": 0,
+      "minscale": 0,
+      "maxscale": 0
+    },
+    "ClientMove": {
+      "delay": 0,
+      "duration": 0,
+      "mindis": 0,
+      "maxdis": 0,
+      "movetoaround": 0,
+      "diswithouttarget": 0
+    },
+    "ClientPredictMove": {
+      "delay": 0,
+      "duration": 0,
+      "predicttime": 0,
+      "mindis": 0,
+      "maxdis": 0
+    },
+    "ChangeModel": {
+      "modelId": 0,
+      "effectId": 0,
+      "endEffectId": 0
+    },
+    "ChangeDirToTarget": {
+      "isTurnTo": true,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "ChangeDirToJoyStickDir": {
+      "isTurnTo": true,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "CameraAnchorOffset": {
+      "y": 0,
+      "DiffY": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "CameraDistance": {
+      "distance": 0,
+      "DiffDistance": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "RotateSpeed": {
+      "rotatespeed": 0,
+      "starttime": 0,
+      "stoptime": 0
+    },
+    "SkillCameraMove": [],
+    "SkillTimelineJump": {
+      "jumptime": 0,
+      "TimelineName": ""
+    },
+    "DisableClientEvent": [],
+    "ReactSkill": {
+      "DelayTime": 0,
+      "movetime": 0,
+      "lasttime": 0,
+      "TargetActionId": 0,
+      "distance": 0,
+      "animationcurveid": 0,
+      "movedelay": 0,
+      "TargetMove": false,
+      "TargetY": 0,
+      "TargetX": 0,
+      "TargetZ": 0,
+      "maxheight": 0,
+      "offsetBySelf": false,
+      "delayFallTime": 0
+    },
+    "ChangeDirToDest": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "InheritLastSkillJump": {
+      "Inherit": false,
+      "TargetActionTime": 0
+    },
+    "SkillJumpSave": [],
+    "MindpowerComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    }
+  },
+  "TurretLaserReleaseCfg": {
+    "Id": 51947112,
+    "Name": "激光炮蓄力释放",
+    "SkillCastTypeTag": 23,
+    "SpiritSkillType": 8,
+    "SkillActionType": 0,
+    "CastType": 0,
+    "ClientActionAdvance": true,
+    "ParrallelCast": false,
+    "ClientHurt": [],
+    "ClientHurtSkillPara": [],
+    "Cooldown": 0,
+    "ExtraFirmLevel": 0,
+    "CooldownTime": 1,
+    "ConnectedCdSkills": [],
+    "SSkillImageId": 0,
+    "IsLockTarget": false,
+    "KeepLastLock": false,
+    "LockCancelTime": 10,
+    "LockStayTime": 10,
+    "LockStayWholeSkill": false,
+    "LockDistance": 0,
+    "CrouchLockDistance": 0,
+    "LockPointFunc": 1,
+    "FollowCameraBlendTime": 0,
+    "OnlyLockInCameraEnemy": false,
+    "EnterFollowCamera": true,
+    "KeepFollowCamWhenLock": false,
+    "FaceLockTarAngleSpeed": 0,
+    "TransitionTag": 0,
+    "CanCastKeepCrouching": false,
+    "LockTargetType": [
+      1,
+      2
+    ],
+    "AddBVBUltEnergy": 0,
+    "BVBSkillType": 0,
+    "IsLoopSkill": false,
+    "SkillJumpId": [],
+    "ComboAdditionalTimeForMove": 0,
+    "ComboSkillId": [],
+    "EffectTarget": 200,
+    "UseControlPowerValue": 0,
+    "UseInStiff": 0,
+    "UseInControlState": false,
+    "ForceCast": false,
+    "Explain": [],
+    "SkillKeys": [],
+    "SkillParameter": [],
+    "hurtparas": [],
+    "SkillIconText": "",
+    "ExplainTips": [],
+    "ClientGoFirst": false,
+    "ResetIdleIdInUpbodyAction": false,
+    "NoRotation": true,
+    "NoMoveRotation": false,
+    "CameraSuddenFocus": false,
+    "CanFall": false,
+    "NotBreakLastSkill": false,
+    "NeedListenTouchGroundEvent": false,
+    "TouchGroundEventTriggerDistance": 0,
+    "SkillLockTimeDuration": [],
+    "OverToFightState": false,
+    "NoClearAction": [],
+    "SkillReplace": [],
+    "ChangeList": [],
+    "ShowDam": true,
+    "DontBreakCurrentSkill": false,
+    "SkillName": "",
+    "PlayEffectWhenCanUse": [],
+    "TurnToJoyStickDirectionOffset": 0,
+    "IgnoreNoSkillTimeSkillJump": true,
+    "IgnoreNoDodgeTime": false,
+    "IsMoveToPosGround": true,
+    "SkillJumpGroupId": 0,
+    "InheritageIncluionSkills": [],
+    "InheritageExclusionSkills": [],
+    "OverrideSkillJumpGraphId": 0,
+    "BlockMindSkillItemBreak": false,
+    "MindpowerSkill": 0,
+    "Mobile_SSkillImageId": 0,
+    "ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "SpecialLock": 0,
+    "LockHeightLimit": -1,
+    "ParkouStateTag": false,
+    "NoMoveTimeEndStateTreeParam": 0,
+    "SkillEndStateTreeParam": 1,
+    "StateTreeTag": [],
+    "ForceNoStateTreeSignal": false,
+    "SkillZone": true,
+    "BattlePeaceModeCanUse": false,
+    "CheckABPZone": 0,
+    "FollowWeaponLifeCycle": false,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "激光炮蓄力释放",
+    "__IDX__Explain": [],
+    "__RAW__Explain": [],
+    "__IDX__SkillName": 0,
+    "__RAW__SkillName": "",
+    "__IDX__ExplainSkillUp": [
+      4294967293,
+      4294967293
+    ],
+    "__RAW__ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "BatiSkillTime": {
+      "BatiSkill": 0,
+      "Time": 0,
+      "Team": false
+    },
+    "ComboResetWhenSkillBreak": {
+      "reset": true,
+      "switchClear": true,
+      "maxTimes": 1
+    },
+    "notBreakComboSkill": [],
+    "ClickSkillCombo": {
+      "normal": 0,
+      "cirt": 0
+    },
+    "HoldComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "ComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "HoldCastSkill": {
+      "clickCastSkillId": 0,
+      "holdTime": 0,
+      "holdCastSkillId": 0
+    },
+    "HoldLoopSkill": {
+      "loopSkill": 0,
+      "endSkill": 0,
+      "minLoopTime": 0
+    },
+    "UseSkillRes": [],
+    "LoopSkillUseControlPowerValue": {
+      "needValue": 0,
+      "useValuePerSecond": 0
+    },
+    "CanUseInTheAir": {
+      "CanUseInTheAir": true,
+      "MaxHeight": 0
+    },
+    "UseSkillWithoutObstacles": {
+      "isOpen": false,
+      "Radius": 0,
+      "frontDis": 0,
+      "behindDis": 0,
+      "leftDis": 0,
+      "rightDis": 0
+    },
+    "DetailExplain": [],
+    "ClientEffectScale": {
+      "basescale": 0,
+      "minscale": 0,
+      "maxscale": 0
+    },
+    "ClientMove": {
+      "delay": 0,
+      "duration": 0,
+      "mindis": 0,
+      "maxdis": 0,
+      "movetoaround": 0,
+      "diswithouttarget": 0
+    },
+    "ClientPredictMove": {
+      "delay": 0,
+      "duration": 0,
+      "predicttime": 0,
+      "mindis": 0,
+      "maxdis": 0
+    },
+    "ChangeModel": {
+      "modelId": 0,
+      "effectId": 0,
+      "endEffectId": 0
+    },
+    "ChangeDirToTarget": {
+      "isTurnTo": true,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "ChangeDirToJoyStickDir": {
+      "isTurnTo": true,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "CameraAnchorOffset": {
+      "y": 0,
+      "DiffY": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "CameraDistance": {
+      "distance": 0,
+      "DiffDistance": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "RotateSpeed": {
+      "rotatespeed": 0,
+      "starttime": 0,
+      "stoptime": 0
+    },
+    "SkillCameraMove": [],
+    "SkillTimelineJump": {
+      "jumptime": 0,
+      "TimelineName": ""
+    },
+    "DisableClientEvent": [],
+    "ReactSkill": {
+      "DelayTime": 0,
+      "movetime": 0,
+      "lasttime": 0,
+      "TargetActionId": 0,
+      "distance": 0,
+      "animationcurveid": 0,
+      "movedelay": 0,
+      "TargetMove": false,
+      "TargetY": 0,
+      "TargetX": 0,
+      "TargetZ": 0,
+      "maxheight": 0,
+      "offsetBySelf": false,
+      "delayFallTime": 0
+    },
+    "ChangeDirToDest": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "InheritLastSkillJump": {
+      "Inherit": false,
+      "TargetActionTime": 0
+    },
+    "SkillJumpSave": [],
+    "MindpowerComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    }
+  },
+  "TurretLaserStartChargeCfg": {
+    "Id": 51947110,
+    "Name": "激光炮开始蓄力",
+    "SkillCastTypeTag": 23,
+    "SpiritSkillType": 8,
+    "SkillActionType": 0,
+    "CastType": 0,
+    "ClientActionAdvance": true,
+    "ParrallelCast": false,
+    "ClientHurt": [],
+    "ClientHurtSkillPara": [],
+    "Cooldown": 0,
+    "ExtraFirmLevel": 0,
+    "CooldownTime": 1,
+    "ConnectedCdSkills": [],
+    "SSkillImageId": 0,
+    "IsLockTarget": false,
+    "KeepLastLock": false,
+    "LockCancelTime": 10,
+    "LockStayTime": 10,
+    "LockStayWholeSkill": false,
+    "LockDistance": 0,
+    "CrouchLockDistance": 0,
+    "LockPointFunc": 1,
+    "FollowCameraBlendTime": 0,
+    "OnlyLockInCameraEnemy": false,
+    "EnterFollowCamera": true,
+    "KeepFollowCamWhenLock": false,
+    "FaceLockTarAngleSpeed": 0,
+    "TransitionTag": 0,
+    "CanCastKeepCrouching": false,
+    "LockTargetType": [
+      1,
+      2
+    ],
+    "AddBVBUltEnergy": 0,
+    "BVBSkillType": 0,
+    "IsLoopSkill": false,
+    "SkillJumpId": [],
+    "ComboAdditionalTimeForMove": 0,
+    "ComboSkillId": [],
+    "EffectTarget": 200,
+    "UseControlPowerValue": 0,
+    "UseInStiff": 0,
+    "UseInControlState": false,
+    "ForceCast": false,
+    "Explain": [],
+    "SkillKeys": [],
+    "SkillParameter": [],
+    "hurtparas": [],
+    "SkillIconText": "",
+    "ExplainTips": [],
+    "ClientGoFirst": false,
+    "ResetIdleIdInUpbodyAction": false,
+    "NoRotation": true,
+    "NoMoveRotation": false,
+    "CameraSuddenFocus": false,
+    "CanFall": false,
+    "NotBreakLastSkill": false,
+    "NeedListenTouchGroundEvent": false,
+    "TouchGroundEventTriggerDistance": 0,
+    "SkillLockTimeDuration": [],
+    "OverToFightState": false,
+    "NoClearAction": [],
+    "SkillReplace": [],
+    "ChangeList": [],
+    "ShowDam": true,
+    "DontBreakCurrentSkill": false,
+    "SkillName": "",
+    "PlayEffectWhenCanUse": [],
+    "TurnToJoyStickDirectionOffset": 0,
+    "IgnoreNoSkillTimeSkillJump": true,
+    "IgnoreNoDodgeTime": false,
+    "IsMoveToPosGround": true,
+    "SkillJumpGroupId": 0,
+    "InheritageIncluionSkills": [],
+    "InheritageExclusionSkills": [],
+    "OverrideSkillJumpGraphId": 0,
+    "BlockMindSkillItemBreak": false,
+    "MindpowerSkill": 0,
+    "Mobile_SSkillImageId": 0,
+    "ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "SpecialLock": 0,
+    "LockHeightLimit": -1,
+    "ParkouStateTag": false,
+    "NoMoveTimeEndStateTreeParam": 0,
+    "SkillEndStateTreeParam": 1,
+    "StateTreeTag": [],
+    "ForceNoStateTreeSignal": false,
+    "SkillZone": true,
+    "BattlePeaceModeCanUse": false,
+    "CheckABPZone": 0,
+    "FollowWeaponLifeCycle": false,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "激光炮开始蓄力",
+    "__IDX__Explain": [],
+    "__RAW__Explain": [],
+    "__IDX__SkillName": 0,
+    "__RAW__SkillName": "",
+    "__IDX__ExplainSkillUp": [
+      4294967293,
+      4294967293
+    ],
+    "__RAW__ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "BatiSkillTime": {
+      "BatiSkill": 0,
+      "Time": 0,
+      "Team": false
+    },
+    "ComboResetWhenSkillBreak": {
+      "reset": true,
+      "switchClear": true,
+      "maxTimes": 1
+    },
+    "notBreakComboSkill": [],
+    "ClickSkillCombo": {
+      "normal": 0,
+      "cirt": 0
+    },
+    "HoldComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "ComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "HoldCastSkill": {
+      "clickCastSkillId": 0,
+      "holdTime": 0,
+      "holdCastSkillId": 0
+    },
+    "HoldLoopSkill": {
+      "loopSkill": 0,
+      "endSkill": 0,
+      "minLoopTime": 0
+    },
+    "UseSkillRes": [],
+    "LoopSkillUseControlPowerValue": {
+      "needValue": 0,
+      "useValuePerSecond": 0
+    },
+    "CanUseInTheAir": {
+      "CanUseInTheAir": true,
+      "MaxHeight": 0
+    },
+    "UseSkillWithoutObstacles": {
+      "isOpen": false,
+      "Radius": 0,
+      "frontDis": 0,
+      "behindDis": 0,
+      "leftDis": 0,
+      "rightDis": 0
+    },
+    "DetailExplain": [],
+    "ClientEffectScale": {
+      "basescale": 0,
+      "minscale": 0,
+      "maxscale": 0
+    },
+    "ClientMove": {
+      "delay": 0,
+      "duration": 0,
+      "mindis": 0,
+      "maxdis": 0,
+      "movetoaround": 0,
+      "diswithouttarget": 0
+    },
+    "ClientPredictMove": {
+      "delay": 0,
+      "duration": 0,
+      "predicttime": 0,
+      "mindis": 0,
+      "maxdis": 0
+    },
+    "ChangeModel": {
+      "modelId": 0,
+      "effectId": 0,
+      "endEffectId": 0
+    },
+    "ChangeDirToTarget": {
+      "isTurnTo": true,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "ChangeDirToJoyStickDir": {
+      "isTurnTo": true,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "CameraAnchorOffset": {
+      "y": 0,
+      "DiffY": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "CameraDistance": {
+      "distance": 0,
+      "DiffDistance": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "RotateSpeed": {
+      "rotatespeed": 0,
+      "starttime": 0,
+      "stoptime": 0
+    },
+    "SkillCameraMove": [],
+    "SkillTimelineJump": {
+      "jumptime": 0,
+      "TimelineName": ""
+    },
+    "DisableClientEvent": [],
+    "ReactSkill": {
+      "DelayTime": 0,
+      "movetime": 0,
+      "lasttime": 0,
+      "TargetActionId": 0,
+      "distance": 0,
+      "animationcurveid": 0,
+      "movedelay": 0,
+      "TargetMove": false,
+      "TargetY": 0,
+      "TargetX": 0,
+      "TargetZ": 0,
+      "maxheight": 0,
+      "offsetBySelf": false,
+      "delayFallTime": 0
+    },
+    "ChangeDirToDest": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "InheritLastSkillJump": {
+      "Inherit": false,
+      "TargetActionTime": 0
+    },
+    "SkillJumpSave": [],
+    "MindpowerComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    }
+  },
+  "TurretLaserChargedCfg": {
+    "Id": 51947113,
+    "Name": "激光炮蓄力完成",
+    "SkillCastTypeTag": 23,
+    "SpiritSkillType": 8,
+    "SkillActionType": 0,
+    "CastType": 0,
+    "ClientActionAdvance": true,
+    "ParrallelCast": false,
+    "ClientHurt": [],
+    "ClientHurtSkillPara": [],
+    "Cooldown": 0,
+    "ExtraFirmLevel": 0,
+    "CooldownTime": 1,
+    "ConnectedCdSkills": [],
+    "SSkillImageId": 0,
+    "IsLockTarget": false,
+    "KeepLastLock": false,
+    "LockCancelTime": 10,
+    "LockStayTime": 10,
+    "LockStayWholeSkill": false,
+    "LockDistance": 0,
+    "CrouchLockDistance": 0,
+    "LockPointFunc": 1,
+    "FollowCameraBlendTime": 0,
+    "OnlyLockInCameraEnemy": false,
+    "EnterFollowCamera": true,
+    "KeepFollowCamWhenLock": false,
+    "FaceLockTarAngleSpeed": 0,
+    "TransitionTag": 0,
+    "CanCastKeepCrouching": false,
+    "LockTargetType": [
+      1,
+      2
+    ],
+    "AddBVBUltEnergy": 0,
+    "BVBSkillType": 0,
+    "IsLoopSkill": false,
+    "SkillJumpId": [],
+    "ComboAdditionalTimeForMove": 0,
+    "ComboSkillId": [],
+    "EffectTarget": 200,
+    "UseControlPowerValue": 0,
+    "UseInStiff": 0,
+    "UseInControlState": false,
+    "ForceCast": false,
+    "Explain": [],
+    "SkillKeys": [],
+    "SkillParameter": [],
+    "hurtparas": [],
+    "SkillIconText": "",
+    "ExplainTips": [],
+    "ClientGoFirst": false,
+    "ResetIdleIdInUpbodyAction": false,
+    "NoRotation": true,
+    "NoMoveRotation": false,
+    "CameraSuddenFocus": false,
+    "CanFall": false,
+    "NotBreakLastSkill": false,
+    "NeedListenTouchGroundEvent": false,
+    "TouchGroundEventTriggerDistance": 0,
+    "SkillLockTimeDuration": [],
+    "OverToFightState": false,
+    "NoClearAction": [],
+    "SkillReplace": [],
+    "ChangeList": [],
+    "ShowDam": true,
+    "DontBreakCurrentSkill": false,
+    "SkillName": "",
+    "PlayEffectWhenCanUse": [],
+    "TurnToJoyStickDirectionOffset": 0,
+    "IgnoreNoSkillTimeSkillJump": true,
+    "IgnoreNoDodgeTime": false,
+    "IsMoveToPosGround": true,
+    "SkillJumpGroupId": 0,
+    "InheritageIncluionSkills": [],
+    "InheritageExclusionSkills": [],
+    "OverrideSkillJumpGraphId": 0,
+    "BlockMindSkillItemBreak": false,
+    "MindpowerSkill": 0,
+    "Mobile_SSkillImageId": 0,
+    "ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "SpecialLock": 0,
+    "LockHeightLimit": -1,
+    "ParkouStateTag": false,
+    "NoMoveTimeEndStateTreeParam": 0,
+    "SkillEndStateTreeParam": 1,
+    "StateTreeTag": [],
+    "ForceNoStateTreeSignal": false,
+    "SkillZone": true,
+    "BattlePeaceModeCanUse": false,
+    "CheckABPZone": 0,
+    "FollowWeaponLifeCycle": false,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "激光炮蓄力完成",
+    "__IDX__Explain": [],
+    "__RAW__Explain": [],
+    "__IDX__SkillName": 0,
+    "__RAW__SkillName": "",
+    "__IDX__ExplainSkillUp": [
+      4294967293,
+      4294967293
+    ],
+    "__RAW__ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "BatiSkillTime": {
+      "BatiSkill": 0,
+      "Time": 0,
+      "Team": false
+    },
+    "ComboResetWhenSkillBreak": {
+      "reset": true,
+      "switchClear": true,
+      "maxTimes": 1
+    },
+    "notBreakComboSkill": [],
+    "ClickSkillCombo": {
+      "normal": 0,
+      "cirt": 0
+    },
+    "HoldComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "ComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "HoldCastSkill": {
+      "clickCastSkillId": 0,
+      "holdTime": 0,
+      "holdCastSkillId": 0
+    },
+    "HoldLoopSkill": {
+      "loopSkill": 0,
+      "endSkill": 0,
+      "minLoopTime": 0
+    },
+    "UseSkillRes": [],
+    "LoopSkillUseControlPowerValue": {
+      "needValue": 0,
+      "useValuePerSecond": 0
+    },
+    "CanUseInTheAir": {
+      "CanUseInTheAir": true,
+      "MaxHeight": 0
+    },
+    "UseSkillWithoutObstacles": {
+      "isOpen": false,
+      "Radius": 0,
+      "frontDis": 0,
+      "behindDis": 0,
+      "leftDis": 0,
+      "rightDis": 0
+    },
+    "DetailExplain": [],
+    "ClientEffectScale": {
+      "basescale": 0,
+      "minscale": 0,
+      "maxscale": 0
+    },
+    "ClientMove": {
+      "delay": 0,
+      "duration": 0,
+      "mindis": 0,
+      "maxdis": 0,
+      "movetoaround": 0,
+      "diswithouttarget": 0
+    },
+    "ClientPredictMove": {
+      "delay": 0,
+      "duration": 0,
+      "predicttime": 0,
+      "mindis": 0,
+      "maxdis": 0
+    },
+    "ChangeModel": {
+      "modelId": 0,
+      "effectId": 0,
+      "endEffectId": 0
+    },
+    "ChangeDirToTarget": {
+      "isTurnTo": true,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "ChangeDirToJoyStickDir": {
+      "isTurnTo": true,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "CameraAnchorOffset": {
+      "y": 0,
+      "DiffY": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "CameraDistance": {
+      "distance": 0,
+      "DiffDistance": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "RotateSpeed": {
+      "rotatespeed": 0,
+      "starttime": 0,
+      "stoptime": 0
+    },
+    "SkillCameraMove": [],
+    "SkillTimelineJump": {
+      "jumptime": 0,
+      "TimelineName": ""
+    },
+    "DisableClientEvent": [],
+    "ReactSkill": {
+      "DelayTime": 0,
+      "movetime": 0,
+      "lasttime": 0,
+      "TargetActionId": 0,
+      "distance": 0,
+      "animationcurveid": 0,
+      "movedelay": 0,
+      "TargetMove": false,
+      "TargetY": 0,
+      "TargetX": 0,
+      "TargetZ": 0,
+      "maxheight": 0,
+      "offsetBySelf": false,
+      "delayFallTime": 0
+    },
+    "ChangeDirToDest": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "InheritLastSkillJump": {
+      "Inherit": false,
+      "TargetActionTime": 0
+    },
+    "SkillJumpSave": [],
+    "MindpowerComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    }
+  },
+  "TurretLaserCancelChargeCfg": {
+    "Id": 51947109,
+    "Name": "激光炮蓄力取消",
+    "SkillCastTypeTag": 23,
+    "SpiritSkillType": 8,
+    "SkillActionType": 0,
+    "CastType": 0,
+    "ClientActionAdvance": true,
+    "ParrallelCast": false,
+    "ClientHurt": [],
+    "ClientHurtSkillPara": [],
+    "Cooldown": 0,
+    "ExtraFirmLevel": 0,
+    "CooldownTime": 1,
+    "ConnectedCdSkills": [],
+    "SSkillImageId": 0,
+    "IsLockTarget": false,
+    "KeepLastLock": false,
+    "LockCancelTime": 10,
+    "LockStayTime": 10,
+    "LockStayWholeSkill": false,
+    "LockDistance": 0,
+    "CrouchLockDistance": 0,
+    "LockPointFunc": 1,
+    "FollowCameraBlendTime": 0,
+    "OnlyLockInCameraEnemy": false,
+    "EnterFollowCamera": true,
+    "KeepFollowCamWhenLock": false,
+    "FaceLockTarAngleSpeed": 0,
+    "TransitionTag": 0,
+    "CanCastKeepCrouching": false,
+    "LockTargetType": [
+      1,
+      2
+    ],
+    "AddBVBUltEnergy": 0,
+    "BVBSkillType": 0,
+    "IsLoopSkill": false,
+    "SkillJumpId": [],
+    "ComboAdditionalTimeForMove": 0,
+    "ComboSkillId": [],
+    "EffectTarget": 200,
+    "UseControlPowerValue": 0,
+    "UseInStiff": 0,
+    "UseInControlState": false,
+    "ForceCast": false,
+    "Explain": [],
+    "SkillKeys": [],
+    "SkillParameter": [],
+    "hurtparas": [],
+    "SkillIconText": "",
+    "ExplainTips": [],
+    "ClientGoFirst": false,
+    "ResetIdleIdInUpbodyAction": false,
+    "NoRotation": true,
+    "NoMoveRotation": false,
+    "CameraSuddenFocus": false,
+    "CanFall": false,
+    "NotBreakLastSkill": false,
+    "NeedListenTouchGroundEvent": false,
+    "TouchGroundEventTriggerDistance": 0,
+    "SkillLockTimeDuration": [],
+    "OverToFightState": false,
+    "NoClearAction": [],
+    "SkillReplace": [],
+    "ChangeList": [],
+    "ShowDam": true,
+    "DontBreakCurrentSkill": false,
+    "SkillName": "",
+    "PlayEffectWhenCanUse": [],
+    "TurnToJoyStickDirectionOffset": 0,
+    "IgnoreNoSkillTimeSkillJump": true,
+    "IgnoreNoDodgeTime": false,
+    "IsMoveToPosGround": true,
+    "SkillJumpGroupId": 0,
+    "InheritageIncluionSkills": [],
+    "InheritageExclusionSkills": [],
+    "OverrideSkillJumpGraphId": 0,
+    "BlockMindSkillItemBreak": false,
+    "MindpowerSkill": 0,
+    "Mobile_SSkillImageId": 0,
+    "ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "SpecialLock": 0,
+    "LockHeightLimit": -1,
+    "ParkouStateTag": false,
+    "NoMoveTimeEndStateTreeParam": 0,
+    "SkillEndStateTreeParam": 1,
+    "StateTreeTag": [],
+    "ForceNoStateTreeSignal": false,
+    "SkillZone": true,
+    "BattlePeaceModeCanUse": false,
+    "CheckABPZone": 0,
+    "FollowWeaponLifeCycle": false,
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "激光炮蓄力取消",
+    "__IDX__Explain": [],
+    "__RAW__Explain": [],
+    "__IDX__SkillName": 0,
+    "__RAW__SkillName": "",
+    "__IDX__ExplainSkillUp": [
+      4294967293,
+      4294967293
+    ],
+    "__RAW__ExplainSkillUp": [
+      "技能潜能",
+      "技能潜能描述"
+    ],
+    "BatiSkillTime": {
+      "BatiSkill": 0,
+      "Time": 0,
+      "Team": false
+    },
+    "ComboResetWhenSkillBreak": {
+      "reset": true,
+      "switchClear": true,
+      "maxTimes": 1
+    },
+    "notBreakComboSkill": [],
+    "ClickSkillCombo": {
+      "normal": 0,
+      "cirt": 0
+    },
+    "HoldComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "ComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    },
+    "HoldCastSkill": {
+      "clickCastSkillId": 0,
+      "holdTime": 0,
+      "holdCastSkillId": 0
+    },
+    "HoldLoopSkill": {
+      "loopSkill": 0,
+      "endSkill": 0,
+      "minLoopTime": 0
+    },
+    "UseSkillRes": [],
+    "LoopSkillUseControlPowerValue": {
+      "needValue": 0,
+      "useValuePerSecond": 0
+    },
+    "CanUseInTheAir": {
+      "CanUseInTheAir": true,
+      "MaxHeight": 0
+    },
+    "UseSkillWithoutObstacles": {
+      "isOpen": false,
+      "Radius": 0,
+      "frontDis": 0,
+      "behindDis": 0,
+      "leftDis": 0,
+      "rightDis": 0
+    },
+    "DetailExplain": [],
+    "ClientEffectScale": {
+      "basescale": 0,
+      "minscale": 0,
+      "maxscale": 0
+    },
+    "ClientMove": {
+      "delay": 0,
+      "duration": 0,
+      "mindis": 0,
+      "maxdis": 0,
+      "movetoaround": 0,
+      "diswithouttarget": 0
+    },
+    "ClientPredictMove": {
+      "delay": 0,
+      "duration": 0,
+      "predicttime": 0,
+      "mindis": 0,
+      "maxdis": 0
+    },
+    "ChangeModel": {
+      "modelId": 0,
+      "effectId": 0,
+      "endEffectId": 0
+    },
+    "ChangeDirToTarget": {
+      "isTurnTo": true,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "ChangeDirToJoyStickDir": {
+      "isTurnTo": true,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "CameraAnchorOffset": {
+      "y": 0,
+      "DiffY": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "CameraDistance": {
+      "distance": 0,
+      "DiffDistance": false,
+      "fadeinDelay": 0,
+      "fadeinTime": 0,
+      "fadeoutDelay": 0,
+      "fadeoutTime": 0
+    },
+    "RotateSpeed": {
+      "rotatespeed": 0,
+      "starttime": 0,
+      "stoptime": 0
+    },
+    "SkillCameraMove": [],
+    "SkillTimelineJump": {
+      "jumptime": 0,
+      "TimelineName": ""
+    },
+    "DisableClientEvent": [],
+    "ReactSkill": {
+      "DelayTime": 0,
+      "movetime": 0,
+      "lasttime": 0,
+      "TargetActionId": 0,
+      "distance": 0,
+      "animationcurveid": 0,
+      "movedelay": 0,
+      "TargetMove": false,
+      "TargetY": 0,
+      "TargetX": 0,
+      "TargetZ": 0,
+      "maxheight": 0,
+      "offsetBySelf": false,
+      "delayFallTime": 0
+    },
+    "ChangeDirToDest": {
+      "isTurnTo": false,
+      "ProrityMax": false,
+      "RotationOffset": 0
+    },
+    "InheritLastSkillJump": {
+      "Inherit": false,
+      "TargetActionTime": 0
+    },
+    "SkillJumpSave": [],
+    "MindpowerComboTime": {
+      "StartTime": 0,
+      "TriggerTime": 0,
+      "StopTime": 0
+    }
+  }
+}

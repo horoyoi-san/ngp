@@ -1,0 +1,122 @@
+{
+  "LikePopularity": {
+    "amount": 5,
+    "max": 500
+  },
+  "GiftPopularity": {
+    "amount": 20,
+    "max": 1000
+  },
+  "Importantevent": [
+    {
+      "eventid": 1221,
+      "actionid": 5
+    },
+    {
+      "eventid": 636,
+      "actionid": 6
+    },
+    {
+      "eventid": 836,
+      "actionid": 7
+    }
+  ],
+  "PeriodComment": {
+    "period": 60,
+    "commentnum": 5
+  },
+  "ActionComment": [
+    3,
+    5
+  ],
+  "SendCommentEmptyTips": "发送内容不能为空",
+  "CommentFormatText": "%s：%s",
+  "AudienceCountText": "观众数",
+  "CommentCountText": "评论数",
+  "LikeCountText": "爱心数",
+  "GiftCountText": "礼物数",
+  "TaskCountText": "完成任务数",
+  "InviteFriendCountText": "邀请好友数",
+  "WinGameCountText": "获胜游戏数",
+  "LiveSettlement": "直播结算",
+  "GameplaySettlement": "玩法结算",
+  "RewardCountdownText": "领取奖励（%ds）",
+  "ExitCountdownText": "退出（%ds）",
+  "CountdownTime": 10,
+  "ComsumableIdConfirmText": "是否消耗%s进行派对筹备",
+  "CommentMaxCount": 10,
+  "PositiveActionList": [
+    99320000,
+    99320013,
+    99320014,
+    99320015,
+    99320016
+  ],
+  "DanceActionList": [
+    99320011,
+    99320012,
+    99320013,
+    99320014,
+    99320022
+  ],
+  "CommentShow": [
+    1,
+    3
+  ],
+  "CommentShowDelayTime": [
+    0.5,
+    3.5
+  ],
+  "MaxCommentNum": 150,
+  "CommentLineMax": 10,
+  "OnlineQuitWaitTime": 10,
+  "OnlinePrepareMaxTime": 300,
+  "OnlineLotteryTime": 300,
+  "OnlinePartyMaxTime": 900,
+  "SingleModeName": "单人模式",
+  "LinkModeName": "联机模式",
+  "PartyInstructionsLable": "派对简介",
+  "PartyDropLable": "奖励预览",
+  "PartyFilterStandard": [
+    "空位数量",
+    "开启时间",
+    "奖励数量"
+  ],
+  "PartyFilterOrder": [
+    "升序",
+    "降序"
+  ],
+  "DefaultRoomName": "%s的派对",
+  "VisibilityName": [
+    "公开",
+    "仅好友",
+    "需密码"
+  ],
+  "SelectGiftTitle": "加入奖池",
+  "PartyPreparingTitle": "%s筹备中",
+  "PartyInProgressTitle": "%s进行中",
+  "PartySettingTitle": [
+    "直播弹幕",
+    "派对音频"
+  ],
+  "PartyLotteryExplanation": "派对进行一段时间后将开启抽奖，在场宾客均有机会中奖。",
+  "PartySettingGroupTitle": [
+    "派对设置",
+    "音频设置"
+  ],
+  "DanceTab": [
+    "玩法",
+    "纯享"
+  ],
+  "LotteryResultHostDesc": "抽奖结束，感谢您为%d位来宾送出奖品%s",
+  "SingleModeRoomName": "<player>的直播间",
+  "PartyTagText": "换上带有指定标签的服装入场，可获得额外积分。",
+  "PartyLotteryList": [
+    36010000,
+    36010100,
+    36010200,
+    0
+  ],
+  "PartyRoomMaxName": 10,
+  "MinGuestForLottery": 1
+}

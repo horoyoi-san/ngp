@@ -1,0 +1,62 @@
+{
+  "_class": "FireworkConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 3,
+  "records": [
+    {
+      "Id": 29110000,
+      "FireworkPlanID": [
+        29111000,
+        29111001,
+        29111002,
+        29111003,
+        29111004
+      ],
+      "PlaceName": "商业街楼顶",
+      "FireworkGroupName": "烟花·城景鸟瞰",
+      "Money": 36920002,
+      "EffectWayPoint": "TestFireWorkPos",
+      "TimeLineWayPoint": "TestTimeLinePos",
+      "__IDX__PlaceName": 4294967293,
+      "__RAW__PlaceName": "商业街楼顶",
+      "__IDX__FireworkGroupName": 4294967293,
+      "__RAW__FireworkGroupName": "烟花·城景鸟瞰"
+    },
+    {
+      "Id": 29110001,
+      "FireworkPlanID": [
+        29111005
+      ],
+      "PlaceName": "恶鬼大厦",
+      "FireworkGroupName": "烟花·恶鬼大厦塔吊",
+      "Money": 36920002,
+      "EffectWayPoint": "TestFireWorkPos2",
+      "TimeLineWayPoint": "TestTimeLinePos2",
+      "__IDX__PlaceName": 4294967293,
+      "__RAW__PlaceName": "恶鬼大厦",
+      "__IDX__FireworkGroupName": 4294967293,
+      "__RAW__FireworkGroupName": "烟花·恶鬼大厦塔吊"
+    },
+    {
+      "Id": 29110002,
+      "FireworkPlanID": [
+        29111000,
+        29111001,
+        29111002,
+        29111003
+      ],
+      "PlaceName": "海港",
+      "FireworkGroupName": "烟花·海港浪漫",
+      "Money": 36920002,
+      "EffectWayPoint": "",
+      "TimeLineWayPoint": "",
+      "__IDX__PlaceName": 4294967293,
+      "__RAW__PlaceName": "海港",
+      "__IDX__FireworkGroupName": 4294967293,
+      "__RAW__FireworkGroupName": "烟花·海港浪漫"
+    }
+  ],
+  "_dumpedCount": 3,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

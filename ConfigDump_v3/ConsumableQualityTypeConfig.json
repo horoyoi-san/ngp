@@ -1,0 +1,70 @@
+{
+  "_class": "ConsumableQualityTypeConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 5,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "通用品质",
+      "NoQuality": "",
+      "White": "#c989898[1阶]",
+      "Green": "#c7BB76F[2阶]",
+      "Blue": "#c8DABE3[3阶]",
+      "Purple": "#cA184F3[4阶]",
+      "Gold": "#cFFC852[5阶]",
+      "Orange": "#cFD6921[6阶]",
+      "Prismatic": ""
+    },
+    {
+      "Id": 2,
+      "Name": "空品质",
+      "NoQuality": "",
+      "White": "",
+      "Green": "",
+      "Blue": "",
+      "Purple": "",
+      "Gold": "",
+      "Orange": "",
+      "Prismatic": ""
+    },
+    {
+      "Id": 3,
+      "Name": "赛季进度品质",
+      "NoQuality": "",
+      "White": "",
+      "Green": "",
+      "Blue": "",
+      "Purple": "",
+      "Gold": "",
+      "Orange": "#cFD6921[独有]",
+      "Prismatic": ""
+    },
+    {
+      "Id": 4,
+      "Name": "载具品质",
+      "NoQuality": "",
+      "White": "",
+      "Green": "#c989898[量产]",
+      "Blue": "#c8DABE3[性能]",
+      "Purple": "#cA184F3[豪华​]",
+      "Gold": "#cFFC852[旗舰]",
+      "Orange": "#cFD6921[传奇]",
+      "Prismatic": ""
+    },
+    {
+      "Id": 5,
+      "Name": "武学品质",
+      "NoQuality": "",
+      "White": "#c989898[普通]",
+      "Green": "#c7BB76F[精良]",
+      "Blue": "#c8DABE3[稀有]",
+      "Purple": "#cA184F3[史诗]",
+      "Gold": "#cFFC852[传说]",
+      "Orange": "#cFD6921[神话]",
+      "Prismatic": ""
+    }
+  ],
+  "_dumpedCount": 5,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

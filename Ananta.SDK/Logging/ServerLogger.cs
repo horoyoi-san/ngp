@@ -9,8 +9,25 @@ public sealed class ServerLogger
 
     public void Info(string message) => Write(" ", message, PickInfoColor(message));
     public void Warn(string message) => Write("!", message, ConsoleColor.Yellow);
+    
+    
+    
+    
+    
+    
+    
+    
     public void Error(string message, Exception? ex = null)
-        => Write("X", ex is null ? message : $"{message}: {ex.GetType().Name}: {ex.Message}", ConsoleColor.Red);
+    {
+        Write("X", ex is null ? message : $"{message}: {ex.GetType().Name}: {ex.Message}", ConsoleColor.Red);
+
+        
+        if (ex?.StackTrace is { Length: > 0 } stack)
+        {
+            foreach (var line in stack.Split('\n', StringSplitOptions.RemoveEmptyEntries))
+                Write(" ", "   at " + line.Trim(), ConsoleColor.DarkRed);
+        }
+    }
 
     private void Write(string level, string message, ConsoleColor color)
     {
@@ -31,14 +48,14 @@ public sealed class ServerLogger
 
     private static ConsoleColor PickInfoColor(string message)
     {
-        // Wire direction is the most common thing you scan while debugging.
+        
         if (message.Contains("-> rpc", StringComparison.Ordinal) ||
             message.Contains("-> ntf", StringComparison.Ordinal))
             return ConsoleColor.Cyan;
         if (message.Contains("<- ret", StringComparison.Ordinal))
             return ConsoleColor.Green;
 
-        // High-level gameplay categories.
+        
         if (message.Contains("[SWITCH]", StringComparison.Ordinal)) return ConsoleColor.Magenta;
         if (message.Contains("[WEB]", StringComparison.Ordinal)) return ConsoleColor.Cyan;
         if (message.Contains("[CAPABILITY]", StringComparison.Ordinal)) return ConsoleColor.DarkCyan;
@@ -48,7 +65,7 @@ public sealed class ServerLogger
         if (message.Contains("[MOVE]", StringComparison.Ordinal)) return ConsoleColor.Gray;
         if (message.Contains("[PAUSE]", StringComparison.Ordinal)) return ConsoleColor.DarkYellow;
 
-        // Connection lifecycle.
+        
         if (message.TrimStart().StartsWith("+", StringComparison.Ordinal)) return ConsoleColor.Green;
         if (message.TrimStart().StartsWith("-", StringComparison.Ordinal)) return ConsoleColor.DarkGray;
 

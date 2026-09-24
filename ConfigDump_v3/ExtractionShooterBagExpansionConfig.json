@@ -1,0 +1,426 @@
+{
+  "_class": "ExtractionShooterBagExpansionConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 19,
+  "records": [
+    {
+      "Id": 9001,
+      "Type": 1,
+      "BagAddId": 0,
+      "BelongBagId": 99952003,
+      "SeasonMissonId": 0,
+      "MaxProgress": 0,
+      "Message": 0,
+      "FrontExpansionIds": [],
+      "ExpandGrids": {
+        "x": 0,
+        "y": 1
+      },
+      "ConsumableList": [
+        {
+          "id": 36920002,
+          "number": 6400
+        }
+      ]
+    },
+    {
+      "Id": 9002,
+      "Type": 1,
+      "BagAddId": 0,
+      "BelongBagId": 99952003,
+      "SeasonMissonId": 0,
+      "MaxProgress": 0,
+      "Message": 0,
+      "FrontExpansionIds": [
+        9001
+      ],
+      "ExpandGrids": {
+        "x": 0,
+        "y": 1
+      },
+      "ConsumableList": [
+        {
+          "id": 36920002,
+          "number": 9700
+        }
+      ]
+    },
+    {
+      "Id": 9003,
+      "Type": 1,
+      "BagAddId": 0,
+      "BelongBagId": 99952003,
+      "SeasonMissonId": 0,
+      "MaxProgress": 0,
+      "Message": 0,
+      "FrontExpansionIds": [
+        9002
+      ],
+      "ExpandGrids": {
+        "x": 0,
+        "y": 1
+      },
+      "ConsumableList": [
+        {
+          "id": 36920002,
+          "number": 12900
+        }
+      ]
+    },
+    {
+      "Id": 9004,
+      "Type": 2,
+      "BagAddId": 99952008,
+      "BelongBagId": 0,
+      "SeasonMissonId": 0,
+      "MaxProgress": 0,
+      "Message": 0,
+      "FrontExpansionIds": [
+        9003
+      ],
+      "ExpandGrids": {
+        "x": 0,
+        "y": 0
+      },
+      "ConsumableList": [
+        {
+          "id": 36920002,
+          "number": 19300
+        }
+      ]
+    },
+    {
+      "Id": 9005,
+      "Type": 1,
+      "BagAddId": 0,
+      "BelongBagId": 99952008,
+      "SeasonMissonId": 0,
+      "MaxProgress": 0,
+      "Message": 0,
+      "FrontExpansionIds": [
+        9004
+      ],
+      "ExpandGrids": {
+        "x": 0,
+        "y": 1
+      },
+      "ConsumableList": [
+        {
+          "id": 36920002,
+          "number": 25800
+        }
+      ]
+    },
+    {
+      "Id": 9006,
+      "Type": 1,
+      "BagAddId": 0,
+      "BelongBagId": 99952008,
+      "SeasonMissonId": 0,
+      "MaxProgress": 0,
+      "Message": 0,
+      "FrontExpansionIds": [
+        9005
+      ],
+      "ExpandGrids": {
+        "x": 0,
+        "y": 1
+      },
+      "ConsumableList": [
+        {
+          "id": 36920002,
+          "number": 32200
+        }
+      ]
+    },
+    {
+      "Id": 9007,
+      "Type": 1,
+      "BagAddId": 0,
+      "BelongBagId": 99952008,
+      "SeasonMissonId": 0,
+      "MaxProgress": 0,
+      "Message": 0,
+      "FrontExpansionIds": [
+        9006
+      ],
+      "ExpandGrids": {
+        "x": 0,
+        "y": 1
+      },
+      "ConsumableList": [
+        {
+          "id": 36920002,
+          "number": 45100
+        }
+      ]
+    },
+    {
+      "Id": 9008,
+      "Type": 2,
+      "BagAddId": 99952009,
+      "BelongBagId": 0,
+      "SeasonMissonId": 0,
+      "MaxProgress": 0,
+      "Message": 0,
+      "FrontExpansionIds": [
+        9007
+      ],
+      "ExpandGrids": {
+        "x": 0,
+        "y": 0
+      },
+      "ConsumableList": [
+        {
+          "id": 36920002,
+          "number": 57900
+        }
+      ]
+    },
+    {
+      "Id": 9009,
+      "Type": 1,
+      "BagAddId": 0,
+      "BelongBagId": 99952009,
+      "SeasonMissonId": 0,
+      "MaxProgress": 0,
+      "Message": 0,
+      "FrontExpansionIds": [
+        9008
+      ],
+      "ExpandGrids": {
+        "x": 0,
+        "y": 1
+      },
+      "ConsumableList": [
+        {
+          "id": 36920002,
+          "number": 70800
+        }
+      ]
+    },
+    {
+      "Id": 9010,
+      "Type": 1,
+      "BagAddId": 0,
+      "BelongBagId": 99952009,
+      "SeasonMissonId": 0,
+      "MaxProgress": 0,
+      "Message": 0,
+      "FrontExpansionIds": [
+        9009
+      ],
+      "ExpandGrids": {
+        "x": 0,
+        "y": 1
+      },
+      "ConsumableList": [
+        {
+          "id": 36920002,
+          "number": 90100
+        }
+      ]
+    },
+    {
+      "Id": 9011,
+      "Type": 1,
+      "BagAddId": 0,
+      "BelongBagId": 99952009,
+      "SeasonMissonId": 0,
+      "MaxProgress": 0,
+      "Message": 0,
+      "FrontExpansionIds": [
+        9010
+      ],
+      "ExpandGrids": {
+        "x": 0,
+        "y": 1
+      },
+      "ConsumableList": [
+        {
+          "id": 36920002,
+          "number": 109000
+        }
+      ]
+    },
+    {
+      "Id": 9012,
+      "Type": 2,
+      "BagAddId": 99952010,
+      "BelongBagId": 0,
+      "SeasonMissonId": 0,
+      "MaxProgress": 0,
+      "Message": 0,
+      "FrontExpansionIds": [
+        9011
+      ],
+      "ExpandGrids": {
+        "x": 0,
+        "y": 0
+      },
+      "ConsumableList": [
+        {
+          "id": 36920002,
+          "number": 129000
+        }
+      ]
+    },
+    {
+      "Id": 9013,
+      "Type": 1,
+      "BagAddId": 0,
+      "BelongBagId": 99952010,
+      "SeasonMissonId": 0,
+      "MaxProgress": 0,
+      "Message": 0,
+      "FrontExpansionIds": [
+        9012
+      ],
+      "ExpandGrids": {
+        "x": 0,
+        "y": 1
+      },
+      "ConsumableList": [
+        {
+          "id": 36920002,
+          "number": 155000
+        }
+      ]
+    },
+    {
+      "Id": 9014,
+      "Type": 1,
+      "BagAddId": 0,
+      "BelongBagId": 99952010,
+      "SeasonMissonId": 0,
+      "MaxProgress": 0,
+      "Message": 0,
+      "FrontExpansionIds": [
+        9013
+      ],
+      "ExpandGrids": {
+        "x": 0,
+        "y": 1
+      },
+      "ConsumableList": [
+        {
+          "id": 36920002,
+          "number": 180000
+        }
+      ]
+    },
+    {
+      "Id": 9015,
+      "Type": 1,
+      "BagAddId": 0,
+      "BelongBagId": 99952010,
+      "SeasonMissonId": 0,
+      "MaxProgress": 0,
+      "Message": 0,
+      "FrontExpansionIds": [
+        9014
+      ],
+      "ExpandGrids": {
+        "x": 0,
+        "y": 1
+      },
+      "ConsumableList": [
+        {
+          "id": 36920002,
+          "number": 206000
+        }
+      ]
+    },
+    {
+      "Id": 9016,
+      "Type": 2,
+      "BagAddId": 99952011,
+      "BelongBagId": 0,
+      "SeasonMissonId": 0,
+      "MaxProgress": 0,
+      "Message": 0,
+      "FrontExpansionIds": [
+        9015
+      ],
+      "ExpandGrids": {
+        "x": 0,
+        "y": 0
+      },
+      "ConsumableList": [
+        {
+          "id": 36920002,
+          "number": 232000
+        }
+      ]
+    },
+    {
+      "Id": 9017,
+      "Type": 1,
+      "BagAddId": 0,
+      "BelongBagId": 99952011,
+      "SeasonMissonId": 0,
+      "MaxProgress": 0,
+      "Message": 0,
+      "FrontExpansionIds": [
+        9016
+      ],
+      "ExpandGrids": {
+        "x": 0,
+        "y": 1
+      },
+      "ConsumableList": [
+        {
+          "id": 36920002,
+          "number": 258000
+        }
+      ]
+    },
+    {
+      "Id": 9018,
+      "Type": 1,
+      "BagAddId": 0,
+      "BelongBagId": 99952011,
+      "SeasonMissonId": 0,
+      "MaxProgress": 0,
+      "Message": 0,
+      "FrontExpansionIds": [
+        9017
+      ],
+      "ExpandGrids": {
+        "x": 0,
+        "y": 1
+      },
+      "ConsumableList": [
+        {
+          "id": 36920002,
+          "number": 290000
+        }
+      ]
+    },
+    {
+      "Id": 9019,
+      "Type": 1,
+      "BagAddId": 0,
+      "BelongBagId": 99952011,
+      "SeasonMissonId": 0,
+      "MaxProgress": 0,
+      "Message": 0,
+      "FrontExpansionIds": [
+        9018
+      ],
+      "ExpandGrids": {
+        "x": 0,
+        "y": 1
+      },
+      "ConsumableList": [
+        {
+          "id": 36920002,
+          "number": 322000
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 19,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

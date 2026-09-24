@@ -1,0 +1,118 @@
+{
+  "_class": "MeccaGrandpaRobotLimitedQAListConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 12,
+  "records": [
+    {
+      "Id": 1,
+      "SortOrder": 1,
+      "Question": "你是谁?",
+      "Answer": "名称：梅卡爷爷；型号:原型机-07。备注:该标签由用户「梅卡」手动写入。我是被称为爷爷的机器。",
+      "Dimension": "确认身份",
+      "Extension": "你叫什么名字;你是我爷爷吗;你以前是做什么的?",
+      "Weight": "200"
+    },
+    {
+      "Id": 2,
+      "SortOrder": 2,
+      "Question": "你以前是做什么的?",
+      "Answer": "职业记录：机械师。等级标记：新启杰出。备注：炉温过高时禁止儿童靠近。",
+      "Dimension": "确认身份",
+      "Extension": "你是机械师吗？你会修机器吗",
+      "Weight": "200"
+    },
+    {
+      "Id": 3,
+      "SortOrder": 3,
+      "Question": "你记得梅卡吗?",
+      "Answer": "梅卡。幼年个体。训练记录：螺丝分类，工具识别，手部稳定。",
+      "Dimension": "确认身份",
+      "Extension": "你知道我是谁吗;",
+      "Weight": "200"
+    },
+    {
+      "Id": 4,
+      "SortOrder": 4,
+      "Question": "你知道小羊是谁吗?",
+      "Answer": "小羊。混厄生物。控制信号：偶发。稳定性：低。建议远离高速齿轮。",
+      "Dimension": "确认共同记忆",
+      "Extension": "你还记得小羊吗？你还认识这些小羊吗？",
+      "Weight": "100"
+    },
+    {
+      "Id": 5,
+      "SortOrder": 5,
+      "Question": "你记得科斯是谁吗？",
+      "Answer": "科斯。原型防卫机。核心不稳定。禁止儿童单独启动。警告。",
+      "Dimension": "确认共同记忆",
+      "Extension": "科斯是什么？",
+      "Weight": "200"
+    },
+    {
+      "Id": 6,
+      "SortOrder": 6,
+      "Question": "你为什么离开了梅卡？",
+      "Answer": "记录损坏。关键词：鲸鱼，拆解，最终机器，连续工作。生命体征：停止。",
+      "Dimension": "追问真相",
+      "Extension": "你为什么没有回来？你去哪了？",
+      "Weight": "200"
+    },
+    {
+      "Id": 7,
+      "SortOrder": 7,
+      "Question": "你还记得我小时候的事吗?",
+      "Answer": "读取记录：梅卡，身高低于工作台。禁止触碰焊枪。",
+      "Dimension": "关于过去",
+      "Extension": "",
+      "Weight": "200"
+    },
+    {
+      "Id": 8,
+      "SortOrder": 8,
+      "Question": "你有什么话想对我说吗？",
+      "Answer": "固定留言读取：饭前洗手。工具归位。不要在焊台睡觉。读取结束。",
+      "Dimension": "情感关系",
+      "Extension": "",
+      "Weight": "100"
+    },
+    {
+      "Id": 9,
+      "SortOrder": 9,
+      "Question": "你有什么能力？",
+      "Answer": "可执行功能：基础焊接。基础切割。材料分类。\n战斗模块：低级。策略：防御。胜率：低。",
+      "Dimension": "关于当下",
+      "Extension": "你能做什么？你会保护我吗",
+      "Weight": "200"
+    },
+    {
+      "Id": 10,
+      "SortOrder": 10,
+      "Question": "你会不会也离开我?",
+      "Answer": "本机状态：固定部署。本机预计运行寿命......不适用。芯片无自然衰退。\n除非，外力损毁或用户主动关机。",
+      "Dimension": "情感关系",
+      "Extension": "你会离开我吗？",
+      "Weight": "200"
+    },
+    {
+      "Id": 11,
+      "SortOrder": 11,
+      "Question": "你有灵魂吗？",
+      "Answer": "灵魂字段不存在。系统无此数据。",
+      "Dimension": "哲学问题",
+      "Extension": "你是AI吗？你有灵魂吗？",
+      "Weight": "200"
+    },
+    {
+      "Id": 12,
+      "SortOrder": 12,
+      "Question": "你现在感觉如何？",
+      "Answer": "系统正常。",
+      "Dimension": "哲学问题",
+      "Extension": "你在想什么？",
+      "Weight": "100"
+    }
+  ],
+  "_dumpedCount": 12,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

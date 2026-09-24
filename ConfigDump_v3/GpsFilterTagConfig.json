@@ -1,0 +1,377 @@
+{
+  "_class": "GpsFilterTagConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 19,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "Current Character’s Missions",
+      "MatchIconId": [],
+      "Group": 1,
+      "Expand": false,
+      "IsPermanent": false,
+      "LinkShowMode": [
+        1
+      ],
+      "SystemUnlockId": 0,
+      "OnlyMobile": false,
+      "__IDX__Name": 58779,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 2,
+      "Name": "Other Characters’ Missions",
+      "MatchIconId": [],
+      "Group": 1,
+      "Expand": false,
+      "IsPermanent": false,
+      "LinkShowMode": [
+        1
+      ],
+      "SystemUnlockId": 0,
+      "OnlyMobile": false,
+      "__IDX__Name": 58787,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 3,
+      "Name": "Besties",
+      "MatchIconId": [],
+      "Group": 2,
+      "Expand": true,
+      "IsPermanent": false,
+      "LinkShowMode": [
+        1
+      ],
+      "SystemUnlockId": 139,
+      "OnlyMobile": false,
+      "__IDX__Name": 58788,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 4,
+      "Name": "Dining",
+      "MatchIconId": [
+        28001461,
+        28001075,
+        28000753,
+        28001689,
+        28001704
+      ],
+      "Group": 3,
+      "Expand": false,
+      "IsPermanent": false,
+      "LinkShowMode": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "SystemUnlockId": 0,
+      "OnlyMobile": false,
+      "__IDX__Name": 58789,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 5,
+      "Name": "Retail",
+      "MatchIconId": [
+        28001132,
+        28000827,
+        28000829,
+        28001692,
+        28017200,
+        28017237,
+        28017241
+      ],
+      "Group": 3,
+      "Expand": false,
+      "IsPermanent": false,
+      "LinkShowMode": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "SystemUnlockId": 0,
+      "OnlyMobile": false,
+      "__IDX__Name": 58790,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 6,
+      "Name": "Auto Shop",
+      "MatchIconId": [
+        28001462,
+        28000802
+      ],
+      "Group": 3,
+      "Expand": false,
+      "IsPermanent": false,
+      "LinkShowMode": [
+        1,
+        2,
+        3
+      ],
+      "SystemUnlockId": 0,
+      "OnlyMobile": false,
+      "__IDX__Name": 58791,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 7,
+      "Name": "Lifestyle Services",
+      "MatchIconId": [
+        28001072,
+        28001604,
+        28000754,
+        28017286,
+        28017239
+      ],
+      "Group": 3,
+      "Expand": false,
+      "IsPermanent": false,
+      "LinkShowMode": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "SystemUnlockId": 0,
+      "OnlyMobile": false,
+      "__IDX__Name": 58792,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 10,
+      "Name": "Entertainment",
+      "MatchIconId": [
+        28001464,
+        28001092,
+        28001057,
+        28001095,
+        28001065,
+        28004200,
+        28001073,
+        28001531,
+        28001697,
+        28017233,
+        28001681,
+        28017380
+      ],
+      "Group": 3,
+      "Expand": false,
+      "IsPermanent": false,
+      "LinkShowMode": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "SystemUnlockId": 0,
+      "OnlyMobile": false,
+      "__IDX__Name": 58780,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 11,
+      "Name": "Subway Station",
+      "MatchIconId": [],
+      "Group": 4,
+      "Expand": false,
+      "IsPermanent": true,
+      "LinkShowMode": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "SystemUnlockId": 0,
+      "OnlyMobile": false,
+      "__IDX__Name": 58781,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 12,
+      "Name": "Airport",
+      "MatchIconId": [],
+      "Group": 4,
+      "Expand": false,
+      "IsPermanent": true,
+      "LinkShowMode": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "SystemUnlockId": 0,
+      "OnlyMobile": false,
+      "__IDX__Name": 58782,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 13,
+      "Name": "Camp",
+      "MatchIconId": [],
+      "Group": 6,
+      "Expand": false,
+      "IsPermanent": false,
+      "LinkShowMode": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "SystemUnlockId": 0,
+      "OnlyMobile": false,
+      "__IDX__Name": 58783,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 14,
+      "Name": "Challenge",
+      "MatchIconId": [],
+      "Group": 5,
+      "Expand": false,
+      "IsPermanent": false,
+      "LinkShowMode": [
+        1
+      ],
+      "SystemUnlockId": 0,
+      "OnlyMobile": false,
+      "__IDX__Name": 58784,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 15,
+      "Name": "Online Gameplay",
+      "MatchIconId": [],
+      "Group": 5,
+      "Expand": false,
+      "IsPermanent": false,
+      "LinkShowMode": [
+        2,
+        3,
+        4
+      ],
+      "SystemUnlockId": 0,
+      "OnlyMobile": false,
+      "__IDX__Name": 58785,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 16,
+      "Name": "Career Gameplay",
+      "MatchIconId": [
+        28000788,
+        28009029,
+        28001635,
+        28000746,
+        28017235,
+        28002699
+      ],
+      "Group": 5,
+      "Expand": false,
+      "IsPermanent": false,
+      "LinkShowMode": [
+        1
+      ],
+      "SystemUnlockId": 0,
+      "OnlyMobile": false,
+      "__IDX__Name": 58786,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 17,
+      "Name": "Mark",
+      "MatchIconId": [],
+      "Group": 7,
+      "Expand": false,
+      "IsPermanent": false,
+      "LinkShowMode": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "SystemUnlockId": 0,
+      "OnlyMobile": true,
+      "__IDX__Name": 98608,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 18,
+      "Name": "Bus",
+      "MatchIconId": [],
+      "Group": 4,
+      "Expand": false,
+      "IsPermanent": true,
+      "LinkShowMode": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "SystemUnlockId": 0,
+      "OnlyMobile": false,
+      "__IDX__Name": 148834,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 19,
+      "Name": "Property",
+      "MatchIconId": [],
+      "Group": 3,
+      "Expand": false,
+      "IsPermanent": false,
+      "LinkShowMode": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "SystemUnlockId": 0,
+      "OnlyMobile": false,
+      "__IDX__Name": 149760,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 20,
+      "Name": "Minigames",
+      "MatchIconId": [
+        28017634,
+        28017695
+      ],
+      "Group": 5,
+      "Expand": false,
+      "IsPermanent": false,
+      "LinkShowMode": [
+        1,
+        2,
+        3
+      ],
+      "SystemUnlockId": 0,
+      "OnlyMobile": false,
+      "__IDX__Name": 149761,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 21,
+      "Name": "切磋",
+      "MatchIconId": [],
+      "Group": 6,
+      "Expand": false,
+      "IsPermanent": false,
+      "LinkShowMode": [
+        1
+      ],
+      "SystemUnlockId": 0,
+      "OnlyMobile": false,
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "切磋"
+    }
+  ],
+  "_dumpedCount": 19,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

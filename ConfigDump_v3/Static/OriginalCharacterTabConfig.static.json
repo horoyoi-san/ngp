@@ -1,0 +1,44 @@
+{
+  "FrontCfg": {
+    "Id": 1,
+    "Name": "Front",
+    "NextPage": 4,
+    "PrevPage": 0,
+    "CameraId": 200
+  },
+  "FaceBuildCfg": {
+    "Id": 4,
+    "Name": "FaceBuild",
+    "NextPage": 2,
+    "PrevPage": 1,
+    "CameraId": 2
+  },
+  "VoiceCfg": {
+    "Id": 2,
+    "Name": "Voice",
+    "NextPage": 3,
+    "PrevPage": 4,
+    "CameraId": 201
+  },
+  "PersonalityCfg": {
+    "Id": 3,
+    "Name": "Personality",
+    "NextPage": 5,
+    "PrevPage": 2,
+    "CameraId": 202
+  },
+  "DialogTestCfg": {
+    "Id": 5,
+    "Name": "DialogTest",
+    "NextPage": 6,
+    "PrevPage": 3,
+    "CameraId": 203
+  },
+  "CreateFinishCfg": {
+    "Id": 6,
+    "Name": "CreateFinish",
+    "NextPage": 0,
+    "PrevPage": 5,
+    "CameraId": 204
+  }
+}

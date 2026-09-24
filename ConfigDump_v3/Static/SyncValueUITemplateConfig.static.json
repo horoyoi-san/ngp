@@ -1,0 +1,156 @@
+{
+  "HackCfg": {
+    "Id": 1,
+    "tName": "Hack",
+    "name": "黑客骇入进度条",
+    "PanelId": 699,
+    "Widget": "",
+    "TaskTemplateIndex": 0,
+    "ClosePanel": true,
+    "Progresses": 1,
+    "RecordParas": 0
+  },
+  "GeneralLinerCfg": {
+    "Id": 2,
+    "tName": "GeneralLiner",
+    "name": "通用线性进度（旧版）",
+    "PanelId": 1000,
+    "Widget": "variantProgressWid",
+    "TaskTemplateIndex": 0,
+    "ClosePanel": true,
+    "Progresses": 1,
+    "RecordParas": 0
+  },
+  "GeneralDiscreteCfg": {
+    "Id": 3,
+    "tName": "GeneralDiscrete",
+    "name": "通用离散进度（旧版）",
+    "PanelId": 1000,
+    "Widget": "discreteProgressWid",
+    "TaskTemplateIndex": 0,
+    "ClosePanel": true,
+    "Progresses": 1,
+    "RecordParas": 0
+  },
+  "GenralTimerCfg": {
+    "Id": 4,
+    "tName": "GenralTimer",
+    "name": "通用倒计时（旧版）",
+    "PanelId": 39,
+    "Widget": "",
+    "TaskTemplateIndex": 0,
+    "ClosePanel": true,
+    "Progresses": 1,
+    "RecordParas": 0
+  },
+  "MoneyTimerCfg": {
+    "Id": 5,
+    "tName": "MoneyTimer",
+    "name": "拿钱计时（旧版）",
+    "PanelId": 609,
+    "Widget": "",
+    "TaskTemplateIndex": 0,
+    "ClosePanel": true,
+    "Progresses": 1,
+    "RecordParas": 1
+  },
+  "MoneyCounterCfg": {
+    "Id": 6,
+    "tName": "MoneyCounter",
+    "name": "拿钱无计时（临时）",
+    "PanelId": 609,
+    "Widget": "",
+    "TaskTemplateIndex": 0,
+    "ClosePanel": true,
+    "Progresses": 0,
+    "RecordParas": 1
+  },
+  "PoliceCfg": {
+    "Id": 7,
+    "tName": "Police",
+    "name": "警察进度条",
+    "PanelId": 792,
+    "Widget": "",
+    "TaskTemplateIndex": 0,
+    "ClosePanel": true,
+    "Progresses": 1,
+    "RecordParas": 0
+  },
+  "DynamicIslandCfg": {
+    "Id": 8,
+    "tName": "DynamicIsland",
+    "name": "灵动岛",
+    "PanelId": 121,
+    "Widget": "",
+    "TaskTemplateIndex": 0,
+    "ClosePanel": true,
+    "Progresses": 1,
+    "RecordParas": 0
+  },
+  "AnantatarkovCountDownCfg": {
+    "Id": 9,
+    "tName": "AnantatarkovCountDown",
+    "name": "搜打撤倒计时",
+    "PanelId": 1037,
+    "Widget": "countdownWid",
+    "TaskTemplateIndex": 0,
+    "ClosePanel": false,
+    "Progresses": 1,
+    "RecordParas": 0
+  },
+  "ChallengeCountDownCfg": {
+    "Id": 10,
+    "tName": "ChallengeCountDown",
+    "name": "挑战倒计时",
+    "PanelId": 205,
+    "Widget": "",
+    "TaskTemplateIndex": 0,
+    "ClosePanel": true,
+    "Progresses": 1,
+    "RecordParas": 0
+  },
+  "CommonOnlineInGameCountDownCfg": {
+    "Id": 11,
+    "tName": "CommonOnlineInGameCountDown",
+    "name": "通用倒计时（正式）",
+    "PanelId": 629,
+    "Widget": "",
+    "TaskTemplateIndex": 0,
+    "ClosePanel": true,
+    "Progresses": 1,
+    "RecordParas": 1
+  },
+  "GeneralLinerTaskCfg": {
+    "Id": 12,
+    "tName": "GeneralLinerTask",
+    "name": "通用线性进度（左上角任务描述下挂）",
+    "PanelId": 0,
+    "Widget": "",
+    "TaskTemplateIndex": 1,
+    "ClosePanel": true,
+    "Progresses": 1,
+    "RecordParas": 0
+  },
+  "GeneralDiscreteTaskCfg": {
+    "Id": 13,
+    "tName": "GeneralDiscreteTask",
+    "name": "通用离散进度（左上角任务描述下挂）",
+    "PanelId": 0,
+    "Widget": "",
+    "TaskTemplateIndex": 2,
+    "ClosePanel": true,
+    "Progresses": 1,
+    "RecordParas": 0
+  },
+  "ChallengeCountDownFrontCfg": {
+    "Id": 14,
+    "tName": "ChallengeCountDownFront",
+    "name": "挑战倒计时（高层级版）",
+    "PanelId": 264,
+    "Widget": "",
+    "TaskTemplateIndex": 0,
+    "ClosePanel": true,
+    "Progresses": 1,
+    "RecordParas": 0
+  }
+}

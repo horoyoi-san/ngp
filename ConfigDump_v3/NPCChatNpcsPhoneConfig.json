@@ -1,0 +1,70 @@
+{
+  "_class": "NPCChatNpcsPhoneConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 5,
+  "records": [
+    {
+      "Id": 84026000,
+      "Owner": 91050023,
+      "ChatList": [
+        84016100,
+        84016105,
+        84016110
+      ],
+      "ChatBg": 30304022,
+      "BackToListAfterDialog": true,
+      "Dialog": []
+    },
+    {
+      "Id": 84026001,
+      "Owner": 84020037,
+      "ChatList": [
+        84019950,
+        84016854,
+        84016850,
+        84016851,
+        84016852,
+        84016853
+      ],
+      "ChatBg": 30304022,
+      "BackToListAfterDialog": true,
+      "Dialog": []
+    },
+    {
+      "Id": 84026002,
+      "Owner": 91050023,
+      "ChatList": [
+        84013630
+      ],
+      "ChatBg": 0,
+      "BackToListAfterDialog": false,
+      "Dialog": []
+    },
+    {
+      "Id": 84026003,
+      "Owner": 91050014,
+      "ChatList": [
+        84019480
+      ],
+      "ChatBg": 0,
+      "BackToListAfterDialog": false,
+      "Dialog": []
+    },
+    {
+      "Id": 84026004,
+      "Owner": 84022013,
+      "ChatList": [
+        85008560,
+        85008562,
+        85008564,
+        85008566
+      ],
+      "ChatBg": 0,
+      "BackToListAfterDialog": true,
+      "Dialog": []
+    }
+  ],
+  "_dumpedCount": 5,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

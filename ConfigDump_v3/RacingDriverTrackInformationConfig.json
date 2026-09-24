@@ -1,0 +1,738 @@
+{
+  "_class": "RacingDriverTrackInformationConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 24,
+  "records": [
+    {
+      "Id": 1,
+      "EventIds": [
+        1018
+      ],
+      "IsOccupationTask": false,
+      "IsTaskSimplified": false,
+      "ContestType": "街头赛",
+      "Difficulty": 2,
+      "NumberOfLaps": 2,
+      "MaxGamePeople": 8,
+      "MaxGameTime": 300,
+      "HighAIList": [
+        32,
+        33
+      ],
+      "MiddleAIList": [
+        29,
+        30,
+        31
+      ],
+      "LowAIList": [
+        26,
+        27,
+        28
+      ],
+      "AIPathList": [
+        "RacingTrcuk01_l1",
+        "RacingTrcuk01_l3"
+      ],
+      "TruckLoopCount": 1,
+      "RaidSpoonName": "23300999_RacingDriver",
+      "RacingPathName": "RT_999_001",
+      "MapLocation": 0
+    },
+    {
+      "Id": 2,
+      "EventIds": [
+        1878
+      ],
+      "IsOccupationTask": false,
+      "IsTaskSimplified": true,
+      "ContestType": "",
+      "Difficulty": 0,
+      "NumberOfLaps": 1,
+      "MaxGamePeople": 6,
+      "MaxGameTime": 300,
+      "HighAIList": [
+        10,
+        12
+      ],
+      "MiddleAIList": [
+        11,
+        13,
+        14
+      ],
+      "LowAIList": [
+        15,
+        16,
+        17
+      ],
+      "AIPathList": [
+        "RacingTrcuk01TaffyGuidMissionL1"
+      ],
+      "TruckLoopCount": 1,
+      "RaidSpoonName": "23300999_Taffy_RaceGuide",
+      "RacingPathName": "RT_999_001",
+      "MapLocation": 0
+    },
+    {
+      "Id": 3,
+      "EventIds": [
+        2040
+      ],
+      "IsOccupationTask": false,
+      "IsTaskSimplified": false,
+      "ContestType": "街头赛",
+      "Difficulty": 1,
+      "NumberOfLaps": 1,
+      "MaxGamePeople": 8,
+      "MaxGameTime": 300,
+      "HighAIList": [
+        7,
+        8
+      ],
+      "MiddleAIList": [
+        4,
+        5,
+        6
+      ],
+      "LowAIList": [
+        1,
+        2,
+        3
+      ],
+      "AIPathList": [
+        "RacingTruck_xinqi01a",
+        "RacingTruck_xinqi01b",
+        "RacingTruck_xinqi01c"
+      ],
+      "TruckLoopCount": 1,
+      "RaidSpoonName": "23300888_RacingDriver",
+      "RacingPathName": "RT_888_001",
+      "MapLocation": 251
+    },
+    {
+      "Id": 4,
+      "EventIds": [
+        2067
+      ],
+      "IsOccupationTask": false,
+      "IsTaskSimplified": false,
+      "ContestType": "混厄空间",
+      "Difficulty": 5,
+      "NumberOfLaps": 1,
+      "MaxGamePeople": 8,
+      "MaxGameTime": 600,
+      "HighAIList": [
+        7,
+        8
+      ],
+      "MiddleAIList": [
+        4,
+        5,
+        6
+      ],
+      "LowAIList": [
+        1,
+        2,
+        3
+      ],
+      "AIPathList": [
+        "racingtruck_chaos01"
+      ],
+      "TruckLoopCount": 1,
+      "RaidSpoonName": "spoon23301289_RacingDriver",
+      "RacingPathName": "RT_Chaos1289",
+      "MapLocation": 0
+    },
+    {
+      "Id": 5,
+      "EventIds": [
+        2119
+      ],
+      "IsOccupationTask": false,
+      "IsTaskSimplified": false,
+      "ContestType": "",
+      "Difficulty": 0,
+      "NumberOfLaps": 1,
+      "MaxGamePeople": 2,
+      "MaxGameTime": 300,
+      "HighAIList": [
+        9
+      ],
+      "MiddleAIList": [
+        9
+      ],
+      "LowAIList": [
+        9
+      ],
+      "AIPathList": [
+        "RacingTruck_xinqi01a",
+        "RacingTruck_xinqi01b",
+        "RacingTruck_xinqi01c"
+      ],
+      "TruckLoopCount": 1,
+      "RaidSpoonName": "23300888_RacingDriver",
+      "RacingPathName": "",
+      "MapLocation": 0
+    },
+    {
+      "Id": 6,
+      "EventIds": [
+        2306
+      ],
+      "IsOccupationTask": false,
+      "IsTaskSimplified": false,
+      "ContestType": "混厄空间",
+      "Difficulty": 4,
+      "NumberOfLaps": 2,
+      "MaxGamePeople": 8,
+      "MaxGameTime": 600,
+      "HighAIList": [
+        24,
+        25
+      ],
+      "MiddleAIList": [
+        21,
+        22,
+        23
+      ],
+      "LowAIList": [
+        18,
+        19,
+        20
+      ],
+      "AIPathList": [
+        "racingtruck_chaos0_new"
+      ],
+      "TruckLoopCount": 1,
+      "RaidSpoonName": "spoon23301294_23301294_Race_Chaos_Gadgets",
+      "RacingPathName": "RT_Chaos1294",
+      "MapLocation": 252
+    },
+    {
+      "Id": 7,
+      "EventIds": [
+        2363
+      ],
+      "IsOccupationTask": false,
+      "IsTaskSimplified": false,
+      "ContestType": "街头赛",
+      "Difficulty": 3,
+      "NumberOfLaps": 1,
+      "MaxGamePeople": 8,
+      "MaxGameTime": 300,
+      "HighAIList": [
+        7,
+        8
+      ],
+      "MiddleAIList": [
+        4,
+        5,
+        6
+      ],
+      "LowAIList": [
+        1,
+        2,
+        3
+      ],
+      "AIPathList": [
+        "SkyWheelRacingLine_obv1"
+      ],
+      "TruckLoopCount": 1,
+      "RaidSpoonName": "23300999_RacingDriver",
+      "RacingPathName": "",
+      "MapLocation": 254
+    },
+    {
+      "Id": 8,
+      "EventIds": [
+        623
+      ],
+      "IsOccupationTask": false,
+      "IsTaskSimplified": false,
+      "ContestType": "",
+      "Difficulty": 0,
+      "NumberOfLaps": 1,
+      "MaxGamePeople": 6,
+      "MaxGameTime": 300,
+      "HighAIList": [
+        10,
+        12
+      ],
+      "MiddleAIList": [
+        11,
+        13,
+        14
+      ],
+      "LowAIList": [
+        15,
+        16,
+        17
+      ],
+      "AIPathList": [
+        "ProjectD2RacingLine_l1"
+      ],
+      "TruckLoopCount": 1,
+      "RaidSpoonName": "23300888_RacingDriver",
+      "RacingPathName": "",
+      "MapLocation": 0
+    },
+    {
+      "Id": 9,
+      "EventIds": [
+        3254
+      ],
+      "IsOccupationTask": false,
+      "IsTaskSimplified": false,
+      "ContestType": "街头赛",
+      "Difficulty": 2,
+      "NumberOfLaps": 1,
+      "MaxGamePeople": 8,
+      "MaxGameTime": 300,
+      "HighAIList": [
+        7,
+        8
+      ],
+      "MiddleAIList": [
+        4,
+        5,
+        6
+      ],
+      "LowAIList": [
+        1,
+        2,
+        3
+      ],
+      "AIPathList": [],
+      "TruckLoopCount": 1,
+      "RaidSpoonName": "23300888_RacingDriver",
+      "RacingPathName": "",
+      "MapLocation": 259
+    },
+    {
+      "Id": 10,
+      "EventIds": [
+        3282
+      ],
+      "IsOccupationTask": false,
+      "IsTaskSimplified": false,
+      "ContestType": "街头赛",
+      "Difficulty": 2,
+      "NumberOfLaps": 1,
+      "MaxGamePeople": 8,
+      "MaxGameTime": 600,
+      "HighAIList": [
+        7,
+        8
+      ],
+      "MiddleAIList": [
+        4,
+        5,
+        6
+      ],
+      "LowAIList": [
+        1,
+        2,
+        3
+      ],
+      "AIPathList": [
+        "SkyWheelRacingLine_rev1"
+      ],
+      "TruckLoopCount": 1,
+      "RaidSpoonName": "23300888_RacingDriver",
+      "RacingPathName": "",
+      "MapLocation": 260
+    },
+    {
+      "Id": 11,
+      "EventIds": [
+        3334
+      ],
+      "IsOccupationTask": false,
+      "IsTaskSimplified": false,
+      "ContestType": "街头赛",
+      "Difficulty": 3,
+      "NumberOfLaps": 1,
+      "MaxGamePeople": 8,
+      "MaxGameTime": 600,
+      "HighAIList": [
+        7,
+        8
+      ],
+      "MiddleAIList": [
+        4,
+        5,
+        6
+      ],
+      "LowAIList": [
+        1,
+        2,
+        3
+      ],
+      "AIPathList": [
+        "WuKangRacingLine_obv1"
+      ],
+      "TruckLoopCount": 1,
+      "RaidSpoonName": "23300999_RacingDriver",
+      "RacingPathName": "",
+      "MapLocation": 0
+    },
+    {
+      "Id": 12,
+      "EventIds": [
+        3335
+      ],
+      "IsOccupationTask": false,
+      "IsTaskSimplified": false,
+      "ContestType": "街头赛",
+      "Difficulty": 3,
+      "NumberOfLaps": 1,
+      "MaxGamePeople": 8,
+      "MaxGameTime": 600,
+      "HighAIList": [
+        7,
+        8
+      ],
+      "MiddleAIList": [
+        1,
+        2,
+        3
+      ],
+      "LowAIList": [
+        1,
+        2,
+        3
+      ],
+      "AIPathList": [
+        "WuKangRacingLine_rev1"
+      ],
+      "TruckLoopCount": 1,
+      "RaidSpoonName": "23300999_RacingDriver",
+      "RacingPathName": "",
+      "MapLocation": 0
+    },
+    {
+      "Id": 13,
+      "EventIds": [
+        3373
+      ],
+      "IsOccupationTask": false,
+      "IsTaskSimplified": false,
+      "ContestType": "街头赛",
+      "Difficulty": 4,
+      "NumberOfLaps": 1,
+      "MaxGamePeople": 8,
+      "MaxGameTime": 600,
+      "HighAIList": [
+        7,
+        8
+      ],
+      "MiddleAIList": [
+        1,
+        2,
+        3
+      ],
+      "LowAIList": [
+        1,
+        2,
+        3
+      ],
+      "AIPathList": [],
+      "TruckLoopCount": 1,
+      "RaidSpoonName": "23300888_RacingDriver",
+      "RacingPathName": "",
+      "MapLocation": 0
+    },
+    {
+      "Id": 14,
+      "EventIds": [
+        3405
+      ],
+      "IsOccupationTask": false,
+      "IsTaskSimplified": false,
+      "ContestType": "街头赛",
+      "Difficulty": 3,
+      "NumberOfLaps": 1,
+      "MaxGamePeople": 8,
+      "MaxGameTime": 600,
+      "HighAIList": [
+        7,
+        8
+      ],
+      "MiddleAIList": [
+        4,
+        5,
+        6
+      ],
+      "LowAIList": [
+        1,
+        2,
+        3
+      ],
+      "AIPathList": [
+        "60004787_ChongxiaoHupan_Zhengxiang_Path02"
+      ],
+      "TruckLoopCount": 1,
+      "RaidSpoonName": "23300999_RacingDriver",
+      "RacingPathName": "",
+      "MapLocation": 0
+    },
+    {
+      "Id": 15,
+      "EventIds": [
+        3413
+      ],
+      "IsOccupationTask": false,
+      "IsTaskSimplified": false,
+      "ContestType": "街头赛",
+      "Difficulty": 3,
+      "NumberOfLaps": 1,
+      "MaxGamePeople": 8,
+      "MaxGameTime": 600,
+      "HighAIList": [
+        7,
+        8
+      ],
+      "MiddleAIList": [
+        4,
+        5,
+        6
+      ],
+      "LowAIList": [
+        1,
+        2,
+        3
+      ],
+      "AIPathList": [
+        "60004788_ChongxiaoHupanZheng_Path01"
+      ],
+      "TruckLoopCount": 1,
+      "RaidSpoonName": "23300999_RacingDriver",
+      "RacingPathName": "",
+      "MapLocation": 0
+    },
+    {
+      "Id": 16,
+      "EventIds": [
+        3416
+      ],
+      "IsOccupationTask": false,
+      "IsTaskSimplified": false,
+      "ContestType": "混厄空间",
+      "Difficulty": 3,
+      "NumberOfLaps": 1,
+      "MaxGamePeople": 8,
+      "MaxGameTime": 600,
+      "HighAIList": [
+        7,
+        8
+      ],
+      "MiddleAIList": [
+        4,
+        5,
+        6
+      ],
+      "LowAIList": [
+        1,
+        2,
+        3
+      ],
+      "AIPathList": [],
+      "TruckLoopCount": 1,
+      "RaidSpoonName": "spoon23301305_main",
+      "RacingPathName": "",
+      "MapLocation": 0
+    },
+    {
+      "Id": 17,
+      "EventIds": [
+        3428
+      ],
+      "IsOccupationTask": false,
+      "IsTaskSimplified": false,
+      "ContestType": "混厄空间",
+      "Difficulty": 2,
+      "NumberOfLaps": 1,
+      "MaxGamePeople": 8,
+      "MaxGameTime": 600,
+      "HighAIList": [
+        7,
+        8
+      ],
+      "MiddleAIList": [
+        4,
+        5,
+        6
+      ],
+      "LowAIList": [
+        1,
+        2,
+        3
+      ],
+      "AIPathList": [],
+      "TruckLoopCount": 1,
+      "RaidSpoonName": "spoon23301299_main",
+      "RacingPathName": "",
+      "MapLocation": 0
+    },
+    {
+      "Id": 18,
+      "EventIds": [
+        3429
+      ],
+      "IsOccupationTask": false,
+      "IsTaskSimplified": false,
+      "ContestType": "混厄空间",
+      "Difficulty": 2,
+      "NumberOfLaps": 1,
+      "MaxGamePeople": 8,
+      "MaxGameTime": 600,
+      "HighAIList": [
+        7,
+        8
+      ],
+      "MiddleAIList": [
+        4,
+        5,
+        6
+      ],
+      "LowAIList": [
+        1,
+        2,
+        3
+      ],
+      "AIPathList": [],
+      "TruckLoopCount": 1,
+      "RaidSpoonName": "spoon23301313_main",
+      "RacingPathName": "",
+      "MapLocation": 0
+    },
+    {
+      "Id": 100,
+      "EventIds": [
+        0
+      ],
+      "IsOccupationTask": false,
+      "IsTaskSimplified": false,
+      "ContestType": "",
+      "Difficulty": 0,
+      "NumberOfLaps": 1,
+      "MaxGamePeople": 0,
+      "MaxGameTime": 0,
+      "HighAIList": [],
+      "MiddleAIList": [],
+      "LowAIList": [],
+      "AIPathList": [],
+      "TruckLoopCount": 1,
+      "RaidSpoonName": "",
+      "RacingPathName": "RT_888_1080tunnel",
+      "MapLocation": 0
+    },
+    {
+      "Id": 1001,
+      "EventIds": [
+        2592
+      ],
+      "IsOccupationTask": true,
+      "IsTaskSimplified": false,
+      "ContestType": "",
+      "Difficulty": 0,
+      "NumberOfLaps": 1,
+      "MaxGamePeople": 0,
+      "MaxGameTime": 0,
+      "HighAIList": [],
+      "MiddleAIList": [],
+      "LowAIList": [],
+      "AIPathList": [],
+      "TruckLoopCount": 1,
+      "RaidSpoonName": "",
+      "RacingPathName": "",
+      "MapLocation": 255
+    },
+    {
+      "Id": 1002,
+      "EventIds": [
+        2565
+      ],
+      "IsOccupationTask": true,
+      "IsTaskSimplified": false,
+      "ContestType": "",
+      "Difficulty": 0,
+      "NumberOfLaps": 1,
+      "MaxGamePeople": 0,
+      "MaxGameTime": 0,
+      "HighAIList": [],
+      "MiddleAIList": [],
+      "LowAIList": [],
+      "AIPathList": [],
+      "TruckLoopCount": 1,
+      "RaidSpoonName": "",
+      "RacingPathName": "",
+      "MapLocation": 256
+    },
+    {
+      "Id": 1003,
+      "EventIds": [
+        2566
+      ],
+      "IsOccupationTask": true,
+      "IsTaskSimplified": false,
+      "ContestType": "",
+      "Difficulty": 0,
+      "NumberOfLaps": 1,
+      "MaxGamePeople": 0,
+      "MaxGameTime": 0,
+      "HighAIList": [],
+      "MiddleAIList": [],
+      "LowAIList": [],
+      "AIPathList": [],
+      "TruckLoopCount": 1,
+      "RaidSpoonName": "",
+      "RacingPathName": "",
+      "MapLocation": 257
+    },
+    {
+      "Id": 1004,
+      "EventIds": [
+        2567
+      ],
+      "IsOccupationTask": true,
+      "IsTaskSimplified": false,
+      "ContestType": "",
+      "Difficulty": 0,
+      "NumberOfLaps": 1,
+      "MaxGamePeople": 0,
+      "MaxGameTime": 0,
+      "HighAIList": [],
+      "MiddleAIList": [],
+      "LowAIList": [],
+      "AIPathList": [],
+      "TruckLoopCount": 1,
+      "RaidSpoonName": "",
+      "RacingPathName": "",
+      "MapLocation": 258
+    },
+    {
+      "Id": 1005,
+      "EventIds": [
+        246
+      ],
+      "IsOccupationTask": true,
+      "IsTaskSimplified": false,
+      "ContestType": "",
+      "Difficulty": 0,
+      "NumberOfLaps": 1,
+      "MaxGamePeople": 0,
+      "MaxGameTime": 0,
+      "HighAIList": [],
+      "MiddleAIList": [],
+      "LowAIList": [],
+      "AIPathList": [],
+      "TruckLoopCount": 1,
+      "RaidSpoonName": "",
+      "RacingPathName": "",
+      "MapLocation": 0
+    }
+  ],
+  "_dumpedCount": 24,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

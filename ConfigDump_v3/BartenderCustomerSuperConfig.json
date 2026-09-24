@@ -1,0 +1,162 @@
+{
+  "_class": "BartenderCustomerSuperConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 8,
+  "records": [
+    {
+      "Id": 1004,
+      "AgentID": 40130081,
+      "bartenderID": 87005100,
+      "IsCustomer_Story": false,
+      "VisitCount": 1,
+      "TalkBeforeOrderDialogID": 20,
+      "DrinkMenuID": 0,
+      "HiddenDrinkMenuID": 0,
+      "CommentDialog_Success": 0,
+      "CommentDialog_Fail": 0,
+      "HiddenDrinkDialogID": 0,
+      "StartSp": 25,
+      "OrderType": {
+        "OrderType": "Clear",
+        "DrinkMenuID": 87005301,
+        "OrderTypeID": 0
+      }
+    },
+    {
+      "Id": 1007,
+      "AgentID": 40130082,
+      "bartenderID": 87005100,
+      "IsCustomer_Story": false,
+      "VisitCount": 1,
+      "TalkBeforeOrderDialogID": 21,
+      "DrinkMenuID": 0,
+      "HiddenDrinkMenuID": 0,
+      "CommentDialog_Success": 0,
+      "CommentDialog_Fail": 0,
+      "HiddenDrinkDialogID": 0,
+      "StartSp": 10,
+      "OrderType": {
+        "OrderType": "Tag",
+        "DrinkMenuID": 0,
+        "OrderTypeID": 1003
+      }
+    },
+    {
+      "Id": 1010,
+      "AgentID": 40130420,
+      "bartenderID": 87005100,
+      "IsCustomer_Story": false,
+      "VisitCount": 1,
+      "TalkBeforeOrderDialogID": 22,
+      "DrinkMenuID": 0,
+      "HiddenDrinkMenuID": 0,
+      "CommentDialog_Success": 0,
+      "CommentDialog_Fail": 0,
+      "HiddenDrinkDialogID": 0,
+      "StartSp": -20,
+      "OrderType": {
+        "OrderType": "Tag",
+        "DrinkMenuID": 0,
+        "OrderTypeID": 1003
+      }
+    },
+    {
+      "Id": 1013,
+      "AgentID": 40130435,
+      "bartenderID": 87005100,
+      "IsCustomer_Story": false,
+      "VisitCount": 1,
+      "TalkBeforeOrderDialogID": 23,
+      "DrinkMenuID": 0,
+      "HiddenDrinkMenuID": 0,
+      "CommentDialog_Success": 0,
+      "CommentDialog_Fail": 0,
+      "HiddenDrinkDialogID": 0,
+      "StartSp": -5,
+      "OrderType": {
+        "OrderType": "Clear",
+        "DrinkMenuID": 87005303,
+        "OrderTypeID": 0
+      }
+    },
+    {
+      "Id": 1016,
+      "AgentID": 40130436,
+      "bartenderID": 87005100,
+      "IsCustomer_Story": false,
+      "VisitCount": 1,
+      "TalkBeforeOrderDialogID": 24,
+      "DrinkMenuID": 0,
+      "HiddenDrinkMenuID": 0,
+      "CommentDialog_Success": 0,
+      "CommentDialog_Fail": 0,
+      "HiddenDrinkDialogID": 0,
+      "StartSp": 15,
+      "OrderType": {
+        "OrderType": "Tag",
+        "DrinkMenuID": 0,
+        "OrderTypeID": 1010
+      }
+    },
+    {
+      "Id": 1019,
+      "AgentID": 40130964,
+      "bartenderID": 87005100,
+      "IsCustomer_Story": false,
+      "VisitCount": 1,
+      "TalkBeforeOrderDialogID": 25,
+      "DrinkMenuID": 0,
+      "HiddenDrinkMenuID": 0,
+      "CommentDialog_Success": 0,
+      "CommentDialog_Fail": 0,
+      "HiddenDrinkDialogID": 0,
+      "StartSp": 55,
+      "OrderType": {
+        "OrderType": "Tag",
+        "DrinkMenuID": 0,
+        "OrderTypeID": 1004
+      }
+    },
+    {
+      "Id": 1022,
+      "AgentID": 40130972,
+      "bartenderID": 87005100,
+      "IsCustomer_Story": false,
+      "VisitCount": 1,
+      "TalkBeforeOrderDialogID": 26,
+      "DrinkMenuID": 0,
+      "HiddenDrinkMenuID": 0,
+      "CommentDialog_Success": 0,
+      "CommentDialog_Fail": 0,
+      "HiddenDrinkDialogID": 0,
+      "StartSp": 75,
+      "OrderType": {
+        "OrderType": "Clear",
+        "DrinkMenuID": 87005306,
+        "OrderTypeID": 0
+      }
+    },
+    {
+      "Id": 1025,
+      "AgentID": 40130973,
+      "bartenderID": 87005100,
+      "IsCustomer_Story": false,
+      "VisitCount": 1,
+      "TalkBeforeOrderDialogID": 27,
+      "DrinkMenuID": 0,
+      "HiddenDrinkMenuID": 0,
+      "CommentDialog_Success": 0,
+      "CommentDialog_Fail": 0,
+      "HiddenDrinkDialogID": 0,
+      "StartSp": -45,
+      "OrderType": {
+        "OrderType": "Tag",
+        "DrinkMenuID": 0,
+        "OrderTypeID": 1008
+      }
+    }
+  ],
+  "_dumpedCount": 8,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

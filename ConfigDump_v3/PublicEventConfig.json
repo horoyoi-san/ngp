@@ -1,0 +1,161 @@
+{
+  "_class": "PublicEventConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 4,
+  "records": [
+    {
+      "Id": 1001,
+      "EventId": 1996,
+      "Name": "保卫钻井机",
+      "Description": "重要的钻井设备受到混厄威胁。防守关键设施，确保能源开采顺利进行。",
+      "Category": 0,
+      "RaidId": 23300888,
+      "MaxEngagers": 8,
+      "MatchLineDuration": 60,
+      "Duration": 600,
+      "SQuestIcon": 28001047,
+      "SQuestIcon2": 28000778,
+      "STooltipPicId": 28017653,
+      "ShowType": 1,
+      "LeaveSpawnPosition": [
+        3966.48706,
+        0,
+        956.439697
+      ],
+      "SuccessDrop": [
+        14862034,
+        14862035,
+        14862036,
+        14862037
+      ],
+      "HyperlinkID": 11716,
+      "GuideId": 22,
+      "LinkHubImage": 28101253,
+      "PlayerNum": [
+        1,
+        8
+      ],
+      "PlayTime": [
+        10,
+        10
+      ],
+      "HeatGainSpeedStar": 2,
+      "RandomEventAvoidDistance": 80
+    },
+    {
+      "Id": 1002,
+      "EventId": 1062,
+      "Name": "噩梦游乐园",
+      "Description": "深夜的游乐园内，混厄横行。挑战恐怖的游乐设施，阻止混厄的阴谋。",
+      "Category": 0,
+      "RaidId": 23300888,
+      "MaxEngagers": 8,
+      "MatchLineDuration": 60,
+      "Duration": 600,
+      "SQuestIcon": 28001047,
+      "SQuestIcon2": 28000778,
+      "STooltipPicId": 28017651,
+      "ShowType": 1,
+      "LeaveSpawnPosition": [],
+      "SuccessDrop": [
+        14862018,
+        14862019,
+        14862020
+      ],
+      "HyperlinkID": 11717,
+      "GuideId": 19,
+      "LinkHubImage": 28101253,
+      "PlayerNum": [
+        1,
+        8
+      ],
+      "PlayTime": [
+        10,
+        10
+      ],
+      "HeatGainSpeedStar": 2,
+      "RandomEventAvoidDistance": 80
+    },
+    {
+      "Id": 1003,
+      "EventId": 1071,
+      "Name": "混厄美术馆",
+      "Description": "美术馆中展出的不仅仅是艺术品，还有混厄的诡计。探索诡异的展厅，揭开真相。",
+      "Category": 0,
+      "RaidId": 23300888,
+      "MaxEngagers": 8,
+      "MatchLineDuration": 60,
+      "Duration": 600,
+      "SQuestIcon": 28001047,
+      "SQuestIcon2": 28000778,
+      "STooltipPicId": 28017652,
+      "ShowType": 1,
+      "LeaveSpawnPosition": [
+        2427.47192,
+        -3.92417407,
+        1051.15698
+      ],
+      "SuccessDrop": [
+        14862024,
+        14862025,
+        14862026,
+        14862027,
+        14862028
+      ],
+      "HyperlinkID": 11718,
+      "GuideId": 20,
+      "LinkHubImage": 28101253,
+      "PlayerNum": [
+        1,
+        8
+      ],
+      "PlayTime": [
+        10,
+        10
+      ],
+      "HeatGainSpeedStar": 2,
+      "RandomEventAvoidDistance": 80
+    },
+    {
+      "Id": 1004,
+      "EventId": 1149,
+      "Name": "岸泊惊魂夜",
+      "Description": "夜晚的港口码头，阴森诡异。在船只与集装箱之间，展开激烈的对抗。",
+      "Category": 0,
+      "RaidId": 23300888,
+      "MaxEngagers": 8,
+      "MatchLineDuration": 60,
+      "Duration": 600,
+      "SQuestIcon": 28001047,
+      "SQuestIcon2": 28000778,
+      "STooltipPicId": 28017651,
+      "ShowType": 1,
+      "LeaveSpawnPosition": [
+        1901.31799,
+        0,
+        1275.495
+      ],
+      "SuccessDrop": [
+        14862018,
+        14862019,
+        14862020
+      ],
+      "HyperlinkID": 11719,
+      "GuideId": 21,
+      "LinkHubImage": 28101253,
+      "PlayerNum": [
+        1,
+        8
+      ],
+      "PlayTime": [
+        10,
+        10
+      ],
+      "HeatGainSpeedStar": 2,
+      "RandomEventAvoidDistance": 80
+    }
+  ],
+  "_dumpedCount": 4,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -1,0 +1,213 @@
+{
+  "AllCfg": {
+    "Id": 1,
+    "Name": "全部",
+    "FightSkillTypes": [
+      39020504
+    ],
+    "Icon": 28009221,
+    "GuideId": "AllTab",
+    "SceneitemTypes": [],
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "全部"
+  },
+  "SingleBluntCfg": {
+    "Id": 2,
+    "Name": "单手中型",
+    "FightSkillTypes": [
+      39020301
+    ],
+    "Icon": 28009220,
+    "GuideId": "OneHand",
+    "SceneitemTypes": [
+      1
+    ],
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "{refer,FightSkillFightSkillType,Name,39020301,1}"
+  },
+  "DoubleLongCfg": {
+    "Id": 3,
+    "Name": "Two-handed Long Weapon",
+    "FightSkillTypes": [
+      39020302
+    ],
+    "Icon": 28009224,
+    "GuideId": "",
+    "SceneitemTypes": [
+      2
+    ],
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "{refer,FightSkillFightSkillType,Name,39020302,1}"
+  },
+  "DoubleHeavyCfg": {
+    "Id": 4,
+    "Name": "Two-handed Heavy Weapon",
+    "FightSkillTypes": [
+      39020303
+    ],
+    "Icon": 28009225,
+    "GuideId": "",
+    "SceneitemTypes": [
+      3
+    ],
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "{refer,FightSkillFightSkillType,Name,39020303,1}"
+  },
+  "SingleSharpCfg": {
+    "Id": 5,
+    "Name": "One-handed Short Weapon",
+    "FightSkillTypes": [
+      39020304
+    ],
+    "Icon": 28009222,
+    "GuideId": "",
+    "SceneitemTypes": [
+      4
+    ],
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "{refer,FightSkillFightSkillType,Name,39020304,1}"
+  },
+  "BoxCfg": {
+    "Id": 6,
+    "Name": "Fist Weapon",
+    "FightSkillTypes": [
+      39020005,
+      39020004,
+      39020305
+    ],
+    "Icon": 28009240,
+    "GuideId": "",
+    "SceneitemTypes": [
+      5
+    ],
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "{refer,FightSkillFightSkillType,Name,39020305,1}"
+  },
+  "GunCfg": {
+    "Id": 7,
+    "Name": "手枪",
+    "FightSkillTypes": [
+      39020511
+    ],
+    "Icon": 28009223,
+    "GuideId": "",
+    "SceneitemTypes": [
+      7
+    ],
+    "__IDX__Name": 146177,
+    "__RAW__Name": ""
+  },
+  "SubmachineGunCfg": {
+    "Id": 8,
+    "Name": "冲锋枪",
+    "FightSkillTypes": [],
+    "Icon": 28009223,
+    "GuideId": "",
+    "SceneitemTypes": [
+      8
+    ],
+    "__IDX__Name": 148851,
+    "__RAW__Name": ""
+  },
+  "RifleCfg": {
+    "Id": 9,
+    "Name": "步枪",
+    "FightSkillTypes": [
+      39020505
+    ],
+    "Icon": 28009223,
+    "GuideId": "",
+    "SceneitemTypes": [
+      9
+    ],
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "步枪"
+  },
+  "SniperRifleCfg": {
+    "Id": 10,
+    "Name": "狙击枪",
+    "FightSkillTypes": [
+      39020506
+    ],
+    "Icon": 28009223,
+    "GuideId": "",
+    "SceneitemTypes": [
+      10
+    ],
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "狙击枪"
+  },
+  "ShotgunCfg": {
+    "Id": 11,
+    "Name": "霰弹枪",
+    "FightSkillTypes": [
+      39020509
+    ],
+    "Icon": 28009223,
+    "GuideId": "",
+    "SceneitemTypes": [
+      11
+    ],
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "霰弹枪"
+  },
+  "LightMachineGunCfg": {
+    "Id": 12,
+    "Name": "轻机枪",
+    "FightSkillTypes": [
+      39020510
+    ],
+    "Icon": 28009223,
+    "GuideId": "",
+    "SceneitemTypes": [
+      12
+    ],
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "轻机枪"
+  },
+  "SpecialGunCfg": {
+    "Id": 13,
+    "Name": "特殊远程武器",
+    "FightSkillTypes": [
+      39020507,
+      39020508,
+      39020512
+    ],
+    "Icon": 28009223,
+    "GuideId": "",
+    "SceneitemTypes": [
+      13,
+      14,
+      15,
+      16
+    ],
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "特殊远程武器"
+  },
+  "DrinkCfg": {
+    "Id": 14,
+    "Name": "饮用品",
+    "FightSkillTypes": [],
+    "Icon": 28009220,
+    "GuideId": "",
+    "SceneitemTypes": [
+      17
+    ],
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "饮用品"
+  },
+  "OtherCfg": {
+    "Id": 15,
+    "Name": "手雷",
+    "FightSkillTypes": [
+      39020504
+    ],
+    "Icon": 28009224,
+    "GuideId": "",
+    "SceneitemTypes": [
+      18
+    ],
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "手雷"
+  }
+}

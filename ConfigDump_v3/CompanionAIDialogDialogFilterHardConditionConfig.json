@@ -1,0 +1,40 @@
+{
+  "_class": "CompanionAIDialogDialogFilterHardConditionConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 6,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "好感度=低",
+      "HardConditionType": 1
+    },
+    {
+      "Id": 2,
+      "Name": "好感度=中",
+      "HardConditionType": 1
+    },
+    {
+      "Id": 3,
+      "Name": "好感度=高",
+      "HardConditionType": 1
+    },
+    {
+      "Id": 4,
+      "Name": "情景=约会",
+      "HardConditionType": 0
+    },
+    {
+      "Id": 5,
+      "Name": "在车上",
+      "HardConditionType": 0
+    },
+    {
+      "Id": 6,
+      "Name": "情景=邀约玩法-手划船",
+      "HardConditionType": 0
+    }
+  ],
+  "_dumpedCount": 6,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

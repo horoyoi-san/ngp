@@ -1,0 +1,65 @@
+{
+  "_class": "PoliceViolationConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 5,
+  "records": [
+    {
+      "Id": 2,
+      "Violation": "Issue False Fine",
+      "condition": "开罚单失败后概率判定",
+      "TwitterID": 0,
+      "Drop": 14575007,
+      "Icon": 28009106,
+      "judgeCD": 30,
+      "__IDX__Violation": 63825,
+      "__RAW__Violation": ""
+    },
+    {
+      "Id": 3,
+      "Violation": "Unlawful Arrest of Innocent Citizen",
+      "condition": "送无罪市民进局子后必定触发",
+      "TwitterID": 0,
+      "Drop": 14575008,
+      "Icon": 28009106,
+      "judgeCD": 0,
+      "__IDX__Violation": 63826,
+      "__RAW__Violation": ""
+    },
+    {
+      "Id": 4,
+      "Violation": "Assault Causing Injury to Innocent Citizen",
+      "condition": "打晕非盘查进站的npc后必定触发",
+      "TwitterID": 0,
+      "Drop": 14575009,
+      "Icon": 28009106,
+      "judgeCD": 15,
+      "__IDX__Violation": 63827,
+      "__RAW__Violation": ""
+    },
+    {
+      "Id": 5,
+      "Violation": "Unlawful Arrest Exposed and Reported",
+      "condition": "送无罪市民进局子后概率判定，若判定成功覆盖3",
+      "TwitterID": 0,
+      "Drop": 14575010,
+      "Icon": 28009106,
+      "judgeCD": 0,
+      "__IDX__Violation": 63828,
+      "__RAW__Violation": ""
+    },
+    {
+      "Id": 6,
+      "Violation": "Repeated False Vehicle Fines",
+      "condition": "错误罚静态车到上限次数",
+      "TwitterID": 0,
+      "Drop": 14575007,
+      "Icon": 28009106,
+      "judgeCD": 0,
+      "__IDX__Violation": 94931,
+      "__RAW__Violation": ""
+    }
+  ],
+  "_dumpedCount": 5,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

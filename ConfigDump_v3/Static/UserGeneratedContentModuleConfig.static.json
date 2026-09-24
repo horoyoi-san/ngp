@@ -1,0 +1,20 @@
+{
+  "StartPointCfg": {
+    "Id": 1,
+    "ModuleName": "起点",
+    "MinCount": 0,
+    "MaxCount": 0
+  },
+  "EndPointCfg": {
+    "Id": 2,
+    "ModuleName": "终点",
+    "MinCount": 1,
+    "MaxCount": 1
+  },
+  "CheckPointCfg": {
+    "Id": 3,
+    "ModuleName": "检查点",
+    "MinCount": 1,
+    "MaxCount": 30
+  }
+}

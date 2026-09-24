@@ -1,0 +1,195 @@
+{
+  "None": 0,
+  "TagMaxLevel": 5,
+  "TagExp": [
+    3,
+    6,
+    12,
+    20,
+    40
+  ],
+  "TalentLimit": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "TalentUnlock": "%s等级达到%s后解锁",
+  "AttributeDomin": [
+    0,
+    0.100000001,
+    0.200000003,
+    0.300000012,
+    0.400000006
+  ],
+  "AttributeLevelUp": 0,
+  "BuffCost": [
+    500,
+    500,
+    500
+  ],
+  "BuffExp": [
+    1,
+    2,
+    3
+  ],
+  "RefreshCost": 0,
+  "AddMoney": 0,
+  "InitMoney": 600,
+  "CardRefresh": [],
+  "MaxEnemyCost": 50,
+  "SelectPokemonCountDown": 30,
+  "SelectBuffCountDown": 30,
+  "RoundDuration": 999,
+  "RoundInterval": 3,
+  "ShowTime": 5,
+  "CutInTime": 2,
+  "RoundStartCountDown": 3,
+  "PrepareTotalCountDown": 60,
+  "SkillTypeName": [
+    "普攻",
+    "大招",
+    "被动"
+  ],
+  "SkillBelongName": [
+    "原始",
+    "升级",
+    "战斗",
+    "天赋"
+  ],
+  "RefreshRuleTitle": [
+    "标题1",
+    "标题2",
+    "标题3"
+  ],
+  "RefreshRule": [
+    "1.当流派经验达到8时获得该流派紫色品质buff，当流派经验达到20时可获得该流派金色品质buff",
+    "2.升级流派等级和混厄等级都可以增加高品质卡的刷新概率",
+    "3.提升流派等级时，混厄的基础属性会提高，刷新出该特定流派buff高品质卡的概率会提高。"
+  ],
+  "RefreshRuleBigTitle": "Buff稀有度刷新规则",
+  "ChaosNotSelectMessage": "请选择混厄上场",
+  "CameraSpeed": 5,
+  "CameraMaxRadius": 5,
+  "CameraMoveCD": 0,
+  "TagBuffNameList": [],
+  "BVBLinkNpc": 1,
+  "TalentUnlockText": "突破等级",
+  "TalentActiveText": "局内等级",
+  "CountDownTypeText": [
+    "备战阶段",
+    "第%s回合",
+    "战斗结束"
+  ],
+  "BonusText": [
+    "本轮收益",
+    "【基础】",
+    "【胜利】",
+    "【连胜%s次】"
+  ],
+  "BreakthroughLevelMax": 4,
+  "GuideText": [
+    "选择出战的兵棋，每个兵棋有若干出战次数，战败后减少一次出战次数。当敌方所有怪物均无法出战时获得胜利",
+    "开战前可以花费资金购买增益，对己方所有兵棋均生效。不同战斗场景可以选择的增益流派不同，获取足够多同流派的增益可以激活特殊的流派增益。流派增益等级可以提高兵棋的基础属性",
+    "进入战斗后兵棋会自动战斗，战斗时会随时间自动增长能量，当能量条满时会释放大招。"
+  ],
+  "GuideImg": [
+    28004646,
+    28004647,
+    28004648
+  ],
+  "GuideNpc": 3,
+  "GetPokemonHyperLink": 6002,
+  "EndGameWaitingTime": 3,
+  "EnemyPokemoneffect": 53400504,
+  "SkillTitleName": [
+    "被动技能",
+    "主动技能",
+    "天赋"
+  ],
+  "FriendExSkillPoint": [
+    0,
+    0
+  ],
+  "EnemyExSkillPoint": [
+    0,
+    0
+  ],
+  "DefeatCostDurability": 40,
+  "BVBAttributeNameList": [
+    {
+      "AttributeName": 1,
+      "ParametersType": "f0"
+    },
+    {
+      "AttributeName": 2,
+      "ParametersType": "f0"
+    },
+    {
+      "AttributeName": 72,
+      "ParametersType": "f1"
+    },
+    {
+      "AttributeName": 73,
+      "ParametersType": "f0"
+    },
+    {
+      "AttributeName": 7,
+      "ParametersType": "f0"
+    }
+  ],
+  "BVBAttributeIcon": [
+    28002053,
+    28002048,
+    28002050,
+    28002052,
+    28000085
+  ],
+  "ExitBtnContent": "是否要投降？",
+  "BVBComponentIcon": [
+    28002039,
+    28002040,
+    28002041
+  ],
+  "BVBBodyTypeName": [
+    "电视脑",
+    "黑金组",
+    "谜面帮"
+  ],
+  "BVBCampTypeName": [
+    "基础款"
+  ],
+  "BVBWeaponTypeName": [
+    "远程",
+    "灵巧",
+    "力量",
+    "重装"
+  ],
+  "BVBTestBattleNpc": [
+    101,
+    102,
+    103
+  ],
+  "ChaosTagName": [
+    89901277,
+    89901278,
+    89901279,
+    89901280,
+    89901281
+  ],
+  "ChaosTagImage": [
+    28002055,
+    28002055,
+    28002055,
+    28002055,
+    28002055
+  ],
+  "MaxLimboChaBattle": 99,
+  "MaxLimboChText": 74004105,
+  "MaxCostText": 74004106,
+  "ChooseEffect": 53802010,
+  "SummonEffect": 53802011,
+  "HpEverRange": 100,
+  "ModelRateFadeTime": 1
+}

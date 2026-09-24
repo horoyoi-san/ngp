@@ -1,0 +1,238 @@
+{
+  "StirfryFireSpeed": [
+    0.800000012,
+    1,
+    1.20000005
+  ],
+  "StewFireSpeed": [
+    0.800000012,
+    1,
+    1.20000005
+  ],
+  "SmellFireSpeed": [
+    0,
+    0.5,
+    1,
+    2
+  ],
+  "CookFireSpeed": [
+    0,
+    0.800000012,
+    1,
+    1.20000005
+  ],
+  "DishLifeTime": 9999,
+  "SceneUISwitchDistance": 4,
+  "FoodPrepareName": [
+    "切菜",
+    "剥虾"
+  ],
+  "RecipeExpectedValueName": [
+    "香度",
+    "咸",
+    "甜",
+    "酸",
+    "鲜",
+    "辣"
+  ],
+  "RecipeExpectedMaxValue": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+  ],
+  "RecipeExpectedValueUnlockRange": 0.300000012,
+  "RecipeExpectedValueUnlockTimes": [
+    3,
+    2,
+    1
+  ],
+  "CookFailTime": 5,
+  "QTETime": 3,
+  "CookAppProgressDrop": [
+    {
+      "progress": 20,
+      "drop": 14300000
+    },
+    {
+      "progress": 40,
+      "drop": 14300000
+    },
+    {
+      "progress": 60,
+      "drop": 14300000
+    },
+    {
+      "progress": 100,
+      "drop": 14300000
+    }
+  ],
+  "PlayerFoodPrepareMaxCnt": 5,
+  "ClickLeftRightTimes": 6,
+  "LongPressSpaceTime": 1,
+  "Stirfry_MoveCoefficient": 1000,
+  "Stirfry_MaxLength": 200,
+  "Stirfry_FallSpeed": -800,
+  "Stirfry_FallAcceleration": 80,
+  "Stirfry_ChangeInterval": {
+    "x": 6,
+    "y": 10
+  },
+  "Stirfry_LowPosition": {
+    "x": 50,
+    "y": 70
+  },
+  "Stirfry_MidPosition": {
+    "x": 70,
+    "y": 90
+  },
+  "Stirfry_HighPosition": {
+    "x": 80,
+    "y": 100
+  },
+  "Stirfry_LowLength": {
+    "x": 30,
+    "y": 50
+  },
+  "Stirfry_MidLength": {
+    "x": 30,
+    "y": 50
+  },
+  "Stirfry_HighLength": {
+    "x": 30,
+    "y": 50
+  },
+  "Stirfry_ComboMaxInputWindow": 0.25,
+  "Stirfry_WeaponAttachDelay": 2,
+  "Stew_MoveCoefficient": 5,
+  "Stew_MaxLength": 200,
+  "Stew_FallSpeed": -600,
+  "Stew_FallAcceleration": 20,
+  "Stew_ChangeInterval": {
+    "x": 10,
+    "y": 15
+  },
+  "Stew_LowPosition": {
+    "x": 20,
+    "y": 35
+  },
+  "Stew_MidPosition": {
+    "x": 45,
+    "y": 55
+  },
+  "Stew_HighPosition": {
+    "x": 60,
+    "y": 75
+  },
+  "Stew_LowLength": {
+    "x": 40,
+    "y": 70
+  },
+  "Stew_MidLength": {
+    "x": 40,
+    "y": 70
+  },
+  "Stew_HighLength": {
+    "x": 30,
+    "y": 70
+  },
+  "Steam_BoilSpeed": [
+    0,
+    1.5,
+    3,
+    5
+  ],
+  "Steam_CoolSpeed": 1,
+  "Steam_CookingSpeed": [
+    0,
+    0.800000012,
+    1,
+    1.20000005
+  ],
+  "Fry_OilTemperature": [
+    0,
+    120,
+    160,
+    200
+  ],
+  "Fry_BoilSpeed": [
+    0,
+    1,
+    1.5,
+    2
+  ],
+  "Fry_CoolSpeed": [
+    2,
+    1.5,
+    1,
+    0
+  ],
+  "Fry_CookingIntervalSpeed": [
+    {
+      "x": 0,
+      "y": 100,
+      "speed": 0
+    },
+    {
+      "x": 100,
+      "y": 140,
+      "speed": 0.800000012
+    },
+    {
+      "x": 140,
+      "y": 180,
+      "speed": 1
+    },
+    {
+      "x": 180,
+      "y": 200,
+      "speed": 1.20000005
+    }
+  ],
+  "Fry_MoveCoefficient": 5,
+  "Fry_MaxLength": 200,
+  "Fry_FallSpeed": -600,
+  "Fry_FallAcceleration": 20,
+  "Fry_ChangeInterval": {
+    "x": 10,
+    "y": 15
+  },
+  "Fry_LowPosition": {
+    "x": 20,
+    "y": 35
+  },
+  "Fry_MidPosition": {
+    "x": 45,
+    "y": 55
+  },
+  "Fry_HighPosition": {
+    "x": 60,
+    "y": 75
+  },
+  "Fry_LowLength": {
+    "x": 40,
+    "y": 70
+  },
+  "Fry_MidLength": {
+    "x": 40,
+    "y": 70
+  },
+  "Fry_HighLength": {
+    "x": 30,
+    "y": 70
+  },
+  "Companionai_IdleBehavior": 60052,
+  "ChopGame_BtnNumRange": [
+    5,
+    8
+  ],
+  "ChopGame_BtnTime": 1,
+  "ChopGame_SuccessPercentage": 0.800000012,
+  "ChopGame_FailTime": 1,
+  "PrepareTime": 45,
+  "MealMax": 3,
+  "CookNpcMax": 2,
+  "OrderTime": 0.800000012
+}

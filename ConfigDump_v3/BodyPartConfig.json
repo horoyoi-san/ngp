@@ -1,0 +1,197 @@
+{
+  "_class": "BodyPartConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 9,
+  "records": [
+    {
+      "Id": 1,
+      "BodyPartType": 1,
+      "AllowedHitReactionType": [
+        1,
+        2,
+        5,
+        7
+      ],
+      "AllowedHurtStiffIds": [
+        1207,
+        1208,
+        1211,
+        1213
+      ],
+      "AllowedDeathType": [
+        1,
+        4
+      ],
+      "FlinchRandomClampCurveConfig": 67100397
+    },
+    {
+      "Id": 2,
+      "BodyPartType": 2,
+      "AllowedHitReactionType": [
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "AllowedHurtStiffIds": [
+        1214,
+        1215,
+        1218,
+        1219,
+        1220
+      ],
+      "AllowedDeathType": [
+        1,
+        4,
+        6
+      ],
+      "FlinchRandomClampCurveConfig": 67100401
+    },
+    {
+      "Id": 3,
+      "BodyPartType": 3,
+      "AllowedHitReactionType": [
+        1,
+        2,
+        5,
+        7
+      ],
+      "AllowedHurtStiffIds": [
+        1221,
+        1222,
+        1225,
+        1227
+      ],
+      "AllowedDeathType": [
+        1,
+        4
+      ],
+      "FlinchRandomClampCurveConfig": 67100396
+    },
+    {
+      "Id": 4,
+      "BodyPartType": 4,
+      "AllowedHitReactionType": [
+        1,
+        2,
+        5,
+        7
+      ],
+      "AllowedHurtStiffIds": [
+        1228,
+        1229,
+        1232,
+        1234
+      ],
+      "AllowedDeathType": [
+        1,
+        4
+      ],
+      "FlinchRandomClampCurveConfig": 67100398
+    },
+    {
+      "Id": 5,
+      "BodyPartType": 5,
+      "AllowedHitReactionType": [
+        1,
+        2,
+        5,
+        7
+      ],
+      "AllowedHurtStiffIds": [
+        1235,
+        1236,
+        1239,
+        1241
+      ],
+      "AllowedDeathType": [
+        1,
+        4
+      ],
+      "FlinchRandomClampCurveConfig": 67100400
+    },
+    {
+      "Id": 6,
+      "BodyPartType": 6,
+      "AllowedHitReactionType": [
+        1,
+        2,
+        5,
+        7
+      ],
+      "AllowedHurtStiffIds": [
+        1242,
+        1243,
+        1246,
+        1248
+      ],
+      "AllowedDeathType": [
+        1,
+        4
+      ],
+      "FlinchRandomClampCurveConfig": 67100399
+    },
+    {
+      "Id": 7,
+      "BodyPartType": 7,
+      "AllowedHitReactionType": [
+        1,
+        2,
+        5,
+        7
+      ],
+      "AllowedHurtStiffIds": [
+        1200,
+        1201,
+        1204,
+        1206
+      ],
+      "AllowedDeathType": [
+        1,
+        4
+      ],
+      "FlinchRandomClampCurveConfig": 0
+    },
+    {
+      "Id": 8,
+      "BodyPartType": 7,
+      "AllowedHitReactionType": [
+        7
+      ],
+      "AllowedHurtStiffIds": [
+        1206
+      ],
+      "AllowedDeathType": [
+        1,
+        4
+      ],
+      "FlinchRandomClampCurveConfig": 0
+    },
+    {
+      "Id": 9,
+      "BodyPartType": 2,
+      "AllowedHitReactionType": [
+        1,
+        2,
+        5,
+        7
+      ],
+      "AllowedHurtStiffIds": [
+        1214,
+        1215,
+        1218,
+        1219,
+        1220
+      ],
+      "AllowedDeathType": [
+        1,
+        4
+      ],
+      "FlinchRandomClampCurveConfig": 67100401
+    }
+  ],
+  "_dumpedCount": 9,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -1,0 +1,1095 @@
+{
+  "_class": "InputKeyboardConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 105,
+  "records": [
+    {
+      "Id": 1,
+      "ButtonName": "<Mouse>/scroll",
+      "RebindIcon": 28001467,
+      "RebindText": "",
+      "GuideIcon": 28000820,
+      "ButtonIcon": [
+        28001467
+      ],
+      "KeyFont": "",
+      "UseKey": 0
+    },
+    {
+      "Id": 2,
+      "ButtonName": "<Mouse>/forwardButton",
+      "RebindIcon": 28002150,
+      "RebindText": "",
+      "GuideIcon": 28017594,
+      "ButtonIcon": [
+        28002150
+      ],
+      "KeyFont": "",
+      "UseKey": 0
+    },
+    {
+      "Id": 3,
+      "ButtonName": "<Mouse>/backButton",
+      "RebindIcon": 28002148,
+      "RebindText": "",
+      "GuideIcon": 28017593,
+      "ButtonIcon": [
+        28002148
+      ],
+      "KeyFont": "",
+      "UseKey": 0
+    },
+    {
+      "Id": 4,
+      "ButtonName": "<Mouse>/middleButton",
+      "RebindIcon": 28017197,
+      "RebindText": "",
+      "GuideIcon": 28000820,
+      "ButtonIcon": [
+        28017197
+      ],
+      "KeyFont": "",
+      "UseKey": 0
+    },
+    {
+      "Id": 5,
+      "ButtonName": "<Mouse>/leftButton",
+      "RebindIcon": 28001289,
+      "RebindText": "",
+      "GuideIcon": 28000182,
+      "ButtonIcon": [
+        28001289,
+        28001288,
+        28017203
+      ],
+      "KeyFont": "",
+      "UseKey": 0
+    },
+    {
+      "Id": 6,
+      "ButtonName": "<Mouse>/rightButton",
+      "RebindIcon": 28001290,
+      "RebindText": "",
+      "GuideIcon": 28006990,
+      "ButtonIcon": [
+        28001290,
+        28001288,
+        28017204
+      ],
+      "KeyFont": "",
+      "UseKey": 0
+    },
+    {
+      "Id": 7,
+      "ButtonName": "<Mouse>/delta",
+      "RebindIcon": 28017504,
+      "RebindText": "",
+      "GuideIcon": 28000738,
+      "ButtonIcon": [
+        28017504
+      ],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 0
+    },
+    {
+      "Id": 8,
+      "ButtonName": "<Keyboard>/backquote",
+      "RebindIcon": 0,
+      "RebindText": "~",
+      "GuideIcon": 28017525,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 9,
+      "ButtonName": "<Keyboard>/escape",
+      "RebindIcon": 0,
+      "RebindText": "ESC",
+      "GuideIcon": 28008111,
+      "ButtonIcon": [],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 10,
+      "ButtonName": "<Keyboard>/space",
+      "RebindIcon": 0,
+      "RebindText": "SPACE",
+      "GuideIcon": 28006802,
+      "ButtonIcon": [
+        28001446,
+        28017207
+      ],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 11,
+      "ButtonName": "<Keyboard>/tab",
+      "RebindIcon": 0,
+      "RebindText": "TAB",
+      "GuideIcon": 28000805,
+      "ButtonIcon": [
+        28001449
+      ],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 12,
+      "ButtonName": "<Keyboard>/enter",
+      "RebindIcon": 0,
+      "RebindText": "ENTER",
+      "GuideIcon": 28017546,
+      "ButtonIcon": [
+        28017209
+      ],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 13,
+      "ButtonName": "<Keyboard>/numpadEnter",
+      "RebindIcon": 0,
+      "RebindText": "ENTER",
+      "GuideIcon": 28017546,
+      "ButtonIcon": [],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 14,
+      "ButtonName": "<Keyboard>/alt",
+      "RebindIcon": 0,
+      "RebindText": "ALT",
+      "GuideIcon": 28017524,
+      "ButtonIcon": [],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 15,
+      "ButtonName": "<Keyboard>/ctrl",
+      "RebindIcon": 0,
+      "RebindText": "CTRL",
+      "GuideIcon": 28000752,
+      "ButtonIcon": [],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 16,
+      "ButtonName": "<Keyboard>/shift",
+      "RebindIcon": 0,
+      "RebindText": "SHIFT",
+      "GuideIcon": 28006917,
+      "ButtonIcon": [
+        28017208
+      ],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 17,
+      "ButtonName": "<Keyboard>/comma",
+      "RebindIcon": 0,
+      "RebindText": ",",
+      "GuideIcon": 28017588,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 18,
+      "ButtonName": "<Keyboard>/period",
+      "RebindIcon": 0,
+      "RebindText": ".",
+      "GuideIcon": 28017574,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 19,
+      "ButtonName": "<Keyboard>/w",
+      "RebindIcon": 0,
+      "RebindText": "W",
+      "GuideIcon": 28006803,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 20,
+      "ButtonName": "<Keyboard>/f",
+      "RebindIcon": 0,
+      "RebindText": "F",
+      "GuideIcon": 28008024,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 21,
+      "ButtonName": "<Keyboard>/a",
+      "RebindIcon": 0,
+      "RebindText": "A",
+      "GuideIcon": 28017523,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 22,
+      "ButtonName": "<Keyboard>/s",
+      "RebindIcon": 0,
+      "RebindText": "S",
+      "GuideIcon": 28000823,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 23,
+      "ButtonName": "<Keyboard>/d",
+      "RebindIcon": 0,
+      "RebindText": "D",
+      "GuideIcon": 28017529,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 24,
+      "ButtonName": "<Keyboard>/q",
+      "RebindIcon": 0,
+      "RebindText": "Q",
+      "GuideIcon": 28006801,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 25,
+      "ButtonName": "<Keyboard>/e",
+      "RebindIcon": 0,
+      "RebindText": "E",
+      "GuideIcon": 28008023,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 26,
+      "ButtonName": "<Keyboard>/r",
+      "RebindIcon": 0,
+      "RebindText": "R",
+      "GuideIcon": 28000755,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 27,
+      "ButtonName": "<Keyboard>/t",
+      "RebindIcon": 0,
+      "RebindText": "T",
+      "GuideIcon": 28001712,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 28,
+      "ButtonName": "<Keyboard>/z",
+      "RebindIcon": 0,
+      "RebindText": "Z",
+      "GuideIcon": 28000803,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 29,
+      "ButtonName": "<Keyboard>/x",
+      "RebindIcon": 0,
+      "RebindText": "X",
+      "GuideIcon": 28017396,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 30,
+      "ButtonName": "<Keyboard>/c",
+      "RebindIcon": 0,
+      "RebindText": "C",
+      "GuideIcon": 28000183,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 31,
+      "ButtonName": "<Keyboard>/v",
+      "RebindIcon": 0,
+      "RebindText": "V",
+      "GuideIcon": 28008025,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 32,
+      "ButtonName": "<Keyboard>/g",
+      "RebindIcon": 0,
+      "RebindText": "G",
+      "GuideIcon": 28017558,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 33,
+      "ButtonName": "<Keyboard>/h",
+      "RebindIcon": 0,
+      "RebindText": "H",
+      "GuideIcon": 28017559,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 34,
+      "ButtonName": "<Keyboard>/b",
+      "RebindIcon": 0,
+      "RebindText": "B",
+      "GuideIcon": 28009041,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 35,
+      "ButtonName": "<Keyboard>/m",
+      "RebindIcon": 0,
+      "RebindText": "M",
+      "GuideIcon": 28009028,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 36,
+      "ButtonName": "<Keyboard>/j",
+      "RebindIcon": 0,
+      "RebindText": "J",
+      "GuideIcon": 28017563,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 37,
+      "ButtonName": "<Keyboard>/k",
+      "RebindIcon": 0,
+      "RebindText": "K",
+      "GuideIcon": 28017152,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 38,
+      "ButtonName": "<Keyboard>/o",
+      "RebindIcon": 0,
+      "RebindText": "O",
+      "GuideIcon": 28017570,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 39,
+      "ButtonName": "<Keyboard>/u",
+      "RebindIcon": 0,
+      "RebindText": "U",
+      "GuideIcon": 28017584,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 40,
+      "ButtonName": "<Keyboard>/i",
+      "RebindIcon": 0,
+      "RebindText": "I",
+      "GuideIcon": 28017561,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 41,
+      "ButtonName": "<Keyboard>/p",
+      "RebindIcon": 0,
+      "RebindText": "P",
+      "GuideIcon": 28017571,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 42,
+      "ButtonName": "<Keyboard>/n",
+      "RebindIcon": 0,
+      "RebindText": "N",
+      "GuideIcon": 28017196,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 43,
+      "ButtonName": "<Keyboard>/y",
+      "RebindIcon": 0,
+      "RebindText": "Y",
+      "GuideIcon": 28017586,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 44,
+      "ButtonName": "<Keyboard>/l",
+      "RebindIcon": 0,
+      "RebindText": "L",
+      "GuideIcon": 28017564,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 45,
+      "ButtonName": "<Keyboard>/backspace",
+      "RebindIcon": 0,
+      "RebindText": "BACKSPACE",
+      "GuideIcon": 28017527,
+      "ButtonIcon": [],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 46,
+      "ButtonName": "<Keyboard>/numpadMultiply",
+      "RebindIcon": 0,
+      "RebindText": "*",
+      "GuideIcon": 28017569,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 47,
+      "ButtonName": "<Keyboard>/upArrow",
+      "RebindIcon": 0,
+      "RebindText": "UP",
+      "GuideIcon": 28017585,
+      "ButtonIcon": [
+        28000800
+      ],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 0
+    },
+    {
+      "Id": 48,
+      "ButtonName": "<Keyboard>/downArrow",
+      "RebindIcon": 0,
+      "RebindText": "DOWN",
+      "GuideIcon": 28017531,
+      "ButtonIcon": [
+        28000797
+      ],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 0
+    },
+    {
+      "Id": 49,
+      "ButtonName": "<Keyboard>/rightArrow",
+      "RebindIcon": 0,
+      "RebindText": "RIGHT",
+      "GuideIcon": 28017578,
+      "ButtonIcon": [
+        28000799
+      ],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 0
+    },
+    {
+      "Id": 50,
+      "ButtonName": "<Keyboard>/leftArrow",
+      "RebindIcon": 0,
+      "RebindText": "LEFT",
+      "GuideIcon": 28017565,
+      "ButtonIcon": [
+        28000798
+      ],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 0
+    },
+    {
+      "Id": 51,
+      "ButtonName": "<Keyboard>/capsLock",
+      "RebindIcon": 0,
+      "RebindText": "CAPSLOCK",
+      "GuideIcon": 28017528,
+      "ButtonIcon": [],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 52,
+      "ButtonName": "<Keyboard>/semicolon",
+      "RebindIcon": 0,
+      "RebindText": ";",
+      "GuideIcon": 28017581,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 53,
+      "ButtonName": "<Keyboard>/quote",
+      "RebindIcon": 0,
+      "RebindText": "'",
+      "GuideIcon": 28017574,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 54,
+      "ButtonName": "<Keyboard>/leftBracket",
+      "RebindIcon": 0,
+      "RebindText": "[",
+      "GuideIcon": 28017566,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 55,
+      "ButtonName": "<Keyboard>/rightBracket",
+      "RebindIcon": 0,
+      "RebindText": "]",
+      "GuideIcon": 28017579,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 56,
+      "ButtonName": "<Keyboard>/slash",
+      "RebindIcon": 0,
+      "RebindText": "/",
+      "GuideIcon": 28017582,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 57,
+      "ButtonName": "<Keyboard>/1",
+      "RebindIcon": 0,
+      "RebindText": "1",
+      "GuideIcon": 28009027,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 58,
+      "ButtonName": "<Keyboard>/2",
+      "RebindIcon": 0,
+      "RebindText": "2",
+      "GuideIcon": 28017515,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 59,
+      "ButtonName": "<Keyboard>/3",
+      "RebindIcon": 0,
+      "RebindText": "3",
+      "GuideIcon": 28017516,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 60,
+      "ButtonName": "<Keyboard>/4",
+      "RebindIcon": 0,
+      "RebindText": "4",
+      "GuideIcon": 28017517,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 61,
+      "ButtonName": "<Keyboard>/5",
+      "RebindIcon": 0,
+      "RebindText": "5",
+      "GuideIcon": 28017518,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 62,
+      "ButtonName": "<Keyboard>/6",
+      "RebindIcon": 0,
+      "RebindText": "6",
+      "GuideIcon": 28017519,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 63,
+      "ButtonName": "<Keyboard>/7",
+      "RebindIcon": 0,
+      "RebindText": "7",
+      "GuideIcon": 28017520,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 64,
+      "ButtonName": "<Keyboard>/8",
+      "RebindIcon": 0,
+      "RebindText": "8",
+      "GuideIcon": 28017521,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 65,
+      "ButtonName": "<Keyboard>/9",
+      "RebindIcon": 0,
+      "RebindText": "9",
+      "GuideIcon": 28017522,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 66,
+      "ButtonName": "<Keyboard>/0",
+      "RebindIcon": 0,
+      "RebindText": "0",
+      "GuideIcon": 28017514,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 67,
+      "ButtonName": "<Keyboard>/numpad1",
+      "RebindIcon": 0,
+      "RebindText": "1",
+      "GuideIcon": 28009027,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 68,
+      "ButtonName": "<Keyboard>/numpad2",
+      "RebindIcon": 0,
+      "RebindText": "2",
+      "GuideIcon": 28017515,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 69,
+      "ButtonName": "<Keyboard>/numpad3",
+      "RebindIcon": 0,
+      "RebindText": "3",
+      "GuideIcon": 28017516,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 70,
+      "ButtonName": "<Keyboard>/numpad4",
+      "RebindIcon": 0,
+      "RebindText": "4",
+      "GuideIcon": 28017517,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 71,
+      "ButtonName": "<Keyboard>/numpad5",
+      "RebindIcon": 0,
+      "RebindText": "5",
+      "GuideIcon": 28017518,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 72,
+      "ButtonName": "<Keyboard>/numpad6",
+      "RebindIcon": 0,
+      "RebindText": "6",
+      "GuideIcon": 28017519,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 73,
+      "ButtonName": "<Keyboard>/numpad7",
+      "RebindIcon": 0,
+      "RebindText": "7",
+      "GuideIcon": 28017520,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 74,
+      "ButtonName": "<Keyboard>/numpad8",
+      "RebindIcon": 0,
+      "RebindText": "8",
+      "GuideIcon": 28017521,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 75,
+      "ButtonName": "<Keyboard>/numpad9",
+      "RebindIcon": 0,
+      "RebindText": "9",
+      "GuideIcon": 28017522,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 76,
+      "ButtonName": "<Keyboard>/numpad0",
+      "RebindIcon": 0,
+      "RebindText": "0",
+      "GuideIcon": 28017514,
+      "ButtonIcon": [],
+      "KeyFont": "L50DINCN-Medium_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 77,
+      "ButtonName": "<Keyboard>/f1",
+      "RebindIcon": 0,
+      "RebindText": "F1",
+      "GuideIcon": 28001677,
+      "ButtonIcon": [],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 78,
+      "ButtonName": "<Keyboard>/f2",
+      "RebindIcon": 0,
+      "RebindText": "F2",
+      "GuideIcon": 28001678,
+      "ButtonIcon": [],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 79,
+      "ButtonName": "<Keyboard>/f3",
+      "RebindIcon": 0,
+      "RebindText": "F3",
+      "GuideIcon": 28017548,
+      "ButtonIcon": [],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 80,
+      "ButtonName": "<Keyboard>/f4",
+      "RebindIcon": 0,
+      "RebindText": "F4",
+      "GuideIcon": 28017549,
+      "ButtonIcon": [],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 81,
+      "ButtonName": "<Keyboard>/f5",
+      "RebindIcon": 0,
+      "RebindText": "F5",
+      "GuideIcon": 28017550,
+      "ButtonIcon": [],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 82,
+      "ButtonName": "<Keyboard>/f6",
+      "RebindIcon": 0,
+      "RebindText": "F6",
+      "GuideIcon": 28017551,
+      "ButtonIcon": [],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 83,
+      "ButtonName": "<Keyboard>/f7",
+      "RebindIcon": 0,
+      "RebindText": "F7",
+      "GuideIcon": 28017552,
+      "ButtonIcon": [],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 84,
+      "ButtonName": "<Keyboard>/f8",
+      "RebindIcon": 0,
+      "RebindText": "F8",
+      "GuideIcon": 28017553,
+      "ButtonIcon": [],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 85,
+      "ButtonName": "<Keyboard>/f9",
+      "RebindIcon": 0,
+      "RebindText": "F9",
+      "GuideIcon": 28017554,
+      "ButtonIcon": [],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 86,
+      "ButtonName": "<Keyboard>/f10",
+      "RebindIcon": 0,
+      "RebindText": "F10",
+      "GuideIcon": 28017555,
+      "ButtonIcon": [],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 87,
+      "ButtonName": "<Keyboard>/f11",
+      "RebindIcon": 0,
+      "RebindText": "F11",
+      "GuideIcon": 28017556,
+      "ButtonIcon": [],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 88,
+      "ButtonName": "<Keyboard>/f12",
+      "RebindIcon": 0,
+      "RebindText": "F12",
+      "GuideIcon": 28017557,
+      "ButtonIcon": [],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 89,
+      "ButtonName": "<Keyboard>/minus",
+      "RebindIcon": 0,
+      "RebindText": "-",
+      "GuideIcon": 28017567,
+      "ButtonIcon": [],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 90,
+      "ButtonName": "<Keyboard>/equals",
+      "RebindIcon": 0,
+      "RebindText": "=",
+      "GuideIcon": 28017547,
+      "ButtonIcon": [],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 91,
+      "ButtonName": "<Keyboard>/backslash",
+      "RebindIcon": 0,
+      "RebindText": "\\",
+      "GuideIcon": 28017526,
+      "ButtonIcon": [],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 92,
+      "ButtonName": "<Keyboard>/insert",
+      "RebindIcon": 0,
+      "RebindText": "INSERT",
+      "GuideIcon": 28017562,
+      "ButtonIcon": [],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 93,
+      "ButtonName": "<Keyboard>/delete",
+      "RebindIcon": 0,
+      "RebindText": "DELETE",
+      "GuideIcon": 28017530,
+      "ButtonIcon": [],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 94,
+      "ButtonName": "<Keyboard>/home",
+      "RebindIcon": 0,
+      "RebindText": "HOME",
+      "GuideIcon": 28017560,
+      "ButtonIcon": [],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 95,
+      "ButtonName": "<Keyboard>/end",
+      "RebindIcon": 0,
+      "RebindText": "END",
+      "GuideIcon": 28017532,
+      "ButtonIcon": [],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 96,
+      "ButtonName": "<Keyboard>/pageUp",
+      "RebindIcon": 0,
+      "RebindText": "PAGEUP",
+      "GuideIcon": 28017572,
+      "ButtonIcon": [],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 97,
+      "ButtonName": "<Keyboard>/pageDown",
+      "RebindIcon": 0,
+      "RebindText": "PAGEDOWN",
+      "GuideIcon": 28017575,
+      "ButtonIcon": [],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 98,
+      "ButtonName": "<Keyboard>/numpadDivide",
+      "RebindIcon": 0,
+      "RebindText": "/",
+      "GuideIcon": 28017582,
+      "ButtonIcon": [],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 99,
+      "ButtonName": "<Keyboard>/numpadMinus",
+      "RebindIcon": 0,
+      "RebindText": "-",
+      "GuideIcon": 28017567,
+      "ButtonIcon": [],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 100,
+      "ButtonName": "<Keyboard>/numpadPlus",
+      "RebindIcon": 0,
+      "RebindText": "+",
+      "GuideIcon": 28017576,
+      "ButtonIcon": [],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 101,
+      "ButtonName": "<Keyboard>/numpadPeriod",
+      "RebindIcon": 0,
+      "RebindText": "NUMPADPERIOD",
+      "GuideIcon": 28017574,
+      "ButtonIcon": [],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 102,
+      "ButtonName": "<Keyboard>/numLock",
+      "RebindIcon": 0,
+      "RebindText": "NUMLOCK",
+      "GuideIcon": 28017568,
+      "ButtonIcon": [],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 103,
+      "ButtonName": "<Keyboard>/scrollLock",
+      "RebindIcon": 0,
+      "RebindText": "SCROLLLOCK",
+      "GuideIcon": 28017580,
+      "ButtonIcon": [],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 104,
+      "ButtonName": "<Keyboard>/pause",
+      "RebindIcon": 0,
+      "RebindText": "PAUSE",
+      "GuideIcon": 28017573,
+      "ButtonIcon": [],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    },
+    {
+      "Id": 105,
+      "ButtonName": "<Keyboard>/contextMenu",
+      "RebindIcon": 0,
+      "RebindText": "TMENU",
+      "GuideIcon": 28017583,
+      "ButtonIcon": [],
+      "KeyFont": "L50Pckey_SDF",
+      "UseKey": 1
+    }
+  ],
+  "_dumpedCount": 105,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

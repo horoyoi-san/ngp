@@ -1,0 +1,60 @@
+{
+  "_class": "SoundWeatherDetailsConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 5,
+  "records": [
+    {
+      "Id": 1,
+      "WeatherDetailsName": "晴天",
+      "WeatherStateList": [
+        {
+          "stateName": "StateGroup_Weather",
+          "stateValue": "State_Sunny"
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "WeatherDetailsName": "下雨",
+      "WeatherStateList": [
+        {
+          "stateName": "StateGroup_Weather",
+          "stateValue": "State_Rainy"
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "WeatherDetailsName": "阴天",
+      "WeatherStateList": [
+        {
+          "stateName": "StateGroup_Weather",
+          "stateValue": "State_Cloudy"
+        }
+      ]
+    },
+    {
+      "Id": 4,
+      "WeatherDetailsName": "雾天",
+      "WeatherStateList": [
+        {
+          "stateName": "StateGroup_Weather",
+          "stateValue": "State_Foggy"
+        }
+      ]
+    },
+    {
+      "Id": 5,
+      "WeatherDetailsName": "雨后",
+      "WeatherStateList": [
+        {
+          "stateName": "StateGroup_Weather",
+          "stateValue": "State_Afterrain"
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 5,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

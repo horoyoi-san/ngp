@@ -1,0 +1,574 @@
+{
+  "_class": "ChaosMasterCampConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 16,
+  "records": [
+    {
+      "Id": 1,
+      "CampName": "谜面帮经典",
+      "Quality": 3,
+      "Cost": 3,
+      "BodyCode": "BC",
+      "BuffStatFactorId": [],
+      "BuffStatValue": [],
+      "BuffStatFactor": [],
+      "PassiveSkill": [
+        1001
+      ],
+      "IconID": 28000498,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "CampName": "谜面帮特殊",
+      "Quality": 5,
+      "Cost": 5,
+      "BodyCode": "SP",
+      "BuffStatFactorId": [],
+      "BuffStatValue": [],
+      "BuffStatFactor": [],
+      "PassiveSkill": [
+        1002
+      ],
+      "IconID": 28000498,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "CampName": "蒸汽狂飙经典",
+      "Quality": 3,
+      "Cost": 3,
+      "BodyCode": "BC",
+      "BuffStatFactorId": [],
+      "BuffStatValue": [],
+      "BuffStatFactor": [],
+      "PassiveSkill": [
+        1007
+      ],
+      "IconID": 28000498,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 4,
+      "CampName": "蒸汽狂飙特殊",
+      "Quality": 5,
+      "Cost": 5,
+      "BodyCode": "SP",
+      "BuffStatFactorId": [],
+      "BuffStatValue": [],
+      "BuffStatFactor": [],
+      "PassiveSkill": [
+        1008
+      ],
+      "IconID": 28000498,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 5,
+      "CampName": "电视脑经典",
+      "Quality": 3,
+      "Cost": 3,
+      "BodyCode": "BC",
+      "BuffStatFactorId": [],
+      "BuffStatValue": [],
+      "BuffStatFactor": [],
+      "PassiveSkill": [
+        1003
+      ],
+      "IconID": 28000498,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 6,
+      "CampName": "电视脑特殊",
+      "Quality": 3,
+      "Cost": 3,
+      "BodyCode": "SP",
+      "BuffStatFactorId": [],
+      "BuffStatValue": [],
+      "BuffStatFactor": [],
+      "PassiveSkill": [
+        1004
+      ],
+      "IconID": 28000498,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 7,
+      "CampName": "黑金组经典",
+      "Quality": 5,
+      "Cost": 5,
+      "BodyCode": "BC",
+      "BuffStatFactorId": [],
+      "BuffStatValue": [],
+      "BuffStatFactor": [],
+      "PassiveSkill": [
+        1005
+      ],
+      "IconID": 28000498,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 8,
+      "CampName": "黑金组特殊",
+      "Quality": 3,
+      "Cost": 3,
+      "BodyCode": "SP",
+      "BuffStatFactorId": [],
+      "BuffStatValue": [],
+      "BuffStatFactor": [],
+      "PassiveSkill": [
+        1006
+      ],
+      "IconID": 28000498,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 9,
+      "CampName": "安保员经典",
+      "Quality": 5,
+      "Cost": 5,
+      "BodyCode": "BC",
+      "BuffStatFactorId": [],
+      "BuffStatValue": [],
+      "BuffStatFactor": [],
+      "PassiveSkill": [
+        1009
+      ],
+      "IconID": 28000498,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 10,
+      "CampName": "安保员特殊",
+      "Quality": 3,
+      "Cost": 3,
+      "BodyCode": "SP",
+      "BuffStatFactorId": [],
+      "BuffStatValue": [],
+      "BuffStatFactor": [],
+      "PassiveSkill": [
+        1010
+      ],
+      "IconID": 28000498,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 11,
+      "CampName": "阿姆斯经典",
+      "Quality": 3,
+      "Cost": 3,
+      "BodyCode": "BC",
+      "BuffStatFactorId": [],
+      "BuffStatValue": [],
+      "BuffStatFactor": [],
+      "PassiveSkill": [
+        1011
+      ],
+      "IconID": 28000498,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 12,
+      "CampName": "阿姆斯特殊",
+      "Quality": 5,
+      "Cost": 5,
+      "BodyCode": "SP",
+      "BuffStatFactorId": [],
+      "BuffStatValue": [],
+      "BuffStatFactor": [],
+      "PassiveSkill": [
+        1012
+      ],
+      "IconID": 28000498,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 13,
+      "CampName": "巡卫署经典",
+      "Quality": 3,
+      "Cost": 3,
+      "BodyCode": "BC",
+      "BuffStatFactorId": [],
+      "BuffStatValue": [],
+      "BuffStatFactor": [],
+      "PassiveSkill": [
+        1013
+      ],
+      "IconID": 28000498,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 14,
+      "CampName": "巡卫署特殊",
+      "Quality": 5,
+      "Cost": 5,
+      "BodyCode": "SP",
+      "BuffStatFactorId": [],
+      "BuffStatValue": [],
+      "BuffStatFactor": [],
+      "PassiveSkill": [
+        1014
+      ],
+      "IconID": 28000498,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 15,
+      "CampName": "平平无奇的阵营",
+      "Quality": 3,
+      "Cost": 2,
+      "BodyCode": "SP",
+      "BuffStatFactorId": [],
+      "BuffStatValue": [],
+      "BuffStatFactor": [],
+      "PassiveSkill": [
+        1014
+      ],
+      "IconID": 28000498,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 16,
+      "CampName": "机械身躯",
+      "Quality": 5,
+      "Cost": 2,
+      "BodyCode": "SP",
+      "BuffStatFactorId": [
+        2
+      ],
+      "BuffStatValue": [
+        1000
+      ],
+      "BuffStatFactor": [],
+      "PassiveSkill": [
+        1014
+      ],
+      "IconID": 28000498,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 16,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -9,12 +9,6 @@ using SceneMethods = Ananta.Server.RpcTypes.Client4229938.Methods.GameScene;
 
 namespace Ananta.Server.Handlers.Game;
 
-/// <summary>
-/// Private-server vehicle surface (build 4229938): summon + owned fleet + drive-loop accepts.
-/// Spawn uses the proven 3-notify sequence (SyncLogicVehicleEnter + SyncSpawnVehicle +
-/// SyncChangeVehicleInteractable) with 5.5m-right/+0.15m offsets; driving itself is
-/// simulated client-side.
-/// </summary>
 internal sealed partial class GameRouter
 {
     private static long _vehicleEntitySeq = 300000000000L;
@@ -30,7 +24,7 @@ internal sealed partial class GameRouter
         internal float Z;
         internal float Yaw;
         internal bool HasFix;
-        // Boarding state (S011 story flow): seat layout + occupancy.
+        
         internal int SeatCount = 2;
         internal bool Interactable = true;
         internal ulong ControllerPid;
@@ -119,8 +113,8 @@ internal sealed partial class GameRouter
             return;
         lock (SummonedVehiclesSync)
         {
-            // Only track server-summoned entities; traffic/AI vehicles stay untracked
-            // so the registry cannot grow unbounded.
+            
+            
             if (SummonedVehicles.TryGetValue(entityId, out var existing))
             {
                 existing.X = x;
@@ -171,19 +165,19 @@ internal sealed partial class GameRouter
         });
     }
 
-    /// <summary>
-    /// Direct scene spawn shared by client summon and the debug panel: SyncLogicVehicleEnter
-    /// + SyncSpawnVehicle (interactable) + SyncChangeVehicleInteractable. Offsets proven by V2:
-    /// rightOffset meters to the right of the facing, +0.15m up.
-    /// </summary>
+    
+    
+    
+    
+    
     internal static async Task<(bool Ok, string Message, ulong EntityId, ulong Token, Vec3 SpawnPos)> SpawnDirectAsync(
         TcpSession session, uint configId, Vec3 nearPos, float facing, float rightOffset, byte sourceType, string reason)
     {
         if (configId == 0)
             return (false, "vehicle 0 does not exist", 0, 0, default);
 
-        // Unknown / model-less ids are allowed with a warning (newer client data may know
-        // more vehicles than our dump); the client validates against its own configs.
+        
+        
         var seatCount = 2;
         if (VehicleCatalog4229938.TryGet(configId, out var config))
         {
@@ -254,6 +248,14 @@ internal sealed partial class GameRouter
         await session.NotifyAsync(MethodId.SyncChangeVehicleInteractable, UxSerializer.Serialize(
             new SceneMethods.SyncChangeVehicleInteractable { VehicleInstanceId = entityId, Interactable = true }),
             CancellationToken.None);
+
+        
+        
+        
+        
+        if (PrivateServerConfigStore.Current.Gameplay.SpiritContent.MarkVehiclesHackable)
+            await MarkHackableAsync(session, entityId);
+
         session.Log.Info($"[VEHICLE] DIRECT_SPAWN reason={reason} config={configId} entity={entityId} token={token} seats={seatCount} spawn=({spawn.X:F1},{spawn.Y:F1},{spawn.Z:F1})");
         return (true, "spawned", entityId, token, spawn);
     }
@@ -283,10 +285,10 @@ internal sealed partial class GameRouter
         };
     }
 
-    /// <summary>
-    /// Push the owned fleet right after world entry finalization (first gameplay movement),
-    /// so the phone/garage UI is populated without a manual resync. Once per entry.
-    /// </summary>
+    
+    
+    
+    
     internal static async Task PublishGarageAsync(RpcContext ctx)
     {
         if (!PrivateServerConfigStore.Current.Gameplay.Vehicles.Enabled)
@@ -307,11 +309,15 @@ internal sealed partial class GameRouter
         ctx.Session.Log.Info($"[VEHICLE] garage auto-published count={result.Vehicles.Count}");
     }
 
-    /// <summary>
-    /// Push Aether vehicle-AI init once per world entry (mirrors V2): RaidId +
-    /// zone-graph handle + empty lists. The client DriveManager gates vehicle
-    /// materialization on this init; without it spawns stay invisible.
-    /// </summary>
+    
+    
+    
+    
+    
+    
+    
+    
+    
     internal static async Task PublishAetherInitAsync(RpcContext ctx)
     {
         if (!PrivateServerConfigStore.Current.Gameplay.Vehicles.Enabled)
@@ -329,18 +335,255 @@ internal sealed partial class GameRouter
         }
         if (!first)
             return;
+
+        await ctx.NotifyAsync(MethodId.SyncAetherAIInitDatas, BuildAetherInit(raidId));
+        ctx.Session.Log.Info($"[VEHICLE] aether-init raid={raidId} {DescribeAetherInit()}");
+    }
+
+    
+    
+    
+    
+    
+    private static byte[] BuildAetherInit(uint raidId)
+    {
         var settings = PrivateServerConfigStore.Current.Gameplay.Vehicles;
-        var hasZoneGraph = raidId == PrivateServerConfigStore.Current.World.RaidId;
-        await ctx.NotifyAsync(MethodId.SyncAetherAIInitDatas, new SceneMethods.AetherAIInitData
+        var aether = PrivateServerConfigStore.Current.Gameplay.Aether;
+
+        
+        
+        
+        
+        
+        var intersections = new List<SceneMethods.ClientTrafficIntersectionInitInfo>();
+        if (aether.IntersectionsEnabled)
+        {
+            foreach (var it in IntersectionTable.All)
+            {
+                intersections.Add(new SceneMethods.ClientTrafficIntersectionInitInfo
+                {
+                    InstanceId = (ulong)it.ZoneIndex,   
+                    ZoneIndex = it.ZoneIndex,
+                    CurrentState = 0,                   
+                    CurrentPeriodIndex = it.CurrentPeriodIndex,
+                    NextPeriodIndex = it.NextPeriodIndex,
+                    RailPeriodIndex = it.RailPeriodIndex,
+                });
+            }
+        }
+
+        return UxSerializer.Serialize(new SceneMethods.AetherAIInitData
         {
             RaidId = raidId,
-            HasZoneGraph = hasZoneGraph,
-            ZoneStorageDataHandle = hasZoneGraph ? settings.ZoneStorageDataHandle : 0,
-            Intersections = [],
-            Vehicles = [],
-            StaticVehicles = [],
+            HasZoneGraph = settings.HasZoneGraph,
+            ZoneStorageDataHandle = settings.HasZoneGraph ? settings.ZoneStorageDataHandle : 0,
+            Intersections = intersections,
         });
-        ctx.Session.Log.Info($"[VEHICLE] aether-init raid={raidId} zoneGraph={hasZoneGraph} lists=empty");
+    }
+
+    private static string DescribeAetherInit()
+    {
+        var settings = PrivateServerConfigStore.Current.Gameplay.Vehicles;
+        return $"zoneGraph={settings.HasZoneGraph} handle={settings.ZoneStorageDataHandle}"
+            + "（客户端据此建本地路网；车流/人群由服务端按真实车道投放）";
+    }
+
+    
+    
+    
+    
+    internal static async Task PublishAetherInitBackgroundAsync(
+        TcpSession session, uint raidId, CancellationToken token)
+    {
+        if (!PrivateServerConfigStore.Current.Gameplay.Vehicles.Enabled)
+            return;
+        if (!(session.Items.TryGetValue(WorldStateKey, out var raw) && raw is WorldEntryState world))
+            return;
+
+        bool first;
+        lock (world.SyncRoot)
+        {
+            first = !world.AetherVehicleInitSent;
+            if (first)
+                world.AetherVehicleInitSent = true;
+        }
+        if (!first)
+            return;
+
+        var settings = PrivateServerConfigStore.Current.Gameplay.Vehicles;
+        var aether = PrivateServerConfigStore.Current.Gameplay.Aether;
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        if (TryMarkAetherInitSent(session, raidId))
+        {
+            await session.NotifyAsync(MethodId.SyncAetherAIInitDatas, BuildAetherInit(raidId), token);
+            session.Log.Info($"[AETHER-BG] 初始化已下发 raid={raidId} {DescribeAetherInit()}");
+
+            
+            
+            
+            if (aether.IntersectionUpdateEnabled)
+                await PushIntersectionUpdatesAsync(session, token);
+        }
+
+        var count = Math.Clamp(settings.AetherVehicleCount, 0, 64);
+        if (count == 0)
+        {
+            session.Log.Info("[AETHER-BG] aetherVehicleCount=0 → 不投放氛围车流");
+            return;
+        }
+
+        
+        Vec3 lp;
+        bool useLive;
+        lock (world.SyncRoot)
+        {
+            lp = world.LastReportedPlayerPosition;
+            useLive = world.HasLastReportedPlayerTransform;
+        }
+        var worldCfg = PrivateServerConfigStore.Current.World;
+        
+        
+        
+        var entry = Protocol.Client4229938.Profile.WorldSpawn;
+        var sx = useLive ? lp.X : entry.X;
+        var sy = useLive ? lp.Y : entry.Y;
+        var sz = useLive ? lp.Z : entry.Z;
+
+        session.Log.Info(
+            $"[AETHER-BG] 以 ({sx:F0},{sy:F0},{sz:F0}) 为中心投放 {count} 台氛围车"
+            + (useLive ? "（玩家实时位置）" : "（回退到配置出生点）"));
+        session.Log.Info(
+            $"[AETHER-BG] 车流仿真：{aether.LaneTickMs}ms/帧（客户端 DELTA_TIME_PER_SERVER_FRAME=50ms），"
+            + $"位置包时间基准 {aether.LaneDataTimeBase}，forceGo={aether.ForceGo}，"
+            + $"限速抖动 ±{aether.SpeedVariance * 50:F0}%");
+
+        var pushed = await PushAetherVehiclesAsync(
+            session, raidId, sx, sy, sz, worldCfg.Facing, count, token);
+        if (pushed > 0)
+        {
+            session.Log.Info($"[AETHER-BG] 车流投放完成：{pushed} 台");
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            var tickMs = Math.Clamp(aether.LaneTickMs, 10, 500);
+            var maintenanceEvery = Math.Max(1, 250 / tickMs);
+            var loopSession = session;
+            _ = Task.Run(async () =>
+            {
+                long tick = 0;
+                
+                
+                
+                
+                
+                
+                
+                var sw = System.Diagnostics.Stopwatch.StartNew();
+                var lastMs = 0L;
+                
+                
+                
+                
+                var nextMs = 0.0;
+                try
+                {
+                    while (!token.IsCancellationRequested)
+                    {
+                        nextMs += tickMs;
+                        var waitMs = nextMs - sw.Elapsed.TotalMilliseconds;
+                        if (waitMs > 0.5)
+                            await Task.Delay((int)Math.Ceiling(waitMs), token);
+                        else if (sw.Elapsed.TotalMilliseconds - nextMs > tickMs * 4)
+                            nextMs = sw.Elapsed.TotalMilliseconds;   
+
+                        var nowMs = sw.ElapsedMilliseconds;
+                        var realDt = (float)Math.Clamp((nowMs - lastMs) / 1000.0, 0.001, 0.5);
+                        lastMs = nowMs;
+
+                        await TickAmbientVehiclesAsync(loopSession, tick++, token, realDt);
+
+                        
+                        
+                        
+                        await TickIntersectionSignalsAsync(loopSession, token);
+
+                        if (tick % maintenanceEvery != 0)
+                            continue;
+
+                        
+                        Vec3 p;
+                        lock (world.SyncRoot)
+                        {
+                            p = world.HasLastReportedPlayerTransform
+                                ? world.LastReportedPlayerPosition
+                                : new Vec3(sx, sy, sz);
+                        }
+                        await MaintainAmbientAsync(loopSession, p.X, p.Z, token);
+                    }
+                }
+                catch (OperationCanceledException) { }
+                catch (Exception ex)
+                {
+                    loopSession.Log.Warn($"[AETHER] 车流仿真循环结束：{ex.GetType().Name}: {ex.Message}");
+                }
+            }, token);
+        }
+
+        
+        var crowd = await PushAetherCrowdAsync(session, sx, sy, sz, aether.CrowdCount, token);
+        if (crowd > 0)
+            session.Log.Info($"[AETHER-BG] 人群投放完成：{crowd} 个");
+
+        
+        
+        
+        try
+        {
+            var fixedNpcs = await PushFixedStaticNpcsAsync(session, sx, sy, sz, aether.FixedNpcCount, token);
+            if (fixedNpcs > 0)
+                session.Log.Info($"[AETHER-BG] 固定 NPC 投放完成：{fixedNpcs} 个（站桩）");
+        }
+        catch (OperationCanceledException) { }
+        catch (Exception ex)
+        {
+            session.Log.Warn($"[AETHER-BG] 固定 NPC 投放失败（已忽略）: {ex.GetType().Name}: {ex.Message}");
+        }
+
+        
+        
+        try
+        {
+            await PublishSceneContentAoiAsync(session, sx, sz, force: true, token);
+        }
+        catch (OperationCanceledException) { }
+        catch (Exception ex)
+        {
+            session.Log.Warn($"[SCENE-AOI] 世界进入下发失败（已忽略）: {ex.GetType().Name}: {ex.Message}");
+        }
     }
 
     [Handler(MethodId.AskGetUnlockedVehicles, HandlerPacketKind.Invoke)]
@@ -351,9 +594,9 @@ internal sealed partial class GameRouter
         return conn.ReturnAsync(msg, result);
     }
 
-    // Client-driven enter/exit + movement reports. The client owns the simulation;
-    // the server accepts them so the drive loop never stalls waiting for a reply.
-    // AskVehicleMove additionally feeds the debug panel's live coordinates.
+    
+    
+    
     [Handler(MethodId.AskVehicleMove, HandlerPacketKind.Notify)]
     private Task AskVehicleMove(Connection conn, UxRpcMessage msg)
     {
@@ -369,8 +612,9 @@ internal sealed partial class GameRouter
         return Task.CompletedTask;
     }
 
-    [Handler(MethodId.AskPlayerStartEnterOrExitVehicle, HandlerPacketKind.Notify)]
-    [Handler(MethodId.AskPlayerFinishEnterOrExitVehicle, HandlerPacketKind.Notify)]
+    
+    
+    
     [Handler(MethodId.AskVehicleStartMove, HandlerPacketKind.Notify)]
     [Handler(MethodId.AskVehicleStopMove, HandlerPacketKind.Notify)]
     [Handler(MethodId.AskVehicleHorn, HandlerPacketKind.Notify)]
@@ -380,7 +624,7 @@ internal sealed partial class GameRouter
     [Handler(MethodId.AskKillVehicle, HandlerPacketKind.Notify)]
     private Task VehicleNotifyAccept(Connection conn, UxRpcMessage msg) => Task.CompletedTask;
 
-    // Drive-loop invokes with void returns (combat/contact/horn-nitro/state signals).
+    
     [Handler(MethodId.VehicleDriveStateChange, HandlerPacketKind.Invoke)]
     [Handler(MethodId.AskChangeGoVehicleDriveState, HandlerPacketKind.Invoke)]
     [Handler(MethodId.AskVehicleDeadEnd, HandlerPacketKind.Invoke)]

@@ -1,0 +1,38 @@
+{
+  "_class": "FashionEditConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 1,
+  "records": [
+    {
+      "Id": 11199000,
+      "EditType": 1,
+      "MinScale": 0.5,
+      "MaxScale": 1.5,
+      "MinOffsetRadius": -0.0500000007,
+      "MaxOffsetRadius": 0.0500000007,
+      "MinOffset": {
+        "X": -0.100000001,
+        "Y": -0.100000001,
+        "Z": -0.100000001
+      },
+      "MaxOffset": {
+        "X": 0.100000001,
+        "Y": 0.100000001,
+        "Z": 0.100000001
+      },
+      "MinRotation": {
+        "X": -180,
+        "Y": -180,
+        "Z": -180
+      },
+      "MaxRotation": {
+        "X": 180,
+        "Y": 180,
+        "Z": 180
+      }
+    }
+  ],
+  "_dumpedCount": 1,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

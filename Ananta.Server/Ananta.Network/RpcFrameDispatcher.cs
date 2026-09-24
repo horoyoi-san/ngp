@@ -5,7 +5,6 @@ using Ananta.SDK.Rpc;
 
 namespace Ananta.Server.Network;
 
-/// <summary>Decodes the small outer RPC frame envelope shared by login, gate and game sockets.</summary>
 internal static class RpcFrameDispatcher
 {
     internal static async Task DispatchAsync(
@@ -14,7 +13,7 @@ internal static class RpcFrameDispatcher
         Frame frame,
         CancellationToken cancellationToken)
     {
-        // Heartbeat request -> heartbeat reply.
+        
         if (frame.Mode == 0x04)
         {
             var heartbeat = frame.Payload.Length == 8 ? frame.Payload : new byte[8];
@@ -25,8 +24,8 @@ internal static class RpcFrameDispatcher
         if (frame.Mode == 0x03 && frame.Payload.Length == 8)
             return;
 
-        // Client received an invoke that it does not implement. Acknowledge it instead of
-        // letting an optional compatibility RPC break the whole session.
+        
+        
         if (frame.Mode == 0x08 && frame.Payload.Length >= 9)
         {
             RuntimeLogs.RawFrame(session.Log.Scope, "C2S", frame.Mode, frame.Payload, "CLIENT_UNIMPLEMENTED_INVOKE");

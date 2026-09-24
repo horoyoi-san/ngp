@@ -1,0 +1,54 @@
+{
+  "_class": "PoiGameCodeTrackConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 11,
+  "records": [
+    {
+      "Id": 101,
+      "Snippet": "#c569CD6def#z #cdedbabcreate_payload#z#cffd600(#z#c9ddcfebuffer_size#z#cd3d4d3,#z #c9ddcfereturn_address#z#cffd600)#z#cd3d4d3:#z\n        #c9ddcfepayload#z #cd3d4d3=#z #c569CD6b#z#cce9077\"A\"#z #cd3d4d3*#z #c9ddcfebuffer_size#z\n        #c9ddcfepayload#z #cd3d4d3+=#z #c4EC9B0struct#z#cd3d4d3.#z#cdedbabpack#z#cffd600(#z#cce9077\"<I\"#z#cd3d4d3,#z #c9ddcfereturn_address#z#cffd600)#z\n        #c9ddcfepayload#z #cd3d4d3+=#z #c569CD6b#z#cce9077\"\\x90\"#z #cd3d4d3*#z #cb5cea816#z\n        #c9ddcfepayload#z #cd3d4d3+=#z #c569CD6b#z#cce9077\"\\xcc\"#z\n        #cC586C0return#z #c9ddcfepayload#z"
+    },
+    {
+      "Id": 102,
+      "Snippet": "#c9ddcfecursor#z #cd3d4d3=#z #c9ddcfeconnection#z#cd3d4d3.#z#cdedbabcursor#z#cffd600(#z#cffd600)#z\n#c9ddcfecursor#z#cd3d4d3.#z#cdedbabexecute#z#cffd600(#z#cce9077'''CREATE TABLE IF NOT EXISTS \n                            mugen ( id INTEGER PRIMARY\n                            KEY, value REAL\n                            )'''#z#cffd600)#z\n#c9ddcfeconnection#z#cd3d4d3.#z#cdedbabcommit#z#cffd600(#z#cffd600)#z"
+    },
+    {
+      "Id": 103,
+      "Snippet": "#c9ddcfe            s#z#cd3d4d3.#z#cdedbabconnect#z#cffd600(#z#cd970d5(#z#c9ddcfetarget_ip#z#cd3d4d3,#z #c9ddcfetarget_port#z#cd970d5)#z#cffd600)#z\n            #c9ddcfes#z#cd3d4d3.#z#cdedbabsendall#z#cffd600(#z#c9ddcfecompressed_payload#z#cd3d4d3.#z#cdedbabencode#z#cd970d5(#z#cd970d5)#z#cffd600)#z\n            #c9ddcferesponse#z #cd3d4d3=#z #c9ddcfes#z#cd3d4d3.#z#cdedbabrecv#z#cffd600(#z#cb5cea81024#z#cffd600)#z\n            \n#cC586C0except#z #c4EC9B0Exception#z #cC586C0as#z #c9ddcfee#z:\n        #cC586C0pass#z"
+    },
+    {
+      "Id": 104,
+      "Snippet": "#c569CD6def#z #cdedbabnormalize_data#z#cffd600(#z#c9ddcfedata#z#cffd600)#z#cd3d4d3:#z\n        #c9ddcfescaler#z #cd3d4d3=#z #c4EC9B0StandardScaler#z#cffd600(#z#cffd600)#z\n        #cC586C0return#z #c9ddcfescaler#z#cd3d4d3.#z#cdedbabfit_transform#z#cffd600(#z#c9ddcfedata#z#cffd600)#z\n\n#c569CD6def#z #cdedbabperform_pca#z#cffd600(#z#c9ddcfedata#z#cd3d4d3,#z #c9ddcfen_components#z#cffd600)#z#cd3d4d3:#z\n        #c9ddcfepca#z #cd3d4d3=#z #c4EC9B0PCA#z#cffd600(#z#c9ddcfen_components#z#cd3d4d3=#z#c9ddcfen_components#z#cffd600)#z"
+    },
+    {
+      "Id": 105,
+      "Snippet": "#cC586C0while#z #c9ddcfereceived_size#z #cd3d4d3<#z #c9ddcfefile_size#z#cd3d4d3:#z\n        #c9ddcfedata#z #cd3d4d3=#z #c9ddcfeconn#z#cd3d4d3.#z#cdedbabrecv#z#cffd600(#z#cb5cea81024#z#cffd600)#z\n        #cC586C0if#z #c9ddcfenot#z #c9ddcfedata#z#cd3d4d3:#z\n                #cC586C0break#z\n        #c9ddcfefile#z#cd3d4d3.#z#cdedbabwrite#z#cffd600(#z#c9ddcfedata#z#cffd600)#z\n        #c9ddcfereceived_size#z #cd3d4d3+=#z #cdedbablens#z#cffd600(#z#c9ddcfedata#z#cffd600)#z"
+    },
+    {
+      "Id": 106,
+      "Snippet": "#cC586C0if#z #cd3d4d3IP#z #cC586C0in#z #c9ddcfepacket#z #cd3d4d3and#z #cd3d4d3TCP#z #cC586C0in#z #c9ddcfepacket#z#cd3d4d3:#z\n        #c9ddcfepayload#z #cd3d4d3=#z #c4EC9B0bytes#z#cffd600(#z#c9ddcfepacket#z#cd970d5[#z#cd3d4d3TCP#z#cd970d5]#z#cd3d4d3.#z#c9ddcfepayload#z#cffd600)#z\n        #c9ddcfedata_hash#z #cd3d4d3=#z #cdedbabcompute_hash#z#cffd600(#z#c9ddcfepayload#z#cffd600)#z\n        #cC586C0if#z #c9ddcfedata_hash#z #cC586C0not in#z #c9ddcfeknown_packets#z#cd3d4d3:#z\n                #c9ddcfeknown_packets#z#cd970d5[#z#c9ddcfedata_hash#z#cd970d5]#z #cd3d4d3=#z #c9ddcfepayload#z\n                #c9ddcfeencrypted#z #cd3d4d3=#z #cdedbabencrypt#z#cffd600(#z#c9ddcfepayload#z#cd3d4d3,#z #c9ddcfeKEY#z#cffd600)#z"
+    },
+    {
+      "Id": 107,
+      "Snippet": "#c569CD6def#z #cdedbabexecute_command#z#cffd600(#z#c9ddcfecommand#z#cffd600)#z#cd3d4d3:#z\n        #c9ddcfeprocess#z #cd3d4d3=#z #c4EC9B0subprocess#z#cd3d4d3.#z#c4EC9B0Popen#z#cffd600(#z#c9ddcfecommand#z#cd3d4d3,#z \n                                           #c9ddcfeshell#z#cd3d4d3=#z#c569CD6True#z#cd3d4d3,#z\n                                           #c9ddcfestdout#z#cd3d4d3=#z#c4EC9B0subprocess#z#cd3d4d3.#z#c9ddcfePIPE#z#cd3d4d3,#z\n                                           #c9ddcfestderr#z#cd3d4d3=#z#c4EC9B0subprocess#z#cd3d4d3.#z#c9ddcfePIPE#z#cffd600)#z\n        #c9ddcfestdout#z#cd3d4d3,#z #c9ddcfestderr#z #cd3d4d3=#z #c9ddcfeprocess#z#cd3d4d3.#z#cdedbabcommunicate#z#cffd600(#z#cffd600)#z"
+    },
+    {
+      "Id": 108,
+      "Snippet": "#c6A9942#Decrypt files for demonstration purposes#z\n#cC586C0for#z #c9ddcfefilename#z #cC586C0in#z #c4EC9B0os#z#cd3d4d3.#z#cdedbablistdir#z#cffd600(#z#c9ddcfedirectory#z#cffd600)#z:\n        #c9ddcfefile_path#z #cd3d4d3=#z #c4EC9B0os#z#cd3d4d3.#z#c9ddcfepath#z#cd3d4d3.#z#cdedbabjoin#z#cffd600(#z#c9ddcfedirectory#z#cd3d4d3,#z #c9ddcfefilename#z#cffd600)#z\n        #cC586C0if#z #c4EC9B0os#z#cd3d4d3.#z#c9ddcfepath#z#cd3d4d3.#z#cdedbabisfile#z#cffd600(#z#c9ddcfefile_path#z#cffd600)#z:\n                #cdedbabdecrypt_file#z#cffd600(#z#c9ddcfefile_path#z#cd3d4d3,#z #c9ddcfeekey#z#cffd600)#z\n#c9ddcfemonitor_thread#z#cd3d4d3.#z#cdedbabjoin#z#cffd600(#z#cffd600)#z"
+    },
+    {
+      "Id": 109,
+      "Snippet": "#c9ddcfepipeline#z #cd3d4d3=#z #c4EC9B0Pipeline#z#cffd600(#z#cd970d5[#z\n        #c569CD6(#z#cce9077'scaler'#z#cd3d4d3,#z #c4EC9B0StandardScaler#z#cffd600(#z#cffd600)#z#c569CD6)#z#cd3d4d3,#z\n        #c569CD6(#z#cce9077'classifier'#z#cd3d4d3,#z #c4EC9B0RandomForestClassifier#z#cffd600(#z#cffd600)#z#c569CD6)#z\n#cd970d5]#z#cffd600)#z\n#c9ddcfeparam_grid#z #cd3d4d3=#z #cffd600{#z\n        #cce9077'classifier__n_estimators'#z#cd3d4d3:#z #cd970d5[#z#cb5cea8100#z#cd3d4d3,#z #cb5cea8200#z#cd3d4d3,#z #cb5cea8300#z#cd970d5]#z#cd3d4d3,#z"
+    },
+    {
+      "Id": 110,
+      "Snippet": "#c9ddcfedirectory_path#z #cd3d4d3=#z #cce9077\"/path/to/monitor\"#z\n#c9ddcfekey#z #cd3d4d3=#z #cdedbabgenerate_key#z#cffd600(#z#cffd600)#z\n#c9ddcfemonitor_thread#z #cd3d4d3=#z #c4EC9B0threading#z#cd3d4d3.#z#cdedbabThread#z#cffd600(#z\n        #c9ddcfetarget#z#cd3d4d3=#z#cdedbabmonitor_directory#z#cd3d4d3,#z\n        #c9ddcfeargs#z#cd3d4d3=#z#cd970d5(#z#c9ddcfedirectory_path#z#cd3d4d3,#z #c9ddcfekey#z#cd970d5)#z#cffd600)#z\n#c9ddcfemonitor_thread#z#cd3d4d3.#z#cdedbabstart#z#cffd600(#z#cffd600)#z"
+    },
+    {
+      "Id": 111,
+      "Snippet": "#c9ddcfe        self.model#z #cd3d4d3=#z #c9ddcfeself#z#cd3d4d3.#z#cdedbab_build_model#z#cffd600(#z#cffd600)#z  \n        #c6A9942# Learning rate for the neural network#z\n        #c9ddcfeself.learning_rate#z #cd3d4d3=#z #cb5cea80.001#z  \n        \n#c569CD6def#z #cdedbab_build_model#z#cffd600(#z#c9ddcfeself#z#cffd600)#z#cd3d4d3:#z\n        #c6A9942# Deep Q-Network model#z"
+    }
+  ],
+  "_dumpedCount": 11,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

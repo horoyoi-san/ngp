@@ -1,0 +1,40 @@
+{
+  "_class": "PlanningBoardRouteConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 3,
+  "records": [
+    {
+      "Id": 12153001,
+      "Desc": "Plan: Assault",
+      "MaxProgress": 1,
+      "UnlockShow": "有成员尚未完成前置任务：猎金游戏·斯拜科酒店",
+      "__IDX__Desc": 139433,
+      "__RAW__Desc": "",
+      "__IDX__UnlockShow": 171059,
+      "__RAW__UnlockShow": ""
+    },
+    {
+      "Id": 12153002,
+      "Desc": "Plan: Stealth Run",
+      "MaxProgress": 0,
+      "UnlockShow": "Unlocked after completing #IDDMethod: Frontal Assault#z",
+      "__IDX__Desc": 139434,
+      "__RAW__Desc": "",
+      "__IDX__UnlockShow": 139435,
+      "__RAW__UnlockShow": ""
+    },
+    {
+      "Id": 12153003,
+      "Desc": "Plan: Disguise",
+      "MaxProgress": 0,
+      "UnlockShow": "Unlocked after completing #IDDMethod: Stealth Run#z",
+      "__IDX__Desc": 139436,
+      "__RAW__Desc": "",
+      "__IDX__UnlockShow": 139437,
+      "__RAW__UnlockShow": ""
+    }
+  ],
+  "_dumpedCount": 3,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

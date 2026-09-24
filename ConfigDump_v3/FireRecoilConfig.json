@@ -1,0 +1,162 @@
+{
+  "_class": "FireRecoilConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 6,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "冲锋枪测试后坐力",
+      "CoolDown": 0,
+      "PitchMaxRecoil": 8,
+      "YawMaxRecoil": 3,
+      "TransitionCurve": 67100087,
+      "TransitionDuration": 0.0599999987,
+      "RecoverDelay": 0.100000001,
+      "RecoilRecoveAvgSpeed": 12,
+      "RecoilRecoveCurveType": 2,
+      "RecoilRecoverMode": 3,
+      "RecoilRecoverPercent": 0.850000024,
+      "PitchRecoilRecoverBreakThreshold": 0.800000012,
+      "YawRecoilRecoverBreakThreshold": 0.800000012,
+      "BulletRecoil": [
+        {
+          "bulletIndex": 1,
+          "bulletRangeRecoilId": 1
+        },
+        {
+          "bulletIndex": 2,
+          "bulletRangeRecoilId": 2
+        },
+        {
+          "bulletIndex": 11,
+          "bulletRangeRecoilId": 3
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "Name": "UMP45",
+      "CoolDown": 0,
+      "PitchMaxRecoil": 5,
+      "YawMaxRecoil": 5,
+      "TransitionCurve": 67100380,
+      "TransitionDuration": 0.0333333015,
+      "RecoverDelay": 0,
+      "RecoilRecoveAvgSpeed": 12,
+      "RecoilRecoveCurveType": 2,
+      "RecoilRecoverMode": 3,
+      "RecoilRecoverPercent": 1,
+      "PitchRecoilRecoverBreakThreshold": 1,
+      "YawRecoilRecoverBreakThreshold": 1,
+      "BulletRecoil": [
+        {
+          "bulletIndex": 1,
+          "bulletRangeRecoilId": 1
+        },
+        {
+          "bulletIndex": 2,
+          "bulletRangeRecoilId": 2
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "Name": "M870",
+      "CoolDown": 0,
+      "PitchMaxRecoil": 10,
+      "YawMaxRecoil": 5,
+      "TransitionCurve": 67100380,
+      "TransitionDuration": 0.100000001,
+      "RecoverDelay": 0.0329999998,
+      "RecoilRecoveAvgSpeed": 12,
+      "RecoilRecoveCurveType": 2,
+      "RecoilRecoverMode": 3,
+      "RecoilRecoverPercent": 1,
+      "PitchRecoilRecoverBreakThreshold": 1,
+      "YawRecoilRecoverBreakThreshold": 1,
+      "BulletRecoil": [
+        {
+          "bulletIndex": 1,
+          "bulletRangeRecoilId": 10
+        }
+      ]
+    },
+    {
+      "Id": 4,
+      "Name": "AXMC",
+      "CoolDown": 0,
+      "PitchMaxRecoil": 10,
+      "YawMaxRecoil": 5,
+      "TransitionCurve": 67100380,
+      "TransitionDuration": 0.129999995,
+      "RecoverDelay": 0.0599999987,
+      "RecoilRecoveAvgSpeed": 12,
+      "RecoilRecoveCurveType": 2,
+      "RecoilRecoverMode": 3,
+      "RecoilRecoverPercent": 1,
+      "PitchRecoilRecoverBreakThreshold": 1,
+      "YawRecoilRecoverBreakThreshold": 1,
+      "BulletRecoil": [
+        {
+          "bulletIndex": 1,
+          "bulletRangeRecoilId": 11
+        }
+      ]
+    },
+    {
+      "Id": 5,
+      "Name": "M249",
+      "CoolDown": 0,
+      "PitchMaxRecoil": 10,
+      "YawMaxRecoil": 5,
+      "TransitionCurve": 67100380,
+      "TransitionDuration": 0.0333333015,
+      "RecoverDelay": 0,
+      "RecoilRecoveAvgSpeed": 12,
+      "RecoilRecoveCurveType": 2,
+      "RecoilRecoverMode": 3,
+      "RecoilRecoverPercent": 1,
+      "PitchRecoilRecoverBreakThreshold": 1,
+      "YawRecoilRecoverBreakThreshold": 1,
+      "BulletRecoil": [
+        {
+          "bulletIndex": 1,
+          "bulletRangeRecoilId": 20
+        },
+        {
+          "bulletIndex": 2,
+          "bulletRangeRecoilId": 21
+        },
+        {
+          "bulletIndex": 11,
+          "bulletRangeRecoilId": 22
+        }
+      ]
+    },
+    {
+      "Id": 6,
+      "Name": "Glock",
+      "CoolDown": 0,
+      "PitchMaxRecoil": 5,
+      "YawMaxRecoil": 5,
+      "TransitionCurve": 67100380,
+      "TransitionDuration": 0.0500000007,
+      "RecoverDelay": 0.0133330002,
+      "RecoilRecoveAvgSpeed": 12,
+      "RecoilRecoveCurveType": 2,
+      "RecoilRecoverMode": 3,
+      "RecoilRecoverPercent": 1,
+      "PitchRecoilRecoverBreakThreshold": 1,
+      "YawRecoilRecoverBreakThreshold": 1,
+      "BulletRecoil": [
+        {
+          "bulletIndex": 1,
+          "bulletRangeRecoilId": 12
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 6,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -1,0 +1,19 @@
+{
+  "_class": "BotPerceptionConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 1,
+  "records": [
+    {
+      "Id": 1001,
+      "MaxDetectRadius": 50,
+      "HorizontalFOV": 300,
+      "DetectHeightUp": 100,
+      "DetectHeightDown": -100,
+      "BackDetectRadius": 30,
+      "BackDetectRaycast": false
+    }
+  ],
+  "_dumpedCount": 1,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

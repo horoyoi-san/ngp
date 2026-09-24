@@ -1,0 +1,124 @@
+{
+  "Situp_CenterYRatio": 0.800000012,
+  "Situp_InitialGreatRange": 0.0799999982,
+  "Situp_InitialGoodRange": 0.25,
+  "Situp_GreatRangeReductionRatio": [
+    0.800000012
+  ],
+  "Situp_GoodRangeReductionRatio": [
+    0.899999976
+  ],
+  "Situp_InitialCursorSpeed": 1.20000005,
+  "Situp_GreatSpeedIncreaseRatio": [
+    1.10000002
+  ],
+  "Situp_GoodSpeedIncreaseRatio": [
+    1.04999995
+  ],
+  "Squat_InitialCount": 5,
+  "Squat_CountIncrease": [
+    0,
+    1,
+    0,
+    1,
+    0
+  ],
+  "Squat_InitialDecayStartTime": 1,
+  "Squat_DecayTimeReduction": 0.970000029,
+  "Squat_InitialDecayRate": 0.100000001,
+  "Squat_DecayRateIncrease": 0.970000029,
+  "Squat_MinInterval": 0.0700000003,
+  "NewSitup_InitialGreatRange": 0.100000001,
+  "NewSitup_InitialGoodRange": 0.239999995,
+  "NewSitup_GreatRangeReductionRatio": [
+    1
+  ],
+  "NewSitup_GoodRangeReductionRatio": [
+    1
+  ],
+  "NewSitup_InitialCursorSpeed": 0.800000012,
+  "NewSitup_GreatSpeedIncreaseRatio": [
+    1.10000002
+  ],
+  "NewSitup_GoodSpeedIncreaseRatio": [
+    1.04999995
+  ],
+  "NewSitup_SwitchCurveTimes": 3,
+  "NewSquat_InitialCount": 5,
+  "NewSquat_CountIncrease": [
+    0,
+    1,
+    0,
+    1,
+    0
+  ],
+  "NewSquat_InitialDecayStartTime": 0.800000012,
+  "NewSquat_DecayTimeReduction": 0.970000029,
+  "NewSquat_InitialDecayRate": 0.100000001,
+  "NewSquat_DecayRateIncrease": 0.970000029,
+  "NewSquat_MinInterval": 0.0900000036,
+  "NewSquat_MinQTEtime": 1,
+  "NewSquat_MinQTEtimeMobile": 2,
+  "NewSquat_QTEPcKeys": [
+    11,
+    12,
+    13,
+    14
+  ],
+  "NewSquat_QTEGamePadKeys": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "NewSquat_QTEDistance": 50,
+  "Treadmill_BarIncreaseLength": 0.0500000007,
+  "Treadmill_MinInterval": 0.100000001,
+  "Treadmill_BarDecreaseSpeed": 0.200000003,
+  "Treadmill_BoxLength": 0.300000012,
+  "Treadmill_BoxMoveTime": 3,
+  "Treadmill_BoxMovePosition": 0.5,
+  "Treadmill_FailureTime": 2,
+  "Treadmill_SwitchSpeedMinPosition": 0.100000001,
+  "Treadmill_SwitchSpeedMaxPosition": 1,
+  "Treadmill_GreatTime": 2,
+  "Treadmill_ClickChangeInterval": 0.0500000007,
+  "Treadmill_MouseWheelChangeMultiplier": 9.99999975e-05,
+  "Treadmill_MaxSpeed": 12,
+  "Treadmill_AnimSpeedsArea": [
+    0.25,
+    0.5,
+    0.75,
+    1
+  ],
+  "Treadmill_BarDecreaseSpeedCoefficient": [
+    0.800000012,
+    1,
+    1.10000002,
+    1.20000005
+  ],
+  "Treadmill_PointCoefficient": [
+    0.5,
+    1,
+    1.20000005,
+    1.5
+  ],
+  "Treadmill_BarDecreaseSpeedCurve": "0.000000;0.000000;0.077642;0.077642;0.000000;1.000000;|0.090000;0.005458;0.051007;0.051007;0.333333;1.000000;|0.100000;0.120000;0.150970;0.150970;0.333333;0.088785;|1.000000;0.200000;0.046720;0.046720;0.158823;0.000000;",
+  "Treadmill_BarDecreaseInterval": 30,
+  "Treadmill_FailureBarSpeed": 1,
+  "Treadmill_WrestlingSpeedTopRange": 0.100000001,
+  "Treadmill_WrestlingTime": 1.5,
+  "Treadmill_SendEventDeltaTime": 0.5,
+  "Treadmill_StickChangeMultiplier": 0.0500000007,
+  "BenchPress_InitialCount": 6,
+  "BenchPress_CountIncrease": [
+    0,
+    1,
+    0
+  ],
+  "BenchPress_InitialDecayStartTime": 1,
+  "BenchPress_DecayTimeReduction": 0.959999979,
+  "BenchPress_InitialDecayRate": 0.100000001,
+  "BenchPress_DecayRateIncrease": 0.949999988,
+  "BenchPress_MinInterval": 0.170000002
+}

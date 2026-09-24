@@ -1,0 +1,271 @@
+{
+  "_class": "AgentSenseConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 29,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "NPC_See_RichVehicle",
+      "Category": 1,
+      "SessionPolicy": 0,
+      "DwellTime": 0,
+      "AuthorityPolicy": 0,
+      "ReplicationPolicy": 0
+    },
+    {
+      "Id": 2,
+      "Name": "NPC_See_StunNPC",
+      "Category": 1,
+      "SessionPolicy": 0,
+      "DwellTime": 0,
+      "AuthorityPolicy": 0,
+      "ReplicationPolicy": 0
+    },
+    {
+      "Id": 3,
+      "Name": "NPC_Near_Player_Bubble",
+      "Category": 1,
+      "SessionPolicy": 0,
+      "DwellTime": 0,
+      "AuthorityPolicy": 0,
+      "ReplicationPolicy": 0
+    },
+    {
+      "Id": 4,
+      "Name": "Faction_SeePlayer",
+      "Category": 1,
+      "SessionPolicy": 1,
+      "DwellTime": 0,
+      "AuthorityPolicy": 0,
+      "ReplicationPolicy": 0
+    },
+    {
+      "Id": 5,
+      "Name": "Faction_SeeAgent",
+      "Category": 1,
+      "SessionPolicy": 0,
+      "DwellTime": 0,
+      "AuthorityPolicy": 0,
+      "ReplicationPolicy": 0
+    },
+    {
+      "Id": 6,
+      "Name": "NPC_See_MultiInteract",
+      "Category": 1,
+      "SessionPolicy": 0,
+      "DwellTime": 0,
+      "AuthorityPolicy": 0,
+      "ReplicationPolicy": 0
+    },
+    {
+      "Id": 7,
+      "Name": "LifeScheduleNpc_See_Player",
+      "Category": 1,
+      "SessionPolicy": 0,
+      "DwellTime": 0,
+      "AuthorityPolicy": 0,
+      "ReplicationPolicy": 0
+    },
+    {
+      "Id": 8,
+      "Name": "LifeScheduleNpc_See_LifeScheduleNpc",
+      "Category": 2,
+      "SessionPolicy": 0,
+      "DwellTime": 0,
+      "AuthorityPolicy": 0,
+      "ReplicationPolicy": 0
+    },
+    {
+      "Id": 9,
+      "Name": "LifeScheduleNpc_See_Player_PrincessHug",
+      "Category": 2,
+      "SessionPolicy": 0,
+      "DwellTime": 0,
+      "AuthorityPolicy": 0,
+      "ReplicationPolicy": 0
+    },
+    {
+      "Id": 12,
+      "Name": "PhotoSelfieLookAt",
+      "Category": 64,
+      "SessionPolicy": 1,
+      "DwellTime": 0,
+      "AuthorityPolicy": 0,
+      "ReplicationPolicy": 0
+    },
+    {
+      "Id": 13,
+      "Name": "QuestNpc_See_Player",
+      "Category": 16,
+      "SessionPolicy": 0,
+      "DwellTime": 0,
+      "AuthorityPolicy": 0,
+      "ReplicationPolicy": 0
+    },
+    {
+      "Id": 14,
+      "Name": "Animal_LookAt_Player",
+      "Category": 128,
+      "SessionPolicy": 1,
+      "DwellTime": 0,
+      "AuthorityPolicy": 0,
+      "ReplicationPolicy": 0
+    },
+    {
+      "Id": 15,
+      "Name": "CompanionSeePlayerHair",
+      "Category": 256,
+      "SessionPolicy": 1,
+      "DwellTime": 0,
+      "AuthorityPolicy": 0,
+      "ReplicationPolicy": 0
+    },
+    {
+      "Id": 16,
+      "Name": "CompanionSeePlayerOutfit",
+      "Category": 256,
+      "SessionPolicy": 1,
+      "DwellTime": 0,
+      "AuthorityPolicy": 0,
+      "ReplicationPolicy": 0
+    },
+    {
+      "Id": 17,
+      "Name": "CompanionSeePlayerVehicle",
+      "Category": 256,
+      "SessionPolicy": 0,
+      "DwellTime": 0,
+      "AuthorityPolicy": 0,
+      "ReplicationPolicy": 0
+    },
+    {
+      "Id": 18,
+      "Name": "CompanionSeePlayerRollover",
+      "Category": 256,
+      "SessionPolicy": 0,
+      "DwellTime": 0,
+      "AuthorityPolicy": 0,
+      "ReplicationPolicy": 0
+    },
+    {
+      "Id": 19,
+      "Name": "CompanionLongDistancePresence",
+      "Category": 256,
+      "SessionPolicy": 1,
+      "DwellTime": 0,
+      "AuthorityPolicy": 0,
+      "ReplicationPolicy": 0
+    },
+    {
+      "Id": 20,
+      "Name": "CompanionLongDistanceReturn",
+      "Category": 256,
+      "SessionPolicy": 0,
+      "DwellTime": 0,
+      "AuthorityPolicy": 0,
+      "ReplicationPolicy": 0
+    },
+    {
+      "Id": 21,
+      "Name": "AmbientNpc_See_PoiPerformer",
+      "Category": 512,
+      "SessionPolicy": 1,
+      "DwellTime": 0,
+      "AuthorityPolicy": 0,
+      "ReplicationPolicy": 0
+    },
+    {
+      "Id": 22,
+      "Name": "CompanionSeePlayerSwing",
+      "Category": 256,
+      "SessionPolicy": 1,
+      "DwellTime": 3,
+      "AuthorityPolicy": 0,
+      "ReplicationPolicy": 0
+    },
+    {
+      "Id": 23,
+      "Name": "CompanionSeePlayerSwim",
+      "Category": 256,
+      "SessionPolicy": 0,
+      "DwellTime": 0,
+      "AuthorityPolicy": 0,
+      "ReplicationPolicy": 0
+    },
+    {
+      "Id": 24,
+      "Name": "CompanionSeePlayerHitFly",
+      "Category": 256,
+      "SessionPolicy": 0,
+      "DwellTime": 0,
+      "AuthorityPolicy": 0,
+      "ReplicationPolicy": 0
+    },
+    {
+      "Id": 25,
+      "Name": "CompanionHighSpeedDriving",
+      "Category": 256,
+      "SessionPolicy": 1,
+      "DwellTime": 5,
+      "AuthorityPolicy": 0,
+      "ReplicationPolicy": 0
+    },
+    {
+      "Id": 26,
+      "Name": "CompanionSeePlayerToilet",
+      "Category": 256,
+      "SessionPolicy": 0,
+      "DwellTime": 0,
+      "AuthorityPolicy": 0,
+      "ReplicationPolicy": 0
+    },
+    {
+      "Id": 27,
+      "Name": "CompanionSeeCat",
+      "Category": 256,
+      "SessionPolicy": 0,
+      "DwellTime": 0,
+      "AuthorityPolicy": 0,
+      "ReplicationPolicy": 0
+    },
+    {
+      "Id": 28,
+      "Name": "CompanionSeeDog",
+      "Category": 256,
+      "SessionPolicy": 0,
+      "DwellTime": 0,
+      "AuthorityPolicy": 0,
+      "ReplicationPolicy": 0
+    },
+    {
+      "Id": 29,
+      "Name": "CompanionSeeRichVehicle",
+      "Category": 256,
+      "SessionPolicy": 0,
+      "DwellTime": 0,
+      "AuthorityPolicy": 0,
+      "ReplicationPolicy": 0
+    },
+    {
+      "Id": 30,
+      "Name": "CompanionSeePlayerSingleActionItem",
+      "Category": 256,
+      "SessionPolicy": 1,
+      "DwellTime": 0,
+      "AuthorityPolicy": 0,
+      "ReplicationPolicy": 0
+    },
+    {
+      "Id": 31,
+      "Name": "CompanionSeePlayerVehicleFirstPersonLookAt",
+      "Category": 256,
+      "SessionPolicy": 1,
+      "DwellTime": 2,
+      "AuthorityPolicy": 0,
+      "ReplicationPolicy": 0
+    }
+  ],
+  "_dumpedCount": 29,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -1,0 +1,223 @@
+{
+  "_class": "ChallengeParamConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 19,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "Collect %s/%s fallen Bulbflies",
+      "CheckName": "Collect",
+      "DesNumType": [
+        1,
+        0
+      ],
+      "CheckServer": 0,
+      "__IDX__Name": 50630,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 2,
+      "Name": "Stay in first place for more than %s/%s seconds",
+      "CheckName": "RankCountTime",
+      "DesNumType": [
+        1,
+        0
+      ],
+      "CheckServer": 0,
+      "__IDX__Name": 50631,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 3,
+      "Name": "Stay airborne for more than %s/%s seconds",
+      "CheckName": "Hang",
+      "DesNumType": [
+        1,
+        0
+      ],
+      "CheckServer": 0,
+      "__IDX__Name": 50632,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 4,
+      "Name": "Collect %s/%s Bulbflies in a row",
+      "CheckName": "Combo",
+      "DesNumType": [
+        1,
+        0
+      ],
+      "CheckServer": 0,
+      "__IDX__Name": 50633,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 6,
+      "Name": "Maintain a speed of over %s km%s/%s seconds",
+      "CheckName": "MaxSpeedTime",
+      "DesNumType": [
+        0,
+        1,
+        0
+      ],
+      "CheckServer": 0,
+      "__IDX__Name": 50634,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 7,
+      "Name": "Complete the track in the top %s positions",
+      "CheckName": "FinishRank",
+      "DesNumType": [
+        0
+      ],
+      "CheckServer": 0,
+      "__IDX__Name": 50635,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 8,
+      "Name": "计时",
+      "CheckName": "",
+      "DesNumType": [],
+      "CheckServer": 1,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "计时"
+    },
+    {
+      "Id": 9,
+      "Name": "Complete the challenge within %s seconds",
+      "CheckName": "FinishInTime",
+      "DesNumType": [
+        0
+      ],
+      "CheckServer": 0,
+      "__IDX__Name": 50636,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 10,
+      "Name": "Collect %s/%s Bulbflies within the first %s seconds",
+      "CheckName": "CollectInTime",
+      "DesNumType": [
+        0,
+        1,
+        0
+      ],
+      "CheckServer": 0,
+      "__IDX__Name": 50627,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 11,
+      "Name": "Collect %s/%s Bulbflies in mid-air",
+      "CheckName": "CollectWithoutLand",
+      "DesNumType": [
+        1,
+        0
+      ],
+      "CheckServer": 0,
+      "__IDX__Name": 50628,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 12,
+      "Name": "Keep your air time under %s/%s seconds",
+      "CheckName": "MaxHangTime",
+      "DesNumType": [
+        1,
+        0
+      ],
+      "CheckServer": 0,
+      "__IDX__Name": 50629,
+      "__RAW__Name": ""
+    },
+    {
+      "Id": 13,
+      "Name": "剩余生命值大于%s%%/%s%%",
+      "CheckName": "RemainHp",
+      "DesNumType": [
+        1,
+        0
+      ],
+      "CheckServer": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "剩余生命值大于%s%%/%s%%"
+    },
+    {
+      "Id": 14,
+      "Name": "受击次数小于%s/%s次",
+      "CheckName": "BeHitNum",
+      "DesNumType": [
+        1,
+        0
+      ],
+      "CheckServer": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "受击次数小于%s/%s次"
+    },
+    {
+      "Id": 15,
+      "Name": "击杀数大于%s/%s",
+      "CheckName": "KillNum",
+      "DesNumType": [
+        1,
+        0
+      ],
+      "CheckServer": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "击杀数大于%s/%s"
+    },
+    {
+      "Id": 16,
+      "Name": "剩余时间大于%s秒",
+      "CheckName": "RemainTime",
+      "DesNumType": [
+        0,
+        1
+      ],
+      "CheckServer": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "剩余时间大于%s秒"
+    },
+    {
+      "Id": 17,
+      "Name": "剩余圈数%s/%s",
+      "CheckName": "",
+      "DesNumType": [],
+      "CheckServer": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "剩余圈数%s/%s"
+    },
+    {
+      "Id": 18,
+      "Name": "战胜对手",
+      "CheckName": "BasketBall",
+      "DesNumType": [],
+      "CheckServer": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "战胜对手"
+    },
+    {
+      "Id": 19,
+      "Name": "战胜对手",
+      "CheckName": "DefeatAllEnemys",
+      "DesNumType": [],
+      "CheckServer": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "战胜对手"
+    },
+    {
+      "Id": 20,
+      "Name": "毽子挑战",
+      "CheckName": "ShuttleCock",
+      "DesNumType": [],
+      "CheckServer": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "毽子挑战"
+    }
+  ],
+  "_dumpedCount": 19,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -1,0 +1,3016 @@
+{
+  "ManOutDoorCfg": {
+    "Id": 10001,
+    "FreeLookName": "freeLookCamera",
+    "Fov": 0,
+    "Rigs": [
+      5.5,
+      0.00999999978,
+      0,
+      5.5,
+      -5.19000006,
+      1.83000004,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "ZoomRatio": 0.156106994,
+    "DefaultDistance": 3.35630012,
+    "MinDistance": 0.819562018,
+    "MaxDistance": 4.68320894,
+    "RotationPerUnitPowerX": 0.0350000001,
+    "RotationPerUnitPowerY": 0.000199999995,
+    "OffsetYCurve": [
+      {
+        "time": 1,
+        "value": 0.100479998,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 8,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "OffsetXCurve": [
+      {
+        "time": 0,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "CollisionOffsetYCurve": [
+      {
+        "time": 1,
+        "value": 0.26573199,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 8,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ],
+    "CollisionPitchFixCurve": [
+      {
+        "time": -90,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": -30,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 0,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 90,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0,
+        "outWeight": 0
+      }
+    ]
+  },
+  "ManInDoorCfg": {
+    "Id": 10002,
+    "FreeLookName": "freeLookCamera",
+    "Fov": 0,
+    "Rigs": [
+      2,
+      0.800000012,
+      -0.360000014,
+      2.4000001,
+      -2.67000008,
+      0.639999986,
+      0.5,
+      0.449999988,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "ZoomRatio": 0.132690936,
+    "DefaultDistance": 2.10744429,
+    "MinDistance": 1.56106973,
+    "MaxDistance": 3.90267444,
+    "RotationPerUnitPowerX": 0.0350000001,
+    "RotationPerUnitPowerY": 0.000199999995,
+    "OffsetYCurve": [
+      {
+        "time": 1.29999995,
+        "value": 0.400000006,
+        "inTangent": -0.00833300035,
+        "outTangent": -0.230768993,
+        "inWeight": 0.333332986,
+        "outWeight": 0.0743400007
+      },
+      {
+        "time": 2.5999999,
+        "value": 0.100000001,
+        "inTangent": -0.230768993,
+        "outTangent": -0.0416669995,
+        "inWeight": 0.333332986,
+        "outWeight": 0.0932840034
+      },
+      {
+        "time": 5,
+        "value": 0,
+        "inTangent": -0.0416669995,
+        "outTangent": -0.00833300035,
+        "inWeight": 0.110074997,
+        "outWeight": 0.333332986
+      }
+    ],
+    "OffsetXCurve": [
+      {
+        "time": 1.29999995,
+        "value": 0.270000011,
+        "inTangent": -0.0739130005,
+        "outTangent": -0.0714289993,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 2.70000005,
+        "value": 0.170000002,
+        "inTangent": -0.0714289993,
+        "outTangent": -0.0739130005,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 5,
+        "value": 0,
+        "inTangent": -0.0739130005,
+        "outTangent": 0,
+        "inWeight": 0,
+        "outWeight": 0
+      }
+    ],
+    "CollisionOffsetYCurve": [
+      {
+        "time": 1,
+        "value": 0.196768001,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 5,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "CollisionPitchFixCurve": [
+      {
+        "time": -90,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": -30,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 0,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 90,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0,
+        "outWeight": 0
+      }
+    ]
+  },
+  "ManBattleCfg": {
+    "Id": 10003,
+    "FreeLookName": "freeLookCamera",
+    "Fov": 0,
+    "Rigs": [
+      5.5,
+      0.100000001,
+      0,
+      5.5,
+      -5.19000006,
+      1.83000004,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "ZoomRatio": 0.156106994,
+    "DefaultDistance": 4.19999981,
+    "MinDistance": 4.19999981,
+    "MaxDistance": 4.19999981,
+    "RotationPerUnitPowerX": 0.0350000001,
+    "RotationPerUnitPowerY": 0.000199999995,
+    "OffsetYCurve": [
+      {
+        "time": 1,
+        "value": 0.275000006,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 3.29999995,
+        "value": 0.275000006,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 8,
+        "value": 0.275000006,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "OffsetXCurve": [
+      {
+        "time": 0,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "CollisionOffsetYCurve": [
+      {
+        "time": 1,
+        "value": 0.099841997,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 8,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ],
+    "CollisionPitchFixCurve": [
+      {
+        "time": -90,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": -30,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 0,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 90,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0,
+        "outWeight": 0
+      }
+    ]
+  },
+  "ManCrouchCfg": {
+    "Id": 10004,
+    "FreeLookName": "freeLookCamera",
+    "Fov": 0,
+    "Rigs": [
+      2.88000011,
+      0.00999999978,
+      -0.519999981,
+      3.4000001,
+      -3.73000002,
+      1.13,
+      0.5,
+      0.699999988,
+      0.5,
+      0.509000003,
+      0.5,
+      0.800000012
+    ],
+    "ZoomRatio": 0.121763445,
+    "DefaultDistance": 2.65381861,
+    "MinDistance": 1.01469541,
+    "MaxDistance": 4.29294205,
+    "RotationPerUnitPowerX": 0.0350000001,
+    "RotationPerUnitPowerY": 0.000199999995,
+    "OffsetYCurve": [
+      {
+        "time": 0,
+        "value": -0.519999981,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 8,
+        "value": -0.519999981,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "OffsetXCurve": [
+      {
+        "time": 0,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "CollisionOffsetYCurve": [
+      {
+        "time": 1,
+        "value": 0.899999976,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 2,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 8,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ],
+    "CollisionPitchFixCurve": [
+      {
+        "time": -90,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": -30,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 0,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 90,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0,
+        "outWeight": 0
+      }
+    ]
+  },
+  "ManShotCfg": {
+    "Id": 10005,
+    "FreeLookName": "shotLookCamera",
+    "Fov": 0,
+    "Rigs": [
+      1.10000002,
+      0.550000012,
+      0.25,
+      1.10000002,
+      -0.600000024,
+      0.699999988,
+      0.5,
+      0.600000024,
+      0.5,
+      0.509000003,
+      0.5,
+      0.509000003
+    ],
+    "ZoomRatio": 0.170000002,
+    "DefaultDistance": 1.10000002,
+    "MinDistance": 1.10000002,
+    "MaxDistance": 1.10000002,
+    "RotationPerUnitPowerX": 0.0350000001,
+    "RotationPerUnitPowerY": 0.000199999995,
+    "OffsetYCurve": [
+      {
+        "time": 0,
+        "value": 0.189999998,
+        "inTangent": -0.140000001,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 5,
+        "value": 0.189999998,
+        "inTangent": 0,
+        "outTangent": -0.0972760022,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "OffsetXCurve": [
+      {
+        "time": 0,
+        "value": 0.720000029,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "CollisionOffsetYCurve": [
+      {
+        "time": 1,
+        "value": 0.899999976,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 2,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 3.20000005,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ],
+    "CollisionPitchFixCurve": []
+  },
+  "ManOutDoor35Cfg": {
+    "Id": 10006,
+    "FreeLookName": "freeLookCamera",
+    "Fov": 0,
+    "Rigs": [
+      5.5,
+      0.00999999978,
+      0,
+      5.5,
+      -5.19000006,
+      1.83000004,
+      0.5,
+      0.699999988,
+      0.5,
+      0.509000003,
+      0.5,
+      0.800000012
+    ],
+    "ZoomRatio": 0.156106979,
+    "DefaultDistance": 3.82462096,
+    "MinDistance": 0.780534863,
+    "MaxDistance": 4.68320942,
+    "RotationPerUnitPowerX": 0.0350000001,
+    "RotationPerUnitPowerY": 0.000199999995,
+    "OffsetYCurve": [
+      {
+        "time": 1,
+        "value": 0.200000003,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 3.29999995,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 8,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "OffsetXCurve": [
+      {
+        "time": 0,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "CollisionOffsetYCurve": [
+      {
+        "time": 1,
+        "value": 0.899999976,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 2,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 8,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ],
+    "CollisionPitchFixCurve": [
+      {
+        "time": -90,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": -30,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 0,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 90,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0,
+        "outWeight": 0
+      }
+    ]
+  },
+  "Selfie1Cfg": {
+    "Id": 10007,
+    "FreeLookName": "selfieLookCamera",
+    "Fov": 55,
+    "Rigs": [
+      0.300000012,
+      0.899999976,
+      0,
+      1,
+      -0.600000024,
+      1.04999995,
+      0.5,
+      0.400000006,
+      0.5,
+      0.400000006,
+      0.5,
+      0.400000006
+    ],
+    "ZoomRatio": 0,
+    "DefaultDistance": 0.589999974,
+    "MinDistance": 0.589999974,
+    "MaxDistance": 0.589999974,
+    "RotationPerUnitPowerX": 0.0350000001,
+    "RotationPerUnitPowerY": 0.000199999995,
+    "OffsetYCurve": [
+      {
+        "time": 0,
+        "value": 0.0500000007,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 1,
+        "value": 0.0500000007,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ],
+    "OffsetXCurve": [
+      {
+        "time": 0,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "CollisionOffsetYCurve": [
+      {
+        "time": 0,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 1,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ],
+    "CollisionPitchFixCurve": [
+      {
+        "time": 0,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 1,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ]
+  },
+  "ManMindpowerCfg": {
+    "Id": 10008,
+    "FreeLookName": "shotLookCamera",
+    "Fov": 0,
+    "Rigs": [
+      3,
+      1.20000005,
+      0.25,
+      2.43000007,
+      -1,
+      1,
+      0.5,
+      0.600000024,
+      0.5,
+      0.509000003,
+      0.5,
+      0.600000024
+    ],
+    "ZoomRatio": 0.170000002,
+    "DefaultDistance": 2.5,
+    "MinDistance": 2.5,
+    "MaxDistance": 2.5,
+    "RotationPerUnitPowerX": 0,
+    "RotationPerUnitPowerY": 0,
+    "OffsetYCurve": [
+      {
+        "time": 0,
+        "value": -0.0500000007,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 10,
+        "value": -0.0500000007,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ],
+    "OffsetXCurve": [
+      {
+        "time": 0,
+        "value": 0.344999999,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "CollisionOffsetYCurve": [
+      {
+        "time": 1,
+        "value": 0.899999976,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 2,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 3.20000005,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ],
+    "CollisionPitchFixCurve": [
+      {
+        "time": -90,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": -30,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 0,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 90,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0,
+        "outWeight": 0
+      }
+    ]
+  },
+  "ManWashCfg": {
+    "Id": 10009,
+    "FreeLookName": "shotLookCamera",
+    "Fov": 0,
+    "Rigs": [
+      2.4000001,
+      2,
+      0.25,
+      2.43000007,
+      -1,
+      1,
+      0.5,
+      0.600000024,
+      0.5,
+      0.509000003,
+      0.5,
+      0.600000024
+    ],
+    "ZoomRatio": 0.170000002,
+    "DefaultDistance": 1.89999998,
+    "MinDistance": 1.89999998,
+    "MaxDistance": 1.89999998,
+    "RotationPerUnitPowerX": 0.0350000001,
+    "RotationPerUnitPowerY": 0.000199999995,
+    "OffsetYCurve": [
+      {
+        "time": 0,
+        "value": -0.0500000007,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 10,
+        "value": -0.0500000007,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ],
+    "OffsetXCurve": [
+      {
+        "time": 0,
+        "value": 0.344999999,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "CollisionOffsetYCurve": [
+      {
+        "time": 1,
+        "value": 0.899999976,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 2,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 3.20000005,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ],
+    "CollisionPitchFixCurve": [
+      {
+        "time": -90,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": -30,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 0,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 90,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0,
+        "outWeight": 0
+      }
+    ]
+  },
+  "ManPetCfg": {
+    "Id": 10010,
+    "FreeLookName": "animalLookCamera",
+    "Fov": 0,
+    "Rigs": [
+      5.5,
+      0.00999999978,
+      0,
+      5.5,
+      -5.19000006,
+      1.83000004,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "ZoomRatio": 0.156106979,
+    "DefaultDistance": 1.40496278,
+    "MinDistance": 1.40496278,
+    "MaxDistance": 1.40496278,
+    "RotationPerUnitPowerX": 0.0350000001,
+    "RotationPerUnitPowerY": 0.000199999995,
+    "OffsetYCurve": [
+      {
+        "time": 1,
+        "value": -0.800000012,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 8,
+        "value": -0.800000012,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "OffsetXCurve": [
+      {
+        "time": 0,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "CollisionOffsetYCurve": [
+      {
+        "time": 1,
+        "value": 0.899999976,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 2,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 8,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ],
+    "CollisionPitchFixCurve": [
+      {
+        "time": -90,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": -30,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 0,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 90,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0,
+        "outWeight": 0
+      }
+    ]
+  },
+  "ManPVCfg": {
+    "Id": 10011,
+    "FreeLookName": "freeLookCamera",
+    "Fov": 0,
+    "Rigs": [
+      6,
+      0.100000001,
+      0,
+      6,
+      -6,
+      0.100000001,
+      0.5,
+      0.600000024,
+      0.5,
+      0.560000002,
+      0.5,
+      0.469999999
+    ],
+    "ZoomRatio": 0.156106979,
+    "DefaultDistance": 3.2782464,
+    "MinDistance": 3.2782464,
+    "MaxDistance": 3.2782464,
+    "RotationPerUnitPowerX": 0.0350000001,
+    "RotationPerUnitPowerY": 0.000199999995,
+    "OffsetYCurve": [
+      {
+        "time": 0,
+        "value": 0.5,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 1,
+        "value": 0.5,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ],
+    "OffsetXCurve": [
+      {
+        "time": 0,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "CollisionOffsetYCurve": [
+      {
+        "time": 1,
+        "value": 0.600000024,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 2,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 8,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ],
+    "CollisionPitchFixCurve": []
+  },
+  "SofaRaceCfg": {
+    "Id": 10012,
+    "FreeLookName": "freeLookCamera",
+    "Fov": 0,
+    "Rigs": [
+      5.5,
+      0.00999999978,
+      0,
+      5.5,
+      -5.19000006,
+      1.83000004,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "ZoomRatio": 0.156106979,
+    "DefaultDistance": 5.46374416,
+    "MinDistance": 5.46374416,
+    "MaxDistance": 5.46374416,
+    "RotationPerUnitPowerX": 0.0350000001,
+    "RotationPerUnitPowerY": 0.000199999995,
+    "OffsetYCurve": [
+      {
+        "time": 0,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 8,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "OffsetXCurve": [
+      {
+        "time": 0,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "CollisionOffsetYCurve": [
+      {
+        "time": 1,
+        "value": 0.899999976,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 2,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 8,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ],
+    "CollisionPitchFixCurve": [
+      {
+        "time": -90,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": -30,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 0,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 90,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0,
+        "outWeight": 0
+      }
+    ]
+  },
+  "MMaleOutDoorCfg": {
+    "Id": 20001,
+    "FreeLookName": "freeLookCamera",
+    "Fov": 0,
+    "Rigs": [
+      5.5,
+      0.00999999978,
+      0,
+      5.5,
+      -5.19000006,
+      1.83000004,
+      0.5,
+      0.699999988,
+      0.5,
+      0.509000003,
+      0.5,
+      0.800000012
+    ],
+    "ZoomRatio": 0.156106979,
+    "DefaultDistance": 3.35630012,
+    "MinDistance": 0.819561601,
+    "MaxDistance": 4.68320942,
+    "RotationPerUnitPowerX": 0.0350000001,
+    "RotationPerUnitPowerY": 0.000199999995,
+    "OffsetYCurve": [
+      {
+        "time": 1,
+        "value": 0.294999987,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 3.29999995,
+        "value": -0.100000001,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 8,
+        "value": -0.100000001,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "OffsetXCurve": [
+      {
+        "time": 0,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "CollisionOffsetYCurve": [
+      {
+        "time": 1,
+        "value": 0.300000012,
+        "inTangent": 0,
+        "outTangent": -0.300000012,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 2,
+        "value": 0,
+        "inTangent": -0.349999994,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 8,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ],
+    "CollisionPitchFixCurve": [
+      {
+        "time": -90,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": -30,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 0,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 90,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0,
+        "outWeight": 0
+      }
+    ]
+  },
+  "SFemaleOutDoorCfg": {
+    "Id": 40001,
+    "FreeLookName": "freeLookCamera",
+    "Fov": 0,
+    "Rigs": [
+      5.5,
+      0.00999999978,
+      0,
+      5.5,
+      -5.19000006,
+      1.83000004,
+      0.5,
+      0.699999988,
+      0.5,
+      0.509000003,
+      0.5,
+      0.800000012
+    ],
+    "ZoomRatio": 0.156106979,
+    "DefaultDistance": 3.35630012,
+    "MinDistance": 0.819561601,
+    "MaxDistance": 4.68320942,
+    "RotationPerUnitPowerX": 0.0350000001,
+    "RotationPerUnitPowerY": 0.000199999995,
+    "OffsetYCurve": [
+      {
+        "time": 1,
+        "value": -0.075000003,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 3.29999995,
+        "value": -0.100000001,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 8,
+        "value": -0.100000001,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "OffsetXCurve": [
+      {
+        "time": 0,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "CollisionOffsetYCurve": [
+      {
+        "time": 1,
+        "value": 0.280000001,
+        "inTangent": 0,
+        "outTangent": -0.280000001,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 2,
+        "value": 0,
+        "inTangent": -0.280000001,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 8,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ],
+    "CollisionPitchFixCurve": [
+      {
+        "time": -90,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": -30,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 0,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 90,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0,
+        "outWeight": 0
+      }
+    ]
+  },
+  "MFemaleOutDoorCfg": {
+    "Id": 50001,
+    "FreeLookName": "freeLookCamera",
+    "Fov": 0,
+    "Rigs": [
+      5.5,
+      0.00999999978,
+      0,
+      5.5,
+      -5.19000006,
+      1.83000004,
+      0.5,
+      0.699999988,
+      0.5,
+      0.509000003,
+      0.5,
+      0.800000012
+    ],
+    "ZoomRatio": 0.156106979,
+    "DefaultDistance": 3.35630012,
+    "MinDistance": 0.819561601,
+    "MaxDistance": 4.68320942,
+    "RotationPerUnitPowerX": 0.0350000001,
+    "RotationPerUnitPowerY": 0.000199999995,
+    "OffsetYCurve": [
+      {
+        "time": 1,
+        "value": 0.155000001,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 3.29999995,
+        "value": -0.100000001,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 8,
+        "value": -0.100000001,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "OffsetXCurve": [
+      {
+        "time": 0,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "CollisionOffsetYCurve": [
+      {
+        "time": 1,
+        "value": 0.25,
+        "inTangent": 0,
+        "outTangent": -0.25,
+        "inWeight": 0.333332986,
+        "outWeight": 0.443563998
+      },
+      {
+        "time": 2,
+        "value": 0,
+        "inTangent": -0.25,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 8,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ],
+    "CollisionPitchFixCurve": [
+      {
+        "time": -90,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": -30,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 0,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 90,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0,
+        "outWeight": 0
+      }
+    ]
+  },
+  "LFemaleOutDoorCfg": {
+    "Id": 60001,
+    "FreeLookName": "freeLookCamera",
+    "Fov": 0,
+    "Rigs": [
+      5.5,
+      0.00999999978,
+      0,
+      5.5,
+      -5.19000006,
+      1.83000004,
+      0.5,
+      0.699999988,
+      0.5,
+      0.509000003,
+      0.5,
+      0.800000012
+    ],
+    "ZoomRatio": 0.156106979,
+    "DefaultDistance": 3.35630012,
+    "MinDistance": 0.819561601,
+    "MaxDistance": 4.68320942,
+    "RotationPerUnitPowerX": 0.0350000001,
+    "RotationPerUnitPowerY": 0.000199999995,
+    "OffsetYCurve": [
+      {
+        "time": 1,
+        "value": 0.25999999,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 3.29999995,
+        "value": -0.100000001,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 8,
+        "value": -0.100000001,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "OffsetXCurve": [
+      {
+        "time": 0,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "CollisionOffsetYCurve": [
+      {
+        "time": 1,
+        "value": 0.349999994,
+        "inTangent": 0,
+        "outTangent": -0.349999994,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 2,
+        "value": 0,
+        "inTangent": -0.349999994,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 8,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ],
+    "CollisionPitchFixCurve": [
+      {
+        "time": -90,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": -30,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 0,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 90,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0,
+        "outWeight": 0
+      }
+    ]
+  },
+  "CarDriveCfg": {
+    "Id": 10013,
+    "FreeLookName": "carDriveCamera",
+    "Fov": 0,
+    "Rigs": [
+      5.4000001,
+      1,
+      0,
+      5.5,
+      -5.19000006,
+      1.83000004,
+      0.5,
+      0.550000012,
+      0.5,
+      0.600000024,
+      0.5,
+      0.800000012
+    ],
+    "ZoomRatio": 0,
+    "DefaultDistance": 5.5,
+    "MinDistance": 4,
+    "MaxDistance": 20,
+    "RotationPerUnitPowerX": 0.0350000001,
+    "RotationPerUnitPowerY": 0.000199999995,
+    "OffsetYCurve": [
+      {
+        "time": 0,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "OffsetXCurve": [
+      {
+        "time": 0,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "CollisionOffsetYCurve": [
+      {
+        "time": 2,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 8,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ],
+    "CollisionPitchFixCurve": [
+      {
+        "time": 2,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 8,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ]
+  },
+  "MotoHoldMindCfg": {
+    "Id": 10014,
+    "FreeLookName": "shotLookCamera",
+    "Fov": 0,
+    "Rigs": [
+      2.4000001,
+      2,
+      0.25,
+      2.43000007,
+      -1,
+      1,
+      0.5,
+      0.600000024,
+      0.5,
+      0.509000003,
+      0.5,
+      0.600000024
+    ],
+    "ZoomRatio": 2,
+    "DefaultDistance": 8,
+    "MinDistance": 8,
+    "MaxDistance": 8,
+    "RotationPerUnitPowerX": 0.0350000001,
+    "RotationPerUnitPowerY": 0.000199999995,
+    "OffsetYCurve": [
+      {
+        "time": 0,
+        "value": -0.0500000007,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 10,
+        "value": -0.0500000007,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ],
+    "OffsetXCurve": [
+      {
+        "time": 0,
+        "value": 0.119999997,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "CollisionOffsetYCurve": [
+      {
+        "time": 1,
+        "value": 0.899999976,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 2,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 3.20000005,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ],
+    "CollisionPitchFixCurve": []
+  },
+  "ManMagnetCfg": {
+    "Id": 10015,
+    "FreeLookName": "magnetCamera",
+    "Fov": 0,
+    "Rigs": [
+      1,
+      5,
+      1.5,
+      5,
+      9,
+      9,
+      0.5,
+      0.800000012,
+      0.5,
+      0.800000012,
+      0.5,
+      0.800000012
+    ],
+    "ZoomRatio": 0.156106994,
+    "DefaultDistance": 2.4000001,
+    "MinDistance": 2.4000001,
+    "MaxDistance": 2.4000001,
+    "RotationPerUnitPowerX": 0.0350000001,
+    "RotationPerUnitPowerY": 0.000199999995,
+    "OffsetYCurve": [
+      {
+        "time": 3,
+        "value": -0.300000012,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "OffsetXCurve": [
+      {
+        "time": 0,
+        "value": 0.200000003,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "CollisionOffsetYCurve": [
+      {
+        "time": 3,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "CollisionPitchFixCurve": [
+      {
+        "time": -90,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": -30,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 0,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 90,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0,
+        "outWeight": 0
+      }
+    ]
+  },
+  "RogueOutDoorCfg": {
+    "Id": 70001,
+    "FreeLookName": "freeLookCamera",
+    "Fov": 0,
+    "Rigs": [
+      5.5,
+      0.00999999978,
+      0,
+      5.5,
+      -5.19000006,
+      1.83000004,
+      0.5,
+      0.699999988,
+      0.5,
+      0.509000003,
+      0.5,
+      0.800000012
+    ],
+    "ZoomRatio": 0.156106979,
+    "DefaultDistance": 5.36641884,
+    "MinDistance": 5.36641884,
+    "MaxDistance": 5.36641884,
+    "RotationPerUnitPowerX": 0.0350000001,
+    "RotationPerUnitPowerY": 0.000199999995,
+    "OffsetYCurve": [
+      {
+        "time": 1,
+        "value": 0.200000003,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 3.29999995,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 8,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "OffsetXCurve": [
+      {
+        "time": 0,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "CollisionOffsetYCurve": [
+      {
+        "time": 1,
+        "value": 0.550000012,
+        "inTangent": 0,
+        "outTangent": -0.550000012,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 2,
+        "value": 0,
+        "inTangent": -0.550000012,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 8,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ],
+    "CollisionPitchFixCurve": [
+      {
+        "time": -90,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": -30,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 0,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 90,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0,
+        "outWeight": 0
+      }
+    ]
+  },
+  "RogueBattleCfg": {
+    "Id": 70002,
+    "FreeLookName": "freeLookCamera",
+    "Fov": 0,
+    "Rigs": [
+      5.5,
+      0.00999999978,
+      0,
+      5.5,
+      -5.19000006,
+      1.83000004,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "ZoomRatio": 0.156106979,
+    "DefaultDistance": 5.36641884,
+    "MinDistance": 5.36641884,
+    "MaxDistance": 5.36641884,
+    "RotationPerUnitPowerX": 0.0350000001,
+    "RotationPerUnitPowerY": 0.000199999995,
+    "OffsetYCurve": [
+      {
+        "time": 0,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 8,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "OffsetXCurve": [
+      {
+        "time": 0,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "CollisionOffsetYCurve": [
+      {
+        "time": 1,
+        "value": 0.899999976,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 2,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 8,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ],
+    "CollisionPitchFixCurve": [
+      {
+        "time": -90,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": -30,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 0,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 90,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0,
+        "outWeight": 0
+      }
+    ]
+  },
+  "ArtHouseBossCfg": {
+    "Id": 70008,
+    "FreeLookName": "freeLookCamera",
+    "Fov": 0,
+    "Rigs": [
+      5.5,
+      0.00999999978,
+      0,
+      5.5,
+      -5.19000006,
+      1.83000004,
+      0.5,
+      0.629999995,
+      0.5,
+      0.629999995,
+      0.5,
+      0.629999995
+    ],
+    "ZoomRatio": 0.156106979,
+    "DefaultDistance": 7.80534887,
+    "MinDistance": 7.80534887,
+    "MaxDistance": 7.80534887,
+    "RotationPerUnitPowerX": 0.0350000001,
+    "RotationPerUnitPowerY": 0.000199999995,
+    "OffsetYCurve": [
+      {
+        "time": 0,
+        "value": 0.5,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "OffsetXCurve": [
+      {
+        "time": 0,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "CollisionOffsetYCurve": [],
+    "CollisionPitchFixCurve": [
+      {
+        "time": -90,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": -30,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 0,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 90,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0,
+        "outWeight": 0
+      }
+    ]
+  },
+  "BankRobShotCfg": {
+    "Id": 10023,
+    "FreeLookName": "shotLookCamera",
+    "Fov": 0,
+    "Rigs": [
+      2.88000011,
+      0.00999999978,
+      -0.519999981,
+      3.4000001,
+      -3.73000002,
+      1.13,
+      0.5,
+      0.699999988,
+      0.5,
+      0.509000003,
+      0.5,
+      0.800000012
+    ],
+    "ZoomRatio": 0.121763445,
+    "DefaultDistance": 2.65381861,
+    "MinDistance": 1.01469541,
+    "MaxDistance": 4.29294205,
+    "RotationPerUnitPowerX": 0.0350000001,
+    "RotationPerUnitPowerY": 0.000199999995,
+    "OffsetYCurve": [
+      {
+        "time": 0,
+        "value": 0.189999998,
+        "inTangent": -0.140000001,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 5,
+        "value": 0.189999998,
+        "inTangent": 0,
+        "outTangent": -0.0972760022,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "OffsetXCurve": [
+      {
+        "time": 0,
+        "value": 0.720000029,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "CollisionOffsetYCurve": [
+      {
+        "time": 1,
+        "value": 0.899999976,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 2,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 3.20000005,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ],
+    "CollisionPitchFixCurve": []
+  },
+  "HoldEnemyShotCfg": {
+    "Id": 10025,
+    "FreeLookName": "shotLookCamera",
+    "Fov": 0,
+    "Rigs": [
+      3,
+      1.20000005,
+      0.25,
+      2.43000007,
+      -1,
+      1,
+      0.5,
+      0.600000024,
+      0.5,
+      0.509000003,
+      0.5,
+      0.600000024
+    ],
+    "ZoomRatio": 0.132690936,
+    "DefaultDistance": 1.79523027,
+    "MinDistance": 1.79523027,
+    "MaxDistance": 1.79523027,
+    "RotationPerUnitPowerX": 0.0350000001,
+    "RotationPerUnitPowerY": 0.000199999995,
+    "OffsetYCurve": [
+      {
+        "time": 0,
+        "value": -0.0500000007,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 10,
+        "value": -0.0500000007,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ],
+    "OffsetXCurve": [
+      {
+        "time": 0,
+        "value": 0.344999999,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "CollisionOffsetYCurve": [
+      {
+        "time": 1,
+        "value": 0.899999976,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 2,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 3.20000005,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ],
+    "CollisionPitchFixCurve": [
+      {
+        "time": -90,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": -30,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 0,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 90,
+        "value": 1,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0,
+        "outWeight": 0
+      }
+    ]
+  },
+  "ShotTest1Cfg": {
+    "Id": 10030,
+    "FreeLookName": "shotLookCamera",
+    "Fov": 13.3000002,
+    "Rigs": [
+      5.5,
+      0.00999999978,
+      0,
+      5.5,
+      -5.19000006,
+      1.83000004,
+      0.5,
+      0.699999988,
+      0.5,
+      0.509000003,
+      0.5,
+      0.800000012
+    ],
+    "ZoomRatio": 0.170000002,
+    "DefaultDistance": 1.29999995,
+    "MinDistance": 1.29999995,
+    "MaxDistance": 1.29999995,
+    "RotationPerUnitPowerX": 0.0350000001,
+    "RotationPerUnitPowerY": 0.000199999995,
+    "OffsetYCurve": [
+      {
+        "time": 0,
+        "value": 0.349999994,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 5,
+        "value": 0.189999998,
+        "inTangent": 0,
+        "outTangent": -0.0972760022,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "OffsetXCurve": [
+      {
+        "time": 0,
+        "value": 1.64999998,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "CollisionOffsetYCurve": [
+      {
+        "time": 1,
+        "value": 0.899999976,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 2,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 3.20000005,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ],
+    "CollisionPitchFixCurve": []
+  },
+  "ShotTest2Cfg": {
+    "Id": 10031,
+    "FreeLookName": "shotLookCamera",
+    "Fov": 0,
+    "Rigs": [
+      1.10000002,
+      0.550000012,
+      0.25,
+      1.10000002,
+      -0.600000024,
+      0.699999988,
+      0.5,
+      0.600000024,
+      0.5,
+      0.509000003,
+      0.5,
+      0.509000003
+    ],
+    "ZoomRatio": 0.132690936,
+    "DefaultDistance": 1.48301625,
+    "MinDistance": 1.48301625,
+    "MaxDistance": 1.48301625,
+    "RotationPerUnitPowerX": 0.0350000001,
+    "RotationPerUnitPowerY": 0.000199999995,
+    "OffsetYCurve": [
+      {
+        "time": 0,
+        "value": 0.280000001,
+        "inTangent": -0.140000001,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 5,
+        "value": 0.280000001,
+        "inTangent": 0,
+        "outTangent": -0.0972760022,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "OffsetXCurve": [
+      {
+        "time": 0,
+        "value": 0.850000024,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "CollisionOffsetYCurve": [
+      {
+        "time": 1,
+        "value": 0.899999976,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 2,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 3.20000005,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ],
+    "CollisionPitchFixCurve": []
+  },
+  "CarRidingStoryCfg": {
+    "Id": 10037,
+    "FreeLookName": "carDriveCamera",
+    "Fov": 0,
+    "Rigs": [
+      5.5,
+      0.00999999978,
+      0,
+      5.5,
+      -5.19000006,
+      1.83000004,
+      0.5,
+      0.5,
+      0.5,
+      0.699999988,
+      0.5,
+      0.800000012
+    ],
+    "ZoomRatio": 0.156106979,
+    "DefaultDistance": 5.07347679,
+    "MinDistance": 5.07347679,
+    "MaxDistance": 5.07347679,
+    "RotationPerUnitPowerX": 0.0350000001,
+    "RotationPerUnitPowerY": 0.000199999995,
+    "OffsetYCurve": [
+      {
+        "time": 1,
+        "value": -0.620000005,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 8,
+        "value": -0.620000005,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "OffsetXCurve": [
+      {
+        "time": 0,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "CollisionOffsetYCurve": [
+      {
+        "time": 2,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 8,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ],
+    "CollisionPitchFixCurve": [
+      {
+        "time": 2,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 8,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ]
+  },
+  "VehicleShotCfg": {
+    "Id": 10038,
+    "FreeLookName": "shotLookCamera",
+    "Fov": 0,
+    "Rigs": [
+      0.600000024,
+      1.10000002,
+      0.100000001,
+      1.29999995,
+      -0.800000012,
+      1.20000005,
+      0.5,
+      0.5,
+      0.5,
+      0.800000012,
+      0.5,
+      0.800000012
+    ],
+    "ZoomRatio": 0.170000002,
+    "DefaultDistance": 0.899999976,
+    "MinDistance": 0.899999976,
+    "MaxDistance": 0.899999976,
+    "RotationPerUnitPowerX": 0.0350000001,
+    "RotationPerUnitPowerY": 0.000199999995,
+    "OffsetYCurve": [
+      {
+        "time": 0,
+        "value": 0.189999998,
+        "inTangent": -0.140000001,
+        "outTangent": -0.140000001,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "OffsetXCurve": [
+      {
+        "time": 0,
+        "value": 0.600000024,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "CollisionOffsetYCurve": [
+      {
+        "time": 1,
+        "value": 0.899999976,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 2,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 3.20000005,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ],
+    "CollisionPitchFixCurve": []
+  },
+  "NpdCarDriveCfg": {
+    "Id": 10093,
+    "FreeLookName": "npdCarDriveCamera",
+    "Fov": 0,
+    "Rigs": [
+      5.4000001,
+      1,
+      0,
+      5.5,
+      -5.19000006,
+      1.83000004,
+      0.5,
+      0.550000012,
+      0.5,
+      0.600000024,
+      0.5,
+      0.800000012
+    ],
+    "ZoomRatio": 0,
+    "DefaultDistance": 5.5,
+    "MinDistance": 1,
+    "MaxDistance": 30,
+    "RotationPerUnitPowerX": 0.0350000001,
+    "RotationPerUnitPowerY": 0.000199999995,
+    "OffsetYCurve": [
+      {
+        "time": 0,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "OffsetXCurve": [
+      {
+        "time": 0,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "CollisionOffsetYCurve": [
+      {
+        "time": 2,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 8,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ],
+    "CollisionPitchFixCurve": [
+      {
+        "time": 2,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 8,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ]
+  },
+  "RaceCarDriveCfg": {
+    "Id": 10130,
+    "FreeLookName": "racerMapCamera",
+    "Fov": 0,
+    "Rigs": [
+      5.4000001,
+      1,
+      0,
+      5.5,
+      -5.19000006,
+      1.83000004,
+      0.5,
+      0.550000012,
+      0.5,
+      0.600000024,
+      0.5,
+      0.800000012
+    ],
+    "ZoomRatio": 0,
+    "DefaultDistance": 5.5,
+    "MinDistance": 1,
+    "MaxDistance": 30,
+    "RotationPerUnitPowerX": 0.0350000001,
+    "RotationPerUnitPowerY": 0.000199999995,
+    "OffsetYCurve": [
+      {
+        "time": 0,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "OffsetXCurve": [
+      {
+        "time": 0,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      }
+    ],
+    "CollisionOffsetYCurve": [
+      {
+        "time": 2,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 8,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ],
+    "CollisionPitchFixCurve": [
+      {
+        "time": 2,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0.333332986
+      },
+      {
+        "time": 8,
+        "value": 0,
+        "inTangent": 0,
+        "outTangent": 0,
+        "inWeight": 0.333332986,
+        "outWeight": 0
+      }
+    ]
+  },
+  "CollisionOffsetYForBodyType": [
+    0.300000012,
+    0.720000029,
+    0.889999986,
+    0.300000012,
+    0.560000002,
+    0.699999988
+  ]
+}

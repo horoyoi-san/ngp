@@ -1,0 +1,31 @@
+{
+  "FilterItems": [
+    {
+      "TypeText": "角色武器",
+      "SubType": "Weapon"
+    },
+    {
+      "TypeText": "角色升级材料",
+      "SubType": "CharacterLevel"
+    },
+    {
+      "TypeText": "角色突破材料",
+      "SubType": "CharacterBreakthrough"
+    },
+    {
+      "TypeText": "武器突破材料",
+      "SubType": "WeaponBreakthrough"
+    },
+    {
+      "TypeText": "恢复类药品",
+      "SubType": "HealingPotion"
+    },
+    {
+      "TypeText": "复活类药品",
+      "SubType": "Resurrection"
+    }
+  ],
+  "CompoundTime": 2,
+  "CraftingText": "正在制作",
+  "RefreshTimeText": "%s时%s分%s秒"
+}

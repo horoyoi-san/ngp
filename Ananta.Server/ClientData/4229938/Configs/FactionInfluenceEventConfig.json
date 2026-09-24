@@ -1,0 +1,1605 @@
+{
+  "_class": "FactionInfluenceEventConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 62,
+  "records": [
+    {
+      "Id": 101,
+      "Name": "Ronji Hood HQ",
+      "InfluenceAreaId": 1021,
+      "RelatedEventId": 2117,
+      "RemoveGpsRadius": 10,
+      "Type": 1,
+      "EventIntensity": 5,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80000800,
+        80003788
+      ],
+      "Drop": 14140258,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017669,
+      "DropDisplay": 14140258,
+      "__IDX__Name": 128935,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 102,
+      "Name": "Ronji Hood Camp",
+      "InfluenceAreaId": 1023,
+      "RelatedEventId": 796,
+      "RemoveGpsRadius": 10,
+      "Type": 2,
+      "EventIntensity": 4,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80000800,
+        80003788
+      ],
+      "Drop": 14140256,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017648,
+      "DropDisplay": 14140256,
+      "__IDX__Name": 128936,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": [
+        {
+          "Explanation": "Increases the amount of damage dealt by a fixed amount.",
+          "IconId": 28002731,
+          "__IDX__Explanation": 4294967293,
+          "__RAW__Explanation": "伤害增加30%、生命上限增加20%"
+        }
+      ]
+    },
+    {
+      "Id": 103,
+      "Name": "Ronji Hood Camp",
+      "InfluenceAreaId": 1022,
+      "RelatedEventId": 795,
+      "RemoveGpsRadius": 10,
+      "Type": 2,
+      "EventIntensity": 4,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80000800,
+        80003788
+      ],
+      "Drop": 14140256,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017648,
+      "DropDisplay": 14140256,
+      "__IDX__Name": 128937,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": [
+        {
+          "Explanation": "Increases the amount of damage dealt by a fixed amount.",
+          "IconId": 28002731,
+          "__IDX__Explanation": 4294967293,
+          "__RAW__Explanation": "伤害增加30%、生命上限增加20%"
+        }
+      ]
+    },
+    {
+      "Id": 104,
+      "Name": "Ronji Hood Kingpin",
+      "InfluenceAreaId": 1021,
+      "RelatedEventId": 794,
+      "RemoveGpsRadius": 10,
+      "Type": 4,
+      "EventIntensity": 4,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [
+        60011405
+      ],
+      "RecommendedWeapons": [
+        80000800,
+        80003788
+      ],
+      "Drop": 14140278,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017648,
+      "DropDisplay": 14140278,
+      "__IDX__Name": 128938,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": [
+        {
+          "Explanation": "Increases the amount of damage dealt by a fixed amount.",
+          "IconId": 28002731,
+          "__IDX__Explanation": 4294967293,
+          "__RAW__Explanation": "伤害增加30%、生命上限增加20%"
+        }
+      ]
+    },
+    {
+      "Id": 105,
+      "Name": "Ronji Hood Skirmish",
+      "InfluenceAreaId": 1022,
+      "RelatedEventId": 907,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80000800,
+        80003788
+      ],
+      "Drop": 14140253,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140253,
+      "__IDX__Name": 128940,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 106,
+      "Name": "Ronji Hood Skirmish",
+      "InfluenceAreaId": 1022,
+      "RelatedEventId": 908,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80000800,
+        80003788
+      ],
+      "Drop": 14140253,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140253,
+      "__IDX__Name": 128942,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 107,
+      "Name": "Ronji Hood Skirmish",
+      "InfluenceAreaId": 1022,
+      "RelatedEventId": 909,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80000800,
+        80003788
+      ],
+      "Drop": 14140253,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140253,
+      "__IDX__Name": 128944,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 108,
+      "Name": "Ronji Hood Skirmish",
+      "InfluenceAreaId": 1023,
+      "RelatedEventId": 910,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80000800,
+        80003788
+      ],
+      "Drop": 14140253,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140253,
+      "__IDX__Name": 128946,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 109,
+      "Name": "Ronji Hood Skirmish",
+      "InfluenceAreaId": 1023,
+      "RelatedEventId": 911,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80000800,
+        80003788
+      ],
+      "Drop": 14140253,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140253,
+      "__IDX__Name": 128948,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 110,
+      "Name": "Ronji Hood Skirmish",
+      "InfluenceAreaId": 1021,
+      "RelatedEventId": 913,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80000800,
+        80003788
+      ],
+      "Drop": 14140253,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140253,
+      "__IDX__Name": 128950,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 121,
+      "Name": "焱风联合会大本营",
+      "InfluenceAreaId": 1011,
+      "RelatedEventId": 43,
+      "RemoveGpsRadius": 10,
+      "Type": 1,
+      "EventIntensity": 5,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80004655,
+        80004650
+      ],
+      "Drop": 14140261,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017669,
+      "DropDisplay": 14140261,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "焱风联合会大本营",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 122,
+      "Name": "Gale Riders Camp",
+      "InfluenceAreaId": 1013,
+      "RelatedEventId": 804,
+      "RemoveGpsRadius": 10,
+      "Type": 2,
+      "EventIntensity": 4,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80004655,
+        80004650
+      ],
+      "Drop": 14140260,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017648,
+      "DropDisplay": 14140260,
+      "__IDX__Name": 128951,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": [
+        {
+          "Explanation": "Increases the amount of damage dealt by a fixed amount.",
+          "IconId": 28002731,
+          "__IDX__Explanation": 4294967293,
+          "__RAW__Explanation": "伤害增加30%、生命上限增加20%"
+        }
+      ]
+    },
+    {
+      "Id": 123,
+      "Name": "Gale Riders Camp",
+      "InfluenceAreaId": 1012,
+      "RelatedEventId": 805,
+      "RemoveGpsRadius": 10,
+      "Type": 2,
+      "EventIntensity": 4,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80004655,
+        80004650
+      ],
+      "Drop": 14140260,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017648,
+      "DropDisplay": 14140260,
+      "__IDX__Name": 128952,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": [
+        {
+          "Explanation": "Increases the amount of damage dealt by a fixed amount.",
+          "IconId": 28002731,
+          "__IDX__Explanation": 4294967293,
+          "__RAW__Explanation": "伤害增加30%、生命上限增加20%"
+        }
+      ]
+    },
+    {
+      "Id": 124,
+      "Name": "Gale Riders Camp",
+      "InfluenceAreaId": 1014,
+      "RelatedEventId": 806,
+      "RemoveGpsRadius": 10,
+      "Type": 2,
+      "EventIntensity": 4,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80004655,
+        80004650
+      ],
+      "Drop": 14140260,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017648,
+      "DropDisplay": 14140260,
+      "__IDX__Name": 128953,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": [
+        {
+          "Explanation": "Increases the amount of damage dealt by a fixed amount.",
+          "IconId": 28002731,
+          "__IDX__Explanation": 4294967293,
+          "__RAW__Explanation": "伤害增加30%、生命上限增加20%"
+        }
+      ]
+    },
+    {
+      "Id": 125,
+      "Name": "Gale Riders Kingpin",
+      "InfluenceAreaId": 1011,
+      "RelatedEventId": 808,
+      "RemoveGpsRadius": 10,
+      "Type": 4,
+      "EventIntensity": 4,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80004655,
+        80004650
+      ],
+      "Drop": 14140279,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017648,
+      "DropDisplay": 14140279,
+      "__IDX__Name": 128954,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": [
+        {
+          "Explanation": "Increases the amount of damage dealt by a fixed amount.",
+          "IconId": 28002731,
+          "__IDX__Explanation": 4294967293,
+          "__RAW__Explanation": "伤害增加30%、生命上限增加20%"
+        }
+      ]
+    },
+    {
+      "Id": 126,
+      "Name": "Gale Riders Skirmish",
+      "InfluenceAreaId": 1013,
+      "RelatedEventId": 807,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80004655,
+        80004650
+      ],
+      "Drop": 14140259,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140259,
+      "__IDX__Name": 128956,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 127,
+      "Name": "Gale Riders Skirmish",
+      "InfluenceAreaId": 1013,
+      "RelatedEventId": 809,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80004655,
+        80004650
+      ],
+      "Drop": 14140259,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140259,
+      "__IDX__Name": 128958,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 128,
+      "Name": "Gale Riders Skirmish",
+      "InfluenceAreaId": 1012,
+      "RelatedEventId": 811,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80004655,
+        80004650
+      ],
+      "Drop": 14140259,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140259,
+      "__IDX__Name": 128960,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 129,
+      "Name": "Gale Riders Skirmish",
+      "InfluenceAreaId": 1014,
+      "RelatedEventId": 812,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80004655,
+        80004650
+      ],
+      "Drop": 14140259,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140259,
+      "__IDX__Name": 128962,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 130,
+      "Name": "Gale Riders Skirmish",
+      "InfluenceAreaId": 1012,
+      "RelatedEventId": 813,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80004655,
+        80004650
+      ],
+      "Drop": 14140259,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140259,
+      "__IDX__Name": 128964,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 141,
+      "Name": "超频帮大本营",
+      "InfluenceAreaId": 1032,
+      "RelatedEventId": 40,
+      "RemoveGpsRadius": 10,
+      "Type": 1,
+      "EventIntensity": 5,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80004655,
+        80004650
+      ],
+      "Drop": 14140264,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017669,
+      "DropDisplay": 14140264,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "超频帮大本营",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 142,
+      "Name": "G-Krew Camp",
+      "InfluenceAreaId": 1031,
+      "RelatedEventId": 1108,
+      "RemoveGpsRadius": 10,
+      "Type": 2,
+      "EventIntensity": 4,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80004655,
+        80004650
+      ],
+      "Drop": 14140263,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017648,
+      "DropDisplay": 14140263,
+      "__IDX__Name": 128965,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": [
+        {
+          "Explanation": "Increases the amount of damage dealt by a fixed amount.",
+          "IconId": 28002731,
+          "__IDX__Explanation": 4294967293,
+          "__RAW__Explanation": "伤害增加30%、生命上限增加20%"
+        }
+      ]
+    },
+    {
+      "Id": 143,
+      "Name": "G-Krew Kingpin",
+      "InfluenceAreaId": 1032,
+      "RelatedEventId": 1109,
+      "RemoveGpsRadius": 10,
+      "Type": 4,
+      "EventIntensity": 4,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80004655,
+        80004650
+      ],
+      "Drop": 14140280,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017648,
+      "DropDisplay": 14140280,
+      "__IDX__Name": 128966,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": [
+        {
+          "Explanation": "Increases the amount of damage dealt by a fixed amount.",
+          "IconId": 28002731,
+          "__IDX__Explanation": 4294967293,
+          "__RAW__Explanation": "伤害增加30%、生命上限增加20%"
+        }
+      ]
+    },
+    {
+      "Id": 144,
+      "Name": "G-Krew Skirmish",
+      "InfluenceAreaId": 1031,
+      "RelatedEventId": 1104,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80004655,
+        80004650
+      ],
+      "Drop": 14140262,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140262,
+      "__IDX__Name": 128968,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 145,
+      "Name": "G-Krew Skirmish",
+      "InfluenceAreaId": 1031,
+      "RelatedEventId": 26,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80004655,
+        80004650
+      ],
+      "Drop": 14140262,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140262,
+      "__IDX__Name": 128970,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 146,
+      "Name": "G-Krew Skirmish",
+      "InfluenceAreaId": 1031,
+      "RelatedEventId": 1106,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80004655,
+        80004650
+      ],
+      "Drop": 14140262,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140262,
+      "__IDX__Name": 128972,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 147,
+      "Name": "G-Krew Skirmish",
+      "InfluenceAreaId": 1032,
+      "RelatedEventId": 1107,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80004655,
+        80004650
+      ],
+      "Drop": 14140262,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140262,
+      "__IDX__Name": 128974,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 161,
+      "Name": "ParaBoar HQ",
+      "InfluenceAreaId": 0,
+      "RelatedEventId": 32,
+      "RemoveGpsRadius": 10,
+      "Type": 1,
+      "EventIntensity": 5,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80004650,
+        80004658
+      ],
+      "Drop": 14140277,
+      "EventBuff": [],
+      "TooltipHeaderId": 28002639,
+      "DropDisplay": 14140277,
+      "__IDX__Name": 160339,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 162,
+      "Name": "ParaBoar Camp",
+      "InfluenceAreaId": 1041,
+      "RelatedEventId": 2576,
+      "RemoveGpsRadius": 10,
+      "Type": 2,
+      "EventIntensity": 4,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80004650,
+        80004658
+      ],
+      "Drop": 14140276,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017648,
+      "DropDisplay": 14140276,
+      "__IDX__Name": 160340,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": [
+        {
+          "Explanation": "Increases the amount of damage dealt by a fixed amount.",
+          "IconId": 28002731,
+          "__IDX__Explanation": 4294967293,
+          "__RAW__Explanation": "伤害增加30%、生命上限增加20%"
+        }
+      ]
+    },
+    {
+      "Id": 163,
+      "Name": "ParaBoar Camp",
+      "InfluenceAreaId": 1042,
+      "RelatedEventId": 2585,
+      "RemoveGpsRadius": 10,
+      "Type": 2,
+      "EventIntensity": 4,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80004650,
+        80004658
+      ],
+      "Drop": 14140276,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017648,
+      "DropDisplay": 14140276,
+      "__IDX__Name": 160341,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": [
+        {
+          "Explanation": "Increases the amount of damage dealt by a fixed amount.",
+          "IconId": 28002731,
+          "__IDX__Explanation": 4294967293,
+          "__RAW__Explanation": "伤害增加30%、生命上限增加20%"
+        }
+      ]
+    },
+    {
+      "Id": 164,
+      "Name": "ParaBoar Camp",
+      "InfluenceAreaId": 1043,
+      "RelatedEventId": 2586,
+      "RemoveGpsRadius": 10,
+      "Type": 2,
+      "EventIntensity": 4,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80004650,
+        80004658
+      ],
+      "Drop": 14140276,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017648,
+      "DropDisplay": 14140276,
+      "__IDX__Name": 160342,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": [
+        {
+          "Explanation": "Increases the amount of damage dealt by a fixed amount.",
+          "IconId": 28002731,
+          "__IDX__Explanation": 4294967293,
+          "__RAW__Explanation": "伤害增加30%、生命上限增加20%"
+        }
+      ]
+    },
+    {
+      "Id": 165,
+      "Name": "ParaBoar Camp",
+      "InfluenceAreaId": 1044,
+      "RelatedEventId": 2587,
+      "RemoveGpsRadius": 10,
+      "Type": 2,
+      "EventIntensity": 4,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80004650,
+        80004658
+      ],
+      "Drop": 14140276,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017648,
+      "DropDisplay": 14140276,
+      "__IDX__Name": 160343,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": [
+        {
+          "Explanation": "Increases the amount of damage dealt by a fixed amount.",
+          "IconId": 28002731,
+          "__IDX__Explanation": 4294967293,
+          "__RAW__Explanation": "伤害增加30%、生命上限增加20%"
+        }
+      ]
+    },
+    {
+      "Id": 166,
+      "Name": "ParaBoar Camp",
+      "InfluenceAreaId": 1045,
+      "RelatedEventId": 2588,
+      "RemoveGpsRadius": 10,
+      "Type": 2,
+      "EventIntensity": 4,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80004650,
+        80004658
+      ],
+      "Drop": 14140276,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017648,
+      "DropDisplay": 14140276,
+      "__IDX__Name": 160344,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": [
+        {
+          "Explanation": "Increases the amount of damage dealt by a fixed amount.",
+          "IconId": 28002731,
+          "__IDX__Explanation": 4294967293,
+          "__RAW__Explanation": "伤害增加30%、生命上限增加20%"
+        }
+      ]
+    },
+    {
+      "Id": 168,
+      "Name": "ParaBoar Skirmish",
+      "InfluenceAreaId": 1041,
+      "RelatedEventId": 2676,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80004650,
+        80004658
+      ],
+      "Drop": 14140275,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140275,
+      "__IDX__Name": 160345,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 169,
+      "Name": "ParaBoar Skirmish",
+      "InfluenceAreaId": 1041,
+      "RelatedEventId": 2677,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80004650,
+        80004658
+      ],
+      "Drop": 14140275,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140275,
+      "__IDX__Name": 160346,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 170,
+      "Name": "ParaBoar Skirmish",
+      "InfluenceAreaId": 1042,
+      "RelatedEventId": 2678,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80004650,
+        80004658
+      ],
+      "Drop": 14140275,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140275,
+      "__IDX__Name": 160347,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 171,
+      "Name": "ParaBoar Skirmish",
+      "InfluenceAreaId": 1042,
+      "RelatedEventId": 2679,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80004650,
+        80004658
+      ],
+      "Drop": 14140275,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140275,
+      "__IDX__Name": 160348,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 172,
+      "Name": "ParaBoar Skirmish",
+      "InfluenceAreaId": 1043,
+      "RelatedEventId": 2680,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80004650,
+        80004658
+      ],
+      "Drop": 14140275,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140275,
+      "__IDX__Name": 160349,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 173,
+      "Name": "ParaBoar Skirmish",
+      "InfluenceAreaId": 1045,
+      "RelatedEventId": 2681,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80004650,
+        80004658
+      ],
+      "Drop": 14140275,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140275,
+      "__IDX__Name": 160350,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 174,
+      "Name": "ParaBoar Skirmish",
+      "InfluenceAreaId": 1045,
+      "RelatedEventId": 2682,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80004650,
+        80004658
+      ],
+      "Drop": 14140275,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140275,
+      "__IDX__Name": 160351,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 175,
+      "Name": "ParaBoar Skirmish",
+      "InfluenceAreaId": 1044,
+      "RelatedEventId": 2683,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80004650,
+        80004658
+      ],
+      "Drop": 14140275,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140275,
+      "__IDX__Name": 160352,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 176,
+      "Name": "ParaBoar Skirmish",
+      "InfluenceAreaId": 1043,
+      "RelatedEventId": 2684,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80004650,
+        80004658
+      ],
+      "Drop": 14140275,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140275,
+      "__IDX__Name": 160353,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 202,
+      "Name": "Masked Malice Camp",
+      "InfluenceAreaId": 1062,
+      "RelatedEventId": 1270,
+      "RemoveGpsRadius": 10,
+      "Type": 2,
+      "EventIntensity": 4,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80000800,
+        80003788,
+        80004655
+      ],
+      "Drop": 14140266,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017648,
+      "DropDisplay": 14140266,
+      "__IDX__Name": 128975,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": [
+        {
+          "Explanation": "Increases the amount of damage dealt by a fixed amount.",
+          "IconId": 28002731,
+          "__IDX__Explanation": 4294967293,
+          "__RAW__Explanation": "伤害增加30%、生命上限增加20%"
+        }
+      ]
+    },
+    {
+      "Id": 203,
+      "Name": "Masked Malice Camp",
+      "InfluenceAreaId": 1061,
+      "RelatedEventId": 1271,
+      "RemoveGpsRadius": 10,
+      "Type": 2,
+      "EventIntensity": 4,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80000800,
+        80003788,
+        80004655
+      ],
+      "Drop": 14140266,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017648,
+      "DropDisplay": 14140266,
+      "__IDX__Name": 128976,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": [
+        {
+          "Explanation": "Increases the amount of damage dealt by a fixed amount.",
+          "IconId": 28002731,
+          "__IDX__Explanation": 4294967293,
+          "__RAW__Explanation": "伤害增加30%、生命上限增加20%"
+        }
+      ]
+    },
+    {
+      "Id": 204,
+      "Name": "Masked Malice Skirmish",
+      "InfluenceAreaId": 1062,
+      "RelatedEventId": 1263,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80000800,
+        80003788,
+        80004655
+      ],
+      "Drop": 14140265,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140265,
+      "__IDX__Name": 128978,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 205,
+      "Name": "Masked Malice Skirmish",
+      "InfluenceAreaId": 1061,
+      "RelatedEventId": 1264,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80000800,
+        80003788,
+        80004655
+      ],
+      "Drop": 14140265,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140265,
+      "__IDX__Name": 128980,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 206,
+      "Name": "Masked Malice Skirmish",
+      "InfluenceAreaId": 1062,
+      "RelatedEventId": 1266,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80000800,
+        80003788,
+        80004655
+      ],
+      "Drop": 14140265,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140265,
+      "__IDX__Name": 128982,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 207,
+      "Name": "Masked Malice Skirmish",
+      "InfluenceAreaId": 1061,
+      "RelatedEventId": 1267,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80000800,
+        80003788,
+        80004655
+      ],
+      "Drop": 14140265,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140265,
+      "__IDX__Name": 128984,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 222,
+      "Name": "Black Metal Camp",
+      "InfluenceAreaId": 1053,
+      "RelatedEventId": 1685,
+      "RemoveGpsRadius": 10,
+      "Type": 2,
+      "EventIntensity": 4,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80000800,
+        80003788,
+        80004655
+      ],
+      "Drop": 14140270,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140270,
+      "__IDX__Name": 128985,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": [
+        {
+          "Explanation": "Increases the amount of damage dealt by a fixed amount.",
+          "IconId": 28002731,
+          "__IDX__Explanation": 4294967293,
+          "__RAW__Explanation": "伤害增加30%、生命上限增加20%"
+        }
+      ]
+    },
+    {
+      "Id": 223,
+      "Name": "Black Metal Camp",
+      "InfluenceAreaId": 1052,
+      "RelatedEventId": 1686,
+      "RemoveGpsRadius": 10,
+      "Type": 2,
+      "EventIntensity": 4,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80000800,
+        80003788,
+        80004655
+      ],
+      "Drop": 14140270,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140270,
+      "__IDX__Name": 128986,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": [
+        {
+          "Explanation": "Increases the amount of damage dealt by a fixed amount.",
+          "IconId": 28002731,
+          "__IDX__Explanation": 4294967293,
+          "__RAW__Explanation": "伤害增加30%、生命上限增加20%"
+        }
+      ]
+    },
+    {
+      "Id": 224,
+      "Name": "Black Metal Camp",
+      "InfluenceAreaId": 1051,
+      "RelatedEventId": 1687,
+      "RemoveGpsRadius": 10,
+      "Type": 2,
+      "EventIntensity": 4,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80000800,
+        80003788,
+        80004655
+      ],
+      "Drop": 14140270,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140270,
+      "__IDX__Name": 128987,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": [
+        {
+          "Explanation": "Increases the amount of damage dealt by a fixed amount.",
+          "IconId": 28002731,
+          "__IDX__Explanation": 4294967293,
+          "__RAW__Explanation": "伤害增加30%、生命上限增加20%"
+        }
+      ]
+    },
+    {
+      "Id": 225,
+      "Name": "Black Metal Skirmish",
+      "InfluenceAreaId": 1051,
+      "RelatedEventId": 1688,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80000800,
+        80003788,
+        80004655
+      ],
+      "Drop": 14140269,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140269,
+      "__IDX__Name": 128989,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 226,
+      "Name": "Black Metal Skirmish",
+      "InfluenceAreaId": 1052,
+      "RelatedEventId": 1689,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80000800,
+        80003788,
+        80004655
+      ],
+      "Drop": 14140269,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140269,
+      "__IDX__Name": 128991,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 227,
+      "Name": "Black Metal Skirmish",
+      "InfluenceAreaId": 1052,
+      "RelatedEventId": 1690,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80000800,
+        80003788,
+        80004655
+      ],
+      "Drop": 14140269,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140269,
+      "__IDX__Name": 128993,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 228,
+      "Name": "Black Metal Skirmish",
+      "InfluenceAreaId": 1052,
+      "RelatedEventId": 1691,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80000800,
+        80003788,
+        80004655
+      ],
+      "Drop": 14140269,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140269,
+      "__IDX__Name": 128995,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 229,
+      "Name": "Black Metal Skirmish",
+      "InfluenceAreaId": 1053,
+      "RelatedEventId": 1692,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80000800,
+        80003788,
+        80004655
+      ],
+      "Drop": 14140269,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140269,
+      "__IDX__Name": 128997,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 242,
+      "Name": "Televised Collective Camp",
+      "InfluenceAreaId": 1072,
+      "RelatedEventId": 1693,
+      "RemoveGpsRadius": 10,
+      "Type": 2,
+      "EventIntensity": 4,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80000800,
+        80003788,
+        80004655
+      ],
+      "Drop": 14140273,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140273,
+      "__IDX__Name": 128998,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": [
+        {
+          "Explanation": "Increases the amount of damage dealt by a fixed amount.",
+          "IconId": 28002731,
+          "__IDX__Explanation": 4294967293,
+          "__RAW__Explanation": "伤害增加30%、生命上限增加20%"
+        }
+      ]
+    },
+    {
+      "Id": 243,
+      "Name": "Televised Collective Camp",
+      "InfluenceAreaId": 1071,
+      "RelatedEventId": 1694,
+      "RemoveGpsRadius": 10,
+      "Type": 2,
+      "EventIntensity": 4,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80000800,
+        80003788,
+        80004655
+      ],
+      "Drop": 14140273,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140273,
+      "__IDX__Name": 128999,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": [
+        {
+          "Explanation": "Increases the amount of damage dealt by a fixed amount.",
+          "IconId": 28002731,
+          "__IDX__Explanation": 4294967293,
+          "__RAW__Explanation": "伤害增加30%、生命上限增加20%"
+        }
+      ]
+    },
+    {
+      "Id": 244,
+      "Name": "Televised Collective Skirmish",
+      "InfluenceAreaId": 1071,
+      "RelatedEventId": 1695,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80000800,
+        80003788,
+        80004655
+      ],
+      "Drop": 14140272,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140272,
+      "__IDX__Name": 129001,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 245,
+      "Name": "Televised Collective Skirmish",
+      "InfluenceAreaId": 1072,
+      "RelatedEventId": 1696,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80000800,
+        80003788,
+        80004655
+      ],
+      "Drop": 14140272,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140272,
+      "__IDX__Name": 129003,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 246,
+      "Name": "Televised Collective Skirmish",
+      "InfluenceAreaId": 1071,
+      "RelatedEventId": 1697,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80000800,
+        80003788,
+        80004655
+      ],
+      "Drop": 14140272,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140272,
+      "__IDX__Name": 129005,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    },
+    {
+      "Id": 247,
+      "Name": "Televised Collective Skirmish",
+      "InfluenceAreaId": 1072,
+      "RelatedEventId": 1698,
+      "RemoveGpsRadius": 10,
+      "Type": 5,
+      "EventIntensity": 2,
+      "EventSguiPic": 28001084,
+      "TaskLimit": [],
+      "RecommendedWeapons": [
+        80000800,
+        80003788,
+        80004655
+      ],
+      "Drop": 14140272,
+      "EventBuff": [],
+      "TooltipHeaderId": 28017627,
+      "DropDisplay": 14140272,
+      "__IDX__Name": 129007,
+      "__RAW__Name": "",
+      "CampBuffExplanation": [],
+      "EventBuffExplanation": []
+    }
+  ],
+  "_dumpedCount": 62,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

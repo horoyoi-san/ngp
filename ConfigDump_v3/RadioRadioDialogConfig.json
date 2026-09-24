@@ -1,0 +1,728 @@
+{
+  "_class": "RadioRadioDialogConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 31,
+  "records": [
+    {
+      "Id": 2001,
+      "SoundId": 70300863,
+      "RadioDialogPriority": 3,
+      "CanChangeRadio": false,
+      "IsSetRadioOn": true,
+      "Subtitle": "",
+      "VoiceSpeed": 0.0149999997,
+      "NextDialogID": [
+        {
+          "RadioID": 1001,
+          "RadioDialogID": 2002
+        },
+        {
+          "RadioID": 1002,
+          "RadioDialogID": 2003
+        },
+        {
+          "RadioID": 1056,
+          "RadioDialogID": 2004
+        },
+        {
+          "RadioID": 1057,
+          "RadioDialogID": 2004
+        },
+        {
+          "RadioID": 1058,
+          "RadioDialogID": 2005
+        },
+        {
+          "RadioID": 1059,
+          "RadioDialogID": 2005
+        },
+        {
+          "RadioID": 1060,
+          "RadioDialogID": 2006
+        },
+        {
+          "RadioID": 1061,
+          "RadioDialogID": 2006
+        }
+      ],
+      "RadioDialogFinishBgm": [
+        {
+          "RadioID": 0,
+          "NextRadioID": 0
+        }
+      ]
+    },
+    {
+      "Id": 2002,
+      "SoundId": 70300863,
+      "RadioDialogPriority": 3,
+      "CanChangeRadio": false,
+      "IsSetRadioOn": true,
+      "Subtitle": "",
+      "VoiceSpeed": 0.0149999997,
+      "NextDialogID": [],
+      "RadioDialogFinishBgm": [
+        {
+          "RadioID": 1001,
+          "NextRadioID": 1001
+        }
+      ]
+    },
+    {
+      "Id": 2003,
+      "SoundId": 70300863,
+      "RadioDialogPriority": 3,
+      "CanChangeRadio": false,
+      "IsSetRadioOn": true,
+      "Subtitle": "",
+      "VoiceSpeed": 0.0149999997,
+      "NextDialogID": [],
+      "RadioDialogFinishBgm": [
+        {
+          "RadioID": 1002,
+          "NextRadioID": 1002
+        }
+      ]
+    },
+    {
+      "Id": 2004,
+      "SoundId": 70300863,
+      "RadioDialogPriority": 3,
+      "CanChangeRadio": false,
+      "IsSetRadioOn": true,
+      "Subtitle": "",
+      "VoiceSpeed": 0.0149999997,
+      "NextDialogID": [],
+      "RadioDialogFinishBgm": [
+        {
+          "RadioID": 1056,
+          "NextRadioID": 1056
+        },
+        {
+          "RadioID": 1057,
+          "NextRadioID": 1057
+        }
+      ]
+    },
+    {
+      "Id": 2005,
+      "SoundId": 70300863,
+      "RadioDialogPriority": 3,
+      "CanChangeRadio": false,
+      "IsSetRadioOn": true,
+      "Subtitle": "",
+      "VoiceSpeed": 4.99999987e-05,
+      "NextDialogID": [],
+      "RadioDialogFinishBgm": [
+        {
+          "RadioID": 1058,
+          "NextRadioID": 1058
+        },
+        {
+          "RadioID": 1059,
+          "NextRadioID": 1059
+        }
+      ]
+    },
+    {
+      "Id": 2006,
+      "SoundId": 70300863,
+      "RadioDialogPriority": 3,
+      "CanChangeRadio": false,
+      "IsSetRadioOn": true,
+      "Subtitle": "",
+      "VoiceSpeed": 0.00150000001,
+      "NextDialogID": [],
+      "RadioDialogFinishBgm": [
+        {
+          "RadioID": 1060,
+          "NextRadioID": 1060
+        },
+        {
+          "RadioID": 1061,
+          "NextRadioID": 1061
+        }
+      ]
+    },
+    {
+      "Id": 2007,
+      "SoundId": 70300863,
+      "RadioDialogPriority": 2,
+      "CanChangeRadio": false,
+      "IsSetRadioOn": false,
+      "Subtitle": "",
+      "VoiceSpeed": 0.0149999997,
+      "NextDialogID": [],
+      "RadioDialogFinishBgm": [
+        {
+          "RadioID": 0,
+          "NextRadioID": 0
+        }
+      ]
+    },
+    {
+      "Id": 2008,
+      "SoundId": 70300863,
+      "RadioDialogPriority": 2,
+      "CanChangeRadio": false,
+      "IsSetRadioOn": false,
+      "Subtitle": "",
+      "VoiceSpeed": 1.49999996e-05,
+      "NextDialogID": [],
+      "RadioDialogFinishBgm": [
+        {
+          "RadioID": 0,
+          "NextRadioID": 0
+        }
+      ]
+    },
+    {
+      "Id": 2009,
+      "SoundId": 70300863,
+      "RadioDialogPriority": 4,
+      "CanChangeRadio": false,
+      "IsSetRadioOn": false,
+      "Subtitle": "",
+      "VoiceSpeed": 0.0149999997,
+      "NextDialogID": [],
+      "RadioDialogFinishBgm": [
+        {
+          "RadioID": 0,
+          "NextRadioID": 0
+        }
+      ]
+    },
+    {
+      "Id": 2010,
+      "SoundId": 70300863,
+      "RadioDialogPriority": 4,
+      "CanChangeRadio": false,
+      "IsSetRadioOn": false,
+      "Subtitle": "",
+      "VoiceSpeed": 0.0149999997,
+      "NextDialogID": [],
+      "RadioDialogFinishBgm": [
+        {
+          "RadioID": 0,
+          "NextRadioID": 0
+        }
+      ]
+    },
+    {
+      "Id": 2011,
+      "SoundId": 70300863,
+      "RadioDialogPriority": 4,
+      "CanChangeRadio": false,
+      "IsSetRadioOn": false,
+      "Subtitle": "",
+      "VoiceSpeed": 0.0149999997,
+      "NextDialogID": [],
+      "RadioDialogFinishBgm": [
+        {
+          "RadioID": 0,
+          "NextRadioID": 0
+        }
+      ]
+    },
+    {
+      "Id": 2012,
+      "SoundId": 70300863,
+      "RadioDialogPriority": 1,
+      "CanChangeRadio": false,
+      "IsSetRadioOn": true,
+      "Subtitle": "",
+      "VoiceSpeed": 0.0149999997,
+      "NextDialogID": [
+        {
+          "RadioID": 1001,
+          "RadioDialogID": 2012
+        },
+        {
+          "RadioID": 1002,
+          "RadioDialogID": 2015
+        }
+      ],
+      "RadioDialogFinishBgm": [
+        {
+          "RadioID": 0,
+          "NextRadioID": 0
+        }
+      ]
+    },
+    {
+      "Id": 2013,
+      "SoundId": 70300863,
+      "RadioDialogPriority": 1,
+      "CanChangeRadio": true,
+      "IsSetRadioOn": false,
+      "Subtitle": "",
+      "VoiceSpeed": 0.0149999997,
+      "NextDialogID": [
+        {
+          "RadioID": 1001,
+          "RadioDialogID": 2013
+        },
+        {
+          "RadioID": 1002,
+          "RadioDialogID": 2016
+        }
+      ],
+      "RadioDialogFinishBgm": [
+        {
+          "RadioID": 0,
+          "NextRadioID": 0
+        }
+      ]
+    },
+    {
+      "Id": 2014,
+      "SoundId": 70300863,
+      "RadioDialogPriority": 1,
+      "CanChangeRadio": true,
+      "IsSetRadioOn": false,
+      "Subtitle": "",
+      "VoiceSpeed": 0.0149999997,
+      "NextDialogID": [
+        {
+          "RadioID": 1001,
+          "RadioDialogID": 2014
+        },
+        {
+          "RadioID": 1002,
+          "RadioDialogID": 2017
+        }
+      ],
+      "RadioDialogFinishBgm": [
+        {
+          "RadioID": 0,
+          "NextRadioID": 0
+        }
+      ]
+    },
+    {
+      "Id": 2015,
+      "SoundId": 70300863,
+      "RadioDialogPriority": 1,
+      "CanChangeRadio": true,
+      "IsSetRadioOn": false,
+      "Subtitle": "",
+      "VoiceSpeed": 0.0149999997,
+      "NextDialogID": [],
+      "RadioDialogFinishBgm": [
+        {
+          "RadioID": 0,
+          "NextRadioID": 0
+        }
+      ]
+    },
+    {
+      "Id": 2016,
+      "SoundId": 70300863,
+      "RadioDialogPriority": 1,
+      "CanChangeRadio": true,
+      "IsSetRadioOn": false,
+      "Subtitle": "",
+      "VoiceSpeed": 0.0149999997,
+      "NextDialogID": [
+        {
+          "RadioID": 1001,
+          "RadioDialogID": 2013
+        },
+        {
+          "RadioID": 1002,
+          "RadioDialogID": 2016
+        }
+      ],
+      "RadioDialogFinishBgm": [
+        {
+          "RadioID": 0,
+          "NextRadioID": 0
+        }
+      ]
+    },
+    {
+      "Id": 2017,
+      "SoundId": 70300863,
+      "RadioDialogPriority": 1,
+      "CanChangeRadio": true,
+      "IsSetRadioOn": false,
+      "Subtitle": "",
+      "VoiceSpeed": 0.0149999997,
+      "NextDialogID": [
+        {
+          "RadioID": 1001,
+          "RadioDialogID": 2014
+        },
+        {
+          "RadioID": 1002,
+          "RadioDialogID": 2017
+        }
+      ],
+      "RadioDialogFinishBgm": [
+        {
+          "RadioID": 0,
+          "NextRadioID": 0
+        }
+      ]
+    },
+    {
+      "Id": 2018,
+      "SoundId": 70300863,
+      "RadioDialogPriority": 1,
+      "CanChangeRadio": true,
+      "IsSetRadioOn": false,
+      "Subtitle": "",
+      "VoiceSpeed": 0.0149999997,
+      "NextDialogID": [],
+      "RadioDialogFinishBgm": [
+        {
+          "RadioID": 0,
+          "NextRadioID": 0
+        }
+      ]
+    },
+    {
+      "Id": 2019,
+      "SoundId": 70300863,
+      "RadioDialogPriority": 2,
+      "CanChangeRadio": false,
+      "IsSetRadioOn": false,
+      "Subtitle": "",
+      "VoiceSpeed": 0.0149999997,
+      "NextDialogID": [],
+      "RadioDialogFinishBgm": [
+        {
+          "RadioID": -1,
+          "NextRadioID": 1018
+        },
+        {
+          "RadioID": 1001,
+          "NextRadioID": 1018
+        },
+        {
+          "RadioID": 1002,
+          "NextRadioID": 1019
+        },
+        {
+          "RadioID": 1056,
+          "NextRadioID": 1009
+        },
+        {
+          "RadioID": 1057,
+          "NextRadioID": 1009
+        },
+        {
+          "RadioID": 1058,
+          "NextRadioID": 1010
+        },
+        {
+          "RadioID": 1059,
+          "NextRadioID": 1010
+        },
+        {
+          "RadioID": 1060,
+          "NextRadioID": 1013
+        },
+        {
+          "RadioID": 1061,
+          "NextRadioID": 1013
+        }
+      ]
+    },
+    {
+      "Id": 2020,
+      "SoundId": 70300863,
+      "RadioDialogPriority": 2,
+      "CanChangeRadio": false,
+      "IsSetRadioOn": false,
+      "Subtitle": "",
+      "VoiceSpeed": 0.0149999997,
+      "NextDialogID": [],
+      "RadioDialogFinishBgm": [
+        {
+          "RadioID": 1018,
+          "NextRadioID": -1
+        },
+        {
+          "RadioID": 1019,
+          "NextRadioID": 1002
+        },
+        {
+          "RadioID": 1018,
+          "NextRadioID": 1001
+        },
+        {
+          "RadioID": 1009,
+          "NextRadioID": 1056
+        },
+        {
+          "RadioID": 1010,
+          "NextRadioID": 1058
+        },
+        {
+          "RadioID": 1013,
+          "NextRadioID": 1060
+        }
+      ]
+    },
+    {
+      "Id": 2021,
+      "SoundId": 70300863,
+      "RadioDialogPriority": 2,
+      "CanChangeRadio": false,
+      "IsSetRadioOn": false,
+      "Subtitle": "",
+      "VoiceSpeed": 0.0149999997,
+      "NextDialogID": [],
+      "RadioDialogFinishBgm": [
+        {
+          "RadioID": -1,
+          "NextRadioID": 1039
+        },
+        {
+          "RadioID": 1001,
+          "NextRadioID": 1040
+        },
+        {
+          "RadioID": 1002,
+          "NextRadioID": 1041
+        },
+        {
+          "RadioID": 1056,
+          "NextRadioID": 1039
+        },
+        {
+          "RadioID": 1057,
+          "NextRadioID": 1039
+        },
+        {
+          "RadioID": 1058,
+          "NextRadioID": 1039
+        },
+        {
+          "RadioID": 1059,
+          "NextRadioID": 1039
+        },
+        {
+          "RadioID": 1060,
+          "NextRadioID": 1039
+        },
+        {
+          "RadioID": 1061,
+          "NextRadioID": 1039
+        }
+      ]
+    },
+    {
+      "Id": 2022,
+      "SoundId": 70300863,
+      "RadioDialogPriority": 2,
+      "CanChangeRadio": false,
+      "IsSetRadioOn": false,
+      "Subtitle": "",
+      "VoiceSpeed": 0.0149999997,
+      "NextDialogID": [],
+      "RadioDialogFinishBgm": [
+        {
+          "RadioID": -1,
+          "NextRadioID": 1043
+        },
+        {
+          "RadioID": 1001,
+          "NextRadioID": 1044
+        },
+        {
+          "RadioID": 1002,
+          "NextRadioID": 1045
+        },
+        {
+          "RadioID": 1056,
+          "NextRadioID": 1043
+        },
+        {
+          "RadioID": 1057,
+          "NextRadioID": 1043
+        },
+        {
+          "RadioID": 1058,
+          "NextRadioID": 1043
+        },
+        {
+          "RadioID": 1059,
+          "NextRadioID": 1043
+        },
+        {
+          "RadioID": 1060,
+          "NextRadioID": 1043
+        },
+        {
+          "RadioID": 1061,
+          "NextRadioID": 1043
+        }
+      ]
+    },
+    {
+      "Id": 2023,
+      "SoundId": 70390003,
+      "RadioDialogPriority": 2,
+      "CanChangeRadio": true,
+      "IsSetRadioOn": false,
+      "Subtitle": "",
+      "VoiceSpeed": 0.0149999997,
+      "NextDialogID": [],
+      "RadioDialogFinishBgm": [
+        {
+          "RadioID": 1039,
+          "NextRadioID": -1
+        }
+      ]
+    },
+    {
+      "Id": 2024,
+      "SoundId": 70390003,
+      "RadioDialogPriority": 2,
+      "CanChangeRadio": true,
+      "IsSetRadioOn": false,
+      "Subtitle": "",
+      "VoiceSpeed": 0.0149999997,
+      "NextDialogID": [],
+      "RadioDialogFinishBgm": [
+        {
+          "RadioID": 1039,
+          "NextRadioID": -1
+        },
+        {
+          "RadioID": 1040,
+          "NextRadioID": 1001
+        }
+      ]
+    },
+    {
+      "Id": 2025,
+      "SoundId": 70390003,
+      "RadioDialogPriority": 2,
+      "CanChangeRadio": true,
+      "IsSetRadioOn": false,
+      "Subtitle": "",
+      "VoiceSpeed": 0.0149999997,
+      "NextDialogID": [],
+      "RadioDialogFinishBgm": [
+        {
+          "RadioID": 1039,
+          "NextRadioID": -1
+        },
+        {
+          "RadioID": 1041,
+          "NextRadioID": 1002
+        }
+      ]
+    },
+    {
+      "Id": 2026,
+      "SoundId": 70300863,
+      "RadioDialogPriority": 2,
+      "CanChangeRadio": false,
+      "IsSetRadioOn": false,
+      "Subtitle": "",
+      "VoiceSpeed": 0.0149999997,
+      "NextDialogID": [],
+      "RadioDialogFinishBgm": [
+        {
+          "RadioID": 1001,
+          "NextRadioID": 1001
+        }
+      ]
+    },
+    {
+      "Id": 2027,
+      "SoundId": 70390004,
+      "RadioDialogPriority": 2,
+      "CanChangeRadio": true,
+      "IsSetRadioOn": false,
+      "Subtitle": "",
+      "VoiceSpeed": 0.0149999997,
+      "NextDialogID": [],
+      "RadioDialogFinishBgm": [
+        {
+          "RadioID": 1043,
+          "NextRadioID": -1
+        }
+      ]
+    },
+    {
+      "Id": 2028,
+      "SoundId": 70390004,
+      "RadioDialogPriority": 2,
+      "CanChangeRadio": true,
+      "IsSetRadioOn": false,
+      "Subtitle": "",
+      "VoiceSpeed": 0.0149999997,
+      "NextDialogID": [],
+      "RadioDialogFinishBgm": [
+        {
+          "RadioID": 1043,
+          "NextRadioID": -1
+        },
+        {
+          "RadioID": 1044,
+          "NextRadioID": 1001
+        }
+      ]
+    },
+    {
+      "Id": 2029,
+      "SoundId": 70390004,
+      "RadioDialogPriority": 2,
+      "CanChangeRadio": true,
+      "IsSetRadioOn": false,
+      "Subtitle": "",
+      "VoiceSpeed": 0.0149999997,
+      "NextDialogID": [],
+      "RadioDialogFinishBgm": [
+        {
+          "RadioID": 1043,
+          "NextRadioID": -1
+        },
+        {
+          "RadioID": 1045,
+          "NextRadioID": 1002
+        }
+      ]
+    },
+    {
+      "Id": 2030,
+      "SoundId": 70300863,
+      "RadioDialogPriority": 2,
+      "CanChangeRadio": false,
+      "IsSetRadioOn": false,
+      "Subtitle": "",
+      "VoiceSpeed": 0.0149999997,
+      "NextDialogID": [],
+      "RadioDialogFinishBgm": [
+        {
+          "RadioID": 1001,
+          "NextRadioID": 1001
+        }
+      ]
+    },
+    {
+      "Id": 2031,
+      "SoundId": 70300863,
+      "RadioDialogPriority": 4,
+      "CanChangeRadio": false,
+      "IsSetRadioOn": false,
+      "Subtitle": "",
+      "VoiceSpeed": 0.0149999997,
+      "NextDialogID": [],
+      "RadioDialogFinishBgm": [
+        {
+          "RadioID": 0,
+          "NextRadioID": 0
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 31,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

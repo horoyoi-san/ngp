@@ -1,0 +1,903 @@
+{
+  "_class": "PoiGamePetGamePetConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 27,
+  "records": [
+    {
+      "Id": 101,
+      "level": 1,
+      "prefab": "Res/FGUI/Panel/PetGame/pet/Pet_101.prefab",
+      "speed": 60,
+      "lifespan": 30,
+      "FreeFood": 201,
+      "FreeToys": 301,
+      "FreeSnack": 280,
+      "name": 200101,
+      "evolution": [
+        201
+      ],
+      "defualtEvo": "201",
+      "Disease": 20,
+      "Walk": 0,
+      "hungerCost": {
+        "intval": 3600,
+        "cost": 20
+      },
+      "happinessCost": {
+        "intval": 3600,
+        "cost": 10
+      },
+      "healthCost": {
+        "intval": 120,
+        "cost": 1
+      },
+      "healthGrow": {
+        "intval": 60,
+        "grow": 2
+      }
+    },
+    {
+      "Id": 102,
+      "level": 1,
+      "prefab": "Res/FGUI/Panel/PetGame/pet/Pet_102.prefab",
+      "speed": 60,
+      "lifespan": 30,
+      "FreeFood": 201,
+      "FreeToys": 301,
+      "FreeSnack": 280,
+      "name": 200102,
+      "evolution": [
+        202
+      ],
+      "defualtEvo": "201",
+      "Disease": 20,
+      "Walk": 0,
+      "hungerCost": {
+        "intval": 3600,
+        "cost": 20
+      },
+      "happinessCost": {
+        "intval": 3600,
+        "cost": 10
+      },
+      "healthCost": {
+        "intval": 120,
+        "cost": 1
+      },
+      "healthGrow": {
+        "intval": 60,
+        "grow": 2
+      }
+    },
+    {
+      "Id": 201,
+      "level": 2,
+      "prefab": "Res/FGUI/Panel/PetGame/pet/Pet_201.prefab",
+      "speed": 45,
+      "lifespan": 3630,
+      "FreeFood": 201,
+      "FreeToys": 301,
+      "FreeSnack": 280,
+      "name": 200201,
+      "evolution": [
+        301,
+        302,
+        303
+      ],
+      "defualtEvo": "303",
+      "Disease": 20,
+      "Walk": 0,
+      "hungerCost": {
+        "intval": 300,
+        "cost": 20
+      },
+      "happinessCost": {
+        "intval": 150,
+        "cost": 10
+      },
+      "healthCost": {
+        "intval": 120,
+        "cost": 1
+      },
+      "healthGrow": {
+        "intval": 240,
+        "grow": 1
+      }
+    },
+    {
+      "Id": 202,
+      "level": 2,
+      "prefab": "Res/FGUI/Panel/PetGame/pet/Pet_202.prefab",
+      "speed": 45,
+      "lifespan": 3630,
+      "FreeFood": 201,
+      "FreeToys": 301,
+      "FreeSnack": 280,
+      "name": 200202,
+      "evolution": [
+        301,
+        302,
+        303
+      ],
+      "defualtEvo": "303",
+      "Disease": 20,
+      "Walk": 0,
+      "hungerCost": {
+        "intval": 300,
+        "cost": 20
+      },
+      "happinessCost": {
+        "intval": 150,
+        "cost": 10
+      },
+      "healthCost": {
+        "intval": 120,
+        "cost": 1
+      },
+      "healthGrow": {
+        "intval": 240,
+        "grow": 1
+      }
+    },
+    {
+      "Id": 301,
+      "level": 3,
+      "prefab": "Res/FGUI/Panel/PetGame/pet/Pet_301.prefab",
+      "speed": 45,
+      "lifespan": 90030,
+      "FreeFood": 202,
+      "FreeToys": 301,
+      "FreeSnack": 280,
+      "name": 200301,
+      "evolution": [
+        401,
+        402,
+        403,
+        404,
+        406
+      ],
+      "defualtEvo": "405",
+      "Disease": 20,
+      "Walk": 0,
+      "hungerCost": {
+        "intval": 3600,
+        "cost": 20
+      },
+      "happinessCost": {
+        "intval": 1800,
+        "cost": 10
+      },
+      "healthCost": {
+        "intval": 120,
+        "cost": 1
+      },
+      "healthGrow": {
+        "intval": 240,
+        "grow": 1
+      }
+    },
+    {
+      "Id": 302,
+      "level": 3,
+      "prefab": "Res/FGUI/Panel/PetGame/pet/Pet_302.prefab",
+      "speed": 45,
+      "lifespan": 90030,
+      "FreeFood": 202,
+      "FreeToys": 301,
+      "FreeSnack": 280,
+      "name": 200302,
+      "evolution": [
+        401,
+        402,
+        403,
+        404,
+        406
+      ],
+      "defualtEvo": "405",
+      "Disease": 20,
+      "Walk": 0,
+      "hungerCost": {
+        "intval": 3600,
+        "cost": 20
+      },
+      "happinessCost": {
+        "intval": 1800,
+        "cost": 10
+      },
+      "healthCost": {
+        "intval": 120,
+        "cost": 1
+      },
+      "healthGrow": {
+        "intval": 240,
+        "grow": 1
+      }
+    },
+    {
+      "Id": 303,
+      "level": 3,
+      "prefab": "Res/FGUI/Panel/PetGame/pet/Pet_303.prefab",
+      "speed": 45,
+      "lifespan": 90030,
+      "FreeFood": 202,
+      "FreeToys": 301,
+      "FreeSnack": 280,
+      "name": 200303,
+      "evolution": [
+        401,
+        402,
+        403,
+        404,
+        406
+      ],
+      "defualtEvo": "405",
+      "Disease": 20,
+      "Walk": 0,
+      "hungerCost": {
+        "intval": 3600,
+        "cost": 20
+      },
+      "happinessCost": {
+        "intval": 1800,
+        "cost": 10
+      },
+      "healthCost": {
+        "intval": 120,
+        "cost": 1
+      },
+      "healthGrow": {
+        "intval": 240,
+        "grow": 1
+      }
+    },
+    {
+      "Id": 401,
+      "level": 4,
+      "prefab": "Res/FGUI/Panel/PetGame/pet/Pet_401.prefab",
+      "speed": 45,
+      "lifespan": 262830,
+      "FreeFood": 202,
+      "FreeToys": 301,
+      "FreeSnack": 280,
+      "name": 200401,
+      "evolution": [
+        514,
+        5020,
+        504,
+        503
+      ],
+      "defualtEvo": "504",
+      "Disease": 20,
+      "Walk": 3,
+      "hungerCost": {
+        "intval": 3600,
+        "cost": 20
+      },
+      "happinessCost": {
+        "intval": 1800,
+        "cost": 10
+      },
+      "healthCost": {
+        "intval": 120,
+        "cost": 1
+      },
+      "healthGrow": {
+        "intval": 240,
+        "grow": 1
+      }
+    },
+    {
+      "Id": 402,
+      "level": 4,
+      "prefab": "Res/FGUI/Panel/PetGame/pet/Pet_402.prefab",
+      "speed": 45,
+      "lifespan": 262830,
+      "FreeFood": 202,
+      "FreeToys": 301,
+      "FreeSnack": 280,
+      "name": 200402,
+      "evolution": [
+        502,
+        504,
+        503
+      ],
+      "defualtEvo": "504",
+      "Disease": 20,
+      "Walk": 3,
+      "hungerCost": {
+        "intval": 3600,
+        "cost": 20
+      },
+      "happinessCost": {
+        "intval": 1800,
+        "cost": 10
+      },
+      "healthCost": {
+        "intval": 120,
+        "cost": 1
+      },
+      "healthGrow": {
+        "intval": 240,
+        "grow": 1
+      }
+    },
+    {
+      "Id": 403,
+      "level": 4,
+      "prefab": "Res/FGUI/Panel/PetGame/pet/Pet_403.prefab",
+      "speed": 45,
+      "lifespan": 262830,
+      "FreeFood": 202,
+      "FreeToys": 301,
+      "FreeSnack": 280,
+      "name": 200403,
+      "evolution": [
+        510,
+        513,
+        501
+      ],
+      "defualtEvo": "513",
+      "Disease": 20,
+      "Walk": 3,
+      "hungerCost": {
+        "intval": 3600,
+        "cost": 20
+      },
+      "happinessCost": {
+        "intval": 1800,
+        "cost": 10
+      },
+      "healthCost": {
+        "intval": 120,
+        "cost": 1
+      },
+      "healthGrow": {
+        "intval": 240,
+        "grow": 1
+      }
+    },
+    {
+      "Id": 404,
+      "level": 4,
+      "prefab": "Res/FGUI/Panel/PetGame/pet/Pet_404.prefab",
+      "speed": 45,
+      "lifespan": 262830,
+      "FreeFood": 202,
+      "FreeToys": 301,
+      "FreeSnack": 280,
+      "name": 200404,
+      "evolution": [
+        509,
+        511,
+        507
+      ],
+      "defualtEvo": "511",
+      "Disease": 20,
+      "Walk": 3,
+      "hungerCost": {
+        "intval": 3600,
+        "cost": 20
+      },
+      "happinessCost": {
+        "intval": 1800,
+        "cost": 10
+      },
+      "healthCost": {
+        "intval": 120,
+        "cost": 1
+      },
+      "healthGrow": {
+        "intval": 240,
+        "grow": 1
+      }
+    },
+    {
+      "Id": 405,
+      "level": 4,
+      "prefab": "Res/FGUI/Panel/PetGame/pet/Pet_405.prefab",
+      "speed": 45,
+      "lifespan": 262830,
+      "FreeFood": 202,
+      "FreeToys": 301,
+      "FreeSnack": 280,
+      "name": 200405,
+      "evolution": [
+        508,
+        506,
+        512
+      ],
+      "defualtEvo": "506",
+      "Disease": 20,
+      "Walk": 3,
+      "hungerCost": {
+        "intval": 3600,
+        "cost": 20
+      },
+      "happinessCost": {
+        "intval": 1800,
+        "cost": 10
+      },
+      "healthCost": {
+        "intval": 120,
+        "cost": 1
+      },
+      "healthGrow": {
+        "intval": 240,
+        "grow": 1
+      }
+    },
+    {
+      "Id": 406,
+      "level": 4,
+      "prefab": "Res/FGUI/Panel/PetGame/pet/Pet_406.prefab",
+      "speed": 45,
+      "lifespan": 262830,
+      "FreeFood": 202,
+      "FreeToys": 301,
+      "FreeSnack": 280,
+      "name": 200406,
+      "evolution": [
+        505,
+        5080,
+        506,
+        512
+      ],
+      "defualtEvo": "506",
+      "Disease": 20,
+      "Walk": 3,
+      "hungerCost": {
+        "intval": 3600,
+        "cost": 20
+      },
+      "happinessCost": {
+        "intval": 1800,
+        "cost": 10
+      },
+      "healthCost": {
+        "intval": 120,
+        "cost": 1
+      },
+      "healthGrow": {
+        "intval": 240,
+        "grow": 1
+      }
+    },
+    {
+      "Id": 501,
+      "level": 5,
+      "prefab": "Res/FGUI/Panel/PetGame/pet/Pet_501.prefab",
+      "speed": 45,
+      "lifespan": -1,
+      "FreeFood": 202,
+      "FreeToys": 301,
+      "FreeSnack": 280,
+      "name": 200501,
+      "evolution": [],
+      "defualtEvo": "",
+      "Disease": 20,
+      "Walk": 3,
+      "hungerCost": {
+        "intval": 3600,
+        "cost": 20
+      },
+      "happinessCost": {
+        "intval": 1800,
+        "cost": 10
+      },
+      "healthCost": {
+        "intval": 120,
+        "cost": 1
+      },
+      "healthGrow": {
+        "intval": 240,
+        "grow": 1
+      }
+    },
+    {
+      "Id": 502,
+      "level": 5,
+      "prefab": "Res/FGUI/Panel/PetGame/pet/Pet_502.prefab",
+      "speed": 45,
+      "lifespan": -1,
+      "FreeFood": 202,
+      "FreeToys": 301,
+      "FreeSnack": 280,
+      "name": 200502,
+      "evolution": [],
+      "defualtEvo": "",
+      "Disease": 20,
+      "Walk": 3,
+      "hungerCost": {
+        "intval": 3600,
+        "cost": 20
+      },
+      "happinessCost": {
+        "intval": 1800,
+        "cost": 10
+      },
+      "healthCost": {
+        "intval": 120,
+        "cost": 1
+      },
+      "healthGrow": {
+        "intval": 240,
+        "grow": 1
+      }
+    },
+    {
+      "Id": 503,
+      "level": 5,
+      "prefab": "Res/FGUI/Panel/PetGame/pet/Pet_503.prefab",
+      "speed": 45,
+      "lifespan": -1,
+      "FreeFood": 202,
+      "FreeToys": 301,
+      "FreeSnack": 280,
+      "name": 200503,
+      "evolution": [],
+      "defualtEvo": "",
+      "Disease": 20,
+      "Walk": 3,
+      "hungerCost": {
+        "intval": 3600,
+        "cost": 20
+      },
+      "happinessCost": {
+        "intval": 1800,
+        "cost": 10
+      },
+      "healthCost": {
+        "intval": 120,
+        "cost": 1
+      },
+      "healthGrow": {
+        "intval": 240,
+        "grow": 1
+      }
+    },
+    {
+      "Id": 504,
+      "level": 5,
+      "prefab": "Res/FGUI/Panel/PetGame/pet/Pet_504.prefab",
+      "speed": 45,
+      "lifespan": -1,
+      "FreeFood": 202,
+      "FreeToys": 301,
+      "FreeSnack": 280,
+      "name": 200504,
+      "evolution": [],
+      "defualtEvo": "",
+      "Disease": 20,
+      "Walk": 3,
+      "hungerCost": {
+        "intval": 3600,
+        "cost": 20
+      },
+      "happinessCost": {
+        "intval": 1800,
+        "cost": 10
+      },
+      "healthCost": {
+        "intval": 120,
+        "cost": 1
+      },
+      "healthGrow": {
+        "intval": 240,
+        "grow": 1
+      }
+    },
+    {
+      "Id": 505,
+      "level": 5,
+      "prefab": "Res/FGUI/Panel/PetGame/pet/Pet_505.prefab",
+      "speed": 45,
+      "lifespan": -1,
+      "FreeFood": 202,
+      "FreeToys": 301,
+      "FreeSnack": 280,
+      "name": 200505,
+      "evolution": [],
+      "defualtEvo": "",
+      "Disease": 20,
+      "Walk": 3,
+      "hungerCost": {
+        "intval": 3600,
+        "cost": 20
+      },
+      "happinessCost": {
+        "intval": 1800,
+        "cost": 10
+      },
+      "healthCost": {
+        "intval": 120,
+        "cost": 1
+      },
+      "healthGrow": {
+        "intval": 240,
+        "grow": 1
+      }
+    },
+    {
+      "Id": 506,
+      "level": 5,
+      "prefab": "Res/FGUI/Panel/PetGame/pet/Pet_506.prefab",
+      "speed": 45,
+      "lifespan": -1,
+      "FreeFood": 202,
+      "FreeToys": 301,
+      "FreeSnack": 280,
+      "name": 200506,
+      "evolution": [],
+      "defualtEvo": "",
+      "Disease": 20,
+      "Walk": 3,
+      "hungerCost": {
+        "intval": 3600,
+        "cost": 20
+      },
+      "happinessCost": {
+        "intval": 1800,
+        "cost": 10
+      },
+      "healthCost": {
+        "intval": 120,
+        "cost": 1
+      },
+      "healthGrow": {
+        "intval": 240,
+        "grow": 1
+      }
+    },
+    {
+      "Id": 507,
+      "level": 5,
+      "prefab": "Res/FGUI/Panel/PetGame/pet/Pet_507.prefab",
+      "speed": 45,
+      "lifespan": -1,
+      "FreeFood": 202,
+      "FreeToys": 301,
+      "FreeSnack": 280,
+      "name": 200507,
+      "evolution": [],
+      "defualtEvo": "",
+      "Disease": 20,
+      "Walk": 3,
+      "hungerCost": {
+        "intval": 3600,
+        "cost": 20
+      },
+      "happinessCost": {
+        "intval": 1800,
+        "cost": 10
+      },
+      "healthCost": {
+        "intval": 120,
+        "cost": 1
+      },
+      "healthGrow": {
+        "intval": 240,
+        "grow": 1
+      }
+    },
+    {
+      "Id": 508,
+      "level": 5,
+      "prefab": "Res/FGUI/Panel/PetGame/pet/Pet_508.prefab",
+      "speed": 45,
+      "lifespan": -1,
+      "FreeFood": 202,
+      "FreeToys": 301,
+      "FreeSnack": 280,
+      "name": 200508,
+      "evolution": [],
+      "defualtEvo": "",
+      "Disease": 20,
+      "Walk": 3,
+      "hungerCost": {
+        "intval": 3600,
+        "cost": 20
+      },
+      "happinessCost": {
+        "intval": 1800,
+        "cost": 10
+      },
+      "healthCost": {
+        "intval": 120,
+        "cost": 1
+      },
+      "healthGrow": {
+        "intval": 240,
+        "grow": 1
+      }
+    },
+    {
+      "Id": 509,
+      "level": 5,
+      "prefab": "Res/FGUI/Panel/PetGame/pet/Pet_509.prefab",
+      "speed": 45,
+      "lifespan": -1,
+      "FreeFood": 202,
+      "FreeToys": 301,
+      "FreeSnack": 280,
+      "name": 200509,
+      "evolution": [],
+      "defualtEvo": "",
+      "Disease": 20,
+      "Walk": 3,
+      "hungerCost": {
+        "intval": 3600,
+        "cost": 20
+      },
+      "happinessCost": {
+        "intval": 1800,
+        "cost": 10
+      },
+      "healthCost": {
+        "intval": 120,
+        "cost": 1
+      },
+      "healthGrow": {
+        "intval": 240,
+        "grow": 1
+      }
+    },
+    {
+      "Id": 510,
+      "level": 5,
+      "prefab": "Res/FGUI/Panel/PetGame/pet/Pet_510.prefab",
+      "speed": 45,
+      "lifespan": -1,
+      "FreeFood": 202,
+      "FreeToys": 301,
+      "FreeSnack": 280,
+      "name": 200510,
+      "evolution": [],
+      "defualtEvo": "",
+      "Disease": 20,
+      "Walk": 3,
+      "hungerCost": {
+        "intval": 3600,
+        "cost": 20
+      },
+      "happinessCost": {
+        "intval": 1800,
+        "cost": 10
+      },
+      "healthCost": {
+        "intval": 120,
+        "cost": 1
+      },
+      "healthGrow": {
+        "intval": 240,
+        "grow": 1
+      }
+    },
+    {
+      "Id": 511,
+      "level": 5,
+      "prefab": "Res/FGUI/Panel/PetGame/pet/Pet_511.prefab",
+      "speed": 45,
+      "lifespan": -1,
+      "FreeFood": 202,
+      "FreeToys": 301,
+      "FreeSnack": 280,
+      "name": 200511,
+      "evolution": [],
+      "defualtEvo": "",
+      "Disease": 20,
+      "Walk": 3,
+      "hungerCost": {
+        "intval": 3600,
+        "cost": 20
+      },
+      "happinessCost": {
+        "intval": 1800,
+        "cost": 10
+      },
+      "healthCost": {
+        "intval": 120,
+        "cost": 1
+      },
+      "healthGrow": {
+        "intval": 240,
+        "grow": 1
+      }
+    },
+    {
+      "Id": 512,
+      "level": 5,
+      "prefab": "Res/FGUI/Panel/PetGame/pet/Pet_512.prefab",
+      "speed": 45,
+      "lifespan": -1,
+      "FreeFood": 202,
+      "FreeToys": 301,
+      "FreeSnack": 280,
+      "name": 200512,
+      "evolution": [],
+      "defualtEvo": "",
+      "Disease": 20,
+      "Walk": 3,
+      "hungerCost": {
+        "intval": 3600,
+        "cost": 20
+      },
+      "happinessCost": {
+        "intval": 1800,
+        "cost": 10
+      },
+      "healthCost": {
+        "intval": 120,
+        "cost": 1
+      },
+      "healthGrow": {
+        "intval": 240,
+        "grow": 1
+      }
+    },
+    {
+      "Id": 513,
+      "level": 5,
+      "prefab": "Res/FGUI/Panel/PetGame/pet/Pet_513.prefab",
+      "speed": 45,
+      "lifespan": -1,
+      "FreeFood": 202,
+      "FreeToys": 301,
+      "FreeSnack": 280,
+      "name": 200513,
+      "evolution": [],
+      "defualtEvo": "",
+      "Disease": 20,
+      "Walk": 3,
+      "hungerCost": {
+        "intval": 3600,
+        "cost": 20
+      },
+      "happinessCost": {
+        "intval": 1800,
+        "cost": 10
+      },
+      "healthCost": {
+        "intval": 120,
+        "cost": 1
+      },
+      "healthGrow": {
+        "intval": 240,
+        "grow": 1
+      }
+    },
+    {
+      "Id": 514,
+      "level": 5,
+      "prefab": "Res/FGUI/Panel/PetGame/pet/Pet_514.prefab",
+      "speed": 45,
+      "lifespan": -1,
+      "FreeFood": 202,
+      "FreeToys": 301,
+      "FreeSnack": 280,
+      "name": 200514,
+      "evolution": [],
+      "defualtEvo": "",
+      "Disease": 20,
+      "Walk": 3,
+      "hungerCost": {
+        "intval": 3600,
+        "cost": 20
+      },
+      "happinessCost": {
+        "intval": 1800,
+        "cost": 10
+      },
+      "healthCost": {
+        "intval": 120,
+        "cost": 1
+      },
+      "healthGrow": {
+        "intval": 240,
+        "grow": 1
+      }
+    }
+  ],
+  "_dumpedCount": 27,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

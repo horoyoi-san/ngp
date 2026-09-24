@@ -1,0 +1,164 @@
+{
+  "_class": "AgentSpeciesTagConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 22,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "Default",
+      "LevelOneSpeciesTag": 0,
+      "LevelTowSpeciesTag": 0,
+      "LevelThreeSpeciesTag": 0
+    },
+    {
+      "Id": 2,
+      "Name": "Human",
+      "LevelOneSpeciesTag": 1,
+      "LevelTowSpeciesTag": 0,
+      "LevelThreeSpeciesTag": 0
+    },
+    {
+      "Id": 3,
+      "Name": "Chaos",
+      "LevelOneSpeciesTag": 2,
+      "LevelTowSpeciesTag": 0,
+      "LevelThreeSpeciesTag": 0
+    },
+    {
+      "Id": 4,
+      "Name": "ChaosHumanLike",
+      "LevelOneSpeciesTag": 2,
+      "LevelTowSpeciesTag": 9,
+      "LevelThreeSpeciesTag": 0
+    },
+    {
+      "Id": 5,
+      "Name": "Robot",
+      "LevelOneSpeciesTag": 3,
+      "LevelTowSpeciesTag": 0,
+      "LevelThreeSpeciesTag": 0
+    },
+    {
+      "Id": 6,
+      "Name": "Animal",
+      "LevelOneSpeciesTag": 4,
+      "LevelTowSpeciesTag": 0,
+      "LevelThreeSpeciesTag": 0
+    },
+    {
+      "Id": 7,
+      "Name": "Empty",
+      "LevelOneSpeciesTag": 5,
+      "LevelTowSpeciesTag": 0,
+      "LevelThreeSpeciesTag": 0
+    },
+    {
+      "Id": 8,
+      "Name": "Other",
+      "LevelOneSpeciesTag": 6,
+      "LevelTowSpeciesTag": 0,
+      "LevelThreeSpeciesTag": 0
+    },
+    {
+      "Id": 9,
+      "Name": "ChaosToilet",
+      "LevelOneSpeciesTag": 2,
+      "LevelTowSpeciesTag": 1,
+      "LevelThreeSpeciesTag": 0
+    },
+    {
+      "Id": 10,
+      "Name": "Cat",
+      "LevelOneSpeciesTag": 4,
+      "LevelTowSpeciesTag": 2,
+      "LevelThreeSpeciesTag": 0
+    },
+    {
+      "Id": 11,
+      "Name": "Dog",
+      "LevelOneSpeciesTag": 4,
+      "LevelTowSpeciesTag": 3,
+      "LevelThreeSpeciesTag": 0
+    },
+    {
+      "Id": 12,
+      "Name": "UAV",
+      "LevelOneSpeciesTag": 3,
+      "LevelTowSpeciesTag": 5,
+      "LevelThreeSpeciesTag": 0
+    },
+    {
+      "Id": 13,
+      "Name": "DogBot",
+      "LevelOneSpeciesTag": 3,
+      "LevelTowSpeciesTag": 6,
+      "LevelThreeSpeciesTag": 0
+    },
+    {
+      "Id": 14,
+      "Name": "SpiderBot",
+      "LevelOneSpeciesTag": 3,
+      "LevelTowSpeciesTag": 7,
+      "LevelThreeSpeciesTag": 0
+    },
+    {
+      "Id": 15,
+      "Name": "CleanerBot",
+      "LevelOneSpeciesTag": 3,
+      "LevelTowSpeciesTag": 8,
+      "LevelThreeSpeciesTag": 0
+    },
+    {
+      "Id": 16,
+      "Name": "DeliveryUAV",
+      "LevelOneSpeciesTag": 3,
+      "LevelTowSpeciesTag": 5,
+      "LevelThreeSpeciesTag": 1
+    },
+    {
+      "Id": 17,
+      "Name": "Cow",
+      "LevelOneSpeciesTag": 4,
+      "LevelTowSpeciesTag": 4,
+      "LevelThreeSpeciesTag": 0
+    },
+    {
+      "Id": 18,
+      "Name": "RobotHumanLike",
+      "LevelOneSpeciesTag": 3,
+      "LevelTowSpeciesTag": 9,
+      "LevelThreeSpeciesTag": 0
+    },
+    {
+      "Id": 19,
+      "Name": "Tiger",
+      "LevelOneSpeciesTag": 4,
+      "LevelTowSpeciesTag": 10,
+      "LevelThreeSpeciesTag": 0
+    },
+    {
+      "Id": 20,
+      "Name": "ChaosDuck",
+      "LevelOneSpeciesTag": 2,
+      "LevelTowSpeciesTag": 11,
+      "LevelThreeSpeciesTag": 0
+    },
+    {
+      "Id": 21,
+      "Name": "Duck",
+      "LevelOneSpeciesTag": 4,
+      "LevelTowSpeciesTag": 11,
+      "LevelThreeSpeciesTag": 0
+    },
+    {
+      "Id": 22,
+      "Name": "Sheep",
+      "LevelOneSpeciesTag": 4,
+      "LevelTowSpeciesTag": 12,
+      "LevelThreeSpeciesTag": 0
+    }
+  ],
+  "_dumpedCount": 22,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

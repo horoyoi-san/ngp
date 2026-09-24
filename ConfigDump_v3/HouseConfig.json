@@ -1,0 +1,657 @@
+{
+  "_class": "HouseConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 5,
+  "records": [
+    {
+      "Id": 11200000,
+      "Name": "岸北悠居公寓",
+      "Quality": 0,
+      "Default": false,
+      "IsBuild": false,
+      "BuildPrefab": "",
+      "BuildId": 0,
+      "VisitorLimit": 0,
+      "VisitorEntrance": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "VisitorExit": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Raid": 0,
+      "IsShopHouse": false,
+      "PaintingCount": 0,
+      "SculptureCount": 0,
+      "FishCount": 0,
+      "ParkingSpaceCount": 2,
+      "WeaponCabinetCount": 0,
+      "CollectionCount": 0,
+      "FashionShowcaseCount": 0,
+      "PetCount": 0,
+      "FeatureConsumable": [],
+      "HouseImage": 0,
+      "MapHouseImage": 0,
+      "RealEstateIcon": 0,
+      "FurnitureListImage": 0,
+      "DetailTags": [],
+      "ShopId": 94100080,
+      "Commodity": 94206003,
+      "HouseVideo": 0,
+      "BuyHouseDetails": [],
+      "GameVideo": 0,
+      "MapEntrance": 212,
+      "Location": "新启·新岸区",
+      "Tags": [
+        "Standard"
+      ],
+      "Description": "",
+      "GarageIndoorId": 201,
+      "ParkingSpaceWaypoints": [
+        1036366,
+        1036367
+      ],
+      "ParkingSpaceFacings": [
+        50,
+        50
+      ],
+      "GarageInWaypoint": 1036365,
+      "GarageInFacing": -131.202896,
+      "GarageOutWaypoint": 1036364,
+      "GarageOutFacing": -38.7065392,
+      "EnterTimeline": [
+        "loading_garage_in04",
+        "loading_garage_in03"
+      ],
+      "ExitTimeline": [
+        "loading_garage_out01",
+        "loading_garage_out03"
+      ],
+      "StartVersion": "V1.1.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "岸北悠居公寓",
+      "__IDX__DetailTags": [],
+      "__RAW__DetailTags": [],
+      "__IDX__Location": 4294967293,
+      "__RAW__Location": "新启·新岸区",
+      "__IDX__Tags": [
+        72656
+      ],
+      "__RAW__Tags": [
+        ""
+      ],
+      "__IDX__Description": 0,
+      "__RAW__Description": "",
+      "ImageSlider": []
+    },
+    {
+      "Id": 11200003,
+      "Name": "绿屿公馆",
+      "Quality": 4,
+      "Default": false,
+      "IsBuild": true,
+      "BuildPrefab": "11200003_nanyang",
+      "BuildId": 2,
+      "VisitorLimit": 8,
+      "VisitorEntrance": [
+        2281.36108,
+        160.729996,
+        1411.68103,
+        -179
+      ],
+      "VisitorExit": [
+        2261.80908,
+        0.0198756997,
+        1454.53101,
+        78
+      ],
+      "Raid": 23300888,
+      "IsShopHouse": true,
+      "PaintingCount": 0,
+      "SculptureCount": 0,
+      "FishCount": 0,
+      "ParkingSpaceCount": 8,
+      "WeaponCabinetCount": 1,
+      "CollectionCount": 2,
+      "FashionShowcaseCount": 6,
+      "PetCount": 1,
+      "FeatureConsumable": [],
+      "HouseImage": 28007561,
+      "MapHouseImage": 28005475,
+      "RealEstateIcon": 28005473,
+      "FurnitureListImage": 28007562,
+      "DetailTags": [
+        "高楼层",
+        "3室2厅1卫"
+      ],
+      "ShopId": 94100080,
+      "Commodity": 94206000,
+      "HouseVideo": 24100161,
+      "BuyHouseDetails": [
+        1,
+        3,
+        2,
+        4,
+        5,
+        6
+      ],
+      "GameVideo": 24100161,
+      "MapEntrance": 215,
+      "Location": "新启·滨海区",
+      "Tags": [
+        "高档"
+      ],
+      "Description": "以温润木质与繁茂绿意构筑的复古风情宅邸。细腻雕花与柔和线条交织，自成一座静谧又生机盎然的岛屿。",
+      "GarageIndoorId": 301,
+      "ParkingSpaceWaypoints": [
+        1893051,
+        1893052,
+        1893053,
+        1893054,
+        1893055,
+        1893056,
+        1893057,
+        1893058
+      ],
+      "ParkingSpaceFacings": [
+        180,
+        180,
+        180,
+        180,
+        0,
+        0,
+        0,
+        0
+      ],
+      "GarageInWaypoint": 1893060,
+      "GarageInFacing": -90,
+      "GarageOutWaypoint": 1893059,
+      "GarageOutFacing": 180,
+      "EnterTimeline": [
+        "loading_garage_in04",
+        "loading_garage_in03"
+      ],
+      "ExitTimeline": [
+        "loading_garage_out01",
+        "loading_garage_out03"
+      ],
+      "StartVersion": "V1.1.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "绿屿公馆",
+      "__IDX__DetailTags": [
+        4294967293,
+        4294967293
+      ],
+      "__RAW__DetailTags": [
+        "高楼层",
+        "3室2厅1卫"
+      ],
+      "__IDX__Location": 4294967293,
+      "__RAW__Location": "新启·滨海区",
+      "__IDX__Tags": [
+        4294967293
+      ],
+      "__RAW__Tags": [
+        "高档"
+      ],
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "以温润木质与繁茂绿意构筑的复古风情宅邸。细腻雕花与柔和线条交织，自成一座静谧又生机盎然的岛屿。",
+      "ImageSlider": [
+        {
+          "SliderName": "",
+          "__IDX__SliderName": 4294967293,
+          "__RAW__SliderName": "外景",
+          "SliderImage": 28007559
+        },
+        {
+          "SliderName": "",
+          "__IDX__SliderName": 4294967293,
+          "__RAW__SliderName": "大厅",
+          "SliderImage": 28007560
+        },
+        {
+          "SliderName": "",
+          "__IDX__SliderName": 4294967293,
+          "__RAW__SliderName": "室内",
+          "SliderImage": 28007561
+        },
+        {
+          "SliderName": "",
+          "__IDX__SliderName": 4294967293,
+          "__RAW__SliderName": "车库",
+          "SliderImage": 28007562
+        }
+      ]
+    },
+    {
+      "Id": 11200004,
+      "Name": "旧物仓公寓",
+      "Quality": 0,
+      "Default": false,
+      "IsBuild": true,
+      "BuildPrefab": "11200004_industry",
+      "BuildId": 3,
+      "VisitorLimit": 4,
+      "VisitorEntrance": [
+        1650.302,
+        -3.97986507,
+        2330.73999,
+        90
+      ],
+      "VisitorExit": [
+        1647.51001,
+        0.0110019697,
+        2339.79907,
+        0
+      ],
+      "Raid": 23300888,
+      "IsShopHouse": true,
+      "PaintingCount": 0,
+      "SculptureCount": 0,
+      "FishCount": 0,
+      "ParkingSpaceCount": 2,
+      "WeaponCabinetCount": 0,
+      "CollectionCount": 0,
+      "FashionShowcaseCount": 0,
+      "PetCount": 0,
+      "FeatureConsumable": [],
+      "HouseImage": 28007553,
+      "MapHouseImage": 28005474,
+      "RealEstateIcon": 28005473,
+      "FurnitureListImage": 28007557,
+      "DetailTags": [
+        "地下室",
+        "1室1厅1卫"
+      ],
+      "ShopId": 94100080,
+      "Commodity": 94206001,
+      "HouseVideo": 24100160,
+      "BuyHouseDetails": [
+        7,
+        9,
+        8,
+        10,
+        11,
+        12
+      ],
+      "GameVideo": 24100160,
+      "MapEntrance": 216,
+      "Location": "新启·城中区",
+      "Tags": [
+        "标准"
+      ],
+      "Description": "由工业仓库改造而成的特色住宅，开敞空间通透随性，原质感墙面与复古街机元素相融，随性又潮流。",
+      "GarageIndoorId": 300,
+      "ParkingSpaceWaypoints": [
+        1890787,
+        1890788
+      ],
+      "ParkingSpaceFacings": [
+        0,
+        0
+      ],
+      "GarageInWaypoint": 1890791,
+      "GarageInFacing": 180,
+      "GarageOutWaypoint": 1890789,
+      "GarageOutFacing": 0,
+      "EnterTimeline": [
+        "loading_garage_in04",
+        "loading_garage_in03"
+      ],
+      "ExitTimeline": [
+        "loading_garage_out01",
+        "loading_garage_out03"
+      ],
+      "StartVersion": "V1.1.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "旧物仓公寓",
+      "__IDX__DetailTags": [
+        4294967293,
+        4294967293
+      ],
+      "__RAW__DetailTags": [
+        "地下室",
+        "1室1厅1卫"
+      ],
+      "__IDX__Location": 4294967293,
+      "__RAW__Location": "新启·城中区",
+      "__IDX__Tags": [
+        4294967293
+      ],
+      "__RAW__Tags": [
+        "标准"
+      ],
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "由工业仓库改造而成的特色住宅，开敞空间通透随性，原质感墙面与复古街机元素相融，随性又潮流。",
+      "ImageSlider": [
+        {
+          "SliderName": "",
+          "__IDX__SliderName": 4294967293,
+          "__RAW__SliderName": "外景",
+          "SliderImage": 28007553
+        },
+        {
+          "SliderName": "",
+          "__IDX__SliderName": 4294967293,
+          "__RAW__SliderName": "室内",
+          "SliderImage": 28007554
+        },
+        {
+          "SliderName": "",
+          "__IDX__SliderName": 4294967293,
+          "__RAW__SliderName": "室内",
+          "SliderImage": 28007555
+        },
+        {
+          "SliderName": "",
+          "__IDX__SliderName": 4294967293,
+          "__RAW__SliderName": "车库",
+          "SliderImage": 28007556
+        }
+      ]
+    },
+    {
+      "Id": 11200005,
+      "Name": "观澜北岸",
+      "Quality": 4,
+      "Default": false,
+      "IsBuild": true,
+      "BuildPrefab": "11200005_penthouse",
+      "BuildId": 4,
+      "VisitorLimit": 8,
+      "VisitorEntrance": [
+        2633.89404,
+        188.544296,
+        2620.05103,
+        -92.6349487
+      ],
+      "VisitorExit": [
+        2641.27588,
+        0.1232934,
+        2619.30591,
+        180
+      ],
+      "Raid": 23300888,
+      "IsShopHouse": true,
+      "PaintingCount": 0,
+      "SculptureCount": 0,
+      "FishCount": 0,
+      "ParkingSpaceCount": 8,
+      "WeaponCabinetCount": 1,
+      "CollectionCount": 2,
+      "FashionShowcaseCount": 6,
+      "PetCount": 1,
+      "FeatureConsumable": [],
+      "HouseImage": 28007547,
+      "MapHouseImage": 0,
+      "RealEstateIcon": 28005473,
+      "FurnitureListImage": 28007548,
+      "DetailTags": [
+        "高楼层",
+        "1室2厅1卫"
+      ],
+      "ShopId": 94100080,
+      "Commodity": 94206002,
+      "HouseVideo": 24100161,
+      "BuyHouseDetails": [
+        13,
+        15,
+        14,
+        16,
+        17,
+        18
+      ],
+      "GameVideo": 24100161,
+      "MapEntrance": 217,
+      "Location": "新启·城中区",
+      "Tags": [
+        "高档"
+      ],
+      "Description": "开阔视野与利落线条交织的现代风格住宅，超大落地窗引光入室，铺陈出沉稳而自由的生活主场。",
+      "GarageIndoorId": 299,
+      "ParkingSpaceWaypoints": [
+        1917607,
+        1917608,
+        1917609,
+        1917610,
+        1917611,
+        1917612,
+        1917613,
+        1917614
+      ],
+      "ParkingSpaceFacings": [
+        -90,
+        -90,
+        -90,
+        -90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "GarageInWaypoint": 1917617,
+      "GarageInFacing": 90,
+      "GarageOutWaypoint": 1917616,
+      "GarageOutFacing": -90,
+      "EnterTimeline": [
+        "loading_garage_in05",
+        "loading_garage_in03"
+      ],
+      "ExitTimeline": [
+        "loading_garage_out01",
+        "loading_garage_out03"
+      ],
+      "StartVersion": "V1.1.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "观澜北岸",
+      "__IDX__DetailTags": [
+        4294967293,
+        4294967293
+      ],
+      "__RAW__DetailTags": [
+        "高楼层",
+        "1室2厅1卫"
+      ],
+      "__IDX__Location": 4294967293,
+      "__RAW__Location": "新启·城中区",
+      "__IDX__Tags": [
+        4294967293
+      ],
+      "__RAW__Tags": [
+        "高档"
+      ],
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "开阔视野与利落线条交织的现代风格住宅，超大落地窗引光入室，铺陈出沉稳而自由的生活主场。",
+      "ImageSlider": [
+        {
+          "SliderName": "",
+          "__IDX__SliderName": 4294967293,
+          "__RAW__SliderName": "外景",
+          "SliderImage": 28007544
+        },
+        {
+          "SliderName": "",
+          "__IDX__SliderName": 4294967293,
+          "__RAW__SliderName": "室内",
+          "SliderImage": 28007545
+        },
+        {
+          "SliderName": "",
+          "__IDX__SliderName": 4294967293,
+          "__RAW__SliderName": "室内",
+          "SliderImage": 28007546
+        },
+        {
+          "SliderName": "",
+          "__IDX__SliderName": 4294967293,
+          "__RAW__SliderName": "车库",
+          "SliderImage": 28007547
+        }
+      ]
+    },
+    {
+      "Id": 11200006,
+      "Name": "素光小筑",
+      "Quality": 3,
+      "Default": false,
+      "IsBuild": true,
+      "BuildPrefab": "11200006_detached",
+      "BuildId": 5,
+      "VisitorLimit": 4,
+      "VisitorEntrance": [
+        1102.41003,
+        8.90999985,
+        2386.38501,
+        -147
+      ],
+      "VisitorExit": [
+        1104.79602,
+        8.52599525,
+        2391.78296,
+        0
+      ],
+      "Raid": 23300888,
+      "IsShopHouse": true,
+      "PaintingCount": 0,
+      "SculptureCount": 0,
+      "FishCount": 0,
+      "ParkingSpaceCount": 2,
+      "WeaponCabinetCount": 0,
+      "CollectionCount": 0,
+      "FashionShowcaseCount": 0,
+      "PetCount": 0,
+      "FeatureConsumable": [],
+      "HouseImage": 28007572,
+      "MapHouseImage": 0,
+      "RealEstateIcon": 28005473,
+      "FurnitureListImage": 28007575,
+      "DetailTags": [
+        "独栋",
+        "3室2厅1卫"
+      ],
+      "ShopId": 94100080,
+      "Commodity": 94206004,
+      "HouseVideo": 24100160,
+      "BuyHouseDetails": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "GameVideo": 24100160,
+      "MapEntrance": 218,
+      "Location": "新启·夕速区",
+      "Tags": [
+        "舒适"
+      ],
+      "Description": "由原质木色与柔光织就的简约居所，木梁格栅与留白墙壁相映，提供一处安静的栖心之地。",
+      "GarageIndoorId": 379,
+      "ParkingSpaceWaypoints": [
+        1917585,
+        1917586
+      ],
+      "ParkingSpaceFacings": [
+        -90,
+        -90
+      ],
+      "GarageInWaypoint": 1917587,
+      "GarageInFacing": 90,
+      "GarageOutWaypoint": 1917593,
+      "GarageOutFacing": 90,
+      "EnterTimeline": [
+        "loading_garage_in04",
+        "loading_garage_in03"
+      ],
+      "ExitTimeline": [
+        "loading_garage_out03"
+      ],
+      "StartVersion": "V1.1.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "素光小筑",
+      "__IDX__DetailTags": [
+        4294967293,
+        4294967293
+      ],
+      "__RAW__DetailTags": [
+        "独栋",
+        "3室2厅1卫"
+      ],
+      "__IDX__Location": 4294967293,
+      "__RAW__Location": "新启·夕速区",
+      "__IDX__Tags": [
+        4294967293
+      ],
+      "__RAW__Tags": [
+        "舒适"
+      ],
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "由原质木色与柔光织就的简约居所，木梁格栅与留白墙壁相映，提供一处安静的栖心之地。",
+      "ImageSlider": [
+        {
+          "SliderName": "",
+          "__IDX__SliderName": 4294967293,
+          "__RAW__SliderName": "外景",
+          "SliderImage": 28007572
+        },
+        {
+          "SliderName": "",
+          "__IDX__SliderName": 4294967293,
+          "__RAW__SliderName": "室内",
+          "SliderImage": 28007573
+        },
+        {
+          "SliderName": "",
+          "__IDX__SliderName": 4294967293,
+          "__RAW__SliderName": "室内",
+          "SliderImage": 28007574
+        },
+        {
+          "SliderName": "",
+          "__IDX__SliderName": 4294967293,
+          "__RAW__SliderName": "车库",
+          "SliderImage": 28007575
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 5,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

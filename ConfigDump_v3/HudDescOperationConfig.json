@@ -1,0 +1,25 @@
+{
+  "_class": "HudDescOperationConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 3,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "ChangeVis",
+      "SetAction": "SetButtonVisibleById"
+    },
+    {
+      "Id": 2,
+      "Name": "ChangeActive",
+      "SetAction": "SetButtonInteractableById"
+    },
+    {
+      "Id": 3,
+      "Name": "ChangeEnterBar",
+      "SetAction": "SetButtonEnterBar"
+    }
+  ],
+  "_dumpedCount": 3,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

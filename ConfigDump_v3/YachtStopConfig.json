@@ -1,0 +1,66 @@
+{
+  "_class": "YachtStopConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 4,
+  "records": [
+    {
+      "Id": 1,
+      "RouteId": 1,
+      "StopName": "新启港1",
+      "StopOrder": 1,
+      "StopScene": 0,
+      "MapRegion": "新启",
+      "RotationY": 0,
+      "Position": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "Id": 2,
+      "RouteId": 1,
+      "StopName": "新启湾2",
+      "StopOrder": 2,
+      "StopScene": 0,
+      "MapRegion": "新启",
+      "RotationY": 0,
+      "Position": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "Id": 3,
+      "RouteId": 2,
+      "StopName": "重霄港1",
+      "StopOrder": 1,
+      "StopScene": 0,
+      "MapRegion": "重霄",
+      "RotationY": 0,
+      "Position": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "Id": 4,
+      "RouteId": 2,
+      "StopName": "重霄湾2",
+      "StopOrder": 2,
+      "StopScene": 0,
+      "MapRegion": "重霄",
+      "RotationY": 0,
+      "Position": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "_dumpedCount": 4,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

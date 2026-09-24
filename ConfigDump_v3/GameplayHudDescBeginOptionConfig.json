@@ -1,0 +1,235 @@
+{
+  "_class": "GameplayHudDescBeginOptionConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 7,
+  "records": [
+    {
+      "Id": 1,
+      "Title": "Select Difficulty",
+      "ShowInTab": false,
+      "Options": [
+        "Easy",
+        "Hard",
+        "Legend"
+      ],
+      "WorldLifeId": [
+        99910042,
+        99910043,
+        99910044
+      ],
+      "DescOverwrite": [],
+      "__IDX__Title": 149753,
+      "__RAW__Title": "",
+      "__IDX__Options": [
+        149750,
+        149751,
+        149752
+      ],
+      "__RAW__Options": [
+        "",
+        "",
+        ""
+      ],
+      "__IDX__DescOverwrite": [],
+      "__RAW__DescOverwrite": []
+    },
+    {
+      "Id": 2,
+      "Title": "Choose Side",
+      "ShowInTab": false,
+      "Options": [
+        "Black",
+        "White"
+      ],
+      "WorldLifeId": [
+        0,
+        0
+      ],
+      "DescOverwrite": [],
+      "__IDX__Title": 149756,
+      "__RAW__Title": "",
+      "__IDX__Options": [
+        149754,
+        149755
+      ],
+      "__RAW__Options": [
+        "",
+        ""
+      ],
+      "__IDX__DescOverwrite": [],
+      "__RAW__DescOverwrite": []
+    },
+    {
+      "Id": 3,
+      "Title": "Select Mode",
+      "ShowInTab": true,
+      "Options": [
+        "Standard Mode",
+        "Skill Mode"
+      ],
+      "WorldLifeId": [
+        0,
+        0
+      ],
+      "DescOverwrite": [
+        "",
+        "Black moves first. Players then alternate placing stones. The first to line up five stones in a row—either horizontally, vertically, or diagonally—wins. Before the match begins, each player picks one special skill."
+      ],
+      "__IDX__Title": 149759,
+      "__RAW__Title": "",
+      "__IDX__Options": [
+        149757,
+        149758
+      ],
+      "__RAW__Options": [
+        "",
+        ""
+      ],
+      "__IDX__DescOverwrite": [
+        0,
+        154132
+      ],
+      "__RAW__DescOverwrite": [
+        "",
+        ""
+      ]
+    },
+    {
+      "Id": 4,
+      "Title": "选择模式",
+      "ShowInTab": true,
+      "Options": [
+        "普通模式",
+        "复杂模式"
+      ],
+      "WorldLifeId": [
+        0,
+        0
+      ],
+      "DescOverwrite": [
+        "摇6颗骰子计分，可锁定部分骰子，其余重摇搏高分。但若摇不出任何骰型又无1或6点，本轮分数清零。是见好就收，还是放手一搏？"
+      ],
+      "__IDX__Title": 4294967295,
+      "__RAW__Title": "选择模式",
+      "__IDX__Options": [
+        4294967295,
+        4294967295
+      ],
+      "__RAW__Options": [
+        "普通模式",
+        "复杂模式"
+      ],
+      "__IDX__DescOverwrite": [
+        4294967295
+      ],
+      "__RAW__DescOverwrite": [
+        "摇6颗骰子计分，可锁定部分骰子，其余重摇搏高分。但若摇不出任何骰型又无1或6点，本轮分数清零。是见好就收，还是放手一搏？"
+      ]
+    },
+    {
+      "Id": 5,
+      "Title": "选择难度",
+      "ShowInTab": false,
+      "Options": [
+        "简单难度",
+        "普通难度",
+        "困难难度",
+        "大师难度"
+      ],
+      "WorldLifeId": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "DescOverwrite": [],
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "选择难度",
+      "__IDX__Options": [
+        4294967293,
+        4294967293,
+        4294967293,
+        4294967293
+      ],
+      "__RAW__Options": [
+        "简单难度",
+        "普通难度",
+        "困难难度",
+        "大师难度"
+      ],
+      "__IDX__DescOverwrite": [],
+      "__RAW__DescOverwrite": []
+    },
+    {
+      "Id": 6,
+      "Title": "自由绘画",
+      "ShowInTab": true,
+      "Options": [
+        "自由绘画"
+      ],
+      "WorldLifeId": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "DescOverwrite": [
+        "来自由画画吧"
+      ],
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "自由绘画",
+      "__IDX__Options": [
+        4294967293
+      ],
+      "__RAW__Options": [
+        "自由绘画"
+      ],
+      "__IDX__DescOverwrite": [
+        4294967293
+      ],
+      "__RAW__DescOverwrite": [
+        "来自由画画吧"
+      ]
+    },
+    {
+      "Id": 7,
+      "Title": "自由绘画",
+      "ShowInTab": true,
+      "Options": [
+        "自由绘画",
+        "AI绘画"
+      ],
+      "WorldLifeId": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "DescOverwrite": [
+        "来自由画画吧",
+        "来ai画画吧"
+      ],
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "自由绘画",
+      "__IDX__Options": [
+        4294967293,
+        4294967293
+      ],
+      "__RAW__Options": [
+        "自由绘画",
+        "AI绘画"
+      ],
+      "__IDX__DescOverwrite": [
+        4294967293,
+        4294967293
+      ],
+      "__RAW__DescOverwrite": [
+        "来自由画画吧",
+        "来ai画画吧"
+      ]
+    }
+  ],
+  "_dumpedCount": 7,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

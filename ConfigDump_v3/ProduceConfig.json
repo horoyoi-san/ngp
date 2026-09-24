@@ -1,0 +1,1526 @@
+{
+  "_class": "ProduceConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 27,
+  "records": [
+    {
+      "Id": 37000000,
+      "Name": "速愈溶液",
+      "Description": "改为读物品描述了，这列可以不配",
+      "Type": 0,
+      "Quality": 2,
+      "Difficulty": 1,
+      "Unique": 0,
+      "WeaponItemId": 0,
+      "DropId": 14370003,
+      "UnlockItemId": 36890016,
+      "GuideId": "",
+      "Cost": 50,
+      "FirstProduceAddTalentPoint": 1,
+      "FinalDropId": {
+        "fail": 14370000,
+        "normal": 14370001,
+        "success": 14370002,
+        "perfect": 14370003
+      },
+      "Material": [
+        {
+          "itemId": 36210000,
+          "num": 16
+        },
+        {
+          "itemId": 36210002,
+          "num": 8
+        },
+        {
+          "itemId": 36210003,
+          "num": 8
+        }
+      ],
+      "Material_circulation": [],
+      "Material_special": [],
+      "RepeatProduceAddTalentPoint": [
+        {
+          "jobId": 10,
+          "chance": 0.100000001,
+          "num": 1
+        },
+        {
+          "jobId": 11,
+          "chance": 0.200000003,
+          "num": 1
+        },
+        {
+          "jobId": 12,
+          "chance": 0.300000012,
+          "num": 1
+        }
+      ]
+    },
+    {
+      "Id": 37000001,
+      "Name": "泵动医疗器",
+      "Description": "",
+      "Type": 0,
+      "Quality": 3,
+      "Difficulty": 1,
+      "Unique": 0,
+      "WeaponItemId": 0,
+      "DropId": 14370006,
+      "UnlockItemId": 36890017,
+      "GuideId": "",
+      "Cost": 100,
+      "FirstProduceAddTalentPoint": 2,
+      "FinalDropId": {
+        "fail": 14370000,
+        "normal": 14370004,
+        "success": 14370005,
+        "perfect": 14370006
+      },
+      "Material": [
+        {
+          "itemId": 36210000,
+          "num": 32
+        },
+        {
+          "itemId": 36210002,
+          "num": 16
+        },
+        {
+          "itemId": 36210003,
+          "num": 16
+        }
+      ],
+      "Material_circulation": [
+        {
+          "itemId": 36890024,
+          "num": 3
+        }
+      ],
+      "Material_special": [],
+      "RepeatProduceAddTalentPoint": [
+        {
+          "jobId": 10,
+          "chance": 0.200000003,
+          "num": 1
+        },
+        {
+          "jobId": 11,
+          "chance": 0.300000012,
+          "num": 1
+        },
+        {
+          "jobId": 12,
+          "chance": 0.400000006,
+          "num": 1
+        }
+      ]
+    },
+    {
+      "Id": 37000002,
+      "Name": "变大胶囊",
+      "Description": "",
+      "Type": 0,
+      "Quality": 3,
+      "Difficulty": 0,
+      "Unique": 0,
+      "WeaponItemId": 0,
+      "DropId": 14370009,
+      "UnlockItemId": 36890023,
+      "GuideId": "",
+      "Cost": 100,
+      "FirstProduceAddTalentPoint": 2,
+      "FinalDropId": {
+        "fail": 14370000,
+        "normal": 14370007,
+        "success": 14370008,
+        "perfect": 14370009
+      },
+      "Material": [
+        {
+          "itemId": 36210000,
+          "num": 16
+        },
+        {
+          "itemId": 36210001,
+          "num": 16
+        },
+        {
+          "itemId": 36210002,
+          "num": 16
+        },
+        {
+          "itemId": 36210003,
+          "num": 16
+        }
+      ],
+      "Material_circulation": [],
+      "Material_special": [],
+      "RepeatProduceAddTalentPoint": [
+        {
+          "jobId": 10,
+          "chance": 0.200000003,
+          "num": 1
+        },
+        {
+          "jobId": 11,
+          "chance": 0.300000012,
+          "num": 1
+        },
+        {
+          "jobId": 12,
+          "chance": 0.400000006,
+          "num": 1
+        }
+      ]
+    },
+    {
+      "Id": 37000003,
+      "Name": "肾上腺素",
+      "Description": "",
+      "Type": 0,
+      "Quality": 3,
+      "Difficulty": 0,
+      "Unique": 0,
+      "WeaponItemId": 0,
+      "DropId": 14370012,
+      "UnlockItemId": 36890023,
+      "GuideId": "",
+      "Cost": 100,
+      "FirstProduceAddTalentPoint": 2,
+      "FinalDropId": {
+        "fail": 14370000,
+        "normal": 14370010,
+        "success": 14370011,
+        "perfect": 14370012
+      },
+      "Material": [
+        {
+          "itemId": 36210000,
+          "num": 16
+        },
+        {
+          "itemId": 36210001,
+          "num": 16
+        },
+        {
+          "itemId": 36210002,
+          "num": 16
+        },
+        {
+          "itemId": 36210003,
+          "num": 16
+        }
+      ],
+      "Material_circulation": [],
+      "Material_special": [],
+      "RepeatProduceAddTalentPoint": [
+        {
+          "jobId": 10,
+          "chance": 0.200000003,
+          "num": 1
+        },
+        {
+          "jobId": 11,
+          "chance": 0.300000012,
+          "num": 1
+        },
+        {
+          "jobId": 12,
+          "chance": 0.400000006,
+          "num": 1
+        }
+      ]
+    },
+    {
+      "Id": 37000101,
+      "Name": "撬棍",
+      "Description": "",
+      "Type": 1,
+      "Quality": 1,
+      "Difficulty": 0,
+      "Unique": 0,
+      "WeaponItemId": 80000798,
+      "DropId": 14370125,
+      "UnlockItemId": 36890023,
+      "GuideId": "",
+      "Cost": 50,
+      "FirstProduceAddTalentPoint": 1,
+      "FinalDropId": {
+        "fail": 14370000,
+        "normal": 14370125,
+        "success": 14370125,
+        "perfect": 14370125
+      },
+      "Material": [
+        {
+          "itemId": 36210001,
+          "num": 8
+        },
+        {
+          "itemId": 36210002,
+          "num": 8
+        }
+      ],
+      "Material_circulation": [],
+      "Material_special": [],
+      "RepeatProduceAddTalentPoint": [
+        {
+          "jobId": 10,
+          "chance": 0.00999999978,
+          "num": 1
+        },
+        {
+          "jobId": 11,
+          "chance": 0.0500000007,
+          "num": 1
+        },
+        {
+          "jobId": 12,
+          "chance": 0.100000001,
+          "num": 1
+        }
+      ]
+    },
+    {
+      "Id": 37000102,
+      "Name": "破墙锤",
+      "Description": "",
+      "Type": 1,
+      "Quality": 1,
+      "Difficulty": 0,
+      "Unique": 0,
+      "WeaponItemId": 80000797,
+      "DropId": 14370126,
+      "UnlockItemId": 36890023,
+      "GuideId": "",
+      "Cost": 50,
+      "FirstProduceAddTalentPoint": 1,
+      "FinalDropId": {
+        "fail": 14370000,
+        "normal": 14370126,
+        "success": 14370126,
+        "perfect": 14370126
+      },
+      "Material": [
+        {
+          "itemId": 36210001,
+          "num": 8
+        },
+        {
+          "itemId": 36210002,
+          "num": 8
+        }
+      ],
+      "Material_circulation": [],
+      "Material_special": [],
+      "RepeatProduceAddTalentPoint": [
+        {
+          "jobId": 10,
+          "chance": 0.00999999978,
+          "num": 1
+        },
+        {
+          "jobId": 11,
+          "chance": 0.0500000007,
+          "num": 1
+        },
+        {
+          "jobId": 12,
+          "chance": 0.100000001,
+          "num": 1
+        }
+      ]
+    },
+    {
+      "Id": 37000103,
+      "Name": "台球杆",
+      "Description": "",
+      "Type": 1,
+      "Quality": 1,
+      "Difficulty": 0,
+      "Unique": 0,
+      "WeaponItemId": 80000494,
+      "DropId": 14370127,
+      "UnlockItemId": 36890023,
+      "GuideId": "",
+      "Cost": 50,
+      "FirstProduceAddTalentPoint": 1,
+      "FinalDropId": {
+        "fail": 14370000,
+        "normal": 14370127,
+        "success": 14370127,
+        "perfect": 14370127
+      },
+      "Material": [
+        {
+          "itemId": 36210001,
+          "num": 8
+        },
+        {
+          "itemId": 36210002,
+          "num": 8
+        }
+      ],
+      "Material_circulation": [],
+      "Material_special": [],
+      "RepeatProduceAddTalentPoint": [
+        {
+          "jobId": 10,
+          "chance": 0.00999999978,
+          "num": 1
+        },
+        {
+          "jobId": 11,
+          "chance": 0.0500000007,
+          "num": 1
+        },
+        {
+          "jobId": 12,
+          "chance": 0.100000001,
+          "num": 1
+        }
+      ]
+    },
+    {
+      "Id": 37000104,
+      "Name": "奶瓶",
+      "Description": "",
+      "Type": 1,
+      "Quality": 2,
+      "Difficulty": 0,
+      "Unique": 0,
+      "WeaponItemId": 80000806,
+      "DropId": 14370105,
+      "UnlockItemId": 36890023,
+      "GuideId": "",
+      "Cost": 50,
+      "FirstProduceAddTalentPoint": 1,
+      "FinalDropId": {
+        "fail": 14370000,
+        "normal": 14370105,
+        "success": 14370105,
+        "perfect": 14370105
+      },
+      "Material": [
+        {
+          "itemId": 36210000,
+          "num": 8
+        },
+        {
+          "itemId": 36210001,
+          "num": 8
+        },
+        {
+          "itemId": 36210003,
+          "num": 16
+        }
+      ],
+      "Material_circulation": [],
+      "Material_special": [],
+      "RepeatProduceAddTalentPoint": [
+        {
+          "jobId": 10,
+          "chance": 0.100000001,
+          "num": 1
+        },
+        {
+          "jobId": 11,
+          "chance": 0.200000003,
+          "num": 1
+        },
+        {
+          "jobId": 12,
+          "chance": 0.300000012,
+          "num": 1
+        }
+      ]
+    },
+    {
+      "Id": 37000105,
+      "Name": "冲锋枪",
+      "Description": "",
+      "Type": 1,
+      "Quality": 3,
+      "Difficulty": 1,
+      "Unique": 0,
+      "WeaponItemId": 80000505,
+      "DropId": 14370106,
+      "UnlockItemId": 36890005,
+      "GuideId": "",
+      "Cost": 100,
+      "FirstProduceAddTalentPoint": 2,
+      "FinalDropId": {
+        "fail": 14370000,
+        "normal": 14370106,
+        "success": 14370106,
+        "perfect": 14370106
+      },
+      "Material": [
+        {
+          "itemId": 36210001,
+          "num": 32
+        },
+        {
+          "itemId": 36210002,
+          "num": 16
+        },
+        {
+          "itemId": 36210003,
+          "num": 16
+        }
+      ],
+      "Material_circulation": [],
+      "Material_special": [],
+      "RepeatProduceAddTalentPoint": [
+        {
+          "jobId": 10,
+          "chance": 0.200000003,
+          "num": 1
+        },
+        {
+          "jobId": 11,
+          "chance": 0.300000012,
+          "num": 1
+        },
+        {
+          "jobId": 12,
+          "chance": 0.400000006,
+          "num": 1
+        }
+      ]
+    },
+    {
+      "Id": 37000107,
+      "Name": "火箭筒",
+      "Description": "",
+      "Type": 1,
+      "Quality": 3,
+      "Difficulty": 1,
+      "Unique": 0,
+      "WeaponItemId": 80000807,
+      "DropId": 14370108,
+      "UnlockItemId": 36890003,
+      "GuideId": "",
+      "Cost": 100,
+      "FirstProduceAddTalentPoint": 2,
+      "FinalDropId": {
+        "fail": 14370000,
+        "normal": 14370108,
+        "success": 14370108,
+        "perfect": 14370108
+      },
+      "Material": [
+        {
+          "itemId": 36210001,
+          "num": 32
+        },
+        {
+          "itemId": 36210002,
+          "num": 16
+        },
+        {
+          "itemId": 36210003,
+          "num": 16
+        }
+      ],
+      "Material_circulation": [],
+      "Material_special": [],
+      "RepeatProduceAddTalentPoint": [
+        {
+          "jobId": 10,
+          "chance": 0.200000003,
+          "num": 1
+        },
+        {
+          "jobId": 11,
+          "chance": 0.300000012,
+          "num": 1
+        },
+        {
+          "jobId": 12,
+          "chance": 0.400000006,
+          "num": 1
+        }
+      ]
+    },
+    {
+      "Id": 37000108,
+      "Name": "大炮",
+      "Description": "",
+      "Type": 1,
+      "Quality": 3,
+      "Difficulty": 1,
+      "Unique": 0,
+      "WeaponItemId": 80000508,
+      "DropId": 14370109,
+      "UnlockItemId": 36890021,
+      "GuideId": "",
+      "Cost": 100,
+      "FirstProduceAddTalentPoint": 2,
+      "FinalDropId": {
+        "fail": 14370000,
+        "normal": 14370109,
+        "success": 14370109,
+        "perfect": 14370109
+      },
+      "Material": [
+        {
+          "itemId": 36210000,
+          "num": 16
+        },
+        {
+          "itemId": 36210001,
+          "num": 16
+        },
+        {
+          "itemId": 36210002,
+          "num": 16
+        },
+        {
+          "itemId": 36210003,
+          "num": 16
+        }
+      ],
+      "Material_circulation": [
+        {
+          "itemId": 36890031,
+          "num": 3
+        }
+      ],
+      "Material_special": [],
+      "RepeatProduceAddTalentPoint": [
+        {
+          "jobId": 10,
+          "chance": 0.200000003,
+          "num": 1
+        },
+        {
+          "jobId": 11,
+          "chance": 0.300000012,
+          "num": 1
+        },
+        {
+          "jobId": 12,
+          "chance": 0.400000006,
+          "num": 1
+        }
+      ]
+    },
+    {
+      "Id": 37000109,
+      "Name": "高尔夫球杆",
+      "Description": "",
+      "Type": 1,
+      "Quality": 3,
+      "Difficulty": 0,
+      "Unique": 0,
+      "WeaponItemId": 80000803,
+      "DropId": 14370128,
+      "UnlockItemId": 36890023,
+      "GuideId": "",
+      "Cost": 100,
+      "FirstProduceAddTalentPoint": 2,
+      "FinalDropId": {
+        "fail": 14370000,
+        "normal": 14370128,
+        "success": 14370128,
+        "perfect": 14370128
+      },
+      "Material": [
+        {
+          "itemId": 36210000,
+          "num": 16
+        },
+        {
+          "itemId": 36210001,
+          "num": 16
+        },
+        {
+          "itemId": 36210002,
+          "num": 16
+        },
+        {
+          "itemId": 36210003,
+          "num": 16
+        }
+      ],
+      "Material_circulation": [],
+      "Material_special": [],
+      "RepeatProduceAddTalentPoint": [
+        {
+          "jobId": 10,
+          "chance": 0.200000003,
+          "num": 1
+        },
+        {
+          "jobId": 11,
+          "chance": 0.300000012,
+          "num": 1
+        },
+        {
+          "jobId": 12,
+          "chance": 0.400000006,
+          "num": 1
+        }
+      ]
+    },
+    {
+      "Id": 37000110,
+      "Name": "喷火器",
+      "Description": "",
+      "Type": 1,
+      "Quality": 4,
+      "Difficulty": 1,
+      "Unique": 0,
+      "WeaponItemId": 80000510,
+      "DropId": 14370111,
+      "UnlockItemId": 36890007,
+      "GuideId": "",
+      "Cost": 1000,
+      "FirstProduceAddTalentPoint": 3,
+      "FinalDropId": {
+        "fail": 14370000,
+        "normal": 14370111,
+        "success": 14370111,
+        "perfect": 14370111
+      },
+      "Material": [
+        {
+          "itemId": 36210001,
+          "num": 64
+        },
+        {
+          "itemId": 36210002,
+          "num": 32
+        },
+        {
+          "itemId": 36210003,
+          "num": 32
+        }
+      ],
+      "Material_circulation": [
+        {
+          "itemId": 36890027,
+          "num": 3
+        }
+      ],
+      "Material_special": [],
+      "RepeatProduceAddTalentPoint": [
+        {
+          "jobId": 10,
+          "chance": 0.300000012,
+          "num": 1
+        },
+        {
+          "jobId": 11,
+          "chance": 0.400000006,
+          "num": 1
+        },
+        {
+          "jobId": 12,
+          "chance": 0.5,
+          "num": 1
+        }
+      ]
+    },
+    {
+      "Id": 37000112,
+      "Name": "低温冷冻枪",
+      "Description": "",
+      "Type": 1,
+      "Quality": 4,
+      "Difficulty": 1,
+      "Unique": 0,
+      "WeaponItemId": 80000987,
+      "DropId": 14370113,
+      "UnlockItemId": 36890009,
+      "GuideId": "",
+      "Cost": 1000,
+      "FirstProduceAddTalentPoint": 3,
+      "FinalDropId": {
+        "fail": 14370000,
+        "normal": 14370113,
+        "success": 14370113,
+        "perfect": 14370113
+      },
+      "Material": [
+        {
+          "itemId": 36210000,
+          "num": 32
+        },
+        {
+          "itemId": 36210001,
+          "num": 32
+        },
+        {
+          "itemId": 36210002,
+          "num": 32
+        },
+        {
+          "itemId": 36210003,
+          "num": 32
+        }
+      ],
+      "Material_circulation": [
+        {
+          "itemId": 36890028,
+          "num": 3
+        }
+      ],
+      "Material_special": [],
+      "RepeatProduceAddTalentPoint": [
+        {
+          "jobId": 10,
+          "chance": 0.300000012,
+          "num": 1
+        },
+        {
+          "jobId": 11,
+          "chance": 0.400000006,
+          "num": 1
+        },
+        {
+          "jobId": 12,
+          "chance": 0.5,
+          "num": 1
+        }
+      ]
+    },
+    {
+      "Id": 37000115,
+      "Name": "金属管",
+      "Description": "",
+      "Type": 1,
+      "Quality": 2,
+      "Difficulty": 0,
+      "Unique": 0,
+      "WeaponItemId": 80000805,
+      "DropId": 14370129,
+      "UnlockItemId": 36890023,
+      "GuideId": "",
+      "Cost": 50,
+      "FirstProduceAddTalentPoint": 1,
+      "FinalDropId": {
+        "fail": 14370000,
+        "normal": 14370129,
+        "success": 14370129,
+        "perfect": 14370129
+      },
+      "Material": [
+        {
+          "itemId": 36210000,
+          "num": 8
+        },
+        {
+          "itemId": 36210001,
+          "num": 8
+        },
+        {
+          "itemId": 36210003,
+          "num": 16
+        }
+      ],
+      "Material_circulation": [],
+      "Material_special": [],
+      "RepeatProduceAddTalentPoint": [
+        {
+          "jobId": 10,
+          "chance": 0.100000001,
+          "num": 1
+        },
+        {
+          "jobId": 11,
+          "chance": 0.200000003,
+          "num": 1
+        },
+        {
+          "jobId": 12,
+          "chance": 0.300000012,
+          "num": 1
+        }
+      ]
+    },
+    {
+      "Id": 37000117,
+      "Name": "怪物贝斯",
+      "Description": "",
+      "Type": 1,
+      "Quality": 2,
+      "Difficulty": 0,
+      "Unique": 0,
+      "WeaponItemId": 80001267,
+      "DropId": 14370131,
+      "UnlockItemId": 36890023,
+      "GuideId": "",
+      "Cost": 50,
+      "FirstProduceAddTalentPoint": 1,
+      "FinalDropId": {
+        "fail": 14370000,
+        "normal": 14370131,
+        "success": 14370131,
+        "perfect": 14370131
+      },
+      "Material": [
+        {
+          "itemId": 36210000,
+          "num": 8
+        },
+        {
+          "itemId": 36210001,
+          "num": 8
+        },
+        {
+          "itemId": 36210003,
+          "num": 16
+        }
+      ],
+      "Material_circulation": [],
+      "Material_special": [],
+      "RepeatProduceAddTalentPoint": [
+        {
+          "jobId": 10,
+          "chance": 0.100000001,
+          "num": 1
+        },
+        {
+          "jobId": 11,
+          "chance": 0.200000003,
+          "num": 1
+        },
+        {
+          "jobId": 12,
+          "chance": 0.300000012,
+          "num": 1
+        }
+      ]
+    },
+    {
+      "Id": 37000118,
+      "Name": "换色咸鱼",
+      "Description": "",
+      "Type": 1,
+      "Quality": 2,
+      "Difficulty": 0,
+      "Unique": 0,
+      "WeaponItemId": 80001224,
+      "DropId": 14370132,
+      "UnlockItemId": 36890023,
+      "GuideId": "",
+      "Cost": 50,
+      "FirstProduceAddTalentPoint": 1,
+      "FinalDropId": {
+        "fail": 14370000,
+        "normal": 14370132,
+        "success": 14370132,
+        "perfect": 14370132
+      },
+      "Material": [
+        {
+          "itemId": 36210000,
+          "num": 8
+        },
+        {
+          "itemId": 36210001,
+          "num": 8
+        },
+        {
+          "itemId": 36210003,
+          "num": 16
+        }
+      ],
+      "Material_circulation": [],
+      "Material_special": [],
+      "RepeatProduceAddTalentPoint": [
+        {
+          "jobId": 10,
+          "chance": 0.100000001,
+          "num": 1
+        },
+        {
+          "jobId": 11,
+          "chance": 0.200000003,
+          "num": 1
+        },
+        {
+          "jobId": 12,
+          "chance": 0.300000012,
+          "num": 1
+        }
+      ]
+    },
+    {
+      "Id": 37000119,
+      "Name": "破片雷个人线Q1",
+      "Description": "",
+      "Type": 1,
+      "Quality": 2,
+      "Difficulty": 0,
+      "Unique": 0,
+      "WeaponItemId": 80003735,
+      "DropId": 14370133,
+      "UnlockItemId": 0,
+      "GuideId": "MKGuide",
+      "Cost": 50,
+      "FirstProduceAddTalentPoint": 1,
+      "FinalDropId": {
+        "fail": 14370000,
+        "normal": 14370133,
+        "success": 14370133,
+        "perfect": 14370133
+      },
+      "Material": [
+        {
+          "itemId": 36210000,
+          "num": 8
+        },
+        {
+          "itemId": 36210001,
+          "num": 8
+        },
+        {
+          "itemId": 36210002,
+          "num": 8
+        },
+        {
+          "itemId": 36210003,
+          "num": 8
+        }
+      ],
+      "Material_circulation": [],
+      "Material_special": [],
+      "RepeatProduceAddTalentPoint": [
+        {
+          "jobId": 10,
+          "chance": 0.100000001,
+          "num": 1
+        },
+        {
+          "jobId": 11,
+          "chance": 0.200000003,
+          "num": 1
+        },
+        {
+          "jobId": 12,
+          "chance": 0.300000012,
+          "num": 1
+        }
+      ]
+    },
+    {
+      "Id": 37000202,
+      "Name": "苦无",
+      "Description": "",
+      "Type": 2,
+      "Quality": 3,
+      "Difficulty": 1,
+      "Unique": 0,
+      "WeaponItemId": 0,
+      "DropId": 14370209,
+      "UnlockItemId": 36890014,
+      "GuideId": "",
+      "Cost": 100,
+      "FirstProduceAddTalentPoint": 2,
+      "FinalDropId": {
+        "fail": 14370000,
+        "normal": 14370207,
+        "success": 14370208,
+        "perfect": 14370209
+      },
+      "Material": [
+        {
+          "itemId": 36210000,
+          "num": 16
+        },
+        {
+          "itemId": 36210001,
+          "num": 16
+        },
+        {
+          "itemId": 36210002,
+          "num": 16
+        },
+        {
+          "itemId": 36210003,
+          "num": 16
+        }
+      ],
+      "Material_circulation": [],
+      "Material_special": [],
+      "RepeatProduceAddTalentPoint": [
+        {
+          "jobId": 10,
+          "chance": 0.200000003,
+          "num": 1
+        },
+        {
+          "jobId": 11,
+          "chance": 0.300000012,
+          "num": 1
+        },
+        {
+          "jobId": 12,
+          "chance": 0.400000006,
+          "num": 1
+        }
+      ]
+    },
+    {
+      "Id": 37000203,
+      "Name": "冠军之证",
+      "Description": "",
+      "Type": 2,
+      "Quality": 4,
+      "Difficulty": 1,
+      "Unique": 1,
+      "WeaponItemId": 0,
+      "DropId": 14370212,
+      "UnlockItemId": 36890015,
+      "GuideId": "",
+      "Cost": 1000,
+      "FirstProduceAddTalentPoint": 3,
+      "FinalDropId": {
+        "fail": 14370000,
+        "normal": 14370212,
+        "success": 14370212,
+        "perfect": 14370212
+      },
+      "Material": [
+        {
+          "itemId": 36210000,
+          "num": 32
+        },
+        {
+          "itemId": 36210001,
+          "num": 32
+        },
+        {
+          "itemId": 36210002,
+          "num": 64
+        }
+      ],
+      "Material_circulation": [
+        {
+          "itemId": 36890029,
+          "num": 3
+        }
+      ],
+      "Material_special": [],
+      "RepeatProduceAddTalentPoint": [
+        {
+          "jobId": 10,
+          "chance": 0.300000012,
+          "num": 1
+        },
+        {
+          "jobId": 11,
+          "chance": 0.400000006,
+          "num": 1
+        },
+        {
+          "jobId": 12,
+          "chance": 0.5,
+          "num": 1
+        }
+      ]
+    },
+    {
+      "Id": 37000204,
+      "Name": "时缓装置",
+      "Description": "",
+      "Type": 2,
+      "Quality": 3,
+      "Difficulty": 0,
+      "Unique": 1,
+      "WeaponItemId": 0,
+      "DropId": 14493001,
+      "UnlockItemId": 36890023,
+      "GuideId": "",
+      "Cost": 100,
+      "FirstProduceAddTalentPoint": 2,
+      "FinalDropId": {
+        "fail": 14370000,
+        "normal": 14493001,
+        "success": 14493001,
+        "perfect": 14493001
+      },
+      "Material": [
+        {
+          "itemId": 36210000,
+          "num": 16
+        },
+        {
+          "itemId": 36210001,
+          "num": 16
+        },
+        {
+          "itemId": 36210003,
+          "num": 32
+        }
+      ],
+      "Material_circulation": [],
+      "Material_special": [],
+      "RepeatProduceAddTalentPoint": [
+        {
+          "jobId": 10,
+          "chance": 0.200000003,
+          "num": 1
+        },
+        {
+          "jobId": 11,
+          "chance": 0.300000012,
+          "num": 1
+        },
+        {
+          "jobId": 12,
+          "chance": 0.400000006,
+          "num": 1
+        }
+      ]
+    },
+    {
+      "Id": 37000205,
+      "Name": "桶蟹陶瓷碗",
+      "Description": "",
+      "Type": 2,
+      "Quality": 2,
+      "Difficulty": 0,
+      "Unique": 0,
+      "WeaponItemId": 0,
+      "DropId": 14370213,
+      "UnlockItemId": 36890023,
+      "GuideId": "",
+      "Cost": 50,
+      "FirstProduceAddTalentPoint": 1,
+      "FinalDropId": {
+        "fail": 14370000,
+        "normal": 14370213,
+        "success": 14370213,
+        "perfect": 14370213
+      },
+      "Material": [
+        {
+          "itemId": 36210000,
+          "num": 8
+        },
+        {
+          "itemId": 36210001,
+          "num": 8
+        },
+        {
+          "itemId": 36210002,
+          "num": 16
+        }
+      ],
+      "Material_circulation": [],
+      "Material_special": [],
+      "RepeatProduceAddTalentPoint": [
+        {
+          "jobId": 10,
+          "chance": 0.100000001,
+          "num": 1
+        },
+        {
+          "jobId": 11,
+          "chance": 0.200000003,
+          "num": 1
+        },
+        {
+          "jobId": 12,
+          "chance": 0.300000012,
+          "num": 1
+        }
+      ]
+    },
+    {
+      "Id": 37000206,
+      "Name": "车载冰箱",
+      "Description": "",
+      "Type": 2,
+      "Quality": 3,
+      "Difficulty": 0,
+      "Unique": 0,
+      "WeaponItemId": 0,
+      "DropId": 14370214,
+      "UnlockItemId": 36890023,
+      "GuideId": "",
+      "Cost": 100,
+      "FirstProduceAddTalentPoint": 2,
+      "FinalDropId": {
+        "fail": 14370000,
+        "normal": 14370214,
+        "success": 14370214,
+        "perfect": 14370214
+      },
+      "Material": [
+        {
+          "itemId": 36210000,
+          "num": 16
+        },
+        {
+          "itemId": 36210001,
+          "num": 16
+        },
+        {
+          "itemId": 36210002,
+          "num": 32
+        }
+      ],
+      "Material_circulation": [],
+      "Material_special": [],
+      "RepeatProduceAddTalentPoint": [
+        {
+          "jobId": 10,
+          "chance": 0.200000003,
+          "num": 1
+        },
+        {
+          "jobId": 11,
+          "chance": 0.300000012,
+          "num": 1
+        },
+        {
+          "jobId": 12,
+          "chance": 0.400000006,
+          "num": 1
+        }
+      ]
+    },
+    {
+      "Id": 37000207,
+      "Name": "便携炊具套装",
+      "Description": "",
+      "Type": 2,
+      "Quality": 2,
+      "Difficulty": 0,
+      "Unique": 0,
+      "WeaponItemId": 0,
+      "DropId": 14370215,
+      "UnlockItemId": 36890023,
+      "GuideId": "",
+      "Cost": 100,
+      "FirstProduceAddTalentPoint": 2,
+      "FinalDropId": {
+        "fail": 14370000,
+        "normal": 14370215,
+        "success": 14370215,
+        "perfect": 14370215
+      },
+      "Material": [
+        {
+          "itemId": 36210000,
+          "num": 16
+        },
+        {
+          "itemId": 36210001,
+          "num": 16
+        },
+        {
+          "itemId": 36210002,
+          "num": 16
+        },
+        {
+          "itemId": 36210003,
+          "num": 16
+        }
+      ],
+      "Material_circulation": [],
+      "Material_special": [],
+      "RepeatProduceAddTalentPoint": [
+        {
+          "jobId": 10,
+          "chance": 0.200000003,
+          "num": 1
+        },
+        {
+          "jobId": 11,
+          "chance": 0.300000012,
+          "num": 1
+        },
+        {
+          "jobId": 12,
+          "chance": 0.400000006,
+          "num": 1
+        }
+      ]
+    },
+    {
+      "Id": 37000208,
+      "Name": "电机工具套组",
+      "Description": "",
+      "Type": 2,
+      "Quality": 3,
+      "Difficulty": 0,
+      "Unique": 0,
+      "WeaponItemId": 0,
+      "DropId": 14370216,
+      "UnlockItemId": 36890023,
+      "GuideId": "",
+      "Cost": 50,
+      "FirstProduceAddTalentPoint": 1,
+      "FinalDropId": {
+        "fail": 14370000,
+        "normal": 14370216,
+        "success": 14370216,
+        "perfect": 14370216
+      },
+      "Material": [
+        {
+          "itemId": 36210000,
+          "num": 8
+        },
+        {
+          "itemId": 36210001,
+          "num": 8
+        },
+        {
+          "itemId": 36210002,
+          "num": 8
+        },
+        {
+          "itemId": 36210003,
+          "num": 8
+        }
+      ],
+      "Material_circulation": [],
+      "Material_special": [],
+      "RepeatProduceAddTalentPoint": [
+        {
+          "jobId": 10,
+          "chance": 0.100000001,
+          "num": 1
+        },
+        {
+          "jobId": 11,
+          "chance": 0.200000003,
+          "num": 1
+        },
+        {
+          "jobId": 12,
+          "chance": 0.300000012,
+          "num": 1
+        }
+      ]
+    },
+    {
+      "Id": 37000209,
+      "Name": "双杯特惠",
+      "Description": "",
+      "Type": 2,
+      "Quality": 2,
+      "Difficulty": 1,
+      "Unique": 0,
+      "WeaponItemId": 0,
+      "DropId": 14370217,
+      "UnlockItemId": 36890023,
+      "GuideId": "",
+      "Cost": 50,
+      "FirstProduceAddTalentPoint": 1,
+      "FinalDropId": {
+        "fail": 14370000,
+        "normal": 14370217,
+        "success": 14370217,
+        "perfect": 14370217
+      },
+      "Material": [
+        {
+          "itemId": 36210000,
+          "num": 8
+        },
+        {
+          "itemId": 36210001,
+          "num": 8
+        },
+        {
+          "itemId": 36210002,
+          "num": 16
+        }
+      ],
+      "Material_circulation": [],
+      "Material_special": [],
+      "RepeatProduceAddTalentPoint": [
+        {
+          "jobId": 10,
+          "chance": 0.100000001,
+          "num": 1
+        },
+        {
+          "jobId": 11,
+          "chance": 0.200000003,
+          "num": 1
+        },
+        {
+          "jobId": 12,
+          "chance": 0.300000012,
+          "num": 1
+        }
+      ]
+    },
+    {
+      "Id": 37000210,
+      "Name": "双数协定",
+      "Description": "",
+      "Type": 2,
+      "Quality": 3,
+      "Difficulty": 1,
+      "Unique": 1,
+      "WeaponItemId": 0,
+      "DropId": 14370218,
+      "UnlockItemId": 36890018,
+      "GuideId": "",
+      "Cost": 100,
+      "FirstProduceAddTalentPoint": 2,
+      "FinalDropId": {
+        "fail": 14370000,
+        "normal": 14370218,
+        "success": 14370218,
+        "perfect": 14370218
+      },
+      "Material": [
+        {
+          "itemId": 36210000,
+          "num": 16
+        },
+        {
+          "itemId": 36210001,
+          "num": 16
+        },
+        {
+          "itemId": 36210002,
+          "num": 16
+        },
+        {
+          "itemId": 36210003,
+          "num": 16
+        }
+      ],
+      "Material_circulation": [
+        {
+          "itemId": 36890030,
+          "num": 3
+        }
+      ],
+      "Material_special": [],
+      "RepeatProduceAddTalentPoint": [
+        {
+          "jobId": 10,
+          "chance": 0.200000003,
+          "num": 1
+        },
+        {
+          "jobId": 11,
+          "chance": 0.300000012,
+          "num": 1
+        },
+        {
+          "jobId": 12,
+          "chance": 0.400000006,
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 27,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

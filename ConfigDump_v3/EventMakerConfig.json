@@ -1,0 +1,45 @@
+{
+  "_class": "EventMakerConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 7,
+  "records": [
+    {
+      "Id": 1,
+      "EMName": "Event_Base",
+      "ParentEM": ""
+    },
+    {
+      "Id": 2,
+      "EMName": "Event_Companion",
+      "ParentEM": ""
+    },
+    {
+      "Id": 3,
+      "EMName": "Event_Gang_PED",
+      "ParentEM": "Event_Base"
+    },
+    {
+      "Id": 4,
+      "EMName": "Event_QuestNPC",
+      "ParentEM": "Event_Base"
+    },
+    {
+      "Id": 5,
+      "EMName": "Event_Empty",
+      "ParentEM": ""
+    },
+    {
+      "Id": 6,
+      "EMName": "Event_Animal",
+      "ParentEM": ""
+    },
+    {
+      "Id": 7,
+      "EMName": "Event_RobLaboratoryNPC",
+      "ParentEM": ""
+    }
+  ],
+  "_dumpedCount": 7,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

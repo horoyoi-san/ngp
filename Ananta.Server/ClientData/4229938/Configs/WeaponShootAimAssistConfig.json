@@ -1,0 +1,304 @@
+{
+  "_class": "WeaponShootAimAssistConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 6,
+  "records": [
+    {
+      "Id": 98109000,
+      "Damp_Switch": true,
+      "Damp_SensitivityCoefficient": 0.75,
+      "Damp_SensitivityTransitionTime": 0.0599999987,
+      "AdsAttach_Switch": true,
+      "AdsAttach_Priority": 3,
+      "AdsAttach_CameraCanMove": false,
+      "AdsAttach_CameraSetting": 0,
+      "AdsAttach_FollowTime": 0,
+      "AdsAttach_IsOpenWhenContinueAttach": true,
+      "FireAttach_Switch": true,
+      "FireAttach_Priority": 2,
+      "FireAttach_CameraCanMove": true,
+      "FireAttach_CameraSetting": 1,
+      "FireAttach_FollowTime": 0,
+      "FireAttach_IsOpenWhenContinueAttach": false,
+      "CameraMoveAttach_Switch": false,
+      "CameraMoveAttach_Priority": 1,
+      "CameraMoveAttach_CameraMoveLimit": 150,
+      "CameraMoveAttach_CameraCanMove": true,
+      "CameraMoveAttach_CameraSetting": 2,
+      "CameraMoveAttach_FollowTime": 0,
+      "CameraMoveAttach_IsOpenWhenContinueAttach": false,
+      "AutoContinueAttach_Switch": true,
+      "ContinueAttach_CameraSetting": 5,
+      "ContinueAttach_CameraMoveCanBreak": false,
+      "ContinueAttach_IsOpenWhenContinueAttach": false,
+      "Damp_CircleBoxID": {
+        "circleID": 4,
+        "boxID": 1
+      },
+      "AdsAttach_CircleBoxID": {
+        "circleID": 2,
+        "boxID": 0
+      },
+      "FireAttach_CircleBoxID": {
+        "circleID": 1,
+        "boxID": 0
+      },
+      "CameraMoveAttach_CircleBoxID": {
+        "circleID": 1,
+        "boxID": 0
+      },
+      "ContinueAttach_CircleBoxID": {
+        "circleID": 0,
+        "boxID": 0
+      }
+    },
+    {
+      "Id": 98109001,
+      "Damp_Switch": true,
+      "Damp_SensitivityCoefficient": 0.25,
+      "Damp_SensitivityTransitionTime": 0.0599999987,
+      "AdsAttach_Switch": true,
+      "AdsAttach_Priority": 3,
+      "AdsAttach_CameraCanMove": false,
+      "AdsAttach_CameraSetting": 0,
+      "AdsAttach_FollowTime": 0,
+      "AdsAttach_IsOpenWhenContinueAttach": true,
+      "FireAttach_Switch": true,
+      "FireAttach_Priority": 2,
+      "FireAttach_CameraCanMove": true,
+      "FireAttach_CameraSetting": 1,
+      "FireAttach_FollowTime": 0,
+      "FireAttach_IsOpenWhenContinueAttach": false,
+      "CameraMoveAttach_Switch": true,
+      "CameraMoveAttach_Priority": 1,
+      "CameraMoveAttach_CameraMoveLimit": 150,
+      "CameraMoveAttach_CameraCanMove": true,
+      "CameraMoveAttach_CameraSetting": 2,
+      "CameraMoveAttach_FollowTime": 0,
+      "CameraMoveAttach_IsOpenWhenContinueAttach": false,
+      "AutoContinueAttach_Switch": true,
+      "ContinueAttach_CameraSetting": 5,
+      "ContinueAttach_CameraMoveCanBreak": false,
+      "ContinueAttach_IsOpenWhenContinueAttach": false,
+      "Damp_CircleBoxID": {
+        "circleID": 4,
+        "boxID": 1
+      },
+      "AdsAttach_CircleBoxID": {
+        "circleID": 2,
+        "boxID": 0
+      },
+      "FireAttach_CircleBoxID": {
+        "circleID": 1,
+        "boxID": 0
+      },
+      "CameraMoveAttach_CircleBoxID": {
+        "circleID": 3,
+        "boxID": 0
+      },
+      "ContinueAttach_CircleBoxID": {
+        "circleID": 0,
+        "boxID": 0
+      }
+    },
+    {
+      "Id": 98109002,
+      "Damp_Switch": true,
+      "Damp_SensitivityCoefficient": 0.25,
+      "Damp_SensitivityTransitionTime": 0.0599999987,
+      "AdsAttach_Switch": false,
+      "AdsAttach_Priority": 3,
+      "AdsAttach_CameraCanMove": false,
+      "AdsAttach_CameraSetting": 0,
+      "AdsAttach_FollowTime": 0,
+      "AdsAttach_IsOpenWhenContinueAttach": true,
+      "FireAttach_Switch": false,
+      "FireAttach_Priority": 2,
+      "FireAttach_CameraCanMove": true,
+      "FireAttach_CameraSetting": 1,
+      "FireAttach_FollowTime": 0,
+      "FireAttach_IsOpenWhenContinueAttach": false,
+      "CameraMoveAttach_Switch": false,
+      "CameraMoveAttach_Priority": 1,
+      "CameraMoveAttach_CameraMoveLimit": 150,
+      "CameraMoveAttach_CameraCanMove": true,
+      "CameraMoveAttach_CameraSetting": 2,
+      "CameraMoveAttach_FollowTime": 0,
+      "CameraMoveAttach_IsOpenWhenContinueAttach": false,
+      "AutoContinueAttach_Switch": false,
+      "ContinueAttach_CameraSetting": 5,
+      "ContinueAttach_CameraMoveCanBreak": false,
+      "ContinueAttach_IsOpenWhenContinueAttach": false,
+      "Damp_CircleBoxID": {
+        "circleID": 4,
+        "boxID": 1
+      },
+      "AdsAttach_CircleBoxID": {
+        "circleID": 2,
+        "boxID": 0
+      },
+      "FireAttach_CircleBoxID": {
+        "circleID": 1,
+        "boxID": 0
+      },
+      "CameraMoveAttach_CircleBoxID": {
+        "circleID": 3,
+        "boxID": 0
+      },
+      "ContinueAttach_CircleBoxID": {
+        "circleID": 0,
+        "boxID": 0
+      }
+    },
+    {
+      "Id": 98109003,
+      "Damp_Switch": true,
+      "Damp_SensitivityCoefficient": 0.349999994,
+      "Damp_SensitivityTransitionTime": 0.0599999987,
+      "AdsAttach_Switch": true,
+      "AdsAttach_Priority": 3,
+      "AdsAttach_CameraCanMove": false,
+      "AdsAttach_CameraSetting": 0,
+      "AdsAttach_FollowTime": 0,
+      "AdsAttach_IsOpenWhenContinueAttach": true,
+      "FireAttach_Switch": true,
+      "FireAttach_Priority": 2,
+      "FireAttach_CameraCanMove": true,
+      "FireAttach_CameraSetting": 7,
+      "FireAttach_FollowTime": 0,
+      "FireAttach_IsOpenWhenContinueAttach": false,
+      "CameraMoveAttach_Switch": true,
+      "CameraMoveAttach_Priority": 1,
+      "CameraMoveAttach_CameraMoveLimit": 0,
+      "CameraMoveAttach_CameraCanMove": false,
+      "CameraMoveAttach_CameraSetting": 0,
+      "CameraMoveAttach_FollowTime": 0,
+      "CameraMoveAttach_IsOpenWhenContinueAttach": false,
+      "AutoContinueAttach_Switch": true,
+      "ContinueAttach_CameraSetting": 5,
+      "ContinueAttach_CameraMoveCanBreak": false,
+      "ContinueAttach_IsOpenWhenContinueAttach": false,
+      "Damp_CircleBoxID": {
+        "circleID": 4,
+        "boxID": 1
+      },
+      "AdsAttach_CircleBoxID": {
+        "circleID": 1,
+        "boxID": 0
+      },
+      "FireAttach_CircleBoxID": {
+        "circleID": 3,
+        "boxID": 0
+      },
+      "CameraMoveAttach_CircleBoxID": {
+        "circleID": 0,
+        "boxID": 0
+      },
+      "ContinueAttach_CircleBoxID": {
+        "circleID": 4,
+        "boxID": 0
+      }
+    },
+    {
+      "Id": 98109004,
+      "Damp_Switch": true,
+      "Damp_SensitivityCoefficient": 0.349999994,
+      "Damp_SensitivityTransitionTime": 0.0599999987,
+      "AdsAttach_Switch": true,
+      "AdsAttach_Priority": 3,
+      "AdsAttach_CameraCanMove": false,
+      "AdsAttach_CameraSetting": 0,
+      "AdsAttach_FollowTime": 0,
+      "AdsAttach_IsOpenWhenContinueAttach": true,
+      "FireAttach_Switch": true,
+      "FireAttach_Priority": 2,
+      "FireAttach_CameraCanMove": true,
+      "FireAttach_CameraSetting": 7,
+      "FireAttach_FollowTime": 0,
+      "FireAttach_IsOpenWhenContinueAttach": false,
+      "CameraMoveAttach_Switch": false,
+      "CameraMoveAttach_Priority": 1,
+      "CameraMoveAttach_CameraMoveLimit": 150,
+      "CameraMoveAttach_CameraCanMove": true,
+      "CameraMoveAttach_CameraSetting": 2,
+      "CameraMoveAttach_FollowTime": 0,
+      "CameraMoveAttach_IsOpenWhenContinueAttach": false,
+      "AutoContinueAttach_Switch": true,
+      "ContinueAttach_CameraSetting": 6,
+      "ContinueAttach_CameraMoveCanBreak": false,
+      "ContinueAttach_IsOpenWhenContinueAttach": false,
+      "Damp_CircleBoxID": {
+        "circleID": 4,
+        "boxID": 1
+      },
+      "AdsAttach_CircleBoxID": {
+        "circleID": 1,
+        "boxID": 0
+      },
+      "FireAttach_CircleBoxID": {
+        "circleID": 3,
+        "boxID": 0
+      },
+      "CameraMoveAttach_CircleBoxID": {
+        "circleID": 1,
+        "boxID": 0
+      },
+      "ContinueAttach_CircleBoxID": {
+        "circleID": 0,
+        "boxID": 0
+      }
+    },
+    {
+      "Id": 98109005,
+      "Damp_Switch": true,
+      "Damp_SensitivityCoefficient": 0.349999994,
+      "Damp_SensitivityTransitionTime": 0.0599999987,
+      "AdsAttach_Switch": true,
+      "AdsAttach_Priority": 3,
+      "AdsAttach_CameraCanMove": false,
+      "AdsAttach_CameraSetting": 0,
+      "AdsAttach_FollowTime": 0,
+      "AdsAttach_IsOpenWhenContinueAttach": true,
+      "FireAttach_Switch": true,
+      "FireAttach_Priority": 2,
+      "FireAttach_CameraCanMove": true,
+      "FireAttach_CameraSetting": 1,
+      "FireAttach_FollowTime": 0,
+      "FireAttach_IsOpenWhenContinueAttach": false,
+      "CameraMoveAttach_Switch": false,
+      "CameraMoveAttach_Priority": 1,
+      "CameraMoveAttach_CameraMoveLimit": 150,
+      "CameraMoveAttach_CameraCanMove": true,
+      "CameraMoveAttach_CameraSetting": 2,
+      "CameraMoveAttach_FollowTime": 0,
+      "CameraMoveAttach_IsOpenWhenContinueAttach": false,
+      "AutoContinueAttach_Switch": true,
+      "ContinueAttach_CameraSetting": 6,
+      "ContinueAttach_CameraMoveCanBreak": false,
+      "ContinueAttach_IsOpenWhenContinueAttach": false,
+      "Damp_CircleBoxID": {
+        "circleID": 4,
+        "boxID": 1
+      },
+      "AdsAttach_CircleBoxID": {
+        "circleID": 2,
+        "boxID": 0
+      },
+      "FireAttach_CircleBoxID": {
+        "circleID": 1,
+        "boxID": 0
+      },
+      "CameraMoveAttach_CircleBoxID": {
+        "circleID": 1,
+        "boxID": 0
+      },
+      "ContinueAttach_CircleBoxID": {
+        "circleID": 0,
+        "boxID": 0
+      }
+    }
+  ],
+  "_dumpedCount": 6,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

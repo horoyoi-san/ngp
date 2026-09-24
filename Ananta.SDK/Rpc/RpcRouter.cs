@@ -16,8 +16,8 @@ public sealed class RpcRouter
 
     public RpcRouter Name(uint methodId, string name)
     {
-        // MethodId dump contains a few aliases with the same numeric id. Keep the first
-        // canonical name instead of letting a later *_0 alias make logs harder to read.
+        
+        
         _methodNames.TryAdd(methodId, name);
         RpcMethodNames.Register(methodId, name);
         return this;
@@ -26,12 +26,24 @@ public sealed class RpcRouter
     private string Display(uint methodId)
         => _methodNames.TryGetValue(methodId, out var name) ? $"{name} [0x{methodId:X8}]" : $"0x{methodId:X8}";
 
-    /// <summary>
-    /// Build-specific compatibility fallback for invokes that are known to the client but do not
-    /// yet have a semantic private-server implementation.  The callback must return a body that
-    /// matches the exact return reader for that client build; this avoids the old zero-byte/nil
-    /// fallback which crashes strict generated Lua/C# callbacks.
-    /// </summary>
+    
+    
+    
+    
+    
+    
+    
+    public bool HasInvokeHandler(uint methodId) => _invokeHandlers.ContainsKey(methodId);
+
+    
+    public bool HasNotifyHandler(uint methodId) => _notifyHandlers.ContainsKey(methodId);
+
+    
+    
+    
+    
+    
+    
     public RpcRouter OnUnknownInvoke(Func<RpcContext, Task> handler)
     {
         _unknownInvokeHandler = handler ?? throw new ArgumentNullException(nameof(handler));

@@ -1,0 +1,30 @@
+{
+  "_class": "PoiGameAvoidConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 2,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "避障玩法",
+      "Uidialog": 0,
+      "Countdown": -1,
+      "Startdialog": 0,
+      "ControlGroup": 1,
+      "Difficulty": 1,
+      "IsUsingPlayerHP": false
+    },
+    {
+      "Id": 2,
+      "Name": "主线用避障",
+      "Uidialog": 0,
+      "Countdown": 100,
+      "Startdialog": 0,
+      "ControlGroup": 2,
+      "Difficulty": 1,
+      "IsUsingPlayerHP": true
+    }
+  ],
+  "_dumpedCount": 2,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

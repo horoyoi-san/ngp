@@ -3,10 +3,6 @@ using SceneMethods = Ananta.Server.RpcTypes.Client4229938.Methods.GameScene;
 
 namespace Ananta.Server.Protocol.Client4229938;
 
-/// <summary>
-/// Typed factories for world/game-scene messages. The wire layout itself lives in Ananta.RpcTypes.
-/// Large world/profile packets are built as RpcTypes DTOs by RuntimePayloadFactory and serialized on the fly.
-/// </summary>
 internal static class WorldCodec
 {
     internal static SceneMethods.SyncLogicAgentEnter LogicAgentEnter(ulong agentId)
@@ -46,6 +42,37 @@ internal static class WorldCodec
             newTemplateId = newTemplateId,
             position = new SceneMethods.UxVector3(position.X, position.Y, position.Z)
         };
+
+    
+    
+    
+    
+    internal static SceneMethods.SyncPlayTL PlayTL(
+        string tlName,
+        uint tlId,
+        Vec3 position,
+        IReadOnlyCollection<ulong>? agentIds = null,
+        IReadOnlyCollection<string>? slots = null,
+        Vec3? lookPosition = null)
+        => new()
+        {
+            tlName = tlName,
+            tlId = tlId,
+            agentIds = agentIds?.ToList() ?? [],
+            slots = slots?.ToList() ?? [],
+            position = new SceneMethods.UxVector3(position.X, position.Y, position.Z),
+            lookPosition = lookPosition is { } look
+                ? new SceneMethods.UxVector3(look.X, look.Y, look.Z)
+                : new SceneMethods.UxVector3(position.X, position.Y, position.Z)
+        };
+
+    
+    internal static SceneMethods.SyncPreLoadTL PreLoadTL(string tlName)
+        => new() { tlName = tlName };
+
+    
+    internal static SceneMethods.SyncUnLoadTL UnLoadTL(string tlName)
+        => new() { tlName = tlName };
 
     internal static SceneMethods.SyncPlayerLoadRate PlayerLoadRate(double rate = 1.0)
         => new() { playerPid = Profile.PlayerPid, rate = rate };
@@ -110,9 +137,9 @@ internal static class WorldCodec
     internal static SceneMethods.SyncUnitBuffList UnitBuffList(ulong unitId, IReadOnlyList<uint> buffIds, uint firstInstanceId)
     {
         var body = new SceneMethods.SyncUnitBuffList { entityId = unitId };
-        // 4229938 still evaluates ExpireTime inside several client-side BuffActions even when
-        // Permanent=true. ExpireTime=0 becomes a huge negative remaining time and can execute
-        // teardown paths immediately. Use a real far-future unix timestamp for persistent state.
+        
+        
+        
         var persistentExpiry = DateTimeOffset.UtcNow.ToUnixTimeSeconds() + 315_360_000d;
         var instanceId = firstInstanceId;
         foreach (var buffId in buffIds)

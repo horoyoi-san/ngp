@@ -1,0 +1,61 @@
+{
+  "relationShipCfg": {
+    "Id": 1,
+    "Name": "关系",
+    "Template": 0,
+    "Title": "请输入与TA的关系",
+    "showInGrandpa": true,
+    "Icon": 28003716,
+    "DefalutInput": "relationShip",
+    "DataGroup": [],
+    "DataSetAction": "OnChangeRelation"
+  },
+  "callNameCfg": {
+    "Id": 2,
+    "Name": "称呼",
+    "Template": 0,
+    "Title": "请输入与TA的称呼",
+    "showInGrandpa": true,
+    "Icon": 28003717,
+    "DefalutInput": "callName",
+    "DataGroup": [],
+    "DataSetAction": "OnChangeCallName"
+  },
+  "styleCfg": {
+    "Id": 3,
+    "Name": "说话风格",
+    "Template": 0,
+    "Title": "说话风格调整",
+    "showInGrandpa": true,
+    "Icon": 0,
+    "DefalutInput": "style",
+    "DataGroup": [],
+    "DataSetAction": "OnChangeChatStyle"
+  },
+  "whoIamCfg": {
+    "Id": 4,
+    "Name": "我是谁",
+    "Template": 0,
+    "Title": "输入你的背景提示词",
+    "showInGrandpa": false,
+    "Icon": 0,
+    "DefalutInput": "whoIam",
+    "DataGroup": [],
+    "DataSetAction": "OnChanageWhoIam"
+  },
+  "sexCfg": {
+    "Id": 5,
+    "Name": "性别",
+    "Template": 1,
+    "Title": "输入你的性别",
+    "showInGrandpa": false,
+    "Icon": 0,
+    "DefalutInput": "sex",
+    "DataGroup": [
+      "男",
+      "女",
+      "暂不透露"
+    ],
+    "DataSetAction": "OnChangeSelfSex"
+  }
+}

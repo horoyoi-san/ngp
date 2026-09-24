@@ -1,0 +1,2157 @@
+{
+  "TowTruckCfg": {
+    "Id": 81000002,
+    "GeneralModel": "Assets/Res/Prefab/Drive/Vehicles/U_Truck04d.prefab",
+    "VehicleName": "Korou·Transporter M",
+    "VehicleIntro": "",
+    "VehicleControlId": 2,
+    "MobileVehicleControlId": 2,
+    "ModuleConfigName": "U_Truck04d",
+    "VehicleSpoonName": "",
+    "VehicleType": 11,
+    "VehicleFxId": 0,
+    "VehicleSoundId": 4001,
+    "VehicleSeatNum": 2,
+    "MaxBrokenImpulse": 1e+10,
+    "UndeformedModel": "",
+    "SlightlyDeformedModel": "",
+    "ModerateDeformedModel": "",
+    "HeavilyDeformedModel": "",
+    "VehicleDropId": 0,
+    "VehicleColor": [],
+    "BodyColor": [],
+    "VehicleSize": [
+      2.6362319,
+      2.26271105,
+      6.39951611
+    ],
+    "VehicleCenterOffset": [
+      3.57627897e-07,
+      1.37163901,
+      -0.428471804
+    ],
+    "VehicleFlag": 384,
+    "Country": [],
+    "StartVersion": "V0.9.0",
+    "EndVersion": "",
+    "TagList": [
+      0
+    ],
+    "ShowInPedia": false,
+    "Order": 100,
+    "Brand": 0,
+    "HypeLinkID": 0,
+    "VehicleDesc": "",
+    "PediaCameraTemplate": 0,
+    "CollectionScore": 0,
+    "AutoPilotJsonMode": 153,
+    "vehicleAITurnConfig": "TruckFuzzyLogicConfig",
+    "skipCameraIgnoreVehicleCollider": false,
+    "Skills": [],
+    "CommonSkill": 0,
+    "ActiveSkill": 0,
+    "IntelligentDrive": true,
+    "Weight": 1200,
+    "CameraType": "",
+    "VehicleQuality": 2,
+    "SVehicleFrontIconId": 28006916,
+    "SVehicleIconId": 28005284,
+    "SVehicleBrandIcon": 28021461,
+    "SVehicleBrandSmallIcon": 28002010,
+    "VehicleBrandPicIcon": 28002010,
+    "VehicleLightPic": 0,
+    "SBuyVehicleIconId": 28006916,
+    "VehicleCanGet": false,
+    "VehicleGetway": 1,
+    "VehicleCost": 36920002,
+    "VehicleCostCount": 94500,
+    "VehicleReplaceText": "",
+    "CanShowWindow": true,
+    "VehicleAttr": 0,
+    "HeightType": 2,
+    "ArtName": "",
+    "DefaultSuitId": 0,
+    "VehicleBase": 0,
+    "DefaultSuit": [],
+    "WheelNumA": 0,
+    "WheelSizeA": [],
+    "WheelModelA": [],
+    "HubAOffset": [
+      0,
+      0,
+      0
+    ],
+    "WheelNumB": 0,
+    "WheelSizeB": [],
+    "WheelModelB": [],
+    "HubBOffset": [
+      0,
+      0,
+      0
+    ],
+    "WheelNumC": 0,
+    "WheelSizeC": [],
+    "WheelModelC": [],
+    "HubCOffset": [
+      0,
+      0,
+      0
+    ],
+    "RoofModify": [],
+    "DiscModify": [],
+    "License01": 9999002,
+    "HubColorList": [
+      9998002
+    ],
+    "HoodList": [],
+    "SpoilerList": [],
+    "EngineList": [],
+    "ExhaustList": [],
+    "TransmissionList": [],
+    "BodyList": [],
+    "TyreOffset": [],
+    "CarPaintList": [],
+    "BodyColorList": [],
+    "DefaultPaint": 0,
+    "SuitList": [],
+    "__IDX__VehicleName": 61011,
+    "__RAW__VehicleName": "",
+    "__IDX__VehicleIntro": 0,
+    "__RAW__VehicleIntro": "",
+    "__IDX__VehicleDesc": 0,
+    "__RAW__VehicleDesc": "",
+    "VehicleSeatWeaponInfos": [],
+    "PediaModelOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "GeneralModelChassisBounceRate": [],
+    "GeneralModelZoomRate": [
+      {
+        "Seat": 0,
+        "BodyType": 2,
+        "Rate": 0.949999988
+      },
+      {
+        "Seat": 1,
+        "BodyType": 2,
+        "Rate": 0.949999988
+      },
+      {
+        "Seat": 0,
+        "BodyType": 3,
+        "Rate": 0.949999988
+      },
+      {
+        "Seat": 1,
+        "BodyType": 3,
+        "Rate": 0.949999988
+      },
+      {
+        "Seat": 0,
+        "BodyType": 8,
+        "Rate": 0.949999988
+      },
+      {
+        "Seat": 1,
+        "BodyType": 8,
+        "Rate": 0.949999988
+      },
+      {
+        "Seat": 0,
+        "BodyType": 9,
+        "Rate": 0.949999988
+      },
+      {
+        "Seat": 1,
+        "BodyType": 9,
+        "Rate": 0.949999988
+      }
+    ],
+    "GeneralModelBorrowPoint": [
+      {
+        "Seat": 0,
+        "offsetx": -1.45799994,
+        "offsety": 0,
+        "offsetz": -0.00700000022
+      },
+      {
+        "Seat": 1,
+        "offsetx": 1.36600006,
+        "offsety": 0,
+        "offsetz": 0.296999991
+      }
+    ],
+    "GeneralModelPoliceGuardPoint": [
+      {
+        "Seat": 0,
+        "offsetx": 0,
+        "offsety": 0,
+        "offsetz": 0
+      },
+      {
+        "Seat": 1,
+        "offsetx": 0,
+        "offsety": 0,
+        "offsetz": 0
+      },
+      {
+        "Seat": 2,
+        "offsetx": -1.28480005,
+        "offsety": 0.248119995,
+        "offsetz": -0.146511495
+      },
+      {
+        "Seat": 3,
+        "offsetx": 1.30883896,
+        "offsety": 0.287400007,
+        "offsetz": -0.279650003
+      },
+      {
+        "Seat": 0,
+        "offsetx": 0,
+        "offsety": 0,
+        "offsetz": 0
+      },
+      {
+        "Seat": 1,
+        "offsetx": 0,
+        "offsety": 0,
+        "offsetz": 0
+      },
+      {
+        "Seat": 2,
+        "offsetx": -1.28480005,
+        "offsety": 0.248119995,
+        "offsetz": -0.146511495
+      },
+      {
+        "Seat": 3,
+        "offsetx": 1.19389999,
+        "offsety": 0.248300001,
+        "offsetz": -0.170599997
+      }
+    ],
+    "VehicleKit": [],
+    "WheelModify": [],
+    "TyreModify": []
+  },
+  "FireTruckCfg": {
+    "Id": 81000004,
+    "GeneralModel": "Assets/Res/Prefab/Drive/Vehicles/U_Firetruck01a.prefab",
+    "VehicleName": "MM·Inferno 3000",
+    "VehicleIntro": "",
+    "VehicleControlId": 4,
+    "MobileVehicleControlId": 4,
+    "ModuleConfigName": "U_Firetruck01a",
+    "VehicleSpoonName": "",
+    "VehicleType": 12,
+    "VehicleFxId": 0,
+    "VehicleSoundId": 4700,
+    "VehicleSeatNum": 2,
+    "MaxBrokenImpulse": 1000000,
+    "UndeformedModel": "",
+    "SlightlyDeformedModel": "",
+    "ModerateDeformedModel": "",
+    "HeavilyDeformedModel": "",
+    "VehicleDropId": 0,
+    "VehicleColor": [],
+    "BodyColor": [],
+    "VehicleSize": [
+      2.82341099,
+      3.30039096,
+      12.2792301
+    ],
+    "VehicleCenterOffset": [
+      0.00047302249,
+      2.11907601,
+      0.0908694267
+    ],
+    "VehicleFlag": 384,
+    "Country": [],
+    "StartVersion": "V0.9.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1
+    ],
+    "ShowInPedia": false,
+    "Order": 100,
+    "Brand": 0,
+    "HypeLinkID": 0,
+    "VehicleDesc": "",
+    "PediaCameraTemplate": 0,
+    "CollectionScore": 0,
+    "AutoPilotJsonMode": 153,
+    "vehicleAITurnConfig": "TruckFuzzyLogicConfig",
+    "skipCameraIgnoreVehicleCollider": false,
+    "Skills": [],
+    "CommonSkill": 0,
+    "ActiveSkill": 0,
+    "IntelligentDrive": true,
+    "Weight": 1200,
+    "CameraType": "",
+    "VehicleQuality": 2,
+    "SVehicleFrontIconId": 28006916,
+    "SVehicleIconId": 28005284,
+    "SVehicleBrandIcon": 28021461,
+    "SVehicleBrandSmallIcon": 28005290,
+    "VehicleBrandPicIcon": 28005290,
+    "VehicleLightPic": 0,
+    "SBuyVehicleIconId": 28006916,
+    "VehicleCanGet": false,
+    "VehicleGetway": 1,
+    "VehicleCost": 0,
+    "VehicleCostCount": 0,
+    "VehicleReplaceText": "",
+    "CanShowWindow": true,
+    "VehicleAttr": 0,
+    "HeightType": 2,
+    "ArtName": "",
+    "DefaultSuitId": 4014900,
+    "VehicleBase": 0,
+    "DefaultSuit": [
+      4014001,
+      4014000,
+      0,
+      0,
+      0,
+      0
+    ],
+    "WheelNumA": 2,
+    "WheelSizeA": [
+      500,
+      60,
+      28
+    ],
+    "WheelModelA": [
+      9990103,
+      9990510,
+      9991100,
+      9991600,
+      9990000,
+      0
+    ],
+    "HubAOffset": [
+      0,
+      0,
+      0
+    ],
+    "WheelNumB": 4,
+    "WheelSizeB": [
+      500,
+      60,
+      28
+    ],
+    "WheelModelB": [
+      9990103,
+      9990510,
+      9991015,
+      9991601,
+      0,
+      0
+    ],
+    "HubBOffset": [
+      0,
+      0,
+      0
+    ],
+    "WheelNumC": 0,
+    "WheelSizeC": [],
+    "WheelModelC": [],
+    "HubCOffset": [
+      0,
+      0,
+      0
+    ],
+    "RoofModify": [],
+    "DiscModify": [],
+    "License01": 9999002,
+    "HubColorList": [
+      9998002
+    ],
+    "HoodList": [],
+    "SpoilerList": [],
+    "EngineList": [],
+    "ExhaustList": [],
+    "TransmissionList": [],
+    "BodyList": [],
+    "TyreOffset": [
+      "tyre_fl_01_offset",
+      "tyre_fr_01_offset",
+      "tyre_rl_01_offset",
+      "tyre_rl_02_offset",
+      "tyre_rr_01_offset",
+      "tyre_rr_02_offset"
+    ],
+    "CarPaintList": [],
+    "BodyColorList": [],
+    "DefaultPaint": 0,
+    "SuitList": [],
+    "__IDX__VehicleName": 61013,
+    "__RAW__VehicleName": "",
+    "__IDX__VehicleIntro": 0,
+    "__RAW__VehicleIntro": "",
+    "__IDX__VehicleDesc": 0,
+    "__RAW__VehicleDesc": "",
+    "VehicleSeatWeaponInfos": [
+      {
+        "Index": 0,
+        "WeaponId": 80003535
+      }
+    ],
+    "PediaModelOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "GeneralModelChassisBounceRate": [
+      {
+        "BodyType": 2,
+        "Rate": 0.00999999978
+      },
+      {
+        "BodyType": 3,
+        "Rate": 0.0199999996
+      },
+      {
+        "BodyType": 4,
+        "Rate": 0
+      },
+      {
+        "BodyType": 5,
+        "Rate": 0.00999999978
+      },
+      {
+        "BodyType": 6,
+        "Rate": 0.0199999996
+      }
+    ],
+    "GeneralModelZoomRate": [
+      {
+        "Seat": 0,
+        "BodyType": 2,
+        "Rate": 0.949999988
+      },
+      {
+        "Seat": 1,
+        "BodyType": 2,
+        "Rate": 0.949999988
+      },
+      {
+        "Seat": 0,
+        "BodyType": 3,
+        "Rate": 0.949999988
+      },
+      {
+        "Seat": 1,
+        "BodyType": 3,
+        "Rate": 0.949999988
+      },
+      {
+        "Seat": 0,
+        "BodyType": 8,
+        "Rate": 0.949999988
+      },
+      {
+        "Seat": 1,
+        "BodyType": 8,
+        "Rate": 0.949999988
+      },
+      {
+        "Seat": 0,
+        "BodyType": 9,
+        "Rate": 0.949999988
+      },
+      {
+        "Seat": 1,
+        "BodyType": 9,
+        "Rate": 0.949999988
+      }
+    ],
+    "GeneralModelBorrowPoint": [
+      {
+        "Seat": 0,
+        "offsetx": -1.45799994,
+        "offsety": 0,
+        "offsetz": -0.00700000022
+      },
+      {
+        "Seat": 1,
+        "offsetx": 1.36600006,
+        "offsety": 0,
+        "offsetz": 0.296999991
+      }
+    ],
+    "GeneralModelPoliceGuardPoint": [
+      {
+        "Seat": 0,
+        "offsetx": 0,
+        "offsety": 0,
+        "offsetz": 0
+      },
+      {
+        "Seat": 1,
+        "offsetx": 0,
+        "offsety": 0,
+        "offsetz": 0
+      },
+      {
+        "Seat": 2,
+        "offsetx": -1.28480005,
+        "offsety": 0.248119995,
+        "offsetz": -0.146511495
+      },
+      {
+        "Seat": 3,
+        "offsetx": 1.30883896,
+        "offsety": 0.287400007,
+        "offsetz": -0.279650003
+      },
+      {
+        "Seat": 0,
+        "offsetx": 0,
+        "offsety": 0,
+        "offsetz": 0
+      },
+      {
+        "Seat": 1,
+        "offsetx": 0,
+        "offsety": 0,
+        "offsetz": 0
+      },
+      {
+        "Seat": 2,
+        "offsetx": -1.28480005,
+        "offsety": 0.248119995,
+        "offsetz": -0.146511495
+      },
+      {
+        "Seat": 3,
+        "offsetx": 1.19389999,
+        "offsety": 0.248300001,
+        "offsetz": -0.170599997
+      }
+    ],
+    "VehicleKit": [],
+    "WheelModify": [],
+    "TyreModify": []
+  },
+  "PoliceCarCfg": {
+    "Id": 81004002,
+    "GeneralModel": "Assets/Res/Prefab/Drive/Vehicles/U_NewPolice01a.prefab",
+    "VehicleName": "Kazama·Elegance NCCA",
+    "VehicleIntro": "",
+    "VehicleControlId": 4002,
+    "MobileVehicleControlId": 4002,
+    "ModuleConfigName": "U_NewPolice01a",
+    "VehicleSpoonName": "",
+    "VehicleType": 9,
+    "VehicleFxId": 18,
+    "VehicleSoundId": 1000,
+    "VehicleSeatNum": 4,
+    "MaxBrokenImpulse": 30000000,
+    "UndeformedModel": "",
+    "SlightlyDeformedModel": "",
+    "ModerateDeformedModel": "",
+    "HeavilyDeformedModel": "",
+    "VehicleDropId": 0,
+    "VehicleColor": [],
+    "BodyColor": [],
+    "VehicleSize": [
+      2.13103199,
+      1.68292606,
+      5.1032052
+    ],
+    "VehicleCenterOffset": [
+      0,
+      0.801755905,
+      0.0118336696
+    ],
+    "VehicleFlag": 1314,
+    "Country": [
+      0
+    ],
+    "StartVersion": "V0.9.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1,
+      2
+    ],
+    "ShowInPedia": false,
+    "Order": 100,
+    "Brand": 0,
+    "HypeLinkID": 0,
+    "VehicleDesc": "",
+    "PediaCameraTemplate": 0,
+    "CollectionScore": 0,
+    "AutoPilotJsonMode": 153,
+    "vehicleAITurnConfig": "FuzzyLogicConfig",
+    "skipCameraIgnoreVehicleCollider": false,
+    "Skills": [],
+    "CommonSkill": 0,
+    "ActiveSkill": 0,
+    "IntelligentDrive": false,
+    "Weight": 1200,
+    "CameraType": "",
+    "VehicleQuality": 2,
+    "SVehicleFrontIconId": 28003354,
+    "SVehicleIconId": 28006164,
+    "SVehicleBrandIcon": 28021444,
+    "SVehicleBrandSmallIcon": 28002009,
+    "VehicleBrandPicIcon": 28002009,
+    "VehicleLightPic": 0,
+    "SBuyVehicleIconId": 28006088,
+    "VehicleCanGet": true,
+    "VehicleGetway": 1,
+    "VehicleCost": 36920002,
+    "VehicleCostCount": 200000,
+    "VehicleReplaceText": "",
+    "CanShowWindow": true,
+    "VehicleAttr": 0,
+    "HeightType": 1,
+    "ArtName": "",
+    "DefaultSuitId": 4002900,
+    "VehicleBase": 4002000,
+    "DefaultSuit": [
+      4002001,
+      4002000,
+      0,
+      0,
+      1009002,
+      0
+    ],
+    "WheelNumA": 2,
+    "WheelSizeA": [
+      230,
+      40,
+      20
+    ],
+    "WheelModelA": [
+      9990101,
+      9990500,
+      9991007,
+      9991507,
+      9990001,
+      9990052
+    ],
+    "HubAOffset": [
+      -0.0299999993,
+      0,
+      0
+    ],
+    "WheelNumB": 2,
+    "WheelSizeB": [
+      230,
+      40,
+      20
+    ],
+    "WheelModelB": [
+      9990101,
+      9990500,
+      9991007,
+      9991507,
+      9990001,
+      9990053
+    ],
+    "HubBOffset": [
+      -0.0299999993,
+      0,
+      0
+    ],
+    "WheelNumC": 0,
+    "WheelSizeC": [],
+    "WheelModelC": [],
+    "HubCOffset": [
+      0,
+      0,
+      0
+    ],
+    "RoofModify": [],
+    "DiscModify": [],
+    "License01": 9999003,
+    "HubColorList": [
+      9998002
+    ],
+    "HoodList": [],
+    "SpoilerList": [],
+    "EngineList": [],
+    "ExhaustList": [],
+    "TransmissionList": [],
+    "BodyList": [],
+    "TyreOffset": [
+      "tyre_fl_01_offset",
+      "tyre_fr_01_offset",
+      "tyre_rl_01_offset",
+      "tyre_rr_01_offset"
+    ],
+    "CarPaintList": [],
+    "BodyColorList": [],
+    "DefaultPaint": 0,
+    "SuitList": [],
+    "__IDX__VehicleName": 61018,
+    "__RAW__VehicleName": "",
+    "__IDX__VehicleIntro": 0,
+    "__RAW__VehicleIntro": "",
+    "__IDX__VehicleDesc": 0,
+    "__RAW__VehicleDesc": "",
+    "VehicleSeatWeaponInfos": [],
+    "PediaModelOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "GeneralModelChassisBounceRate": [
+      {
+        "BodyType": 2,
+        "Rate": 0.00999999978
+      },
+      {
+        "BodyType": 3,
+        "Rate": 0.0199999996
+      },
+      {
+        "BodyType": 4,
+        "Rate": 0
+      },
+      {
+        "BodyType": 5,
+        "Rate": 0.00999999978
+      },
+      {
+        "BodyType": 6,
+        "Rate": 0.0199999996
+      }
+    ],
+    "GeneralModelZoomRate": [
+      {
+        "Seat": 2,
+        "BodyType": 5,
+        "Rate": 0.949999988
+      },
+      {
+        "Seat": 3,
+        "BodyType": 5,
+        "Rate": 0.949999988
+      }
+    ],
+    "GeneralModelBorrowPoint": [
+      {
+        "Seat": 0,
+        "offsetx": -1.45799994,
+        "offsety": 0,
+        "offsetz": -0.00700000022
+      },
+      {
+        "Seat": 1,
+        "offsetx": 1.36600006,
+        "offsety": 0,
+        "offsetz": 0.296999991
+      }
+    ],
+    "GeneralModelPoliceGuardPoint": [
+      {
+        "Seat": 0,
+        "offsetx": 0,
+        "offsety": 0,
+        "offsetz": 0
+      },
+      {
+        "Seat": 1,
+        "offsetx": 0,
+        "offsety": 0,
+        "offsetz": 0
+      },
+      {
+        "Seat": 2,
+        "offsetx": -1.28480005,
+        "offsety": 0.248119995,
+        "offsetz": -0.146511495
+      },
+      {
+        "Seat": 3,
+        "offsetx": 1.30883896,
+        "offsety": 0.287400007,
+        "offsetz": -0.279650003
+      },
+      {
+        "Seat": 0,
+        "offsetx": 0,
+        "offsety": 0,
+        "offsetz": 0
+      },
+      {
+        "Seat": 1,
+        "offsetx": 0,
+        "offsety": 0,
+        "offsetz": 0
+      },
+      {
+        "Seat": 2,
+        "offsetx": -1.28480005,
+        "offsety": 0.248119995,
+        "offsetz": -0.146511495
+      },
+      {
+        "Seat": 3,
+        "offsetx": 1.19389999,
+        "offsety": 0.248300001,
+        "offsetz": -0.170599997
+      }
+    ],
+    "VehicleKit": [
+      {
+        "bumper": 4002001,
+        "hood": 0,
+        "exhaust": 1009002,
+        "spoiler": 0,
+        "engine": 0
+      }
+    ],
+    "WheelModify": [],
+    "TyreModify": []
+  },
+  "HackerVehicleCfg": {
+    "Id": 81004043,
+    "GeneralModel": "Assets/Res/Prefab/Drive/Vehicles/T_Motorhome.prefab",
+    "VehicleName": "Erebos·Black Box",
+    "VehicleIntro": "重型箱式卡车，看似寻常物流车辆，实为藏身于市井的数字堡垒。",
+    "VehicleControlId": 4043,
+    "MobileVehicleControlId": 4043,
+    "ModuleConfigName": "Motorhome_Gadget",
+    "VehicleSpoonName": "81004043",
+    "VehicleType": 7,
+    "VehicleFxId": 1,
+    "VehicleSoundId": 4001,
+    "VehicleSeatNum": 2,
+    "MaxBrokenImpulse": 1000000,
+    "UndeformedModel": "",
+    "SlightlyDeformedModel": "",
+    "ModerateDeformedModel": "",
+    "HeavilyDeformedModel": "",
+    "VehicleDropId": 0,
+    "VehicleColor": [],
+    "BodyColor": [],
+    "VehicleSize": [
+      3.12368989,
+      3.79320312,
+      9.30257034
+    ],
+    "VehicleCenterOffset": [
+      0.0276002903,
+      1.90039802,
+      0.842692614
+    ],
+    "VehicleFlag": 768,
+    "Country": [],
+    "StartVersion": "V0.9.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1,
+      2
+    ],
+    "ShowInPedia": true,
+    "Order": 100,
+    "Brand": 94309308,
+    "HypeLinkID": 10515,
+    "VehicleDesc": "",
+    "PediaCameraTemplate": 3,
+    "CollectionScore": 50,
+    "AutoPilotJsonMode": 153,
+    "vehicleAITurnConfig": "TruckFuzzyLogicConfig",
+    "skipCameraIgnoreVehicleCollider": false,
+    "Skills": [],
+    "CommonSkill": 0,
+    "ActiveSkill": 0,
+    "IntelligentDrive": false,
+    "Weight": 1200,
+    "CameraType": "",
+    "VehicleQuality": 0,
+    "SVehicleFrontIconId": 28003349,
+    "SVehicleIconId": 28006138,
+    "SVehicleBrandIcon": 28021437,
+    "SVehicleBrandSmallIcon": 28002007,
+    "VehicleBrandPicIcon": 28002007,
+    "VehicleLightPic": 0,
+    "SBuyVehicleIconId": 28006062,
+    "VehicleCanGet": true,
+    "VehicleGetway": 2,
+    "VehicleCost": 0,
+    "VehicleCostCount": 0,
+    "VehicleReplaceText": "",
+    "CanShowWindow": true,
+    "VehicleAttr": 0,
+    "HeightType": 3,
+    "ArtName": "",
+    "DefaultSuitId": 4043900,
+    "VehicleBase": 4043000,
+    "DefaultSuit": [
+      4043001,
+      4043000,
+      0,
+      0,
+      0,
+      0
+    ],
+    "WheelNumA": 2,
+    "WheelSizeA": [
+      358,
+      68,
+      25
+    ],
+    "WheelModelA": [
+      9990101,
+      9990506,
+      9991100,
+      9991600,
+      9990000,
+      0
+    ],
+    "HubAOffset": [
+      0,
+      0,
+      0
+    ],
+    "WheelNumB": 4,
+    "WheelSizeB": [
+      608,
+      40,
+      25
+    ],
+    "WheelModelB": [
+      9990102,
+      9990506,
+      9991015,
+      9991601,
+      0,
+      0
+    ],
+    "HubBOffset": [
+      0,
+      0,
+      0
+    ],
+    "WheelNumC": 0,
+    "WheelSizeC": [],
+    "WheelModelC": [],
+    "HubCOffset": [
+      0,
+      0,
+      0
+    ],
+    "RoofModify": [],
+    "DiscModify": [],
+    "License01": 9999002,
+    "HubColorList": [
+      9998002
+    ],
+    "HoodList": [],
+    "SpoilerList": [],
+    "EngineList": [],
+    "ExhaustList": [],
+    "TransmissionList": [],
+    "BodyList": [],
+    "TyreOffset": [
+      "tyre_fl_01_offset",
+      "tyre_fr_01_offset",
+      "tyre_rl_01_offset",
+      "tyre_rl_02_offset",
+      "tyre_rr_01_offset",
+      "tyre_rr_02_offset"
+    ],
+    "CarPaintList": [],
+    "BodyColorList": [],
+    "DefaultPaint": 0,
+    "SuitList": [],
+    "__IDX__VehicleName": 142653,
+    "__RAW__VehicleName": "",
+    "__IDX__VehicleIntro": 4294967293,
+    "__RAW__VehicleIntro": "重型箱式卡车，看似寻常物流车辆，实为藏身于市井的数字堡垒。",
+    "__IDX__VehicleDesc": 0,
+    "__RAW__VehicleDesc": "",
+    "VehicleSeatWeaponInfos": [],
+    "PediaModelOffset": {
+      "x": 0,
+      "y": -0.0199999996,
+      "z": 0
+    },
+    "GeneralModelChassisBounceRate": [],
+    "GeneralModelZoomRate": [
+      {
+        "Seat": 0,
+        "BodyType": 2,
+        "Rate": 0.949999988
+      },
+      {
+        "Seat": 1,
+        "BodyType": 2,
+        "Rate": 0.949999988
+      },
+      {
+        "Seat": 0,
+        "BodyType": 3,
+        "Rate": 0.949999988
+      },
+      {
+        "Seat": 1,
+        "BodyType": 3,
+        "Rate": 0.949999988
+      },
+      {
+        "Seat": 0,
+        "BodyType": 8,
+        "Rate": 0.949999988
+      },
+      {
+        "Seat": 1,
+        "BodyType": 8,
+        "Rate": 0.949999988
+      },
+      {
+        "Seat": 0,
+        "BodyType": 9,
+        "Rate": 0.949999988
+      },
+      {
+        "Seat": 1,
+        "BodyType": 9,
+        "Rate": 0.949999988
+      }
+    ],
+    "GeneralModelBorrowPoint": [
+      {
+        "Seat": 0,
+        "offsetx": -1.45799994,
+        "offsety": 0,
+        "offsetz": -0.00700000022
+      },
+      {
+        "Seat": 1,
+        "offsetx": 1.36600006,
+        "offsety": 0,
+        "offsetz": 0.296999991
+      }
+    ],
+    "GeneralModelPoliceGuardPoint": [
+      {
+        "Seat": 0,
+        "offsetx": 0,
+        "offsety": 0,
+        "offsetz": 0
+      },
+      {
+        "Seat": 1,
+        "offsetx": 0,
+        "offsety": 0,
+        "offsetz": 0
+      },
+      {
+        "Seat": 2,
+        "offsetx": -1.28480005,
+        "offsety": 0.248119995,
+        "offsetz": -0.146511495
+      },
+      {
+        "Seat": 3,
+        "offsetx": 1.30883896,
+        "offsety": 0.287400007,
+        "offsetz": -0.279650003
+      },
+      {
+        "Seat": 0,
+        "offsetx": 0,
+        "offsety": 0,
+        "offsetz": 0
+      },
+      {
+        "Seat": 1,
+        "offsetx": 0,
+        "offsety": 0,
+        "offsetz": 0
+      },
+      {
+        "Seat": 2,
+        "offsetx": -1.28480005,
+        "offsety": 0.248119995,
+        "offsetz": -0.146511495
+      },
+      {
+        "Seat": 3,
+        "offsetx": 1.19389999,
+        "offsety": 0.248300001,
+        "offsetz": -0.170599997
+      }
+    ],
+    "VehicleKit": [
+      {
+        "bumper": 4043001,
+        "hood": 0,
+        "exhaust": 0,
+        "spoiler": 0,
+        "engine": 0
+      }
+    ],
+    "WheelModify": [],
+    "TyreModify": []
+  },
+  "MilkVehicleCfg": {
+    "Id": 81007009,
+    "GeneralModel": "Assets/Res/Prefab/Drive/Vehicles/T_MilkCar.prefab",
+    "VehicleName": "Motus·Shannon MK.VI",
+    "VehicleIntro": "",
+    "VehicleControlId": 7009,
+    "MobileVehicleControlId": 7009,
+    "ModuleConfigName": "T_MilkCar",
+    "VehicleSpoonName": "81007009",
+    "VehicleType": 13,
+    "VehicleFxId": 1,
+    "VehicleSoundId": 3100,
+    "VehicleSeatNum": 2,
+    "MaxBrokenImpulse": 30000000,
+    "UndeformedModel": "",
+    "SlightlyDeformedModel": "",
+    "ModerateDeformedModel": "",
+    "HeavilyDeformedModel": "",
+    "VehicleDropId": 14491999,
+    "VehicleColor": [],
+    "BodyColor": [],
+    "VehicleSize": [
+      2.90233397,
+      2.71156192,
+      6.45354891
+    ],
+    "VehicleCenterOffset": [
+      0,
+      1.56731701,
+      -0.130834594
+    ],
+    "VehicleFlag": 256,
+    "Country": [
+      0
+    ],
+    "StartVersion": "V0.9.0",
+    "EndVersion": "",
+    "TagList": [
+      0,
+      1,
+      2
+    ],
+    "ShowInPedia": false,
+    "Order": 100,
+    "Brand": 0,
+    "HypeLinkID": 0,
+    "VehicleDesc": "",
+    "PediaCameraTemplate": 0,
+    "CollectionScore": 50,
+    "AutoPilotJsonMode": 153,
+    "vehicleAITurnConfig": "FuzzyLogicConfig",
+    "skipCameraIgnoreVehicleCollider": false,
+    "Skills": [],
+    "CommonSkill": 0,
+    "ActiveSkill": 0,
+    "IntelligentDrive": false,
+    "Weight": 1200,
+    "CameraType": "",
+    "VehicleQuality": 0,
+    "SVehicleFrontIconId": 0,
+    "SVehicleIconId": 28006208,
+    "SVehicleBrandIcon": 0,
+    "SVehicleBrandSmallIcon": 28002012,
+    "VehicleBrandPicIcon": 28002012,
+    "VehicleLightPic": 0,
+    "SBuyVehicleIconId": 28006132,
+    "VehicleCanGet": true,
+    "VehicleGetway": 2,
+    "VehicleCost": 0,
+    "VehicleCostCount": 0,
+    "VehicleReplaceText": "",
+    "CanShowWindow": false,
+    "VehicleAttr": 0,
+    "HeightType": 1,
+    "ArtName": "",
+    "DefaultSuitId": 7009900,
+    "VehicleBase": 0,
+    "DefaultSuit": [
+      7009001,
+      7009000,
+      0,
+      0,
+      0,
+      0
+    ],
+    "WheelNumA": 2,
+    "WheelSizeA": [
+      358,
+      36,
+      19
+    ],
+    "WheelModelA": [
+      9990101,
+      9990500,
+      7009003,
+      7009002,
+      9990001,
+      9990052
+    ],
+    "HubAOffset": [
+      -0.0299999993,
+      0,
+      0
+    ],
+    "WheelNumB": 2,
+    "WheelSizeB": [
+      358,
+      36,
+      19
+    ],
+    "WheelModelB": [
+      9990101,
+      9990500,
+      7009003,
+      7009002,
+      9990001,
+      9990053
+    ],
+    "HubBOffset": [
+      -0.0299999993,
+      0,
+      0
+    ],
+    "WheelNumC": 0,
+    "WheelSizeC": [],
+    "WheelModelC": [],
+    "HubCOffset": [
+      0,
+      0,
+      0
+    ],
+    "RoofModify": [],
+    "DiscModify": [],
+    "License01": 9999000,
+    "HubColorList": [
+      9998002
+    ],
+    "HoodList": [],
+    "SpoilerList": [],
+    "EngineList": [],
+    "ExhaustList": [],
+    "TransmissionList": [],
+    "BodyList": [],
+    "TyreOffset": [
+      "tyre_fl_01_offset",
+      "tyre_fr_01_offset",
+      "tyre_rl_01_offset",
+      "tyre_rr_01_offset"
+    ],
+    "CarPaintList": [],
+    "BodyColorList": [],
+    "DefaultPaint": 0,
+    "SuitList": [],
+    "__IDX__VehicleName": 58907,
+    "__RAW__VehicleName": "",
+    "__IDX__VehicleIntro": 0,
+    "__RAW__VehicleIntro": "",
+    "__IDX__VehicleDesc": 0,
+    "__RAW__VehicleDesc": "",
+    "VehicleSeatWeaponInfos": [],
+    "PediaModelOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "GeneralModelChassisBounceRate": [
+      {
+        "BodyType": 2,
+        "Rate": 0.00999999978
+      },
+      {
+        "BodyType": 3,
+        "Rate": 0.0199999996
+      },
+      {
+        "BodyType": 4,
+        "Rate": 0
+      },
+      {
+        "BodyType": 5,
+        "Rate": 0.00999999978
+      },
+      {
+        "BodyType": 6,
+        "Rate": 0.0199999996
+      }
+    ],
+    "GeneralModelZoomRate": [],
+    "GeneralModelBorrowPoint": [
+      {
+        "Seat": 0,
+        "offsetx": -1.45799994,
+        "offsety": 0,
+        "offsetz": -0.00700000022
+      },
+      {
+        "Seat": 1,
+        "offsetx": 1.36600006,
+        "offsety": 0,
+        "offsetz": 0.296999991
+      }
+    ],
+    "GeneralModelPoliceGuardPoint": [
+      {
+        "Seat": 0,
+        "offsetx": 0,
+        "offsety": 0,
+        "offsetz": 0
+      },
+      {
+        "Seat": 1,
+        "offsetx": 0,
+        "offsety": 0,
+        "offsetz": 0
+      },
+      {
+        "Seat": 2,
+        "offsetx": -1.28480005,
+        "offsety": 0.248119995,
+        "offsetz": -0.146511495
+      },
+      {
+        "Seat": 3,
+        "offsetx": 1.30883896,
+        "offsety": 0.287400007,
+        "offsetz": -0.279650003
+      },
+      {
+        "Seat": 0,
+        "offsetx": 0,
+        "offsety": 0,
+        "offsetz": 0
+      },
+      {
+        "Seat": 1,
+        "offsetx": 0,
+        "offsety": 0,
+        "offsetz": 0
+      },
+      {
+        "Seat": 2,
+        "offsetx": -1.28480005,
+        "offsety": 0.248119995,
+        "offsetz": -0.146511495
+      },
+      {
+        "Seat": 3,
+        "offsetx": 1.19389999,
+        "offsety": 0.248300001,
+        "offsetz": -0.170599997
+      }
+    ],
+    "VehicleKit": [],
+    "WheelModify": [],
+    "TyreModify": []
+  },
+  "TestSpadeCfg": {
+    "Id": 81007023,
+    "GeneralModel": "Assets/Res/Prefab/Drive/Vehicles/Test_Gangbotan.prefab",
+    "VehicleName": "",
+    "VehicleIntro": "",
+    "VehicleControlId": 7023,
+    "MobileVehicleControlId": 7023,
+    "ModuleConfigName": "Test_Gangbotan",
+    "VehicleSpoonName": "",
+    "VehicleType": 2,
+    "VehicleFxId": 1,
+    "VehicleSoundId": 0,
+    "VehicleSeatNum": 2,
+    "MaxBrokenImpulse": 30000000,
+    "UndeformedModel": "",
+    "SlightlyDeformedModel": "",
+    "ModerateDeformedModel": "",
+    "HeavilyDeformedModel": "",
+    "VehicleDropId": 0,
+    "VehicleColor": [],
+    "BodyColor": [],
+    "VehicleSize": [
+      2.00553989,
+      1.16046798,
+      4.79044485
+    ],
+    "VehicleCenterOffset": [
+      0.000302314787,
+      0.927532196,
+      0.0384118594
+    ],
+    "VehicleFlag": 0,
+    "Country": [
+      0
+    ],
+    "StartVersion": "V0.9.0",
+    "EndVersion": "",
+    "TagList": [
+      0
+    ],
+    "ShowInPedia": false,
+    "Order": 100,
+    "Brand": 0,
+    "HypeLinkID": 0,
+    "VehicleDesc": "",
+    "PediaCameraTemplate": 0,
+    "CollectionScore": 0,
+    "AutoPilotJsonMode": 153,
+    "vehicleAITurnConfig": "FuzzyLogicConfig",
+    "skipCameraIgnoreVehicleCollider": false,
+    "Skills": [],
+    "CommonSkill": 0,
+    "ActiveSkill": 0,
+    "IntelligentDrive": false,
+    "Weight": 1200,
+    "CameraType": "",
+    "VehicleQuality": 0,
+    "SVehicleFrontIconId": 0,
+    "SVehicleIconId": 0,
+    "SVehicleBrandIcon": 0,
+    "SVehicleBrandSmallIcon": 0,
+    "VehicleBrandPicIcon": 0,
+    "VehicleLightPic": 0,
+    "SBuyVehicleIconId": 0,
+    "VehicleCanGet": false,
+    "VehicleGetway": 1,
+    "VehicleCost": 0,
+    "VehicleCostCount": 0,
+    "VehicleReplaceText": "",
+    "CanShowWindow": false,
+    "VehicleAttr": 0,
+    "HeightType": 1,
+    "ArtName": "",
+    "DefaultSuitId": 0,
+    "VehicleBase": 0,
+    "DefaultSuit": [],
+    "WheelNumA": 0,
+    "WheelSizeA": [],
+    "WheelModelA": [],
+    "HubAOffset": [
+      0,
+      0,
+      0
+    ],
+    "WheelNumB": 0,
+    "WheelSizeB": [],
+    "WheelModelB": [],
+    "HubBOffset": [
+      0,
+      0,
+      0
+    ],
+    "WheelNumC": 0,
+    "WheelSizeC": [],
+    "WheelModelC": [],
+    "HubCOffset": [
+      0,
+      0,
+      0
+    ],
+    "RoofModify": [],
+    "DiscModify": [],
+    "License01": 9999000,
+    "HubColorList": [
+      9998002
+    ],
+    "HoodList": [],
+    "SpoilerList": [],
+    "EngineList": [],
+    "ExhaustList": [],
+    "TransmissionList": [],
+    "BodyList": [],
+    "TyreOffset": [],
+    "CarPaintList": [],
+    "BodyColorList": [],
+    "DefaultPaint": 0,
+    "SuitList": [],
+    "__IDX__VehicleName": 0,
+    "__RAW__VehicleName": "",
+    "__IDX__VehicleIntro": 0,
+    "__RAW__VehicleIntro": "",
+    "__IDX__VehicleDesc": 0,
+    "__RAW__VehicleDesc": "",
+    "VehicleSeatWeaponInfos": [],
+    "PediaModelOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "GeneralModelChassisBounceRate": [
+      {
+        "BodyType": 2,
+        "Rate": 0.00999999978
+      },
+      {
+        "BodyType": 3,
+        "Rate": 0.0199999996
+      },
+      {
+        "BodyType": 4,
+        "Rate": 0
+      },
+      {
+        "BodyType": 5,
+        "Rate": 0.00999999978
+      },
+      {
+        "BodyType": 6,
+        "Rate": 0.0199999996
+      }
+    ],
+    "GeneralModelZoomRate": [],
+    "GeneralModelBorrowPoint": [
+      {
+        "Seat": 0,
+        "offsetx": -1.45799994,
+        "offsety": 0,
+        "offsetz": -0.00700000022
+      },
+      {
+        "Seat": 1,
+        "offsetx": 1.36600006,
+        "offsety": 0,
+        "offsetz": 0.296999991
+      }
+    ],
+    "GeneralModelPoliceGuardPoint": [
+      {
+        "Seat": 0,
+        "offsetx": 0,
+        "offsety": 0,
+        "offsetz": 0
+      },
+      {
+        "Seat": 1,
+        "offsetx": 0,
+        "offsety": 0,
+        "offsetz": 0
+      },
+      {
+        "Seat": 2,
+        "offsetx": -1.28480005,
+        "offsety": 0.248119995,
+        "offsetz": -0.146511495
+      },
+      {
+        "Seat": 3,
+        "offsetx": 1.30883896,
+        "offsety": 0.287400007,
+        "offsetz": -0.279650003
+      },
+      {
+        "Seat": 0,
+        "offsetx": 0,
+        "offsety": 0,
+        "offsetz": 0
+      },
+      {
+        "Seat": 1,
+        "offsetx": 0,
+        "offsety": 0,
+        "offsetz": 0
+      },
+      {
+        "Seat": 2,
+        "offsetx": -1.28480005,
+        "offsety": 0.248119995,
+        "offsetz": -0.146511495
+      },
+      {
+        "Seat": 3,
+        "offsetx": 1.19389999,
+        "offsety": 0.248300001,
+        "offsetz": -0.170599997
+      }
+    ],
+    "VehicleKit": [],
+    "WheelModify": [],
+    "TyreModify": []
+  },
+  "NpcBorrowCarActionDelayTime": 0,
+  "BorrowCarOpenDoorDelayTime": 0,
+  "BorrowCarPlayerEnterDelayTime": 1,
+  "DriveDestroyItemPoint": 1,
+  "DriveDestroyVehiclePoint": 10,
+  "DriveDestroyNPCPoint": 40,
+  "DriveDestroyPointCD": 2,
+  "DriveDestroyMessageCD": 0.5,
+  "DriveDestroyPointMaximums": 100,
+  "PoliceStationPosition": [
+    1490,
+    2.45000005,
+    1873
+  ],
+  "DriveDestroyPointReduceCheckTime": 10,
+  "DriveDestroyPointReduceSpeed": 5,
+  "DriveDestroyApprehendDelayTime": 3,
+  "DriveDestroyPointStage": [
+    0,
+    50,
+    80,
+    100
+  ],
+  "DriveDestroyItemLevelUp": 1,
+  "DriveDestroyVehicleLevelUp": 2,
+  "DestroyLevelLimit": 10,
+  "DestroyLevelAddPointRate": 0.100000001,
+  "DestroyLevelReduceCheckTime": 10,
+  "NormalSeatBodyType": [
+    2,
+    3,
+    5,
+    6,
+    8,
+    9,
+    11,
+    12,
+    51
+  ],
+  "FrontSeatBodyType": [
+    1,
+    4,
+    7,
+    10
+  ],
+  "EnterVehicleSpeedCheck": 0.300000012,
+  "EnterVehicleMaxYOffset": 0.5,
+  "EnterVehicleMinYOffset": -1,
+  "EnterVehicleZSlopeCheck": 30,
+  "EnterVehicleXSlopeCheck": 30,
+  "EnterVehicleFailNpcRejectTip": "Denied",
+  "EnterVehicleFailNoAuthorityDriveTip": "Unauthorized to operate",
+  "EnterVehicleFailNoAuthorityBorrowTip": "Unauthorized to borrow",
+  "EnterVehicleFailNoSpaceTip": "Vehicle blocked",
+  "NpcRejectBorrowVehicleLastTime": 180,
+  "BorrowVehicleSuccessRate": 1,
+  "ScrapeDecalRange": [
+    1,
+    5
+  ],
+  "BangDecalRange": [
+    1,
+    9
+  ],
+  "ScrapeDecalGenerateSpeed": 3,
+  "BangDecalGenerateSpeed": 10,
+  "EnterVehicleFailEntirelyBroken": "Vehicle destroyed",
+  "VehicleBrokenImpulseFilter": 10000,
+  "VehicleDoorOpenAngleCheck": 30,
+  "ChangeVehicleFailTip": "A vehicle is already nearby.",
+  "ChangeVehicleFailRange": 80,
+  "VehicleRecycleTime": 180,
+  "VehicleRecycleRange": 1000,
+  "VehicleDisplayAttributeMax": 5,
+  "VehicleDisplayAttributeMin": 0,
+  "VehicleDisplayAttributeRange": [
+    0,
+    0.200000003,
+    0.400000006,
+    0.600000024,
+    0.800000012
+  ],
+  "VehicleAppearFinalRange": 500,
+  "VehicleAppearDriveRange": 40,
+  "VehicleDisappearRange": 40,
+  "InitialPlayerCar": [
+    81001001,
+    81002001,
+    81002002
+  ],
+  "MilkVehicleDialog": 50005375,
+  "VehicleGetDialog": 84015610,
+  "VehicleGetRepeatDialog": 48026804,
+  "VehicleGetFailDialog": 48006111,
+  "VehicleGetNoCarDialog": 48006155,
+  "VehicleGetHaveCarDialog": 48006172,
+  "VehicleGetEndDialog": 48026808,
+  "VehicleGetHaveCarTaskDialog": 48006041,
+  "DriveBeginZoomStartTime": 2.4000001,
+  "DriveBeginZoomSEndTime": 4.19999981,
+  "DriveZoomBodyAllType": [
+    1,
+    0.899999976,
+    0.800000012,
+    1,
+    0.899999976,
+    0.800000012
+  ],
+  "VehicleGetCameraPos": [
+    0,
+    1.85000002,
+    4.5
+  ],
+  "StopHPChangeHPThreshold": 5000,
+  "StopHPChangeTimeThreshold": 1,
+  "DangerZoneDistance": 50,
+  "NavigationLineMaterial": [
+    "Assets/Res/Effects/Prefab/MaterialCube/fx_sc_CarGuide_jiantou_003_01_cube.prefab",
+    "Assets/Res/Effects/Prefab/MaterialCube/fx_sc_CarGuide_jiantou_003_02_cube.prefab",
+    "Assets/Res/Effects/Prefab/MaterialCube/fx_sc_CarGuide_jiantou_003_03_cube.prefab"
+  ],
+  "MilkCarRecycleTime": 30,
+  "MilkCarRecycleRange": 200,
+  "FreewayDensity": 60,
+  "StaticVehicleImpulse": [
+    0,
+    0.100000001,
+    0.300000012,
+    1
+  ],
+  "DriveDestroyPointRate": 0.600000024,
+  "DriveGuide": 13000055,
+  "DriveGuideCount": 3,
+  "LaneQueryBounds": [
+    1000,
+    12,
+    1000
+  ],
+  "MilkCarStopTrigger": [
+    5,
+    2,
+    8
+  ],
+  "VehicleAngleWithForceLeaveCar": 30,
+  "VehicleOverTurnDegree": 80,
+  "ForceEnterDriveLoopID": [
+    {
+      "carType": 1,
+      "seatIndex": 0,
+      "typeID": 8502
+    },
+    {
+      "carType": 2,
+      "seatIndex": 0,
+      "typeID": 8502
+    },
+    {
+      "carType": 3,
+      "seatIndex": 0,
+      "typeID": 8502
+    },
+    {
+      "carType": 1,
+      "seatIndex": 1,
+      "typeID": 8522
+    },
+    {
+      "carType": 2,
+      "seatIndex": 1,
+      "typeID": 8522
+    },
+    {
+      "carType": 3,
+      "seatIndex": 1,
+      "typeID": 8522
+    }
+  ],
+  "VehiclePadInputDeadAngle": 10,
+  "LowSpeedBrakeTime": 0.5,
+  "ConsoleSteeringSensitivity": [
+    0.5,
+    1.5
+  ],
+  "SpeedJudgmentOfConsole": [
+    20,
+    120
+  ],
+  "SpeedSensitivityBonus": [
+    0.200000003,
+    -0.200000003
+  ],
+  "DifferBodyTypesSeatOffset": [
+    {
+      "bodyType": 2,
+      "seatIndex": 0,
+      "offset": 0
+    },
+    {
+      "bodyType": 3,
+      "seatIndex": 0,
+      "offset": 0
+    },
+    {
+      "bodyType": 5,
+      "seatIndex": 0,
+      "offset": -0.5
+    },
+    {
+      "bodyType": 6,
+      "seatIndex": 0,
+      "offset": -0.5
+    }
+  ],
+  "VehicleFrontDetectorWidthOffset": 0,
+  "VehicleFrontDetectorLength": 4,
+  "VehiclDifferentSeatsOffset": [
+    {
+      "x": 0,
+      "y": -0.579999983,
+      "z": -0.120999999
+    },
+    {
+      "x": 0,
+      "y": -0.540000021,
+      "z": -0.120999999
+    },
+    {
+      "x": 0,
+      "y": -0.563000023,
+      "z": -0.120999999
+    },
+    {
+      "x": 0,
+      "y": -0.490999997,
+      "z": -0.120999999
+    },
+    {
+      "x": 0,
+      "y": -0.423000008,
+      "z": -0.061999999
+    }
+  ],
+  "SteerHandPositionOffset": [
+    {
+      "x": 0.0649999976,
+      "y": -0.0250000004,
+      "z": -0.0250000004
+    },
+    {
+      "x": 0.0649999976,
+      "y": -0.0299999993,
+      "z": 0
+    }
+  ],
+  "SteerHandRotation": [
+    {
+      "x": 55,
+      "y": -35,
+      "z": -105
+    },
+    {
+      "x": -50,
+      "y": -150,
+      "z": -120
+    }
+  ],
+  "EnterPositionOffsetToHandle": [
+    {
+      "x": -0.699999988,
+      "y": -0.5,
+      "z": -0.5
+    },
+    {
+      "x": 0.699999988,
+      "y": -0.5,
+      "z": -0.5
+    },
+    {
+      "x": -0.699999988,
+      "y": -0.5,
+      "z": -0.5
+    },
+    {
+      "x": 0.699999988,
+      "y": -0.5,
+      "z": -0.5
+    }
+  ],
+  "SeatBodyType01": [
+    {
+      "x": 6,
+      "y": 12
+    },
+    {
+      "x": 5,
+      "y": 11
+    },
+    {
+      "x": 3,
+      "y": 9
+    }
+  ],
+  "SeatBodyType02": [
+    {
+      "x": 2,
+      "y": 8,
+      "z": 51
+    },
+    {
+      "x": 4,
+      "y": 7,
+      "z": 10
+    }
+  ],
+  "VehicleCarSteerPointPositionOffset": [
+    {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  ],
+  "VehicleCarSteerPointRotation": [
+    {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  ],
+  "VehicleResetTime": 5,
+  "CarVehicleTypeGroup": [
+    2,
+    4,
+    3,
+    6,
+    8,
+    9,
+    13
+  ],
+  "TruckVehicleTypeGroup": [
+    10,
+    7,
+    11,
+    12,
+    21
+  ],
+  "MotorVehicleTypeGroup": [
+    25,
+    24,
+    26
+  ],
+  "TaskVehicleHighCamera": "Assets/Res/DataAsset/Drive/Camera_KCAR_Special.asset",
+  "MatchLinkModeSummonVehicleWhitelist": [
+    81007009
+  ],
+  "VehicleMergeList": [
+    81000061,
+    81000062,
+    81000063,
+    81000064,
+    81000065,
+    81000066,
+    81000067,
+    81000068,
+    81000069,
+    81004004,
+    81004005,
+    81004006,
+    81004008,
+    81004010,
+    81004013,
+    81004015,
+    81004016,
+    81004017,
+    81004018,
+    81004019,
+    81004020,
+    81004021,
+    81004024,
+    81004028,
+    81006001,
+    81006006,
+    81006002,
+    81006003,
+    81006007,
+    81006008,
+    81006009,
+    81006010,
+    81006011,
+    81006012,
+    81006013,
+    81006015,
+    81006017,
+    81006018,
+    81006029,
+    81006030,
+    81006101,
+    81007007,
+    81007008,
+    81007011,
+    81007011,
+    81007013,
+    81007014,
+    81007016,
+    81007076,
+    81007077,
+    81007093,
+    81007092,
+    81007103,
+    81007104
+  ],
+  "VehicleFullShadowList": [
+    81004018,
+    81004019,
+    81004020,
+    81004023,
+    81004024,
+    81004025,
+    81004032
+  ],
+  "trailerVehicleCamera": "Assets/Res/DataAsset/Drive/Camera_Trailer.asset",
+  "Feature1Name": "极速",
+  "Feature2Name": "加速",
+  "Feature3Name": "刹车",
+  "Feature4Name": "操控",
+  "Feature5Name": "耐久",
+  "VehicleMaxFeature": 100,
+  "VehicleCommonSettingAsset": "Assets/Res/DataAsset/Drive/DriveCommonCfg/NPDCommonCfg_Test.asset",
+  "VehicleGlassBroken": [
+    "glass_door_l_01",
+    "glass_door_r_01",
+    "glass_outside_l_02",
+    "glass_outside_r_02",
+    "glass_windshield_f",
+    "glass_windshield_r"
+  ],
+  "VehicleDamageSettingAsset": "Assets/Res/DataAsset/Drive/VehicleDamageAutoSetConfig/VehicleDamageCommonConfigData.asset",
+  "MobileJoystickSteerDeadAngle": 20,
+  "MobileJoystickThrottleDeadAngle": 10,
+  "PediaDefaultVehicleRotation": -140,
+  "MotorcycleGamepadWheelieRangeAngle": 60,
+  "MotorcycleGamepadSteerDeadRangeY": 0.5,
+  "GmAddAllVehicle": [
+    81000005,
+    81000007,
+    81001001,
+    81001002,
+    81001003,
+    81001006,
+    81001007,
+    81001008,
+    81001009,
+    81001010,
+    81001011,
+    81001012,
+    81001013,
+    81001015,
+    81001016,
+    81001017,
+    81001018,
+    81001019,
+    81002001,
+    81002006,
+    81002007,
+    81002008,
+    81002009,
+    81003001,
+    81003002,
+    81003003,
+    81003004,
+    81003005,
+    81003006,
+    81003008,
+    81003009,
+    81003010,
+    81003011,
+    81003012,
+    81003013,
+    81003015,
+    81003016,
+    81003022,
+    81004001,
+    81004002,
+    81004004,
+    81004021,
+    81004033,
+    81005002,
+    81005003,
+    81005004,
+    81005005,
+    81005006,
+    81005007,
+    81006002,
+    81006003,
+    81006006,
+    81006007,
+    81006009,
+    81006010,
+    81006011,
+    81006012,
+    81006013,
+    81007009,
+    81007092,
+    81007100,
+    81007101,
+    81007102,
+    81007103
+  ],
+  "VehicleWheelHold": 80002468,
+  "RaceLoadingTL": [
+    {
+      "VehicleQuality": "NoQuality",
+      "Timeline": "ol_play_racing_loading"
+    },
+    {
+      "VehicleQuality": "Gold",
+      "Timeline": "ol_play_racing_loading"
+    }
+  ],
+  "ConvertiblePartCloseStateInputId": 533,
+  "ConvertiblePartOpenStateInputId": 534,
+  "RacerMapVehicleCamera": "Assets/Res/DataAsset/Drive/Camera_Racer.asset",
+  "cooldown": 30,
+  "EnableAutopilotHideNavigationLine": false,
+  "EnableAutopilotHideMinimapNavigationLine": false,
+  "HandboatTicketCost": 500,
+  "BorrowCarSuccessProb": [
+    {
+      "Type": 1,
+      "Probability": 200
+    },
+    {
+      "Type": 2,
+      "Probability": 10
+    }
+  ],
+  "BrakeDiscRedParms": [
+    150,
+    3,
+    10,
+    5
+  ]
+}

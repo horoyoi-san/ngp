@@ -1,0 +1,120 @@
+{
+  "SunnyCfg": {
+    "Id": 1,
+    "WindScale": 1,
+    "Icon": 25600351,
+    "TimerAppTitleIcon": 30300201,
+    "Name": "晴天",
+    "SoundEffect": 0,
+    "TaWeatherIndex": 0,
+    "PerformanceType": [
+      1
+    ],
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "晴天"
+  },
+  "CloudyCfg": {
+    "Id": 2,
+    "WindScale": 2,
+    "Icon": 25600341,
+    "TimerAppTitleIcon": 30300202,
+    "Name": "阴天",
+    "SoundEffect": 0,
+    "TaWeatherIndex": 1,
+    "PerformanceType": [
+      1
+    ],
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "阴天"
+  },
+  "RainCfg": {
+    "Id": 3,
+    "WindScale": 2,
+    "Icon": 25600348,
+    "TimerAppTitleIcon": 30300203,
+    "Name": "雨天",
+    "SoundEffect": 70300844,
+    "TaWeatherIndex": 2,
+    "PerformanceType": [
+      0
+    ],
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "雨天"
+  },
+  "StormCfg": {
+    "Id": 4,
+    "WindScale": 2,
+    "Icon": 25600347,
+    "TimerAppTitleIcon": 30300204,
+    "Name": "风",
+    "SoundEffect": 0,
+    "TaWeatherIndex": 3,
+    "PerformanceType": [],
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "风"
+  },
+  "AfterrainCfg": {
+    "Id": 5,
+    "WindScale": 1,
+    "Icon": 25600341,
+    "TimerAppTitleIcon": 30300202,
+    "Name": "雨后",
+    "SoundEffect": 0,
+    "TaWeatherIndex": 4,
+    "PerformanceType": [
+      1
+    ],
+    "__IDX__Name": 4294967293,
+    "__RAW__Name": "雨后"
+  },
+  "TimeRatio": 15,
+  "WeatherTransitionTime": 10,
+  "WeatherRefreshInterval": 4,
+  "DefaultAlarmTime": [
+    6,
+    12,
+    18,
+    24
+  ],
+  "BlackTime": 1.5,
+  "AlarmMusic": 0,
+  "CompletionAction": 9102,
+  "ActionTime": 60,
+  "MaxMovieTime": 8,
+  "MinMovieTime": 1,
+  "TimeSwitch": [
+    5,
+    7,
+    16,
+    18
+  ],
+  "TimeIcon": [
+    25600352,
+    25600353,
+    25600355,
+    25600354
+  ],
+  "HoursChangeSF": 70202000,
+  "MinsChangeSF": 70202001,
+  "StayTime": 1.5,
+  "AlarmBgmFade": 500,
+  "CanTimerRestActionType": [
+    5620,
+    5621,
+    5622,
+    1001
+  ],
+  "PersonalTimeSettingMaxCount": 2,
+  "PersonalTimeSettingMaxLabel": 7,
+  "VideoSoundId": 70601098,
+  "CountdownStopSoundId": 70601099,
+  "PlayVideoMinSpeed": 0.5,
+  "PlayVideoMaxSpeed": 3,
+  "TimeVideoPath": 24101006,
+  "TimeVideoPath_SunBath": 24101005,
+  "ReachTimeThreshold": 0.5,
+  "TimeListDragDeleteThreshold": 50,
+  "VibrateHapticsDuration": 10,
+  "VibrateHapticsAmplitude": 255,
+  "MaxAbsenceCount": 10
+}

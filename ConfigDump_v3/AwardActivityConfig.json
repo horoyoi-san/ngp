@@ -1,0 +1,258 @@
+{
+  "_class": "AwardActivityConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 6,
+  "records": [
+    {
+      "Id": 1,
+      "TemplateId": 1,
+      "TabImage": 0,
+      "BgImage": 0,
+      "PopUpId": 0,
+      "Name": "Check In Event",
+      "Title": "Nova Jaunt Gift",
+      "Desc": "Welcome to Nova City, where endless possibilities and a bright future await you!",
+      "MaxProgress": 1,
+      "Order": 0,
+      "CustomArgs": [],
+      "CustomJsonArgs": "{\n\"Rewards\":[14330002,14330003,14330004,14330005,14330006],\"DisplayReward\":[36820006,36820007,36820007,36820007,36820008],\n\"StartFromCreate\":true,\n\"BgImage\":[28017764,28017705,28017705,28017705,28017705],\n}",
+      "StartVersion": "V0.11.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1
+      ],
+      "__IDX__Name": 127037,
+      "__RAW__Name": "",
+      "__IDX__Title": 127038,
+      "__RAW__Title": "",
+      "__IDX__Desc": 127036,
+      "__RAW__Desc": "",
+      "StartTime": {
+        "year": 0,
+        "month": 0,
+        "day": 0,
+        "hour": 0,
+        "minute": 0,
+        "second": 0
+      },
+      "EndTime": {
+        "year": 2026,
+        "month": 6,
+        "day": 29,
+        "hour": 23,
+        "minute": 59,
+        "second": 59
+      }
+    },
+    {
+      "Id": 4,
+      "TemplateId": 3,
+      "TabImage": 0,
+      "BgImage": 0,
+      "PopUpId": 0,
+      "Name": "Side by Side",
+      "Title": "Tuned into the World",
+      "Desc": "Complete online missions to earn Connection Points and unlock generous rewards, including large amounts of city currency and exclusive outfits. As your Connection Points accumulate, Advanced and Challenge missions will gradually unlock.",
+      "MaxProgress": 1,
+      "Order": 0,
+      "CustomArgs": [],
+      "CustomJsonArgs": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        2
+      ],
+      "__IDX__Name": 139125,
+      "__RAW__Name": "",
+      "__IDX__Title": 139126,
+      "__RAW__Title": "",
+      "__IDX__Desc": 139124,
+      "__RAW__Desc": "",
+      "StartTime": {
+        "year": 0,
+        "month": 0,
+        "day": 0,
+        "hour": 0,
+        "minute": 0,
+        "second": 0
+      },
+      "EndTime": {
+        "year": 2026,
+        "month": 6,
+        "day": 29,
+        "hour": 23,
+        "minute": 59,
+        "second": 59
+      }
+    },
+    {
+      "Id": 5,
+      "TemplateId": 1,
+      "TabImage": 28006213,
+      "BgImage": 28003809,
+      "PopUpId": 0,
+      "Name": "出勤打卡记录",
+      "Title": "出勤打卡记录",
+      "Desc": "签到即可领取当日奖励。签到14天，即可获得桑斯特·GT 7。",
+      "MaxProgress": 0,
+      "Order": 1,
+      "CustomArgs": [],
+      "CustomJsonArgs": "{\n\"Rewards\":[14332100,14332101,14332102,14332103,14332104,14332105,14332106,14332107,14332108,14332109,14332110,14332111,14332112,14332113],\n\"DisplayReward\":[36920002,36920003,36782006,36840003,36789017,36840003,36920003,36840004,36920002,36840003,36120006,36920003,36789031,36789017],\n\"StartFromCreate\":false,\n\"BgImage\":[28017764,28017705,28017705,28017705,28017705,28017764,28017705,28017705,28017705,28017764,28017705,28017705,28017705,28017705],\n\"FocusRewards\":[0,0,1,0,0,0,0,0,0,1,0,0,0,0,],\n}",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "出勤打卡记录",
+      "__IDX__Title": 4294967295,
+      "__RAW__Title": "出勤打卡记录",
+      "__IDX__Desc": 4294967294,
+      "__RAW__Desc": "签到即可领取当日奖励。签到14天，即可获得桑斯特·GT 7。",
+      "StartTime": {
+        "year": 0,
+        "month": 0,
+        "day": 0,
+        "hour": 0,
+        "minute": 0,
+        "second": 0
+      },
+      "EndTime": {
+        "year": 0,
+        "month": 0,
+        "day": 0,
+        "hour": 0,
+        "minute": 0,
+        "second": 0
+      }
+    },
+    {
+      "Id": 6,
+      "TemplateId": 5,
+      "TabImage": 28006212,
+      "BgImage": 28003808,
+      "PopUpId": 0,
+      "Name": "眼界养成计划",
+      "Title": "眼界养成计划",
+      "Desc": "达成眼界粉丝数目标，获取对应档位奖励。冲击最终粉丝数目标，可获得服装、挂件等丰厚奖励。",
+      "MaxProgress": 0,
+      "Order": 2,
+      "CustomArgs": [],
+      "CustomJsonArgs": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "眼界养成计划",
+      "__IDX__Title": 4294967295,
+      "__RAW__Title": "眼界养成计划",
+      "__IDX__Desc": 4294967294,
+      "__RAW__Desc": "达成眼界粉丝数目标，获取对应档位奖励。冲击最终粉丝数目标，可获得服装、挂件等丰厚奖励。",
+      "StartTime": {
+        "year": 0,
+        "month": 0,
+        "day": 0,
+        "hour": 0,
+        "minute": 0,
+        "second": 0
+      },
+      "EndTime": {
+        "year": 0,
+        "month": 0,
+        "day": 0,
+        "hour": 0,
+        "minute": 0,
+        "second": 0
+      }
+    },
+    {
+      "Id": 7,
+      "TemplateId": 3,
+      "TabImage": 28006211,
+      "BgImage": 28003810,
+      "PopUpId": 0,
+      "Name": "队长入职手册",
+      "Title": "队长入职手册",
+      "Desc": "完成任意8个当日任务，即可获得所有当前列表中的奖励。完成7天目标后，可获得服饰、动作等丰厚奖励。",
+      "MaxProgress": 0,
+      "Order": 3,
+      "CustomArgs": [],
+      "CustomJsonArgs": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "队长入职手册",
+      "__IDX__Title": 4294967295,
+      "__RAW__Title": "队长入职手册",
+      "__IDX__Desc": 4294967294,
+      "__RAW__Desc": "完成任意8个当日任务，即可获得所有当前列表中的奖励。完成7天目标后，可获得服饰、动作等丰厚奖励。",
+      "StartTime": {
+        "year": 0,
+        "month": 0,
+        "day": 0,
+        "hour": 0,
+        "minute": 0,
+        "second": 0
+      },
+      "EndTime": {
+        "year": 0,
+        "month": 0,
+        "day": 0,
+        "hour": 0,
+        "minute": 0,
+        "second": 0
+      }
+    },
+    {
+      "Id": 8,
+      "TemplateId": 6,
+      "TabImage": 28006211,
+      "BgImage": 28101230,
+      "PopUpId": 0,
+      "Name": "烟火贺岁公告测试",
+      "Title": "烟火贺岁公告测试",
+      "Desc": "新年新气象——换上限定新衣，点燃满城烟火。",
+      "MaxProgress": 0,
+      "Order": 4,
+      "CustomArgs": [],
+      "CustomJsonArgs": "",
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "烟火贺岁公告测试",
+      "__IDX__Title": 4294967293,
+      "__RAW__Title": "烟火贺岁公告测试",
+      "__IDX__Desc": 4294967293,
+      "__RAW__Desc": "新年新气象——换上限定新衣，点燃满城烟火。",
+      "StartTime": {
+        "year": 2026,
+        "month": 7,
+        "day": 22,
+        "hour": 4,
+        "minute": 0,
+        "second": 0
+      },
+      "EndTime": {
+        "year": 2026,
+        "month": 8,
+        "day": 29,
+        "hour": 23,
+        "minute": 59,
+        "second": 59
+      }
+    }
+  ],
+  "_dumpedCount": 6,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

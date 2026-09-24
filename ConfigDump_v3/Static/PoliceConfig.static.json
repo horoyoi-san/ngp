@@ -1,0 +1,920 @@
+{
+  "AskCfg": {
+    "Id": 1,
+    "Option": "Inquiry",
+    "Menu": 0,
+    "JobId": [],
+    "Icon": 28002371,
+    "DialogId": 0,
+    "Condition": "",
+    "Interact": 0,
+    "Message": "Question",
+    "FineId": [],
+    "OptionType": 0,
+    "ShowType": 0,
+    "GuideId": "",
+    "__IDX__Option": 63789,
+    "__RAW__Option": ""
+  },
+  "CommandCfg": {
+    "Id": 2,
+    "Option": "Command",
+    "Menu": 0,
+    "JobId": [],
+    "Icon": 28009112,
+    "DialogId": 0,
+    "Condition": "",
+    "Interact": 0,
+    "Message": "",
+    "FineId": [],
+    "OptionType": 0,
+    "ShowType": 1,
+    "GuideId": "",
+    "__IDX__Option": 63796,
+    "__RAW__Option": ""
+  },
+  "IdCheckCfg": {
+    "Id": 3,
+    "Option": "ID Check",
+    "Menu": 0,
+    "JobId": [],
+    "Icon": 28002367,
+    "DialogId": 0,
+    "Condition": "",
+    "Interact": 3,
+    "Message": "ID",
+    "FineId": [
+      1,
+      2,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "OptionType": 1,
+    "ShowType": 3,
+    "GuideId": "IdentityVerification",
+    "__IDX__Option": 63797,
+    "__RAW__Option": ""
+  },
+  "BodySearchCfg": {
+    "Id": 4,
+    "Option": "Frisk",
+    "Menu": 0,
+    "JobId": [],
+    "Icon": 28009115,
+    "DialogId": 0,
+    "Condition": "",
+    "Interact": 4,
+    "Message": "Search",
+    "FineId": [
+      3,
+      4,
+      10
+    ],
+    "OptionType": 1,
+    "ShowType": 3,
+    "GuideId": "BodySearch",
+    "__IDX__Option": 63798,
+    "__RAW__Option": ""
+  },
+  "AlcoholTestCfg": {
+    "Id": 5,
+    "Option": "Alcohol Test",
+    "Menu": 0,
+    "JobId": [],
+    "Icon": 28002368,
+    "DialogId": 0,
+    "Condition": "",
+    "Interact": 5,
+    "Message": "Alcohol",
+    "FineId": [
+      5,
+      15
+    ],
+    "OptionType": 1,
+    "ShowType": 3,
+    "GuideId": "",
+    "__IDX__Option": 63799,
+    "__RAW__Option": ""
+  },
+  "DrugTestCfg": {
+    "Id": 6,
+    "Option": "Drug Test",
+    "Menu": 0,
+    "JobId": [],
+    "Icon": 28009114,
+    "DialogId": 0,
+    "Condition": "",
+    "Interact": 6,
+    "Message": "Drug",
+    "FineId": [
+      16,
+      12
+    ],
+    "OptionType": 1,
+    "ShowType": 3,
+    "GuideId": "",
+    "__IDX__Option": 63800,
+    "__RAW__Option": ""
+  },
+  "FineCfg": {
+    "Id": 7,
+    "Option": "Issue Citation",
+    "Menu": 0,
+    "JobId": [],
+    "Icon": 28002370,
+    "DialogId": 53021858,
+    "Condition": "",
+    "Interact": 0,
+    "Message": "Fine",
+    "FineId": [],
+    "OptionType": 2,
+    "ShowType": 1,
+    "GuideId": "Fine",
+    "__IDX__Option": 63801,
+    "__RAW__Option": ""
+  },
+  "ArrestCfg": {
+    "Id": 8,
+    "Option": "Arrest",
+    "Menu": 0,
+    "JobId": [],
+    "Icon": 28002369,
+    "DialogId": 0,
+    "Condition": "",
+    "Interact": 13,
+    "Message": "Arrest",
+    "FineId": [],
+    "OptionType": 2,
+    "ShowType": 1,
+    "GuideId": "",
+    "__IDX__Option": 63802,
+    "__RAW__Option": ""
+  },
+  "ReleaseCfg": {
+    "Id": 9,
+    "Option": "Release",
+    "Menu": 0,
+    "JobId": [],
+    "Icon": 28009113,
+    "DialogId": 0,
+    "Condition": "",
+    "Interact": 14,
+    "Message": "Release",
+    "FineId": [],
+    "OptionType": 2,
+    "ShowType": 1,
+    "GuideId": "Release",
+    "__IDX__Option": 63803,
+    "__RAW__Option": ""
+  },
+  "NameCfg": {
+    "Id": 10,
+    "Option": "Name",
+    "Menu": 0,
+    "JobId": [],
+    "Icon": 28002367,
+    "DialogId": 0,
+    "Condition": "",
+    "Interact": 0,
+    "Message": "",
+    "FineId": [],
+    "OptionType": 0,
+    "ShowType": 2,
+    "GuideId": "",
+    "__IDX__Option": 63790,
+    "__RAW__Option": ""
+  },
+  "JobCfg": {
+    "Id": 11,
+    "Option": "Occupation",
+    "Menu": 0,
+    "JobId": [],
+    "Icon": 28002367,
+    "DialogId": 0,
+    "Condition": "",
+    "Interact": 0,
+    "Message": "",
+    "FineId": [],
+    "OptionType": 0,
+    "ShowType": 2,
+    "GuideId": "",
+    "__IDX__Option": 63791,
+    "__RAW__Option": ""
+  },
+  "LeaveCfg": {
+    "Id": 12,
+    "Option": "",
+    "Menu": 0,
+    "JobId": [],
+    "Icon": 0,
+    "DialogId": 0,
+    "Condition": "",
+    "Interact": 0,
+    "Message": "",
+    "FineId": [],
+    "OptionType": 0,
+    "ShowType": 0,
+    "GuideId": "",
+    "__IDX__Option": 0,
+    "__RAW__Option": ""
+  },
+  "HandOnHeadCfg": {
+    "Id": 110,
+    "Option": "Hands on Head",
+    "Menu": 2,
+    "JobId": [],
+    "Icon": 28009108,
+    "DialogId": 53021873,
+    "Condition": "NotHandsOnHead()",
+    "Interact": 7,
+    "Message": "Command",
+    "FineId": [],
+    "OptionType": 0,
+    "ShowType": 1,
+    "GuideId": "",
+    "__IDX__Option": 63792,
+    "__RAW__Option": ""
+  },
+  "CrouchCfg": {
+    "Id": 111,
+    "Option": "Crouch Down",
+    "Menu": 2,
+    "JobId": [],
+    "Icon": 28009109,
+    "DialogId": 53021874,
+    "Condition": "NotCrouching()",
+    "Interact": 8,
+    "Message": "Command",
+    "FineId": [],
+    "OptionType": 0,
+    "ShowType": 1,
+    "GuideId": "",
+    "__IDX__Option": 63793,
+    "__RAW__Option": ""
+  },
+  "ProneCfg": {
+    "Id": 112,
+    "Option": "Lie Down",
+    "Menu": 2,
+    "JobId": [],
+    "Icon": 28009111,
+    "DialogId": 53021875,
+    "Condition": "NotProne()",
+    "Interact": 9,
+    "Message": "Command",
+    "FineId": [],
+    "OptionType": 0,
+    "ShowType": 1,
+    "GuideId": "",
+    "__IDX__Option": 63794,
+    "__RAW__Option": ""
+  },
+  "StandUpCfg": {
+    "Id": 113,
+    "Option": "Get Up",
+    "Menu": 2,
+    "JobId": [],
+    "Icon": 28009110,
+    "DialogId": 53021876,
+    "Condition": "NotFree()",
+    "Interact": 10,
+    "Message": "Command",
+    "FineId": [],
+    "OptionType": 0,
+    "ShowType": 1,
+    "GuideId": "",
+    "__IDX__Option": 63795,
+    "__RAW__Option": ""
+  },
+  "SearchCarResult": [
+    {
+      "Icon": 28002366,
+      "Name": "塑封水坊主"
+    },
+    {
+      "Icon": 28002366,
+      "Name": "一摞井盖"
+    },
+    {
+      "Icon": 28002366,
+      "Name": "强力干燥剂"
+    }
+  ],
+  "SearchPanelSearchingText": "Searching…",
+  "SearchPanelSearchedText": "Search Results",
+  "SearchPanelTestingText": "Testing…",
+  "SearchPanelTestedText": "Test Results",
+  "IdentityExpiredText": "Expired",
+  "IdentityExpiryYearText": "%d Years",
+  "MaxFineTimesText": "(%d/3) Attempts Remaining",
+  "MaxFineTimes": 3,
+  "FineFailDialog": 100041265,
+  "FineCarFailLimit": 3,
+  "PoliceCarHornCD": 5,
+  "ExamFleeBehaviorTree": "BaseFlee",
+  "DispatchTimesText": "Response Dispatch",
+  "PatrolTimesText": "Patrol and Inspect",
+  "ArrestTimesText": "Number of Arrests",
+  "FineCountText": "Issue Citation",
+  "TotalIncomeText": "Overall Performance",
+  "QuestionDialogId": 100010435,
+  "AnswerDialogId": [
+    100011724,
+    100011691,
+    100015500,
+    100015493,
+    100015494,
+    100015495,
+    100015496,
+    100015497,
+    100015498,
+    100015499
+  ],
+  "QuitDialogId": 100011974,
+  "ExpIncreaseRatio": 0.5,
+  "AskVehicleSuccessDialogId": 50006200,
+  "AskVehicleFailDialogId": 50006201,
+  "ArrestNpcPosition": [
+    {
+      "x": 2376.8999,
+      "y": 0.546000004,
+      "z": 1818.72998
+    },
+    {
+      "x": 2377.8999,
+      "y": 0.546000004,
+      "z": 1818.72998
+    },
+    {
+      "x": 2378.8999,
+      "y": 0.546000004,
+      "z": 1818.72998
+    },
+    {
+      "x": 2379.8999,
+      "y": 0.546000004,
+      "z": 1818.72998
+    },
+    {
+      "x": 2380.8999,
+      "y": 0.546000004,
+      "z": 1818.72998
+    },
+    {
+      "x": 2381.8999,
+      "y": 0.546000004,
+      "z": 1818.72998
+    },
+    {
+      "x": 2382.8999,
+      "y": 0.546000004,
+      "z": 1818.72998
+    },
+    {
+      "x": 2382.3999,
+      "y": 0.546000004,
+      "z": 1819.94995
+    },
+    {
+      "x": 2381.3999,
+      "y": 0.546000004,
+      "z": 1819.94995
+    },
+    {
+      "x": 2382.86011,
+      "y": 0.546000004,
+      "z": 1821.52002
+    },
+    {
+      "x": 2377.30005,
+      "y": 0.546000004,
+      "z": 1821.52002
+    },
+    {
+      "x": 2379.3999,
+      "y": 0.546000004,
+      "z": 1819.94995
+    },
+    {
+      "x": 2377.3999,
+      "y": 0.546000004,
+      "z": 1819.94995
+    },
+    {
+      "x": 2378.3999,
+      "y": 0.546000004,
+      "z": 1819.94995
+    }
+  ],
+  "ArrestNpcAngle": [
+    0,
+    5,
+    10,
+    15,
+    20,
+    30,
+    40,
+    190,
+    200,
+    170,
+    320,
+    330,
+    340,
+    345,
+    350,
+    355
+  ],
+  "NpcMercyTag": 47,
+  "NpcLyingTag": 95,
+  "NpcLyingTagUp": 94,
+  "NpcCannotExamTag": [
+    45,
+    46,
+    48,
+    49,
+    305,
+    41
+  ],
+  "NpcDefautCrimeCount": [
+    {
+      "num": 1,
+      "weight": 40
+    },
+    {
+      "num": 2,
+      "weight": 30
+    },
+    {
+      "num": 3,
+      "weight": 20
+    },
+    {
+      "num": 4,
+      "weight": 10
+    }
+  ],
+  "CarLicenseCrimeProbability": [
+    {
+      "FineId": 31,
+      "Rate": 0.150000006
+    },
+    {
+      "FineId": 32,
+      "Rate": 0.150000006
+    }
+  ],
+  "ParkedVehicleWaitingTime": 120,
+  "SectorParkingVehicleNum": 6,
+  "ParkingVehicleCrimeProbability": [
+    {
+      "FineId": 28,
+      "Rate": 0.200000003
+    },
+    {
+      "FineId": 27,
+      "Rate": 0.300000012
+    },
+    {
+      "FineId": 29,
+      "Rate": 0.200000003
+    },
+    {
+      "FineId": 30,
+      "Rate": 0.300000012
+    }
+  ],
+  "TooCloseToCrossRoadDistance": 20,
+  "ParkingVehicleMinDistance": 18,
+  "RoadCarLicenseCrimeProbability": [
+    {
+      "FineId": 31,
+      "Rate": 0.150000006
+    },
+    {
+      "FineId": 32,
+      "Rate": 0.150000006
+    }
+  ],
+  "IntersectionAreaLength": 18,
+  "ForceQuitJobTime": 60,
+  "DailyViolationCountLimit": 3,
+  "JudicialProcessingTime": 1,
+  "ArrestRewardDrop": 14575006,
+  "TrailRewardDropA": 14575003,
+  "TrailRewardDropS": 14575004,
+  "FineTimesLimit": 3,
+  "NpcBattleOrExitCD": 30,
+  "NpcBattleAndExitLimit": 2,
+  "ForceQuitNoticeShowTime": 3,
+  "FineFactorLine": 3,
+  "interactionDistance": 2.5,
+  "InteractionButtonOffsetY": 0,
+  "CameraPos": [
+    {
+      "x": 0.754000008,
+      "y": 1.56799996,
+      "z": -0.556999981
+    },
+    {
+      "x": 1.07700002,
+      "y": 1.61199999,
+      "z": -0.873000026
+    },
+    {
+      "x": 1.48099995,
+      "y": 1.57599998,
+      "z": -1.35599995
+    },
+    {
+      "x": -1.63999999,
+      "y": 1.42999995,
+      "z": -1.92999995
+    }
+  ],
+  "CameraRot": [
+    {
+      "x": 8.6960001,
+      "y": -40.0800018,
+      "z": -1.28550005
+    },
+    {
+      "x": 15.29667,
+      "y": -40.2334595,
+      "z": -1.31739998
+    },
+    {
+      "x": 14.3702698,
+      "y": -40.2114906,
+      "z": -1.31179798
+    },
+    {
+      "x": 5,
+      "y": 27.5599995,
+      "z": 0
+    }
+  ],
+  "CameraFoV": [
+    45,
+    52,
+    55,
+    60
+  ],
+  "InteractionShowCD": 2,
+  "NoCrimeText": "No Record",
+  "HideNameJobText": "???",
+  "TopLeftFormat": "%s：%s",
+  "NameAIDialogFineId": 99,
+  "JobAIDialogFineId": 99,
+  "SuggestionCheck": "ID Check",
+  "SuggestionFake": "拘捕至巡卫署控制调查",
+  "SuggestionSearch": "Question to Ensure Safety",
+  "SuggestionSearchDeep": "Continue Questioning to Ensure Safety",
+  "SuggestionFine": "Issue Violation Citation",
+  "SuggestionArrestOrFine": "Apprehend immediately and take to NCCA",
+  "SuggestionArrest": "Arrest to NCCA or Issue Fine",
+  "SuggestionRelease": "No Record. Recommend Release.",
+  "SearchResultNormal": "No Results",
+  "AddressFormat1": "%s%s%d Street%d-%d",
+  "AddressFormat2": "%s%d Street%d-%d",
+  "FakemanSignalOn": "伪人活跃中，密度较高",
+  "FakemanSignalOff": "伪人蛰伏中，密度较低",
+  "NameAIDialogContainStr": "<policeExamineNpcName>",
+  "JobAIDialogContainStr": "<policeExamineNpcJob>",
+  "ExamTaskFinishButton": "Submit Patrol Report",
+  "ChargingValueEachLayer": 100,
+  "ChargingLayerNumInit": 2,
+  "ChargingLayerNumBadge": [
+    19002900,
+    19002907
+  ],
+  "ChargeSpeed": 2,
+  "ChargeSpeedBadge": [
+    {
+      "badgeId": 19002900,
+      "addrate": 0.5
+    },
+    {
+      "badgeId": 19002901,
+      "addrate": 0.5
+    }
+  ],
+  "ChasingSupportCarDamageLimit": 45000,
+  "ChasingSupportCarAITask1": 9001,
+  "ChasingSupportCarAITask2": 9002,
+  "ChasingRoadBlockDistanceLimit": 50,
+  "ChasingSkillPauseTimeScale": 0.200000003,
+  "ChasingSkillTipCloseTime": 2,
+  "AskPoliceVehicleHornCD": 2,
+  "ArrestSupportDefaultDailyLimit": 99999,
+  "ArrestSupportBadgeAddDailyLimit": [
+    {
+      "badgeId": 19001041,
+      "addValue": 1
+    },
+    {
+      "badgeId": 19001042,
+      "addValue": 1
+    }
+  ],
+  "ArrestSupportDialog": 100015357,
+  "ArrestDestination": 12006008,
+  "ArrestSupportVehicleId": 81004016,
+  "ArrestSupportAgentId": 40120812,
+  "DispatchingTitle": "On Duty…",
+  "DispatchQuestTitle": "Dispatch completed. Section case clearance rate increased.",
+  "DispatchLimitTitle": "No new dispatches today",
+  "PopupMainTitle": "End Shift",
+  "PopupSubTitle": "The NCCA appreciates your service.",
+  "PopupIcon": 28000157,
+  "GpsIcon": 28001047,
+  "MissonIcon": [
+    28009156,
+    28009092,
+    28002344,
+    28002344,
+    28009091,
+    28001040
+  ],
+  "ClueOrderUnlockFakeFileIdInfos": [
+    {
+      "Order": 1,
+      "UnlockFileId": 1
+    },
+    {
+      "Order": 3,
+      "UnlockFileId": 2
+    },
+    {
+      "Order": 4,
+      "UnlockFileId": 3
+    },
+    {
+      "Order": 7,
+      "UnlockFileId": 4
+    },
+    {
+      "Order": 9,
+      "UnlockFileId": 5
+    },
+    {
+      "Order": 10,
+      "UnlockFileId": 6
+    },
+    {
+      "Order": 11,
+      "UnlockFileId": 7
+    },
+    {
+      "Order": 13,
+      "UnlockFileId": 8
+    },
+    {
+      "Order": 15,
+      "UnlockFileId": 9
+    },
+    {
+      "Order": 16,
+      "UnlockFileId": 10
+    },
+    {
+      "Order": 18,
+      "UnlockFileId": 11
+    },
+    {
+      "Order": 20,
+      "UnlockFileId": 12
+    },
+    {
+      "Order": 22,
+      "UnlockFileId": 13
+    },
+    {
+      "Order": 25,
+      "UnlockFileId": 14
+    },
+    {
+      "Order": 26,
+      "UnlockFileId": 15
+    },
+    {
+      "Order": 29,
+      "UnlockFileId": 16
+    },
+    {
+      "Order": 31,
+      "UnlockFileId": 17
+    },
+    {
+      "Order": 32,
+      "UnlockFileId": 18
+    },
+    {
+      "Order": 35,
+      "UnlockFileId": 19
+    },
+    {
+      "Order": 37,
+      "UnlockFileId": 20
+    },
+    {
+      "Order": 41,
+      "UnlockFileId": 21
+    },
+    {
+      "Order": 43,
+      "UnlockFileId": 22
+    }
+  ],
+  "SideClueOrder": [
+    3,
+    6,
+    12,
+    17,
+    1,
+    20,
+    32,
+    10,
+    25,
+    35,
+    28,
+    4,
+    19,
+    31,
+    16,
+    9,
+    24,
+    2,
+    15,
+    30,
+    7,
+    22,
+    36,
+    13,
+    29,
+    5,
+    21,
+    34,
+    11,
+    27,
+    18,
+    33,
+    8,
+    23,
+    14,
+    26
+  ],
+  "FakeMaleBehaviorTree": "Mimicry_Battle_Common_Male",
+  "FakeFemaleBehaviorTree": "Mimicry_Battle_Common_Male",
+  "FakeFileUnlockWayText": "在新启地区拘捕伪人并审讯获得",
+  "FakeFileTipDisplayTime": 3,
+  "FakeFileTipDisplayTitle": "伪人档案-完成审理",
+  "FakeTaskName": "Station Patrol",
+  "FakeTaskInfo": "Area | Citylink Station | Target | Suspect",
+  "FakeTaskFact": "Wait for Smugglers to Exit for Transaction",
+  "FakeTaskImage": 28005418,
+  "FakeTaskType": 1,
+  "FakeTaskRank": 3,
+  "FakeTaskPos": [
+    2902.46997,
+    0.680000007,
+    2321.36011
+  ],
+  "FakeEventName": "Routine Patrol",
+  "EscortMaxUnitDistance": 2,
+  "EscortOutDistanceMaxTime": 2,
+  "TicketCheckHeight": 1.5,
+  "TicketCheckDistance": 1.5,
+  "TicketCheckAngle": 0,
+  "HintHighFineNpcDis": 10,
+  "HintOptionCount": 4,
+  "PounceOnCheckAngle": 45,
+  "PoliceCarHornDialog": 100046236,
+  "PoliceStartWorkSystemUnlock": 30305,
+  "ArrestCarNpcSpeed": 6.5,
+  "DetachBackToReleaseTime": 30,
+  "PoliceInfoValidationMinute": "Suspension: %d minutes remaining",
+  "PoliceInfoValidationSecond": "Suspension: %d seconds remaining",
+  "PoliceHomePageValidation": "%d seconds remaining",
+  "DailyIncidentFinishDrop": 14575011,
+  "DailyIncidentShowTime": 20,
+  "DailyIncidentShowGap": 300,
+  "CaseUpperLimit": 50,
+  "ViolationUpperLimit": 20,
+  "DailyTaskLimit": 10,
+  "CanExamineRaidId": [
+    23301235,
+    23300888,
+    23301256
+  ],
+  "PoliceRPSCardName": [
+    "威慑",
+    "话术",
+    "指证",
+    "Silenced"
+  ],
+  "PoliceRPSCardIcon": [
+    28009389,
+    28009391,
+    28009390,
+    28009392
+  ],
+  "PoliceTrailOpenningDialog": 100062801,
+  "PoliceTrailPlayerDialog": 100062799,
+  "PoliceTrailNpcDialog": 100062800,
+  "PoliceRPSCardDes0": "通过强硬的姿态和言语向对方施压，若成功则对嫌疑人的心理防线造成%d点打击",
+  "PoliceRPSCardDes1": "运用语言技巧循循善诱，若成功则对嫌疑人的心理防线造成%d点打击",
+  "PoliceRPSCardDes2": "出示关键证据或点明陈述矛盾，若成功则对嫌疑人的心理防线造成%d点打击",
+  "PoliceRPSCardDes3": "以静制动，受到的反击伤害减半，对嫌疑人造成等同于减免值的心理打击",
+  "EconomicLevelDes": [
+    "贫穷",
+    "普通",
+    "小康",
+    "富有"
+  ],
+  "PoliceTrailPlayerPos": [
+    2373.47607,
+    0.555999994,
+    1827.09998
+  ],
+  "PoliceTrailPlayerAngle": -128,
+  "PoliceTrailTeleportDistance": 300,
+  "PoliceTrailNPCPos": [
+    2370.07007,
+    0.555999994,
+    1825.43994
+  ],
+  "PoliceTrailNPCAngle": 90,
+  "PoliceTrailCameraPos": [
+    0.147,
+    1.05999994,
+    3.05599999
+  ],
+  "PoliceTrailCameraRot": [
+    0,
+    44.8100014,
+    0
+  ],
+  "PoliceTrailCameraFoV": 30,
+  "PoliceTrailStrategy": [
+    "举证质问",
+    "细节追问",
+    "身份核查",
+    "情感拉拢",
+    "厉害分析",
+    "权威震慑"
+  ],
+  "PoliceTrailChatRoundText": "剩余对话轮次：%d",
+  "PoliceTrailChatRoundNum": 15,
+  "PoliceTrailSuccessNpcDialog": 100078250,
+  "PoliceTrailWorkAction": "说服嫌疑人认罪",
+  "PoliceOfficeHyperLink": 9000,
+  "PoliceTrailCardLevel": [
+    0,
+    30,
+    70,
+    130,
+    200
+  ],
+  "PoliceRockCardExperience": 36949100,
+  "PolicePaperCardExperience": 36949101,
+  "PoliceScissorsCardExperience": 36949102,
+  "TaskTrailHarryAgentid": 42046695,
+  "TaskTrailHarryItem": [
+    "活血止痛膏",
+    "迷你手电",
+    "刑侦学教材"
+  ],
+  "TaskTrailHarryName": [
+    "姓名",
+    "哈利？"
+  ],
+  "TaskTrailHarryAge": [
+    "年龄",
+    "35岁"
+  ],
+  "TaskTrailHarryJob": [
+    "职位",
+    "搜查九科科长、科室排名常年垫底"
+  ],
+  "TaskTrailHarryKPI": [
+    "工作评价",
+    "报告质量低、不擅长战术指挥、抓捕行动偶有失误"
+  ],
+  "TaskTrailHarryMarriage": [
+    "婚姻情况",
+    "离异，与前妻关系未知"
+  ],
+  "TaskTrailHarryWorkAction": "刺激哈利招供或问出其最大弱点",
+  "TaskTrailHarryOpenningDialogAI": 100075546,
+  "TaskTrailHarryOpenningDialogRPS": 100075546,
+  "PoliceTrailSuccessHaliDialog": 100086052,
+  "CaseAgentGuideId": "FirstAgent"
+}

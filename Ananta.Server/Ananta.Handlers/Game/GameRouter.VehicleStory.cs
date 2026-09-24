@@ -8,18 +8,6 @@ using SceneMethods = Ananta.Server.RpcTypes.Client4229938.Methods.GameScene;
 
 namespace Ananta.Server.Handlers.Game;
 
-/// <summary>
-/// S011 vehicle boarding story channel (build 4229938). Ported from the proven
-/// Server_V2 flow: the client only offers the F-enter prompt and drives the
-/// enter/exit animation phases once the S011 root node exists; without the root
-/// bootstrap, pressing F near a spawned vehicle sends nothing.
-/// Flow: root bootstrap (once per session) → client S011PlayerNetEnterVehicleRequest →
-/// enter child + controller + status 2 → phase 2 (status 3) → phase 3 (status 4,
-/// seated) → exit request → exit child + status 5 → phase 1 (status 0, done).
-/// Vehicle records live in the shared static SummonedVehicles registry (extended
-/// with seat state); the boarding transaction itself is per-session.
-/// Lock order everywhere: story state, then SummonedVehiclesSync.
-/// </summary>
 internal sealed partial class GameRouter
 {
     private const string VehicleStoryKey = "client4229938-vehicle-story";
@@ -100,14 +88,14 @@ internal sealed partial class GameRouter
         }
     }
 
-    /// <summary>
-    /// Fresh scene load (login / airport travel): the client builds a new story
-    /// instance and drops all server-made nodes, so the S011 root must be sent
-    /// again by the post-load finalization. Called from OnLoadingFinished for each
-    /// accepted generation, next to the garage/aether one-shot resets. The early
-    /// root pushed on the pre-load story hello (if any) is harmless — the client
-    /// discards it with the old story instance.
-    /// </summary>
+    
+    
+    
+    
+    
+    
+    
+    
     internal static void ResetVehicleStory(TcpSession session)
     {
         var story = GetVehicleStoryState(session);
@@ -140,7 +128,7 @@ internal sealed partial class GameRouter
             conn.Log.Warn($"[VEHICLE-STORY] partial parse commands={commands.Count} bytes={msg.Body.Length} hex={BitConverter.ToString(msg.Body)}");
         foreach (var summary in commands)
         {
-            // Non-heartbeat story traffic is rare; log it so new flows are visible.
+            
             if (summary.Name != "Rpc3" || summary.RpcId < 0)
                 conn.Log.Info($"[VEHICLE-STORY] cmd mark={summary.TypeMark} nid={summary.Nid} name={summary.Name} rpc={summary.RpcId} payload={summary.PayloadKind} vehicle={summary.PayloadVehicleId} seats=[{(summary.PayloadSeatIndices is null ? "" : string.Join(",", summary.PayloadSeatIndices))}] bool={summary.PayloadBool} int={summary.PayloadInt}");
         }
@@ -204,10 +192,10 @@ internal sealed partial class GameRouter
             unitId = story.BoardingUnitId != 0 ? story.BoardingUnitId : Profile.InitialUnitId;
             lock (SummonedVehiclesSync)
             {
-                // GM-console cars are spawned client-locally with client-side ids the
-                // server has never seen: adopt them on first enter attempt instead of
-                // leaving the client stuck with a hidden prompt. Seat layout is grown
-                // from the requested index; real counts arrive via SyncSpawnVehicle.
+                
+                
+                
+                
                 if (vehicleId != 0 && !SummonedVehicles.ContainsKey(vehicleId))
                 {
                     SummonedVehicles[vehicleId] = new SummonedVehicle
@@ -457,12 +445,12 @@ internal sealed partial class GameRouter
             ExtInfo = null,
         });
 
-    /// <summary>
-    /// Server-forced enter (debug panel path): seats the player without any client
-    /// F-press. Mirrors the enter-complete leg — move-to-seat, controller, boarding
-    /// status seated, start/state-change/finish drive-state notifies — plus an S011
-    /// enter child so the story side agrees, deleted right after like a phase-3 commit.
-    /// </summary>
+    
+    
+    
+    
+    
+    
     internal static async Task<(bool Ok, string Message)> ForceEnterVehicleAsync(TcpSession session, ulong entityId = 0)
     {
         var story = GetVehicleStoryState(session);
@@ -518,7 +506,7 @@ internal sealed partial class GameRouter
         }
     }
 
-    /// <summary>Server-forced exit (debug panel path).</summary>
+    
     internal static async Task<(bool Ok, string Message)> ForceExitVehicleAsync(TcpSession session)
     {
         var story = GetVehicleStoryState(session);

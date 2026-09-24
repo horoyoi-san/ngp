@@ -1,0 +1,35 @@
+{
+  "DefaultCfg": {
+    "Id": 1001,
+    "RadioName": "2049测试",
+    "IsShowRadio": true,
+    "SoundId": 70390000,
+    "RadioCover": 25901028,
+    "RadioUnlockDes": "",
+    "TimeParameter": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "EffectiveSoundPeriod": [
+      {
+        "starttime": 2,
+        "endtime": 136
+      },
+      {
+        "starttime": 176,
+        "endtime": 256
+      },
+      {
+        "starttime": 290,
+        "endtime": 300
+      }
+    ]
+  },
+  "RadioDialogCoolTime": 0.00999999978,
+  "RadioTimeDialogCoolTime": 2,
+  "EnterBattleSound": 2019,
+  "LeaveBattleSound": 2020,
+  "PeriodSoundParamKey": "dayOrNight"
+}

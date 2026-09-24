@@ -1,9 +1,9 @@
-$ErrorActionPreference = 'Stop'
+﻿$ErrorActionPreference = 'Stop'
 $Root = Split-Path -Parent $MyInvocation.MyCommand.Path
 $ConfigPath = Join-Path $Root 'config\private-server.json'
-$ProxyRoot = Join-Path $Root 'Ananta.Proxy'
+$ProxyRoot = Join-Path $Root 'Drmk.Proxy'
 $ProxyDir = Join-Path $ProxyRoot 'proxy'
-$ServerProject = Join-Path $Root 'Ananta.Server\Ananta.App\Ananta.App.csproj'
+$ServerProject = Join-Path $Root 'Drmk.Server\Drmk.App\Drmk.App.csproj'
 $HostsPath = Join-Path $env:WINDIR 'System32\drivers\etc\hosts'
 
 $script:ConsoleLogLatest = $null
@@ -27,7 +27,42 @@ function Fail([string]$Text) {
     exit 1
 }
 
-function Test-AnantaAdministrator {
+function ConvertFrom-JsonWithComments([string]$Text, [string]$SourceName) {
+    $sb = New-Object System.Text.StringBuilder
+    $inString = $false
+    $escaped = $false
+    $stripped = 0
+    for ($i = 0; $i -lt $Text.Length; $i++) {
+        $c = $Text[$i]
+        if ($inString) {
+            [void]$sb.Append($c)
+            if ($escaped) { $escaped = $false }
+            elseif ($c -eq '\') { $escaped = $true }
+            elseif ($c -eq '"') { $inString = $false }
+            continue
+        }
+        if ($c -eq '"') { $inString = $true; [void]$sb.Append($c); continue }
+        if ($c -eq '/' -and ($i + 1) -lt $Text.Length -and $Text[$i + 1] -eq '/') {
+            while ($i -lt $Text.Length -and $Text[$i] -ne "`n" -and $Text[$i] -ne "`r") { $i++ }
+            $stripped++
+            continue
+        }
+        if ($c -eq '/' -and ($i + 1) -lt $Text.Length -and $Text[$i + 1] -eq '*') {
+            $i += 2
+            while (($i + 1) -lt $Text.Length -and -not ($Text[$i] -eq '*' -and $Text[$i + 1] -eq '/')) { $i++ }
+            $i++
+            $stripped++
+            continue
+        }
+        [void]$sb.Append($c)
+    }
+    if ($stripped -gt 0) {
+        Status "[WARN] $SourceName 里有 $stripped 处 JSON 注释（C# 侧允许，PowerShell/Node 不允许）——已自动剥除。建议改到 docs 里。" Yellow
+    }
+    return ($sb.ToString() | ConvertFrom-Json)
+}
+
+function Test-DrmkAdministrator {
     $id = [System.Security.Principal.WindowsIdentity]::GetCurrent()
     $principal = New-Object System.Security.Principal.WindowsPrincipal($id)
     return $principal.IsInRole([System.Security.Principal.WindowsBuiltInRole]::Administrator)
@@ -81,8 +116,8 @@ function Invoke-SilentNative {
     return $process.ExitCode
 }
 
-function Stop-StaleAnantaProcesses {
-    foreach ($proc in @(Get-Process -Name 'Ananta.App' -ErrorAction SilentlyContinue)) {
+function Stop-StaleDrmkProcesses {
+    foreach ($proc in @(Get-Process -Name 'Drmk.App' -ErrorAction SilentlyContinue)) {
         try { Stop-Process -Id $proc.Id -Force -ErrorAction SilentlyContinue } catch { }
     }
     try {
@@ -97,8 +132,7 @@ function Stop-StaleAnantaProcesses {
     Start-Sleep -Milliseconds 200
 }
 
-# START.cmd remains the only launcher. Elevate once for certificate/hosts setup and ports 80/443.
-if (-not (Test-AnantaAdministrator)) {
+if (-not (Test-DrmkAdministrator)) {
     $psExe = Join-Path $PSHOME 'powershell.exe'
     if (-not (Test-Path -LiteralPath $psExe)) { $psExe = 'powershell.exe' }
     try {
@@ -117,8 +151,8 @@ foreach ($required in @(
     (Join-Path $ProxyDir 'package.json'),
     (Join-Path $ProxyDir 'tools\generate_client_config_patch.js'),
     $ExampleConfigPath,
-    (Join-Path $Root 'Ananta.Server\ClientData\4229938\MethodIds.json'),
-    (Join-Path $Root 'Ananta.Server\ClientData\4229938\RpcSurface.json')
+    (Join-Path $Root 'Drmk.Server\ClientData\4229938\MethodIds.json'),
+    (Join-Path $Root 'Drmk.Server\ClientData\4229938\RpcSurface.json')
 )) {
     if (-not (Test-Path -LiteralPath $required)) { Fail "server package is incomplete: $required" }
 }
@@ -126,8 +160,16 @@ foreach ($required in @(
 if (-not (Test-Path -LiteralPath $ConfigPath)) {
     Copy-Item -LiteralPath $ExampleConfigPath -Destination $ConfigPath
 }
-try { $Config = Get-Content -Raw -Encoding UTF8 -LiteralPath $ConfigPath | ConvertFrom-Json }
-catch { Fail "invalid config/private-server.json: $($_.Exception.Message)" }
+try { $Config = ConvertFrom-JsonWithComments (Get-Content -Raw -Encoding UTF8 -LiteralPath $ConfigPath) 'config/private-server.json' }
+catch {
+    
+    
+    $hint = 'invalid config/private-server.json: ' + $_.Exception.Message
+    $hint += '  —— 这份文件同时被 C# 服务端 / Node 代理 / 本脚本解析。'
+    $hint += '  // 注释这里会自动剥除，但缺逗号、多逗号、/* 没闭合仍然会失败。'
+    $hint += '  校验命令: python -c "import json,io;json.load(io.open(''config/private-server.json'',encoding=''utf-8-sig''))"'
+    Fail $hint
+}
 
 $RunId = Get-Date -Format 'yyyyMMdd-HHmmss'
 $LogDir = [string]$Config.logging.directory
@@ -146,11 +188,11 @@ if ($ConsoleLoggingEnabled) {
     foreach ($file in @($script:ConsoleLogLatest, $script:ConsoleLogArchive)) {
         [System.IO.File]::WriteAllText($file, '', [System.Text.UTF8Encoding]::new($false))
     }
-    $env:Ananta_CONSOLE_LOG_LATEST = $script:ConsoleLogLatest
-    $env:Ananta_CONSOLE_LOG_ARCHIVE = $script:ConsoleLogArchive
+    $env:DRMK_CONSOLE_LOG_LATEST = $script:ConsoleLogLatest
+    $env:DRMK_CONSOLE_LOG_ARCHIVE = $script:ConsoleLogArchive
 } else {
-    Remove-Item Env:Ananta_CONSOLE_LOG_LATEST -ErrorAction SilentlyContinue
-    Remove-Item Env:Ananta_CONSOLE_LOG_ARCHIVE -ErrorAction SilentlyContinue
+    Remove-Item Env:DRMK_CONSOLE_LOG_LATEST -ErrorAction SilentlyContinue
+    Remove-Item Env:DRMK_CONSOLE_LOG_ARCHIVE -ErrorAction SilentlyContinue
 }
 
 $PacketLogLatest = $null
@@ -161,44 +203,42 @@ if ($PacketLoggingEnabled) {
     foreach ($file in @($PacketLogLatest, $PacketLogArchive)) {
         [System.IO.File]::WriteAllText($file, '', [System.Text.UTF8Encoding]::new($false))
     }
-    $env:Ananta_PACKET_LOG_LATEST = $PacketLogLatest
-    $env:Ananta_PACKET_LOG_ARCHIVE = $PacketLogArchive
+    $env:DRMK_PACKET_LOG_LATEST = $PacketLogLatest
+    $env:DRMK_PACKET_LOG_ARCHIVE = $PacketLogArchive
 } else {
-    Remove-Item Env:Ananta_PACKET_LOG_LATEST -ErrorAction SilentlyContinue
-    Remove-Item Env:Ananta_PACKET_LOG_ARCHIVE -ErrorAction SilentlyContinue
+    Remove-Item Env:DRMK_PACKET_LOG_LATEST -ErrorAction SilentlyContinue
+    Remove-Item Env:DRMK_PACKET_LOG_ARCHIVE -ErrorAction SilentlyContinue
 }
-$env:Ananta_RUN_ID = $RunId
-$env:Ananta_LOG_DIR = $LogDir
-$env:Ananta_LOGS_PREPARED = '1'
+$env:DRMK_RUN_ID = $RunId
+$env:DRMK_LOG_DIR = $LogDir
+$env:DRMK_LOGS_PREPARED = '1'
 
-# Preserve the useful bootstrap diagnostics in the normal log files without printing them.
 $consoleDisplay = if ($ConsoleLoggingEnabled) { $script:ConsoleLogLatest } else { 'disabled' }
 $packetDisplay = if ($PacketLoggingEnabled) { $PacketLogLatest } else { 'disabled' }
 Append-RunLog '[START] launching standalone bootstrap...'
 Append-RunLog ("[LOGS] console={0} | packets={1}" -f $consoleDisplay, $packetDisplay)
-Append-RunLog ("[BUILD] Ananta Private Server | client {0} | world-entry + switching + buffs/combat" -f $Config.client.version)
+Append-RunLog ("[BUILD] DRMK Private Server | client {0} | world-entry + switching + buffs/combat" -f $Config.client.version)
 Append-RunLog "[CONFIG] $ConfigPath"
 Append-RunLog "[CONFIG] pid=$($Config.player.pid) spirit=$($Config.player.initialSpiritTemplateId) raid=$($Config.world.raidId)"
 
-$env:Ananta_CONFIG = $ConfigPath
-$env:Ananta_ROOT = $Root
-$env:Ananta_COMPACT_LOG = '1'
-$env:Ananta_HIDE_BOOT_LOG = '1'
-Remove-Item Env:Ananta_QUIET_CONSOLE -ErrorAction SilentlyContinue
+$env:DRMK_CONFIG = $ConfigPath
+$env:DRMK_ROOT = $Root
+$env:DRMK_COMPACT_LOG = '1'
+$env:DRMK_HIDE_BOOT_LOG = '1'
+Remove-Item Env:DRMK_QUIET_CONSOLE -ErrorAction SilentlyContinue
 $env:DOTNET_CLI_UI_LANGUAGE = 'en-US'
 $env:DOTNET_NOLOGO = '1'
 $env:DOTNET_CLI_TELEMETRY_OPTOUT = '1'
 $env:DOTNET_SKIP_FIRST_TIME_EXPERIENCE = '1'
 
-
-$NodeExe = Find-Exe 'Ananta_NODE_EXE' 'node' @('C:\Program Files\nodejs\node.exe')
+$NodeExe = Find-Exe 'DRMK_NODE_EXE' 'node' @('C:\Program Files\nodejs\node.exe')
 if (-not $NodeExe) { Fail 'Node.js was not found. Install Node.js LTS.' }
-$DotnetExe = Find-Exe 'Ananta_DOTNET_EXE' 'dotnet'
+$DotnetExe = Find-Exe 'DRMK_DOTNET_EXE' 'dotnet'
 if (-not $DotnetExe) { Fail '.NET 8 SDK was not found.' }
 
 $FengariPackage = Join-Path $ProxyDir 'node_modules\fengari\package.json'
 if (-not (Test-Path -LiteralPath $FengariPackage)) {
-    $NpmExe = Find-Exe 'Ananta_NPM_EXE' 'npm.cmd' @((Join-Path (Split-Path -Parent $NodeExe) 'npm.cmd'))
+    $NpmExe = Find-Exe 'DRMK_NPM_EXE' 'npm.cmd' @((Join-Path (Split-Path -Parent $NodeExe) 'npm.cmd'))
     if (-not $NpmExe) { Fail 'Node dependencies are missing and npm.cmd was not found.' }
     if ((Invoke-SilentNative $NpmExe @('ci', '--ignore-scripts', '--no-audit', '--no-fund') $ProxyDir) -ne 0) {
         Fail 'npm dependency restore failed'
@@ -207,16 +247,12 @@ if (-not (Test-Path -LiteralPath $FengariPackage)) {
 if (-not (Test-Path -LiteralPath $FengariPackage)) { Fail 'fengari dependency is missing.' }
 Append-RunLog '[NODE] exact Lua serializer dependency OK (fengari)'
 
-Stop-StaleAnantaProcesses
+Stop-StaleDrmkProcesses
 
 $DnsName = [string]$Config.network.proxy.updateHost
 $PfxPath = Join-Path $ProxyDir ("certs\{0}.pfx" -f $DnsName)
 $PfxPassphrase = [string]$Config.network.proxy.certificatePassphrase
 
-# The login screen depends on more than the update CDN. In particular,
-# mgbsdk.matrix.netease.com must resolve to the local HTTPS proxy; otherwise
-# UniSDK's /sdk/uni_sauth request reaches the real service and the client stops
-# at the menu with login code 220. Validate the whole runtime redirect set.
 $RequiredProxyDomains = @(
     $DnsName,
     'serverlist-test.l50.leihuo.netease.com',
@@ -273,12 +309,12 @@ $certOk = $false
 if (Test-Path -LiteralPath $PfxPath) {
     try {
         $pfx = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2($PfxPath, $PfxPassphrase)
-        # Require the new normal root->leaf chain. Old packages used a self-signed
-        # CA=TRUE server certificate, which a later client TLS stack can reject.
+        
+        
         $certOk = (
             $pfx.NotAfter -gt (Get-Date).AddHours(1) -and
             $pfx.Subject -eq ("CN={0}" -f $DnsName) -and
-            $pfx.Issuer -eq 'CN=Ananta Local Proxy Root'
+            $pfx.Issuer -eq 'CN=DRMK Local Proxy Root'
         )
         $pfx.Dispose()
     } catch { $certOk = $false }
@@ -292,7 +328,6 @@ if (-not $certOk -or -not $hostsOk) {
     }
 }
 
-# Fail early instead of opening a client that can only reach the menu.
 $hostLines = @(Get-Content -LiteralPath $HostsPath -ErrorAction SilentlyContinue)
 foreach ($domain in @('serverlist-test.l50.leihuo.netease.com','l50.gdl.netease.com','service.mkey.163.com','mgbsdk.matrix.netease.com')) {
     $pattern = '^\s*127\.0\.0\.1\s+' + [regex]::Escape($domain) + '(?:\s|$)'
@@ -301,7 +336,6 @@ foreach ($domain in @('serverlist-test.l50.leihuo.netease.com','l50.gdl.netease.
     }
 }
 
-# Generate the only client Lua override: UID/watermark branding.
 Append-RunLog '[1/3] fastpatch + startup checks'
 if ((Invoke-SilentNative $NodeExe @('.\tools\generate_client_config_patch.js') $ProxyDir) -ne 0) {
     Fail 'fastpatch generation failed'
@@ -319,16 +353,84 @@ try {
     Move-Item -LiteralPath $temp -Destination $FastPatchPath
 } catch { Fail "cannot build fastpatch: $($_.Exception.Message)" }
 
-# Clean rebuild; output goes to logs instead of filling the console.
 Append-RunLog '[2/3] build (clean)'
-$cleanDirs = @(Get-ChildItem -LiteralPath (Join-Path $Root 'Ananta.Server') -Directory -Recurse -ErrorAction SilentlyContinue |
+$cleanDirs = @(Get-ChildItem -LiteralPath (Join-Path $Root 'Drmk.Server') -Directory -Recurse -ErrorAction SilentlyContinue |
     Where-Object { $_.Name -in @('bin','obj') } | Select-Object -ExpandProperty FullName)
-$cleanDirs += @((Join-Path $Root 'Ananta.SDK\bin'), (Join-Path $Root 'Ananta.SDK\obj'))
+$cleanDirs += @((Join-Path $Root 'Drmk.SDK\bin'), (Join-Path $Root 'Drmk.SDK\obj'))
 foreach ($dir in $cleanDirs | Select-Object -Unique) {
     if (Test-Path -LiteralPath $dir) { Remove-Item -LiteralPath $dir -Recurse -Force }
 }
 if ((Invoke-SilentNative $DotnetExe @('build', $ServerProject, '--nologo', '-v:q') $Root) -ne 0) {
     Fail 'server build failed'
+}
+
+Append-RunLog '[2.5/3] audit polymorphic typemarks'
+$auditScript = Join-Path $Root 'tools\audit_polymorphic.py'
+if ($env:DRMK_SKIP_AUDIT -eq '1') {
+    
+    Append-RunLog '  [WARN] DRMK_SKIP_AUDIT=1，跳过审计'
+} elseif (-not (Test-Path -LiteralPath $auditScript)) {
+    Append-RunLog '  [WARN] tools/audit_polymorphic.py 不存在，跳过审计'
+} else {
+    $py = Find-Exe 'DRMK_PYTHON_EXE' 'python'
+    if (-not $py) { $py = Find-Exe 'DRMK_PYTHON_EXE' 'py' }
+    if (-not $py) { $py = Find-Exe 'DRMK_PYTHON_EXE' 'python3' }
+    if (-not $py) {
+        
+        $fallback = Join-Path $env:USERPROFILE '.workbuddy-ai\binaries\python\versions\3.13.12\python.exe'
+        if (Test-Path -LiteralPath $fallback) { $py = $fallback }
+    }
+    if (-not $py) {
+        Append-RunLog '  [WARN] 找不到 python，跳过审计'
+    } else {
+        $auditLog = Join-Path $LogDir ("polymorphic-audit-{0}.log" -f $RunId)
+        $auditRc = $null
+        $auditLines = @()
+        $prevEap = $ErrorActionPreference
+        $prevEnc = $env:PYTHONIOENCODING
+        try {
+            $ErrorActionPreference = 'Continue'          
+            $env:PYTHONIOENCODING = 'utf-8'              
+            $auditRaw = & $py $auditScript --strict 2>&1
+            $auditRc = $LASTEXITCODE
+            $auditLines = @($auditRaw | ForEach-Object { $_.ToString() })
+        } catch {
+            Append-RunLog ("  [WARN] 审计脚本无法运行: " + $_.Exception.Message)
+        } finally {
+            $ErrorActionPreference = $prevEap
+            $env:PYTHONIOENCODING = $prevEnc
+        }
+
+        if ($auditLines.Count -gt 0) {
+            $auditLines | Set-Content -LiteralPath $auditLog -Encoding UTF8
+        }
+
+        
+        
+        
+        $auditCrashed = ($auditLines | Where-Object {
+            $_ -match 'Traceback \(most recent call last\)' -or $_ -match 'SyntaxError' -or $_ -match '^\s*File "'
+        }).Count -gt 0
+
+        if ($auditRc -eq 1 -and -not $auditCrashed) {
+            foreach ($line in $auditLines) { Append-RunLog ("  " + $line) }
+            Fail "polymorphic TypeMark audit found problems (see $auditLog) —— 契约里的多态标记会让客户端反序列化失败（卡加载/黑屏/退回登录）。确实要跳过就设 DRMK_SKIP_AUDIT=1"
+        } elseif ($auditRc -eq 1) {
+            Append-RunLog ("  [WARN] 审计脚本自己崩了（输出里有 Traceback），跳过。输出见 " + $auditLog)
+            foreach ($line in ($auditLines | Select-Object -First 6)) {
+                Append-RunLog ("    | " + $line)
+            }
+        } elseif ($auditRc -eq 0) {
+            Append-RunLog ("  OK (log: " + $auditLog + ")")
+        } elseif ($null -eq $auditRc) {
+            Append-RunLog '  [WARN] 审计进程没有启动（输出为空），跳过'
+        } else {
+            Append-RunLog ("  [WARN] 审计脚本自身出错 (exit=" + $auditRc + ")，跳过。输出见 " + $auditLog)
+            foreach ($line in ($auditLines | Select-Object -First 5)) {
+                Append-RunLog ("    | " + $line)
+            }
+        }
+    }
 }
 
 $wantedPorts = @(
@@ -350,14 +452,11 @@ try {
     }
 } catch { }
 
-
 Append-RunLog '[3/3] start'
 Append-RunLog '[OK] one console | Ctrl+C stops the stack'
 
-# All bootstrap diagnostics were already written to the normal console log files.
-# Keep the interactive window clean and let only runtime traffic appear from this point on.
 try { Clear-Host } catch { }
-try { $Host.UI.RawUI.WindowTitle = 'Ananta 4229938 Private Server' } catch { }
+try { $Host.UI.RawUI.WindowTitle = 'DRMK 4229938 Private Server' } catch { }
 
 $proxy = $null
 $serverExit = 0
@@ -372,7 +471,7 @@ try {
     if ($proxy -and -not $proxy.HasExited) {
         try { Stop-Process -Id $proxy.Id -Force -ErrorAction SilentlyContinue } catch { }
     }
-    Stop-StaleAnantaProcesses
-    Append-RunLog '[STOP] Ananta stack stopped'
+    Stop-StaleDrmkProcesses
+    Append-RunLog '[STOP] drmk stack stopped'
 }
 if ($serverExit -ne 0) { exit $serverExit }

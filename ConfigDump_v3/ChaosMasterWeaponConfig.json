@@ -1,0 +1,650 @@
+{
+  "_class": "ChaosMasterWeaponConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 16,
+  "records": [
+    {
+      "Id": 1,
+      "WeaponName": "治疗枪",
+      "Quality": 3,
+      "Cost": 3,
+      "BodyCode": "A",
+      "BuffStatFactorId": [
+        2,
+        72,
+        7
+      ],
+      "BuffStatValue": [
+        60,
+        1,
+        10
+      ],
+      "BuffStatFactor": [],
+      "IconID": 28002064,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "WeaponName": "车轮滚滚",
+      "Quality": 4,
+      "Cost": 4,
+      "BodyCode": "B",
+      "BuffStatFactorId": [
+        2,
+        72,
+        7
+      ],
+      "BuffStatValue": [
+        150,
+        1.20000005,
+        10
+      ],
+      "BuffStatFactor": [],
+      "IconID": 28002064,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "WeaponName": "电击棍",
+      "Quality": 3,
+      "Cost": 3,
+      "BodyCode": "C",
+      "BuffStatFactorId": [
+        2,
+        72,
+        7
+      ],
+      "BuffStatValue": [
+        100,
+        1,
+        20
+      ],
+      "BuffStatFactor": [],
+      "IconID": 28002064,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 4,
+      "WeaponName": "鼓棒",
+      "Quality": 3,
+      "Cost": 3,
+      "BodyCode": "D",
+      "BuffStatFactorId": [
+        2,
+        72,
+        7
+      ],
+      "BuffStatValue": [
+        70,
+        1.10000002,
+        10
+      ],
+      "BuffStatFactor": [],
+      "IconID": 28002064,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 5,
+      "WeaponName": "手雷",
+      "Quality": 3,
+      "Cost": 3,
+      "BodyCode": "E",
+      "BuffStatFactorId": [
+        2,
+        72,
+        7
+      ],
+      "BuffStatValue": [
+        120,
+        1,
+        10
+      ],
+      "BuffStatFactor": [],
+      "IconID": 28002064,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 6,
+      "WeaponName": "火箭筒",
+      "Quality": 4,
+      "Cost": 4,
+      "BodyCode": "F",
+      "BuffStatFactorId": [
+        2,
+        72,
+        7
+      ],
+      "BuffStatValue": [
+        100,
+        0.800000012,
+        10
+      ],
+      "BuffStatFactor": [],
+      "IconID": 28002064,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 7,
+      "WeaponName": "吉他",
+      "Quality": 3,
+      "Cost": 3,
+      "BodyCode": "G",
+      "BuffStatFactorId": [
+        2,
+        72,
+        7
+      ],
+      "BuffStatValue": [
+        100,
+        1,
+        20
+      ],
+      "BuffStatFactor": [],
+      "IconID": 28002064,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 8,
+      "WeaponName": "匕首",
+      "Quality": 3,
+      "Cost": 3,
+      "BodyCode": "H",
+      "BuffStatFactorId": [
+        2,
+        72,
+        7
+      ],
+      "BuffStatValue": [
+        120,
+        1.20000005,
+        10
+      ],
+      "BuffStatFactor": [],
+      "IconID": 28002064,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 9,
+      "WeaponName": "人偶身躯",
+      "Quality": 4,
+      "Cost": 4,
+      "BodyCode": "I",
+      "BuffStatFactorId": [
+        2,
+        72,
+        7
+      ],
+      "BuffStatValue": [
+        50,
+        1,
+        40
+      ],
+      "BuffStatFactor": [],
+      "IconID": 28002064,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 10,
+      "WeaponName": "盾牌",
+      "Quality": 4,
+      "Cost": 4,
+      "BodyCode": "J",
+      "BuffStatFactorId": [
+        2,
+        72,
+        7
+      ],
+      "BuffStatValue": [
+        60,
+        0.800000012,
+        20
+      ],
+      "BuffStatFactor": [],
+      "IconID": 28002064,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 11,
+      "WeaponName": "自爆油桶",
+      "Quality": 3,
+      "Cost": 1,
+      "BodyCode": "J",
+      "BuffStatFactorId": [
+        2,
+        72,
+        7
+      ],
+      "BuffStatValue": [
+        60,
+        0.800000012,
+        20
+      ],
+      "BuffStatFactor": [],
+      "IconID": 28002064,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 12,
+      "WeaponName": "冷笑话音响",
+      "Quality": 3,
+      "Cost": 2,
+      "BodyCode": "J",
+      "BuffStatFactorId": [
+        2,
+        72,
+        7
+      ],
+      "BuffStatValue": [
+        60,
+        0.800000012,
+        20
+      ],
+      "BuffStatFactor": [],
+      "IconID": 28002064,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 13,
+      "WeaponName": "治疗盒",
+      "Quality": 3,
+      "Cost": 1,
+      "BodyCode": "J",
+      "BuffStatFactorId": [
+        2,
+        72,
+        7
+      ],
+      "BuffStatValue": [
+        60,
+        0.800000012,
+        20
+      ],
+      "BuffStatFactor": [],
+      "IconID": 28002064,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 14,
+      "WeaponName": "风沙桶",
+      "Quality": 3,
+      "Cost": 2,
+      "BodyCode": "J",
+      "BuffStatFactorId": [
+        2,
+        72,
+        7
+      ],
+      "BuffStatValue": [
+        60,
+        0.800000012,
+        20
+      ],
+      "BuffStatFactor": [],
+      "IconID": 28002064,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 15,
+      "WeaponName": "垃圾桶射手",
+      "Quality": 4,
+      "Cost": 4,
+      "BodyCode": "J",
+      "BuffStatFactorId": [
+        2,
+        72,
+        7
+      ],
+      "BuffStatValue": [
+        60,
+        0.800000012,
+        20
+      ],
+      "BuffStatFactor": [],
+      "IconID": 28002064,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    },
+    {
+      "Id": 16,
+      "WeaponName": "龙之吐息",
+      "Quality": 4,
+      "Cost": 5,
+      "BodyCode": "J",
+      "BuffStatFactorId": [
+        2,
+        72,
+        7
+      ],
+      "BuffStatValue": [
+        60,
+        0.800000012,
+        20
+      ],
+      "BuffStatFactor": [],
+      "IconID": 28002064,
+      "CanUsedByDefault": false,
+      "Decomposition": [
+        {
+          "Id": 36500707,
+          "Num": 1
+        },
+        {
+          "Id": 36500708,
+          "Num": 1
+        }
+      ],
+      "SwitchMaterials": [
+        {
+          "Id": 36500707,
+          "Num": 3
+        },
+        {
+          "Id": 36500708,
+          "Num": 3
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 16,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

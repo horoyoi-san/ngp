@@ -1,0 +1,109 @@
+{
+  "_class": "HurtEffectFirearmHitReactionConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 7,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "[热武器]击飞",
+      "TriggerToughness": 1.20000005,
+      "TriggerCooldown": 1,
+      "ShareCooldownCondition": [
+        2
+      ],
+      "ExcludeCurrentReactions": [],
+      "DeathCheck": false,
+      "ToughnessCheck": true,
+      "OverflowCheck": true
+    },
+    {
+      "Id": 2,
+      "Name": "[热武器]击倒",
+      "TriggerToughness": 0.800000012,
+      "TriggerCooldown": 1,
+      "ShareCooldownCondition": [
+        1
+      ],
+      "ExcludeCurrentReactions": [],
+      "DeathCheck": false,
+      "ToughnessCheck": true,
+      "OverflowCheck": true
+    },
+    {
+      "Id": 3,
+      "Name": "[热武器]上肢残疾",
+      "TriggerToughness": 0.300000012,
+      "TriggerCooldown": 2,
+      "ShareCooldownCondition": [
+        4,
+        5
+      ],
+      "ExcludeCurrentReactions": [
+        1,
+        2
+      ],
+      "DeathCheck": false,
+      "ToughnessCheck": true,
+      "OverflowCheck": true
+    },
+    {
+      "Id": 4,
+      "Name": "[热武器]下肢绊倒",
+      "TriggerToughness": 0.453200012,
+      "TriggerCooldown": 2,
+      "ShareCooldownCondition": [
+        3,
+        5
+      ],
+      "ExcludeCurrentReactions": [
+        1,
+        2
+      ],
+      "DeathCheck": false,
+      "ToughnessCheck": true,
+      "OverflowCheck": true
+    },
+    {
+      "Id": 5,
+      "Name": "[热武器]全身硬直",
+      "TriggerToughness": 0.00999999978,
+      "TriggerCooldown": 2,
+      "ShareCooldownCondition": [
+        3,
+        4
+      ],
+      "ExcludeCurrentReactions": [
+        1,
+        2
+      ],
+      "DeathCheck": false,
+      "ToughnessCheck": true,
+      "OverflowCheck": true
+    },
+    {
+      "Id": 6,
+      "Name": "[热武器]过杀(鞭尸)",
+      "TriggerToughness": 0,
+      "TriggerCooldown": 0.25,
+      "ShareCooldownCondition": [],
+      "ExcludeCurrentReactions": [],
+      "DeathCheck": true,
+      "ToughnessCheck": false,
+      "OverflowCheck": false
+    },
+    {
+      "Id": 7,
+      "Name": "[热武器]叠加受击",
+      "TriggerToughness": 0,
+      "TriggerCooldown": 0.349999994,
+      "ShareCooldownCondition": [],
+      "ExcludeCurrentReactions": [],
+      "DeathCheck": false,
+      "ToughnessCheck": false,
+      "OverflowCheck": false
+    }
+  ],
+  "_dumpedCount": 7,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

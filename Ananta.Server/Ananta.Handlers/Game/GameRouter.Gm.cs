@@ -4,13 +4,6 @@ using SceneMethods = Ananta.Server.RpcTypes.Client4229938.Methods.GameScene;
 
 namespace Ananta.Server.Handlers.Game;
 
-/// <summary>
-/// Private-server GM surface (build 4229938): the in-game GM console (ALT+F1) sends these
-/// C2S invokes. Strategy is return-real-ids-first: the client spawns GM entities locally
-/// (GM invoke call sites ignore the return), the server records the ids so the debug
-/// panel can manage them. If a command proves to wait for a server broadcast, the push
-/// (SyncLogicVehicleEnter etc.) gets added for that command.
-/// </summary>
 internal sealed partial class GameRouter
 {
     private static long _gmEntitySeq = 320000000000L;

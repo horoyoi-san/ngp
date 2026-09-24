@@ -1,0 +1,597 @@
+{
+  "_class": "RadioConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 55,
+  "records": [
+    {
+      "Id": 1001,
+      "RadioName": "2049测试",
+      "IsShowRadio": true,
+      "SoundId": 70390000,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "",
+      "TimeParameter": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "EffectiveSoundPeriod": [
+        {
+          "starttime": 2,
+          "endtime": 136
+        },
+        {
+          "starttime": 176,
+          "endtime": 256
+        },
+        {
+          "starttime": 290,
+          "endtime": 300
+        }
+      ]
+    },
+    {
+      "Id": 1002,
+      "RadioName": "代理小队测试",
+      "IsShowRadio": true,
+      "SoundId": 70390001,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "",
+      "TimeParameter": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "EffectiveSoundPeriod": [
+        {
+          "starttime": 0,
+          "endtime": 90
+        },
+        {
+          "starttime": 140,
+          "endtime": 180
+        }
+      ]
+    },
+    {
+      "Id": 1003,
+      "RadioName": "罐头V1白天-1-funky",
+      "IsShowRadio": false,
+      "SoundId": 70390010,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "罐头V1",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1004,
+      "RadioName": "罐头V1黑夜-1-fusion",
+      "IsShowRadio": false,
+      "SoundId": 70390011,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "罐头V1",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1005,
+      "RadioName": "风土人情",
+      "IsShowRadio": false,
+      "SoundId": 70300863,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1006,
+      "RadioName": "每日电台",
+      "IsShowRadio": false,
+      "SoundId": 70300863,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1007,
+      "RadioName": "直播电台",
+      "IsShowRadio": false,
+      "SoundId": 70300863,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1008,
+      "RadioName": "战斗V1-0",
+      "IsShowRadio": false,
+      "SoundId": 70390012,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1009,
+      "RadioName": "战斗V1-1",
+      "IsShowRadio": false,
+      "SoundId": 70390013,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1010,
+      "RadioName": "战斗V1-2-trap",
+      "IsShowRadio": false,
+      "SoundId": 70390014,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1011,
+      "RadioName": "日出V1-1",
+      "IsShowRadio": false,
+      "SoundId": 70390015,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1012,
+      "RadioName": "入夜V1-1",
+      "IsShowRadio": false,
+      "SoundId": 70390016,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1013,
+      "RadioName": "战斗V1-3-DnB",
+      "IsShowRadio": false,
+      "SoundId": 70390017,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1014,
+      "RadioName": "电台7",
+      "IsShowRadio": false,
+      "SoundId": 70800075,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1015,
+      "RadioName": "电台8",
+      "IsShowRadio": false,
+      "SoundId": 70800076,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1016,
+      "RadioName": "战斗通用",
+      "IsShowRadio": false,
+      "SoundId": 70380007,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1017,
+      "RadioName": "时间电台-临时资源",
+      "IsShowRadio": false,
+      "SoundId": 70390003,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "",
+      "TimeParameter": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1018,
+      "RadioName": "战斗1",
+      "IsShowRadio": false,
+      "SoundId": 70380007,
+      "RadioCover": 0,
+      "RadioUnlockDes": "",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1019,
+      "RadioName": "战斗2",
+      "IsShowRadio": false,
+      "SoundId": 70380007,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1021,
+      "RadioName": "日出测试",
+      "IsShowRadio": false,
+      "SoundId": 70390005,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1022,
+      "RadioName": "入夜测试",
+      "IsShowRadio": false,
+      "SoundId": 70390006,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1023,
+      "RadioName": "罐头V1白天-2-trap",
+      "IsShowRadio": false,
+      "SoundId": 70390018,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "罐头V1",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1024,
+      "RadioName": "罐头V1黑夜-2-rnb",
+      "IsShowRadio": false,
+      "SoundId": 70390019,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "罐头V1",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1025,
+      "RadioName": "罐头V1白天-3-funky",
+      "IsShowRadio": false,
+      "SoundId": 70390015,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "罐头V1",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1026,
+      "RadioName": "罐头V1黑夜-3-DnB",
+      "IsShowRadio": false,
+      "SoundId": 70390016,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "罐头V1",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1027,
+      "RadioName": "电台20",
+      "IsShowRadio": false,
+      "SoundId": 70300863,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "完成任务10",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1028,
+      "RadioName": "电台21",
+      "IsShowRadio": false,
+      "SoundId": 70300863,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "完成任务11",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1029,
+      "RadioName": "电台22",
+      "IsShowRadio": false,
+      "SoundId": 70300863,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "完成任务12",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1030,
+      "RadioName": "电台23",
+      "IsShowRadio": false,
+      "SoundId": 70300863,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "完成任务13",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1031,
+      "RadioName": "电台24",
+      "IsShowRadio": false,
+      "SoundId": 70300863,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "完成任务14",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1032,
+      "RadioName": "电台25",
+      "IsShowRadio": false,
+      "SoundId": 70300863,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "完成任务15",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1033,
+      "RadioName": "电台26",
+      "IsShowRadio": false,
+      "SoundId": 70300863,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "完成任务16",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1034,
+      "RadioName": "电台27",
+      "IsShowRadio": false,
+      "SoundId": 70300863,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "完成任务17",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1035,
+      "RadioName": "电台28",
+      "IsShowRadio": false,
+      "SoundId": 70300863,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "完成任务18",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1036,
+      "RadioName": "电台29",
+      "IsShowRadio": false,
+      "SoundId": 70300863,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "完成任务19",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1037,
+      "RadioName": "电台30",
+      "IsShowRadio": false,
+      "SoundId": 70300863,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "完成任务20",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1038,
+      "RadioName": "电台31",
+      "IsShowRadio": false,
+      "SoundId": 70300863,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "完成任务21",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1039,
+      "RadioName": "日出-电台关闭",
+      "IsShowRadio": false,
+      "SoundId": 70390005,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1040,
+      "RadioName": "日出-2049",
+      "IsShowRadio": false,
+      "SoundId": 70390005,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1041,
+      "RadioName": "日出-代理人",
+      "IsShowRadio": false,
+      "SoundId": 70390005,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1043,
+      "RadioName": "入夜-电台关闭",
+      "IsShowRadio": false,
+      "SoundId": 70390006,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1044,
+      "RadioName": "入夜-2049",
+      "IsShowRadio": false,
+      "SoundId": 70390006,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1045,
+      "RadioName": "入夜-代理人",
+      "IsShowRadio": false,
+      "SoundId": 70390006,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1048,
+      "RadioName": "酒吧-2049",
+      "IsShowRadio": false,
+      "SoundId": 70380009,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1049,
+      "RadioName": "酒吧-代理人",
+      "IsShowRadio": false,
+      "SoundId": 70380009,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1052,
+      "RadioName": "小队据点-2049",
+      "IsShowRadio": false,
+      "SoundId": 70860051,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1053,
+      "RadioName": "小队据点-代理人",
+      "IsShowRadio": false,
+      "SoundId": 70860051,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1054,
+      "RadioName": "小队据点-破序",
+      "IsShowRadio": false,
+      "SoundId": 70860051,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1055,
+      "RadioName": "小队据点-地区",
+      "IsShowRadio": false,
+      "SoundId": 70860051,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1056,
+      "RadioName": "罐头V1白天-1-funky",
+      "IsShowRadio": true,
+      "SoundId": 70390010,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "罐头V1-1",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1057,
+      "RadioName": "罐头V1黑夜-1-fusion",
+      "IsShowRadio": true,
+      "SoundId": 70390011,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "罐头V1-1",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1058,
+      "RadioName": "罐头V1白天-2-trap",
+      "IsShowRadio": true,
+      "SoundId": 70390018,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "罐头V1-2",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1059,
+      "RadioName": "罐头V1黑夜-2-rnb",
+      "IsShowRadio": true,
+      "SoundId": 70390019,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "罐头V1-2",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1060,
+      "RadioName": "罐头V1白天-3-funky",
+      "IsShowRadio": true,
+      "SoundId": 70390015,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "罐头V1-3",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    },
+    {
+      "Id": 1061,
+      "RadioName": "罐头V1黑夜-3-DnB",
+      "IsShowRadio": true,
+      "SoundId": 70390016,
+      "RadioCover": 25901028,
+      "RadioUnlockDes": "罐头V1-3",
+      "TimeParameter": [],
+      "EffectiveSoundPeriod": []
+    }
+  ],
+  "_dumpedCount": 55,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

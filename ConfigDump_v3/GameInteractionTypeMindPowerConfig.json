@@ -1,0 +1,100 @@
+{
+  "_class": "GameInteractionTypeMindPowerConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 9,
+  "records": [
+    {
+      "Id": 1,
+      "Type": 0,
+      "Name": "室外全方向",
+      "IsSingleDir": false,
+      "LongHoldTypeFirstDis": 0,
+      "LongHoldTypeCanR": 9,
+      "LongHoldTypeBanR": 3,
+      "LongHoldTypeTipeR": 20
+    },
+    {
+      "Id": 2,
+      "Type": 1,
+      "Name": "室内全方向",
+      "IsSingleDir": false,
+      "LongHoldTypeFirstDis": 0,
+      "LongHoldTypeCanR": 10,
+      "LongHoldTypeBanR": 3,
+      "LongHoldTypeTipeR": 16
+    },
+    {
+      "Id": 3,
+      "Type": 2,
+      "Name": "室外单方向",
+      "IsSingleDir": true,
+      "LongHoldTypeFirstDis": 7,
+      "LongHoldTypeCanR": 9,
+      "LongHoldTypeBanR": 0,
+      "LongHoldTypeTipeR": 20
+    },
+    {
+      "Id": 4,
+      "Type": 3,
+      "Name": "室内单方向",
+      "IsSingleDir": true,
+      "LongHoldTypeFirstDis": 8,
+      "LongHoldTypeCanR": 8,
+      "LongHoldTypeBanR": 0,
+      "LongHoldTypeTipeR": 16
+    },
+    {
+      "Id": 5,
+      "Type": 4,
+      "Name": "单方向室外移动大范围",
+      "IsSingleDir": true,
+      "LongHoldTypeFirstDis": 9,
+      "LongHoldTypeCanR": 12,
+      "LongHoldTypeBanR": 0,
+      "LongHoldTypeTipeR": 24
+    },
+    {
+      "Id": 6,
+      "Type": 5,
+      "Name": "单方向备用",
+      "IsSingleDir": true,
+      "LongHoldTypeFirstDis": 7,
+      "LongHoldTypeCanR": 10,
+      "LongHoldTypeBanR": 0,
+      "LongHoldTypeTipeR": 16
+    },
+    {
+      "Id": 7,
+      "Type": 6,
+      "Name": "全方向备用",
+      "IsSingleDir": false,
+      "LongHoldTypeFirstDis": 0,
+      "LongHoldTypeCanR": 20,
+      "LongHoldTypeBanR": 3,
+      "LongHoldTypeTipeR": 40
+    },
+    {
+      "Id": 8,
+      "Type": 7,
+      "Name": "货车追逐单方向",
+      "IsSingleDir": true,
+      "LongHoldTypeFirstDis": 6,
+      "LongHoldTypeCanR": 9,
+      "LongHoldTypeBanR": 0,
+      "LongHoldTypeTipeR": 22
+    },
+    {
+      "Id": 9,
+      "Type": 8,
+      "Name": "boss战大范围全方向",
+      "IsSingleDir": false,
+      "LongHoldTypeFirstDis": 0,
+      "LongHoldTypeCanR": 25,
+      "LongHoldTypeBanR": 3,
+      "LongHoldTypeTipeR": 45
+    }
+  ],
+  "_dumpedCount": 9,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

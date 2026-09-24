@@ -1,0 +1,292 @@
+{
+  "SensorAgentCfg": {
+    "Id": 1,
+    "IncludedTags": [
+      28,
+      33
+    ],
+    "ExcludedTags": [
+      4,
+      29,
+      30,
+      32,
+      50,
+      6
+    ],
+    "SecondaryType": [
+      0
+    ],
+    "SpeciesType": [
+      2
+    ]
+  },
+  "SensorPlayerCfg": {
+    "Id": 2,
+    "IncludedTags": [
+      28,
+      33
+    ],
+    "ExcludedTags": [
+      4,
+      29,
+      30,
+      32,
+      50,
+      6
+    ],
+    "SecondaryType": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "SpeciesType": [
+      2
+    ]
+  },
+  "ItemUsageCfg": {
+    "Id": 3,
+    "IncludedTags": [
+      28,
+      33
+    ],
+    "ExcludedTags": [
+      4,
+      29,
+      30,
+      32,
+      50,
+      6
+    ],
+    "SecondaryType": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "SpeciesType": [
+      2
+    ]
+  },
+  "ItemDeadDropCfg": {
+    "Id": 4,
+    "IncludedTags": [
+      4
+    ],
+    "ExcludedTags": [
+      33
+    ],
+    "SecondaryType": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "SpeciesType": [
+      1
+    ]
+  },
+  "StimEmitCfg": {
+    "Id": 5,
+    "IncludedTags": [],
+    "ExcludedTags": [
+      151
+    ],
+    "SecondaryType": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      8
+    ],
+    "SpeciesType": [
+      2,
+      3,
+      5
+    ]
+  },
+  "StimReceiveCfg": {
+    "Id": 6,
+    "IncludedTags": [],
+    "ExcludedTags": [
+      151
+    ],
+    "SecondaryType": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "SpeciesType": [
+      2,
+      3,
+      6
+    ]
+  },
+  "SickCfg": {
+    "Id": 7,
+    "IncludedTags": [],
+    "ExcludedTags": [
+      3,
+      2
+    ],
+    "SecondaryType": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "SpeciesType": [
+      1
+    ]
+  },
+  "BeQuestionedCfg": {
+    "Id": 8,
+    "IncludedTags": [],
+    "ExcludedTags": [
+      50,
+      4,
+      1
+    ],
+    "SecondaryType": [
+      0,
+      1,
+      4
+    ],
+    "SpeciesType": [
+      2,
+      1,
+      3
+    ]
+  },
+  "AttactCfg": {
+    "Id": 9,
+    "IncludedTags": [
+      33
+    ],
+    "ExcludedTags": [
+      4,
+      32,
+      50,
+      6,
+      2,
+      3
+    ],
+    "SecondaryType": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "SpeciesType": [
+      1
+    ]
+  },
+  "EscortCfg": {
+    "Id": 10,
+    "IncludedTags": [],
+    "ExcludedTags": [
+      50,
+      4,
+      1
+    ],
+    "SecondaryType": [
+      0,
+      1,
+      4
+    ],
+    "SpeciesType": [
+      2,
+      1,
+      3
+    ]
+  },
+  "AmbientSenseCfg": {
+    "Id": 11,
+    "IncludedTags": [],
+    "ExcludedTags": [
+      32,
+      4,
+      6,
+      50,
+      401,
+      402,
+      403,
+      30,
+      151,
+      579
+    ],
+    "SecondaryType": [],
+    "SpeciesType": []
+  },
+  "BattleSenseCfg": {
+    "Id": 12,
+    "IncludedTags": [
+      4
+    ],
+    "ExcludedTags": [
+      151,
+      579
+    ],
+    "SecondaryType": [],
+    "SpeciesType": []
+  },
+  "QuestSenseCfg": {
+    "Id": 13,
+    "IncludedTags": [
+      32
+    ],
+    "ExcludedTags": [
+      151,
+      579
+    ],
+    "SecondaryType": [],
+    "SpeciesType": []
+  },
+  "PhotoSenseCfg": {
+    "Id": 15,
+    "IncludedTags": [],
+    "ExcludedTags": [
+      32,
+      4,
+      50,
+      401,
+      402,
+      403,
+      30,
+      151,
+      579
+    ],
+    "SecondaryType": [],
+    "SpeciesType": []
+  },
+  "AnimalSenseCfg": {
+    "Id": 16,
+    "IncludedTags": [],
+    "ExcludedTags": [],
+    "SecondaryType": [],
+    "SpeciesType": [
+      6
+    ]
+  },
+  "PoiPerformanceSenseCfg": {
+    "Id": 17,
+    "IncludedTags": [],
+    "ExcludedTags": [
+      32,
+      4,
+      6,
+      50,
+      151,
+      579
+    ],
+    "SecondaryType": [],
+    "SpeciesType": []
+  }
+}

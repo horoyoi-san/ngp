@@ -1,0 +1,40 @@
+{
+  "_class": "ClawMachineConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 2,
+  "records": [
+    {
+      "Id": 87010002,
+      "Npcid": 91050014,
+      "PreferredToyid": 87011003,
+      "Dialog_Invite": 50011009,
+      "Dialog_Toy": 50011011,
+      "Dialog_PreferredToy": 50011013,
+      "ThxMsgid": 84000006,
+      "MoveDirection": "别紧张，好好观察。",
+      "ConfirmPosition": "火箭飞爪，发射！",
+      "ClawContact": "",
+      "Failed1": "好可惜，就差一点了。",
+      "Failed2": "好可惜，就差一点了。",
+      "ClawRelease": "好诶！命中了！"
+    },
+    {
+      "Id": 87010003,
+      "Npcid": 91050015,
+      "PreferredToyid": 87011003,
+      "Dialog_Invite": 50011009,
+      "Dialog_Toy": 50011011,
+      "Dialog_PreferredToy": 50011013,
+      "ThxMsgid": 84000006,
+      "MoveDirection": "开始了！集中注意力吧！",
+      "ConfirmPosition": "去吧！冲冲冲！",
+      "ClawContact": "",
+      "Failed1": "可恶！再来一次吧！",
+      "Failed2": "啊！骗人的吧！怎么这样……就差一点儿啊，太可惜了！",
+      "ClawRelease": "来啦！一发入魂！"
+    }
+  ],
+  "_dumpedCount": 2,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

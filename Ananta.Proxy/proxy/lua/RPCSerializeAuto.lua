@@ -1,5 +1,4 @@
--- Original chunk: @Lua\LuaGen\AutoGen\RPCSerializeAuto.lua
--- Decompiled from: 00066_RPCSerializeAuto.lua_d50f7d6c3f88.luajit
+
 
 local Auto = uv0
 local SerializeObjectMarkNull = 0

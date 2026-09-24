@@ -1,0 +1,776 @@
+{
+  "_class": "PhoneContactOptionConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 52,
+  "records": [
+    {
+      "Id": 12000503,
+      "Remark": "林檎好感度3",
+      "OptionDialogId": 0,
+      "MaxProgress": 1,
+      "Action": "ShowNpcFavourDialog(12000503)",
+      "IgnoreAutoCallIn": false,
+      "NpcCultivationIdList": [
+        91050025,
+        91050026
+      ],
+      "SuccessDialogId": 48021114,
+      "FailDialogId": 48021114,
+      "UnlockDialogId": 48021114,
+      "ContactId": 111111120
+    },
+    {
+      "Id": 12000511,
+      "Remark": "艾诺米叫牛奶车",
+      "OptionDialogId": 100008319,
+      "MaxProgress": 0,
+      "Action": "CallMileCar(12000511)",
+      "IgnoreAutoCallIn": true,
+      "NpcCultivationIdList": [],
+      "SuccessDialogId": 100006272,
+      "FailDialogId": 100006273,
+      "UnlockDialogId": 100006273,
+      "ContactId": 12000012
+    },
+    {
+      "Id": 12000512,
+      "Remark": "里希招募-联系莱卡娅",
+      "OptionDialogId": 50006246,
+      "MaxProgress": 1,
+      "Action": "",
+      "IgnoreAutoCallIn": true,
+      "NpcCultivationIdList": [],
+      "SuccessDialogId": 100019862,
+      "FailDialogId": 100019862,
+      "UnlockDialogId": 100019862,
+      "ContactId": 111111117
+    },
+    {
+      "Id": 12000513,
+      "Remark": "Mimiko同伴",
+      "OptionDialogId": 100020896,
+      "MaxProgress": 1,
+      "Action": "",
+      "IgnoreAutoCallIn": true,
+      "NpcCultivationIdList": [],
+      "SuccessDialogId": 0,
+      "FailDialogId": 0,
+      "UnlockDialogId": 0,
+      "ContactId": 111111128
+    },
+    {
+      "Id": 12000519,
+      "Remark": "嘉姆好感度3",
+      "OptionDialogId": 0,
+      "MaxProgress": 1,
+      "Action": "ShowNpcFavourDialog(12000519)",
+      "IgnoreAutoCallIn": false,
+      "NpcCultivationIdList": [
+        91050025,
+        91050026
+      ],
+      "SuccessDialogId": 100018064,
+      "FailDialogId": 100018064,
+      "UnlockDialogId": 100018064,
+      "ContactId": 111111126
+    },
+    {
+      "Id": 12000521,
+      "Remark": "赛默好感度2",
+      "OptionDialogId": 0,
+      "MaxProgress": 1,
+      "Action": "ShowNpcFavourDialog(12000521)",
+      "IgnoreAutoCallIn": false,
+      "NpcCultivationIdList": [
+        91050025,
+        91050026
+      ],
+      "SuccessDialogId": 100017879,
+      "FailDialogId": 100017879,
+      "UnlockDialogId": 100017879,
+      "ContactId": 12000018
+    },
+    {
+      "Id": 12000522,
+      "Remark": "赛默好感度3",
+      "OptionDialogId": 0,
+      "MaxProgress": 1,
+      "Action": "ShowNpcFavourDialog(12000522)",
+      "IgnoreAutoCallIn": false,
+      "NpcCultivationIdList": [
+        91050025,
+        91050026
+      ],
+      "SuccessDialogId": 100017894,
+      "FailDialogId": 100017894,
+      "UnlockDialogId": 100017894,
+      "ContactId": 12000018
+    },
+    {
+      "Id": 12000524,
+      "Remark": "梅卡好感度2",
+      "OptionDialogId": 0,
+      "MaxProgress": 1,
+      "Action": "ShowNpcFavourDialog(12000524)",
+      "IgnoreAutoCallIn": false,
+      "NpcCultivationIdList": [
+        91050025,
+        91050026
+      ],
+      "SuccessDialogId": 100016823,
+      "FailDialogId": 100016823,
+      "UnlockDialogId": 100016823,
+      "ContactId": 111111119
+    },
+    {
+      "Id": 12000525,
+      "Remark": "梅卡好感度3",
+      "OptionDialogId": 0,
+      "MaxProgress": 1,
+      "Action": "ShowNpcFavourDialog(12000525)",
+      "IgnoreAutoCallIn": false,
+      "NpcCultivationIdList": [
+        91050025,
+        91050026
+      ],
+      "SuccessDialogId": 100016824,
+      "FailDialogId": 100016824,
+      "UnlockDialogId": 100016824,
+      "ContactId": 111111119
+    },
+    {
+      "Id": 12000528,
+      "Remark": "艾诺米好感度3",
+      "OptionDialogId": 0,
+      "MaxProgress": 1,
+      "Action": "ShowNpcFavourDialog(12000528)",
+      "IgnoreAutoCallIn": false,
+      "NpcCultivationIdList": [
+        91050025,
+        91050026
+      ],
+      "SuccessDialogId": 100016009,
+      "FailDialogId": 100016009,
+      "UnlockDialogId": 100016009,
+      "ContactId": 12000011
+    },
+    {
+      "Id": 12000534,
+      "Remark": "班茜好感度3",
+      "OptionDialogId": 0,
+      "MaxProgress": 1,
+      "Action": "ShowNpcFavourDialog(12000534)",
+      "IgnoreAutoCallIn": false,
+      "NpcCultivationIdList": [
+        91050025,
+        91050026
+      ],
+      "SuccessDialogId": 100014901,
+      "FailDialogId": 100014901,
+      "UnlockDialogId": 100014901,
+      "ContactId": 111111125
+    },
+    {
+      "Id": 12000537,
+      "Remark": "mimiko好感度3",
+      "OptionDialogId": 0,
+      "MaxProgress": 1,
+      "Action": "ShowNpcFavourDialog(12000537)",
+      "IgnoreAutoCallIn": false,
+      "NpcCultivationIdList": [
+        91050025,
+        91050026
+      ],
+      "SuccessDialogId": 100014804,
+      "FailDialogId": 100014804,
+      "UnlockDialogId": 100014804,
+      "ContactId": 111111128
+    },
+    {
+      "Id": 12000538,
+      "Remark": "里希好感度1",
+      "OptionDialogId": 0,
+      "MaxProgress": 1,
+      "Action": "ShowNpcFavourDialog(12000538)",
+      "IgnoreAutoCallIn": false,
+      "NpcCultivationIdList": [
+        91050025,
+        91050026
+      ],
+      "SuccessDialogId": 100014303,
+      "FailDialogId": 100014303,
+      "UnlockDialogId": 100014303,
+      "ContactId": 111111129
+    },
+    {
+      "Id": 12000539,
+      "Remark": "里希好感度2",
+      "OptionDialogId": 0,
+      "MaxProgress": 1,
+      "Action": "ShowNpcFavourDialog(12000539)",
+      "IgnoreAutoCallIn": false,
+      "NpcCultivationIdList": [
+        91050025,
+        91050026
+      ],
+      "SuccessDialogId": 100014304,
+      "FailDialogId": 100014304,
+      "UnlockDialogId": 100014304,
+      "ContactId": 111111129
+    },
+    {
+      "Id": 12000540,
+      "Remark": "里希好感度3",
+      "OptionDialogId": 0,
+      "MaxProgress": 1,
+      "Action": "ShowNpcFavourDialog(12000540)",
+      "IgnoreAutoCallIn": false,
+      "NpcCultivationIdList": [
+        91050025,
+        91050026
+      ],
+      "SuccessDialogId": 100014305,
+      "FailDialogId": 100014305,
+      "UnlockDialogId": 100014305,
+      "ContactId": 111111129
+    },
+    {
+      "Id": 12000541,
+      "Remark": "塔菲好感度1",
+      "OptionDialogId": 0,
+      "MaxProgress": 1,
+      "Action": "ShowNpcFavourDialog(12000541)",
+      "IgnoreAutoCallIn": false,
+      "NpcCultivationIdList": [
+        91050025,
+        91050026
+      ],
+      "SuccessDialogId": 100014021,
+      "FailDialogId": 100014021,
+      "UnlockDialogId": 100014021,
+      "ContactId": 111111122
+    },
+    {
+      "Id": 12000542,
+      "Remark": "塔菲好感度2",
+      "OptionDialogId": 0,
+      "MaxProgress": 1,
+      "Action": "ShowNpcFavourDialog(12000542)",
+      "IgnoreAutoCallIn": false,
+      "NpcCultivationIdList": [
+        91050025,
+        91050026
+      ],
+      "SuccessDialogId": 100014022,
+      "FailDialogId": 100014022,
+      "UnlockDialogId": 100014022,
+      "ContactId": 111111122
+    },
+    {
+      "Id": 12000543,
+      "Remark": "塔菲好感度3",
+      "OptionDialogId": 0,
+      "MaxProgress": 1,
+      "Action": "ShowNpcFavourDialog(12000543)",
+      "IgnoreAutoCallIn": false,
+      "NpcCultivationIdList": [
+        91050025,
+        91050026
+      ],
+      "SuccessDialogId": 100014023,
+      "FailDialogId": 100014023,
+      "UnlockDialogId": 100014023,
+      "ContactId": 111111122
+    },
+    {
+      "Id": 12000544,
+      "Remark": "诈骗",
+      "OptionDialogId": 100033235,
+      "MaxProgress": 0,
+      "Action": "",
+      "IgnoreAutoCallIn": true,
+      "NpcCultivationIdList": [],
+      "SuccessDialogId": 100033224,
+      "FailDialogId": 100033224,
+      "UnlockDialogId": 100033224,
+      "ContactId": 12000020
+    },
+    {
+      "Id": 12000545,
+      "Remark": "闹鬼",
+      "OptionDialogId": 100033250,
+      "MaxProgress": 0,
+      "Action": "",
+      "IgnoreAutoCallIn": true,
+      "NpcCultivationIdList": [],
+      "SuccessDialogId": 100024572,
+      "FailDialogId": 100024572,
+      "UnlockDialogId": 100024572,
+      "ContactId": 12000021
+    },
+    {
+      "Id": 12000546,
+      "Remark": "塔菲兜风约会",
+      "OptionDialogId": 100027267,
+      "MaxProgress": 0,
+      "Action": "",
+      "IgnoreAutoCallIn": true,
+      "NpcCultivationIdList": [],
+      "SuccessDialogId": 100083369,
+      "FailDialogId": 100027265,
+      "UnlockDialogId": 100083369,
+      "ContactId": 111111122
+    },
+    {
+      "Id": 12000549,
+      "Remark": "亚兰好感度3",
+      "OptionDialogId": 0,
+      "MaxProgress": 1,
+      "Action": "ShowNpcFavourDialog(12000549)",
+      "IgnoreAutoCallIn": false,
+      "NpcCultivationIdList": [
+        91050025,
+        91050026
+      ],
+      "SuccessDialogId": 100030691,
+      "FailDialogId": 100030691,
+      "UnlockDialogId": 100030691,
+      "ContactId": 12000999
+    },
+    {
+      "Id": 12000550,
+      "Remark": "莱卡娅好感度1",
+      "OptionDialogId": 0,
+      "MaxProgress": 1,
+      "Action": "ShowNpcFavourDialog(12000550)",
+      "IgnoreAutoCallIn": false,
+      "NpcCultivationIdList": [
+        91050025,
+        91050026
+      ],
+      "SuccessDialogId": 100030799,
+      "FailDialogId": 100030799,
+      "UnlockDialogId": 100030799,
+      "ContactId": 111111117
+    },
+    {
+      "Id": 12000551,
+      "Remark": "莱卡娅好感度2",
+      "OptionDialogId": 0,
+      "MaxProgress": 1,
+      "Action": "ShowNpcFavourDialog(12000551)",
+      "IgnoreAutoCallIn": false,
+      "NpcCultivationIdList": [
+        91050025,
+        91050026
+      ],
+      "SuccessDialogId": 100030817,
+      "FailDialogId": 100030817,
+      "UnlockDialogId": 100030817,
+      "ContactId": 111111117
+    },
+    {
+      "Id": 12000552,
+      "Remark": "莱卡娅好感度3",
+      "OptionDialogId": 0,
+      "MaxProgress": 1,
+      "Action": "ShowNpcFavourDialog(12000552)",
+      "IgnoreAutoCallIn": false,
+      "NpcCultivationIdList": [
+        91050025,
+        91050026
+      ],
+      "SuccessDialogId": 100030829,
+      "FailDialogId": 100030829,
+      "UnlockDialogId": 100030829,
+      "ContactId": 111111117
+    },
+    {
+      "Id": 12000555,
+      "Remark": "主线-时夜",
+      "OptionDialogId": 100078040,
+      "MaxProgress": 0,
+      "Action": "",
+      "IgnoreAutoCallIn": true,
+      "NpcCultivationIdList": [],
+      "SuccessDialogId": 100078040,
+      "FailDialogId": 100078040,
+      "UnlockDialogId": 0,
+      "ContactId": 12000035
+    },
+    {
+      "Id": 12000556,
+      "Remark": "赛默个人线-掘地三尺-菠萝",
+      "OptionDialogId": 100053501,
+      "MaxProgress": 1,
+      "Action": "",
+      "IgnoreAutoCallIn": true,
+      "NpcCultivationIdList": [],
+      "SuccessDialogId": 100053501,
+      "FailDialogId": 100053501,
+      "UnlockDialogId": 100053501,
+      "ContactId": 12000036
+    },
+    {
+      "Id": 12000557,
+      "Remark": "里希兜风约会",
+      "OptionDialogId": 100060506,
+      "MaxProgress": 0,
+      "Action": "",
+      "IgnoreAutoCallIn": true,
+      "NpcCultivationIdList": [],
+      "SuccessDialogId": 100083392,
+      "FailDialogId": 100060448,
+      "UnlockDialogId": 100083392,
+      "ContactId": 111111129
+    },
+    {
+      "Id": 12000558,
+      "Remark": "时夜好感度1",
+      "OptionDialogId": 0,
+      "MaxProgress": 1,
+      "Action": "ShowNpcFavourDialog(12000558)",
+      "IgnoreAutoCallIn": false,
+      "NpcCultivationIdList": [
+        91050025,
+        91050026
+      ],
+      "SuccessDialogId": 100066770,
+      "FailDialogId": 100066770,
+      "UnlockDialogId": 100066770,
+      "ContactId": 12000035
+    },
+    {
+      "Id": 12000559,
+      "Remark": "时夜好感度2",
+      "OptionDialogId": 0,
+      "MaxProgress": 1,
+      "Action": "ShowNpcFavourDialog(12000559)",
+      "IgnoreAutoCallIn": false,
+      "NpcCultivationIdList": [
+        91050025,
+        91050026
+      ],
+      "SuccessDialogId": 100066782,
+      "FailDialogId": 100066782,
+      "UnlockDialogId": 100066782,
+      "ContactId": 12000035
+    },
+    {
+      "Id": 12000560,
+      "Remark": "时夜好感度3",
+      "OptionDialogId": 0,
+      "MaxProgress": 1,
+      "Action": "ShowNpcFavourDialog(12000560)",
+      "IgnoreAutoCallIn": false,
+      "NpcCultivationIdList": [
+        91050025,
+        91050026
+      ],
+      "SuccessDialogId": 100066811,
+      "FailDialogId": 100066811,
+      "UnlockDialogId": 100066811,
+      "ContactId": 12000035
+    },
+    {
+      "Id": 12000562,
+      "Remark": "柚枝好感度2",
+      "OptionDialogId": 0,
+      "MaxProgress": 1,
+      "Action": "ShowNpcFavourDialog(12000562)",
+      "IgnoreAutoCallIn": false,
+      "NpcCultivationIdList": [
+        91050025,
+        91050026
+      ],
+      "SuccessDialogId": 100066854,
+      "FailDialogId": 100066854,
+      "UnlockDialogId": 100066854,
+      "ContactId": 12000041
+    },
+    {
+      "Id": 12000563,
+      "Remark": "柚枝好感度3",
+      "OptionDialogId": 0,
+      "MaxProgress": 1,
+      "Action": "ShowNpcFavourDialog(12000563)",
+      "IgnoreAutoCallIn": false,
+      "NpcCultivationIdList": [
+        91050025,
+        91050026
+      ],
+      "SuccessDialogId": 100066864,
+      "FailDialogId": 100066864,
+      "UnlockDialogId": 100066864,
+      "ContactId": 12000041
+    },
+    {
+      "Id": 12000565,
+      "Remark": "程酿好感度2",
+      "OptionDialogId": 0,
+      "MaxProgress": 1,
+      "Action": "ShowNpcFavourDialog(12000565)",
+      "IgnoreAutoCallIn": false,
+      "NpcCultivationIdList": [
+        91050025,
+        91050026
+      ],
+      "SuccessDialogId": 100067022,
+      "FailDialogId": 100067022,
+      "UnlockDialogId": 100067022,
+      "ContactId": 12000042
+    },
+    {
+      "Id": 12000566,
+      "Remark": "程酿好感度3",
+      "OptionDialogId": 0,
+      "MaxProgress": 1,
+      "Action": "ShowNpcFavourDialog(12000566)",
+      "IgnoreAutoCallIn": false,
+      "NpcCultivationIdList": [
+        91050025,
+        91050026
+      ],
+      "SuccessDialogId": 100067036,
+      "FailDialogId": 100067036,
+      "UnlockDialogId": 100067036,
+      "ContactId": 12000042
+    },
+    {
+      "Id": 12000569,
+      "Remark": "李扶风好感度3",
+      "OptionDialogId": 0,
+      "MaxProgress": 1,
+      "Action": "ShowNpcFavourDialog(12000569)",
+      "IgnoreAutoCallIn": false,
+      "NpcCultivationIdList": [
+        91050025,
+        91050026
+      ],
+      "SuccessDialogId": 100068319,
+      "FailDialogId": 100068319,
+      "UnlockDialogId": 100068319,
+      "ContactId": 12000043
+    },
+    {
+      "Id": 12000571,
+      "Remark": "【注意】MA14配置占位，待正式化：白靖好感度2",
+      "OptionDialogId": 0,
+      "MaxProgress": 1,
+      "Action": "ShowNpcFavourDialog(12000571)",
+      "IgnoreAutoCallIn": false,
+      "NpcCultivationIdList": [
+        91050025,
+        91050026
+      ],
+      "SuccessDialogId": 100067067,
+      "FailDialogId": 100067067,
+      "UnlockDialogId": 100067067,
+      "ContactId": 12000030
+    },
+    {
+      "Id": 12000572,
+      "Remark": "【注意】MA14配置占位，待正式化：白靖好感度3",
+      "OptionDialogId": 0,
+      "MaxProgress": 1,
+      "Action": "ShowNpcFavourDialog(12000572)",
+      "IgnoreAutoCallIn": false,
+      "NpcCultivationIdList": [
+        91050025,
+        91050026
+      ],
+      "SuccessDialogId": 100067079,
+      "FailDialogId": 100067079,
+      "UnlockDialogId": 100067079,
+      "ContactId": 12000030
+    },
+    {
+      "Id": 12000573,
+      "Remark": "梅卡妮卡电话-任务通话",
+      "OptionDialogId": 100082913,
+      "MaxProgress": 0,
+      "Action": "",
+      "IgnoreAutoCallIn": true,
+      "NpcCultivationIdList": [],
+      "SuccessDialogId": 100082913,
+      "FailDialogId": 100082913,
+      "UnlockDialogId": 100082913,
+      "ContactId": 12000013
+    },
+    {
+      "Id": 12000574,
+      "Remark": "程酿兜风约会",
+      "OptionDialogId": 100085903,
+      "MaxProgress": 0,
+      "Action": "",
+      "IgnoreAutoCallIn": true,
+      "NpcCultivationIdList": [],
+      "SuccessDialogId": 100083457,
+      "FailDialogId": 100085980,
+      "UnlockDialogId": 100083457,
+      "ContactId": 12000042
+    },
+    {
+      "Id": 12000575,
+      "Remark": "爱琳兜风约会",
+      "OptionDialogId": 100090898,
+      "MaxProgress": 0,
+      "Action": "",
+      "IgnoreAutoCallIn": true,
+      "NpcCultivationIdList": [],
+      "SuccessDialogId": 100083719,
+      "FailDialogId": 0,
+      "UnlockDialogId": 100083719,
+      "ContactId": 111111113
+    },
+    {
+      "Id": 12000576,
+      "Remark": "班茜兜风约会",
+      "OptionDialogId": 100020143,
+      "MaxProgress": 0,
+      "Action": "",
+      "IgnoreAutoCallIn": true,
+      "NpcCultivationIdList": [],
+      "SuccessDialogId": 100083675,
+      "FailDialogId": 100086111,
+      "UnlockDialogId": 100083675,
+      "ContactId": 111111125
+    },
+    {
+      "Id": 12000577,
+      "Remark": "弥弥古兜风约会",
+      "OptionDialogId": 100020896,
+      "MaxProgress": 0,
+      "Action": "",
+      "IgnoreAutoCallIn": true,
+      "NpcCultivationIdList": [],
+      "SuccessDialogId": 100083580,
+      "FailDialogId": 0,
+      "UnlockDialogId": 100083580,
+      "ContactId": 111111128
+    },
+    {
+      "Id": 12000578,
+      "Remark": "林檎兜风约会",
+      "OptionDialogId": 100090955,
+      "MaxProgress": 0,
+      "Action": "",
+      "IgnoreAutoCallIn": true,
+      "NpcCultivationIdList": [],
+      "SuccessDialogId": 100083604,
+      "FailDialogId": 0,
+      "UnlockDialogId": 100083604,
+      "ContactId": 111111120
+    },
+    {
+      "Id": 12000579,
+      "Remark": "嘉姆兜风约会",
+      "OptionDialogId": 100020089,
+      "MaxProgress": 0,
+      "Action": "",
+      "IgnoreAutoCallIn": true,
+      "NpcCultivationIdList": [],
+      "SuccessDialogId": 100083539,
+      "FailDialogId": 0,
+      "UnlockDialogId": 100083539,
+      "ContactId": 111111126
+    },
+    {
+      "Id": 12000580,
+      "Remark": "艾诺米兜风约会",
+      "OptionDialogId": 100020129,
+      "MaxProgress": 0,
+      "Action": "",
+      "IgnoreAutoCallIn": true,
+      "NpcCultivationIdList": [],
+      "SuccessDialogId": 100083651,
+      "FailDialogId": 0,
+      "UnlockDialogId": 100083651,
+      "ContactId": 12000011
+    },
+    {
+      "Id": 12000581,
+      "Remark": "梅卡妮卡兜风约会",
+      "OptionDialogId": 100020125,
+      "MaxProgress": 0,
+      "Action": "",
+      "IgnoreAutoCallIn": true,
+      "NpcCultivationIdList": [],
+      "SuccessDialogId": 100083509,
+      "FailDialogId": 0,
+      "UnlockDialogId": 100083509,
+      "ContactId": 111111119
+    },
+    {
+      "Id": 12000582,
+      "Remark": "赛默兜风约会",
+      "OptionDialogId": 100020450,
+      "MaxProgress": 0,
+      "Action": "",
+      "IgnoreAutoCallIn": true,
+      "NpcCultivationIdList": [],
+      "SuccessDialogId": 100083421,
+      "FailDialogId": 0,
+      "UnlockDialogId": 100083421,
+      "ContactId": 12000018
+    },
+    {
+      "Id": 22222222,
+      "Remark": "叫车",
+      "OptionDialogId": 50006218,
+      "MaxProgress": 0,
+      "Action": "CallCar(22222222)",
+      "IgnoreAutoCallIn": true,
+      "NpcCultivationIdList": [],
+      "SuccessDialogId": 50006200,
+      "FailDialogId": 50006201,
+      "UnlockDialogId": 50006201,
+      "ContactId": 111111111
+    },
+    {
+      "Id": 22222223,
+      "Remark": "叫牛奶车",
+      "OptionDialogId": 50006202,
+      "MaxProgress": 0,
+      "Action": "CallMileCar(22222223)",
+      "IgnoreAutoCallIn": true,
+      "NpcCultivationIdList": [],
+      "SuccessDialogId": 50006200,
+      "FailDialogId": 50006193,
+      "UnlockDialogId": 0,
+      "ContactId": 111111111
+    },
+    {
+      "Id": 22222226,
+      "Remark": "#z#紧急求助",
+      "OptionDialogId": 50006239,
+      "MaxProgress": 0,
+      "Action": "",
+      "IgnoreAutoCallIn": true,
+      "NpcCultivationIdList": [],
+      "SuccessDialogId": 50006239,
+      "FailDialogId": 50006239,
+      "UnlockDialogId": 0,
+      "ContactId": 111111111
+    },
+    {
+      "Id": 22222227,
+      "Remark": "爱琳好感度3",
+      "OptionDialogId": 0,
+      "MaxProgress": 1,
+      "Action": "ShowNpcFavourDialog(22222227)",
+      "IgnoreAutoCallIn": false,
+      "NpcCultivationIdList": [
+        91050025,
+        91050026
+      ],
+      "SuccessDialogId": 50006209,
+      "FailDialogId": 50006209,
+      "UnlockDialogId": 50006209,
+      "ContactId": 111111113
+    }
+  ],
+  "_dumpedCount": 52,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

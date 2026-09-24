@@ -1,0 +1,286 @@
+{
+  "UIBaseCfg": {
+    "Id": 1,
+    "ContextName": "UIBase",
+    "Transition": 3,
+    "ContextComposition": [
+      {
+        "part": "Dft",
+        "defCtx": "Def_Base"
+      }
+    ]
+  },
+  "UIPhotoCfg": {
+    "Id": 2,
+    "ContextName": "UIPhoto",
+    "Transition": 3,
+    "ContextComposition": [
+      {
+        "part": "Dft",
+        "defCtx": "Def_Photo"
+      }
+    ]
+  },
+  "UIPetAnimalCfg": {
+    "Id": 3,
+    "ContextName": "UIPetAnimal",
+    "Transition": 3,
+    "ContextComposition": [
+      {
+        "part": "Dft",
+        "defCtx": "Def_BaseWithMove"
+      }
+    ]
+  },
+  "UICommonInteractionCfg": {
+    "Id": 4,
+    "ContextName": "UICommonInteraction",
+    "Transition": 3,
+    "ContextComposition": [
+      {
+        "part": "Dft",
+        "defCtx": "Def_CommonInteraction"
+      }
+    ]
+  },
+  "UIVolleyballCfg": {
+    "Id": 5,
+    "ContextName": "UIVolleyball",
+    "Transition": 3,
+    "ContextComposition": [
+      {
+        "part": "Dft",
+        "defCtx": "Def_BaseWithMove"
+      }
+    ]
+  },
+  "UIBigMapCfg": {
+    "Id": 6,
+    "ContextName": "UIBigMap",
+    "Transition": 3,
+    "ContextComposition": [
+      {
+        "part": "Dft",
+        "defCtx": "Def_BigMap"
+      }
+    ]
+  },
+  "UIGalaxianCfg": {
+    "Id": 7,
+    "ContextName": "UIGalaxian",
+    "Transition": 3,
+    "ContextComposition": [
+      {
+        "part": "Dft",
+        "defCtx": "Def_Base"
+      }
+    ]
+  },
+  "UISceneReadingCfg": {
+    "Id": 8,
+    "ContextName": "UISceneReading",
+    "Transition": 2,
+    "ContextComposition": [
+      {
+        "part": "Dft",
+        "defCtx": "Def_BaseWithMove"
+      }
+    ]
+  },
+  "UICommonMoveNoBreakCfg": {
+    "Id": 9,
+    "ContextName": "UICommonMoveNoBreak",
+    "Transition": 2,
+    "ContextComposition": [
+      {
+        "part": "Dft",
+        "defCtx": "Def_BaseWithMove"
+      }
+    ]
+  },
+  "UICharMotionCfg": {
+    "Id": 10,
+    "ContextName": "UICharMotion",
+    "Transition": 3,
+    "ContextComposition": [
+      {
+        "part": "Dft",
+        "defCtx": "Def_BaseWithMove"
+      }
+    ]
+  },
+  "UIEmptyCfg": {
+    "Id": 11,
+    "ContextName": "UIEmpty",
+    "Transition": 0,
+    "ContextComposition": [
+      {
+        "part": "Dft",
+        "defCtx": "Def_Base"
+      }
+    ]
+  },
+  "Dialog21Cfg": {
+    "Id": 12,
+    "ContextName": "Dialog21",
+    "Transition": 3,
+    "ContextComposition": [
+      {
+        "part": "Dft",
+        "defCtx": "Def_BaseWithMove"
+      }
+    ]
+  },
+  "UIPhoneCfg": {
+    "Id": 13,
+    "ContextName": "UIPhone",
+    "Transition": 2,
+    "ContextComposition": [
+      {
+        "part": "Dft",
+        "defCtx": "Def_Move"
+      }
+    ]
+  },
+  "UIDriveVehicleCfg": {
+    "Id": 14,
+    "ContextName": "UIDriveVehicle",
+    "Transition": 3,
+    "ContextComposition": [
+      {
+        "part": "Dft",
+        "defCtx": "Def_DriveVehicle"
+      },
+      {
+        "part": "VehicleType",
+        "defCtx": "Def_None"
+      },
+      {
+        "part": "VehicleGmpl",
+        "defCtx": "Def_None"
+      },
+      {
+        "part": "VehicleBattle",
+        "defCtx": "Def_None"
+      }
+    ]
+  },
+  "InstrumentCfg": {
+    "Id": 15,
+    "ContextName": "Instrument",
+    "Transition": 3,
+    "ContextComposition": [
+      {
+        "part": "Dft",
+        "defCtx": "Def_Instrument"
+      }
+    ]
+  },
+  "UICoreHUD_ExplorationCfg": {
+    "Id": 16,
+    "ContextName": "UICoreHUD_Exploration",
+    "Transition": 0,
+    "ContextComposition": [
+      {
+        "part": "Dft",
+        "defCtx": "Def_Base"
+      },
+      {
+        "part": "Character",
+        "defCtx": "Def_None"
+      },
+      {
+        "part": "SpecialController",
+        "defCtx": "Def_GamepadSpecial"
+      }
+    ]
+  },
+  "UIBoatCfg": {
+    "Id": 17,
+    "ContextName": "UIBoat",
+    "Transition": 3,
+    "ContextComposition": [
+      {
+        "part": "Dft",
+        "defCtx": "Def_Boat"
+      }
+    ]
+  },
+  "UIMotoCfg": {
+    "Id": 18,
+    "ContextName": "UIMoto",
+    "Transition": 3,
+    "ContextComposition": [
+      {
+        "part": "Dft",
+        "defCtx": "Def_DriveVehicle"
+      }
+    ]
+  },
+  "UIBartenderCfg": {
+    "Id": 19,
+    "ContextName": "UIBartender",
+    "Transition": 3,
+    "ContextComposition": [
+      {
+        "part": "Dft",
+        "defCtx": "Def_BaseWithMove"
+      }
+    ]
+  },
+  "UISocialCfg": {
+    "Id": 20,
+    "ContextName": "UISocial",
+    "Transition": 3,
+    "ContextComposition": [
+      {
+        "part": "Dft",
+        "defCtx": "Def_BaseWithMove"
+      }
+    ]
+  },
+  "UIHandBoatCfg": {
+    "Id": 21,
+    "ContextName": "UIHandBoat",
+    "Transition": 3,
+    "ContextComposition": [
+      {
+        "part": "Dft",
+        "defCtx": "Def_HandBoat"
+      }
+    ]
+  },
+  "UILinkCfg": {
+    "Id": 22,
+    "ContextName": "UILink",
+    "Transition": 3,
+    "ContextComposition": [
+      {
+        "part": "Dft",
+        "defCtx": "Def_Link"
+      }
+    ]
+  },
+  "FullDialogCfg": {
+    "Id": 23,
+    "ContextName": "FullDialog",
+    "Transition": 0,
+    "ContextComposition": [
+      {
+        "part": "Dft",
+        "defCtx": "Def_Base"
+      }
+    ]
+  },
+  "UIFishingCfg": {
+    "Id": 24,
+    "ContextName": "UIFishing",
+    "Transition": 3,
+    "ContextComposition": [
+      {
+        "part": "Dft",
+        "defCtx": "Def_BaseWithMove"
+      }
+    ]
+  }
+}

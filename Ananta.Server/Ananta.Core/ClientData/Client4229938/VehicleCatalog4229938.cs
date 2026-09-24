@@ -5,10 +5,6 @@ namespace Ananta.Server.ClientData.Client4229938;
 
 internal sealed record VehicleCatalogEntry4229938(uint Id, string Name, string Model, int SeatCount, string SpoonName);
 
-/// <summary>
-/// Build-4229938 vehicle catalog, read from VehicleConfig.json in the configured
-/// client-data directory (field names verified against ConfigDump_v3 + lua writers).
-/// </summary>
 internal static class VehicleCatalog4229938
 {
     private static readonly Lazy<Dictionary<uint, VehicleCatalogEntry4229938>> Cache = new(Load);
@@ -16,11 +12,35 @@ internal static class VehicleCatalog4229938
     internal static bool TryGet(uint id, out VehicleCatalogEntry4229938 entry)
         => Cache.Value.TryGetValue(id, out entry!);
 
-    /// <summary>Every build-local vehicle that can be materialized (prefab + 1..16 seats).</summary>
+    
     internal static IReadOnlyList<VehicleCatalogEntry4229938> AllSummonable => Cache.Value.Values
         .Where(v => !string.IsNullOrWhiteSpace(v.Model) && v.SeatCount is >= 1 and <= 16)
         .OrderBy(v => v.Id)
         .ToArray();
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    internal static IReadOnlyList<uint> PoliceVehicleIds
+    {
+        get
+        {
+            var keywords = new[] { "patrol", "ncca", "police" };
+            return [.. Cache.Value.Values
+                .Where(v => !string.IsNullOrWhiteSpace(v.Model) && v.SeatCount is >= 1 and <= 16)
+                .Where(v => keywords.Any(k => v.Name.Contains(k, StringComparison.OrdinalIgnoreCase)))
+                .OrderBy(v => v.Name.Contains("patrol", StringComparison.OrdinalIgnoreCase) ? 0 : 1)
+                .ThenBy(v => v.Id)
+                .Select(v => v.Id)];
+        }
+    }
 
     private static Dictionary<uint, VehicleCatalogEntry4229938> Load()
     {

@@ -8,8 +8,6 @@ const os = require("os");
 const path = require("path");
 const util = require("util");
 
-// Mirror the runtime console into the same files as the C# server. Run-All.ps1
-// prepares these paths once per run, so both processes share one timestamp.
 const Ananta_CONSOLE_LATEST = process.env.Ananta_CONSOLE_LOG_LATEST || null;
 const Ananta_CONSOLE_ARCHIVE = process.env.Ananta_CONSOLE_LOG_ARCHIVE || null;
 function appendUnifiedConsole(line) {
@@ -25,44 +23,29 @@ console.log = (...args) => { const line = util.format(...args); appendUnifiedCon
 console.warn = (...args) => { const line = util.format(...args); appendUnifiedConsole(line); originalConsoleWarn(...args); };
 console.error = (...args) => { const line = util.format(...args); appendUnifiedConsole(line); originalConsoleError(...args); };
 const { config } = require("./private_server_config");
-// v12: schema-driven serializer (mirrors client RPCSerializeBase.lua)
+
 const { RpcSerializer } = require("./rpc_serializer");
 const { Writer } = require("./rpc_serializer");
 const RPC = new RpcSerializer(path.join(__dirname, "rpc_schema.json"));
-// REAL client serializer (RPCSerializeAuto.lua executed verbatim in a Lua VM).
-// This is the single source of truth for packet bytes - identical to what the
-// official server's generated serializer produces. No hand-built schema.
+
 const LuaWriter = require("./lua_writer");
 
-// SyncPlayerAllTask notify (0x03D48AF5) - 4229938 client layout, verified
-// against UXRPCMethodArgs64260853.Read and TypeSerializer.ReadEventPanelInfo
-// in the 4229938 GameAssembly:
-//   taskInfos        nullable list (flag + 7-bit count) — empty
-//   submitTaskList   nullable list — empty
-//   currentTask      u32
-//   eventPanelInfo   nullable complex { EventsInfo, SubmitEventList,
-//                     SubmitReplayEventList, EventViewInfoList } — each a
-//                     nullable list with 7-bit count; no inner object marker
-//   loginGameServer  bool
-// The 4229938 stream (0xFF + Int32 counts, extra submitEventList arg-level
-// field, EventViewInfoList outside the complex) desyncs this reader and kills
-// the client with DeserializeRpcStreamBufferNotEnoughException.
 function buildSyncPlayerAllTask() {
   const w = new Writer();
-  const emptyList = [0x01, 0x00]; // present flag + 7-bit count 0
-  // taskInfos: List<TaskViewData> -> empty
+  const emptyList = [0x01, 0x00]; 
+  
   w.WriteRawBuffer(Buffer.from(emptyList));
-  // submitTaskList: List<u32> -> empty
+  
   w.WriteRawBuffer(Buffer.from(emptyList));
-  // currentTask: u32
+  
   w.WriteUInt32(0);
-  // eventPanelInfo: present, then its four nullable lists
+  
   w.WriteByte(0x01);
-  w.WriteRawBuffer(Buffer.from(emptyList)); // EventsInfo
-  w.WriteRawBuffer(Buffer.from(emptyList)); // SubmitEventList
-  w.WriteRawBuffer(Buffer.from(emptyList)); // SubmitReplayEventList
-  w.WriteRawBuffer(Buffer.from(emptyList)); // EventViewInfoList
-  // loginGameServer: bool = true
+  w.WriteRawBuffer(Buffer.from(emptyList)); 
+  w.WriteRawBuffer(Buffer.from(emptyList)); 
+  w.WriteRawBuffer(Buffer.from(emptyList)); 
+  w.WriteRawBuffer(Buffer.from(emptyList)); 
+  
   w.WriteBoolean(true);
   return w.toBuffer();
 }
@@ -108,16 +91,57 @@ const CLIENT_VERSION = String(config.client.version);
 const CLIENT_ARTIFACT_VERSION = String(config.client.artifactVersion);
 const LOCAL_SERVER_ID = config.client.serverId;
 const LOCAL_AID = config.client.aid;
-const LOCAL_PLAYER_PID = config.player.pid;
-const LOCAL_ACCOUNT_ID = config.player.accountId;
-const LOCAL_USERNAME = config.player.userName;
-const LOCAL_DISPLAY_NAME = config.player.displayName;
+
+function loadActiveAccount() {
+  const candidates = [
+    path.resolve(__dirname, "..", "..", "data", "accounts", "accounts.json"),
+    path.resolve(__dirname, "..", "data", "accounts", "accounts.json"),
+  ];
+  for (const file of candidates) {
+    try {
+      if (!fs.existsSync(file)) continue;
+      const parsed = JSON.parse(fs.readFileSync(file, "utf-8"));
+      const list = Array.isArray(parsed && parsed.accounts) ? parsed.accounts : [];
+      if (!list.length) continue;
+      const activeId = parsed.activeAccountId;
+      const active = list.find((a) => a.id === activeId) || list[0];
+      if (active && active.uid) return active;
+    } catch (e) {
+      
+    }
+  }
+  return null;
+}
+
+let ACTIVE_ACCOUNT = loadActiveAccount();
+if (ACTIVE_ACCOUNT) {
+  console.log(`[account] 使用账号 ${ACTIVE_ACCOUNT.id} uid=${ACTIVE_ACCOUNT.uid} pid=${ACTIVE_ACCOUNT.pid}`);
+}
+let LOCAL_PLAYER_PID = ACTIVE_ACCOUNT && ACTIVE_ACCOUNT.pid ? ACTIVE_ACCOUNT.pid : config.player.pid;
+let LOCAL_ACCOUNT_ID = (ACTIVE_ACCOUNT && ACTIVE_ACCOUNT.uid) || config.player.accountId;
+let LOCAL_USERNAME = (ACTIVE_ACCOUNT && ACTIVE_ACCOUNT.username) || config.player.userName;
+let LOCAL_DISPLAY_NAME = (ACTIVE_ACCOUNT && ACTIVE_ACCOUNT.name) || config.player.displayName;
+
+let lastAccountSignature = "";
+function refreshActiveAccount() {
+  const account = loadActiveAccount();
+  if (!account) return;
+  const signature = `${account.id}|${account.uid}|${account.pid}|${account.username}`;
+  if (signature === lastAccountSignature) return;
+  lastAccountSignature = signature;
+  ACTIVE_ACCOUNT = account;
+  LOCAL_PLAYER_PID = account.pid || config.player.pid;
+  LOCAL_ACCOUNT_ID = account.uid || config.player.accountId;
+  LOCAL_USERNAME = account.username || config.player.userName;
+  LOCAL_DISPLAY_NAME = account.name || config.player.displayName;
+  console.log(`[account] 已切换到账号 ${account.id} uid=${account.uid} pid=${account.pid}`);
+}
 const LOCAL_LOGIN_TOKEN = config.player.loginToken;
 const LOCAL_PLAYER_TOKEN = config.player.gameToken;
 const LOCAL_SHARE_TOKEN = config.player.shareToken;
 const LOCAL_FP_PASS_TOKEN = config.player.fpPassToken;
 const LOCAL_SKEY = config.player.skey;
-// Server identity and RPC MD5 come from config/private-server.json.
+
 const CLIENT_RPC_MD5 = process.env.Ananta_RPC_MD5 || config.client.rpcMd5;
 const RPC_METHODS = Object.freeze({
   Login_RequestCreateRoleEx: 34383517,
@@ -144,7 +168,7 @@ const RPC_METHODS = Object.freeze({
   Game_GetServerTime: 63266454,
   Game_AskChangeNameByItem: 63087020,
   Game_RequestGameSceneData: 63427902,
-  // This RPC is absent from the 4229938 table. Kept for older fallback clients.
+  
   Game_AskStartGame: 63820182,
   Game_LoginGame: 63142082,
   Game_AskPanelBrowsingTime: 63927330,
@@ -179,7 +203,7 @@ function loginListCandidates() {
     body: `${LOCAL_LOGIN_HOST}:${config.network.loginPorts[0]}\n${LOCAL_LOGIN_HOST}:${config.network.loginPorts[1]}\n`,
   });
   for (const host of LOCAL_LOGIN_TCP_HOSTS) {
-    // V1-proven simple format `host:port\n` is what worked.
+    
     candidates.push({ name: `colon-${host}`, body: `${host}:${LOCAL_LOGIN_TCP_PORT}\n` });
     candidates.push({ name: `csv-ip-port-${host}`, body: `${host},${LOCAL_LOGIN_TCP_PORT}\n` });
     candidates.push({ name: `csv-index-ip-port-${host}`, body: `0,${host},${LOCAL_LOGIN_TCP_PORT}\n` });
@@ -216,16 +240,16 @@ function log(message) {
     return;
   }
 
-  // Listener announcements are bootstrap-only noise. Keep them in both log files,
-  // but do not print them into the interactive startup window.
+  
+  
   if (HIDE_BOOT_LOG && message.startsWith("listening on ")) {
     const bootTime = new Date().toLocaleTimeString("en-GB", { hour12: false });
     appendUnifiedConsole(`[${bootTime}] [PX] ${message}`);
     return;
   }
 
-  // Full request bodies remain in proxy/logs/proxy.log. The console only shows
-  // milestones that are useful while bringing the client online.
+  
+  
   const noisy =
     message.startsWith("unisdk-capture ") ||
     message.startsWith("local-gray-release ") ||
@@ -250,15 +274,15 @@ function log(message) {
     message.includes("404");
   if (!keep) return;
 
-  // Console time is local, matching the C# server logger. Full proxy.log keeps ISO UTC.
+  
   const time = new Date().toLocaleTimeString("en-GB", { hour12: false });
   console.log(`[${time}] [PX] ${message}`);
 }
 
 const upstreamCache = new Map();
 const UPSTREAM_IP_OVERRIDES = Object.freeze({
-  // Akamai addresses returned for the 4229938 resource CDN. This fallback is
-  // needed on machines where the local hosts redirect makes resolve4 time out.
+  
+  
   "l50.gdl.netease.com": ["104.109.143.24", "104.109.143.10"],
 });
 
@@ -306,13 +330,13 @@ async function resolveUpstream(host = HOST) {
 }
 
 function serveLocalVersion(res) {
-  // Trunk resource stream 20260805061659654p0.  The client's local download
-  // history still says 20260707064825384p0 (the trunk build ships 0707-based
-  // resources), so the client runs the LARGE_PATCH flow: it fetches the real
-  // CDN Patch.info (md5 must equal resC) and then downloads the delta packages
-  // through this proxy.  The real manifest for this stream is deployed at
-  // public/Patch_20260805061659654p0.info (md5 b5481abf8e882801b424fe2c0bf0adfe,
-  // verified against the official CDN).
+  
+  
+  
+  
+  
+  
+  
   const resourceVersion = String(
     process.env.Ananta_PROXY_RESOURCE_VERSION || "20260805061659654p0"
   );
@@ -369,7 +393,6 @@ function serveText(res, body, contentType = "text/plain; charset=utf-8") {
     "content-type": contentType,
     "content-length": buffer.length,
     "cache-control": "no-store",
-    "connection": "close",
   });
   res.end(buffer);
 }
@@ -412,22 +435,6 @@ function serveEmptyStartupPatchInfo(res) {
   serveText(res, "");
 }
 
-// =============================================================================
-// IFix startup patch routes
-// =============================================================================
-// The client fetches GET /trunk-client_startup_patch_info.txt to discover
-// which IFix hot-patches must be loaded at boot. The body lists patch IDs
-// pointing at .bytes.standalone files. Loading the listed stage0 IFix
-// patch registers iFix-slot method patches like
-// LoginManager.LoginGameServer's iFix dispatcher slot, which is what
-// makes the post-Gate_Login SyncPlayerAllTask -> ConnectGame chain fire.
-//
-// Files served:
-//   /trunk-client_startup_patch_info.txt
-//     -> public/trunk-client_startup_patch_info.txt (loader manifest)
-//   /2724864/2724864-20260116021030-Assembly-CSharp.stage0.patch.bytes.standalone
-//     -> public/stage0_patch.bytes.standalone (IFix magic 3d 57 5d e8 ...)
-
 function serveBinaryFile(res, relPath, contentType, extraHeaders = {}) {
   const fs = require("fs");
   const filePath = path.join(ROOT, "public", relPath);
@@ -468,8 +475,8 @@ function streamBinaryFile(res, relPath, contentType) {
 }
 
 function serveStartupPatchInfo(res) {
-  // The old stage-0 blob targets client 2758041 and is binary-incompatible with
-  // 4229938. The official endpoint also has no startup patch for this build.
+  
+  
   res.writeHead(404, { "content-type": "text/plain; charset=utf-8", "connection": "close" });
   res.end(`no startup patch for client ${CLIENT_VERSION}`);
 }
@@ -501,9 +508,9 @@ function serveFastPatchClient(res) {
 }
 
 function serveResourcePatchInfo(res) {
-  // Serve the manifest whose md5 equals the advertised resC.  The file name
-  // follows resV from serveLocalVersion, so both stay in sync (patch info and
-  // version entry come from the same resource stream).
+  
+  
+  
   const resourceVersion = String(
     process.env.Ananta_PROXY_RESOURCE_VERSION || "20260805061659654p0"
   );
@@ -514,14 +521,14 @@ function serveResourcePatchInfo(res) {
 }
 
 function serveLocalServerList(res) {
-  // The row format matches the REAL captured official serverlist
-  // (public/OuterTest1_serverlist.upstream.txt): exactly 7 columns, with no
-  // version/rpcMd5/artifact columns.  LoginManager.CheckVersion in build
-  // 4229938 compares RpcMd5/Branch/Tag/ArtifactVersion only when non-empty;
-  // the official row omits them entirely and so must we.  Sending the legacy
-  // 6905aaa9... md5 made CheckVersion reject every row (the trunk client
-  // computes its expected contract md5 at runtime), which surfaced as
-  // "Server is under maintenance" after server-list retries.
+  
+  
+  
+  
+  
+  
+  
+  
   const loginListUrl = `http://${LOCAL_LOGIN_HOST}:${LOGIN_LIST_PORT}/LoginList`;
   const body = [[
     "*",
@@ -549,13 +556,13 @@ function serveLocalAudit(res) {
 }
 
 function serveLocalGameNotice(res) {
-  // The /game_notice/Login.bin endpoint is consumed by
-  // LX6.Manager.LoginManager.OnLoginLuaUpdate which decrypts the body
-  // (AES-256-CBC + PKCS#7, key="Iwgt7nczyaxtZ2jcY9jxvVz6xorrsczf",
-  // iv="G5EcEeO5SmFXFAR4") and runs it as a Lua text chunk
-  // (load(content, nil, "t") + xpcall). If we have a pre-built Login.bin
-  // in public/ we serve that, otherwise an empty body so the game just
-  // skips the patch step.
+  
+  
+  
+  
+  
+  
+  
   if (!serveBinaryFile(res, "Login.bin", "application/octet-stream")) {
     serveText(res, "");
   }
@@ -563,10 +570,10 @@ function serveLocalGameNotice(res) {
 
 function isUpdateHost(req) {
   const host = (req.headers.host || "").split(":")[0].toLowerCase();
-  // Treat the IFix patch CDN host (l50.gph.netease.com) as "local" too:
-  // the manifest at /trunk-client_startup_patch_info.txt points the client
-  // at this host for the stage0 .bytes.standalone download. We serve that
-  // file from public/ via the /...stage0.patch.bytes.standalone route.
+  
+  
+  
+  
   return (
     host === HOST ||
     host === "serverlist-test.l50.leihuo.netease.com" ||
@@ -578,11 +585,15 @@ function isUpdateHost(req) {
   );
 }
 
-const DEFAULT_DEVICE_ID = crypto
-  .createHash("md5")
-  .update(`Ananta:${LOCAL_ACCOUNT_ID}:${LOCAL_PLAYER_PID}`)
-  .digest("hex")
-  .toUpperCase();
+function generateFakeDeviceId() {
+    const chars = 'abcdefghijklmnopqrstuvwxyz0123456789';
+    let result = 'amawt';
+    for (let i = 0; i < 11; i++) {
+        result += chars.charAt(Math.floor(Math.random() * chars.length));
+    }
+    return result + '-d';
+}
+const DEFAULT_DEVICE_ID = generateFakeDeviceId();
 
 let lastClientDeviceIdentity = {
   deviceid: DEFAULT_DEVICE_ID,
@@ -685,6 +696,9 @@ function deviceIdentityFields() {
 }
 
 function localSauthPayload() {
+  
+  
+  refreshActiveAccount();
   const pid = String(LOCAL_PLAYER_PID);
   const device = deviceIdentityFields();
   return {
@@ -822,6 +836,7 @@ function localLoginDataJsonString() {
 }
 
 function localAccountPayload() {
+  refreshActiveAccount();
   const sauth = localSauthPayload();
   const device = deviceIdentityFields();
   const uniSdkLogin = localUniSdkLoginJson();
@@ -1117,8 +1132,8 @@ function mpayOk(data, extra = {}) {
 
 function localMpayLoginUrl(host) {
   const safeHost = (host || "service.mkey.163.com").split(":")[0];
-  // Real MPay URLs carry both names. 4229938/MPay webview reads these
-  // directly from the login URL, not only from the JSON user object.
+  
+  
   const device = deviceIdentityFields();
   const params = new URLSearchParams({
     game_id: "l50",
@@ -1537,8 +1552,8 @@ function serveLocalMusicApi(res, pathname) {
   const token = {
     accessToken: "codex-local-music-token",
     refreshToken: "codex-local-music-refresh",
-    // The 4229938 client model declares expireTime as Int32. A year-2100
-    // timestamp overflows Newtonsoft.Json's ReadAsInt32 and aborts this API.
+    
+    
     expireTime: 2147483647,
   };
 
@@ -1587,6 +1602,7 @@ function serveLocalMusicApi(res, pathname) {
 }
 
 function serveLocalQrcodeApi(res, pathname) {
+  refreshActiveAccount();
   const account = localAccountPayload();
   const qrcode = {
     uuid: "codex-local-qrcode",
@@ -1625,11 +1641,11 @@ function serveLocalQrcodeApi(res, pathname) {
 async function captureUniSdkRequest(req, res) {
   const host = req.headers.host || "unknown-host";
 
-  // Crash-dump capture: the client's CrashHunter POSTs the full native crash
-  // bundle (multipart with mymaindump_*.native.dmp + crashHunterParam_*.txt)
-  // to l50.appdump.nie.netease.com/upload. We save the RAW bytes to disk so we
-  // can extract the real crash reason instead of letting it get truncated in
-  // the text log. This is read-only diagnostics of our own client run.
+  
+  
+  
+  
+  
   const hostnameEarly = host.split(":")[0].toLowerCase();
   const pathnameEarly = req.url.split("?")[0].toLowerCase();
   if (req.method === "POST" && (hostnameEarly.includes("appdump") || pathnameEarly.includes("/upload"))) {
@@ -1690,9 +1706,9 @@ async function captureUniSdkRequest(req, res) {
     return;
   }
 
-  // The production SDK build talks to mgbsdk.matrix.netease.com (the older test
-  // build used mgbsdktest.matrix.netease.com); both must hit the local mock,
-  // otherwise uni_sauth goes to the real server and fails with 401 -> login 220.
+  
+  
+  
   const isMgbsdkHost =
     hostname === "mgbsdktest.matrix.netease.com" || hostname === "mgbsdk.matrix.netease.com";
 
@@ -1807,6 +1823,25 @@ async function captureUniSdkRequest(req, res) {
     return;
   }
 
+    
+  
+  
+  
+  
+  if (pathname.endsWith("/devices")) {
+    log(`local-device-register ${req.method} https://${host}${req.url}`);
+    const device = deviceIdentityFields();
+    const deviceId = device.device_id || DEFAULT_DEVICE_ID;
+    const deviceKey = Array.from({ length: 32 }, () =>
+      Math.floor(Math.random() * 16).toString(16).padStart(2, "0").slice(-1)
+    ).join("");
+    const responseBody = { device: { id: deviceId, key: deviceKey } };
+    log(`local-device-register-response body=${JSON.stringify(responseBody)}`);
+    serveJson(res, responseBody);
+    return;
+  }
+  
+
   if (
     pathname.includes("/api/config") ||
     pathname.includes("/api/devices/upload") ||
@@ -1842,6 +1877,7 @@ async function captureUniSdkRequest(req, res) {
 }
 
 async function proxyRequest(req, res) {
+  refreshActiveAccount();
   const requestedHost = (req.headers.host || HOST).split(":")[0].toLowerCase();
   const upstreamHost = requestedHost === "127.0.0.1" || requestedHost === "localhost"
     ? HOST
@@ -1882,8 +1918,8 @@ const server = https.createServer(
   },
   async (req, res) => {
     try {
-      // Some 4229938 environment URLs are assembled with a trailing slash and
-      // arrive as //OuterTest1/.... Normalize them before local route matching.
+      
+      
       const pathname = (`/${req.url.split("?")[0]}`).replace(/\/{2,}/g, "/");
 
       if (req.method === "GET" && pathname.endsWith("/serverlist.txt")) {
@@ -1944,9 +1980,9 @@ const server = https.createServer(
         return;
       }
 
-      // Any fastpatch zip request for the configured client version. The URL
-      // pattern is /fastpatch/trunk/<clientVersion>/fastpatch.zip; matching
-      // the tail keeps this working across client version bumps.
+      
+      
+      
       if (req.method === "GET" && pathname.startsWith("/fastpatch/") && pathname.endsWith("/fastpatch.zip")) {
         log(`local-fastpatch ${req.method} ${req.url}`);
         serveFastPatchClient(res);
@@ -1959,25 +1995,25 @@ const server = https.createServer(
         return;
       }
 
-      // IFix stage0 .bytes.standalone (loaded after the manifest above).
-      // The manifest references the path
-      //   2724864/2724864-20260116021030-Assembly-CSharp.stage0.patch.bytes.standalone
-      // We accept any URL ending in stage0.patch.bytes.standalone so that
-      // a future patch-id rotation still works without code changes.
+      
+      
+      
+      
+      
       if (req.method === "GET" && pathname.endsWith(".stage0.patch.bytes.standalone")) {
         log(`local-stage0-patch ${req.method} ${req.url}`);
         serveStage0Patch(res);
         return;
       }
 
-      // The same manifest also points at a wrapper ZIP:
-      //   2724864/2724864-20260116021030-client_startup_patch.zip
-      // We don't have the original (8638-byte standalone is all the contact
-      // shared), so we rebuild a ZIP locally that contains only the
-      // .standalone entry. If the client validates the MD5 against the
-      // manifest hash (9dd906c1...), this will fail and we'll see that in
-      // the next log; otherwise the client extracts the standalone from
-      // here and feeds it to IFix the same way as the direct fetch.
+      
+      
+      
+      
+      
+      
+      
+      
       if (req.method === "GET" && pathname.endsWith("client_startup_patch.zip")) {
         log(`local-startup-patch-zip ${req.method} ${req.url}`);
         if (!serveBinaryFile(res, "client_startup_patch.zip", "application/zip")) {
@@ -2068,12 +2104,12 @@ const loginTcpServer = net.createServer((socket) => {
     const aes = crypto.createCipheriv("aes-128-gcm", aesKey, nonce);
     const encryptedHead = Buffer.concat([aes.update(chaChaHead), aes.final(), aes.getAuthTag()]);
     const payload = Buffer.alloc(368);
-    payload.writeInt32LE(1, 0); // SessionId
-    payload.writeInt32LE(10, 4); // HeartbeatInterval
+    payload.writeInt32LE(1, 0); 
+    payload.writeInt32LE(10, 4); 
     nonce.copy(payload, 8);
     encryptedHead.copy(payload, 20);
-    // bytes 112..367 are the fixed RSA-2048 signature field. The matching
-    // private-client patch accepts the local unsigned handshake.
+    
+    
 
     const frame = uxFrame(1, payload);
     socket.write(frame);
@@ -2153,11 +2189,11 @@ const loginTcpServer = net.createServer((socket) => {
 
   function uxList(values, writeItem) {
     if (values === null || values === undefined) {
-      // SerializeObjectMark.IsNull (0) = null list
+      
       return Buffer.from([0x00]);
     }
 
-    // SerializeObjectMark.Common (255) = non-null list, then int32 count + items
+    
     const items = Array.from(values, writeItem);
     return Buffer.concat([Buffer.from([0xff]), uxI32(items.length), ...items]);
   }
@@ -2173,7 +2209,7 @@ const loginTcpServer = net.createServer((socket) => {
   function uxList7Bit(values, writeItem) {
     if (values === null || values === undefined) return Buffer.from([0x00]);
     const items = Array.from(values, writeItem);
-    // ux7BitEncodedInt is the raw varint helper; UX logical count N is wire N+1.
+    
     return Buffer.concat([Buffer.from([0xff]), ux7BitEncodedInt(items.length + 1), ...items]);
   }
 
@@ -2232,19 +2268,19 @@ const loginTcpServer = net.createServer((socket) => {
   }
 
   function checkAccountResultPayload() {
-    // NeedRoleEnter=false tells the client a character already exists.
-    // Combined with SyncRoleList(pid=100001) sent after TryLogin +
-    // CanRequestEnterGame=always-true patch, the client goes directly
-    // to RequestEnterGame without showing the Create Character panel.
+    
+    
+    
+    
     return Buffer.concat([
-      uxBool(true), // non-null CheckAccountResult object
+      uxBool(true), 
       uxString(localLoginDataJsonString()),
       uxString(LOCAL_LOGIN_TOKEN),
       uxString(LOCAL_USERNAME),
       uxI32(LOCAL_AID),
-      uxBool(false), // NeedRealNameTip
-      uxBool(false), // NeedRoleEnter: false = role exists, skip creation.
-      uxBool(true), // RealNameVerified
+      uxBool(false), 
+      uxBool(false), 
+      uxBool(true), 
       uxI32(LOCAL_SERVER_ID),
       uxString(""),
       uxI32(200),
@@ -2271,22 +2307,25 @@ const loginTcpServer = net.createServer((socket) => {
   }
 
   function enterGameDataPayload() {
-    // EnterGameData wire format (RPCSerializeAuto.lua line 2163):
-    //   Aid:Int32, Pid:UInt64, Token:Complex(TokenInfo)
-    // TokenInfo.Write (line 5199): Aid:Int32, Pid:UInt64, Ip:String, Port:Int32,
-    //   Token:String, RC4Key:String, GateServerId:Int32, AccountId:String
-    // Complex marker: 0xff (SerializeObjectMarkCommon, NOT 0x01).
+  
+  
+  refreshActiveAccount();
+    
+    
+    
+    
+    
     const pid = BigInt(LOCAL_PLAYER_PID);
     const tokenInfo = Buffer.concat([
-      Buffer.from([0xff]), // non-null TokenInfo marker (SerializeObjectMarkCommon)
-      uxI32(LOCAL_AID),                   // Aid
-      uxU64(pid),                         // Pid
-      uxString(LOCAL_LOGIN_HOST),         // Ip = 127.0.0.1
-      uxI32(LOCAL_LOGIN_TCP_PORT),        // Port = 5803 (gate)
-      uxString(LOCAL_PLAYER_TOKEN),          // Token
-      uxString(""),                       // RC4Key
-      uxI32(LOCAL_SERVER_ID),                         // GateServerId
-      uxString(LOCAL_ACCOUNT_ID),          // AccountId
+      Buffer.from([0xff]), 
+      uxI32(LOCAL_AID),                   
+      uxU64(pid),                         
+      uxString(LOCAL_LOGIN_HOST),         
+      uxI32(LOCAL_LOGIN_TCP_PORT),        
+      uxString(LOCAL_PLAYER_TOKEN),          
+      uxString(""),                       
+      uxI32(LOCAL_SERVER_ID),                         
+      uxString(LOCAL_ACCOUNT_ID),          
     ]);
 
     return Buffer.concat([
@@ -2298,18 +2337,18 @@ const loginTcpServer = net.createServer((socket) => {
 
   function hotfixPatchCheckPayload() {
     return Buffer.concat([
-      uxI32(0), // remain
-      // The callback metadata marks md5Infos as a non-null List<string>.
-      // Send an empty list to mean "no hotfix patches", not a null list.
+      uxI32(0), 
+      
+      
       uxListString7Bit([]),
     ]);
   }
 
   function newHotfixPatchDataPayload() {
     return Buffer.concat([
-      uxI32(-1), // Version: no hotfix patch available.
-      uxListBytes7Bit([]), // Content
-      uxString(""), // Md5
+      uxI32(-1), 
+      uxListBytes7Bit([]), 
+      uxString(""), 
     ]);
   }
 
@@ -2515,6 +2554,9 @@ const loginTcpServer = net.createServer((socket) => {
   }
 
   function handleRawRpc(payload) {
+  
+  
+  refreshActiveAccount();
     if (payload.length < 5) {
       log(`login-tcp rpc-short ${remote} payload=${payload.toString("hex")}`);
       return false;
@@ -2564,10 +2606,10 @@ const loginTcpServer = net.createServer((socket) => {
       const md5 = version !== null ? tryReadUxString(args, 4) : null;
       const clientVersion =
         md5 && md5.next + 4 <= args.length ? args.readInt32LE(md5.next) : null;
-      // Confirmed by Player.log: the client downloads startup hotfix patches over HTTP
-      // (trunk-client_startup_patch_info.txt -> stage0). This RPC is not the Stage1
-      // loading trigger. Returning err=20903 (NoMoreHotFixPatch) lets the client continue
-      // to the menu; returning err=0 with a struct breaks menu initialization.
+      
+      
+      
+      
       log(
         `login-tcp AskNewHotFixPatchLogin ${remote} version=${version} ` +
           `md5=${JSON.stringify(md5 && md5.value)} clientVersion=${clientVersion} ` +
@@ -2590,10 +2632,10 @@ const loginTcpServer = net.createServer((socket) => {
 
     if (methodId === RPC_METHODS.Login_RequestCreateRoleEx) {
       log(`login-tcp RequestCreateRoleEx ${remote} ${JSON.stringify(parseCreateRoleArgs(args))}`);
-      // Response: new pid (UXRPCTask<ulong>).
+      
       sendRpcReturn(methodId, invokeId, 0, uxU64(BigInt(LOCAL_PLAYER_PID)));
-      // After CreateRole, send SyncRoleList again with the newly created pid so
-      // loginRolePid points to the new character and RequestEnterGame can continue.
+      
+      
       try {
         const rolePayload = uxU64(BigInt(LOCAL_PLAYER_PID));
         const body = Buffer.alloc(5 + rolePayload.length);
@@ -2633,15 +2675,15 @@ const loginTcpServer = net.createServer((socket) => {
       log(`login-tcp TryLogin ${remote} ${JSON.stringify(parsed)}`);
       sendRpcReturn(methodId, invokeId, 0);
 
-      // After TryLogin, server pushes SyncRoleList(roleId) as Notify.
-      // SyncRoleList reader = ReadUInt64() -> a single pid, not a list.
-      //
-      // Confirmed by LoginManager.lua OnLogin: the client decides:
-      //   loginRolePid == 0      -> RequestEnterGame() (character exists, enter directly)
-      //   loginRolePid != 0      -> CheckShow(CREATE_CHARACTER_PANEL) (name prompt)
-      // Previously this sent 100001 (!=0). Ananta_ROLE_PID controls the value:
-      //   "0"      -> enter the existing character directly, without a prompt
-      //   otherwise -> that value (for example 100001) -> character creation/popup
+      
+      
+      
+      
+      
+      
+      
+      
+      
       const rolePidEnv = (process.env.Ananta_ROLE_PID ?? process.env.Ananta_ROLE_PID);
       const rolePidValue = rolePidEnv !== undefined ? BigInt(rolePidEnv) : 0n;
       if ((process.env.Ananta_NO_ROLELIST ?? process.env.Ananta_NO_ROLELIST) === "1") {
@@ -2693,26 +2735,26 @@ const loginTcpServer = net.createServer((socket) => {
     if (methodId === RPC_METHODS.Gate_Login) {
       log(`login-tcp Gate_Login ${remote} ${JSON.stringify(parseGateLoginArgs(args))}`);
 
-      // Reply to Gate_Login immediately; no timer is required.
+      
       sendRpcReturn(methodId, invokeId, 0);
       log(`login-tcp Gate_Login response sent ${remote}`);
 
-      // Routing (per RPCDeserializeBase.lua: ctx.sidToImpl[mid/1000000][midToName[mid]]):
-      //   SID 53 = GateToClientImpl  -> this Gate connection (5803)
-      //   SID 64 = GameToClientImpl  -> game-tcp/5804
-      //   SID 154 = AvatarToClientImpl -> RouteWithPid=Gate -> this Gate connection
-      // Immediately after Gate_Login, send these responses sequentially:
-      //   1. SendServerTime (SID 53) sets the server Unix time.
-      //   2. SyncPlayerGameServerInfo (SID 154) tells the client
-      //      where the game server is available (host:port + token).
-      // 1) SendServerTime (2x f64 LE = unix sec).
+      
+      
+      
+      
+      
+      
+      
+      
+      
       try {
           const nowSec = Date.now() / 1000.0;
           const stPayload = Buffer.alloc(16);
-          stPayload.writeDoubleLE(nowSec, 0);   // clientTime
-          stPayload.writeDoubleLE(nowSec, 8);   // serverTime
+          stPayload.writeDoubleLE(nowSec, 0);   
+          stPayload.writeDoubleLE(nowSec, 8);   
           const stBody = Buffer.alloc(5 + stPayload.length);
-          stBody.writeUInt8(RPC_PACKET_NOTIFY, 0); // rpcMode = Notify
+          stBody.writeUInt8(RPC_PACKET_NOTIFY, 0); 
           stBody.writeInt32LE(RPC_NOTIFIES.Gate_SendServerTime, 1);
           stPayload.copy(stBody, 5);
           const stFrame = uxFrame(9, stBody);
@@ -2722,18 +2764,18 @@ const loginTcpServer = net.createServer((socket) => {
           log(`login-tcp SendServerTime error ${remote}: ${e.message}`);
         }
 
-        // 2) SyncPlayerGameServerInfo so the client knows where
-        //    the Game-Server lives. SID 154 = AvatarToClientImpl, routed via Gate.
-        //    GameServerInfo wire format = 0xff(marker) + uxString(IP) + uxI32(Port) + uxString(Token)
+        
+        
+        
         try {
           const gameServerInfoPayload = Buffer.concat([
-            Buffer.from([0xff]),                      // common marker (struct present)
-            uxString(LOCAL_LOGIN_HOST),               // ClientListenIp = 127.0.0.1
-            uxI32(LOCAL_GAME_TCP_PORT),               // ClientListenPort = 5804
-            uxString(LOCAL_PLAYER_TOKEN),       // Token
+            Buffer.from([0xff]),                      
+            uxString(LOCAL_LOGIN_HOST),               
+            uxI32(LOCAL_GAME_TCP_PORT),               
+            uxString(LOCAL_PLAYER_TOKEN),       
           ]);
           const gsBody = Buffer.alloc(5 + gameServerInfoPayload.length);
-          gsBody.writeUInt8(RPC_PACKET_NOTIFY, 0);    // rpcMode = Notify
+          gsBody.writeUInt8(RPC_PACKET_NOTIFY, 0);    
           gsBody.writeInt32LE(RPC_NOTIFIES.Avatar_SyncPlayerGameServerInfo, 1);
           gameServerInfoPayload.copy(gsBody, 5);
           const gsFrame = uxFrame(9, gsBody);
@@ -2795,7 +2837,7 @@ const loginTcpServer = net.createServer((socket) => {
 
     if (methodId === RPC_METHODS.Game_RequestGameSceneData) {
       log(`login-tcp Game_RequestGameSceneData ${remote}`);
-      // Return empty scene data - the client will load a default/empty scene
+      
       sendRpcReturn(methodId, invokeId, 0);
       return true;
     }
@@ -2813,9 +2855,9 @@ const loginTcpServer = net.createServer((socket) => {
     }
 
     if (mode === 4) {
-      // The captured working server replies to heartbeat frames with eight zero
-      // bytes. Echoing the client timestamp keeps the socket alive briefly, but
-      // the client later resets the login connection before Play can send RPCs.
+      
+      
+      
       const heartbeatAck = Buffer.alloc(8);
       const frame = uxFrame(3, heartbeatAck);
       socket.write(frame);
@@ -2872,12 +2914,6 @@ loginTcpServer.listen(LOCAL_LOGIN_TCP_PORT, LOCAL_LOGIN_TCP_BIND_HOST, () => {
   );
 });
 
-// =============================================================================
-// Phase 1 Game-TCP listener (port 5804) - capture-only, no business logic yet.
-// We respond with the same handshake (mode=1, SessionId+HeartbeatInterval+Encryption=false)
-// so the client moves past the handshake and starts emitting Game RPC frames.
-// Every frame is hex-logged so we can see the actual Game RPC sequence.
-// =============================================================================
 const gameTcpServer = net.createServer((socket) => {
   const remote = `${socket.remoteAddress}:${socket.remotePort}`;
   let pending = Buffer.alloc(0);
@@ -2894,17 +2930,20 @@ const gameTcpServer = net.createServer((socket) => {
   }
 
   function sendGameHandshake(clientPayload) {
+  
+  
+  refreshActiveAccount();
     const aesKey = clientPayload.subarray(4, 20);
     const nonce = crypto.randomBytes(12);
     const chaChaHead = crypto.randomBytes(76);
     const aes = crypto.createCipheriv("aes-128-gcm", aesKey, nonce);
     const encryptedHead = Buffer.concat([aes.update(chaChaHead), aes.final(), aes.getAuthTag()]);
     const payload = Buffer.alloc(368);
-    // SessionId can be overridden through the environment (default 1).
-    // Ananta_GAME_SESSIONID=100001 can be used to test session-matching behavior.
+    
+    
     const sessionId = Number((process.env.Ananta_GAME_SESSIONID ?? process.env.Ananta_GAME_SESSIONID) || 1);
-    payload.writeInt32LE(sessionId, 0);   // SessionId
-    payload.writeInt32LE(10, 4);  // HeartbeatInterval seconds
+    payload.writeInt32LE(sessionId, 0);   
+    payload.writeInt32LE(10, 4);  
     nonce.copy(payload, 8);
     encryptedHead.copy(payload, 20);
     const frame = uxFrameGame(1, payload);
@@ -2936,9 +2975,9 @@ const gameTcpServer = net.createServer((socket) => {
 
       log(`game-tcp frame ${remote} mode=${mode} size=${size} payload=${payload.toString("hex")}`);
 
-      // The Game-Server handshake is identical to Login: client sends a Notify
-      // frame (mode=2) with ClientMagic + local AES key, server responds with a
-      // mode=1 S2C handshake (SessionId + HeartbeatInterval + Encryption=false).
+      
+      
+      
       if (!handshaked && mode === 2 && size >= 20) {
         const clientMagic = payload.readUInt32LE(0);
         log(`game-tcp client-magic ${remote} 0x${clientMagic.toString(16)}`);
@@ -2946,9 +2985,9 @@ const gameTcpServer = net.createServer((socket) => {
         continue;
       }
 
-      // Legacy fallback: some flows might send mode=1 directly.
-      // For RPCBegin (mode=8), we currently don't know the protocol semantics.
-      // Reply with a neutral RpcReturn so the client doesn't time out.
+      
+      
+      
       if (mode === 8 && payload.length >= 9) {
         const methodId = payload.readInt32LE(1);
         const invokeId = payload.readInt32LE(5);
@@ -2956,16 +2995,16 @@ const gameTcpServer = net.createServer((socket) => {
         ret.writeUInt8(RPC_PACKET_RETURN, 0);
         ret.writeInt32LE(methodId, 1);
         ret.writeInt32LE(invokeId, 5);
-        ret.writeUInt32LE(0, 9);               // err = 0
+        ret.writeUInt32LE(0, 9);               
         const frame = uxFrameGame(9, ret);
         socket.write(frame);
         log(`game-tcp send-rpc-return ${remote} method=${methodId} invoke=${invokeId} (stub) ${frame.toString("hex")}`);
       }
 
-      // Mode=9 with RPC_PACKET sub-mode: parse rpcMode + methodId + ...
-      // LoginGame notify contains uint64 pid + string token.
-      // We do NOT close the socket. We log and let the client's heartbeat keep the
-      // connection open. Phase 2 will send proper Init-Notifies in response.
+      
+      
+      
+      
       if (mode === 9 && payload.length >= 5) {
         const rpcMode = payload.readUInt8(0);
         const methodId = payload.readInt32LE(1);
@@ -2973,19 +3012,19 @@ const gameTcpServer = net.createServer((socket) => {
           const args = payload.subarray(5);
           log(`game-tcp client-NOTIFY ${remote} method=${methodId} args=${args.toString("hex")}`);
           if (methodId === RPC_METHODS.Game_LoginGame) {
-            // Bisection switch (env Ananta_SEND), to isolate which post-LoginGame
-            // packet is toxic vs. which the client actually waits for:
-            //   none  -> send ONLY server time; expect the client to TIME OUT (like
-            //            the reference implementations) and NOT crash. Proves the
-            //            crash is caused by one of our data packets, not the flow.
-            //   login -> server time + SyncPlayerInfo with InfoLogin only
-            //   info-item/info-spirit/info-achievement/info-minor -> cumulative
-            //            SyncPlayerInfo bisection up to that top-level Info block
-            //   info  -> server time + full autoDefault SyncPlayerInfo
-            //   task  -> server time + SyncPlayerInfo + SyncPlayerAllTask
-            //   all   -> legacy everything with empty InfoSpirit
-            //   world-solo -> automatic default: real player + one real spirit,
-            //            without the extra world-kick nudges.
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             const SEND = ((process.env.Ananta_SEND ?? process.env.Ananta_SEND) || "world-solo").toLowerCase();
             const infoModes = new Set([
               "login", "info-login",
@@ -2999,16 +3038,16 @@ const gameTcpServer = net.createServer((socket) => {
             const sendInfo = infoModes.has(SEND);
             const sendTask = SEND === "task" || SEND === "all" || worldModes.has(SEND);
             const sendScene = SEND === "all" || worldModes.has(SEND);
-            // world-fresh: new character WITHOUT a spirit (no fabricated spirit IDs).
-            // Testet ob der L50Game-Bau an den konstruierten Spirit-Daten scheitert.
+            
+            
             const useWorldSpirit = worldModes.has(SEND) && SEND !== "world-fresh" && SEND !== "world-min";
             const useWorldLoadingType = SEND === "world";
             const useWorldKick = SEND === "world";
             const postLoginDelayMs = Math.max(0, Number((process.env.Ananta_POST_LOGIN_DELAY_MS ?? process.env.Ananta_POST_LOGIN_DELAY_MS) || 350));
             log(`game-tcp client-NOTIFY ${remote} = LoginGame(pid+token) - bundle mode=${SEND} (info=${sendInfo} task=${sendTask} scene=${sendScene} loadingType=${useWorldLoadingType} kick=${useWorldKick} delay=${postLoginDelayMs}ms)`);
-            // 2026-06-06 v12: All payloads built via the schema-driven serializer
-            // (rpc_serializer.js) that mirrors the client's RPCSerializeBase.lua.
-            // We fill plain objects; the serializer produces correct bytes.
+            
+            
+            
             const PID_VALUE = LOCAL_PLAYER_PID;
             const DEFAULT_SPIRIT_TEMPLATE_ID = config.player.initialSpiritTemplateId;
             const DEFAULT_SPIRIT_INSTANCE_ID = PID_VALUE;
@@ -3019,9 +3058,9 @@ const gameTcpServer = net.createServer((socket) => {
               const body = Buffer.concat([Buffer.from([RPC_PACKET_NOTIFY]), int32le(mid), payload]);
               return uxFrameGame(9, body);
             };
-            // Experiment: send SyncPlayerInfo as INVOKE (rpcMode=1) instead of Notify
-            // to bypass Lua notify routing and exercise the native dispatcher.
-            // Invoke-Frame: [rpcMode=1][int32 mid][int32 invokeId][payload]
+            
+            
+            
             const FORCE_INVOKE = ((process.env.Ananta_PLAYERINFO_INVOKE ?? process.env.Ananta_PLAYERINFO_INVOKE) === "1");
             const invoke = (mid, invokeId, payload) => {
               const body = Buffer.concat([Buffer.from([RPC_PACKET_INVOKE]), int32le(mid), int32le(invokeId), payload]);
@@ -3033,7 +3072,7 @@ const gameTcpServer = net.createServer((socket) => {
             function boolByte(v){ return Buffer.from([v ? 1 : 0]); }
             function doublele(n){ const b=Buffer.alloc(8); b.writeDoubleLE(Number(n),0); return b; }
 
-            // (1) SendServerTimeGame - two doubles, no nesting
+            
             const stPayload = Buffer.alloc(16);
             stPayload.writeDoubleLE(nowSec, 0);
             stPayload.writeDoubleLE(nowSec, 8);
@@ -3042,23 +3081,23 @@ const gameTcpServer = net.createServer((socket) => {
               log(`game-tcp send-SendServerTimeGame ${remote} t=${nowSec.toFixed(3)}`);
             } catch (e) { log(`game-tcp SendServerTimeGame error: ${e.message}`); }
 
-            // (2) SyncPlayerInfo -> PlayerClientInfo
-            //  A real server NEVER sends a player with null sub-structs. The client
-            //  (InitPlayerInfo + many PlayerData modules) immediately dereferences
-            //  fields like InfoMinor.InfoNpcProfile.NpcProfiles right after this
-            //  notify - a null there is a hard nil-deref that crashes the Lua VM
-            //  (tolua.dll access violation; isolated via bisection 2026-06-07).
-            //
-            //  So we build the ENTIRE PlayerClientInfo fully-present via the
-            //  schema-driven autoDefault(): every complex sub-object exists, every
-            //  list/dict is present-empty, every primitive is 0. Then we overlay the
-            //  real identity values. This is exactly what a fresh level-1 role looks
-            //  like on a real server - zero nulls anywhere.
-            //  REAL-WRITER PATH: build the object with the REAL field names from
-            //  RPCSerializeAuto.lua and let the actual client serializer (executed
-            //  in a Lua VM) produce the bytes. Empty lists are passed as null/omitted;
-            //  the real WriteList writes them as present-empty exactly like the
-            //  official server. No hand-built schema, no byte guessing.
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             const baseInfoLogin = {
               Aid: LOCAL_AID,
               Pid: PID_VALUE,
@@ -3068,9 +3107,9 @@ const gameTcpServer = net.createServer((socket) => {
               Sex: 1,
               PzHeadInfo: { HeadType: 0, SystemHeadId: 0 },
             };
-            // Minimal payload experiment: only the three required fields used by the
-            // L50Game constructor (AccountId/Pid/Aid). Complex info blocks stay present
-            // but empty, with no spirit, to isolate payload compatibility issues.
+            
+            
+            
             const minInfoLogin = {
               Aid: LOCAL_AID,
               Pid: PID_VALUE,
@@ -3083,19 +3122,19 @@ const gameTcpServer = net.createServer((socket) => {
               "info-minor": 4, minor: 4,
             }[SEND] || 0;
             let playerInfoVariant = "login-only";
-            // A real server sends a fresh player with ALL Info blocks PRESENT
-            // (never null). The real writer fills every nested field with its
-            // default, exactly like a freshly created level-1 character. Passing
-            // {} = present-with-defaults; passing null = absent (which makes the
-            // Lua SyncPlayerInfoProxy handlers deref nil and abort).
+            
+            
+            
+            
+            
             let playerInfoObj = { Config: null, InfoLogin: baseInfoLogin, InfoItem: {}, InfoSpirit: {}, InfoMinor: {}, InfoAchievement: {} };
             if (SEND === "world-min") {
-              // Minimal payload: required fields only, with all complex blocks present but empty.
+              
               playerInfoVariant = "world-min";
               playerInfoObj = { Config: null, InfoLogin: minInfoLogin, InfoItem: {}, InfoSpirit: {}, InfoMinor: {}, InfoAchievement: {} };
             } else if (SEND === "world-null") {
-              // Null-block test: mark complex sub-blocks as absent (null -> 0x00) so the
-              // parser does not attempt to read empty present blocks.
+              
+              
               playerInfoVariant = "world-null";
               playerInfoObj = {
                 Config: null,
@@ -3110,7 +3149,7 @@ const gameTcpServer = net.createServer((socket) => {
               if (useWorldSpirit) {
                 playerInfoVariant = "world-spirit-realwriter";
                 playerInfoObj.InfoSpirit = {
-                  // Spirits: list of SpiritInfo (real field names from WriteSpiritInfo)
+                  
                   Spirits: [{
                     Id: DEFAULT_SPIRIT_INSTANCE_ID,
                     TemplateId: DEFAULT_SPIRIT_TEMPLATE_ID,
@@ -3122,7 +3161,7 @@ const gameTcpServer = net.createServer((socket) => {
                     PermanentAddAttributes: null,
                     InfoBadge: null,
                     MobileSkinInfo: null,
-                    WeaponSlots: [],      // present-empty list (Chef-Fix: explizit [] statt null)
+                    WeaponSlots: [],      
                     EverSwitched: true,
                     CurrentJobId: 0,
                     SpiritBattleInfo: null,
@@ -3152,12 +3191,12 @@ const gameTcpServer = net.createServer((socket) => {
               if (infoBisectRank >= 3) playerInfoObj.InfoAchievement = {};
               if (infoBisectRank >= 4) playerInfoObj.InfoMinor = {};
             }
-            // ============================================================
-            // REQUEST-DRIVEN FLOW (2026-06-09): SyncPlayerInfo and SyncPlayerAllTask
-            // are sent immediately and sequentially after the client's LoginGame notify.
-            // The scene bundle is handled by the scene-ready flow below.
-            // ============================================================
-            // (2) SyncPlayerInfo -> PlayerClientInfo
+            
+            
+            
+            
+            
+            
             if (sendInfo) {
               try {
                 const buf = LuaWriter.serializeComplexByRef("78", playerInfoObj);
@@ -3173,9 +3212,9 @@ const gameTcpServer = net.createServer((socket) => {
               log(`game-tcp SKIP SyncPlayerInfo (bisect mode)`);
             }
 
-            // (3) SyncPlayerAllTask - reader has its own schema
-            //  Reader fields: taskInfos[], submitTaskList[], submitEventList[],
-            //  currentTask u32, eventPanelInfo complex[39], eventViewInfoList[], loginGameServer bool
+            
+            
+            
             if (sendTask) {
               try {
                 const buf = buildSyncPlayerAllTask();
@@ -3186,9 +3225,9 @@ const gameTcpServer = net.createServer((socket) => {
               log(`game-tcp SKIP SyncPlayerAllTask (bisect mode)`);
             }
 
-            // (4) SyncEnterScene -> EnterSceneInfo. REAL-WRITER path:
-            // real field names from WriteEnterSceneInfo, serialized by the actual
-            // client serializer in the Lua VM.
+            
+            
+            
             const WORLD_MAP_RAID_ID = config.world.raidId;
             const enterSceneObj = {
               PlayerSessionId: PID_VALUE,
@@ -3214,13 +3253,13 @@ const gameTcpServer = net.createServer((socket) => {
             };
             socket._pendingEnterScene = enterSceneObj;
 
-            // (4) SyncEnterScene belongs in the direct LoginGame response, sequentially
-            // after SyncPlayerAllTask. The client reacts to SyncEnterScene before it can
-            // emit RequestGameSceneData, so do not wait on that request first.
+            
+            
+            
             if (sendScene) {
-              // Timing hardening: SyncEnterScene may be delayed for compatibility.
-              // Delay scene entry long enough for the native game object to be created
-              // before the scene-entry gate checks that the game object is available.
+              
+              
+              
               const sceneDelayMs = Math.max(0, Number((process.env.Ananta_SCENE_DELAY_MS ?? process.env.Ananta_SCENE_DELAY_MS) || 1500));
               const sendSceneNow = () => {
                 try {
@@ -3228,9 +3267,9 @@ const gameTcpServer = net.createServer((socket) => {
                   socket.write(notify(RPC_NOTIFIES.Game_SyncEnterScene, sceneBuf));
                   log(`game-tcp send-SyncEnterScene(realwriter delay=${sceneDelayMs}ms) ${remote} ${sceneBuf.length}b raid=${enterSceneObj.RaidId} [reply-to-LoginGame]`);
                 } catch (e) { log(`game-tcp SyncEnterScene error: ${e.message}`); }
-                // Observed on 2026-06-10: this client build does not send
-                // RequestGameSceneData over the network. Send the required scene follow-up
-                // packets proactively after SyncEnterScene so world loading can complete.
+                
+                
+                
                 const proactive = (process.env.Ananta_PROACTIVE_FOLLOWUP ?? process.env.Ananta_PROACTIVE_FOLLOWUP) !== "0";
                 if (proactive) {
                   const fuDelay = Math.max(0, Number((process.env.Ananta_FOLLOWUP_DELAY_MS ?? process.env.Ananta_FOLLOWUP_DELAY_MS) || 800));
@@ -3253,18 +3292,18 @@ const gameTcpServer = net.createServer((socket) => {
               log(`game-tcp SKIP SyncEnterScene (bisect mode)`);
             }
 
-            // Scene follow-up packets may be sent by the request-driven path when the
-            // client emits RequestGameSceneData.
+            
+            
             socket._sceneFollowupSent = false;
             socket._sendSceneFollowup = (trigger, force) => {
-              // In world-solo mode, the proactive path uses force=true because the
-              // normal world-kick guard would otherwise suppress CurrentSpirit,
-              // LoadRate, and WorldReady follow-up packets.
+              
+              
+              
               if (!sendScene) return;
               if (!force && !useWorldKick) return;
               if (socket._sceneFollowupSent) return;
               socket._sceneFollowupSent = true;
-              // (5) SyncPlayerCurrentSpirit
+              
               try {
                 const currentSpiritBuf = Buffer.concat([
                   uint64le(PID_VALUE),
@@ -3275,7 +3314,7 @@ const gameTcpServer = net.createServer((socket) => {
                 socket.write(notify(RPC_NOTIFIES.GameScene_SyncPlayerCurrentSpirit, currentSpiritBuf));
                 log(`game-tcp send-SyncPlayerCurrentSpirit ${remote} pid=${PID_VALUE} ${currentSpiritBuf.length}b [reply-to-${trigger}]`);
               } catch (e) { log(`game-tcp SyncPlayerCurrentSpirit error: ${e.message}`); }
-              // (6) SyncPlayerLoadRate
+              
               try {
                 const loadRateBuf = Buffer.concat([
                   uint64le(PID_VALUE),
@@ -3284,16 +3323,16 @@ const gameTcpServer = net.createServer((socket) => {
                 socket.write(notify(RPC_NOTIFIES.GameScene_SyncPlayerLoadRate, loadRateBuf));
                 log(`game-tcp send-SyncPlayerLoadRate ${remote} pid=${PID_VALUE} rate=1 ${loadRateBuf.length}b`);
               } catch (e) { log(`game-tcp SyncPlayerLoadRate error: ${e.message}`); }
-              // (7) SyncWorldReady (GameScene sid 68) - LuaOnly,
-              // empty-reader "world is ready" trigger, sent last.
+              
+              
               try {
                 socket.write(notify(RPC_NOTIFIES.GameScene_SyncWorldReady, Buffer.alloc(0)));
                 log(`game-tcp send-SyncWorldReady ${remote} 0b-payload`);
               } catch (e) { log(`game-tcp SyncWorldReady error: ${e.message}`); }
             };
           } else if (methodId === RPC_METHODS.Game_RequestGameSceneData) {
-            // The client signals that it is ready for scene data after SyncEnterScene.
-            // Confirm scene entry again and send the scene follow-up packets.
+            
+            
             log(`game-tcp client-NOTIFY ${remote} = RequestGameSceneData -> scene followup (request-driven)`);
             try {
               const enterSceneObj = socket._pendingEnterScene || {
@@ -3312,8 +3351,8 @@ const gameTcpServer = net.createServer((socket) => {
             } catch (e) {
               log(`game-tcp SyncEnterScene(on-request) error ${remote}: ${e.message}`);
             }
-            // Send CurrentSpirit, LoadRate, and WorldReady as the response to the
-            // client's scene-ready signal.
+            
+            
             if (typeof socket._sendSceneFollowup === "function") {
               socket._sendSceneFollowup("RequestGameSceneData");
             }
@@ -3323,8 +3362,8 @@ const gameTcpServer = net.createServer((socket) => {
             const time = args.length >= 12 ? args.readUInt32LE(8) : null;
             log(`game-tcp client-NOTIFY ${remote} = AskPanelBrowsingTime panelId=${panelId} logicId=${logicId} time=${time} (no reply)`);
           } else {
-            // Diagnostic logging for every unknown client notify, including method name
-            // and service ID (floor(mid/1e6)), to identify unhandled world-loading traffic.
+            
+            
             const svc = Math.floor(methodId / 1000000);
             log(`game-tcp client-NOTIFY ${remote} method=${methodId} name=${rpcMethodName(methodId)} sid=${svc} args=${args.slice(0,32).toString("hex")} (UNHANDLED-NOTIFY)`);
           }
@@ -3332,7 +3371,7 @@ const gameTcpServer = net.createServer((socket) => {
           const invokeId = payload.readInt32LE(5);
           const args = payload.subarray(9);
           log(`game-tcp client-INVOKE ${remote} method=${methodId} invoke=${invokeId} args=${args.toString("hex")}`);
-          // Stub-return so the client doesn't time out.
+          
           const ret = Buffer.alloc(13);
           ret.writeUInt8(RPC_PACKET_RETURN, 0);
           ret.writeInt32LE(methodId, 1);
@@ -3344,7 +3383,7 @@ const gameTcpServer = net.createServer((socket) => {
         }
       }
 
-      // 4229938 heartbeat: C2S=4, S2C=3.
+      
       if (mode === 4) {
         const echo = uxFrameGame(3, payload);
         socket.write(echo);
@@ -3368,17 +3407,8 @@ gameTcpServer.listen(LOCAL_GAME_TCP_PORT, LOCAL_LOGIN_TCP_BIND_HOST, () => {
   );
 });
 
-// =============================================================================
-// GameScene compatibility sub-server. The listening port comes from private-server.json.
-// After L50Game is built, the client connection is redirected to this local listener. We answer the same UX
-// 4229938 handshake (mode=2 -> mode=1) and RPC Raw mode=9.
-// and log every frame to learn the GameScene (sid 68) protocol.
-// =============================================================================
 const SCENE_SUB_PORT = config.network.proxy.sceneSubPort;
-// The client sends HTTP-style /roadsign requests on this compatibility listener.
-// Das ist ein NetEase AOI/Scene-Routing-Dienst ("roadsign"). Wir antworten als
-// HTTP server. Keep responses minimal (empty JSON/OK) until the expected
-// Format aus der vollen Anfrage kennen.
+
 const sceneSubServer = net.createServer((socket) => {
   const remote = `${socket.remoteAddress}:${socket.remotePort}`;
   let pending = Buffer.alloc(0);
@@ -3388,15 +3418,15 @@ const sceneSubServer = net.createServer((socket) => {
     pending = Buffer.concat([pending, chunk]);
     const text = pending.toString("utf8");
     log(`scene-sub recv ${remote} ${chunk.length}b FULL=${JSON.stringify(text.slice(0, 400))}`);
-    // Warte auf Ende der HTTP-Header (\r\n\r\n)
+    
     const headerEnd = text.indexOf("\r\n\r\n");
     if (headerEnd === -1) return;
     const reqLine = text.split("\r\n")[0];
     log(`scene-sub HTTP request: ${reqLine}`);
-    // roadsign = In-Game-Schilder-System (LX6.RoadSign.RoadSignManager). Der
-    // the native C# parser expects a LIST of signs. An empty object {}
-    // wirft InvalidCast -> Scene-Load-Coroutine stirbt lautlos -> ANR.
-    // Daher: data als leeres ARRAY liefern. Per ENV umstellbar fuer Varianten.
+    
+    
+    
+    
     const variant = (process.env.Ananta_ROADSIGN ?? process.env.Ananta_ROADSIGN) || "array";
     let bodyObj;
     if (variant === "listobj") bodyObj = { code: 0, ret: 0, errno: 0, msg: "ok", data: { list: [], signs: [] } };

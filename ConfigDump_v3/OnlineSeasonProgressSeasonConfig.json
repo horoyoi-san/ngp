@@ -1,0 +1,68 @@
+{
+  "_class": "OnlineSeasonProgressSeasonConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 2,
+  "records": [
+    {
+      "Id": 100001,
+      "Name": "赛季历程",
+      "ProgressId": 0,
+      "TaskSchemes": [
+        1001,
+        1002,
+        1003,
+        1004,
+        1006
+      ],
+      "MaxProgress": 0,
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "赛季历程",
+      "StartTime": {
+        "year": 2026,
+        "month": 3,
+        "day": 31,
+        "hour": 0,
+        "minute": 0,
+        "second": 0
+      },
+      "EndTime": {
+        "year": 2027,
+        "month": 6,
+        "day": 30,
+        "hour": 23,
+        "minute": 59,
+        "second": 59
+      }
+    },
+    {
+      "Id": 100002,
+      "Name": "测试赛季2",
+      "ProgressId": 0,
+      "TaskSchemes": [
+        1007
+      ],
+      "MaxProgress": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "测试赛季2",
+      "StartTime": {
+        "year": 2029,
+        "month": 10,
+        "day": 1,
+        "hour": 0,
+        "minute": 0,
+        "second": 0
+      },
+      "EndTime": {
+        "year": 2029,
+        "month": 12,
+        "day": 30,
+        "hour": 23,
+        "minute": 59,
+        "second": 59
+      }
+    }
+  ],
+  "_dumpedCount": 2,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

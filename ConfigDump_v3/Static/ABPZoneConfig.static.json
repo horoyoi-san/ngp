@@ -1,0 +1,1929 @@
+{
+  "NoneCfg": null,
+  "WalkCfg": {
+    "Id": 10,
+    "Name": "Walk",
+    "ZoneCategory": 1,
+    "GameplayTag": 536
+  },
+  "RunCfg": {
+    "Id": 11,
+    "Name": "Run",
+    "ZoneCategory": 1,
+    "GameplayTag": 534
+  },
+  "IdleCfg": {
+    "Id": 12,
+    "Name": "Idle",
+    "ZoneCategory": 1,
+    "GameplayTag": 531
+  },
+  "RushCfg": {
+    "Id": 13,
+    "Name": "Rush",
+    "ZoneCategory": 1,
+    "GameplayTag": 538
+  },
+  "FleeCfg": {
+    "Id": 200,
+    "Name": "Flee",
+    "ZoneCategory": 1,
+    "GameplayTag": 0
+  },
+  "FearWalkCfg": {
+    "Id": 201,
+    "Name": "FearWalk",
+    "ZoneCategory": 1,
+    "GameplayTag": 0
+  },
+  "ScurryMoveCfg": {
+    "Id": 202,
+    "Name": "ScurryMove",
+    "ZoneCategory": 1,
+    "GameplayTag": 0
+  },
+  "GroundOldCfg": {
+    "Id": 14,
+    "Name": "GroundOld",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "P_NoneCfg": {
+    "Id": 1000,
+    "Name": "P_None",
+    "ZoneCategory": 2,
+    "GameplayTag": 0
+  },
+  "P_IdleCfg": {
+    "Id": 1001,
+    "Name": "P_Idle",
+    "ZoneCategory": 2,
+    "GameplayTag": 532
+  },
+  "P_CrouchCfg": {
+    "Id": 1002,
+    "Name": "P_Crouch",
+    "ZoneCategory": 2,
+    "GameplayTag": 558
+  },
+  "P_JumpCfg": {
+    "Id": 1003,
+    "Name": "P_Jump",
+    "ZoneCategory": 2,
+    "GameplayTag": 546
+  },
+  "P_WalkCfg": {
+    "Id": 1004,
+    "Name": "P_Walk",
+    "ZoneCategory": 2,
+    "GameplayTag": 537
+  },
+  "P_RunCfg": {
+    "Id": 1005,
+    "Name": "P_Run",
+    "ZoneCategory": 2,
+    "GameplayTag": 535
+  },
+  "P_RushCfg": {
+    "Id": 1006,
+    "Name": "P_Rush",
+    "ZoneCategory": 2,
+    "GameplayTag": 539
+  },
+  "P_ClimbRunCfg": {
+    "Id": 1007,
+    "Name": "P_ClimbRun",
+    "ZoneCategory": 2,
+    "GameplayTag": 562
+  },
+  "P_ClimbStayCfg": {
+    "Id": 1008,
+    "Name": "P_ClimbStay",
+    "ZoneCategory": 2,
+    "GameplayTag": 563
+  },
+  "P_SwingCfg": {
+    "Id": 1009,
+    "Name": "P_Swing",
+    "ZoneCategory": 2,
+    "GameplayTag": 550
+  },
+  "P_FeisuoCfg": {
+    "Id": 1010,
+    "Name": "P_Feisuo",
+    "ZoneCategory": 2,
+    "GameplayTag": 551
+  },
+  "P_SlideRailCfg": {
+    "Id": 1011,
+    "Name": "P_SlideRail",
+    "ZoneCategory": 2,
+    "GameplayTag": 0
+  },
+  "P_FallCfg": {
+    "Id": 1012,
+    "Name": "P_Fall",
+    "ZoneCategory": 2,
+    "GameplayTag": 548
+  },
+  "P_FaithLeapCfg": {
+    "Id": 1013,
+    "Name": "P_FaithLeap",
+    "ZoneCategory": 2,
+    "GameplayTag": 549
+  },
+  "P_ClimbSlowCfg": {
+    "Id": 1014,
+    "Name": "P_ClimbSlow",
+    "ZoneCategory": 2,
+    "GameplayTag": 564
+  },
+  "P_AirRushCfg": {
+    "Id": 1015,
+    "Name": "P_AirRush",
+    "ZoneCategory": 2,
+    "GameplayTag": 554
+  },
+  "P_SwingOutCfg": {
+    "Id": 1016,
+    "Name": "P_SwingOut",
+    "ZoneCategory": 2,
+    "GameplayTag": 552
+  },
+  "P_xuliIdleCfg": {
+    "Id": 1017,
+    "Name": "P_xuliIdle",
+    "ZoneCategory": 2,
+    "GameplayTag": 0
+  },
+  "P_ClimbSlowStayCfg": {
+    "Id": 1018,
+    "Name": "P_ClimbSlowStay",
+    "ZoneCategory": 2,
+    "GameplayTag": 565
+  },
+  "P_MotorbikeIdleCfg": {
+    "Id": 1019,
+    "Name": "P_MotorbikeIdle",
+    "ZoneCategory": 2,
+    "GameplayTag": 568
+  },
+  "P_CliffStayCfg": {
+    "Id": 1020,
+    "Name": "P_CliffStay",
+    "ZoneCategory": 2,
+    "GameplayTag": 0
+  },
+  "P_CrouchRunCfg": {
+    "Id": 1021,
+    "Name": "P_CrouchRun",
+    "ZoneCategory": 2,
+    "GameplayTag": 559
+  },
+  "P_JumpEndCfg": {
+    "Id": 1022,
+    "Name": "P_JumpEnd",
+    "ZoneCategory": 2,
+    "GameplayTag": 547
+  },
+  "P_SwimCfg": {
+    "Id": 1023,
+    "Name": "P_Swim",
+    "ZoneCategory": 2,
+    "GameplayTag": 25
+  },
+  "P_DriveCfg": {
+    "Id": 1024,
+    "Name": "P_Drive",
+    "ZoneCategory": 2,
+    "GameplayTag": 566
+  },
+  "P_MotoCfg": {
+    "Id": 1025,
+    "Name": "P_Moto",
+    "ZoneCategory": 2,
+    "GameplayTag": 569
+  },
+  "P_CoiledrushCfg": {
+    "Id": 1026,
+    "Name": "P_Coiledrush",
+    "ZoneCategory": 2,
+    "GameplayTag": 544
+  },
+  "P_OpenPhoneCfg": {
+    "Id": 1027,
+    "Name": "P_OpenPhone",
+    "ZoneCategory": 2,
+    "GameplayTag": 750
+  },
+  "P_ShowActionCfg": {
+    "Id": 1028,
+    "Name": "P_ShowAction",
+    "ZoneCategory": 2,
+    "GameplayTag": 533
+  },
+  "P_LHoldCfg": {
+    "Id": 1029,
+    "Name": "P_LHold",
+    "ZoneCategory": 2,
+    "GameplayTag": 0
+  },
+  "P_CBHoldCfg": {
+    "Id": 1030,
+    "Name": "P_CBHold",
+    "ZoneCategory": 2,
+    "GameplayTag": 0
+  },
+  "P_DHoldCfg": {
+    "Id": 1031,
+    "Name": "P_DHold",
+    "ZoneCategory": 2,
+    "GameplayTag": 0
+  },
+  "P_OpenPhoneCarCfg": {
+    "Id": 1032,
+    "Name": "P_OpenPhoneCar",
+    "ZoneCategory": 2,
+    "GameplayTag": 751
+  },
+  "P_HoldEnemyWeaponCfg": {
+    "Id": 1033,
+    "Name": "P_HoldEnemyWeapon",
+    "ZoneCategory": 2,
+    "GameplayTag": 850
+  },
+  "P_JiaoHuCfg": {
+    "Id": 1034,
+    "Name": "P_JiaoHu",
+    "ZoneCategory": 2,
+    "GameplayTag": 753
+  },
+  "P_WalkPhoneCfg": {
+    "Id": 1035,
+    "Name": "P_WalkPhone",
+    "ZoneCategory": 2,
+    "GameplayTag": 752
+  },
+  "P_HoldBlendCfg": {
+    "Id": 1036,
+    "Name": "P_HoldBlend",
+    "ZoneCategory": 2,
+    "GameplayTag": 756
+  },
+  "P_MagnetCfg": {
+    "Id": 1037,
+    "Name": "P_Magnet",
+    "ZoneCategory": 2,
+    "GameplayTag": 757
+  },
+  "P_CarShootCfg": {
+    "Id": 1038,
+    "Name": "P_CarShoot",
+    "ZoneCategory": 2,
+    "GameplayTag": 593
+  },
+  "P_CrouchMagnetCfg": {
+    "Id": 1039,
+    "Name": "P_CrouchMagnet",
+    "ZoneCategory": 2,
+    "GameplayTag": 560
+  },
+  "P_SitCfg": {
+    "Id": 1040,
+    "Name": "P_Sit",
+    "ZoneCategory": 2,
+    "GameplayTag": 576
+  },
+  "P_NormalShootCfg": {
+    "Id": 1041,
+    "Name": "P_NormalShoot",
+    "ZoneCategory": 2,
+    "GameplayTag": 0
+  },
+  "P_PipeCfg": {
+    "Id": 1042,
+    "Name": "P_Pipe",
+    "ZoneCategory": 2,
+    "GameplayTag": 592
+  },
+  "P_CrouchHoldCfg": {
+    "Id": 1043,
+    "Name": "P_CrouchHold",
+    "ZoneCategory": 2,
+    "GameplayTag": 561
+  },
+  "P_SlideCfg": {
+    "Id": 1044,
+    "Name": "P_Slide",
+    "ZoneCategory": 2,
+    "GameplayTag": 763
+  },
+  "P_SlowCoiledJumpCfg": {
+    "Id": 1045,
+    "Name": "P_SlowCoiledJump",
+    "ZoneCategory": 2,
+    "GameplayTag": 545
+  },
+  "P_BasWithBallCfg": {
+    "Id": 1046,
+    "Name": "P_BasWithBall",
+    "ZoneCategory": 2,
+    "GameplayTag": 570
+  },
+  "P_BasWithoutBallCfg": {
+    "Id": 1047,
+    "Name": "P_BasWithoutBall",
+    "ZoneCategory": 2,
+    "GameplayTag": 571
+  },
+  "P_WingsuitFlyCfg": {
+    "Id": 1048,
+    "Name": "P_WingsuitFly",
+    "ZoneCategory": 2,
+    "GameplayTag": 555
+  },
+  "P_RushBackCfg": {
+    "Id": 1049,
+    "Name": "P_RushBack",
+    "ZoneCategory": 2,
+    "GameplayTag": 540
+  },
+  "P_PrototypeFlyCfg": {
+    "Id": 1050,
+    "Name": "P_PrototypeFly",
+    "ZoneCategory": 2,
+    "GameplayTag": 557
+  },
+  "P_FloatFlightCfg": {
+    "Id": 1051,
+    "Name": "P_FloatFlight",
+    "ZoneCategory": 2,
+    "GameplayTag": 556
+  },
+  "P_bartendCfg": {
+    "Id": 1052,
+    "Name": "P_bartend",
+    "ZoneCategory": 2,
+    "GameplayTag": 759
+  },
+  "P_MultiInteractCfg": {
+    "Id": 1053,
+    "Name": "P_MultiInteract",
+    "ZoneCategory": 2,
+    "GameplayTag": 780
+  },
+  "P_ProwlCfg": {
+    "Id": 1054,
+    "Name": "P_Prowl",
+    "ZoneCategory": 2,
+    "GameplayTag": 541
+  },
+  "P_DiveCfg": {
+    "Id": 1055,
+    "Name": "P_Dive",
+    "ZoneCategory": 2,
+    "GameplayTag": 567
+  },
+  "P_TakeGoodsCfg": {
+    "Id": 1056,
+    "Name": "P_TakeGoods",
+    "ZoneCategory": 2,
+    "GameplayTag": 851
+  },
+  "P_HasEarphoneCfg": {
+    "Id": 1057,
+    "Name": "P_HasEarphone",
+    "ZoneCategory": 2,
+    "GameplayTag": 0
+  },
+  "P_JiaoHu02Cfg": {
+    "Id": 1058,
+    "Name": "P_JiaoHu02",
+    "ZoneCategory": 2,
+    "GameplayTag": 754
+  },
+  "P_CoopMoveCfg": {
+    "Id": 1059,
+    "Name": "P_CoopMove",
+    "ZoneCategory": 2,
+    "GameplayTag": 0
+  },
+  "P_TwoHandsTakeGoodsCfg": {
+    "Id": 1060,
+    "Name": "P_TwoHandsTakeGoods",
+    "ZoneCategory": 2,
+    "GameplayTag": 0
+  },
+  "P_BasCatchBallCfg": {
+    "Id": 1061,
+    "Name": "P_BasCatchBall",
+    "ZoneCategory": 2,
+    "GameplayTag": 572
+  },
+  "P_KillingCfg": {
+    "Id": 1062,
+    "Name": "P_Killing",
+    "ZoneCategory": 2,
+    "GameplayTag": 574
+  },
+  "P_ParkSwingCfg": {
+    "Id": 1063,
+    "Name": "P_ParkSwing",
+    "ZoneCategory": 2,
+    "GameplayTag": 762
+  },
+  "P_bengchuangCfg": {
+    "Id": 1064,
+    "Name": "P_bengchuang",
+    "ZoneCategory": 2,
+    "GameplayTag": 764
+  },
+  "P_NewTakeGoodsCfg": {
+    "Id": 1065,
+    "Name": "P_NewTakeGoods",
+    "ZoneCategory": 2,
+    "GameplayTag": 0
+  },
+  "P_NoWeaponIdleCfg": {
+    "Id": 1066,
+    "Name": "P_NoWeaponIdle",
+    "ZoneCategory": 2,
+    "GameplayTag": 857
+  },
+  "P_FeiSuoInteractiveCfg": {
+    "Id": 1067,
+    "Name": "P_FeiSuoInteractive",
+    "ZoneCategory": 2,
+    "GameplayTag": 755
+  },
+  "P_DodgeStateCfg": {
+    "Id": 1068,
+    "Name": "P_DodgeState",
+    "ZoneCategory": 2,
+    "GameplayTag": 900
+  },
+  "P_ReloadWeaponCfg": {
+    "Id": 1069,
+    "Name": "P_ReloadWeapon",
+    "ZoneCategory": 2,
+    "GameplayTag": 0
+  },
+  "P_FeisuoJumpCfg": {
+    "Id": 1070,
+    "Name": "P_FeisuoJump",
+    "ZoneCategory": 2,
+    "GameplayTag": 553
+  },
+  "P_SwimJumpCfg": {
+    "Id": 1071,
+    "Name": "P_SwimJump",
+    "ZoneCategory": 2,
+    "GameplayTag": 542
+  },
+  "P_MultiInteractQuestStealthCfg": {
+    "Id": 1072,
+    "Name": "P_MultiInteractQuestStealth",
+    "ZoneCategory": 2,
+    "GameplayTag": 781
+  },
+  "P_GuitarCfg": {
+    "Id": 1073,
+    "Name": "P_Guitar",
+    "ZoneCategory": 2,
+    "GameplayTag": 760
+  },
+  "P_MultiInteractQuestStealthTraversalCfg": {
+    "Id": 1074,
+    "Name": "P_MultiInteractQuestStealthTraversal",
+    "ZoneCategory": 2,
+    "GameplayTag": 782
+  },
+  "P_MultiInteract_PoliceCfg": {
+    "Id": 1075,
+    "Name": "P_MultiInteract_Police",
+    "ZoneCategory": 2,
+    "GameplayTag": 783
+  },
+  "P_Jiaohu_WeaponCfg": {
+    "Id": 1076,
+    "Name": "P_Jiaohu_Weapon",
+    "ZoneCategory": 2,
+    "GameplayTag": 0
+  },
+  "P_PoleVaultCfg": {
+    "Id": 1077,
+    "Name": "P_PoleVault",
+    "ZoneCategory": 2,
+    "GameplayTag": 765
+  },
+  "P_TreadBambooCfg": {
+    "Id": 1078,
+    "Name": "P_TreadBamboo",
+    "ZoneCategory": 2,
+    "GameplayTag": 766
+  },
+  "P_StiltsCfg": {
+    "Id": 1079,
+    "Name": "P_Stilts",
+    "ZoneCategory": 2,
+    "GameplayTag": 767
+  },
+  "P_RapidSwimCfg": {
+    "Id": 1080,
+    "Name": "P_RapidSwim",
+    "ZoneCategory": 2,
+    "GameplayTag": 543
+  },
+  "P_KillingJumpCfg": {
+    "Id": 1081,
+    "Name": "P_KillingJump",
+    "ZoneCategory": 2,
+    "GameplayTag": 575
+  },
+  "P_FootBallCfg": {
+    "Id": 1082,
+    "Name": "P_FootBall",
+    "ZoneCategory": 2,
+    "GameplayTag": 573
+  },
+  "P_FootBallOffBallCfg": {
+    "Id": 1083,
+    "Name": "P_FootBallOffBall",
+    "ZoneCategory": 2,
+    "GameplayTag": 0
+  },
+  "P_NoPhoneCfg": {
+    "Id": 1084,
+    "Name": "P_NoPhone",
+    "ZoneCategory": 2,
+    "GameplayTag": 0
+  },
+  "P_AgainstWallCfg": {
+    "Id": 1085,
+    "Name": "P_AgainstWall",
+    "ZoneCategory": 2,
+    "GameplayTag": 0
+  },
+  "P_DogJumpCfg": {
+    "Id": 1086,
+    "Name": "P_DogJump",
+    "ZoneCategory": 2,
+    "GameplayTag": 0
+  },
+  "P_WallFilmingCfg": {
+    "Id": 1087,
+    "Name": "P_WallFilming",
+    "ZoneCategory": 2,
+    "GameplayTag": 0
+  },
+  "P_SummonActCfg": {
+    "Id": 1088,
+    "Name": "P_SummonAct",
+    "ZoneCategory": 2,
+    "GameplayTag": 0
+  },
+  "P_ShoulderPoleMoveCfg": {
+    "Id": 1090,
+    "Name": "P_ShoulderPoleMove",
+    "ZoneCategory": 2,
+    "GameplayTag": 595
+  },
+  "P_ShoulderPoleIdleCfg": {
+    "Id": 1089,
+    "Name": "P_ShoulderPoleIdle",
+    "ZoneCategory": 2,
+    "GameplayTag": 594
+  },
+  "P_AutomatedCfg": {
+    "Id": 1995,
+    "Name": "P_Automated",
+    "ZoneCategory": 2,
+    "GameplayTag": 856
+  },
+  "P_GamePlayCfg": {
+    "Id": 1996,
+    "Name": "P_GamePlay",
+    "ZoneCategory": 2,
+    "GameplayTag": 758
+  },
+  "P_SkillEndCfg": {
+    "Id": 1997,
+    "Name": "P_SkillEnd",
+    "ZoneCategory": 2,
+    "GameplayTag": 0
+  },
+  "P_SkillCfg": {
+    "Id": 1998,
+    "Name": "P_Skill",
+    "ZoneCategory": 2,
+    "GameplayTag": 906
+  },
+  "P_HitCfg": {
+    "Id": 1999,
+    "Name": "P_Hit",
+    "ZoneCategory": 2,
+    "GameplayTag": 905
+  },
+  "GunCfg": {
+    "Id": 3000,
+    "Name": "Gun",
+    "ZoneCategory": 5,
+    "GameplayTag": 862
+  },
+  "ScopeCfg": {
+    "Id": 3001,
+    "Name": "Scope",
+    "ZoneCategory": 5,
+    "GameplayTag": 903
+  },
+  "ShootCfg": {
+    "Id": 3004,
+    "Name": "Shoot",
+    "ZoneCategory": 5,
+    "GameplayTag": 904
+  },
+  "ReloadCfg": {
+    "Id": 3005,
+    "Name": "Reload",
+    "ZoneCategory": 5,
+    "GameplayTag": 902
+  },
+  "GunHideWeaponCfg": {
+    "Id": 3012,
+    "Name": "GunHideWeapon",
+    "ZoneCategory": 5,
+    "GameplayTag": 0
+  },
+  "WeaponDodgeCfg": {
+    "Id": 3014,
+    "Name": "WeaponDodge",
+    "ZoneCategory": 5,
+    "GameplayTag": 907
+  },
+  "WeaponCrossCfg": {
+    "Id": 3015,
+    "Name": "WeaponCross",
+    "ZoneCategory": 5,
+    "GameplayTag": 0
+  },
+  "AimAssistTargetZoneCfg": {
+    "Id": 3016,
+    "Name": "AimAssistTargetZone",
+    "ZoneCategory": 5,
+    "GameplayTag": 0
+  },
+  "NoHoldWeaponCfg": {
+    "Id": 3017,
+    "Name": "NoHoldWeapon",
+    "ZoneCategory": 5,
+    "GameplayTag": 892
+  },
+  "WeaponBeHitCfg": {
+    "Id": 3018,
+    "Name": "WeaponBeHit",
+    "ZoneCategory": 5,
+    "GameplayTag": 0
+  },
+  "HoldHandWeaponCfg": {
+    "Id": 3019,
+    "Name": "HoldHandWeapon",
+    "ZoneCategory": 5,
+    "GameplayTag": 0
+  },
+  "BattleIdleCfg": {
+    "Id": 3100,
+    "Name": "BattleIdle",
+    "ZoneCategory": 0,
+    "GameplayTag": 901
+  },
+  "SpecialJumpCfg": {
+    "Id": 3181,
+    "Name": "SpecialJump",
+    "ZoneCategory": 5,
+    "GameplayTag": 0
+  },
+  "ForbidHipAimCfg": {
+    "Id": 3182,
+    "Name": "ForbidHipAim",
+    "ZoneCategory": 5,
+    "GameplayTag": 895
+  },
+  "StrafeShuffleCfg": {
+    "Id": 3030,
+    "Name": "StrafeShuffle",
+    "ZoneCategory": 5,
+    "GameplayTag": 930
+  },
+  "MindPowerSceneItemCfg": {
+    "Id": 5000,
+    "Name": "MindPowerSceneItem",
+    "ZoneCategory": 8,
+    "GameplayTag": 852
+  },
+  "UseSceneItemCfg": {
+    "Id": 5001,
+    "Name": "UseSceneItem",
+    "ZoneCategory": 8,
+    "GameplayTag": 854
+  },
+  "ThrowSceneItemCfg": {
+    "Id": 5002,
+    "Name": "ThrowSceneItem",
+    "ZoneCategory": 8,
+    "GameplayTag": 855
+  },
+  "MindPowerTakeCfg": {
+    "Id": 7000,
+    "Name": "MindPowerTake",
+    "ZoneCategory": 11,
+    "GameplayTag": 853
+  },
+  "IsTurnOverCfg": {
+    "Id": 7100,
+    "Name": "IsTurnOver",
+    "ZoneCategory": 13,
+    "GameplayTag": 578
+  },
+  "TurnOverWalkCfg": {
+    "Id": 7101,
+    "Name": "TurnOverWalk",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "TurnOverRunCfg": {
+    "Id": 7102,
+    "Name": "TurnOverRun",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "TurnOverRushCfg": {
+    "Id": 7103,
+    "Name": "TurnOverRush",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "SunbathCfg": {
+    "Id": 8000,
+    "Name": "Sunbath",
+    "ZoneCategory": 0,
+    "GameplayTag": 761
+  },
+  "NoPhoneCfg": {
+    "Id": 8001,
+    "Name": "NoPhone",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "P_RapidSwimIdleCfg": {
+    "Id": 8002,
+    "Name": "P_RapidSwimIdle",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "ToIdleMirrorCfg": {
+    "Id": 16,
+    "Name": "ToIdleMirror",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "ToIdleNotMirrorCfg": {
+    "Id": 17,
+    "Name": "ToIdleNotMirror",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "LeftFootCfg": {
+    "Id": 42,
+    "Name": "LeftFoot",
+    "ZoneCategory": 10,
+    "GameplayTag": 0
+  },
+  "RightFootCfg": {
+    "Id": 43,
+    "Name": "RightFoot",
+    "ZoneCategory": 10,
+    "GameplayTag": 0
+  },
+  "JumpLCfg": {
+    "Id": 46,
+    "Name": "JumpL",
+    "ZoneCategory": 10,
+    "GameplayTag": 0
+  },
+  "JumpRCfg": {
+    "Id": 47,
+    "Name": "JumpR",
+    "ZoneCategory": 10,
+    "GameplayTag": 0
+  },
+  "AllowTurnCfg": {
+    "Id": 48,
+    "Name": "AllowTurn",
+    "ZoneCategory": 10,
+    "GameplayTag": 0
+  },
+  "MoveInitPoseCfg": {
+    "Id": 49,
+    "Name": "MoveInitPose",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "AirCfg": {
+    "Id": 52,
+    "Name": "Air",
+    "ZoneCategory": 0,
+    "GameplayTag": 27
+  },
+  "PickingCfg": {
+    "Id": 54,
+    "Name": "Picking",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "RunToRushCfg": {
+    "Id": 55,
+    "Name": "RunToRush",
+    "ZoneCategory": 10,
+    "GameplayTag": 0
+  },
+  "TurnLFCfg": {
+    "Id": 56,
+    "Name": "TurnLF",
+    "ZoneCategory": 10,
+    "GameplayTag": 0
+  },
+  "TurnRFCfg": {
+    "Id": 57,
+    "Name": "TurnRF",
+    "ZoneCategory": 10,
+    "GameplayTag": 0
+  },
+  "RushStopStepCfg": {
+    "Id": 76,
+    "Name": "RushStopStep",
+    "ZoneCategory": 10,
+    "GameplayTag": 0
+  },
+  "RunStopStepCfg": {
+    "Id": 77,
+    "Name": "RunStopStep",
+    "ZoneCategory": 10,
+    "GameplayTag": 0
+  },
+  "WalkStopStepCfg": {
+    "Id": 78,
+    "Name": "WalkStopStep",
+    "ZoneCategory": 10,
+    "GameplayTag": 0
+  },
+  "MoveStartStepCfg": {
+    "Id": 83,
+    "Name": "MoveStartStep",
+    "ZoneCategory": 10,
+    "GameplayTag": 0
+  },
+  "MoveStartRecoverCfg": {
+    "Id": 84,
+    "Name": "MoveStartRecover",
+    "ZoneCategory": 10,
+    "GameplayTag": 0
+  },
+  "MoveSwitchLCfg": {
+    "Id": 88,
+    "Name": "MoveSwitchL",
+    "ZoneCategory": 10,
+    "GameplayTag": 0
+  },
+  "MoveSwitchRCfg": {
+    "Id": 89,
+    "Name": "MoveSwitchR",
+    "ZoneCategory": 10,
+    "GameplayTag": 0
+  },
+  "ItemActionBreakCfg": {
+    "Id": 603,
+    "Name": "ItemActionBreak",
+    "ZoneCategory": 10,
+    "GameplayTag": 0
+  },
+  "StrafeFwdCfg": {
+    "Id": 604,
+    "Name": "StrafeFwd",
+    "ZoneCategory": 10,
+    "GameplayTag": 0
+  },
+  "StrafeBwdCfg": {
+    "Id": 605,
+    "Name": "StrafeBwd",
+    "ZoneCategory": 10,
+    "GameplayTag": 0
+  },
+  "HurtRecoverCfg": {
+    "Id": 606,
+    "Name": "HurtRecover",
+    "ZoneCategory": 10,
+    "GameplayTag": 0
+  },
+  "CanHitWallCfg": {
+    "Id": 608,
+    "Name": "CanHitWall",
+    "ZoneCategory": 10,
+    "GameplayTag": 0
+  },
+  "MoveStopASCfg": {
+    "Id": 609,
+    "Name": "MoveStopAS",
+    "ZoneCategory": 10,
+    "GameplayTag": 0
+  },
+  "HurtStiffCfg": {
+    "Id": 610,
+    "Name": "HurtStiff",
+    "ZoneCategory": 10,
+    "GameplayTag": 0
+  },
+  "LandingStepCfg": {
+    "Id": 611,
+    "Name": "LandingStep",
+    "ZoneCategory": 10,
+    "GameplayTag": 0
+  },
+  "FaithLeapASCfg": {
+    "Id": 612,
+    "Name": "FaithLeapAS",
+    "ZoneCategory": 10,
+    "GameplayTag": 0
+  },
+  "ArmLeftOccupiedCfg": {
+    "Id": 250,
+    "Name": "ArmLeftOccupied",
+    "ZoneCategory": 0,
+    "GameplayTag": 893
+  },
+  "ArmRightOccupiedCfg": {
+    "Id": 251,
+    "Name": "ArmRightOccupied",
+    "ZoneCategory": 0,
+    "GameplayTag": 894
+  },
+  "JumpL_GeneralCfg": {
+    "Id": 252,
+    "Name": "JumpL_General",
+    "ZoneCategory": 10,
+    "GameplayTag": 0
+  },
+  "JumpR_GeneralCfg": {
+    "Id": 253,
+    "Name": "JumpR_General",
+    "ZoneCategory": 10,
+    "GameplayTag": 0
+  },
+  "StandCfg": {
+    "Id": 60,
+    "Name": "Stand",
+    "ZoneCategory": 4,
+    "GameplayTag": 0
+  },
+  "SitCfg": {
+    "Id": 61,
+    "Name": "Sit",
+    "ZoneCategory": 4,
+    "GameplayTag": 0
+  },
+  "CrouchCfg": {
+    "Id": 62,
+    "Name": "Crouch",
+    "ZoneCategory": 4,
+    "GameplayTag": 0
+  },
+  "CreepCfg": {
+    "Id": 63,
+    "Name": "Creep",
+    "ZoneCategory": 4,
+    "GameplayTag": 0
+  },
+  "Recovery_BaseLayerCfg": {
+    "Id": 64,
+    "Name": "Recovery_BaseLayer",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "Recovery_UpbodyOverCfg": {
+    "Id": 65,
+    "Name": "Recovery_UpbodyOver",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "Recovery_ArmBothHeadOverCfg": {
+    "Id": 66,
+    "Name": "Recovery_ArmBothHeadOver",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "Recovery_ArmLeftHeadOverCfg": {
+    "Id": 67,
+    "Name": "Recovery_ArmLeftHeadOver",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "Recovery_ArmRightHeadOverCfg": {
+    "Id": 68,
+    "Name": "Recovery_ArmRightHeadOver",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "Recovery_ArmLeftOverCfg": {
+    "Id": 69,
+    "Name": "Recovery_ArmLeftOver",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "Recovery_ArmRightOverCfg": {
+    "Id": 72,
+    "Name": "Recovery_ArmRightOver",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "Recovery_HandLeftOverCfg": {
+    "Id": 73,
+    "Name": "Recovery_HandLeftOver",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "Recovery_HandRightOverCfg": {
+    "Id": 74,
+    "Name": "Recovery_HandRightOver",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "Recovery_HeadOverCfg": {
+    "Id": 75,
+    "Name": "Recovery_HeadOver",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "AirUpCfg": {
+    "Id": 70,
+    "Name": "AirUp",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "AirDownCfg": {
+    "Id": 71,
+    "Name": "AirDown",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "AirFlatCfg": {
+    "Id": 79,
+    "Name": "AirFlat",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "DropCfg": {
+    "Id": 500,
+    "Name": "Drop",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "MindPowerStandTakeStartCfg": {
+    "Id": 501,
+    "Name": "MindPowerStandTakeStart",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "MultipleJumpCfg": {
+    "Id": 502,
+    "Name": "MultipleJump",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "NoMoveCfg": {
+    "Id": 503,
+    "Name": "NoMove",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "GreetNPCCfg": {
+    "Id": 504,
+    "Name": "GreetNPC",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "SlowClimbJumpCfg": {
+    "Id": 505,
+    "Name": "SlowClimbJump",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "ClimbTransitionCfg": {
+    "Id": 506,
+    "Name": "ClimbTransition",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "TurnOverMoveCfg": {
+    "Id": 507,
+    "Name": "TurnOverMove",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "SwimLeftArmCfg": {
+    "Id": 508,
+    "Name": "SwimLeftArm",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "SwimRightArmCfg": {
+    "Id": 509,
+    "Name": "SwimRightArm",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "NoTakeOutWeaponActionCfg": {
+    "Id": 510,
+    "Name": "NoTakeOutWeaponAction",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "ADS_MultiInteractEndCfg": {
+    "Id": 2000,
+    "Name": "ADS_MultiInteractEnd",
+    "ZoneCategory": 3,
+    "GameplayTag": 0
+  },
+  "ADS_ProgressStartCfg": {
+    "Id": 2001,
+    "Name": "ADS_ProgressStart",
+    "ZoneCategory": 3,
+    "GameplayTag": 0
+  },
+  "ADS_ProgressLoopCfg": {
+    "Id": 2002,
+    "Name": "ADS_ProgressLoop",
+    "ZoneCategory": 3,
+    "GameplayTag": 0
+  },
+  "ADS_ProgressEndCfg": {
+    "Id": 2003,
+    "Name": "ADS_ProgressEnd",
+    "ZoneCategory": 3,
+    "GameplayTag": 0
+  },
+  "ADS_InteractingCfg": {
+    "Id": 2004,
+    "Name": "ADS_Interacting",
+    "ZoneCategory": 3,
+    "GameplayTag": 0
+  },
+  "Swing_ShakeColaCfg": {
+    "Id": 2100,
+    "Name": "Swing_ShakeCola",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_AllowShootCfg": {
+    "Id": 18,
+    "Name": "B_AllowShoot",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_ForbidShootCfg": {
+    "Id": 19,
+    "Name": "B_ForbidShoot",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_CancelCfg": {
+    "Id": 20,
+    "Name": "B_Cancel",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_DribbleHoldLCfg": {
+    "Id": 21,
+    "Name": "B_DribbleHoldL",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_DribbleHoldRCfg": {
+    "Id": 22,
+    "Name": "B_DribbleHoldR",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_DribbleL2LCfg": {
+    "Id": 23,
+    "Name": "B_DribbleL2L",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_DribbleL2RCfg": {
+    "Id": 24,
+    "Name": "B_DribbleL2R",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_DribbleR2RCfg": {
+    "Id": 25,
+    "Name": "B_DribbleR2R",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_DribbleR2LCfg": {
+    "Id": 26,
+    "Name": "B_DribbleR2L",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_ShootCfg": {
+    "Id": 27,
+    "Name": "B_Shoot",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_Shoot_insideCfg": {
+    "Id": 28,
+    "Name": "B_Shoot_inside",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_DribbleL2L_RunCfg": {
+    "Id": 29,
+    "Name": "B_DribbleL2L_Run",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_DribbleR2R_RunCfg": {
+    "Id": 30,
+    "Name": "B_DribbleR2R_Run",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_DribbleR2R_FastRunCfg": {
+    "Id": 31,
+    "Name": "B_DribbleR2R_FastRun",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_DribbleL2L_FastRunCfg": {
+    "Id": 32,
+    "Name": "B_DribbleL2L_FastRun",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_Shoot_layupCfg": {
+    "Id": 33,
+    "Name": "B_Shoot_layup",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_Shoot_dunkCfg": {
+    "Id": 34,
+    "Name": "B_Shoot_dunk",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_PickBallCfg": {
+    "Id": 35,
+    "Name": "B_PickBall",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_shoot_highCfg": {
+    "Id": 36,
+    "Name": "B_shoot_high",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_shoot_timeCfg": {
+    "Id": 37,
+    "Name": "B_shoot_time",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "Walk_Stride_LeftCfg": {
+    "Id": 38,
+    "Name": "Walk_Stride_Left",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "Walk_Tuck_RightCfg": {
+    "Id": 39,
+    "Name": "Walk_Tuck_Right",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "Walk_Stride_RightCfg": {
+    "Id": 40,
+    "Name": "Walk_Stride_Right",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "Walk_Tuck_LeftCfg": {
+    "Id": 41,
+    "Name": "Walk_Tuck_Left",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "HoldWeaponCfg": {
+    "Id": 44,
+    "Name": "HoldWeapon",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "CC_ReachCfg": {
+    "Id": 45,
+    "Name": "CC_Reach",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "NoChangeLeftRightActionCfg": {
+    "Id": 50,
+    "Name": "NoChangeLeftRightAction",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "AllowSwingCfg": {
+    "Id": 51,
+    "Name": "AllowSwing",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_Cancel2Cfg": {
+    "Id": 53,
+    "Name": "B_Cancel2",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "DaiBuCfg": {
+    "Id": 58,
+    "Name": "DaiBu",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "DaiBuStartCfg": {
+    "Id": 59,
+    "Name": "DaiBuStart",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "HoldHandMoveRecoverCfg": {
+    "Id": 601,
+    "Name": "HoldHandMoveRecover",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "SkillBreakStepCfg": {
+    "Id": 602,
+    "Name": "SkillBreakStep",
+    "ZoneCategory": 14,
+    "GameplayTag": 0
+  },
+  "NPCRotateBreakCfg": {
+    "Id": 9999,
+    "Name": "NPCRotateBreak",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_Block_successCfg": {
+    "Id": 301,
+    "Name": "B_Block_success",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_Shoot_BeforeCfg": {
+    "Id": 302,
+    "Name": "B_Shoot_Before",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_Shoot_AfterCfg": {
+    "Id": 303,
+    "Name": "B_Shoot_After",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_Cancel3Cfg": {
+    "Id": 304,
+    "Name": "B_Cancel3",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_Rebound_successCfg": {
+    "Id": 305,
+    "Name": "B_Rebound_success",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_LHoldCfg": {
+    "Id": 306,
+    "Name": "B_LHold",
+    "ZoneCategory": 15,
+    "GameplayTag": 0
+  },
+  "B_RholdCfg": {
+    "Id": 307,
+    "Name": "B_Rhold",
+    "ZoneCategory": 15,
+    "GameplayTag": 0
+  },
+  "B_LRHoldCfg": {
+    "Id": 308,
+    "Name": "B_LRHold",
+    "ZoneCategory": 15,
+    "GameplayTag": 0
+  },
+  "B_FastDribbleCfg": {
+    "Id": 309,
+    "Name": "B_FastDribble",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_LJumpFootCfg": {
+    "Id": 310,
+    "Name": "B_LJumpFoot",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_RJumpFootCfg": {
+    "Id": 311,
+    "Name": "B_RJumpFoot",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_LRJumpFootCfg": {
+    "Id": 312,
+    "Name": "B_LRJumpFoot",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_RLJumpFootCfg": {
+    "Id": 313,
+    "Name": "B_RLJumpFoot",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_ShootBarCfg": {
+    "Id": 314,
+    "Name": "B_ShootBar",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_ShootBarGreenCfg": {
+    "Id": 315,
+    "Name": "B_ShootBarGreen",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_Offense_CombatStartCfg": {
+    "Id": 316,
+    "Name": "B_Offense_CombatStart",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_Offense_CombatPushCfg": {
+    "Id": 317,
+    "Name": "B_Offense_CombatPush",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_Offense_CombatEndCfg": {
+    "Id": 318,
+    "Name": "B_Offense_CombatEnd",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_Defense_CombatStartCfg": {
+    "Id": 319,
+    "Name": "B_Defense_CombatStart",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_Defense_CombatPushCfg": {
+    "Id": 320,
+    "Name": "B_Defense_CombatPush",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_Defense_CombatEndCfg": {
+    "Id": 321,
+    "Name": "B_Defense_CombatEnd",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_Offense_BeCombatStartCfg": {
+    "Id": 322,
+    "Name": "B_Offense_BeCombatStart",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_Offense_BeCombatPushCfg": {
+    "Id": 323,
+    "Name": "B_Offense_BeCombatPush",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_Offense_BeCombatEndCfg": {
+    "Id": 324,
+    "Name": "B_Offense_BeCombatEnd",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_Defense_BeCombatStartCfg": {
+    "Id": 325,
+    "Name": "B_Defense_BeCombatStart",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_Defense_BeCombatPushCfg": {
+    "Id": 326,
+    "Name": "B_Defense_BeCombatPush",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_Defense_BeCombatEndCfg": {
+    "Id": 327,
+    "Name": "B_Defense_BeCombatEnd",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_FlyingTimeCfg": {
+    "Id": 328,
+    "Name": "B_FlyingTime",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_BreakAnkleCfg": {
+    "Id": 329,
+    "Name": "B_BreakAnkle",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_BackRunCfg": {
+    "Id": 330,
+    "Name": "B_BackRun",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_TripleThreatCfg": {
+    "Id": 331,
+    "Name": "B_TripleThreat",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_CannotBeStealCfg": {
+    "Id": 332,
+    "Name": "B_CannotBeSteal",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_CanStepbackShootCfg": {
+    "Id": 333,
+    "Name": "B_CanStepbackShoot",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_TalentHoldBallCfg": {
+    "Id": 334,
+    "Name": "B_TalentHoldBall",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_CannotBeCombatCfg": {
+    "Id": 335,
+    "Name": "B_CannotBeCombat",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_BackDribbleCfg": {
+    "Id": 336,
+    "Name": "B_BackDribble",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_BackDribble_BCfg": {
+    "Id": 337,
+    "Name": "B_BackDribble_B",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_BackDribble_LBCfg": {
+    "Id": 338,
+    "Name": "B_BackDribble_LB",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_BackDribble_RBCfg": {
+    "Id": 339,
+    "Name": "B_BackDribble_RB",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_Combat_CannotBlendoutCfg": {
+    "Id": 340,
+    "Name": "B_Combat_CannotBlendout",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "B_EnterMovingCombatCfg": {
+    "Id": 341,
+    "Name": "B_EnterMovingCombat",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "WallLeftHandCfg": {
+    "Id": 80,
+    "Name": "WallLeftHand",
+    "ZoneCategory": 6,
+    "GameplayTag": 0
+  },
+  "WallRightHandCfg": {
+    "Id": 81,
+    "Name": "WallRightHand",
+    "ZoneCategory": 6,
+    "GameplayTag": 0
+  },
+  "WallDoubleHandCfg": {
+    "Id": 82,
+    "Name": "WallDoubleHand",
+    "ZoneCategory": 6,
+    "GameplayTag": 0
+  },
+  "WallLeftFootCfg": {
+    "Id": 85,
+    "Name": "WallLeftFoot",
+    "ZoneCategory": 12,
+    "GameplayTag": 0
+  },
+  "WallRightFootCfg": {
+    "Id": 86,
+    "Name": "WallRightFoot",
+    "ZoneCategory": 12,
+    "GameplayTag": 0
+  },
+  "WallDoubleFootCfg": {
+    "Id": 87,
+    "Name": "WallDoubleFoot",
+    "ZoneCategory": 12,
+    "GameplayTag": 0
+  },
+  "WallIdleCfg": {
+    "Id": 90,
+    "Name": "WallIdle",
+    "ZoneCategory": 7,
+    "GameplayTag": 0
+  },
+  "WallSlowMoveCfg": {
+    "Id": 91,
+    "Name": "WallSlowMove",
+    "ZoneCategory": 7,
+    "GameplayTag": 0
+  },
+  "WallSlowCanNotStopCfg": {
+    "Id": 92,
+    "Name": "WallSlowCanNotStop",
+    "ZoneCategory": 7,
+    "GameplayTag": 0
+  },
+  "WallStopQuickly_StartCfg": {
+    "Id": 93,
+    "Name": "WallStopQuickly_Start",
+    "ZoneCategory": 7,
+    "GameplayTag": 0
+  },
+  "WallNotEndCfg": {
+    "Id": 94,
+    "Name": "WallNotEnd",
+    "ZoneCategory": 7,
+    "GameplayTag": 0
+  },
+  "WallStopQuickly_MiddleCfg": {
+    "Id": 95,
+    "Name": "WallStopQuickly_Middle",
+    "ZoneCategory": 7,
+    "GameplayTag": 0
+  },
+  "WallLeftCfg": {
+    "Id": 96,
+    "Name": "WallLeft",
+    "ZoneCategory": 7,
+    "GameplayTag": 0
+  },
+  "WallRightCfg": {
+    "Id": 97,
+    "Name": "WallRight",
+    "ZoneCategory": 7,
+    "GameplayTag": 0
+  },
+  "WallStopQuickly_ThirdCfg": {
+    "Id": 98,
+    "Name": "WallStopQuickly_Third",
+    "ZoneCategory": 7,
+    "GameplayTag": 0
+  },
+  "WallVMotionMoveCfg": {
+    "Id": 99,
+    "Name": "WallVMotionMove",
+    "ZoneCategory": 7,
+    "GameplayTag": 0
+  },
+  "YingLongEdgeCfg": {
+    "Id": 100,
+    "Name": "YingLongEdge",
+    "ZoneCategory": 0,
+    "GameplayTag": 577
+  },
+  "FB_LeftFootCfg": {
+    "Id": 130,
+    "Name": "FB_LeftFoot",
+    "ZoneCategory": 9,
+    "GameplayTag": 0
+  },
+  "FB_RightFootCfg": {
+    "Id": 131,
+    "Name": "FB_RightFoot",
+    "ZoneCategory": 9,
+    "GameplayTag": 0
+  },
+  "FB_KickCfg": {
+    "Id": 132,
+    "Name": "FB_Kick",
+    "ZoneCategory": 9,
+    "GameplayTag": 0
+  },
+  "FB_ForbiddenCfg": {
+    "Id": 133,
+    "Name": "FB_Forbidden",
+    "ZoneCategory": 9,
+    "GameplayTag": 0
+  },
+  "FB_Shoot_BlendoutCfg": {
+    "Id": 134,
+    "Name": "FB_Shoot_Blendout",
+    "ZoneCategory": 9,
+    "GameplayTag": 0
+  },
+  "FB_DribbleTurn_Can_BlendoutCfg": {
+    "Id": 135,
+    "Name": "FB_DribbleTurn_Can_Blendout",
+    "ZoneCategory": 9,
+    "GameplayTag": 0
+  },
+  "FB_TakePassCfg": {
+    "Id": 136,
+    "Name": "FB_TakePass",
+    "ZoneCategory": 9,
+    "GameplayTag": 0
+  },
+  "FB_RFootTurnCfg": {
+    "Id": 137,
+    "Name": "FB_RFootTurn",
+    "ZoneCategory": 9,
+    "GameplayTag": 0
+  },
+  "FB_LFootTurnCfg": {
+    "Id": 138,
+    "Name": "FB_LFootTurn",
+    "ZoneCategory": 9,
+    "GameplayTag": 0
+  },
+  "Empty2GunCfg": {
+    "Id": 3002,
+    "Name": "Empty2Gun",
+    "ZoneCategory": 5,
+    "GameplayTag": 0
+  },
+  "Gun2EmptyCfg": {
+    "Id": 3003,
+    "Name": "Gun2Empty",
+    "ZoneCategory": 5,
+    "GameplayTag": 0
+  },
+  "A2BStartCfg": {
+    "Id": 3007,
+    "Name": "A2BStart",
+    "ZoneCategory": 5,
+    "GameplayTag": 0
+  },
+  "B2AStartCfg": {
+    "Id": 3008,
+    "Name": "B2AStart",
+    "ZoneCategory": 5,
+    "GameplayTag": 0
+  },
+  "TakeGoodsThrowCfg": {
+    "Id": 3010,
+    "Name": "TakeGoodsThrow",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "ForbidShootCfg": {
+    "Id": 3020,
+    "Name": "ForbidShoot",
+    "ZoneCategory": 5,
+    "GameplayTag": 896
+  },
+  "ForbidAimCfg": {
+    "Id": 3021,
+    "Name": "ForbidAim",
+    "ZoneCategory": 5,
+    "GameplayTag": 897
+  },
+  "ForbidAimAndShootCfg": {
+    "Id": 3022,
+    "Name": "ForbidAimAndShoot",
+    "ZoneCategory": 5,
+    "GameplayTag": 898
+  },
+  "IsAimCfg": {
+    "Id": 3023,
+    "Name": "IsAim",
+    "ZoneCategory": 5,
+    "GameplayTag": 0
+  },
+  "ShowWeaponCfg": {
+    "Id": 4000,
+    "Name": "ShowWeapon",
+    "ZoneCategory": 0,
+    "GameplayTag": 858
+  },
+  "HideWeaponCfg": {
+    "Id": 4001,
+    "Name": "HideWeapon",
+    "ZoneCategory": 0,
+    "GameplayTag": 859
+  },
+  "ShowDemonHandLCfg": {
+    "Id": 4002,
+    "Name": "ShowDemonHandL",
+    "ZoneCategory": 0,
+    "GameplayTag": 860
+  },
+  "ShowDemonHandRCfg": {
+    "Id": 4003,
+    "Name": "ShowDemonHandR",
+    "ZoneCategory": 0,
+    "GameplayTag": 861
+  },
+  "ShowPickingWeaponCfg": {
+    "Id": 4004,
+    "Name": "ShowPickingWeapon",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "WaitPoliceStandCfg": {
+    "Id": 6000,
+    "Name": "WaitPoliceStand",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "DanceChangeCfg": {
+    "Id": 6001,
+    "Name": "DanceChange",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "LeafletIdleCfg": {
+    "Id": 6002,
+    "Name": "LeafletIdle",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "HitWallAndNPCCfg": {
+    "Id": 6100,
+    "Name": "HitWallAndNPC",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "InterStartBaseCfg": {
+    "Id": 6200,
+    "Name": "InterStartBase",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "TaFeiMoto_DashCfg": {
+    "Id": 6300,
+    "Name": "TaFeiMoto_Dash",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "EatUpBodyEndCfg": {
+    "Id": 6400,
+    "Name": "EatUpBodyEnd",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "OneHandTakeCfg": {
+    "Id": 6401,
+    "Name": "OneHandTake",
+    "ZoneCategory": 0,
+    "GameplayTag": 0
+  },
+  "CanForceEnterSwimCfg": {
+    "Id": 6500,
+    "Name": "CanForceEnterSwim",
+    "ZoneCategory": 0,
+    "GameplayTag": 1354
+  }
+}

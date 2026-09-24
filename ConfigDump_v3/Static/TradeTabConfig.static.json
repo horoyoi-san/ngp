@@ -1,0 +1,62 @@
+{
+  "BoxCfg": {
+    "Id": 1,
+    "Name": "Box",
+    "Title": "箱子",
+    "Icon": 28000363,
+    "showRecycleBtn": true,
+    "showFollowBtn": false,
+    "IsDoubleList": false,
+    "ListTemplate": 0
+  },
+  "FashionSuitCfg": {
+    "Id": 2,
+    "Name": "FashionSuit",
+    "Title": "珍稀时装",
+    "Icon": 28000364,
+    "showRecycleBtn": false,
+    "showFollowBtn": true,
+    "IsDoubleList": false,
+    "ListTemplate": 0
+  },
+  "FashionCfg": {
+    "Id": 3,
+    "Name": "Fashion",
+    "Title": "散件时装",
+    "Icon": 28000364,
+    "showRecycleBtn": false,
+    "showFollowBtn": true,
+    "IsDoubleList": true,
+    "ListTemplate": 2
+  },
+  "PaintingCfg": {
+    "Id": 4,
+    "Name": "Painting",
+    "Title": "油画",
+    "Icon": 28000364,
+    "showRecycleBtn": false,
+    "showFollowBtn": false,
+    "IsDoubleList": true,
+    "ListTemplate": 2
+  },
+  "StatueCfg": {
+    "Id": 5,
+    "Name": "Statue",
+    "Title": "雕塑",
+    "Icon": 28000364,
+    "showRecycleBtn": false,
+    "showFollowBtn": false,
+    "IsDoubleList": true,
+    "ListTemplate": 2
+  },
+  "ValuableCfg": {
+    "Id": 6,
+    "Name": "Valuable",
+    "Title": "藏品",
+    "Icon": 28000364,
+    "showRecycleBtn": false,
+    "showFollowBtn": false,
+    "IsDoubleList": true,
+    "ListTemplate": 2
+  }
+}

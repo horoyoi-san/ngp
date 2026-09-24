@@ -2,11 +2,6 @@ using Ananta.Server.Configuration;
 
 namespace Ananta.Server.Gameplay;
 
-/// <summary>
-/// Protagonist traversal policy.
-/// All editable ids live in config/private-server.json under gameplay.webTraversal.
-/// This class only answers gameplay questions for the handlers.
-/// </summary>
 internal static class WebTraversal
 {
     private static WebTraversalSettings Settings => PrivateServerConfigStore.Current.Gameplay.WebTraversal;
@@ -15,9 +10,9 @@ internal static class WebTraversal
     internal static uint FemaleProtagonistId => Settings.FemaleProtagonistId;
     internal static uint FeiSuoBuff => Settings.PersistentGrappleBuffId;
 
-    // Build 4229938 web traversal split:
-    // - Swing/WallRush are client-owned action lifecycle buffs and must NOT be permanent in the login snapshot.
-    // - GrappleDiveDamage is a safe, long-lived capability modifier and can be part of the resident kit.
+    
+    
+    
     internal const uint SwingBuff4229938 = 52_853_761;
     internal const uint WallRushBuff4229938 = 52_853_762;
     internal const uint GrappleDiveDamageBuff4229938 = 52_959_114;
@@ -36,13 +31,87 @@ internal static class WebTraversal
     internal static bool IsProtagonist(uint templateId)
         => templateId == Settings.MaleProtagonistId || templateId == Settings.FemaleProtagonistId;
 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    internal static uint HackerSpiritTemplateId
+        => PrivateServerConfigStore.Current.Gameplay.SpiritContent.HackerSpiritTemplateId;
+
+    internal static bool IsHacker(uint templateId)
+        => templateId != 0 && templateId == HackerSpiritTemplateId;
+
+    
+    
+    
+    
+    internal static IReadOnlyList<uint> HackerCapabilityBuffIds
+        => PrivateServerConfigStore.Current.Gameplay.SpiritContent.GrantHackingAbilityBuff
+            ? PrivateServerConfigStore.Current.Gameplay.SpiritContent.HackerAbilityBuffIds
+            : [];
+
+    
+    
+    
+    
+    internal static IReadOnlyList<uint> SharedCapabilityBuffIds
+        => Combine(Settings.SharedBuffIds, new uint[] { Settings.PersistentGrappleBuffId }, ResidentBuildWebBuffs4229938);
+
     internal static IReadOnlyList<uint> CapabilityBuffIds(uint templateId)
     {
         if (templateId == Settings.MaleProtagonistId)
             return InitialCapabilityBuffIds;
         if (templateId == Settings.FemaleProtagonistId)
             return FemaleCapabilityBuffIds;
-        return Array.Empty<uint>();
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        var shared = SharedCapabilityBuffIds;
+        return IsHacker(templateId) ? Combine(shared, HackerCapabilityBuffIds) : shared;
     }
 
     internal static bool IsClientLifecycleBuff(uint buffId)

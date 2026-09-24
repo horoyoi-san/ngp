@@ -1,0 +1,5032 @@
+{
+  "_class": "GameplayTagContainerConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 300,
+  "records": [
+    {
+      "Id": 1,
+      "ContainerName": "Test1",
+      "Tags": [],
+      "ParentTags": [
+        10075
+      ]
+    },
+    {
+      "Id": 2,
+      "ContainerName": "Test2",
+      "Tags": [],
+      "ParentTags": [
+        10077
+      ]
+    },
+    {
+      "Id": 3,
+      "ContainerName": "Test3",
+      "Tags": [
+        88
+      ],
+      "ParentTags": [
+        10073
+      ]
+    },
+    {
+      "Id": 4,
+      "ContainerName": "ForbidCityPed_Any",
+      "Tags": [
+        90,
+        4
+      ],
+      "ParentTags": [
+        10079
+      ]
+    },
+    {
+      "Id": 5,
+      "ContainerName": "ForbidHoldRightArm",
+      "Tags": [
+        579,
+        40,
+        753,
+        754,
+        755,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        790,
+        772,
+        853,
+        403,
+        404,
+        405,
+        929,
+        932
+      ],
+      "ParentTags": [
+        10014,
+        10015,
+        10016,
+        10021,
+        10029,
+        10030,
+        10032,
+        10042,
+        10083
+      ]
+    },
+    {
+      "Id": 6,
+      "ContainerName": "ForbidHoldBothArm",
+      "Tags": [
+        40,
+        605,
+        549,
+        853,
+        929,
+        1329,
+        1651,
+        932
+      ],
+      "ParentTags": [
+        10021,
+        10023,
+        10028,
+        10078,
+        10083
+      ]
+    },
+    {
+      "Id": 7,
+      "ContainerName": "ForbidHoldFullBody",
+      "Tags": [
+        579,
+        40,
+        567,
+        541,
+        555,
+        591,
+        856,
+        915,
+        853,
+        929,
+        932
+      ],
+      "ParentTags": [
+        10021,
+        10023,
+        10026,
+        10028,
+        10078,
+        10083
+      ]
+    },
+    {
+      "Id": 8,
+      "ContainerName": "HoldRightArmMove",
+      "Tags": [
+        567,
+        27,
+        856,
+        915,
+        906,
+        901
+      ],
+      "ParentTags": [
+        10003,
+        10012,
+        10013,
+        10020,
+        10023,
+        10102,
+        10104,
+        10105
+      ]
+    },
+    {
+      "Id": 9,
+      "ContainerName": "HoldBothArmMove",
+      "Tags": [
+        579,
+        547,
+        548,
+        906,
+        914
+      ],
+      "ParentTags": [
+        10003,
+        10012,
+        10020,
+        10101,
+        10104,
+        10105
+      ]
+    },
+    {
+      "Id": 10,
+      "ContainerName": "HoldFullBodyMove",
+      "Tags": [
+        906,
+        901
+      ],
+      "ParentTags": [
+        10003,
+        10012,
+        10013,
+        10020,
+        10104,
+        10105
+      ]
+    },
+    {
+      "Id": 11,
+      "ContainerName": "AllowLookPhone",
+      "Tags": [
+        576
+      ],
+      "ParentTags": [
+        10010,
+        10004,
+        10007,
+        10021
+      ]
+    },
+    {
+      "Id": 12,
+      "ContainerName": "ForbidLookPhone",
+      "Tags": [
+        579,
+        40,
+        916,
+        2722,
+        2724,
+        863,
+        864,
+        924
+      ],
+      "ParentTags": [
+        10030,
+        10031,
+        10032,
+        10033,
+        10034,
+        10042,
+        10045,
+        10078
+      ]
+    },
+    {
+      "Id": 13,
+      "ContainerName": "ForbidLookatIK",
+      "Tags": [
+        2722,
+        863,
+        864,
+        885,
+        857,
+        1650,
+        2400
+      ],
+      "ParentTags": [
+        10028,
+        10037
+      ]
+    },
+    {
+      "Id": 14,
+      "ContainerName": "ForbidMultiInteract",
+      "Tags": [
+        576,
+        567,
+        916,
+        405
+      ],
+      "ParentTags": [
+        10008,
+        10011,
+        10017,
+        10019,
+        10020,
+        10021,
+        10024,
+        10048,
+        10049,
+        10030,
+        10031,
+        10032,
+        10033,
+        10045,
+        10050,
+        100550
+      ]
+    },
+    {
+      "Id": 15,
+      "ContainerName": "ForbidEdgeAndWall",
+      "Tags": [
+        577,
+        780
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 16,
+      "ContainerName": "AllowShowWeapon",
+      "Tags": [
+        858
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 17,
+      "ContainerName": "ForbidShowWeapon",
+      "Tags": [
+        859
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 18,
+      "ContainerName": "AllowHideWeapon",
+      "Tags": [
+        859
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 19,
+      "ContainerName": "AllowShowDemonHandL",
+      "Tags": [
+        860
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 20,
+      "ContainerName": "AllowShowDemonHandR",
+      "Tags": [
+        861
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 21,
+      "ContainerName": "AllowPickUpBall",
+      "Tags": [],
+      "ParentTags": [
+        10010,
+        10004,
+        10007,
+        10008
+      ]
+    },
+    {
+      "Id": 22,
+      "ContainerName": "ForbidPickUpBall",
+      "Tags": [
+        752,
+        857
+      ],
+      "ParentTags": [
+        10023,
+        10026,
+        10078
+      ]
+    },
+    {
+      "Id": 23,
+      "ContainerName": "AllowUseCameraRotation",
+      "Tags": [
+        862,
+        901
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 24,
+      "ContainerName": "ForbidUseCameraRotation",
+      "Tags": [],
+      "ParentTags": []
+    },
+    {
+      "Id": 25,
+      "ContainerName": "AllowIdleRelax",
+      "Tags": [],
+      "ParentTags": [
+        10010
+      ]
+    },
+    {
+      "Id": 26,
+      "ContainerName": "ForbidIdleRelax",
+      "Tags": [
+        2506,
+        1650,
+        2401,
+        2722
+      ],
+      "ParentTags": [
+        10028
+      ]
+    },
+    {
+      "Id": 27,
+      "ContainerName": "AllowStopWhenEnterFall",
+      "Tags": [
+        756,
+        862,
+        906
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 28,
+      "ContainerName": "ForbidOpenDoor",
+      "Tags": [
+        579,
+        40
+      ],
+      "ParentTags": [
+        10031,
+        10034,
+        10078,
+        10100
+      ]
+    },
+    {
+      "Id": 29,
+      "ContainerName": "AllowPickUpFootBall",
+      "Tags": [],
+      "ParentTags": [
+        10010,
+        10004,
+        10007,
+        10008
+      ]
+    },
+    {
+      "Id": 30,
+      "ContainerName": "ForbidPickUpFootBall",
+      "Tags": [
+        752
+      ],
+      "ParentTags": [
+        10078
+      ]
+    },
+    {
+      "Id": 31,
+      "ContainerName": "AllowHackAdjustPose",
+      "Tags": [],
+      "ParentTags": [
+        10010,
+        10004,
+        10007,
+        10008
+      ]
+    },
+    {
+      "Id": 32,
+      "ContainerName": "ForbidHackAdjustPose",
+      "Tags": [
+        753
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 33,
+      "ContainerName": "AllowDrink",
+      "Tags": [],
+      "ParentTags": [
+        10010,
+        10004,
+        10007,
+        10008
+      ]
+    },
+    {
+      "Id": 34,
+      "ContainerName": "ForbidPlaySummonAction",
+      "Tags": [],
+      "ParentTags": [
+        10021
+      ]
+    },
+    {
+      "Id": 35,
+      "ContainerName": "AllowFaceLockTarget",
+      "Tags": [
+        901
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 36,
+      "ContainerName": "ForbidEdgeAndWallV2",
+      "Tags": [
+        578,
+        590,
+        780,
+        903
+      ],
+      "ParentTags": [
+        10010
+      ]
+    },
+    {
+      "Id": 37,
+      "ContainerName": "AllowBasketBallCanDefend",
+      "Tags": [],
+      "ParentTags": [
+        10010,
+        10004,
+        10007,
+        10008
+      ]
+    },
+    {
+      "Id": 38,
+      "ContainerName": "ForbidBasketBallCanDefend",
+      "Tags": [
+        752
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 39,
+      "ContainerName": "ForbidBasketBallCanRotateToDefend",
+      "Tags": [
+        752
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 40,
+      "ContainerName": "AllowMovePoseCheck",
+      "Tags": [],
+      "ParentTags": [
+        10004,
+        10007,
+        10008
+      ]
+    },
+    {
+      "Id": 41,
+      "ContainerName": "ForbidGunShoot",
+      "Tags": [
+        546,
+        548,
+        550,
+        552,
+        902,
+        910,
+        905,
+        896,
+        898,
+        892
+      ],
+      "ParentTags": [
+        10026,
+        10027,
+        10030,
+        10031,
+        10037
+      ]
+    },
+    {
+      "Id": 42,
+      "ContainerName": "ForbidGunAim",
+      "Tags": [
+        546,
+        548,
+        550,
+        552,
+        905,
+        897,
+        898,
+        892
+      ],
+      "ParentTags": [
+        10026,
+        10030,
+        10037,
+        10102
+      ]
+    },
+    {
+      "Id": 43,
+      "ContainerName": "AllowSlowMoveFade",
+      "Tags": [
+        541,
+        534,
+        536,
+        538,
+        562
+      ],
+      "ParentTags": [
+        100600
+      ]
+    },
+    {
+      "Id": 44,
+      "ContainerName": "ForbidMoveTurn",
+      "Tags": [
+        768
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 45,
+      "ContainerName": "ForbidGunReload",
+      "Tags": [
+        546,
+        548,
+        905
+      ],
+      "ParentTags": [
+        10026
+      ]
+    },
+    {
+      "Id": 46,
+      "ContainerName": "ForbidInteractVehicle",
+      "Tags": [
+        902
+      ],
+      "ParentTags": [
+        10023
+      ]
+    },
+    {
+      "Id": 47,
+      "ContainerName": "ForbidHackSummon",
+      "Tags": [
+        567,
+        902
+      ],
+      "ParentTags": [
+        10017,
+        10021,
+        10027
+      ]
+    },
+    {
+      "Id": 48,
+      "ContainerName": "GroundType",
+      "Tags": [],
+      "ParentTags": [
+        10010,
+        10004,
+        10007,
+        10008
+      ]
+    },
+    {
+      "Id": 49,
+      "ContainerName": "ForbidHiddenArea",
+      "Tags": [
+        501
+      ],
+      "ParentTags": [
+        10001
+      ]
+    },
+    {
+      "Id": 50,
+      "ContainerName": "ForbidWingsuitFly",
+      "Tags": [
+        555
+      ],
+      "ParentTags": [
+        10046,
+        10023
+      ]
+    },
+    {
+      "Id": 52,
+      "ContainerName": "ForbidFeisuoClick",
+      "Tags": [
+        902,
+        1310,
+        1337,
+        1352,
+        1651
+      ],
+      "ParentTags": [
+        10021,
+        100202,
+        10034,
+        10050
+      ]
+    },
+    {
+      "Id": 53,
+      "ContainerName": "ForbidPlaygroundSlide",
+      "Tags": [
+        763,
+        902
+      ],
+      "ParentTags": [
+        10023
+      ]
+    },
+    {
+      "Id": 54,
+      "ContainerName": "ForbidAgainstWall",
+      "Tags": [],
+      "ParentTags": [
+        10011
+      ]
+    },
+    {
+      "Id": 55,
+      "ContainerName": "AllowInteractHatPuton",
+      "Tags": [],
+      "ParentTags": [
+        10010,
+        10004,
+        10007,
+        10008
+      ]
+    },
+    {
+      "Id": 56,
+      "ContainerName": "AllowInteractHatPutoff",
+      "Tags": [],
+      "ParentTags": [
+        10010,
+        10004,
+        10007,
+        10008
+      ]
+    },
+    {
+      "Id": 57,
+      "ContainerName": "ForbidInteractHatPut",
+      "Tags": [
+        40,
+        769,
+        770
+      ],
+      "ParentTags": [
+        10021,
+        10034,
+        10107,
+        10078,
+        10104
+      ]
+    },
+    {
+      "Id": 58,
+      "ContainerName": "ArmLeftBusy",
+      "Tags": [
+        893
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 59,
+      "ContainerName": "ArmRightBusy",
+      "Tags": [
+        894
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 60,
+      "ContainerName": "CanLadderZone",
+      "Tags": [
+        541
+      ],
+      "ParentTags": [
+        10004,
+        10007,
+        10008
+      ]
+    },
+    {
+      "Id": 61,
+      "ContainerName": "ForbidSetStableSlopeAngle",
+      "Tags": [],
+      "ParentTags": []
+    },
+    {
+      "Id": 62,
+      "ContainerName": "OnGround",
+      "Tags": [
+        533
+      ],
+      "ParentTags": [
+        10003
+      ]
+    },
+    {
+      "Id": 63,
+      "ContainerName": "FeisuoAirStart",
+      "Tags": [
+        27
+      ],
+      "ParentTags": [
+        10012,
+        10013
+      ]
+    },
+    {
+      "Id": 64,
+      "ContainerName": "FeisuoAirFaithLeapStart",
+      "Tags": [
+        549
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 65,
+      "ContainerName": "FeisuoAirAirRushStart",
+      "Tags": [
+        554
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 66,
+      "ContainerName": "FeisuoCrouchStart",
+      "Tags": [],
+      "ParentTags": [
+        10018
+      ]
+    },
+    {
+      "Id": 67,
+      "ContainerName": "FeisuoRunStart",
+      "Tags": [],
+      "ParentTags": [
+        10004,
+        10008
+      ]
+    },
+    {
+      "Id": 68,
+      "ContainerName": "ForbidHipAim",
+      "Tags": [
+        895,
+        27,
+        550
+      ],
+      "ParentTags": [
+        10026
+      ]
+    },
+    {
+      "Id": 69,
+      "ContainerName": "FeisuoGroundNormalStart",
+      "Tags": [
+        533
+      ],
+      "ParentTags": [
+        10003,
+        10100
+      ]
+    },
+    {
+      "Id": 70,
+      "ContainerName": "ForbidShoulderAim",
+      "Tags": [
+        27,
+        550,
+        899
+      ],
+      "ParentTags": [
+        10026
+      ]
+    },
+    {
+      "Id": 71,
+      "ContainerName": "ForbidDynamicItemCollison",
+      "Tags": [
+        576
+      ],
+      "ParentTags": [
+        10041
+      ]
+    },
+    {
+      "Id": 72,
+      "ContainerName": "ForbidMoveByDynamicItem",
+      "Tags": [
+        906
+      ],
+      "ParentTags": [
+        10014,
+        10015,
+        10016,
+        10018,
+        10020
+      ]
+    },
+    {
+      "Id": 73,
+      "ContainerName": "ForceBreakItem",
+      "Tags": [
+        550,
+        552
+      ],
+      "ParentTags": [
+        10016
+      ]
+    },
+    {
+      "Id": 74,
+      "ContainerName": "IgnoreHurtDynamicItem",
+      "Tags": [
+        551
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 75,
+      "ContainerName": "CanSwing",
+      "Tags": [],
+      "ParentTags": [
+        10011
+      ]
+    },
+    {
+      "Id": 76,
+      "ContainerName": "HoldWeaponAction",
+      "Tags": [
+        774,
+        914
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 77,
+      "ContainerName": "ForbidShowClimb",
+      "Tags": [
+        556
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 78,
+      "ContainerName": "AllowFloatFlight",
+      "Tags": [
+        556
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 79,
+      "ContainerName": "RunState",
+      "Tags": [],
+      "ParentTags": [
+        10004
+      ]
+    },
+    {
+      "Id": 80,
+      "ContainerName": "RushState",
+      "Tags": [],
+      "ParentTags": [
+        10008
+      ]
+    },
+    {
+      "Id": 81,
+      "ContainerName": "ProwlAnimState",
+      "Tags": [
+        541
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 82,
+      "ContainerName": "NoInteractNormalAttack",
+      "Tags": [
+        576,
+        567,
+        551,
+        553,
+        555,
+        556,
+        592,
+        1702,
+        757,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        896,
+        1321,
+        1329,
+        1342,
+        1343,
+        2402
+      ],
+      "ParentTags": [
+        10017,
+        10019,
+        10020,
+        100902,
+        10023,
+        100200,
+        10025,
+        100600,
+        10029,
+        10031,
+        100606,
+        10034,
+        10050,
+        10078
+      ]
+    },
+    {
+      "Id": 83,
+      "ContainerName": "NonVisibleNormalAttack_Mobile",
+      "Tags": [
+        576,
+        567,
+        551,
+        555,
+        556,
+        25,
+        543,
+        1702,
+        856,
+        915,
+        916,
+        757,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        772,
+        1342,
+        1343
+      ],
+      "ParentTags": [
+        10019,
+        10021,
+        10023,
+        100200,
+        10025,
+        100600,
+        10029,
+        10031,
+        100606,
+        10034,
+        10078
+      ]
+    },
+    {
+      "Id": 84,
+      "ContainerName": "NoInteractHeavyAttack",
+      "Tags": [
+        576,
+        567,
+        551,
+        553,
+        555,
+        556,
+        25,
+        543,
+        1702,
+        753,
+        754,
+        774,
+        775,
+        784,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        1342,
+        1343
+      ],
+      "ParentTags": [
+        10018,
+        10019,
+        100901,
+        10021,
+        10023,
+        100200,
+        10025,
+        100600,
+        10029,
+        10030,
+        100606,
+        10034,
+        10078
+      ]
+    },
+    {
+      "Id": 85,
+      "ContainerName": "NoInteractHeavyAttack_Mobile",
+      "Tags": [
+        576,
+        567,
+        548,
+        555,
+        556,
+        25,
+        543,
+        1702,
+        575,
+        753,
+        754,
+        774,
+        775,
+        784,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        1342,
+        1343
+      ],
+      "ParentTags": [
+        10012,
+        10014,
+        10015,
+        10018,
+        10019,
+        100901,
+        10021,
+        10023,
+        100200,
+        10025,
+        100600,
+        10029,
+        10030,
+        100606,
+        10034,
+        10078
+      ]
+    },
+    {
+      "Id": 86,
+      "ContainerName": "NonVisibleHeavyAttack_Mobile",
+      "Tags": [
+        576,
+        567,
+        551,
+        553,
+        555,
+        556,
+        25,
+        543,
+        1702,
+        856,
+        915,
+        916,
+        753,
+        754,
+        784,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        772,
+        1342,
+        1343
+      ],
+      "ParentTags": [
+        10018,
+        10019,
+        100901,
+        10021,
+        10023,
+        100200,
+        10025,
+        100600,
+        10029,
+        10030,
+        100606,
+        10034,
+        10078
+      ]
+    },
+    {
+      "Id": 87,
+      "ContainerName": "NoInteractSkill",
+      "Tags": [
+        576,
+        40,
+        567,
+        27,
+        547,
+        548,
+        549,
+        554,
+        555,
+        556,
+        557,
+        1802,
+        2213,
+        25,
+        543,
+        1702,
+        575,
+        757,
+        753,
+        754,
+        784,
+        759,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        1342,
+        1343
+      ],
+      "ParentTags": [
+        10012,
+        10014,
+        10015,
+        10018,
+        10019,
+        10021,
+        10023,
+        100200,
+        10025,
+        100600,
+        10029,
+        100606,
+        10034,
+        10078
+      ]
+    },
+    {
+      "Id": 88,
+      "ContainerName": "NonVisibleSkill",
+      "Tags": [
+        576,
+        567,
+        551,
+        553,
+        555,
+        556,
+        25,
+        543,
+        1702,
+        757,
+        753,
+        754,
+        784,
+        759,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        1342,
+        1343
+      ],
+      "ParentTags": [
+        10018,
+        10019,
+        10021,
+        10023,
+        100200,
+        10025,
+        100600,
+        10029,
+        100606,
+        10034,
+        10078
+      ]
+    },
+    {
+      "Id": 89,
+      "ContainerName": "NonVisibleSkill_Mobile",
+      "Tags": [
+        576,
+        567,
+        551,
+        553,
+        555,
+        556,
+        25,
+        543,
+        1702,
+        856,
+        915,
+        916,
+        757,
+        753,
+        754,
+        784,
+        759,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        772,
+        1342,
+        1343
+      ],
+      "ParentTags": [
+        10018,
+        10019,
+        10021,
+        10023,
+        100200,
+        10025,
+        100600,
+        10029,
+        100606,
+        10034,
+        10078
+      ]
+    },
+    {
+      "Id": 90,
+      "ContainerName": "NoInteractUltSkill",
+      "Tags": [
+        576,
+        567,
+        27,
+        547,
+        548,
+        549,
+        554,
+        555,
+        556,
+        557,
+        1802,
+        2213,
+        25,
+        543,
+        1702,
+        575,
+        856,
+        915,
+        916,
+        753,
+        754,
+        784,
+        759,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        851,
+        1342,
+        1343
+      ],
+      "ParentTags": [
+        10012,
+        10014,
+        10015,
+        10018,
+        10019,
+        10021,
+        10023,
+        100200,
+        10025,
+        100600,
+        10029,
+        10030,
+        100606,
+        10034,
+        10078
+      ]
+    },
+    {
+      "Id": 91,
+      "ContainerName": "NonVisibleUltSkill",
+      "Tags": [
+        576,
+        567,
+        551,
+        553,
+        555,
+        556,
+        25,
+        543,
+        558,
+        559,
+        560,
+        1702,
+        856,
+        915,
+        916,
+        757,
+        753,
+        754,
+        784,
+        759,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        851,
+        1342,
+        1343
+      ],
+      "ParentTags": [
+        10019,
+        10021,
+        10023,
+        100200,
+        10025,
+        100600,
+        10029,
+        100606,
+        10034,
+        10078
+      ]
+    },
+    {
+      "Id": 92,
+      "ContainerName": "NonVisibleUltSkill_Mobile",
+      "Tags": [
+        576,
+        567,
+        551,
+        553,
+        555,
+        556,
+        25,
+        543,
+        558,
+        559,
+        560,
+        1702,
+        856,
+        915,
+        916,
+        757,
+        753,
+        754,
+        784,
+        759,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        772,
+        851,
+        1342,
+        1343
+      ],
+      "ParentTags": [
+        10019,
+        10021,
+        10023,
+        100200,
+        10025,
+        100600,
+        10029,
+        100606,
+        10034,
+        10078
+      ]
+    },
+    {
+      "Id": 93,
+      "ContainerName": "NoInteractDodge",
+      "Tags": [
+        576,
+        567,
+        548,
+        549,
+        552,
+        555,
+        556,
+        25,
+        543,
+        560,
+        561,
+        750,
+        751,
+        752,
+        759,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        772,
+        401,
+        402,
+        403,
+        404,
+        1342,
+        1343
+      ],
+      "ParentTags": [
+        10012,
+        10014,
+        10021,
+        10023,
+        100200,
+        10025,
+        100600,
+        10031,
+        100606,
+        10034,
+        10087
+      ]
+    },
+    {
+      "Id": 94,
+      "ContainerName": "NonVisibleDodge_Mobile",
+      "Tags": [
+        576,
+        567,
+        551,
+        555,
+        556,
+        25,
+        543,
+        560,
+        561,
+        856,
+        915,
+        916,
+        750,
+        751,
+        752,
+        753,
+        754,
+        784,
+        759,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        401,
+        402,
+        403,
+        404,
+        1342,
+        1343,
+        1348
+      ],
+      "ParentTags": [
+        10021,
+        10023,
+        100200,
+        10025,
+        100600,
+        100606,
+        10034,
+        10087
+      ]
+    },
+    {
+      "Id": 95,
+      "ContainerName": "NoInteractJumpJump",
+      "Tags": [
+        576,
+        567,
+        555,
+        556,
+        592,
+        26,
+        544,
+        545,
+        591,
+        2210,
+        750,
+        751,
+        752,
+        753,
+        754,
+        784,
+        759,
+        762,
+        763,
+        401,
+        402,
+        403,
+        404,
+        903,
+        1307,
+        1321,
+        1342,
+        1343
+      ],
+      "ParentTags": [
+        100901,
+        10021,
+        100200,
+        10025,
+        100600,
+        10027,
+        10034,
+        10050,
+        10087
+      ]
+    },
+    {
+      "Id": 96,
+      "ContainerName": "NonVisibleJumpJump_Mobile",
+      "Tags": [
+        576,
+        567,
+        555,
+        556,
+        26,
+        544,
+        545,
+        591,
+        2210,
+        750,
+        751,
+        753,
+        754,
+        759,
+        762,
+        763,
+        401,
+        402,
+        403,
+        404,
+        903,
+        1307,
+        1321,
+        1342,
+        1343
+      ],
+      "ParentTags": [
+        10018,
+        100901,
+        10021,
+        100200,
+        10025,
+        100600,
+        10027,
+        10034,
+        10050,
+        10087
+      ]
+    },
+    {
+      "Id": 97,
+      "ContainerName": "NoInteractMindPower",
+      "Tags": [
+        567,
+        551,
+        553,
+        555,
+        556,
+        25,
+        543,
+        561,
+        563,
+        564,
+        565,
+        1702,
+        856,
+        916,
+        753,
+        754,
+        759,
+        762,
+        763,
+        765,
+        766,
+        767,
+        851
+      ],
+      "ParentTags": [
+        10021,
+        10023,
+        100200,
+        10025,
+        10029,
+        10030,
+        100606,
+        10034,
+        10078
+      ]
+    },
+    {
+      "Id": 98,
+      "ContainerName": "NonVisibleMindPower",
+      "Tags": [
+        567,
+        551,
+        553,
+        555,
+        556,
+        25,
+        543,
+        560,
+        561,
+        563,
+        564,
+        565,
+        1702,
+        916,
+        753,
+        754,
+        784,
+        759,
+        762,
+        763,
+        765,
+        766,
+        767,
+        851
+      ],
+      "ParentTags": [
+        10021,
+        10023,
+        100200,
+        10025,
+        10029,
+        10030,
+        100606,
+        10034,
+        10078
+      ]
+    },
+    {
+      "Id": 99,
+      "ContainerName": "NoInteractMindPower_Mobile",
+      "Tags": [
+        567,
+        548,
+        555,
+        556,
+        25,
+        543,
+        561,
+        563,
+        564,
+        565,
+        1702,
+        575,
+        856,
+        915,
+        916,
+        753,
+        754,
+        759,
+        762,
+        763,
+        765,
+        766,
+        767,
+        851
+      ],
+      "ParentTags": [
+        10012,
+        10014,
+        10015,
+        10021,
+        10023,
+        100200,
+        10025,
+        10029,
+        10030,
+        100606,
+        10034,
+        10078,
+        10087
+      ]
+    },
+    {
+      "Id": 100,
+      "ContainerName": "NonVisibleMindPower_Mobile",
+      "Tags": [
+        576,
+        567,
+        551,
+        553,
+        555,
+        556,
+        25,
+        543,
+        560,
+        561,
+        563,
+        564,
+        565,
+        1702,
+        856,
+        915,
+        916,
+        753,
+        754,
+        784,
+        759,
+        762,
+        763,
+        765,
+        766,
+        767,
+        772,
+        851,
+        401,
+        402,
+        403,
+        404
+      ],
+      "ParentTags": [
+        10021,
+        10023,
+        100200,
+        10025,
+        10029,
+        10030,
+        100606,
+        10034,
+        10087
+      ]
+    },
+    {
+      "Id": 101,
+      "ContainerName": "NoInteractMindPower_Destructible_One",
+      "Tags": [
+        567,
+        551,
+        553,
+        555,
+        556,
+        25,
+        543,
+        916,
+        756,
+        757,
+        753,
+        754,
+        759,
+        762,
+        763,
+        765,
+        766,
+        767,
+        851
+      ],
+      "ParentTags": [
+        10019,
+        10021,
+        100200,
+        10025,
+        10029,
+        100606,
+        10034
+      ]
+    },
+    {
+      "Id": 102,
+      "ContainerName": "NonVisibleMindPower_Destructible_One",
+      "Tags": [
+        567,
+        551,
+        553,
+        555,
+        556,
+        25,
+        543,
+        916,
+        757,
+        753,
+        754,
+        759,
+        762,
+        763,
+        765,
+        766,
+        767,
+        851
+      ],
+      "ParentTags": [
+        10019,
+        10021,
+        100200,
+        10025,
+        10029,
+        100606,
+        10034
+      ]
+    },
+    {
+      "Id": 103,
+      "ContainerName": "NonVisibleMindPower_Destructible_One_Mobile",
+      "Tags": [
+        567,
+        551,
+        553,
+        555,
+        556,
+        25,
+        543,
+        561,
+        916,
+        753,
+        754,
+        759,
+        762,
+        763,
+        765,
+        766,
+        767,
+        851
+      ],
+      "ParentTags": [
+        10019,
+        10021,
+        100200,
+        10025,
+        10029,
+        10030,
+        100606,
+        10034
+      ]
+    },
+    {
+      "Id": 104,
+      "ContainerName": "NoInteractMindPower_Destructible_Two",
+      "Tags": [
+        567,
+        551,
+        553,
+        555,
+        556,
+        25,
+        543,
+        558,
+        559,
+        916,
+        757,
+        753,
+        754,
+        759,
+        762,
+        763,
+        765,
+        766,
+        767,
+        851
+      ],
+      "ParentTags": [
+        10019,
+        10021,
+        100200,
+        10025,
+        10029,
+        100606,
+        10034
+      ]
+    },
+    {
+      "Id": 105,
+      "ContainerName": "NonVisibleMindPower_Destructible_Two",
+      "Tags": [
+        567,
+        551,
+        553,
+        555,
+        556,
+        25,
+        543,
+        558,
+        559,
+        561,
+        916,
+        753,
+        754,
+        759,
+        762,
+        763,
+        765,
+        766,
+        767,
+        851
+      ],
+      "ParentTags": [
+        10019,
+        10021,
+        100200,
+        10025,
+        10029,
+        10030,
+        100606,
+        10034
+      ]
+    },
+    {
+      "Id": 106,
+      "ContainerName": "NoInteractMindPower_Destructible_Three",
+      "Tags": [
+        567,
+        551,
+        553,
+        555,
+        556,
+        25,
+        543,
+        916,
+        757,
+        753,
+        754,
+        759,
+        762,
+        763,
+        765,
+        766,
+        767,
+        851
+      ],
+      "ParentTags": [
+        10019,
+        10021,
+        100200,
+        10025,
+        10029,
+        100606,
+        10034
+      ]
+    },
+    {
+      "Id": 107,
+      "ContainerName": "NonVisibleMindPower_Destructible_Three",
+      "Tags": [
+        567,
+        551,
+        553,
+        555,
+        556,
+        25,
+        543,
+        916,
+        757,
+        753,
+        754,
+        759,
+        762,
+        763,
+        765,
+        766,
+        767,
+        851
+      ],
+      "ParentTags": [
+        10019,
+        10021,
+        100200,
+        10025,
+        10029,
+        100606,
+        10034
+      ]
+    },
+    {
+      "Id": 108,
+      "ContainerName": "NonVisibleMindPower_Destructible_Three_Mobile",
+      "Tags": [
+        567,
+        551,
+        553,
+        555,
+        556,
+        25,
+        543,
+        561,
+        916,
+        753,
+        754,
+        759,
+        762,
+        763,
+        765,
+        766,
+        767,
+        851
+      ],
+      "ParentTags": [
+        10019,
+        10021,
+        100200,
+        10025,
+        10029,
+        10030,
+        100606,
+        10034
+      ]
+    },
+    {
+      "Id": 109,
+      "ContainerName": "NoInteractMindPower_LongHold",
+      "Tags": [
+        567,
+        551,
+        553,
+        555,
+        556,
+        25,
+        543,
+        561,
+        563,
+        564,
+        565,
+        916,
+        753,
+        754,
+        759,
+        762,
+        763,
+        765,
+        766,
+        767,
+        851
+      ],
+      "ParentTags": [
+        10021,
+        10023,
+        100200,
+        10025,
+        10029,
+        10030,
+        100606,
+        10034
+      ]
+    },
+    {
+      "Id": 110,
+      "ContainerName": "NonVisibleMindPower_LongHold",
+      "Tags": [
+        567,
+        551,
+        553,
+        555,
+        556,
+        25,
+        543,
+        560,
+        561,
+        563,
+        564,
+        565,
+        916,
+        753,
+        754,
+        759,
+        762,
+        763,
+        765,
+        766,
+        767,
+        851
+      ],
+      "ParentTags": [
+        10021,
+        10023,
+        100200,
+        10025,
+        10029,
+        10030,
+        100606,
+        10034
+      ]
+    },
+    {
+      "Id": 111,
+      "ContainerName": "NoInteractMindPower_LongHold_Mobile",
+      "Tags": [
+        567,
+        548,
+        555,
+        556,
+        25,
+        543,
+        561,
+        563,
+        564,
+        565,
+        575,
+        916,
+        753,
+        754,
+        759,
+        762,
+        763,
+        765,
+        766,
+        767,
+        851
+      ],
+      "ParentTags": [
+        10012,
+        10014,
+        10015,
+        10021,
+        10023,
+        100200,
+        10025,
+        10029,
+        10030,
+        100606,
+        10034
+      ]
+    },
+    {
+      "Id": 112,
+      "ContainerName": "NonVisibleMindPower_LongHold_Mobile",
+      "Tags": [
+        567,
+        551,
+        553,
+        555,
+        556,
+        25,
+        543,
+        560,
+        561,
+        563,
+        564,
+        565,
+        916,
+        753,
+        754,
+        759,
+        762,
+        763,
+        765,
+        766,
+        767,
+        851
+      ],
+      "ParentTags": [
+        10021,
+        10023,
+        100200,
+        10025,
+        10029,
+        10030,
+        100606,
+        10034
+      ]
+    },
+    {
+      "Id": 113,
+      "ContainerName": "NoInteractMindPower_DragHold",
+      "Tags": [
+        567,
+        551,
+        553,
+        555,
+        556,
+        25,
+        543,
+        561,
+        563,
+        564,
+        565,
+        916,
+        753,
+        754,
+        759,
+        762,
+        763,
+        765,
+        766,
+        767,
+        851
+      ],
+      "ParentTags": [
+        10021,
+        10023,
+        100200,
+        10025,
+        10029,
+        10030,
+        100606,
+        10034
+      ]
+    },
+    {
+      "Id": 114,
+      "ContainerName": "NonVisibleMindPower_DragHold",
+      "Tags": [
+        567,
+        551,
+        553,
+        555,
+        556,
+        25,
+        543,
+        560,
+        561,
+        563,
+        564,
+        565,
+        916,
+        753,
+        754,
+        759,
+        762,
+        763,
+        765,
+        766,
+        767,
+        851
+      ],
+      "ParentTags": [
+        10021,
+        10023,
+        100200,
+        10025,
+        10029,
+        10030,
+        100606,
+        10034
+      ]
+    },
+    {
+      "Id": 115,
+      "ContainerName": "NoInteractMindPower_DragHold_Mobile",
+      "Tags": [
+        567,
+        548,
+        555,
+        556,
+        25,
+        543,
+        561,
+        563,
+        564,
+        565,
+        575,
+        916,
+        753,
+        754,
+        759,
+        762,
+        763,
+        765,
+        766,
+        767,
+        851
+      ],
+      "ParentTags": [
+        10012,
+        10014,
+        10015,
+        10021,
+        10023,
+        100200,
+        10025,
+        10029,
+        10030,
+        100606,
+        10034
+      ]
+    },
+    {
+      "Id": 116,
+      "ContainerName": "NonVisibleMindPower_DragHold_Mobile",
+      "Tags": [
+        567,
+        551,
+        553,
+        555,
+        556,
+        25,
+        543,
+        560,
+        561,
+        563,
+        564,
+        565,
+        916,
+        753,
+        754,
+        759,
+        762,
+        763,
+        765,
+        766,
+        767,
+        851
+      ],
+      "ParentTags": [
+        10021,
+        10023,
+        100200,
+        10025,
+        10029,
+        10030,
+        100606,
+        10034
+      ]
+    },
+    {
+      "Id": 117,
+      "ContainerName": "NoInteractGrapple",
+      "Tags": [
+        576,
+        567,
+        555,
+        556,
+        543,
+        560,
+        757,
+        753,
+        754,
+        784,
+        759,
+        762,
+        763,
+        765,
+        766,
+        767,
+        1310
+      ],
+      "ParentTags": [
+        10021,
+        10023,
+        100200,
+        10025,
+        10027,
+        10029,
+        100606,
+        10034
+      ]
+    },
+    {
+      "Id": 118,
+      "ContainerName": "NoInteractAssassin",
+      "Tags": [
+        533,
+        576,
+        567,
+        532,
+        535,
+        537,
+        554,
+        555,
+        556,
+        25,
+        543,
+        560,
+        561,
+        544,
+        545,
+        574,
+        575,
+        753,
+        754,
+        759,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        851,
+        906,
+        857
+      ],
+      "ParentTags": [
+        10012,
+        10013,
+        10014,
+        10015,
+        10019,
+        10021,
+        10023,
+        100200,
+        10025,
+        10027,
+        10029,
+        10030,
+        100606,
+        10034,
+        10105
+      ]
+    },
+    {
+      "Id": 119,
+      "ContainerName": "NoInteractOffWall",
+      "Tags": [
+        533,
+        576,
+        567,
+        541,
+        532,
+        535,
+        537,
+        539,
+        554,
+        555,
+        556,
+        25,
+        543,
+        544,
+        545,
+        753,
+        759,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        906,
+        857
+      ],
+      "ParentTags": [
+        10012,
+        10013,
+        10014,
+        10015,
+        10018,
+        10021,
+        10023,
+        100200,
+        10025,
+        10027,
+        10029,
+        10030,
+        100606,
+        10034,
+        10105
+      ]
+    },
+    {
+      "Id": 120,
+      "ContainerName": "NoInteractMagnet",
+      "Tags": [
+        533,
+        576,
+        567,
+        541,
+        532,
+        535,
+        537,
+        539,
+        554,
+        555,
+        556,
+        25,
+        543,
+        558,
+        559,
+        560,
+        544,
+        545,
+        574,
+        575,
+        757,
+        753,
+        754,
+        759,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        850,
+        851,
+        906,
+        857
+      ],
+      "ParentTags": [
+        10012,
+        10013,
+        10014,
+        10015,
+        10019,
+        10021,
+        10023,
+        100200,
+        10025,
+        10027,
+        10029,
+        100606,
+        10034,
+        10105
+      ]
+    },
+    {
+      "Id": 121,
+      "ContainerName": "NoInteractMagnetPutDown",
+      "Tags": [
+        533,
+        576,
+        567,
+        541,
+        532,
+        535,
+        537,
+        539,
+        554,
+        555,
+        556,
+        25,
+        543,
+        558,
+        559,
+        561,
+        544,
+        545,
+        574,
+        575,
+        756,
+        753,
+        754,
+        759,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        851,
+        906,
+        900,
+        919,
+        857
+      ],
+      "ParentTags": [
+        10012,
+        10013,
+        10014,
+        10015,
+        10019,
+        10021,
+        10023,
+        100200,
+        10025,
+        10027,
+        10029,
+        100606,
+        10034,
+        10105
+      ]
+    },
+    {
+      "Id": 122,
+      "ContainerName": "NoInteractHp",
+      "Tags": [
+        556
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 123,
+      "ContainerName": "NonVisibleHp",
+      "Tags": [
+        576,
+        567,
+        556,
+        543,
+        750,
+        751,
+        753,
+        754,
+        759,
+        762,
+        765,
+        766,
+        767
+      ],
+      "ParentTags": [
+        10021,
+        100200,
+        10025,
+        10027,
+        100606,
+        10034,
+        10045
+      ]
+    },
+    {
+      "Id": 124,
+      "ContainerName": "NoInteractSwitchWeaponWheels",
+      "Tags": [
+        576,
+        567,
+        27,
+        547,
+        548,
+        549,
+        554,
+        555,
+        556,
+        557,
+        1802,
+        2213,
+        25,
+        543,
+        753,
+        754,
+        755,
+        774,
+        775,
+        784,
+        759,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        851,
+        928,
+        905
+      ],
+      "ParentTags": [
+        10012,
+        10014,
+        10015,
+        10018,
+        10019,
+        10021,
+        10023,
+        10027,
+        10029,
+        10030,
+        100606,
+        10034,
+        10078
+      ]
+    },
+    {
+      "Id": 125,
+      "ContainerName": "NonVisibleSwitchWeaponWheels",
+      "Tags": [
+        576,
+        567,
+        551,
+        555,
+        556,
+        25,
+        543,
+        558,
+        559,
+        560,
+        757,
+        753,
+        754,
+        759,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        851
+      ],
+      "ParentTags": [
+        10019,
+        10021,
+        10023,
+        10027,
+        10029,
+        100606,
+        10034,
+        10078
+      ]
+    },
+    {
+      "Id": 126,
+      "ContainerName": "NoInteractSwitchWeaponWheels_Mobile",
+      "Tags": [
+        576,
+        567,
+        547,
+        548,
+        555,
+        556,
+        25,
+        543,
+        575,
+        753,
+        754,
+        755,
+        774,
+        775,
+        784,
+        759,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        851,
+        928,
+        905
+      ],
+      "ParentTags": [
+        10012,
+        10014,
+        10015,
+        10018,
+        10019,
+        10021,
+        10023,
+        10027,
+        10029,
+        10030,
+        100606,
+        10034,
+        10078
+      ]
+    },
+    {
+      "Id": 127,
+      "ContainerName": "NoInteractDiveBtnInfo",
+      "Tags": [
+        533,
+        576,
+        541,
+        532,
+        535,
+        537,
+        539,
+        554,
+        555,
+        556,
+        542,
+        543,
+        544,
+        545,
+        574,
+        575,
+        753,
+        754,
+        759,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        906,
+        857,
+        1356
+      ],
+      "ParentTags": [
+        10012,
+        10013,
+        10014,
+        10015,
+        10018,
+        10019,
+        10021,
+        10023,
+        100200,
+        10025,
+        10027,
+        10029,
+        10030,
+        100606,
+        10034,
+        10105
+      ]
+    },
+    {
+      "Id": 128,
+      "ContainerName": "NoInteractAirDash_mobile",
+      "Tags": [
+        533,
+        576,
+        567,
+        541,
+        532,
+        535,
+        537,
+        539,
+        547,
+        549,
+        551,
+        554,
+        555,
+        556,
+        25,
+        543,
+        562,
+        563,
+        565,
+        544,
+        545,
+        574,
+        753,
+        754,
+        759,
+        762,
+        763,
+        765,
+        766,
+        767,
+        851,
+        906,
+        857
+      ],
+      "ParentTags": [
+        10018,
+        10021,
+        10023,
+        100200,
+        10025,
+        10027,
+        10029,
+        10030,
+        100606,
+        10034,
+        10105
+      ]
+    },
+    {
+      "Id": 129,
+      "ContainerName": "NoInteractMotionAction",
+      "Tags": [
+        567,
+        556,
+        25,
+        562,
+        563,
+        565,
+        763
+      ],
+      "ParentTags": [
+        10021,
+        10023
+      ]
+    },
+    {
+      "Id": 130,
+      "ContainerName": "NoInteractTaFeiMoto",
+      "Tags": [
+        576,
+        567,
+        2712,
+        555,
+        2213,
+        25,
+        543,
+        558,
+        559,
+        561,
+        590,
+        2704,
+        2705,
+        2706,
+        2707,
+        575,
+        2502,
+        2503,
+        2701,
+        2702,
+        2904,
+        750,
+        751,
+        757,
+        753,
+        754,
+        755,
+        762,
+        763,
+        765,
+        766,
+        767,
+        2722,
+        902,
+        1314,
+        2403,
+        2506,
+        2601,
+        2710,
+        2713,
+        2802,
+        4002,
+        4004
+      ],
+      "ParentTags": [
+        10012,
+        10013,
+        10019,
+        10021,
+        100202,
+        100203,
+        10032,
+        10034,
+        10045,
+        100801,
+        100904
+      ]
+    },
+    {
+      "Id": 131,
+      "ContainerName": "NonVisibleTaFeiMoto_Mobile",
+      "Tags": [
+        576,
+        567,
+        2712,
+        555,
+        2213,
+        25,
+        543,
+        558,
+        559,
+        561,
+        2704,
+        2705,
+        2706,
+        2707,
+        2502,
+        2503,
+        2701,
+        2702,
+        2904,
+        856,
+        915,
+        916,
+        750,
+        751,
+        753,
+        754,
+        755,
+        762,
+        763,
+        765,
+        766,
+        767,
+        772,
+        2722,
+        1314,
+        2403,
+        2506,
+        2601,
+        2710,
+        2713,
+        2802,
+        4002,
+        4004
+      ],
+      "ParentTags": [
+        10019,
+        10021,
+        100202,
+        100203,
+        10030,
+        10032,
+        10034,
+        100801,
+        100904
+      ]
+    },
+    {
+      "Id": 132,
+      "ContainerName": "NoInteractHack",
+      "Tags": [
+        560,
+        561,
+        750,
+        753,
+        754
+      ],
+      "ParentTags": [
+        10027,
+        10030
+      ]
+    },
+    {
+      "Id": 133,
+      "ContainerName": "NoInteractHold_Left",
+      "Tags": [
+        25
+      ],
+      "ParentTags": [
+        10019,
+        10023
+      ]
+    },
+    {
+      "Id": 134,
+      "ContainerName": "NoInteractHold_E",
+      "Tags": [
+        25,
+        1101,
+        919
+      ],
+      "ParentTags": [
+        10019,
+        10023,
+        10028,
+        10078,
+        10084,
+        10085
+      ]
+    },
+    {
+      "Id": 135,
+      "ContainerName": "NoInteractHold_R",
+      "Tags": [
+        25
+      ],
+      "ParentTags": [
+        10019
+      ]
+    },
+    {
+      "Id": 136,
+      "ContainerName": "NoInteractObserve",
+      "Tags": [
+        567,
+        554,
+        555,
+        556,
+        25,
+        543,
+        560,
+        561,
+        562,
+        564,
+        544,
+        545,
+        574,
+        575,
+        753,
+        754,
+        759,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        851,
+        906
+      ],
+      "ParentTags": [
+        10012,
+        10013,
+        10014,
+        10015,
+        100200,
+        10025,
+        10027,
+        10029,
+        10030,
+        100606,
+        10034,
+        10105
+      ]
+    },
+    {
+      "Id": 137,
+      "ContainerName": "AllowOpenDoor",
+      "Tags": [],
+      "ParentTags": [
+        10003,
+        10036,
+        10115
+      ]
+    },
+    {
+      "Id": 138,
+      "ContainerName": "InvalidEntrySystemAction",
+      "Tags": [
+        548
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 139,
+      "ContainerName": "ForbidMapBoundaryUseVJoystick",
+      "Tags": [
+        557
+      ],
+      "ParentTags": [
+        10046,
+        10048,
+        10032,
+        10033
+      ]
+    },
+    {
+      "Id": 140,
+      "ContainerName": "AllowMapBoundaryUseVJoystick",
+      "Tags": [
+        567,
+        27,
+        554,
+        555,
+        556,
+        562
+      ],
+      "ParentTags": [
+        10003,
+        10012,
+        10013,
+        10014,
+        10015,
+        10017,
+        10018,
+        10023,
+        10026,
+        10100,
+        100400
+      ]
+    },
+    {
+      "Id": 141,
+      "ContainerName": "OnlyRush",
+      "Tags": [
+        1302
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 142,
+      "ContainerName": "OnlyWalk",
+      "Tags": [
+        885,
+        1303,
+        2722
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 143,
+      "ContainerName": "ForbidRush",
+      "Tags": [
+        1304
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 144,
+      "ContainerName": "NoInteractJiaMuSummon",
+      "Tags": [
+        576,
+        579,
+        567,
+        561,
+        592,
+        780,
+        781,
+        782,
+        783
+      ],
+      "ParentTags": [
+        10017,
+        10019,
+        10021,
+        10024,
+        10026,
+        10048,
+        10027,
+        10029,
+        10033,
+        10042,
+        10045,
+        10050
+      ]
+    },
+    {
+      "Id": 145,
+      "ContainerName": "NonVisibleJiaMuSummon",
+      "Tags": [],
+      "ParentTags": []
+    },
+    {
+      "Id": 146,
+      "ContainerName": "NoInteractSummonVehicle",
+      "Tags": [
+        576,
+        579,
+        567,
+        541,
+        25,
+        542,
+        543,
+        558,
+        559,
+        560,
+        561,
+        781,
+        782
+      ],
+      "ParentTags": [
+        10046,
+        10019,
+        10021,
+        10024,
+        10026,
+        10048,
+        10027,
+        10029,
+        10030,
+        10031,
+        10032,
+        10033,
+        10042,
+        10045,
+        10050
+      ]
+    },
+    {
+      "Id": 147,
+      "ContainerName": "NonVisibleSummonVehicle",
+      "Tags": [
+        576,
+        579,
+        567,
+        541
+      ],
+      "ParentTags": [
+        10046,
+        10017,
+        10018,
+        10019,
+        10021,
+        10024,
+        10026,
+        10048,
+        10027,
+        10028,
+        10108,
+        10114,
+        10050
+      ]
+    },
+    {
+      "Id": 148,
+      "ContainerName": "ExchangeDodgeOnGroundWall",
+      "Tags": [
+        538,
+        562
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 149,
+      "ContainerName": "InCrouchSwitchLine",
+      "Tags": [
+        1501
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 150,
+      "ContainerName": "NoHurtPuppet",
+      "Tags": [
+        917
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 151,
+      "ContainerName": "BattleState",
+      "Tags": [
+        1305
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 153,
+      "ContainerName": "ProwlAreaState",
+      "Tags": [
+        1301
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 154,
+      "ContainerName": "AllowEnterKilling",
+      "Tags": [
+        1306
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 155,
+      "ContainerName": "ForbidEnterKilling",
+      "Tags": [
+        1331
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 156,
+      "ContainerName": "ForbidJump",
+      "Tags": [
+        1307
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 157,
+      "ContainerName": "ForbidCoiledJump",
+      "Tags": [
+        1308
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 158,
+      "ContainerName": "ForbidClimb",
+      "Tags": [
+        1309
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 159,
+      "ContainerName": "AllowSlowProwlMode",
+      "Tags": [
+        1327
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 160,
+      "ContainerName": "AllowEnterParachute",
+      "Tags": [
+        580,
+        581,
+        582,
+        583,
+        1328,
+        2901
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 161,
+      "ContainerName": "ForbidEnterParachute",
+      "Tags": [],
+      "ParentTags": []
+    },
+    {
+      "Id": 162,
+      "ContainerName": "BreakMultiInteract",
+      "Tags": [
+        1651
+      ],
+      "ParentTags": [
+        10017
+      ]
+    },
+    {
+      "Id": 163,
+      "ContainerName": "AllowNormalAttackTips_Crounch",
+      "Tags": [],
+      "ParentTags": []
+    },
+    {
+      "Id": 164,
+      "ContainerName": "ReadyToSwitchAbpFromPlayer",
+      "Tags": [
+        532
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 165,
+      "ContainerName": "ForbidFeisuoJump",
+      "Tags": [
+        1313
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 166,
+      "ContainerName": "UnlockAssassin",
+      "Tags": [
+        1333
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 167,
+      "ContainerName": "ForbidUseCombatSkill",
+      "Tags": [
+        1336
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 168,
+      "ContainerName": "AllowNormalAttackTips_HoldBlend",
+      "Tags": [
+        756
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 169,
+      "ContainerName": "AllowNormalAttackTips_Bartending",
+      "Tags": [
+        759
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 170,
+      "ContainerName": "AllowNormalAttackTips_MindPowerFire01",
+      "Tags": [
+        561,
+        756
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 171,
+      "ContainerName": "AllowHeavyAttackTips_Bartending",
+      "Tags": [
+        759
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 172,
+      "ContainerName": "AllowHeavyAttackTips_TakeGoods",
+      "Tags": [
+        851
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 173,
+      "ContainerName": "AllowHeavyAttackTips_LongRangeWeaponAiming",
+      "Tags": [
+        919
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 174,
+      "ContainerName": "AllowCombatETips_TaFeiMoto",
+      "Tags": [],
+      "ParentTags": [
+        10023
+      ]
+    },
+    {
+      "Id": 175,
+      "ContainerName": "AllowEBtnTips_HoldBlend",
+      "Tags": [
+        561,
+        756
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 176,
+      "ContainerName": "AllowDodgeTips_SpeedUp_Integrated",
+      "Tags": [],
+      "ParentTags": [
+        10019
+      ]
+    },
+    {
+      "Id": 177,
+      "ContainerName": "AllowDodgeTips_TafeiMotoSpeedUp",
+      "Tags": [],
+      "ParentTags": [
+        10023
+      ]
+    },
+    {
+      "Id": 178,
+      "ContainerName": "AllowDodgeTips_BasCatchBall",
+      "Tags": [
+        572
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 179,
+      "ContainerName": "AllowJumpTips_Dive",
+      "Tags": [
+        567
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 180,
+      "ContainerName": "AllowMindPowerTips_HoldBlend",
+      "Tags": [
+        756
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 181,
+      "ContainerName": "AllowDiveTips_Swim",
+      "Tags": [
+        567,
+        25,
+        543
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 182,
+      "ContainerName": "ForbidGadgetFeiSuo",
+      "Tags": [
+        1335,
+        1337,
+        1352,
+        1651
+      ],
+      "ParentTags": [
+        100202,
+        10034
+      ]
+    },
+    {
+      "Id": 183,
+      "ContainerName": "ForbidTurnCrouch",
+      "Tags": [
+        1338
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 184,
+      "ContainerName": "AllowSummonVehicleTips",
+      "Tags": [
+        533
+      ],
+      "ParentTags": [
+        10010,
+        10004,
+        10007,
+        10008
+      ]
+    },
+    {
+      "Id": 185,
+      "ContainerName": "AllowEnterParachuteCut",
+      "Tags": [
+        583
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 186,
+      "ContainerName": "AllowMoveIK",
+      "Tags": [],
+      "ParentTags": [
+        10010,
+        10007
+      ]
+    },
+    {
+      "Id": 187,
+      "ContainerName": "ForbidNormalJump",
+      "Tags": [
+        1339
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 188,
+      "ContainerName": "KeepGunScope",
+      "Tags": [
+        1341
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 189,
+      "ContainerName": "HideSummonVehicleTips",
+      "Tags": [
+        576,
+        579,
+        567
+      ],
+      "ParentTags": [
+        10017,
+        10018,
+        10019,
+        10021,
+        10024,
+        10026,
+        10047,
+        10048,
+        10027,
+        10030,
+        10032,
+        10033,
+        10036,
+        10039,
+        10110,
+        10112,
+        10113,
+        10114,
+        10100
+      ]
+    },
+    {
+      "Id": 190,
+      "ContainerName": "NoInteractLiXiSupport",
+      "Tags": [
+        576,
+        579,
+        567,
+        561,
+        592,
+        780,
+        783
+      ],
+      "ParentTags": [
+        10017,
+        10019,
+        10021,
+        10024,
+        10026,
+        10048,
+        10027,
+        10029,
+        10031,
+        10033,
+        10042,
+        10045,
+        10050
+      ]
+    },
+    {
+      "Id": 191,
+      "ContainerName": "AllowAssassBtnRefresh",
+      "Tags": [],
+      "ParentTags": [
+        10018
+      ]
+    },
+    {
+      "Id": 192,
+      "ContainerName": "NoInteractSwitchCharacter",
+      "Tags": [
+        576,
+        567,
+        555,
+        543,
+        593,
+        570,
+        572,
+        571,
+        573,
+        753,
+        754,
+        755,
+        784,
+        762,
+        764,
+        765,
+        766,
+        767,
+        780,
+        781,
+        782,
+        783,
+        873,
+        904,
+        1321,
+        1329
+      ],
+      "ParentTags": [
+        10018,
+        100901,
+        10027,
+        10029,
+        10030,
+        10032
+      ]
+    },
+    {
+      "Id": 193,
+      "ContainerName": "AllowWeakMove",
+      "Tags": [
+        1342,
+        1343
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 194,
+      "ContainerName": "ForbidCrouch",
+      "Tags": [
+        916
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 195,
+      "ContainerName": "ForbidPeaceMode",
+      "Tags": [
+        1344
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 196,
+      "ContainerName": "AllowOnGroundInteraction",
+      "Tags": [
+        533,
+        567,
+        541,
+        532,
+        535,
+        537,
+        539,
+        547,
+        555,
+        556,
+        565,
+        545,
+        571,
+        574,
+        752,
+        784,
+        759,
+        763,
+        781,
+        850,
+        851,
+        857
+      ],
+      "ParentTags": [
+        100902
+      ]
+    },
+    {
+      "Id": 197,
+      "ContainerName": "AllowOnWallInteraction",
+      "Tags": [
+        567,
+        555,
+        558,
+        562,
+        563,
+        564,
+        565,
+        781,
+        850
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 198,
+      "ContainerName": "AllowSitInteraction",
+      "Tags": [
+        576,
+        567,
+        555,
+        753,
+        781
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 199,
+      "ContainerName": "AllowMagnetPutDown",
+      "Tags": [
+        560,
+        757
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 200,
+      "ContainerName": "ForbidOnGroundInteraction",
+      "Tags": [
+        576,
+        546,
+        548,
+        549,
+        550,
+        551,
+        552,
+        553,
+        554,
+        25,
+        543,
+        558,
+        559,
+        560,
+        561,
+        592,
+        562,
+        563,
+        564,
+        544,
+        593,
+        568,
+        569,
+        570,
+        572,
+        573,
+        575,
+        856,
+        750,
+        751,
+        756,
+        757,
+        753,
+        754,
+        775,
+        762,
+        764,
+        765,
+        766,
+        767,
+        780,
+        782,
+        783,
+        906,
+        905
+      ],
+      "ParentTags": [
+        100606
+      ]
+    },
+    {
+      "Id": 201,
+      "ContainerName": "ForbidOnWallInteraction",
+      "Tags": [
+        533,
+        576,
+        541,
+        532,
+        535,
+        537,
+        539,
+        546,
+        547,
+        548,
+        549,
+        550,
+        551,
+        552,
+        553,
+        554,
+        556,
+        25,
+        543,
+        559,
+        560,
+        561,
+        592,
+        544,
+        545,
+        593,
+        568,
+        569,
+        570,
+        572,
+        571,
+        573,
+        574,
+        575,
+        856,
+        750,
+        751,
+        752,
+        756,
+        757,
+        753,
+        754,
+        759,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        780,
+        782,
+        783,
+        851,
+        906,
+        905,
+        857
+      ],
+      "ParentTags": [
+        100902,
+        100606
+      ]
+    },
+    {
+      "Id": 202,
+      "ContainerName": "ForbidSitInteraction",
+      "Tags": [
+        533,
+        541,
+        532,
+        535,
+        537,
+        539,
+        546,
+        547,
+        548,
+        549,
+        550,
+        551,
+        552,
+        553,
+        554,
+        556,
+        25,
+        543,
+        558,
+        559,
+        560,
+        561,
+        592,
+        562,
+        563,
+        564,
+        565,
+        544,
+        545,
+        593,
+        568,
+        569,
+        570,
+        572,
+        571,
+        573,
+        574,
+        575,
+        856,
+        750,
+        751,
+        752,
+        756,
+        757,
+        754,
+        759,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        780,
+        782,
+        783,
+        850,
+        851,
+        906,
+        905,
+        857
+      ],
+      "ParentTags": [
+        100902,
+        100606
+      ]
+    },
+    {
+      "Id": 203,
+      "ContainerName": "AllowOffWall",
+      "Tags": [
+        754,
+        776
+      ],
+      "ParentTags": [
+        10019
+      ]
+    },
+    {
+      "Id": 204,
+      "ContainerName": "AllowDive",
+      "Tags": [
+        567
+      ],
+      "ParentTags": [
+        10017
+      ]
+    },
+    {
+      "Id": 205,
+      "ContainerName": "AllowMagnet",
+      "Tags": [
+        560,
+        756,
+        757
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 206,
+      "ContainerName": "ForbidBounceJump",
+      "Tags": [],
+      "ParentTags": []
+    },
+    {
+      "Id": 207,
+      "ContainerName": "AllowBounceJump",
+      "Tags": [
+        1326
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 208,
+      "ContainerName": "ForbidUseCombatDodgeSkill",
+      "Tags": [
+        567
+      ],
+      "ParentTags": [
+        10017,
+        10018
+      ]
+    },
+    {
+      "Id": 209,
+      "ContainerName": "AllowSummonMilkCarTips",
+      "Tags": [
+        533
+      ],
+      "ParentTags": [
+        10010,
+        10004,
+        10007,
+        10008,
+        10108
+      ]
+    },
+    {
+      "Id": 210,
+      "ContainerName": "HideSummonMilkCarTips",
+      "Tags": [
+        576,
+        579,
+        567,
+        850,
+        851,
+        890,
+        891
+      ],
+      "ParentTags": [
+        10017,
+        10018,
+        10019,
+        10021,
+        10024,
+        10026,
+        10047,
+        10048,
+        10027,
+        10030,
+        10032,
+        10033,
+        10039,
+        10114,
+        10100
+      ]
+    },
+    {
+      "Id": 211,
+      "ContainerName": "ForbidGroundIK",
+      "Tags": [
+        862,
+        2710
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 212,
+      "ContainerName": "AllowDiveDetect",
+      "Tags": [
+        1347
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 213,
+      "ContainerName": "ForbidDiveDetect",
+      "Tags": [
+        567,
+        1348
+      ],
+      "ParentTags": [
+        10017,
+        10021
+      ]
+    },
+    {
+      "Id": 214,
+      "ContainerName": "AllowMotoLightBtn",
+      "Tags": [],
+      "ParentTags": [
+        10023
+      ]
+    },
+    {
+      "Id": 215,
+      "ContainerName": "AllowMotoDashBtn",
+      "Tags": [],
+      "ParentTags": [
+        10023
+      ]
+    },
+    {
+      "Id": 216,
+      "ContainerName": "TaFeiMotoState",
+      "Tags": [],
+      "ParentTags": [
+        10023
+      ]
+    },
+    {
+      "Id": 217,
+      "ContainerName": "AllowWingSuitDashBtn",
+      "Tags": [
+        555
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 218,
+      "ContainerName": "AllowDiveDashBtn",
+      "Tags": [
+        567,
+        25,
+        543
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 219,
+      "ContainerName": "ForbidFollowBallEnable",
+      "Tags": [
+        862
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 220,
+      "ContainerName": "KillingRushState",
+      "Tags": [],
+      "ParentTags": [
+        10026
+      ]
+    },
+    {
+      "Id": 221,
+      "ContainerName": "WeakStandAnimState",
+      "Tags": [
+        1580
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 222,
+      "ContainerName": "WeakStandAreaState",
+      "Tags": [
+        1342
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 223,
+      "ContainerName": "WeakProwlAnimState",
+      "Tags": [
+        1581
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 224,
+      "ContainerName": "WeakProwlAreaState",
+      "Tags": [
+        1343
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 225,
+      "ContainerName": "ForbidAirrush",
+      "Tags": [
+        1312
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 226,
+      "ContainerName": "ForbidProwl",
+      "Tags": [
+        1305
+      ],
+      "ParentTags": [
+        10021,
+        10078
+      ]
+    },
+    {
+      "Id": 227,
+      "ContainerName": "ForbidSwing",
+      "Tags": [
+        1301,
+        1311
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 228,
+      "ContainerName": "AllowNTRStim",
+      "Tags": [
+        411,
+        412,
+        413
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 229,
+      "ContainerName": "ArmLeftOccupied",
+      "Tags": [
+        2208,
+        2701,
+        2904,
+        850,
+        851,
+        862,
+        922,
+        923,
+        925,
+        926,
+        893
+      ],
+      "ParentTags": [
+        10017,
+        10019,
+        10020,
+        10021,
+        10022,
+        100600,
+        10028,
+        10109,
+        10110,
+        10112,
+        10113,
+        10116,
+        10100
+      ]
+    },
+    {
+      "Id": 230,
+      "ContainerName": "ArmRightOccupied",
+      "Tags": [
+        2207,
+        2702,
+        2904,
+        850,
+        851,
+        862,
+        922,
+        924,
+        925,
+        927,
+        894
+      ],
+      "ParentTags": [
+        10017,
+        10019,
+        10020,
+        10021,
+        10022,
+        10028,
+        10109,
+        10110,
+        10112,
+        10113,
+        10115,
+        10116,
+        10100
+      ]
+    },
+    {
+      "Id": 231,
+      "ContainerName": "AllowGroundIK",
+      "Tags": [],
+      "ParentTags": [
+        10010,
+        10004,
+        10007,
+        10008,
+        100901
+      ]
+    },
+    {
+      "Id": 232,
+      "ContainerName": "AllowKickOffTips",
+      "Tags": [
+        558,
+        559
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 235,
+      "ContainerName": "DieSave_CanSave",
+      "Tags": [],
+      "ParentTags": [
+        10002
+      ]
+    },
+    {
+      "Id": 236,
+      "ContainerName": "DieSave_CanBeSave",
+      "Tags": [],
+      "ParentTags": []
+    },
+    {
+      "Id": 237,
+      "ContainerName": "DieSave_Saving",
+      "Tags": [],
+      "ParentTags": []
+    },
+    {
+      "Id": 238,
+      "ContainerName": "DieSave_Saved",
+      "Tags": [],
+      "ParentTags": []
+    },
+    {
+      "Id": 239,
+      "ContainerName": "NoInteractMotionActionBtn",
+      "Tags": [
+        576,
+        567,
+        1802
+      ],
+      "ParentTags": [
+        10017,
+        10019,
+        10021,
+        100202,
+        100203,
+        100600,
+        10027,
+        10028,
+        10050,
+        10078,
+        10084,
+        10085
+      ]
+    },
+    {
+      "Id": 240,
+      "ContainerName": "WeaponNeedUpperBody",
+      "Tags": [],
+      "ParentTags": [
+        10012,
+        10013
+      ]
+    },
+    {
+      "Id": 241,
+      "ContainerName": "DieSave_NotSave",
+      "Tags": [],
+      "ParentTags": [
+        10021,
+        10045,
+        10050
+      ]
+    },
+    {
+      "Id": 242,
+      "ContainerName": "ForbidClimbJumpUpOut",
+      "Tags": [
+        1317
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 243,
+      "ContainerName": "ForbidClimbJumpOut",
+      "Tags": [
+        1318
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 244,
+      "ContainerName": "ForbidEnterSwim",
+      "Tags": [],
+      "ParentTags": [
+        10021,
+        10050
+      ]
+    },
+    {
+      "Id": 245,
+      "ContainerName": "AllowTafeiMotoOffBtn",
+      "Tags": [
+        568,
+        569
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 246,
+      "ContainerName": "TurnOver",
+      "Tags": [
+        578,
+        590
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 247,
+      "ContainerName": "ForbidSwitchControlToItem",
+      "Tags": [
+        588
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 248,
+      "ContainerName": "DieSave_Dying",
+      "Tags": [
+        1329
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 249,
+      "ContainerName": "AllowBaBuGanChanTips",
+      "Tags": [
+        1306
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 250,
+      "ContainerName": "ForbidBulletChange",
+      "Tags": [
+        902
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 251,
+      "ContainerName": "ForbidItemEquip",
+      "Tags": [],
+      "ParentTags": [
+        10018
+      ]
+    },
+    {
+      "Id": 252,
+      "ContainerName": "ForbidSwingBtn",
+      "Tags": [
+        567,
+        2001
+      ],
+      "ParentTags": [
+        10017,
+        10018,
+        10019,
+        100400
+      ]
+    },
+    {
+      "Id": 253,
+      "ContainerName": "AllowTaskjokerskate",
+      "Tags": [
+        2317
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 254,
+      "ContainerName": "InTaskjokerskateAnim",
+      "Tags": [
+        2316
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 255,
+      "ContainerName": "IsOnShoot",
+      "Tags": [
+        919
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 256,
+      "ContainerName": "ForbidUseBasicSkillDown",
+      "Tags": [],
+      "ParentTags": []
+    },
+    {
+      "Id": 257,
+      "ContainerName": "ForbidUseBasicSkillPressDown",
+      "Tags": [],
+      "ParentTags": []
+    },
+    {
+      "Id": 258,
+      "ContainerName": "CanForceEnterSwim",
+      "Tags": [
+        1354
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 259,
+      "ContainerName": "CanUseDrunkenFist",
+      "Tags": [],
+      "ParentTags": [
+        10100
+      ]
+    },
+    {
+      "Id": 260,
+      "ContainerName": "CanEnterPublicEvent",
+      "Tags": [],
+      "ParentTags": [
+        10010,
+        10004,
+        10007,
+        10008,
+        10050
+      ]
+    },
+    {
+      "Id": 261,
+      "ContainerName": "BanLadderUp",
+      "Tags": [],
+      "ParentTags": [
+        10078
+      ]
+    },
+    {
+      "Id": 262,
+      "ContainerName": "ForbidFloatFlight",
+      "Tags": [
+        1332
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 263,
+      "ContainerName": "AllowUmbrellaBtn",
+      "Tags": [],
+      "ParentTags": [
+        100610
+      ]
+    },
+    {
+      "Id": 264,
+      "ContainerName": "AllowCloseUmbrellaTips",
+      "Tags": [
+        2700
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 265,
+      "ContainerName": "AllowTouchWall",
+      "Tags": [
+        2601
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 266,
+      "ContainerName": "ForbidFootPrint",
+      "Tags": [
+        1652
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 267,
+      "ContainerName": "AllPhotoAction",
+      "Tags": [
+        533,
+        576,
+        606
+      ],
+      "ParentTags": [
+        10010,
+        10004,
+        10005,
+        10006,
+        10007,
+        10008,
+        10009
+      ]
+    },
+    {
+      "Id": 268,
+      "ContainerName": "IsOnVehicle",
+      "Tags": [],
+      "ParentTags": [
+        10021
+      ]
+    },
+    {
+      "Id": 269,
+      "ContainerName": "ForbidGeneralInteraction",
+      "Tags": [],
+      "ParentTags": [
+        10021
+      ]
+    },
+    {
+      "Id": 273,
+      "ContainerName": "HasViewEnemy",
+      "Tags": [
+        2708
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 274,
+      "ContainerName": "AimAtEnemy",
+      "Tags": [
+        2709
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 275,
+      "ContainerName": "NoGunConstraint",
+      "Tags": [
+        2711
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 276,
+      "ContainerName": "DreamcoreAnimState",
+      "Tags": [
+        2712
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 277,
+      "ContainerName": "DreamcoreAreaState",
+      "Tags": [
+        2713
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 278,
+      "ContainerName": "ForbidRightArmWeapon",
+      "Tags": [
+        579,
+        40,
+        753,
+        754,
+        755,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        790,
+        772,
+        853,
+        403,
+        404,
+        405
+      ],
+      "ParentTags": [
+        10021,
+        10029,
+        10030,
+        10032,
+        10042,
+        10083
+      ]
+    },
+    {
+      "Id": 279,
+      "ContainerName": "HasFeisuoAbility",
+      "Tags": [
+        2318
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 280,
+      "ContainerName": "ForbidStorageBoxBtn",
+      "Tags": [
+        576,
+        579,
+        928
+      ],
+      "ParentTags": [
+        10027,
+        10029,
+        10030,
+        10031,
+        10032,
+        10033,
+        10034,
+        10042,
+        10045,
+        10078
+      ]
+    },
+    {
+      "Id": 281,
+      "ContainerName": "ForceAimingGroundMove",
+      "Tags": [],
+      "ParentTags": [
+        10003
+      ]
+    },
+    {
+      "Id": 282,
+      "ContainerName": "ForceAimingRaiseWeapon",
+      "Tags": [
+        931
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 283,
+      "ContainerName": "ForceAimingMindPower",
+      "Tags": [],
+      "ParentTags": [
+        10030,
+        10037
+      ]
+    },
+    {
+      "Id": 284,
+      "ContainerName": "IsClimbSpeicalMove",
+      "Tags": [
+        2902,
+        2903
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 285,
+      "ContainerName": "NoGround",
+      "Tags": [
+        761
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 286,
+      "ContainerName": "UseRushStartStop",
+      "Tags": [
+        2700
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 287,
+      "ContainerName": "LeadingwayMove_Waiting",
+      "Tags": [
+        3001,
+        3002
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 288,
+      "ContainerName": "LeadingwayMove_Moving",
+      "Tags": [
+        3000
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 289,
+      "ContainerName": "MetalAreaState",
+      "Tags": [
+        1358
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 290,
+      "ContainerName": "MetalAnimState",
+      "Tags": [
+        2728
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 291,
+      "ContainerName": "AbleDialogActionNormalMoveState",
+      "Tags": [
+        3004
+      ],
+      "ParentTags": [
+        10010,
+        10004,
+        10007
+      ]
+    },
+    {
+      "Id": 292,
+      "ContainerName": "DisableDialogActionState",
+      "Tags": [],
+      "ParentTags": [
+        10100,
+        102003
+      ]
+    },
+    {
+      "Id": 293,
+      "ContainerName": "AbleDialogActionNormalVehicleState",
+      "Tags": [
+        50
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 294,
+      "ContainerName": "LeadingwayMoveWaiting",
+      "Tags": [
+        3001,
+        3002
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 295,
+      "ContainerName": "CompanionLeissureIdle",
+      "Tags": [
+        1406
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 296,
+      "ContainerName": "ThrowableAimingLineBlock",
+      "Tags": [],
+      "ParentTags": [
+        10121
+      ]
+    },
+    {
+      "Id": 297,
+      "ContainerName": "ForbidPogoStickArea",
+      "Tags": [
+        4002
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 298,
+      "ContainerName": "PogoStickAnim",
+      "Tags": [
+        1702
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 299,
+      "ContainerName": "isShipShoot",
+      "Tags": [
+        1690
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 300,
+      "ContainerName": "AllowDiveUpBtn",
+      "Tags": [
+        567
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 301,
+      "ContainerName": "CannotHitNpc",
+      "Tags": [
+        863,
+        864
+      ],
+      "ParentTags": [
+        10110
+      ]
+    },
+    {
+      "Id": 302,
+      "ContainerName": "ForbidCarRelax",
+      "Tags": [
+        5
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 303,
+      "ContainerName": "ThrowableAimingLineExclude",
+      "Tags": [
+        910
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 304,
+      "ContainerName": "CanFullbodyOver",
+      "Tags": [
+        532,
+        906
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 305,
+      "ContainerName": "State_GunBanEnabled",
+      "Tags": [
+        2729
+      ],
+      "ParentTags": []
+    },
+    {
+      "Id": 306,
+      "ContainerName": "ForbidUseMindPowerSkillDown",
+      "Tags": [],
+      "ParentTags": []
+    },
+    {
+      "Id": 307,
+      "ContainerName": "ForbidUseMindPowerSkillPressDown",
+      "Tags": [
+        919
+      ],
+      "ParentTags": []
+    }
+  ],
+  "_dumpedCount": 300,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

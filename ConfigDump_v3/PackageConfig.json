@@ -1,0 +1,30 @@
+{
+  "_class": "PackageConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 2,
+  "records": [
+    {
+      "Id": 24000007,
+      "Name": "其他资源",
+      "Description": "其他补充内容",
+      "ImageId": 25400020,
+      "PriorityType": 2,
+      "DefaultOrder": 9999,
+      "BundleName": "Other",
+      "MovieAndAudio": false
+    },
+    {
+      "Id": 24001008,
+      "Name": "音视频资源包",
+      "Description": "音视频资源包",
+      "ImageId": 25400020,
+      "PriorityType": 2,
+      "DefaultOrder": 209,
+      "BundleName": "Sound",
+      "MovieAndAudio": true
+    }
+  ],
+  "_dumpedCount": 2,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

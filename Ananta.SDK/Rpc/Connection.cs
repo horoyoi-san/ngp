@@ -4,10 +4,6 @@ using Ananta.SDK.Serialization;
 
 namespace Ananta.SDK.Rpc;
 
-/// <summary>
-/// Small handler-facing wrapper around TcpSession. Prefer typed Return/Notify overloads;
-/// Raw methods exist only for packets whose contract has not been described yet.
-/// </summary>
 public sealed class Connection
 {
     private readonly TcpSession _session;
@@ -30,6 +26,11 @@ public sealed class Connection
             ? _session.ReturnAsync(request.MethodId, request.InvokeId, error, Array.Empty<byte>(), _token)
             : Task.CompletedTask;
 
+    
+    
+    
+    
+    
     public Task ReturnAsync<T>(UxRpcMessage request, T body, int error = 0)
     {
         if (!request.IsInvoke) return Task.CompletedTask;
@@ -39,18 +40,53 @@ public sealed class Connection
         return send;
     }
 
+    
+    public Task ReturnAsync(UxRpcMessage request, byte[] body, int error = 0)
+        => ReturnRawAsync(request, body, error);
+
     public Task ReturnRawAsync(UxRpcMessage request, byte[] body, int error = 0)
         => request.IsInvoke
             ? _session.ReturnAsync(request.MethodId, request.InvokeId, error, body, _token)
             : Task.CompletedTask;
 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     public Task NotifyAsync<T>(uint methodId, T body)
     {
+        WarnIfBufferArg(methodId, typeof(T));
         var bytes = UxSerializer.Serialize(body);
         var send = _session.NotifyAsync(methodId, bytes, _token);
         RuntimeLogs.Decoded(_session.Log.Scope, "S2C", methodId, typeof(T), body);
         return send;
     }
+
+    
+    
+    
+    
+    private void WarnIfBufferArg(uint methodId, Type type)
+    {
+        if (type != typeof(byte[]))
+            return;
+        _session.Log.Warn(
+            $"[RPC] NotifyAsync<byte[]> 会把包体当 UX 缓冲区多写 3 字节（mid={methodId}）——"
+            + "应改用 NotifyRawAsync(uint, byte[])");
+    }
+
+    
+    
+    
+    
+    public Task NotifyAsync(uint methodId, byte[] body) => NotifyRawAsync(methodId, body);
 
     public Task NotifyRawAsync(uint methodId, byte[] body)
         => _session.NotifyAsync(methodId, body, _token);

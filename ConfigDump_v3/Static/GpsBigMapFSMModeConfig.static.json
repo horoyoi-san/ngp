@@ -1,0 +1,118 @@
+{
+  "AreaTypeCfg": {
+    "Id": 1,
+    "DefaultState": 2,
+    "SignalToState": [
+      {
+        "signalId": 1,
+        "stateId": 2
+      },
+      {
+        "signalId": 2,
+        "stateId": 3
+      },
+      {
+        "signalId": 3,
+        "stateId": 4
+      }
+    ]
+  },
+  "ModeCfg": {
+    "Id": 2,
+    "DefaultState": 15,
+    "SignalToState": [
+      {
+        "signalId": 11,
+        "stateId": 15
+      },
+      {
+        "signalId": 12,
+        "stateId": 11
+      },
+      {
+        "signalId": 13,
+        "stateId": 12
+      },
+      {
+        "signalId": 14,
+        "stateId": 13
+      },
+      {
+        "signalId": 16,
+        "stateId": 16
+      },
+      {
+        "signalId": 17,
+        "stateId": 17
+      },
+      {
+        "signalId": 18,
+        "stateId": 18
+      },
+      {
+        "signalId": 19,
+        "stateId": 19
+      }
+    ]
+  },
+  "InteractionCfg": {
+    "Id": 3,
+    "DefaultState": 21,
+    "SignalToState": [
+      {
+        "signalId": 21,
+        "stateId": 21
+      },
+      {
+        "signalId": 22,
+        "stateId": 22
+      },
+      {
+        "signalId": 23,
+        "stateId": 23
+      }
+    ]
+  },
+  "JiaMuCfg": {
+    "Id": 4,
+    "DefaultState": 32,
+    "SignalToState": [
+      {
+        "signalId": 31,
+        "stateId": 31
+      },
+      {
+        "signalId": 32,
+        "stateId": 32
+      }
+    ]
+  },
+  "FilterCfg": {
+    "Id": 5,
+    "DefaultState": 42,
+    "SignalToState": [
+      {
+        "signalId": 41,
+        "stateId": 41
+      },
+      {
+        "signalId": 42,
+        "stateId": 42
+      }
+    ]
+  },
+  "FilterMCfg": {
+    "Id": 6,
+    "DefaultState": 44,
+    "SignalToState": [
+      {
+        "signalId": 43,
+        "stateId": 43
+      },
+      {
+        "signalId": 44,
+        "stateId": 44
+      }
+    ]
+  }
+}

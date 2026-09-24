@@ -1,0 +1,277 @@
+{
+  "CircuseeCfg": {
+    "Id": 5,
+    "Behavior": "Circusee",
+    "GroupBehavior": ""
+  },
+  "WatchCfg": {
+    "Id": 6,
+    "Behavior": "Watch",
+    "GroupBehavior": ""
+  },
+  "ArgueCfg": {
+    "Id": 7,
+    "Behavior": "Argue",
+    "GroupBehavior": ""
+  },
+  "PushCfg": {
+    "Id": 8,
+    "Behavior": "Push",
+    "GroupBehavior": ""
+  },
+  "BeBeatenThenFightCfg": {
+    "Id": 9,
+    "Behavior": "BeBeatenThenFight",
+    "GroupBehavior": ""
+  },
+  "BeBeatenThenCallPoliceCfg": {
+    "Id": 10,
+    "Behavior": "BeBeatenThenCallPolice",
+    "GroupBehavior": ""
+  },
+  "BeBeatenCfg": {
+    "Id": 11,
+    "Behavior": "BeBeaten",
+    "GroupBehavior": ""
+  },
+  "TalkCfg": {
+    "Id": 15,
+    "Behavior": "Talk",
+    "GroupBehavior": ""
+  },
+  "ReprimandedByPoliceCfg": {
+    "Id": 16,
+    "Behavior": "ReprimandedByPolice",
+    "GroupBehavior": ""
+  },
+  "BeQuestionedByPoliceCfg": {
+    "Id": 17,
+    "Behavior": "BeQuestionedByPolice",
+    "GroupBehavior": ""
+  },
+  "RunAwayCfg": {
+    "Id": 18,
+    "Behavior": "RunAway",
+    "GroupBehavior": ""
+  },
+  "RunAwayFromDangerCfg": {
+    "Id": 19,
+    "Behavior": "RunAwayFromDanger",
+    "GroupBehavior": ""
+  },
+  "RunAwayToAvoidVehicleCfg": {
+    "Id": 20,
+    "Behavior": "RunAwayToAvoidVehicle",
+    "GroupBehavior": ""
+  },
+  "BePushedThenPushCfg": {
+    "Id": 23,
+    "Behavior": "BePushedThenPush",
+    "GroupBehavior": ""
+  },
+  "BePushedThenFightCfg": {
+    "Id": 24,
+    "Behavior": "BePushedThenFight",
+    "GroupBehavior": ""
+  },
+  "BePushedCfg": {
+    "Id": 25,
+    "Behavior": "BePushed",
+    "GroupBehavior": ""
+  },
+  "FallDownFromSittingCfg": {
+    "Id": 26,
+    "Behavior": "FallDownFromSitting",
+    "GroupBehavior": ""
+  },
+  "BeScaredByAttackCfg": {
+    "Id": 27,
+    "Behavior": "BeScaredByAttack",
+    "GroupBehavior": ""
+  },
+  "BeScaredUnderAttackCfg": {
+    "Id": 29,
+    "Behavior": "BeScaredUnderAttack",
+    "GroupBehavior": ""
+  },
+  "BeTrappedInABucketCfg": {
+    "Id": 32,
+    "Behavior": "BeTrappedInABucket",
+    "GroupBehavior": ""
+  },
+  "InPlayerCameraCfg": {
+    "Id": 33,
+    "Behavior": "InPlayerCamera",
+    "GroupBehavior": ""
+  },
+  "AimedByMindPowerCfg": {
+    "Id": 34,
+    "Behavior": "AimedByMindPower",
+    "GroupBehavior": ""
+  },
+  "LookAtTargetCfg": {
+    "Id": 36,
+    "Behavior": "",
+    "GroupBehavior": ""
+  },
+  "AtkHitReactInVehicleCfg": {
+    "Id": 38,
+    "Behavior": "AtkHitReactInVehicle",
+    "GroupBehavior": ""
+  },
+  "AtkMissReactInVehicleCfg": {
+    "Id": 39,
+    "Behavior": "AtkMissReactInVehicle",
+    "GroupBehavior": ""
+  },
+  "MindPowerAimedReactInVehicleCfg": {
+    "Id": 41,
+    "Behavior": "MindPowerAimedReactInVehicle",
+    "GroupBehavior": ""
+  },
+  "ShotAimedReactInVehicleCfg": {
+    "Id": 42,
+    "Behavior": "ShotAimedReactInVehicle",
+    "GroupBehavior": ""
+  },
+  "PoliceExaminePutHandsCfg": {
+    "Id": 44,
+    "Behavior": "PoliceExaminePutHands",
+    "GroupBehavior": ""
+  },
+  "PoliceExamineCrouchCfg": {
+    "Id": 45,
+    "Behavior": "PoliceExamineCrouch",
+    "GroupBehavior": ""
+  },
+  "PoliceExamineLieCfg": {
+    "Id": 46,
+    "Behavior": "PoliceExamineLie",
+    "GroupBehavior": ""
+  },
+  "PoliceGuardLeaveCfg": {
+    "Id": 47,
+    "Behavior": "PoliceGuardLeave",
+    "GroupBehavior": ""
+  },
+  "PoliceExamineFleeCfg": {
+    "Id": 49,
+    "Behavior": "PoliceExamineFlee",
+    "GroupBehavior": ""
+  },
+  "QuestNPC_VedioStoreCfg": {
+    "Id": 50,
+    "Behavior": "QuestNPC_VedioStore",
+    "GroupBehavior": ""
+  },
+  "PedBaseSickCfg": {
+    "Id": 51,
+    "Behavior": "PedBaseSick",
+    "GroupBehavior": ""
+  },
+  "StandInFrontOfVehicleCarCfg": {
+    "Id": 52,
+    "Behavior": "StandInFrontOfVehicleCar",
+    "GroupBehavior": ""
+  },
+  "StandOnVehicleCarCfg": {
+    "Id": 53,
+    "Behavior": "StandOnVehicleCar",
+    "GroupBehavior": ""
+  },
+  "ProvokeThenFightCfg": {
+    "Id": 55,
+    "Behavior": "ProvokeThenFight",
+    "GroupBehavior": "Group_AidReaction_NonEmotion_SecondToThird"
+  },
+  "IdleCurseCfg": {
+    "Id": 56,
+    "Behavior": "IdleCurse",
+    "GroupBehavior": "Group_AidReaction_NonEmotion_FirstToThird"
+  },
+  "Dislike_MovingCfg": {
+    "Id": 57,
+    "Behavior": "Dislike_Moving",
+    "GroupBehavior": ""
+  },
+  "Greeting_MovingCfg": {
+    "Id": 58,
+    "Behavior": "Greeting_Moving",
+    "GroupBehavior": ""
+  },
+  "GreetingOrHelpFightCfg": {
+    "Id": 59,
+    "Behavior": "GreetingOrHelpFight",
+    "GroupBehavior": ""
+  },
+  "GreetingCfg": {
+    "Id": 60,
+    "Behavior": "Greeting",
+    "GroupBehavior": ""
+  },
+  "HelpFightCfg": {
+    "Id": 61,
+    "Behavior": "HelpFight",
+    "GroupBehavior": ""
+  },
+  "LookatStimTargetCfg": {
+    "Id": 64,
+    "Behavior": "LookatStimTarget",
+    "GroupBehavior": ""
+  },
+  "MoveToStimTargetCfg": {
+    "Id": 65,
+    "Behavior": "MoveToStimTarget",
+    "GroupBehavior": ""
+  },
+  "EnterBattleCfg": {
+    "Id": 66,
+    "Behavior": "EnterBattle",
+    "GroupBehavior": ""
+  },
+  "LookatStimLocationCfg": {
+    "Id": 67,
+    "Behavior": "LookatStimLocation",
+    "GroupBehavior": ""
+  },
+  "BaseShockedCfg": {
+    "Id": 68,
+    "Behavior": "BaseShocked",
+    "GroupBehavior": ""
+  },
+  "PhoneRingingMusicReactionCfg": {
+    "Id": 69,
+    "Behavior": "PhoneRingingMusicReaction",
+    "GroupBehavior": ""
+  },
+  "PhoneRingingMessageReactionCfg": {
+    "Id": 70,
+    "Behavior": "PhoneRingingMessageReaction",
+    "GroupBehavior": ""
+  },
+  "HighReputationCfg": {
+    "Id": 71,
+    "Behavior": "HighReputation",
+    "GroupBehavior": ""
+  },
+  "SResponse_Quest_VideoStore_CopSpawn_inFearCfg": {
+    "Id": 81,
+    "Behavior": "SResponse_Quest_VideoStore_CopSpawn_inFear",
+    "GroupBehavior": ""
+  },
+  "StandInFrontOfVehicleCar_ViolenceCfg": {
+    "Id": 84,
+    "Behavior": "StandInFrontOfVehicleCar_Violence",
+    "GroupBehavior": ""
+  },
+  "Sresponse_Quest_VideoStore_FallDownFleeCfg": {
+    "Id": 85,
+    "Behavior": "Sresponse_Quest_VideoStore_FallDownFlee",
+    "GroupBehavior": ""
+  },
+  "GangBattleReactionCfg": {
+    "Id": 86,
+    "Behavior": "GangBattleReaction",
+    "GroupBehavior": ""
+  }
+}

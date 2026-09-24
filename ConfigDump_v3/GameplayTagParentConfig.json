@@ -1,0 +1,1106 @@
+{
+  "_class": "GameplayTagParentConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 137,
+  "records": [
+    {
+      "Id": 10001,
+      "TagName": "Interactable",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10001,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Interactable",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 10002,
+      "TagName": "Motion",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10002,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 10003,
+      "TagName": "Motion_GroundMove",
+      "Parent": 10002,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10003,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_GroundMove",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10002
+    },
+    {
+      "Id": 10004,
+      "TagName": "Motion_GroundMove_Run",
+      "Parent": 10003,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10004,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_GroundMove_Run",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10003
+    },
+    {
+      "Id": 10005,
+      "TagName": "Motion_GroundMove_Flee",
+      "Parent": 10003,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10005,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_GroundMove_Flee",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10003
+    },
+    {
+      "Id": 10006,
+      "TagName": "Motion_GroundMove_FearWalk",
+      "Parent": 10003,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10006,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_GroundMove_FearWalk",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10003
+    },
+    {
+      "Id": 10007,
+      "TagName": "Motion_GroundMove_Walk",
+      "Parent": 10003,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10007,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_GroundMove_Walk",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10003
+    },
+    {
+      "Id": 10008,
+      "TagName": "Motion_GroundMove_Rush",
+      "Parent": 10003,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10008,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_GroundMove_Rush",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10003
+    },
+    {
+      "Id": 10009,
+      "TagName": "Motion_GroundMove_Scurry",
+      "Parent": 10003,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10009,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_GroundMove_Scurry",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10003
+    },
+    {
+      "Id": 10010,
+      "TagName": "Motion_GroundMove_Idle",
+      "Parent": 10003,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10010,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_GroundMove_Idle",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10003
+    },
+    {
+      "Id": 10011,
+      "TagName": "Motion_Air",
+      "Parent": 10002,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10011,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_Air",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10002
+    },
+    {
+      "Id": 10012,
+      "TagName": "Motion_Air_GoUp",
+      "Parent": 10011,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10012,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_Air_GoUp",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10011
+    },
+    {
+      "Id": 10013,
+      "TagName": "Motion_Air_GoDown",
+      "Parent": 10011,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10013,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_Air_GoDown",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10011
+    },
+    {
+      "Id": 10014,
+      "TagName": "Motion_Air_Tied",
+      "Parent": 10011,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10014,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_Air_Tied",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10011
+    },
+    {
+      "Id": 10015,
+      "TagName": "Motion_Air_ExitTied",
+      "Parent": 10011,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10015,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_Air_ExitTied",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10011
+    },
+    {
+      "Id": 10016,
+      "TagName": "Motion_Air_Special",
+      "Parent": 10011,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10016,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_Air_Special",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10011
+    },
+    {
+      "Id": 10017,
+      "TagName": "Motion_Swimming",
+      "Parent": 10002,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10017,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_Swimming",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10002
+    },
+    {
+      "Id": 10018,
+      "TagName": "Motion_Crouch",
+      "Parent": 10002,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10018,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_Crouch",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10002
+    },
+    {
+      "Id": 10019,
+      "TagName": "Motion_Climb",
+      "Parent": 10002,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10019,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_Climb",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10002
+    },
+    {
+      "Id": 10020,
+      "TagName": "Motion_Traversal",
+      "Parent": 10002,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10020,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_Traversal",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10002
+    },
+    {
+      "Id": 10021,
+      "TagName": "Motion_Drive",
+      "Parent": 10002,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10021,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_Drive",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10002
+    },
+    {
+      "Id": 10022,
+      "TagName": "Motion_Special",
+      "Parent": 10002,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10022,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_Special",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10002
+    },
+    {
+      "Id": 10023,
+      "TagName": "Motion_Special_TafeiMoto",
+      "Parent": 10022,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10023,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_Special_TafeiMoto",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10022
+    },
+    {
+      "Id": 10024,
+      "TagName": "Motion_Special_Ball",
+      "Parent": 10022,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10024,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_Special_Ball",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10022
+    },
+    {
+      "Id": 10025,
+      "TagName": "Motion_Special_Ball_Football",
+      "Parent": 10024,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10025,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_Special_Ball_Football",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10024
+    },
+    {
+      "Id": 10026,
+      "TagName": "Motion_Special_Killing",
+      "Parent": 10022,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10026,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_Special_Killing",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10022
+    },
+    {
+      "Id": 10027,
+      "TagName": "Automated",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10027,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Automated",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 10028,
+      "TagName": "Interaction",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10028,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Interaction",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 10029,
+      "TagName": "Interaction_Phone",
+      "Parent": 10028,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10029,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Interaction_Phone",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10028
+    },
+    {
+      "Id": 10030,
+      "TagName": "Interaction_MindPower",
+      "Parent": 10028,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10030,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Interaction_MindPower",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10028
+    },
+    {
+      "Id": 10031,
+      "TagName": "Interaction_JiaoHu",
+      "Parent": 10028,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10031,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Interaction_JiaoHu",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10028
+    },
+    {
+      "Id": 10032,
+      "TagName": "Interaction_Gameplay",
+      "Parent": 10028,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10032,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Interaction_Gameplay",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10028
+    },
+    {
+      "Id": 10033,
+      "TagName": "Interaction_Scene",
+      "Parent": 10028,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10033,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Interaction_Scene",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10028
+    },
+    {
+      "Id": 10034,
+      "TagName": "Interaction_MultiInteract",
+      "Parent": 10028,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10034,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Interaction_MultiInteract",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10028
+    },
+    {
+      "Id": 10035,
+      "TagName": "Hold",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10035,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Hold",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 10036,
+      "TagName": "Hold_Holding",
+      "Parent": 10035,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10036,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Hold_Holding",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10035
+    },
+    {
+      "Id": 10037,
+      "TagName": "Hold_Take",
+      "Parent": 10035,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10037,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Hold_Take",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10035
+    },
+    {
+      "Id": 10038,
+      "TagName": "Hold_Put",
+      "Parent": 10035,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10038,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Hold_Put",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10035
+    },
+    {
+      "Id": 10039,
+      "TagName": "Hold_Interact",
+      "Parent": 10035,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10039,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Hold_Interact",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10035
+    },
+    {
+      "Id": 10040,
+      "TagName": "Interaction_Gameplay_Examine",
+      "Parent": 10032,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10040,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Interaction_Gameplay_Examine",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10032
+    },
+    {
+      "Id": 10041,
+      "TagName": "BehaviorPosture",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10041,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "BehaviorPosture",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 10042,
+      "TagName": "Interaction_Item",
+      "Parent": 10028,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10042,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Interaction_Item",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10028
+    },
+    {
+      "Id": 10043,
+      "TagName": "Interaction_Item_Hat",
+      "Parent": 10042,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10043,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Interaction_Item_Hat",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10042
+    },
+    {
+      "Id": 10044,
+      "TagName": "Interaction_Scene_OpenDoor",
+      "Parent": 10033,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10044,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Interaction_Scene_OpenDoor",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10033
+    },
+    {
+      "Id": 10045,
+      "TagName": "Interaction_Vehicle",
+      "Parent": 10028,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10045,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Interaction_Vehicle",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10028
+    },
+    {
+      "Id": 10046,
+      "TagName": "Motion_Air_Special_Parachute",
+      "Parent": 10016,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10046,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_Air_Special_Parachute",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10016
+    },
+    {
+      "Id": 10047,
+      "TagName": "Motion_Special_Skateboard",
+      "Parent": 10022,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10047,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_Special_Skateboard",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10022
+    },
+    {
+      "Id": 10048,
+      "TagName": "Motion_Special_Ride",
+      "Parent": 10022,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10048,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_Special_Ride",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10022
+    },
+    {
+      "Id": 10049,
+      "TagName": "Motion_Special_ZipLine",
+      "Parent": 10022,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10049,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_Special_ZipLine",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10022
+    },
+    {
+      "Id": 10050,
+      "TagName": "VehicleRide",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10050,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "VehicleRide",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 10051,
+      "TagName": "VehicleRide_GetInOrOutVehicle",
+      "Parent": 10050,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10051,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "VehicleRide_GetInOrOutVehicle",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10050
+    },
+    {
+      "Id": 10052,
+      "TagName": "Motion_Special_StreetBall",
+      "Parent": 10022,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10052,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_Special_StreetBall",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10022
+    },
+    {
+      "Id": 10053,
+      "TagName": "AgentVehUseType",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10053,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "AgentVehUseType",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 10054,
+      "TagName": "AgentVehUseType_AutoMobile",
+      "Parent": 10053,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10054,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "AgentVehUseType_AutoMobile",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10053
+    },
+    {
+      "Id": 10063,
+      "TagName": "AgentVehUseType_Aircraft",
+      "Parent": 10053,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10063,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "AgentVehUseType_Aircraft",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10053
+    },
+    {
+      "Id": 10065,
+      "TagName": "AgentVehUseType_Cycle",
+      "Parent": 10053,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10065,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "AgentVehUseType_Cycle",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10053
+    },
+    {
+      "Id": 10069,
+      "TagName": "AgentVehUseType_Boat",
+      "Parent": 10053,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10069,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "AgentVehUseType_Boat",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10053
+    },
+    {
+      "Id": 10071,
+      "TagName": "AgentVehUseType_Weird",
+      "Parent": 10053,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10071,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "AgentVehUseType_Weird",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10053
+    },
+    {
+      "Id": 10072,
+      "TagName": "Quest",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10072,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Quest",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 10073,
+      "TagName": "FansGiverStage",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10073,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "FansGiverStage",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 10074,
+      "TagName": "UnitState",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10074,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "UnitState",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 10075,
+      "TagName": "UnitState_Stun",
+      "Parent": 10074,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10075,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "UnitState_Stun",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10074
+    },
+    {
+      "Id": 10076,
+      "TagName": "Examine",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10076,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Examine",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 10077,
+      "TagName": "Examine_PoliceCheckCar",
+      "Parent": 10076,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10077,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Examine_PoliceCheckCar",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10076
+    },
+    {
+      "Id": 10078,
+      "TagName": "MultiInteractPhase",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10078,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "MultiInteractPhase",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 10079,
+      "TagName": "ClientAuthority",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10079,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "ClientAuthority",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 10080,
+      "TagName": "LifeSchedule",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10080,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "LifeSchedule",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 10081,
+      "TagName": "Belonging",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10081,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Belonging",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 10082,
+      "TagName": "Examine_PoliceExam",
+      "Parent": 10076,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10082,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Examine_PoliceExam",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10076
+    },
+    {
+      "Id": 10083,
+      "TagName": "Functional_ForceNoHold",
+      "Parent": 10106,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10083,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Functional_ForceNoHold",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10106
+    },
+    {
+      "Id": 10084,
+      "TagName": "MultiInteractAttribute",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10084,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "MultiInteractAttribute",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 10085,
+      "TagName": "MultiInteractType",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10085,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "MultiInteractType",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 10086,
+      "TagName": "Animal",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10086,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Animal",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 10087,
+      "TagName": "MultiInteractUnblockFInteract",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10087,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "MultiInteractUnblockFInteract",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 10088,
+      "TagName": "MultiInteractInPassiveMove",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10088,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "MultiInteractInPassiveMove",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 10100,
+      "TagName": "Battle",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10100,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Battle",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 10101,
+      "TagName": "Battle_Move",
+      "Parent": 10100,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10101,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Battle_Move",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10100
+    },
+    {
+      "Id": 10102,
+      "TagName": "Battle_Move_Dodge",
+      "Parent": 10101,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10102,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Battle_Move_Dodge",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10101
+    },
+    {
+      "Id": 10103,
+      "TagName": "Battle_Melee",
+      "Parent": 10100,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10103,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Battle_Melee",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10100
+    },
+    {
+      "Id": 10104,
+      "TagName": "Battle_Ranged",
+      "Parent": 10100,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10104,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Battle_Ranged",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10100
+    },
+    {
+      "Id": 10105,
+      "TagName": "Battle_Hit",
+      "Parent": 10100,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10105,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Battle_Hit",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10100
+    },
+    {
+      "Id": 10106,
+      "TagName": "Functional",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10106,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Functional",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 10107,
+      "TagName": "HoldType",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10107,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "HoldType",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 10108,
+      "TagName": "HoldType_Weapon",
+      "Parent": 10107,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10108,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "HoldType_Weapon",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10107
+    },
+    {
+      "Id": 10109,
+      "TagName": "HoldType_Weapon_Melee",
+      "Parent": 10108,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10109,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "HoldType_Weapon_Melee",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10108
+    },
+    {
+      "Id": 10110,
+      "TagName": "HoldType_Weapon_Firearm",
+      "Parent": 10108,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10110,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "HoldType_Weapon_Firearm",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10108
+    },
+    {
+      "Id": 10111,
+      "TagName": "HoldType_Weapon_Gauntlet",
+      "Parent": 10108,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10111,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "HoldType_Weapon_Gauntlet",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10108
+    },
+    {
+      "Id": 10112,
+      "TagName": "HoldType_Weapon_Item",
+      "Parent": 10108,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10112,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "HoldType_Weapon_Item",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10108
+    },
+    {
+      "Id": 10113,
+      "TagName": "HoldType_Weapon_Shield",
+      "Parent": 10108,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10113,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "HoldType_Weapon_Shield",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10108
+    },
+    {
+      "Id": 10114,
+      "TagName": "HoldType_Gameplay",
+      "Parent": 10107,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10114,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "HoldType_Gameplay",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10107
+    },
+    {
+      "Id": 10115,
+      "TagName": "HoldType_Gameplay_RightArm",
+      "Parent": 10114,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10115,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "HoldType_Gameplay_RightArm",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10114
+    },
+    {
+      "Id": 10116,
+      "TagName": "HoldType_Gameplay_BothArm",
+      "Parent": 10114,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10116,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "HoldType_Gameplay_BothArm",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10114
+    },
+    {
+      "Id": 10117,
+      "TagName": "HoldType_Gameplay_FullBody",
+      "Parent": 10114,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10117,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "HoldType_Gameplay_FullBody",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10114
+    },
+    {
+      "Id": 10118,
+      "TagName": "ArmOccupied",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10118,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "ArmOccupied",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 10119,
+      "TagName": "Battle_Lock",
+      "Parent": 10100,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10119,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Battle_Lock",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10100
+    },
+    {
+      "Id": 10120,
+      "TagName": "Battle_Move_BattleIdle",
+      "Parent": 10101,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10120,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Battle_Move_BattleIdle",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10101
+    },
+    {
+      "Id": 10121,
+      "TagName": "Battle_Ranged_Aim",
+      "Parent": 10104,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10121,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Battle_Ranged_Aim",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10104
+    },
+    {
+      "Id": 10122,
+      "TagName": "HoldType_BodyPart",
+      "Parent": 10107,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 10122,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "HoldType_BodyPart",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10107
+    },
+    {
+      "Id": 100120,
+      "TagName": "Procedure",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 100120,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Procedure",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 100200,
+      "TagName": "Motion_Special_Ball_Basketball",
+      "Parent": 10024,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 100200,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_Special_Ball_Basketball",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10024
+    },
+    {
+      "Id": 100202,
+      "TagName": "Motion_Special_Ball_Basketball_Withball",
+      "Parent": 100200,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 100202,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_Special_Ball_Basketball_Withball",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 100200
+    },
+    {
+      "Id": 100203,
+      "TagName": "Motion_Special_Ball_Basketball_Withoutball",
+      "Parent": 100200,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 100203,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_Special_Ball_Basketball_Withoutball",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 100200
+    },
+    {
+      "Id": 100210,
+      "TagName": "State",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 100210,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "State",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 100300,
+      "TagName": "Companion",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 100300,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Companion",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 100301,
+      "TagName": "Companion_Battle",
+      "Parent": 100300,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 100301,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Companion_Battle",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 100300
+    },
+    {
+      "Id": 100302,
+      "TagName": "Companion_HangOut",
+      "Parent": 100300,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 100302,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Companion_HangOut",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 100300
+    },
+    {
+      "Id": 100303,
+      "TagName": "Companion_HangOut_InvitationGameplay",
+      "Parent": 100302,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 100303,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Companion_HangOut_InvitationGameplay",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 100302
+    },
+    {
+      "Id": 100400,
+      "TagName": "Crouch",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 100400,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Crouch",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 100500,
+      "TagName": "StimBehavior",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 100500,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "StimBehavior",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 100550,
+      "TagName": "InMovingPlatform",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 100550,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "InMovingPlatform",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 100600,
+      "TagName": "Motion_WeakMove",
+      "Parent": 10002,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 100600,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_WeakMove",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10002
+    },
+    {
+      "Id": 100601,
+      "TagName": "GamePlay",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 100601,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "GamePlay",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 100602,
+      "TagName": "QuestCustomizedMotion",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 100602,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "QuestCustomizedMotion",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 100606,
+      "TagName": "Interaction_Gameplay_Guitar",
+      "Parent": 10032,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 100606,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Interaction_Gameplay_Guitar",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10032
+    },
+    {
+      "Id": 100608,
+      "TagName": "UnderTelekinesis",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 100608,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "UnderTelekinesis",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 100609,
+      "TagName": "Motion_EnvHitReaction",
+      "Parent": 10002,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 100609,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_EnvHitReaction",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10002
+    },
+    {
+      "Id": 100610,
+      "TagName": "Umbrella",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 100610,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Umbrella",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 100700,
+      "TagName": "Cover",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 100700,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Cover",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 100701,
+      "TagName": "Cover_SideCover",
+      "Parent": 100700,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 100701,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Cover_SideCover",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 100700
+    },
+    {
+      "Id": 100702,
+      "TagName": "Cover_StandCover",
+      "Parent": 100700,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 100702,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Cover_StandCover",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 100700
+    },
+    {
+      "Id": 100703,
+      "TagName": "Cover_SideCover_Right",
+      "Parent": 100701,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 100703,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Cover_SideCover_Right",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 100701
+    },
+    {
+      "Id": 100704,
+      "TagName": "Cover_SideCover_Left",
+      "Parent": 100701,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 100704,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Cover_SideCover_Left",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 100701
+    },
+    {
+      "Id": 100705,
+      "TagName": "Cover_StandCover_Right",
+      "Parent": 100702,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 100705,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Cover_StandCover_Right",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 100702
+    },
+    {
+      "Id": 100706,
+      "TagName": "Cover_StandCover_Left",
+      "Parent": 100702,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 100706,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Cover_StandCover_Left",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 100702
+    },
+    {
+      "Id": 100800,
+      "TagName": "FoodStall",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 100800,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "FoodStall",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 100801,
+      "TagName": "GamePlay_VRFly",
+      "Parent": 100601,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 100801,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "GamePlay_VRFly",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 100601
+    },
+    {
+      "Id": 100900,
+      "TagName": "Swing",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 100900,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Swing",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 100901,
+      "TagName": "Motion_Traversal_AgainstWall",
+      "Parent": 10020,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 100901,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_Traversal_AgainstWall",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10020
+    },
+    {
+      "Id": 100902,
+      "TagName": "Motion_Drive_Drive",
+      "Parent": 10021,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 100902,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_Drive_Drive",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10021
+    },
+    {
+      "Id": 100903,
+      "TagName": "Motion_Drive_Getout",
+      "Parent": 10021,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 100903,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "Motion_Drive_Getout",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 10021
+    },
+    {
+      "Id": 100904,
+      "TagName": "GamePlay_ClimbBus",
+      "Parent": 100601,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 100904,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "GamePlay_ClimbBus",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 100601
+    },
+    {
+      "Id": 101000,
+      "TagName": "GroupReaction",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 101000,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "GroupReaction",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 101010,
+      "TagName": "MovementMethod",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 101010,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "MovementMethod",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 102000,
+      "TagName": "LeadingwayMove",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 102000,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "LeadingwayMove",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 102001,
+      "TagName": "FollowingMove",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 102001,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "FollowingMove",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 102002,
+      "TagName": "WayPointMove",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 102002,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "WayPointMove",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    },
+    {
+      "Id": 102003,
+      "TagName": "DisableDialogAction",
+      "Parent": 0,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Id": 102003,
+      "LT.ConfigGen.IGeneralGameplayTagConfig.TagName": "DisableDialogAction",
+      "LT.ConfigGen.IGeneralGameplayTagConfig.Parent": 0
+    }
+  ],
+  "_dumpedCount": 137,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

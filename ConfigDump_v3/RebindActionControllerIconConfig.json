@@ -1,0 +1,271 @@
+{
+  "_class": "RebindActionControllerIconConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 29,
+  "records": [
+    {
+      "Id": 1,
+      "ButtonName": "<Gamepad>/buttonNorth",
+      "PSIcon": 28000203,
+      "XboxIcon": 28000219,
+      "IconCtrl": 0,
+      "StoreName": "northBtn",
+      "XboxStoreGo": "Y_XB"
+    },
+    {
+      "Id": 2,
+      "ButtonName": "<Gamepad>/buttonEast",
+      "PSIcon": 28000201,
+      "XboxIcon": 28000217,
+      "IconCtrl": 1,
+      "StoreName": "eastBtn",
+      "XboxStoreGo": "B_XB"
+    },
+    {
+      "Id": 3,
+      "ButtonName": "<Gamepad>/buttonSouth",
+      "PSIcon": 28000200,
+      "XboxIcon": 28000216,
+      "IconCtrl": 2,
+      "StoreName": "southBtn",
+      "XboxStoreGo": "A_XB"
+    },
+    {
+      "Id": 4,
+      "ButtonName": "<Gamepad>/buttonWest",
+      "PSIcon": 28000202,
+      "XboxIcon": 28000218,
+      "IconCtrl": 3,
+      "StoreName": "westBtn",
+      "XboxStoreGo": "X_XB"
+    },
+    {
+      "Id": 5,
+      "ButtonName": "<Gamepad>/leftShoulder",
+      "PSIcon": 28000204,
+      "XboxIcon": 28000220,
+      "IconCtrl": 4,
+      "StoreName": "L1Btn",
+      "XboxStoreGo": "L1Btn_XB"
+    },
+    {
+      "Id": 6,
+      "ButtonName": "<Gamepad>/rightShoulder",
+      "PSIcon": 28000205,
+      "XboxIcon": 28000221,
+      "IconCtrl": 5,
+      "StoreName": "R1Btn",
+      "XboxStoreGo": "R1Btn_XB"
+    },
+    {
+      "Id": 7,
+      "ButtonName": "<Gamepad>/leftTrigger",
+      "PSIcon": 28000214,
+      "XboxIcon": 28000226,
+      "IconCtrl": 6,
+      "StoreName": "L2Btn",
+      "XboxStoreGo": "L2Btn_XB"
+    },
+    {
+      "Id": 8,
+      "ButtonName": "<Gamepad>/rightTrigger",
+      "PSIcon": 28000215,
+      "XboxIcon": 28000227,
+      "IconCtrl": 7,
+      "StoreName": "R2Btn",
+      "XboxStoreGo": "R2Btn_XB"
+    },
+    {
+      "Id": 9,
+      "ButtonName": "<Gamepad>/leftStick",
+      "PSIcon": 28000251,
+      "XboxIcon": 28000251,
+      "IconCtrl": 8,
+      "StoreName": "leftStick",
+      "XboxStoreGo": "L3Btn_XB"
+    },
+    {
+      "Id": 10,
+      "ButtonName": "<Gamepad>/rightStick",
+      "PSIcon": 28000252,
+      "XboxIcon": 28000252,
+      "IconCtrl": 9,
+      "StoreName": "rightStick",
+      "XboxStoreGo": "R3Btn_XB"
+    },
+    {
+      "Id": 11,
+      "ButtonName": "<Gamepad>/options",
+      "PSIcon": 28000208,
+      "XboxIcon": 28000224,
+      "IconCtrl": 14,
+      "StoreName": "",
+      "XboxStoreGo": ""
+    },
+    {
+      "Id": 13,
+      "ButtonName": "<Gamepad>/leftStickPress",
+      "PSIcon": 28000206,
+      "XboxIcon": 28000222,
+      "IconCtrl": 8,
+      "StoreName": "L3Btn",
+      "XboxStoreGo": "LeftStick_XB"
+    },
+    {
+      "Id": 14,
+      "ButtonName": "<Gamepad>/rightStickPress",
+      "PSIcon": 28000207,
+      "XboxIcon": 28000223,
+      "IconCtrl": 9,
+      "StoreName": "R3Btn",
+      "XboxStoreGo": "RightStick_XB"
+    },
+    {
+      "Id": 15,
+      "ButtonName": "<Gamepad>/dpad",
+      "PSIcon": 0,
+      "XboxIcon": 0,
+      "IconCtrl": 0,
+      "StoreName": "",
+      "XboxStoreGo": ""
+    },
+    {
+      "Id": 16,
+      "ButtonName": "<Gamepad>/dpad/up",
+      "PSIcon": 28000212,
+      "XboxIcon": 28000212,
+      "IconCtrl": 12,
+      "StoreName": "",
+      "XboxStoreGo": ""
+    },
+    {
+      "Id": 17,
+      "ButtonName": "<Gamepad>/dpad/left",
+      "PSIcon": 28000210,
+      "XboxIcon": 28000210,
+      "IconCtrl": 10,
+      "StoreName": "DPadLeftBtn",
+      "XboxStoreGo": "DPadLeft_XB"
+    },
+    {
+      "Id": 18,
+      "ButtonName": "<Gamepad>/dpad/right",
+      "PSIcon": 28000211,
+      "XboxIcon": 28000211,
+      "IconCtrl": 11,
+      "StoreName": "DpadRightBtn",
+      "XboxStoreGo": "DPadRight_XB"
+    },
+    {
+      "Id": 19,
+      "ButtonName": "<Gamepad>/dpad/down",
+      "PSIcon": 28000213,
+      "XboxIcon": 28000213,
+      "IconCtrl": 13,
+      "StoreName": "DpadDownBtn",
+      "XboxStoreGo": "DPadDown_XB"
+    },
+    {
+      "Id": 20,
+      "ButtonName": "<DualShockGamepad>/touchpadButton",
+      "PSIcon": 28000209,
+      "XboxIcon": 28000225,
+      "IconCtrl": 15,
+      "StoreName": "",
+      "XboxStoreGo": ""
+    },
+    {
+      "Id": 21,
+      "ButtonName": "<Gamepad>/touchpadButton",
+      "PSIcon": 28000209,
+      "XboxIcon": 28000225,
+      "IconCtrl": 15,
+      "StoreName": "",
+      "XboxStoreGo": ""
+    },
+    {
+      "Id": 22,
+      "ButtonName": "<Gamepad>/select",
+      "PSIcon": 28000209,
+      "XboxIcon": 28000225,
+      "IconCtrl": 15,
+      "StoreName": "",
+      "XboxStoreGo": "View_XB"
+    },
+    {
+      "Id": 23,
+      "ButtonName": "<XInputController>/select",
+      "PSIcon": 28000209,
+      "XboxIcon": 28000225,
+      "IconCtrl": 15,
+      "StoreName": "",
+      "XboxStoreGo": "View_XB"
+    },
+    {
+      "Id": 24,
+      "ButtonName": "<Gamepad>/{Menu}",
+      "PSIcon": 28000208,
+      "XboxIcon": 28000224,
+      "IconCtrl": 14,
+      "StoreName": "systemBtn",
+      "XboxStoreGo": "Menu_XB"
+    },
+    {
+      "Id": 25,
+      "ButtonName": "<DualShockGamepad>/select",
+      "PSIcon": 28000209,
+      "XboxIcon": 28000225,
+      "IconCtrl": 15,
+      "StoreName": "",
+      "XboxStoreGo": "View_XB"
+    },
+    {
+      "Id": 26,
+      "ButtonName": "<DualShockGamepad>/start",
+      "PSIcon": 0,
+      "XboxIcon": 0,
+      "IconCtrl": 0,
+      "StoreName": "",
+      "XboxStoreGo": ""
+    },
+    {
+      "Id": 27,
+      "ButtonName": "<XInputController>/{Back}",
+      "PSIcon": 0,
+      "XboxIcon": 0,
+      "IconCtrl": 0,
+      "StoreName": "",
+      "XboxStoreGo": ""
+    },
+    {
+      "Id": 28,
+      "ButtonName": "<Gamepad>/start",
+      "PSIcon": 0,
+      "XboxIcon": 0,
+      "IconCtrl": 0,
+      "StoreName": "",
+      "XboxStoreGo": ""
+    },
+    {
+      "Id": 29,
+      "ButtonName": "<Gamepad>/acceleration",
+      "PSIcon": 0,
+      "XboxIcon": 0,
+      "IconCtrl": 0,
+      "StoreName": "",
+      "XboxStoreGo": ""
+    },
+    {
+      "Id": 30,
+      "ButtonName": "<PS5DualSenseGamepad>/touch0",
+      "PSIcon": 0,
+      "XboxIcon": 0,
+      "IconCtrl": 0,
+      "StoreName": "",
+      "XboxStoreGo": ""
+    }
+  ],
+  "_dumpedCount": 29,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

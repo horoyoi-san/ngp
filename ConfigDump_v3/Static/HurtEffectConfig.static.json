@@ -1,0 +1,52 @@
+{
+  "DefaultCfg": {
+    "Id": 55007003,
+    "Desc": "战斗保底hurteffect",
+    "EffectId": [],
+    "SoundId": 0,
+    "HittingTypeDestructible": 0,
+    "Impact": 0,
+    "FirmHurtLevel": 0,
+    "SpecialHurtstiffId": 405,
+    "NewLeftOrRight": 0,
+    "StiffFacing": 0,
+    "IKId": 0,
+    "PhysicalAttackType": 0,
+    "IsParry": false,
+    "HitDis": [],
+    "HitDisScale": [],
+    "HitActionSpeed": [],
+    "IgnoreFirm": false,
+    "PercentDamageBuilding": -1,
+    "PuppetHorizontalForce": 0,
+    "PuppetVerticalForce": 0,
+    "BreakId": 0,
+    "AttackType": 0,
+    "AttackBackMoveDistance": 0,
+    "AttackBackMoveTriggerDistance": 0,
+    "CanHeadshot": false,
+    "HeadshotImpact": 0,
+    "HeadshotFirmHurtLevel": 0,
+    "HeadshotEffectId": [],
+    "RandomHurtEffectList": [],
+    "UndefensibleShieldTypes": [],
+    "FireArmID": 0,
+    "AddState": [],
+    "PullStiffParams": {
+      "mode": 0,
+      "distance": 0,
+      "cannotBeHitTime": 0
+    },
+    "ForceTeleportPos": [],
+    "BanxiHurt": {
+      "isOpen": false,
+      "checkDis": 0,
+      "floorStiff": 0,
+      "floorEffect": 0,
+      "wallStartStiff": 0,
+      "wallStiff": 0,
+      "wallEffect": 0,
+      "wallAttachSpeed": 0
+    }
+  }
+}

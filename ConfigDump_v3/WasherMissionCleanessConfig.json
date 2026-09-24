@@ -1,0 +1,60 @@
+{
+  "_class": "WasherMissionCleanessConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 5,
+  "records": [
+    {
+      "Id": 1,
+      "Rating": 98,
+      "Text": "SS",
+      "RewardRate": 1.10000002,
+      "ProficiencyRate": 1,
+      "WashUIText": "完美",
+      "__IDX__WashUIText": 4294967293,
+      "__RAW__WashUIText": "完美"
+    },
+    {
+      "Id": 2,
+      "Rating": 90,
+      "Text": "S",
+      "RewardRate": 1,
+      "ProficiencyRate": 0.75,
+      "WashUIText": "棒",
+      "__IDX__WashUIText": 4294967293,
+      "__RAW__WashUIText": "棒"
+    },
+    {
+      "Id": 3,
+      "Rating": 80,
+      "Text": "A",
+      "RewardRate": 0.800000012,
+      "ProficiencyRate": 0.300000012,
+      "WashUIText": "良好",
+      "__IDX__WashUIText": 4294967293,
+      "__RAW__WashUIText": "良好"
+    },
+    {
+      "Id": 4,
+      "Rating": 60,
+      "Text": "B",
+      "RewardRate": 0.300000012,
+      "ProficiencyRate": 0,
+      "WashUIText": "及格",
+      "__IDX__WashUIText": 4294967293,
+      "__RAW__WashUIText": "及格"
+    },
+    {
+      "Id": 5,
+      "Rating": 0,
+      "Text": "C",
+      "RewardRate": 0,
+      "ProficiencyRate": -0.5,
+      "WashUIText": "差",
+      "__IDX__WashUIText": 4294967293,
+      "__RAW__WashUIText": "差"
+    }
+  ],
+  "_dumpedCount": 5,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

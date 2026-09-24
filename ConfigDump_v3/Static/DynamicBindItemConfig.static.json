@@ -1,0 +1,50 @@
+{
+  "HandPhoneCfg": {
+    "Id": 100070,
+    "ItemZoomRate": 1,
+    "ItemPool": [],
+    "ItemDestructibleId": 0,
+    "ItemCategory": 1,
+    "BindItem": {
+      "item": "dj_A706001",
+      "bindBone": "handl",
+      "battleBindBone": "handl",
+      "type": 0,
+      "param": 0,
+      "offsetx": 0,
+      "offsety": 0,
+      "offsetz": 0,
+      "selfEulerX": 0,
+      "selfEulerY": 0,
+      "selfEulerZ": 0
+    },
+    "SceneitemBindSlot": {
+      "SceneitemId": 80005971,
+      "BindSlotIndex": 1
+    }
+  },
+  "HandPhone_RightCfg": {
+    "Id": 100120,
+    "ItemZoomRate": 1,
+    "ItemPool": [],
+    "ItemDestructibleId": 0,
+    "ItemCategory": 1,
+    "BindItem": {
+      "item": "dj_A706001",
+      "bindBone": "handr",
+      "battleBindBone": "handr",
+      "type": 0,
+      "param": 0,
+      "offsetx": 0,
+      "offsety": 0,
+      "offsetz": 0,
+      "selfEulerX": 0,
+      "selfEulerY": 0,
+      "selfEulerZ": 0
+    },
+    "SceneitemBindSlot": {
+      "SceneitemId": 80005971,
+      "BindSlotIndex": 3
+    }
+  }
+}

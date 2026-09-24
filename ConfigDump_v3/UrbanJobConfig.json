@@ -1,0 +1,1584 @@
+{
+  "_class": "UrbanJobConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 49,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "Trainee Driver",
+      "PreJob": 0,
+      "Level": 1,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300001,
+      "Cost": 0,
+      "PromoteDes": "",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009130,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 102573,
+      "__RAW__Name": "",
+      "__IDX__PromoteDes": 0,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 4294967293,
+          "__RAW__description": "这个职业不用了"
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "Name": "Official Driver",
+      "PreJob": 1,
+      "Level": 2,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300001,
+      "Cost": 0,
+      "PromoteDes": "",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009130,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 102574,
+      "__RAW__Name": "",
+      "__IDX__PromoteDes": 0,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 4294967293,
+          "__RAW__description": "这个职业不用了"
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "Name": "Senior Driver",
+      "PreJob": 2,
+      "Level": 3,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300001,
+      "Cost": 0,
+      "PromoteDes": "",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009130,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 102575,
+      "__RAW__Name": "",
+      "__IDX__PromoteDes": 0,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 4294967293,
+          "__RAW__description": "这个职业不用了"
+        }
+      ]
+    },
+    {
+      "Id": 4,
+      "Name": "初级赛车手",
+      "PreJob": 0,
+      "Level": 1,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300002,
+      "Cost": 0,
+      "PromoteDes": "",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009085,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "初级赛车手",
+      "__IDX__PromoteDes": 0,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 4294967293,
+          "__RAW__description": "这个职业不用了"
+        }
+      ]
+    },
+    {
+      "Id": 5,
+      "Name": "职业赛车手",
+      "PreJob": 4,
+      "Level": 2,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300002,
+      "Cost": 0,
+      "PromoteDes": "Upgrade Career to Lv.2",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009085,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "职业赛车手",
+      "__IDX__PromoteDes": 133095,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 4294967293,
+          "__RAW__description": "这个职业不用了"
+        }
+      ]
+    },
+    {
+      "Id": 6,
+      "Name": "王牌赛车手",
+      "PreJob": 5,
+      "Level": 3,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300002,
+      "Cost": 0,
+      "PromoteDes": "Upgrade Career to Lv.3",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009085,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "王牌赛车手",
+      "__IDX__PromoteDes": 133098,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 4294967293,
+          "__RAW__description": "这个职业不用了"
+        }
+      ]
+    },
+    {
+      "Id": 7,
+      "Name": "Agent",
+      "PreJob": 0,
+      "Level": 1,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300007,
+      "Cost": 1,
+      "PromoteDes": "",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009081,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 73084,
+      "__RAW__Name": "",
+      "__IDX__PromoteDes": 0,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009081,
+          "__IDX__description": 73083,
+          "__RAW__description": ""
+        }
+      ]
+    },
+    {
+      "Id": 10,
+      "Name": "Inventive Apprentice",
+      "PreJob": 0,
+      "Level": 1,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300011,
+      "Cost": 1,
+      "PromoteDes": "",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009082,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 133064,
+      "__RAW__Name": "",
+      "__IDX__PromoteDes": 0,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009082,
+          "__IDX__description": 133062,
+          "__RAW__description": ""
+        },
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 133063,
+          "__RAW__description": ""
+        }
+      ]
+    },
+    {
+      "Id": 11,
+      "Name": "Lab Assistant",
+      "PreJob": 10,
+      "Level": 2,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300011,
+      "Cost": 1,
+      "PromoteDes": "Upgrade Career to Lv.2",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009082,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 133068,
+      "__RAW__Name": "",
+      "__IDX__PromoteDes": 133069,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009082,
+          "__IDX__description": 133067,
+          "__RAW__description": ""
+        }
+      ]
+    },
+    {
+      "Id": 12,
+      "Name": "Expert Inventor",
+      "PreJob": 11,
+      "Level": 3,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300011,
+      "Cost": 1,
+      "PromoteDes": "Upgrade Career to Lv.3",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009082,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 133073,
+      "__RAW__Name": "",
+      "__IDX__PromoteDes": 133074,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009082,
+          "__IDX__description": 133072,
+          "__RAW__description": ""
+        }
+      ]
+    },
+    {
+      "Id": 100,
+      "Name": "无业",
+      "PreJob": 0,
+      "Level": 1,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 0,
+      "Cost": 0,
+      "PromoteDes": "",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 0,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "无业",
+      "__IDX__PromoteDes": 0,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 4294967293,
+          "__RAW__description": "家里蹲"
+        }
+      ]
+    },
+    {
+      "Id": 301,
+      "Name": "NCCA Officer",
+      "PreJob": 0,
+      "Level": 1,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300003,
+      "Cost": 1,
+      "PromoteDes": "",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009084,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 84906,
+      "__RAW__Name": "",
+      "__IDX__PromoteDes": 0,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009084,
+          "__IDX__description": 99330,
+          "__RAW__description": ""
+        },
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 99331,
+          "__RAW__description": ""
+        }
+      ]
+    },
+    {
+      "Id": 302,
+      "Name": "NCCA Detective",
+      "PreJob": 301,
+      "Level": 5,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300003,
+      "Cost": 1,
+      "PromoteDes": "Upgrade Career to Lv.5",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009084,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 99334,
+      "__RAW__Name": "",
+      "__IDX__PromoteDes": 133088,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009084,
+          "__IDX__description": 99332,
+          "__RAW__description": ""
+        },
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 99333,
+          "__RAW__description": ""
+        }
+      ]
+    },
+    {
+      "Id": 303,
+      "Name": "NCCA Inspector",
+      "PreJob": 302,
+      "Level": 10,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300003,
+      "Cost": 1,
+      "PromoteDes": "Upgrade Career to Lv.10",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009084,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 99337,
+      "__RAW__Name": "",
+      "__IDX__PromoteDes": 133089,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009084,
+          "__IDX__description": 99335,
+          "__RAW__description": ""
+        },
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 99336,
+          "__RAW__description": ""
+        }
+      ]
+    },
+    {
+      "Id": 401,
+      "Name": "Professional Hacker",
+      "PreJob": 0,
+      "Level": 1,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300004,
+      "Cost": 1,
+      "PromoteDes": "",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009083,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 133090,
+      "__RAW__Name": "",
+      "__IDX__PromoteDes": 0,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009083,
+          "__IDX__description": 4294967293,
+          "__RAW__description": "籍籍无名的小黑客"
+        }
+      ]
+    },
+    {
+      "Id": 402,
+      "Name": "Advanced Hacker",
+      "PreJob": 401,
+      "Level": 2,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300004,
+      "Cost": 1,
+      "PromoteDes": "Upgrade Career to Lv.2",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009083,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 133091,
+      "__RAW__Name": "",
+      "__IDX__PromoteDes": 133092,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009083,
+          "__IDX__description": 4294967293,
+          "__RAW__description": "调查一些隐秘事件"
+        }
+      ]
+    },
+    {
+      "Id": 403,
+      "Name": "Ace Hacker",
+      "PreJob": 402,
+      "Level": 3,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300004,
+      "Cost": 1,
+      "PromoteDes": "Upgrade Career to Lv.3",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009083,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 133093,
+      "__RAW__Name": "",
+      "__IDX__PromoteDes": 133094,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009083,
+          "__IDX__description": 4294967293,
+          "__RAW__description": "掌握地下世界的情报网"
+        }
+      ]
+    },
+    {
+      "Id": 501,
+      "Name": "Trainee Driver",
+      "PreJob": 0,
+      "Level": 1,
+      "PromoteTask": 0,
+      "DropId": 14581009,
+      "JobClass": 11300005,
+      "Cost": 1,
+      "PromoteDes": "",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009157,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 73082,
+      "__RAW__Name": "",
+      "__IDX__PromoteDes": 0,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 73081,
+          "__RAW__description": ""
+        }
+      ]
+    },
+    {
+      "Id": 502,
+      "Name": "Official Driver",
+      "PreJob": 501,
+      "Level": 3,
+      "PromoteTask": 0,
+      "DropId": 14581013,
+      "JobClass": 11300005,
+      "Cost": 1,
+      "PromoteDes": "Upgrade Career to Lv.3",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009158,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 84907,
+      "__RAW__Name": "",
+      "__IDX__PromoteDes": 133096,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 92572,
+          "__RAW__description": ""
+        }
+      ]
+    },
+    {
+      "Id": 503,
+      "Name": "Senior Driver",
+      "PreJob": 502,
+      "Level": 7,
+      "PromoteTask": 0,
+      "DropId": 14581015,
+      "JobClass": 11300005,
+      "Cost": 1,
+      "PromoteDes": "Upgrade Career to Lv.7",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009158,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 84908,
+      "__RAW__Name": "",
+      "__IDX__PromoteDes": 133097,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 92573,
+          "__RAW__description": ""
+        }
+      ]
+    },
+    {
+      "Id": 601,
+      "Name": "混厄押送员",
+      "PreJob": 0,
+      "Level": 1,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300006,
+      "Cost": 0,
+      "PromoteDes": "",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009085,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "混厄押送员",
+      "__IDX__PromoteDes": 0,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 4294967293,
+          "__RAW__description": "这个职业不用了"
+        }
+      ]
+    },
+    {
+      "Id": 701,
+      "Name": "Apprentice Diviner",
+      "PreJob": 0,
+      "Level": 1,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300008,
+      "Cost": 1,
+      "PromoteDes": "",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009085,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 164373,
+      "__RAW__Name": "",
+      "__IDX__PromoteDes": 0,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 4294967293,
+          "__RAW__description": "职业还在开发中"
+        }
+      ]
+    },
+    {
+      "Id": 702,
+      "Name": "Official Diviner",
+      "PreJob": 701,
+      "Level": 2,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300008,
+      "Cost": 1,
+      "PromoteDes": "Upgrade Career to Lv.2",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009085,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 164374,
+      "__RAW__Name": "",
+      "__IDX__PromoteDes": 133099,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 4294967293,
+          "__RAW__description": "职业还在开发中"
+        }
+      ]
+    },
+    {
+      "Id": 703,
+      "Name": "Senior Diviner",
+      "PreJob": 702,
+      "Level": 3,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300008,
+      "Cost": 1,
+      "PromoteDes": "Upgrade Career to Lv.3",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009085,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 164375,
+      "__RAW__Name": "",
+      "__IDX__PromoteDes": 133100,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 4294967293,
+          "__RAW__description": "职业还在开发中"
+        }
+      ]
+    },
+    {
+      "Id": 801,
+      "Name": "初级训练师",
+      "PreJob": 0,
+      "Level": 1,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300009,
+      "Cost": 1,
+      "PromoteDes": "",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009086,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "初级训练师",
+      "__IDX__PromoteDes": 0,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009086,
+          "__IDX__description": 4294967293,
+          "__RAW__description": "混厄对战"
+        }
+      ]
+    },
+    {
+      "Id": 802,
+      "Name": "中级训练师",
+      "PreJob": 801,
+      "Level": 2,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300009,
+      "Cost": 1,
+      "PromoteDes": "Upgrade Career to Lv.2",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009086,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "中级训练师",
+      "__IDX__PromoteDes": 133101,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009086,
+          "__IDX__description": 4294967293,
+          "__RAW__description": "高级混厄收服"
+        },
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 4294967293,
+          "__RAW__description": "天赋专精"
+        }
+      ]
+    },
+    {
+      "Id": 803,
+      "Name": "高级训练师",
+      "PreJob": 802,
+      "Level": 3,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300009,
+      "Cost": 1,
+      "PromoteDes": "Upgrade Career to Lv.3",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009086,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "高级训练师",
+      "__IDX__PromoteDes": 133102,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009086,
+          "__IDX__description": 4294967293,
+          "__RAW__description": "大型锦标赛事"
+        },
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 4294967293,
+          "__RAW__description": "混厄具象化"
+        }
+      ]
+    },
+    {
+      "Id": 901,
+      "Name": "初级调酒师",
+      "PreJob": 0,
+      "Level": 1,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300010,
+      "Cost": 1,
+      "PromoteDes": "",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009086,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "初级调酒师",
+      "__IDX__PromoteDes": 0,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009086,
+          "__IDX__description": 4294967293,
+          "__RAW__description": "职业还在开发中"
+        }
+      ]
+    },
+    {
+      "Id": 902,
+      "Name": "中级调酒师",
+      "PreJob": 901,
+      "Level": 2,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300010,
+      "Cost": 1,
+      "PromoteDes": "Upgrade Career to Lv.2",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009086,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "中级调酒师",
+      "__IDX__PromoteDes": 133103,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009086,
+          "__IDX__description": 4294967293,
+          "__RAW__description": "职业还在开发中"
+        }
+      ]
+    },
+    {
+      "Id": 903,
+      "Name": "高级调酒师",
+      "PreJob": 902,
+      "Level": 3,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300010,
+      "Cost": 1,
+      "PromoteDes": "Upgrade Career to Lv.3",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009086,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "高级调酒师",
+      "__IDX__PromoteDes": 133104,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009086,
+          "__IDX__description": 4294967293,
+          "__RAW__description": "职业还在开发中"
+        }
+      ]
+    },
+    {
+      "Id": 1001,
+      "Name": "街头艺术学徒",
+      "PreJob": 0,
+      "Level": 1,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300012,
+      "Cost": 1,
+      "PromoteDes": "",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009086,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "街头艺术学徒",
+      "__IDX__PromoteDes": 0,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009086,
+          "__IDX__description": 4294967295,
+          "__RAW__description": "初露头角，可在街头表演和接取绘画订单"
+        }
+      ]
+    },
+    {
+      "Id": 1002,
+      "Name": "街头艺术新秀",
+      "PreJob": 1001,
+      "Level": 2,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300012,
+      "Cost": 1,
+      "PromoteDes": "Upgrade Career to Lv.2",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009086,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "街头艺术新秀",
+      "__IDX__PromoteDes": 133065,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009086,
+          "__IDX__description": 4294967295,
+          "__RAW__description": "渐入佳境，解锁更多演出地点、临摹委托、街头艺术家商店"
+        }
+      ]
+    },
+    {
+      "Id": 1003,
+      "Name": "街头艺术大师",
+      "PreJob": 1002,
+      "Level": 3,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300012,
+      "Cost": 1,
+      "PromoteDes": "Upgrade Career to Lv.3",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009085,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "街头艺术大师",
+      "__IDX__PromoteDes": 133066,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 4294967295,
+          "__RAW__description": "挥洒纵横，解锁自由绘画"
+        }
+      ]
+    },
+    {
+      "Id": 1101,
+      "Name": "初级医生",
+      "PreJob": 0,
+      "Level": 1,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300013,
+      "Cost": 1,
+      "PromoteDes": "",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009085,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "初级医生",
+      "__IDX__PromoteDes": 0,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 4294967293,
+          "__RAW__description": "可以交互治疗病人"
+        }
+      ]
+    },
+    {
+      "Id": 1102,
+      "Name": "中级医生",
+      "PreJob": 1101,
+      "Level": 2,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300013,
+      "Cost": 1,
+      "PromoteDes": "Upgrade Career to Lv.2",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009085,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "中级医生",
+      "__IDX__PromoteDes": 133070,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 4294967293,
+          "__RAW__description": "解锁特殊病毒"
+        }
+      ]
+    },
+    {
+      "Id": 1103,
+      "Name": "高级医生",
+      "PreJob": 1102,
+      "Level": 3,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300013,
+      "Cost": 1,
+      "PromoteDes": "Upgrade Career to Lv.3",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009085,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "高级医生",
+      "__IDX__PromoteDes": 133071,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 4294967293,
+          "__RAW__description": "解锁昏迷针管"
+        }
+      ]
+    },
+    {
+      "Id": 1201,
+      "Name": "Cleaning Assistant",
+      "PreJob": 0,
+      "Level": 1,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300014,
+      "Cost": 1,
+      "PromoteDes": "",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009085,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 133076,
+      "__RAW__Name": "",
+      "__IDX__PromoteDes": 0,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 133075,
+          "__RAW__description": ""
+        }
+      ]
+    },
+    {
+      "Id": 1202,
+      "Name": "Cleaning Specialist",
+      "PreJob": 1201,
+      "Level": 2,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300014,
+      "Cost": 1,
+      "PromoteDes": "Upgrade Career to Lv.2",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009085,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 133078,
+      "__RAW__Name": "",
+      "__IDX__PromoteDes": 133079,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 133077,
+          "__RAW__description": ""
+        }
+      ]
+    },
+    {
+      "Id": 1203,
+      "Name": "Cleaning Expert",
+      "PreJob": 1202,
+      "Level": 3,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300014,
+      "Cost": 1,
+      "PromoteDes": "Upgrade Career to Lv.3",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009085,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 133081,
+      "__RAW__Name": "",
+      "__IDX__PromoteDes": 133082,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 133080,
+          "__RAW__description": ""
+        }
+      ]
+    },
+    {
+      "Id": 1301,
+      "Name": "Gang Leader",
+      "PreJob": 0,
+      "Level": 1,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300015,
+      "Cost": 1,
+      "PromoteDes": "",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009085,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 133083,
+      "__RAW__Name": "",
+      "__IDX__PromoteDes": 0,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 4294967293,
+          "__RAW__description": "职业还在开发中"
+        }
+      ]
+    },
+    {
+      "Id": 1302,
+      "Name": "Street Statesman",
+      "PreJob": 1301,
+      "Level": 10,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300015,
+      "Cost": 1,
+      "PromoteDes": "Upgrade Career to Lv.5",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009085,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 133084,
+      "__RAW__Name": "",
+      "__IDX__PromoteDes": 133085,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 4294967293,
+          "__RAW__description": "职业还在开发中"
+        }
+      ]
+    },
+    {
+      "Id": 1303,
+      "Name": "District Commander",
+      "PreJob": 1302,
+      "Level": 20,
+      "PromoteTask": 0,
+      "DropId": 14581006,
+      "JobClass": 11300015,
+      "Cost": 1,
+      "PromoteDes": "Upgrade Career to Lv.10",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009085,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 133086,
+      "__RAW__Name": "",
+      "__IDX__PromoteDes": 133087,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 4294967293,
+          "__RAW__description": "职业还在开发中"
+        }
+      ]
+    },
+    {
+      "Id": 1701,
+      "Name": "Martial Artist",
+      "PreJob": 0,
+      "Level": 1,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300017,
+      "Cost": 1,
+      "PromoteDes": "",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009085,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 164372,
+      "__RAW__Name": "",
+      "__IDX__PromoteDes": 0,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 4294967293,
+          "__RAW__description": "职业还在开发中"
+        }
+      ]
+    },
+    {
+      "Id": 1801,
+      "Name": "斯拜科行动临时职业",
+      "PreJob": 0,
+      "Level": 1,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300016,
+      "Cost": 0,
+      "PromoteDes": "",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009085,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "斯拜科行动临时职业",
+      "__IDX__PromoteDes": 0,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 4294967293,
+          "__RAW__description": "职业还在开发中"
+        }
+      ]
+    },
+    {
+      "Id": 1802,
+      "Name": "搜打撤临时职业",
+      "PreJob": 0,
+      "Level": 1,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300018,
+      "Cost": 0,
+      "PromoteDes": "",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009085,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "搜打撤临时职业",
+      "__IDX__PromoteDes": 0,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 4294967293,
+          "__RAW__description": "搜打撤天赋"
+        }
+      ]
+    },
+    {
+      "Id": 1901,
+      "Name": "Tea Farmer",
+      "PreJob": 0,
+      "Level": 1,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300019,
+      "Cost": 0,
+      "PromoteDes": "",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009085,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0
+      ],
+      "__IDX__Name": 145779,
+      "__RAW__Name": "",
+      "__IDX__PromoteDes": 0,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 4294967293,
+          "__RAW__description": "职业还在开发中"
+        }
+      ]
+    },
+    {
+      "Id": 2000,
+      "Name": "见习厨师",
+      "PreJob": 0,
+      "Level": 1,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300020,
+      "Cost": 1,
+      "PromoteDes": "",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009085,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "见习厨师",
+      "__IDX__PromoteDes": 0,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 4294967293,
+          "__RAW__description": "职业还在开发中"
+        }
+      ]
+    },
+    {
+      "Id": 2001,
+      "Name": "职业厨师",
+      "PreJob": 0,
+      "Level": 2,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300020,
+      "Cost": 1,
+      "PromoteDes": "",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009085,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "职业厨师",
+      "__IDX__PromoteDes": 0,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 4294967293,
+          "__RAW__description": "职业还在开发中"
+        }
+      ]
+    },
+    {
+      "Id": 2002,
+      "Name": "厨师长",
+      "PreJob": 0,
+      "Level": 3,
+      "PromoteTask": 0,
+      "DropId": 0,
+      "JobClass": 11300020,
+      "Cost": 1,
+      "PromoteDes": "",
+      "FashionFunctionSuitApplyId": 0,
+      "Icon": 28009085,
+      "StartVersion": "V99.0.0",
+      "EndVersion": "",
+      "TagList": [
+        0,
+        1,
+        2
+      ],
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "厨师长",
+      "__IDX__PromoteDes": 0,
+      "__RAW__PromoteDes": "",
+      "BriefDescription": [
+        {
+          "description": "Increases the amount of damage dealt by a fixed amount.",
+          "imageId": 28009085,
+          "__IDX__description": 4294967293,
+          "__RAW__description": "职业还在开发中"
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 49,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

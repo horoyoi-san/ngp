@@ -1,0 +1,30 @@
+{
+  "_class": "BindSlotBodyPartSlotConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 4,
+  "records": [
+    {
+      "Id": 1,
+      "BodyPartName": "None",
+      "BodyPartDescribe": "不占用"
+    },
+    {
+      "Id": 2,
+      "BodyPartName": "RightHand",
+      "BodyPartDescribe": "右手"
+    },
+    {
+      "Id": 3,
+      "BodyPartName": "Lefthand",
+      "BodyPartDescribe": "左手"
+    },
+    {
+      "Id": 4,
+      "BodyPartName": "Head",
+      "BodyPartDescribe": "头部"
+    }
+  ],
+  "_dumpedCount": 4,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

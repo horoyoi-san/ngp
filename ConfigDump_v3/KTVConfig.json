@@ -1,0 +1,145 @@
+{
+  "_class": "KTVConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 5,
+  "records": [
+    {
+      "Id": 10108001,
+      "SongName": "Out Of Order",
+      "Artist": "oskar",
+      "MusicGenre": "流行摇滚",
+      "SImage": "28001555",
+      "SingerFightSpiritID": [
+        15020967,
+        15020968
+      ],
+      "isInvite": false,
+      "__IDX__Artist": 169192,
+      "__RAW__Artist": "",
+      "__IDX__MusicGenre": 4294967295,
+      "__RAW__MusicGenre": "流行摇滚",
+      "Difficulty": [
+        {
+          "Difficulty": 1,
+          "MusicConfigID": 10108202
+        },
+        {
+          "Difficulty": 2,
+          "MusicConfigID": 10108203
+        }
+      ]
+    },
+    {
+      "Id": 10108002,
+      "SongName": "Candy World",
+      "Artist": "棠宵",
+      "MusicGenre": "复古流行",
+      "SImage": "28001555",
+      "SingerFightSpiritID": [
+        15020967,
+        15020968,
+        15020992,
+        15021021
+      ],
+      "isInvite": true,
+      "__IDX__Artist": 4294967295,
+      "__RAW__Artist": "棠宵",
+      "__IDX__MusicGenre": 4294967295,
+      "__RAW__MusicGenre": "复古流行",
+      "Difficulty": [
+        {
+          "Difficulty": 1,
+          "MusicConfigID": 10108204
+        },
+        {
+          "Difficulty": 2,
+          "MusicConfigID": 10108205
+        }
+      ]
+    },
+    {
+      "Id": 10108003,
+      "SongName": "飞鸟",
+      "Artist": "棠宵",
+      "MusicGenre": "流行舞曲",
+      "SImage": "28001555",
+      "SingerFightSpiritID": [
+        15020992,
+        15021045
+      ],
+      "isInvite": true,
+      "__IDX__Artist": 4294967295,
+      "__RAW__Artist": "棠宵",
+      "__IDX__MusicGenre": 4294967295,
+      "__RAW__MusicGenre": "流行舞曲",
+      "Difficulty": [
+        {
+          "Difficulty": 1,
+          "MusicConfigID": 10108206
+        },
+        {
+          "Difficulty": 2,
+          "MusicConfigID": 10108207
+        }
+      ]
+    },
+    {
+      "Id": 10108004,
+      "SongName": "奔跑",
+      "Artist": "Ivy Chen",
+      "MusicGenre": "乡村流行",
+      "SImage": "28001555",
+      "SingerFightSpiritID": [
+        15020967,
+        15020968,
+        15021021,
+        15021045
+      ],
+      "isInvite": true,
+      "__IDX__Artist": 4294967295,
+      "__RAW__Artist": "Ivy Chen",
+      "__IDX__MusicGenre": 4294967295,
+      "__RAW__MusicGenre": "乡村流行",
+      "Difficulty": [
+        {
+          "Difficulty": 1,
+          "MusicConfigID": 10108208
+        },
+        {
+          "Difficulty": 2,
+          "MusicConfigID": 10108209
+        }
+      ]
+    },
+    {
+      "Id": 10108005,
+      "SongName": "小小愿望",
+      "Artist": "简昼",
+      "MusicGenre": "流行民谣",
+      "SImage": "28001555",
+      "SingerFightSpiritID": [
+        15020992,
+        15021021,
+        15021045
+      ],
+      "isInvite": true,
+      "__IDX__Artist": 4294967295,
+      "__RAW__Artist": "简昼",
+      "__IDX__MusicGenre": 4294967295,
+      "__RAW__MusicGenre": "流行民谣",
+      "Difficulty": [
+        {
+          "Difficulty": 1,
+          "MusicConfigID": 10108210
+        },
+        {
+          "Difficulty": 2,
+          "MusicConfigID": 10108211
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 5,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

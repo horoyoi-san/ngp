@@ -1,0 +1,685 @@
+{
+  "_class": "RailStationConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 34,
+  "records": [
+    {
+      "Id": 1,
+      "StationName": "Ivory Cove",
+      "StationChineseName": "白帆湾",
+      "StationEnglishName": "Ivory Cove",
+      "AutoGateOpenAnim": "",
+      "AutoGateCloseAnim": "",
+      "Position": [
+        539.63678,
+        20.4948292,
+        1363.81702
+      ],
+      "Lines": [
+        1,
+        2
+      ],
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailStation/LightRailStation_1.prefab",
+      "__IDX__StationName": 39024,
+      "__RAW__StationName": ""
+    },
+    {
+      "Id": 2,
+      "StationName": "Paradox Plaza",
+      "StationChineseName": "狂悖街区",
+      "StationEnglishName": "Paradox Plaza",
+      "AutoGateOpenAnim": "",
+      "AutoGateCloseAnim": "",
+      "Position": [
+        776.97168,
+        14.6948299,
+        2427.21704
+      ],
+      "Lines": [
+        1,
+        2
+      ],
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailStation/LightRailStation_2.prefab",
+      "__IDX__StationName": 39029,
+      "__RAW__StationName": ""
+    },
+    {
+      "Id": 3,
+      "StationName": "Sunny Bay",
+      "StationChineseName": "晴海",
+      "StationEnglishName": "Sunny Bay",
+      "AutoGateOpenAnim": "",
+      "AutoGateCloseAnim": "",
+      "Position": [
+        1988.77197,
+        19.8948402,
+        2779.21704
+      ],
+      "Lines": [
+        1,
+        2
+      ],
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailStation/LightRailStation_3.prefab",
+      "__IDX__StationName": 39030,
+      "__RAW__StationName": ""
+    },
+    {
+      "Id": 4,
+      "StationName": "Citylink Station",
+      "StationChineseName": "城关",
+      "StationEnglishName": "City Link",
+      "AutoGateOpenAnim": "platform_gateopen",
+      "AutoGateCloseAnim": "platform_gateclose",
+      "Position": [
+        2968.17212,
+        42.0948296,
+        2467.91699
+      ],
+      "Lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailStation/LightRailStation_4.prefab",
+      "__IDX__StationName": 39031,
+      "__RAW__StationName": ""
+    },
+    {
+      "Id": 5,
+      "StationName": "Legacy Hub",
+      "StationChineseName": "纪事区",
+      "StationEnglishName": "Legacy Hub",
+      "AutoGateOpenAnim": "platform_gateopen",
+      "AutoGateCloseAnim": "platform_gateclose",
+      "Position": [
+        3469.18188,
+        -17.8051605,
+        1724.47705
+      ],
+      "Lines": [
+        1,
+        2
+      ],
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailStation/LightRailStation_5.prefab",
+      "__IDX__StationName": 39032,
+      "__RAW__StationName": ""
+    },
+    {
+      "Id": 6,
+      "StationName": "Floramoon Park",
+      "StationChineseName": "花月公园",
+      "StationEnglishName": "Floramoon Park",
+      "AutoGateOpenAnim": "",
+      "AutoGateCloseAnim": "",
+      "Position": [
+        2560.07202,
+        33.6948318,
+        1675.71704
+      ],
+      "Lines": [
+        1,
+        2,
+        3
+      ],
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailStation/LightRailStation_6.prefab",
+      "__IDX__StationName": 39033,
+      "__RAW__StationName": ""
+    },
+    {
+      "Id": 7,
+      "StationName": "Freshville East",
+      "StationChineseName": "东新筑",
+      "StationEnglishName": "Freshville East",
+      "AutoGateOpenAnim": "",
+      "AutoGateCloseAnim": "",
+      "Position": [
+        1088.37195,
+        18.4948292,
+        1875.81702
+      ],
+      "Lines": [
+        1,
+        2
+      ],
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailStation/LightRailStation_7.prefab",
+      "__IDX__StationName": 39034,
+      "__RAW__StationName": ""
+    },
+    {
+      "Id": 11,
+      "StationName": "Marine MechWorks",
+      "StationChineseName": "岸泊工业",
+      "StationEnglishName": "Marine MechWorks",
+      "AutoGateOpenAnim": "",
+      "AutoGateCloseAnim": "",
+      "Position": [
+        1738.97205,
+        29.2948303,
+        1379.21704
+      ],
+      "Lines": [
+        3
+      ],
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailStation/LightRailStation_11.prefab",
+      "__IDX__StationName": 39021,
+      "__RAW__StationName": ""
+    },
+    {
+      "Id": 12,
+      "StationName": "Prime Minister’s Office",
+      "StationChineseName": "统理院",
+      "StationEnglishName": "Union Square",
+      "AutoGateOpenAnim": "platform_gateopen",
+      "AutoGateCloseAnim": "platform_gateclose",
+      "Position": [
+        1396.96399,
+        -8.48077393,
+        2151.91309
+      ],
+      "Lines": [
+        3
+      ],
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailStation/LightRailStation_12.prefab",
+      "__IDX__StationName": 39022,
+      "__RAW__StationName": ""
+    },
+    {
+      "Id": 13,
+      "StationName": "Sunny Bay",
+      "StationChineseName": "晴海",
+      "StationEnglishName": "Sunny Bay",
+      "AutoGateOpenAnim": "",
+      "AutoGateCloseAnim": "",
+      "Position": [
+        2003.82605,
+        10.2948303,
+        2712.76807
+      ],
+      "Lines": [
+        3
+      ],
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailStation/LightRailStation_13.prefab",
+      "__IDX__StationName": 39023,
+      "__RAW__StationName": ""
+    },
+    {
+      "Id": 21,
+      "StationName": "Aerie Bank",
+      "StationChineseName": "鹰庭银行",
+      "StationEnglishName": "Aerie Bank",
+      "AutoGateOpenAnim": "",
+      "AutoGateCloseAnim": "",
+      "Position": [
+        3412.37207,
+        24.9948292,
+        2244.61694
+      ],
+      "Lines": [
+        4
+      ],
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailStation/LightRailStation_21.prefab",
+      "__IDX__StationName": 39025,
+      "__RAW__StationName": ""
+    },
+    {
+      "Id": 22,
+      "StationName": "Saturn Tower",
+      "StationChineseName": "土星塔",
+      "StationEnglishName": "Saturn Tower",
+      "AutoGateOpenAnim": "",
+      "AutoGateCloseAnim": "",
+      "Position": [
+        3865.87207,
+        45.1948318,
+        1738.31702
+      ],
+      "Lines": [
+        4
+      ],
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailStation/LightRailStation_22.prefab",
+      "__IDX__StationName": 39026,
+      "__RAW__StationName": ""
+    },
+    {
+      "Id": 23,
+      "StationName": "Pop Cool Center",
+      "StationChineseName": "砰酷中心",
+      "StationEnglishName": "Pop Cool City",
+      "AutoGateOpenAnim": "",
+      "AutoGateCloseAnim": "",
+      "Position": [
+        3629.92212,
+        47.5948296,
+        1302.65698
+      ],
+      "Lines": [
+        4
+      ],
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailStation/LightRailStation_23.prefab",
+      "__IDX__StationName": 39027,
+      "__RAW__StationName": ""
+    },
+    {
+      "Id": 24,
+      "StationName": "Crystal Place",
+      "StationChineseName": "璃色",
+      "StationEnglishName": "Crystal Place",
+      "AutoGateOpenAnim": "",
+      "AutoGateCloseAnim": "",
+      "Position": [
+        3134.87207,
+        41.9948311,
+        1460.41699
+      ],
+      "Lines": [
+        4
+      ],
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailStation/LightRailStation_24.prefab",
+      "__IDX__StationName": 39028,
+      "__RAW__StationName": ""
+    },
+    {
+      "Id": 31,
+      "StationName": "临湖南路",
+      "StationChineseName": "临湖南路",
+      "StationEnglishName": "Placeholder 1",
+      "AutoGateOpenAnim": "",
+      "AutoGateCloseAnim": "",
+      "Position": [
+        -1752.80005,
+        -9.39999962,
+        -727.900024
+      ],
+      "Lines": [
+        13,
+        14
+      ],
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailStation/LightRailStation_31.prefab",
+      "__IDX__StationName": 4294967293,
+      "__RAW__StationName": "临湖南路"
+    },
+    {
+      "Id": 32,
+      "StationName": "云宙中心",
+      "StationChineseName": "云宙中心",
+      "StationEnglishName": "Placeholder 2",
+      "AutoGateOpenAnim": "",
+      "AutoGateCloseAnim": "",
+      "Position": [
+        -854.742615,
+        -9.19999981,
+        179.820908
+      ],
+      "Lines": [
+        13,
+        14
+      ],
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailStation/LightRailStation_32.prefab",
+      "__IDX__StationName": 4294967293,
+      "__RAW__StationName": "云宙中心"
+    },
+    {
+      "Id": 34,
+      "StationName": "新风路",
+      "StationChineseName": "新风路",
+      "StationEnglishName": "Placeholder 3",
+      "AutoGateOpenAnim": "",
+      "AutoGateCloseAnim": "",
+      "Position": [
+        -602.5,
+        -9.19999981,
+        703.099976
+      ],
+      "Lines": [
+        13,
+        14
+      ],
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailStation/LightRailStation_34.prefab",
+      "__IDX__StationName": 4294967293,
+      "__RAW__StationName": "新风路"
+    },
+    {
+      "Id": 35,
+      "StationName": "大渡港",
+      "StationChineseName": "大渡港",
+      "StationEnglishName": "Placeholder 4",
+      "AutoGateOpenAnim": "",
+      "AutoGateCloseAnim": "",
+      "Position": [
+        -744.200012,
+        -11.5,
+        978.5
+      ],
+      "Lines": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailStation/LightRailStation_35.prefab",
+      "__IDX__StationName": 4294967293,
+      "__RAW__StationName": "大渡港"
+    },
+    {
+      "Id": 36,
+      "StationName": "定澜北路",
+      "StationChineseName": "定澜北路",
+      "StationEnglishName": "Placeholder 5",
+      "AutoGateOpenAnim": "",
+      "AutoGateCloseAnim": "",
+      "Position": [
+        -1749.052,
+        -9.02000046,
+        1524.69202
+      ],
+      "Lines": [
+        9,
+        10,
+        13,
+        14
+      ],
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailStation/LightRailStation_36.prefab",
+      "__IDX__StationName": 4294967293,
+      "__RAW__StationName": "定澜北路"
+    },
+    {
+      "Id": 41,
+      "StationName": "明春北",
+      "StationChineseName": "明春北",
+      "StationEnglishName": "Placeholder 6",
+      "AutoGateOpenAnim": "",
+      "AutoGateCloseAnim": "",
+      "Position": [
+        -503.092987,
+        -9.10643673,
+        -528.84613
+      ],
+      "Lines": [
+        9,
+        10
+      ],
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailStation/LightRailStation_41.prefab",
+      "__IDX__StationName": 4294967293,
+      "__RAW__StationName": "明春北"
+    },
+    {
+      "Id": 42,
+      "StationName": "云河西路",
+      "StationChineseName": "云河西路",
+      "StationEnglishName": "Placeholder 7",
+      "AutoGateOpenAnim": "",
+      "AutoGateCloseAnim": "",
+      "Position": [
+        -1302.85706,
+        -23.7600002,
+        -642.302002
+      ],
+      "Lines": [
+        9,
+        10
+      ],
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailStation/LightRailStation_42.prefab",
+      "__IDX__StationName": 4294967293,
+      "__RAW__StationName": "云河西路"
+    },
+    {
+      "Id": 43,
+      "StationName": "临湖步行街",
+      "StationChineseName": "临湖步行街",
+      "StationEnglishName": "Placeholder 8",
+      "AutoGateOpenAnim": "",
+      "AutoGateCloseAnim": "",
+      "Position": [
+        -1711.30005,
+        -23.9899998,
+        -50.5200005
+      ],
+      "Lines": [
+        9,
+        10
+      ],
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailStation/LightRailStation_43.prefab",
+      "__IDX__StationName": 4294967293,
+      "__RAW__StationName": "临湖步行街"
+    },
+    {
+      "Id": 44,
+      "StationName": "定澜路",
+      "StationChineseName": "定澜路",
+      "StationEnglishName": "Placeholder 9",
+      "AutoGateOpenAnim": "",
+      "AutoGateCloseAnim": "",
+      "Position": [
+        -1474.18896,
+        -24.1000004,
+        785.691711
+      ],
+      "Lines": [
+        9,
+        10
+      ],
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailStation/LightRailStation_44.prefab",
+      "__IDX__StationName": 4294967293,
+      "__RAW__StationName": "定澜路"
+    },
+    {
+      "Id": 45,
+      "StationName": "武林路",
+      "StationChineseName": "武林路",
+      "StationEnglishName": "Placeholder 10",
+      "AutoGateOpenAnim": "",
+      "AutoGateCloseAnim": "",
+      "Position": [
+        -1512.05005,
+        -14.1700001,
+        1095.89001
+      ],
+      "Lines": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailStation/LightRailStation_45.prefab",
+      "__IDX__StationName": 4294967293,
+      "__RAW__StationName": "武林路"
+    },
+    {
+      "Id": 51,
+      "StationName": "建业步行街",
+      "StationChineseName": "建业步行街",
+      "StationEnglishName": "Placeholder 11",
+      "AutoGateOpenAnim": "",
+      "AutoGateCloseAnim": "",
+      "Position": [
+        386.291412,
+        -38.9900017,
+        238.196198
+      ],
+      "Lines": [
+        11,
+        12
+      ],
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailStation/LightRailStation_51.prefab",
+      "__IDX__StationName": 4294967293,
+      "__RAW__StationName": "建业步行街"
+    },
+    {
+      "Id": 52,
+      "StationName": "建业路",
+      "StationChineseName": "建业路",
+      "StationEnglishName": "Placeholder 12",
+      "AutoGateOpenAnim": "",
+      "AutoGateCloseAnim": "",
+      "Position": [
+        135.308807,
+        -38.9900017,
+        720.844177
+      ],
+      "Lines": [
+        11,
+        12
+      ],
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailStation/LightRailStation_52.prefab",
+      "__IDX__StationName": 4294967293,
+      "__RAW__StationName": "建业路"
+    },
+    {
+      "Id": 53,
+      "StationName": "镜湖学院",
+      "StationChineseName": "镜湖学院",
+      "StationEnglishName": "Placeholder 13",
+      "AutoGateOpenAnim": "",
+      "AutoGateCloseAnim": "",
+      "Position": [
+        -2400.19995,
+        4.42999983,
+        858
+      ],
+      "Lines": [
+        11,
+        12
+      ],
+      "PrefabPath": "Assets/Res/Prefab/MassAI/LightRailStation/LightRailStation_53.prefab",
+      "__IDX__StationName": 4294967293,
+      "__RAW__StationName": "镜湖学院"
+    },
+    {
+      "Id": 61,
+      "StationName": "画舫停靠1",
+      "StationChineseName": "画舫停靠1",
+      "StationEnglishName": "Placeholder 14",
+      "AutoGateOpenAnim": "",
+      "AutoGateCloseAnim": "",
+      "Position": [
+        0,
+        0,
+        0
+      ],
+      "Lines": [
+        15
+      ],
+      "PrefabPath": "",
+      "__IDX__StationName": 4294967293,
+      "__RAW__StationName": "画舫停靠1"
+    },
+    {
+      "Id": 62,
+      "StationName": "画舫停靠2",
+      "StationChineseName": "画舫停靠2",
+      "StationEnglishName": "Placeholder 15",
+      "AutoGateOpenAnim": "",
+      "AutoGateCloseAnim": "",
+      "Position": [
+        0,
+        0,
+        0
+      ],
+      "Lines": [
+        15
+      ],
+      "PrefabPath": "",
+      "__IDX__StationName": 4294967293,
+      "__RAW__StationName": "画舫停靠2"
+    },
+    {
+      "Id": 63,
+      "StationName": "画舫停靠3",
+      "StationChineseName": "画舫停靠3",
+      "StationEnglishName": "Placeholder 16",
+      "AutoGateOpenAnim": "",
+      "AutoGateCloseAnim": "",
+      "Position": [
+        0,
+        0,
+        0
+      ],
+      "Lines": [
+        15
+      ],
+      "PrefabPath": "",
+      "__IDX__StationName": 4294967293,
+      "__RAW__StationName": "画舫停靠3"
+    },
+    {
+      "Id": 64,
+      "StationName": "画舫停靠4",
+      "StationChineseName": "画舫停靠4",
+      "StationEnglishName": "Placeholder 17",
+      "AutoGateOpenAnim": "",
+      "AutoGateCloseAnim": "",
+      "Position": [
+        0,
+        0,
+        0
+      ],
+      "Lines": [
+        15
+      ],
+      "PrefabPath": "",
+      "__IDX__StationName": 4294967293,
+      "__RAW__StationName": "画舫停靠4"
+    },
+    {
+      "Id": 65,
+      "StationName": "画舫停靠5",
+      "StationChineseName": "画舫停靠5",
+      "StationEnglishName": "Placeholder 18",
+      "AutoGateOpenAnim": "",
+      "AutoGateCloseAnim": "",
+      "Position": [
+        0,
+        0,
+        0
+      ],
+      "Lines": [
+        15
+      ],
+      "PrefabPath": "",
+      "__IDX__StationName": 4294967293,
+      "__RAW__StationName": "画舫停靠5"
+    },
+    {
+      "Id": 66,
+      "StationName": "画舫停靠6",
+      "StationChineseName": "画舫停靠6",
+      "StationEnglishName": "Placeholder 19",
+      "AutoGateOpenAnim": "",
+      "AutoGateCloseAnim": "",
+      "Position": [
+        0,
+        0,
+        0
+      ],
+      "Lines": [
+        15
+      ],
+      "PrefabPath": "",
+      "__IDX__StationName": 4294967293,
+      "__RAW__StationName": "画舫停靠6"
+    },
+    {
+      "Id": 67,
+      "StationName": "画舫停靠7",
+      "StationChineseName": "画舫停靠7",
+      "StationEnglishName": "Placeholder 20",
+      "AutoGateOpenAnim": "",
+      "AutoGateCloseAnim": "",
+      "Position": [
+        0,
+        0,
+        0
+      ],
+      "Lines": [
+        15
+      ],
+      "PrefabPath": "",
+      "__IDX__StationName": 4294967293,
+      "__RAW__StationName": "画舫停靠7"
+    }
+  ],
+  "_dumpedCount": 34,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -1,0 +1,20 @@
+{
+  "_class": "InputGameContextConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 1,
+  "records": [
+    {
+      "Id": 1,
+      "ContextName": "Exploration",
+      "ContextComposition": [
+        {
+          "part": "Dft",
+          "defCtx": "Def_Move"
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 1,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

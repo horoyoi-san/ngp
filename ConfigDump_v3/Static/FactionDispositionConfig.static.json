@@ -1,0 +1,87 @@
+{
+  "HatredCfg": {
+    "Id": 1,
+    "name": "Hostility",
+    "EventAttitude": "hatred",
+    "DispositionValue": -9999,
+    "EventProbability": 0.800000012,
+    "BorrowVehicleSuccessRate": 0.200000003,
+    "DispositionIcon": 28000807,
+    "__IDX__name": 63425,
+    "__RAW__name": "",
+    "chatNum": [
+      {
+        "rate": 0,
+        "num": 3
+      }
+    ]
+  },
+  "HostilityCfg": {
+    "Id": 2,
+    "name": "Aversion",
+    "EventAttitude": "hostility",
+    "DispositionValue": -2000,
+    "EventProbability": 0.800000012,
+    "BorrowVehicleSuccessRate": 0.5,
+    "DispositionIcon": 28000808,
+    "__IDX__name": 63426,
+    "__RAW__name": "",
+    "chatNum": [
+      {
+        "rate": 0,
+        "num": 3
+      }
+    ]
+  },
+  "IndifferentCfg": {
+    "Id": 3,
+    "name": "Unfamiliarity",
+    "EventAttitude": "indifferent",
+    "DispositionValue": -500,
+    "EventProbability": 0.800000012,
+    "BorrowVehicleSuccessRate": 1,
+    "DispositionIcon": 28000809,
+    "__IDX__name": 63427,
+    "__RAW__name": "",
+    "chatNum": [
+      {
+        "rate": 0,
+        "num": 3
+      }
+    ]
+  },
+  "FriendlyCfg": {
+    "Id": 4,
+    "name": "Cordiality",
+    "EventAttitude": "friendly",
+    "DispositionValue": 300,
+    "EventProbability": 0.800000012,
+    "BorrowVehicleSuccessRate": 1,
+    "DispositionIcon": 28000811,
+    "__IDX__name": 63428,
+    "__RAW__name": "",
+    "chatNum": [
+      {
+        "rate": 0,
+        "num": 3
+      }
+    ]
+  },
+  "WorshipCfg": {
+    "Id": 5,
+    "name": "Reverence",
+    "EventAttitude": "worship",
+    "DispositionValue": 2100,
+    "EventProbability": 0.800000012,
+    "BorrowVehicleSuccessRate": 1,
+    "DispositionIcon": 28000813,
+    "__IDX__name": 63429,
+    "__RAW__name": "",
+    "chatNum": [
+      {
+        "rate": 0,
+        "num": 3
+      }
+    ]
+  }
+}

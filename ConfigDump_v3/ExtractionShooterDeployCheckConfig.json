@@ -1,0 +1,40 @@
+{
+  "_class": "ExtractionShooterDeployCheckConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 2,
+  "records": [
+    {
+      "Id": 1,
+      "TriggerEventId": 0,
+      "GameType": 1,
+      "CheckType": 1,
+      "CheckTypeParam": [],
+      "CheckContent": "当前未携带%s",
+      "CheckIcon": "",
+      "ActionText": "前往购买",
+      "SortOrder": 1,
+      "__IDX__CheckContent": 4294967293,
+      "__RAW__CheckContent": "当前未携带%s",
+      "__IDX__ActionText": 4294967293,
+      "__RAW__ActionText": "前往购买"
+    },
+    {
+      "Id": 2,
+      "TriggerEventId": 0,
+      "GameType": 1,
+      "CheckType": 2,
+      "CheckTypeParam": [],
+      "CheckContent": "安箱内物品未转移",
+      "CheckIcon": "",
+      "ActionText": "前往转移",
+      "SortOrder": 2,
+      "__IDX__CheckContent": 4294967293,
+      "__RAW__CheckContent": "安箱内物品未转移",
+      "__IDX__ActionText": 4294967293,
+      "__RAW__ActionText": "前往转移"
+    }
+  ],
+  "_dumpedCount": 2,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

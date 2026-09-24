@@ -1,0 +1,90 @@
+{
+  "_class": "MaidTeaNPCdailyConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 2,
+  "records": [
+    {
+      "Id": 29122000,
+      "Npcid": 91050014,
+      "ThxMsgid": 84000001,
+      "DateTaskId": 0,
+      "NpcMaidIntro": [
+        {
+          "FoodId": 87001013,
+          "DialogId": 50008066
+        }
+      ],
+      "NpcGetTeaDialog": [
+        {
+          "CompleteScore": 80,
+          "DialogId": 50008070
+        },
+        {
+          "CompleteScore": 1,
+          "DialogId": 50008070
+        },
+        {
+          "CompleteScore": 0,
+          "DialogId": 50008070
+        }
+      ],
+      "NpcTeaComment": [
+        {
+          "FoodId": 87001019,
+          "DialogId": 50008084
+        },
+        {
+          "FoodId": 87001021,
+          "DialogId": 50008084
+        }
+      ]
+    },
+    {
+      "Id": 29122001,
+      "Npcid": 91050016,
+      "ThxMsgid": 0,
+      "DateTaskId": 0,
+      "NpcMaidIntro": [
+        {
+          "FoodId": 87001013,
+          "DialogId": 50008066
+        }
+      ],
+      "NpcGetTeaDialog": [
+        {
+          "CompleteScore": 87001019,
+          "DialogId": 50008070
+        },
+        {
+          "CompleteScore": 87001021,
+          "DialogId": 50008070
+        }
+      ],
+      "NpcTeaComment": [
+        {
+          "FoodId": 87001019,
+          "DialogId": 50008084
+        },
+        {
+          "FoodId": 87001021,
+          "DialogId": 50008084
+        },
+        {
+          "FoodId": 87001017,
+          "DialogId": 50008085
+        },
+        {
+          "FoodId": 87001018,
+          "DialogId": 50008085
+        },
+        {
+          "FoodId": 87001020,
+          "DialogId": 50008085
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 2,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

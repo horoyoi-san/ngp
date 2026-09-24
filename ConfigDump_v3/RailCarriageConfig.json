@@ -1,0 +1,127 @@
+{
+  "_class": "RailCarriageConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 13,
+  "records": [
+    {
+      "Id": 2,
+      "TemplateName": "Vehicle01/CarriageInMid",
+      "ViewModelName": "View_Green_Mid",
+      "MGAName": "MoveGroundArea",
+      "FrontConnectorDis": 11.1999998,
+      "RearConnectorDis": 11,
+      "IsRevert": false
+    },
+    {
+      "Id": 3,
+      "TemplateName": "Vehicle01/CarriageOnEnd",
+      "ViewModelName": "View_Green_Tail",
+      "MGAName": "MoveGroundArea",
+      "FrontConnectorDis": 11,
+      "RearConnectorDis": 14,
+      "IsRevert": true
+    },
+    {
+      "Id": 4,
+      "TemplateName": "Vehicle03/CarriageOnEnd",
+      "ViewModelName": "View_Blue_End",
+      "MGAName": "MoveGroundArea",
+      "FrontConnectorDis": 9.39999962,
+      "RearConnectorDis": 8,
+      "IsRevert": false
+    },
+    {
+      "Id": 5,
+      "TemplateName": "Vehicle03/CarriageInMid",
+      "ViewModelName": "View_Blue_Mid",
+      "MGAName": "MoveGroundArea",
+      "FrontConnectorDis": 8,
+      "RearConnectorDis": 8,
+      "IsRevert": false
+    },
+    {
+      "Id": 7,
+      "TemplateName": "Vehicle01/CarriageInMid",
+      "ViewModelName": "View_Orange_Mid",
+      "MGAName": "MoveGroundArea",
+      "FrontConnectorDis": 11.1999998,
+      "RearConnectorDis": 11,
+      "IsRevert": false
+    },
+    {
+      "Id": 8,
+      "TemplateName": "Vehicle01/CarriageOnEnd",
+      "ViewModelName": "View_Orange_Tail",
+      "MGAName": "MoveGroundArea",
+      "FrontConnectorDis": 11,
+      "RearConnectorDis": 14,
+      "IsRevert": true
+    },
+    {
+      "Id": 9,
+      "TemplateName": "Vehicle03/CarriageOnEnd",
+      "ViewModelName": "View_Blue_End",
+      "MGAName": "MoveGroundArea",
+      "FrontConnectorDis": 8,
+      "RearConnectorDis": 9.39999962,
+      "IsRevert": true
+    },
+    {
+      "Id": 10,
+      "TemplateName": "Vehicle01/CarriageOnEnd",
+      "ViewModelName": "View_Green_Head",
+      "MGAName": "MoveGroundArea02",
+      "FrontConnectorDis": 14,
+      "RearConnectorDis": 11,
+      "IsRevert": false
+    },
+    {
+      "Id": 11,
+      "TemplateName": "Vehicle01/CarriageOnEnd",
+      "ViewModelName": "View_Orange_Head",
+      "MGAName": "MoveGroundArea02",
+      "FrontConnectorDis": 14,
+      "RearConnectorDis": 11,
+      "IsRevert": false
+    },
+    {
+      "Id": 12,
+      "TemplateName": "VehicleCX01/CarriageOnEnd",
+      "ViewModelName": "View_End",
+      "MGAName": "MoveGroundArea",
+      "FrontConnectorDis": 12,
+      "RearConnectorDis": 13.3999996,
+      "IsRevert": false
+    },
+    {
+      "Id": 13,
+      "TemplateName": "VehicleCX01/CarriageInMid",
+      "ViewModelName": "View_Mid",
+      "MGAName": "MoveGroundArea",
+      "FrontConnectorDis": 11.3999996,
+      "RearConnectorDis": 11.6000004,
+      "IsRevert": false
+    },
+    {
+      "Id": 14,
+      "TemplateName": "VehicleCX01/CarriageOnEnd",
+      "ViewModelName": "View_End",
+      "MGAName": "MoveGroundArea",
+      "FrontConnectorDis": 12,
+      "RearConnectorDis": 13.3999996,
+      "IsRevert": true
+    },
+    {
+      "Id": 15,
+      "TemplateName": "TourBoat01/Boat",
+      "ViewModelName": "View",
+      "MGAName": "MoveGroundArea",
+      "FrontConnectorDis": 16.8999996,
+      "RearConnectorDis": 17.2000008,
+      "IsRevert": false
+    }
+  ],
+  "_dumpedCount": 13,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

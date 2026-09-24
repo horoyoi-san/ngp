@@ -1,0 +1,2300 @@
+{
+  "DefaultCameraFarClip": 100,
+  "JumpAccSpeed": 21,
+  "BodySinkSpeed": -0.600000024,
+  "TeleportActionTime": 2,
+  "BonfireMoveBlackTime": 1,
+  "IKAngleSpeedLimit": 140,
+  "IKRevertAngleSpeedLimit": 100,
+  "IKAngleSpeed": 5,
+  "SwitchInAllArea": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "CameraEasingTime": 0.150000006,
+  "SwitchLockTargetInterval": 0.5,
+  "PlayerSpeedGroup": [
+    {
+      "Threshold": 1,
+      "BaseSpeed": 1.5,
+      "MinSpeedPer": 1
+    },
+    {
+      "Threshold": 2.5,
+      "BaseSpeed": 4.9000001,
+      "MinSpeedPer": 0.800000012
+    },
+    {
+      "Threshold": 9,
+      "BaseSpeed": 5.5,
+      "MinSpeedPer": 0.800000012
+    }
+  ],
+  "maxCritRate": 1,
+  "maxCritMutiple": 30,
+  "minCritMutiple": 1,
+  "RollMinCD": 0.333000004,
+  "SlopeBoundaryAngle": 10,
+  "RollMinCD2": 0.73299998,
+  "SkillSaveTime": 0.5,
+  "SlopeTransitionSpeed": 3,
+  "RunDropHeight": 1,
+  "LeaveBattleTime": 6,
+  "ClientJudgeTime": 300,
+  "TurnBackAngle": 110,
+  "ActiveFightSpiritUltSkillDuration": 5,
+  "SkillCanUseHeight": 0.5,
+  "FeiSuoBattleSkill": {
+    "normal": 51160286,
+    "crouch": 51160285
+  },
+  "FeiSuoMinDistance": 5,
+  "FeiSuoCheckDistance": 20,
+  "FeiSuoKillEffect": 53400101,
+  "DebugSkill1": 51845950,
+  "DebugSkill2": 51849029,
+  "FeiSuoNpcDistance": [
+    5,
+    40
+  ],
+  "SwitchCacheTimeSkill": 0.300000012,
+  "SwitchCacheTimeJump": 0.280000001,
+  "SwitchCacheTimeCD": 0.25,
+  "PushUnitRadiusAddTime": 0.100000001,
+  "MaxFeisuoWeight": 150,
+  "FightEnterFallActions": [],
+  "EletricShockActionOffset": 0.699999988,
+  "EletricShockSingleBoneOffset": 0.300000012,
+  "EletricShockTimeDamping": 0.800000012,
+  "CameraShakeDestructibleBasePower": 100,
+  "CameraShakeDestructibleAnglePower": 0.5,
+  "CameraShakeDestructibleAnglePowerOffset": 10,
+  "ComboSkillPreinputTime": 0.300000012,
+  "ComboSkillCacheTime": 0.800000012,
+  "JumpInvincibleData": {
+    "jumpInvincibleDelay": 0,
+    "jumpInvincibleDuration": 0.300000012
+  },
+  "MindEnemyInitialSpeed": 30,
+  "MindEnemyAccGravitySpeed": 90,
+  "MindEnemyMaxGravitySpeed": 60,
+  "MindEnemyShootAngle": 0,
+  "MindEnemyMaxShootTime": 2,
+  "MindEnemyHpPercent": 0.25,
+  "PushEnemyPowerPercent": 0.200000003,
+  "EnemyPullBackScale": 0.200000003,
+  "HurtEffectRandomRotateMaxAngel": [
+    {
+      "minAngle": -20,
+      "maxAngle": -10
+    },
+    {
+      "minAngle": -10,
+      "maxAngle": 0
+    },
+    {
+      "minAngle": 0,
+      "maxAngle": 10
+    },
+    {
+      "minAngle": 10,
+      "maxAngle": 20
+    }
+  ],
+  "PushAsidePowerPercent": 0.5,
+  "PushUnitFactor": 8,
+  "MaxPushAsidePower": 5,
+  "MindArmAnimCanPlayTime": 10,
+  "MindArmAnimLength": 10,
+  "UnitMoveRotateSpeedImproveTime": 0.100000001,
+  "DelayStartPatrolMoveTime": 0,
+  "RVO2ActionBlendTime": 0.5,
+  "BattleMoveReverseDirectionLinkActionPlayTime": [
+    1,
+    0.600000024
+  ],
+  "BattleMoveReverseDirectionLinkActionFadeTime": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "PlayerAvoidRadius": 1.5,
+  "ShootRandomAngle": {
+    "angleX": 0.400000006,
+    "angleY": 0.400000006
+  },
+  "ShootFakeRandomAngleReduce": {
+    "reduceAngleX": 0.100000001,
+    "reduceAngleY": 0.100000001
+  },
+  "ShootFakeRandomSkillList": [],
+  "CloseOrcaAvoidanceDistance": 6,
+  "BankBossDiceStateType": 1,
+  "ORCATargetRadiusByLongEnemy": 7,
+  "HighDamageThreshold": 100,
+  "HackEnemyMoveRadius": 400,
+  "HackEnemyMoveRadiusY": 350,
+  "LixiQTEJudgeDistance": [
+    3,
+    6,
+    12
+  ],
+  "LixiQTEJudgeTime": 0.449999988,
+  "LixiQTECD": 5,
+  "BattleIdleDelayDuration": 8,
+  "MonsterInTurbulenceParam": {
+    "up2": 2,
+    "up2Action": 6404,
+    "up1": 1,
+    "up1Action": 6403,
+    "down2": -2,
+    "down2Action": 6402,
+    "down1": -1,
+    "down1Action": 6401
+  },
+  "MonsterInTurbulenceSpeedCalcTime": 0.200000003,
+  "TempZhengXingUseFDList": [
+    40900717,
+    40900721,
+    4090072,
+    40900725,
+    40900759,
+    40150002,
+    40900726,
+    40900727,
+    40900732,
+    40900737,
+    40900731
+  ],
+  "HurtEffectXZoffset": -0.200000003,
+  "MonsterFormatDetourInnerRVO2Radius": 3,
+  "MonsterFormatDetourOuterRVO2Radius": 5,
+  "MonsterFormatDetourAngle": 120,
+  "MonsterFormatRunThreshold": 8,
+  "MonsterFormatNotDetourRadius": 5,
+  "MobileBlockCounterExtraTime": 0.100000001,
+  "MonsterFlashlightWeapoonMove": [
+    80002595
+  ],
+  "MobileCombatInteractionMinimumHoldTime": 0.5,
+  "MindTakeWeaponCloseRangeUseSkill": 4,
+  "MonsterLeaveMoverVelocityFadeOutTime": 1,
+  "RangedWeaponBlockCheckDistance": 6,
+  "RangedWeaponBlockTimeWindow": 1,
+  "SkillAutoAddSignalPreFrames": 9,
+  "EnemyInteractHeightLimit": 0.5,
+  "SpecialMoveConfig": {
+    "normolspeedtime": 1,
+    "normolspeedvalue": 1,
+    "specialspeedtime": 3,
+    "specialspeedvaluemove": 2,
+    "specialspeedvaluerun": 1,
+    "specelmoveDis": 3
+  },
+  "MonsterShootingUpperLowerAngleLimit": 30,
+  "AuxiliaryBulletTimeTimeScale": 0.100000001,
+  "AuxiliaryBulletTimeTimeDuration": 1,
+  "PressShiftLeaveStrongLockTime": 1,
+  "IKFadeInAndOutTIme": 0.100000001,
+  "DynamicAvoidanceCarPara": [
+    0,
+    10,
+    0.5,
+    0
+  ],
+  "StopMoveConfirmDelay": 0.5,
+  "EQSTrySearchNearAreaPositionRange": 15,
+  "MonsterFormationDodgeRect": {
+    "length": 2,
+    "width": 3
+  },
+  "MonsterFlashlightBlendTime": 0.300000012,
+  "PlayerMaxLevel": 60,
+  "EnemyMaxLevel": 150,
+  "ChatTimeInterval": 120,
+  "AutoHideRange": 30,
+  "SpiritLimitNumber": 999,
+  "PushPermissionAskCycle": 7,
+  "WorldMessageCost": 0,
+  "MinDistanceRatioPerMove": 0.600000024,
+  "TextMessageLengthLimit": 36,
+  "ChatVoiceMaxTime": 60,
+  "V4ChatMessageEmptyText": "Say hi to your new friends!",
+  "ChatHistoricalMessage": 12,
+  "TeleportRange": 10000,
+  "DefaultPackageMaxCount": 999999,
+  "ShowTipBeforeChangeScene": [
+    7,
+    19
+  ],
+  "AppName": "ANANTA",
+  "NoTextModeName": "口",
+  "AIChatMaxDuration": 300,
+  "HangUpTime": 30,
+  "PokemonSquadSize": 4,
+  "FastSwitchSquadSize": 4,
+  "MaxPopularity": 1000,
+  "PopularityRecoverSpeed": 270,
+  "PopularityRecoverSpeedparameter1": 90,
+  "PopularityRecoverSpeedparameter2": -0.00600000005,
+  "FanAddParameter1": 24000,
+  "FanAddParameter2": 7000,
+  "FanRewardParameter1": 10000,
+  "FanRewardParameter2": 20000,
+  "FanRewardParameter3": 50000,
+  "FanRewardParameter4": 75000,
+  "FanRewardParameter5": 100000,
+  "FanRewardParameterdrop1": 1.10000002,
+  "FanRewardParameterdrop2": 1.20000005,
+  "FanRewardParameterdrop3": 1.5,
+  "FanRewardParameterdrop4": 1.79999995,
+  "FanRewardParameterdrop5": 2,
+  "PopularityReward": 1578,
+  "DriveTimeScaleCoolDown": 30,
+  "DriveTimeScaleCoolDownTimes": 1,
+  "PopularityChartTime": 30,
+  "PopularityChartPeriod": 300,
+  "PopularityServerTime": 3600,
+  "TGSFreeModeSpecifiedTimeLine": [
+    308
+  ],
+  "TGSFreeModeEnterTime": [
+    15,
+    12,
+    19,
+    22
+  ],
+  "FanRewardBoxDropid": 14393000,
+  "FanRewardBoxCumulativeScore": 180000000,
+  "FanRewardBoxWeekLimit": 5,
+  "BlackListPlayerName": "调查员",
+  "PlayerNameShowTips": "Experience the game as #IB%s#z.",
+  "PlayerNameSettingTips": "可在设置界面中随时切换",
+  "PlayerNameShowDefaultTips": "Experience the game with a custom name.",
+  "RedemptionCodeMaxLength": 50,
+  "BoundaryStartAlertDistance": 45,
+  "BoundaryStartReturnDistance": 20,
+  "BoundaryReturnDistance": 30,
+  "BoundaryStopJoystickTime": 15,
+  "BoundaryHumanReturnDistance": 5,
+  "BoundaryVehicleReturnDistance": 25,
+  "BoundaryCarStopDistance": 35,
+  "BoundaryWaypointSearchDistance": 20,
+  "BoundaryCameraSpeed": 120,
+  "BoundaryAlertText": "Unstable Signal",
+  "ConfidentialLabelText": "Development version. Confidential, do not share!",
+  "PlayerNameTip": "Enter story mode with the name #IHud%s#z",
+  "AdjustTimeTolerance": 60,
+  "MinRenameDays": 7,
+  "AgentTemButton": [
+    {
+      "name": "Fans",
+      "index": 1
+    },
+    {
+      "name": "Gift",
+      "index": 2
+    }
+  ],
+  "RollMessageSpeed": 60,
+  "RollMessageInterval": 2,
+  "LoadingImage": [
+    25400006,
+    25400007,
+    25400008,
+    25400010,
+    25400011,
+    25400012,
+    25400013,
+    25400014,
+    25400015,
+    25400009,
+    25400016,
+    25400017,
+    25400018,
+    25400019
+  ],
+  "AchievementMessageSpaceTime": 3,
+  "SignInStartLevel": 4,
+  "CommonQueueMessageLength": 300,
+  "BloodFadeAccelerate": 0.200000003,
+  "QRCodeContent": "https://ysl.163.com/",
+  "ResurrectionMessage": [
+    48871000,
+    48871001,
+    48871002
+  ],
+  "ResurrectionEsaterEgg": [
+    48871100,
+    48871101,
+    48871102,
+    48871103,
+    48871104,
+    48871105,
+    48871106
+  ],
+  "DefaultHackBtn": 25600246,
+  "HackCameraAimInfo": {
+    "angle": 30,
+    "distance": 20
+  },
+  "PaoKuHackCameraAimInfo": {
+    "angle": 70,
+    "distance": 45
+  },
+  "HackNpcOpenTask": 60026400,
+  "BranchTaskEventCloseTime": 1.79999995,
+  "StateResistMapping": [
+    {
+      "stateResistKey": "yx",
+      "stateResistName": "眩晕",
+      "stateResistIcon": 25200614
+    },
+    {
+      "stateResistKey": "jf",
+      "stateResistName": "击飞",
+      "stateResistIcon": 25200615
+    },
+    {
+      "stateResistKey": "jd",
+      "stateResistName": "击倒",
+      "stateResistIcon": 25200616
+    },
+    {
+      "stateResistKey": "px",
+      "stateResistName": "解离",
+      "stateResistIcon": 25200617
+    },
+    {
+      "stateResistKey": "sh",
+      "stateResistName": "束流",
+      "stateResistIcon": 25200618
+    }
+  ],
+  "MapEntranceWeakGuideShow": 200,
+  "MapEntranceWeakGuideRemove": 4,
+  "WorldTaskWeakGuideShow": 30,
+  "WorldTaskWeakGuideRemove": 4,
+  "RewardBoxWeakGuideShow": 50,
+  "RewardBoxWeakGuideRemove": 4,
+  "BossHeathBarShakeDuring": 6,
+  "BossHeathBarShakeMinDistance": 2,
+  "BossHeathBarShakeMaxDistance": 5,
+  "MapGuidePosition": [
+    -140,
+    -740,
+    0
+  ],
+  "MapGuideDefaultRate": 0.800000012,
+  "MapIconDefaultRate": 1.29999995,
+  "MapResponseRate": 0.100000001,
+  "LingAttSrcColor": "#cFFFFFF",
+  "LingAttChangeColor": "#cFDECAA",
+  "LingLevelSrcColor": "#cff6059",
+  "LingLevelChangeColor": "#cff987c",
+  "LingExpOverflow": "#cffc173",
+  "EnemyHintMaxDistance": 50,
+  "EnemyPositionHintIdleTime": 30,
+  "EnemyPositionHintSwitch": true,
+  "MapIconHideRate": 1.60000002,
+  "HUDIconRange": 3,
+  "MapTriggerEnemyIconId": 25600415,
+  "RewardWeakGuideIconId": 25600418,
+  "MapRewardIconId": 25600503,
+  "TraceLightDisappearRange": 80,
+  "BackstabTargetResearchDis": 5,
+  "TaskGuideShowAltitudeRange": [
+    10,
+    100
+  ],
+  "AltitudeTolerances": 3,
+  "MapPathSpacing": 10,
+  "RoofAltitudeRange": 70,
+  "GroundAltitudeRange": 3,
+  "FengduMergeWeakGuideShow": 50,
+  "FengduMergeWeakGuideRemove": 4,
+  "EnemyHintMaxNum": 3,
+  "QTEPresetPosition": [
+    {
+      "x": 670,
+      "y": -106
+    },
+    {
+      "x": 396,
+      "y": 414
+    },
+    {
+      "x": -235,
+      "y": -290
+    },
+    {
+      "x": -387,
+      "y": 265
+    }
+  ],
+  "GoldColor": "ffd66bff",
+  "GoldDecorateColor": "f6a567ff",
+  "PurpleColor": "a392f7ff",
+  "PurpleDecorateColor": "866ce6ff",
+  "BlueColor": "70a4e1ff",
+  "BlueDecorateColor": "4589d9ff",
+  "GreenColor": "92b5a9ff",
+  "GreenDecorateColor": "56aa8eff",
+  "WithoutColor": "6d6d6dff",
+  "HunBtnInvalidAlpha": 0.5,
+  "EnemyMindExplodeBarOffSet": 10,
+  "WeakHpDecreaseSpeed": 25,
+  "BossWeakHpDecreaseTime": 6,
+  "BossWeakHpTypeAPercent": 0.0199999996,
+  "BossWeakHpTypeBPercent": 0.100000001,
+  "BossWeakHpTypeAPauseTime": 0.200000003,
+  "BossWeakHpTypeBPauseTime": 0.100000001,
+  "MainCubeTopBarInfoColor": [
+    {
+      "panelId": 614,
+      "r": 108,
+      "g": 108,
+      "b": 108,
+      "a": 108
+    },
+    {
+      "panelId": 978,
+      "r": 108,
+      "g": 108,
+      "b": 108,
+      "a": 108
+    },
+    {
+      "panelId": 622,
+      "r": 108,
+      "g": 108,
+      "b": 108,
+      "a": 108
+    }
+  ],
+  "SwitchLeaderPhaseOneTime": 0.300000012,
+  "SwitchLeaderPhaseTwoTime": 1,
+  "SwitchLeaderPhaseEndDelayTime": 0.200000003,
+  "WeaponPopOutExistingTime": 3,
+  "HudMpLowColor": "8C61FFFF",
+  "DataChartMiniPercentage": 0.0500000007,
+  "PCBattleUIHideTime": 5,
+  "DeathUiDelayTime": 1,
+  "SkinWeaponRewardWindowTime": 5,
+  "PCPlatformSafeAreaSize": 4,
+  "PCMiniMapPanelPos": [
+    200,
+    -132,
+    0
+  ],
+  "MobileMiniMapPanelPos": [
+    224,
+    -126.5,
+    0
+  ],
+  "MiniMapDriveAOI": 0.800000012,
+  "HideMainCubeApps": [
+    11226,
+    11269,
+    0
+  ],
+  "HideTemporaryTaskTime": 10,
+  "NpcHeadIconShow": 15,
+  "NpcHeadAllInfoShow": 5,
+  "HideHeadInfosWthinCertainDistance": 0.200000003,
+  "NpcHeadNameOffset": 0.100000001,
+  "GPSHiddenTimeBattleCampaign": 20,
+  "GPSActiveTimeBattleCampaign": 2,
+  "LowHpEffectActive": 0.150000006,
+  "LowHpEffectActiveSpeedUp": [
+    {
+      "percent": 0.5,
+      "speed": 2
+    }
+  ],
+  "EnemyVisionRecoverTime": 5,
+  "AIChatMsgsExistTime": 0.5,
+  "AIChatMsgsBoxMaxHight": 446,
+  "AIChaGoingTime": 60,
+  "AIChatSpeakTimeShort": 0.200000003,
+  "ENGNumAbbr": [
+    "K",
+    "M",
+    "B"
+  ],
+  "CHNNumAbbr": [
+    "万",
+    "亿",
+    "万亿"
+  ],
+  "TheirChatTemplateOffset": -16.2999992,
+  "MobileDefaultSafeArea": 102,
+  "MobileDefaultSafeAreaAddOn": -20,
+  "MobileExtraSafeArea": 50,
+  "MaximumDistanceForDectingEnemy": 30,
+  "MiniMapIconScale": 0.75,
+  "WhiteColor": "6d6d6dff",
+  "WhiteDecorateColor": "6d6d6dff",
+  "BossAutoRemoveGpsRange": 30,
+  "MapEntranceAutoRemoveGpsRange": 5,
+  "FunctionPointAutoRemoveGpsRange": 15,
+  "MarkAutoRemoveGpsRange": 5,
+  "SpiritAcquisitionRemoveGpsRange": 5,
+  "LinkRemoveGpsRange": 5,
+  "MapMarkIcon": 28001465,
+  "MoveDialogCameraOffset": [
+    0,
+    127,
+    230,
+    0,
+    0,
+    190
+  ],
+  "CommonBattleSkillIconUlt": {
+    "mobile": 28000888,
+    "pc": 28004193
+  },
+  "CommonBattleSkillIconActive": {
+    "mobile": 28000889,
+    "pc": 28004197
+  },
+  "CommonBattleSkillIconCommonAttack": {
+    "mobile": 28004195,
+    "pc": 28004195
+  },
+  "CommonBattleSkillIconMind": {
+    "mobile": 28000892,
+    "pc": 28001187
+  },
+  "CommonBattleSkillIconHeavyAttack": {
+    "mobile": 28001154,
+    "pc": 28001154
+  },
+  "MiniMapDriveModePlayerAnchor": [
+    0.5,
+    -0.439999998
+  ],
+  "MiniMapShowHeightDistance": 200,
+  "InteractionPosNotifyUiFillScale": 3,
+  "HintInfosHudPanelEllipseX": 1,
+  "HintInfosHudPanelEllipseY": 1,
+  "HintInfosHudPanelEllipseScaleX": 0.0317000002,
+  "HintInfosHudPanelEllipseScaleY": 0.0460000001,
+  "HintInfosHudPanelEllipseOffsetX": 0,
+  "HintInfosHudPanelEllipseOffsetY": 0,
+  "BigMapControllerPointerSensitivity": 35,
+  "BigMapControllerPointerDeadZone": 0.150000006,
+  "ParkourStateMiniMapScale": [
+    {
+      "stateId": 1,
+      "scale": 1
+    },
+    {
+      "stateId": 2,
+      "scale": 1.5
+    },
+    {
+      "stateId": 3,
+      "scale": 1.20000005
+    },
+    {
+      "stateId": 4,
+      "scale": 0.699999988
+    }
+  ],
+  "EnemyAttackHintEllipseExtRadius": 1,
+  "JumpSwingBtnDragRadius": 100,
+  "FightResHUDPlayHotEffectPercent": 0.800000012,
+  "VehicleSensitivitySettingDefaultValue": 5,
+  "EnemyDirectionPointer": [
+    1,
+    1,
+    1
+  ],
+  "WantedMapScale": 0.800000012,
+  "LevitationBarDisappearTime": 3,
+  "ArrestedUITime": 6,
+  "ArrestedUIDelayTime": 4,
+  "BigMapGamePadTouchMovementSensitivity": 2,
+  "BigMapGamePadTouchGestureZoomSensitivity": 50,
+  "HackToastPopDistance": 20,
+  "MindPowerInteractMobileIcon": {
+    "normalAttack": 28022064,
+    "interact": 28001811,
+    "mindPower": 28001165,
+    "eBtn": 28004195,
+    "mouseRight": 28004195
+  },
+  "MindPowerInteractBtnId": {
+    "normalAttack": 4,
+    "interact": 6,
+    "mindPower": 6,
+    "eBtn": 1,
+    "mouseRight": 5
+  },
+  "MindPowerInteractBtnStyle": {
+    "normalAttack": 2,
+    "interact": 2,
+    "mindPower": 2,
+    "eBtn": 2,
+    "mouseRight": 2
+  },
+  "CharListTemplateSpace": 155,
+  "CharListeInsideWidth": 65,
+  "CharListBoundaryWidth": 360,
+  "CharListMouseSpeed": 70,
+  "CharListSnappingTime": 0.150000006,
+  "CharListControllerSpeed": 70,
+  "TabLongPressTimeInterval": 0.300000012,
+  "HudUltBtnFillColor_Filling": "707bffd9",
+  "HudUltBtnStrokeColor_Filling": "707bffff",
+  "HudUltBtnFillColor_Filled": "707bffb3",
+  "HudUltBtnStrokeColor_Filled": "A1A7F8FF",
+  "BustValueAniThreshold": 0.75,
+  "BustValueColorChange": [
+    0.349999994,
+    0.800000012
+  ],
+  "AndroidCallBtnPressTime": 0.600000024,
+  "BattleMoodMiniMapScale": 1.5,
+  "CharListDisableSwitchTimePC": 0.600000024,
+  "ExecuteBtnIcon": 28001140,
+  "KickOffBtnIcon": 28003343,
+  "BlockNotifyAdvanceTimeMobileOnly": 0.730000019,
+  "VehicleChasingUITime": 8,
+  "VehicleChasingAnimationSpeedMax": 5,
+  "VehicleChasingAnimationSpeedMin": 1,
+  "JiaMuSummonPartnerHealth": [
+    0.300000012,
+    0.150000006
+  ],
+  "ConsoleAlertnessvalueSound": 70350058,
+  "ConsoleAlertnessvalueCD": 30,
+  "HurtShaderRimPower": 1,
+  "HurtShaderLastTime": 0.300000012,
+  "HurtShaderSpaceTime": 0.150000006,
+  "PlayerNameMaxLength": 14,
+  "PlayerNameMinLength": 1,
+  "RandomActionDelay": {
+    "idleInterval": 10,
+    "walkInterval": 10
+  },
+  "LoginInterface": 90000034,
+  "MoveDistanceTolerance": 0.0500000007,
+  "CutsceneDialogCDTime": 1,
+  "HPBarShowTime": 10,
+  "HUDBarShrinkSize": 0.400000006,
+  "HUDBarKeepDistance": 10,
+  "HUDBarHideDistance": 80,
+  "UnitHPBarHideDistance": 80,
+  "HideMessageAfter": 3,
+  "MinionFullScreenSwitch": true,
+  "WorldChannelMinLevel": 10,
+  "PrivateChatMinLevel": 10,
+  "WorldChannelCD": 20,
+  "PrivateChatCD": 5,
+  "VoiceChatMinTime": 0.5,
+  "SpeedRateMin": 0.699999988,
+  "TimeTurnToAi": 18000000,
+  "DeathNameHeight": 0.200000003,
+  "LvUpPanelDelayTime": 1.39999998,
+  "DiePanelDelay": 0.5,
+  "DiePanelClock": 180,
+  "OffBattleTime": 0.5,
+  "OffBattleExtraCheckRange": 3,
+  "ChatBubbleLastTime": 5,
+  "GyroSpeedThreshold": 0,
+  "NpcDialogDefaultCameraParams": [
+    {
+      "DistanceParam": 1,
+      "Height": 1.20000005,
+      "VerticalAngle": 0,
+      "HorizonAngle": 24,
+      "OffsetX": -0.0700000003,
+      "OffsetY": 0.0199999996
+    }
+  ],
+  "NpcDialogDefaultCameraParams2": [
+    {
+      "DistanceParam": 1,
+      "Height": 1.20000005,
+      "VerticalAngle": 0,
+      "HorizonAngle": 24,
+      "OffsetX": 0.0299999993,
+      "OffsetY": 0.0299999993
+    }
+  ],
+  "NpcDialogDefaultJobUseParams2": [
+    11000018,
+    11000019,
+    11000017,
+    0
+  ],
+  "NpcDialogDefaultDistance": [
+    1.14999998,
+    1.14999998,
+    2,
+    3
+  ],
+  "FriendInitMaxCount": 100,
+  "ReportInterval": 300,
+  "HotPatchTest": 666,
+  "ActivityRaidDelayTime": 30,
+  "LeaveStuckPositionCoolDown": 20,
+  "ServerStatusColors": [
+    63200106,
+    63200107,
+    63200108,
+    63200109,
+    63200133
+  ],
+  "NpcPanelDefaultHeadOffset": {
+    "x": 0.39199999,
+    "y": 0.809000015
+  },
+  "NpcPanelDefaultDistance": [
+    3,
+    3,
+    3,
+    3
+  ],
+  "AutoNpcInteractDialogTimeRate": 0.5,
+  "NpcLookPlayerDistance": 4,
+  "PrivateNPCFadeTime": 5,
+  "MapPinMaxCount": 200,
+  "SpecialFriendMaxCount": 6,
+  "CutSceneAutoFinishTime": 2.5,
+  "LagFps": 10,
+  "LagTime": 5,
+  "PreGainShieldSignal": "PreGainShieldSignal",
+  "PzMaxPostAchieveCnt": 3,
+  "PzMaxCaringFriendCnt": 3,
+  "UnlockPriveSpaceLevel": 0,
+  "WaitMsgDelayTime": 1,
+  "PhotoCameraHighLimit": 30,
+  "OutOfStuck": "OutOfStuck",
+  "ShopMaxNumber": 999,
+  "TuyaOpenLevel": 0,
+  "QuestionLevel": 5,
+  "ChuanSongDistance": [
+    50,
+    100
+  ],
+  "TimeReminder": [
+    15
+  ],
+  "BattleUIHideTime": 8,
+  "NewMailUpperLimit": [
+    100,
+    100
+  ],
+  "MailMessageTime": 3,
+  "FriendFavorMin": 0,
+  "ReconnectTryAgain": 12,
+  "ServerKickDelay": 300,
+  "DanceActions": [
+    5001,
+    5002,
+    5003,
+    5004,
+    5101,
+    5102,
+    5103,
+    5104
+  ],
+  "ExpressionActions": [
+    2271,
+    1031,
+    1030
+  ],
+  "ExpressionActionsIcon": [
+    25600177,
+    25600178,
+    25600179
+  ],
+  "PlayerDefaultName": "unknown",
+  "PreraidNofreezeEnemyList": [
+    40100208,
+    40100209,
+    40100216,
+    40100217
+  ],
+  "ShowSpiritCount": 3,
+  "ChatTeamNopLimit": 100,
+  "ChatTeamNogLimit": 20,
+  "ChatTeamNameMaxLength": 48,
+  "ChatTeamNoticeMaxLength": 80,
+  "SignificantNoteTime": 3,
+  "FriendInviteLimit": 30,
+  "FriendInviteLimitTime": 72,
+  "BuildingLODShowDuration": 0.200000003,
+  "NotSupportEquipmentList": [
+    "GIONEE F109N",
+    "GIONEE S10",
+    "ZTE V0840"
+  ],
+  "HackLoadingTime": 5,
+  "LoginPingmuBGM": 70860053,
+  "NotSupportCpuList": [],
+  "NotSupportGpuList": [
+    "Adreno305",
+    "Adreno 305",
+    "Adreno %(TM%) 305",
+    "Adreno306",
+    "Adreno 306",
+    "Adreno %(TM%) 306",
+    "Mali T628",
+    "Mali%-T628",
+    "Mali T624",
+    "Mali%-T624",
+    "Mali 400",
+    "Mali%-400",
+    "Mali 450",
+    "Mali%-450"
+  ],
+  "NotSupportMinMemomry": 1200,
+  "TuyaCDTime": 3,
+  "NoLeavePlayerRoomLevel": 3,
+  "PreRaidCanShowMsgWhiteList": [
+    65102670,
+    65103611,
+    65103718,
+    65103719,
+    65103787,
+    65103788
+  ],
+  "SuperDodgeRadialBlurTime": [
+    0,
+    0.600000024
+  ],
+  "NpcReactionRange": 3,
+  "NpcReactionTimeInterval": 0.5,
+  "FriendsSearchCD": 3,
+  "NpcReactionAngle": 150,
+  "NpcReactionHintTime": 2,
+  "NpcReactionRefreshTime": 1,
+  "SpecialFallRaid": [
+    {
+      "RaidId": 23300529,
+      "Time": 3
+    },
+    {
+      "RaidId": 23300462,
+      "Time": 3
+    },
+    {
+      "RaidId": 23100143,
+      "Time": 3
+    },
+    {
+      "RaidId": 23300432,
+      "Time": 3
+    }
+  ],
+  "DeadWaitTime": 2.5,
+  "DeadDarkEffectWaitTime": 2,
+  "RaidBeginMaxWaitTime": 600,
+  "CommonRefreshHourOfDay": 4,
+  "BeginerCardPoolDiscount": 0.800000012,
+  "JiajuScaleLimit": [
+    0.5,
+    3
+  ],
+  "DialogCameraDarken": 0.100000001,
+  "DialogCameraEnvDarken": 0.449999988,
+  "ShowAutoFightButtonRaidType": [
+    1,
+    3,
+    11
+  ],
+  "MaxScenePengQi": 300,
+  "TuyaPengQiDisappearTime": 30,
+  "SingleScreenPenqi": 0,
+  "PenqiPrintScale": [
+    0.800000012,
+    2
+  ],
+  "PenqiMaxDistance": [
+    10,
+    3,
+    20,
+    10
+  ],
+  "ChuansongFuncDistance": 15,
+  "HackNpcDefaultHeadImageId": 25900421,
+  "EnemyDetectionRange": [
+    0,
+    50,
+    100
+  ],
+  "IKVerticalLimit": [
+    15,
+    -15
+  ],
+  "ProgressiveGpsMinDistance": 5,
+  "ProgressiveGpsTranslateTime": 0.330000013,
+  "ChatKeywordsScreening": [
+    "微信",
+    "转账"
+  ],
+  "FlyHitDownInitialSpeed": 0,
+  "FlyHitDownAcceleratedSpeed": 25,
+  "HitFallGroundHorizontalSpeedTime": 0.600000024,
+  "RelaxActionLimit": 60,
+  "ActionGroupEffect": [],
+  "IdleCheckTime": 60,
+  "DebugObstacleEffect": 53700166,
+  "CanSwitchUnitJoyAngle": 20,
+  "MaxFragmentPoint": 999999999,
+  "WpRecoverTime": 3,
+  "HTTPTimeOut": 4,
+  "HTTPTextureTaskMax": 4,
+  "HTTPTextureTaskDelayRemove": 9,
+  "FriendLevelDifference": [
+    6,
+    4
+  ],
+  "RecommendFriend": 7,
+  "LongPressJumpTime": 0.100000001,
+  "AttractiveEvent": {
+    "Duration": 60,
+    "ViewRadius": 20,
+    "TriggerRadius": 3,
+    "DelayDisappearTime": 12
+  },
+  "InjuredFace": [
+    {
+      "Hp": 0.600000024,
+      "FaceID": 86500000
+    },
+    {
+      "Hp": 0.5,
+      "FaceID": 86500001
+    },
+    {
+      "Hp": 0.400000006,
+      "FaceID": 86500002
+    },
+    {
+      "Hp": 0.300000012,
+      "FaceID": 86500003
+    }
+  ],
+  "InjuredFaceUi": true,
+  "InjuredFaceOthers": true,
+  "ParkourLockArea": [
+    30,
+    0.5,
+    0.300000012,
+    0.699999988,
+    0.300000012,
+    0.699999988,
+    10
+  ],
+  "DropItemEffect": [
+    0.800000012,
+    0.899999976,
+    3,
+    4,
+    1,
+    2,
+    60,
+    0.5,
+    0.150000006
+  ],
+  "ShanChongDefault": 100,
+  "DashTimeParaM": 35,
+  "CliffHeight": 1,
+  "AutoLockDistance": 25,
+  "WorldMergeCD": 86400,
+  "WorldBreakAwayCD": 86400,
+  "WorldMergeMaxNum": 3,
+  "DailyTaskSyncRate": 0.100000001,
+  "WildEnemySyncRate": 0.100000001,
+  "SyncRateDailyDecrease": 0.200000003,
+  "ShareMaxNum": 10,
+  "ShareSyncRate": 0,
+  "FengduMergeMiniDistanceShowRange": 100,
+  "FengduMergeMiniDirectionRange": 3,
+  "WeaponMaxSkillExtraLevel": 15,
+  "FightSpiritMaxSkillExtraLevel": 30,
+  "FightSpiritMaxSkillTrainingLevel": 10,
+  "FightSpiritMinSkillTrainingLevel": 1,
+  "FightSpiritMinSkillActualLevel": 1,
+  "FightSpiritMaxSkillActualLevel": 30,
+  "WeaponMaxSkillTrainingLevel": 10,
+  "BodyIKVerticalUpAngle": 45,
+  "BodyIKVerticalDownAngle": 180,
+  "BodyIKHorizontalAngleLimit": 75,
+  "BodyIKVerticalAngleUpLimit": 5,
+  "BodyIKVerticalAngleDownLimit": 0,
+  "BodyIKSpeed": 0.150000006,
+  "DialogCameraYUpAngle": 60,
+  "DialogCameraYDownAngle": -25,
+  "UseFaceBake": false,
+  "RebornTimeLineName": "timeline_xiache",
+  "ChaseAircraftSpeed": [
+    30,
+    55,
+    6,
+    35
+  ],
+  "ChaseAircraftAttackStop": [
+    1,
+    2,
+    20,
+    0
+  ],
+  "InteractionAppearTime": 0.100000001,
+  "NpcInteractionCameraThreshold": 0.150000006,
+  "NpcInteractionTurnMin": 5,
+  "NpcSmallAngleTurn": 45,
+  "GameRaid": [],
+  "WpRecoverSpeed": 2.5,
+  "RewardSmallWindow": [
+    23301032,
+    23301046,
+    23301047
+  ],
+  "SimplePlayerInfoClientCacheTime": 30,
+  "WeaponBarShowTime": 10,
+  "PlayerNamingRandomAction_F": [
+    {
+      "actionId": 5404,
+      "soundId": 70550010,
+      "soundDelayTime": 0
+    },
+    {
+      "actionId": 5405,
+      "soundId": 70550013,
+      "soundDelayTime": 0
+    },
+    {
+      "actionId": 4001,
+      "soundId": 70550023,
+      "soundDelayTime": 0
+    }
+  ],
+  "PlayerNamingRandomAction_M": [
+    {
+      "actionId": 5404,
+      "soundId": 70550043,
+      "soundDelayTime": 0
+    },
+    {
+      "actionId": 5405,
+      "soundId": 70550045,
+      "soundDelayTime": 0
+    },
+    {
+      "actionId": 4001,
+      "soundId": 70550083,
+      "soundDelayTime": 1
+    }
+  ],
+  "ElevatorOpenButton": {
+    "name": "开门",
+    "picid": 25600330
+  },
+  "DropAutoPickEffectPhase1": [
+    0.400000006,
+    0.600000024,
+    3,
+    4,
+    1,
+    3,
+    0.150000006
+  ],
+  "DropAutoPickEffectPhase2": [
+    0.00999999978,
+    6,
+    0.00999999978,
+    8
+  ],
+  "DropAutoPickEffectPhase3": [
+    1.60000002,
+    3,
+    20
+  ],
+  "DropAutoPickEffectWhite": [
+    53610363,
+    53610363,
+    53610363,
+    0
+  ],
+  "DropAutoPickEffectBlue": [
+    53610364,
+    53610364,
+    53610364,
+    0
+  ],
+  "DropAutoPickEffectPurple": [
+    53610365,
+    53610365,
+    53610365,
+    0
+  ],
+  "DropAutoPickEffectGold": [
+    53610366,
+    53610366,
+    53610366,
+    0
+  ],
+  "DropAutoPickRange": [
+    0.100000001,
+    0.5
+  ],
+  "FengduMergeMateEffect": [
+    53103090,
+    53103091
+  ],
+  "FengduMergeGuideOffset": 1.89999998,
+  "FengduMergeInvitationTimeLimit": 30,
+  "CarchasingParams1": [
+    449405141,
+    1,
+    3,
+    6,
+    25200651
+  ],
+  "CarchasingParams2": [
+    1.10000002,
+    0.100000001,
+    2,
+    7.55000019,
+    12,
+    7.23999977,
+    0.150000006,
+    0.150000006,
+    0.150000006
+  ],
+  "CarchasingParams3": [
+    "闪避",
+    "飞索",
+    "侧翻"
+  ],
+  "ChaseCarSpeed": [
+    20,
+    55,
+    12,
+    20
+  ],
+  "HudDistance": [
+    30,
+    60
+  ],
+  "ChatMaxRed": 99,
+  "CatchTresureSpeed": [
+    30,
+    75,
+    5,
+    35
+  ],
+  "UAVChallengeSpeed": [
+    20,
+    60,
+    15,
+    63
+  ],
+  "UAVChallengeSpeed2": [
+    20,
+    60,
+    20,
+    63
+  ],
+  "UAVChallengeSpeedLastACD": [
+    35,
+    125,
+    10,
+    70
+  ],
+  "UAVChallengeSpeedHack": [
+    10,
+    125,
+    0,
+    100
+  ],
+  "UAVChallengeSpeedHack040": [
+    10,
+    100,
+    10,
+    55
+  ],
+  "UAVChallengeSpeedHack041": [
+    10,
+    100,
+    100,
+    55
+  ],
+  "UAVChasingMainStorySpeed": [
+    25,
+    35,
+    15,
+    35
+  ],
+  "UAVChallengeTask60006687Speed": [
+    25,
+    125,
+    25,
+    55
+  ],
+  "UAVChallengeTask60006684Speed": [
+    30,
+    100,
+    30,
+    60
+  ],
+  "ChaseSoulsSpeed": [
+    10,
+    30,
+    0,
+    30
+  ],
+  "ChaseAircraftSpeedNew": [
+    45,
+    55,
+    8,
+    55
+  ],
+  "ChaseLightManSpeed": [
+    10,
+    100,
+    0,
+    100
+  ],
+  "ChasePDZNew": [
+    42,
+    82,
+    5,
+    67
+  ],
+  "ChasePDZSlow": [
+    36,
+    59,
+    13,
+    37
+  ],
+  "NpcRunWorkRadius": 17,
+  "MainRoadCarTrafficLightTime": [
+    {
+      "Color": 0,
+      "totalTime": 27
+    },
+    {
+      "Color": 1,
+      "totalTime": 20
+    },
+    {
+      "Color": 2,
+      "totalTime": 3
+    }
+  ],
+  "MainRoadNpcTrafficLightTime": [
+    {
+      "Color": 0,
+      "totalTime": 60
+    },
+    {
+      "Color": 1,
+      "totalTime": 40
+    }
+  ],
+  "SideRoadNpcTrafficLightTime": [
+    {
+      "Color": 0,
+      "totalTime": 46
+    },
+    {
+      "Color": 1,
+      "totalTime": 54
+    }
+  ],
+  "MainRoadCarTrafficLightStartTime": [
+    0,
+    0
+  ],
+  "MainRoadNpcTrafficLightStartTime": [
+    0,
+    6
+  ],
+  "SideRoadNpcTrafficLightStartTime": [
+    1,
+    0
+  ],
+  "TerrifyRunDuration": 16,
+  "SideRoadCarTrafficLightStartTime": [
+    1,
+    2
+  ],
+  "SideRoadCarTrafficLightTime": [
+    {
+      "Color": 0,
+      "totalTime": 27
+    },
+    {
+      "Color": 1,
+      "totalTime": 20
+    },
+    {
+      "Color": 2,
+      "totalTime": 3
+    }
+  ],
+  "NpcCannotEnterCrossingTime": 0.150000006,
+  "NpcSpeedUpCrossingTime": 0.0500000007,
+  "PoliceArrestRecordDuration": 300,
+  "PoliceArrestRecordThresholdTimes": 2,
+  "DestructibleRefreshBoundary": [
+    6,
+    120,
+    30
+  ],
+  "DestructibleRefreshCd": 180,
+  "FriendOfflineDays": 30,
+  "MiniMapZoomInTime": 2,
+  "MiniMapZoomRateDefault": 0.75,
+  "MiniMapZoomAnimDuration": 1.5,
+  "NpcPaoKuAutoSpeed01": [
+    25,
+    55,
+    18,
+    46
+  ],
+  "NpcPaoKuAutoSpeed03": [
+    45,
+    55,
+    6,
+    20
+  ],
+  "NpcPaoKuAutoSpeed04": [
+    20,
+    30,
+    6,
+    20
+  ],
+  "NpcPaoKuAutoSpeed05": [
+    6,
+    20,
+    6,
+    20
+  ],
+  "NpcPaoKuAutoSpeed06": [
+    25,
+    40,
+    15,
+    24
+  ],
+  "NpcPaoKuAutoSpeed07": [
+    0,
+    110,
+    18,
+    22
+  ],
+  "NpcPaoKuAnimSequence01": [
+    {
+      "timeRate": 0,
+      "action": 8002,
+      "group": 1
+    },
+    {
+      "timeRate": 0.5,
+      "action": 1361,
+      "group": 5
+    },
+    {
+      "timeRate": 0.800000012,
+      "action": 1466,
+      "group": 5
+    }
+  ],
+  "NpcPaoKuAnimSequence02": [
+    {
+      "timeRate": 0,
+      "action": 8005,
+      "group": 1
+    },
+    {
+      "timeRate": 0.660000026,
+      "action": 1361,
+      "group": 5
+    },
+    {
+      "timeRate": 0.819999993,
+      "action": 1351,
+      "group": 1
+    }
+  ],
+  "NpcPaoKuAnimSequence03": [
+    {
+      "timeRate": 0,
+      "action": 3004,
+      "group": 6
+    },
+    {
+      "timeRate": 0.458000004,
+      "action": 3005,
+      "group": 6
+    },
+    {
+      "timeRate": 0.75,
+      "action": 3010,
+      "group": 6
+    }
+  ],
+  "NpcPaoKuAnimSequence04": [
+    {
+      "timeRate": 0,
+      "action": 1102,
+      "group": 23
+    }
+  ],
+  "NpcPaoKuAnimSequence05": [
+    {
+      "timeRate": 0,
+      "action": 2001,
+      "group": 40
+    },
+    {
+      "timeRate": 0.5,
+      "action": 2002,
+      "group": 40
+    },
+    {
+      "timeRate": 0.800000012,
+      "action": 2003,
+      "group": 40
+    }
+  ],
+  "NpcPaoKuAnimSequence06": [
+    {
+      "timeRate": 0,
+      "action": 5027,
+      "group": 401
+    },
+    {
+      "timeRate": 0.5,
+      "action": 5028,
+      "group": 401
+    },
+    {
+      "timeRate": 0.800000012,
+      "action": 5029,
+      "group": 401
+    }
+  ],
+  "ActivationSubType": 1,
+  "GousuoAttackMinRange": 6,
+  "GousuoAttackMinRange2": 8,
+  "GousuoAttackMinRangeHeight": 2.5,
+  "GousuoAttackMaxRange": 25,
+  "GousuoStatusAddScore": 1000,
+  "GousuoAttackEndPos": 9,
+  "SwitchSpiritDodgeAttackDisNear": 2.5,
+  "SwitchSpiritDodgeAttackDisFar": 6,
+  "DodgeCounterCheckHeight": 2,
+  "DodgeCounterCheckRadius": 3,
+  "DodgeCounterAppearDis": 2,
+  "DodgeCounterSuccessStateDuration": 0.209999993,
+  "DodgeCounterSuccessInvincibleDuration": 1.29999995,
+  "WashCommonWeapon": "dj_A701030_gm",
+  "WashWeaponBone": "handl",
+  "IsInWashBone": "WashTaskWeaponBone",
+  "WashAimPointDis": 6.5,
+  "WashIgnoreIKDis": 3.20000005,
+  "NpcPaoKuAutoSpeed02": [
+    35,
+    55,
+    15,
+    25
+  ],
+  "LuaSlotMindTriggerAnim": {
+    "action": 1001,
+    "group": 25
+  },
+  "MindHoldAniID": {
+    "action": 3410,
+    "group": 0
+  },
+  "MindHoldCommonSkillID": 51934941,
+  "MindHoldPressingSkillID": 51935706,
+  "MindHoldEndSkillID": 51985050,
+  "MindHoldPressingTime": 0.200000003,
+  "PlayerMoveImpact": 10,
+  "PlayerRunImpact": 15,
+  "PlayerDodgeImpact": 20,
+  "EnemyMoveImpact": 10,
+  "UAVSpiderSpeed": [
+    5,
+    20,
+    8,
+    20
+  ],
+  "isOpenCreateMaleRole": true,
+  "isOpenCreateFemaleRole": true,
+  "CliffHeightMove": 3,
+  "GousuoAttackExtraApproachParaX": 0.25,
+  "GousuoAttackExtraApproachParaY": 0.5,
+  "PushUnitLowFactor": 0.200000003,
+  "PushUnitHighFactor": 5,
+  "PushUnitSpeedParameter": 1.20000005,
+  "PushUnitSpeedTime": 3,
+  "PushVerticalVelocityPara": 0.800000012,
+  "PushRetardedVelocity": 3,
+  "AttackStateDelayTime": 5,
+  "SameEffectReduceNum": 0.5,
+  "SameEffectReduceTime": 3,
+  "SameEffectReduceDistance": 5,
+  "MindPowerCounterDistance": 10,
+  "MonsterDropAutoPickEffectWhite": [
+    53610363,
+    53610363,
+    53610363
+  ],
+  "MonsterDropAutoPickEffectBlue": [
+    53610364,
+    53610364,
+    53610364
+  ],
+  "MonsterDropAutoPickEffectPurple": [
+    53610365,
+    53610365,
+    53610365
+  ],
+  "MonsterDropAutoPickEffectGold": [
+    53610366,
+    53610366,
+    53610366
+  ],
+  "ExpDropItemEffect": [
+    0.800000012,
+    0.899999976,
+    3,
+    4,
+    1,
+    2,
+    60,
+    0.5,
+    0.150000006
+  ],
+  "DropAutoPickEffectExp": 53610363,
+  "EnemyMoveFadeInTime": 0.300000012,
+  "EnemyLeftOrRightToIdleFadeInTime": 0.800000012,
+  "EnemyMoveLinkActionFadeInTime": 0.100000001,
+  "GousuoAttackWaitMinTime": 0.300000012,
+  "BattleLookAtIKFadeTime": 0.300000012,
+  "BattleLookAtIKFadeOutTime": 0.300000012,
+  "BattleLookAtIKLockAngle": 135,
+  "BattleLookAtIKReEnterAngle": 125,
+  "BattleLookAtIKHeadWeight": 0.699999988,
+  "BattleLookAtIKBodyWeight": 0.200000003,
+  "EnemyLookAtIKResponseAngle": 120,
+  "EnemyLookAtIKSpineDamping": 0,
+  "EnemyLookAtIKCurveId": 67100363,
+  "EnemyLookAtIKSpineHeadMaxAngle": -1,
+  "EnemyLookAtIKSlightFadeTime": 0.5,
+  "GeneralCutInTimeline": [
+    {
+      "Timeline": "",
+      "Name": "不要用"
+    },
+    {
+      "Timeline": "PaokuTaskUpIn",
+      "Name": "跳下接站"
+    },
+    {
+      "Timeline": "swingtogame",
+      "Name": "跑酷接站"
+    },
+    {
+      "Timeline": "swingtoTL",
+      "Name": "跑酷接TL"
+    },
+    {
+      "Timeline": "gametosquat",
+      "Name": "跳下接蹲"
+    },
+    {
+      "Timeline": "gametostand",
+      "Name": "空镜入画"
+    },
+    {
+      "Timeline": "swingtowall_right",
+      "Name": "右挂墙"
+    }
+  ],
+  "SlotDelayTimeList": [
+    0,
+    0,
+    0,
+    3.4000001,
+    1.70000005,
+    3.5,
+    0
+  ],
+  "SuperMindPowerCD": 2,
+  "SuperMindPowerStiffScaleRatio": 0.699999988,
+  "CommonInteractDisParam": [
+    0,
+    0.349999994,
+    0.600000024,
+    0.600000024,
+    1.5,
+    0,
+    0
+  ],
+  "AutoDoorDis": 1.5,
+  "AutoDoorFaceAng": 30,
+  "AutoDoorJoyAng": 30,
+  "EnemyWalkFrontEndMoveParam": 1.5,
+  "EnemyRunEndMoveParam": 0.75,
+  "LongHoldMinTime": 0.899999976,
+  "ShouRongSlotEffect": 0,
+  "ShouRongGunEffect": 0,
+  "DragHoldEndTime": 0.733299971,
+  "DoorPlayerMaxAng": 15,
+  "DoorPlayerMinAng": -165,
+  "DoorClearMinDis": 0.5,
+  "DooePlayerAndJoyAng": 10,
+  "SitChairFrontDis": 0.300000012,
+  "SitChairLeftDis": 0.600000024,
+  "SitChairSideFrontDis": -0.100000001,
+  "CommonInteractStallOffsetToPlayerType": [
+    0.699999988,
+    0.699999988,
+    0.699999988,
+    0.699999988,
+    0.699999988,
+    0.699999988
+  ],
+  "CommonInteractJieJIOffsetToPlayerType": [
+    0.519999981,
+    0.519999981,
+    0.519999981,
+    0.519999981,
+    0.519999981,
+    0.519999981
+  ],
+  "ScanSpeed": 40,
+  "SitCapsulBodyDis": 0.150000006,
+  "StandChairCapsulFrontDis": 0.699999988,
+  "BattleDialogGlobleCD": 8,
+  "doublebedDis": 1.60000002,
+  "lyingchairDis": 0.699999988,
+  "DragHoldtoEndDis": 3,
+  "DragHoldDisR": 6,
+  "InteractionColliderR": 1.60000002,
+  "CanDragHoldDisR": 10,
+  "StorgeLoopTime": 1.5,
+  "StorgeEndEffect": 53800334,
+  "StorgeEndFlyEffect": 53800335,
+  "StorgeEndPlayerEffect": 53800336,
+  "StorgeHandEffect": 53800337,
+  "FerrisLerpTime": 2,
+  "CrouchMagnetLowY": 5,
+  "longholdDisHigh": 12,
+  "saomiaodelaytime": 0.73299998,
+  "DragHoldCanUseCentreDis": [
+    7,
+    13,
+    5,
+    1,
+    1
+  ],
+  "BanUseDragX": [
+    5.5,
+    5.5,
+    3,
+    1,
+    1
+  ],
+  "BanUseDragY": [
+    12,
+    12,
+    10,
+    1,
+    1
+  ],
+  "BanUseDragZ": [
+    3.29999995,
+    8,
+    3.29999995,
+    1,
+    1
+  ],
+  "DragHoldCanR": [
+    5.5,
+    7,
+    4.5,
+    1,
+    1
+  ],
+  "DragholdDisHigh": 8,
+  "DragHoldTipsR": [
+    15,
+    30,
+    12,
+    1,
+    1
+  ],
+  "LongHoldCanUseCentreDis": 9,
+  "BanUseLongX": 4,
+  "BanUseLongY": 8,
+  "BanUseLongZ": 3,
+  "LongHoldCanR": 6,
+  "LongHoldTipsR": 10,
+  "EnemyMovementNoBlendActionParams": [
+    -75,
+    75,
+    -105,
+    105,
+    60,
+    120,
+    -60,
+    -120
+  ],
+  "XSBBossEnterWeakMoveParam": {
+    "startTime": 0.666999996,
+    "duration": 0.532999992,
+    "targetX": 1638.70996,
+    "targetY": 230.852798,
+    "targetZ": 1213.29395
+  },
+  "LongHoldTypeFirstDis": [
+    0,
+    0,
+    7,
+    8,
+    9,
+    7,
+    0
+  ],
+  "LongHoldTypeCanR": [
+    9,
+    10,
+    9,
+    8,
+    12,
+    10,
+    20
+  ],
+  "LongHoldTypeBanR": [
+    3,
+    3,
+    0,
+    0,
+    0,
+    0,
+    3
+  ],
+  "LongHoldTypeTipeR": [
+    20,
+    16,
+    20,
+    16,
+    24,
+    16,
+    40
+  ],
+  "HoldPhoneSlowVxyz": [
+    0,
+    2,
+    -2.5
+  ],
+  "EarPhoneFallVxyz": [
+    0,
+    0,
+    -2.5
+  ],
+  "EnemyForbidRVO2Time": 3,
+  "GameInteractionStartPointDis": 3,
+  "FindNearestReachPointParam": {
+    "moveToTargetMinYExt": 3,
+    "moveToTargetMaxYExt": 15,
+    "moveAroundYExt": 15,
+    "defaultMaxXYZExt": 3
+  },
+  "PlayerFootprintDensity": 0.5,
+  "PlayerWheelmarkDensity": 0.5,
+  "OrcaAvoidanceVehicleExtraDis": 0,
+  "MindPowerFadeTime": 0.232999995,
+  "GamePauseThreshold": 0.25,
+  "EnemyFallActionThreshold": {
+    "normal": 0.5,
+    "onMover": 1
+  },
+  "DragEnemyGamePause": 0.100000001,
+  "DragEnemyDelayEndLineEffectTime": 0.5,
+  "DragEnemyIKDelayTime": 2.5,
+  "DestructibleEffectShowMax": 50,
+  "DestructibleEffectCheckTooNearDis": 1.5,
+  "DestructibleEffectCheckTooNearDur": 0.300000012,
+  "HurtEffectAllEnemyShowMax": 50,
+  "HurtEffecPerEnemyShowMax": 10,
+  "HurtEffectPerNotEnemyShowMax": 10,
+  "SkillEffectShowMax": 90,
+  "SkillEffecPerUnitShowMax": 25,
+  "VersionControlSetting": "V100.0.0:alpha",
+  "HelicopterHigh": 40,
+  "Fictionlowerreactionrule": 1002043,
+  "Fictionlowerdialogrule": [
+    100016714,
+    100016718,
+    100016715,
+    100016716,
+    100016717
+  ],
+  "SpoonNpcGoOnSitLoopGroupIds": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "SpoonNpcGoOnSitLoopActionIds": [
+    8502,
+    8522,
+    8612,
+    8622
+  ],
+  "SpoonNpcGoOnStandLoopGroupId": 1,
+  "SpoonNpcGoOnStandLoopActionId": 1001,
+  "ReputationActionInteractAngle": 180,
+  "MixFishRadio": 0.100000001,
+  "StandStaticNpcDefaultPOIActionId": 5002,
+  "SumonAimShootPointCameraRange": {
+    "minPitch": -50,
+    "maxPitch": 50
+  },
+  "SumonAimShootPointRayParams": {
+    "minDis": 0,
+    "maxDis": 10
+  },
+  "slotDefaultButtonIconId": 28005511,
+  "NpcInteractionDefaults": [
+    28005377,
+    28005378,
+    28005508,
+    28005501,
+    28022151,
+    28001861
+  ],
+  "InteractableDiffParam": 30,
+  "LadderMaxDis": 5,
+  "LadderFaceAng": 50,
+  "LadderJoyAng": 50,
+  "MonsterMoveToTargetUpdateInterval": 0.100000001,
+  "PlayPianoActionInterval": 0.100000001,
+  "enemyDetectionRadius": 40,
+  "PushVerticalVelocityMin": 2,
+  "AllInteractCheckSameDistance": 1,
+  "MusicMiniGameSuccessSignalWeight": [
+    {
+      "param": 1,
+      "weight": 1
+    }
+  ],
+  "MusicMiniGameFailSignalWeight": [
+    {
+      "param": 1,
+      "weight": 0.699999988
+    },
+    {
+      "param": 2,
+      "weight": 0.300000012
+    }
+  ],
+  "MusicMiniGameMissSignalWeight": [
+    {
+      "param": 1,
+      "weight": 1
+    }
+  ],
+  "MindEcsFlyDistance": 1.5,
+  "MindEcsFlySpeed": 5,
+  "MindEcsFlyTime": 15,
+  "FlyersRejectPersonality": [
+    1
+  ],
+  "FlyersForceProbability": [
+    15,
+    35,
+    60,
+    100
+  ],
+  "TargetStateBanInteract": [
+    10418,
+    10419,
+    377
+  ],
+  "MyStateBanInteract": [
+    10418,
+    10419,
+    377
+  ],
+  "JumpGridInputBufferWindow": 0.150000006,
+  "HackSkills": [
+    51890208,
+    51890209,
+    51890210,
+    51890211,
+    51890212,
+    51890213,
+    51890214,
+    51890215,
+    51890216,
+    51890217,
+    51890218,
+    51890219,
+    51890220,
+    51890221,
+    51890222,
+    51890223,
+    51890226,
+    51890227,
+    51890228,
+    51890229,
+    51890230,
+    0
+  ],
+  "HackUltima": [
+    51890220,
+    51890224
+  ],
+  "CameraZoomLimit": [
+    15,
+    50
+  ],
+  "CameraDistanceData": 8,
+  "HideUnitDistance": [
+    50,
+    70,
+    90
+  ],
+  "MoveToTargetCancelUnlockDistance": 0.100000001,
+  "AutoLockSwitchCD": 0.100000001,
+  "JoystickAngelVelocityCriticalValue": 0,
+  "LootAtJumpingEnemyAngle": 120,
+  "CameraLockPlayerFacingAngel": -2,
+  "CameraLockCameraAngel": -1,
+  "CameraLockDistance": -10,
+  "CameraLockHpPercet": 1,
+  "CameraLockTargetIsBoss": 50,
+  "CameraLockTargetLocking": 50,
+  "CameraLockLastAttackTime": -2,
+  "CameraLockDeltaY": -50,
+  "CameraLockOutDistance": 10,
+  "PCMouseSensitivity": 9.25,
+  "FightFreeLookBlendInTime": 1,
+  "FightFreeLookBlendOutTime": 3,
+  "LeaveLockHandControlCDTime": 0,
+  "LeaveLockHandControlX": 5,
+  "LeaveLockHandControlY": 5,
+  "AngleSpeedLimitOnUseSkill": 10,
+  "MotionBlurAmountBase": 0.00999999978,
+  "FreeLookRotateXDefaultSensitivity": 6,
+  "FreeLookRotateYDefaultSensitivity": 6,
+  "FreeLookRotateXSensitivityCoefficient": 0.100000001,
+  "FreeLookRotateYSensitivityCoefficient": 0.100000001,
+  "FreeLookRotateSensitivityShotGlobalCoefficient": 0.00999999978,
+  "ShiRotateVelDamping": 0.699999988,
+  "ShiRotateVelRatio": 0.5,
+  "ShiHandForbidTime": 0.400000006,
+  "ShiRotateVelJoyStickRatio": 1000,
+  "NpcFollowCameraFocusVelocity": 180,
+  "NpcFollowScreenX": 0.300000012,
+  "NpcFollowNpcMeMaxDis": 30,
+  "FeisuoAttackAutoRotateToLocalX": 25,
+  "FeisuoAttackAutoRotateToY": 0.5,
+  "FeisuoAttackAutoPitchLimit": [
+    -5,
+    15
+  ],
+  "FeisuoAttackAutoRotateMaxSpeedX": 22.5,
+  "FeisuoAttackAutoRotateMaxSpeedY": 0.100000001,
+  "SwingJoystickMinInput": {
+    "X": 0,
+    "Y": 0,
+    "Z": 0
+  },
+  "FocusObservationPoint": {
+    "X": 0.119999997,
+    "Y": 0.140000001,
+    "Z": 0
+  },
+  "CameraWallVertMoveYVelocity": 2,
+  "CameraWallRayCastToward": 0,
+  "FirstCameraSlowClimbOffsetZ": -0.300000012,
+  "FirstCameraClimbOffsetZ": -0.300000012,
+  "FreeLookBodyTypeSwitchTime": 0.699999988,
+  "AutoLeaveLockTime": 3,
+  "CameraSkillDelayPauseTime": 0.25,
+  "CameraSkillDelayRecoverTime": 3,
+  "CameraSkillDisLimit": 0.100000001,
+  "CameraSkillBranchCosine": 0.300000012,
+  "CameraSkillDisDamping": 4,
+  "CameraRotateUnitSpeed": [
+    0.0350000001,
+    0.000199999995
+  ],
+  "ShotCameraRotateUnitSpeed": [
+    0.0350000001,
+    0.000199999995
+  ],
+  "HandControlZoomCDTime": 3,
+  "ClimbHandControlCDTime": 0.600000024,
+  "SlowClimbAngleSpeedLimit": 30,
+  "SlowClimbAngleDamping": 0.5,
+  "SlowClimbRayCastDisH": 1,
+  "SlowClimbRayCastDisTowards": 1,
+  "SlowClimbRayCastLen": 1,
+  "GamePadSensitivity": [
+    18,
+    8
+  ],
+  "CameraPostProcessColor": [
+    "4a4743",
+    "6f6453",
+    "b2dad1"
+  ],
+  "CameraPostProcessColorPos": [
+    0,
+    0.25,
+    1
+  ],
+  "ExitMindPowerCameraTime": 2,
+  "SwingCameraRotateXDefaultSensitivity": 5,
+  "SwingCameraRotateYDefaultSensitivity": 4,
+  "GamePadSensitivityShot": [
+    18,
+    18
+  ],
+  "GamePadSensitivityMind": [
+    18,
+    18
+  ],
+  "CameraUnitStippleFactor": [
+    0.200000003,
+    0.300000012,
+    0,
+    1,
+    0
+  ],
+  "CameraUnitStippleCheckInterval": 0.100000001,
+  "ResetCameraDirectionAndDistanceBlendTime": 0.600000024,
+  "GamePadSenitivityDrive": [
+    12,
+    5
+  ],
+  "UltCameraFadeOutDefaultValue": 3.90267444,
+  "GearChangeThreshold": 0.0500000007,
+  "GearDisChangeSpeed": 8,
+  "CameraPostProcessVehicleLowHp": {
+    "saturation": -100,
+    "blendTime": 0.300000012
+  },
+  "NPCInteractCamera": [
+    30,
+    0.800000012,
+    0.800000012
+  ],
+  "WheelScrollCamZoom": 1,
+  "PinchCamZoom": 0.100000001,
+  "CustomData_Battleaction": 2,
+  "CustomData_HeadslotHeight": 3,
+  "CustomData_PlayActions": 4,
+  "CustomData_AllUIVisible": 5,
+  "CustomData_HeZuiEffect": 6,
+  "CustomData_IkLook": 9,
+  "CustomData_CloseOpenedPanel": 10,
+  "CustomData_GameScore": 11,
+  "CustomData_PlayLinkEffect": 12,
+  "CustomData_TransparentMask": 14,
+  "CustomData_StopClientNav": 15,
+  "CustomData_BlackScreen": 16,
+  "CustomData_BreakBatter": 17,
+  "CustomData_LiaoJiChoneNeng": 19,
+  "CustomData_VRGameScore": 20,
+  "CustomData_AnimationStick": 23,
+  "CustomData_BattleCardSwitcher": 27,
+  "CustomData_GlitchEffect": 29,
+  "CustomData_TimeFreeze": 31,
+  "CustomData_Hack": 33,
+  "CustomData_ShowBossTitle": 34,
+  "CustomData_ShowBossKilled": 35,
+  "CustomData_PlayNpcEffect": 36,
+  "AutoDialogRange": 5,
+  "CustomData_ShowDanger": 37,
+  "CustomData_CallBackSkillImage": 38,
+  "CustomData_ChangeableObjectStatus": 39,
+  "CustomData_EdgeDetectDepth": 40,
+  "CustomData_CloseSubScreen": 41,
+  "CustomData_OpenSubScreen": 42,
+  "CustomData_CustomBindBone": 45,
+  "AdditiveHurt_Man": 91315001,
+  "AdditiveHurt_Woman": 91315001,
+  "AdditiveHurt_Cat": 91315001,
+  "CustomData_WpCooldown": 47,
+  "CustomData_DamageInfo": 48,
+  "CustomData_BindBone": 49,
+  "CustomData_EmissionIntensity": 50,
+  "CustomData_PlayCCVideo": 51,
+  "CustomData_StopCCVideo": 52,
+  "CustomData_FuZhiTiBind": 53,
+  "JumpAttackSkillCanBreakTime": 1,
+  "AirHitInitialSpeed": 15,
+  "AirHitGravity": 20,
+  "AirHitMaxSpeed": 60,
+  "CustomData_ChooseRougeBuff": 54,
+  "CustomData_OpenRougePanel": 55,
+  "CustomData_ChangeRougePanelText1": 56,
+  "CustomData_ChangeRougePanelText2": 57,
+  "CustomData_ChangeRougePanelText3": 58,
+  "CustomData_ChangeRougePanelText4": 59,
+  "CustomData_ChangeRougePanelText5": 61,
+  "CustomData_MindEnemyNoAngleLimit": 62,
+  "CustomData_MindEnemyExtraWeight": 63,
+  "CustomData_MindEnemyEnable": 64,
+  "CustomData_ChangeOthersTimeSpeed": 65,
+  "BattlePrototypeCommonUI_Slider_Position": 66,
+  "BattlePrototypeCommonUI_Slider_Color": 67,
+  "BattlePrototypeCommonUI_Slider_Length": 68,
+  "BattlePrototypeCommonUI_Slider_Height": 69,
+  "BattlePrototypeCommonUI_Slider_SetMaxVal": 70,
+  "BattlePrototypeCommonUI_Slider_AddVal": 71,
+  "BattlePrototypeCommonUI_Slider_SetVal": 72,
+  "BattlePrototypeCommonUI_Slider_SetActive": 74,
+  "CustomData_BVB": 75,
+  "CustomData_ChangeZoomRate": 76,
+  "CustomData_WeakSound": 77,
+  "NanzhuSprintCarryInterval": 0.100000001,
+  "NanzhuSprintCarryMax": 5,
+  "NanzhuSprintCarryY": 0,
+  "NanzhuSprintCarryZ": 1.5,
+  "SceneitemBounceElasticity": 0.200000003,
+  "SceneitemFragmentElasticity": 2.5,
+  "MindSkillSceneitemElasticity": 0.200000003,
+  "CustomData_WeakAttacker": 77,
+  "CustomData_UnitMoveSpeedRate": 78,
+  "SurveyVersion": 1,
+  "AgeTip": "https://service.mkey.163.com/mpay/games/aecgkoqxzyaaaars-g-l50/age_tips_intro",
+  "SettingPCGEntranceGadgets": [
+    "SpoonSlot_HingedDouble_pcg_cz_build_mechanicaldoor01b",
+    "SpoonSlot_HingedDouble_pcg_cz_build_mechanicaldoor01_group",
+    "SpoonSlot_HingedDouble_pcg_cz_build_mechanicaldoor06_group",
+    "SpoonSlot_HingeSingle_pcg_cz_build_mechanicaldoor02c",
+    "SpoonSlot_HingeSingle_pcg_cz_build_mechanicaldoor06a",
+    "SpoonSlot_HingeSingle_pcg_cz_build_mechanicaldoor06b"
+  ],
+  "PCGEntranceGadget": [
+    "SpoonSlot_HingedDouble_pcg_cz_build_mechanicaldoor01b",
+    "SpoonSlot_HingedDouble_pcg_cz_build_mechanicaldoor01_group",
+    "SpoonSlot_HingedDouble_pcg_cz_build_mechanicaldoor06_group",
+    "SpoonSlot_HingeSingle_pcg_cz_build_mechanicaldoor02c",
+    "SpoonSlot_HingeSingle_pcg_cz_build_mechanicaldoor06a",
+    "SpoonSlot_HingeSingle_pcg_cz_build_mechanicaldoor06b"
+  ],
+  "BallMoveAddSpeed": 10,
+  "BallMoveMaxSpeed": 30,
+  "TechTimeScale": 0.00999999978,
+  "TechHyperSpeed": 150,
+  "TechHyperSpeedTimeScale": 0.00999999978,
+  "InitialChangeAttackPower": 0,
+  "MaxChangeAttackPower": 100,
+  "InitialBrainPowerValue": 0,
+  "MaxBrainPowerValue": 100,
+  "DefaultBrainPowerSkill": 51990570,
+  "PsychokinesisStartAction": 3400,
+  "PsychokinesisComboStartAction": 3400,
+  "PsychokinesisLoopAction": 3401,
+  "UnitTimeScale": 0.00999999978,
+  "MindPowerMinLaunchAngle": 10,
+  "MindPowerMaxLaunchAngle": 70,
+  "MindPowerSearchRange": 18,
+  "MindPowerSearchRangeInCrouch": 25,
+  "MindPowerSearchAngleXY": [
+    80,
+    35
+  ],
+  "MindPowerSearchAngleInCrouch": [
+    52,
+    25
+  ],
+  "MindSlotSearchAngleXY": [
+    104,
+    28
+  ],
+  "MindPowerSearchEnemyRange": 25,
+  "MindPowerProtectTime": 0.5,
+  "MindPowerLaunchSpeed": 60,
+  "MindPowerDestroyTime": 100,
+  "MindPowerBackTriggerRange": 6,
+  "MindPowerShootBackCameraTime": 0.5,
+  "MindShoot_ignore": 4,
+  "MindShoot_min": 8,
+  "MindShoot_max": 50,
+  "CubePuzzleInteractionId": 91350083,
+  "MindPowerCollectionStartAction": 3420,
+  "MindPowerCollectionLoopAction": 3501,
+  "MindPowerCollectioneEndAction": 3502,
+  "MindPowerCollectioneMountPoint": "Weapon_R",
+  "MindPowerAttackSkillTest": 51936501,
+  "manualShootTime": 1.79999995,
+  "holdFlyMaxChange": 3,
+  "MindPowerPointFollow": [
+    {
+      "bone": "head",
+      "model": "w_mindHold",
+      "type": 6,
+      "param": 6.5
+    }
+  ],
+  "MindPowerPointFollowOffset": {
+    "x": 1.20000005,
+    "y": 1.60000002,
+    "z": -0.100000001,
+    "rotateSpeed": 3
+  },
+  "DestructibleObjectsArrowDelay": 2,
+  "DestructibleObjectsArrowTime": 3,
+  "DestructibleObjectsArrowCD": 3,
+  "DestructibleWeaponAddWeight": 5,
+  "DestructibleWeaponAddWeightTime": 3,
+  "MindPowerGravitySpeed": 10,
+  "MindMobileDestroyDistance": 30,
+  "MindMobileDestroyDelay": 10,
+  "HoldThrow_UpDis": 2,
+  "HoldThrow_FrontDis": 5,
+  "HoldThrow_Delta": 0.5,
+  "HoldBindBoneOffsets": [
+    {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "x": -1,
+      "y": -0.5,
+      "z": 0
+    }
+  ],
+  "MagnetXZPoss": [
+    3,
+    2
+  ],
+  "MagnetLowY": [
+    0,
+    3
+  ],
+  "FeiSuowallWidth": 2,
+  "FeiSuoropeUp": 3,
+  "FeiSuovirtualOffset": 8,
+  "FeiSuovirtualRadius": 2,
+  "FeiSuomidRadius": 10
+}

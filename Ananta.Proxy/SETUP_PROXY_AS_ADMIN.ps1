@@ -75,23 +75,18 @@ $Domains = @(
 New-Item -ItemType Directory -Force -Path $CertDir, $BackupDir | Out-Null
 
 Write-Host '[1/3] Preparing local proxy CA and TLS certificate...'
-$RootSubject = 'CN=Ananta Local Proxy Root'
-$RootCerPath = Join-Path $CertDir 'Ananta-local-root.cer'
+$RootSubject = 'CN=DRMK Local Proxy Root'
+$RootCerPath = Join-Path $CertDir 'drmk-local-root.cer'
 $CerPath = Join-Path $CertDir "$DnsName.cer"
 $PfxPath = Join-Path $CertDir "$DnsName.pfx"
 $SecurePass = ConvertTo-SecureString -String $PassPlain -AsPlainText -Force
 
-# Older builds used one self-signed CA=TRUE certificate as both trust anchor and
-# HTTPS server certificate. Unity's early downloader accepts that, while a later
-# HTTP stack can reject it during the same boot. Remove only that old Ananta-style
-# self-signed leaf from the machine root store before creating a normal chain.
 foreach ($old in @(Get-ChildItem Cert:\LocalMachine\Root -ErrorAction SilentlyContinue | Where-Object {
     $_.Subject -eq "CN=$DnsName" -and $_.Issuer -eq "CN=$DnsName"
 })) {
     try { Remove-Item -LiteralPath ("Cert:\LocalMachine\Root\{0}" -f $old.Thumbprint) -Force -ErrorAction SilentlyContinue } catch { }
 }
 
-# Reuse one persistent local CA instead of changing trust identity every launch.
 $rootCert = Get-ChildItem Cert:\LocalMachine\My -ErrorAction SilentlyContinue |
     Where-Object {
         $_.Subject -eq $RootSubject -and $_.HasPrivateKey -and $_.NotAfter -gt (Get-Date).AddDays(7)
@@ -103,7 +98,7 @@ if (-not $rootCert) {
     $rootCert = New-SelfSignedCertificate `
         -Type Custom `
         -Subject $RootSubject `
-        -FriendlyName 'Ananta Local Proxy Root' `
+        -FriendlyName 'DRMK Local Proxy Root' `
         -CertStoreLocation 'Cert:\LocalMachine\My' `
         -KeyAlgorithm RSA `
         -KeyLength 3072 `
@@ -123,13 +118,10 @@ if (-not $trustedRoot) {
     Import-Certificate -FilePath $RootCerPath -CertStoreLocation 'Cert:\LocalMachine\Root' | Out-Null
 }
 
-# Always refresh only the leaf. It is CA=FALSE, carries the complete SAN set and
-# is signed by the stable Ananta root above. This is the normal chain expected by
-# stricter TLS clients.
 $leaf = New-SelfSignedCertificate `
     -Type Custom `
     -Subject "CN=$DnsName" `
-    -FriendlyName 'Ananta Local HTTPS Proxy' `
+    -FriendlyName 'DRMK Local HTTPS Proxy' `
     -DnsName (($Domains + 'localhost') | Select-Object -Unique) `
     -Signer $rootCert `
     -CertStoreLocation 'Cert:\LocalMachine\My' `
@@ -148,24 +140,21 @@ $leaf = New-SelfSignedCertificate `
 Export-Certificate -Cert $leaf -FilePath $CerPath -Force | Out-Null
 Export-PfxCertificate -Cert $leaf -FilePath $PfxPath -Password $SecurePass -ChainOption BuildChain -Force | Out-Null
 
-# The proxy only needs the exported leaf PFX; keep the CA private key for future
-# leaf renewal but remove the redundant leaf copy from LocalMachine\My.
 try { Remove-Item -LiteralPath ("Cert:\LocalMachine\My\{0}" -f $leaf.Thumbprint) -Force -ErrorAction SilentlyContinue } catch { }
 
 Write-Host '[2/3] Checking hosts entries...'
 
 $hostsExisted = Test-Path -LiteralPath $HostsPath
 $lines = if ($hostsExisted) { @(Get-Content -LiteralPath $HostsPath -ErrorAction Stop) } else { @() }
-# Keep every line that is NOT one of our managed-domain entries (preserves the
-# user's own custom hosts entries untouched).
+
 $kept = foreach ($line in $lines) {
     $managed = $false
     $trimmed = ([string]$line).Trim()
     if ($trimmed -and -not $trimmed.StartsWith('#')) {
-        # Remove any pre-existing mapping for one of our managed domains,
-        # regardless of IP (127.0.0.1, ::1, stale LAN/VPN address, etc.).
-        # Duplicate/conflicting hosts entries are enough to send UniSDK to the
-        # real mgbsdk endpoint and produce login code 220.
+        
+        
+        
+        
         $tokens = @($trimmed -split '\s+' | Where-Object { $_ -and -not $_.StartsWith('#') })
         if ($tokens.Count -ge 2) {
             foreach ($domain in $Domains) {
@@ -181,20 +170,17 @@ $kept = foreach ($line in $lines) {
 
 $out = @($kept)
 foreach ($domain in $Domains) {
-    $out += "127.0.0.1 $domain # Ananta-ps local proxy"
+    $out += "127.0.0.1 $domain # drmk-ps local proxy"
 }
 
-# IDEMPOTENT: only touch the hosts file if it would actually change. This stops the
-# "rewrite + new backup + flushdns on every run" behavior. Compare the would-be
-# content against the current content (ignoring trailing blank lines / CRLF).
 $desired = ($out -join "`n").TrimEnd()
 $currentContent = (($lines -join "`n")).TrimEnd()
 
 if ($desired -eq $currentContent) {
     Write-Host '   hosts entries are already correct - no changes and no new backup.'
 } else {
-    # Back up ONCE per distinct previous state (skip if an identical backup already exists).
-    $existingBackups = Get-ChildItem -Path $BackupDir -Filter 'hosts-before-Ananta-*.txt' -ErrorAction SilentlyContinue
+    
+    $existingBackups = Get-ChildItem -Path $BackupDir -Filter 'hosts-before-drmk-*.txt' -ErrorAction SilentlyContinue
     $alreadyBackedUp = $false
     foreach ($b in $existingBackups) {
         if (((Get-Content -LiteralPath $b.FullName -Raw -ErrorAction SilentlyContinue)).TrimEnd() -eq $currentContent) {
@@ -202,7 +188,7 @@ if ($desired -eq $currentContent) {
         }
     }
     if ($hostsExisted -and -not $alreadyBackedUp) {
-        $backup = Join-Path $BackupDir ("hosts-before-Ananta-{0}.txt" -f (Get-Date -Format 'yyyyMMdd-HHmmss'))
+        $backup = Join-Path $BackupDir ("hosts-before-drmk-{0}.txt" -f (Get-Date -Format 'yyyyMMdd-HHmmss'))
         Copy-Item -LiteralPath $HostsPath -Destination $backup -Force
         Write-Host "   Hosts backup: $backup"
     } elseif (-not $hostsExisted) {

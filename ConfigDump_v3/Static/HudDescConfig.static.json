@@ -1,0 +1,1361 @@
+{
+  "GRAPPLE_BTNCfg": {
+    "Id": 7,
+    "parent": "UniqueSkillProtagonistStore",
+    "refPath": "grappleBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 8,
+    "TextId": 482,
+    "Importance": 1
+  },
+  "JUMP_SWING_BTNCfg": {
+    "Id": 8,
+    "parent": "CoreHudCharacterControlStore",
+    "refPath": "jumpSwingBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 7,
+    "TextId": 430,
+    "Importance": 1
+  },
+  "HIGH_SPEED_BTNCfg": {
+    "Id": 9,
+    "parent": "CoreHudCharacterControlStore",
+    "refPath": "highSpeedBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "DODGE_BTNCfg": {
+    "Id": 10,
+    "parent": "CoreHudCharacterControlStore",
+    "refPath": "dodgeBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 6,
+    "TextId": 651,
+    "Importance": 1
+  },
+  "NORMAL_ATTACK_BTNCfg": {
+    "Id": 11,
+    "parent": "CoreHudCharacterControlStore",
+    "refPath": "normalAttackBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 1,
+    "TextId": 529,
+    "Importance": 2
+  },
+  "MIND_POWER_BTNCfg": {
+    "Id": 12,
+    "parent": "CoreHudCharacterControlStore",
+    "refPath": "mindPowerBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 4,
+    "TextId": 356,
+    "Importance": 2
+  },
+  "SPECIAL_BTNCfg": {
+    "Id": 13,
+    "parent": "CoreHudCharacterControlStore",
+    "refPath": "specialBtnRoot",
+    "childRefPath": "skillBtn",
+    "ButtonInfoEnum": 2,
+    "TextId": 647,
+    "Importance": 2
+  },
+  "ULT_BTNCfg": {
+    "Id": 14,
+    "parent": "CoreHudCharacterControlStore",
+    "refPath": "ultBtnRoot",
+    "childRefPath": "skillBtn",
+    "ButtonInfoEnum": 3,
+    "TextId": 648,
+    "Importance": 2
+  },
+  "DROP_BTNCfg": {
+    "Id": 15,
+    "parent": "CoreHudCharacterControlStore",
+    "refPath": "dropBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 9,
+    "TextId": 339,
+    "Importance": 1
+  },
+  "MAGNET_BTNCfg": {
+    "Id": 16,
+    "parent": "CoreHudCharacterControlStore",
+    "refPath": "magnetBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 10,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "PUT_DOWN_BTNCfg": {
+    "Id": 17,
+    "parent": "CoreHudCharacterControlStore",
+    "refPath": "putDownBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 11,
+    "TextId": 233,
+    "Importance": 2
+  },
+  "SYSTEM_TEST_BTNCfg": {
+    "Id": 29,
+    "parent": "CoreHudSystemControlStore",
+    "refPath": "testBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "SYSTEM_TEAM_BTNCfg": {
+    "Id": 30,
+    "parent": "CoreHudSystemControlStore",
+    "refPath": "teamBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "SYSTEM_PACK_BTNCfg": {
+    "Id": 31,
+    "parent": "CoreHudSystemControlStore",
+    "refPath": "backPackBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "SYSTEM_PHONE_BTNCfg": {
+    "Id": 33,
+    "parent": "CoreHudSystemControlStore",
+    "refPath": "phoneBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "SYSTEM_BABA_BTNCfg": {
+    "Id": 34,
+    "parent": "CoreHudSystemControlStore",
+    "refPath": "babaBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "SYSTEM_SCAN_BTNCfg": {
+    "Id": 35,
+    "parent": "CoreHudSystemControlStore",
+    "refPath": "scanBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "SYSTEM_DUN_DATA_BTNCfg": {
+    "Id": 36,
+    "parent": "CoreHudSystemControlStore",
+    "refPath": "dungeonDataBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "SYSTEM_DUN_CHA_BTNCfg": {
+    "Id": 37,
+    "parent": "CoreHudSystemControlStore",
+    "refPath": "dungeonChallengeBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "SYSTEM_EXIT_BTNCfg": {
+    "Id": 38,
+    "parent": "CoreHudSystemControlStore",
+    "refPath": "exitBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "MINI_MAPCfg": {
+    "Id": 40,
+    "parent": "MiniMapPanelStore",
+    "refPath": "bindWidget",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "SYSTEM_GUIDE_INFO_BTNCfg": {
+    "Id": 41,
+    "parent": "CoreHudSystemControlStore",
+    "refPath": "guideInfoBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "MAPCfg": {
+    "Id": 42,
+    "parent": "MiniMapPanelStore",
+    "refPath": "mainBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "SYSTEM_CHAR_SWITCH_BTNCfg": {
+    "Id": 43,
+    "parent": "CoreHudSystemControlStore",
+    "refPath": "characterSwitchBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "PROPSHEELS_BTNCfg": {
+    "Id": 44,
+    "parent": "CoreHudCharacterControlStore",
+    "refPath": "ammunitionRoot",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "MOTIONACTION_BTNCfg": {
+    "Id": 45,
+    "parent": "CoreHudSystemControlStore",
+    "refPath": "motionActionBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "GPSCfg": {
+    "Id": 47,
+    "parent": "HudGpsPanelStore",
+    "refPath": "bindWidget",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "MOTO_BTNCfg": {
+    "Id": 48,
+    "parent": "UniqueSkillTaFeiStore",
+    "refPath": "motoBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 24,
+    "TextId": 502,
+    "Importance": 1
+  },
+  "NON_DRIVER_OUT_OF_CAR_BTNCfg": {
+    "Id": 1,
+    "parent": "DriveControlNonDriverStore",
+    "refPath": "outOfCarBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 184,
+    "Importance": 2
+  },
+  "DRIVER_OUT_OF_CAR_BTNCfg": {
+    "Id": 3,
+    "parent": "DriveControlDriverStore",
+    "refPath": "outOfCarBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "OUT_OF_FREEZE_BTNCfg": {
+    "Id": 5,
+    "parent": "DriveControlDriverStore",
+    "refPath": "outOfFreezeBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "RING_BELL_BTNCfg": {
+    "Id": 6,
+    "parent": "DriveControlDriverStore",
+    "refPath": "ringBellBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "LEFT_BTNCfg": {
+    "Id": 18,
+    "parent": "DriveControlDriverStore",
+    "refPath": "leftBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "RIGHT_BTNCfg": {
+    "Id": 28,
+    "parent": "DriveControlDriverStore",
+    "refPath": "rightBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "FORWARD_BTNCfg": {
+    "Id": 32,
+    "parent": "DriveControlDriverStore",
+    "refPath": "forwardBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "BACKWARD_BTNCfg": {
+    "Id": 39,
+    "parent": "DriveControlDriverStore",
+    "refPath": "backwardBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "DRIFT_BTNCfg": {
+    "Id": 49,
+    "parent": "DriveControlDriverStore",
+    "refPath": "driftBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 185,
+    "Importance": 2
+  },
+  "FORWARD_BTN_PHONECfg": {
+    "Id": 50,
+    "parent": "DriveControlDriverStore",
+    "refPath": "forwardBtnPhone",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "BACKWARD_BTN_PHONECfg": {
+    "Id": 51,
+    "parent": "DriveControlDriverStore",
+    "refPath": "backwardBtnPhone",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "RIGHT_BTN_PHONECfg": {
+    "Id": 52,
+    "parent": "DriveControlDriverStore",
+    "refPath": "rightBtnPhone",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "LEFT_BTN_PHONECfg": {
+    "Id": 53,
+    "parent": "DriveControlDriverStore",
+    "refPath": "leftBtnPhone",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "PROFESSION_SKILL_BTNCfg": {
+    "Id": 54,
+    "parent": "DriveControlDriverStore",
+    "refPath": "professionSkillBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 1
+  },
+  "LINK_ENTRANCE_BTNCfg": {
+    "Id": 19,
+    "parent": "CoreHudSystemControlStore",
+    "refPath": "LinkEntranceBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "ROBOTDOG_RECALL_BTNCfg": {
+    "Id": 55,
+    "parent": "RobotDogControlsStore",
+    "refPath": "btnRecall",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 429,
+    "Importance": 1
+  },
+  "CHARACTER_SWITCH_BTNCfg": {
+    "Id": 20,
+    "parent": "CoreHudSystemControlStore",
+    "refPath": "characterSwitchBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "SYS_CIRCLE_BTNCfg": {
+    "Id": 21,
+    "parent": "CoreHudSystemControlStore",
+    "refPath": "sysCircleBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "DLC_DOWN_LOAD_BTNCfg": {
+    "Id": 22,
+    "parent": "CoreHudSystemControlStore",
+    "refPath": "dlcDownLoadBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "CAR_SUMMON_BTNCfg": {
+    "Id": 23,
+    "parent": "CoreHudSystemControlStore",
+    "refPath": "carSummonBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "UNLOCK_BTNCfg": {
+    "Id": 2,
+    "parent": "CoreHudDriveTowedVehicleStore",
+    "refPath": "unlockBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "ROBOTDOG_SWITCHCONTROLS_BTNCfg": {
+    "Id": 56,
+    "parent": "RobotDogControlsStore",
+    "refPath": "btnSwitchControl",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 487,
+    "Importance": 1
+  },
+  "SYSTEM_ACTIVITY_BTNCfg": {
+    "Id": 57,
+    "parent": "CoreHudSystemControlStore",
+    "refPath": "activityBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "WING_FLY_BTNCfg": {
+    "Id": 24,
+    "parent": "CostumWingSuitStore",
+    "refPath": "wingFlyBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "MOTO_SPEED_UP_BTNCfg": {
+    "Id": 26,
+    "parent": "UniqueSkillTaFeiStore",
+    "refPath": "motoSpeedUpBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 42,
+    "TextId": 421,
+    "Importance": 1
+  },
+  "AIR_DASH_BTNCfg": {
+    "Id": 25,
+    "parent": "UniqueSkillProtagonistStore",
+    "refPath": "airDashBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 1
+  },
+  "GEAR_SWITCH_BTNCfg": {
+    "Id": 60,
+    "parent": "RobotFlyerControlsStore",
+    "refPath": "btnGearSwitch",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "FEEDBACK_BTNCfg": {
+    "Id": 61,
+    "parent": "CoreHudSystemControlStore",
+    "refPath": "feedbackBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "SUMMON_WHEEL_BTNCfg": {
+    "Id": 27,
+    "parent": "UniqueSkillJiaMuStore",
+    "refPath": "summonWheelBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 660,
+    "Importance": 1
+  },
+  "MILKCAR_BTNCfg": {
+    "Id": 62,
+    "parent": "CoreHudSystemControlStore",
+    "refPath": "milkVehicleBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "UP_BTNCfg": {
+    "Id": 46,
+    "parent": "UniqueSkillDiLaStore",
+    "refPath": "upBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "DOWN_BTNCfg": {
+    "Id": 58,
+    "parent": "UniqueSkillDiLaStore",
+    "refPath": "downBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "LAND_BTNCfg": {
+    "Id": 59,
+    "parent": "UniqueSkillDiLaStore",
+    "refPath": "landBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "CHAR_HPBARCfg": {
+    "Id": 64,
+    "parent": "CoreHudCharacterPartStore",
+    "refPath": "playerHpBar",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "CHAR_ENERGYBARCfg": {
+    "Id": 65,
+    "parent": "CoreHudCharacterPartStore",
+    "refPath": "weaponFightResHUDRoot",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "PROFESSION_SKILL_BTN_MOBILECfg": {
+    "Id": 66,
+    "parent": "DriveControlDriverStore",
+    "refPath": "professionSkillBtnMobile",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 1
+  },
+  "KICK_OFF_BTNCfg": {
+    "Id": 68,
+    "parent": "CoreHudCharacterControlStore",
+    "refPath": "kickOffBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 1
+  },
+  "ULT_OTHER_BTNCfg": {
+    "Id": 69,
+    "parent": "CoreHudCharacterControlStore",
+    "refPath": "ultBtnRoot",
+    "childRefPath": "normalBtn",
+    "ButtonInfoEnum": 15,
+    "TextId": 0,
+    "Importance": 2
+  },
+  "SPECIAL_OTHER_BTNCfg": {
+    "Id": 70,
+    "parent": "CoreHudCharacterControlStore",
+    "refPath": "specialBtnRoot",
+    "childRefPath": "normalBtn",
+    "ButtonInfoEnum": 14,
+    "TextId": 176,
+    "Importance": 2
+  },
+  "BLOCK_BTNCfg": {
+    "Id": 71,
+    "parent": "CoreHudCharacterControlStore",
+    "refPath": "heavyAttackBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 5,
+    "TextId": 646,
+    "Importance": 2
+  },
+  "DIVE_BTNCfg": {
+    "Id": 72,
+    "parent": "CoreHudCharacterControlStore",
+    "refPath": "ctrlButton",
+    "childRefPath": "",
+    "ButtonInfoEnum": 13,
+    "TextId": 420,
+    "Importance": 1
+  },
+  "HIGH_BTNCfg": {
+    "Id": 73,
+    "parent": "BengdiGamePanelStore",
+    "refPath": "highDiscoButton",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 1
+  },
+  "DANCE_BTNCfg": {
+    "Id": 74,
+    "parent": "BengdiGamePanelStore",
+    "refPath": "normalDiscoButton",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 1
+  },
+  "OUTOFFREEZE_BTNCfg": {
+    "Id": 75,
+    "parent": "DriveControlDriverStore",
+    "refPath": "outOfFreezeBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 2
+  },
+  "DRIVEVIEW_BTNCfg": {
+    "Id": 76,
+    "parent": "DriveControlDriverStore",
+    "refPath": "viewBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 2
+  },
+  "HORN_BTNCfg": {
+    "Id": 77,
+    "parent": "DriveControlDriverStore",
+    "refPath": "hornBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 2
+  },
+  "OUFOFCAR_BTNCfg": {
+    "Id": 78,
+    "parent": "DriveControlDriverStore",
+    "refPath": "outOfCarBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 2
+  },
+  "CONVERTIBLE_BTNCfg": {
+    "Id": 79,
+    "parent": "DriveControlDriverStore",
+    "refPath": "convertibleBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 1
+  },
+  "AUTODRIVE_BTNCfg": {
+    "Id": 80,
+    "parent": "DriveControlDriverStore",
+    "refPath": "autoDriveBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 1
+  },
+  "OUFOFCARNONDRIVER_BTNCfg": {
+    "Id": 81,
+    "parent": "DriveControlNonDriverStore",
+    "refPath": "outOfCarBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 2
+  },
+  "BTN_RECALLCfg": {
+    "Id": 63,
+    "parent": "RobotFlyerControlsStore",
+    "refPath": "btnRecall",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 429,
+    "Importance": 1
+  },
+  "COSTUME_WINGSUITCfg": {
+    "Id": 82,
+    "parent": "CostumWingSuitStore",
+    "refPath": "wingFlyBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 1
+  },
+  "NORMAL_ATTACK_LEFTBTNCfg": {
+    "Id": 83,
+    "parent": "CoreHudCharacterControlStore",
+    "refPath": "leftShootBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 2
+  },
+  "CHAR_PROFESSION_SKILL_BTNCfg": {
+    "Id": 84,
+    "parent": "CoreHudCharacterControlStore",
+    "refPath": "professionSkillBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 1
+  },
+  "ROBOTFLYER_SWITCHCONTROLS_BTNCfg": {
+    "Id": 86,
+    "parent": "RobotFlyerControlsStore",
+    "refPath": "btnSwitchControl",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 487,
+    "Importance": 1
+  },
+  "HACKER_BTN_CARCfg": {
+    "Id": 87,
+    "parent": "DriveControlDriverStore.UniqueSkillHackStore",
+    "refPath": "skillBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 1
+  },
+  "ON_BTNCfg": {
+    "Id": 67,
+    "parent": "CostumNormalStore",
+    "refPath": "onBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 1
+  },
+  "OFF_BTNCfg": {
+    "Id": 85,
+    "parent": "CostumNormalStore",
+    "refPath": "offBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 1
+  },
+  "TOWEDVEHICLE_UP_BTNCfg": {
+    "Id": 88,
+    "parent": "CoreHudDriveTowedVehicleStore",
+    "refPath": "upBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 285,
+    "Importance": 1
+  },
+  "TOWEDVEHICLE_DOWN_BTNCfg": {
+    "Id": 90,
+    "parent": "CoreHudDriveTowedVehicleStore",
+    "refPath": "downBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 284,
+    "Importance": 1
+  },
+  "TOWEDVEHICLE_UNLOCK_BTNCfg": {
+    "Id": 91,
+    "parent": "CoreHudDriveTowedVehicleStore",
+    "refPath": "unlockBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 283,
+    "Importance": 1
+  },
+  "WATER_BTNCfg": {
+    "Id": 92,
+    "parent": "CoreHudDriveFireEnginesStore",
+    "refPath": "waterBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 286,
+    "Importance": 1
+  },
+  "POLICE_LIGHT_SWITCH_BTNCfg": {
+    "Id": 97,
+    "parent": "CoreHudDrivePoliceCarStore",
+    "refPath": "policeLightSwitchBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 267,
+    "Importance": 1
+  },
+  "POLICE_SIREN_SWITCH_BTNCfg": {
+    "Id": 98,
+    "parent": "CoreHudDrivePoliceCarStore",
+    "refPath": "policeSirenSwitchBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 269,
+    "Importance": 1
+  },
+  "POLICE_HORN_BTNCfg": {
+    "Id": 99,
+    "parent": "CoreHudDrivePoliceCarStore",
+    "refPath": "policeHornBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 278,
+    "Importance": 1
+  },
+  "POLICE_GUIDE_TOCfg": {
+    "Id": 100,
+    "parent": "CoreHudDrivePoliceCarStore",
+    "refPath": "policeGuideTo",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 488,
+    "Importance": 1
+  },
+  "VEHICLECOMBAT_NORMAL_ATTACK_BTNCfg": {
+    "Id": 101,
+    "parent": "CoreHudDriveBattleStore",
+    "refPath": "normalAttackBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 97,
+    "Importance": 2
+  },
+  "VEHICLECOMBAT_MOUSE_RIGHTCfg": {
+    "Id": 93,
+    "parent": "CoreHudDriveBattleStore",
+    "refPath": "mouseRight",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 265,
+    "Importance": 2
+  },
+  "VEHICLECOMBAT_LEFT_SHOOT_BTNCfg": {
+    "Id": 94,
+    "parent": "CoreHudDriveBattleStore",
+    "refPath": "leftShootBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 97,
+    "Importance": 2
+  },
+  "HELICOPTER_OUT_OF_DRONE_BTNCfg": {
+    "Id": 102,
+    "parent": "CoreHudHelicopterControlStore",
+    "refPath": "outOfDroneBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 184,
+    "Importance": 1
+  },
+  "MOTO_FORWARD_BTNCfg": {
+    "Id": 103,
+    "parent": "CoreHudMotoControlStore",
+    "refPath": "forwardBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 372,
+    "Importance": 1
+  },
+  "MOTO_BACKWARD_BTNCfg": {
+    "Id": 104,
+    "parent": "CoreHudMotoControlStore",
+    "refPath": "backwardBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 371,
+    "Importance": 1
+  },
+  "MOTO_VIEW_BTNCfg": {
+    "Id": 105,
+    "parent": "CoreHudMotoControlStore",
+    "refPath": "viewBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 63,
+    "Importance": 2
+  },
+  "MOTO_OUT_OF_FREEZE_BTNCfg": {
+    "Id": 106,
+    "parent": "CoreHudMotoControlStore",
+    "refPath": "outOfFreezeBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 110,
+    "Importance": 1
+  },
+  "MOTO_DRIFT_BTNCfg": {
+    "Id": 107,
+    "parent": "CoreHudMotoControlStore",
+    "refPath": "driftBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 730,
+    "Importance": 2
+  },
+  "OUT_OF_MOTO_BTNCfg": {
+    "Id": 108,
+    "parent": "CoreHudMotoControlStore",
+    "refPath": "outOfMotoBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 184,
+    "Importance": 1
+  },
+  "OUT_OF_BOAT_BTNCfg": {
+    "Id": 109,
+    "parent": "CoreHudBoatControlStore",
+    "refPath": "outOfBoatBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 184,
+    "Importance": 1
+  },
+  "BOAT_VIEW_BTNCfg": {
+    "Id": 110,
+    "parent": "CoreHudBoatControlStore",
+    "refPath": "viewBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 63,
+    "Importance": 2
+  },
+  "OUT_OF_HANDBOAT_BTNCfg": {
+    "Id": 111,
+    "parent": "CoreHudHandBoatControlStore",
+    "refPath": "outOfBoatBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 184,
+    "Importance": 1
+  },
+  "ROBOT_DOG_BTN_NORMAL_ATTACKCfg": {
+    "Id": 112,
+    "parent": "RobotDogControlsStore",
+    "refPath": "btnNormalAttack",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 481,
+    "Importance": 2
+  },
+  "ROBOT_DOG_BTN_CROUCHCfg": {
+    "Id": 113,
+    "parent": "RobotDogControlsStore",
+    "refPath": "btnCrouch",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 483,
+    "Importance": 1
+  },
+  "ROBOT_DOG_BTN_DODGECfg": {
+    "Id": 114,
+    "parent": "RobotDogControlsStore",
+    "refPath": "btnDodge",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 188,
+    "Importance": 1
+  },
+  "ROBOT_DOG_BTN_SWITCH_VIEWCfg": {
+    "Id": 116,
+    "parent": "RobotDogControlsStore",
+    "refPath": "btnSwitchView",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 63,
+    "Importance": 2
+  },
+  "ROBOT_DOG_BTN_TAKE_PHOTOCfg": {
+    "Id": 117,
+    "parent": "RobotDogControlsStore",
+    "refPath": "btnTakePhoto",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 112,
+    "Importance": 2
+  },
+  "ROBOT_DOG_BTN_SKILL_MOBILECfg": {
+    "Id": 118,
+    "parent": "RobotDogControlsStore",
+    "refPath": "btnSkillMobile",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 731,
+    "Importance": 1
+  },
+  "ROBOT_DOG_BTN_JUMPCfg": {
+    "Id": 119,
+    "parent": "RobotDogControlsStore",
+    "refPath": "btnJump",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 430,
+    "Importance": 2
+  },
+  "ROBOTSPIDER_BTN_RECALLCfg": {
+    "Id": 126,
+    "parent": "RobotSpiderControlStore",
+    "refPath": "btnRecall",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 429,
+    "Importance": 1
+  },
+  "ROBOTSPIDER_BTN_JUMPCfg": {
+    "Id": 127,
+    "parent": "RobotSpiderControlStore",
+    "refPath": "btnJump",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 430,
+    "Importance": 2
+  },
+  "ROBOTSPIDER_BTN_GRAPPLECfg": {
+    "Id": 120,
+    "parent": "RobotSpiderControlStore",
+    "refPath": "btnGrapple",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 482,
+    "Importance": 2
+  },
+  "ROBOTSPIDER_BTN_RUSHCfg": {
+    "Id": 121,
+    "parent": "RobotSpiderControlStore",
+    "refPath": "btnRush",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 188,
+    "Importance": 1
+  },
+  "ROBOTSPIDER_BTN_SWITCH_CONTROLCfg": {
+    "Id": 122,
+    "parent": "RobotSpiderControlStore",
+    "refPath": "btnSwitchControl",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 487,
+    "Importance": 1
+  },
+  "ROBOTSPIDER_BTN_SWITCH_VIEWCfg": {
+    "Id": 123,
+    "parent": "RobotSpiderControlStore",
+    "refPath": "btnSwitchView",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 63,
+    "Importance": 2
+  },
+  "ROBOTSPIDER_BTN_TAKE_PHOTOCfg": {
+    "Id": 124,
+    "parent": "RobotSpiderControlStore",
+    "refPath": "btnTakePhoto",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 112,
+    "Importance": 2
+  },
+  "ROBOTFLYER_BTN_UPCfg": {
+    "Id": 133,
+    "parent": "RobotFlyerControlsStore",
+    "refPath": "btnUp",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 422,
+    "Importance": 2
+  },
+  "ROBOTFLYER_BTN_DOWNCfg": {
+    "Id": 132,
+    "parent": "RobotFlyerControlsStore",
+    "refPath": "btnDown",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 423,
+    "Importance": 2
+  },
+  "ROBOTFLYER_BTN_HITCHCfg": {
+    "Id": 128,
+    "parent": "RobotFlyerControlsStore",
+    "refPath": "btnHitch",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 829,
+    "Importance": 1
+  },
+  "ROBOTFLYER_BTN_SWITCH_VIEWCfg": {
+    "Id": 130,
+    "parent": "RobotFlyerControlsStore",
+    "refPath": "btnSwitchView",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 63,
+    "Importance": 2
+  },
+  "ROBOTFLYER_BTN_TAKE_PHOTOCfg": {
+    "Id": 131,
+    "parent": "RobotFlyerControlsStore",
+    "refPath": "btnTakePhoto",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 112,
+    "Importance": 2
+  },
+  "ROBOTFLYER_BTN_DROPCfg": {
+    "Id": 134,
+    "parent": "RobotFlyerControlsStore",
+    "refPath": "btnDrop",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 428,
+    "Importance": 1
+  },
+  "ROBOTCONTROLS_BTN_RECALLCfg": {
+    "Id": 135,
+    "parent": "RobotCleanerControlsStore",
+    "refPath": "btnRecall",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 429,
+    "Importance": 1
+  },
+  "ROBOTCONTROLS_BTN_SWITCH_CONTROLCfg": {
+    "Id": 136,
+    "parent": "RobotCleanerControlsStore",
+    "refPath": "btnSwitchControl",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 487,
+    "Importance": 1
+  },
+  "ROBOTCONTROLS_BTN_SWITCH_VIEWCfg": {
+    "Id": 137,
+    "parent": "RobotCleanerControlsStore",
+    "refPath": "btnSwitchView",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 63,
+    "Importance": 2
+  },
+  "POLICE_INFOCfg": {
+    "Id": 138,
+    "parent": "CoreHudSystemControlStore",
+    "refPath": "policeInfo",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "RADIO_BTNCfg": {
+    "Id": 89,
+    "parent": "CoreHudSystemControlStore",
+    "refPath": "radioBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "MAIN_JOYSTICKCfg": {
+    "Id": 139,
+    "parent": "MainJoystickPanelStore",
+    "refPath": "bindWidget",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "MOTO_LIGHT_BTNCfg": {
+    "Id": 95,
+    "parent": "UniqueSkillTaFeiStore",
+    "refPath": "motoLightBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 41,
+    "TextId": 505,
+    "Importance": 1
+  },
+  "WING_RUSH_BTNCfg": {
+    "Id": 96,
+    "parent": "CostumWingSuitStore",
+    "refPath": "wingRushBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 43,
+    "TextId": 188,
+    "Importance": 1
+  },
+  "Dive_SpeedUpCfg": {
+    "Id": 141,
+    "parent": "CoreHudCharacterControlStore",
+    "refPath": "diveSpeedUpBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 40,
+    "TextId": 188,
+    "Importance": 1
+  },
+  "STORAGE_BOX_MENU_BTNCfg": {
+    "Id": 115,
+    "parent": "CoreHudSystemControlStore",
+    "refPath": "storageBoxMenuBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "BASE_OUT_OF_VEHICLE_BTNCfg": {
+    "Id": 146,
+    "parent": "BaseVehicleControllerStore",
+    "refPath": "outOfVehicleBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "BASE_RESET_BTNCfg": {
+    "Id": 147,
+    "parent": "BaseVehicleControllerStore",
+    "refPath": "resetBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "BASE_VIEW_BTNCfg": {
+    "Id": 148,
+    "parent": "BaseVehicleControllerStore",
+    "refPath": "viewBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 2
+  },
+  "BASE_AUTODRIVE_BTNCfg": {
+    "Id": 149,
+    "parent": "BaseVehicleControllerStore",
+    "refPath": "autoDriveBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 1
+  },
+  "BASE_SWITCH_SEAT_BTNCfg": {
+    "Id": 150,
+    "parent": "BaseVehicleControllerStore",
+    "refPath": "switchSeatBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "BTN_OUT_OF_RIDINGCfg": {
+    "Id": 151,
+    "parent": "GameplayMountPanelStore",
+    "refPath": "btnOutOfRiding",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "UMBRELLA_BTNCfg": {
+    "Id": 152,
+    "parent": "CoreHudCharacterControlStore",
+    "refPath": "umbrellaBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 45,
+    "TextId": 877,
+    "Importance": 1
+  },
+  "SIGNAL_CIRCLE_BTNCfg": {
+    "Id": 153,
+    "parent": "OnlineControlsStore",
+    "refPath": "SignalCircleBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "MOUNT_OUT_OF_RIDINGCfg": {
+    "Id": 154,
+    "parent": "GameplayMountPanelStore",
+    "refPath": "btnOutOfRiding",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 589,
+    "Importance": 1
+  },
+  "TEMPO_SUMMON_CIRCLE_BTNCfg": {
+    "Id": 155,
+    "parent": "GameplayQteStore",
+    "refPath": "debugAgentCircleBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "WAVE_BTNCfg": {
+    "Id": 156,
+    "parent": "GameplaySurfingPanelStore",
+    "refPath": "waveBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "SHOP_BTNCfg": {
+    "Id": 157,
+    "parent": "CoreHudSystemControlStore",
+    "refPath": "shopBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "GIFT_RECEIVE_BTNCfg": {
+    "Id": 158,
+    "parent": "CoreHudSystemControlStore",
+    "refPath": "giftReceiveBtn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  },
+  "N2_BTNCfg": {
+    "Id": 159,
+    "parent": "DriveControlDriverStore",
+    "refPath": "n2Btn",
+    "childRefPath": "",
+    "ButtonInfoEnum": 0,
+    "TextId": 0,
+    "Importance": 4
+  }
+}

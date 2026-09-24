@@ -1,0 +1,280 @@
+{
+  "_class": "GpsBigMapComponentsConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 21,
+  "records": [
+    {
+      "Id": 1,
+      "RefName": "SwitchBigMapSpirit",
+      "Cls": "BigMapComp_SwitchSpirit",
+      "RequireState": [
+        2,
+        15
+      ],
+      "ConflictState": [
+        22,
+        2,
+        15
+      ],
+      "SystemUnlock": [
+        232
+      ]
+    },
+    {
+      "Id": 2,
+      "RefName": "FilterMenu",
+      "Cls": "BigMapComp_FilterMenu",
+      "RequireState": [
+        2
+      ],
+      "ConflictState": [
+        11
+      ],
+      "SystemUnlock": []
+    },
+    {
+      "Id": 3,
+      "RefName": "",
+      "Cls": "BigMapComp_TaxiTargetList",
+      "RequireState": [
+        11
+      ],
+      "ConflictState": [],
+      "SystemUnlock": []
+    },
+    {
+      "Id": 4,
+      "RefName": "FactionOverride",
+      "Cls": "BigMapComp_FactionOverride",
+      "RequireState": [
+        13
+      ],
+      "ConflictState": [
+        31
+      ],
+      "SystemUnlock": [
+        143
+      ]
+    },
+    {
+      "Id": 5,
+      "RefName": "",
+      "Cls": "BigMapComp_SwitchMapMode",
+      "RequireState": [
+        2
+      ],
+      "ConflictState": [
+        11,
+        12,
+        18,
+        22,
+        23
+      ],
+      "SystemUnlock": []
+    },
+    {
+      "Id": 6,
+      "RefName": "",
+      "Cls": "BigMapComp_AreaSelector",
+      "RequireState": [
+        15
+      ],
+      "ConflictState": [
+        4
+      ],
+      "SystemUnlock": []
+    },
+    {
+      "Id": 7,
+      "RefName": "",
+      "Cls": "BigMapComp_Money",
+      "RequireState": [
+        2,
+        11
+      ],
+      "ConflictState": [],
+      "SystemUnlock": []
+    },
+    {
+      "Id": 8,
+      "RefName": "InScreenElementsList",
+      "Cls": "BigMapComp_InScreenElementsList",
+      "RequireState": [
+        2,
+        15,
+        42
+      ],
+      "ConflictState": [
+        22
+      ],
+      "SystemUnlock": []
+    },
+    {
+      "Id": 9,
+      "RefName": "GangsterArea",
+      "Cls": "BigMapComp_GangsterArea",
+      "RequireState": [
+        2,
+        15,
+        31
+      ],
+      "ConflictState": [
+        13
+      ],
+      "SystemUnlock": [
+        144
+      ]
+    },
+    {
+      "Id": 11,
+      "RefName": "RightTopFilterList",
+      "Cls": "BigMapComp_RightTopFilterList",
+      "RequireState": [
+        2,
+        15,
+        41
+      ],
+      "ConflictState": [
+        22
+      ],
+      "SystemUnlock": []
+    },
+    {
+      "Id": 12,
+      "RefName": "NewSwitchMapMode",
+      "Cls": "BigMapComp_NewSwitchMapMode",
+      "RequireState": [
+        2
+      ],
+      "ConflictState": [
+        11,
+        12,
+        18,
+        22,
+        23
+      ],
+      "SystemUnlock": [
+        162
+      ]
+    },
+    {
+      "Id": 13,
+      "RefName": "MobileSwitchMapMode",
+      "Cls": "BigMapComp_MobileSwitchMapMode",
+      "RequireState": [
+        2
+      ],
+      "ConflictState": [
+        11,
+        12,
+        18,
+        22,
+        23,
+        43
+      ],
+      "SystemUnlock": []
+    },
+    {
+      "Id": 101,
+      "RefName": "Tooltip",
+      "Cls": "BigMapComp_Tooltip",
+      "RequireState": [
+        22
+      ],
+      "ConflictState": [],
+      "SystemUnlock": []
+    },
+    {
+      "Id": 103,
+      "RefName": "",
+      "Cls": "BigMapComp_GameTipVisibility",
+      "RequireState": [],
+      "ConflictState": [
+        18
+      ],
+      "SystemUnlock": []
+    },
+    {
+      "Id": 104,
+      "RefName": "LegendOverride",
+      "Cls": "BigMapComp_LegendOverride",
+      "RequireState": [
+        16
+      ],
+      "ConflictState": [],
+      "SystemUnlock": [
+        105
+      ]
+    },
+    {
+      "Id": 105,
+      "RefName": "",
+      "Cls": "BigMapComp_WuxueOverride",
+      "RequireState": [
+        17
+      ],
+      "ConflictState": [],
+      "SystemUnlock": [
+        151
+      ]
+    },
+    {
+      "Id": 106,
+      "RefName": "Racer",
+      "Cls": "BigMapComp_Racer",
+      "RequireState": [
+        19
+      ],
+      "ConflictState": [],
+      "SystemUnlock": [
+        302
+      ]
+    },
+    {
+      "Id": 200,
+      "RefName": "",
+      "Cls": "BigMapComp_CommonView",
+      "RequireState": [
+        15
+      ],
+      "ConflictState": [
+        31,
+        19
+      ],
+      "SystemUnlock": []
+    },
+    {
+      "Id": 201,
+      "RefName": "",
+      "Cls": "BigMapComp_TaxiView",
+      "RequireState": [
+        11
+      ],
+      "ConflictState": [],
+      "SystemUnlock": []
+    },
+    {
+      "Id": 202,
+      "RefName": "MetroView",
+      "Cls": "BigMapComp_MetroView",
+      "RequireState": [
+        12
+      ],
+      "ConflictState": [],
+      "SystemUnlock": []
+    },
+    {
+      "Id": 203,
+      "RefName": "HouseView",
+      "Cls": "BigMapComp_HouseView",
+      "RequireState": [
+        18
+      ],
+      "ConflictState": [],
+      "SystemUnlock": []
+    }
+  ],
+  "_dumpedCount": 21,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

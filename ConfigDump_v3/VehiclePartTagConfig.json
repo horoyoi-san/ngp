@@ -1,0 +1,160 @@
+{
+  "_class": "VehiclePartTagConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 25,
+  "records": [
+    {
+      "Id": 1,
+      "Desc": "body",
+      "Intro": "不变的内饰",
+      "Offset": ""
+    },
+    {
+      "Id": 2,
+      "Desc": "bumper",
+      "Intro": "套件会改的部分",
+      "Offset": "carbody"
+    },
+    {
+      "Id": 3,
+      "Desc": "roof_mesh",
+      "Intro": "车顶挂件mesh",
+      "Offset": ""
+    },
+    {
+      "Id": 4,
+      "Desc": "roof_mat",
+      "Intro": "车顶挂件材质",
+      "Offset": ""
+    },
+    {
+      "Id": 5,
+      "Desc": "disc",
+      "Intro": "刹车盘",
+      "Offset": ""
+    },
+    {
+      "Id": 6,
+      "Desc": "brake",
+      "Intro": "卡钳",
+      "Offset": ""
+    },
+    {
+      "Id": 7,
+      "Desc": "tyre_mesh",
+      "Intro": "胎皮mesh",
+      "Offset": ""
+    },
+    {
+      "Id": 8,
+      "Desc": "tyre_mat",
+      "Intro": "胎皮材质",
+      "Offset": ""
+    },
+    {
+      "Id": 9,
+      "Desc": "rim_mesh",
+      "Intro": "轮毂mesh",
+      "Offset": ""
+    },
+    {
+      "Id": 10,
+      "Desc": "rim_mat",
+      "Intro": "轮毂材质",
+      "Offset": ""
+    },
+    {
+      "Id": 11,
+      "Desc": "color",
+      "Intro": "车漆颜色",
+      "Offset": ""
+    },
+    {
+      "Id": 12,
+      "Desc": "hood",
+      "Intro": "引擎盖",
+      "Offset": "hood_offset"
+    },
+    {
+      "Id": 13,
+      "Desc": "engine",
+      "Intro": "引擎",
+      "Offset": "engine_offset"
+    },
+    {
+      "Id": 14,
+      "Desc": "spoiler",
+      "Intro": "尾翼",
+      "Offset": "spoiler_offset"
+    },
+    {
+      "Id": 15,
+      "Desc": "license_plate",
+      "Intro": "车牌外框",
+      "Offset": "license_r"
+    },
+    {
+      "Id": 16,
+      "Desc": "BrakeColor",
+      "Intro": "卡钳颜色",
+      "Offset": ""
+    },
+    {
+      "Id": 17,
+      "Desc": "exhaust",
+      "Intro": "排气管",
+      "Offset": "exhaust_offset"
+    },
+    {
+      "Id": 18,
+      "Desc": "suit",
+      "Intro": "套件",
+      "Offset": ""
+    },
+    {
+      "Id": 19,
+      "Desc": "body_color",
+      "Intro": "Body颜色",
+      "Offset": ""
+    },
+    {
+      "Id": 20,
+      "Desc": "brake_value",
+      "Intro": "刹车数值",
+      "Offset": ""
+    },
+    {
+      "Id": 21,
+      "Desc": "transmission",
+      "Intro": "传动数值",
+      "Offset": ""
+    },
+    {
+      "Id": 22,
+      "Desc": "body_value",
+      "Intro": "车身",
+      "Offset": ""
+    },
+    {
+      "Id": 23,
+      "Desc": "license_texture",
+      "Intro": "车牌底图",
+      "Offset": ""
+    },
+    {
+      "Id": 24,
+      "Desc": "license_color",
+      "Intro": "车牌字符颜色",
+      "Offset": ""
+    },
+    {
+      "Id": 25,
+      "Desc": "license_country",
+      "Intro": "车牌国家",
+      "Offset": ""
+    }
+  ],
+  "_dumpedCount": 25,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

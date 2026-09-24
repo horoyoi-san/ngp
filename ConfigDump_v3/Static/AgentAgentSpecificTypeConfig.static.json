@@ -1,0 +1,86 @@
+{
+  "DefaultMaleCfg": {
+    "Id": 2,
+    "Name": "男主",
+    "HeadIcon": [
+      28000043
+    ],
+    "HeadBgColor": "F67043",
+    "PhoneId": 0,
+    "VoiceTone": "player##longaotian",
+    "QImageId": 30301404,
+    "SImageId": 28005241,
+    "ImageScaleOffset": [
+      0.560000002,
+      5,
+      -538
+    ],
+    "ProfileId": 0,
+    "PoliceTask": 0,
+    "FightScore": 0,
+    "HasFightTask": false,
+    "DefaultTemplateAgentId": 40140030,
+    "IsUniqueCharacter": true,
+    "profileRewardInteract": []
+  },
+  "DefaultFemaleCfg": {
+    "Id": 3,
+    "Name": "女主",
+    "HeadIcon": [
+      28000042
+    ],
+    "HeadBgColor": "F67043",
+    "PhoneId": 0,
+    "VoiceTone": "youzhi##ziweichen",
+    "QImageId": 30301404,
+    "SImageId": 28005242,
+    "ImageScaleOffset": [
+      0.560000002,
+      5,
+      -539
+    ],
+    "ProfileId": 0,
+    "PoliceTask": 0,
+    "FightScore": 0,
+    "HasFightTask": false,
+    "DefaultTemplateAgentId": 40140031,
+    "IsUniqueCharacter": true,
+    "profileRewardInteract": []
+  },
+  "CatCfg": {
+    "Id": 115,
+    "Name": "猫咪",
+    "HeadIcon": [],
+    "HeadBgColor": "",
+    "PhoneId": 0,
+    "VoiceTone": "",
+    "QImageId": 28000754,
+    "SImageId": 28017589,
+    "ImageScaleOffset": [],
+    "ProfileId": 0,
+    "PoliceTask": 0,
+    "FightScore": 0,
+    "HasFightTask": false,
+    "DefaultTemplateAgentId": 0,
+    "IsUniqueCharacter": false,
+    "profileRewardInteract": []
+  },
+  "DogCfg": {
+    "Id": 116,
+    "Name": "狗",
+    "HeadIcon": [],
+    "HeadBgColor": "",
+    "PhoneId": 0,
+    "VoiceTone": "",
+    "QImageId": 28000754,
+    "SImageId": 28017589,
+    "ImageScaleOffset": [],
+    "ProfileId": 0,
+    "PoliceTask": 0,
+    "FightScore": 0,
+    "HasFightTask": false,
+    "DefaultTemplateAgentId": 0,
+    "IsUniqueCharacter": false,
+    "profileRewardInteract": []
+  }
+}

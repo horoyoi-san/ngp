@@ -1,0 +1,648 @@
+{
+  "_class": "CollectionBlockConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 31,
+  "records": [
+    {
+      "Id": 1,
+      "BlockName": "Veluxity Zone",
+      "BlockLabelPos": [
+        884,
+        2054
+      ],
+      "AdjacentBlocks": [
+        2,
+        4
+      ],
+      "CountryId": 1,
+      "RaidId": 23300888,
+      "DefaultPic": 28001378,
+      "__IDX__BlockName": 33352,
+      "__RAW__BlockName": "",
+      "WeatherVideoMap": [
+        {
+          "WeatherId": 1,
+          "VideoId": 24101010
+        },
+        {
+          "WeatherId": 3,
+          "VideoId": 24101034
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "BlockName": "Downtown",
+      "BlockLabelPos": [
+        2155,
+        2233
+      ],
+      "AdjacentBlocks": [
+        1,
+        3,
+        5
+      ],
+      "CountryId": 1,
+      "RaidId": 23300888,
+      "DefaultPic": 28001386,
+      "__IDX__BlockName": 763,
+      "__RAW__BlockName": "",
+      "WeatherVideoMap": [
+        {
+          "WeatherId": 1,
+          "VideoId": 24101006
+        },
+        {
+          "WeatherId": 3,
+          "VideoId": 24101030
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "BlockName": "Azure Sector",
+      "BlockLabelPos": [
+        3531,
+        2218
+      ],
+      "AdjacentBlocks": [
+        2,
+        5,
+        6
+      ],
+      "CountryId": 1,
+      "RaidId": 23300888,
+      "DefaultPic": 28001390,
+      "__IDX__BlockName": 764,
+      "__RAW__BlockName": "",
+      "WeatherVideoMap": [
+        {
+          "WeatherId": 1,
+          "VideoId": 24101009
+        },
+        {
+          "WeatherId": 3,
+          "VideoId": 24101035
+        }
+      ]
+    },
+    {
+      "Id": 4,
+      "BlockName": "Portview Lane",
+      "BlockLabelPos": [
+        1046,
+        1349
+      ],
+      "AdjacentBlocks": [
+        1,
+        2,
+        5,
+        7
+      ],
+      "CountryId": 1,
+      "RaidId": 23300888,
+      "DefaultPic": 28001379,
+      "__IDX__BlockName": 765,
+      "__RAW__BlockName": "",
+      "WeatherVideoMap": [
+        {
+          "WeatherId": 1,
+          "VideoId": 24101007
+        },
+        {
+          "WeatherId": 3,
+          "VideoId": 24101032
+        }
+      ]
+    },
+    {
+      "Id": 5,
+      "BlockName": "Coastal Zone",
+      "BlockLabelPos": [
+        2594,
+        1393
+      ],
+      "AdjacentBlocks": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "CountryId": 1,
+      "RaidId": 23300888,
+      "DefaultPic": 28001389,
+      "__IDX__BlockName": 766,
+      "__RAW__BlockName": "",
+      "WeatherVideoMap": [
+        {
+          "WeatherId": 1,
+          "VideoId": 24101012
+        },
+        {
+          "WeatherId": 3,
+          "VideoId": 24101031
+        }
+      ]
+    },
+    {
+      "Id": 6,
+      "BlockName": "Future Port",
+      "BlockLabelPos": [
+        3722,
+        1106
+      ],
+      "AdjacentBlocks": [
+        3,
+        5
+      ],
+      "CountryId": 1,
+      "RaidId": 23300888,
+      "DefaultPic": 28001392,
+      "__IDX__BlockName": 54985,
+      "__RAW__BlockName": "",
+      "WeatherVideoMap": [
+        {
+          "WeatherId": 1,
+          "VideoId": 24101008
+        },
+        {
+          "WeatherId": 3,
+          "VideoId": 24101033
+        }
+      ]
+    },
+    {
+      "Id": 7,
+      "BlockName": "砾湾岛",
+      "BlockLabelPos": [
+        -678,
+        -1406
+      ],
+      "AdjacentBlocks": [
+        4
+      ],
+      "CountryId": 1,
+      "RaidId": 23300888,
+      "DefaultPic": 0,
+      "__IDX__BlockName": 4294967295,
+      "__RAW__BlockName": "砾湾岛",
+      "WeatherVideoMap": []
+    },
+    {
+      "Id": 8,
+      "BlockName": "双尾礁群岛",
+      "BlockLabelPos": [
+        3128,
+        4661
+      ],
+      "AdjacentBlocks": [
+        9
+      ],
+      "CountryId": 1,
+      "RaidId": 23300888,
+      "DefaultPic": 0,
+      "__IDX__BlockName": 4294967295,
+      "__RAW__BlockName": "双尾礁群岛",
+      "WeatherVideoMap": []
+    },
+    {
+      "Id": 9,
+      "BlockName": "鲸语群岛",
+      "BlockLabelPos": [
+        5733,
+        2261
+      ],
+      "AdjacentBlocks": [
+        8,
+        10
+      ],
+      "CountryId": 1,
+      "RaidId": 23300888,
+      "DefaultPic": 0,
+      "__IDX__BlockName": 4294967295,
+      "__RAW__BlockName": "鲸语群岛",
+      "WeatherVideoMap": []
+    },
+    {
+      "Id": 10,
+      "BlockName": "灯楼洲岛",
+      "BlockLabelPos": [
+        5019,
+        -2055
+      ],
+      "AdjacentBlocks": [
+        9
+      ],
+      "CountryId": 1,
+      "RaidId": 23300888,
+      "DefaultPic": 0,
+      "__IDX__BlockName": 4294967295,
+      "__RAW__BlockName": "灯楼洲岛",
+      "WeatherVideoMap": []
+    },
+    {
+      "Id": 21,
+      "BlockName": "Wutong District",
+      "BlockLabelPos": [
+        -1837,
+        1884
+      ],
+      "AdjacentBlocks": [
+        24
+      ],
+      "CountryId": 2,
+      "RaidId": 23300999,
+      "DefaultPic": 28001600,
+      "__IDX__BlockName": 93076,
+      "__RAW__BlockName": "",
+      "WeatherVideoMap": [
+        {
+          "WeatherId": 1,
+          "VideoId": 24101014
+        },
+        {
+          "WeatherId": 3,
+          "VideoId": 24101021
+        }
+      ]
+    },
+    {
+      "Id": 22,
+      "BlockName": "Longqi Village",
+      "BlockLabelPos": [
+        -4521,
+        -2728
+      ],
+      "AdjacentBlocks": [
+        23
+      ],
+      "CountryId": 2,
+      "RaidId": 23300999,
+      "DefaultPic": 28001600,
+      "__IDX__BlockName": 93077,
+      "__RAW__BlockName": "",
+      "WeatherVideoMap": [
+        {
+          "WeatherId": 1,
+          "VideoId": 24101014
+        },
+        {
+          "WeatherId": 3,
+          "VideoId": 24101021
+        }
+      ]
+    },
+    {
+      "Id": 23,
+      "BlockName": "Wanning District",
+      "BlockLabelPos": [
+        -3362,
+        -312
+      ],
+      "AdjacentBlocks": [
+        22,
+        24,
+        25
+      ],
+      "CountryId": 2,
+      "RaidId": 23300999,
+      "DefaultPic": 28001600,
+      "__IDX__BlockName": 93078,
+      "__RAW__BlockName": "",
+      "WeatherVideoMap": [
+        {
+          "WeatherId": 1,
+          "VideoId": 24101018
+        },
+        {
+          "WeatherId": 3,
+          "VideoId": 24101024
+        }
+      ]
+    },
+    {
+      "Id": 24,
+      "BlockName": "Westside District",
+      "BlockLabelPos": [
+        -1410,
+        874
+      ],
+      "AdjacentBlocks": [
+        21,
+        23,
+        25,
+        27
+      ],
+      "CountryId": 2,
+      "RaidId": 23300999,
+      "DefaultPic": 28001600,
+      "__IDX__BlockName": 93079,
+      "__RAW__BlockName": "",
+      "WeatherVideoMap": [
+        {
+          "WeatherId": 1,
+          "VideoId": 24101025
+        },
+        {
+          "WeatherId": 3,
+          "VideoId": 24101026
+        }
+      ]
+    },
+    {
+      "Id": 25,
+      "BlockName": "Rui’an New Town",
+      "BlockLabelPos": [
+        -1163,
+        -561
+      ],
+      "AdjacentBlocks": [
+        23,
+        24,
+        26
+      ],
+      "CountryId": 2,
+      "RaidId": 23300999,
+      "DefaultPic": 28001600,
+      "__IDX__BlockName": 93080,
+      "__RAW__BlockName": "",
+      "WeatherVideoMap": [
+        {
+          "WeatherId": 1,
+          "VideoId": 24101017
+        },
+        {
+          "WeatherId": 3,
+          "VideoId": 24101023
+        }
+      ]
+    },
+    {
+      "Id": 26,
+      "BlockName": "Mingpu District",
+      "BlockLabelPos": [
+        177,
+        112
+      ],
+      "AdjacentBlocks": [
+        25,
+        27
+      ],
+      "CountryId": 2,
+      "RaidId": 23300999,
+      "DefaultPic": 28001600,
+      "__IDX__BlockName": 93081,
+      "__RAW__BlockName": "",
+      "WeatherVideoMap": [
+        {
+          "WeatherId": 1,
+          "VideoId": 24101016
+        },
+        {
+          "WeatherId": 3,
+          "VideoId": 24101022
+        }
+      ]
+    },
+    {
+      "Id": 27,
+      "BlockName": "East Harbor District",
+      "BlockLabelPos": [
+        -435,
+        1040
+      ],
+      "AdjacentBlocks": [
+        24,
+        26
+      ],
+      "CountryId": 2,
+      "RaidId": 23300999,
+      "DefaultPic": 28001600,
+      "__IDX__BlockName": 93082,
+      "__RAW__BlockName": "",
+      "WeatherVideoMap": [
+        {
+          "WeatherId": 1,
+          "VideoId": 24101015
+        },
+        {
+          "WeatherId": 3,
+          "VideoId": 24101019
+        }
+      ]
+    },
+    {
+      "Id": 28,
+      "BlockName": "图书馆",
+      "BlockLabelPos": [
+        1622,
+        801
+      ],
+      "AdjacentBlocks": [],
+      "CountryId": 0,
+      "RaidId": 23301277,
+      "DefaultPic": 0,
+      "__IDX__BlockName": 4294967295,
+      "__RAW__BlockName": "图书馆",
+      "WeatherVideoMap": []
+    },
+    {
+      "Id": 29,
+      "BlockName": "写字楼",
+      "BlockLabelPos": [
+        1724,
+        801
+      ],
+      "AdjacentBlocks": [],
+      "CountryId": 0,
+      "RaidId": 23301277,
+      "DefaultPic": 0,
+      "__IDX__BlockName": 4294967295,
+      "__RAW__BlockName": "写字楼",
+      "WeatherVideoMap": []
+    },
+    {
+      "Id": 30,
+      "BlockName": "电玩城",
+      "BlockLabelPos": [
+        1723,
+        690
+      ],
+      "AdjacentBlocks": [],
+      "CountryId": 0,
+      "RaidId": 23301277,
+      "DefaultPic": 0,
+      "__IDX__BlockName": 4294967295,
+      "__RAW__BlockName": "电玩城",
+      "WeatherVideoMap": []
+    },
+    {
+      "Id": 31,
+      "BlockName": "医院",
+      "BlockLabelPos": [
+        1286,
+        665
+      ],
+      "AdjacentBlocks": [],
+      "CountryId": 0,
+      "RaidId": 23301277,
+      "DefaultPic": 0,
+      "__IDX__BlockName": 4294967295,
+      "__RAW__BlockName": "医院",
+      "WeatherVideoMap": []
+    },
+    {
+      "Id": 32,
+      "BlockName": "学校",
+      "BlockLabelPos": [
+        1383,
+        926
+      ],
+      "AdjacentBlocks": [],
+      "CountryId": 0,
+      "RaidId": 23301277,
+      "DefaultPic": 0,
+      "__IDX__BlockName": 4294967295,
+      "__RAW__BlockName": "学校",
+      "WeatherVideoMap": []
+    },
+    {
+      "Id": 33,
+      "BlockName": "汽车旅馆",
+      "BlockLabelPos": [
+        1833,
+        1264
+      ],
+      "AdjacentBlocks": [],
+      "CountryId": 0,
+      "RaidId": 23301277,
+      "DefaultPic": 0,
+      "__IDX__BlockName": 4294967295,
+      "__RAW__BlockName": "汽车旅馆",
+      "WeatherVideoMap": []
+    },
+    {
+      "Id": 34,
+      "BlockName": "地铁枢纽",
+      "BlockLabelPos": [
+        1102,
+        1159
+      ],
+      "AdjacentBlocks": [],
+      "CountryId": 0,
+      "RaidId": 23301277,
+      "DefaultPic": 0,
+      "__IDX__BlockName": 4294967295,
+      "__RAW__BlockName": "地铁枢纽",
+      "WeatherVideoMap": []
+    },
+    {
+      "Id": 35,
+      "BlockName": "仓储超市",
+      "BlockLabelPos": [
+        632,
+        1109
+      ],
+      "AdjacentBlocks": [],
+      "CountryId": 0,
+      "RaidId": 23301277,
+      "DefaultPic": 0,
+      "__IDX__BlockName": 4294967295,
+      "__RAW__BlockName": "仓储超市",
+      "WeatherVideoMap": []
+    },
+    {
+      "Id": 36,
+      "BlockName": "坠机地",
+      "BlockLabelPos": [
+        901,
+        1027
+      ],
+      "AdjacentBlocks": [],
+      "CountryId": 0,
+      "RaidId": 23301277,
+      "DefaultPic": 0,
+      "__IDX__BlockName": 4294967295,
+      "__RAW__BlockName": "坠机地",
+      "WeatherVideoMap": []
+    },
+    {
+      "Id": 37,
+      "BlockName": "废弃聚落",
+      "BlockLabelPos": [
+        770,
+        835
+      ],
+      "AdjacentBlocks": [],
+      "CountryId": 0,
+      "RaidId": 23301277,
+      "DefaultPic": 0,
+      "__IDX__BlockName": 4294967295,
+      "__RAW__BlockName": "废弃聚落",
+      "WeatherVideoMap": []
+    },
+    {
+      "Id": 38,
+      "BlockName": "瞭望站",
+      "BlockLabelPos": [
+        1509,
+        1307
+      ],
+      "AdjacentBlocks": [],
+      "CountryId": 0,
+      "RaidId": 23301277,
+      "DefaultPic": 0,
+      "__IDX__BlockName": 4294967295,
+      "__RAW__BlockName": "瞭望站",
+      "WeatherVideoMap": []
+    },
+    {
+      "Id": 39,
+      "BlockName": "检查站",
+      "BlockLabelPos": [
+        1476,
+        1452
+      ],
+      "AdjacentBlocks": [],
+      "CountryId": 0,
+      "RaidId": 23301277,
+      "DefaultPic": 0,
+      "__IDX__BlockName": 4294967295,
+      "__RAW__BlockName": "检查站",
+      "WeatherVideoMap": []
+    },
+    {
+      "Id": 40,
+      "BlockName": "避难所",
+      "BlockLabelPos": [
+        933,
+        1310
+      ],
+      "AdjacentBlocks": [],
+      "CountryId": 0,
+      "RaidId": 23301277,
+      "DefaultPic": 0,
+      "__IDX__BlockName": 4294967295,
+      "__RAW__BlockName": "避难所",
+      "WeatherVideoMap": []
+    },
+    {
+      "Id": 41,
+      "BlockName": "仓库",
+      "BlockLabelPos": [
+        1854,
+        1018
+      ],
+      "AdjacentBlocks": [],
+      "CountryId": 0,
+      "RaidId": 23301277,
+      "DefaultPic": 0,
+      "__IDX__BlockName": 4294967295,
+      "__RAW__BlockName": "仓库",
+      "WeatherVideoMap": []
+    }
+  ],
+  "_dumpedCount": 31,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

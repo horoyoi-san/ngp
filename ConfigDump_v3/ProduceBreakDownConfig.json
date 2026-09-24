@@ -1,0 +1,853 @@
+{
+  "_class": "ProduceBreakDownConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 29,
+  "records": [
+    {
+      "Id": 37001000,
+      "Name": "速愈溶液",
+      "Description": "Break down Consumables",
+      "Type": 0,
+      "Quality": 2,
+      "WeaponItemId": 0,
+      "ItemId": 36201238,
+      "GuideId": "",
+      "DropId": 14390000,
+      "__IDX__Description": 130795,
+      "__RAW__Description": "",
+      "Reward": [
+        {
+          "itemId": 36210000,
+          "num": 8
+        },
+        {
+          "itemId": 36210002,
+          "num": 4
+        },
+        {
+          "itemId": 36210003,
+          "num": 4
+        },
+        {
+          "itemId": 36890024,
+          "num": 1
+        }
+      ]
+    },
+    {
+      "Id": 37001001,
+      "Name": "泵动医疗器",
+      "Description": "Break down Consumables",
+      "Type": 0,
+      "Quality": 3,
+      "WeaponItemId": 0,
+      "ItemId": 36201239,
+      "GuideId": "",
+      "DropId": 14390001,
+      "__IDX__Description": 130796,
+      "__RAW__Description": "",
+      "Reward": [
+        {
+          "itemId": 36210000,
+          "num": 16
+        },
+        {
+          "itemId": 36210002,
+          "num": 8
+        },
+        {
+          "itemId": 36210003,
+          "num": 8
+        }
+      ]
+    },
+    {
+      "Id": 37001002,
+      "Name": "变大胶囊",
+      "Description": "Break down Consumables",
+      "Type": 0,
+      "Quality": 3,
+      "WeaponItemId": 0,
+      "ItemId": 36890000,
+      "GuideId": "",
+      "DropId": 14390002,
+      "__IDX__Description": 130797,
+      "__RAW__Description": "",
+      "Reward": [
+        {
+          "itemId": 36210000,
+          "num": 8
+        },
+        {
+          "itemId": 36210001,
+          "num": 8
+        },
+        {
+          "itemId": 36210002,
+          "num": 8
+        },
+        {
+          "itemId": 36210003,
+          "num": 8
+        }
+      ]
+    },
+    {
+      "Id": 37001003,
+      "Name": "肾上腺素",
+      "Description": "Break down Consumables",
+      "Type": 0,
+      "Quality": 3,
+      "WeaponItemId": 0,
+      "ItemId": 36890001,
+      "GuideId": "",
+      "DropId": 14390003,
+      "__IDX__Description": 130798,
+      "__RAW__Description": "",
+      "Reward": [
+        {
+          "itemId": 36210000,
+          "num": 8
+        },
+        {
+          "itemId": 36210001,
+          "num": 8
+        },
+        {
+          "itemId": 36210002,
+          "num": 8
+        },
+        {
+          "itemId": 36210003,
+          "num": 8
+        }
+      ]
+    },
+    {
+      "Id": 37001101,
+      "Name": "撬棍",
+      "Description": "Break down Weapons",
+      "Type": 1,
+      "Quality": 1,
+      "WeaponItemId": 80000798,
+      "ItemId": 36800502,
+      "GuideId": "",
+      "DropId": 14390031,
+      "__IDX__Description": 130799,
+      "__RAW__Description": "",
+      "Reward": [
+        {
+          "itemId": 36210001,
+          "num": 4
+        },
+        {
+          "itemId": 36210002,
+          "num": 4
+        }
+      ]
+    },
+    {
+      "Id": 37001102,
+      "Name": "破墙锤",
+      "Description": "Break down Weapons",
+      "Type": 1,
+      "Quality": 1,
+      "WeaponItemId": 80000797,
+      "ItemId": 36800541,
+      "GuideId": "",
+      "DropId": 14390032,
+      "__IDX__Description": 130800,
+      "__RAW__Description": "",
+      "Reward": [
+        {
+          "itemId": 36210001,
+          "num": 4
+        },
+        {
+          "itemId": 36210002,
+          "num": 4
+        }
+      ]
+    },
+    {
+      "Id": 37001103,
+      "Name": "台球杆",
+      "Description": "Break down Weapons",
+      "Type": 1,
+      "Quality": 1,
+      "WeaponItemId": 80000494,
+      "ItemId": 36800516,
+      "GuideId": "",
+      "DropId": 14390033,
+      "__IDX__Description": 130801,
+      "__RAW__Description": "",
+      "Reward": [
+        {
+          "itemId": 36210001,
+          "num": 4
+        },
+        {
+          "itemId": 36210002,
+          "num": 4
+        }
+      ]
+    },
+    {
+      "Id": 37001104,
+      "Name": "奶瓶",
+      "Description": "Break down Weapons",
+      "Type": 1,
+      "Quality": 2,
+      "WeaponItemId": 80000806,
+      "ItemId": 36800528,
+      "GuideId": "",
+      "DropId": 14390008,
+      "__IDX__Description": 130802,
+      "__RAW__Description": "",
+      "Reward": [
+        {
+          "itemId": 36210000,
+          "num": 4
+        },
+        {
+          "itemId": 36210001,
+          "num": 4
+        },
+        {
+          "itemId": 36210003,
+          "num": 8
+        }
+      ]
+    },
+    {
+      "Id": 37001105,
+      "Name": "冲锋枪",
+      "Description": "Break down Weapons",
+      "Type": 1,
+      "Quality": 3,
+      "WeaponItemId": 80000505,
+      "ItemId": 36800519,
+      "GuideId": "",
+      "DropId": 14390009,
+      "__IDX__Description": 130803,
+      "__RAW__Description": "",
+      "Reward": [
+        {
+          "itemId": 36210001,
+          "num": 16
+        },
+        {
+          "itemId": 36210002,
+          "num": 8
+        },
+        {
+          "itemId": 36210003,
+          "num": 8
+        },
+        {
+          "itemId": 36890028,
+          "num": 1
+        }
+      ]
+    },
+    {
+      "Id": 37001106,
+      "Name": "狙击枪",
+      "Description": "Break down Weapons",
+      "Type": 1,
+      "Quality": 3,
+      "WeaponItemId": 80000811,
+      "ItemId": 36800520,
+      "GuideId": "",
+      "DropId": 14390010,
+      "__IDX__Description": 130804,
+      "__RAW__Description": "",
+      "Reward": [
+        {
+          "itemId": 36210000,
+          "num": 8
+        },
+        {
+          "itemId": 36210001,
+          "num": 8
+        },
+        {
+          "itemId": 36210002,
+          "num": 8
+        },
+        {
+          "itemId": 36210003,
+          "num": 8
+        },
+        {
+          "itemId": 36890031,
+          "num": 1
+        }
+      ]
+    },
+    {
+      "Id": 37001107,
+      "Name": "火箭筒",
+      "Description": "Break down Weapons",
+      "Type": 1,
+      "Quality": 3,
+      "WeaponItemId": 80000807,
+      "ItemId": 36800521,
+      "GuideId": "",
+      "DropId": 14390011,
+      "__IDX__Description": 130805,
+      "__RAW__Description": "",
+      "Reward": [
+        {
+          "itemId": 36210001,
+          "num": 16
+        },
+        {
+          "itemId": 36210002,
+          "num": 8
+        },
+        {
+          "itemId": 36210003,
+          "num": 8
+        },
+        {
+          "itemId": 36890027,
+          "num": 1
+        }
+      ]
+    },
+    {
+      "Id": 37001108,
+      "Name": "大炮",
+      "Description": "Break down Weapons",
+      "Type": 1,
+      "Quality": 3,
+      "WeaponItemId": 80000508,
+      "ItemId": 36800522,
+      "GuideId": "",
+      "DropId": 14390012,
+      "__IDX__Description": 130806,
+      "__RAW__Description": "",
+      "Reward": [
+        {
+          "itemId": 36210000,
+          "num": 8
+        },
+        {
+          "itemId": 36210001,
+          "num": 8
+        },
+        {
+          "itemId": 36210002,
+          "num": 8
+        },
+        {
+          "itemId": 36210003,
+          "num": 8
+        }
+      ]
+    },
+    {
+      "Id": 37001109,
+      "Name": "高尔夫球杆",
+      "Description": "Break down Weapons",
+      "Type": 1,
+      "Quality": 3,
+      "WeaponItemId": 80000803,
+      "ItemId": 36800523,
+      "GuideId": "",
+      "DropId": 14390034,
+      "__IDX__Description": 130807,
+      "__RAW__Description": "",
+      "Reward": [
+        {
+          "itemId": 36210000,
+          "num": 8
+        },
+        {
+          "itemId": 36210001,
+          "num": 8
+        },
+        {
+          "itemId": 36210002,
+          "num": 8
+        },
+        {
+          "itemId": 36210003,
+          "num": 8
+        }
+      ]
+    },
+    {
+      "Id": 37001110,
+      "Name": "喷火器",
+      "Description": "Break down Weapons",
+      "Type": 1,
+      "Quality": 4,
+      "WeaponItemId": 80000510,
+      "ItemId": 36800524,
+      "GuideId": "",
+      "DropId": 14390014,
+      "__IDX__Description": 130808,
+      "__RAW__Description": "",
+      "Reward": [
+        {
+          "itemId": 36210001,
+          "num": 32
+        },
+        {
+          "itemId": 36210002,
+          "num": 16
+        },
+        {
+          "itemId": 36210003,
+          "num": 16
+        }
+      ]
+    },
+    {
+      "Id": 37001112,
+      "Name": "低温冷冻枪",
+      "Description": "Break down Weapons",
+      "Type": 1,
+      "Quality": 4,
+      "WeaponItemId": 80000987,
+      "ItemId": 36800525,
+      "GuideId": "",
+      "DropId": 14390016,
+      "__IDX__Description": 130809,
+      "__RAW__Description": "",
+      "Reward": [
+        {
+          "itemId": 36210000,
+          "num": 16
+        },
+        {
+          "itemId": 36210001,
+          "num": 16
+        },
+        {
+          "itemId": 36210002,
+          "num": 16
+        },
+        {
+          "itemId": 36210003,
+          "num": 16
+        }
+      ]
+    },
+    {
+      "Id": 37001115,
+      "Name": "金属管",
+      "Description": "Break down Weapons",
+      "Type": 1,
+      "Quality": 2,
+      "WeaponItemId": 80000805,
+      "ItemId": 36800507,
+      "GuideId": "",
+      "DropId": 14390035,
+      "__IDX__Description": 130810,
+      "__RAW__Description": "",
+      "Reward": [
+        {
+          "itemId": 36210000,
+          "num": 4
+        },
+        {
+          "itemId": 36210001,
+          "num": 4
+        },
+        {
+          "itemId": 36210003,
+          "num": 8
+        }
+      ]
+    },
+    {
+      "Id": 37001117,
+      "Name": "怪物贝斯",
+      "Description": "Break down Weapons",
+      "Type": 1,
+      "Quality": 2,
+      "WeaponItemId": 80001267,
+      "ItemId": 36800575,
+      "GuideId": "",
+      "DropId": 14390037,
+      "__IDX__Description": 130811,
+      "__RAW__Description": "",
+      "Reward": [
+        {
+          "itemId": 36210000,
+          "num": 4
+        },
+        {
+          "itemId": 36210001,
+          "num": 4
+        },
+        {
+          "itemId": 36210003,
+          "num": 8
+        }
+      ]
+    },
+    {
+      "Id": 37001118,
+      "Name": "换色咸鱼",
+      "Description": "Break down Weapons",
+      "Type": 1,
+      "Quality": 2,
+      "WeaponItemId": 80001224,
+      "ItemId": 36800582,
+      "GuideId": "",
+      "DropId": 14390038,
+      "__IDX__Description": 130812,
+      "__RAW__Description": "",
+      "Reward": [
+        {
+          "itemId": 36210000,
+          "num": 4
+        },
+        {
+          "itemId": 36210001,
+          "num": 4
+        },
+        {
+          "itemId": 36210003,
+          "num": 8
+        }
+      ]
+    },
+    {
+      "Id": 37001119,
+      "Name": "破片雷",
+      "Description": "分解武器",
+      "Type": 1,
+      "Quality": 2,
+      "WeaponItemId": 80003735,
+      "ItemId": 36800938,
+      "GuideId": "",
+      "DropId": 14390039,
+      "__IDX__Description": 4294967293,
+      "__RAW__Description": "分解武器",
+      "Reward": [
+        {
+          "itemId": 36210000,
+          "num": 4
+        },
+        {
+          "itemId": 36210001,
+          "num": 4
+        },
+        {
+          "itemId": 36210002,
+          "num": 4
+        },
+        {
+          "itemId": 36210003,
+          "num": 4
+        }
+      ]
+    },
+    {
+      "Id": 37001202,
+      "Name": "苦无",
+      "Description": "Break down Valuables",
+      "Type": 2,
+      "Quality": 3,
+      "WeaponItemId": 0,
+      "ItemId": 36910010,
+      "GuideId": "",
+      "DropId": 14390021,
+      "__IDX__Description": 130813,
+      "__RAW__Description": "",
+      "Reward": [
+        {
+          "itemId": 36210000,
+          "num": 8
+        },
+        {
+          "itemId": 36210001,
+          "num": 8
+        },
+        {
+          "itemId": 36210002,
+          "num": 8
+        },
+        {
+          "itemId": 36210003,
+          "num": 8
+        },
+        {
+          "itemId": 36890029,
+          "num": 1
+        }
+      ]
+    },
+    {
+      "Id": 37001203,
+      "Name": "冠军之证",
+      "Description": "Break down Valuables",
+      "Type": 2,
+      "Quality": 4,
+      "WeaponItemId": 0,
+      "ItemId": 36910013,
+      "GuideId": "",
+      "DropId": 14390022,
+      "__IDX__Description": 130814,
+      "__RAW__Description": "",
+      "Reward": [
+        {
+          "itemId": 36210000,
+          "num": 16
+        },
+        {
+          "itemId": 36210001,
+          "num": 16
+        },
+        {
+          "itemId": 36210002,
+          "num": 32
+        }
+      ]
+    },
+    {
+      "Id": 37001204,
+      "Name": "时缓装置",
+      "Description": "Break down Valuables",
+      "Type": 2,
+      "Quality": 3,
+      "WeaponItemId": 0,
+      "ItemId": 36890106,
+      "GuideId": "",
+      "DropId": 14390023,
+      "__IDX__Description": 130815,
+      "__RAW__Description": "",
+      "Reward": [
+        {
+          "itemId": 36210000,
+          "num": 8
+        },
+        {
+          "itemId": 36210001,
+          "num": 8
+        },
+        {
+          "itemId": 36210003,
+          "num": 16
+        }
+      ]
+    },
+    {
+      "Id": 37001205,
+      "Name": "桶蟹陶瓷碗",
+      "Description": "Break down Valuables",
+      "Type": 2,
+      "Quality": 2,
+      "WeaponItemId": 0,
+      "ItemId": 36120001,
+      "GuideId": "",
+      "DropId": 14390024,
+      "__IDX__Description": 130816,
+      "__RAW__Description": "",
+      "Reward": [
+        {
+          "itemId": 36210000,
+          "num": 4
+        },
+        {
+          "itemId": 36210001,
+          "num": 4
+        },
+        {
+          "itemId": 36210002,
+          "num": 8
+        }
+      ]
+    },
+    {
+      "Id": 37001206,
+      "Name": "车载冰箱",
+      "Description": "Break down Valuables",
+      "Type": 2,
+      "Quality": 3,
+      "WeaponItemId": 0,
+      "ItemId": 36120010,
+      "GuideId": "",
+      "DropId": 14390025,
+      "__IDX__Description": 130817,
+      "__RAW__Description": "",
+      "Reward": [
+        {
+          "itemId": 36210000,
+          "num": 8
+        },
+        {
+          "itemId": 36210001,
+          "num": 8
+        },
+        {
+          "itemId": 36210002,
+          "num": 16
+        }
+      ]
+    },
+    {
+      "Id": 37001207,
+      "Name": "便携炊具套装",
+      "Description": "Break down Valuables",
+      "Type": 2,
+      "Quality": 2,
+      "WeaponItemId": 0,
+      "ItemId": 36120012,
+      "GuideId": "",
+      "DropId": 14390026,
+      "__IDX__Description": 130818,
+      "__RAW__Description": "",
+      "Reward": [
+        {
+          "itemId": 36210000,
+          "num": 8
+        },
+        {
+          "itemId": 36210001,
+          "num": 8
+        },
+        {
+          "itemId": 36210002,
+          "num": 8
+        },
+        {
+          "itemId": 36210003,
+          "num": 8
+        }
+      ]
+    },
+    {
+      "Id": 37001208,
+      "Name": "电机工具套组",
+      "Description": "Break down Valuables",
+      "Type": 2,
+      "Quality": 3,
+      "WeaponItemId": 0,
+      "ItemId": 36120015,
+      "GuideId": "",
+      "DropId": 14390027,
+      "__IDX__Description": 130819,
+      "__RAW__Description": "",
+      "Reward": [
+        {
+          "itemId": 36210000,
+          "num": 4
+        },
+        {
+          "itemId": 36210001,
+          "num": 4
+        },
+        {
+          "itemId": 36210002,
+          "num": 4
+        },
+        {
+          "itemId": 36210003,
+          "num": 4
+        }
+      ]
+    },
+    {
+      "Id": 37001209,
+      "Name": "双杯特惠",
+      "Description": "Break down Valuables",
+      "Type": 2,
+      "Quality": 2,
+      "WeaponItemId": 0,
+      "ItemId": 36910108,
+      "GuideId": "",
+      "DropId": 14390028,
+      "__IDX__Description": 130820,
+      "__RAW__Description": "",
+      "Reward": [
+        {
+          "itemId": 36210000,
+          "num": 4
+        },
+        {
+          "itemId": 36210001,
+          "num": 4
+        },
+        {
+          "itemId": 36210002,
+          "num": 8
+        },
+        {
+          "itemId": 36890030,
+          "num": 1
+        }
+      ]
+    },
+    {
+      "Id": 37001210,
+      "Name": "双数协定",
+      "Description": "Break down Valuables",
+      "Type": 2,
+      "Quality": 3,
+      "WeaponItemId": 0,
+      "ItemId": 36910106,
+      "GuideId": "",
+      "DropId": 14390029,
+      "__IDX__Description": 130821,
+      "__RAW__Description": "",
+      "Reward": [
+        {
+          "itemId": 36210000,
+          "num": 8
+        },
+        {
+          "itemId": 36210001,
+          "num": 8
+        },
+        {
+          "itemId": 36210002,
+          "num": 8
+        },
+        {
+          "itemId": 36210003,
+          "num": 8
+        }
+      ]
+    },
+    {
+      "Id": 37001300,
+      "Name": "垃圾分解4",
+      "Description": "Break down Failed Crafted Items",
+      "Type": 3,
+      "Quality": 0,
+      "WeaponItemId": 0,
+      "ItemId": 36890002,
+      "GuideId": "",
+      "DropId": 14371300,
+      "__IDX__Description": 130822,
+      "__RAW__Description": "",
+      "Reward": [
+        {
+          "itemId": 36210000,
+          "num": 1
+        },
+        {
+          "itemId": 36210001,
+          "num": 1
+        },
+        {
+          "itemId": 36210002,
+          "num": 1
+        },
+        {
+          "itemId": 36210003,
+          "num": 1
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 29,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

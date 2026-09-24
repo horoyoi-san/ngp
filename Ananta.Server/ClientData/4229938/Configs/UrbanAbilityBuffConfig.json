@@ -1,0 +1,932 @@
+{
+  "_class": "UrbanAbilityBuffConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 82,
+  "records": [
+    {
+      "Id": 1001,
+      "Name": "Car Fundamentals",
+      "BuffExplain": "The proficiency in driving automobile vehicles.",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 103485,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103484,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 1002,
+      "Name": "Max Speed Enhancement",
+      "BuffExplain": "Increases car maximum speed by 5%.",
+      "Buff": [
+        52810801
+      ],
+      "Drop": 0,
+      "__IDX__Name": 103487,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103486,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 1003,
+      "Name": "Brake Enhancement",
+      "BuffExplain": "Increases car brake performance by 15%.",
+      "Buff": [
+        52810802
+      ],
+      "Drop": 0,
+      "__IDX__Name": 103489,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103488,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 1004,
+      "Name": "Turn Assist",
+      "BuffExplain": "Reduces natural deceleration during turns by 10%.",
+      "Buff": [
+        52810803
+      ],
+      "Drop": 0,
+      "__IDX__Name": 103491,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103490,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 1005,
+      "Name": "Advanced Acceleration",
+      "BuffExplain": "Increases car acceleration by 15%.",
+      "Buff": [
+        52810804
+      ],
+      "Drop": 0,
+      "__IDX__Name": 103493,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103492,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 2001,
+      "Name": "Motorcycle Fundamentals",
+      "BuffExplain": "The proficiency in driving motorcycle vehicles.",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 103507,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103506,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 2002,
+      "Name": "Agility Boost",
+      "BuffExplain": "Ability: Agility +3",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 103509,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103508,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 3001,
+      "Name": "Aircraft Fundamentals",
+      "BuffExplain": "The proficiency in piloting aircraft vehicles.",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 103532,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103531,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 4001,
+      "Name": "Vessel Fundamentals",
+      "BuffExplain": "The proficiency in piloting vessel vehicles.",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 103554,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103553,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 100001,
+      "Name": "Basic Fitness",
+      "BuffExplain": "Max HP can receive boost from increases in Physique Ability.",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 103475,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103474,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 100002,
+      "Name": "Fitness Boost",
+      "BuffExplain": "Increases Max HP by 10%.",
+      "Buff": [
+        52810806
+      ],
+      "Drop": 0,
+      "__IDX__Name": 103477,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103476,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 100003,
+      "Name": "Healing Factor",
+      "BuffExplain": "Heals 2% of Max HP per second while not in battle.",
+      "Buff": [
+        52810807
+      ],
+      "Drop": 0,
+      "__IDX__Name": 103479,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103478,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 100004,
+      "Name": "Potential Unleashed",
+      "BuffExplain": "When HP drops below 20%, heals for 20% Max HP. Cooldown: 600 seconds.",
+      "Buff": [
+        52810808
+      ],
+      "Drop": 0,
+      "__IDX__Name": 103481,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103480,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 100005,
+      "Name": "Rapid Metabolism",
+      "BuffExplain": "Increases HP regeneration rate by 200% while not in battle.",
+      "Buff": [
+        52810809
+      ],
+      "Drop": 0,
+      "__IDX__Name": 103483,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103482,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 101001,
+      "Name": "Basic Parkour",
+      "BuffExplain": "Allows rapid movement using wall and obstacles.",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 103495,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103494,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 102001,
+      "Name": "Basketball Fundamentals",
+      "BuffExplain": "The proficiency in the basic rules and core movements of basketball.",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 103497,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103496,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 103001,
+      "Name": "Darts Fundamentals",
+      "BuffExplain": "The proficiency in the basic rules and techniques of darts.",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 103499,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103498,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 103002,
+      "Name": "Darts Master",
+      "BuffExplain": "Unlocks the generic badge “Darts Master” and reduces the purchase cost of darts.",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 103501,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103500,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 104001,
+      "Name": "基础钓鱼",
+      "BuffExplain": "掌握钓鱼的基础规则与动作",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967295,
+      "__RAW__Name": "基础钓鱼",
+      "__IDX__BuffExplain": 4294967295,
+      "__RAW__BuffExplain": "掌握钓鱼的基础规则与动作"
+    },
+    {
+      "Id": 200001,
+      "Name": "Communication Fundamentals",
+      "BuffExplain": "The skill in persuading others or obtaining information through language communication.",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 103503,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103502,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 200002,
+      "Name": "Haggling Expert",
+      "BuffExplain": "Unlocks the generic badge “Haggling Expert” and reduces price of items at Solution Pawn by 10%.",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 103505,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103504,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 201001,
+      "Name": "Musicianship Fundamentals",
+      "BuffExplain": "The skill in understanding music theory, appreciate melody, and playing instruments.",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 103511,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103510,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 201002,
+      "Name": "Instinct Boost",
+      "BuffExplain": "Ability: Instinct +3",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 103513,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103512,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 202001,
+      "Name": "Appreciation Fundamentals",
+      "BuffExplain": "The skill to discover hidden value in things and perceive the beauty of life.",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 103515,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103514,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 202002,
+      "Name": "Instinct Boost",
+      "BuffExplain": "Ability: Instinct +3",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 103517,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103516,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 202003,
+      "Name": "Intellect Boost",
+      "BuffExplain": "Ability: Intellect +3",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 103519,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103518,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 203001,
+      "Name": "Mahjong Fundamentals",
+      "BuffExplain": "The proficiency in the basic rules and gameplay of mahjong.",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 103521,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103520,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 300001,
+      "Name": "Combat Fundamentals",
+      "BuffExplain": "The proficiency in diverse fighting techniques.",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 103523,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103522,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 300002,
+      "Name": "Ironclad Defense",
+      "BuffExplain": "Reduces damage taken by 10%.",
+      "Buff": [
+        52810813
+      ],
+      "Drop": 0,
+      "__IDX__Name": 103524,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 132847,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 300003,
+      "Name": "Improved Talent",
+      "BuffExplain": "Gains 1 character talent point.",
+      "Buff": [],
+      "Drop": 14382190,
+      "__IDX__Name": 103526,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103525,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 300004,
+      "Name": "Improved Talent",
+      "BuffExplain": "Gains 1 character talent point.",
+      "Buff": [],
+      "Drop": 14382190,
+      "__IDX__Name": 103528,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103527,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 300005,
+      "Name": "Last Stand",
+      "BuffExplain": "Increases the damage dealt based on your lost HP, up to 30%.",
+      "Buff": [
+        52810814
+      ],
+      "Drop": 0,
+      "__IDX__Name": 103530,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103529,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 301001,
+      "Name": "拳套精通1",
+      "BuffExplain": "掌握拳套使用方式",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 103534,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103533,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 301002,
+      "Name": "拳套精通2",
+      "BuffExplain": "拳套精通提高10%",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 103536,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103535,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 301003,
+      "Name": "拳套精通3",
+      "BuffExplain": "拳套相关build组件（待设计）",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 103538,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103537,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 301004,
+      "Name": "拳套精通4",
+      "BuffExplain": "拳套精通提高15%",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 103540,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103539,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 301005,
+      "Name": "拳套精通5",
+      "BuffExplain": "拳套相关build组件（待设计）",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 103542,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103541,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 302001,
+      "Name": "单手钝器精通1",
+      "BuffExplain": "掌握单手钝器的使用方式",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 103544,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103543,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 302002,
+      "Name": "单手钝器精通2",
+      "BuffExplain": "单手钝器精通提高10%",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 103546,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103545,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 302003,
+      "Name": "单手钝器精通3",
+      "BuffExplain": "单手钝器相关build组件（待设计）",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 103548,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103547,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 302004,
+      "Name": "单手钝器精通4",
+      "BuffExplain": "单手钝器精通提高15%",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 103550,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103549,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 302005,
+      "Name": "单手钝器精通5",
+      "BuffExplain": "单手钝器相关build组件（待设计）",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 103552,
+      "__RAW__Name": "",
+      "__IDX__BuffExplain": 103551,
+      "__RAW__BuffExplain": ""
+    },
+    {
+      "Id": 303001,
+      "Name": "双手长柄精通1",
+      "BuffExplain": "掌握双手长柄的使用方式",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "双手长柄精通1",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "掌握双手长柄的使用方式"
+    },
+    {
+      "Id": 303002,
+      "Name": "双手长柄精通2",
+      "BuffExplain": "双手长柄精通提高10%",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "双手长柄精通2",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "双手长柄精通提高10%"
+    },
+    {
+      "Id": 303003,
+      "Name": "双手长柄精通3",
+      "BuffExplain": "双手长柄相关build组件（待设计）",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "双手长柄精通3",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "双手长柄相关build组件（待设计）"
+    },
+    {
+      "Id": 303004,
+      "Name": "双手长柄精通4",
+      "BuffExplain": "双手长柄精通提高15%",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "双手长柄精通4",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "双手长柄精通提高15%"
+    },
+    {
+      "Id": 303005,
+      "Name": "双手长柄精通5",
+      "BuffExplain": "双手长柄相关build组件（待设计）",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "双手长柄精通5",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "双手长柄相关build组件（待设计）"
+    },
+    {
+      "Id": 304001,
+      "Name": "双手锤精通1",
+      "BuffExplain": "掌握双手锤的使用方式",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "双手锤精通1",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "掌握双手锤的使用方式"
+    },
+    {
+      "Id": 304002,
+      "Name": "双手锤精通2",
+      "BuffExplain": "双手锤精通提高10%",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "双手锤精通2",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "双手锤精通提高10%"
+    },
+    {
+      "Id": 304003,
+      "Name": "双手锤精通3",
+      "BuffExplain": "双手锤相关build组件（待设计）",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "双手锤精通3",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "双手锤相关build组件（待设计）"
+    },
+    {
+      "Id": 304004,
+      "Name": "双手锤精通4",
+      "BuffExplain": "双手锤精通提高15%",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "双手锤精通4",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "双手锤精通提高15%"
+    },
+    {
+      "Id": 304005,
+      "Name": "双手锤精通5",
+      "BuffExplain": "双手锤相关build组件（待设计）",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "双手锤精通5",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "双手锤相关build组件（待设计）"
+    },
+    {
+      "Id": 305001,
+      "Name": "短刃精通1",
+      "BuffExplain": "掌握短刃的使用方式",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "短刃精通1",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "掌握短刃的使用方式"
+    },
+    {
+      "Id": 305002,
+      "Name": "短刃精通2",
+      "BuffExplain": "短刃精通提高10%",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "短刃精通2",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "短刃精通提高10%"
+    },
+    {
+      "Id": 305003,
+      "Name": "短刃精通3",
+      "BuffExplain": "短刃相关build组件（待设计）",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "短刃精通3",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "短刃相关build组件（待设计）"
+    },
+    {
+      "Id": 305004,
+      "Name": "短刃精通4",
+      "BuffExplain": "短刃精通提高15%",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "短刃精通4",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "短刃精通提高15%"
+    },
+    {
+      "Id": 305005,
+      "Name": "短刃精通5",
+      "BuffExplain": "短刃相关build组件（待设计）",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "短刃精通5",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "短刃相关build组件（待设计）"
+    },
+    {
+      "Id": 306001,
+      "Name": "手枪精通1",
+      "BuffExplain": "掌握手枪的使用方式",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "手枪精通1",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "掌握手枪的使用方式"
+    },
+    {
+      "Id": 306002,
+      "Name": "手枪精通2",
+      "BuffExplain": "手枪精通提高10%",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "手枪精通2",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "手枪精通提高10%"
+    },
+    {
+      "Id": 306003,
+      "Name": "手枪精通3",
+      "BuffExplain": "手枪换弹速度提高20%（占位）",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "手枪精通3",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "手枪换弹速度提高20%（占位）"
+    },
+    {
+      "Id": 306004,
+      "Name": "手枪精通4",
+      "BuffExplain": "手枪精通提高15%",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "手枪精通4",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "手枪精通提高15%"
+    },
+    {
+      "Id": 306005,
+      "Name": "手枪精通5",
+      "BuffExplain": "手枪爆头伤害提高40%（占位）",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "手枪精通5",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "手枪爆头伤害提高40%（占位）"
+    },
+    {
+      "Id": 307001,
+      "Name": "冲锋枪精通1",
+      "BuffExplain": "掌握冲锋枪的使用方式",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "冲锋枪精通1",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "掌握冲锋枪的使用方式"
+    },
+    {
+      "Id": 307002,
+      "Name": "冲锋枪精通2",
+      "BuffExplain": "冲锋枪精通提高10%",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "冲锋枪精通2",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "冲锋枪精通提高10%"
+    },
+    {
+      "Id": 307003,
+      "Name": "冲锋枪精通3",
+      "BuffExplain": "冲锋枪换弹速度提高20%（占位）",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "冲锋枪精通3",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "冲锋枪换弹速度提高20%（占位）"
+    },
+    {
+      "Id": 307004,
+      "Name": "冲锋枪精通4",
+      "BuffExplain": "冲锋枪精通提高15%",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "冲锋枪精通4",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "冲锋枪精通提高15%"
+    },
+    {
+      "Id": 307005,
+      "Name": "冲锋枪精通5",
+      "BuffExplain": "冲锋枪射速提高15%（占位）",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "冲锋枪精通5",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "冲锋枪射速提高15%（占位）"
+    },
+    {
+      "Id": 308001,
+      "Name": "步枪精通1",
+      "BuffExplain": "掌握步枪的使用方式",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "步枪精通1",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "掌握步枪的使用方式"
+    },
+    {
+      "Id": 308002,
+      "Name": "步枪精通2",
+      "BuffExplain": "步枪精通提高10%",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "步枪精通2",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "步枪精通提高10%"
+    },
+    {
+      "Id": 308003,
+      "Name": "步枪精通3",
+      "BuffExplain": "步枪换弹速度提高20%（占位）",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "步枪精通3",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "步枪换弹速度提高20%（占位）"
+    },
+    {
+      "Id": 308004,
+      "Name": "步枪精通4",
+      "BuffExplain": "步枪精通提高15%",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "步枪精通4",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "步枪精通提高15%"
+    },
+    {
+      "Id": 308005,
+      "Name": "步枪精通5",
+      "BuffExplain": "步枪射速提高15%（占位）",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "步枪精通5",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "步枪射速提高15%（占位）"
+    },
+    {
+      "Id": 309001,
+      "Name": "狙击枪精通1",
+      "BuffExplain": "掌握狙击枪的使用方式",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "狙击枪精通1",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "掌握狙击枪的使用方式"
+    },
+    {
+      "Id": 309002,
+      "Name": "狙击枪精通2",
+      "BuffExplain": "狙击枪精通提高10%",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "狙击枪精通2",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "狙击枪精通提高10%"
+    },
+    {
+      "Id": 309003,
+      "Name": "狙击枪精通3",
+      "BuffExplain": "狙击枪对25米以外敌人造成伤害提高25%（占位）",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "狙击枪精通3",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "狙击枪对25米以外敌人造成伤害提高25%（占位）"
+    },
+    {
+      "Id": 309004,
+      "Name": "狙击枪精通4",
+      "BuffExplain": "狙击枪精通提高15%",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "狙击枪精通4",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "狙击枪精通提高15%"
+    },
+    {
+      "Id": 309005,
+      "Name": "狙击枪精通5",
+      "BuffExplain": "狙击枪爆头伤害提高50%（占位）",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "狙击枪精通5",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "狙击枪爆头伤害提高50%（占位）"
+    },
+    {
+      "Id": 310001,
+      "Name": "霰弹枪精通1",
+      "BuffExplain": "掌握霰弹枪精通的使用方式",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "霰弹枪精通1",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "掌握霰弹枪精通的使用方式"
+    },
+    {
+      "Id": 310002,
+      "Name": "霰弹枪精通2",
+      "BuffExplain": "霰弹枪精通提高10%",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "霰弹枪精通2",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "霰弹枪精通提高10%"
+    },
+    {
+      "Id": 310003,
+      "Name": "霰弹枪精通3",
+      "BuffExplain": "霰弹枪换弹速度提高30%（占位）",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "霰弹枪精通3",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "霰弹枪换弹速度提高30%（占位）"
+    },
+    {
+      "Id": 310004,
+      "Name": "霰弹枪精通4",
+      "BuffExplain": "霰弹枪精通提高15%",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "霰弹枪精通4",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "霰弹枪精通提高15%"
+    },
+    {
+      "Id": 310005,
+      "Name": "霰弹枪精通5",
+      "BuffExplain": "霰弹枪对10米以内敌人造成伤害提高30%（占位）",
+      "Buff": [],
+      "Drop": 0,
+      "__IDX__Name": 4294967293,
+      "__RAW__Name": "霰弹枪精通5",
+      "__IDX__BuffExplain": 4294967293,
+      "__RAW__BuffExplain": "霰弹枪对10米以内敌人造成伤害提高30%（占位）"
+    }
+  ],
+  "_dumpedCount": 82,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

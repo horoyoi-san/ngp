@@ -59,7 +59,6 @@ internal sealed class WearFashionEditInfo
     public SceneMethods.UxVector3 Offset;
 }
 
-/// <summary>Server -> client SyncPlayerAllSpirits: top-level List7Bit&lt;SpiritInfo&gt;.</summary>
 [UxContract(Inline = true)]
 internal sealed class SyncPlayerAllSpirits
 {
@@ -73,10 +72,6 @@ internal sealed class SpiritViewData
     public Auto.SpiritInfo SpiritInfo = new();
 }
 
-/// <summary>
-/// Incremental roster hydration. The build's handler ignores reason and adds/replaces one view entry,
-/// avoiding a single oversized SyncPlayerAllSpirits payload with every character loadout embedded.
-/// </summary>
 [UxContract(Inline = true)]
 internal sealed class SyncPlayerAddNewSpirit
 {
@@ -84,7 +79,6 @@ internal sealed class SyncPlayerAddNewSpirit
     public int reason;
 }
 
-/// <summary>Return body of AskAllSpiritPanelData: top-level List7Bit&lt;SpiritPanelData&gt;.</summary>
 [UxContract(Inline = true)]
 internal sealed class AskAllSpiritPanelDataResult
 {

@@ -1,0 +1,107 @@
+{
+  "_class": "RacingDriverCompetitionGroupConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 3,
+  "records": [
+    {
+      "Id": 1,
+      "IsLocked": false,
+      "UnlockPoint": 0,
+      "UnlockStar": 0,
+      "Description": "C级联赛，新启01",
+      "ContestGroup": [
+        {
+          "TrackId": 3,
+          "EventId": 2040
+        }
+      ],
+      "CarPointsEarned": [
+        {
+          "Rank": 1,
+          "Points": 10
+        },
+        {
+          "Rank": 2,
+          "Points": 8
+        },
+        {
+          "Rank": 3,
+          "Points": 5
+        },
+        {
+          "Rank": 4,
+          "Points": 3
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "IsLocked": false,
+      "UnlockPoint": 1,
+      "UnlockStar": 1,
+      "Description": "C级联赛，原新启摩天轮",
+      "ContestGroup": [
+        {
+          "TrackId": 7,
+          "EventId": 2363
+        }
+      ],
+      "CarPointsEarned": [
+        {
+          "Rank": 1,
+          "Points": 10
+        },
+        {
+          "Rank": 2,
+          "Points": 8
+        },
+        {
+          "Rank": 3,
+          "Points": 5
+        },
+        {
+          "Rank": 4,
+          "Points": 3
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "IsLocked": true,
+      "UnlockPoint": 2,
+      "UnlockStar": 2,
+      "Description": "B级联赛，混厄，新启摩天轮",
+      "ContestGroup": [
+        {
+          "TrackId": 6,
+          "EventId": 2306
+        },
+        {
+          "TrackId": 1,
+          "EventId": 1018
+        }
+      ],
+      "CarPointsEarned": [
+        {
+          "Rank": 1,
+          "Points": 10
+        },
+        {
+          "Rank": 2,
+          "Points": 8
+        },
+        {
+          "Rank": 3,
+          "Points": 5
+        },
+        {
+          "Rank": 4,
+          "Points": 3
+        }
+      ]
+    }
+  ],
+  "_dumpedCount": 3,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

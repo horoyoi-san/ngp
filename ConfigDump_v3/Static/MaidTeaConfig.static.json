@@ -1,0 +1,126 @@
+{
+  "drinkscore": [
+    {
+      "drinkid": 87001017,
+      "scorelow": 0,
+      "scorehigh": 11
+    },
+    {
+      "drinkid": 87001018,
+      "scorelow": 48,
+      "scorehigh": 48
+    },
+    {
+      "drinkid": 87001019,
+      "scorelow": 36,
+      "scorehigh": 47
+    },
+    {
+      "drinkid": 87001020,
+      "scorelow": 24,
+      "scorehigh": 35
+    },
+    {
+      "drinkid": 87001021,
+      "scorelow": 12,
+      "scorehigh": 23
+    }
+  ],
+  "magicWordsDialogIds": [
+    49435000,
+    49435001,
+    49435002,
+    49435003,
+    49435004,
+    49435005,
+    49435006,
+    49435007,
+    49435008,
+    49435009,
+    49435010,
+    49435011,
+    0
+  ],
+  "dialogBranchScores": [
+    1,
+    2,
+    3,
+    4,
+    0
+  ],
+  "bossComingMinLevel": 2,
+  "bossComingProbability": 0.200000003,
+  "bossNotChoiceWords": "非店长特调",
+  "bossChoiceWords": "店长特调",
+  "commonWords": "店长没出现",
+  "teaPetWayPointName": "teaPetWayPoint",
+  "cup1WayPointName": "cup1WayPoint",
+  "cup2WayPointName": "cup2WayPoint",
+  "maidWayPointName": "MaidWayPoint",
+  "bossNPCId": 91050015,
+  "autoPlayDialogDuration": 0.800000012,
+  "maidResponseDialogDuration": 3,
+  "maidResponseEmojiDuration": 0.800000012,
+  "chooseMaidBlackTime": {
+    "blackInTime": 0,
+    "blackStayTime": 1,
+    "blackOutTime": 1
+  },
+  "beforeCommentBlackTime": {
+    "blackInTime": 1,
+    "blackStayTime": 2,
+    "blackOutTime": 1
+  },
+  "bossComingPanelDuration": 3,
+  "bossComingTooltipDelayTime": 0,
+  "bossComingPanelDelayTime": 0.5,
+  "mixTeaCameraParams": {
+    "distance": 3.5,
+    "screenX": 0.300000012,
+    "screenY": 0.5,
+    "fov": 30,
+    "offsetY": 0
+  },
+  "inviteMaidDialog": {
+    "text": "是否邀请女仆一起喝？",
+    "branch1": "邀请",
+    "branch2": "不邀请"
+  },
+  "drinkTogetherText": "和%s享用了%s",
+  "npcLeaveText": "%s离开了",
+  "drinkAloneText": "独自享用了%s",
+  "maidTeaActionGroupId": 201,
+  "TotalCompleteScore": 100,
+  "GoalCompleteScore": 80,
+  "AddCompleteScore": [
+    {
+      "BranchTotalScore": 6,
+      "AddCompleteScore": 50
+    },
+    {
+      "BranchTotalScore": 5,
+      "AddCompleteScore": 30
+    },
+    {
+      "BranchTotalScore": 4,
+      "AddCompleteScore": 0
+    },
+    {
+      "BranchTotalScore": 3,
+      "AddCompleteScore": 0
+    },
+    {
+      "BranchTotalScore": 2,
+      "AddCompleteScore": 0
+    },
+    {
+      "BranchTotalScore": 1,
+      "AddCompleteScore": 0
+    }
+  ],
+  "NpcAllowInteractionButtonStartIndex": 5,
+  "ChooseEffectTime": 1.20000005,
+  "EndQAEffectTime": 1.20000005,
+  "StartQAEffectTime": 2,
+  "GamePanelHideDelayTime": 0.649999976
+}

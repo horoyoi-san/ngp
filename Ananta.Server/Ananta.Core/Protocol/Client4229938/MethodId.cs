@@ -3,12 +3,6 @@ using Ananta.SDK.Rpc;
 
 namespace Ananta.Server.Protocol.Client4229938;
 
-/// <summary>
-/// RPC method ids for client build 4229938 (trunk build 2026-08-05).
-///
-/// The main catalog is synchronized from the matching IL2CPP MethodId dump.
-/// Protocol constants belong here; private-server settings belong in config/private-server.json.
-/// </summary>
 internal static class MethodId
 {
     internal const uint ServerForceGCCollect = 12139441;
@@ -653,6 +647,16 @@ internal static class MethodId
     internal const uint AskClawSettlement = 63451209;
     internal const uint SyncPSNSessionId = 63451951;
     internal const uint AskMomentsPostSimpleInfos = 63452251;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    internal const uint AskServerGraffitoUrl = 63489995;
     internal const uint JoinCinemaLink = 63452616;
     internal const uint AskSetSpiritWearFashionHiddenPartsWithSource = 63452716;
     internal const uint CheckPSOPermissions = 63453981;
@@ -693,7 +697,7 @@ internal static class MethodId
     internal const uint RemoveCurrentTask = 63488434;
     internal const uint OnInteractWithHugePigeon = 63488773;
     internal const uint AskPlaceRumorInSlot = 63489098;
-    internal const uint AskServerGraffitoUrl = 63489995;
+    
     internal const uint SyncEnterFogMapPoiId = 63491307;
     internal const uint AskPublicSwitchToPublicScene = 63491547;
     internal const uint AskStartAIInterrogation = 63492524;
@@ -1562,7 +1566,7 @@ internal static class MethodId
     internal const uint SyncCityPediaCreditUpdate = 64739542;
     internal const uint SyncHouseCancelParking = 64740879;
     internal const uint IGameToClient_SyncChargeInfo = 64741617;
-    internal const uint SyncHackerBatteryCurrentAndTotal = 64742857;
+    internal const uint SyncHackerBatteryCurrentAndTotalCount = 64742857;
     internal const uint IGameToClient_SyncPlayerGiftInfo = 64743087;
     internal const uint IGameToClient_SyncActiveGameplayTalentLayer = 64743495;
     internal const uint IGameToClient_SyncInterrogationInterrupt = 64744964;
@@ -3135,6 +3139,12 @@ internal static class MethodId
     internal const uint SyncGadgetAOIAddAndRemove = 68169646;
     internal const uint SyncTurnToPosPosition = 68169791;
     internal const uint SyncAttractPointPosition = 68172618;
+    
+    
+    
+    
+    
+    [Obsolete("客户端不存在此方法；移除司机请用 SyncAetherAINpcRemove")]
     internal const uint SyncAetherAIVehicleNpcRemove = 68173578;
     internal const uint SyncPlateRemoveList = 68174318;
     internal const uint SyncFightGamePlayerLeave = 68176524;
@@ -4526,8 +4536,7 @@ internal static class MethodId
     internal const uint SyncLinkMemberAdd = 204552559;
     internal const uint ShowMemberLinkMessage = 204946982;
 
-
-    // Exact 4229938 C2S aliases recovered from RPCMethodIdToName.lua.
+    
     internal const uint AskNpcProfileCancelTargetNewState = 63939232;
     internal const uint AskClearPersonalZoneNewBubbleLikes = 63266395;
     internal const uint AskCancelInteractionActionRedPoint = 63584158;
@@ -4557,6 +4566,32 @@ internal static class MethodId
     internal const uint AskVehicleStopHackerAutonomousDriving = 67315681;
     internal const uint ReportCreationVehicleEnterOrLeaves = 67004409;
     internal const uint AskControlPowerHoldEnemyFallGround = 67043294;
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    internal const uint SyncHackerJobInfo = 64189208;
+
+    
+    internal const uint SyncUnitHackableState = 68941159;
+
+    
+    internal const uint SyncVehicleHackableState = 68037721;
+
+    
+    internal const uint SyncPoliceDispatchVehicleChaseStop = 68696969;
+
+    
+    internal const uint SyncPoliceDailyIncidentInfo = 64829293;
+
+    
+    internal const uint SyncPoliceRPSCardInfo = 64816304;
 
     internal static void RegisterKnownNames(RpcRouter router)
     {

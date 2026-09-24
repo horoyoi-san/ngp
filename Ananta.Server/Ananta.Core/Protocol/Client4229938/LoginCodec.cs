@@ -6,26 +6,23 @@ using LoginMethods = Ananta.Server.RpcTypes.Client4229938.Methods.LoginGate;
 
 namespace Ananta.Server.Protocol.Client4229938;
 
-/// <summary>
-/// Typed login/gate payload factories. No serializer calls live here: handlers pass these DTOs to ReturnAsync/NotifyAsync.
-/// </summary>
 internal static class LoginCodec
 {
     internal static LoginMethods.PatchCheckResult PatchCheck()
-        // NOTE (2026-09-09): advertising patchVersion=1 loops the client
-        // (it polls RequestPatchesCheckDataFromLogin until patch DATA arrives
-        // via RequestPatchesFromLogin, whose payload format is still unknown).
-        // Keep 0 until the real patch-data response is reverse-engineered.
+        
+        
+        
+        
         => new();
 
     internal static LoginMethods.CheckAccountResult CheckAccount()
     {
         var deviceId = Convert.ToHexString(MD5.HashData(Encoding.UTF8.GetBytes(Profile.AccountId)));
-        // Do not use an anonymous object here for device-id aliases.
-        // System.Text.Json treats property names case-insensitively while building
-        // anonymous-type metadata, so having both `deviceid` and `deviceId` makes
-        // CheckAccount throw before a response body can be serialized.
-        // A dictionary keeps the exact wire keys and avoids that collision.
+        
+        
+        
+        
+        
         var loginJson = JsonSerializer.Serialize(new Dictionary<string, object?>
         {
             ["deviceid"] = deviceId,

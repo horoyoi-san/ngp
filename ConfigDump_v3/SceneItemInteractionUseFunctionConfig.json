@@ -1,0 +1,252 @@
+{
+  "_class": "SceneItemInteractionUseFunctionConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 22,
+  "records": [
+    {
+      "Id": 1,
+      "Name": "技能",
+      "FunctionType": 1,
+      "ShowPCKeyTips": false,
+      "PCKeyTipsText": -1,
+      "MobileIcon": 0,
+      "ButtonHightLight": false,
+      "ChangeTakeItemModeId": 0,
+      "ReplaceUseFunctionId": 0
+    },
+    {
+      "Id": 2,
+      "Name": "喝饮料",
+      "FunctionType": 2,
+      "ShowPCKeyTips": true,
+      "PCKeyTipsText": -1,
+      "MobileIcon": 28000894,
+      "ButtonHightLight": false,
+      "ChangeTakeItemModeId": 0,
+      "ReplaceUseFunctionId": 0
+    },
+    {
+      "Id": 3,
+      "Name": "电话",
+      "FunctionType": 2,
+      "ShowPCKeyTips": false,
+      "PCKeyTipsText": -1,
+      "MobileIcon": 0,
+      "ButtonHightLight": false,
+      "ChangeTakeItemModeId": 0,
+      "ReplaceUseFunctionId": 0
+    },
+    {
+      "Id": 4,
+      "Name": "打招呼",
+      "FunctionType": 2,
+      "ShowPCKeyTips": false,
+      "PCKeyTipsText": -1,
+      "MobileIcon": 0,
+      "ButtonHightLight": false,
+      "ChangeTakeItemModeId": 0,
+      "ReplaceUseFunctionId": 0
+    },
+    {
+      "Id": 5,
+      "Name": "拍摄载具",
+      "FunctionType": 2,
+      "ShowPCKeyTips": false,
+      "PCKeyTipsText": -1,
+      "MobileIcon": 0,
+      "ButtonHightLight": false,
+      "ChangeTakeItemModeId": 0,
+      "ReplaceUseFunctionId": 0
+    },
+    {
+      "Id": 6,
+      "Name": "摊手",
+      "FunctionType": 2,
+      "ShowPCKeyTips": false,
+      "PCKeyTipsText": -1,
+      "MobileIcon": 28022147,
+      "ButtonHightLight": false,
+      "ChangeTakeItemModeId": 0,
+      "ReplaceUseFunctionId": 0
+    },
+    {
+      "Id": 7,
+      "Name": "滑滑板",
+      "FunctionType": 2,
+      "ShowPCKeyTips": true,
+      "PCKeyTipsText": -1,
+      "MobileIcon": 28000894,
+      "ButtonHightLight": false,
+      "ChangeTakeItemModeId": 0,
+      "ReplaceUseFunctionId": 0
+    },
+    {
+      "Id": 8,
+      "Name": "放下",
+      "FunctionType": 4,
+      "ShowPCKeyTips": true,
+      "PCKeyTipsText": -1,
+      "MobileIcon": 28000894,
+      "ButtonHightLight": false,
+      "ChangeTakeItemModeId": 0,
+      "ReplaceUseFunctionId": 0
+    },
+    {
+      "Id": 9,
+      "Name": "收起",
+      "FunctionType": 4,
+      "ShowPCKeyTips": true,
+      "PCKeyTipsText": -1,
+      "MobileIcon": 28000894,
+      "ButtonHightLight": false,
+      "ChangeTakeItemModeId": 0,
+      "ReplaceUseFunctionId": 0
+    },
+    {
+      "Id": 10,
+      "Name": "松开",
+      "FunctionType": 4,
+      "ShowPCKeyTips": true,
+      "PCKeyTipsText": -1,
+      "MobileIcon": 28000894,
+      "ButtonHightLight": false,
+      "ChangeTakeItemModeId": 0,
+      "ReplaceUseFunctionId": 0
+    },
+    {
+      "Id": 11,
+      "Name": "发传单",
+      "FunctionType": 2,
+      "ShowPCKeyTips": true,
+      "PCKeyTipsText": -1,
+      "MobileIcon": 28000894,
+      "ButtonHightLight": false,
+      "ChangeTakeItemModeId": 0,
+      "ReplaceUseFunctionId": 0
+    },
+    {
+      "Id": 12,
+      "Name": "任务滑滑板",
+      "FunctionType": 2,
+      "ShowPCKeyTips": true,
+      "PCKeyTipsText": -1,
+      "MobileIcon": 28000894,
+      "ButtonHightLight": false,
+      "ChangeTakeItemModeId": 0,
+      "ReplaceUseFunctionId": 0
+    },
+    {
+      "Id": 13,
+      "Name": "进战徒手自动切武器",
+      "FunctionType": 6,
+      "ShowPCKeyTips": false,
+      "PCKeyTipsText": -1,
+      "MobileIcon": 0,
+      "ButtonHightLight": false,
+      "ChangeTakeItemModeId": 0,
+      "ReplaceUseFunctionId": 0
+    },
+    {
+      "Id": 1000,
+      "Name": "待机时放下",
+      "FunctionType": 2,
+      "ShowPCKeyTips": true,
+      "PCKeyTipsText": 661,
+      "MobileIcon": 0,
+      "ButtonHightLight": false,
+      "ChangeTakeItemModeId": 0,
+      "ReplaceUseFunctionId": 0
+    },
+    {
+      "Id": 1001,
+      "Name": "移动丢下",
+      "FunctionType": 2,
+      "ShowPCKeyTips": true,
+      "PCKeyTipsText": 661,
+      "MobileIcon": 0,
+      "ButtonHightLight": false,
+      "ChangeTakeItemModeId": 0,
+      "ReplaceUseFunctionId": 0
+    },
+    {
+      "Id": 1002,
+      "Name": "技能投掷",
+      "FunctionType": 1,
+      "ShowPCKeyTips": true,
+      "PCKeyTipsText": 176,
+      "MobileIcon": 0,
+      "ButtonHightLight": false,
+      "ChangeTakeItemModeId": 0,
+      "ReplaceUseFunctionId": 0
+    },
+    {
+      "Id": 1003,
+      "Name": "定点投掷",
+      "FunctionType": 2,
+      "ShowPCKeyTips": true,
+      "PCKeyTipsText": 176,
+      "MobileIcon": 28000893,
+      "ButtonHightLight": true,
+      "ChangeTakeItemModeId": 0,
+      "ReplaceUseFunctionId": 0
+    },
+    {
+      "Id": 2001,
+      "Name": "远程武器格挡",
+      "FunctionType": 1,
+      "ShowPCKeyTips": true,
+      "PCKeyTipsText": -1,
+      "MobileIcon": 28000923,
+      "ButtonHightLight": false,
+      "ChangeTakeItemModeId": 0,
+      "ReplaceUseFunctionId": 0
+    },
+    {
+      "Id": 3001,
+      "Name": "远程武器射击系统",
+      "FunctionType": 3,
+      "ShowPCKeyTips": false,
+      "PCKeyTipsText": -1,
+      "MobileIcon": 0,
+      "ButtonHightLight": false,
+      "ChangeTakeItemModeId": 0,
+      "ReplaceUseFunctionId": 0
+    },
+    {
+      "Id": 3002,
+      "Name": "投掷物系统",
+      "FunctionType": 7,
+      "ShowPCKeyTips": false,
+      "PCKeyTipsText": -1,
+      "MobileIcon": 0,
+      "ButtonHightLight": false,
+      "ChangeTakeItemModeId": 0,
+      "ReplaceUseFunctionId": 0
+    },
+    {
+      "Id": 4001,
+      "Name": "手电筒打开高档位",
+      "FunctionType": 5,
+      "ShowPCKeyTips": false,
+      "PCKeyTipsText": -1,
+      "MobileIcon": 0,
+      "ButtonHightLight": false,
+      "ChangeTakeItemModeId": 1,
+      "ReplaceUseFunctionId": 4002
+    },
+    {
+      "Id": 4002,
+      "Name": "手电筒关闭高档位",
+      "FunctionType": 5,
+      "ShowPCKeyTips": false,
+      "PCKeyTipsText": -1,
+      "MobileIcon": 0,
+      "ButtonHightLight": false,
+      "ChangeTakeItemModeId": 0,
+      "ReplaceUseFunctionId": 4001
+    }
+  ],
+  "_dumpedCount": 22,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -1,0 +1,49 @@
+{
+  "_class": "MapentrancePeriodPersonShowConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 3,
+  "records": [
+    {
+      "Id": 1,
+      "PeriodDesc": 2,
+      "StartTime": [
+        22,
+        0
+      ],
+      "EndTime": [
+        5,
+        59
+      ],
+      "ShowNum": 1
+    },
+    {
+      "Id": 2,
+      "PeriodDesc": 0,
+      "StartTime": [
+        7,
+        0
+      ],
+      "EndTime": [
+        9,
+        29
+      ],
+      "ShowNum": 10
+    },
+    {
+      "Id": 3,
+      "PeriodDesc": 1,
+      "StartTime": [
+        17,
+        0
+      ],
+      "EndTime": [
+        19,
+        29
+      ],
+      "ShowNum": 10
+    }
+  ],
+  "_dumpedCount": 3,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

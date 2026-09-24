@@ -1,0 +1,55 @@
+{
+  "_class": "ABPBallConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 9,
+  "records": [
+    {
+      "Id": 1,
+      "CodeName": "FB_Stoppage",
+      "RequireZones": 136
+    },
+    {
+      "Id": 2,
+      "CodeName": "FB_Passing",
+      "RequireZones": 136
+    },
+    {
+      "Id": 3,
+      "CodeName": "FB_Shot",
+      "RequireZones": 136
+    },
+    {
+      "Id": 4,
+      "CodeName": "FB_Dribble",
+      "RequireZones": 136
+    },
+    {
+      "Id": 5,
+      "CodeName": "FB_Flick",
+      "RequireZones": 136
+    },
+    {
+      "Id": 6,
+      "CodeName": "Basket_PickUp",
+      "RequireZones": 35
+    },
+    {
+      "Id": 7,
+      "CodeName": "Basket_Rebound",
+      "RequireZones": 301
+    },
+    {
+      "Id": 8,
+      "CodeName": "Basket_Block",
+      "RequireZones": 305
+    },
+    {
+      "Id": 9,
+      "CodeName": "Basket_Ckeckball",
+      "RequireZones": 35
+    }
+  ],
+  "_dumpedCount": 9,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

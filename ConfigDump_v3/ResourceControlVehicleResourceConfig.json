@@ -1,0 +1,70 @@
+{
+  "_class": "ResourceControlVehicleResourceConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 4,
+  "records": [
+    {
+      "Id": 30370000,
+      "VehicleName": "摩托车",
+      "VehicleId": [],
+      "ModelResource": "",
+      "PrefabResource": "CatMotorcycle_Test.prefab",
+      "BuycarTextureResource": "",
+      "CallcarTextureResource": "",
+      "CapacityResource": "Motorcycle_Test.asset",
+      "ResourceStartVersion": "V0.10.0",
+      "ResourceTagList": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "Id": 30370001,
+      "VehicleName": "飞机带探照灯",
+      "VehicleId": [],
+      "ModelResource": "",
+      "PrefabResource": "Helicopter/Helicopter_Light.prefab",
+      "BuycarTextureResource": "",
+      "CallcarTextureResource": "",
+      "CapacityResource": "plane",
+      "ResourceStartVersion": "V0.10.0",
+      "ResourceTagList": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "Id": 30370002,
+      "VehicleName": "载具策划给定资源",
+      "VehicleId": [],
+      "ModelResource": "Drive_car/racing;Drive_car/motor;Drive_car/armoured",
+      "PrefabResource": "Sport04a.prefab;Sport05a.prefab;Sport05a_Test.prefab;Super01a.prefab;Super01a_temp.prefab;Test_Toilet.prefab;CatMotorcycle_Test.prefab",
+      "BuycarTextureResource": "",
+      "CallcarTextureResource": "",
+      "CapacityResource": "",
+      "ResourceStartVersion": "",
+      "ResourceTagList": [
+        0
+      ]
+    },
+    {
+      "Id": 30370003,
+      "VehicleName": "载具策划给定资源（有剔除）",
+      "VehicleId": [],
+      "ModelResource": ".*Drive_car/fbx/(?!(.*paoche01a|.*paoche02a));.*Drive_car/prefab/(?!(.*paoche01a|.*paoche02a));",
+      "PrefabResource": "",
+      "BuycarTextureResource": "",
+      "CallcarTextureResource": "",
+      "CapacityResource": "",
+      "ResourceStartVersion": "",
+      "ResourceTagList": [
+        0
+      ]
+    }
+  ],
+  "_dumpedCount": 4,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}

@@ -1,0 +1,27 @@
+{
+  "_class": "RacingDriverCompetitionConfig",
+  "_namespace": "LT.ConfigGen",
+  "_expectedCount": 2,
+  "records": [
+    {
+      "Id": 1,
+      "Category": "C级赛",
+      "ContestGroup": [
+        1,
+        2
+      ],
+      "Description": "测试用的文本，C级联赛"
+    },
+    {
+      "Id": 2,
+      "Category": "B级赛",
+      "ContestGroup": [
+        3
+      ],
+      "Description": "测试用的文本，B级联赛"
+    }
+  ],
+  "_dumpedCount": 2,
+  "_loadFailures": 0,
+  "_serializationErrors": 0
+}
