@@ -1,4 +1,4 @@
-@echo off
+echo off
 setlocal EnableExtensions
 cd /d "%~dp0"
 
@@ -11,11 +11,11 @@ if not defined APPDATA set "APPDATA=%USERPROFILE%\AppData\Roaming"
 set "NUGET_PACKAGES=%USERPROFILE%\.nuget\packages"
 
 echo [1/2] restore ...
-dotnet restore "%~dp0Drmk.Server\Drmk.App\Drmk.App.csproj" --nologo
+dotnet restore "%~dp0Ananta.Server\Ananta.App\Ananta.App.csproj" --nologo
 if errorlevel 1 goto :fail
 
 echo [2/2] build ...
-dotnet build "%~dp0Drmk.Server\Drmk.App\Drmk.App.csproj" --no-restore -v q --nologo
+dotnet build "%~dp0Ananta.Server\Ananta.App\Ananta.App.csproj" --no-restore -v q --nologo
 if errorlevel 1 goto :fail
 
 echo [OK] build succeeded
