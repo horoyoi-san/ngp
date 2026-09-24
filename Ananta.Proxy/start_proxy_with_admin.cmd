@@ -1,7 +1,7 @@
 @echo off
 setlocal EnableExtensions
 cd /d "%~dp0"
-title DRMK 4229938 Proxy Setup
+title Ananta 4229938 Proxy Setup
 
 net session >nul 2>&1
 if errorlevel 1 (
