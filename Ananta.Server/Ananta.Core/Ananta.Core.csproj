@@ -5,8 +5,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Drmk.SDK\Drmk.SDK.csproj" />
-    <ProjectReference Include="..\Drmk.RpcTypes\Drmk.RpcTypes.csproj" />
+    <ProjectReference Include="..\..\Ananta.SDK\Ananta.SDK.csproj" />
+    <ProjectReference Include="..\Ananta.RpcTypes\Ananta.RpcTypes.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.12" />

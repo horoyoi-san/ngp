@@ -64,7 +64,7 @@ $ports = @(
 New-Item -ItemType Directory -Force -Path (Join-Path $ProxyDir 'logs') | Out-Null
 Set-Location $ProxyDir
 
-Write-Host "Starting drmk-ps proxy with: $NodeExe"
+Write-Host "Starting Ananta-ps proxy with: $NodeExe"
 Write-Host ("Config: {0}" -f $ConfigPath)
 Write-Host ("Ports: {0}" -f (($ports | Sort-Object) -join ', '))
 & $NodeExe 'server.js'
