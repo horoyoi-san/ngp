@@ -1,4 +1,4 @@
-นี่คือเวอร์ชั่นที่ยังไม่ได้รับคุณภาพของเกม Ananta GAY | Horoyoi san — client 4229938
+นี่คือเวอร์ชั่น DEV ที่ยังไม่ได้รับคุณภาพของเกม Ananta GAY | Horoyoi san — client 4229938
 
 启动：
   1. 安装 Node.js LTS 与 .NET 8 SDK。
@@ -13,7 +13,7 @@ runtime 保留的能力：
   - 常规 console / packet / proxy 日志。
 
 FastPatch：
-  - 把 development / confidential 签名替换为「นี่คือเวอร์ชั่นที่ยังไม่ได้รับคุณภาพของเกม Ananta GAY | Horoyoi san」；
+  - 把 development / confidential 签名替换为「นี่คือเวอร์ชั่น DEV ที่ยังไม่ได้รับคุณภาพของเกม Ananta GAY | Horoyoi san」；
   - 隐藏版本不匹配提示；
   - 不替换 gameplay Lua。
 

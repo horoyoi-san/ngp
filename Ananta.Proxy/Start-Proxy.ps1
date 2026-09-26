@@ -51,20 +51,3 @@ Write-Host "Starting Ananta-ps proxy with: $NodeExe"
 Write-Host ("Config: {0}" -f $ConfigPath)
 Write-Host ("Ports: {0}" -f (($ports | Sort-Object) -join ', '))
 & $NodeExe 'server.js'
-
-$ports = @(
-    [int]$Config.network.proxy.httpPort,
-    [int]$Config.network.proxy.httpsPort,
-    [int]$Config.network.proxy.loginListPort,
-    [int]$Config.network.proxy.loginTcpPort,
-    [int]$Config.network.proxy.gameTcpPort,
-    [int]$Config.network.proxy.sceneSubPort
-) | Select-Object -Unique
-
-New-Item -ItemType Directory -Force -Path (Join-Path $ProxyDir 'logs') | Out-Null
-Set-Location $ProxyDir
-
-Write-Host "Starting Ananta-ps proxy with: $NodeExe"
-Write-Host ("Config: {0}" -f $ConfigPath)
-Write-Host ("Ports: {0}" -f (($ports | Sort-Object) -join ', '))
-& $NodeExe 'server.js'

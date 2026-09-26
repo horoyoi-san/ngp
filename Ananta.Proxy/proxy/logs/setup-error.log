@@ -1,0 +1,9 @@
+﻿Set-Content : Stream was not readable.
+At C:\Users\Horoyoi-san\Downloads\PrivateServer1\Ananta.Proxy\SETUP_PROXY_AS_ADMIN.ps1:197 char:5
++     Set-Content -LiteralPath $HostsPath -Value $out -Encoding ASCII
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (C:\WINDOWS\System32\drivers\etc\hosts:String) [Set-Content], ArgumentE 
+   xception
+    + FullyQualifiedErrorId : GetContentWriterArgumentError,Microsoft.PowerShell.Commands.SetContentCommand
+ 
+
