@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ananta.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c503241bad7d96e8447ff9ed1b4070287dbfd2e3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba823f11d7651258b63b8dda474b867337775506")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ananta.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ananta.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,31 @@
+[START] launching standalone bootstrap...
+[LOGS] console=D:\Github\ngp\logs\console-latest.log | packets=D:\Github\ngp\logs\packets-latest.log
+[BUILD] Ananta Private Server | client 4229938 | world-entry + switching + buffs/combat
+[CONFIG] D:\Github\ngp\config\private-server.json
+[CONFIG] pid=67 spirit=15020967 raid=23300888
+[NODE] exact Lua serializer dependency OK (fengari)
+[1/3] fastpatch + startup checks
+[2/3] build (clean)
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+Time Elapsed 00:00:35.12
+[2.5/3] audit polymorphic typemarks
+  [WARN] tools/audit_polymorphic.py 不存在，跳过审计
+[3/3] start
+[OK] one console | Ctrl+C stops the stack
+[account] 使用账号 default uid=aibgr4rznwj5r6zg pid=666
+[04:31:34] [PX] listening on https://0.0.0.0:443 for l50.update.netease.com and UniSDK capture hosts
+[04:31:34] [PX] listening on http://0.0.0.0:80 for UniSDK capture hosts
+[04:31:34] [PX] listening on http://127.0.0.1:5801/LoginList
+[04:31:34] [PX] listening on tcp://0.0.0.0:5803 for login handshake capture; advertising 127.0.0.1, 192.168.1.109
+[04:31:34] [PX] listening on tcp://0.0.0.0:5804 for game-server handshake capture (Phase 1)
+[04:31:34] [PX] listening on tcp://0.0.0.0:8013 for GameScene compatibility sub-server
+[ROUTER] game 注册 189 个处理器 | 骇入自检: AskHackingNpcPress=True AskHackingNpc=True AskFinishHackingKeyFrame=True AskHack=True | EnableHack=True 电池=6/6
+[ROUTER] 社交自检: AskMomentsPostSimpleInfos=True AskMomentsPostInfos=True AskMomentsMarkRead=True AskMomentsLikePost=True AskMomentsSendCommentWithId=True AskMomentsUnreadMessage=True AskServerGraffitoUrl=True | enabled=True graffito='http://127.0.0.1:5809'
+[DEBUG-API] panel+api on http://127.0.0.1:5809/
+[READY] นี่คือเวอร์ชั่น DEV ที่ยังไม่ได้รับคุณภาพของเกม Ananta GAY | Horoyoi san | client=4229938 | pid=666 | login=127.0.0.1:5200,5201 | game=:5202
+[Debug Panel] http://127.0.0.1:5809/
+[04:31:40] [L0]   listening at 0.0.0.0:5200
+[04:31:40] [L1]   listening at 0.0.0.0:5201
+[04:31:40] [G]   listening at 0.0.0.0:5202
